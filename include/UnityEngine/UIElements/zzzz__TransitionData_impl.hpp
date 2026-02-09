@@ -9,157 +9,182 @@
 #include "UnityEngine/UIElements/zzzz__StylePropertyName_def.hpp"
 #include "UnityEngine/UIElements/zzzz__TimeValue_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::TransitionData.Copy
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::TransitionData (::UnityEngine::UIElements::TransitionData::*)()>(
-    &::UnityEngine::UIElements::TransitionData::Copy)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::TransitionData (::UnityEngine::UIElements::TransitionData::*)()>(&::UnityEngine::UIElements::TransitionData::Copy)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x6ac4048;
+  constexpr static std::size_t addrs = 0x6ac4708;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TransitionData>::get(), "Copy",
-                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TransitionData>::get(),
+                        "Copy",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::TransitionData.CopyFrom
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::TransitionData::*)(::ByRef<::UnityEngine::UIElements::TransitionData>)>(
-    &::UnityEngine::UIElements::TransitionData::CopyFrom)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::TransitionData::*)(::ByRef<::UnityEngine::UIElements::TransitionData>)>(&::UnityEngine::UIElements::TransitionData::CopyFrom)> {
   constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x6ac4190;
+  constexpr static std::size_t addrs = 0x6ac4850;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TransitionData>::get(), "CopyFrom", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::UIElements::TransitionData>>::get() })));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TransitionData>::get(),
+                        "CopyFrom",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::UIElements::TransitionData>>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::TransitionData.op_Equality
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::UIElements::TransitionData, ::UnityEngine::UIElements::TransitionData)>(
-    &::UnityEngine::UIElements::TransitionData::op_Equality)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::UIElements::TransitionData, ::UnityEngine::UIElements::TransitionData)>(&::UnityEngine::UIElements::TransitionData::op_Equality)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6ac4364;
+  constexpr static std::size_t addrs = 0x6ac4a24;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TransitionData>::get(), "op_Equality", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::TransitionData>::get(),
-                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::TransitionData>::get() })));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TransitionData>::get(),
+                        "op_Equality",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::TransitionData>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::TransitionData>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::TransitionData.Equals
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::TransitionData::*)(::UnityEngine::UIElements::TransitionData)>(
-    &::UnityEngine::UIElements::TransitionData::Equals)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::TransitionData::*)(::UnityEngine::UIElements::TransitionData)>(&::UnityEngine::UIElements::TransitionData::Equals)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x6ac43b0;
+  constexpr static std::size_t addrs = 0x6ac4a70;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TransitionData>::get(), "Equals", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::TransitionData>::get() })));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TransitionData>::get(),
+                        "Equals",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::TransitionData>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::TransitionData.Equals
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::TransitionData::*)(::System::Object*)>(
-    &::UnityEngine::UIElements::TransitionData::Equals)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::TransitionData::*)(::System::Object*)>(&::UnityEngine::UIElements::TransitionData::Equals)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x6ac43fc;
+  constexpr static std::size_t addrs = 0x6ac4abc;
 
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TransitionData>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TransitionData>::get(), 0));
+  inline static const ::MethodInfo* methodInfo() {
+    
+                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TransitionData>::get(),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TransitionData>::get(),
+                                  0
+                                ));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::TransitionData.GetHashCode
-template <>
+template<>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::TransitionData::*)()>(&::UnityEngine::UIElements::TransitionData::GetHashCode)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x6ac44ac;
+  constexpr static std::size_t addrs = 0x6ac4b6c;
 
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TransitionData>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TransitionData>::get(), 2));
+  inline static const ::MethodInfo* methodInfo() {
+    
+                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TransitionData>::get(),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TransitionData>::get(),
+                                  2
+                                ));
     return ___internal_method;
   }
 };
-inline ::UnityEngine::UIElements::TransitionData UnityEngine::UIElements::TransitionData::Copy() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TransitionData>::get(), "Copy",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::TransitionData, false>(this, ___internal_method);
+inline ::UnityEngine::UIElements::TransitionData UnityEngine::UIElements::TransitionData::Copy()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TransitionData>::get(),
+                        "Copy",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::TransitionData, false>(this, ___internal_method);
 }
-inline void UnityEngine::UIElements::TransitionData::CopyFrom(::ByRef<::UnityEngine::UIElements::TransitionData> other) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TransitionData>::get(), "CopyFrom", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::UIElements::TransitionData>>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, other);
+inline void UnityEngine::UIElements::TransitionData::CopyFrom(::ByRef<::UnityEngine::UIElements::TransitionData>  other)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TransitionData>::get(),
+                        "CopyFrom",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::UIElements::TransitionData>>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, other);
 }
-inline bool UnityEngine::UIElements::TransitionData::op_Equality(::UnityEngine::UIElements::TransitionData lhs, ::UnityEngine::UIElements::TransitionData rhs) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TransitionData>::get(), "op_Equality", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::TransitionData>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::TransitionData>::get() })));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, lhs, rhs);
+inline bool UnityEngine::UIElements::TransitionData::op_Equality(::UnityEngine::UIElements::TransitionData  lhs, ::UnityEngine::UIElements::TransitionData  rhs)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TransitionData>::get(),
+                        "op_Equality",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::TransitionData>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::TransitionData>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, lhs, rhs);
 }
-inline bool UnityEngine::UIElements::TransitionData::Equals(::UnityEngine::UIElements::TransitionData other) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TransitionData>::get(), "Equals", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::TransitionData>::get() })));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, other);
+inline bool UnityEngine::UIElements::TransitionData::Equals(::UnityEngine::UIElements::TransitionData  other)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TransitionData>::get(),
+                        "Equals",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::TransitionData>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, other);
 }
-inline bool UnityEngine::UIElements::TransitionData::Equals(::System::Object* obj) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TransitionData>::get(), 0)));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, obj);
+inline bool UnityEngine::UIElements::TransitionData::Equals(::System::Object*  obj)  {
+auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TransitionData>::get(),
+                            0
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, obj);
 }
-inline int32_t UnityEngine::UIElements::TransitionData::GetHashCode() {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TransitionData>::get(), 2)));
-  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+inline int32_t UnityEngine::UIElements::TransitionData::GetHashCode()  {
+auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TransitionData>::get(),
+                            2
+                        )));
+return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
 /// @brief Convert operator to "::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::TransitionData>"
-constexpr UnityEngine::UIElements::TransitionData::operator ::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::TransitionData>*() {
-  return static_cast<::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::TransitionData>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+constexpr  UnityEngine::UIElements::TransitionData::operator ::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::TransitionData>*()  {
+return static_cast<::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::TransitionData>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::TransitionData>"
-constexpr ::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::TransitionData>*
-UnityEngine::UIElements::TransitionData::i___UnityEngine__UIElements__IStyleDataGroup_1___UnityEngine__UIElements__TransitionData_() {
-  return static_cast<::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::TransitionData>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+constexpr ::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::TransitionData>* UnityEngine::UIElements::TransitionData::i___UnityEngine__UIElements__IStyleDataGroup_1___UnityEngine__UIElements__TransitionData_()  {
+return static_cast<::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::TransitionData>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::TransitionData>"
-constexpr UnityEngine::UIElements::TransitionData::operator ::System::IEquatable_1<::UnityEngine::UIElements::TransitionData>*() {
-  return static_cast<::System::IEquatable_1<::UnityEngine::UIElements::TransitionData>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+constexpr  UnityEngine::UIElements::TransitionData::operator ::System::IEquatable_1<::UnityEngine::UIElements::TransitionData>*()  {
+return static_cast<::System::IEquatable_1<::UnityEngine::UIElements::TransitionData>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::TransitionData>"
-constexpr ::System::IEquatable_1<::UnityEngine::UIElements::TransitionData>* UnityEngine::UIElements::TransitionData::i___System__IEquatable_1___UnityEngine__UIElements__TransitionData_() {
-  return static_cast<::System::IEquatable_1<::UnityEngine::UIElements::TransitionData>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+constexpr ::System::IEquatable_1<::UnityEngine::UIElements::TransitionData>* UnityEngine::UIElements::TransitionData::i___System__IEquatable_1___UnityEngine__UIElements__TransitionData_()  {
+return static_cast<::System::IEquatable_1<::UnityEngine::UIElements::TransitionData>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
-// Ctor Parameters [CppParam { name: "transitionDelay", ty: "::System::Collections::Generic::List_1<::UnityEngine::UIElements::TimeValue>*", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "transitionDuration", ty: "::System::Collections::Generic::List_1<::UnityEngine::UIElements::TimeValue>*", modifiers: "", def_value: Some("{}") }, CppParam { name: "transitionProperty", ty:
-// "::System::Collections::Generic::List_1<::UnityEngine::UIElements::StylePropertyName>*", modifiers: "", def_value: Some("{}") }, CppParam { name: "transitionTimingFunction", ty:
-// "::System::Collections::Generic::List_1<::UnityEngine::UIElements::EasingFunction>*", modifiers: "", def_value: Some("{}") }]
-constexpr ::UnityEngine::UIElements::TransitionData::TransitionData(::System::Collections::Generic::List_1<::UnityEngine::UIElements::TimeValue>* transitionDelay,
-                                                                    ::System::Collections::Generic::List_1<::UnityEngine::UIElements::TimeValue>* transitionDuration,
-                                                                    ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StylePropertyName>* transitionProperty,
-                                                                    ::System::Collections::Generic::List_1<::UnityEngine::UIElements::EasingFunction>* transitionTimingFunction) noexcept {
-  this->transitionDelay = transitionDelay;
-  this->transitionDuration = transitionDuration;
-  this->transitionProperty = transitionProperty;
-  this->transitionTimingFunction = transitionTimingFunction;
+// Ctor Parameters [CppParam { name: "transitionDelay", ty: "::System::Collections::Generic::List_1<::UnityEngine::UIElements::TimeValue>*", modifiers: "", def_value: Some("{}") }, CppParam { name: "transitionDuration", ty: "::System::Collections::Generic::List_1<::UnityEngine::UIElements::TimeValue>*", modifiers: "", def_value: Some("{}") }, CppParam { name: "transitionProperty", ty: "::System::Collections::Generic::List_1<::UnityEngine::UIElements::StylePropertyName>*", modifiers: "", def_value: Some("{}") }, CppParam { name: "transitionTimingFunction", ty: "::System::Collections::Generic::List_1<::UnityEngine::UIElements::EasingFunction>*", modifiers: "", def_value: Some("{}") }]
+constexpr ::UnityEngine::UIElements::TransitionData::TransitionData(::System::Collections::Generic::List_1<::UnityEngine::UIElements::TimeValue>*  transitionDelay, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::TimeValue>*  transitionDuration, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StylePropertyName>*  transitionProperty, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::EasingFunction>*  transitionTimingFunction) noexcept  {
+this->transitionDelay = transitionDelay;
+this->transitionDuration = transitionDuration;
+this->transitionProperty = transitionProperty;
+this->transitionTimingFunction = transitionTimingFunction;
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::UIElements::TransitionData::TransitionData() {}
+constexpr ::UnityEngine::UIElements::TransitionData::TransitionData()   {
+}

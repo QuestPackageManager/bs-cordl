@@ -8,437 +8,487 @@
 #include "System/zzzz__Type_def.hpp"
 #include "UnityEngine/ResourceManagement/ResourceLocations/zzzz__IResourceLocation_def.hpp"
 //  Writing Method size for method: ::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase.get_InternalId
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::*)()>(
-    &::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::get_InternalId)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::*)()>(&::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::get_InternalId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x676b540;
+  constexpr static std::size_t addrs = 0x676bc00;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase*>::get(),
-                                                 "get_InternalId", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase*>::get(),
+                        "get_InternalId",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase.get_ProviderId
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::*)()>(
-    &::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::get_ProviderId)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::*)()>(&::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::get_ProviderId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x676b548;
+  constexpr static std::size_t addrs = 0x676bc08;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase*>::get(),
-                                                 "get_ProviderId", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase*>::get(),
+                        "get_ProviderId",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase.get_Dependencies
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* (
-    ::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::*)()>(&::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::get_Dependencies)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* (::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::*)()>(&::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::get_Dependencies)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x676b550;
+  constexpr static std::size_t addrs = 0x676bc10;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase*>::get(),
-                                                 "get_Dependencies", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase*>::get(),
+                        "get_Dependencies",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase.get_HasDependencies
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::*)()>(
-    &::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::get_HasDependencies)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::*)()>(&::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::get_HasDependencies)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x676b558;
+  constexpr static std::size_t addrs = 0x676bc18;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase*>::get(),
-                                                 "get_HasDependencies", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase*>::get(),
+                        "get_HasDependencies",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase.get_Data
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::*)()>(
-    &::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::get_Data)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::*)()>(&::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::get_Data)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x676b5b4;
+  constexpr static std::size_t addrs = 0x676bc74;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase*>::get(), "get_Data",
-                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase*>::get(),
+                        "get_Data",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase.set_Data
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::*)(::System::Object*)>(
-    &::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::set_Data)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::*)(::System::Object*)>(&::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::set_Data)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x676b5bc;
+  constexpr static std::size_t addrs = 0x676bc7c;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase*>::get(), "set_Data",
-                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase*>::get(),
+                        "set_Data",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase.get_PrimaryKey
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::*)()>(
-    &::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::get_PrimaryKey)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::*)()>(&::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::get_PrimaryKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x676b5c4;
+  constexpr static std::size_t addrs = 0x676bc84;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase*>::get(),
-                                                 "get_PrimaryKey", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase*>::get(),
+                        "get_PrimaryKey",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase.set_PrimaryKey
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::*)(::StringW)>(
-    &::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::set_PrimaryKey)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::*)(::StringW)>(&::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::set_PrimaryKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x676b5cc;
+  constexpr static std::size_t addrs = 0x676bc8c;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase*>::get(), "set_PrimaryKey",
-                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase*>::get(),
+                        "set_PrimaryKey",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase.get_DependencyHashCode
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::*)()>(
-    &::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::get_DependencyHashCode)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::*)()>(&::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::get_DependencyHashCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x676b5d4;
+  constexpr static std::size_t addrs = 0x676bc94;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase*>::get(),
-                                                 "get_DependencyHashCode", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase*>::get(),
+                        "get_DependencyHashCode",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase.get_ResourceType
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::*)()>(
-    &::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::get_ResourceType)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::*)()>(&::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::get_ResourceType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x676b5dc;
+  constexpr static std::size_t addrs = 0x676bc9c;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase*>::get(),
-                                                 "get_ResourceType", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase*>::get(),
+                        "get_ResourceType",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase.Hash
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::*)(::System::Type*)>(
-    &::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::Hash)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::*)(::System::Type*)>(&::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::Hash)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x676b5e4;
+  constexpr static std::size_t addrs = 0x676bca4;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase*>::get(), "Hash",
-                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase*>::get(),
+                        "Hash",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase.ToString
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::*)()>(
-    &::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::ToString)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::*)()>(&::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::ToString)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x676b630;
+  constexpr static std::size_t addrs = 0x676bcf0;
 
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase*>::get(), 3));
+  inline static const ::MethodInfo* methodInfo() {
+    
+                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase*>::get(),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase*>::get(),
+                                  3
+                                ));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase._ctor
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::*)(
-    ::StringW, ::StringW, ::StringW, ::System::Type*,
-    ::ArrayW<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, ::Array<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*>)>(
-    &::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::*)(::StringW, ::StringW, ::StringW, ::System::Type*, ::ArrayW<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*,::Array<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*>)>(&::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::_ctor)> {
   constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x676b638;
+  constexpr static std::size_t addrs = 0x676bcf8;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 5>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                ::ArrayW<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, ::Array<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*>>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 5>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*,::Array<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*>>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase.ComputeDependencyHash
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::*)()>(
-    &::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::ComputeDependencyHash)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::*)()>(&::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::ComputeDependencyHash)> {
   constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x676b810;
+  constexpr static std::size_t addrs = 0x676bed0;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase*>::get(),
-                                                 "ComputeDependencyHash", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase*>::get(),
+                        "ComputeDependencyHash",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
-constexpr ::StringW& UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::__cordl_internal_get_m_Name() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_Name;
+constexpr ::StringW& UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::__cordl_internal_get_m_Name()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_Name;
 }
 constexpr ::StringW const& UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::__cordl_internal_get_m_Name() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_Name;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_Name;
 }
-constexpr void UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::__cordl_internal_set_m_Name(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Name)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::__cordl_internal_set_m_Name(::StringW  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Name)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::StringW& UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::__cordl_internal_get_m_Id() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_Id;
+constexpr ::StringW& UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::__cordl_internal_get_m_Id()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_Id;
 }
 constexpr ::StringW const& UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::__cordl_internal_get_m_Id() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_Id;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_Id;
 }
-constexpr void UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::__cordl_internal_set_m_Id(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Id)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::__cordl_internal_set_m_Id(::StringW  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Id)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::StringW& UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::__cordl_internal_get_m_ProviderId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_ProviderId;
+constexpr ::StringW& UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::__cordl_internal_get_m_ProviderId()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_ProviderId;
 }
 constexpr ::StringW const& UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::__cordl_internal_get_m_ProviderId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_ProviderId;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_ProviderId;
 }
-constexpr void UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::__cordl_internal_set_m_ProviderId(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_ProviderId)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::__cordl_internal_set_m_ProviderId(::StringW  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_ProviderId)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Object*& UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::__cordl_internal_get_m_Data() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_Data;
+constexpr ::System::Object*& UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::__cordl_internal_get_m_Data()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_Data;
 }
 constexpr ::System::Object* const& UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::__cordl_internal_get_m_Data() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_Data;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_Data;
 }
-constexpr void UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::__cordl_internal_set_m_Data(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Data)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::__cordl_internal_set_m_Data(::System::Object*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Data)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr int32_t& UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::__cordl_internal_get_m_DependencyHashCode() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_DependencyHashCode;
+constexpr int32_t& UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::__cordl_internal_get_m_DependencyHashCode()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_DependencyHashCode;
 }
 constexpr int32_t const& UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::__cordl_internal_get_m_DependencyHashCode() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_DependencyHashCode;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_DependencyHashCode;
 }
-constexpr void UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::__cordl_internal_set_m_DependencyHashCode(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___m_DependencyHashCode = value;
+constexpr void UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::__cordl_internal_set_m_DependencyHashCode(int32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_DependencyHashCode = value;
 }
-constexpr int32_t& UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::__cordl_internal_get_m_HashCode() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_HashCode;
+constexpr int32_t& UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::__cordl_internal_get_m_HashCode()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_HashCode;
 }
 constexpr int32_t const& UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::__cordl_internal_get_m_HashCode() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_HashCode;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_HashCode;
 }
-constexpr void UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::__cordl_internal_set_m_HashCode(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___m_HashCode = value;
+constexpr void UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::__cordl_internal_set_m_HashCode(int32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_HashCode = value;
 }
-constexpr ::System::Type*& UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::__cordl_internal_get_m_Type() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_Type;
+constexpr ::System::Type*& UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::__cordl_internal_get_m_Type()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_Type;
 }
 constexpr ::System::Type* const& UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::__cordl_internal_get_m_Type() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_Type;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_Type;
 }
-constexpr void UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::__cordl_internal_set_m_Type(::System::Type* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Type)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::__cordl_internal_set_m_Type(::System::Type*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Type)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*&
-UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::__cordl_internal_get_m_Dependencies() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_Dependencies;
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*& UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::__cordl_internal_get_m_Dependencies()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_Dependencies;
 }
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* const&
-UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::__cordl_internal_get_m_Dependencies() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_Dependencies;
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* const& UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::__cordl_internal_get_m_Dependencies() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_Dependencies;
 }
-constexpr void UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::__cordl_internal_set_m_Dependencies(
-    ::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Dependencies)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::__cordl_internal_set_m_Dependencies(::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Dependencies)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::StringW& UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::__cordl_internal_get_m_PrimaryKey() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_PrimaryKey;
+constexpr ::StringW& UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::__cordl_internal_get_m_PrimaryKey()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_PrimaryKey;
 }
 constexpr ::StringW const& UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::__cordl_internal_get_m_PrimaryKey() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_PrimaryKey;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_PrimaryKey;
 }
-constexpr void UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::__cordl_internal_set_m_PrimaryKey(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_PrimaryKey)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::__cordl_internal_set_m_PrimaryKey(::StringW  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_PrimaryKey)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::StringW UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::get_InternalId() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase*>::get(),
-                                               "get_InternalId", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+inline ::StringW UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::get_InternalId()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase*>::get(),
+                        "get_InternalId",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-inline ::StringW UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::get_ProviderId() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase*>::get(),
-                                               "get_ProviderId", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+inline ::StringW UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::get_ProviderId()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase*>::get(),
+                        "get_ProviderId",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-inline ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*
-UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::get_Dependencies() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase*>::get(),
-                                               "get_Dependencies", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*, false>(this, ___internal_method);
+inline ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::get_Dependencies()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase*>::get(),
+                        "get_Dependencies",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*, false>(this, ___internal_method);
 }
-inline bool UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::get_HasDependencies() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase*>::get(),
-                                               "get_HasDependencies", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::get_HasDependencies()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase*>::get(),
+                        "get_HasDependencies",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline ::System::Object* UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::get_Data() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase*>::get(), "get_Data",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
+inline ::System::Object* UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::get_Data()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase*>::get(),
+                        "get_Data",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
-inline void UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::set_Data(::System::Object* value) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase*>::get(), "set_Data",
-                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::set_Data(::System::Object*  value)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase*>::get(),
+                        "set_Data",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::StringW UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::get_PrimaryKey() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase*>::get(),
-                                               "get_PrimaryKey", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+inline ::StringW UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::get_PrimaryKey()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase*>::get(),
+                        "get_PrimaryKey",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-inline void UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::set_PrimaryKey(::StringW value) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase*>::get(), "set_PrimaryKey",
-                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::set_PrimaryKey(::StringW  value)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase*>::get(),
+                        "set_PrimaryKey",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline int32_t UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::get_DependencyHashCode() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase*>::get(),
-                                               "get_DependencyHashCode", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+inline int32_t UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::get_DependencyHashCode()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase*>::get(),
+                        "get_DependencyHashCode",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
-inline ::System::Type* UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::get_ResourceType() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase*>::get(),
-                                               "get_ResourceType", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::System::Type*, false>(this, ___internal_method);
+inline ::System::Type* UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::get_ResourceType()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase*>::get(),
+                        "get_ResourceType",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Type*, false>(this, ___internal_method);
 }
-inline int32_t UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::Hash(::System::Type* t) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase*>::get(), "Hash",
-                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, t);
+inline int32_t UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::Hash(::System::Type*  t)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase*>::get(),
+                        "Hash",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, t);
 }
-inline ::StringW UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::ToString() {
-  auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase*>::get(), 3)));
-  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+inline ::StringW UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::ToString()  {
+auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase*>::get(),
+                            3
+                        )));
+return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-inline void UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::_ctor(
-    ::StringW name, ::StringW id, ::StringW providerId, ::System::Type* t,
-    ::ArrayW<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, ::Array<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*> dependencies) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 5>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-              ::ArrayW<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, ::Array<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*>>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, name, id, providerId, t, dependencies);
+inline void UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::_ctor(::StringW  name, ::StringW  id, ::StringW  providerId, ::System::Type*  t, ::ArrayW<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*,::Array<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*>  dependencies)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 5>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*,::Array<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*>>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, name, id, providerId, t, dependencies);
 }
-inline void UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::ComputeDependencyHash() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase*>::get(),
-                                               "ComputeDependencyHash", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::ComputeDependencyHash()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase*>::get(),
+                        "ComputeDependencyHash",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase* UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::New_ctor(
-    ::StringW name, ::StringW id, ::StringW providerId, ::System::Type* t,
-    ::ArrayW<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, ::Array<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*> dependencies) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase*>(name, id, providerId, t, dependencies));
+inline ::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase* UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::New_ctor(::StringW  name, ::StringW  id, ::StringW  providerId, ::System::Type*  t, ::ArrayW<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*,::Array<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*>  dependencies)  {
+return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase*>(name, id, providerId, t, dependencies));
 }
 /// @brief Convert operator to "::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation"
-constexpr UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::operator ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*() noexcept {
-  return static_cast<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>(static_cast<void*>(this));
+constexpr  UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::operator ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*() noexcept {
+return static_cast<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation"
-constexpr ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*
-UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::i___UnityEngine__ResourceManagement__ResourceLocations__IResourceLocation() noexcept {
-  return static_cast<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>(static_cast<void*>(this));
+constexpr ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::i___UnityEngine__ResourceManagement__ResourceLocations__IResourceLocation() noexcept {
+return static_cast<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::ResourceLocationBase() {}
+constexpr ::UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::ResourceLocationBase()   {
+}

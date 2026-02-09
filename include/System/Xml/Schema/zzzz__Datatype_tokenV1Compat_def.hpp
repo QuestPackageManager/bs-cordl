@@ -20,39 +20,39 @@ namespace System::Xml::Schema {
 // CS Name: System.Xml.Schema.Datatype_tokenV1Compat
 class CORDL_TYPE Datatype_tokenV1Compat : public ::System::Xml::Schema::Datatype_normalizedStringV1Compat {
 public:
-  // Declarations
-  __declspec(property(get = get_TypeCode)) ::System::Xml::Schema::XmlTypeCode TypeCode;
+// Declarations
+ __declspec(property(get=get_TypeCode)) ::System::Xml::Schema::XmlTypeCode  TypeCode;
 
-  static inline ::System::Xml::Schema::Datatype_tokenV1Compat* New_ctor();
+static inline ::System::Xml::Schema::Datatype_tokenV1Compat* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x600bb88, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x600c248, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_TypeCode, addr 0x6012fec, size 0x8, virtual true, abstract: false, final false
-  inline ::System::Xml::Schema::XmlTypeCode get_TypeCode();
+/// @brief Method get_TypeCode, addr 0x60136ac, size 0x8, virtual true, abstract: false, final false
+inline ::System::Xml::Schema::XmlTypeCode get_TypeCode() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Datatype_tokenV1Compat();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr Datatype_tokenV1Compat() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Datatype_tokenV1Compat", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  Datatype_tokenV1Compat(Datatype_tokenV1Compat&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Datatype_tokenV1Compat", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  Datatype_tokenV1Compat(Datatype_tokenV1Compat const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "Datatype_tokenV1Compat", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+Datatype_tokenV1Compat(Datatype_tokenV1Compat && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9625 };
+// Ctor Parameters [CppParam { name: "", ty: "Datatype_tokenV1Compat", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+Datatype_tokenV1Compat(Datatype_tokenV1Compat const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{9629};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::Datatype_tokenV1Compat, 0x38>, "Size mismatch!");
 
-} // namespace System::Xml::Schema
+} // namespace end def System::Xml::Schema
 NEED_NO_BOX(::System::Xml::Schema::Datatype_tokenV1Compat);
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::Datatype_tokenV1Compat*, "System.Xml.Schema", "Datatype_tokenV1Compat");

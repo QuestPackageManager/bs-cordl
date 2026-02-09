@@ -20,53 +20,51 @@ namespace UnityEngine::Rendering {
 // CS Name: UnityEngine.Rendering.LensFlareDataSRP
 class CORDL_TYPE LensFlareDataSRP : public ::UnityEngine::ScriptableObject {
 public:
-  // Declarations
-  /// @brief Field elements, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_elements,
-                      put = __cordl_internal_set_elements)) ::ArrayW<::UnityEngine::Rendering::LensFlareDataElementSRP*, ::Array<::UnityEngine::Rendering::LensFlareDataElementSRP*>*>
-      elements;
+// Declarations
+/// @brief Field elements, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_elements, put=__cordl_internal_set_elements)) ::ArrayW<::UnityEngine::Rendering::LensFlareDataElementSRP*,::Array<::UnityEngine::Rendering::LensFlareDataElementSRP*>*>  elements;
 
-  /// @brief Method HasAModulateByLightColorElement, addr 0x65eb560, size 0x60, virtual false, abstract: false, final false
-  inline bool HasAModulateByLightColorElement();
+/// @brief Method HasAModulateByLightColorElement, addr 0x65ebc20, size 0x60, virtual false, abstract: false, final false
+inline bool HasAModulateByLightColorElement() ;
 
-  static inline ::UnityEngine::Rendering::LensFlareDataSRP* New_ctor();
+static inline ::UnityEngine::Rendering::LensFlareDataSRP* New_ctor() ;
 
-  constexpr ::ArrayW<::UnityEngine::Rendering::LensFlareDataElementSRP*, ::Array<::UnityEngine::Rendering::LensFlareDataElementSRP*>*> const& __cordl_internal_get_elements() const;
+constexpr ::ArrayW<::UnityEngine::Rendering::LensFlareDataElementSRP*,::Array<::UnityEngine::Rendering::LensFlareDataElementSRP*>*> const& __cordl_internal_get_elements() const;
 
-  constexpr ::ArrayW<::UnityEngine::Rendering::LensFlareDataElementSRP*, ::Array<::UnityEngine::Rendering::LensFlareDataElementSRP*>*>& __cordl_internal_get_elements();
+constexpr ::ArrayW<::UnityEngine::Rendering::LensFlareDataElementSRP*,::Array<::UnityEngine::Rendering::LensFlareDataElementSRP*>*>& __cordl_internal_get_elements() ;
 
-  constexpr void __cordl_internal_set_elements(::ArrayW<::UnityEngine::Rendering::LensFlareDataElementSRP*, ::Array<::UnityEngine::Rendering::LensFlareDataElementSRP*>*> value);
+constexpr void __cordl_internal_set_elements(::ArrayW<::UnityEngine::Rendering::LensFlareDataElementSRP*,::Array<::UnityEngine::Rendering::LensFlareDataElementSRP*>*>  value) ;
 
-  /// @brief Method .ctor, addr 0x65eb544, size 0x1c, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x65ebc04, size 0x1c, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LensFlareDataSRP();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr LensFlareDataSRP() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LensFlareDataSRP", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  LensFlareDataSRP(LensFlareDataSRP&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LensFlareDataSRP", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  LensFlareDataSRP(LensFlareDataSRP const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "LensFlareDataSRP", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+LensFlareDataSRP(LensFlareDataSRP && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12154 };
+// Ctor Parameters [CppParam { name: "", ty: "LensFlareDataSRP", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+LensFlareDataSRP(LensFlareDataSRP const& ) = delete;
 
-  /// @brief Field elements, offset: 0x18, size: 0x8, def value: None
-  ::ArrayW<::UnityEngine::Rendering::LensFlareDataElementSRP*, ::Array<::UnityEngine::Rendering::LensFlareDataElementSRP*>*> ___elements;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12158};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field elements, offset: 0x18, size: 0x8, def value: None
+ ::ArrayW<::UnityEngine::Rendering::LensFlareDataElementSRP*,::Array<::UnityEngine::Rendering::LensFlareDataElementSRP*>*>  ___elements;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Rendering::LensFlareDataSRP, ___elements) == 0x18, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::LensFlareDataSRP, 0x20>, "Size mismatch!");
 
-} // namespace UnityEngine::Rendering
+} // namespace end def UnityEngine::Rendering
 NEED_NO_BOX(::UnityEngine::Rendering::LensFlareDataSRP);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::LensFlareDataSRP*, "UnityEngine.Rendering", "LensFlareDataSRP");

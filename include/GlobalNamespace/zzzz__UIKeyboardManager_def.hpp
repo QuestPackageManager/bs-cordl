@@ -24,7 +24,8 @@ namespace HMUI {
 class UIKeyboard;
 }
 namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+template<typename T>
+class IEnumerator_1;
 }
 namespace System::Collections {
 class IEnumerator;
@@ -63,115 +64,115 @@ namespace GlobalNamespace {
 // CS Name: UIKeyboardManager/<SummonSystemKeyboardAndWaitForResponse>d__20
 class CORDL_TYPE UIKeyboardManager__SummonSystemKeyboardAndWaitForResponse_d__20 : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current)) ::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
+// Declarations
+ __declspec(property(get=System_Collections_Generic_IEnumerator_System_Object__get_Current)) ::System::Object*  System_Collections_Generic_IEnumerator_System_Object__Current;
 
-  __declspec(property(get = System_Collections_IEnumerator_get_Current)) ::System::Object* System_Collections_IEnumerator_Current;
+ __declspec(property(get=System_Collections_IEnumerator_get_Current)) ::System::Object*  System_Collections_IEnumerator_Current;
 
-  /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
+/// @brief Field <>1__state, offset 0x10, size 0x4 
+ __declspec(property(get=__cordl_internal_get___1__state, put=__cordl_internal_set___1__state)) int32_t  __1__state;
 
-  /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current)) ::System::Object* __2__current;
+/// @brief Field <>2__current, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get___2__current, put=__cordl_internal_set___2__current)) ::System::Object*  __2__current;
 
-  /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::UnityW<::GlobalNamespace::UIKeyboardManager> __4__this;
+/// @brief Field <>4__this, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get___4__this, put=__cordl_internal_set___4__this)) ::UnityW<::GlobalNamespace::UIKeyboardManager>  __4__this;
 
-  /// @brief Field input, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_input, put = __cordl_internal_set_input)) ::UnityW<::HMUI::InputFieldView> input;
+/// @brief Field input, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get_input, put=__cordl_internal_set_input)) ::UnityW<::HMUI::InputFieldView>  input;
 
-  /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
-  constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+constexpr operator  ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
 
-  /// @brief Convert operator to "::System::Collections::IEnumerator"
-  constexpr operator ::System::Collections::IEnumerator*() noexcept;
+/// @brief Convert operator to "::System::Collections::IEnumerator"
+constexpr operator  ::System::Collections::IEnumerator*() noexcept;
 
-  /// @brief Convert operator to "::System::IDisposable"
-  constexpr operator ::System::IDisposable*() noexcept;
+/// @brief Convert operator to "::System::IDisposable"
+constexpr operator  ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x5859f78, size 0x138, virtual true, abstract: false, final true
-  inline bool MoveNext();
+/// @brief Method MoveNext, addr 0x585a8a8, size 0x138, virtual true, abstract: false, final true
+inline bool MoveNext() ;
 
-  static inline ::GlobalNamespace::UIKeyboardManager__SummonSystemKeyboardAndWaitForResponse_d__20* New_ctor(int32_t __1__state);
+static inline ::GlobalNamespace::UIKeyboardManager__SummonSystemKeyboardAndWaitForResponse_d__20* New_ctor(int32_t  __1__state) ;
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x585a0b0, size 0x8, virtual true, abstract: false, final true
-  inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
+/// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x585a9e0, size 0x8, virtual true, abstract: false, final true
+inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current() ;
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x585a0b8, size 0x38, virtual true, abstract: false, final true
-  inline void System_Collections_IEnumerator_Reset();
+/// @brief Method System.Collections.IEnumerator.Reset, addr 0x585a9e8, size 0x38, virtual true, abstract: false, final true
+inline void System_Collections_IEnumerator_Reset() ;
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x585a0f0, size 0x8, virtual true, abstract: false, final true
-  inline ::System::Object* System_Collections_IEnumerator_get_Current();
+/// @brief Method System.Collections.IEnumerator.get_Current, addr 0x585aa20, size 0x8, virtual true, abstract: false, final true
+inline ::System::Object* System_Collections_IEnumerator_get_Current() ;
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x5859f74, size 0x4, virtual true, abstract: false, final true
-  inline void System_IDisposable_Dispose();
+/// @brief Method System.IDisposable.Dispose, addr 0x585a8a4, size 0x4, virtual true, abstract: false, final true
+inline void System_IDisposable_Dispose() ;
 
-  constexpr int32_t const& __cordl_internal_get___1__state() const;
+constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr int32_t& __cordl_internal_get___1__state();
+constexpr int32_t& __cordl_internal_get___1__state() ;
 
-  constexpr ::System::Object* const& __cordl_internal_get___2__current() const;
+constexpr ::System::Object* const& __cordl_internal_get___2__current() const;
 
-  constexpr ::System::Object*& __cordl_internal_get___2__current();
+constexpr ::System::Object*& __cordl_internal_get___2__current() ;
 
-  constexpr ::UnityW<::GlobalNamespace::UIKeyboardManager> const& __cordl_internal_get___4__this() const;
+constexpr ::UnityW<::GlobalNamespace::UIKeyboardManager> const& __cordl_internal_get___4__this() const;
 
-  constexpr ::UnityW<::GlobalNamespace::UIKeyboardManager>& __cordl_internal_get___4__this();
+constexpr ::UnityW<::GlobalNamespace::UIKeyboardManager>& __cordl_internal_get___4__this() ;
 
-  constexpr ::UnityW<::HMUI::InputFieldView> const& __cordl_internal_get_input() const;
+constexpr ::UnityW<::HMUI::InputFieldView> const& __cordl_internal_get_input() const;
 
-  constexpr ::UnityW<::HMUI::InputFieldView>& __cordl_internal_get_input();
+constexpr ::UnityW<::HMUI::InputFieldView>& __cordl_internal_get_input() ;
 
-  constexpr void __cordl_internal_set___1__state(int32_t value);
+constexpr void __cordl_internal_set___1__state(int32_t  value) ;
 
-  constexpr void __cordl_internal_set___2__current(::System::Object* value);
+constexpr void __cordl_internal_set___2__current(::System::Object*  value) ;
 
-  constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::UIKeyboardManager> value);
+constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::UIKeyboardManager>  value) ;
 
-  constexpr void __cordl_internal_set_input(::UnityW<::HMUI::InputFieldView> value);
+constexpr void __cordl_internal_set_input(::UnityW<::HMUI::InputFieldView>  value) ;
 
-  /// @brief Method .ctor, addr 0x5859f68, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(int32_t __1__state);
+/// @brief Method .ctor, addr 0x585a898, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(int32_t  __1__state) ;
 
-  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
-  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
+/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
 
-  /// @brief Convert to "::System::Collections::IEnumerator"
-  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+/// @brief Convert to "::System::Collections::IEnumerator"
+constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
-  /// @brief Convert to "::System::IDisposable"
-  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+/// @brief Convert to "::System::IDisposable"
+constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr UIKeyboardManager__SummonSystemKeyboardAndWaitForResponse_d__20();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr UIKeyboardManager__SummonSystemKeyboardAndWaitForResponse_d__20() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UIKeyboardManager__SummonSystemKeyboardAndWaitForResponse_d__20", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  UIKeyboardManager__SummonSystemKeyboardAndWaitForResponse_d__20(UIKeyboardManager__SummonSystemKeyboardAndWaitForResponse_d__20&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UIKeyboardManager__SummonSystemKeyboardAndWaitForResponse_d__20", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  UIKeyboardManager__SummonSystemKeyboardAndWaitForResponse_d__20(UIKeyboardManager__SummonSystemKeyboardAndWaitForResponse_d__20 const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "UIKeyboardManager__SummonSystemKeyboardAndWaitForResponse_d__20", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+UIKeyboardManager__SummonSystemKeyboardAndWaitForResponse_d__20(UIKeyboardManager__SummonSystemKeyboardAndWaitForResponse_d__20 && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6347 };
+// Ctor Parameters [CppParam { name: "", ty: "UIKeyboardManager__SummonSystemKeyboardAndWaitForResponse_d__20", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+UIKeyboardManager__SummonSystemKeyboardAndWaitForResponse_d__20(UIKeyboardManager__SummonSystemKeyboardAndWaitForResponse_d__20 const& ) = delete;
 
-  /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
-  int32_t _____1__state;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6347};
 
-  /// @brief Field <>2__current, offset: 0x18, size: 0x8, def value: None
-  ::System::Object* _____2__current;
+/// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
+ int32_t  _____1__state;
 
-  /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::UIKeyboardManager> _____4__this;
+/// @brief Field <>2__current, offset: 0x18, size: 0x8, def value: None
+ ::System::Object*  _____2__current;
 
-  /// @brief Field input, offset: 0x28, size: 0x8, def value: None
-  ::UnityW<::HMUI::InputFieldView> ___input;
+/// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::UIKeyboardManager>  _____4__this;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field input, offset: 0x28, size: 0x8, def value: None
+ ::UnityW<::HMUI::InputFieldView>  ___input;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::UIKeyboardManager__SummonSystemKeyboardAndWaitForResponse_d__20, _____1__state) == 0x10, "Offset mismatch!");
@@ -184,165 +185,164 @@ static_assert(offsetof(::GlobalNamespace::UIKeyboardManager__SummonSystemKeyboar
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::UIKeyboardManager__SummonSystemKeyboardAndWaitForResponse_d__20, 0x30>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 // Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: UIKeyboardManager
 class CORDL_TYPE UIKeyboardManager : public ::UnityEngine::MonoBehaviour {
 public:
-  // Declarations
-  using _SummonSystemKeyboardAndWaitForResponse_d__20 = ::GlobalNamespace::UIKeyboardManager__SummonSystemKeyboardAndWaitForResponse_d__20;
+// Declarations
+using _SummonSystemKeyboardAndWaitForResponse_d__20 = ::GlobalNamespace::UIKeyboardManager__SummonSystemKeyboardAndWaitForResponse_d__20;
 
-  /// @brief Field _keyboardContainerTransform, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__keyboardContainerTransform, put = __cordl_internal_set__keyboardContainerTransform)) ::UnityW<::UnityEngine::RectTransform>
-      _keyboardContainerTransform;
+/// @brief Field _keyboardContainerTransform, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get__keyboardContainerTransform, put=__cordl_internal_set__keyboardContainerTransform)) ::UnityW<::UnityEngine::RectTransform>  _keyboardContainerTransform;
 
-  /// @brief Field _keyboardModalView, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__keyboardModalView, put = __cordl_internal_set__keyboardModalView)) ::UnityW<::HMUI::ModalViewBase> _keyboardModalView;
+/// @brief Field _keyboardModalView, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get__keyboardModalView, put=__cordl_internal_set__keyboardModalView)) ::UnityW<::HMUI::ModalViewBase>  _keyboardModalView;
 
-  /// @brief Field _parentContainerTransform, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__parentContainerTransform, put = __cordl_internal_set__parentContainerTransform)) ::UnityW<::UnityEngine::Transform> _parentContainerTransform;
+/// @brief Field _parentContainerTransform, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get__parentContainerTransform, put=__cordl_internal_set__parentContainerTransform)) ::UnityW<::UnityEngine::Transform>  _parentContainerTransform;
 
-  /// @brief Field _selectedInput, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__selectedInput, put = __cordl_internal_set__selectedInput)) ::UnityW<::HMUI::InputFieldView> _selectedInput;
+/// @brief Field _selectedInput, offset 0x48, size 0x8 
+ __declspec(property(get=__cordl_internal_get__selectedInput, put=__cordl_internal_set__selectedInput)) ::UnityW<::HMUI::InputFieldView>  _selectedInput;
 
-  /// @brief Field _uiKeyboard, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__uiKeyboard, put = __cordl_internal_set__uiKeyboard)) ::UnityW<::HMUI::UIKeyboard> _uiKeyboard;
+/// @brief Field _uiKeyboard, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get__uiKeyboard, put=__cordl_internal_set__uiKeyboard)) ::UnityW<::HMUI::UIKeyboard>  _uiKeyboard;
 
-  /// @brief Field _vrInputModule, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__vrInputModule, put = __cordl_internal_set__vrInputModule)) ::GlobalNamespace::IVRInputModule* _vrInputModule;
+/// @brief Field _vrInputModule, offset 0x40, size 0x8 
+ __declspec(property(get=__cordl_internal_get__vrInputModule, put=__cordl_internal_set__vrInputModule)) ::GlobalNamespace::IVRInputModule*  _vrInputModule;
 
-  __declspec(property(get = get_keyboard)) ::UnityW<::HMUI::UIKeyboard> keyboard;
+ __declspec(property(get=get_keyboard)) ::UnityW<::HMUI::UIKeyboard>  keyboard;
 
-  /// @brief Field systemKeyboard, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_systemKeyboard, put = __cordl_internal_set_systemKeyboard)) ::UnityEngine::TouchScreenKeyboard* systemKeyboard;
+/// @brief Field systemKeyboard, offset 0x50, size 0x8 
+ __declspec(property(get=__cordl_internal_get_systemKeyboard, put=__cordl_internal_set_systemKeyboard)) ::UnityEngine::TouchScreenKeyboard*  systemKeyboard;
 
-  /// @brief Method CloseKeyboard, addr 0x5859b00, size 0xa0, virtual false, abstract: false, final false
-  inline void CloseKeyboard();
+/// @brief Method CloseKeyboard, addr 0x585a430, size 0xa0, virtual false, abstract: false, final false
+inline void CloseKeyboard() ;
 
-  /// @brief Method HandleKeyboardOkButton, addr 0x5859e00, size 0x168, virtual false, abstract: false, final false
-  inline void HandleKeyboardOkButton();
+/// @brief Method HandleKeyboardOkButton, addr 0x585a730, size 0x168, virtual false, abstract: false, final false
+inline void HandleKeyboardOkButton() ;
 
-  static inline ::GlobalNamespace::UIKeyboardManager* New_ctor();
+static inline ::GlobalNamespace::UIKeyboardManager* New_ctor() ;
 
-  /// @brief Method OnDestroy, addr 0x58597a0, size 0x100, virtual false, abstract: false, final false
-  inline void OnDestroy();
+/// @brief Method OnDestroy, addr 0x585a0d0, size 0x100, virtual false, abstract: false, final false
+inline void OnDestroy() ;
 
-  /// @brief Method OnDisable, addr 0x5859710, size 0x90, virtual false, abstract: false, final false
-  inline void OnDisable();
+/// @brief Method OnDisable, addr 0x585a040, size 0x90, virtual false, abstract: false, final false
+inline void OnDisable() ;
 
-  /// @brief Method OnEnable, addr 0x5859680, size 0x90, virtual false, abstract: false, final false
-  inline void OnEnable();
+/// @brief Method OnEnable, addr 0x5859fb0, size 0x90, virtual false, abstract: false, final false
+inline void OnEnable() ;
 
-  /// @brief Method OpenKeyboardFor, addr 0x58598a0, size 0x200, virtual false, abstract: false, final false
-  inline void OpenKeyboardFor(::HMUI::InputFieldView* input);
+/// @brief Method OpenKeyboardFor, addr 0x585a1d0, size 0x200, virtual false, abstract: false, final false
+inline void OpenKeyboardFor(::HMUI::InputFieldView*  input) ;
 
-  /// @brief Method ProcessMousePress, addr 0x5859c90, size 0x170, virtual false, abstract: false, final false
-  inline void ProcessMousePress(::UnityEngine::GameObject* currentOverGo);
+/// @brief Method ProcessMousePress, addr 0x585a5c0, size 0x170, virtual false, abstract: false, final false
+inline void ProcessMousePress(::UnityEngine::GameObject*  currentOverGo) ;
 
-  /// @brief Method ShouldCloseKeyboard, addr 0x5859c38, size 0x58, virtual false, abstract: false, final false
-  inline bool ShouldCloseKeyboard(::UnityEngine::GameObject* root);
+/// @brief Method ShouldCloseKeyboard, addr 0x585a568, size 0x58, virtual false, abstract: false, final false
+inline bool ShouldCloseKeyboard(::UnityEngine::GameObject*  root) ;
 
-  /// @brief Method Start, addr 0x585958c, size 0xf4, virtual false, abstract: false, final false
-  inline void Start();
+/// @brief Method Start, addr 0x5859ebc, size 0xf4, virtual false, abstract: false, final false
+inline void Start() ;
 
-  /// @brief Method SummonSystemKeyboardAndWaitForResponse, addr 0x5859aa0, size 0x60, virtual false, abstract: false, final false
-  inline ::System::Collections::IEnumerator* SummonSystemKeyboardAndWaitForResponse(::HMUI::InputFieldView* input);
+/// @brief Method SummonSystemKeyboardAndWaitForResponse, addr 0x585a3d0, size 0x60, virtual false, abstract: false, final false
+inline ::System::Collections::IEnumerator* SummonSystemKeyboardAndWaitForResponse(::HMUI::InputFieldView*  input) ;
 
-  /// @brief Method TransferKeyboardTo, addr 0x5859ba0, size 0x98, virtual false, abstract: false, final false
-  inline void TransferKeyboardTo(::HMUI::InputFieldView* nextInput);
+/// @brief Method TransferKeyboardTo, addr 0x585a4d0, size 0x98, virtual false, abstract: false, final false
+inline void TransferKeyboardTo(::HMUI::InputFieldView*  nextInput) ;
 
-  constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get__keyboardContainerTransform() const;
+constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get__keyboardContainerTransform() const;
 
-  constexpr ::UnityW<::UnityEngine::RectTransform>& __cordl_internal_get__keyboardContainerTransform();
+constexpr ::UnityW<::UnityEngine::RectTransform>& __cordl_internal_get__keyboardContainerTransform() ;
 
-  constexpr ::UnityW<::HMUI::ModalViewBase> const& __cordl_internal_get__keyboardModalView() const;
+constexpr ::UnityW<::HMUI::ModalViewBase> const& __cordl_internal_get__keyboardModalView() const;
 
-  constexpr ::UnityW<::HMUI::ModalViewBase>& __cordl_internal_get__keyboardModalView();
+constexpr ::UnityW<::HMUI::ModalViewBase>& __cordl_internal_get__keyboardModalView() ;
 
-  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__parentContainerTransform() const;
+constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__parentContainerTransform() const;
 
-  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__parentContainerTransform();
+constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__parentContainerTransform() ;
 
-  constexpr ::UnityW<::HMUI::InputFieldView> const& __cordl_internal_get__selectedInput() const;
+constexpr ::UnityW<::HMUI::InputFieldView> const& __cordl_internal_get__selectedInput() const;
 
-  constexpr ::UnityW<::HMUI::InputFieldView>& __cordl_internal_get__selectedInput();
+constexpr ::UnityW<::HMUI::InputFieldView>& __cordl_internal_get__selectedInput() ;
 
-  constexpr ::UnityW<::HMUI::UIKeyboard> const& __cordl_internal_get__uiKeyboard() const;
+constexpr ::UnityW<::HMUI::UIKeyboard> const& __cordl_internal_get__uiKeyboard() const;
 
-  constexpr ::UnityW<::HMUI::UIKeyboard>& __cordl_internal_get__uiKeyboard();
+constexpr ::UnityW<::HMUI::UIKeyboard>& __cordl_internal_get__uiKeyboard() ;
 
-  constexpr ::GlobalNamespace::IVRInputModule* const& __cordl_internal_get__vrInputModule() const;
+constexpr ::GlobalNamespace::IVRInputModule* const& __cordl_internal_get__vrInputModule() const;
 
-  constexpr ::GlobalNamespace::IVRInputModule*& __cordl_internal_get__vrInputModule();
+constexpr ::GlobalNamespace::IVRInputModule*& __cordl_internal_get__vrInputModule() ;
 
-  constexpr ::UnityEngine::TouchScreenKeyboard* const& __cordl_internal_get_systemKeyboard() const;
+constexpr ::UnityEngine::TouchScreenKeyboard* const& __cordl_internal_get_systemKeyboard() const;
 
-  constexpr ::UnityEngine::TouchScreenKeyboard*& __cordl_internal_get_systemKeyboard();
+constexpr ::UnityEngine::TouchScreenKeyboard*& __cordl_internal_get_systemKeyboard() ;
 
-  constexpr void __cordl_internal_set__keyboardContainerTransform(::UnityW<::UnityEngine::RectTransform> value);
+constexpr void __cordl_internal_set__keyboardContainerTransform(::UnityW<::UnityEngine::RectTransform>  value) ;
 
-  constexpr void __cordl_internal_set__keyboardModalView(::UnityW<::HMUI::ModalViewBase> value);
+constexpr void __cordl_internal_set__keyboardModalView(::UnityW<::HMUI::ModalViewBase>  value) ;
 
-  constexpr void __cordl_internal_set__parentContainerTransform(::UnityW<::UnityEngine::Transform> value);
+constexpr void __cordl_internal_set__parentContainerTransform(::UnityW<::UnityEngine::Transform>  value) ;
 
-  constexpr void __cordl_internal_set__selectedInput(::UnityW<::HMUI::InputFieldView> value);
+constexpr void __cordl_internal_set__selectedInput(::UnityW<::HMUI::InputFieldView>  value) ;
 
-  constexpr void __cordl_internal_set__uiKeyboard(::UnityW<::HMUI::UIKeyboard> value);
+constexpr void __cordl_internal_set__uiKeyboard(::UnityW<::HMUI::UIKeyboard>  value) ;
 
-  constexpr void __cordl_internal_set__vrInputModule(::GlobalNamespace::IVRInputModule* value);
+constexpr void __cordl_internal_set__vrInputModule(::GlobalNamespace::IVRInputModule*  value) ;
 
-  constexpr void __cordl_internal_set_systemKeyboard(::UnityEngine::TouchScreenKeyboard* value);
+constexpr void __cordl_internal_set_systemKeyboard(::UnityEngine::TouchScreenKeyboard*  value) ;
 
-  /// @brief Method .ctor, addr 0x5859f70, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x585a8a0, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_keyboard, addr 0x5859584, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityW<::HMUI::UIKeyboard> get_keyboard();
+/// @brief Method get_keyboard, addr 0x5859eb4, size 0x8, virtual false, abstract: false, final false
+inline ::UnityW<::HMUI::UIKeyboard> get_keyboard() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr UIKeyboardManager();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr UIKeyboardManager() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UIKeyboardManager", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  UIKeyboardManager(UIKeyboardManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UIKeyboardManager", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  UIKeyboardManager(UIKeyboardManager const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "UIKeyboardManager", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+UIKeyboardManager(UIKeyboardManager && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6348 };
+// Ctor Parameters [CppParam { name: "", ty: "UIKeyboardManager", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+UIKeyboardManager(UIKeyboardManager const& ) = delete;
 
-  /// @brief Field kKeyboardTopOffset offset 0xffffffff size 0x4
-  static constexpr float_t kKeyboardTopOffset{ static_cast<float_t>(5.0f) };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6348};
 
-  /// @brief Field _uiKeyboard, offset: 0x20, size: 0x8, def value: None
-  ::UnityW<::HMUI::UIKeyboard> ____uiKeyboard;
+/// @brief Field kKeyboardTopOffset offset 0xffffffff size 0x4
+static constexpr float_t  kKeyboardTopOffset{static_cast<float_t>(5.0f)};
 
-  /// @brief Field _keyboardModalView, offset: 0x28, size: 0x8, def value: None
-  ::UnityW<::HMUI::ModalViewBase> ____keyboardModalView;
+/// @brief Field _uiKeyboard, offset: 0x20, size: 0x8, def value: None
+ ::UnityW<::HMUI::UIKeyboard>  ____uiKeyboard;
 
-  /// @brief Field _keyboardContainerTransform, offset: 0x30, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::RectTransform> ____keyboardContainerTransform;
+/// @brief Field _keyboardModalView, offset: 0x28, size: 0x8, def value: None
+ ::UnityW<::HMUI::ModalViewBase>  ____keyboardModalView;
 
-  /// @brief Field _parentContainerTransform, offset: 0x38, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::Transform> ____parentContainerTransform;
+/// @brief Field _keyboardContainerTransform, offset: 0x30, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::RectTransform>  ____keyboardContainerTransform;
 
-  /// @brief Field _vrInputModule, offset: 0x40, size: 0x8, def value: None
-  ::GlobalNamespace::IVRInputModule* ____vrInputModule;
+/// @brief Field _parentContainerTransform, offset: 0x38, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::Transform>  ____parentContainerTransform;
 
-  /// @brief Field _selectedInput, offset: 0x48, size: 0x8, def value: None
-  ::UnityW<::HMUI::InputFieldView> ____selectedInput;
+/// @brief Field _vrInputModule, offset: 0x40, size: 0x8, def value: None
+ ::GlobalNamespace::IVRInputModule*  ____vrInputModule;
 
-  /// @brief Field systemKeyboard, offset: 0x50, size: 0x8, def value: None
-  ::UnityEngine::TouchScreenKeyboard* ___systemKeyboard;
+/// @brief Field _selectedInput, offset: 0x48, size: 0x8, def value: None
+ ::UnityW<::HMUI::InputFieldView>  ____selectedInput;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field systemKeyboard, offset: 0x50, size: 0x8, def value: None
+ ::UnityEngine::TouchScreenKeyboard*  ___systemKeyboard;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::UIKeyboardManager, ____uiKeyboard) == 0x20, "Offset mismatch!");
@@ -361,7 +361,7 @@ static_assert(offsetof(::GlobalNamespace::UIKeyboardManager, ___systemKeyboard) 
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::UIKeyboardManager, 0x58>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::UIKeyboardManager);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::UIKeyboardManager*, "", "UIKeyboardManager");
 NEED_NO_BOX(::GlobalNamespace::UIKeyboardManager__SummonSystemKeyboardAndWaitForResponse_d__20);

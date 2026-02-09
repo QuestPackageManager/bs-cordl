@@ -9,197 +9,245 @@
 #include "System/Net/zzzz__IPAddress_def.hpp"
 #include "System/Net/zzzz__IPEndPoint_def.hpp"
 //  Writing Method size for method: ::LiteNetLib::NetUtils.MakeEndPoint
-template <>
+template<>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::IPEndPoint* (*)(::StringW, int32_t)>(&::LiteNetLib::NetUtils::MakeEndPoint)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x56e9158;
+  constexpr static std::size_t addrs = 0x56e8ee0;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::NetUtils*>::get(), "MakeEndPoint", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::NetUtils*>::get(),
+                        "MakeEndPoint",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::LiteNetLib::NetUtils.ResolveAddress
-template <>
+template<>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::IPAddress* (*)(::StringW)>(&::LiteNetLib::NetUtils::ResolveAddress)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x56ef0f8;
+  constexpr static std::size_t addrs = 0x56eee80;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::NetUtils*>::get(), "ResolveAddress", std::span<Il2CppClass const* const, 0>(),
-                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::NetUtils*>::get(),
+                        "ResolveAddress",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::LiteNetLib::NetUtils.ResolveAddress
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::IPAddress* (*)(::StringW, ::System::Net::Sockets::AddressFamily)>(
-    &::LiteNetLib::NetUtils::ResolveAddress)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::IPAddress* (*)(::StringW, ::System::Net::Sockets::AddressFamily)>(&::LiteNetLib::NetUtils::ResolveAddress)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x56f3b30;
+  constexpr static std::size_t addrs = 0x56f38b8;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::NetUtils*>::get(), "ResolveAddress", std::span<Il2CppClass const* const, 0>(),
-                                                 ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::Sockets::AddressFamily>::get() })));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::NetUtils*>::get(),
+                        "ResolveAddress",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::Sockets::AddressFamily>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::LiteNetLib::NetUtils.ResolveAddresses
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Net::IPAddress*, ::Array<::System::Net::IPAddress*>*> (*)(::StringW)>(
-    &::LiteNetLib::NetUtils::ResolveAddresses)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Net::IPAddress*,::Array<::System::Net::IPAddress*>*> (*)(::StringW)>(&::LiteNetLib::NetUtils::ResolveAddresses)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x56f3bf4;
+  constexpr static std::size_t addrs = 0x56f397c;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::NetUtils*>::get(), "ResolveAddresses", std::span<Il2CppClass const* const, 0>(),
-                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::NetUtils*>::get(),
+                        "ResolveAddresses",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::LiteNetLib::NetUtils.GetLocalIpList
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::StringW>* (*)(::LiteNetLib::LocalAddrType)>(
-    &::LiteNetLib::NetUtils::GetLocalIpList)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::StringW>* (*)(::LiteNetLib::LocalAddrType)>(&::LiteNetLib::NetUtils::GetLocalIpList)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x56f3c14;
+  constexpr static std::size_t addrs = 0x56f399c;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::NetUtils*>::get(), "GetLocalIpList", std::span<Il2CppClass const* const, 0>(),
-                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::LiteNetLib::LocalAddrType>::get() })));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::NetUtils*>::get(),
+                        "GetLocalIpList",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::LiteNetLib::LocalAddrType>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::LiteNetLib::NetUtils.GetLocalIpList
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Collections::Generic::IList_1<::StringW>*, ::LiteNetLib::LocalAddrType)>(
-    &::LiteNetLib::NetUtils::GetLocalIpList)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Collections::Generic::IList_1<::StringW>*, ::LiteNetLib::LocalAddrType)>(&::LiteNetLib::NetUtils::GetLocalIpList)> {
   constexpr static std::size_t size = 0x7c4;
-  constexpr static std::size_t addrs = 0x56f3cbc;
+  constexpr static std::size_t addrs = 0x56f3a44;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::NetUtils*>::get(), "GetLocalIpList", std::span<Il2CppClass const* const, 0>(),
-                                                 ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IList_1<::StringW>*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::LiteNetLib::LocalAddrType>::get() })));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::NetUtils*>::get(),
+                        "GetLocalIpList",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IList_1<::StringW>*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::LiteNetLib::LocalAddrType>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::LiteNetLib::NetUtils.GetLocalIp
-template <>
+template<>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::LiteNetLib::LocalAddrType)>(&::LiteNetLib::NetUtils::GetLocalIp)> {
   constexpr static std::size_t size = 0x21c;
-  constexpr static std::size_t addrs = 0x56e9320;
+  constexpr static std::size_t addrs = 0x56e90a8;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::NetUtils*>::get(), "GetLocalIp", std::span<Il2CppClass const* const, 0>(),
-                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::LiteNetLib::LocalAddrType>::get() })));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::NetUtils*>::get(),
+                        "GetLocalIp",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::LiteNetLib::LocalAddrType>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::LiteNetLib::NetUtils.PrintInterfaceInfos
-template <>
+template<>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::LiteNetLib::NetUtils::PrintInterfaceInfos)> {
   constexpr static std::size_t size = 0x3d8;
-  constexpr static std::size_t addrs = 0x56f4480;
+  constexpr static std::size_t addrs = 0x56f4208;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::NetUtils*>::get(), "PrintInterfaceInfos",
-                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::NetUtils*>::get(),
+                        "PrintInterfaceInfos",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::LiteNetLib::NetUtils.RelativeSequenceNumber
-template <>
+template<>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t, int32_t)>(&::LiteNetLib::NetUtils::RelativeSequenceNumber)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x56f2780;
+  constexpr static std::size_t addrs = 0x56f2508;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::NetUtils*>::get(), "RelativeSequenceNumber", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::NetUtils*>::get(),
+                        "RelativeSequenceNumber",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
+                    )));
     return ___internal_method;
   }
 };
-inline void LiteNetLib::NetUtils::setStaticF_IpList(::System::Collections::Generic::List_1<::StringW>* value) {
-  ::cordl_internals::setStaticField<::System::Collections::Generic::List_1<::StringW>*, "IpList", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::NetUtils*>::get>(
-      std::forward<::System::Collections::Generic::List_1<::StringW>*>(value));
+inline void LiteNetLib::NetUtils::setStaticF_IpList(::System::Collections::Generic::List_1<::StringW>*  value)  {
+::cordl_internals::setStaticField<::System::Collections::Generic::List_1<::StringW>*, "IpList", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::NetUtils*>::get>(std::forward<::System::Collections::Generic::List_1<::StringW>*>(value));
 }
-inline ::System::Collections::Generic::List_1<::StringW>* LiteNetLib::NetUtils::getStaticF_IpList() {
-  return ::cordl_internals::getStaticField<::System::Collections::Generic::List_1<::StringW>*, "IpList", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::NetUtils*>::get>();
+inline ::System::Collections::Generic::List_1<::StringW>* LiteNetLib::NetUtils::getStaticF_IpList()  {
+return ::cordl_internals::getStaticField<::System::Collections::Generic::List_1<::StringW>*, "IpList", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::NetUtils*>::get>();
 }
-inline ::System::Net::IPEndPoint* LiteNetLib::NetUtils::MakeEndPoint(::StringW hostStr, int32_t port) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::NetUtils*>::get(), "MakeEndPoint", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::System::Net::IPEndPoint*, false>(nullptr, ___internal_method, hostStr, port);
+inline ::System::Net::IPEndPoint* LiteNetLib::NetUtils::MakeEndPoint(::StringW  hostStr, int32_t  port)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::NetUtils*>::get(),
+                        "MakeEndPoint",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Net::IPEndPoint*, false>(nullptr, ___internal_method, hostStr, port);
 }
-inline ::System::Net::IPAddress* LiteNetLib::NetUtils::ResolveAddress(::StringW hostStr) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::NetUtils*>::get(), "ResolveAddress", std::span<Il2CppClass const* const, 0>(),
-                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::System::Net::IPAddress*, false>(nullptr, ___internal_method, hostStr);
+inline ::System::Net::IPAddress* LiteNetLib::NetUtils::ResolveAddress(::StringW  hostStr)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::NetUtils*>::get(),
+                        "ResolveAddress",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Net::IPAddress*, false>(nullptr, ___internal_method, hostStr);
 }
-inline ::System::Net::IPAddress* LiteNetLib::NetUtils::ResolveAddress(::StringW hostStr, ::System::Net::Sockets::AddressFamily addressFamily) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::NetUtils*>::get(), "ResolveAddress", std::span<Il2CppClass const* const, 0>(),
-                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
-                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::Sockets::AddressFamily>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::System::Net::IPAddress*, false>(nullptr, ___internal_method, hostStr, addressFamily);
+inline ::System::Net::IPAddress* LiteNetLib::NetUtils::ResolveAddress(::StringW  hostStr, ::System::Net::Sockets::AddressFamily  addressFamily)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::NetUtils*>::get(),
+                        "ResolveAddress",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::Sockets::AddressFamily>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Net::IPAddress*, false>(nullptr, ___internal_method, hostStr, addressFamily);
 }
-inline ::ArrayW<::System::Net::IPAddress*, ::Array<::System::Net::IPAddress*>*> LiteNetLib::NetUtils::ResolveAddresses(::StringW hostStr) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::NetUtils*>::get(), "ResolveAddresses", std::span<Il2CppClass const* const, 0>(),
-                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::ArrayW<::System::Net::IPAddress*, ::Array<::System::Net::IPAddress*>*>, false>(nullptr, ___internal_method, hostStr);
+inline ::ArrayW<::System::Net::IPAddress*,::Array<::System::Net::IPAddress*>*> LiteNetLib::NetUtils::ResolveAddresses(::StringW  hostStr)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::NetUtils*>::get(),
+                        "ResolveAddresses",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::ArrayW<::System::Net::IPAddress*,::Array<::System::Net::IPAddress*>*>, false>(nullptr, ___internal_method, hostStr);
 }
-inline ::System::Collections::Generic::List_1<::StringW>* LiteNetLib::NetUtils::GetLocalIpList(::LiteNetLib::LocalAddrType addrType) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::NetUtils*>::get(), "GetLocalIpList", std::span<Il2CppClass const* const, 0>(),
-                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::LiteNetLib::LocalAddrType>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<::StringW>*, false>(nullptr, ___internal_method, addrType);
+inline ::System::Collections::Generic::List_1<::StringW>* LiteNetLib::NetUtils::GetLocalIpList(::LiteNetLib::LocalAddrType  addrType)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::NetUtils*>::get(),
+                        "GetLocalIpList",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::LiteNetLib::LocalAddrType>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<::StringW>*, false>(nullptr, ___internal_method, addrType);
 }
-inline void LiteNetLib::NetUtils::GetLocalIpList(::System::Collections::Generic::IList_1<::StringW>* targetList, ::LiteNetLib::LocalAddrType addrType) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::NetUtils*>::get(), "GetLocalIpList", std::span<Il2CppClass const* const, 0>(),
-                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IList_1<::StringW>*>::get(),
-                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::LiteNetLib::LocalAddrType>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, targetList, addrType);
+inline void LiteNetLib::NetUtils::GetLocalIpList(::System::Collections::Generic::IList_1<::StringW>*  targetList, ::LiteNetLib::LocalAddrType  addrType)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::NetUtils*>::get(),
+                        "GetLocalIpList",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IList_1<::StringW>*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::LiteNetLib::LocalAddrType>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, targetList, addrType);
 }
-inline ::StringW LiteNetLib::NetUtils::GetLocalIp(::LiteNetLib::LocalAddrType addrType) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::NetUtils*>::get(), "GetLocalIp", std::span<Il2CppClass const* const, 0>(),
-                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::LiteNetLib::LocalAddrType>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, addrType);
+inline ::StringW LiteNetLib::NetUtils::GetLocalIp(::LiteNetLib::LocalAddrType  addrType)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::NetUtils*>::get(),
+                        "GetLocalIp",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::LiteNetLib::LocalAddrType>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, addrType);
 }
-inline void LiteNetLib::NetUtils::PrintInterfaceInfos() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::NetUtils*>::get(), "PrintInterfaceInfos",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method);
+inline void LiteNetLib::NetUtils::PrintInterfaceInfos()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::NetUtils*>::get(),
+                        "PrintInterfaceInfos",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method);
 }
-inline int32_t LiteNetLib::NetUtils::RelativeSequenceNumber(int32_t number, int32_t expected) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::NetUtils*>::get(), "RelativeSequenceNumber", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, number, expected);
+inline int32_t LiteNetLib::NetUtils::RelativeSequenceNumber(int32_t  number, int32_t  expected)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::NetUtils*>::get(),
+                        "RelativeSequenceNumber",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, number, expected);
 }
 // Ctor Parameters []
-constexpr ::LiteNetLib::NetUtils::NetUtils() {}
+constexpr ::LiteNetLib::NetUtils::NetUtils()   {
+}

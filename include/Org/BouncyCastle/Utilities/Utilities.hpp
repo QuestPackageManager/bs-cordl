@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "Org/BouncyCastle/Utilities/Arrays.hpp"
 #include "Org/BouncyCastle/Utilities/BigIntegers.hpp"
@@ -13,5 +13,6 @@ module;
 #include "Org/BouncyCastle/Utilities/Strings.hpp"
 #include "Org/BouncyCastle/Utilities/Times.hpp"
 #ifdef __cpp_modules
-export module Utilities;
-#endif
+                    export module Utilities;
+                    #endif
+                

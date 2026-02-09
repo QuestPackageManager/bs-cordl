@@ -20,42 +20,42 @@ namespace System::Net::NetworkInformation {
 // CS Name: System.Net.NetworkInformation.UnixIPGlobalPropertiesFactoryPal
 class CORDL_TYPE UnixIPGlobalPropertiesFactoryPal : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field <PlatformNeedsLibCWorkaround>k__BackingField, offset 0xffffffff, size 0x1
-  __declspec(property(get = getStaticF__PlatformNeedsLibCWorkaround_k__BackingField, put = setStaticF__PlatformNeedsLibCWorkaround_k__BackingField)) bool _PlatformNeedsLibCWorkaround_k__BackingField;
+// Declarations
+/// @brief Field <PlatformNeedsLibCWorkaround>k__BackingField, offset 0xffffffff, size 0x1 
+ __declspec(property(get=getStaticF__PlatformNeedsLibCWorkaround_k__BackingField, put=setStaticF__PlatformNeedsLibCWorkaround_k__BackingField)) bool  _PlatformNeedsLibCWorkaround_k__BackingField;
 
-  /// @brief Method Create, addr 0x619f9f0, size 0xbc, virtual false, abstract: false, final false
-  static inline ::System::Net::NetworkInformation::IPGlobalProperties* Create();
+/// @brief Method Create, addr 0x61a00b0, size 0xbc, virtual false, abstract: false, final false
+static inline ::System::Net::NetworkInformation::IPGlobalProperties* Create() ;
 
-  static inline bool getStaticF__PlatformNeedsLibCWorkaround_k__BackingField();
+static inline bool getStaticF__PlatformNeedsLibCWorkaround_k__BackingField() ;
 
-  /// @brief Method get_PlatformNeedsLibCWorkaround, addr 0x61a2538, size 0x4c, virtual false, abstract: false, final false
-  static inline bool get_PlatformNeedsLibCWorkaround();
+/// @brief Method get_PlatformNeedsLibCWorkaround, addr 0x61a2bf8, size 0x4c, virtual false, abstract: false, final false
+static inline bool get_PlatformNeedsLibCWorkaround() ;
 
-  static inline void setStaticF__PlatformNeedsLibCWorkaround_k__BackingField(bool value);
+static inline void setStaticF__PlatformNeedsLibCWorkaround_k__BackingField(bool  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr UnixIPGlobalPropertiesFactoryPal();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr UnixIPGlobalPropertiesFactoryPal() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UnixIPGlobalPropertiesFactoryPal", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  UnixIPGlobalPropertiesFactoryPal(UnixIPGlobalPropertiesFactoryPal&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UnixIPGlobalPropertiesFactoryPal", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  UnixIPGlobalPropertiesFactoryPal(UnixIPGlobalPropertiesFactoryPal const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "UnixIPGlobalPropertiesFactoryPal", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+UnixIPGlobalPropertiesFactoryPal(UnixIPGlobalPropertiesFactoryPal && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11688 };
+// Ctor Parameters [CppParam { name: "", ty: "UnixIPGlobalPropertiesFactoryPal", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+UnixIPGlobalPropertiesFactoryPal(UnixIPGlobalPropertiesFactoryPal const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11692};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::NetworkInformation::UnixIPGlobalPropertiesFactoryPal, 0x10>, "Size mismatch!");
 
-} // namespace System::Net::NetworkInformation
+} // namespace end def System::Net::NetworkInformation
 NEED_NO_BOX(::System::Net::NetworkInformation::UnixIPGlobalPropertiesFactoryPal);
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::NetworkInformation::UnixIPGlobalPropertiesFactoryPal*, "System.Net.NetworkInformation", "UnixIPGlobalPropertiesFactoryPal");

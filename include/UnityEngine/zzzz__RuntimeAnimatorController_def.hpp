@@ -23,42 +23,42 @@ namespace UnityEngine {
 // CS Name: UnityEngine.RuntimeAnimatorController
 class CORDL_TYPE RuntimeAnimatorController : public ::UnityEngine::Object {
 public:
-  // Declarations
-  __declspec(property(get = get_animationClips)) ::ArrayW<::UnityW<::UnityEngine::AnimationClip>, ::Array<::UnityW<::UnityEngine::AnimationClip>>*> animationClips;
+// Declarations
+ __declspec(property(get=get_animationClips)) ::ArrayW<::UnityW<::UnityEngine::AnimationClip>,::Array<::UnityW<::UnityEngine::AnimationClip>>*>  animationClips;
 
-  static inline ::UnityEngine::RuntimeAnimatorController* New_ctor();
+static inline ::UnityEngine::RuntimeAnimatorController* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x6874ffc, size 0x58, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x68756bc, size 0x58, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_animationClips, addr 0x68767ac, size 0x80, virtual false, abstract: false, final false
-  inline ::ArrayW<::UnityW<::UnityEngine::AnimationClip>, ::Array<::UnityW<::UnityEngine::AnimationClip>>*> get_animationClips();
+/// @brief Method get_animationClips, addr 0x6876e6c, size 0x80, virtual false, abstract: false, final false
+inline ::ArrayW<::UnityW<::UnityEngine::AnimationClip>,::Array<::UnityW<::UnityEngine::AnimationClip>>*> get_animationClips() ;
 
-  /// @brief Method get_animationClips_Injected, addr 0x687682c, size 0x3c, virtual false, abstract: false, final false
-  static inline ::ArrayW<::UnityW<::UnityEngine::AnimationClip>, ::Array<::UnityW<::UnityEngine::AnimationClip>>*> get_animationClips_Injected(::System::IntPtr _unity_self);
+/// @brief Method get_animationClips_Injected, addr 0x6876eec, size 0x3c, virtual false, abstract: false, final false
+static inline ::ArrayW<::UnityW<::UnityEngine::AnimationClip>,::Array<::UnityW<::UnityEngine::AnimationClip>>*> get_animationClips_Injected(::System::IntPtr  _unity_self) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RuntimeAnimatorController();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr RuntimeAnimatorController() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RuntimeAnimatorController", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  RuntimeAnimatorController(RuntimeAnimatorController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RuntimeAnimatorController", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  RuntimeAnimatorController(RuntimeAnimatorController const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "RuntimeAnimatorController", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+RuntimeAnimatorController(RuntimeAnimatorController && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20010 };
+// Ctor Parameters [CppParam { name: "", ty: "RuntimeAnimatorController", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+RuntimeAnimatorController(RuntimeAnimatorController const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20014};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::RuntimeAnimatorController, 0x18>, "Size mismatch!");
 
-} // namespace UnityEngine
+} // namespace end def UnityEngine
 NEED_NO_BOX(::UnityEngine::RuntimeAnimatorController);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::RuntimeAnimatorController*, "UnityEngine", "RuntimeAnimatorController");

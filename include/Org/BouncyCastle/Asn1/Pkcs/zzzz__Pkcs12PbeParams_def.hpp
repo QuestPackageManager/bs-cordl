@@ -36,73 +36,73 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
 // CS Name: Org.BouncyCastle.Asn1.Pkcs.Pkcs12PbeParams
 class CORDL_TYPE Pkcs12PbeParams : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
-  // Declarations
-  __declspec(property(get = get_Iterations)) ::Org::BouncyCastle::Math::BigInteger* Iterations;
+// Declarations
+ __declspec(property(get=get_Iterations)) ::Org::BouncyCastle::Math::BigInteger*  Iterations;
 
-  /// @brief Field iterations, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_iterations, put = __cordl_internal_set_iterations)) ::Org::BouncyCastle::Asn1::DerInteger* iterations;
+/// @brief Field iterations, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_iterations, put=__cordl_internal_set_iterations)) ::Org::BouncyCastle::Asn1::DerInteger*  iterations;
 
-  /// @brief Field iv, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_iv, put = __cordl_internal_set_iv)) ::Org::BouncyCastle::Asn1::Asn1OctetString* iv;
+/// @brief Field iv, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_iv, put=__cordl_internal_set_iv)) ::Org::BouncyCastle::Asn1::Asn1OctetString*  iv;
 
-  /// @brief Method GetIV, addr 0x3369408, size 0x1c, virtual false, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetIV();
+/// @brief Method GetIV, addr 0x3369358, size 0x1c, virtual false, abstract: false, final false
+inline ::ArrayW<uint8_t,::Array<uint8_t>*> GetIV() ;
 
-  /// @brief Method GetInstance, addr 0x336926c, size 0x184, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Asn1::Pkcs::Pkcs12PbeParams* GetInstance(::System::Object* obj);
+/// @brief Method GetInstance, addr 0x33691bc, size 0x184, virtual false, abstract: false, final false
+static inline ::Org::BouncyCastle::Asn1::Pkcs::Pkcs12PbeParams* GetInstance(::System::Object*  obj) ;
 
-  static inline ::Org::BouncyCastle::Asn1::Pkcs::Pkcs12PbeParams* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> salt, int32_t iterations);
+static inline ::Org::BouncyCastle::Asn1::Pkcs::Pkcs12PbeParams* New_ctor(::ArrayW<uint8_t,::Array<uint8_t>*>  salt, int32_t  iterations) ;
 
-  static inline ::Org::BouncyCastle::Asn1::Pkcs::Pkcs12PbeParams* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
+static inline ::Org::BouncyCastle::Asn1::Pkcs::Pkcs12PbeParams* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence*  seq) ;
 
-  /// @brief Method ToAsn1Object, addr 0x3369424, size 0xf0, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
+/// @brief Method ToAsn1Object, addr 0x3369374, size 0xf0, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object() ;
 
-  constexpr ::Org::BouncyCastle::Asn1::DerInteger* const& __cordl_internal_get_iterations() const;
+constexpr ::Org::BouncyCastle::Asn1::DerInteger* const& __cordl_internal_get_iterations() const;
 
-  constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __cordl_internal_get_iterations();
+constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __cordl_internal_get_iterations() ;
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString* const& __cordl_internal_get_iv() const;
+constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString* const& __cordl_internal_get_iv() const;
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString*& __cordl_internal_get_iv();
+constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString*& __cordl_internal_get_iv() ;
 
-  constexpr void __cordl_internal_set_iterations(::Org::BouncyCastle::Asn1::DerInteger* value);
+constexpr void __cordl_internal_set_iterations(::Org::BouncyCastle::Asn1::DerInteger*  value) ;
 
-  constexpr void __cordl_internal_set_iv(::Org::BouncyCastle::Asn1::Asn1OctetString* value);
+constexpr void __cordl_internal_set_iv(::Org::BouncyCastle::Asn1::Asn1OctetString*  value) ;
 
-  /// @brief Method .ctor, addr 0x33690f0, size 0xa0, virtual false, abstract: false, final false
-  inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> salt, int32_t iterations);
+/// @brief Method .ctor, addr 0x3369040, size 0xa0, virtual false, abstract: false, final false
+inline void _ctor(::ArrayW<uint8_t,::Array<uint8_t>*>  salt, int32_t  iterations) ;
 
-  /// @brief Method .ctor, addr 0x3369190, size 0xdc, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
+/// @brief Method .ctor, addr 0x33690e0, size 0xdc, virtual false, abstract: false, final false
+inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence*  seq) ;
 
-  /// @brief Method get_Iterations, addr 0x33693f0, size 0x18, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Math::BigInteger* get_Iterations();
+/// @brief Method get_Iterations, addr 0x3369340, size 0x18, virtual false, abstract: false, final false
+inline ::Org::BouncyCastle::Math::BigInteger* get_Iterations() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Pkcs12PbeParams();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr Pkcs12PbeParams() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Pkcs12PbeParams", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  Pkcs12PbeParams(Pkcs12PbeParams&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Pkcs12PbeParams", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  Pkcs12PbeParams(Pkcs12PbeParams const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "Pkcs12PbeParams", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+Pkcs12PbeParams(Pkcs12PbeParams && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 244 };
+// Ctor Parameters [CppParam { name: "", ty: "Pkcs12PbeParams", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+Pkcs12PbeParams(Pkcs12PbeParams const& ) = delete;
 
-  /// @brief Field iterations, offset: 0x10, size: 0x8, def value: None
-  ::Org::BouncyCastle::Asn1::DerInteger* ___iterations;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{244};
 
-  /// @brief Field iv, offset: 0x18, size: 0x8, def value: None
-  ::Org::BouncyCastle::Asn1::Asn1OctetString* ___iv;
+/// @brief Field iterations, offset: 0x10, size: 0x8, def value: None
+ ::Org::BouncyCastle::Asn1::DerInteger*  ___iterations;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field iv, offset: 0x18, size: 0x8, def value: None
+ ::Org::BouncyCastle::Asn1::Asn1OctetString*  ___iv;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Org::BouncyCastle::Asn1::Pkcs::Pkcs12PbeParams, ___iterations) == 0x10, "Offset mismatch!");
@@ -111,6 +111,6 @@ static_assert(offsetof(::Org::BouncyCastle::Asn1::Pkcs::Pkcs12PbeParams, ___iv) 
 
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Pkcs::Pkcs12PbeParams, 0x20>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Asn1::Pkcs
+} // namespace end def Org::BouncyCastle::Asn1::Pkcs
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Pkcs::Pkcs12PbeParams);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::Pkcs::Pkcs12PbeParams*, "Org.BouncyCastle.Asn1.Pkcs", "Pkcs12PbeParams");

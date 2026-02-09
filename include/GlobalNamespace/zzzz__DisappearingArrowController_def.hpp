@@ -20,53 +20,53 @@ namespace GlobalNamespace {
 // CS Name: DisappearingArrowController
 class CORDL_TYPE DisappearingArrowController : public ::GlobalNamespace::DisappearingArrowControllerBase_1<::UnityW<::GlobalNamespace::GameNoteController>> {
 public:
-  // Declarations
-  /// @brief Field _gameNoteController, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get__gameNoteController, put = __cordl_internal_set__gameNoteController)) ::UnityW<::GlobalNamespace::GameNoteController> _gameNoteController;
+// Declarations
+/// @brief Field _gameNoteController, offset 0x58, size 0x8 
+ __declspec(property(get=__cordl_internal_get__gameNoteController, put=__cordl_internal_set__gameNoteController)) ::UnityW<::GlobalNamespace::GameNoteController>  _gameNoteController;
 
-  __declspec(property(get = get_gameNoteController)) ::UnityW<::GlobalNamespace::GameNoteController> gameNoteController;
+ __declspec(property(get=get_gameNoteController)) ::UnityW<::GlobalNamespace::GameNoteController>  gameNoteController;
 
-  static inline ::GlobalNamespace::DisappearingArrowController* New_ctor();
+static inline ::GlobalNamespace::DisappearingArrowController* New_ctor() ;
 
-  constexpr ::UnityW<::GlobalNamespace::GameNoteController> const& __cordl_internal_get__gameNoteController() const;
+constexpr ::UnityW<::GlobalNamespace::GameNoteController> const& __cordl_internal_get__gameNoteController() const;
 
-  constexpr ::UnityW<::GlobalNamespace::GameNoteController>& __cordl_internal_get__gameNoteController();
+constexpr ::UnityW<::GlobalNamespace::GameNoteController>& __cordl_internal_get__gameNoteController() ;
 
-  constexpr void __cordl_internal_set__gameNoteController(::UnityW<::GlobalNamespace::GameNoteController> value);
+constexpr void __cordl_internal_set__gameNoteController(::UnityW<::GlobalNamespace::GameNoteController>  value) ;
 
-  /// @brief Method .ctor, addr 0x5725bb8, size 0x78, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5725940, size 0x78, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_gameNoteController, addr 0x5725bb0, size 0x8, virtual true, abstract: false, final false
-  inline ::UnityW<::GlobalNamespace::GameNoteController> get_gameNoteController();
+/// @brief Method get_gameNoteController, addr 0x5725938, size 0x8, virtual true, abstract: false, final false
+inline ::UnityW<::GlobalNamespace::GameNoteController> get_gameNoteController() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DisappearingArrowController();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr DisappearingArrowController() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DisappearingArrowController", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  DisappearingArrowController(DisappearingArrowController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DisappearingArrowController", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  DisappearingArrowController(DisappearingArrowController const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "DisappearingArrowController", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+DisappearingArrowController(DisappearingArrowController && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5660 };
+// Ctor Parameters [CppParam { name: "", ty: "DisappearingArrowController", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+DisappearingArrowController(DisappearingArrowController const& ) = delete;
 
-  /// @brief Field _gameNoteController, offset: 0x58, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::GameNoteController> ____gameNoteController;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{5660};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _gameNoteController, offset: 0x58, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::GameNoteController>  ____gameNoteController;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::DisappearingArrowController, ____gameNoteController) == 0x58, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::DisappearingArrowController, 0x60>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::DisappearingArrowController);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::DisappearingArrowController*, "", "DisappearingArrowController");

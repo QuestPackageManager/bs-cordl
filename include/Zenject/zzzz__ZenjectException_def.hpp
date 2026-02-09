@@ -21,39 +21,39 @@ namespace Zenject {
 // CS Name: Zenject.ZenjectException
 class CORDL_TYPE ZenjectException : public ::System::Exception {
 public:
-  // Declarations
-  static inline ::Zenject::ZenjectException* New_ctor(::StringW message);
+// Declarations
+static inline ::Zenject::ZenjectException* New_ctor(::StringW  message) ;
 
-  static inline ::Zenject::ZenjectException* New_ctor(::StringW message, ::System::Exception* innerException);
+static inline ::Zenject::ZenjectException* New_ctor(::StringW  message, ::System::Exception*  innerException) ;
 
-  /// @brief Method .ctor, addr 0x6cd1fec, size 0x6c, virtual false, abstract: false, final false
-  inline void _ctor(::StringW message);
+/// @brief Method .ctor, addr 0x6cd26ac, size 0x6c, virtual false, abstract: false, final false
+inline void _ctor(::StringW  message) ;
 
-  /// @brief Method .ctor, addr 0x6cd2058, size 0x74, virtual false, abstract: false, final false
-  inline void _ctor(::StringW message, ::System::Exception* innerException);
+/// @brief Method .ctor, addr 0x6cd2718, size 0x74, virtual false, abstract: false, final false
+inline void _ctor(::StringW  message, ::System::Exception*  innerException) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ZenjectException();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ZenjectException() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ZenjectException", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ZenjectException(ZenjectException&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ZenjectException", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ZenjectException(ZenjectException const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ZenjectException", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ZenjectException(ZenjectException && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14688 };
+// Ctor Parameters [CppParam { name: "", ty: "ZenjectException", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ZenjectException(ZenjectException const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{14692};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Zenject::ZenjectException, 0x90>, "Size mismatch!");
 
-} // namespace Zenject
+} // namespace end def Zenject
 NEED_NO_BOX(::Zenject::ZenjectException);
 DEFINE_IL2CPP_ARG_TYPE(::Zenject::ZenjectException*, "Zenject", "ZenjectException");

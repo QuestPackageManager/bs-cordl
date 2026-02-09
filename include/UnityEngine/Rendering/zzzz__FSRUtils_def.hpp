@@ -38,126 +38,124 @@ namespace UnityEngine::Rendering {
 // CS Name: UnityEngine.Rendering.FSRUtils/ShaderConstants
 class CORDL_TYPE FSRUtils_ShaderConstants : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field _FsrEasuConstants0, offset 0xffffffff, size 0x4
-  __declspec(property(get = getStaticF__FsrEasuConstants0, put = setStaticF__FsrEasuConstants0)) int32_t _FsrEasuConstants0;
+// Declarations
+/// @brief Field _FsrEasuConstants0, offset 0xffffffff, size 0x4 
+ __declspec(property(get=getStaticF__FsrEasuConstants0, put=setStaticF__FsrEasuConstants0)) int32_t  _FsrEasuConstants0;
 
-  /// @brief Field _FsrEasuConstants1, offset 0xffffffff, size 0x4
-  __declspec(property(get = getStaticF__FsrEasuConstants1, put = setStaticF__FsrEasuConstants1)) int32_t _FsrEasuConstants1;
+/// @brief Field _FsrEasuConstants1, offset 0xffffffff, size 0x4 
+ __declspec(property(get=getStaticF__FsrEasuConstants1, put=setStaticF__FsrEasuConstants1)) int32_t  _FsrEasuConstants1;
 
-  /// @brief Field _FsrEasuConstants2, offset 0xffffffff, size 0x4
-  __declspec(property(get = getStaticF__FsrEasuConstants2, put = setStaticF__FsrEasuConstants2)) int32_t _FsrEasuConstants2;
+/// @brief Field _FsrEasuConstants2, offset 0xffffffff, size 0x4 
+ __declspec(property(get=getStaticF__FsrEasuConstants2, put=setStaticF__FsrEasuConstants2)) int32_t  _FsrEasuConstants2;
 
-  /// @brief Field _FsrEasuConstants3, offset 0xffffffff, size 0x4
-  __declspec(property(get = getStaticF__FsrEasuConstants3, put = setStaticF__FsrEasuConstants3)) int32_t _FsrEasuConstants3;
+/// @brief Field _FsrEasuConstants3, offset 0xffffffff, size 0x4 
+ __declspec(property(get=getStaticF__FsrEasuConstants3, put=setStaticF__FsrEasuConstants3)) int32_t  _FsrEasuConstants3;
 
-  /// @brief Field _FsrRcasConstants, offset 0xffffffff, size 0x4
-  __declspec(property(get = getStaticF__FsrRcasConstants, put = setStaticF__FsrRcasConstants)) int32_t _FsrRcasConstants;
+/// @brief Field _FsrRcasConstants, offset 0xffffffff, size 0x4 
+ __declspec(property(get=getStaticF__FsrRcasConstants, put=setStaticF__FsrRcasConstants)) int32_t  _FsrRcasConstants;
 
-  static inline int32_t getStaticF__FsrEasuConstants0();
+static inline int32_t getStaticF__FsrEasuConstants0() ;
 
-  static inline int32_t getStaticF__FsrEasuConstants1();
+static inline int32_t getStaticF__FsrEasuConstants1() ;
 
-  static inline int32_t getStaticF__FsrEasuConstants2();
+static inline int32_t getStaticF__FsrEasuConstants2() ;
 
-  static inline int32_t getStaticF__FsrEasuConstants3();
+static inline int32_t getStaticF__FsrEasuConstants3() ;
 
-  static inline int32_t getStaticF__FsrRcasConstants();
+static inline int32_t getStaticF__FsrRcasConstants() ;
 
-  static inline void setStaticF__FsrEasuConstants0(int32_t value);
+static inline void setStaticF__FsrEasuConstants0(int32_t  value) ;
 
-  static inline void setStaticF__FsrEasuConstants1(int32_t value);
+static inline void setStaticF__FsrEasuConstants1(int32_t  value) ;
 
-  static inline void setStaticF__FsrEasuConstants2(int32_t value);
+static inline void setStaticF__FsrEasuConstants2(int32_t  value) ;
 
-  static inline void setStaticF__FsrEasuConstants3(int32_t value);
+static inline void setStaticF__FsrEasuConstants3(int32_t  value) ;
 
-  static inline void setStaticF__FsrRcasConstants(int32_t value);
+static inline void setStaticF__FsrRcasConstants(int32_t  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr FSRUtils_ShaderConstants();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr FSRUtils_ShaderConstants() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FSRUtils_ShaderConstants", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  FSRUtils_ShaderConstants(FSRUtils_ShaderConstants&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FSRUtils_ShaderConstants", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  FSRUtils_ShaderConstants(FSRUtils_ShaderConstants const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "FSRUtils_ShaderConstants", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+FSRUtils_ShaderConstants(FSRUtils_ShaderConstants && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12255 };
+// Ctor Parameters [CppParam { name: "", ty: "FSRUtils_ShaderConstants", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+FSRUtils_ShaderConstants(FSRUtils_ShaderConstants const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12259};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::FSRUtils_ShaderConstants, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine::Rendering
+} // namespace end def UnityEngine::Rendering
 // Dependencies System.Object
 namespace UnityEngine::Rendering {
 // Is value type: false
 // CS Name: UnityEngine.Rendering.FSRUtils
 class CORDL_TYPE FSRUtils : public ::System::Object {
 public:
-  // Declarations
-  using ShaderConstants = ::UnityEngine::Rendering::FSRUtils_ShaderConstants;
+// Declarations
+using ShaderConstants = ::UnityEngine::Rendering::FSRUtils_ShaderConstants;
 
-  /// @brief Method IsSupported, addr 0x660ba18, size 0x34, virtual false, abstract: false, final false
-  static inline bool IsSupported();
+/// @brief Method IsSupported, addr 0x660c0d8, size 0x34, virtual false, abstract: false, final false
+static inline bool IsSupported() ;
 
-  /// @brief Method SetEasuConstants, addr 0x660b904, size 0x14, virtual false, abstract: false, final false
-  static inline void SetEasuConstants(::UnityEngine::Rendering::BaseCommandBuffer* cmd, ::UnityEngine::Vector2 inputViewportSizeInPixels, ::UnityEngine::Vector2 inputImageSizeInPixels,
-                                      ::UnityEngine::Vector2 outputImageSizeInPixels);
+/// @brief Method SetEasuConstants, addr 0x660bfc4, size 0x14, virtual false, abstract: false, final false
+static inline void SetEasuConstants(::UnityEngine::Rendering::BaseCommandBuffer*  cmd, ::UnityEngine::Vector2  inputViewportSizeInPixels, ::UnityEngine::Vector2  inputImageSizeInPixels, ::UnityEngine::Vector2  outputImageSizeInPixels) ;
 
-  /// @brief Method SetEasuConstants, addr 0x660b780, size 0x184, virtual false, abstract: false, final false
-  static inline void SetEasuConstants(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Vector2 inputViewportSizeInPixels, ::UnityEngine::Vector2 inputImageSizeInPixels,
-                                      ::UnityEngine::Vector2 outputImageSizeInPixels);
+/// @brief Method SetEasuConstants, addr 0x660be40, size 0x184, virtual false, abstract: false, final false
+static inline void SetEasuConstants(::UnityEngine::Rendering::CommandBuffer*  cmd, ::UnityEngine::Vector2  inputViewportSizeInPixels, ::UnityEngine::Vector2  inputImageSizeInPixels, ::UnityEngine::Vector2  outputImageSizeInPixels) ;
 
-  /// @brief Method SetRcasConstants, addr 0x660b918, size 0xc8, virtual false, abstract: false, final false
-  static inline void SetRcasConstants(::UnityEngine::Rendering::CommandBuffer* cmd, float_t sharpnessStops);
+/// @brief Method SetRcasConstants, addr 0x660bfd8, size 0xc8, virtual false, abstract: false, final false
+static inline void SetRcasConstants(::UnityEngine::Rendering::CommandBuffer*  cmd, float_t  sharpnessStops) ;
 
-  /// @brief Method SetRcasConstantsLinear, addr 0x660b9e0, size 0x14, virtual false, abstract: false, final false
-  static inline void SetRcasConstantsLinear(::UnityEngine::Rendering::CommandBuffer* cmd, float_t sharpnessLinear);
+/// @brief Method SetRcasConstantsLinear, addr 0x660c0a0, size 0x14, virtual false, abstract: false, final false
+static inline void SetRcasConstantsLinear(::UnityEngine::Rendering::CommandBuffer*  cmd, float_t  sharpnessLinear) ;
 
-  /// @brief Method SetRcasConstantsLinear, addr 0x660b9f4, size 0x24, virtual false, abstract: false, final false
-  static inline void SetRcasConstantsLinear(::UnityEngine::Rendering::RasterCommandBuffer* cmd, float_t sharpnessLinear);
+/// @brief Method SetRcasConstantsLinear, addr 0x660c0b4, size 0x24, virtual false, abstract: false, final false
+static inline void SetRcasConstantsLinear(::UnityEngine::Rendering::RasterCommandBuffer*  cmd, float_t  sharpnessLinear) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr FSRUtils();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr FSRUtils() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FSRUtils", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  FSRUtils(FSRUtils&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FSRUtils", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  FSRUtils(FSRUtils const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "FSRUtils", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+FSRUtils(FSRUtils && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12256 };
+// Ctor Parameters [CppParam { name: "", ty: "FSRUtils", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+FSRUtils(FSRUtils const& ) = delete;
 
-  /// @brief Field kDefaultSharpnessLinear offset 0xffffffff size 0x4
-  static constexpr float_t kDefaultSharpnessLinear{ static_cast<float_t>(0.92f) };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12260};
 
-  /// @brief Field kDefaultSharpnessStops offset 0xffffffff size 0x4
-  static constexpr float_t kDefaultSharpnessStops{ static_cast<float_t>(0.2f) };
+/// @brief Field kDefaultSharpnessLinear offset 0xffffffff size 0x4
+static constexpr float_t  kDefaultSharpnessLinear{static_cast<float_t>(0.92f)};
 
-  /// @brief Field kMaxSharpnessStops offset 0xffffffff size 0x4
-  static constexpr float_t kMaxSharpnessStops{ static_cast<float_t>(2.5f) };
+/// @brief Field kDefaultSharpnessStops offset 0xffffffff size 0x4
+static constexpr float_t  kDefaultSharpnessStops{static_cast<float_t>(0.2f)};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field kMaxSharpnessStops offset 0xffffffff size 0x4
+static constexpr float_t  kMaxSharpnessStops{static_cast<float_t>(2.5f)};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::FSRUtils, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine::Rendering
+} // namespace end def UnityEngine::Rendering
 NEED_NO_BOX(::UnityEngine::Rendering::FSRUtils);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::FSRUtils*, "UnityEngine.Rendering", "FSRUtils");
 NEED_NO_BOX(::UnityEngine::Rendering::FSRUtils_ShaderConstants);

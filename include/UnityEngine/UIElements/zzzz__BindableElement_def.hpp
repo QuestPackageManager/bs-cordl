@@ -49,166 +49,166 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::BindableElement_UxmlTraits);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.BindableElement/UxmlFactory
-class CORDL_TYPE BindableElement_UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::BindableElement*, ::UnityEngine::UIElements::BindableElement_UxmlTraits*> {
+class CORDL_TYPE BindableElement_UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::BindableElement*,::UnityEngine::UIElements::BindableElement_UxmlTraits*> {
 public:
-  // Declarations
-  static inline ::UnityEngine::UIElements::BindableElement_UxmlFactory* New_ctor();
+// Declarations
+static inline ::UnityEngine::UIElements::BindableElement_UxmlFactory* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x6a64d60, size 0x68, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6a65420, size 0x68, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BindableElement_UxmlFactory();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr BindableElement_UxmlFactory() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BindableElement_UxmlFactory", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  BindableElement_UxmlFactory(BindableElement_UxmlFactory&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BindableElement_UxmlFactory", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  BindableElement_UxmlFactory(BindableElement_UxmlFactory const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "BindableElement_UxmlFactory", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+BindableElement_UxmlFactory(BindableElement_UxmlFactory && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4017 };
+// Ctor Parameters [CppParam { name: "", ty: "BindableElement_UxmlFactory", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+BindableElement_UxmlFactory(BindableElement_UxmlFactory const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4017};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::BindableElement_UxmlFactory, 0x18>, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements
+} // namespace end def UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.VisualElement::UxmlTraits
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.BindableElement/UxmlTraits
 class CORDL_TYPE BindableElement_UxmlTraits : public ::UnityEngine::UIElements::VisualElement_UxmlTraits {
 public:
-  // Declarations
-  /// @brief Field m_PropertyPath, offset 0x88, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_PropertyPath, put = __cordl_internal_set_m_PropertyPath)) ::UnityEngine::UIElements::UxmlStringAttributeDescription* m_PropertyPath;
+// Declarations
+/// @brief Field m_PropertyPath, offset 0x88, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_PropertyPath, put=__cordl_internal_set_m_PropertyPath)) ::UnityEngine::UIElements::UxmlStringAttributeDescription*  m_PropertyPath;
 
-  /// @brief Method Init, addr 0x6a64e58, size 0x158, virtual true, abstract: false, final false
-  inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
+/// @brief Method Init, addr 0x6a65518, size 0x158, virtual true, abstract: false, final false
+inline void Init(::UnityEngine::UIElements::VisualElement*  ve, ::UnityEngine::UIElements::IUxmlAttributes*  bag, ::UnityEngine::UIElements::CreationContext  cc) ;
 
-  static inline ::UnityEngine::UIElements::BindableElement_UxmlTraits* New_ctor();
+static inline ::UnityEngine::UIElements::BindableElement_UxmlTraits* New_ctor() ;
 
-  constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription* const& __cordl_internal_get_m_PropertyPath() const;
+constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription* const& __cordl_internal_get_m_PropertyPath() const;
 
-  constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription*& __cordl_internal_get_m_PropertyPath();
+constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription*& __cordl_internal_get_m_PropertyPath() ;
 
-  constexpr void __cordl_internal_set_m_PropertyPath(::UnityEngine::UIElements::UxmlStringAttributeDescription* value);
+constexpr void __cordl_internal_set_m_PropertyPath(::UnityEngine::UIElements::UxmlStringAttributeDescription*  value) ;
 
-  /// @brief Method .ctor, addr 0x6a64dc8, size 0x90, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6a65488, size 0x90, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BindableElement_UxmlTraits();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr BindableElement_UxmlTraits() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BindableElement_UxmlTraits", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  BindableElement_UxmlTraits(BindableElement_UxmlTraits&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BindableElement_UxmlTraits", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  BindableElement_UxmlTraits(BindableElement_UxmlTraits const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "BindableElement_UxmlTraits", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+BindableElement_UxmlTraits(BindableElement_UxmlTraits && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4018 };
+// Ctor Parameters [CppParam { name: "", ty: "BindableElement_UxmlTraits", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+BindableElement_UxmlTraits(BindableElement_UxmlTraits const& ) = delete;
 
-  /// @brief Field m_PropertyPath, offset: 0x88, size: 0x8, def value: None
-  ::UnityEngine::UIElements::UxmlStringAttributeDescription* ___m_PropertyPath;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4018};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field m_PropertyPath, offset: 0x88, size: 0x8, def value: None
+ ::UnityEngine::UIElements::UxmlStringAttributeDescription*  ___m_PropertyPath;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::UIElements::BindableElement_UxmlTraits, ___m_PropertyPath) == 0x88, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::BindableElement_UxmlTraits, 0x90>, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements
+} // namespace end def UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.VisualElement
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.BindableElement
 class CORDL_TYPE BindableElement : public ::UnityEngine::UIElements::VisualElement {
 public:
-  // Declarations
-  using UxmlFactory = ::UnityEngine::UIElements::BindableElement_UxmlFactory;
+// Declarations
+using UxmlFactory = ::UnityEngine::UIElements::BindableElement_UxmlFactory;
 
-  using UxmlTraits = ::UnityEngine::UIElements::BindableElement_UxmlTraits;
+using UxmlTraits = ::UnityEngine::UIElements::BindableElement_UxmlTraits;
 
-  /// @brief Field <bindingPath>k__BackingField, offset 0x4b0, size 0x8
-  __declspec(property(get = __cordl_internal_get__bindingPath_k__BackingField, put = __cordl_internal_set__bindingPath_k__BackingField)) ::StringW _bindingPath_k__BackingField;
+/// @brief Field <bindingPath>k__BackingField, offset 0x4b0, size 0x8 
+ __declspec(property(get=__cordl_internal_get__bindingPath_k__BackingField, put=__cordl_internal_set__bindingPath_k__BackingField)) ::StringW  _bindingPath_k__BackingField;
 
-  /// @brief Field <binding>k__BackingField, offset 0x4a8, size 0x8
-  __declspec(property(get = __cordl_internal_get__binding_k__BackingField, put = __cordl_internal_set__binding_k__BackingField)) ::UnityEngine::UIElements::IBinding* _binding_k__BackingField;
+/// @brief Field <binding>k__BackingField, offset 0x4a8, size 0x8 
+ __declspec(property(get=__cordl_internal_get__binding_k__BackingField, put=__cordl_internal_set__binding_k__BackingField)) ::UnityEngine::UIElements::IBinding*  _binding_k__BackingField;
 
-  __declspec(property(get = get_binding)) ::UnityEngine::UIElements::IBinding* binding;
+ __declspec(property(get=get_binding)) ::UnityEngine::UIElements::IBinding*  binding;
 
-  __declspec(property(put = set_bindingPath)) ::StringW bindingPath;
+ __declspec(property(put=set_bindingPath)) ::StringW  bindingPath;
 
-  /// @brief Convert operator to "::UnityEngine::UIElements::IBindable"
-  constexpr operator ::UnityEngine::UIElements::IBindable*() noexcept;
+/// @brief Convert operator to "::UnityEngine::UIElements::IBindable"
+constexpr operator  ::UnityEngine::UIElements::IBindable*() noexcept;
 
-  static inline ::UnityEngine::UIElements::BindableElement* New_ctor();
+static inline ::UnityEngine::UIElements::BindableElement* New_ctor() ;
 
-  constexpr ::StringW const& __cordl_internal_get__bindingPath_k__BackingField() const;
+constexpr ::StringW const& __cordl_internal_get__bindingPath_k__BackingField() const;
 
-  constexpr ::StringW& __cordl_internal_get__bindingPath_k__BackingField();
+constexpr ::StringW& __cordl_internal_get__bindingPath_k__BackingField() ;
 
-  constexpr ::UnityEngine::UIElements::IBinding* const& __cordl_internal_get__binding_k__BackingField() const;
+constexpr ::UnityEngine::UIElements::IBinding* const& __cordl_internal_get__binding_k__BackingField() const;
 
-  constexpr ::UnityEngine::UIElements::IBinding*& __cordl_internal_get__binding_k__BackingField();
+constexpr ::UnityEngine::UIElements::IBinding*& __cordl_internal_get__binding_k__BackingField() ;
 
-  constexpr void __cordl_internal_set__bindingPath_k__BackingField(::StringW value);
+constexpr void __cordl_internal_set__bindingPath_k__BackingField(::StringW  value) ;
 
-  constexpr void __cordl_internal_set__binding_k__BackingField(::UnityEngine::UIElements::IBinding* value);
+constexpr void __cordl_internal_set__binding_k__BackingField(::UnityEngine::UIElements::IBinding*  value) ;
 
-  /// @brief Method .ctor, addr 0x6a64d04, size 0x5c, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6a653c4, size 0x5c, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_binding, addr 0x6a64cf4, size 0x8, virtual true, abstract: false, final true
-  inline ::UnityEngine::UIElements::IBinding* get_binding();
+/// @brief Method get_binding, addr 0x6a653b4, size 0x8, virtual true, abstract: false, final true
+inline ::UnityEngine::UIElements::IBinding* get_binding() ;
 
-  /// @brief Convert to "::UnityEngine::UIElements::IBindable"
-  constexpr ::UnityEngine::UIElements::IBindable* i___UnityEngine__UIElements__IBindable() noexcept;
+/// @brief Convert to "::UnityEngine::UIElements::IBindable"
+constexpr ::UnityEngine::UIElements::IBindable* i___UnityEngine__UIElements__IBindable() noexcept;
 
-  /// @brief Method set_bindingPath, addr 0x6a64cfc, size 0x8, virtual true, abstract: false, final true
-  inline void set_bindingPath(::StringW value);
+/// @brief Method set_bindingPath, addr 0x6a653bc, size 0x8, virtual true, abstract: false, final true
+inline void set_bindingPath(::StringW  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BindableElement();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr BindableElement() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BindableElement", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  BindableElement(BindableElement&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BindableElement", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  BindableElement(BindableElement const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "BindableElement", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+BindableElement(BindableElement && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4019 };
+// Ctor Parameters [CppParam { name: "", ty: "BindableElement", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+BindableElement(BindableElement const& ) = delete;
 
-  /// @brief Field k_BindingPathTooltip offset 0xffffffff size 0x8
-  static constexpr ::ConstString k_BindingPathTooltip{ u"Default method to define a path to a serialized property. Most often used for Editor extensions and inspectors." };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4019};
 
-  /// @brief Field <binding>k__BackingField, offset: 0x4a8, size: 0x8, def value: None
-  ::UnityEngine::UIElements::IBinding* ____binding_k__BackingField;
+/// @brief Field k_BindingPathTooltip offset 0xffffffff size 0x8
+static constexpr ::ConstString  k_BindingPathTooltip{u"Default method to define a path to a serialized property. Most often used for Editor extensions and inspectors."};
 
-  /// @brief Field <bindingPath>k__BackingField, offset: 0x4b0, size: 0x8, def value: None
-  ::StringW ____bindingPath_k__BackingField;
+/// @brief Field <binding>k__BackingField, offset: 0x4a8, size: 0x8, def value: None
+ ::UnityEngine::UIElements::IBinding*  ____binding_k__BackingField;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field <bindingPath>k__BackingField, offset: 0x4b0, size: 0x8, def value: None
+ ::StringW  ____bindingPath_k__BackingField;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::UIElements::BindableElement, ____binding_k__BackingField) == 0x4a8, "Offset mismatch!");
@@ -217,7 +217,7 @@ static_assert(offsetof(::UnityEngine::UIElements::BindableElement, ____bindingPa
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::BindableElement, 0x4b8>, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements
+} // namespace end def UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::BindableElement);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::BindableElement*, "UnityEngine.UIElements", "BindableElement");
 NEED_NO_BOX(::UnityEngine::UIElements::BindableElement_UxmlFactory);

@@ -27,128 +27,126 @@ namespace GlobalNamespace {
 // CS Name: HeadsetHapticSettingsSampleController
 class CORDL_TYPE HeadsetHapticSettingsSampleController : public ::UnityEngine::MonoBehaviour {
 public:
-  // Declarations
-  /// @brief Field _formattedFloatListSettingsController, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__formattedFloatListSettingsController,
-                      put = __cordl_internal_set__formattedFloatListSettingsController)) ::UnityW<::GlobalNamespace::FormattedFloatListSettingsController>
-      _formattedFloatListSettingsController;
+// Declarations
+/// @brief Field _formattedFloatListSettingsController, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get__formattedFloatListSettingsController, put=__cordl_internal_set__formattedFloatListSettingsController)) ::UnityW<::GlobalNamespace::FormattedFloatListSettingsController>  _formattedFloatListSettingsController;
 
-  /// @brief Field _hapticFeedbackManager, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__hapticFeedbackManager, put = __cordl_internal_set__hapticFeedbackManager)) ::UnityW<::GlobalNamespace::HapticFeedbackManager> _hapticFeedbackManager;
+/// @brief Field _hapticFeedbackManager, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get__hapticFeedbackManager, put=__cordl_internal_set__hapticFeedbackManager)) ::UnityW<::GlobalNamespace::HapticFeedbackManager>  _hapticFeedbackManager;
 
-  /// @brief Field _hapticSampleDuration, offset 0x2c, size 0x4
-  __declspec(property(get = __cordl_internal_get__hapticSampleDuration, put = __cordl_internal_set__hapticSampleDuration)) float_t _hapticSampleDuration;
+/// @brief Field _hapticSampleDuration, offset 0x2c, size 0x4 
+ __declspec(property(get=__cordl_internal_get__hapticSampleDuration, put=__cordl_internal_set__hapticSampleDuration)) float_t  _hapticSampleDuration;
 
-  /// @brief Field _hapticSamplePlayDelay, offset 0x28, size 0x4
-  __declspec(property(get = __cordl_internal_get__hapticSamplePlayDelay, put = __cordl_internal_set__hapticSamplePlayDelay)) float_t _hapticSamplePlayDelay;
+/// @brief Field _hapticSamplePlayDelay, offset 0x28, size 0x4 
+ __declspec(property(get=__cordl_internal_get__hapticSamplePlayDelay, put=__cordl_internal_set__hapticSamplePlayDelay)) float_t  _hapticSamplePlayDelay;
 
-  /// @brief Field _headHapticPreset, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__headHapticPreset, put = __cordl_internal_set__headHapticPreset)) ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> _headHapticPreset;
+/// @brief Field _headHapticPreset, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get__headHapticPreset, put=__cordl_internal_set__headHapticPreset)) ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO>  _headHapticPreset;
 
-  /// @brief Field _nextHapticSamplePlayTime, offset 0x40, size 0x4
-  __declspec(property(get = __cordl_internal_get__nextHapticSamplePlayTime, put = __cordl_internal_set__nextHapticSamplePlayTime)) float_t _nextHapticSamplePlayTime;
+/// @brief Field _nextHapticSamplePlayTime, offset 0x40, size 0x4 
+ __declspec(property(get=__cordl_internal_get__nextHapticSamplePlayTime, put=__cordl_internal_set__nextHapticSamplePlayTime)) float_t  _nextHapticSamplePlayTime;
 
-  /// @brief Field _nextHapticSamplePlayTimeEnd, offset 0x44, size 0x4
-  __declspec(property(get = __cordl_internal_get__nextHapticSamplePlayTimeEnd, put = __cordl_internal_set__nextHapticSamplePlayTimeEnd)) float_t _nextHapticSamplePlayTimeEnd;
+/// @brief Field _nextHapticSamplePlayTimeEnd, offset 0x44, size 0x4 
+ __declspec(property(get=__cordl_internal_get__nextHapticSamplePlayTimeEnd, put=__cordl_internal_set__nextHapticSamplePlayTimeEnd)) float_t  _nextHapticSamplePlayTimeEnd;
 
-  /// @brief Method HandleHapticSettingValueDidChange, addr 0x586eafc, size 0x74, virtual false, abstract: false, final false
-  inline void HandleHapticSettingValueDidChange(::GlobalNamespace::FormattedFloatListSettingsController* controller, float_t newValue);
+/// @brief Method HandleHapticSettingValueDidChange, addr 0x586f8a8, size 0x74, virtual false, abstract: false, final false
+inline void HandleHapticSettingValueDidChange(::GlobalNamespace::FormattedFloatListSettingsController*  controller, float_t  newValue) ;
 
-  static inline ::GlobalNamespace::HeadsetHapticSettingsSampleController* New_ctor();
+static inline ::GlobalNamespace::HeadsetHapticSettingsSampleController* New_ctor() ;
 
-  /// @brief Method OnDestroy, addr 0x586e980, size 0xd8, virtual false, abstract: false, final false
-  inline void OnDestroy();
+/// @brief Method OnDestroy, addr 0x586f72c, size 0xd8, virtual false, abstract: false, final false
+inline void OnDestroy() ;
 
-  /// @brief Method Start, addr 0x586e8e4, size 0x9c, virtual false, abstract: false, final false
-  inline void Start();
+/// @brief Method Start, addr 0x586f690, size 0x9c, virtual false, abstract: false, final false
+inline void Start() ;
 
-  /// @brief Method Update, addr 0x586ea58, size 0xa4, virtual false, abstract: false, final false
-  inline void Update();
+/// @brief Method Update, addr 0x586f804, size 0xa4, virtual false, abstract: false, final false
+inline void Update() ;
 
-  constexpr ::UnityW<::GlobalNamespace::FormattedFloatListSettingsController> const& __cordl_internal_get__formattedFloatListSettingsController() const;
+constexpr ::UnityW<::GlobalNamespace::FormattedFloatListSettingsController> const& __cordl_internal_get__formattedFloatListSettingsController() const;
 
-  constexpr ::UnityW<::GlobalNamespace::FormattedFloatListSettingsController>& __cordl_internal_get__formattedFloatListSettingsController();
+constexpr ::UnityW<::GlobalNamespace::FormattedFloatListSettingsController>& __cordl_internal_get__formattedFloatListSettingsController() ;
 
-  constexpr ::UnityW<::GlobalNamespace::HapticFeedbackManager> const& __cordl_internal_get__hapticFeedbackManager() const;
+constexpr ::UnityW<::GlobalNamespace::HapticFeedbackManager> const& __cordl_internal_get__hapticFeedbackManager() const;
 
-  constexpr ::UnityW<::GlobalNamespace::HapticFeedbackManager>& __cordl_internal_get__hapticFeedbackManager();
+constexpr ::UnityW<::GlobalNamespace::HapticFeedbackManager>& __cordl_internal_get__hapticFeedbackManager() ;
 
-  constexpr float_t const& __cordl_internal_get__hapticSampleDuration() const;
+constexpr float_t const& __cordl_internal_get__hapticSampleDuration() const;
 
-  constexpr float_t& __cordl_internal_get__hapticSampleDuration();
+constexpr float_t& __cordl_internal_get__hapticSampleDuration() ;
 
-  constexpr float_t const& __cordl_internal_get__hapticSamplePlayDelay() const;
+constexpr float_t const& __cordl_internal_get__hapticSamplePlayDelay() const;
 
-  constexpr float_t& __cordl_internal_get__hapticSamplePlayDelay();
+constexpr float_t& __cordl_internal_get__hapticSamplePlayDelay() ;
 
-  constexpr ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> const& __cordl_internal_get__headHapticPreset() const;
+constexpr ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> const& __cordl_internal_get__headHapticPreset() const;
 
-  constexpr ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO>& __cordl_internal_get__headHapticPreset();
+constexpr ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO>& __cordl_internal_get__headHapticPreset() ;
 
-  constexpr float_t const& __cordl_internal_get__nextHapticSamplePlayTime() const;
+constexpr float_t const& __cordl_internal_get__nextHapticSamplePlayTime() const;
 
-  constexpr float_t& __cordl_internal_get__nextHapticSamplePlayTime();
+constexpr float_t& __cordl_internal_get__nextHapticSamplePlayTime() ;
 
-  constexpr float_t const& __cordl_internal_get__nextHapticSamplePlayTimeEnd() const;
+constexpr float_t const& __cordl_internal_get__nextHapticSamplePlayTimeEnd() const;
 
-  constexpr float_t& __cordl_internal_get__nextHapticSamplePlayTimeEnd();
+constexpr float_t& __cordl_internal_get__nextHapticSamplePlayTimeEnd() ;
 
-  constexpr void __cordl_internal_set__formattedFloatListSettingsController(::UnityW<::GlobalNamespace::FormattedFloatListSettingsController> value);
+constexpr void __cordl_internal_set__formattedFloatListSettingsController(::UnityW<::GlobalNamespace::FormattedFloatListSettingsController>  value) ;
 
-  constexpr void __cordl_internal_set__hapticFeedbackManager(::UnityW<::GlobalNamespace::HapticFeedbackManager> value);
+constexpr void __cordl_internal_set__hapticFeedbackManager(::UnityW<::GlobalNamespace::HapticFeedbackManager>  value) ;
 
-  constexpr void __cordl_internal_set__hapticSampleDuration(float_t value);
+constexpr void __cordl_internal_set__hapticSampleDuration(float_t  value) ;
 
-  constexpr void __cordl_internal_set__hapticSamplePlayDelay(float_t value);
+constexpr void __cordl_internal_set__hapticSamplePlayDelay(float_t  value) ;
 
-  constexpr void __cordl_internal_set__headHapticPreset(::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> value);
+constexpr void __cordl_internal_set__headHapticPreset(::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO>  value) ;
 
-  constexpr void __cordl_internal_set__nextHapticSamplePlayTime(float_t value);
+constexpr void __cordl_internal_set__nextHapticSamplePlayTime(float_t  value) ;
 
-  constexpr void __cordl_internal_set__nextHapticSamplePlayTimeEnd(float_t value);
+constexpr void __cordl_internal_set__nextHapticSamplePlayTimeEnd(float_t  value) ;
 
-  /// @brief Method .ctor, addr 0x586eb70, size 0xc, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x586f91c, size 0xc, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HeadsetHapticSettingsSampleController();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr HeadsetHapticSettingsSampleController() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HeadsetHapticSettingsSampleController", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  HeadsetHapticSettingsSampleController(HeadsetHapticSettingsSampleController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HeadsetHapticSettingsSampleController", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  HeadsetHapticSettingsSampleController(HeadsetHapticSettingsSampleController const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "HeadsetHapticSettingsSampleController", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+HeadsetHapticSettingsSampleController(HeadsetHapticSettingsSampleController && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6443 };
+// Ctor Parameters [CppParam { name: "", ty: "HeadsetHapticSettingsSampleController", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+HeadsetHapticSettingsSampleController(HeadsetHapticSettingsSampleController const& ) = delete;
 
-  /// @brief Field _formattedFloatListSettingsController, offset: 0x20, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::FormattedFloatListSettingsController> ____formattedFloatListSettingsController;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6444};
 
-  /// @brief Field _hapticSamplePlayDelay, offset: 0x28, size: 0x4, def value: None
-  float_t ____hapticSamplePlayDelay;
+/// @brief Field _formattedFloatListSettingsController, offset: 0x20, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::FormattedFloatListSettingsController>  ____formattedFloatListSettingsController;
 
-  /// @brief Field _hapticSampleDuration, offset: 0x2c, size: 0x4, def value: None
-  float_t ____hapticSampleDuration;
+/// @brief Field _hapticSamplePlayDelay, offset: 0x28, size: 0x4, def value: None
+ float_t  ____hapticSamplePlayDelay;
 
-  /// @brief Field _headHapticPreset, offset: 0x30, size: 0x8, def value: None
-  ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> ____headHapticPreset;
+/// @brief Field _hapticSampleDuration, offset: 0x2c, size: 0x4, def value: None
+ float_t  ____hapticSampleDuration;
 
-  /// @brief Field _hapticFeedbackManager, offset: 0x38, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::HapticFeedbackManager> ____hapticFeedbackManager;
+/// @brief Field _headHapticPreset, offset: 0x30, size: 0x8, def value: None
+ ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO>  ____headHapticPreset;
 
-  /// @brief Field _nextHapticSamplePlayTime, offset: 0x40, size: 0x4, def value: None
-  float_t ____nextHapticSamplePlayTime;
+/// @brief Field _hapticFeedbackManager, offset: 0x38, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::HapticFeedbackManager>  ____hapticFeedbackManager;
 
-  /// @brief Field _nextHapticSamplePlayTimeEnd, offset: 0x44, size: 0x4, def value: None
-  float_t ____nextHapticSamplePlayTimeEnd;
+/// @brief Field _nextHapticSamplePlayTime, offset: 0x40, size: 0x4, def value: None
+ float_t  ____nextHapticSamplePlayTime;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _nextHapticSamplePlayTimeEnd, offset: 0x44, size: 0x4, def value: None
+ float_t  ____nextHapticSamplePlayTimeEnd;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::HeadsetHapticSettingsSampleController, ____formattedFloatListSettingsController) == 0x20, "Offset mismatch!");
@@ -167,6 +165,6 @@ static_assert(offsetof(::GlobalNamespace::HeadsetHapticSettingsSampleController,
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::HeadsetHapticSettingsSampleController, 0x48>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::HeadsetHapticSettingsSampleController);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::HeadsetHapticSettingsSampleController*, "", "HeadsetHapticSettingsSampleController");

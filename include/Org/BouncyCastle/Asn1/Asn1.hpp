@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "Org/BouncyCastle/Asn1/Asn1Encodable.hpp"
 #include "Org/BouncyCastle/Asn1/Asn1EncodableVector.hpp"
@@ -86,5 +86,6 @@ module;
 #include "Org/BouncyCastle/Asn1/LimitedInputStream.hpp"
 #include "Org/BouncyCastle/Asn1/OidTokenizer.hpp"
 #ifdef __cpp_modules
-export module Asn1;
-#endif
+                    export module Asn1;
+                    #endif
+                

@@ -46,54 +46,48 @@ namespace GlobalNamespace {
 // CS Name: RecordingToolSettingsNoTransitionInstaller/<WaitForTransition>d__3
 struct CORDL_TYPE RecordingToolSettingsNoTransitionInstaller__WaitForTransition_d__3 {
 public:
-  // Declarations
-  /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-  constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+// Declarations
+/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr operator  ::System::Runtime::CompilerServices::IAsyncStateMachine*() ;
 
-  /// @brief Method MoveNext, addr 0x577a528, size 0x264, virtual true, abstract: false, final true
-  inline void MoveNext();
+/// @brief Method MoveNext, addr 0x577ae58, size 0x264, virtual true, abstract: false, final true
+inline void MoveNext() ;
 
-  /// @brief Method SetStateMachine, addr 0x577a78c, size 0x6c, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+/// @brief Method SetStateMachine, addr 0x577b0bc, size 0x6c, virtual true, abstract: false, final true
+inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine*  stateMachine) ;
 
-  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
+/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine() ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RecordingToolSettingsNoTransitionInstaller__WaitForTransition_d__3();
+// Ctor Parameters []
+// @brief default ctor
+constexpr RecordingToolSettingsNoTransitionInstaller__WaitForTransition_d__3() ;
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "setupData", ty: "::GlobalNamespace::RecordingToolSceneSetupData*", modifiers:
-  // "", def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::RecordingToolSettingsNoTransitionInstaller>", modifiers: "", def_value: None }, CppParam { name: "__u__1",
-  // ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>", modifiers: "", def_value: None }]
-  constexpr RecordingToolSettingsNoTransitionInstaller__WaitForTransition_d__3(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
-                                                                               ::GlobalNamespace::RecordingToolSceneSetupData* setupData,
-                                                                               ::UnityW<::GlobalNamespace::RecordingToolSettingsNoTransitionInstaller> __4__this,
-                                                                               ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1) noexcept;
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty: "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "setupData", ty: "::GlobalNamespace::RecordingToolSceneSetupData*", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::RecordingToolSettingsNoTransitionInstaller>", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>", modifiers: "", def_value: None }]
+constexpr RecordingToolSettingsNoTransitionInstaller__WaitForTransition_d__3(int32_t  __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder  __t__builder, ::GlobalNamespace::RecordingToolSceneSetupData*  setupData, ::UnityW<::GlobalNamespace::RecordingToolSettingsNoTransitionInstaller>  __4__this, ::System::Runtime::CompilerServices::TaskAwaiter_1<bool>  __u__1) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6802 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6806};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x38};
 
-  /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
-  int32_t __1__state;
+/// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
+ int32_t  __1__state;
 
-  /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
-  ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder;
+/// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
+ ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder  __t__builder;
 
-  /// @brief Field setupData, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::RecordingToolSceneSetupData* setupData;
+/// @brief Field setupData, offset: 0x20, size: 0x8, def value: None
+ ::GlobalNamespace::RecordingToolSceneSetupData*  setupData;
 
-  /// @brief Field <>4__this, offset: 0x28, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::RecordingToolSettingsNoTransitionInstaller> __4__this;
+/// @brief Field <>4__this, offset: 0x28, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::RecordingToolSettingsNoTransitionInstaller>  __4__this;
 
-  /// @brief Field <>u__1, offset: 0x30, size: 0x8, def value: None
-  ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1;
+/// @brief Field <>u__1, offset: 0x30, size: 0x8, def value: None
+ ::System::Runtime::CompilerServices::TaskAwaiter_1<bool>  __u__1;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::RecordingToolSettingsNoTransitionInstaller__WaitForTransition_d__3, __1__state) == 0x0, "Offset mismatch!");
@@ -108,71 +102,69 @@ static_assert(offsetof(::GlobalNamespace::RecordingToolSettingsNoTransitionInsta
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::RecordingToolSettingsNoTransitionInstaller__WaitForTransition_d__3, 0x38>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 // Dependencies Zenject.NoTransitionInstaller
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: RecordingToolSettingsNoTransitionInstaller
 class CORDL_TYPE RecordingToolSettingsNoTransitionInstaller : public ::Zenject::NoTransitionInstaller {
 public:
-  // Declarations
-  using _WaitForTransition_d__3 = ::GlobalNamespace::RecordingToolSettingsNoTransitionInstaller__WaitForTransition_d__3;
+// Declarations
+using _WaitForTransition_d__3 = ::GlobalNamespace::RecordingToolSettingsNoTransitionInstaller__WaitForTransition_d__3;
 
-  /// @brief Field _recordingToolManager, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__recordingToolManager, put = __cordl_internal_set__recordingToolManager)) ::GlobalNamespace::RecordingToolManager* _recordingToolManager;
+/// @brief Field _recordingToolManager, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get__recordingToolManager, put=__cordl_internal_set__recordingToolManager)) ::GlobalNamespace::RecordingToolManager*  _recordingToolManager;
 
-  /// @brief Field _scenesTransitionSetupData, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__scenesTransitionSetupData,
-                      put = __cordl_internal_set__scenesTransitionSetupData)) ::UnityW<::GlobalNamespace::RecordingToolScenesTransitionSetupDataSO>
-      _scenesTransitionSetupData;
+/// @brief Field _scenesTransitionSetupData, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get__scenesTransitionSetupData, put=__cordl_internal_set__scenesTransitionSetupData)) ::UnityW<::GlobalNamespace::RecordingToolScenesTransitionSetupDataSO>  _scenesTransitionSetupData;
 
-  /// @brief Method InstallBindings, addr 0x577a230, size 0xf8, virtual true, abstract: false, final false
-  inline void InstallBindings(::Zenject::DiContainer* container);
+/// @brief Method InstallBindings, addr 0x577ab60, size 0xf8, virtual true, abstract: false, final false
+inline void InstallBindings(::Zenject::DiContainer*  container) ;
 
-  static inline ::GlobalNamespace::RecordingToolSettingsNoTransitionInstaller* New_ctor();
+static inline ::GlobalNamespace::RecordingToolSettingsNoTransitionInstaller* New_ctor() ;
 
-  /// @brief Method WaitForTransition, addr 0x577a460, size 0xc4, virtual false, abstract: false, final false
-  inline ::System::Threading::Tasks::Task* WaitForTransition(::GlobalNamespace::RecordingToolSceneSetupData* setupData);
+/// @brief Method WaitForTransition, addr 0x577ad90, size 0xc4, virtual false, abstract: false, final false
+inline ::System::Threading::Tasks::Task* WaitForTransition(::GlobalNamespace::RecordingToolSceneSetupData*  setupData) ;
 
-  constexpr ::GlobalNamespace::RecordingToolManager* const& __cordl_internal_get__recordingToolManager() const;
+constexpr ::GlobalNamespace::RecordingToolManager* const& __cordl_internal_get__recordingToolManager() const;
 
-  constexpr ::GlobalNamespace::RecordingToolManager*& __cordl_internal_get__recordingToolManager();
+constexpr ::GlobalNamespace::RecordingToolManager*& __cordl_internal_get__recordingToolManager() ;
 
-  constexpr ::UnityW<::GlobalNamespace::RecordingToolScenesTransitionSetupDataSO> const& __cordl_internal_get__scenesTransitionSetupData() const;
+constexpr ::UnityW<::GlobalNamespace::RecordingToolScenesTransitionSetupDataSO> const& __cordl_internal_get__scenesTransitionSetupData() const;
 
-  constexpr ::UnityW<::GlobalNamespace::RecordingToolScenesTransitionSetupDataSO>& __cordl_internal_get__scenesTransitionSetupData();
+constexpr ::UnityW<::GlobalNamespace::RecordingToolScenesTransitionSetupDataSO>& __cordl_internal_get__scenesTransitionSetupData() ;
 
-  constexpr void __cordl_internal_set__recordingToolManager(::GlobalNamespace::RecordingToolManager* value);
+constexpr void __cordl_internal_set__recordingToolManager(::GlobalNamespace::RecordingToolManager*  value) ;
 
-  constexpr void __cordl_internal_set__scenesTransitionSetupData(::UnityW<::GlobalNamespace::RecordingToolScenesTransitionSetupDataSO> value);
+constexpr void __cordl_internal_set__scenesTransitionSetupData(::UnityW<::GlobalNamespace::RecordingToolScenesTransitionSetupDataSO>  value) ;
 
-  /// @brief Method .ctor, addr 0x577a524, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x577ae54, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RecordingToolSettingsNoTransitionInstaller();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr RecordingToolSettingsNoTransitionInstaller() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RecordingToolSettingsNoTransitionInstaller", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  RecordingToolSettingsNoTransitionInstaller(RecordingToolSettingsNoTransitionInstaller&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RecordingToolSettingsNoTransitionInstaller", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  RecordingToolSettingsNoTransitionInstaller(RecordingToolSettingsNoTransitionInstaller const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "RecordingToolSettingsNoTransitionInstaller", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+RecordingToolSettingsNoTransitionInstaller(RecordingToolSettingsNoTransitionInstaller && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6803 };
+// Ctor Parameters [CppParam { name: "", ty: "RecordingToolSettingsNoTransitionInstaller", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+RecordingToolSettingsNoTransitionInstaller(RecordingToolSettingsNoTransitionInstaller const& ) = delete;
 
-  /// @brief Field _scenesTransitionSetupData, offset: 0x20, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::RecordingToolScenesTransitionSetupDataSO> ____scenesTransitionSetupData;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6807};
 
-  /// @brief Field _recordingToolManager, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::RecordingToolManager* ____recordingToolManager;
+/// @brief Field _scenesTransitionSetupData, offset: 0x20, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::RecordingToolScenesTransitionSetupDataSO>  ____scenesTransitionSetupData;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _recordingToolManager, offset: 0x28, size: 0x8, def value: None
+ ::GlobalNamespace::RecordingToolManager*  ____recordingToolManager;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::RecordingToolSettingsNoTransitionInstaller, ____scenesTransitionSetupData) == 0x20, "Offset mismatch!");
@@ -181,7 +173,7 @@ static_assert(offsetof(::GlobalNamespace::RecordingToolSettingsNoTransitionInsta
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::RecordingToolSettingsNoTransitionInstaller, 0x30>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::RecordingToolSettingsNoTransitionInstaller);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::RecordingToolSettingsNoTransitionInstaller*, "", "RecordingToolSettingsNoTransitionInstaller");
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::RecordingToolSettingsNoTransitionInstaller__WaitForTransition_d__3, "", "RecordingToolSettingsNoTransitionInstaller/<WaitForTransition>d__3");

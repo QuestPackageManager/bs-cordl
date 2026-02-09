@@ -21,44 +21,44 @@ namespace LiteNetLib {
 // CS Name: LiteNetLib.InvalidPacketException
 class CORDL_TYPE InvalidPacketException : public ::System::ArgumentException {
 public:
-  // Declarations
-  static inline ::LiteNetLib::InvalidPacketException* New_ctor();
+// Declarations
+static inline ::LiteNetLib::InvalidPacketException* New_ctor() ;
 
-  static inline ::LiteNetLib::InvalidPacketException* New_ctor(::StringW message);
+static inline ::LiteNetLib::InvalidPacketException* New_ctor(::StringW  message) ;
 
-  static inline ::LiteNetLib::InvalidPacketException* New_ctor(::StringW message, ::System::Exception* innerException);
+static inline ::LiteNetLib::InvalidPacketException* New_ctor(::StringW  message, ::System::Exception*  innerException) ;
 
-  /// @brief Method .ctor, addr 0x56ea160, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x56e9ee8, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method .ctor, addr 0x56ea168, size 0x24, virtual false, abstract: false, final false
-  inline void _ctor(::StringW message);
+/// @brief Method .ctor, addr 0x56e9ef0, size 0x24, virtual false, abstract: false, final false
+inline void _ctor(::StringW  message) ;
 
-  /// @brief Method .ctor, addr 0x56ea18c, size 0x24, virtual false, abstract: false, final false
-  inline void _ctor(::StringW message, ::System::Exception* innerException);
+/// @brief Method .ctor, addr 0x56e9f14, size 0x24, virtual false, abstract: false, final false
+inline void _ctor(::StringW  message, ::System::Exception*  innerException) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr InvalidPacketException();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr InvalidPacketException() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InvalidPacketException", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  InvalidPacketException(InvalidPacketException&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InvalidPacketException", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  InvalidPacketException(InvalidPacketException const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "InvalidPacketException", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+InvalidPacketException(InvalidPacketException && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19828 };
+// Ctor Parameters [CppParam { name: "", ty: "InvalidPacketException", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+InvalidPacketException(InvalidPacketException const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{19832};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::LiteNetLib::InvalidPacketException, 0x98>, "Size mismatch!");
 
-} // namespace LiteNetLib
+} // namespace end def LiteNetLib
 NEED_NO_BOX(::LiteNetLib::InvalidPacketException);
 DEFINE_IL2CPP_ARG_TYPE(::LiteNetLib::InvalidPacketException*, "LiteNetLib", "InvalidPacketException");

@@ -23,32 +23,32 @@ namespace GlobalNamespace {
 // CS Name: GameplayServerFiniteStateMachineFactory
 class CORDL_TYPE GameplayServerFiniteStateMachineFactory : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method Create, addr 0x31dd1a4, size 0x74, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::GameplayServerFiniteStateMachine* Create(::GlobalNamespace::GameplayServerFiniteStateMachine_InitParams initParams);
+// Declarations
+/// @brief Method Create, addr 0x31dd0f4, size 0x74, virtual false, abstract: false, final false
+static inline ::GlobalNamespace::GameplayServerFiniteStateMachine* Create(::GlobalNamespace::GameplayServerFiniteStateMachine_InitParams  initParams) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr GameplayServerFiniteStateMachineFactory();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr GameplayServerFiniteStateMachineFactory() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GameplayServerFiniteStateMachineFactory", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  GameplayServerFiniteStateMachineFactory(GameplayServerFiniteStateMachineFactory&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GameplayServerFiniteStateMachineFactory", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  GameplayServerFiniteStateMachineFactory(GameplayServerFiniteStateMachineFactory const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "GameplayServerFiniteStateMachineFactory", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+GameplayServerFiniteStateMachineFactory(GameplayServerFiniteStateMachineFactory && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18856 };
+// Ctor Parameters [CppParam { name: "", ty: "GameplayServerFiniteStateMachineFactory", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+GameplayServerFiniteStateMachineFactory(GameplayServerFiniteStateMachineFactory const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{18860};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::GameplayServerFiniteStateMachineFactory, 0x10>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::GameplayServerFiniteStateMachineFactory);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::GameplayServerFiniteStateMachineFactory*, "", "GameplayServerFiniteStateMachineFactory");

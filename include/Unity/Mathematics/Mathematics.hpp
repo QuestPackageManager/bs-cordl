@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "Unity/Mathematics/AffineTransform.hpp"
 #include "Unity/Mathematics/DoNotNormalizeAttribute.hpp"
@@ -77,5 +77,6 @@ module;
 #include "Unity/Mathematics/uint4x3.hpp"
 #include "Unity/Mathematics/uint4x4.hpp"
 #ifdef __cpp_modules
-export module Mathematics;
-#endif
+                    export module Mathematics;
+                    #endif
+                

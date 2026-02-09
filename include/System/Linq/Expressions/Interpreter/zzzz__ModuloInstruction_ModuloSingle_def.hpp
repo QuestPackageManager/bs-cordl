@@ -21,37 +21,37 @@ namespace GlobalNamespace {
 // CS Name: System.Linq.Expressions.Interpreter.ModuloInstruction/ModuloSingle
 class CORDL_TYPE ModuloInstruction_ModuloSingle : public ::System::Linq::Expressions::Interpreter::ModuloInstruction {
 public:
-  // Declarations
-  static inline ::GlobalNamespace::ModuloInstruction_ModuloSingle* New_ctor();
+// Declarations
+static inline ::GlobalNamespace::ModuloInstruction_ModuloSingle* New_ctor() ;
 
-  /// @brief Method Run, addr 0x5e002a8, size 0x10c, virtual true, abstract: false, final false
-  inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
+/// @brief Method Run, addr 0x5e00968, size 0x10c, virtual true, abstract: false, final false
+inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame*  frame) ;
 
-  /// @brief Method .ctor, addr 0x5dffb10, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5e001d0, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ModuloInstruction_ModuloSingle();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ModuloInstruction_ModuloSingle() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ModuloInstruction_ModuloSingle", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ModuloInstruction_ModuloSingle(ModuloInstruction_ModuloSingle&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ModuloInstruction_ModuloSingle", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ModuloInstruction_ModuloSingle(ModuloInstruction_ModuloSingle const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ModuloInstruction_ModuloSingle", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ModuloInstruction_ModuloSingle(ModuloInstruction_ModuloSingle && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16454 };
+// Ctor Parameters [CppParam { name: "", ty: "ModuloInstruction_ModuloSingle", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ModuloInstruction_ModuloSingle(ModuloInstruction_ModuloSingle const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{16458};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ModuloInstruction_ModuloSingle, 0x10>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ModuloInstruction_ModuloSingle);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ModuloInstruction_ModuloSingle*, "System.Linq.Expressions.Interpreter", "ModuloInstruction/ModuloSingle");

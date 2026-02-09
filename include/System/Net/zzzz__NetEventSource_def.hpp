@@ -34,149 +34,149 @@ namespace System::Net {
 // CS Name: System.Net.NetEventSource/Keywords
 class CORDL_TYPE NetEventSource_Keywords : public ::System::Object {
 public:
-  // Declarations
+// Declarations
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NetEventSource_Keywords();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr NetEventSource_Keywords() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NetEventSource_Keywords", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  NetEventSource_Keywords(NetEventSource_Keywords&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NetEventSource_Keywords", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  NetEventSource_Keywords(NetEventSource_Keywords const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "NetEventSource_Keywords", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+NetEventSource_Keywords(NetEventSource_Keywords && ) = delete;
 
-  /// @brief Field Debug value: I64(2)
-  static ::System::Diagnostics::Tracing::EventKeywords const Debug;
+// Ctor Parameters [CppParam { name: "", ty: "NetEventSource_Keywords", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+NetEventSource_Keywords(NetEventSource_Keywords const& ) = delete;
 
-  /// @brief Field Default value: I64(1)
-  static ::System::Diagnostics::Tracing::EventKeywords const Default;
+/// @brief Field Debug value: I64(2)
+static ::System::Diagnostics::Tracing::EventKeywords const Debug;
 
-  /// @brief Field EnterExit value: I64(4)
-  static ::System::Diagnostics::Tracing::EventKeywords const EnterExit;
+/// @brief Field Default value: I64(1)
+static ::System::Diagnostics::Tracing::EventKeywords const Default;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11422 };
+/// @brief Field EnterExit value: I64(4)
+static ::System::Diagnostics::Tracing::EventKeywords const EnterExit;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11426};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::NetEventSource_Keywords, 0x10>, "Size mismatch!");
 
-} // namespace System::Net
+} // namespace end def System::Net
 // Dependencies System.Diagnostics.Tracing.EventSource
 namespace System::Net {
 // Is value type: false
 // CS Name: System.Net.NetEventSource
 class CORDL_TYPE NetEventSource : public ::System::Diagnostics::Tracing::EventSource {
 public:
-  // Declarations
-  using Keywords = ::System::Net::NetEventSource_Keywords;
+// Declarations
+using Keywords = ::System::Net::NetEventSource_Keywords;
 
-  /// @brief Field Log, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_Log, put = setStaticF_Log)) ::System::Net::NetEventSource* Log;
+/// @brief Field Log, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_Log, put=setStaticF_Log)) ::System::Net::NetEventSource*  Log;
 
-  /// @brief Method Associate, addr 0x6243b7c, size 0xb8, virtual false, abstract: false, final false
-  static inline void Associate(::System::Object* first, ::System::Object* second, ::StringW memberName);
+/// @brief Method Associate, addr 0x624423c, size 0xb8, virtual false, abstract: false, final false
+static inline void Associate(::System::Object*  first, ::System::Object*  second, ::StringW  memberName) ;
 
-  /// @brief Method Associate, addr 0x6243c34, size 0x84, virtual false, abstract: false, final false
-  inline void Associate(::StringW thisOrContextObject, ::StringW memberName, ::StringW first, ::StringW second);
+/// @brief Method Associate, addr 0x62442f4, size 0x84, virtual false, abstract: false, final false
+inline void Associate(::StringW  thisOrContextObject, ::StringW  memberName, ::StringW  first, ::StringW  second) ;
 
-  /// @brief Method CriticalFailure, addr 0x6243af4, size 0x88, virtual false, abstract: false, final false
-  inline void CriticalFailure(::StringW thisOrContextObject, ::StringW memberName, ::StringW message);
+/// @brief Method CriticalFailure, addr 0x62441b4, size 0x88, virtual false, abstract: false, final false
+inline void CriticalFailure(::StringW  thisOrContextObject, ::StringW  memberName, ::StringW  message) ;
 
-  /// @brief Method Enter, addr 0x6242fa8, size 0x88, virtual false, abstract: false, final false
-  inline void Enter(::StringW thisOrContextObject, ::StringW memberName, ::StringW parameters);
+/// @brief Method Enter, addr 0x6243668, size 0x88, virtual false, abstract: false, final false
+inline void Enter(::StringW  thisOrContextObject, ::StringW  memberName, ::StringW  parameters) ;
 
-  /// @brief Method Enter, addr 0x624356c, size 0x150, virtual false, abstract: false, final false
-  static inline void Enter(::System::Object* thisOrContextObject, ::System::Object* arg0, ::System::Object* arg1, ::System::Object* arg2, ::StringW memberName);
+/// @brief Method Enter, addr 0x6243c2c, size 0x150, virtual false, abstract: false, final false
+static inline void Enter(::System::Object*  thisOrContextObject, ::System::Object*  arg0, ::System::Object*  arg1, ::System::Object*  arg2, ::StringW  memberName) ;
 
-  /// @brief Method Enter, addr 0x6243030, size 0x11c, virtual false, abstract: false, final false
-  static inline void Enter(::System::Object* thisOrContextObject, ::System::Object* arg0, ::StringW memberName);
+/// @brief Method Enter, addr 0x62436f0, size 0x11c, virtual false, abstract: false, final false
+static inline void Enter(::System::Object*  thisOrContextObject, ::System::Object*  arg0, ::StringW  memberName) ;
 
-  /// @brief Method Enter, addr 0x6242a5c, size 0xf8, virtual false, abstract: false, final false
-  static inline void Enter(::System::Object* thisOrContextObject, ::System::FormattableString* formattableString, ::StringW memberName);
+/// @brief Method Enter, addr 0x624311c, size 0xf8, virtual false, abstract: false, final false
+static inline void Enter(::System::Object*  thisOrContextObject, ::System::FormattableString*  formattableString, ::StringW  memberName) ;
 
-  /// @brief Method Error, addr 0x6243998, size 0xd4, virtual false, abstract: false, final false
-  static inline void Error(::System::Object* thisOrContextObject, ::System::Object* message, ::StringW memberName);
+/// @brief Method Error, addr 0x6244058, size 0xd4, virtual false, abstract: false, final false
+static inline void Error(::System::Object*  thisOrContextObject, ::System::Object*  message, ::StringW  memberName) ;
 
-  /// @brief Method ErrorMessage, addr 0x6243a6c, size 0x88, virtual false, abstract: false, final false
-  inline void ErrorMessage(::StringW thisOrContextObject, ::StringW memberName, ::StringW message);
+/// @brief Method ErrorMessage, addr 0x624412c, size 0x88, virtual false, abstract: false, final false
+inline void ErrorMessage(::StringW  thisOrContextObject, ::StringW  memberName, ::StringW  message) ;
 
-  /// @brief Method Exit, addr 0x62437b4, size 0x88, virtual false, abstract: false, final false
-  inline void Exit(::StringW thisOrContextObject, ::StringW memberName, ::StringW result);
+/// @brief Method Exit, addr 0x6243e74, size 0x88, virtual false, abstract: false, final false
+inline void Exit(::StringW  thisOrContextObject, ::StringW  memberName, ::StringW  result) ;
 
-  /// @brief Method Exit, addr 0x624383c, size 0xd4, virtual false, abstract: false, final false
-  static inline void Exit(::System::Object* thisOrContextObject, ::System::Object* arg0, ::StringW memberName);
+/// @brief Method Exit, addr 0x6243efc, size 0xd4, virtual false, abstract: false, final false
+static inline void Exit(::System::Object*  thisOrContextObject, ::System::Object*  arg0, ::StringW  memberName) ;
 
-  /// @brief Method Exit, addr 0x62436bc, size 0xf8, virtual false, abstract: false, final false
-  static inline void Exit(::System::Object* thisOrContextObject, ::System::FormattableString* formattableString, ::StringW memberName);
+/// @brief Method Exit, addr 0x6243d7c, size 0xf8, virtual false, abstract: false, final false
+static inline void Exit(::System::Object*  thisOrContextObject, ::System::FormattableString*  formattableString, ::StringW  memberName) ;
 
-  /// @brief Method Fail, addr 0x6241338, size 0xd4, virtual false, abstract: false, final false
-  static inline void Fail(::System::Object* thisOrContextObject, ::System::Object* message, ::StringW memberName);
+/// @brief Method Fail, addr 0x62419f8, size 0xd4, virtual false, abstract: false, final false
+static inline void Fail(::System::Object*  thisOrContextObject, ::System::Object*  message, ::StringW  memberName) ;
 
-  /// @brief Method Format, addr 0x6242c50, size 0x358, virtual false, abstract: false, final false
-  static inline ::StringW Format(::System::FormattableString* s);
+/// @brief Method Format, addr 0x6243310, size 0x358, virtual false, abstract: false, final false
+static inline ::StringW Format(::System::FormattableString*  s) ;
 
-  /// @brief Method Format, addr 0x624314c, size 0x420, virtual false, abstract: false, final false
-  static inline ::System::Object* Format(::System::Object* value);
+/// @brief Method Format, addr 0x624380c, size 0x420, virtual false, abstract: false, final false
+static inline ::System::Object* Format(::System::Object*  value) ;
 
-  /// @brief Method GetHashCode, addr 0x6243d08, size 0x14, virtual false, abstract: false, final false
-  static inline int32_t GetHashCode(::System::Object* value);
+/// @brief Method GetHashCode, addr 0x62443c8, size 0x14, virtual false, abstract: false, final false
+static inline int32_t GetHashCode(::System::Object*  value) ;
 
-  /// @brief Method IdOf, addr 0x6242b54, size 0xfc, virtual false, abstract: false, final false
-  static inline ::StringW IdOf(::System::Object* value);
+/// @brief Method IdOf, addr 0x6243214, size 0xfc, virtual false, abstract: false, final false
+static inline ::StringW IdOf(::System::Object*  value) ;
 
-  /// @brief Method Info, addr 0x6243910, size 0x88, virtual false, abstract: false, final false
-  inline void Info(::StringW thisOrContextObject, ::StringW memberName, ::StringW message);
+/// @brief Method Info, addr 0x6243fd0, size 0x88, virtual false, abstract: false, final false
+inline void Info(::StringW  thisOrContextObject, ::StringW  memberName, ::StringW  message) ;
 
-  /// @brief Method Info, addr 0x6241954, size 0xf8, virtual false, abstract: false, final false
-  static inline void Info(::System::Object* thisOrContextObject, ::System::FormattableString* formattableString, ::StringW memberName);
+/// @brief Method Info, addr 0x6242014, size 0xf8, virtual false, abstract: false, final false
+static inline void Info(::System::Object*  thisOrContextObject, ::System::FormattableString*  formattableString, ::StringW  memberName) ;
 
-  /// @brief Method Info, addr 0x6241a4c, size 0xd4, virtual false, abstract: false, final false
-  static inline void Info(::System::Object* thisOrContextObject, ::System::Object* message, ::StringW memberName);
+/// @brief Method Info, addr 0x624210c, size 0xd4, virtual false, abstract: false, final false
+static inline void Info(::System::Object*  thisOrContextObject, ::System::Object*  message, ::StringW  memberName) ;
 
-  static inline ::System::Net::NetEventSource* New_ctor();
+static inline ::System::Net::NetEventSource* New_ctor() ;
 
-  /// @brief Method WriteEvent, addr 0x6243cb8, size 0x50, virtual false, abstract: false, final false
-  inline void WriteEvent(int32_t eventId, ::StringW arg1, ::StringW arg2, ::StringW arg3, ::StringW arg4);
+/// @brief Method WriteEvent, addr 0x6244378, size 0x50, virtual false, abstract: false, final false
+inline void WriteEvent(int32_t  eventId, ::StringW  arg1, ::StringW  arg2, ::StringW  arg3, ::StringW  arg4) ;
 
-  /// @brief Method .ctor, addr 0x6243d1c, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x62443dc, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  static inline ::System::Net::NetEventSource* getStaticF_Log();
+static inline ::System::Net::NetEventSource* getStaticF_Log() ;
 
-  /// @brief Method get_IsEnabled, addr 0x62418ec, size 0x68, virtual false, abstract: false, final false
-  static inline bool get_IsEnabled();
+/// @brief Method get_IsEnabled, addr 0x6241fac, size 0x68, virtual false, abstract: false, final false
+static inline bool get_IsEnabled() ;
 
-  static inline void setStaticF_Log(::System::Net::NetEventSource* value);
+static inline void setStaticF_Log(::System::Net::NetEventSource*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NetEventSource();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr NetEventSource() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NetEventSource", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  NetEventSource(NetEventSource&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NetEventSource", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  NetEventSource(NetEventSource const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "NetEventSource", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+NetEventSource(NetEventSource && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11423 };
+// Ctor Parameters [CppParam { name: "", ty: "NetEventSource", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+NetEventSource(NetEventSource const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11427};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::NetEventSource, 0x18>, "Size mismatch!");
 
-} // namespace System::Net
+} // namespace end def System::Net
 NEED_NO_BOX(::System::Net::NetEventSource);
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::NetEventSource*, "System.Net", "NetEventSource");
 NEED_NO_BOX(::System::Net::NetEventSource_Keywords);

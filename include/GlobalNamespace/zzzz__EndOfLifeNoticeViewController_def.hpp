@@ -16,7 +16,8 @@ namespace GlobalNamespace {
 class ICoroutineStarter;
 }
 namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+template<typename T>
+class IEnumerator_1;
 }
 namespace System::Collections {
 class IEnumerator;
@@ -52,103 +53,103 @@ namespace GlobalNamespace {
 // CS Name: EndOfLifeNoticeViewController/<EnableOkButton>d__7
 class CORDL_TYPE EndOfLifeNoticeViewController__EnableOkButton_d__7 : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current)) ::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
+// Declarations
+ __declspec(property(get=System_Collections_Generic_IEnumerator_System_Object__get_Current)) ::System::Object*  System_Collections_Generic_IEnumerator_System_Object__Current;
 
-  __declspec(property(get = System_Collections_IEnumerator_get_Current)) ::System::Object* System_Collections_IEnumerator_Current;
+ __declspec(property(get=System_Collections_IEnumerator_get_Current)) ::System::Object*  System_Collections_IEnumerator_Current;
 
-  /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
+/// @brief Field <>1__state, offset 0x10, size 0x4 
+ __declspec(property(get=__cordl_internal_get___1__state, put=__cordl_internal_set___1__state)) int32_t  __1__state;
 
-  /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current)) ::System::Object* __2__current;
+/// @brief Field <>2__current, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get___2__current, put=__cordl_internal_set___2__current)) ::System::Object*  __2__current;
 
-  /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::UnityW<::GlobalNamespace::EndOfLifeNoticeViewController> __4__this;
+/// @brief Field <>4__this, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get___4__this, put=__cordl_internal_set___4__this)) ::UnityW<::GlobalNamespace::EndOfLifeNoticeViewController>  __4__this;
 
-  /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
-  constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+constexpr operator  ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
 
-  /// @brief Convert operator to "::System::Collections::IEnumerator"
-  constexpr operator ::System::Collections::IEnumerator*() noexcept;
+/// @brief Convert operator to "::System::Collections::IEnumerator"
+constexpr operator  ::System::Collections::IEnumerator*() noexcept;
 
-  /// @brief Convert operator to "::System::IDisposable"
-  constexpr operator ::System::IDisposable*() noexcept;
+/// @brief Convert operator to "::System::IDisposable"
+constexpr operator  ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x5871bb4, size 0xb8, virtual true, abstract: false, final true
-  inline bool MoveNext();
+/// @brief Method MoveNext, addr 0x5872960, size 0xb8, virtual true, abstract: false, final true
+inline bool MoveNext() ;
 
-  static inline ::GlobalNamespace::EndOfLifeNoticeViewController__EnableOkButton_d__7* New_ctor(int32_t __1__state);
+static inline ::GlobalNamespace::EndOfLifeNoticeViewController__EnableOkButton_d__7* New_ctor(int32_t  __1__state) ;
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5871c6c, size 0x8, virtual true, abstract: false, final true
-  inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
+/// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5872a18, size 0x8, virtual true, abstract: false, final true
+inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current() ;
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5871c74, size 0x38, virtual true, abstract: false, final true
-  inline void System_Collections_IEnumerator_Reset();
+/// @brief Method System.Collections.IEnumerator.Reset, addr 0x5872a20, size 0x38, virtual true, abstract: false, final true
+inline void System_Collections_IEnumerator_Reset() ;
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5871cac, size 0x8, virtual true, abstract: false, final true
-  inline ::System::Object* System_Collections_IEnumerator_get_Current();
+/// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5872a58, size 0x8, virtual true, abstract: false, final true
+inline ::System::Object* System_Collections_IEnumerator_get_Current() ;
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x5871bb0, size 0x4, virtual true, abstract: false, final true
-  inline void System_IDisposable_Dispose();
+/// @brief Method System.IDisposable.Dispose, addr 0x587295c, size 0x4, virtual true, abstract: false, final true
+inline void System_IDisposable_Dispose() ;
 
-  constexpr int32_t const& __cordl_internal_get___1__state() const;
+constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr int32_t& __cordl_internal_get___1__state();
+constexpr int32_t& __cordl_internal_get___1__state() ;
 
-  constexpr ::System::Object* const& __cordl_internal_get___2__current() const;
+constexpr ::System::Object* const& __cordl_internal_get___2__current() const;
 
-  constexpr ::System::Object*& __cordl_internal_get___2__current();
+constexpr ::System::Object*& __cordl_internal_get___2__current() ;
 
-  constexpr ::UnityW<::GlobalNamespace::EndOfLifeNoticeViewController> const& __cordl_internal_get___4__this() const;
+constexpr ::UnityW<::GlobalNamespace::EndOfLifeNoticeViewController> const& __cordl_internal_get___4__this() const;
 
-  constexpr ::UnityW<::GlobalNamespace::EndOfLifeNoticeViewController>& __cordl_internal_get___4__this();
+constexpr ::UnityW<::GlobalNamespace::EndOfLifeNoticeViewController>& __cordl_internal_get___4__this() ;
 
-  constexpr void __cordl_internal_set___1__state(int32_t value);
+constexpr void __cordl_internal_set___1__state(int32_t  value) ;
 
-  constexpr void __cordl_internal_set___2__current(::System::Object* value);
+constexpr void __cordl_internal_set___2__current(::System::Object*  value) ;
 
-  constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::EndOfLifeNoticeViewController> value);
+constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::EndOfLifeNoticeViewController>  value) ;
 
-  /// @brief Method .ctor, addr 0x5871ba4, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(int32_t __1__state);
+/// @brief Method .ctor, addr 0x5872950, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(int32_t  __1__state) ;
 
-  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
-  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
+/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
 
-  /// @brief Convert to "::System::Collections::IEnumerator"
-  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+/// @brief Convert to "::System::Collections::IEnumerator"
+constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
-  /// @brief Convert to "::System::IDisposable"
-  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+/// @brief Convert to "::System::IDisposable"
+constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr EndOfLifeNoticeViewController__EnableOkButton_d__7();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr EndOfLifeNoticeViewController__EnableOkButton_d__7() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EndOfLifeNoticeViewController__EnableOkButton_d__7", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  EndOfLifeNoticeViewController__EnableOkButton_d__7(EndOfLifeNoticeViewController__EnableOkButton_d__7&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EndOfLifeNoticeViewController__EnableOkButton_d__7", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  EndOfLifeNoticeViewController__EnableOkButton_d__7(EndOfLifeNoticeViewController__EnableOkButton_d__7 const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "EndOfLifeNoticeViewController__EnableOkButton_d__7", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+EndOfLifeNoticeViewController__EnableOkButton_d__7(EndOfLifeNoticeViewController__EnableOkButton_d__7 && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6462 };
+// Ctor Parameters [CppParam { name: "", ty: "EndOfLifeNoticeViewController__EnableOkButton_d__7", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+EndOfLifeNoticeViewController__EnableOkButton_d__7(EndOfLifeNoticeViewController__EnableOkButton_d__7 const& ) = delete;
 
-  /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
-  int32_t _____1__state;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6463};
 
-  /// @brief Field <>2__current, offset: 0x18, size: 0x8, def value: None
-  ::System::Object* _____2__current;
+/// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
+ int32_t  _____1__state;
 
-  /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::EndOfLifeNoticeViewController> _____4__this;
+/// @brief Field <>2__current, offset: 0x18, size: 0x8, def value: None
+ ::System::Object*  _____2__current;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::EndOfLifeNoticeViewController>  _____4__this;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::EndOfLifeNoticeViewController__EnableOkButton_d__7, _____1__state) == 0x10, "Offset mismatch!");
@@ -159,117 +160,117 @@ static_assert(offsetof(::GlobalNamespace::EndOfLifeNoticeViewController__EnableO
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::EndOfLifeNoticeViewController__EnableOkButton_d__7, 0x28>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 // Dependencies CompletableViewController
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: EndOfLifeNoticeViewController
 class CORDL_TYPE EndOfLifeNoticeViewController : public ::GlobalNamespace::CompletableViewController {
 public:
-  // Declarations
-  using _EnableOkButton_d__7 = ::GlobalNamespace::EndOfLifeNoticeViewController__EnableOkButton_d__7;
+// Declarations
+using _EnableOkButton_d__7 = ::GlobalNamespace::EndOfLifeNoticeViewController__EnableOkButton_d__7;
 
-  /// @brief Field _coroutineStarter, offset 0xa0, size 0x8
-  __declspec(property(get = __cordl_internal_get__coroutineStarter, put = __cordl_internal_set__coroutineStarter)) ::GlobalNamespace::ICoroutineStarter* _coroutineStarter;
+/// @brief Field _coroutineStarter, offset 0xa0, size 0x8 
+ __declspec(property(get=__cordl_internal_get__coroutineStarter, put=__cordl_internal_set__coroutineStarter)) ::GlobalNamespace::ICoroutineStarter*  _coroutineStarter;
 
-  /// @brief Field _duration, offset 0x88, size 0x4
-  __declspec(property(get = __cordl_internal_get__duration, put = __cordl_internal_set__duration)) float_t _duration;
+/// @brief Field _duration, offset 0x88, size 0x4 
+ __declspec(property(get=__cordl_internal_get__duration, put=__cordl_internal_set__duration)) float_t  _duration;
 
-  /// @brief Field _enableOkButtonCoroutine, offset 0xa8, size 0x8
-  __declspec(property(get = __cordl_internal_get__enableOkButtonCoroutine, put = __cordl_internal_set__enableOkButtonCoroutine)) ::UnityEngine::Coroutine* _enableOkButtonCoroutine;
+/// @brief Field _enableOkButtonCoroutine, offset 0xa8, size 0x8 
+ __declspec(property(get=__cordl_internal_get__enableOkButtonCoroutine, put=__cordl_internal_set__enableOkButtonCoroutine)) ::UnityEngine::Coroutine*  _enableOkButtonCoroutine;
 
-  /// @brief Field _endOfLifeNoticeLocalizationKey, offset 0x98, size 0x8
-  __declspec(property(get = __cordl_internal_get__endOfLifeNoticeLocalizationKey, put = __cordl_internal_set__endOfLifeNoticeLocalizationKey)) ::StringW _endOfLifeNoticeLocalizationKey;
+/// @brief Field _endOfLifeNoticeLocalizationKey, offset 0x98, size 0x8 
+ __declspec(property(get=__cordl_internal_get__endOfLifeNoticeLocalizationKey, put=__cordl_internal_set__endOfLifeNoticeLocalizationKey)) ::StringW  _endOfLifeNoticeLocalizationKey;
 
-  /// @brief Field _endOfLifeNoticeTextMesh, offset 0x90, size 0x8
-  __declspec(property(get = __cordl_internal_get__endOfLifeNoticeTextMesh, put = __cordl_internal_set__endOfLifeNoticeTextMesh)) ::UnityW<::TMPro::TextMeshProUGUI> _endOfLifeNoticeTextMesh;
+/// @brief Field _endOfLifeNoticeTextMesh, offset 0x90, size 0x8 
+ __declspec(property(get=__cordl_internal_get__endOfLifeNoticeTextMesh, put=__cordl_internal_set__endOfLifeNoticeTextMesh)) ::UnityW<::TMPro::TextMeshProUGUI>  _endOfLifeNoticeTextMesh;
 
-  /// @brief Field _okButton, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get__okButton, put = __cordl_internal_set__okButton)) ::UnityW<::UnityEngine::UI::Button> _okButton;
+/// @brief Field _okButton, offset 0x80, size 0x8 
+ __declspec(property(get=__cordl_internal_get__okButton, put=__cordl_internal_set__okButton)) ::UnityW<::UnityEngine::UI::Button>  _okButton;
 
-  /// @brief Method DidActivate, addr 0x58719a0, size 0x1b0, virtual true, abstract: false, final false
-  inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
+/// @brief Method DidActivate, addr 0x587274c, size 0x1b0, virtual true, abstract: false, final false
+inline void DidActivate(bool  firstActivation, bool  addedToHierarchy, bool  screenSystemEnabling) ;
 
-  /// @brief Method EnableOkButton, addr 0x5871b50, size 0x54, virtual false, abstract: false, final false
-  inline ::System::Collections::IEnumerator* EnableOkButton();
+/// @brief Method EnableOkButton, addr 0x58728fc, size 0x54, virtual false, abstract: false, final false
+inline ::System::Collections::IEnumerator* EnableOkButton() ;
 
-  static inline ::GlobalNamespace::EndOfLifeNoticeViewController* New_ctor();
+static inline ::GlobalNamespace::EndOfLifeNoticeViewController* New_ctor() ;
 
-  constexpr ::GlobalNamespace::ICoroutineStarter* const& __cordl_internal_get__coroutineStarter() const;
+constexpr ::GlobalNamespace::ICoroutineStarter* const& __cordl_internal_get__coroutineStarter() const;
 
-  constexpr ::GlobalNamespace::ICoroutineStarter*& __cordl_internal_get__coroutineStarter();
+constexpr ::GlobalNamespace::ICoroutineStarter*& __cordl_internal_get__coroutineStarter() ;
 
-  constexpr float_t const& __cordl_internal_get__duration() const;
+constexpr float_t const& __cordl_internal_get__duration() const;
 
-  constexpr float_t& __cordl_internal_get__duration();
+constexpr float_t& __cordl_internal_get__duration() ;
 
-  constexpr ::UnityEngine::Coroutine* const& __cordl_internal_get__enableOkButtonCoroutine() const;
+constexpr ::UnityEngine::Coroutine* const& __cordl_internal_get__enableOkButtonCoroutine() const;
 
-  constexpr ::UnityEngine::Coroutine*& __cordl_internal_get__enableOkButtonCoroutine();
+constexpr ::UnityEngine::Coroutine*& __cordl_internal_get__enableOkButtonCoroutine() ;
 
-  constexpr ::StringW const& __cordl_internal_get__endOfLifeNoticeLocalizationKey() const;
+constexpr ::StringW const& __cordl_internal_get__endOfLifeNoticeLocalizationKey() const;
 
-  constexpr ::StringW& __cordl_internal_get__endOfLifeNoticeLocalizationKey();
+constexpr ::StringW& __cordl_internal_get__endOfLifeNoticeLocalizationKey() ;
 
-  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__endOfLifeNoticeTextMesh() const;
+constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__endOfLifeNoticeTextMesh() const;
 
-  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__endOfLifeNoticeTextMesh();
+constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__endOfLifeNoticeTextMesh() ;
 
-  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__okButton() const;
+constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__okButton() const;
 
-  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__okButton();
+constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__okButton() ;
 
-  constexpr void __cordl_internal_set__coroutineStarter(::GlobalNamespace::ICoroutineStarter* value);
+constexpr void __cordl_internal_set__coroutineStarter(::GlobalNamespace::ICoroutineStarter*  value) ;
 
-  constexpr void __cordl_internal_set__duration(float_t value);
+constexpr void __cordl_internal_set__duration(float_t  value) ;
 
-  constexpr void __cordl_internal_set__enableOkButtonCoroutine(::UnityEngine::Coroutine* value);
+constexpr void __cordl_internal_set__enableOkButtonCoroutine(::UnityEngine::Coroutine*  value) ;
 
-  constexpr void __cordl_internal_set__endOfLifeNoticeLocalizationKey(::StringW value);
+constexpr void __cordl_internal_set__endOfLifeNoticeLocalizationKey(::StringW  value) ;
 
-  constexpr void __cordl_internal_set__endOfLifeNoticeTextMesh(::UnityW<::TMPro::TextMeshProUGUI> value);
+constexpr void __cordl_internal_set__endOfLifeNoticeTextMesh(::UnityW<::TMPro::TextMeshProUGUI>  value) ;
 
-  constexpr void __cordl_internal_set__okButton(::UnityW<::UnityEngine::UI::Button> value);
+constexpr void __cordl_internal_set__okButton(::UnityW<::UnityEngine::UI::Button>  value) ;
 
-  /// @brief Method .ctor, addr 0x5871bac, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5872958, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr EndOfLifeNoticeViewController();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr EndOfLifeNoticeViewController() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EndOfLifeNoticeViewController", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  EndOfLifeNoticeViewController(EndOfLifeNoticeViewController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EndOfLifeNoticeViewController", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  EndOfLifeNoticeViewController(EndOfLifeNoticeViewController const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "EndOfLifeNoticeViewController", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+EndOfLifeNoticeViewController(EndOfLifeNoticeViewController && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6463 };
+// Ctor Parameters [CppParam { name: "", ty: "EndOfLifeNoticeViewController", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+EndOfLifeNoticeViewController(EndOfLifeNoticeViewController const& ) = delete;
 
-  /// @brief Field _okButton, offset: 0x80, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::UI::Button> ____okButton;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6464};
 
-  /// @brief Field _duration, offset: 0x88, size: 0x4, def value: None
-  float_t ____duration;
+/// @brief Field _okButton, offset: 0x80, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::UI::Button>  ____okButton;
 
-  /// @brief Field _endOfLifeNoticeTextMesh, offset: 0x90, size: 0x8, def value: None
-  ::UnityW<::TMPro::TextMeshProUGUI> ____endOfLifeNoticeTextMesh;
+/// @brief Field _duration, offset: 0x88, size: 0x4, def value: None
+ float_t  ____duration;
 
-  /// @brief Field _endOfLifeNoticeLocalizationKey, offset: 0x98, size: 0x8, def value: None
-  ::StringW ____endOfLifeNoticeLocalizationKey;
+/// @brief Field _endOfLifeNoticeTextMesh, offset: 0x90, size: 0x8, def value: None
+ ::UnityW<::TMPro::TextMeshProUGUI>  ____endOfLifeNoticeTextMesh;
 
-  /// @brief Field _coroutineStarter, offset: 0xa0, size: 0x8, def value: None
-  ::GlobalNamespace::ICoroutineStarter* ____coroutineStarter;
+/// @brief Field _endOfLifeNoticeLocalizationKey, offset: 0x98, size: 0x8, def value: None
+ ::StringW  ____endOfLifeNoticeLocalizationKey;
 
-  /// @brief Field _enableOkButtonCoroutine, offset: 0xa8, size: 0x8, def value: None
-  ::UnityEngine::Coroutine* ____enableOkButtonCoroutine;
+/// @brief Field _coroutineStarter, offset: 0xa0, size: 0x8, def value: None
+ ::GlobalNamespace::ICoroutineStarter*  ____coroutineStarter;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _enableOkButtonCoroutine, offset: 0xa8, size: 0x8, def value: None
+ ::UnityEngine::Coroutine*  ____enableOkButtonCoroutine;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::EndOfLifeNoticeViewController, ____okButton) == 0x80, "Offset mismatch!");
@@ -286,7 +287,7 @@ static_assert(offsetof(::GlobalNamespace::EndOfLifeNoticeViewController, ____ena
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::EndOfLifeNoticeViewController, 0xb0>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::EndOfLifeNoticeViewController);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::EndOfLifeNoticeViewController*, "", "EndOfLifeNoticeViewController");
 NEED_NO_BOX(::GlobalNamespace::EndOfLifeNoticeViewController__EnableOkButton_d__7);

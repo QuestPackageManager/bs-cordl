@@ -21,46 +21,45 @@ namespace Org::BouncyCastle::Bcpg::Sig {
 // CS Name: Org.BouncyCastle.Bcpg.Sig.PreferredAlgorithms
 class CORDL_TYPE PreferredAlgorithms : public ::Org::BouncyCastle::Bcpg::SignatureSubpacket {
 public:
-  // Declarations
-  /// @brief Method GetPreferences, addr 0x3599830, size 0xa0, virtual false, abstract: false, final false
-  inline ::ArrayW<int32_t, ::Array<int32_t>*> GetPreferences();
+// Declarations
+/// @brief Method GetPreferences, addr 0x3599780, size 0xa0, virtual false, abstract: false, final false
+inline ::ArrayW<int32_t,::Array<int32_t>*> GetPreferences() ;
 
-  /// @brief Method IntToByteArray, addr 0x3599740, size 0xa4, virtual false, abstract: false, final false
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> IntToByteArray(::ArrayW<int32_t, ::Array<int32_t>*> v);
+/// @brief Method IntToByteArray, addr 0x3599690, size 0xa4, virtual false, abstract: false, final false
+static inline ::ArrayW<uint8_t,::Array<uint8_t>*> IntToByteArray(::ArrayW<int32_t,::Array<int32_t>*>  v) ;
 
-  static inline ::Org::BouncyCastle::Bcpg::Sig::PreferredAlgorithms* New_ctor(::Org::BouncyCastle::Bcpg::SignatureSubpacketTag type, bool critical, bool isLongLength,
-                                                                              ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
+static inline ::Org::BouncyCastle::Bcpg::Sig::PreferredAlgorithms* New_ctor(::Org::BouncyCastle::Bcpg::SignatureSubpacketTag  type, bool  critical, bool  isLongLength, ::ArrayW<uint8_t,::Array<uint8_t>*>  data) ;
 
-  static inline ::Org::BouncyCastle::Bcpg::Sig::PreferredAlgorithms* New_ctor(::Org::BouncyCastle::Bcpg::SignatureSubpacketTag type, bool critical, ::ArrayW<int32_t, ::Array<int32_t>*> preferences);
+static inline ::Org::BouncyCastle::Bcpg::Sig::PreferredAlgorithms* New_ctor(::Org::BouncyCastle::Bcpg::SignatureSubpacketTag  type, bool  critical, ::ArrayW<int32_t,::Array<int32_t>*>  preferences) ;
 
-  /// @brief Method .ctor, addr 0x35997e4, size 0x14, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Bcpg::SignatureSubpacketTag type, bool critical, bool isLongLength, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
+/// @brief Method .ctor, addr 0x3599734, size 0x14, virtual false, abstract: false, final false
+inline void _ctor(::Org::BouncyCastle::Bcpg::SignatureSubpacketTag  type, bool  critical, bool  isLongLength, ::ArrayW<uint8_t,::Array<uint8_t>*>  data) ;
 
-  /// @brief Method .ctor, addr 0x35997f8, size 0x38, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Bcpg::SignatureSubpacketTag type, bool critical, ::ArrayW<int32_t, ::Array<int32_t>*> preferences);
+/// @brief Method .ctor, addr 0x3599748, size 0x38, virtual false, abstract: false, final false
+inline void _ctor(::Org::BouncyCastle::Bcpg::SignatureSubpacketTag  type, bool  critical, ::ArrayW<int32_t,::Array<int32_t>*>  preferences) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PreferredAlgorithms();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr PreferredAlgorithms() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PreferredAlgorithms", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  PreferredAlgorithms(PreferredAlgorithms&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PreferredAlgorithms", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  PreferredAlgorithms(PreferredAlgorithms const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "PreferredAlgorithms", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+PreferredAlgorithms(PreferredAlgorithms && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 539 };
+// Ctor Parameters [CppParam { name: "", ty: "PreferredAlgorithms", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+PreferredAlgorithms(PreferredAlgorithms const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{539};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Bcpg::Sig::PreferredAlgorithms, 0x20>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Bcpg::Sig
+} // namespace end def Org::BouncyCastle::Bcpg::Sig
 NEED_NO_BOX(::Org::BouncyCastle::Bcpg::Sig::PreferredAlgorithms);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Bcpg::Sig::PreferredAlgorithms*, "Org.BouncyCastle.Bcpg.Sig", "PreferredAlgorithms");

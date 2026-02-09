@@ -25,77 +25,77 @@ namespace Org::BouncyCastle::Crypto::Digests {
 // CS Name: Org.BouncyCastle.Crypto.Digests.NullDigest
 class CORDL_TYPE NullDigest : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(get = get_AlgorithmName)) ::StringW AlgorithmName;
+// Declarations
+ __declspec(property(get=get_AlgorithmName)) ::StringW  AlgorithmName;
 
-  /// @brief Field bOut, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_bOut, put = __cordl_internal_set_bOut)) ::System::IO::MemoryStream* bOut;
+/// @brief Field bOut, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_bOut, put=__cordl_internal_set_bOut)) ::System::IO::MemoryStream*  bOut;
 
-  /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IDigest"
-  constexpr operator ::Org::BouncyCastle::Crypto::IDigest*() noexcept;
+/// @brief Convert operator to "::Org::BouncyCastle::Crypto::IDigest"
+constexpr operator  ::Org::BouncyCastle::Crypto::IDigest*() noexcept;
 
-  /// @brief Method BlockUpdate, addr 0x35f7d4c, size 0x20, virtual true, abstract: false, final true
-  inline void BlockUpdate(::ArrayW<uint8_t, ::Array<uint8_t>*> inBytes, int32_t inOff, int32_t len);
+/// @brief Method BlockUpdate, addr 0x35f7c9c, size 0x20, virtual true, abstract: false, final true
+inline void BlockUpdate(::ArrayW<uint8_t,::Array<uint8_t>*>  inBytes, int32_t  inOff, int32_t  len) ;
 
-  /// @brief Method DoFinal, addr 0x35f7d6c, size 0xb4, virtual true, abstract: false, final true
-  inline int32_t DoFinal(::ArrayW<uint8_t, ::Array<uint8_t>*> outBytes, int32_t outOff);
+/// @brief Method DoFinal, addr 0x35f7cbc, size 0xb4, virtual true, abstract: false, final true
+inline int32_t DoFinal(::ArrayW<uint8_t,::Array<uint8_t>*>  outBytes, int32_t  outOff) ;
 
-  /// @brief Method GetByteLength, addr 0x35f7d00, size 0x8, virtual true, abstract: false, final true
-  inline int32_t GetByteLength();
+/// @brief Method GetByteLength, addr 0x35f7c50, size 0x8, virtual true, abstract: false, final true
+inline int32_t GetByteLength() ;
 
-  /// @brief Method GetDigestSize, addr 0x35f7d08, size 0x24, virtual true, abstract: false, final true
-  inline int32_t GetDigestSize();
+/// @brief Method GetDigestSize, addr 0x35f7c58, size 0x24, virtual true, abstract: false, final true
+inline int32_t GetDigestSize() ;
 
-  static inline ::Org::BouncyCastle::Crypto::Digests::NullDigest* New_ctor();
+static inline ::Org::BouncyCastle::Crypto::Digests::NullDigest* New_ctor() ;
 
-  /// @brief Method Reset, addr 0x35f7e20, size 0x24, virtual true, abstract: false, final true
-  inline void Reset();
+/// @brief Method Reset, addr 0x35f7d70, size 0x24, virtual true, abstract: false, final true
+inline void Reset() ;
 
-  /// @brief Method Update, addr 0x35f7d2c, size 0x20, virtual true, abstract: false, final true
-  inline void Update(uint8_t b);
+/// @brief Method Update, addr 0x35f7c7c, size 0x20, virtual true, abstract: false, final true
+inline void Update(uint8_t  b) ;
 
-  constexpr ::System::IO::MemoryStream* const& __cordl_internal_get_bOut() const;
+constexpr ::System::IO::MemoryStream* const& __cordl_internal_get_bOut() const;
 
-  constexpr ::System::IO::MemoryStream*& __cordl_internal_get_bOut();
+constexpr ::System::IO::MemoryStream*& __cordl_internal_get_bOut() ;
 
-  constexpr void __cordl_internal_set_bOut(::System::IO::MemoryStream* value);
+constexpr void __cordl_internal_set_bOut(::System::IO::MemoryStream*  value) ;
 
-  /// @brief Method .ctor, addr 0x35f7e44, size 0x5c, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x35f7d94, size 0x5c, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_AlgorithmName, addr 0x35f7cbc, size 0x44, virtual true, abstract: false, final true
-  inline ::StringW get_AlgorithmName();
+/// @brief Method get_AlgorithmName, addr 0x35f7c0c, size 0x44, virtual true, abstract: false, final true
+inline ::StringW get_AlgorithmName() ;
 
-  /// @brief Convert to "::Org::BouncyCastle::Crypto::IDigest"
-  constexpr ::Org::BouncyCastle::Crypto::IDigest* i___Org__BouncyCastle__Crypto__IDigest() noexcept;
+/// @brief Convert to "::Org::BouncyCastle::Crypto::IDigest"
+constexpr ::Org::BouncyCastle::Crypto::IDigest* i___Org__BouncyCastle__Crypto__IDigest() noexcept;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NullDigest();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr NullDigest() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NullDigest", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  NullDigest(NullDigest&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NullDigest", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  NullDigest(NullDigest const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "NullDigest", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+NullDigest(NullDigest && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 761 };
+// Ctor Parameters [CppParam { name: "", ty: "NullDigest", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+NullDigest(NullDigest const& ) = delete;
 
-  /// @brief Field bOut, offset: 0x10, size: 0x8, def value: None
-  ::System::IO::MemoryStream* ___bOut;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{761};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field bOut, offset: 0x10, size: 0x8, def value: None
+ ::System::IO::MemoryStream*  ___bOut;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Digests::NullDigest, ___bOut) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Digests::NullDigest, 0x18>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Crypto::Digests
+} // namespace end def Org::BouncyCastle::Crypto::Digests
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Digests::NullDigest);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Digests::NullDigest*, "Org.BouncyCastle.Crypto.Digests", "NullDigest");

@@ -20,37 +20,37 @@ namespace HMUI {
 // CS Name: HMUI.ScrollViewItemForVisibilityController
 class CORDL_TYPE ScrollViewItemForVisibilityController : public ::UnityEngine::MonoBehaviour {
 public:
-  // Declarations
-  /// @brief Method GetWorldCorners, addr 0x56d57e0, size 0x6c, virtual false, abstract: false, final false
-  inline void GetWorldCorners(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> fourCornersArray);
+// Declarations
+/// @brief Method GetWorldCorners, addr 0x56d5568, size 0x6c, virtual false, abstract: false, final false
+inline void GetWorldCorners(::ArrayW<::UnityEngine::Vector3,::Array<::UnityEngine::Vector3>*>  fourCornersArray) ;
 
-  static inline ::HMUI::ScrollViewItemForVisibilityController* New_ctor();
+static inline ::HMUI::ScrollViewItemForVisibilityController* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x56d584c, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x56d55d4, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ScrollViewItemForVisibilityController();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ScrollViewItemForVisibilityController() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ScrollViewItemForVisibilityController", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ScrollViewItemForVisibilityController(ScrollViewItemForVisibilityController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ScrollViewItemForVisibilityController", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ScrollViewItemForVisibilityController(ScrollViewItemForVisibilityController const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ScrollViewItemForVisibilityController", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ScrollViewItemForVisibilityController(ScrollViewItemForVisibilityController && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19199 };
+// Ctor Parameters [CppParam { name: "", ty: "ScrollViewItemForVisibilityController", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ScrollViewItemForVisibilityController(ScrollViewItemForVisibilityController const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{19203};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HMUI::ScrollViewItemForVisibilityController, 0x20>, "Size mismatch!");
 
-} // namespace HMUI
+} // namespace end def HMUI
 NEED_NO_BOX(::HMUI::ScrollViewItemForVisibilityController);
 DEFINE_IL2CPP_ARG_TYPE(::HMUI::ScrollViewItemForVisibilityController*, "HMUI", "ScrollViewItemForVisibilityController");

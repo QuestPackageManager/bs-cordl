@@ -27,86 +27,86 @@ namespace System::Xml::Linq {
 // CS Name: System.Xml.Linq.XProcessingInstruction
 class CORDL_TYPE XProcessingInstruction : public ::System::Xml::Linq::XNode {
 public:
-  // Declarations
-  __declspec(property(get = get_Data, put = set_Data)) ::StringW Data;
+// Declarations
+ __declspec(property(get=get_Data, put=set_Data)) ::StringW  Data;
 
-  __declspec(property(get = get_NodeType)) ::System::Xml::XmlNodeType NodeType;
+ __declspec(property(get=get_NodeType)) ::System::Xml::XmlNodeType  NodeType;
 
-  __declspec(property(get = get_Target)) ::StringW Target;
+ __declspec(property(get=get_Target)) ::StringW  Target;
 
-  /// @brief Field data, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_data, put = __cordl_internal_set_data)) ::StringW data;
+/// @brief Field data, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get_data, put=__cordl_internal_set_data)) ::StringW  data;
 
-  /// @brief Field target, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_target, put = __cordl_internal_set_target)) ::StringW target;
+/// @brief Field target, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get_target, put=__cordl_internal_set_target)) ::StringW  target;
 
-  /// @brief Method CloneNode, addr 0x5ff7228, size 0x5c, virtual true, abstract: false, final false
-  inline ::System::Xml::Linq::XNode* CloneNode();
+/// @brief Method CloneNode, addr 0x5ff78e8, size 0x5c, virtual true, abstract: false, final false
+inline ::System::Xml::Linq::XNode* CloneNode() ;
 
-  static inline ::System::Xml::Linq::XProcessingInstruction* New_ctor(::System::Xml::Linq::XProcessingInstruction* other);
+static inline ::System::Xml::Linq::XProcessingInstruction* New_ctor(::System::Xml::Linq::XProcessingInstruction*  other) ;
 
-  static inline ::System::Xml::Linq::XProcessingInstruction* New_ctor(::StringW target, ::StringW data);
+static inline ::System::Xml::Linq::XProcessingInstruction* New_ctor(::StringW  target, ::StringW  data) ;
 
-  /// @brief Method ValidateName, addr 0x5ff6f6c, size 0xdc, virtual false, abstract: false, final false
-  static inline void ValidateName(::StringW name);
+/// @brief Method ValidateName, addr 0x5ff762c, size 0xdc, virtual false, abstract: false, final false
+static inline void ValidateName(::StringW  name) ;
 
-  /// @brief Method WriteTo, addr 0x5ff71bc, size 0x6c, virtual true, abstract: false, final false
-  inline void WriteTo(::System::Xml::XmlWriter* writer);
+/// @brief Method WriteTo, addr 0x5ff787c, size 0x6c, virtual true, abstract: false, final false
+inline void WriteTo(::System::Xml::XmlWriter*  writer) ;
 
-  constexpr ::StringW const& __cordl_internal_get_data() const;
+constexpr ::StringW const& __cordl_internal_get_data() const;
 
-  constexpr ::StringW& __cordl_internal_get_data();
+constexpr ::StringW& __cordl_internal_get_data() ;
 
-  constexpr ::StringW const& __cordl_internal_get_target() const;
+constexpr ::StringW const& __cordl_internal_get_target() const;
 
-  constexpr ::StringW& __cordl_internal_get_target();
+constexpr ::StringW& __cordl_internal_get_target() ;
 
-  constexpr void __cordl_internal_set_data(::StringW value);
+constexpr void __cordl_internal_set_data(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_target(::StringW value);
+constexpr void __cordl_internal_set_target(::StringW  value) ;
 
-  /// @brief Method .ctor, addr 0x5ff7048, size 0x5c, virtual false, abstract: false, final false
-  inline void _ctor(::System::Xml::Linq::XProcessingInstruction* other);
+/// @brief Method .ctor, addr 0x5ff7708, size 0x5c, virtual false, abstract: false, final false
+inline void _ctor(::System::Xml::Linq::XProcessingInstruction*  other) ;
 
-  /// @brief Method .ctor, addr 0x5ff2dc4, size 0x78, virtual false, abstract: false, final false
-  inline void _ctor(::StringW target, ::StringW data);
+/// @brief Method .ctor, addr 0x5ff3484, size 0x78, virtual false, abstract: false, final false
+inline void _ctor(::StringW  target, ::StringW  data) ;
 
-  /// @brief Method get_Data, addr 0x5ff70a4, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_Data();
+/// @brief Method get_Data, addr 0x5ff7764, size 0x8, virtual false, abstract: false, final false
+inline ::StringW get_Data() ;
 
-  /// @brief Method get_NodeType, addr 0x5ff71ac, size 0x8, virtual true, abstract: false, final false
-  inline ::System::Xml::XmlNodeType get_NodeType();
+/// @brief Method get_NodeType, addr 0x5ff786c, size 0x8, virtual true, abstract: false, final false
+inline ::System::Xml::XmlNodeType get_NodeType() ;
 
-  /// @brief Method get_Target, addr 0x5ff71b4, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_Target();
+/// @brief Method get_Target, addr 0x5ff7874, size 0x8, virtual false, abstract: false, final false
+inline ::StringW get_Target() ;
 
-  /// @brief Method set_Data, addr 0x5ff70ac, size 0x100, virtual false, abstract: false, final false
-  inline void set_Data(::StringW value);
+/// @brief Method set_Data, addr 0x5ff776c, size 0x100, virtual false, abstract: false, final false
+inline void set_Data(::StringW  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr XProcessingInstruction();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr XProcessingInstruction() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XProcessingInstruction", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  XProcessingInstruction(XProcessingInstruction&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XProcessingInstruction", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  XProcessingInstruction(XProcessingInstruction const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "XProcessingInstruction", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+XProcessingInstruction(XProcessingInstruction && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21804 };
+// Ctor Parameters [CppParam { name: "", ty: "XProcessingInstruction", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+XProcessingInstruction(XProcessingInstruction const& ) = delete;
 
-  /// @brief Field target, offset: 0x28, size: 0x8, def value: None
-  ::StringW ___target;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{21808};
 
-  /// @brief Field data, offset: 0x30, size: 0x8, def value: None
-  ::StringW ___data;
+/// @brief Field target, offset: 0x28, size: 0x8, def value: None
+ ::StringW  ___target;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field data, offset: 0x30, size: 0x8, def value: None
+ ::StringW  ___data;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Xml::Linq::XProcessingInstruction, ___target) == 0x28, "Offset mismatch!");
@@ -115,6 +115,6 @@ static_assert(offsetof(::System::Xml::Linq::XProcessingInstruction, ___data) == 
 
 static_assert(::cordl_internals::size_check_v<::System::Xml::Linq::XProcessingInstruction, 0x38>, "Size mismatch!");
 
-} // namespace System::Xml::Linq
+} // namespace end def System::Xml::Linq
 NEED_NO_BOX(::System::Xml::Linq::XProcessingInstruction);
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Linq::XProcessingInstruction*, "System.Xml.Linq", "XProcessingInstruction");

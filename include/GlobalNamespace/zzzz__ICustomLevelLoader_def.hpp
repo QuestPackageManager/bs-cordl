@@ -10,23 +10,23 @@ class ICustomLevelLoader;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::ICustomLevelLoader);
-// Dependencies
+// Dependencies 
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ICustomLevelLoader
 class CORDL_TYPE ICustomLevelLoader {
 public:
-  // Declarations
-  // Ctor Parameters [CppParam { name: "", ty: "ICustomLevelLoader", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ICustomLevelLoader(ICustomLevelLoader const&) = delete;
+// Declarations
+// Ctor Parameters [CppParam { name: "", ty: "ICustomLevelLoader", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ICustomLevelLoader(ICustomLevelLoader const& ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14788 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{14792};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ICustomLevelLoader);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ICustomLevelLoader*, "", "ICustomLevelLoader");

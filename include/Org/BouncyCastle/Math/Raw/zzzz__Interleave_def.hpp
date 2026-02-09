@@ -18,76 +18,76 @@ namespace Org::BouncyCastle::Math::Raw {
 // CS Name: Org.BouncyCastle.Math.Raw.Interleave
 class CORDL_TYPE Interleave : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method Expand16to32, addr 0x34377d4, size 0x24, virtual false, abstract: false, final false
-  static inline uint32_t Expand16to32(uint32_t x);
+// Declarations
+/// @brief Method Expand16to32, addr 0x3437724, size 0x24, virtual false, abstract: false, final false
+static inline uint32_t Expand16to32(uint32_t  x) ;
 
-  /// @brief Method Expand32to64, addr 0x34377f8, size 0x58, virtual false, abstract: false, final false
-  static inline uint64_t Expand32to64(uint32_t x);
+/// @brief Method Expand32to64, addr 0x3437748, size 0x58, virtual false, abstract: false, final false
+static inline uint64_t Expand32to64(uint32_t  x) ;
 
-  /// @brief Method Expand64To128, addr 0x3437850, size 0xa8, virtual false, abstract: false, final false
-  static inline void Expand64To128(uint64_t x, ::ArrayW<uint64_t, ::Array<uint64_t>*> z, int32_t zOff);
+/// @brief Method Expand64To128, addr 0x34377a0, size 0xa8, virtual false, abstract: false, final false
+static inline void Expand64To128(uint64_t  x, ::ArrayW<uint64_t,::Array<uint64_t>*>  z, int32_t  zOff) ;
 
-  /// @brief Method Expand64To128Rev, addr 0x34378f8, size 0xa8, virtual false, abstract: false, final false
-  static inline void Expand64To128Rev(uint64_t x, ::ArrayW<uint64_t, ::Array<uint64_t>*> z, int32_t zOff);
+/// @brief Method Expand64To128Rev, addr 0x3437848, size 0xa8, virtual false, abstract: false, final false
+static inline void Expand64To128Rev(uint64_t  x, ::ArrayW<uint64_t,::Array<uint64_t>*>  z, int32_t  zOff) ;
 
-  /// @brief Method Expand8to16, addr 0x34377b4, size 0x20, virtual false, abstract: false, final false
-  static inline uint32_t Expand8to16(uint32_t x);
+/// @brief Method Expand8to16, addr 0x3437704, size 0x20, virtual false, abstract: false, final false
+static inline uint32_t Expand8to16(uint32_t  x) ;
 
-  static inline ::Org::BouncyCastle::Math::Raw::Interleave* New_ctor();
+static inline ::Org::BouncyCastle::Math::Raw::Interleave* New_ctor() ;
 
-  /// @brief Method Shuffle, addr 0x34379a0, size 0x48, virtual false, abstract: false, final false
-  static inline uint32_t Shuffle(uint32_t x);
+/// @brief Method Shuffle, addr 0x34378f0, size 0x48, virtual false, abstract: false, final false
+static inline uint32_t Shuffle(uint32_t  x) ;
 
-  /// @brief Method Shuffle, addr 0x34379e8, size 0x5c, virtual false, abstract: false, final false
-  static inline uint64_t Shuffle(uint64_t x);
+/// @brief Method Shuffle, addr 0x3437938, size 0x5c, virtual false, abstract: false, final false
+static inline uint64_t Shuffle(uint64_t  x) ;
 
-  /// @brief Method Shuffle2, addr 0x3437a44, size 0x54, virtual false, abstract: false, final false
-  static inline uint32_t Shuffle2(uint32_t x);
+/// @brief Method Shuffle2, addr 0x3437994, size 0x54, virtual false, abstract: false, final false
+static inline uint32_t Shuffle2(uint32_t  x) ;
 
-  /// @brief Method Unshuffle, addr 0x3437a98, size 0x48, virtual false, abstract: false, final false
-  static inline uint32_t Unshuffle(uint32_t x);
+/// @brief Method Unshuffle, addr 0x34379e8, size 0x48, virtual false, abstract: false, final false
+static inline uint32_t Unshuffle(uint32_t  x) ;
 
-  /// @brief Method Unshuffle, addr 0x3437ae0, size 0x5c, virtual false, abstract: false, final false
-  static inline uint64_t Unshuffle(uint64_t x);
+/// @brief Method Unshuffle, addr 0x3437a30, size 0x5c, virtual false, abstract: false, final false
+static inline uint64_t Unshuffle(uint64_t  x) ;
 
-  /// @brief Method Unshuffle2, addr 0x3437b3c, size 0x54, virtual false, abstract: false, final false
-  static inline uint32_t Unshuffle2(uint32_t x);
+/// @brief Method Unshuffle2, addr 0x3437a8c, size 0x54, virtual false, abstract: false, final false
+static inline uint32_t Unshuffle2(uint32_t  x) ;
 
-  /// @brief Method .ctor, addr 0x3437b90, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x3437ae0, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Interleave();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr Interleave() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Interleave", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  Interleave(Interleave&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Interleave", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  Interleave(Interleave const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "Interleave", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+Interleave(Interleave && ) = delete;
 
-  /// @brief Field M32 offset 0xffffffff size 0x8
-  static constexpr uint64_t M32{ static_cast<uint64_t>(0x55555555u) };
+// Ctor Parameters [CppParam { name: "", ty: "Interleave", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+Interleave(Interleave const& ) = delete;
 
-  /// @brief Field M64 offset 0xffffffff size 0x8
-  static constexpr uint64_t M64{ static_cast<uint64_t>(0x5555555555555555u) };
+/// @brief Field M32 offset 0xffffffff size 0x8
+static constexpr uint64_t  M32{static_cast<uint64_t>(0x55555555u)};
 
-  /// @brief Field M64R offset 0xffffffff size 0x8
-  static constexpr uint64_t M64R{ static_cast<uint64_t>(0xaaaaaaaaaaaaaaaau) };
+/// @brief Field M64 offset 0xffffffff size 0x8
+static constexpr uint64_t  M64{static_cast<uint64_t>(0x5555555555555555u)};
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1588 };
+/// @brief Field M64R offset 0xffffffff size 0x8
+static constexpr uint64_t  M64R{static_cast<uint64_t>(0xaaaaaaaaaaaaaaaau)};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{1588};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Math::Raw::Interleave, 0x10>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Math::Raw
+} // namespace end def Org::BouncyCastle::Math::Raw
 NEED_NO_BOX(::Org::BouncyCastle::Math::Raw::Interleave);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Math::Raw::Interleave*, "Org.BouncyCastle.Math.Raw", "Interleave");

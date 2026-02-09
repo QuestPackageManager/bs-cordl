@@ -10,23 +10,23 @@ class IGraphQLModel;
 }
 // Write type traits
 MARK_REF_PTR_T(::OculusStudios::GraphQL::ClientInterface::IGraphQLModel);
-// Dependencies
+// Dependencies 
 namespace OculusStudios::GraphQL::ClientInterface {
 // Is value type: false
 // CS Name: OculusStudios.GraphQL.ClientInterface.IGraphQLModel
 class CORDL_TYPE IGraphQLModel {
 public:
-  // Declarations
-  // Ctor Parameters [CppParam { name: "", ty: "IGraphQLModel", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  IGraphQLModel(IGraphQLModel const&) = delete;
+// Declarations
+// Ctor Parameters [CppParam { name: "", ty: "IGraphQLModel", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+IGraphQLModel(IGraphQLModel const& ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22472 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{22476};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-} // namespace OculusStudios::GraphQL::ClientInterface
+} // namespace end def OculusStudios::GraphQL::ClientInterface
 NEED_NO_BOX(::OculusStudios::GraphQL::ClientInterface::IGraphQLModel);
 DEFINE_IL2CPP_ARG_TYPE(::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*, "OculusStudios.GraphQL.ClientInterface", "IGraphQLModel");

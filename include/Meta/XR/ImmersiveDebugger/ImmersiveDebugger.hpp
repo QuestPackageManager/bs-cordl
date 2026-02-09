@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "Meta/XR/ImmersiveDebugger/CustomIntegrationConfig.hpp"
 #include "Meta/XR/ImmersiveDebugger/CustomIntegrationConfigBase.hpp"
@@ -22,5 +22,6 @@ module;
 #include "Meta/XR/ImmersiveDebugger/SceneSetup.hpp"
 #include "Meta/XR/ImmersiveDebugger/Telemetry.hpp"
 #ifdef __cpp_modules
-export module ImmersiveDebugger;
-#endif
+                    export module ImmersiveDebugger;
+                    #endif
+                

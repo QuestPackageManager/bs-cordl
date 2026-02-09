@@ -25,68 +25,68 @@ namespace GlobalNamespace {
 // CS Name: ColorExtensions
 class CORDL_TYPE ColorExtensions : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method ColorWithAlpha, addr 0x322a940, size 0x8, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Color ColorWithAlpha(::UnityEngine::Color color, float_t alpha);
+// Declarations
+/// @brief Method ColorWithAlpha, addr 0x322a890, size 0x8, virtual false, abstract: false, final false
+static inline ::UnityEngine::Color ColorWithAlpha(::UnityEngine::Color  color, float_t  alpha) ;
 
-  /// @brief Method ColorWithB, addr 0x322a960, size 0x8, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Color ColorWithB(::UnityEngine::Color color, float_t b);
+/// @brief Method ColorWithB, addr 0x322a8b0, size 0x8, virtual false, abstract: false, final false
+static inline ::UnityEngine::Color ColorWithB(::UnityEngine::Color  color, float_t  b) ;
 
-  /// @brief Method ColorWithG, addr 0x322a958, size 0x8, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Color ColorWithG(::UnityEngine::Color color, float_t g);
+/// @brief Method ColorWithG, addr 0x322a8a8, size 0x8, virtual false, abstract: false, final false
+static inline ::UnityEngine::Color ColorWithG(::UnityEngine::Color  color, float_t  g) ;
 
-  /// @brief Method ColorWithMultipliedAlpha, addr 0x322a948, size 0x8, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Color ColorWithMultipliedAlpha(::UnityEngine::Color color, float_t alphaMultiplier);
+/// @brief Method ColorWithMultipliedAlpha, addr 0x322a898, size 0x8, virtual false, abstract: false, final false
+static inline ::UnityEngine::Color ColorWithMultipliedAlpha(::UnityEngine::Color  color, float_t  alphaMultiplier) ;
 
-  /// @brief Method ColorWithR, addr 0x322a950, size 0x8, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Color ColorWithR(::UnityEngine::Color color, float_t r);
+/// @brief Method ColorWithR, addr 0x322a8a0, size 0x8, virtual false, abstract: false, final false
+static inline ::UnityEngine::Color ColorWithR(::UnityEngine::Color  color, float_t  r) ;
 
-  /// @brief Method ColorWithValue, addr 0x322a968, size 0x48, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Color ColorWithValue(::UnityEngine::Color color, float_t value);
+/// @brief Method ColorWithValue, addr 0x322a8b8, size 0x48, virtual false, abstract: false, final false
+static inline ::UnityEngine::Color ColorWithValue(::UnityEngine::Color  color, float_t  value) ;
 
-  /// @brief Method FromHtmlStringRGBA, addr 0x322a6d8, size 0x164, virtual false, abstract: false, final false
-  static inline bool FromHtmlStringRGBA(::StringW htmlColor, ::ByRef<::UnityEngine::Color> color);
+/// @brief Method FromHtmlStringRGBA, addr 0x322a628, size 0x164, virtual false, abstract: false, final false
+static inline bool FromHtmlStringRGBA(::StringW  htmlColor, ::ByRef<::UnityEngine::Color>  color) ;
 
-  /// @brief Method GetColorFromHtmlString, addr 0x322a8b0, size 0x40, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Color GetColorFromHtmlString(::StringW colorHtmlString);
+/// @brief Method GetColorFromHtmlString, addr 0x322a800, size 0x40, virtual false, abstract: false, final false
+static inline ::UnityEngine::Color GetColorFromHtmlString(::StringW  colorHtmlString) ;
 
-  /// @brief Method IsEqualTo, addr 0x322a9ec, size 0x10, virtual false, abstract: false, final false
-  static inline bool IsEqualTo(::UnityEngine::Color32 a, ::UnityEngine::Color32 b);
+/// @brief Method IsEqualTo, addr 0x322a93c, size 0x10, virtual false, abstract: false, final false
+static inline bool IsEqualTo(::UnityEngine::Color32  a, ::UnityEngine::Color32  b) ;
 
-  /// @brief Method LerpRGBUnclamped, addr 0x322a9c0, size 0x2c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Color LerpRGBUnclamped(::UnityEngine::Color a, ::UnityEngine::Color b, float_t t);
+/// @brief Method LerpRGBUnclamped, addr 0x322a910, size 0x2c, virtual false, abstract: false, final false
+static inline ::UnityEngine::Color LerpRGBUnclamped(::UnityEngine::Color  a, ::UnityEngine::Color  b, float_t  t) ;
 
-  /// @brief Method MultiplyRGB, addr 0x322a9b0, size 0x10, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Color MultiplyRGB(::UnityEngine::Color c, float_t m);
+/// @brief Method MultiplyRGB, addr 0x322a900, size 0x10, virtual false, abstract: false, final false
+static inline ::UnityEngine::Color MultiplyRGB(::UnityEngine::Color  c, float_t  m) ;
 
-  /// @brief Method SaturatedColor, addr 0x322a8f0, size 0x50, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Color SaturatedColor(::UnityEngine::Color color, float_t saturation);
+/// @brief Method SaturatedColor, addr 0x322a840, size 0x50, virtual false, abstract: false, final false
+static inline ::UnityEngine::Color SaturatedColor(::UnityEngine::Color  color, float_t  saturation) ;
 
-  /// @brief Method <FromHtmlStringRGBA>g__HtmlStringToFloat|0_0, addr 0x322a83c, size 0x74, virtual false, abstract: false, final false
-  static inline float_t _FromHtmlStringRGBA_g__HtmlStringToFloat_0_0(::StringW htmlColor);
+/// @brief Method <FromHtmlStringRGBA>g__HtmlStringToFloat|0_0, addr 0x322a78c, size 0x74, virtual false, abstract: false, final false
+static inline float_t _FromHtmlStringRGBA_g__HtmlStringToFloat_0_0(::StringW  htmlColor) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ColorExtensions();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ColorExtensions() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ColorExtensions", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ColorExtensions(ColorExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ColorExtensions", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ColorExtensions(ColorExtensions const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ColorExtensions", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ColorExtensions(ColorExtensions && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20677 };
+// Ctor Parameters [CppParam { name: "", ty: "ColorExtensions", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ColorExtensions(ColorExtensions const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20681};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ColorExtensions, 0x10>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ColorExtensions);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ColorExtensions*, "", "ColorExtensions");

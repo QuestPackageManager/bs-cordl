@@ -29,48 +29,48 @@ namespace System::Data {
 // CS Name: System.Data.PropertyCollection
 class CORDL_TYPE PropertyCollection : public ::System::Collections::Hashtable {
 public:
-  // Declarations
-  /// @brief Convert operator to "::System::ICloneable"
-  constexpr operator ::System::ICloneable*() noexcept;
+// Declarations
+/// @brief Convert operator to "::System::ICloneable"
+constexpr operator  ::System::ICloneable*() noexcept;
 
-  /// @brief Method Clone, addr 0x5e9663c, size 0x2dc, virtual true, abstract: false, final false
-  inline ::System::Object* Clone();
+/// @brief Method Clone, addr 0x5e96cfc, size 0x2dc, virtual true, abstract: false, final false
+inline ::System::Object* Clone() ;
 
-  static inline ::System::Data::PropertyCollection* New_ctor();
+static inline ::System::Data::PropertyCollection* New_ctor() ;
 
-  static inline ::System::Data::PropertyCollection* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
+static inline ::System::Data::PropertyCollection* New_ctor(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context) ;
 
-  /// @brief Method .ctor, addr 0x5e96628, size 0xc, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5e96ce8, size 0xc, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method .ctor, addr 0x5e96634, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
+/// @brief Method .ctor, addr 0x5e96cf4, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context) ;
 
-  /// @brief Convert to "::System::ICloneable"
-  constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
+/// @brief Convert to "::System::ICloneable"
+constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PropertyCollection();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr PropertyCollection() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PropertyCollection", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  PropertyCollection(PropertyCollection&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PropertyCollection", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  PropertyCollection(PropertyCollection const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "PropertyCollection", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+PropertyCollection(PropertyCollection && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13811 };
+// Ctor Parameters [CppParam { name: "", ty: "PropertyCollection", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+PropertyCollection(PropertyCollection const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{13815};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Data::PropertyCollection, 0x50>, "Size mismatch!");
 
-} // namespace System::Data
+} // namespace end def System::Data
 NEED_NO_BOX(::System::Data::PropertyCollection);
 DEFINE_IL2CPP_ARG_TYPE(::System::Data::PropertyCollection*, "System.Data", "PropertyCollection");

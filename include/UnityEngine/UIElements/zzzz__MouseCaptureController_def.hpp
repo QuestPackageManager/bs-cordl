@@ -20,35 +20,35 @@ namespace UnityEngine::UIElements {
 // CS Name: UnityEngine.UIElements.MouseCaptureController
 class CORDL_TYPE MouseCaptureController : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method CaptureMouse, addr 0x6beae88, size 0xcc, virtual false, abstract: false, final false
-  static inline void CaptureMouse(::UnityEngine::UIElements::IEventHandler* handler);
+// Declarations
+/// @brief Method CaptureMouse, addr 0x6beb548, size 0xcc, virtual false, abstract: false, final false
+static inline void CaptureMouse(::UnityEngine::UIElements::IEventHandler*  handler) ;
 
-  /// @brief Method HasMouseCapture, addr 0x6be96a4, size 0xb4, virtual false, abstract: false, final false
-  static inline bool HasMouseCapture(::UnityEngine::UIElements::IEventHandler* handler);
+/// @brief Method HasMouseCapture, addr 0x6be9d64, size 0xb4, virtual false, abstract: false, final false
+static inline bool HasMouseCapture(::UnityEngine::UIElements::IEventHandler*  handler) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MouseCaptureController();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr MouseCaptureController() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MouseCaptureController", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  MouseCaptureController(MouseCaptureController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MouseCaptureController", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  MouseCaptureController(MouseCaptureController const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "MouseCaptureController", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+MouseCaptureController(MouseCaptureController && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4622 };
+// Ctor Parameters [CppParam { name: "", ty: "MouseCaptureController", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+MouseCaptureController(MouseCaptureController const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4622};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::MouseCaptureController, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements
+} // namespace end def UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::MouseCaptureController);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::MouseCaptureController*, "UnityEngine.UIElements", "MouseCaptureController");

@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "BeatmapSaveDataVersion3/BaseSliderData.hpp"
 #include "BeatmapSaveDataVersion3/BasicEventData.hpp"
@@ -39,5 +39,6 @@ module;
 #include "BeatmapSaveDataVersion3/TransitionType.hpp"
 #include "BeatmapSaveDataVersion3/WaypointData.hpp"
 #ifdef __cpp_modules
-export module BeatmapSaveDataVersion3;
-#endif
+                    export module BeatmapSaveDataVersion3;
+                    #endif
+                

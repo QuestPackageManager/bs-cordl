@@ -18,48 +18,48 @@ namespace System::Diagnostics {
 // CS Name: System.Diagnostics.ConditionalAttribute
 class CORDL_TYPE ConditionalAttribute : public ::System::Attribute {
 public:
-  // Declarations
-  /// @brief Field <ConditionString>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__ConditionString_k__BackingField, put = __cordl_internal_set__ConditionString_k__BackingField)) ::StringW _ConditionString_k__BackingField;
+// Declarations
+/// @brief Field <ConditionString>k__BackingField, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get__ConditionString_k__BackingField, put=__cordl_internal_set__ConditionString_k__BackingField)) ::StringW  _ConditionString_k__BackingField;
 
-  static inline ::System::Diagnostics::ConditionalAttribute* New_ctor(::StringW conditionString);
+static inline ::System::Diagnostics::ConditionalAttribute* New_ctor(::StringW  conditionString) ;
 
-  constexpr ::StringW const& __cordl_internal_get__ConditionString_k__BackingField() const;
+constexpr ::StringW const& __cordl_internal_get__ConditionString_k__BackingField() const;
 
-  constexpr ::StringW& __cordl_internal_get__ConditionString_k__BackingField();
+constexpr ::StringW& __cordl_internal_get__ConditionString_k__BackingField() ;
 
-  constexpr void __cordl_internal_set__ConditionString_k__BackingField(::StringW value);
+constexpr void __cordl_internal_set__ConditionString_k__BackingField(::StringW  value) ;
 
-  /// @brief Method .ctor, addr 0x5a30a60, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::StringW conditionString);
+/// @brief Method .ctor, addr 0x5a30f6c, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(::StringW  conditionString) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ConditionalAttribute();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ConditionalAttribute() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ConditionalAttribute", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ConditionalAttribute(ConditionalAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ConditionalAttribute", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ConditionalAttribute(ConditionalAttribute const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ConditionalAttribute", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ConditionalAttribute(ConditionalAttribute && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3654 };
+// Ctor Parameters [CppParam { name: "", ty: "ConditionalAttribute", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ConditionalAttribute(ConditionalAttribute const& ) = delete;
 
-  /// @brief Field <ConditionString>k__BackingField, offset: 0x10, size: 0x8, def value: None
-  ::StringW ____ConditionString_k__BackingField;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{3654};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field <ConditionString>k__BackingField, offset: 0x10, size: 0x8, def value: None
+ ::StringW  ____ConditionString_k__BackingField;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Diagnostics::ConditionalAttribute, ____ConditionString_k__BackingField) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::System::Diagnostics::ConditionalAttribute, 0x18>, "Size mismatch!");
 
-} // namespace System::Diagnostics
+} // namespace end def System::Diagnostics
 NEED_NO_BOX(::System::Diagnostics::ConditionalAttribute);
 DEFINE_IL2CPP_ARG_TYPE(::System::Diagnostics::ConditionalAttribute*, "System.Diagnostics", "ConditionalAttribute");

@@ -8,7 +8,8 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MathUtils)
 namespace System {
-template <typename T> struct Nullable_1;
+template<typename T>
+struct Nullable_1;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Utilities {
@@ -22,47 +23,47 @@ namespace Newtonsoft::Json::Utilities {
 // CS Name: Newtonsoft.Json.Utilities.MathUtils
 class CORDL_TYPE MathUtils : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method ApproxEquals, addr 0x5b7f634, size 0xa8, virtual false, abstract: false, final false
-  static inline bool ApproxEquals(double_t d1, double_t d2);
+// Declarations
+/// @brief Method ApproxEquals, addr 0x5b7fb40, size 0xa8, virtual false, abstract: false, final false
+static inline bool ApproxEquals(double_t  d1, double_t  d2) ;
 
-  /// @brief Method IntLength, addr 0x5b7f1bc, size 0x1c4, virtual false, abstract: false, final false
-  static inline int32_t IntLength(uint64_t i);
+/// @brief Method IntLength, addr 0x5b7f6c8, size 0x1c4, virtual false, abstract: false, final false
+static inline int32_t IntLength(uint64_t  i) ;
 
-  /// @brief Method IntToHex, addr 0x5b7f380, size 0x18, virtual false, abstract: false, final false
-  static inline char16_t IntToHex(int32_t n);
+/// @brief Method IntToHex, addr 0x5b7f88c, size 0x18, virtual false, abstract: false, final false
+static inline char16_t IntToHex(int32_t  n) ;
 
-  /// @brief Method Max, addr 0x5b7f538, size 0xfc, virtual false, abstract: false, final false
-  static inline ::System::Nullable_1<double_t> Max(::System::Nullable_1<double_t> val1, ::System::Nullable_1<double_t> val2);
+/// @brief Method Max, addr 0x5b7fa44, size 0xfc, virtual false, abstract: false, final false
+static inline ::System::Nullable_1<double_t> Max(::System::Nullable_1<double_t>  val1, ::System::Nullable_1<double_t>  val2) ;
 
-  /// @brief Method Max, addr 0x5b7f468, size 0xd0, virtual false, abstract: false, final false
-  static inline ::System::Nullable_1<int32_t> Max(::System::Nullable_1<int32_t> val1, ::System::Nullable_1<int32_t> val2);
+/// @brief Method Max, addr 0x5b7f974, size 0xd0, virtual false, abstract: false, final false
+static inline ::System::Nullable_1<int32_t> Max(::System::Nullable_1<int32_t>  val1, ::System::Nullable_1<int32_t>  val2) ;
 
-  /// @brief Method Min, addr 0x5b7f398, size 0xd0, virtual false, abstract: false, final false
-  static inline ::System::Nullable_1<int32_t> Min(::System::Nullable_1<int32_t> val1, ::System::Nullable_1<int32_t> val2);
+/// @brief Method Min, addr 0x5b7f8a4, size 0xd0, virtual false, abstract: false, final false
+static inline ::System::Nullable_1<int32_t> Min(::System::Nullable_1<int32_t>  val1, ::System::Nullable_1<int32_t>  val2) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MathUtils();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr MathUtils() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MathUtils", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  MathUtils(MathUtils&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MathUtils", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  MathUtils(MathUtils const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "MathUtils", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+MathUtils(MathUtils && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13416 };
+// Ctor Parameters [CppParam { name: "", ty: "MathUtils", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+MathUtils(MathUtils const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{13420};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Utilities::MathUtils, 0x10>, "Size mismatch!");
 
-} // namespace Newtonsoft::Json::Utilities
+} // namespace end def Newtonsoft::Json::Utilities
 NEED_NO_BOX(::Newtonsoft::Json::Utilities::MathUtils);
 DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Utilities::MathUtils*, "Newtonsoft.Json.Utilities", "MathUtils");

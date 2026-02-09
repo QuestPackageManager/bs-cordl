@@ -21,86 +21,86 @@ namespace System::Threading {
 // CS Name: System.Threading.Monitor
 class CORDL_TYPE Monitor : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method Enter, addr 0x5afd5ac, size 0x4, virtual false, abstract: false, final false
-  static inline void Enter(::System::Object* obj);
+// Declarations
+/// @brief Method Enter, addr 0x5afdab8, size 0x4, virtual false, abstract: false, final false
+static inline void Enter(::System::Object*  obj) ;
 
-  /// @brief Method Enter, addr 0x5afa774, size 0x1c, virtual false, abstract: false, final false
-  static inline void Enter(::System::Object* obj, ::ByRef<bool> lockTaken);
+/// @brief Method Enter, addr 0x5afac80, size 0x1c, virtual false, abstract: false, final false
+static inline void Enter(::System::Object*  obj, ::ByRef<bool>  lockTaken) ;
 
-  /// @brief Method Exit, addr 0x5afd5b0, size 0x4, virtual false, abstract: false, final false
-  static inline void Exit(::System::Object* obj);
+/// @brief Method Exit, addr 0x5afdabc, size 0x4, virtual false, abstract: false, final false
+static inline void Exit(::System::Object*  obj) ;
 
-  /// @brief Method Monitor_pulse, addr 0x5b01dd0, size 0x4, virtual false, abstract: false, final false
-  static inline void Monitor_pulse(::System::Object* obj);
+/// @brief Method Monitor_pulse, addr 0x5b022dc, size 0x4, virtual false, abstract: false, final false
+static inline void Monitor_pulse(::System::Object*  obj) ;
 
-  /// @brief Method Monitor_pulse_all, addr 0x5b01dd4, size 0x4, virtual false, abstract: false, final false
-  static inline void Monitor_pulse_all(::System::Object* obj);
+/// @brief Method Monitor_pulse_all, addr 0x5b022e0, size 0x4, virtual false, abstract: false, final false
+static inline void Monitor_pulse_all(::System::Object*  obj) ;
 
-  /// @brief Method Monitor_test_synchronised, addr 0x5b01dcc, size 0x4, virtual false, abstract: false, final false
-  static inline bool Monitor_test_synchronised(::System::Object* obj);
+/// @brief Method Monitor_test_synchronised, addr 0x5b022d8, size 0x4, virtual false, abstract: false, final false
+static inline bool Monitor_test_synchronised(::System::Object*  obj) ;
 
-  /// @brief Method Monitor_wait, addr 0x5b01dd8, size 0x4, virtual false, abstract: false, final false
-  static inline bool Monitor_wait(::System::Object* obj, int32_t ms);
+/// @brief Method Monitor_wait, addr 0x5b022e4, size 0x4, virtual false, abstract: false, final false
+static inline bool Monitor_wait(::System::Object*  obj, int32_t  ms) ;
 
-  /// @brief Method ObjPulse, addr 0x5b01d0c, size 0x60, virtual false, abstract: false, final false
-  static inline void ObjPulse(::System::Object* obj);
+/// @brief Method ObjPulse, addr 0x5b02218, size 0x60, virtual false, abstract: false, final false
+static inline void ObjPulse(::System::Object*  obj) ;
 
-  /// @brief Method ObjPulseAll, addr 0x5b01d6c, size 0x60, virtual false, abstract: false, final false
-  static inline void ObjPulseAll(::System::Object* obj);
+/// @brief Method ObjPulseAll, addr 0x5b02278, size 0x60, virtual false, abstract: false, final false
+static inline void ObjPulseAll(::System::Object*  obj) ;
 
-  /// @brief Method ObjWait, addr 0x5b01c5c, size 0xb0, virtual false, abstract: false, final false
-  static inline bool ObjWait(bool exitContext, int32_t millisecondsTimeout, ::System::Object* obj);
+/// @brief Method ObjWait, addr 0x5b02168, size 0xb0, virtual false, abstract: false, final false
+static inline bool ObjWait(bool  exitContext, int32_t  millisecondsTimeout, ::System::Object*  obj) ;
 
-  /// @brief Method Pulse, addr 0x5afe6b0, size 0x54, virtual false, abstract: false, final false
-  static inline void Pulse(::System::Object* obj);
+/// @brief Method Pulse, addr 0x5afebbc, size 0x54, virtual false, abstract: false, final false
+static inline void Pulse(::System::Object*  obj) ;
 
-  /// @brief Method PulseAll, addr 0x5afa994, size 0x54, virtual false, abstract: false, final false
-  static inline void PulseAll(::System::Object* obj);
+/// @brief Method PulseAll, addr 0x5afaea0, size 0x54, virtual false, abstract: false, final false
+static inline void PulseAll(::System::Object*  obj) ;
 
-  /// @brief Method ReliableEnter, addr 0x5b01b44, size 0xc, virtual false, abstract: false, final false
-  static inline void ReliableEnter(::System::Object* obj, ::ByRef<bool> lockTaken);
+/// @brief Method ReliableEnter, addr 0x5b02050, size 0xc, virtual false, abstract: false, final false
+static inline void ReliableEnter(::System::Object*  obj, ::ByRef<bool>  lockTaken) ;
 
-  /// @brief Method ReliableEnterTimeout, addr 0x5b01b6c, size 0x94, virtual false, abstract: false, final false
-  static inline void ReliableEnterTimeout(::System::Object* obj, int32_t timeout, ::ByRef<bool> lockTaken);
+/// @brief Method ReliableEnterTimeout, addr 0x5b02078, size 0x94, virtual false, abstract: false, final false
+static inline void ReliableEnterTimeout(::System::Object*  obj, int32_t  timeout, ::ByRef<bool>  lockTaken) ;
 
-  /// @brief Method ThrowLockTakenException, addr 0x5b01ae0, size 0x64, virtual false, abstract: false, final false
-  static inline void ThrowLockTakenException();
+/// @brief Method ThrowLockTakenException, addr 0x5b01fec, size 0x64, virtual false, abstract: false, final false
+static inline void ThrowLockTakenException() ;
 
-  /// @brief Method TryEnter, addr 0x5b01b50, size 0x1c, virtual false, abstract: false, final false
-  static inline void TryEnter(::System::Object* obj, ::ByRef<bool> lockTaken);
+/// @brief Method TryEnter, addr 0x5b0205c, size 0x1c, virtual false, abstract: false, final false
+static inline void TryEnter(::System::Object*  obj, ::ByRef<bool>  lockTaken) ;
 
-  /// @brief Method Wait, addr 0x5afb010, size 0x8, virtual false, abstract: false, final false
-  static inline bool Wait(::System::Object* obj, int32_t millisecondsTimeout);
+/// @brief Method Wait, addr 0x5afb51c, size 0x8, virtual false, abstract: false, final false
+static inline bool Wait(::System::Object*  obj, int32_t  millisecondsTimeout) ;
 
-  /// @brief Method Wait, addr 0x5b01c00, size 0x5c, virtual false, abstract: false, final false
-  static inline bool Wait(::System::Object* obj, int32_t millisecondsTimeout, bool exitContext);
+/// @brief Method Wait, addr 0x5b0210c, size 0x5c, virtual false, abstract: false, final false
+static inline bool Wait(::System::Object*  obj, int32_t  millisecondsTimeout, bool  exitContext) ;
 
-  /// @brief Method try_enter_with_atomic_var, addr 0x5b01ddc, size 0x4, virtual false, abstract: false, final false
-  static inline void try_enter_with_atomic_var(::System::Object* obj, int32_t millisecondsTimeout, ::ByRef<bool> lockTaken);
+/// @brief Method try_enter_with_atomic_var, addr 0x5b022e8, size 0x4, virtual false, abstract: false, final false
+static inline void try_enter_with_atomic_var(::System::Object*  obj, int32_t  millisecondsTimeout, ::ByRef<bool>  lockTaken) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Monitor();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr Monitor() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Monitor", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  Monitor(Monitor&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Monitor", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  Monitor(Monitor const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "Monitor", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+Monitor(Monitor && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2728 };
+// Ctor Parameters [CppParam { name: "", ty: "Monitor", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+Monitor(Monitor const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{2728};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Threading::Monitor, 0x10>, "Size mismatch!");
 
-} // namespace System::Threading
+} // namespace end def System::Threading
 NEED_NO_BOX(::System::Threading::Monitor);
 DEFINE_IL2CPP_ARG_TYPE(::System::Threading::Monitor*, "System.Threading", "Monitor");

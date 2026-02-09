@@ -10,101 +10,127 @@
 #include "Zenject/zzzz__InjectContext_def.hpp"
 #include "Zenject/zzzz__TypeValuePair_def.hpp"
 //  Writing Method size for method: ::Zenject::IPrefabInstantiator.get_ArgumentTarget
-template <>
+template<>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::Zenject::IPrefabInstantiator::*)()>(&::Zenject::IPrefabInstantiator::get_ArgumentTarget)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0xffffffffffffffff;
 
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::IPrefabInstantiator*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::IPrefabInstantiator*>::get(), 0));
+  inline static const ::MethodInfo* methodInfo() {
+    
+                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::IPrefabInstantiator*>::get(),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::IPrefabInstantiator*>::get(),
+                                  0
+                                ));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Zenject::IPrefabInstantiator.get_ExtraArguments
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* (::Zenject::IPrefabInstantiator::*)()>(
-    &::Zenject::IPrefabInstantiator::get_ExtraArguments)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* (::Zenject::IPrefabInstantiator::*)()>(&::Zenject::IPrefabInstantiator::get_ExtraArguments)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0xffffffffffffffff;
 
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::IPrefabInstantiator*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::IPrefabInstantiator*>::get(), 1));
+  inline static const ::MethodInfo* methodInfo() {
+    
+                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::IPrefabInstantiator*>::get(),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::IPrefabInstantiator*>::get(),
+                                  1
+                                ));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Zenject::IPrefabInstantiator.get_GameObjectCreationParameters
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::GameObjectCreationParameters* (::Zenject::IPrefabInstantiator::*)()>(
-    &::Zenject::IPrefabInstantiator::get_GameObjectCreationParameters)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::GameObjectCreationParameters* (::Zenject::IPrefabInstantiator::*)()>(&::Zenject::IPrefabInstantiator::get_GameObjectCreationParameters)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0xffffffffffffffff;
 
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::IPrefabInstantiator*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::IPrefabInstantiator*>::get(), 2));
+  inline static const ::MethodInfo* methodInfo() {
+    
+                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::IPrefabInstantiator*>::get(),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::IPrefabInstantiator*>::get(),
+                                  2
+                                ));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Zenject::IPrefabInstantiator.Instantiate
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (::Zenject::IPrefabInstantiator::*)(
-    ::Zenject::InjectContext*, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*, ::ByRef<::System::Action*>)>(&::Zenject::IPrefabInstantiator::Instantiate)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (::Zenject::IPrefabInstantiator::*)(::Zenject::InjectContext*, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*, ::ByRef<::System::Action*>)>(&::Zenject::IPrefabInstantiator::Instantiate)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0xffffffffffffffff;
 
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::IPrefabInstantiator*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::IPrefabInstantiator*>::get(), 3));
+  inline static const ::MethodInfo* methodInfo() {
+    
+                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::IPrefabInstantiator*>::get(),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::IPrefabInstantiator*>::get(),
+                                  3
+                                ));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Zenject::IPrefabInstantiator.GetPrefab
-template <>
+template<>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Object> (::Zenject::IPrefabInstantiator::*)()>(&::Zenject::IPrefabInstantiator::GetPrefab)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0xffffffffffffffff;
 
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::IPrefabInstantiator*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::IPrefabInstantiator*>::get(), 4));
+  inline static const ::MethodInfo* methodInfo() {
+    
+                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::IPrefabInstantiator*>::get(),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::IPrefabInstantiator*>::get(),
+                                  4
+                                ));
     return ___internal_method;
   }
 };
-inline ::System::Type* Zenject::IPrefabInstantiator::get_ArgumentTarget() {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::IPrefabInstantiator*>::get(), 0)));
-  return ::cordl_internals::RunMethodRethrow<::System::Type*, false>(this, ___internal_method);
+inline ::System::Type* Zenject::IPrefabInstantiator::get_ArgumentTarget()  {
+auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::IPrefabInstantiator*>::get(),
+                            0
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Type*, false>(this, ___internal_method);
 }
-inline ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* Zenject::IPrefabInstantiator::get_ExtraArguments() {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::IPrefabInstantiator*>::get(), 1)));
-  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*, false>(this, ___internal_method);
+inline ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* Zenject::IPrefabInstantiator::get_ExtraArguments()  {
+auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::IPrefabInstantiator*>::get(),
+                            1
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*, false>(this, ___internal_method);
 }
-inline ::Zenject::GameObjectCreationParameters* Zenject::IPrefabInstantiator::get_GameObjectCreationParameters() {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::IPrefabInstantiator*>::get(), 2)));
-  return ::cordl_internals::RunMethodRethrow<::Zenject::GameObjectCreationParameters*, false>(this, ___internal_method);
+inline ::Zenject::GameObjectCreationParameters* Zenject::IPrefabInstantiator::get_GameObjectCreationParameters()  {
+auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::IPrefabInstantiator*>::get(),
+                            2
+                        )));
+return ::cordl_internals::RunMethodRethrow<::Zenject::GameObjectCreationParameters*, false>(this, ___internal_method);
 }
-inline ::UnityW<::UnityEngine::GameObject> Zenject::IPrefabInstantiator::Instantiate(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args,
-                                                                                     ::ByRef<::System::Action*> injectAction) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::IPrefabInstantiator*>::get(), 3)));
-  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::GameObject>, false>(this, ___internal_method, context, args, injectAction);
+inline ::UnityW<::UnityEngine::GameObject> Zenject::IPrefabInstantiator::Instantiate(::Zenject::InjectContext*  context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*  args, ::ByRef<::System::Action*>  injectAction)  {
+auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::IPrefabInstantiator*>::get(),
+                            3
+                        )));
+return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::GameObject>, false>(this, ___internal_method, context, args, injectAction);
 }
-inline ::UnityW<::UnityEngine::Object> Zenject::IPrefabInstantiator::GetPrefab() {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::IPrefabInstantiator*>::get(), 4)));
-  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Object>, false>(this, ___internal_method);
+inline ::UnityW<::UnityEngine::Object> Zenject::IPrefabInstantiator::GetPrefab()  {
+auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::IPrefabInstantiator*>::get(),
+                            4
+                        )));
+return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Object>, false>(this, ___internal_method);
 }

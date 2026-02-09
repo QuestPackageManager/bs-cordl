@@ -41,152 +41,152 @@ namespace System::Data {
 // CS Name: System.Data.DataRowCollection/DataRowTree
 class CORDL_TYPE DataRowCollection_DataRowTree : public ::System::Data::RBTree_1<::System::Data::DataRow*> {
 public:
-  // Declarations
-  /// @brief Method CompareNode, addr 0x5e796ac, size 0x2c, virtual true, abstract: false, final false
-  inline int32_t CompareNode(::System::Data::DataRow* record1, ::System::Data::DataRow* record2);
+// Declarations
+/// @brief Method CompareNode, addr 0x5e79d6c, size 0x2c, virtual true, abstract: false, final false
+inline int32_t CompareNode(::System::Data::DataRow*  record1, ::System::Data::DataRow*  record2) ;
 
-  /// @brief Method CompareSateliteTreeNode, addr 0x5e796d8, size 0x2c, virtual true, abstract: false, final false
-  inline int32_t CompareSateliteTreeNode(::System::Data::DataRow* record1, ::System::Data::DataRow* record2);
+/// @brief Method CompareSateliteTreeNode, addr 0x5e79d98, size 0x2c, virtual true, abstract: false, final false
+inline int32_t CompareSateliteTreeNode(::System::Data::DataRow*  record1, ::System::Data::DataRow*  record2) ;
 
-  static inline ::System::Data::DataRowCollection_DataRowTree* New_ctor();
+static inline ::System::Data::DataRowCollection_DataRowTree* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x5e78f44, size 0x60, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5e79604, size 0x60, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DataRowCollection_DataRowTree();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr DataRowCollection_DataRowTree() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DataRowCollection_DataRowTree", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  DataRowCollection_DataRowTree(DataRowCollection_DataRowTree&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DataRowCollection_DataRowTree", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  DataRowCollection_DataRowTree(DataRowCollection_DataRowTree const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "DataRowCollection_DataRowTree", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+DataRowCollection_DataRowTree(DataRowCollection_DataRowTree && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13755 };
+// Ctor Parameters [CppParam { name: "", ty: "DataRowCollection_DataRowTree", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+DataRowCollection_DataRowTree(DataRowCollection_DataRowTree const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{13759};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Data::DataRowCollection_DataRowTree, 0x40>, "Size mismatch!");
 
-} // namespace System::Data
+} // namespace end def System::Data
 // Dependencies System.Data.InternalDataCollectionBase
 namespace System::Data {
 // Is value type: false
 // CS Name: System.Data.DataRowCollection
 class CORDL_TYPE DataRowCollection : public ::System::Data::InternalDataCollectionBase {
 public:
-  // Declarations
-  using DataRowTree = ::System::Data::DataRowCollection_DataRowTree;
+// Declarations
+using DataRowTree = ::System::Data::DataRowCollection_DataRowTree;
 
-  __declspec(property(get = get_Count)) int32_t Count;
+ __declspec(property(get=get_Count)) int32_t  Count;
 
-  __declspec(property(get = get_Item)) ::System::Data::DataRow* Item[];
+ __declspec(property(get=get_Item)) ::System::Data::DataRow*  Item[];
 
-  /// @brief Field _list, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__list, put = __cordl_internal_set__list)) ::System::Data::DataRowCollection_DataRowTree* _list;
+/// @brief Field _list, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get__list, put=__cordl_internal_set__list)) ::System::Data::DataRowCollection_DataRowTree*  _list;
 
-  /// @brief Field _nullInList, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get__nullInList, put = __cordl_internal_set__nullInList)) int32_t _nullInList;
+/// @brief Field _nullInList, offset 0x20, size 0x4 
+ __declspec(property(get=__cordl_internal_get__nullInList, put=__cordl_internal_set__nullInList)) int32_t  _nullInList;
 
-  /// @brief Field _table, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__table, put = __cordl_internal_set__table)) ::System::Data::DataTable* _table;
+/// @brief Field _table, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get__table, put=__cordl_internal_set__table)) ::System::Data::DataTable*  _table;
 
-  /// @brief Method Add, addr 0x5e78ff8, size 0x20, virtual false, abstract: false, final false
-  inline void Add(::System::Data::DataRow* row);
+/// @brief Method Add, addr 0x5e796b8, size 0x20, virtual false, abstract: false, final false
+inline void Add(::System::Data::DataRow*  row) ;
 
-  /// @brief Method AddWithColumnEvents, addr 0x5e792c4, size 0x64, virtual false, abstract: false, final false
-  inline ::System::Data::DataRow* AddWithColumnEvents(::ArrayW<::System::Object*, ::Array<::System::Object*>*> values);
+/// @brief Method AddWithColumnEvents, addr 0x5e79984, size 0x64, virtual false, abstract: false, final false
+inline ::System::Data::DataRow* AddWithColumnEvents(::ArrayW<::System::Object*,::Array<::System::Object*>*>  values) ;
 
-  /// @brief Method ArrayAdd, addr 0x5e79328, size 0x74, virtual false, abstract: false, final false
-  inline void ArrayAdd(::System::Data::DataRow* row);
+/// @brief Method ArrayAdd, addr 0x5e799e8, size 0x74, virtual false, abstract: false, final false
+inline void ArrayAdd(::System::Data::DataRow*  row) ;
 
-  /// @brief Method ArrayClear, addr 0x5e79428, size 0x74, virtual false, abstract: false, final false
-  inline void ArrayClear();
+/// @brief Method ArrayClear, addr 0x5e79ae8, size 0x74, virtual false, abstract: false, final false
+inline void ArrayClear() ;
 
-  /// @brief Method ArrayInsert, addr 0x5e7939c, size 0x8c, virtual false, abstract: false, final false
-  inline void ArrayInsert(::System::Data::DataRow* row, int32_t pos);
+/// @brief Method ArrayInsert, addr 0x5e79a5c, size 0x8c, virtual false, abstract: false, final false
+inline void ArrayInsert(::System::Data::DataRow*  row, int32_t  pos) ;
 
-  /// @brief Method ArrayRemove, addr 0x5e7949c, size 0xb4, virtual false, abstract: false, final false
-  inline void ArrayRemove(::System::Data::DataRow* row);
+/// @brief Method ArrayRemove, addr 0x5e79b5c, size 0xb4, virtual false, abstract: false, final false
+inline void ArrayRemove(::System::Data::DataRow*  row) ;
 
-  /// @brief Method CopyTo, addr 0x5e79550, size 0x6c, virtual true, abstract: false, final false
-  inline void CopyTo(::System::Array* ar, int32_t index);
+/// @brief Method CopyTo, addr 0x5e79c10, size 0x6c, virtual true, abstract: false, final false
+inline void CopyTo(::System::Array*  ar, int32_t  index) ;
 
-  /// @brief Method CopyTo, addr 0x5e795bc, size 0x6c, virtual false, abstract: false, final false
-  inline void CopyTo(::ArrayW<::System::Data::DataRow*, ::Array<::System::Data::DataRow*>*> array, int32_t index);
+/// @brief Method CopyTo, addr 0x5e79c7c, size 0x6c, virtual false, abstract: false, final false
+inline void CopyTo(::ArrayW<::System::Data::DataRow*,::Array<::System::Data::DataRow*>*>  array, int32_t  index) ;
 
-  /// @brief Method DiffInsertAt, addr 0x5e79018, size 0x204, virtual false, abstract: false, final false
-  inline void DiffInsertAt(::System::Data::DataRow* row, int32_t pos);
+/// @brief Method DiffInsertAt, addr 0x5e796d8, size 0x204, virtual false, abstract: false, final false
+inline void DiffInsertAt(::System::Data::DataRow*  row, int32_t  pos) ;
 
-  /// @brief Method GetEnumerator, addr 0x5e79628, size 0x84, virtual true, abstract: false, final false
-  inline ::System::Collections::IEnumerator* GetEnumerator();
+/// @brief Method GetEnumerator, addr 0x5e79ce8, size 0x84, virtual true, abstract: false, final false
+inline ::System::Collections::IEnumerator* GetEnumerator() ;
 
-  /// @brief Method IndexOf, addr 0x5e7921c, size 0xa8, virtual false, abstract: false, final false
-  inline int32_t IndexOf(::System::Data::DataRow* row);
+/// @brief Method IndexOf, addr 0x5e798dc, size 0xa8, virtual false, abstract: false, final false
+inline int32_t IndexOf(::System::Data::DataRow*  row) ;
 
-  static inline ::System::Data::DataRowCollection* New_ctor(::System::Data::DataTable* table);
+static inline ::System::Data::DataRowCollection* New_ctor(::System::Data::DataTable*  table) ;
 
-  constexpr ::System::Data::DataRowCollection_DataRowTree* const& __cordl_internal_get__list() const;
+constexpr ::System::Data::DataRowCollection_DataRowTree* const& __cordl_internal_get__list() const;
 
-  constexpr ::System::Data::DataRowCollection_DataRowTree*& __cordl_internal_get__list();
+constexpr ::System::Data::DataRowCollection_DataRowTree*& __cordl_internal_get__list() ;
 
-  constexpr int32_t const& __cordl_internal_get__nullInList() const;
+constexpr int32_t const& __cordl_internal_get__nullInList() const;
 
-  constexpr int32_t& __cordl_internal_get__nullInList();
+constexpr int32_t& __cordl_internal_get__nullInList() ;
 
-  constexpr ::System::Data::DataTable* const& __cordl_internal_get__table() const;
+constexpr ::System::Data::DataTable* const& __cordl_internal_get__table() const;
 
-  constexpr ::System::Data::DataTable*& __cordl_internal_get__table();
+constexpr ::System::Data::DataTable*& __cordl_internal_get__table() ;
 
-  constexpr void __cordl_internal_set__list(::System::Data::DataRowCollection_DataRowTree* value);
+constexpr void __cordl_internal_set__list(::System::Data::DataRowCollection_DataRowTree*  value) ;
 
-  constexpr void __cordl_internal_set__nullInList(int32_t value);
+constexpr void __cordl_internal_set__nullInList(int32_t  value) ;
 
-  constexpr void __cordl_internal_set__table(::System::Data::DataTable* value);
+constexpr void __cordl_internal_set__table(::System::Data::DataTable*  value) ;
 
-  /// @brief Method .ctor, addr 0x5e78eb4, size 0x90, virtual false, abstract: false, final false
-  inline void _ctor(::System::Data::DataTable* table);
+/// @brief Method .ctor, addr 0x5e79574, size 0x90, virtual false, abstract: false, final false
+inline void _ctor(::System::Data::DataTable*  table) ;
 
-  /// @brief Method get_Count, addr 0x5e78fa4, size 0x54, virtual true, abstract: false, final false
-  inline int32_t get_Count();
+/// @brief Method get_Count, addr 0x5e79664, size 0x54, virtual true, abstract: false, final false
+inline int32_t get_Count() ;
 
-  /// @brief Method get_Item, addr 0x5e6dbc0, size 0x80, virtual false, abstract: false, final false
-  inline ::System::Data::DataRow* get_Item(int32_t index);
+/// @brief Method get_Item, addr 0x5e6e280, size 0x80, virtual false, abstract: false, final false
+inline ::System::Data::DataRow* get_Item(int32_t  index) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DataRowCollection();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr DataRowCollection() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DataRowCollection", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  DataRowCollection(DataRowCollection&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DataRowCollection", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  DataRowCollection(DataRowCollection const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "DataRowCollection", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+DataRowCollection(DataRowCollection && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13756 };
+// Ctor Parameters [CppParam { name: "", ty: "DataRowCollection", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+DataRowCollection(DataRowCollection const& ) = delete;
 
-  /// @brief Field _table, offset: 0x10, size: 0x8, def value: None
-  ::System::Data::DataTable* ____table;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{13760};
 
-  /// @brief Field _list, offset: 0x18, size: 0x8, def value: None
-  ::System::Data::DataRowCollection_DataRowTree* ____list;
+/// @brief Field _table, offset: 0x10, size: 0x8, def value: None
+ ::System::Data::DataTable*  ____table;
 
-  /// @brief Field _nullInList, offset: 0x20, size: 0x4, def value: None
-  int32_t ____nullInList;
+/// @brief Field _list, offset: 0x18, size: 0x8, def value: None
+ ::System::Data::DataRowCollection_DataRowTree*  ____list;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _nullInList, offset: 0x20, size: 0x4, def value: None
+ int32_t  ____nullInList;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Data::DataRowCollection, ____table) == 0x10, "Offset mismatch!");
@@ -197,7 +197,7 @@ static_assert(offsetof(::System::Data::DataRowCollection, ____nullInList) == 0x2
 
 static_assert(::cordl_internals::size_check_v<::System::Data::DataRowCollection, 0x28>, "Size mismatch!");
 
-} // namespace System::Data
+} // namespace end def System::Data
 NEED_NO_BOX(::System::Data::DataRowCollection);
 DEFINE_IL2CPP_ARG_TYPE(::System::Data::DataRowCollection*, "System.Data", "DataRowCollection");
 NEED_NO_BOX(::System::Data::DataRowCollection_DataRowTree);

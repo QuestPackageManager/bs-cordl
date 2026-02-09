@@ -12,7 +12,8 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(OnScreenStick)
 namespace System::Collections::Generic {
-template <typename T> class List_1;
+template<typename T>
+class List_1;
 }
 namespace UnityEngine::EventSystems {
 class IDragHandler;
@@ -60,369 +61,368 @@ class OnScreenStick;
 // Write type traits
 MARK_VAL_T(::UnityEngine::InputSystem::OnScreen::OnScreenStick_Behaviour);
 MARK_REF_PTR_T(::UnityEngine::InputSystem::OnScreen::OnScreenStick);
-// Dependencies
+// Dependencies 
 namespace UnityEngine::InputSystem::OnScreen {
 // Is value type: true
 // CS Name: UnityEngine.InputSystem.OnScreen.OnScreenStick/Behaviour
 struct CORDL_TYPE OnScreenStick_Behaviour {
 public:
-  // Declarations
-  using __CORDL_BACKING_ENUM_TYPE = int32_t;
+// Declarations
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct __OnScreenStick_Behaviour_Unwrapped
-  enum struct __OnScreenStick_Behaviour_Unwrapped : int32_t {
-    __E_RelativePositionWithStaticOrigin = static_cast<int32_t>(0x0),
-    __E_ExactPositionWithStaticOrigin = static_cast<int32_t>(0x1),
-    __E_ExactPositionWithDynamicOrigin = static_cast<int32_t>(0x2),
-  };
+/// @brief Nested struct __OnScreenStick_Behaviour_Unwrapped
+enum struct __OnScreenStick_Behaviour_Unwrapped : int32_t {
+__E_RelativePositionWithStaticOrigin = static_cast<int32_t>(0x0),
+__E_ExactPositionWithStaticOrigin = static_cast<int32_t>(0x1),
+__E_ExactPositionWithDynamicOrigin = static_cast<int32_t>(0x2),
+};
 
-  /// @brief Conversion into unwrapped enum value
-  constexpr operator __OnScreenStick_Behaviour_Unwrapped() const noexcept {
-    return static_cast<__OnScreenStick_Behaviour_Unwrapped>(this->value__);
-  }
+/// @brief Conversion into unwrapped enum value
+constexpr operator __OnScreenStick_Behaviour_Unwrapped () const noexcept {
+return static_cast<__OnScreenStick_Behaviour_Unwrapped>(this->value__);
+}
 
-  /// @brief Conversion into unwrapped enum value
-  constexpr explicit operator int32_t() const noexcept {
-    return static_cast<int32_t>(this->value__);
-  }
+/// @brief Conversion into unwrapped enum value
+constexpr explicit operator int32_t () const noexcept {
+return static_cast<int32_t>(this->value__);
+}
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr OnScreenStick_Behaviour();
+// Ctor Parameters []
+// @brief default ctor
+constexpr OnScreenStick_Behaviour() ;
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr OnScreenStick_Behaviour(int32_t value__) noexcept;
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr OnScreenStick_Behaviour(int32_t  value__) noexcept;
 
-  /// @brief Field ExactPositionWithDynamicOrigin value: I32(2)
-  static ::UnityEngine::InputSystem::OnScreen::OnScreenStick_Behaviour const ExactPositionWithDynamicOrigin;
+/// @brief Field ExactPositionWithDynamicOrigin value: I32(2)
+static ::UnityEngine::InputSystem::OnScreen::OnScreenStick_Behaviour const ExactPositionWithDynamicOrigin;
 
-  /// @brief Field ExactPositionWithStaticOrigin value: I32(1)
-  static ::UnityEngine::InputSystem::OnScreen::OnScreenStick_Behaviour const ExactPositionWithStaticOrigin;
+/// @brief Field ExactPositionWithStaticOrigin value: I32(1)
+static ::UnityEngine::InputSystem::OnScreen::OnScreenStick_Behaviour const ExactPositionWithStaticOrigin;
 
-  /// @brief Field RelativePositionWithStaticOrigin value: I32(0)
-  static ::UnityEngine::InputSystem::OnScreen::OnScreenStick_Behaviour const RelativePositionWithStaticOrigin;
+/// @brief Field RelativePositionWithStaticOrigin value: I32(0)
+static ::UnityEngine::InputSystem::OnScreen::OnScreenStick_Behaviour const RelativePositionWithStaticOrigin;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8859 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8863};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x4};
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+/// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+ int32_t  value__;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::InputSystem::OnScreen::OnScreenStick_Behaviour, value__) == 0x0, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::OnScreen::OnScreenStick_Behaviour, 0x4>, "Size mismatch!");
 
-} // namespace UnityEngine::InputSystem::OnScreen
+} // namespace end def UnityEngine::InputSystem::OnScreen
 // Dependencies UnityEngine.InputSystem.OnScreen.OnScreenControl, UnityEngine.InputSystem.OnScreen.OnScreenStick::Behaviour, UnityEngine.Vector2, UnityEngine.Vector3
 namespace UnityEngine::InputSystem::OnScreen {
 // Is value type: false
 // CS Name: UnityEngine.InputSystem.OnScreen.OnScreenStick
 class CORDL_TYPE OnScreenStick : public ::UnityEngine::InputSystem::OnScreen::OnScreenControl {
 public:
-  // Declarations
-  using Behaviour = ::UnityEngine::InputSystem::OnScreen::OnScreenStick_Behaviour;
+// Declarations
+using Behaviour = ::UnityEngine::InputSystem::OnScreen::OnScreenStick_Behaviour;
 
-  __declspec(property(get = get_behaviour, put = set_behaviour)) ::UnityEngine::InputSystem::OnScreen::OnScreenStick_Behaviour behaviour;
+ __declspec(property(get=get_behaviour, put=set_behaviour)) ::UnityEngine::InputSystem::OnScreen::OnScreenStick_Behaviour  behaviour;
 
-  __declspec(property(get = get_controlPathInternal, put = set_controlPathInternal)) ::StringW controlPathInternal;
+ __declspec(property(get=get_controlPathInternal, put=set_controlPathInternal)) ::StringW  controlPathInternal;
 
-  __declspec(property(get = get_dynamicOriginRange, put = set_dynamicOriginRange)) float_t dynamicOriginRange;
+ __declspec(property(get=get_dynamicOriginRange, put=set_dynamicOriginRange)) float_t  dynamicOriginRange;
 
-  /// @brief Field m_Behaviour, offset 0x48, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_Behaviour, put = __cordl_internal_set_m_Behaviour)) ::UnityEngine::InputSystem::OnScreen::OnScreenStick_Behaviour m_Behaviour;
+/// @brief Field m_Behaviour, offset 0x48, size 0x4 
+ __declspec(property(get=__cordl_internal_get_m_Behaviour, put=__cordl_internal_set_m_Behaviour)) ::UnityEngine::InputSystem::OnScreen::OnScreenStick_Behaviour  m_Behaviour;
 
-  /// @brief Field m_ControlPath, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_ControlPath, put = __cordl_internal_set_m_ControlPath)) ::StringW m_ControlPath;
+/// @brief Field m_ControlPath, offset 0x40, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_ControlPath, put=__cordl_internal_set_m_ControlPath)) ::StringW  m_ControlPath;
 
-  /// @brief Field m_DynamicOriginRange, offset 0x3c, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_DynamicOriginRange, put = __cordl_internal_set_m_DynamicOriginRange)) float_t m_DynamicOriginRange;
+/// @brief Field m_DynamicOriginRange, offset 0x3c, size 0x4 
+ __declspec(property(get=__cordl_internal_get_m_DynamicOriginRange, put=__cordl_internal_set_m_DynamicOriginRange)) float_t  m_DynamicOriginRange;
 
-  /// @brief Field m_IsIsolationActive, offset 0x90, size 0x1
-  __declspec(property(get = __cordl_internal_get_m_IsIsolationActive, put = __cordl_internal_set_m_IsIsolationActive)) bool m_IsIsolationActive;
+/// @brief Field m_IsIsolationActive, offset 0x90, size 0x1 
+ __declspec(property(get=__cordl_internal_get_m_IsIsolationActive, put=__cordl_internal_set_m_IsIsolationActive)) bool  m_IsIsolationActive;
 
-  /// @brief Field m_MovementRange, offset 0x38, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_MovementRange, put = __cordl_internal_set_m_MovementRange)) float_t m_MovementRange;
+/// @brief Field m_MovementRange, offset 0x38, size 0x4 
+ __declspec(property(get=__cordl_internal_get_m_MovementRange, put=__cordl_internal_set_m_MovementRange)) float_t  m_MovementRange;
 
-  /// @brief Field m_PointerDownAction, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_PointerDownAction, put = __cordl_internal_set_m_PointerDownAction)) ::UnityEngine::InputSystem::InputAction* m_PointerDownAction;
+/// @brief Field m_PointerDownAction, offset 0x50, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_PointerDownAction, put=__cordl_internal_set_m_PointerDownAction)) ::UnityEngine::InputSystem::InputAction*  m_PointerDownAction;
 
-  /// @brief Field m_PointerDownPos, offset 0x6c, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_PointerDownPos, put = __cordl_internal_set_m_PointerDownPos)) ::UnityEngine::Vector2 m_PointerDownPos;
+/// @brief Field m_PointerDownPos, offset 0x6c, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_PointerDownPos, put=__cordl_internal_set_m_PointerDownPos)) ::UnityEngine::Vector2  m_PointerDownPos;
 
-  /// @brief Field m_PointerEventData, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_PointerEventData, put = __cordl_internal_set_m_PointerEventData)) ::UnityEngine::EventSystems::PointerEventData* m_PointerEventData;
+/// @brief Field m_PointerEventData, offset 0x80, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_PointerEventData, put=__cordl_internal_set_m_PointerEventData)) ::UnityEngine::EventSystems::PointerEventData*  m_PointerEventData;
 
-  /// @brief Field m_PointerMoveAction, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_PointerMoveAction, put = __cordl_internal_set_m_PointerMoveAction)) ::UnityEngine::InputSystem::InputAction* m_PointerMoveAction;
+/// @brief Field m_PointerMoveAction, offset 0x58, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_PointerMoveAction, put=__cordl_internal_set_m_PointerMoveAction)) ::UnityEngine::InputSystem::InputAction*  m_PointerMoveAction;
 
-  /// @brief Field m_RaycastResults, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_RaycastResults,
-                      put = __cordl_internal_set_m_RaycastResults)) ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>* m_RaycastResults;
+/// @brief Field m_RaycastResults, offset 0x78, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_RaycastResults, put=__cordl_internal_set_m_RaycastResults)) ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>*  m_RaycastResults;
 
-  /// @brief Field m_StartPos, offset 0x60, size 0xc
-  __declspec(property(get = __cordl_internal_get_m_StartPos, put = __cordl_internal_set_m_StartPos)) ::UnityEngine::Vector3 m_StartPos;
+/// @brief Field m_StartPos, offset 0x60, size 0xc 
+ __declspec(property(get=__cordl_internal_get_m_StartPos, put=__cordl_internal_set_m_StartPos)) ::UnityEngine::Vector3  m_StartPos;
 
-  /// @brief Field m_TouchControl, offset 0x88, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_TouchControl, put = __cordl_internal_set_m_TouchControl)) ::UnityEngine::InputSystem::Controls::TouchControl* m_TouchControl;
+/// @brief Field m_TouchControl, offset 0x88, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_TouchControl, put=__cordl_internal_set_m_TouchControl)) ::UnityEngine::InputSystem::Controls::TouchControl*  m_TouchControl;
 
-  /// @brief Field m_UseIsolatedInputActions, offset 0x4c, size 0x1
-  __declspec(property(get = __cordl_internal_get_m_UseIsolatedInputActions, put = __cordl_internal_set_m_UseIsolatedInputActions)) bool m_UseIsolatedInputActions;
+/// @brief Field m_UseIsolatedInputActions, offset 0x4c, size 0x1 
+ __declspec(property(get=__cordl_internal_get_m_UseIsolatedInputActions, put=__cordl_internal_set_m_UseIsolatedInputActions)) bool  m_UseIsolatedInputActions;
 
-  __declspec(property(get = get_movementRange, put = set_movementRange)) float_t movementRange;
+ __declspec(property(get=get_movementRange, put=set_movementRange)) float_t  movementRange;
 
-  __declspec(property(get = get_useIsolatedInputActions, put = set_useIsolatedInputActions)) bool useIsolatedInputActions;
+ __declspec(property(get=get_useIsolatedInputActions, put=set_useIsolatedInputActions)) bool  useIsolatedInputActions;
 
-  /// @brief Convert operator to "::UnityEngine::EventSystems::IDragHandler"
-  constexpr operator ::UnityEngine::EventSystems::IDragHandler*() noexcept;
+/// @brief Convert operator to "::UnityEngine::EventSystems::IDragHandler"
+constexpr operator  ::UnityEngine::EventSystems::IDragHandler*() noexcept;
 
-  /// @brief Convert operator to "::UnityEngine::EventSystems::IEventSystemHandler"
-  constexpr operator ::UnityEngine::EventSystems::IEventSystemHandler*() noexcept;
+/// @brief Convert operator to "::UnityEngine::EventSystems::IEventSystemHandler"
+constexpr operator  ::UnityEngine::EventSystems::IEventSystemHandler*() noexcept;
 
-  /// @brief Convert operator to "::UnityEngine::EventSystems::IPointerDownHandler"
-  constexpr operator ::UnityEngine::EventSystems::IPointerDownHandler*() noexcept;
+/// @brief Convert operator to "::UnityEngine::EventSystems::IPointerDownHandler"
+constexpr operator  ::UnityEngine::EventSystems::IPointerDownHandler*() noexcept;
 
-  /// @brief Convert operator to "::UnityEngine::EventSystems::IPointerUpHandler"
-  constexpr operator ::UnityEngine::EventSystems::IPointerUpHandler*() noexcept;
+/// @brief Convert operator to "::UnityEngine::EventSystems::IPointerUpHandler"
+constexpr operator  ::UnityEngine::EventSystems::IPointerUpHandler*() noexcept;
 
-  /// @brief Method BeginInteraction, addr 0x63e7470, size 0x23c, virtual false, abstract: false, final false
-  inline void BeginInteraction(::UnityEngine::Vector2 pointerPosition, ::UnityEngine::Camera* uiCamera);
+/// @brief Method BeginInteraction, addr 0x63e7b30, size 0x23c, virtual false, abstract: false, final false
+inline void BeginInteraction(::UnityEngine::Vector2  pointerPosition, ::UnityEngine::Camera*  uiCamera) ;
 
-  /// @brief Method DrawGizmoCircle, addr 0x63e8e2c, size 0xcc, virtual false, abstract: false, final false
-  inline void DrawGizmoCircle(::UnityEngine::Vector2 center, float_t radius);
+/// @brief Method DrawGizmoCircle, addr 0x63e94ec, size 0xcc, virtual false, abstract: false, final false
+inline void DrawGizmoCircle(::UnityEngine::Vector2  center, float_t  radius) ;
 
-  /// @brief Method EndInteraction, addr 0x63e7afc, size 0xd4, virtual false, abstract: false, final false
-  inline void EndInteraction();
+/// @brief Method EndInteraction, addr 0x63e81bc, size 0xd4, virtual false, abstract: false, final false
+inline void EndInteraction() ;
 
-  /// @brief Method GetCameraFromCanvas, addr 0x63e8820, size 0x124, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::Camera> GetCameraFromCanvas();
+/// @brief Method GetCameraFromCanvas, addr 0x63e8ee0, size 0x124, virtual false, abstract: false, final false
+inline ::UnityW<::UnityEngine::Camera> GetCameraFromCanvas() ;
 
-  /// @brief Method MoveStick, addr 0x63e7748, size 0x3a4, virtual false, abstract: false, final false
-  inline void MoveStick(::UnityEngine::Vector2 pointerPosition, ::UnityEngine::Camera* uiCamera);
+/// @brief Method MoveStick, addr 0x63e7e08, size 0x3a4, virtual false, abstract: false, final false
+inline void MoveStick(::UnityEngine::Vector2  pointerPosition, ::UnityEngine::Camera*  uiCamera) ;
 
-  static inline ::UnityEngine::InputSystem::OnScreen::OnScreenStick* New_ctor();
+static inline ::UnityEngine::InputSystem::OnScreen::OnScreenStick* New_ctor() ;
 
-  /// @brief Method OnDestroy, addr 0x63e8320, size 0xdc, virtual false, abstract: false, final false
-  inline void OnDestroy();
+/// @brief Method OnDestroy, addr 0x63e89e0, size 0xdc, virtual false, abstract: false, final false
+inline void OnDestroy() ;
 
-  /// @brief Method OnDrag, addr 0x63e76ac, size 0x9c, virtual true, abstract: false, final true
-  inline void OnDrag(::UnityEngine::EventSystems::PointerEventData* eventData);
+/// @brief Method OnDrag, addr 0x63e7d6c, size 0x9c, virtual true, abstract: false, final true
+inline void OnDrag(::UnityEngine::EventSystems::PointerEventData*  eventData) ;
 
-  /// @brief Method OnDrawGizmosSelected, addr 0x63e8c04, size 0x228, virtual false, abstract: false, final false
-  inline void OnDrawGizmosSelected();
+/// @brief Method OnDrawGizmosSelected, addr 0x63e92c4, size 0x228, virtual false, abstract: false, final false
+inline void OnDrawGizmosSelected() ;
 
-  /// @brief Method OnPointerChanged, addr 0x63e8944, size 0x68, virtual false, abstract: false, final false
-  inline void OnPointerChanged(::UnityEngine::InputSystem::InputAction_CallbackContext ctx);
+/// @brief Method OnPointerChanged, addr 0x63e9004, size 0x68, virtual false, abstract: false, final false
+inline void OnPointerChanged(::UnityEngine::InputSystem::InputAction_CallbackContext  ctx) ;
 
-  /// @brief Method OnPointerDown, addr 0x63e83fc, size 0x424, virtual false, abstract: false, final false
-  inline void OnPointerDown(::UnityEngine::InputSystem::InputAction_CallbackContext ctx);
+/// @brief Method OnPointerDown, addr 0x63e8abc, size 0x424, virtual false, abstract: false, final false
+inline void OnPointerDown(::UnityEngine::InputSystem::InputAction_CallbackContext  ctx) ;
 
-  /// @brief Method OnPointerDown, addr 0x63e73d4, size 0x9c, virtual true, abstract: false, final true
-  inline void OnPointerDown(::UnityEngine::EventSystems::PointerEventData* eventData);
+/// @brief Method OnPointerDown, addr 0x63e7a94, size 0x9c, virtual true, abstract: false, final true
+inline void OnPointerDown(::UnityEngine::EventSystems::PointerEventData*  eventData) ;
 
-  /// @brief Method OnPointerMove, addr 0x63e8ad4, size 0x130, virtual false, abstract: false, final false
-  inline void OnPointerMove(::UnityEngine::InputSystem::InputAction_CallbackContext ctx);
+/// @brief Method OnPointerMove, addr 0x63e9194, size 0x130, virtual false, abstract: false, final false
+inline void OnPointerMove(::UnityEngine::InputSystem::InputAction_CallbackContext  ctx) ;
 
-  /// @brief Method OnPointerUp, addr 0x63e89ac, size 0x128, virtual false, abstract: false, final false
-  inline void OnPointerUp(::UnityEngine::InputSystem::InputAction_CallbackContext ctx);
+/// @brief Method OnPointerUp, addr 0x63e906c, size 0x128, virtual false, abstract: false, final false
+inline void OnPointerUp(::UnityEngine::InputSystem::InputAction_CallbackContext  ctx) ;
 
-  /// @brief Method OnPointerUp, addr 0x63e7aec, size 0x10, virtual true, abstract: false, final true
-  inline void OnPointerUp(::UnityEngine::EventSystems::PointerEventData* eventData);
+/// @brief Method OnPointerUp, addr 0x63e81ac, size 0x10, virtual true, abstract: false, final true
+inline void OnPointerUp(::UnityEngine::EventSystems::PointerEventData*  eventData) ;
 
-  /// @brief Method Start, addr 0x63e7bd0, size 0x750, virtual false, abstract: false, final false
-  inline void Start();
+/// @brief Method Start, addr 0x63e8290, size 0x750, virtual false, abstract: false, final false
+inline void Start() ;
 
-  /// @brief Method UpdateDynamicOriginClickableArea, addr 0x63e8ef8, size 0xf8, virtual false, abstract: false, final false
-  inline void UpdateDynamicOriginClickableArea();
+/// @brief Method UpdateDynamicOriginClickableArea, addr 0x63e95b8, size 0xf8, virtual false, abstract: false, final false
+inline void UpdateDynamicOriginClickableArea() ;
 
-  constexpr ::UnityEngine::InputSystem::OnScreen::OnScreenStick_Behaviour const& __cordl_internal_get_m_Behaviour() const;
+constexpr ::UnityEngine::InputSystem::OnScreen::OnScreenStick_Behaviour const& __cordl_internal_get_m_Behaviour() const;
 
-  constexpr ::UnityEngine::InputSystem::OnScreen::OnScreenStick_Behaviour& __cordl_internal_get_m_Behaviour();
+constexpr ::UnityEngine::InputSystem::OnScreen::OnScreenStick_Behaviour& __cordl_internal_get_m_Behaviour() ;
 
-  constexpr ::StringW const& __cordl_internal_get_m_ControlPath() const;
+constexpr ::StringW const& __cordl_internal_get_m_ControlPath() const;
 
-  constexpr ::StringW& __cordl_internal_get_m_ControlPath();
+constexpr ::StringW& __cordl_internal_get_m_ControlPath() ;
 
-  constexpr float_t const& __cordl_internal_get_m_DynamicOriginRange() const;
+constexpr float_t const& __cordl_internal_get_m_DynamicOriginRange() const;
 
-  constexpr float_t& __cordl_internal_get_m_DynamicOriginRange();
+constexpr float_t& __cordl_internal_get_m_DynamicOriginRange() ;
 
-  constexpr bool const& __cordl_internal_get_m_IsIsolationActive() const;
+constexpr bool const& __cordl_internal_get_m_IsIsolationActive() const;
 
-  constexpr bool& __cordl_internal_get_m_IsIsolationActive();
+constexpr bool& __cordl_internal_get_m_IsIsolationActive() ;
 
-  constexpr float_t const& __cordl_internal_get_m_MovementRange() const;
+constexpr float_t const& __cordl_internal_get_m_MovementRange() const;
 
-  constexpr float_t& __cordl_internal_get_m_MovementRange();
+constexpr float_t& __cordl_internal_get_m_MovementRange() ;
 
-  constexpr ::UnityEngine::InputSystem::InputAction* const& __cordl_internal_get_m_PointerDownAction() const;
+constexpr ::UnityEngine::InputSystem::InputAction* const& __cordl_internal_get_m_PointerDownAction() const;
 
-  constexpr ::UnityEngine::InputSystem::InputAction*& __cordl_internal_get_m_PointerDownAction();
+constexpr ::UnityEngine::InputSystem::InputAction*& __cordl_internal_get_m_PointerDownAction() ;
 
-  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_m_PointerDownPos() const;
+constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_m_PointerDownPos() const;
 
-  constexpr ::UnityEngine::Vector2& __cordl_internal_get_m_PointerDownPos();
+constexpr ::UnityEngine::Vector2& __cordl_internal_get_m_PointerDownPos() ;
 
-  constexpr ::UnityEngine::EventSystems::PointerEventData* const& __cordl_internal_get_m_PointerEventData() const;
+constexpr ::UnityEngine::EventSystems::PointerEventData* const& __cordl_internal_get_m_PointerEventData() const;
 
-  constexpr ::UnityEngine::EventSystems::PointerEventData*& __cordl_internal_get_m_PointerEventData();
+constexpr ::UnityEngine::EventSystems::PointerEventData*& __cordl_internal_get_m_PointerEventData() ;
 
-  constexpr ::UnityEngine::InputSystem::InputAction* const& __cordl_internal_get_m_PointerMoveAction() const;
+constexpr ::UnityEngine::InputSystem::InputAction* const& __cordl_internal_get_m_PointerMoveAction() const;
 
-  constexpr ::UnityEngine::InputSystem::InputAction*& __cordl_internal_get_m_PointerMoveAction();
+constexpr ::UnityEngine::InputSystem::InputAction*& __cordl_internal_get_m_PointerMoveAction() ;
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>* const& __cordl_internal_get_m_RaycastResults() const;
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>* const& __cordl_internal_get_m_RaycastResults() const;
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>*& __cordl_internal_get_m_RaycastResults();
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>*& __cordl_internal_get_m_RaycastResults() ;
 
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_m_StartPos() const;
+constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_m_StartPos() const;
 
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_m_StartPos();
+constexpr ::UnityEngine::Vector3& __cordl_internal_get_m_StartPos() ;
 
-  constexpr ::UnityEngine::InputSystem::Controls::TouchControl* const& __cordl_internal_get_m_TouchControl() const;
+constexpr ::UnityEngine::InputSystem::Controls::TouchControl* const& __cordl_internal_get_m_TouchControl() const;
 
-  constexpr ::UnityEngine::InputSystem::Controls::TouchControl*& __cordl_internal_get_m_TouchControl();
+constexpr ::UnityEngine::InputSystem::Controls::TouchControl*& __cordl_internal_get_m_TouchControl() ;
 
-  constexpr bool const& __cordl_internal_get_m_UseIsolatedInputActions() const;
+constexpr bool const& __cordl_internal_get_m_UseIsolatedInputActions() const;
 
-  constexpr bool& __cordl_internal_get_m_UseIsolatedInputActions();
+constexpr bool& __cordl_internal_get_m_UseIsolatedInputActions() ;
 
-  constexpr void __cordl_internal_set_m_Behaviour(::UnityEngine::InputSystem::OnScreen::OnScreenStick_Behaviour value);
+constexpr void __cordl_internal_set_m_Behaviour(::UnityEngine::InputSystem::OnScreen::OnScreenStick_Behaviour  value) ;
 
-  constexpr void __cordl_internal_set_m_ControlPath(::StringW value);
+constexpr void __cordl_internal_set_m_ControlPath(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_m_DynamicOriginRange(float_t value);
+constexpr void __cordl_internal_set_m_DynamicOriginRange(float_t  value) ;
 
-  constexpr void __cordl_internal_set_m_IsIsolationActive(bool value);
+constexpr void __cordl_internal_set_m_IsIsolationActive(bool  value) ;
 
-  constexpr void __cordl_internal_set_m_MovementRange(float_t value);
+constexpr void __cordl_internal_set_m_MovementRange(float_t  value) ;
 
-  constexpr void __cordl_internal_set_m_PointerDownAction(::UnityEngine::InputSystem::InputAction* value);
+constexpr void __cordl_internal_set_m_PointerDownAction(::UnityEngine::InputSystem::InputAction*  value) ;
 
-  constexpr void __cordl_internal_set_m_PointerDownPos(::UnityEngine::Vector2 value);
+constexpr void __cordl_internal_set_m_PointerDownPos(::UnityEngine::Vector2  value) ;
 
-  constexpr void __cordl_internal_set_m_PointerEventData(::UnityEngine::EventSystems::PointerEventData* value);
+constexpr void __cordl_internal_set_m_PointerEventData(::UnityEngine::EventSystems::PointerEventData*  value) ;
 
-  constexpr void __cordl_internal_set_m_PointerMoveAction(::UnityEngine::InputSystem::InputAction* value);
+constexpr void __cordl_internal_set_m_PointerMoveAction(::UnityEngine::InputSystem::InputAction*  value) ;
 
-  constexpr void __cordl_internal_set_m_RaycastResults(::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>* value);
+constexpr void __cordl_internal_set_m_RaycastResults(::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>*  value) ;
 
-  constexpr void __cordl_internal_set_m_StartPos(::UnityEngine::Vector3 value);
+constexpr void __cordl_internal_set_m_StartPos(::UnityEngine::Vector3  value) ;
 
-  constexpr void __cordl_internal_set_m_TouchControl(::UnityEngine::InputSystem::Controls::TouchControl* value);
+constexpr void __cordl_internal_set_m_TouchControl(::UnityEngine::InputSystem::Controls::TouchControl*  value) ;
 
-  constexpr void __cordl_internal_set_m_UseIsolatedInputActions(bool value);
+constexpr void __cordl_internal_set_m_UseIsolatedInputActions(bool  value) ;
 
-  /// @brief Method .ctor, addr 0x63e9050, size 0x10, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x63e9710, size 0x10, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_behaviour, addr 0x63e9040, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::OnScreen::OnScreenStick_Behaviour get_behaviour();
+/// @brief Method get_behaviour, addr 0x63e9700, size 0x8, virtual false, abstract: false, final false
+inline ::UnityEngine::InputSystem::OnScreen::OnScreenStick_Behaviour get_behaviour() ;
 
-  /// @brief Method get_controlPathInternal, addr 0x63e9030, size 0x8, virtual true, abstract: false, final false
-  inline ::StringW get_controlPathInternal();
+/// @brief Method get_controlPathInternal, addr 0x63e96f0, size 0x8, virtual true, abstract: false, final false
+inline ::StringW get_controlPathInternal() ;
 
-  /// @brief Method get_dynamicOriginRange, addr 0x63e9000, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_dynamicOriginRange();
+/// @brief Method get_dynamicOriginRange, addr 0x63e96c0, size 0x8, virtual false, abstract: false, final false
+inline float_t get_dynamicOriginRange() ;
 
-  /// @brief Method get_movementRange, addr 0x63e8ff0, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_movementRange();
+/// @brief Method get_movementRange, addr 0x63e96b0, size 0x8, virtual false, abstract: false, final false
+inline float_t get_movementRange() ;
 
-  /// @brief Method get_useIsolatedInputActions, addr 0x63e9020, size 0x8, virtual false, abstract: false, final false
-  inline bool get_useIsolatedInputActions();
+/// @brief Method get_useIsolatedInputActions, addr 0x63e96e0, size 0x8, virtual false, abstract: false, final false
+inline bool get_useIsolatedInputActions() ;
 
-  /// @brief Convert to "::UnityEngine::EventSystems::IDragHandler"
-  constexpr ::UnityEngine::EventSystems::IDragHandler* i___UnityEngine__EventSystems__IDragHandler() noexcept;
+/// @brief Convert to "::UnityEngine::EventSystems::IDragHandler"
+constexpr ::UnityEngine::EventSystems::IDragHandler* i___UnityEngine__EventSystems__IDragHandler() noexcept;
 
-  /// @brief Convert to "::UnityEngine::EventSystems::IEventSystemHandler"
-  constexpr ::UnityEngine::EventSystems::IEventSystemHandler* i___UnityEngine__EventSystems__IEventSystemHandler() noexcept;
+/// @brief Convert to "::UnityEngine::EventSystems::IEventSystemHandler"
+constexpr ::UnityEngine::EventSystems::IEventSystemHandler* i___UnityEngine__EventSystems__IEventSystemHandler() noexcept;
 
-  /// @brief Convert to "::UnityEngine::EventSystems::IPointerDownHandler"
-  constexpr ::UnityEngine::EventSystems::IPointerDownHandler* i___UnityEngine__EventSystems__IPointerDownHandler() noexcept;
+/// @brief Convert to "::UnityEngine::EventSystems::IPointerDownHandler"
+constexpr ::UnityEngine::EventSystems::IPointerDownHandler* i___UnityEngine__EventSystems__IPointerDownHandler() noexcept;
 
-  /// @brief Convert to "::UnityEngine::EventSystems::IPointerUpHandler"
-  constexpr ::UnityEngine::EventSystems::IPointerUpHandler* i___UnityEngine__EventSystems__IPointerUpHandler() noexcept;
+/// @brief Convert to "::UnityEngine::EventSystems::IPointerUpHandler"
+constexpr ::UnityEngine::EventSystems::IPointerUpHandler* i___UnityEngine__EventSystems__IPointerUpHandler() noexcept;
 
-  /// @brief Method set_behaviour, addr 0x63e9048, size 0x8, virtual false, abstract: false, final false
-  inline void set_behaviour(::UnityEngine::InputSystem::OnScreen::OnScreenStick_Behaviour value);
+/// @brief Method set_behaviour, addr 0x63e9708, size 0x8, virtual false, abstract: false, final false
+inline void set_behaviour(::UnityEngine::InputSystem::OnScreen::OnScreenStick_Behaviour  value) ;
 
-  /// @brief Method set_controlPathInternal, addr 0x63e9038, size 0x8, virtual true, abstract: false, final false
-  inline void set_controlPathInternal(::StringW value);
+/// @brief Method set_controlPathInternal, addr 0x63e96f8, size 0x8, virtual true, abstract: false, final false
+inline void set_controlPathInternal(::StringW  value) ;
 
-  /// @brief Method set_dynamicOriginRange, addr 0x63e9008, size 0x18, virtual false, abstract: false, final false
-  inline void set_dynamicOriginRange(float_t value);
+/// @brief Method set_dynamicOriginRange, addr 0x63e96c8, size 0x18, virtual false, abstract: false, final false
+inline void set_dynamicOriginRange(float_t  value) ;
 
-  /// @brief Method set_movementRange, addr 0x63e8ff8, size 0x8, virtual false, abstract: false, final false
-  inline void set_movementRange(float_t value);
+/// @brief Method set_movementRange, addr 0x63e96b8, size 0x8, virtual false, abstract: false, final false
+inline void set_movementRange(float_t  value) ;
 
-  /// @brief Method set_useIsolatedInputActions, addr 0x63e9028, size 0x8, virtual false, abstract: false, final false
-  inline void set_useIsolatedInputActions(bool value);
+/// @brief Method set_useIsolatedInputActions, addr 0x63e96e8, size 0x8, virtual false, abstract: false, final false
+inline void set_useIsolatedInputActions(bool  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr OnScreenStick();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr OnScreenStick() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OnScreenStick", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  OnScreenStick(OnScreenStick&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OnScreenStick", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  OnScreenStick(OnScreenStick const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "OnScreenStick", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+OnScreenStick(OnScreenStick && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8860 };
+// Ctor Parameters [CppParam { name: "", ty: "OnScreenStick", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+OnScreenStick(OnScreenStick const& ) = delete;
 
-  /// @brief Field kDynamicOriginClickable offset 0xffffffff size 0x8
-  static constexpr ::ConstString kDynamicOriginClickable{ u"DynamicOriginClickable" };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8864};
 
-  /// @brief Field m_MovementRange, offset: 0x38, size: 0x4, def value: None
-  float_t ___m_MovementRange;
+/// @brief Field kDynamicOriginClickable offset 0xffffffff size 0x8
+static constexpr ::ConstString  kDynamicOriginClickable{u"DynamicOriginClickable"};
 
-  /// @brief Field m_DynamicOriginRange, offset: 0x3c, size: 0x4, def value: None
-  float_t ___m_DynamicOriginRange;
+/// @brief Field m_MovementRange, offset: 0x38, size: 0x4, def value: None
+ float_t  ___m_MovementRange;
 
-  /// @brief Field m_ControlPath, offset: 0x40, size: 0x8, def value: None
-  ::StringW ___m_ControlPath;
+/// @brief Field m_DynamicOriginRange, offset: 0x3c, size: 0x4, def value: None
+ float_t  ___m_DynamicOriginRange;
 
-  /// @brief Field m_Behaviour, offset: 0x48, size: 0x4, def value: None
-  ::UnityEngine::InputSystem::OnScreen::OnScreenStick_Behaviour ___m_Behaviour;
+/// @brief Field m_ControlPath, offset: 0x40, size: 0x8, def value: None
+ ::StringW  ___m_ControlPath;
 
-  /// @brief Field m_UseIsolatedInputActions, offset: 0x4c, size: 0x1, def value: None
-  bool ___m_UseIsolatedInputActions;
+/// @brief Field m_Behaviour, offset: 0x48, size: 0x4, def value: None
+ ::UnityEngine::InputSystem::OnScreen::OnScreenStick_Behaviour  ___m_Behaviour;
 
-  /// @brief Field m_PointerDownAction, offset: 0x50, size: 0x8, def value: None
-  ::UnityEngine::InputSystem::InputAction* ___m_PointerDownAction;
+/// @brief Field m_UseIsolatedInputActions, offset: 0x4c, size: 0x1, def value: None
+ bool  ___m_UseIsolatedInputActions;
 
-  /// @brief Field m_PointerMoveAction, offset: 0x58, size: 0x8, def value: None
-  ::UnityEngine::InputSystem::InputAction* ___m_PointerMoveAction;
+/// @brief Field m_PointerDownAction, offset: 0x50, size: 0x8, def value: None
+ ::UnityEngine::InputSystem::InputAction*  ___m_PointerDownAction;
 
-  /// @brief Field m_StartPos, offset: 0x60, size: 0xc, def value: None
-  ::UnityEngine::Vector3 ___m_StartPos;
+/// @brief Field m_PointerMoveAction, offset: 0x58, size: 0x8, def value: None
+ ::UnityEngine::InputSystem::InputAction*  ___m_PointerMoveAction;
 
-  /// @brief Field m_PointerDownPos, offset: 0x6c, size: 0x8, def value: None
-  ::UnityEngine::Vector2 ___m_PointerDownPos;
+/// @brief Field m_StartPos, offset: 0x60, size: 0xc, def value: None
+ ::UnityEngine::Vector3  ___m_StartPos;
 
-  /// @brief Field m_RaycastResults, offset: 0x78, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>* ___m_RaycastResults;
+/// @brief Field m_PointerDownPos, offset: 0x6c, size: 0x8, def value: None
+ ::UnityEngine::Vector2  ___m_PointerDownPos;
 
-  /// @brief Field m_PointerEventData, offset: 0x80, size: 0x8, def value: None
-  ::UnityEngine::EventSystems::PointerEventData* ___m_PointerEventData;
+/// @brief Field m_RaycastResults, offset: 0x78, size: 0x8, def value: None
+ ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>*  ___m_RaycastResults;
 
-  /// @brief Field m_TouchControl, offset: 0x88, size: 0x8, def value: None
-  ::UnityEngine::InputSystem::Controls::TouchControl* ___m_TouchControl;
+/// @brief Field m_PointerEventData, offset: 0x80, size: 0x8, def value: None
+ ::UnityEngine::EventSystems::PointerEventData*  ___m_PointerEventData;
 
-  /// @brief Field m_IsIsolationActive, offset: 0x90, size: 0x1, def value: None
-  bool ___m_IsIsolationActive;
+/// @brief Field m_TouchControl, offset: 0x88, size: 0x8, def value: None
+ ::UnityEngine::InputSystem::Controls::TouchControl*  ___m_TouchControl;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field m_IsIsolationActive, offset: 0x90, size: 0x1, def value: None
+ bool  ___m_IsIsolationActive;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::InputSystem::OnScreen::OnScreenStick, ___m_MovementRange) == 0x38, "Offset mismatch!");
@@ -453,7 +453,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::OnScreen::OnScreenStick, ___m
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::OnScreen::OnScreenStick, 0x98>, "Size mismatch!");
 
-} // namespace UnityEngine::InputSystem::OnScreen
+} // namespace end def UnityEngine::InputSystem::OnScreen
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::OnScreen::OnScreenStick_Behaviour, "UnityEngine.InputSystem.OnScreen", "OnScreenStick/Behaviour");
 NEED_NO_BOX(::UnityEngine::InputSystem::OnScreen::OnScreenStick);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::OnScreen::OnScreenStick*, "UnityEngine.InputSystem.OnScreen", "OnScreenStick");

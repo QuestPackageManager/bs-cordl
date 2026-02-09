@@ -17,34 +17,34 @@ namespace System::Net {
 // CS Name: System.Net.InternalException
 class CORDL_TYPE InternalException : public ::System::SystemException {
 public:
-  // Declarations
-  static inline ::System::Net::InternalException* New_ctor();
+// Declarations
+static inline ::System::Net::InternalException* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x6252bfc, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x62532bc, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr InternalException();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr InternalException() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InternalException", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  InternalException(InternalException&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InternalException", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  InternalException(InternalException const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "InternalException", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+InternalException(InternalException && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11472 };
+// Ctor Parameters [CppParam { name: "", ty: "InternalException", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+InternalException(InternalException const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11476};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::InternalException, 0x90>, "Size mismatch!");
 
-} // namespace System::Net
+} // namespace end def System::Net
 NEED_NO_BOX(::System::Net::InternalException);
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::InternalException*, "System.Net", "InternalException");

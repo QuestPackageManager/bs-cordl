@@ -44,150 +44,150 @@ namespace System::Net {
 // CS Name: System.Net.DigestSession
 class CORDL_TYPE DigestSession : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(get = get_Algorithm)) ::StringW Algorithm;
+// Declarations
+ __declspec(property(get=get_Algorithm)) ::StringW  Algorithm;
 
-  __declspec(property(get = get_CNonce)) ::StringW CNonce;
+ __declspec(property(get=get_CNonce)) ::StringW  CNonce;
 
-  __declspec(property(get = get_LastUse)) ::System::DateTime LastUse;
+ __declspec(property(get=get_LastUse)) ::System::DateTime  LastUse;
 
-  __declspec(property(get = get_Nonce)) ::StringW Nonce;
+ __declspec(property(get=get_Nonce)) ::StringW  Nonce;
 
-  __declspec(property(get = get_Opaque)) ::StringW Opaque;
+ __declspec(property(get=get_Opaque)) ::StringW  Opaque;
 
-  __declspec(property(get = get_QOP)) ::StringW QOP;
+ __declspec(property(get=get_QOP)) ::StringW  QOP;
 
-  __declspec(property(get = get_Realm)) ::StringW Realm;
+ __declspec(property(get=get_Realm)) ::StringW  Realm;
 
-  /// @brief Field _cnonce, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__cnonce, put = __cordl_internal_set__cnonce)) ::StringW _cnonce;
+/// @brief Field _cnonce, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get__cnonce, put=__cordl_internal_set__cnonce)) ::StringW  _cnonce;
 
-  /// @brief Field _nc, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get__nc, put = __cordl_internal_set__nc)) int32_t _nc;
+/// @brief Field _nc, offset 0x18, size 0x4 
+ __declspec(property(get=__cordl_internal_get__nc, put=__cordl_internal_set__nc)) int32_t  _nc;
 
-  /// @brief Field hash, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_hash, put = __cordl_internal_set_hash)) ::System::Security::Cryptography::HashAlgorithm* hash;
+/// @brief Field hash, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get_hash, put=__cordl_internal_set_hash)) ::System::Security::Cryptography::HashAlgorithm*  hash;
 
-  /// @brief Field lastUse, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_lastUse, put = __cordl_internal_set_lastUse)) ::System::DateTime lastUse;
+/// @brief Field lastUse, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_lastUse, put=__cordl_internal_set_lastUse)) ::System::DateTime  lastUse;
 
-  /// @brief Field parser, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_parser, put = __cordl_internal_set_parser)) ::System::Net::DigestHeaderParser* parser;
+/// @brief Field parser, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get_parser, put=__cordl_internal_set_parser)) ::System::Net::DigestHeaderParser*  parser;
 
-  /// @brief Field rng, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_rng, put = setStaticF_rng)) ::System::Security::Cryptography::RandomNumberGenerator* rng;
+/// @brief Field rng, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_rng, put=setStaticF_rng)) ::System::Security::Cryptography::RandomNumberGenerator*  rng;
 
-  /// @brief Method Authenticate, addr 0x6274fd8, size 0x6a4, virtual false, abstract: false, final false
-  inline ::System::Net::Authorization* Authenticate(::System::Net::WebRequest* webRequest, ::System::Net::ICredentials* credentials);
+/// @brief Method Authenticate, addr 0x6275698, size 0x6a4, virtual false, abstract: false, final false
+inline ::System::Net::Authorization* Authenticate(::System::Net::WebRequest*  webRequest, ::System::Net::ICredentials*  credentials) ;
 
-  /// @brief Method HA1, addr 0x6274bb0, size 0x170, virtual false, abstract: false, final false
-  inline ::StringW HA1(::StringW username, ::StringW password);
+/// @brief Method HA1, addr 0x6275270, size 0x170, virtual false, abstract: false, final false
+inline ::StringW HA1(::StringW  username, ::StringW  password) ;
 
-  /// @brief Method HA2, addr 0x6274d20, size 0x104, virtual false, abstract: false, final false
-  inline ::StringW HA2(::System::Net::HttpWebRequest* webRequest);
+/// @brief Method HA2, addr 0x62753e0, size 0x104, virtual false, abstract: false, final false
+inline ::StringW HA2(::System::Net::HttpWebRequest*  webRequest) ;
 
-  /// @brief Method HashToHexString, addr 0x6274a44, size 0x16c, virtual false, abstract: false, final false
-  inline ::StringW HashToHexString(::StringW toBeHashed);
+/// @brief Method HashToHexString, addr 0x6275104, size 0x16c, virtual false, abstract: false, final false
+inline ::StringW HashToHexString(::StringW  toBeHashed) ;
 
-  static inline ::System::Net::DigestSession* New_ctor();
+static inline ::System::Net::DigestSession* New_ctor() ;
 
-  /// @brief Method Parse, addr 0x6274960, size 0xe4, virtual false, abstract: false, final false
-  inline bool Parse(::StringW challenge);
+/// @brief Method Parse, addr 0x6275020, size 0xe4, virtual false, abstract: false, final false
+inline bool Parse(::StringW  challenge) ;
 
-  /// @brief Method Response, addr 0x6274e24, size 0x1b4, virtual false, abstract: false, final false
-  inline ::StringW Response(::StringW username, ::StringW password, ::System::Net::HttpWebRequest* webRequest);
+/// @brief Method Response, addr 0x62754e4, size 0x1b4, virtual false, abstract: false, final false
+inline ::StringW Response(::StringW  username, ::StringW  password, ::System::Net::HttpWebRequest*  webRequest) ;
 
-  constexpr ::StringW const& __cordl_internal_get__cnonce() const;
+constexpr ::StringW const& __cordl_internal_get__cnonce() const;
 
-  constexpr ::StringW& __cordl_internal_get__cnonce();
+constexpr ::StringW& __cordl_internal_get__cnonce() ;
 
-  constexpr int32_t const& __cordl_internal_get__nc() const;
+constexpr int32_t const& __cordl_internal_get__nc() const;
 
-  constexpr int32_t& __cordl_internal_get__nc();
+constexpr int32_t& __cordl_internal_get__nc() ;
 
-  constexpr ::System::Security::Cryptography::HashAlgorithm* const& __cordl_internal_get_hash() const;
+constexpr ::System::Security::Cryptography::HashAlgorithm* const& __cordl_internal_get_hash() const;
 
-  constexpr ::System::Security::Cryptography::HashAlgorithm*& __cordl_internal_get_hash();
+constexpr ::System::Security::Cryptography::HashAlgorithm*& __cordl_internal_get_hash() ;
 
-  constexpr ::System::DateTime const& __cordl_internal_get_lastUse() const;
+constexpr ::System::DateTime const& __cordl_internal_get_lastUse() const;
 
-  constexpr ::System::DateTime& __cordl_internal_get_lastUse();
+constexpr ::System::DateTime& __cordl_internal_get_lastUse() ;
 
-  constexpr ::System::Net::DigestHeaderParser* const& __cordl_internal_get_parser() const;
+constexpr ::System::Net::DigestHeaderParser* const& __cordl_internal_get_parser() const;
 
-  constexpr ::System::Net::DigestHeaderParser*& __cordl_internal_get_parser();
+constexpr ::System::Net::DigestHeaderParser*& __cordl_internal_get_parser() ;
 
-  constexpr void __cordl_internal_set__cnonce(::StringW value);
+constexpr void __cordl_internal_set__cnonce(::StringW  value) ;
 
-  constexpr void __cordl_internal_set__nc(int32_t value);
+constexpr void __cordl_internal_set__nc(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_hash(::System::Security::Cryptography::HashAlgorithm* value);
+constexpr void __cordl_internal_set_hash(::System::Security::Cryptography::HashAlgorithm*  value) ;
 
-  constexpr void __cordl_internal_set_lastUse(::System::DateTime value);
+constexpr void __cordl_internal_set_lastUse(::System::DateTime  value) ;
 
-  constexpr void __cordl_internal_set_parser(::System::Net::DigestHeaderParser* value);
+constexpr void __cordl_internal_set_parser(::System::Net::DigestHeaderParser*  value) ;
 
-  /// @brief Method .ctor, addr 0x6274794, size 0x68, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6274e54, size 0x68, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  static inline ::System::Security::Cryptography::RandomNumberGenerator* getStaticF_rng();
+static inline ::System::Security::Cryptography::RandomNumberGenerator* getStaticF_rng() ;
 
-  /// @brief Method get_Algorithm, addr 0x62747fc, size 0x14, virtual false, abstract: false, final false
-  inline ::StringW get_Algorithm();
+/// @brief Method get_Algorithm, addr 0x6274ebc, size 0x14, virtual false, abstract: false, final false
+inline ::StringW get_Algorithm() ;
 
-  /// @brief Method get_CNonce, addr 0x6274860, size 0x100, virtual false, abstract: false, final false
-  inline ::StringW get_CNonce();
+/// @brief Method get_CNonce, addr 0x6274f20, size 0x100, virtual false, abstract: false, final false
+inline ::StringW get_CNonce() ;
 
-  /// @brief Method get_LastUse, addr 0x627567c, size 0x8, virtual false, abstract: false, final false
-  inline ::System::DateTime get_LastUse();
+/// @brief Method get_LastUse, addr 0x6275d3c, size 0x8, virtual false, abstract: false, final false
+inline ::System::DateTime get_LastUse() ;
 
-  /// @brief Method get_Nonce, addr 0x6274824, size 0x14, virtual false, abstract: false, final false
-  inline ::StringW get_Nonce();
+/// @brief Method get_Nonce, addr 0x6274ee4, size 0x14, virtual false, abstract: false, final false
+inline ::StringW get_Nonce() ;
 
-  /// @brief Method get_Opaque, addr 0x6274838, size 0x14, virtual false, abstract: false, final false
-  inline ::StringW get_Opaque();
+/// @brief Method get_Opaque, addr 0x6274ef8, size 0x14, virtual false, abstract: false, final false
+inline ::StringW get_Opaque() ;
 
-  /// @brief Method get_QOP, addr 0x627484c, size 0x14, virtual false, abstract: false, final false
-  inline ::StringW get_QOP();
+/// @brief Method get_QOP, addr 0x6274f0c, size 0x14, virtual false, abstract: false, final false
+inline ::StringW get_QOP() ;
 
-  /// @brief Method get_Realm, addr 0x6274810, size 0x14, virtual false, abstract: false, final false
-  inline ::StringW get_Realm();
+/// @brief Method get_Realm, addr 0x6274ed0, size 0x14, virtual false, abstract: false, final false
+inline ::StringW get_Realm() ;
 
-  static inline void setStaticF_rng(::System::Security::Cryptography::RandomNumberGenerator* value);
+static inline void setStaticF_rng(::System::Security::Cryptography::RandomNumberGenerator*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DigestSession();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr DigestSession() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DigestSession", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  DigestSession(DigestSession&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DigestSession", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  DigestSession(DigestSession const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "DigestSession", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+DigestSession(DigestSession && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11559 };
+// Ctor Parameters [CppParam { name: "", ty: "DigestSession", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+DigestSession(DigestSession const& ) = delete;
 
-  /// @brief Field lastUse, offset: 0x10, size: 0x8, def value: None
-  ::System::DateTime ___lastUse;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11563};
 
-  /// @brief Field _nc, offset: 0x18, size: 0x4, def value: None
-  int32_t ____nc;
+/// @brief Field lastUse, offset: 0x10, size: 0x8, def value: None
+ ::System::DateTime  ___lastUse;
 
-  /// @brief Field hash, offset: 0x20, size: 0x8, def value: None
-  ::System::Security::Cryptography::HashAlgorithm* ___hash;
+/// @brief Field _nc, offset: 0x18, size: 0x4, def value: None
+ int32_t  ____nc;
 
-  /// @brief Field parser, offset: 0x28, size: 0x8, def value: None
-  ::System::Net::DigestHeaderParser* ___parser;
+/// @brief Field hash, offset: 0x20, size: 0x8, def value: None
+ ::System::Security::Cryptography::HashAlgorithm*  ___hash;
 
-  /// @brief Field _cnonce, offset: 0x30, size: 0x8, def value: None
-  ::StringW ____cnonce;
+/// @brief Field parser, offset: 0x28, size: 0x8, def value: None
+ ::System::Net::DigestHeaderParser*  ___parser;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _cnonce, offset: 0x30, size: 0x8, def value: None
+ ::StringW  ____cnonce;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Net::DigestSession, ___lastUse) == 0x10, "Offset mismatch!");
@@ -202,6 +202,6 @@ static_assert(offsetof(::System::Net::DigestSession, ____cnonce) == 0x30, "Offse
 
 static_assert(::cordl_internals::size_check_v<::System::Net::DigestSession, 0x38>, "Size mismatch!");
 
-} // namespace System::Net
+} // namespace end def System::Net
 NEED_NO_BOX(::System::Net::DigestSession);
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::DigestSession*, "System.Net", "DigestSession");

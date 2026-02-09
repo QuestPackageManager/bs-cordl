@@ -59,92 +59,92 @@ namespace System::ComponentModel {
 // CS Name: System.ComponentModel.PropertyDescriptorCollection/PropertyDescriptorEnumerator
 class CORDL_TYPE PropertyDescriptorCollection_PropertyDescriptorEnumerator : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(get = get_Current)) ::System::Object* Current;
+// Declarations
+ __declspec(property(get=get_Current)) ::System::Object*  Current;
 
-  __declspec(property(get = get_Entry)) ::System::Collections::DictionaryEntry Entry;
+ __declspec(property(get=get_Entry)) ::System::Collections::DictionaryEntry  Entry;
 
-  __declspec(property(get = get_Key)) ::System::Object* Key;
+ __declspec(property(get=get_Key)) ::System::Object*  Key;
 
-  __declspec(property(get = get_Value)) ::System::Object* Value;
+ __declspec(property(get=get_Value)) ::System::Object*  Value;
 
-  /// @brief Field _index, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get__index, put = __cordl_internal_set__index)) int32_t _index;
+/// @brief Field _index, offset 0x18, size 0x4 
+ __declspec(property(get=__cordl_internal_get__index, put=__cordl_internal_set__index)) int32_t  _index;
 
-  /// @brief Field _owner, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__owner, put = __cordl_internal_set__owner)) ::System::ComponentModel::PropertyDescriptorCollection* _owner;
+/// @brief Field _owner, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get__owner, put=__cordl_internal_set__owner)) ::System::ComponentModel::PropertyDescriptorCollection*  _owner;
 
-  /// @brief Convert operator to "::System::Collections::IDictionaryEnumerator"
-  constexpr operator ::System::Collections::IDictionaryEnumerator*() noexcept;
+/// @brief Convert operator to "::System::Collections::IDictionaryEnumerator"
+constexpr operator  ::System::Collections::IDictionaryEnumerator*() noexcept;
 
-  /// @brief Convert operator to "::System::Collections::IEnumerator"
-  constexpr operator ::System::Collections::IEnumerator*() noexcept;
+/// @brief Convert operator to "::System::Collections::IEnumerator"
+constexpr operator  ::System::Collections::IEnumerator*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x6210e08, size 0x38, virtual true, abstract: false, final true
-  inline bool MoveNext();
+/// @brief Method MoveNext, addr 0x62114c8, size 0x38, virtual true, abstract: false, final true
+inline bool MoveNext() ;
 
-  static inline ::System::ComponentModel::PropertyDescriptorCollection_PropertyDescriptorEnumerator* New_ctor(::System::ComponentModel::PropertyDescriptorCollection* owner);
+static inline ::System::ComponentModel::PropertyDescriptorCollection_PropertyDescriptorEnumerator* New_ctor(::System::ComponentModel::PropertyDescriptorCollection*  owner) ;
 
-  /// @brief Method Reset, addr 0x6210e40, size 0xc, virtual true, abstract: false, final true
-  inline void Reset();
+/// @brief Method Reset, addr 0x6211500, size 0xc, virtual true, abstract: false, final true
+inline void Reset() ;
 
-  constexpr int32_t const& __cordl_internal_get__index() const;
+constexpr int32_t const& __cordl_internal_get__index() const;
 
-  constexpr int32_t& __cordl_internal_get__index();
+constexpr int32_t& __cordl_internal_get__index() ;
 
-  constexpr ::System::ComponentModel::PropertyDescriptorCollection* const& __cordl_internal_get__owner() const;
+constexpr ::System::ComponentModel::PropertyDescriptorCollection* const& __cordl_internal_get__owner() const;
 
-  constexpr ::System::ComponentModel::PropertyDescriptorCollection*& __cordl_internal_get__owner();
+constexpr ::System::ComponentModel::PropertyDescriptorCollection*& __cordl_internal_get__owner() ;
 
-  constexpr void __cordl_internal_set__index(int32_t value);
+constexpr void __cordl_internal_set__index(int32_t  value) ;
 
-  constexpr void __cordl_internal_set__owner(::System::ComponentModel::PropertyDescriptorCollection* value);
+constexpr void __cordl_internal_set__owner(::System::ComponentModel::PropertyDescriptorCollection*  value) ;
 
-  /// @brief Method .ctor, addr 0x6210104, size 0x10, virtual false, abstract: false, final false
-  inline void _ctor(::System::ComponentModel::PropertyDescriptorCollection* owner);
+/// @brief Method .ctor, addr 0x62107c4, size 0x10, virtual false, abstract: false, final false
+inline void _ctor(::System::ComponentModel::PropertyDescriptorCollection*  owner) ;
 
-  /// @brief Method get_Current, addr 0x6210ce0, size 0x68, virtual true, abstract: false, final true
-  inline ::System::Object* get_Current();
+/// @brief Method get_Current, addr 0x62113a0, size 0x68, virtual true, abstract: false, final true
+inline ::System::Object* get_Current() ;
 
-  /// @brief Method get_Entry, addr 0x6210d48, size 0x48, virtual true, abstract: false, final true
-  inline ::System::Collections::DictionaryEntry get_Entry();
+/// @brief Method get_Entry, addr 0x6211408, size 0x48, virtual true, abstract: false, final true
+inline ::System::Collections::DictionaryEntry get_Entry() ;
 
-  /// @brief Method get_Key, addr 0x6210d90, size 0x3c, virtual true, abstract: false, final true
-  inline ::System::Object* get_Key();
+/// @brief Method get_Key, addr 0x6211450, size 0x3c, virtual true, abstract: false, final true
+inline ::System::Object* get_Key() ;
 
-  /// @brief Method get_Value, addr 0x6210dcc, size 0x3c, virtual true, abstract: false, final true
-  inline ::System::Object* get_Value();
+/// @brief Method get_Value, addr 0x621148c, size 0x3c, virtual true, abstract: false, final true
+inline ::System::Object* get_Value() ;
 
-  /// @brief Convert to "::System::Collections::IDictionaryEnumerator"
-  constexpr ::System::Collections::IDictionaryEnumerator* i___System__Collections__IDictionaryEnumerator() noexcept;
+/// @brief Convert to "::System::Collections::IDictionaryEnumerator"
+constexpr ::System::Collections::IDictionaryEnumerator* i___System__Collections__IDictionaryEnumerator() noexcept;
 
-  /// @brief Convert to "::System::Collections::IEnumerator"
-  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+/// @brief Convert to "::System::Collections::IEnumerator"
+constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PropertyDescriptorCollection_PropertyDescriptorEnumerator();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr PropertyDescriptorCollection_PropertyDescriptorEnumerator() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PropertyDescriptorCollection_PropertyDescriptorEnumerator", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  PropertyDescriptorCollection_PropertyDescriptorEnumerator(PropertyDescriptorCollection_PropertyDescriptorEnumerator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PropertyDescriptorCollection_PropertyDescriptorEnumerator", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  PropertyDescriptorCollection_PropertyDescriptorEnumerator(PropertyDescriptorCollection_PropertyDescriptorEnumerator const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "PropertyDescriptorCollection_PropertyDescriptorEnumerator", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+PropertyDescriptorCollection_PropertyDescriptorEnumerator(PropertyDescriptorCollection_PropertyDescriptorEnumerator && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11262 };
+// Ctor Parameters [CppParam { name: "", ty: "PropertyDescriptorCollection_PropertyDescriptorEnumerator", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+PropertyDescriptorCollection_PropertyDescriptorEnumerator(PropertyDescriptorCollection_PropertyDescriptorEnumerator const& ) = delete;
 
-  /// @brief Field _owner, offset: 0x10, size: 0x8, def value: None
-  ::System::ComponentModel::PropertyDescriptorCollection* ____owner;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11266};
 
-  /// @brief Field _index, offset: 0x18, size: 0x4, def value: None
-  int32_t ____index;
+/// @brief Field _owner, offset: 0x10, size: 0x8, def value: None
+ ::System::ComponentModel::PropertyDescriptorCollection*  ____owner;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _index, offset: 0x18, size: 0x4, def value: None
+ int32_t  ____index;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::ComponentModel::PropertyDescriptorCollection_PropertyDescriptorEnumerator, ____owner) == 0x10, "Offset mismatch!");
@@ -153,370 +153,363 @@ static_assert(offsetof(::System::ComponentModel::PropertyDescriptorCollection_Pr
 
 static_assert(::cordl_internals::size_check_v<::System::ComponentModel::PropertyDescriptorCollection_PropertyDescriptorEnumerator, 0x20>, "Size mismatch!");
 
-} // namespace System::ComponentModel
+} // namespace end def System::ComponentModel
 // Dependencies System.Object
 namespace System::ComponentModel {
 // Is value type: false
 // CS Name: System.ComponentModel.PropertyDescriptorCollection
 class CORDL_TYPE PropertyDescriptorCollection : public ::System::Object {
 public:
-  // Declarations
-  using PropertyDescriptorEnumerator = ::System::ComponentModel::PropertyDescriptorCollection_PropertyDescriptorEnumerator;
+// Declarations
+using PropertyDescriptorEnumerator = ::System::ComponentModel::PropertyDescriptorCollection_PropertyDescriptorEnumerator;
 
-  __declspec(property(get = get_Count, put = set_Count)) int32_t Count;
+ __declspec(property(get=get_Count, put=set_Count)) int32_t  Count;
 
-  /// @brief Field Empty, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_Empty, put = setStaticF_Empty)) ::System::ComponentModel::PropertyDescriptorCollection* Empty;
+/// @brief Field Empty, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_Empty, put=setStaticF_Empty)) ::System::ComponentModel::PropertyDescriptorCollection*  Empty;
 
-  __declspec(property(get = get_Item)) ::System::ComponentModel::PropertyDescriptor* Item[];
+ __declspec(property(get=get_Item)) ::System::ComponentModel::PropertyDescriptor*  Item[];
 
-  __declspec(property(get = get_Item)) ::System::ComponentModel::PropertyDescriptor* Item[];
+ __declspec(property(get=get_Item)) ::System::ComponentModel::PropertyDescriptor*  Item[];
 
-  __declspec(property(get = System_Collections_ICollection_get_Count)) int32_t System_Collections_ICollection_Count;
+ __declspec(property(get=System_Collections_ICollection_get_Count)) int32_t  System_Collections_ICollection_Count;
 
-  __declspec(property(get = System_Collections_ICollection_get_IsSynchronized)) bool System_Collections_ICollection_IsSynchronized;
+ __declspec(property(get=System_Collections_ICollection_get_IsSynchronized)) bool  System_Collections_ICollection_IsSynchronized;
 
-  __declspec(property(get = System_Collections_ICollection_get_SyncRoot)) ::System::Object* System_Collections_ICollection_SyncRoot;
+ __declspec(property(get=System_Collections_ICollection_get_SyncRoot)) ::System::Object*  System_Collections_ICollection_SyncRoot;
 
-  __declspec(property(get = System_Collections_IDictionary_get_IsFixedSize)) bool System_Collections_IDictionary_IsFixedSize;
+ __declspec(property(get=System_Collections_IDictionary_get_IsFixedSize)) bool  System_Collections_IDictionary_IsFixedSize;
 
-  __declspec(property(get = System_Collections_IDictionary_get_IsReadOnly)) bool System_Collections_IDictionary_IsReadOnly;
+ __declspec(property(get=System_Collections_IDictionary_get_IsReadOnly)) bool  System_Collections_IDictionary_IsReadOnly;
 
-  __declspec(property(get = System_Collections_IDictionary_get_Item, put = System_Collections_IDictionary_set_Item)) ::System::Object* System_Collections_IDictionary_Item[];
+ __declspec(property(get=System_Collections_IDictionary_get_Item, put=System_Collections_IDictionary_set_Item)) ::System::Object*  System_Collections_IDictionary_Item[];
 
-  __declspec(property(get = System_Collections_IDictionary_get_Keys)) ::System::Collections::ICollection* System_Collections_IDictionary_Keys;
+ __declspec(property(get=System_Collections_IDictionary_get_Keys)) ::System::Collections::ICollection*  System_Collections_IDictionary_Keys;
 
-  __declspec(property(get = System_Collections_IDictionary_get_Values)) ::System::Collections::ICollection* System_Collections_IDictionary_Values;
+ __declspec(property(get=System_Collections_IDictionary_get_Values)) ::System::Collections::ICollection*  System_Collections_IDictionary_Values;
 
-  __declspec(property(get = System_Collections_IList_get_IsFixedSize)) bool System_Collections_IList_IsFixedSize;
+ __declspec(property(get=System_Collections_IList_get_IsFixedSize)) bool  System_Collections_IList_IsFixedSize;
 
-  __declspec(property(get = System_Collections_IList_get_IsReadOnly)) bool System_Collections_IList_IsReadOnly;
+ __declspec(property(get=System_Collections_IList_get_IsReadOnly)) bool  System_Collections_IList_IsReadOnly;
 
-  __declspec(property(get = System_Collections_IList_get_Item, put = System_Collections_IList_set_Item)) ::System::Object* System_Collections_IList_Item[];
+ __declspec(property(get=System_Collections_IList_get_Item, put=System_Collections_IList_set_Item)) ::System::Object*  System_Collections_IList_Item[];
 
-  /// @brief Field <Count>k__BackingField, offset 0x48, size 0x4
-  __declspec(property(get = __cordl_internal_get__Count_k__BackingField, put = __cordl_internal_set__Count_k__BackingField)) int32_t _Count_k__BackingField;
+/// @brief Field <Count>k__BackingField, offset 0x48, size 0x4 
+ __declspec(property(get=__cordl_internal_get__Count_k__BackingField, put=__cordl_internal_set__Count_k__BackingField)) int32_t  _Count_k__BackingField;
 
-  /// @brief Field _cachedFoundProperties, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__cachedFoundProperties, put = __cordl_internal_set__cachedFoundProperties)) ::System::Collections::IDictionary* _cachedFoundProperties;
+/// @brief Field _cachedFoundProperties, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get__cachedFoundProperties, put=__cordl_internal_set__cachedFoundProperties)) ::System::Collections::IDictionary*  _cachedFoundProperties;
 
-  /// @brief Field _cachedIgnoreCase, offset 0x18, size 0x1
-  __declspec(property(get = __cordl_internal_get__cachedIgnoreCase, put = __cordl_internal_set__cachedIgnoreCase)) bool _cachedIgnoreCase;
+/// @brief Field _cachedIgnoreCase, offset 0x18, size 0x1 
+ __declspec(property(get=__cordl_internal_get__cachedIgnoreCase, put=__cordl_internal_set__cachedIgnoreCase)) bool  _cachedIgnoreCase;
 
-  /// @brief Field _comparer, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__comparer, put = __cordl_internal_set__comparer)) ::System::Collections::IComparer* _comparer;
+/// @brief Field _comparer, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get__comparer, put=__cordl_internal_set__comparer)) ::System::Collections::IComparer*  _comparer;
 
-  /// @brief Field _internalSyncObject, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__internalSyncObject, put = __cordl_internal_set__internalSyncObject)) ::System::Object* _internalSyncObject;
+/// @brief Field _internalSyncObject, offset 0x40, size 0x8 
+ __declspec(property(get=__cordl_internal_get__internalSyncObject, put=__cordl_internal_set__internalSyncObject)) ::System::Object*  _internalSyncObject;
 
-  /// @brief Field _namedSort, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__namedSort, put = __cordl_internal_set__namedSort)) ::ArrayW<::StringW, ::Array<::StringW>*> _namedSort;
+/// @brief Field _namedSort, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get__namedSort, put=__cordl_internal_set__namedSort)) ::ArrayW<::StringW,::Array<::StringW>*>  _namedSort;
 
-  /// @brief Field _needSort, offset 0x39, size 0x1
-  __declspec(property(get = __cordl_internal_get__needSort, put = __cordl_internal_set__needSort)) bool _needSort;
+/// @brief Field _needSort, offset 0x39, size 0x1 
+ __declspec(property(get=__cordl_internal_get__needSort, put=__cordl_internal_set__needSort)) bool  _needSort;
 
-  /// @brief Field _properties, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__properties,
-                      put = __cordl_internal_set__properties)) ::ArrayW<::System::ComponentModel::PropertyDescriptor*, ::Array<::System::ComponentModel::PropertyDescriptor*>*>
-      _properties;
+/// @brief Field _properties, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get__properties, put=__cordl_internal_set__properties)) ::ArrayW<::System::ComponentModel::PropertyDescriptor*,::Array<::System::ComponentModel::PropertyDescriptor*>*>  _properties;
 
-  /// @brief Field _propsOwned, offset 0x38, size 0x1
-  __declspec(property(get = __cordl_internal_get__propsOwned, put = __cordl_internal_set__propsOwned)) bool _propsOwned;
+/// @brief Field _propsOwned, offset 0x38, size 0x1 
+ __declspec(property(get=__cordl_internal_get__propsOwned, put=__cordl_internal_set__propsOwned)) bool  _propsOwned;
 
-  /// @brief Field _readOnly, offset 0x3a, size 0x1
-  __declspec(property(get = __cordl_internal_get__readOnly, put = __cordl_internal_set__readOnly)) bool _readOnly;
+/// @brief Field _readOnly, offset 0x3a, size 0x1 
+ __declspec(property(get=__cordl_internal_get__readOnly, put=__cordl_internal_set__readOnly)) bool  _readOnly;
 
-  /// @brief Convert operator to "::System::Collections::ICollection"
-  constexpr operator ::System::Collections::ICollection*() noexcept;
+/// @brief Convert operator to "::System::Collections::ICollection"
+constexpr operator  ::System::Collections::ICollection*() noexcept;
 
-  /// @brief Convert operator to "::System::Collections::IDictionary"
-  constexpr operator ::System::Collections::IDictionary*() noexcept;
+/// @brief Convert operator to "::System::Collections::IDictionary"
+constexpr operator  ::System::Collections::IDictionary*() noexcept;
 
-  /// @brief Convert operator to "::System::Collections::IEnumerable"
-  constexpr operator ::System::Collections::IEnumerable*() noexcept;
+/// @brief Convert operator to "::System::Collections::IEnumerable"
+constexpr operator  ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Convert operator to "::System::Collections::IList"
-  constexpr operator ::System::Collections::IList*() noexcept;
+/// @brief Convert operator to "::System::Collections::IList"
+constexpr operator  ::System::Collections::IList*() noexcept;
 
-  /// @brief Method Add, addr 0x620f160, size 0xc8, virtual false, abstract: false, final false
-  inline int32_t Add(::System::ComponentModel::PropertyDescriptor* value);
+/// @brief Method Add, addr 0x620f820, size 0xc8, virtual false, abstract: false, final false
+inline int32_t Add(::System::ComponentModel::PropertyDescriptor*  value) ;
 
-  /// @brief Method Clear, addr 0x620f328, size 0x4c, virtual false, abstract: false, final false
-  inline void Clear();
+/// @brief Method Clear, addr 0x620f9e8, size 0x4c, virtual false, abstract: false, final false
+inline void Clear() ;
 
-  /// @brief Method Contains, addr 0x620f374, size 0x18, virtual false, abstract: false, final false
-  inline bool Contains(::System::ComponentModel::PropertyDescriptor* value);
+/// @brief Method Contains, addr 0x620fa34, size 0x18, virtual false, abstract: false, final false
+inline bool Contains(::System::ComponentModel::PropertyDescriptor*  value) ;
 
-  /// @brief Method CopyTo, addr 0x620f3f0, size 0x3c, virtual true, abstract: false, final true
-  inline void CopyTo(::System::Array* array, int32_t index);
+/// @brief Method CopyTo, addr 0x620fab0, size 0x3c, virtual true, abstract: false, final true
+inline void CopyTo(::System::Array*  array, int32_t  index) ;
 
-  /// @brief Method EnsurePropsOwned, addr 0x620f09c, size 0xb0, virtual false, abstract: false, final false
-  inline void EnsurePropsOwned();
+/// @brief Method EnsurePropsOwned, addr 0x620f75c, size 0xb0, virtual false, abstract: false, final false
+inline void EnsurePropsOwned() ;
 
-  /// @brief Method EnsureSize, addr 0x620f228, size 0x100, virtual false, abstract: false, final false
-  inline void EnsureSize(int32_t sizeNeeded);
+/// @brief Method EnsureSize, addr 0x620f8e8, size 0x100, virtual false, abstract: false, final false
+inline void EnsureSize(int32_t  sizeNeeded) ;
 
-  /// @brief Method Find, addr 0x620f698, size 0x528, virtual true, abstract: false, final false
-  inline ::System::ComponentModel::PropertyDescriptor* Find(::StringW name, bool ignoreCase);
+/// @brief Method Find, addr 0x620fd58, size 0x528, virtual true, abstract: false, final false
+inline ::System::ComponentModel::PropertyDescriptor* Find(::StringW  name, bool  ignoreCase) ;
 
-  /// @brief Method GetEnumerator, addr 0x620fec4, size 0xa0, virtual true, abstract: false, final false
-  inline ::System::Collections::IEnumerator* GetEnumerator();
+/// @brief Method GetEnumerator, addr 0x6210584, size 0xa0, virtual true, abstract: false, final false
+inline ::System::Collections::IEnumerator* GetEnumerator() ;
 
-  /// @brief Method IndexOf, addr 0x620f38c, size 0x64, virtual false, abstract: false, final false
-  inline int32_t IndexOf(::System::ComponentModel::PropertyDescriptor* value);
+/// @brief Method IndexOf, addr 0x620fa4c, size 0x64, virtual false, abstract: false, final false
+inline int32_t IndexOf(::System::ComponentModel::PropertyDescriptor*  value) ;
 
-  /// @brief Method Insert, addr 0x620fbc0, size 0xe8, virtual false, abstract: false, final false
-  inline void Insert(int32_t index, ::System::ComponentModel::PropertyDescriptor* value);
+/// @brief Method Insert, addr 0x6210280, size 0xe8, virtual false, abstract: false, final false
+inline void Insert(int32_t  index, ::System::ComponentModel::PropertyDescriptor*  value) ;
 
-  /// @brief Method InternalSort, addr 0x620f42c, size 0x26c, virtual false, abstract: false, final false
-  inline void InternalSort(::ArrayW<::StringW, ::Array<::StringW>*> names);
+/// @brief Method InternalSort, addr 0x620faec, size 0x26c, virtual false, abstract: false, final false
+inline void InternalSort(::ArrayW<::StringW,::Array<::StringW>*>  names) ;
 
-  /// @brief Method InternalSort, addr 0x620fe3c, size 0x88, virtual false, abstract: false, final false
-  inline void InternalSort(::System::Collections::IComparer* sorter);
+/// @brief Method InternalSort, addr 0x62104fc, size 0x88, virtual false, abstract: false, final false
+inline void InternalSort(::System::Collections::IComparer*  sorter) ;
 
-  static inline ::System::ComponentModel::PropertyDescriptorCollection*
-  New_ctor(::ArrayW<::System::ComponentModel::PropertyDescriptor*, ::Array<::System::ComponentModel::PropertyDescriptor*>*> properties);
+static inline ::System::ComponentModel::PropertyDescriptorCollection* New_ctor(::ArrayW<::System::ComponentModel::PropertyDescriptor*,::Array<::System::ComponentModel::PropertyDescriptor*>*>  properties) ;
 
-  static inline ::System::ComponentModel::PropertyDescriptorCollection*
-  New_ctor(::ArrayW<::System::ComponentModel::PropertyDescriptor*, ::Array<::System::ComponentModel::PropertyDescriptor*>*> properties, int32_t propCount,
-           ::ArrayW<::StringW, ::Array<::StringW>*> namedSort, ::System::Collections::IComparer* comparer);
+static inline ::System::ComponentModel::PropertyDescriptorCollection* New_ctor(::ArrayW<::System::ComponentModel::PropertyDescriptor*,::Array<::System::ComponentModel::PropertyDescriptor*>*>  properties, int32_t  propCount, ::ArrayW<::StringW,::Array<::StringW>*>  namedSort, ::System::Collections::IComparer*  comparer) ;
 
-  static inline ::System::ComponentModel::PropertyDescriptorCollection*
-  New_ctor(::ArrayW<::System::ComponentModel::PropertyDescriptor*, ::Array<::System::ComponentModel::PropertyDescriptor*>*> properties, bool readOnly);
+static inline ::System::ComponentModel::PropertyDescriptorCollection* New_ctor(::ArrayW<::System::ComponentModel::PropertyDescriptor*,::Array<::System::ComponentModel::PropertyDescriptor*>*>  properties, bool  readOnly) ;
 
-  /// @brief Method Remove, addr 0x620fca8, size 0x68, virtual false, abstract: false, final false
-  inline void Remove(::System::ComponentModel::PropertyDescriptor* value);
+/// @brief Method Remove, addr 0x6210368, size 0x68, virtual false, abstract: false, final false
+inline void Remove(::System::ComponentModel::PropertyDescriptor*  value) ;
 
-  /// @brief Method RemoveAt, addr 0x620fd10, size 0xac, virtual false, abstract: false, final false
-  inline void RemoveAt(int32_t index);
+/// @brief Method RemoveAt, addr 0x62103d0, size 0xac, virtual false, abstract: false, final false
+inline void RemoveAt(int32_t  index) ;
 
-  /// @brief Method Sort, addr 0x620fdbc, size 0x80, virtual true, abstract: false, final false
-  inline ::System::ComponentModel::PropertyDescriptorCollection* Sort(::ArrayW<::StringW, ::Array<::StringW>*> names);
+/// @brief Method Sort, addr 0x621047c, size 0x80, virtual true, abstract: false, final false
+inline ::System::ComponentModel::PropertyDescriptorCollection* Sort(::ArrayW<::StringW,::Array<::StringW>*>  names) ;
 
-  /// @brief Method System.Collections.ICollection.get_Count, addr 0x620ff74, size 0x8, virtual true, abstract: false, final true
-  inline int32_t System_Collections_ICollection_get_Count();
+/// @brief Method System.Collections.ICollection.get_Count, addr 0x6210634, size 0x8, virtual true, abstract: false, final true
+inline int32_t System_Collections_ICollection_get_Count() ;
 
-  /// @brief Method System.Collections.ICollection.get_IsSynchronized, addr 0x620ff64, size 0x8, virtual true, abstract: false, final true
-  inline bool System_Collections_ICollection_get_IsSynchronized();
+/// @brief Method System.Collections.ICollection.get_IsSynchronized, addr 0x6210624, size 0x8, virtual true, abstract: false, final true
+inline bool System_Collections_ICollection_get_IsSynchronized() ;
 
-  /// @brief Method System.Collections.ICollection.get_SyncRoot, addr 0x620ff6c, size 0x8, virtual true, abstract: false, final true
-  inline ::System::Object* System_Collections_ICollection_get_SyncRoot();
+/// @brief Method System.Collections.ICollection.get_SyncRoot, addr 0x621062c, size 0x8, virtual true, abstract: false, final true
+inline ::System::Object* System_Collections_ICollection_get_SyncRoot() ;
 
-  /// @brief Method System.Collections.IDictionary.Add, addr 0x620ff98, size 0xd0, virtual true, abstract: false, final true
-  inline void System_Collections_IDictionary_Add(::System::Object* key, ::System::Object* value);
+/// @brief Method System.Collections.IDictionary.Add, addr 0x6210658, size 0xd0, virtual true, abstract: false, final true
+inline void System_Collections_IDictionary_Add(::System::Object*  key, ::System::Object*  value) ;
 
-  /// @brief Method System.Collections.IDictionary.Clear, addr 0x620ff80, size 0x4, virtual true, abstract: false, final true
-  inline void System_Collections_IDictionary_Clear();
+/// @brief Method System.Collections.IDictionary.Clear, addr 0x6210640, size 0x4, virtual true, abstract: false, final true
+inline void System_Collections_IDictionary_Clear() ;
 
-  /// @brief Method System.Collections.IDictionary.Contains, addr 0x6210068, size 0x44, virtual true, abstract: false, final true
-  inline bool System_Collections_IDictionary_Contains(::System::Object* key);
+/// @brief Method System.Collections.IDictionary.Contains, addr 0x6210728, size 0x44, virtual true, abstract: false, final true
+inline bool System_Collections_IDictionary_Contains(::System::Object*  key) ;
 
-  /// @brief Method System.Collections.IDictionary.GetEnumerator, addr 0x62100ac, size 0x58, virtual true, abstract: false, final true
-  inline ::System::Collections::IDictionaryEnumerator* System_Collections_IDictionary_GetEnumerator();
+/// @brief Method System.Collections.IDictionary.GetEnumerator, addr 0x621076c, size 0x58, virtual true, abstract: false, final true
+inline ::System::Collections::IDictionaryEnumerator* System_Collections_IDictionary_GetEnumerator() ;
 
-  /// @brief Method System.Collections.IDictionary.Remove, addr 0x62106b0, size 0xf4, virtual true, abstract: false, final true
-  inline void System_Collections_IDictionary_Remove(::System::Object* key);
+/// @brief Method System.Collections.IDictionary.Remove, addr 0x6210d70, size 0xf4, virtual true, abstract: false, final true
+inline void System_Collections_IDictionary_Remove(::System::Object*  key) ;
 
-  /// @brief Method System.Collections.IDictionary.get_IsFixedSize, addr 0x6210114, size 0x8, virtual true, abstract: false, final true
-  inline bool System_Collections_IDictionary_get_IsFixedSize();
+/// @brief Method System.Collections.IDictionary.get_IsFixedSize, addr 0x62107d4, size 0x8, virtual true, abstract: false, final true
+inline bool System_Collections_IDictionary_get_IsFixedSize() ;
 
-  /// @brief Method System.Collections.IDictionary.get_IsReadOnly, addr 0x621011c, size 0x8, virtual true, abstract: false, final true
-  inline bool System_Collections_IDictionary_get_IsReadOnly();
+/// @brief Method System.Collections.IDictionary.get_IsReadOnly, addr 0x62107dc, size 0x8, virtual true, abstract: false, final true
+inline bool System_Collections_IDictionary_get_IsReadOnly() ;
 
-  /// @brief Method System.Collections.IDictionary.get_Item, addr 0x6210124, size 0x30, virtual true, abstract: false, final true
-  inline ::System::Object* System_Collections_IDictionary_get_Item(::System::Object* key);
+/// @brief Method System.Collections.IDictionary.get_Item, addr 0x62107e4, size 0x30, virtual true, abstract: false, final true
+inline ::System::Object* System_Collections_IDictionary_get_Item(::System::Object*  key) ;
 
-  /// @brief Method System.Collections.IDictionary.get_Keys, addr 0x6210504, size 0xd0, virtual true, abstract: false, final true
-  inline ::System::Collections::ICollection* System_Collections_IDictionary_get_Keys();
+/// @brief Method System.Collections.IDictionary.get_Keys, addr 0x6210bc4, size 0xd0, virtual true, abstract: false, final true
+inline ::System::Collections::ICollection* System_Collections_IDictionary_get_Keys() ;
 
-  /// @brief Method System.Collections.IDictionary.get_Values, addr 0x62105d4, size 0xdc, virtual true, abstract: false, final true
-  inline ::System::Collections::ICollection* System_Collections_IDictionary_get_Values();
+/// @brief Method System.Collections.IDictionary.get_Values, addr 0x6210c94, size 0xdc, virtual true, abstract: false, final true
+inline ::System::Collections::ICollection* System_Collections_IDictionary_get_Values() ;
 
-  /// @brief Method System.Collections.IDictionary.set_Item, addr 0x6210154, size 0x3b0, virtual true, abstract: false, final true
-  inline void System_Collections_IDictionary_set_Item(::System::Object* key, ::System::Object* value);
+/// @brief Method System.Collections.IDictionary.set_Item, addr 0x6210814, size 0x3b0, virtual true, abstract: false, final true
+inline void System_Collections_IDictionary_set_Item(::System::Object*  key, ::System::Object*  value) ;
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x620ff84, size 0x10, virtual true, abstract: false, final true
-  inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
+/// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x6210644, size 0x10, virtual true, abstract: false, final true
+inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator() ;
 
-  /// @brief Method System.Collections.IList.Add, addr 0x62107a4, size 0x90, virtual true, abstract: false, final true
-  inline int32_t System_Collections_IList_Add(::System::Object* value);
+/// @brief Method System.Collections.IList.Add, addr 0x6210e64, size 0x90, virtual true, abstract: false, final true
+inline int32_t System_Collections_IList_Add(::System::Object*  value) ;
 
-  /// @brief Method System.Collections.IList.Clear, addr 0x620ff7c, size 0x4, virtual true, abstract: false, final true
-  inline void System_Collections_IList_Clear();
+/// @brief Method System.Collections.IList.Clear, addr 0x621063c, size 0x4, virtual true, abstract: false, final true
+inline void System_Collections_IList_Clear() ;
 
-  /// @brief Method System.Collections.IList.Contains, addr 0x6210834, size 0x9c, virtual true, abstract: false, final true
-  inline bool System_Collections_IList_Contains(::System::Object* value);
+/// @brief Method System.Collections.IList.Contains, addr 0x6210ef4, size 0x9c, virtual true, abstract: false, final true
+inline bool System_Collections_IList_Contains(::System::Object*  value) ;
 
-  /// @brief Method System.Collections.IList.IndexOf, addr 0x62108d0, size 0x90, virtual true, abstract: false, final true
-  inline int32_t System_Collections_IList_IndexOf(::System::Object* value);
+/// @brief Method System.Collections.IList.IndexOf, addr 0x6210f90, size 0x90, virtual true, abstract: false, final true
+inline int32_t System_Collections_IList_IndexOf(::System::Object*  value) ;
 
-  /// @brief Method System.Collections.IList.Insert, addr 0x6210960, size 0x98, virtual true, abstract: false, final true
-  inline void System_Collections_IList_Insert(int32_t index, ::System::Object* value);
+/// @brief Method System.Collections.IList.Insert, addr 0x6211020, size 0x98, virtual true, abstract: false, final true
+inline void System_Collections_IList_Insert(int32_t  index, ::System::Object*  value) ;
 
-  /// @brief Method System.Collections.IList.Remove, addr 0x6210a08, size 0x90, virtual true, abstract: false, final true
-  inline void System_Collections_IList_Remove(::System::Object* value);
+/// @brief Method System.Collections.IList.Remove, addr 0x62110c8, size 0x90, virtual true, abstract: false, final true
+inline void System_Collections_IList_Remove(::System::Object*  value) ;
 
-  /// @brief Method System.Collections.IList.RemoveAt, addr 0x620ff94, size 0x4, virtual true, abstract: false, final true
-  inline void System_Collections_IList_RemoveAt(int32_t index);
+/// @brief Method System.Collections.IList.RemoveAt, addr 0x6210654, size 0x4, virtual true, abstract: false, final true
+inline void System_Collections_IList_RemoveAt(int32_t  index) ;
 
-  /// @brief Method System.Collections.IList.get_IsFixedSize, addr 0x6210a00, size 0x8, virtual true, abstract: false, final true
-  inline bool System_Collections_IList_get_IsFixedSize();
+/// @brief Method System.Collections.IList.get_IsFixedSize, addr 0x62110c0, size 0x8, virtual true, abstract: false, final true
+inline bool System_Collections_IList_get_IsFixedSize() ;
 
-  /// @brief Method System.Collections.IList.get_IsReadOnly, addr 0x62109f8, size 0x8, virtual true, abstract: false, final true
-  inline bool System_Collections_IList_get_IsReadOnly();
+/// @brief Method System.Collections.IList.get_IsReadOnly, addr 0x62110b8, size 0x8, virtual true, abstract: false, final true
+inline bool System_Collections_IList_get_IsReadOnly() ;
 
-  /// @brief Method System.Collections.IList.get_Item, addr 0x6210a98, size 0x10, virtual true, abstract: false, final true
-  inline ::System::Object* System_Collections_IList_get_Item(int32_t index);
+/// @brief Method System.Collections.IList.get_Item, addr 0x6211158, size 0x10, virtual true, abstract: false, final true
+inline ::System::Object* System_Collections_IList_get_Item(int32_t  index) ;
 
-  /// @brief Method System.Collections.IList.set_Item, addr 0x6210aa8, size 0x1d0, virtual true, abstract: false, final true
-  inline void System_Collections_IList_set_Item(int32_t index, ::System::Object* value);
+/// @brief Method System.Collections.IList.set_Item, addr 0x6211168, size 0x1d0, virtual true, abstract: false, final true
+inline void System_Collections_IList_set_Item(int32_t  index, ::System::Object*  value) ;
 
-  constexpr int32_t const& __cordl_internal_get__Count_k__BackingField() const;
+constexpr int32_t const& __cordl_internal_get__Count_k__BackingField() const;
 
-  constexpr int32_t& __cordl_internal_get__Count_k__BackingField();
+constexpr int32_t& __cordl_internal_get__Count_k__BackingField() ;
 
-  constexpr ::System::Collections::IDictionary* const& __cordl_internal_get__cachedFoundProperties() const;
+constexpr ::System::Collections::IDictionary* const& __cordl_internal_get__cachedFoundProperties() const;
 
-  constexpr ::System::Collections::IDictionary*& __cordl_internal_get__cachedFoundProperties();
+constexpr ::System::Collections::IDictionary*& __cordl_internal_get__cachedFoundProperties() ;
 
-  constexpr bool const& __cordl_internal_get__cachedIgnoreCase() const;
+constexpr bool const& __cordl_internal_get__cachedIgnoreCase() const;
 
-  constexpr bool& __cordl_internal_get__cachedIgnoreCase();
+constexpr bool& __cordl_internal_get__cachedIgnoreCase() ;
 
-  constexpr ::System::Collections::IComparer* const& __cordl_internal_get__comparer() const;
+constexpr ::System::Collections::IComparer* const& __cordl_internal_get__comparer() const;
 
-  constexpr ::System::Collections::IComparer*& __cordl_internal_get__comparer();
+constexpr ::System::Collections::IComparer*& __cordl_internal_get__comparer() ;
 
-  constexpr ::System::Object* const& __cordl_internal_get__internalSyncObject() const;
+constexpr ::System::Object* const& __cordl_internal_get__internalSyncObject() const;
 
-  constexpr ::System::Object*& __cordl_internal_get__internalSyncObject();
+constexpr ::System::Object*& __cordl_internal_get__internalSyncObject() ;
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get__namedSort() const;
+constexpr ::ArrayW<::StringW,::Array<::StringW>*> const& __cordl_internal_get__namedSort() const;
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get__namedSort();
+constexpr ::ArrayW<::StringW,::Array<::StringW>*>& __cordl_internal_get__namedSort() ;
 
-  constexpr bool const& __cordl_internal_get__needSort() const;
+constexpr bool const& __cordl_internal_get__needSort() const;
 
-  constexpr bool& __cordl_internal_get__needSort();
+constexpr bool& __cordl_internal_get__needSort() ;
 
-  constexpr ::ArrayW<::System::ComponentModel::PropertyDescriptor*, ::Array<::System::ComponentModel::PropertyDescriptor*>*> const& __cordl_internal_get__properties() const;
+constexpr ::ArrayW<::System::ComponentModel::PropertyDescriptor*,::Array<::System::ComponentModel::PropertyDescriptor*>*> const& __cordl_internal_get__properties() const;
 
-  constexpr ::ArrayW<::System::ComponentModel::PropertyDescriptor*, ::Array<::System::ComponentModel::PropertyDescriptor*>*>& __cordl_internal_get__properties();
+constexpr ::ArrayW<::System::ComponentModel::PropertyDescriptor*,::Array<::System::ComponentModel::PropertyDescriptor*>*>& __cordl_internal_get__properties() ;
 
-  constexpr bool const& __cordl_internal_get__propsOwned() const;
+constexpr bool const& __cordl_internal_get__propsOwned() const;
 
-  constexpr bool& __cordl_internal_get__propsOwned();
+constexpr bool& __cordl_internal_get__propsOwned() ;
 
-  constexpr bool const& __cordl_internal_get__readOnly() const;
+constexpr bool const& __cordl_internal_get__readOnly() const;
 
-  constexpr bool& __cordl_internal_get__readOnly();
+constexpr bool& __cordl_internal_get__readOnly() ;
 
-  constexpr void __cordl_internal_set__Count_k__BackingField(int32_t value);
+constexpr void __cordl_internal_set__Count_k__BackingField(int32_t  value) ;
 
-  constexpr void __cordl_internal_set__cachedFoundProperties(::System::Collections::IDictionary* value);
+constexpr void __cordl_internal_set__cachedFoundProperties(::System::Collections::IDictionary*  value) ;
 
-  constexpr void __cordl_internal_set__cachedIgnoreCase(bool value);
+constexpr void __cordl_internal_set__cachedIgnoreCase(bool  value) ;
 
-  constexpr void __cordl_internal_set__comparer(::System::Collections::IComparer* value);
+constexpr void __cordl_internal_set__comparer(::System::Collections::IComparer*  value) ;
 
-  constexpr void __cordl_internal_set__internalSyncObject(::System::Object* value);
+constexpr void __cordl_internal_set__internalSyncObject(::System::Object*  value) ;
 
-  constexpr void __cordl_internal_set__namedSort(::ArrayW<::StringW, ::Array<::StringW>*> value);
+constexpr void __cordl_internal_set__namedSort(::ArrayW<::StringW,::Array<::StringW>*>  value) ;
 
-  constexpr void __cordl_internal_set__needSort(bool value);
+constexpr void __cordl_internal_set__needSort(bool  value) ;
 
-  constexpr void __cordl_internal_set__properties(::ArrayW<::System::ComponentModel::PropertyDescriptor*, ::Array<::System::ComponentModel::PropertyDescriptor*>*> value);
+constexpr void __cordl_internal_set__properties(::ArrayW<::System::ComponentModel::PropertyDescriptor*,::Array<::System::ComponentModel::PropertyDescriptor*>*>  value) ;
 
-  constexpr void __cordl_internal_set__propsOwned(bool value);
+constexpr void __cordl_internal_set__propsOwned(bool  value) ;
 
-  constexpr void __cordl_internal_set__readOnly(bool value);
+constexpr void __cordl_internal_set__readOnly(bool  value) ;
 
-  /// @brief Method .ctor, addr 0x61ffa14, size 0xf0, virtual false, abstract: false, final false
-  inline void _ctor(::ArrayW<::System::ComponentModel::PropertyDescriptor*, ::Array<::System::ComponentModel::PropertyDescriptor*>*> properties);
+/// @brief Method .ctor, addr 0x62000d4, size 0xf0, virtual false, abstract: false, final false
+inline void _ctor(::ArrayW<::System::ComponentModel::PropertyDescriptor*,::Array<::System::ComponentModel::PropertyDescriptor*>*>  properties) ;
 
-  /// @brief Method .ctor, addr 0x620ef1c, size 0xec, virtual false, abstract: false, final false
-  inline void _ctor(::ArrayW<::System::ComponentModel::PropertyDescriptor*, ::Array<::System::ComponentModel::PropertyDescriptor*>*> properties, int32_t propCount,
-                    ::ArrayW<::StringW, ::Array<::StringW>*> namedSort, ::System::Collections::IComparer* comparer);
+/// @brief Method .ctor, addr 0x620f5dc, size 0xec, virtual false, abstract: false, final false
+inline void _ctor(::ArrayW<::System::ComponentModel::PropertyDescriptor*,::Array<::System::ComponentModel::PropertyDescriptor*>*>  properties, int32_t  propCount, ::ArrayW<::StringW,::Array<::StringW>*>  namedSort, ::System::Collections::IComparer*  comparer) ;
 
-  /// @brief Method .ctor, addr 0x620eef8, size 0x24, virtual false, abstract: false, final false
-  inline void _ctor(::ArrayW<::System::ComponentModel::PropertyDescriptor*, ::Array<::System::ComponentModel::PropertyDescriptor*>*> properties, bool readOnly);
+/// @brief Method .ctor, addr 0x620f5b8, size 0x24, virtual false, abstract: false, final false
+inline void _ctor(::ArrayW<::System::ComponentModel::PropertyDescriptor*,::Array<::System::ComponentModel::PropertyDescriptor*>*>  properties, bool  readOnly) ;
 
-  static inline ::System::ComponentModel::PropertyDescriptorCollection* getStaticF_Empty();
+static inline ::System::ComponentModel::PropertyDescriptorCollection* getStaticF_Empty() ;
 
-  /// @brief Method get_Count, addr 0x620f008, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_Count();
+/// @brief Method get_Count, addr 0x620f6c8, size 0x8, virtual false, abstract: false, final false
+inline int32_t get_Count() ;
 
-  /// @brief Method get_Item, addr 0x620f018, size 0x84, virtual true, abstract: false, final false
-  inline ::System::ComponentModel::PropertyDescriptor* get_Item(int32_t index);
+/// @brief Method get_Item, addr 0x620f6d8, size 0x84, virtual true, abstract: false, final false
+inline ::System::ComponentModel::PropertyDescriptor* get_Item(int32_t  index) ;
 
-  /// @brief Method get_Item, addr 0x620f14c, size 0x14, virtual true, abstract: false, final false
-  inline ::System::ComponentModel::PropertyDescriptor* get_Item(::StringW name);
+/// @brief Method get_Item, addr 0x620f80c, size 0x14, virtual true, abstract: false, final false
+inline ::System::ComponentModel::PropertyDescriptor* get_Item(::StringW  name) ;
 
-  /// @brief Convert to "::System::Collections::ICollection"
-  constexpr ::System::Collections::ICollection* i___System__Collections__ICollection() noexcept;
+/// @brief Convert to "::System::Collections::ICollection"
+constexpr ::System::Collections::ICollection* i___System__Collections__ICollection() noexcept;
 
-  /// @brief Convert to "::System::Collections::IDictionary"
-  constexpr ::System::Collections::IDictionary* i___System__Collections__IDictionary() noexcept;
+/// @brief Convert to "::System::Collections::IDictionary"
+constexpr ::System::Collections::IDictionary* i___System__Collections__IDictionary() noexcept;
 
-  /// @brief Convert to "::System::Collections::IEnumerable"
-  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
+/// @brief Convert to "::System::Collections::IEnumerable"
+constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
-  /// @brief Convert to "::System::Collections::IList"
-  constexpr ::System::Collections::IList* i___System__Collections__IList() noexcept;
+/// @brief Convert to "::System::Collections::IList"
+constexpr ::System::Collections::IList* i___System__Collections__IList() noexcept;
 
-  static inline void setStaticF_Empty(::System::ComponentModel::PropertyDescriptorCollection* value);
+static inline void setStaticF_Empty(::System::ComponentModel::PropertyDescriptorCollection*  value) ;
 
-  /// @brief Method set_Count, addr 0x620f010, size 0x8, virtual false, abstract: false, final false
-  inline void set_Count(int32_t value);
+/// @brief Method set_Count, addr 0x620f6d0, size 0x8, virtual false, abstract: false, final false
+inline void set_Count(int32_t  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PropertyDescriptorCollection();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr PropertyDescriptorCollection() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PropertyDescriptorCollection", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  PropertyDescriptorCollection(PropertyDescriptorCollection&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PropertyDescriptorCollection", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  PropertyDescriptorCollection(PropertyDescriptorCollection const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "PropertyDescriptorCollection", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+PropertyDescriptorCollection(PropertyDescriptorCollection && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11263 };
+// Ctor Parameters [CppParam { name: "", ty: "PropertyDescriptorCollection", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+PropertyDescriptorCollection(PropertyDescriptorCollection const& ) = delete;
 
-  /// @brief Field _cachedFoundProperties, offset: 0x10, size: 0x8, def value: None
-  ::System::Collections::IDictionary* ____cachedFoundProperties;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11267};
 
-  /// @brief Field _cachedIgnoreCase, offset: 0x18, size: 0x1, def value: None
-  bool ____cachedIgnoreCase;
+/// @brief Field _cachedFoundProperties, offset: 0x10, size: 0x8, def value: None
+ ::System::Collections::IDictionary*  ____cachedFoundProperties;
 
-  /// @brief Field _properties, offset: 0x20, size: 0x8, def value: None
-  ::ArrayW<::System::ComponentModel::PropertyDescriptor*, ::Array<::System::ComponentModel::PropertyDescriptor*>*> ____properties;
+/// @brief Field _cachedIgnoreCase, offset: 0x18, size: 0x1, def value: None
+ bool  ____cachedIgnoreCase;
 
-  /// @brief Field _namedSort, offset: 0x28, size: 0x8, def value: None
-  ::ArrayW<::StringW, ::Array<::StringW>*> ____namedSort;
+/// @brief Field _properties, offset: 0x20, size: 0x8, def value: None
+ ::ArrayW<::System::ComponentModel::PropertyDescriptor*,::Array<::System::ComponentModel::PropertyDescriptor*>*>  ____properties;
 
-  /// @brief Field _comparer, offset: 0x30, size: 0x8, def value: None
-  ::System::Collections::IComparer* ____comparer;
+/// @brief Field _namedSort, offset: 0x28, size: 0x8, def value: None
+ ::ArrayW<::StringW,::Array<::StringW>*>  ____namedSort;
 
-  /// @brief Field _propsOwned, offset: 0x38, size: 0x1, def value: None
-  bool ____propsOwned;
+/// @brief Field _comparer, offset: 0x30, size: 0x8, def value: None
+ ::System::Collections::IComparer*  ____comparer;
 
-  /// @brief Field _needSort, offset: 0x39, size: 0x1, def value: None
-  bool ____needSort;
+/// @brief Field _propsOwned, offset: 0x38, size: 0x1, def value: None
+ bool  ____propsOwned;
 
-  /// @brief Field _readOnly, offset: 0x3a, size: 0x1, def value: None
-  bool ____readOnly;
+/// @brief Field _needSort, offset: 0x39, size: 0x1, def value: None
+ bool  ____needSort;
 
-  /// @brief Field _internalSyncObject, offset: 0x40, size: 0x8, def value: None
-  ::System::Object* ____internalSyncObject;
+/// @brief Field _readOnly, offset: 0x3a, size: 0x1, def value: None
+ bool  ____readOnly;
 
-  /// @brief Field <Count>k__BackingField, offset: 0x48, size: 0x4, def value: None
-  int32_t ____Count_k__BackingField;
+/// @brief Field _internalSyncObject, offset: 0x40, size: 0x8, def value: None
+ ::System::Object*  ____internalSyncObject;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field <Count>k__BackingField, offset: 0x48, size: 0x4, def value: None
+ int32_t  ____Count_k__BackingField;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::ComponentModel::PropertyDescriptorCollection, ____cachedFoundProperties) == 0x10, "Offset mismatch!");
@@ -541,7 +534,7 @@ static_assert(offsetof(::System::ComponentModel::PropertyDescriptorCollection, _
 
 static_assert(::cordl_internals::size_check_v<::System::ComponentModel::PropertyDescriptorCollection, 0x50>, "Size mismatch!");
 
-} // namespace System::ComponentModel
+} // namespace end def System::ComponentModel
 NEED_NO_BOX(::System::ComponentModel::PropertyDescriptorCollection);
 DEFINE_IL2CPP_ARG_TYPE(::System::ComponentModel::PropertyDescriptorCollection*, "System.ComponentModel", "PropertyDescriptorCollection");
 NEED_NO_BOX(::System::ComponentModel::PropertyDescriptorCollection_PropertyDescriptorEnumerator);

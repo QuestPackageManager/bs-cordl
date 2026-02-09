@@ -14,769 +14,928 @@
 #include "System/Xml/zzzz__XmlNode_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::Xml::DocumentXPathNavigator._ctor
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::DocumentXPathNavigator::*)(::System::Xml::XmlDocument*, ::System::Xml::XmlNode*)>(
-    &::System::Xml::DocumentXPathNavigator::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::DocumentXPathNavigator::*)(::System::Xml::XmlDocument*, ::System::Xml::XmlNode*)>(&::System::Xml::DocumentXPathNavigator::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x60ff1a8;
+  constexpr static std::size_t addrs = 0x60ff868;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlDocument*>::get(),
-                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlNode*>::get() })));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlDocument*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlNode*>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DocumentXPathNavigator._ctor
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::DocumentXPathNavigator::*)(::System::Xml::DocumentXPathNavigator*)>(
-    &::System::Xml::DocumentXPathNavigator::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::DocumentXPathNavigator::*)(::System::Xml::DocumentXPathNavigator*)>(&::System::Xml::DocumentXPathNavigator::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x60ff2e8;
+  constexpr static std::size_t addrs = 0x60ff9a8;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::DocumentXPathNavigator*>::get() })));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::DocumentXPathNavigator*>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DocumentXPathNavigator.Clone
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XPath::XPathNavigator* (::System::Xml::DocumentXPathNavigator::*)()>(
-    &::System::Xml::DocumentXPathNavigator::Clone)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XPath::XPathNavigator* (::System::Xml::DocumentXPathNavigator::*)()>(&::System::Xml::DocumentXPathNavigator::Clone)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x60ff368;
+  constexpr static std::size_t addrs = 0x60ffa28;
 
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(), 23));
+  inline static const ::MethodInfo* methodInfo() {
+    
+                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(),
+                                  23
+                                ));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DocumentXPathNavigator.get_NameTable
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNameTable* (::System::Xml::DocumentXPathNavigator::*)()>(
-    &::System::Xml::DocumentXPathNavigator::get_NameTable)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNameTable* (::System::Xml::DocumentXPathNavigator::*)()>(&::System::Xml::DocumentXPathNavigator::get_NameTable)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x60ff3c4;
+  constexpr static std::size_t addrs = 0x60ffa84;
 
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(), 19));
+  inline static const ::MethodInfo* methodInfo() {
+    
+                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(),
+                                  19
+                                ));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DocumentXPathNavigator.get_NodeType
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XPath::XPathNodeType (::System::Xml::DocumentXPathNavigator::*)()>(
-    &::System::Xml::DocumentXPathNavigator::get_NodeType)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XPath::XPathNodeType (::System::Xml::DocumentXPathNavigator::*)()>(&::System::Xml::DocumentXPathNavigator::get_NodeType)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x60ff400;
+  constexpr static std::size_t addrs = 0x60ffac0;
 
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(), 24));
+  inline static const ::MethodInfo* methodInfo() {
+    
+                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(),
+                                  24
+                                ));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DocumentXPathNavigator.get_LocalName
-template <>
+template<>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::DocumentXPathNavigator::*)()>(&::System::Xml::DocumentXPathNavigator::get_LocalName)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x60ff474;
+  constexpr static std::size_t addrs = 0x60ffb34;
 
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(), 25));
+  inline static const ::MethodInfo* methodInfo() {
+    
+                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(),
+                                  25
+                                ));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DocumentXPathNavigator.get_NamespaceURI
-template <>
+template<>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::DocumentXPathNavigator::*)()>(&::System::Xml::DocumentXPathNavigator::get_NamespaceURI)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x60ff494;
+  constexpr static std::size_t addrs = 0x60ffb54;
 
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(), 26));
+  inline static const ::MethodInfo* methodInfo() {
+    
+                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(),
+                                  26
+                                ));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DocumentXPathNavigator.get_Prefix
-template <>
+template<>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::DocumentXPathNavigator::*)()>(&::System::Xml::DocumentXPathNavigator::get_Prefix)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x60ff578;
+  constexpr static std::size_t addrs = 0x60ffc38;
 
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(), 27));
+  inline static const ::MethodInfo* methodInfo() {
+    
+                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(),
+                                  27
+                                ));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DocumentXPathNavigator.get_Value
-template <>
+template<>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::DocumentXPathNavigator::*)()>(&::System::Xml::DocumentXPathNavigator::get_Value)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x60ff62c;
+  constexpr static std::size_t addrs = 0x60ffcec;
 
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(), 5));
+  inline static const ::MethodInfo* methodInfo() {
+    
+                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(),
+                                  5
+                                ));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DocumentXPathNavigator.get_ValueDocument
-template <>
+template<>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::DocumentXPathNavigator::*)()>(&::System::Xml::DocumentXPathNavigator::get_ValueDocument)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x60ff6c4;
+  constexpr static std::size_t addrs = 0x60ffd84;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(),
-                                                                               "get_ValueDocument", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(),
+                        "get_ValueDocument",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DocumentXPathNavigator.get_ValueText
-template <>
+template<>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::DocumentXPathNavigator::*)()>(&::System::Xml::DocumentXPathNavigator::get_ValueText)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x60ff708;
+  constexpr static std::size_t addrs = 0x60ffdc8;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(), "get_ValueText",
-                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(),
+                        "get_ValueText",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DocumentXPathNavigator.get_UnderlyingObject
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Xml::DocumentXPathNavigator::*)()>(
-    &::System::Xml::DocumentXPathNavigator::get_UnderlyingObject)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Xml::DocumentXPathNavigator::*)()>(&::System::Xml::DocumentXPathNavigator::get_UnderlyingObject)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x60ff928;
+  constexpr static std::size_t addrs = 0x60fffe8;
 
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(), 28));
+  inline static const ::MethodInfo* methodInfo() {
+    
+                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(),
+                                  28
+                                ));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DocumentXPathNavigator.MoveToNamespace
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::DocumentXPathNavigator::*)(::StringW)>(
-    &::System::Xml::DocumentXPathNavigator::MoveToNamespace)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::DocumentXPathNavigator::*)(::StringW)>(&::System::Xml::DocumentXPathNavigator::MoveToNamespace)> {
   constexpr static std::size_t size = 0x238;
-  constexpr static std::size_t addrs = 0x60ff940;
+  constexpr static std::size_t addrs = 0x6100000;
 
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(), 29));
+  inline static const ::MethodInfo* methodInfo() {
+    
+                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(),
+                                  29
+                                ));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DocumentXPathNavigator.MoveToFirstNamespace
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::DocumentXPathNavigator::*)(::System::Xml::XPath::XPathNamespaceScope)>(
-    &::System::Xml::DocumentXPathNavigator::MoveToFirstNamespace)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::DocumentXPathNavigator::*)(::System::Xml::XPath::XPathNamespaceScope)>(&::System::Xml::DocumentXPathNavigator::MoveToFirstNamespace)> {
   constexpr static std::size_t size = 0x200;
-  constexpr static std::size_t addrs = 0x60ffc1c;
+  constexpr static std::size_t addrs = 0x61002dc;
 
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(), 30));
+  inline static const ::MethodInfo* methodInfo() {
+    
+                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(),
+                                  30
+                                ));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DocumentXPathNavigator.MoveToFirstNamespaceLocal
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Xml::XmlAttributeCollection*, ::ByRef<int32_t>)>(
-    &::System::Xml::DocumentXPathNavigator::MoveToFirstNamespaceLocal)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Xml::XmlAttributeCollection*, ::ByRef<int32_t>)>(&::System::Xml::DocumentXPathNavigator::MoveToFirstNamespaceLocal)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x60ffe1c;
+  constexpr static std::size_t addrs = 0x61004dc;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(), "MoveToFirstNamespaceLocal", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlAttributeCollection*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(),
+                        "MoveToFirstNamespaceLocal",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlAttributeCollection*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DocumentXPathNavigator.MoveToFirstNamespaceGlobal
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ByRef<::System::Xml::XmlAttributeCollection*>, ::ByRef<int32_t>)>(
-    &::System::Xml::DocumentXPathNavigator::MoveToFirstNamespaceGlobal)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ByRef<::System::Xml::XmlAttributeCollection*>, ::ByRef<int32_t>)>(&::System::Xml::DocumentXPathNavigator::MoveToFirstNamespaceGlobal)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x60fffc4;
+  constexpr static std::size_t addrs = 0x6100684;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(), "MoveToFirstNamespaceGlobal", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Xml::XmlAttributeCollection*>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(),
+                        "MoveToFirstNamespaceGlobal",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Xml::XmlAttributeCollection*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DocumentXPathNavigator.MoveToNextNamespace
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::DocumentXPathNavigator::*)(::System::Xml::XPath::XPathNamespaceScope)>(
-    &::System::Xml::DocumentXPathNavigator::MoveToNextNamespace)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::DocumentXPathNavigator::*)(::System::Xml::XPath::XPathNamespaceScope)>(&::System::Xml::DocumentXPathNavigator::MoveToNextNamespace)> {
   constexpr static std::size_t size = 0x294;
-  constexpr static std::size_t addrs = 0x610024c;
+  constexpr static std::size_t addrs = 0x610090c;
 
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(), 31));
+  inline static const ::MethodInfo* methodInfo() {
+    
+                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(),
+                                  31
+                                ));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DocumentXPathNavigator.MoveToNextNamespaceLocal
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Xml::XmlAttributeCollection*, ::ByRef<int32_t>)>(
-    &::System::Xml::DocumentXPathNavigator::MoveToNextNamespaceLocal)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Xml::XmlAttributeCollection*, ::ByRef<int32_t>)>(&::System::Xml::DocumentXPathNavigator::MoveToNextNamespaceLocal)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x6100608;
+  constexpr static std::size_t addrs = 0x6100cc8;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(), "MoveToNextNamespaceLocal", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlAttributeCollection*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(),
+                        "MoveToNextNamespaceLocal",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlAttributeCollection*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DocumentXPathNavigator.MoveToNextNamespaceGlobal
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ByRef<::System::Xml::XmlAttributeCollection*>, ::ByRef<int32_t>)>(
-    &::System::Xml::DocumentXPathNavigator::MoveToNextNamespaceGlobal)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ByRef<::System::Xml::XmlAttributeCollection*>, ::ByRef<int32_t>)>(&::System::Xml::DocumentXPathNavigator::MoveToNextNamespaceGlobal)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x6100108;
+  constexpr static std::size_t addrs = 0x61007c8;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(), "MoveToNextNamespaceGlobal", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Xml::XmlAttributeCollection*>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(),
+                        "MoveToNextNamespaceGlobal",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Xml::XmlAttributeCollection*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DocumentXPathNavigator.PathHasDuplicateNamespace
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::DocumentXPathNavigator::*)(::System::Xml::XmlElement*, ::System::Xml::XmlElement*, ::StringW)>(
-    &::System::Xml::DocumentXPathNavigator::PathHasDuplicateNamespace)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::DocumentXPathNavigator::*)(::System::Xml::XmlElement*, ::System::Xml::XmlElement*, ::StringW)>(&::System::Xml::DocumentXPathNavigator::PathHasDuplicateNamespace)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x610065c;
+  constexpr static std::size_t addrs = 0x6100d1c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(), "PathHasDuplicateNamespace", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlElement*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlElement*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(),
+                        "PathHasDuplicateNamespace",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlElement*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlElement*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DocumentXPathNavigator.LookupNamespace
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::DocumentXPathNavigator::*)(::StringW)>(
-    &::System::Xml::DocumentXPathNavigator::LookupNamespace)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::DocumentXPathNavigator::*)(::StringW)>(&::System::Xml::DocumentXPathNavigator::LookupNamespace)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6100754;
+  constexpr static std::size_t addrs = 0x6100e14;
 
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(), 20));
+  inline static const ::MethodInfo* methodInfo() {
+    
+                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(),
+                                  20
+                                ));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DocumentXPathNavigator.MoveToParent
-template <>
+template<>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::DocumentXPathNavigator::*)()>(&::System::Xml::DocumentXPathNavigator::MoveToParent)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x61007b0;
+  constexpr static std::size_t addrs = 0x6100e70;
 
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(), 32));
+  inline static const ::MethodInfo* methodInfo() {
+    
+                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(),
+                                  32
+                                ));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DocumentXPathNavigator.IsSamePosition
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::DocumentXPathNavigator::*)(::System::Xml::XPath::XPathNavigator*)>(
-    &::System::Xml::DocumentXPathNavigator::IsSamePosition)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::DocumentXPathNavigator::*)(::System::Xml::XPath::XPathNavigator*)>(&::System::Xml::DocumentXPathNavigator::IsSamePosition)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x61008fc;
+  constexpr static std::size_t addrs = 0x6100fbc;
 
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(), 33));
+  inline static const ::MethodInfo* methodInfo() {
+    
+                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(),
+                                  33
+                                ));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DocumentXPathNavigator.get_SchemaInfo
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::IXmlSchemaInfo* (::System::Xml::DocumentXPathNavigator::*)()>(
-    &::System::Xml::DocumentXPathNavigator::get_SchemaInfo)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::IXmlSchemaInfo* (::System::Xml::DocumentXPathNavigator::*)()>(&::System::Xml::DocumentXPathNavigator::get_SchemaInfo)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6100998;
+  constexpr static std::size_t addrs = 0x6101058;
 
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(), 34));
+  inline static const ::MethodInfo* methodInfo() {
+    
+                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(),
+                                  34
+                                ));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DocumentXPathNavigator.ResetPosition
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::DocumentXPathNavigator::*)(::System::Xml::XmlNode*)>(
-    &::System::Xml::DocumentXPathNavigator::ResetPosition)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::DocumentXPathNavigator::*)(::System::Xml::XmlNode*)>(&::System::Xml::DocumentXPathNavigator::ResetPosition)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x60ff218;
+  constexpr static std::size_t addrs = 0x60ff8d8;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(), "ResetPosition", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlNode*>::get() })));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(),
+                        "ResetPosition",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlNode*>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DocumentXPathNavigator.ResetAttributePosition
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Xml::XmlAttribute*, ::System::Xml::XmlAttributeCollection*, ::ByRef<int32_t>)>(
-    &::System::Xml::DocumentXPathNavigator::ResetAttributePosition)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Xml::XmlAttribute*, ::System::Xml::XmlAttributeCollection*, ::ByRef<int32_t>)>(&::System::Xml::DocumentXPathNavigator::ResetAttributePosition)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x6100574;
+  constexpr static std::size_t addrs = 0x6100c34;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(), "ResetAttributePosition", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlAttribute*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlAttributeCollection*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(),
+                        "ResetAttributePosition",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlAttribute*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlAttributeCollection*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DocumentXPathNavigator.CheckAttributePosition
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Xml::XmlAttribute*, ::ByRef<::System::Xml::XmlAttributeCollection*>, int32_t)>(
-    &::System::Xml::DocumentXPathNavigator::CheckAttributePosition)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Xml::XmlAttribute*, ::ByRef<::System::Xml::XmlAttributeCollection*>, int32_t)>(&::System::Xml::DocumentXPathNavigator::CheckAttributePosition)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x61004e0;
+  constexpr static std::size_t addrs = 0x6100ba0;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(), "CheckAttributePosition", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlAttribute*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Xml::XmlAttributeCollection*>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(),
+                        "CheckAttributePosition",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlAttribute*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Xml::XmlAttributeCollection*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DocumentXPathNavigator.CalibrateText
-template <>
+template<>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::DocumentXPathNavigator::*)()>(&::System::Xml::DocumentXPathNavigator::CalibrateText)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x60ff42c;
+  constexpr static std::size_t addrs = 0x60ffaec;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(), "CalibrateText",
-                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(),
+                        "CalibrateText",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DocumentXPathNavigator.ParentNode
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNode* (::System::Xml::DocumentXPathNavigator::*)(::System::Xml::XmlNode*)>(
-    &::System::Xml::DocumentXPathNavigator::ParentNode)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNode* (::System::Xml::DocumentXPathNavigator::*)(::System::Xml::XmlNode*)>(&::System::Xml::DocumentXPathNavigator::ParentNode)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6100884;
+  constexpr static std::size_t addrs = 0x6100f44;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(), "ParentNode", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlNode*>::get() })));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(),
+                        "ParentNode",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlNode*>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DocumentXPathNavigator.ParentNodeTail
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNode* (::System::Xml::DocumentXPathNavigator::*)(::System::Xml::XmlNode*)>(
-    &::System::Xml::DocumentXPathNavigator::ParentNodeTail)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNode* (::System::Xml::DocumentXPathNavigator::*)(::System::Xml::XmlNode*)>(&::System::Xml::DocumentXPathNavigator::ParentNodeTail)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x6100a14;
+  constexpr static std::size_t addrs = 0x61010d4;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(), "ParentNodeTail", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlNode*>::get() })));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(),
+                        "ParentNodeTail",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlNode*>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DocumentXPathNavigator.NextSibling
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNode* (::System::Xml::DocumentXPathNavigator::*)(::System::Xml::XmlNode*)>(
-    &::System::Xml::DocumentXPathNavigator::NextSibling)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNode* (::System::Xml::DocumentXPathNavigator::*)(::System::Xml::XmlNode*)>(&::System::Xml::DocumentXPathNavigator::NextSibling)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x60ff8cc;
+  constexpr static std::size_t addrs = 0x60fff8c;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(), "NextSibling", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlNode*>::get() })));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(),
+                        "NextSibling",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlNode*>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DocumentXPathNavigator.NextSiblingTail
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNode* (::System::Xml::DocumentXPathNavigator::*)(::System::Xml::XmlNode*, ::System::Xml::XmlNode*)>(
-    &::System::Xml::DocumentXPathNavigator::NextSiblingTail)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNode* (::System::Xml::DocumentXPathNavigator::*)(::System::Xml::XmlNode*, ::System::Xml::XmlNode*)>(&::System::Xml::DocumentXPathNavigator::NextSiblingTail)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x6100a5c;
+  constexpr static std::size_t addrs = 0x610111c;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(), "NextSiblingTail", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlNode*>::get(),
-                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlNode*>::get() })));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(),
+                        "NextSiblingTail",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlNode*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlNode*>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DocumentXPathNavigator.PreviousText
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNode* (::System::Xml::DocumentXPathNavigator::*)(::System::Xml::XmlNode*)>(
-    &::System::Xml::DocumentXPathNavigator::PreviousText)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNode* (::System::Xml::DocumentXPathNavigator::*)(::System::Xml::XmlNode*)>(&::System::Xml::DocumentXPathNavigator::PreviousText)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x61009b8;
+  constexpr static std::size_t addrs = 0x6101078;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(), "PreviousText", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlNode*>::get() })));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(),
+                        "PreviousText",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlNode*>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Xml::DocumentXPathNavigator.PreviousTextTail
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNode* (::System::Xml::DocumentXPathNavigator::*)(::System::Xml::XmlNode*, ::System::Xml::XmlNode*)>(
-    &::System::Xml::DocumentXPathNavigator::PreviousTextTail)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNode* (::System::Xml::DocumentXPathNavigator::*)(::System::Xml::XmlNode*, ::System::Xml::XmlNode*)>(&::System::Xml::DocumentXPathNavigator::PreviousTextTail)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x6100b10;
+  constexpr static std::size_t addrs = 0x61011d0;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(), "PreviousTextTail", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlNode*>::get(),
-                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlNode*>::get() })));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(),
+                        "PreviousTextTail",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlNode*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlNode*>::get()}
+                    )));
     return ___internal_method;
   }
 };
-constexpr ::System::Xml::XmlDocument*& System::Xml::DocumentXPathNavigator::__cordl_internal_get_document() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___document;
+constexpr ::System::Xml::XmlDocument*& System::Xml::DocumentXPathNavigator::__cordl_internal_get_document()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___document;
 }
 constexpr ::System::Xml::XmlDocument* const& System::Xml::DocumentXPathNavigator::__cordl_internal_get_document() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___document;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___document;
 }
-constexpr void System::Xml::DocumentXPathNavigator::__cordl_internal_set_document(::System::Xml::XmlDocument* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___document)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Xml::DocumentXPathNavigator::__cordl_internal_set_document(::System::Xml::XmlDocument*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___document)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Xml::XmlNode*& System::Xml::DocumentXPathNavigator::__cordl_internal_get_source() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___source;
+constexpr ::System::Xml::XmlNode*& System::Xml::DocumentXPathNavigator::__cordl_internal_get_source()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___source;
 }
 constexpr ::System::Xml::XmlNode* const& System::Xml::DocumentXPathNavigator::__cordl_internal_get_source() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___source;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___source;
 }
-constexpr void System::Xml::DocumentXPathNavigator::__cordl_internal_set_source(::System::Xml::XmlNode* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___source)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Xml::DocumentXPathNavigator::__cordl_internal_set_source(::System::Xml::XmlNode*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___source)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr int32_t& System::Xml::DocumentXPathNavigator::__cordl_internal_get_attributeIndex() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___attributeIndex;
+constexpr int32_t& System::Xml::DocumentXPathNavigator::__cordl_internal_get_attributeIndex()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___attributeIndex;
 }
 constexpr int32_t const& System::Xml::DocumentXPathNavigator::__cordl_internal_get_attributeIndex() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___attributeIndex;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___attributeIndex;
 }
-constexpr void System::Xml::DocumentXPathNavigator::__cordl_internal_set_attributeIndex(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___attributeIndex = value;
+constexpr void System::Xml::DocumentXPathNavigator::__cordl_internal_set_attributeIndex(int32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___attributeIndex = value;
 }
-constexpr ::System::Xml::XmlElement*& System::Xml::DocumentXPathNavigator::__cordl_internal_get_namespaceParent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___namespaceParent;
+constexpr ::System::Xml::XmlElement*& System::Xml::DocumentXPathNavigator::__cordl_internal_get_namespaceParent()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___namespaceParent;
 }
 constexpr ::System::Xml::XmlElement* const& System::Xml::DocumentXPathNavigator::__cordl_internal_get_namespaceParent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___namespaceParent;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___namespaceParent;
 }
-constexpr void System::Xml::DocumentXPathNavigator::__cordl_internal_set_namespaceParent(::System::Xml::XmlElement* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___namespaceParent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Xml::DocumentXPathNavigator::__cordl_internal_set_namespaceParent(::System::Xml::XmlElement*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___namespaceParent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void System::Xml::DocumentXPathNavigator::_ctor(::System::Xml::XmlDocument* document, ::System::Xml::XmlNode* node) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlDocument*>::get(),
-                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlNode*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, document, node);
+inline void System::Xml::DocumentXPathNavigator::_ctor(::System::Xml::XmlDocument*  document, ::System::Xml::XmlNode*  node)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlDocument*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlNode*>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, document, node);
 }
-inline void System::Xml::DocumentXPathNavigator::_ctor(::System::Xml::DocumentXPathNavigator* other) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::DocumentXPathNavigator*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, other);
+inline void System::Xml::DocumentXPathNavigator::_ctor(::System::Xml::DocumentXPathNavigator*  other)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::DocumentXPathNavigator*>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, other);
 }
-inline ::System::Xml::XPath::XPathNavigator* System::Xml::DocumentXPathNavigator::Clone() {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(), 23)));
-  return ::cordl_internals::RunMethodRethrow<::System::Xml::XPath::XPathNavigator*, false>(this, ___internal_method);
+inline ::System::Xml::XPath::XPathNavigator* System::Xml::DocumentXPathNavigator::Clone()  {
+auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(),
+                            23
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Xml::XPath::XPathNavigator*, false>(this, ___internal_method);
 }
-inline ::System::Xml::XmlNameTable* System::Xml::DocumentXPathNavigator::get_NameTable() {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(), 19)));
-  return ::cordl_internals::RunMethodRethrow<::System::Xml::XmlNameTable*, false>(this, ___internal_method);
+inline ::System::Xml::XmlNameTable* System::Xml::DocumentXPathNavigator::get_NameTable()  {
+auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(),
+                            19
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Xml::XmlNameTable*, false>(this, ___internal_method);
 }
-inline ::System::Xml::XPath::XPathNodeType System::Xml::DocumentXPathNavigator::get_NodeType() {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(), 24)));
-  return ::cordl_internals::RunMethodRethrow<::System::Xml::XPath::XPathNodeType, false>(this, ___internal_method);
+inline ::System::Xml::XPath::XPathNodeType System::Xml::DocumentXPathNavigator::get_NodeType()  {
+auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(),
+                            24
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Xml::XPath::XPathNodeType, false>(this, ___internal_method);
 }
-inline ::StringW System::Xml::DocumentXPathNavigator::get_LocalName() {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(), 25)));
-  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+inline ::StringW System::Xml::DocumentXPathNavigator::get_LocalName()  {
+auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(),
+                            25
+                        )));
+return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-inline ::StringW System::Xml::DocumentXPathNavigator::get_NamespaceURI() {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(), 26)));
-  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+inline ::StringW System::Xml::DocumentXPathNavigator::get_NamespaceURI()  {
+auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(),
+                            26
+                        )));
+return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-inline ::StringW System::Xml::DocumentXPathNavigator::get_Prefix() {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(), 27)));
-  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+inline ::StringW System::Xml::DocumentXPathNavigator::get_Prefix()  {
+auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(),
+                            27
+                        )));
+return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-inline ::StringW System::Xml::DocumentXPathNavigator::get_Value() {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(), 5)));
-  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+inline ::StringW System::Xml::DocumentXPathNavigator::get_Value()  {
+auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(),
+                            5
+                        )));
+return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-inline ::StringW System::Xml::DocumentXPathNavigator::get_ValueDocument() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(), "get_ValueDocument",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+inline ::StringW System::Xml::DocumentXPathNavigator::get_ValueDocument()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(),
+                        "get_ValueDocument",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-inline ::StringW System::Xml::DocumentXPathNavigator::get_ValueText() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(), "get_ValueText",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+inline ::StringW System::Xml::DocumentXPathNavigator::get_ValueText()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(),
+                        "get_ValueText",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-inline ::System::Object* System::Xml::DocumentXPathNavigator::get_UnderlyingObject() {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(), 28)));
-  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
+inline ::System::Object* System::Xml::DocumentXPathNavigator::get_UnderlyingObject()  {
+auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(),
+                            28
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
-inline bool System::Xml::DocumentXPathNavigator::MoveToNamespace(::StringW name) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(), 29)));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, name);
+inline bool System::Xml::DocumentXPathNavigator::MoveToNamespace(::StringW  name)  {
+auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(),
+                            29
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, name);
 }
-inline bool System::Xml::DocumentXPathNavigator::MoveToFirstNamespace(::System::Xml::XPath::XPathNamespaceScope scope) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(), 30)));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, scope);
+inline bool System::Xml::DocumentXPathNavigator::MoveToFirstNamespace(::System::Xml::XPath::XPathNamespaceScope  scope)  {
+auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(),
+                            30
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, scope);
 }
-inline bool System::Xml::DocumentXPathNavigator::MoveToFirstNamespaceLocal(::System::Xml::XmlAttributeCollection* attributes, ::ByRef<int32_t> index) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(), "MoveToFirstNamespaceLocal", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlAttributeCollection*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get() })));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, attributes, index);
+inline bool System::Xml::DocumentXPathNavigator::MoveToFirstNamespaceLocal(::System::Xml::XmlAttributeCollection*  attributes, ::ByRef<int32_t>  index)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(),
+                        "MoveToFirstNamespaceLocal",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlAttributeCollection*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, attributes, index);
 }
-inline bool System::Xml::DocumentXPathNavigator::MoveToFirstNamespaceGlobal(::ByRef<::System::Xml::XmlAttributeCollection*> attributes, ::ByRef<int32_t> index) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(), "MoveToFirstNamespaceGlobal", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Xml::XmlAttributeCollection*>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get() })));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, attributes, index);
+inline bool System::Xml::DocumentXPathNavigator::MoveToFirstNamespaceGlobal(::ByRef<::System::Xml::XmlAttributeCollection*>  attributes, ::ByRef<int32_t>  index)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(),
+                        "MoveToFirstNamespaceGlobal",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Xml::XmlAttributeCollection*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, attributes, index);
 }
-inline bool System::Xml::DocumentXPathNavigator::MoveToNextNamespace(::System::Xml::XPath::XPathNamespaceScope scope) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(), 31)));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, scope);
+inline bool System::Xml::DocumentXPathNavigator::MoveToNextNamespace(::System::Xml::XPath::XPathNamespaceScope  scope)  {
+auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(),
+                            31
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, scope);
 }
-inline bool System::Xml::DocumentXPathNavigator::MoveToNextNamespaceLocal(::System::Xml::XmlAttributeCollection* attributes, ::ByRef<int32_t> index) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(), "MoveToNextNamespaceLocal", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlAttributeCollection*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get() })));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, attributes, index);
+inline bool System::Xml::DocumentXPathNavigator::MoveToNextNamespaceLocal(::System::Xml::XmlAttributeCollection*  attributes, ::ByRef<int32_t>  index)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(),
+                        "MoveToNextNamespaceLocal",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlAttributeCollection*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, attributes, index);
 }
-inline bool System::Xml::DocumentXPathNavigator::MoveToNextNamespaceGlobal(::ByRef<::System::Xml::XmlAttributeCollection*> attributes, ::ByRef<int32_t> index) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(), "MoveToNextNamespaceGlobal", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Xml::XmlAttributeCollection*>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get() })));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, attributes, index);
+inline bool System::Xml::DocumentXPathNavigator::MoveToNextNamespaceGlobal(::ByRef<::System::Xml::XmlAttributeCollection*>  attributes, ::ByRef<int32_t>  index)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(),
+                        "MoveToNextNamespaceGlobal",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Xml::XmlAttributeCollection*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, attributes, index);
 }
-inline bool System::Xml::DocumentXPathNavigator::PathHasDuplicateNamespace(::System::Xml::XmlElement* top, ::System::Xml::XmlElement* bottom, ::StringW localName) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(), "PathHasDuplicateNamespace", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlElement*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlElement*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, top, bottom, localName);
+inline bool System::Xml::DocumentXPathNavigator::PathHasDuplicateNamespace(::System::Xml::XmlElement*  top, ::System::Xml::XmlElement*  bottom, ::StringW  localName)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(),
+                        "PathHasDuplicateNamespace",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlElement*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlElement*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, top, bottom, localName);
 }
-inline ::StringW System::Xml::DocumentXPathNavigator::LookupNamespace(::StringW prefix) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(), 20)));
-  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, prefix);
+inline ::StringW System::Xml::DocumentXPathNavigator::LookupNamespace(::StringW  prefix)  {
+auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(),
+                            20
+                        )));
+return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, prefix);
 }
-inline bool System::Xml::DocumentXPathNavigator::MoveToParent() {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(), 32)));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool System::Xml::DocumentXPathNavigator::MoveToParent()  {
+auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(),
+                            32
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline bool System::Xml::DocumentXPathNavigator::IsSamePosition(::System::Xml::XPath::XPathNavigator* other) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(), 33)));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, other);
+inline bool System::Xml::DocumentXPathNavigator::IsSamePosition(::System::Xml::XPath::XPathNavigator*  other)  {
+auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(),
+                            33
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, other);
 }
-inline ::System::Xml::Schema::IXmlSchemaInfo* System::Xml::DocumentXPathNavigator::get_SchemaInfo() {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(), 34)));
-  return ::cordl_internals::RunMethodRethrow<::System::Xml::Schema::IXmlSchemaInfo*, false>(this, ___internal_method);
+inline ::System::Xml::Schema::IXmlSchemaInfo* System::Xml::DocumentXPathNavigator::get_SchemaInfo()  {
+auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(),
+                            34
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Xml::Schema::IXmlSchemaInfo*, false>(this, ___internal_method);
 }
-inline void System::Xml::DocumentXPathNavigator::ResetPosition(::System::Xml::XmlNode* node) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(), "ResetPosition", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlNode*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, node);
+inline void System::Xml::DocumentXPathNavigator::ResetPosition(::System::Xml::XmlNode*  node)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(),
+                        "ResetPosition",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlNode*>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, node);
 }
-inline bool System::Xml::DocumentXPathNavigator::ResetAttributePosition(::System::Xml::XmlAttribute* attribute, ::System::Xml::XmlAttributeCollection* attributes, ::ByRef<int32_t> index) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(), "ResetAttributePosition", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlAttribute*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlAttributeCollection*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get() })));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, attribute, attributes, index);
+inline bool System::Xml::DocumentXPathNavigator::ResetAttributePosition(::System::Xml::XmlAttribute*  attribute, ::System::Xml::XmlAttributeCollection*  attributes, ::ByRef<int32_t>  index)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(),
+                        "ResetAttributePosition",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlAttribute*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlAttributeCollection*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, attribute, attributes, index);
 }
-inline bool System::Xml::DocumentXPathNavigator::CheckAttributePosition(::System::Xml::XmlAttribute* attribute, ::ByRef<::System::Xml::XmlAttributeCollection*> attributes, int32_t index) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(), "CheckAttributePosition", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlAttribute*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Xml::XmlAttributeCollection*>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, attribute, attributes, index);
+inline bool System::Xml::DocumentXPathNavigator::CheckAttributePosition(::System::Xml::XmlAttribute*  attribute, ::ByRef<::System::Xml::XmlAttributeCollection*>  attributes, int32_t  index)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(),
+                        "CheckAttributePosition",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlAttribute*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Xml::XmlAttributeCollection*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, attribute, attributes, index);
 }
-inline void System::Xml::DocumentXPathNavigator::CalibrateText() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(), "CalibrateText",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void System::Xml::DocumentXPathNavigator::CalibrateText()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(),
+                        "CalibrateText",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::System::Xml::XmlNode* System::Xml::DocumentXPathNavigator::ParentNode(::System::Xml::XmlNode* node) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(), "ParentNode", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlNode*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::System::Xml::XmlNode*, false>(this, ___internal_method, node);
+inline ::System::Xml::XmlNode* System::Xml::DocumentXPathNavigator::ParentNode(::System::Xml::XmlNode*  node)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(),
+                        "ParentNode",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlNode*>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Xml::XmlNode*, false>(this, ___internal_method, node);
 }
-inline ::System::Xml::XmlNode* System::Xml::DocumentXPathNavigator::ParentNodeTail(::System::Xml::XmlNode* parent) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(), "ParentNodeTail", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlNode*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::System::Xml::XmlNode*, false>(this, ___internal_method, parent);
+inline ::System::Xml::XmlNode* System::Xml::DocumentXPathNavigator::ParentNodeTail(::System::Xml::XmlNode*  parent)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(),
+                        "ParentNodeTail",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlNode*>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Xml::XmlNode*, false>(this, ___internal_method, parent);
 }
-inline ::System::Xml::XmlNode* System::Xml::DocumentXPathNavigator::NextSibling(::System::Xml::XmlNode* node) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(), "NextSibling", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlNode*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::System::Xml::XmlNode*, false>(this, ___internal_method, node);
+inline ::System::Xml::XmlNode* System::Xml::DocumentXPathNavigator::NextSibling(::System::Xml::XmlNode*  node)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(),
+                        "NextSibling",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlNode*>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Xml::XmlNode*, false>(this, ___internal_method, node);
 }
-inline ::System::Xml::XmlNode* System::Xml::DocumentXPathNavigator::NextSiblingTail(::System::Xml::XmlNode* node, ::System::Xml::XmlNode* sibling) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(), "NextSiblingTail", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlNode*>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlNode*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::System::Xml::XmlNode*, false>(this, ___internal_method, node, sibling);
+inline ::System::Xml::XmlNode* System::Xml::DocumentXPathNavigator::NextSiblingTail(::System::Xml::XmlNode*  node, ::System::Xml::XmlNode*  sibling)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(),
+                        "NextSiblingTail",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlNode*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlNode*>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Xml::XmlNode*, false>(this, ___internal_method, node, sibling);
 }
-inline ::System::Xml::XmlNode* System::Xml::DocumentXPathNavigator::PreviousText(::System::Xml::XmlNode* node) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(), "PreviousText", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlNode*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::System::Xml::XmlNode*, false>(this, ___internal_method, node);
+inline ::System::Xml::XmlNode* System::Xml::DocumentXPathNavigator::PreviousText(::System::Xml::XmlNode*  node)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(),
+                        "PreviousText",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlNode*>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Xml::XmlNode*, false>(this, ___internal_method, node);
 }
-inline ::System::Xml::XmlNode* System::Xml::DocumentXPathNavigator::PreviousTextTail(::System::Xml::XmlNode* node, ::System::Xml::XmlNode* text) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(), "PreviousTextTail", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlNode*>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlNode*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::System::Xml::XmlNode*, false>(this, ___internal_method, node, text);
+inline ::System::Xml::XmlNode* System::Xml::DocumentXPathNavigator::PreviousTextTail(::System::Xml::XmlNode*  node, ::System::Xml::XmlNode*  text)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DocumentXPathNavigator*>::get(),
+                        "PreviousTextTail",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlNode*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlNode*>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Xml::XmlNode*, false>(this, ___internal_method, node, text);
 }
-inline ::System::Xml::DocumentXPathNavigator* System::Xml::DocumentXPathNavigator::New_ctor(::System::Xml::XmlDocument* document, ::System::Xml::XmlNode* node) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::DocumentXPathNavigator*>(document, node));
+inline ::System::Xml::DocumentXPathNavigator* System::Xml::DocumentXPathNavigator::New_ctor(::System::Xml::XmlDocument*  document, ::System::Xml::XmlNode*  node)  {
+return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::DocumentXPathNavigator*>(document, node));
 }
-inline ::System::Xml::DocumentXPathNavigator* System::Xml::DocumentXPathNavigator::New_ctor(::System::Xml::DocumentXPathNavigator* other) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::DocumentXPathNavigator*>(other));
+inline ::System::Xml::DocumentXPathNavigator* System::Xml::DocumentXPathNavigator::New_ctor(::System::Xml::DocumentXPathNavigator*  other)  {
+return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::DocumentXPathNavigator*>(other));
 }
 // Ctor Parameters []
-constexpr ::System::Xml::DocumentXPathNavigator::DocumentXPathNavigator() {}
+constexpr ::System::Xml::DocumentXPathNavigator::DocumentXPathNavigator()   {
+}

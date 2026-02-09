@@ -26,63 +26,63 @@ namespace GlobalNamespace {
 // CS Name: InputActions
 class CORDL_TYPE InputActions : public ::UnityEngine::MonoBehaviour {
 public:
-  // Declarations
-  /// @brief Field _keyboardManager, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__keyboardManager, put = __cordl_internal_set__keyboardManager)) ::UnityW<::GlobalNamespace::UIKeyboardManager> _keyboardManager;
+// Declarations
+/// @brief Field _keyboardManager, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get__keyboardManager, put=__cordl_internal_set__keyboardManager)) ::UnityW<::GlobalNamespace::UIKeyboardManager>  _keyboardManager;
 
-  /// @brief Method HasInputFocus, addr 0x574ec24, size 0x104, virtual false, abstract: false, final false
-  static inline bool HasInputFocus(::UnityEngine::EventSystems::EventSystem* eventSystem, ::GlobalNamespace::UIKeyboardManager* keyboardManager);
+/// @brief Method HasInputFocus, addr 0x574f558, size 0x104, virtual false, abstract: false, final false
+static inline bool HasInputFocus(::UnityEngine::EventSystems::EventSystem*  eventSystem, ::GlobalNamespace::UIKeyboardManager*  keyboardManager) ;
 
-  static inline ::GlobalNamespace::InputActions* New_ctor();
+static inline ::GlobalNamespace::InputActions* New_ctor() ;
 
-  /// @brief Method ResolveGameplayCoreSceneContext, addr 0x574eee0, size 0x3a4, virtual false, abstract: false, final false
-  static inline ::UnityW<::Zenject::SceneContext> ResolveGameplayCoreSceneContext();
+/// @brief Method ResolveGameplayCoreSceneContext, addr 0x574f814, size 0x3a4, virtual false, abstract: false, final false
+static inline ::UnityW<::Zenject::SceneContext> ResolveGameplayCoreSceneContext() ;
 
-  /// @brief Method ToggleAutopilot, addr 0x574ed28, size 0x1b4, virtual false, abstract: false, final false
-  static inline void ToggleAutopilot();
+/// @brief Method ToggleAutopilot, addr 0x574f65c, size 0x1b4, virtual false, abstract: false, final false
+static inline void ToggleAutopilot() ;
 
-  /// @brief Method ToggleLevelFreeze, addr 0x574eedc, size 0x4, virtual false, abstract: false, final false
-  static inline void ToggleLevelFreeze();
+/// @brief Method ToggleLevelFreeze, addr 0x574f810, size 0x4, virtual false, abstract: false, final false
+static inline void ToggleLevelFreeze() ;
 
-  /// @brief Method Update, addr 0x574e94c, size 0x2d8, virtual false, abstract: false, final false
-  inline void Update();
+/// @brief Method Update, addr 0x574f280, size 0x2d8, virtual false, abstract: false, final false
+inline void Update() ;
 
-  constexpr ::UnityW<::GlobalNamespace::UIKeyboardManager> const& __cordl_internal_get__keyboardManager() const;
+constexpr ::UnityW<::GlobalNamespace::UIKeyboardManager> const& __cordl_internal_get__keyboardManager() const;
 
-  constexpr ::UnityW<::GlobalNamespace::UIKeyboardManager>& __cordl_internal_get__keyboardManager();
+constexpr ::UnityW<::GlobalNamespace::UIKeyboardManager>& __cordl_internal_get__keyboardManager() ;
 
-  constexpr void __cordl_internal_set__keyboardManager(::UnityW<::GlobalNamespace::UIKeyboardManager> value);
+constexpr void __cordl_internal_set__keyboardManager(::UnityW<::GlobalNamespace::UIKeyboardManager>  value) ;
 
-  /// @brief Method .ctor, addr 0x574f284, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x574fbb8, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr InputActions();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr InputActions() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InputActions", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  InputActions(InputActions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InputActions", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  InputActions(InputActions const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "InputActions", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+InputActions(InputActions && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6610 };
+// Ctor Parameters [CppParam { name: "", ty: "InputActions", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+InputActions(InputActions const& ) = delete;
 
-  /// @brief Field _keyboardManager, offset: 0x20, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::UIKeyboardManager> ____keyboardManager;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6614};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _keyboardManager, offset: 0x20, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::UIKeyboardManager>  ____keyboardManager;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::InputActions, ____keyboardManager) == 0x20, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::InputActions, 0x28>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::InputActions);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::InputActions*, "", "InputActions");

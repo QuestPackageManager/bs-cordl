@@ -17,34 +17,34 @@ namespace System::Xml::Schema {
 // CS Name: System.Xml.Schema.XmlSchemaUnique
 class CORDL_TYPE XmlSchemaUnique : public ::System::Xml::Schema::XmlSchemaIdentityConstraint {
 public:
-  // Declarations
-  static inline ::System::Xml::Schema::XmlSchemaUnique* New_ctor();
+// Declarations
+static inline ::System::Xml::Schema::XmlSchemaUnique* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x607ce70, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x607d530, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr XmlSchemaUnique();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr XmlSchemaUnique() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaUnique", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  XmlSchemaUnique(XmlSchemaUnique&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaUnique", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  XmlSchemaUnique(XmlSchemaUnique const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "XmlSchemaUnique", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+XmlSchemaUnique(XmlSchemaUnique && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9767 };
+// Ctor Parameters [CppParam { name: "", ty: "XmlSchemaUnique", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+XmlSchemaUnique(XmlSchemaUnique const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{9771};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::XmlSchemaUnique, 0x78>, "Size mismatch!");
 
-} // namespace System::Xml::Schema
+} // namespace end def System::Xml::Schema
 NEED_NO_BOX(::System::Xml::Schema::XmlSchemaUnique);
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::XmlSchemaUnique*, "System.Xml.Schema", "XmlSchemaUnique");

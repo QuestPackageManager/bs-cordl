@@ -9,7 +9,8 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ServicePointManager)
 namespace System::Collections::Concurrent {
-template <typename TKey, typename TValue> class ConcurrentDictionary_2;
+template<typename TKey,typename TValue>
+class ConcurrentDictionary_2;
 }
 namespace System::Net::Security {
 class RemoteCertificateValidationCallback;
@@ -54,77 +55,77 @@ namespace System::Net {
 // CS Name: System.Net.ServicePointManager/SPKey
 class CORDL_TYPE ServicePointManager_SPKey : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(get = get_UsesProxy)) bool UsesProxy;
+// Declarations
+ __declspec(property(get=get_UsesProxy)) bool  UsesProxy;
 
-  /// @brief Field proxy, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_proxy, put = __cordl_internal_set_proxy)) ::System::Uri* proxy;
+/// @brief Field proxy, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_proxy, put=__cordl_internal_set_proxy)) ::System::Uri*  proxy;
 
-  /// @brief Field uri, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_uri, put = __cordl_internal_set_uri)) ::System::Uri* uri;
+/// @brief Field uri, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_uri, put=__cordl_internal_set_uri)) ::System::Uri*  uri;
 
-  /// @brief Field use_connect, offset 0x20, size 0x1
-  __declspec(property(get = __cordl_internal_get_use_connect, put = __cordl_internal_set_use_connect)) bool use_connect;
+/// @brief Field use_connect, offset 0x20, size 0x1 
+ __declspec(property(get=__cordl_internal_get_use_connect, put=__cordl_internal_set_use_connect)) bool  use_connect;
 
-  /// @brief Method Equals, addr 0x6189c1c, size 0x100, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* obj);
+/// @brief Method Equals, addr 0x618a2dc, size 0x100, virtual true, abstract: false, final false
+inline bool Equals(::System::Object*  obj) ;
 
-  /// @brief Method GetHashCode, addr 0x6189b5c, size 0xc0, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
+/// @brief Method GetHashCode, addr 0x618a21c, size 0xc0, virtual true, abstract: false, final false
+inline int32_t GetHashCode() ;
 
-  static inline ::System::Net::ServicePointManager_SPKey* New_ctor(::System::Uri* uri, ::System::Uri* proxy, bool use_connect);
+static inline ::System::Net::ServicePointManager_SPKey* New_ctor(::System::Uri*  uri, ::System::Uri*  proxy, bool  use_connect) ;
 
-  constexpr ::System::Uri* const& __cordl_internal_get_proxy() const;
+constexpr ::System::Uri* const& __cordl_internal_get_proxy() const;
 
-  constexpr ::System::Uri*& __cordl_internal_get_proxy();
+constexpr ::System::Uri*& __cordl_internal_get_proxy() ;
 
-  constexpr ::System::Uri* const& __cordl_internal_get_uri() const;
+constexpr ::System::Uri* const& __cordl_internal_get_uri() const;
 
-  constexpr ::System::Uri*& __cordl_internal_get_uri();
+constexpr ::System::Uri*& __cordl_internal_get_uri() ;
 
-  constexpr bool const& __cordl_internal_get_use_connect() const;
+constexpr bool const& __cordl_internal_get_use_connect() const;
 
-  constexpr bool& __cordl_internal_get_use_connect();
+constexpr bool& __cordl_internal_get_use_connect() ;
 
-  constexpr void __cordl_internal_set_proxy(::System::Uri* value);
+constexpr void __cordl_internal_set_proxy(::System::Uri*  value) ;
 
-  constexpr void __cordl_internal_set_uri(::System::Uri* value);
+constexpr void __cordl_internal_set_uri(::System::Uri*  value) ;
 
-  constexpr void __cordl_internal_set_use_connect(bool value);
+constexpr void __cordl_internal_set_use_connect(bool  value) ;
 
-  /// @brief Method .ctor, addr 0x618967c, size 0xc, virtual false, abstract: false, final false
-  inline void _ctor(::System::Uri* uri, ::System::Uri* proxy, bool use_connect);
+/// @brief Method .ctor, addr 0x6189d3c, size 0xc, virtual false, abstract: false, final false
+inline void _ctor(::System::Uri*  uri, ::System::Uri*  proxy, bool  use_connect) ;
 
-  /// @brief Method get_UsesProxy, addr 0x6189afc, size 0x60, virtual false, abstract: false, final false
-  inline bool get_UsesProxy();
+/// @brief Method get_UsesProxy, addr 0x618a1bc, size 0x60, virtual false, abstract: false, final false
+inline bool get_UsesProxy() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ServicePointManager_SPKey();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ServicePointManager_SPKey() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ServicePointManager_SPKey", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ServicePointManager_SPKey(ServicePointManager_SPKey&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ServicePointManager_SPKey", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ServicePointManager_SPKey(ServicePointManager_SPKey const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ServicePointManager_SPKey", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ServicePointManager_SPKey(ServicePointManager_SPKey && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11600 };
+// Ctor Parameters [CppParam { name: "", ty: "ServicePointManager_SPKey", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ServicePointManager_SPKey(ServicePointManager_SPKey const& ) = delete;
 
-  /// @brief Field uri, offset: 0x10, size: 0x8, def value: None
-  ::System::Uri* ___uri;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11604};
 
-  /// @brief Field proxy, offset: 0x18, size: 0x8, def value: None
-  ::System::Uri* ___proxy;
+/// @brief Field uri, offset: 0x10, size: 0x8, def value: None
+ ::System::Uri*  ___uri;
 
-  /// @brief Field use_connect, offset: 0x20, size: 0x1, def value: None
-  bool ___use_connect;
+/// @brief Field proxy, offset: 0x18, size: 0x8, def value: None
+ ::System::Uri*  ___proxy;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field use_connect, offset: 0x20, size: 0x1, def value: None
+ bool  ___use_connect;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Net::ServicePointManager_SPKey, ___uri) == 0x10, "Offset mismatch!");
@@ -135,178 +136,176 @@ static_assert(offsetof(::System::Net::ServicePointManager_SPKey, ___use_connect)
 
 static_assert(::cordl_internals::size_check_v<::System::Net::ServicePointManager_SPKey, 0x28>, "Size mismatch!");
 
-} // namespace System::Net
+} // namespace end def System::Net
 // Dependencies System.Net.SecurityProtocolType, System.Object
 namespace System::Net {
 // Is value type: false
 // CS Name: System.Net.ServicePointManager
 class CORDL_TYPE ServicePointManager : public ::System::Object {
 public:
-  // Declarations
-  using SPKey = ::System::Net::ServicePointManager_SPKey;
+// Declarations
+using SPKey = ::System::Net::ServicePointManager_SPKey;
 
-  /// @brief Field _checkCRL, offset 0xffffffff, size 0x1
-  __declspec(property(get = getStaticF__checkCRL, put = setStaticF__checkCRL)) bool _checkCRL;
+/// @brief Field _checkCRL, offset 0xffffffff, size 0x1 
+ __declspec(property(get=getStaticF__checkCRL, put=setStaticF__checkCRL)) bool  _checkCRL;
 
-  /// @brief Field _securityProtocol, offset 0xffffffff, size 0x4
-  __declspec(property(get = getStaticF__securityProtocol, put = setStaticF__securityProtocol)) ::System::Net::SecurityProtocolType _securityProtocol;
+/// @brief Field _securityProtocol, offset 0xffffffff, size 0x4 
+ __declspec(property(get=getStaticF__securityProtocol, put=setStaticF__securityProtocol)) ::System::Net::SecurityProtocolType  _securityProtocol;
 
-  /// @brief Field defaultConnectionLimit, offset 0xffffffff, size 0x4
-  __declspec(property(get = getStaticF_defaultConnectionLimit, put = setStaticF_defaultConnectionLimit)) int32_t defaultConnectionLimit;
+/// @brief Field defaultConnectionLimit, offset 0xffffffff, size 0x4 
+ __declspec(property(get=getStaticF_defaultConnectionLimit, put=setStaticF_defaultConnectionLimit)) int32_t  defaultConnectionLimit;
 
-  /// @brief Field dnsRefreshTimeout, offset 0xffffffff, size 0x4
-  __declspec(property(get = getStaticF_dnsRefreshTimeout, put = setStaticF_dnsRefreshTimeout)) int32_t dnsRefreshTimeout;
+/// @brief Field dnsRefreshTimeout, offset 0xffffffff, size 0x4 
+ __declspec(property(get=getStaticF_dnsRefreshTimeout, put=setStaticF_dnsRefreshTimeout)) int32_t  dnsRefreshTimeout;
 
-  /// @brief Field expectContinue, offset 0xffffffff, size 0x1
-  __declspec(property(get = getStaticF_expectContinue, put = setStaticF_expectContinue)) bool expectContinue;
+/// @brief Field expectContinue, offset 0xffffffff, size 0x1 
+ __declspec(property(get=getStaticF_expectContinue, put=setStaticF_expectContinue)) bool  expectContinue;
 
-  /// @brief Field maxServicePointIdleTime, offset 0xffffffff, size 0x4
-  __declspec(property(get = getStaticF_maxServicePointIdleTime, put = setStaticF_maxServicePointIdleTime)) int32_t maxServicePointIdleTime;
+/// @brief Field maxServicePointIdleTime, offset 0xffffffff, size 0x4 
+ __declspec(property(get=getStaticF_maxServicePointIdleTime, put=setStaticF_maxServicePointIdleTime)) int32_t  maxServicePointIdleTime;
 
-  /// @brief Field maxServicePoints, offset 0xffffffff, size 0x4
-  __declspec(property(get = getStaticF_maxServicePoints, put = setStaticF_maxServicePoints)) int32_t maxServicePoints;
+/// @brief Field maxServicePoints, offset 0xffffffff, size 0x4 
+ __declspec(property(get=getStaticF_maxServicePoints, put=setStaticF_maxServicePoints)) int32_t  maxServicePoints;
 
-  /// @brief Field policy, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_policy, put = setStaticF_policy)) ::System::Net::ICertificatePolicy* policy;
+/// @brief Field policy, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_policy, put=setStaticF_policy)) ::System::Net::ICertificatePolicy*  policy;
 
-  /// @brief Field server_cert_cb, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_server_cert_cb, put = setStaticF_server_cert_cb)) ::System::Net::ServerCertValidationCallback* server_cert_cb;
+/// @brief Field server_cert_cb, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_server_cert_cb, put=setStaticF_server_cert_cb)) ::System::Net::ServerCertValidationCallback*  server_cert_cb;
 
-  /// @brief Field servicePoints, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_servicePoints,
-                      put =
-                          setStaticF_servicePoints)) ::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Net::ServicePointManager_SPKey*, ::System::Net::ServicePoint*>* servicePoints;
+/// @brief Field servicePoints, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_servicePoints, put=setStaticF_servicePoints)) ::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Net::ServicePointManager_SPKey*,::System::Net::ServicePoint*>*  servicePoints;
 
-  /// @brief Field tcp_keepalive, offset 0xffffffff, size 0x1
-  __declspec(property(get = getStaticF_tcp_keepalive, put = setStaticF_tcp_keepalive)) bool tcp_keepalive;
+/// @brief Field tcp_keepalive, offset 0xffffffff, size 0x1 
+ __declspec(property(get=getStaticF_tcp_keepalive, put=setStaticF_tcp_keepalive)) bool  tcp_keepalive;
 
-  /// @brief Field tcp_keepalive_interval, offset 0xffffffff, size 0x4
-  __declspec(property(get = getStaticF_tcp_keepalive_interval, put = setStaticF_tcp_keepalive_interval)) int32_t tcp_keepalive_interval;
+/// @brief Field tcp_keepalive_interval, offset 0xffffffff, size 0x4 
+ __declspec(property(get=getStaticF_tcp_keepalive_interval, put=setStaticF_tcp_keepalive_interval)) int32_t  tcp_keepalive_interval;
 
-  /// @brief Field tcp_keepalive_time, offset 0xffffffff, size 0x4
-  __declspec(property(get = getStaticF_tcp_keepalive_time, put = setStaticF_tcp_keepalive_time)) int32_t tcp_keepalive_time;
+/// @brief Field tcp_keepalive_time, offset 0xffffffff, size 0x4 
+ __declspec(property(get=getStaticF_tcp_keepalive_time, put=setStaticF_tcp_keepalive_time)) int32_t  tcp_keepalive_time;
 
-  /// @brief Field useNagle, offset 0xffffffff, size 0x1
-  __declspec(property(get = getStaticF_useNagle, put = setStaticF_useNagle)) bool useNagle;
+/// @brief Field useNagle, offset 0xffffffff, size 0x1 
+ __declspec(property(get=getStaticF_useNagle, put=setStaticF_useNagle)) bool  useNagle;
 
-  /// @brief Method CloseConnectionGroup, addr 0x6189688, size 0x3d8, virtual false, abstract: false, final false
-  static inline void CloseConnectionGroup(::StringW connectionGroupName);
+/// @brief Method CloseConnectionGroup, addr 0x6189d48, size 0x3d8, virtual false, abstract: false, final false
+static inline void CloseConnectionGroup(::StringW  connectionGroupName) ;
 
-  /// @brief Method FindServicePoint, addr 0x6189620, size 0x5c, virtual false, abstract: false, final false
-  static inline ::System::Net::ServicePoint* FindServicePoint(::System::Uri* address);
+/// @brief Method FindServicePoint, addr 0x6189ce0, size 0x5c, virtual false, abstract: false, final false
+static inline ::System::Net::ServicePoint* FindServicePoint(::System::Uri*  address) ;
 
-  /// @brief Method FindServicePoint, addr 0x617cfdc, size 0x678, virtual false, abstract: false, final false
-  static inline ::System::Net::ServicePoint* FindServicePoint(::System::Uri* address, ::System::Net::IWebProxy* proxy);
+/// @brief Method FindServicePoint, addr 0x617d69c, size 0x678, virtual false, abstract: false, final false
+static inline ::System::Net::ServicePoint* FindServicePoint(::System::Uri*  address, ::System::Net::IWebProxy*  proxy) ;
 
-  /// @brief Method GetLegacyCertificatePolicy, addr 0x6189208, size 0x5c, virtual false, abstract: false, final false
-  static inline ::System::Net::ICertificatePolicy* GetLegacyCertificatePolicy();
+/// @brief Method GetLegacyCertificatePolicy, addr 0x61898c8, size 0x5c, virtual false, abstract: false, final false
+static inline ::System::Net::ICertificatePolicy* GetLegacyCertificatePolicy() ;
 
-  /// @brief Method RemoveServicePoint, addr 0x6189a60, size 0x9c, virtual false, abstract: false, final false
-  static inline void RemoveServicePoint(::System::Net::ServicePoint* sp);
+/// @brief Method RemoveServicePoint, addr 0x618a120, size 0x9c, virtual false, abstract: false, final false
+static inline void RemoveServicePoint(::System::Net::ServicePoint*  sp) ;
 
-  static inline bool getStaticF__checkCRL();
+static inline bool getStaticF__checkCRL() ;
 
-  static inline ::System::Net::SecurityProtocolType getStaticF__securityProtocol();
+static inline ::System::Net::SecurityProtocolType getStaticF__securityProtocol() ;
 
-  static inline int32_t getStaticF_defaultConnectionLimit();
+static inline int32_t getStaticF_defaultConnectionLimit() ;
 
-  static inline int32_t getStaticF_dnsRefreshTimeout();
+static inline int32_t getStaticF_dnsRefreshTimeout() ;
 
-  static inline bool getStaticF_expectContinue();
+static inline bool getStaticF_expectContinue() ;
 
-  static inline int32_t getStaticF_maxServicePointIdleTime();
+static inline int32_t getStaticF_maxServicePointIdleTime() ;
 
-  static inline int32_t getStaticF_maxServicePoints();
+static inline int32_t getStaticF_maxServicePoints() ;
 
-  static inline ::System::Net::ICertificatePolicy* getStaticF_policy();
+static inline ::System::Net::ICertificatePolicy* getStaticF_policy() ;
 
-  static inline ::System::Net::ServerCertValidationCallback* getStaticF_server_cert_cb();
+static inline ::System::Net::ServerCertValidationCallback* getStaticF_server_cert_cb() ;
 
-  static inline ::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Net::ServicePointManager_SPKey*, ::System::Net::ServicePoint*>* getStaticF_servicePoints();
+static inline ::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Net::ServicePointManager_SPKey*,::System::Net::ServicePoint*>* getStaticF_servicePoints() ;
 
-  static inline bool getStaticF_tcp_keepalive();
+static inline bool getStaticF_tcp_keepalive() ;
 
-  static inline int32_t getStaticF_tcp_keepalive_interval();
+static inline int32_t getStaticF_tcp_keepalive_interval() ;
 
-  static inline int32_t getStaticF_tcp_keepalive_time();
+static inline int32_t getStaticF_tcp_keepalive_time() ;
 
-  static inline bool getStaticF_useNagle();
+static inline bool getStaticF_useNagle() ;
 
-  /// @brief Method get_CheckCertificateRevocationList, addr 0x6189264, size 0x5c, virtual false, abstract: false, final false
-  static inline bool get_CheckCertificateRevocationList();
+/// @brief Method get_CheckCertificateRevocationList, addr 0x6189924, size 0x5c, virtual false, abstract: false, final false
+static inline bool get_CheckCertificateRevocationList() ;
 
-  /// @brief Method get_DnsRefreshTimeout, addr 0x6189370, size 0x5c, virtual false, abstract: false, final false
-  static inline int32_t get_DnsRefreshTimeout();
+/// @brief Method get_DnsRefreshTimeout, addr 0x6189a30, size 0x5c, virtual false, abstract: false, final false
+static inline int32_t get_DnsRefreshTimeout() ;
 
-  /// @brief Method get_SecurityProtocol, addr 0x61893cc, size 0x5c, virtual false, abstract: false, final false
-  static inline ::System::Net::SecurityProtocolType get_SecurityProtocol();
+/// @brief Method get_SecurityProtocol, addr 0x6189a8c, size 0x5c, virtual false, abstract: false, final false
+static inline ::System::Net::SecurityProtocolType get_SecurityProtocol() ;
 
-  /// @brief Method get_ServerCertValidationCallback, addr 0x6189428, size 0x5c, virtual false, abstract: false, final false
-  static inline ::System::Net::ServerCertValidationCallback* get_ServerCertValidationCallback();
+/// @brief Method get_ServerCertValidationCallback, addr 0x6189ae8, size 0x5c, virtual false, abstract: false, final false
+static inline ::System::Net::ServerCertValidationCallback* get_ServerCertValidationCallback() ;
 
-  /// @brief Method get_ServerCertificateValidationCallback, addr 0x6189484, size 0x8c, virtual false, abstract: false, final false
-  static inline ::System::Net::Security::RemoteCertificateValidationCallback* get_ServerCertificateValidationCallback();
+/// @brief Method get_ServerCertificateValidationCallback, addr 0x6189b44, size 0x8c, virtual false, abstract: false, final false
+static inline ::System::Net::Security::RemoteCertificateValidationCallback* get_ServerCertificateValidationCallback() ;
 
-  static inline void setStaticF__checkCRL(bool value);
+static inline void setStaticF__checkCRL(bool  value) ;
 
-  static inline void setStaticF__securityProtocol(::System::Net::SecurityProtocolType value);
+static inline void setStaticF__securityProtocol(::System::Net::SecurityProtocolType  value) ;
 
-  static inline void setStaticF_defaultConnectionLimit(int32_t value);
+static inline void setStaticF_defaultConnectionLimit(int32_t  value) ;
 
-  static inline void setStaticF_dnsRefreshTimeout(int32_t value);
+static inline void setStaticF_dnsRefreshTimeout(int32_t  value) ;
 
-  static inline void setStaticF_expectContinue(bool value);
+static inline void setStaticF_expectContinue(bool  value) ;
 
-  static inline void setStaticF_maxServicePointIdleTime(int32_t value);
+static inline void setStaticF_maxServicePointIdleTime(int32_t  value) ;
 
-  static inline void setStaticF_maxServicePoints(int32_t value);
+static inline void setStaticF_maxServicePoints(int32_t  value) ;
 
-  static inline void setStaticF_policy(::System::Net::ICertificatePolicy* value);
+static inline void setStaticF_policy(::System::Net::ICertificatePolicy*  value) ;
 
-  static inline void setStaticF_server_cert_cb(::System::Net::ServerCertValidationCallback* value);
+static inline void setStaticF_server_cert_cb(::System::Net::ServerCertValidationCallback*  value) ;
 
-  static inline void setStaticF_servicePoints(::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Net::ServicePointManager_SPKey*, ::System::Net::ServicePoint*>* value);
+static inline void setStaticF_servicePoints(::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Net::ServicePointManager_SPKey*,::System::Net::ServicePoint*>*  value) ;
 
-  static inline void setStaticF_tcp_keepalive(bool value);
+static inline void setStaticF_tcp_keepalive(bool  value) ;
 
-  static inline void setStaticF_tcp_keepalive_interval(int32_t value);
+static inline void setStaticF_tcp_keepalive_interval(int32_t  value) ;
 
-  static inline void setStaticF_tcp_keepalive_time(int32_t value);
+static inline void setStaticF_tcp_keepalive_time(int32_t  value) ;
 
-  static inline void setStaticF_useNagle(bool value);
+static inline void setStaticF_useNagle(bool  value) ;
 
-  /// @brief Method set_DefaultConnectionLimit, addr 0x61892c0, size 0xb0, virtual false, abstract: false, final false
-  static inline void set_DefaultConnectionLimit(int32_t value);
+/// @brief Method set_DefaultConnectionLimit, addr 0x6189980, size 0xb0, virtual false, abstract: false, final false
+static inline void set_DefaultConnectionLimit(int32_t  value) ;
 
-  /// @brief Method set_Expect100Continue, addr 0x61895bc, size 0x64, virtual false, abstract: false, final false
-  static inline void set_Expect100Continue(bool value);
+/// @brief Method set_Expect100Continue, addr 0x6189c7c, size 0x64, virtual false, abstract: false, final false
+static inline void set_Expect100Continue(bool  value) ;
 
-  /// @brief Method set_ServerCertificateValidationCallback, addr 0x6189510, size 0xac, virtual false, abstract: false, final false
-  static inline void set_ServerCertificateValidationCallback(::System::Net::Security::RemoteCertificateValidationCallback* value);
+/// @brief Method set_ServerCertificateValidationCallback, addr 0x6189bd0, size 0xac, virtual false, abstract: false, final false
+static inline void set_ServerCertificateValidationCallback(::System::Net::Security::RemoteCertificateValidationCallback*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ServicePointManager();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ServicePointManager() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ServicePointManager", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ServicePointManager(ServicePointManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ServicePointManager", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ServicePointManager(ServicePointManager const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ServicePointManager", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ServicePointManager(ServicePointManager && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11601 };
+// Ctor Parameters [CppParam { name: "", ty: "ServicePointManager", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ServicePointManager(ServicePointManager const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11605};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::ServicePointManager, 0x10>, "Size mismatch!");
 
-} // namespace System::Net
+} // namespace end def System::Net
 NEED_NO_BOX(::System::Net::ServicePointManager);
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::ServicePointManager*, "System.Net", "ServicePointManager");
 NEED_NO_BOX(::System::Net::ServicePointManager_SPKey);

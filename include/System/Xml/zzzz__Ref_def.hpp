@@ -18,32 +18,32 @@ namespace System::Xml {
 // CS Name: System.Xml.Ref
 class CORDL_TYPE Ref : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method Equal, addr 0x6119cfc, size 0xc, virtual false, abstract: false, final false
-  static inline bool Equal(::StringW strA, ::StringW strB);
+// Declarations
+/// @brief Method Equal, addr 0x611a3bc, size 0xc, virtual false, abstract: false, final false
+static inline bool Equal(::StringW  strA, ::StringW  strB) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Ref();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr Ref() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Ref", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  Ref(Ref&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Ref", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  Ref(Ref const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "Ref", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+Ref(Ref && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9400 };
+// Ctor Parameters [CppParam { name: "", ty: "Ref", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+Ref(Ref const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{9404};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Xml::Ref, 0x10>, "Size mismatch!");
 
-} // namespace System::Xml
+} // namespace end def System::Xml
 NEED_NO_BOX(::System::Xml::Ref);
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Ref*, "System.Xml", "Ref");

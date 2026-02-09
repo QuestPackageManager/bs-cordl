@@ -12,87 +12,87 @@ struct LightType;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::LightType);
-// Dependencies
+// Dependencies 
 namespace UnityEngine {
 // Is value type: true
 // CS Name: UnityEngine.LightType
 struct CORDL_TYPE LightType {
 public:
-  // Declarations
-  using __CORDL_BACKING_ENUM_TYPE = int32_t;
+// Declarations
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct __LightType_Unwrapped
-  enum struct __LightType_Unwrapped : int32_t {
-    __E_Spot = static_cast<int32_t>(0x0),
-    __E_Directional = static_cast<int32_t>(0x1),
-    __E_Point = static_cast<int32_t>(0x2),
-    __E_Area = static_cast<int32_t>(0x3),
-    __E_Rectangle = static_cast<int32_t>(0x3),
-    __E_Disc = static_cast<int32_t>(0x4),
-    __E_Pyramid = static_cast<int32_t>(0x5),
-    __E_Box = static_cast<int32_t>(0x6),
-    __E_Tube = static_cast<int32_t>(0x7),
-  };
+/// @brief Nested struct __LightType_Unwrapped
+enum struct __LightType_Unwrapped : int32_t {
+__E_Spot = static_cast<int32_t>(0x0),
+__E_Directional = static_cast<int32_t>(0x1),
+__E_Point = static_cast<int32_t>(0x2),
+__E_Area = static_cast<int32_t>(0x3),
+__E_Rectangle = static_cast<int32_t>(0x3),
+__E_Disc = static_cast<int32_t>(0x4),
+__E_Pyramid = static_cast<int32_t>(0x5),
+__E_Box = static_cast<int32_t>(0x6),
+__E_Tube = static_cast<int32_t>(0x7),
+};
 
-  /// @brief Conversion into unwrapped enum value
-  constexpr operator __LightType_Unwrapped() const noexcept {
-    return static_cast<__LightType_Unwrapped>(this->value__);
-  }
+/// @brief Conversion into unwrapped enum value
+constexpr operator __LightType_Unwrapped () const noexcept {
+return static_cast<__LightType_Unwrapped>(this->value__);
+}
 
-  /// @brief Conversion into unwrapped enum value
-  constexpr explicit operator int32_t() const noexcept {
-    return static_cast<int32_t>(this->value__);
-  }
+/// @brief Conversion into unwrapped enum value
+constexpr explicit operator int32_t () const noexcept {
+return static_cast<int32_t>(this->value__);
+}
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LightType();
+// Ctor Parameters []
+// @brief default ctor
+constexpr LightType() ;
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr LightType(int32_t value__) noexcept;
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr LightType(int32_t  value__) noexcept;
 
-  /// @brief Field Area value: I32(3)
-  static ::UnityEngine::LightType const Area;
+/// @brief Field Area value: I32(3)
+static ::UnityEngine::LightType const Area;
 
-  /// @brief Field Box value: I32(6)
-  static ::UnityEngine::LightType const Box;
+/// @brief Field Box value: I32(6)
+static ::UnityEngine::LightType const Box;
 
-  /// @brief Field Directional value: I32(1)
-  static ::UnityEngine::LightType const Directional;
+/// @brief Field Directional value: I32(1)
+static ::UnityEngine::LightType const Directional;
 
-  /// @brief Field Disc value: I32(4)
-  static ::UnityEngine::LightType const Disc;
+/// @brief Field Disc value: I32(4)
+static ::UnityEngine::LightType const Disc;
 
-  /// @brief Field Point value: I32(2)
-  static ::UnityEngine::LightType const Point;
+/// @brief Field Point value: I32(2)
+static ::UnityEngine::LightType const Point;
 
-  /// @brief Field Pyramid value: I32(5)
-  static ::UnityEngine::LightType const Pyramid;
+/// @brief Field Pyramid value: I32(5)
+static ::UnityEngine::LightType const Pyramid;
 
-  /// @brief Field Rectangle value: I32(3)
-  static ::UnityEngine::LightType const Rectangle;
+/// @brief Field Rectangle value: I32(3)
+static ::UnityEngine::LightType const Rectangle;
 
-  /// @brief Field Spot value: I32(0)
-  static ::UnityEngine::LightType const Spot;
+/// @brief Field Spot value: I32(0)
+static ::UnityEngine::LightType const Spot;
 
-  /// @brief Field Tube value: I32(7)
-  static ::UnityEngine::LightType const Tube;
+/// @brief Field Tube value: I32(7)
+static ::UnityEngine::LightType const Tube;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10154 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10158};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x4};
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+/// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+ int32_t  value__;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::LightType, value__) == 0x0, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::LightType, 0x4>, "Size mismatch!");
 
-} // namespace UnityEngine
+} // namespace end def UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::LightType, "UnityEngine", "LightType");

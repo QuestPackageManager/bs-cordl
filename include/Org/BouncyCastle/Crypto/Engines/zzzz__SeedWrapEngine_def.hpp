@@ -17,34 +17,34 @@ namespace Org::BouncyCastle::Crypto::Engines {
 // CS Name: Org.BouncyCastle.Crypto.Engines.SeedWrapEngine
 class CORDL_TYPE SeedWrapEngine : public ::Org::BouncyCastle::Crypto::Engines::Rfc3394WrapEngine {
 public:
-  // Declarations
-  static inline ::Org::BouncyCastle::Crypto::Engines::SeedWrapEngine* New_ctor();
+// Declarations
+static inline ::Org::BouncyCastle::Crypto::Engines::SeedWrapEngine* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x32c5b4c, size 0x58, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x32c5a9c, size 0x58, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SeedWrapEngine();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr SeedWrapEngine() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SeedWrapEngine", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  SeedWrapEngine(SeedWrapEngine&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SeedWrapEngine", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  SeedWrapEngine(SeedWrapEngine const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "SeedWrapEngine", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+SeedWrapEngine(SeedWrapEngine && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 868 };
+// Ctor Parameters [CppParam { name: "", ty: "SeedWrapEngine", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+SeedWrapEngine(SeedWrapEngine const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{868};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Engines::SeedWrapEngine, 0x30>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Crypto::Engines
+} // namespace end def Org::BouncyCastle::Crypto::Engines
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Engines::SeedWrapEngine);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Engines::SeedWrapEngine*, "Org.BouncyCastle.Crypto.Engines", "SeedWrapEngine");

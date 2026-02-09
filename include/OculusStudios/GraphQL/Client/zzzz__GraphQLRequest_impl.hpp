@@ -7,110 +7,118 @@
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::OculusStudios::GraphQL::Client::GraphQLRequest._ctor
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OculusStudios::GraphQL::Client::GraphQLRequest::*)()>(
-    &::OculusStudios::GraphQL::Client::GraphQLRequest::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OculusStudios::GraphQL::Client::GraphQLRequest::*)()>(&::OculusStudios::GraphQL::Client::GraphQLRequest::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5d7d7b0;
+  constexpr static std::size_t addrs = 0x5d7dcbc;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OculusStudios::GraphQL::Client::GraphQLRequest*>::get(),
-                                                                               ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OculusStudios::GraphQL::Client::GraphQLRequest*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
-constexpr ::StringW& OculusStudios::GraphQL::Client::GraphQLRequest::__cordl_internal_get_operationName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___operationName;
+constexpr ::StringW& OculusStudios::GraphQL::Client::GraphQLRequest::__cordl_internal_get_operationName()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___operationName;
 }
 constexpr ::StringW const& OculusStudios::GraphQL::Client::GraphQLRequest::__cordl_internal_get_operationName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___operationName;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___operationName;
 }
-constexpr void OculusStudios::GraphQL::Client::GraphQLRequest::__cordl_internal_set_operationName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___operationName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void OculusStudios::GraphQL::Client::GraphQLRequest::__cordl_internal_set_operationName(::StringW  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___operationName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::StringW& OculusStudios::GraphQL::Client::GraphQLRequest::__cordl_internal_get_document() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___document;
+constexpr ::StringW& OculusStudios::GraphQL::Client::GraphQLRequest::__cordl_internal_get_document()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___document;
 }
 constexpr ::StringW const& OculusStudios::GraphQL::Client::GraphQLRequest::__cordl_internal_get_document() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___document;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___document;
 }
-constexpr void OculusStudios::GraphQL::Client::GraphQLRequest::__cordl_internal_set_document(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___document)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void OculusStudios::GraphQL::Client::GraphQLRequest::__cordl_internal_set_document(::StringW  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___document)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::StringW& OculusStudios::GraphQL::Client::GraphQLRequest::__cordl_internal_get_docId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___docId;
+constexpr ::StringW& OculusStudios::GraphQL::Client::GraphQLRequest::__cordl_internal_get_docId()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___docId;
 }
 constexpr ::StringW const& OculusStudios::GraphQL::Client::GraphQLRequest::__cordl_internal_get_docId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___docId;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___docId;
 }
-constexpr void OculusStudios::GraphQL::Client::GraphQLRequest::__cordl_internal_set_docId(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___docId)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void OculusStudios::GraphQL::Client::GraphQLRequest::__cordl_internal_set_docId(::StringW  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___docId)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Collections::Generic::IDictionary_2<::StringW, ::System::Object*>*& OculusStudios::GraphQL::Client::GraphQLRequest::__cordl_internal_get_variables() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___variables;
+constexpr ::System::Collections::Generic::IDictionary_2<::StringW,::System::Object*>*& OculusStudios::GraphQL::Client::GraphQLRequest::__cordl_internal_get_variables()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___variables;
 }
-constexpr ::System::Collections::Generic::IDictionary_2<::StringW, ::System::Object*>* const& OculusStudios::GraphQL::Client::GraphQLRequest::__cordl_internal_get_variables() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___variables;
+constexpr ::System::Collections::Generic::IDictionary_2<::StringW,::System::Object*>* const& OculusStudios::GraphQL::Client::GraphQLRequest::__cordl_internal_get_variables() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___variables;
 }
-constexpr void OculusStudios::GraphQL::Client::GraphQLRequest::__cordl_internal_set_variables(::System::Collections::Generic::IDictionary_2<::StringW, ::System::Object*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___variables)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void OculusStudios::GraphQL::Client::GraphQLRequest::__cordl_internal_set_variables(::System::Collections::Generic::IDictionary_2<::StringW,::System::Object*>*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___variables)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Collections::Generic::List_1<::OculusStudios::GraphQL::Client::MultipartFile>*& OculusStudios::GraphQL::Client::GraphQLRequest::__cordl_internal_get_files() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___files;
+constexpr ::System::Collections::Generic::List_1<::OculusStudios::GraphQL::Client::MultipartFile>*& OculusStudios::GraphQL::Client::GraphQLRequest::__cordl_internal_get_files()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___files;
 }
 constexpr ::System::Collections::Generic::List_1<::OculusStudios::GraphQL::Client::MultipartFile>* const& OculusStudios::GraphQL::Client::GraphQLRequest::__cordl_internal_get_files() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___files;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___files;
 }
-constexpr void OculusStudios::GraphQL::Client::GraphQLRequest::__cordl_internal_set_files(::System::Collections::Generic::List_1<::OculusStudios::GraphQL::Client::MultipartFile>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___files)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void OculusStudios::GraphQL::Client::GraphQLRequest::__cordl_internal_set_files(::System::Collections::Generic::List_1<::OculusStudios::GraphQL::Client::MultipartFile>*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___files)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr int64_t& OculusStudios::GraphQL::Client::GraphQLRequest::__cordl_internal_get_size() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___size;
+constexpr int64_t& OculusStudios::GraphQL::Client::GraphQLRequest::__cordl_internal_get_size()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___size;
 }
 constexpr int64_t const& OculusStudios::GraphQL::Client::GraphQLRequest::__cordl_internal_get_size() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___size;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___size;
 }
-constexpr void OculusStudios::GraphQL::Client::GraphQLRequest::__cordl_internal_set_size(int64_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___size = value;
+constexpr void OculusStudios::GraphQL::Client::GraphQLRequest::__cordl_internal_set_size(int64_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___size = value;
 }
-constexpr ::StringW& OculusStudios::GraphQL::Client::GraphQLRequest::__cordl_internal_get_graphqlType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___graphqlType;
+constexpr ::StringW& OculusStudios::GraphQL::Client::GraphQLRequest::__cordl_internal_get_graphqlType()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___graphqlType;
 }
 constexpr ::StringW const& OculusStudios::GraphQL::Client::GraphQLRequest::__cordl_internal_get_graphqlType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___graphqlType;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___graphqlType;
 }
-constexpr void OculusStudios::GraphQL::Client::GraphQLRequest::__cordl_internal_set_graphqlType(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___graphqlType)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void OculusStudios::GraphQL::Client::GraphQLRequest::__cordl_internal_set_graphqlType(::StringW  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___graphqlType)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void OculusStudios::GraphQL::Client::GraphQLRequest::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OculusStudios::GraphQL::Client::GraphQLRequest*>::get(), ".ctor",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void OculusStudios::GraphQL::Client::GraphQLRequest::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OculusStudios::GraphQL::Client::GraphQLRequest*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::OculusStudios::GraphQL::Client::GraphQLRequest* OculusStudios::GraphQL::Client::GraphQLRequest::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::OculusStudios::GraphQL::Client::GraphQLRequest*>());
+inline ::OculusStudios::GraphQL::Client::GraphQLRequest* OculusStudios::GraphQL::Client::GraphQLRequest::New_ctor()  {
+return THROW_UNLESS(::il2cpp_utils::NewSpecific<::OculusStudios::GraphQL::Client::GraphQLRequest*>());
 }
 // Ctor Parameters []
-constexpr ::OculusStudios::GraphQL::Client::GraphQLRequest::GraphQLRequest() {}
+constexpr ::OculusStudios::GraphQL::Client::GraphQLRequest::GraphQLRequest()   {
+}

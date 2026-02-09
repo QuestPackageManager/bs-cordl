@@ -33,38 +33,37 @@ namespace UnityEngine::UIElements::Layout {
 // CS Name: UnityEngine.UIElements.Layout.InvokeMeasureFunctionDelegate
 class CORDL_TYPE InvokeMeasureFunctionDelegate : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method Invoke, addr 0x6b36d3c, size 0x14, virtual true, abstract: false, final false
-  inline void Invoke(::ByRef<::UnityEngine::UIElements::Layout::LayoutNode> node, float_t width, ::UnityEngine::UIElements::Layout::LayoutMeasureMode widthMode, float_t height,
-                     ::UnityEngine::UIElements::Layout::LayoutMeasureMode heightMode, ::ByRef<::System::IntPtr> exception, ::ByRef<::UnityEngine::UIElements::Layout::LayoutSize> result);
+// Declarations
+/// @brief Method Invoke, addr 0x6b373fc, size 0x14, virtual true, abstract: false, final false
+inline void Invoke(::ByRef<::UnityEngine::UIElements::Layout::LayoutNode>  node, float_t  width, ::UnityEngine::UIElements::Layout::LayoutMeasureMode  widthMode, float_t  height, ::UnityEngine::UIElements::Layout::LayoutMeasureMode  heightMode, ::ByRef<::System::IntPtr>  exception, ::ByRef<::UnityEngine::UIElements::Layout::LayoutSize>  result) ;
 
-  static inline ::UnityEngine::UIElements::Layout::InvokeMeasureFunctionDelegate* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::UnityEngine::UIElements::Layout::InvokeMeasureFunctionDelegate* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x6b36cbc, size 0x80, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x6b3737c, size 0x80, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr InvokeMeasureFunctionDelegate();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr InvokeMeasureFunctionDelegate() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InvokeMeasureFunctionDelegate", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  InvokeMeasureFunctionDelegate(InvokeMeasureFunctionDelegate&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InvokeMeasureFunctionDelegate", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  InvokeMeasureFunctionDelegate(InvokeMeasureFunctionDelegate const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "InvokeMeasureFunctionDelegate", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+InvokeMeasureFunctionDelegate(InvokeMeasureFunctionDelegate && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5399 };
+// Ctor Parameters [CppParam { name: "", ty: "InvokeMeasureFunctionDelegate", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+InvokeMeasureFunctionDelegate(InvokeMeasureFunctionDelegate const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{5399};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::Layout::InvokeMeasureFunctionDelegate, 0x80>, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements::Layout
+} // namespace end def UnityEngine::UIElements::Layout
 NEED_NO_BOX(::UnityEngine::UIElements::Layout::InvokeMeasureFunctionDelegate);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::Layout::InvokeMeasureFunctionDelegate*, "UnityEngine.UIElements.Layout", "InvokeMeasureFunctionDelegate");

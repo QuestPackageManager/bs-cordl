@@ -30,116 +30,116 @@ namespace System::Xml::Serialization {
 // CS Name: System.Xml.Serialization.XmlTypeMapMemberElement
 class CORDL_TYPE XmlTypeMapMemberElement : public ::System::Xml::Serialization::XmlTypeMapMember {
 public:
-  // Declarations
-  __declspec(property(get = get_ChoiceMember, put = set_ChoiceMember)) ::StringW ChoiceMember;
+// Declarations
+ __declspec(property(get=get_ChoiceMember, put=set_ChoiceMember)) ::StringW  ChoiceMember;
 
-  __declspec(property(get = get_ChoiceTypeData, put = set_ChoiceTypeData)) ::System::Xml::Serialization::TypeData* ChoiceTypeData;
+ __declspec(property(get=get_ChoiceTypeData, put=set_ChoiceTypeData)) ::System::Xml::Serialization::TypeData*  ChoiceTypeData;
 
-  __declspec(property(get = get_ElementInfo, put = set_ElementInfo)) ::System::Xml::Serialization::XmlTypeMapElementInfoList* ElementInfo;
+ __declspec(property(get=get_ElementInfo, put=set_ElementInfo)) ::System::Xml::Serialization::XmlTypeMapElementInfoList*  ElementInfo;
 
-  __declspec(property(get = get_IsXmlTextCollector, put = set_IsXmlTextCollector)) bool IsXmlTextCollector;
+ __declspec(property(get=get_IsXmlTextCollector, put=set_IsXmlTextCollector)) bool  IsXmlTextCollector;
 
-  /// @brief Field _choiceMember, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get__choiceMember, put = __cordl_internal_set__choiceMember)) ::StringW _choiceMember;
+/// @brief Field _choiceMember, offset 0x60, size 0x8 
+ __declspec(property(get=__cordl_internal_get__choiceMember, put=__cordl_internal_set__choiceMember)) ::StringW  _choiceMember;
 
-  /// @brief Field _choiceTypeData, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get__choiceTypeData, put = __cordl_internal_set__choiceTypeData)) ::System::Xml::Serialization::TypeData* _choiceTypeData;
+/// @brief Field _choiceTypeData, offset 0x70, size 0x8 
+ __declspec(property(get=__cordl_internal_get__choiceTypeData, put=__cordl_internal_set__choiceTypeData)) ::System::Xml::Serialization::TypeData*  _choiceTypeData;
 
-  /// @brief Field _elementInfo, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get__elementInfo, put = __cordl_internal_set__elementInfo)) ::System::Xml::Serialization::XmlTypeMapElementInfoList* _elementInfo;
+/// @brief Field _elementInfo, offset 0x58, size 0x8 
+ __declspec(property(get=__cordl_internal_get__elementInfo, put=__cordl_internal_set__elementInfo)) ::System::Xml::Serialization::XmlTypeMapElementInfoList*  _elementInfo;
 
-  /// @brief Field _isTextCollector, offset 0x68, size 0x1
-  __declspec(property(get = __cordl_internal_get__isTextCollector, put = __cordl_internal_set__isTextCollector)) bool _isTextCollector;
+/// @brief Field _isTextCollector, offset 0x68, size 0x1 
+ __declspec(property(get=__cordl_internal_get__isTextCollector, put=__cordl_internal_set__isTextCollector)) bool  _isTextCollector;
 
-  /// @brief Method FindElement, addr 0x6159ce4, size 0x688, virtual false, abstract: false, final false
-  inline ::System::Xml::Serialization::XmlTypeMapElementInfo* FindElement(::System::Object* ob, ::System::Object* memberValue);
+/// @brief Method FindElement, addr 0x615a3a4, size 0x688, virtual false, abstract: false, final false
+inline ::System::Xml::Serialization::XmlTypeMapElementInfo* FindElement(::System::Object*  ob, ::System::Object*  memberValue) ;
 
-  static inline ::System::Xml::Serialization::XmlTypeMapMemberElement* New_ctor();
+static inline ::System::Xml::Serialization::XmlTypeMapMemberElement* New_ctor() ;
 
-  /// @brief Method SetChoice, addr 0x615e598, size 0x10, virtual false, abstract: false, final false
-  inline void SetChoice(::System::Object* ob, ::System::Object* choice);
+/// @brief Method SetChoice, addr 0x615ec58, size 0x10, virtual false, abstract: false, final false
+inline void SetChoice(::System::Object*  ob, ::System::Object*  choice) ;
 
-  constexpr ::StringW const& __cordl_internal_get__choiceMember() const;
+constexpr ::StringW const& __cordl_internal_get__choiceMember() const;
 
-  constexpr ::StringW& __cordl_internal_get__choiceMember();
+constexpr ::StringW& __cordl_internal_get__choiceMember() ;
 
-  constexpr ::System::Xml::Serialization::TypeData* const& __cordl_internal_get__choiceTypeData() const;
+constexpr ::System::Xml::Serialization::TypeData* const& __cordl_internal_get__choiceTypeData() const;
 
-  constexpr ::System::Xml::Serialization::TypeData*& __cordl_internal_get__choiceTypeData();
+constexpr ::System::Xml::Serialization::TypeData*& __cordl_internal_get__choiceTypeData() ;
 
-  constexpr ::System::Xml::Serialization::XmlTypeMapElementInfoList* const& __cordl_internal_get__elementInfo() const;
+constexpr ::System::Xml::Serialization::XmlTypeMapElementInfoList* const& __cordl_internal_get__elementInfo() const;
 
-  constexpr ::System::Xml::Serialization::XmlTypeMapElementInfoList*& __cordl_internal_get__elementInfo();
+constexpr ::System::Xml::Serialization::XmlTypeMapElementInfoList*& __cordl_internal_get__elementInfo() ;
 
-  constexpr bool const& __cordl_internal_get__isTextCollector() const;
+constexpr bool const& __cordl_internal_get__isTextCollector() const;
 
-  constexpr bool& __cordl_internal_get__isTextCollector();
+constexpr bool& __cordl_internal_get__isTextCollector() ;
 
-  constexpr void __cordl_internal_set__choiceMember(::StringW value);
+constexpr void __cordl_internal_set__choiceMember(::StringW  value) ;
 
-  constexpr void __cordl_internal_set__choiceTypeData(::System::Xml::Serialization::TypeData* value);
+constexpr void __cordl_internal_set__choiceTypeData(::System::Xml::Serialization::TypeData*  value) ;
 
-  constexpr void __cordl_internal_set__elementInfo(::System::Xml::Serialization::XmlTypeMapElementInfoList* value);
+constexpr void __cordl_internal_set__elementInfo(::System::Xml::Serialization::XmlTypeMapElementInfoList*  value) ;
 
-  constexpr void __cordl_internal_set__isTextCollector(bool value);
+constexpr void __cordl_internal_set__isTextCollector(bool  value) ;
 
-  /// @brief Method .ctor, addr 0x615e56c, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x615ec2c, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_ChoiceMember, addr 0x615e578, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_ChoiceMember();
+/// @brief Method get_ChoiceMember, addr 0x615ec38, size 0x8, virtual false, abstract: false, final false
+inline ::StringW get_ChoiceMember() ;
 
-  /// @brief Method get_ChoiceTypeData, addr 0x615e588, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Xml::Serialization::TypeData* get_ChoiceTypeData();
+/// @brief Method get_ChoiceTypeData, addr 0x615ec48, size 0x8, virtual false, abstract: false, final false
+inline ::System::Xml::Serialization::TypeData* get_ChoiceTypeData() ;
 
-  /// @brief Method get_ElementInfo, addr 0x615891c, size 0x68, virtual false, abstract: false, final false
-  inline ::System::Xml::Serialization::XmlTypeMapElementInfoList* get_ElementInfo();
+/// @brief Method get_ElementInfo, addr 0x6158fdc, size 0x68, virtual false, abstract: false, final false
+inline ::System::Xml::Serialization::XmlTypeMapElementInfoList* get_ElementInfo() ;
 
-  /// @brief Method get_IsXmlTextCollector, addr 0x615e5a8, size 0x8, virtual false, abstract: false, final false
-  inline bool get_IsXmlTextCollector();
+/// @brief Method get_IsXmlTextCollector, addr 0x615ec68, size 0x8, virtual false, abstract: false, final false
+inline bool get_IsXmlTextCollector() ;
 
-  /// @brief Method set_ChoiceMember, addr 0x615e580, size 0x8, virtual false, abstract: false, final false
-  inline void set_ChoiceMember(::StringW value);
+/// @brief Method set_ChoiceMember, addr 0x615ec40, size 0x8, virtual false, abstract: false, final false
+inline void set_ChoiceMember(::StringW  value) ;
 
-  /// @brief Method set_ChoiceTypeData, addr 0x615e590, size 0x8, virtual false, abstract: false, final false
-  inline void set_ChoiceTypeData(::System::Xml::Serialization::TypeData* value);
+/// @brief Method set_ChoiceTypeData, addr 0x615ec50, size 0x8, virtual false, abstract: false, final false
+inline void set_ChoiceTypeData(::System::Xml::Serialization::TypeData*  value) ;
 
-  /// @brief Method set_ElementInfo, addr 0x615e570, size 0x8, virtual false, abstract: false, final false
-  inline void set_ElementInfo(::System::Xml::Serialization::XmlTypeMapElementInfoList* value);
+/// @brief Method set_ElementInfo, addr 0x615ec30, size 0x8, virtual false, abstract: false, final false
+inline void set_ElementInfo(::System::Xml::Serialization::XmlTypeMapElementInfoList*  value) ;
 
-  /// @brief Method set_IsXmlTextCollector, addr 0x615e5b0, size 0x8, virtual false, abstract: false, final false
-  inline void set_IsXmlTextCollector(bool value);
+/// @brief Method set_IsXmlTextCollector, addr 0x615ec70, size 0x8, virtual false, abstract: false, final false
+inline void set_IsXmlTextCollector(bool  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr XmlTypeMapMemberElement();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr XmlTypeMapMemberElement() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlTypeMapMemberElement", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  XmlTypeMapMemberElement(XmlTypeMapMemberElement&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlTypeMapMemberElement", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  XmlTypeMapMemberElement(XmlTypeMapMemberElement const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "XmlTypeMapMemberElement", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+XmlTypeMapMemberElement(XmlTypeMapMemberElement && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9528 };
+// Ctor Parameters [CppParam { name: "", ty: "XmlTypeMapMemberElement", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+XmlTypeMapMemberElement(XmlTypeMapMemberElement const& ) = delete;
 
-  /// @brief Field _elementInfo, offset: 0x58, size: 0x8, def value: None
-  ::System::Xml::Serialization::XmlTypeMapElementInfoList* ____elementInfo;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{9532};
 
-  /// @brief Field _choiceMember, offset: 0x60, size: 0x8, def value: None
-  ::StringW ____choiceMember;
+/// @brief Field _elementInfo, offset: 0x58, size: 0x8, def value: None
+ ::System::Xml::Serialization::XmlTypeMapElementInfoList*  ____elementInfo;
 
-  /// @brief Field _isTextCollector, offset: 0x68, size: 0x1, def value: None
-  bool ____isTextCollector;
+/// @brief Field _choiceMember, offset: 0x60, size: 0x8, def value: None
+ ::StringW  ____choiceMember;
 
-  /// @brief Field _choiceTypeData, offset: 0x70, size: 0x8, def value: None
-  ::System::Xml::Serialization::TypeData* ____choiceTypeData;
+/// @brief Field _isTextCollector, offset: 0x68, size: 0x1, def value: None
+ bool  ____isTextCollector;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _choiceTypeData, offset: 0x70, size: 0x8, def value: None
+ ::System::Xml::Serialization::TypeData*  ____choiceTypeData;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Xml::Serialization::XmlTypeMapMemberElement, ____elementInfo) == 0x58, "Offset mismatch!");
@@ -152,6 +152,6 @@ static_assert(offsetof(::System::Xml::Serialization::XmlTypeMapMemberElement, __
 
 static_assert(::cordl_internals::size_check_v<::System::Xml::Serialization::XmlTypeMapMemberElement, 0x78>, "Size mismatch!");
 
-} // namespace System::Xml::Serialization
+} // namespace end def System::Xml::Serialization
 NEED_NO_BOX(::System::Xml::Serialization::XmlTypeMapMemberElement);
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Serialization::XmlTypeMapMemberElement*, "System.Xml.Serialization", "XmlTypeMapMemberElement");

@@ -3,25 +3,34 @@
 #include "System/zzzz__Attribute_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__ReloadGroupAttribute_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::ReloadGroupAttribute._ctor
-template <>
+template<>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::ReloadGroupAttribute::*)()>(&::UnityEngine::Rendering::ReloadGroupAttribute::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x65a2184;
+  constexpr static std::size_t addrs = 0x65a2844;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ReloadGroupAttribute*>::get(), ".ctor",
-                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ReloadGroupAttribute*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
-inline void UnityEngine::Rendering::ReloadGroupAttribute::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ReloadGroupAttribute*>::get(), ".ctor",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void UnityEngine::Rendering::ReloadGroupAttribute::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ReloadGroupAttribute*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::UnityEngine::Rendering::ReloadGroupAttribute* UnityEngine::Rendering::ReloadGroupAttribute::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Rendering::ReloadGroupAttribute*>());
+inline ::UnityEngine::Rendering::ReloadGroupAttribute* UnityEngine::Rendering::ReloadGroupAttribute::New_ctor()  {
+return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Rendering::ReloadGroupAttribute*>());
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::Rendering::ReloadGroupAttribute::ReloadGroupAttribute() {}
+constexpr ::UnityEngine::Rendering::ReloadGroupAttribute::ReloadGroupAttribute()   {
+}

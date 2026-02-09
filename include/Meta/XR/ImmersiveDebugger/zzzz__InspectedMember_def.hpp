@@ -15,7 +15,8 @@ namespace Meta::XR::ImmersiveDebugger {
 class DebugMember;
 }
 namespace System::Collections::Generic {
-template <typename T> class List_1;
+template<typename T>
+class List_1;
 }
 namespace System::Reflection {
 class MemberInfo;
@@ -32,117 +33,115 @@ namespace Meta::XR::ImmersiveDebugger {
 // CS Name: Meta.XR.ImmersiveDebugger.InspectedMember
 class CORDL_TYPE InspectedMember : public ::Meta::XR::ImmersiveDebugger::InspectedItemBase {
 public:
-  // Declarations
-  __declspec(property(get = get_MemberInfo, put = set_MemberInfo)) ::System::Reflection::MemberInfo* MemberInfo;
+// Declarations
+ __declspec(property(get=get_MemberInfo, put=set_MemberInfo)) ::System::Reflection::MemberInfo*  MemberInfo;
 
-  __declspec(property(get = get_SupportedGizmos, put = set_SupportedGizmos)) ::System::Collections::Generic::List_1<::Meta::XR::ImmersiveDebugger::DebugGizmoType>* SupportedGizmos;
+ __declspec(property(get=get_SupportedGizmos, put=set_SupportedGizmos)) ::System::Collections::Generic::List_1<::Meta::XR::ImmersiveDebugger::DebugGizmoType>*  SupportedGizmos;
 
-  /// @brief Field <MemberInfo>k__BackingField, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__MemberInfo_k__BackingField, put = __cordl_internal_set__MemberInfo_k__BackingField)) ::System::Reflection::MemberInfo* _MemberInfo_k__BackingField;
+/// @brief Field <MemberInfo>k__BackingField, offset 0x48, size 0x8 
+ __declspec(property(get=__cordl_internal_get__MemberInfo_k__BackingField, put=__cordl_internal_set__MemberInfo_k__BackingField)) ::System::Reflection::MemberInfo*  _MemberInfo_k__BackingField;
 
-  /// @brief Field <SupportedGizmos>k__BackingField, offset 0x40, size 0x8
-  __declspec(property(
-      get = __cordl_internal_get__SupportedGizmos_k__BackingField,
-      put = __cordl_internal_set__SupportedGizmos_k__BackingField)) ::System::Collections::Generic::List_1<::Meta::XR::ImmersiveDebugger::DebugGizmoType>* _SupportedGizmos_k__BackingField;
+/// @brief Field <SupportedGizmos>k__BackingField, offset 0x40, size 0x8 
+ __declspec(property(get=__cordl_internal_get__SupportedGizmos_k__BackingField, put=__cordl_internal_set__SupportedGizmos_k__BackingField)) ::System::Collections::Generic::List_1<::Meta::XR::ImmersiveDebugger::DebugGizmoType>*  _SupportedGizmos_k__BackingField;
 
-  /// @brief Field _editorSelectedGizmoIndex, offset 0x38, size 0x4
-  __declspec(property(get = __cordl_internal_get__editorSelectedGizmoIndex, put = __cordl_internal_set__editorSelectedGizmoIndex)) int32_t _editorSelectedGizmoIndex;
+/// @brief Field _editorSelectedGizmoIndex, offset 0x38, size 0x4 
+ __declspec(property(get=__cordl_internal_get__editorSelectedGizmoIndex, put=__cordl_internal_set__editorSelectedGizmoIndex)) int32_t  _editorSelectedGizmoIndex;
 
-  /// @brief Field attribute, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_attribute, put = __cordl_internal_set_attribute)) ::Meta::XR::ImmersiveDebugger::DebugMember* attribute;
+/// @brief Field attribute, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get_attribute, put=__cordl_internal_set_attribute)) ::Meta::XR::ImmersiveDebugger::DebugMember*  attribute;
 
-  /// @brief Field memberName, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_memberName, put = __cordl_internal_set_memberName)) ::StringW memberName;
+/// @brief Field memberName, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get_memberName, put=__cordl_internal_set_memberName)) ::StringW  memberName;
 
-  /// @brief Method Initialize, addr 0x5891a38, size 0x128, virtual false, abstract: false, final false
-  inline void Initialize();
+/// @brief Method Initialize, addr 0x5891f44, size 0x128, virtual false, abstract: false, final false
+inline void Initialize() ;
 
-  static inline ::Meta::XR::ImmersiveDebugger::InspectedMember* New_ctor(::System::Reflection::MemberInfo* member);
+static inline ::Meta::XR::ImmersiveDebugger::InspectedMember* New_ctor(::System::Reflection::MemberInfo*  member) ;
 
-  /// @brief Method PopulateSupportedGizmos, addr 0x58923f0, size 0x5ec, virtual false, abstract: false, final false
-  inline void PopulateSupportedGizmos(::System::Collections::Generic::List_1<::Meta::XR::ImmersiveDebugger::DebugGizmoType>* supportedGizmos);
+/// @brief Method PopulateSupportedGizmos, addr 0x58928fc, size 0x5ec, virtual false, abstract: false, final false
+inline void PopulateSupportedGizmos(::System::Collections::Generic::List_1<::Meta::XR::ImmersiveDebugger::DebugGizmoType>*  supportedGizmos) ;
 
-  constexpr ::System::Reflection::MemberInfo* const& __cordl_internal_get__MemberInfo_k__BackingField() const;
+constexpr ::System::Reflection::MemberInfo* const& __cordl_internal_get__MemberInfo_k__BackingField() const;
 
-  constexpr ::System::Reflection::MemberInfo*& __cordl_internal_get__MemberInfo_k__BackingField();
+constexpr ::System::Reflection::MemberInfo*& __cordl_internal_get__MemberInfo_k__BackingField() ;
 
-  constexpr ::System::Collections::Generic::List_1<::Meta::XR::ImmersiveDebugger::DebugGizmoType>* const& __cordl_internal_get__SupportedGizmos_k__BackingField() const;
+constexpr ::System::Collections::Generic::List_1<::Meta::XR::ImmersiveDebugger::DebugGizmoType>* const& __cordl_internal_get__SupportedGizmos_k__BackingField() const;
 
-  constexpr ::System::Collections::Generic::List_1<::Meta::XR::ImmersiveDebugger::DebugGizmoType>*& __cordl_internal_get__SupportedGizmos_k__BackingField();
+constexpr ::System::Collections::Generic::List_1<::Meta::XR::ImmersiveDebugger::DebugGizmoType>*& __cordl_internal_get__SupportedGizmos_k__BackingField() ;
 
-  constexpr int32_t const& __cordl_internal_get__editorSelectedGizmoIndex() const;
+constexpr int32_t const& __cordl_internal_get__editorSelectedGizmoIndex() const;
 
-  constexpr int32_t& __cordl_internal_get__editorSelectedGizmoIndex();
+constexpr int32_t& __cordl_internal_get__editorSelectedGizmoIndex() ;
 
-  constexpr ::Meta::XR::ImmersiveDebugger::DebugMember* const& __cordl_internal_get_attribute() const;
+constexpr ::Meta::XR::ImmersiveDebugger::DebugMember* const& __cordl_internal_get_attribute() const;
 
-  constexpr ::Meta::XR::ImmersiveDebugger::DebugMember*& __cordl_internal_get_attribute();
+constexpr ::Meta::XR::ImmersiveDebugger::DebugMember*& __cordl_internal_get_attribute() ;
 
-  constexpr ::StringW const& __cordl_internal_get_memberName() const;
+constexpr ::StringW const& __cordl_internal_get_memberName() const;
 
-  constexpr ::StringW& __cordl_internal_get_memberName();
+constexpr ::StringW& __cordl_internal_get_memberName() ;
 
-  constexpr void __cordl_internal_set__MemberInfo_k__BackingField(::System::Reflection::MemberInfo* value);
+constexpr void __cordl_internal_set__MemberInfo_k__BackingField(::System::Reflection::MemberInfo*  value) ;
 
-  constexpr void __cordl_internal_set__SupportedGizmos_k__BackingField(::System::Collections::Generic::List_1<::Meta::XR::ImmersiveDebugger::DebugGizmoType>* value);
+constexpr void __cordl_internal_set__SupportedGizmos_k__BackingField(::System::Collections::Generic::List_1<::Meta::XR::ImmersiveDebugger::DebugGizmoType>*  value) ;
 
-  constexpr void __cordl_internal_set__editorSelectedGizmoIndex(int32_t value);
+constexpr void __cordl_internal_set__editorSelectedGizmoIndex(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_attribute(::Meta::XR::ImmersiveDebugger::DebugMember* value);
+constexpr void __cordl_internal_set_attribute(::Meta::XR::ImmersiveDebugger::DebugMember*  value) ;
 
-  constexpr void __cordl_internal_set_memberName(::StringW value);
+constexpr void __cordl_internal_set_memberName(::StringW  value) ;
 
-  /// @brief Method .ctor, addr 0x5892314, size 0xbc, virtual false, abstract: false, final false
-  inline void _ctor(::System::Reflection::MemberInfo* member);
+/// @brief Method .ctor, addr 0x5892820, size 0xbc, virtual false, abstract: false, final false
+inline void _ctor(::System::Reflection::MemberInfo*  member) ;
 
-  /// @brief Method get_MemberInfo, addr 0x58923e0, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Reflection::MemberInfo* get_MemberInfo();
+/// @brief Method get_MemberInfo, addr 0x58928ec, size 0x8, virtual false, abstract: false, final false
+inline ::System::Reflection::MemberInfo* get_MemberInfo() ;
 
-  /// @brief Method get_SupportedGizmos, addr 0x58923d0, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::List_1<::Meta::XR::ImmersiveDebugger::DebugGizmoType>* get_SupportedGizmos();
+/// @brief Method get_SupportedGizmos, addr 0x58928dc, size 0x8, virtual false, abstract: false, final false
+inline ::System::Collections::Generic::List_1<::Meta::XR::ImmersiveDebugger::DebugGizmoType>* get_SupportedGizmos() ;
 
-  /// @brief Method set_MemberInfo, addr 0x58923e8, size 0x8, virtual false, abstract: false, final false
-  inline void set_MemberInfo(::System::Reflection::MemberInfo* value);
+/// @brief Method set_MemberInfo, addr 0x58928f4, size 0x8, virtual false, abstract: false, final false
+inline void set_MemberInfo(::System::Reflection::MemberInfo*  value) ;
 
-  /// @brief Method set_SupportedGizmos, addr 0x58923d8, size 0x8, virtual false, abstract: false, final false
-  inline void set_SupportedGizmos(::System::Collections::Generic::List_1<::Meta::XR::ImmersiveDebugger::DebugGizmoType>* value);
+/// @brief Method set_SupportedGizmos, addr 0x58928e4, size 0x8, virtual false, abstract: false, final false
+inline void set_SupportedGizmos(::System::Collections::Generic::List_1<::Meta::XR::ImmersiveDebugger::DebugGizmoType>*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr InspectedMember();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr InspectedMember() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InspectedMember", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  InspectedMember(InspectedMember&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InspectedMember", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  InspectedMember(InspectedMember const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "InspectedMember", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+InspectedMember(InspectedMember && ) = delete;
 
-  /// @brief Field Flags value: I32(62)
-  static ::System::Reflection::BindingFlags const Flags;
+// Ctor Parameters [CppParam { name: "", ty: "InspectedMember", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+InspectedMember(InspectedMember const& ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18298 };
+/// @brief Field Flags value: I32(62)
+static ::System::Reflection::BindingFlags const Flags;
 
-  /// @brief Field attribute, offset: 0x28, size: 0x8, def value: None
-  ::Meta::XR::ImmersiveDebugger::DebugMember* ___attribute;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{18302};
 
-  /// @brief Field memberName, offset: 0x30, size: 0x8, def value: None
-  ::StringW ___memberName;
+/// @brief Field attribute, offset: 0x28, size: 0x8, def value: None
+ ::Meta::XR::ImmersiveDebugger::DebugMember*  ___attribute;
 
-  /// @brief Field _editorSelectedGizmoIndex, offset: 0x38, size: 0x4, def value: None
-  int32_t ____editorSelectedGizmoIndex;
+/// @brief Field memberName, offset: 0x30, size: 0x8, def value: None
+ ::StringW  ___memberName;
 
-  /// @brief Field <SupportedGizmos>k__BackingField, offset: 0x40, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::Meta::XR::ImmersiveDebugger::DebugGizmoType>* ____SupportedGizmos_k__BackingField;
+/// @brief Field _editorSelectedGizmoIndex, offset: 0x38, size: 0x4, def value: None
+ int32_t  ____editorSelectedGizmoIndex;
 
-  /// @brief Field <MemberInfo>k__BackingField, offset: 0x48, size: 0x8, def value: None
-  ::System::Reflection::MemberInfo* ____MemberInfo_k__BackingField;
+/// @brief Field <SupportedGizmos>k__BackingField, offset: 0x40, size: 0x8, def value: None
+ ::System::Collections::Generic::List_1<::Meta::XR::ImmersiveDebugger::DebugGizmoType>*  ____SupportedGizmos_k__BackingField;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field <MemberInfo>k__BackingField, offset: 0x48, size: 0x8, def value: None
+ ::System::Reflection::MemberInfo*  ____MemberInfo_k__BackingField;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Meta::XR::ImmersiveDebugger::InspectedMember, ___attribute) == 0x28, "Offset mismatch!");
@@ -157,6 +156,6 @@ static_assert(offsetof(::Meta::XR::ImmersiveDebugger::InspectedMember, ____Membe
 
 static_assert(::cordl_internals::size_check_v<::Meta::XR::ImmersiveDebugger::InspectedMember, 0x50>, "Size mismatch!");
 
-} // namespace Meta::XR::ImmersiveDebugger
+} // namespace end def Meta::XR::ImmersiveDebugger
 NEED_NO_BOX(::Meta::XR::ImmersiveDebugger::InspectedMember);
 DEFINE_IL2CPP_ARG_TYPE(::Meta::XR::ImmersiveDebugger::InspectedMember*, "Meta.XR.ImmersiveDebugger", "InspectedMember");

@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "System/Linq/Expressions/AnalyzeTypeIsResult.hpp"
 #include "System/Linq/Expressions/ArrayBuilderExtensions.hpp"
@@ -107,5 +107,6 @@ module;
 #include "System/Linq/Expressions/UnaryExpression.hpp"
 #include "System/Linq/Expressions/Utils.hpp"
 #ifdef __cpp_modules
-export module Expressions;
-#endif
+                    export module Expressions;
+                    #endif
+                

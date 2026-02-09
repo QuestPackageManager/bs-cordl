@@ -12,63 +12,63 @@ struct TextureSizeMode;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::RenderGraphModule::TextureSizeMode);
-// Dependencies
+// Dependencies 
 namespace UnityEngine::Rendering::RenderGraphModule {
 // Is value type: true
 // CS Name: UnityEngine.Rendering.RenderGraphModule.TextureSizeMode
 struct CORDL_TYPE TextureSizeMode {
 public:
-  // Declarations
-  using __CORDL_BACKING_ENUM_TYPE = int32_t;
+// Declarations
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct __TextureSizeMode_Unwrapped
-  enum struct __TextureSizeMode_Unwrapped : int32_t {
-    __E_Explicit = static_cast<int32_t>(0x0),
-    __E_Scale = static_cast<int32_t>(0x1),
-    __E_Functor = static_cast<int32_t>(0x2),
-  };
+/// @brief Nested struct __TextureSizeMode_Unwrapped
+enum struct __TextureSizeMode_Unwrapped : int32_t {
+__E_Explicit = static_cast<int32_t>(0x0),
+__E_Scale = static_cast<int32_t>(0x1),
+__E_Functor = static_cast<int32_t>(0x2),
+};
 
-  /// @brief Conversion into unwrapped enum value
-  constexpr operator __TextureSizeMode_Unwrapped() const noexcept {
-    return static_cast<__TextureSizeMode_Unwrapped>(this->value__);
-  }
+/// @brief Conversion into unwrapped enum value
+constexpr operator __TextureSizeMode_Unwrapped () const noexcept {
+return static_cast<__TextureSizeMode_Unwrapped>(this->value__);
+}
 
-  /// @brief Conversion into unwrapped enum value
-  constexpr explicit operator int32_t() const noexcept {
-    return static_cast<int32_t>(this->value__);
-  }
+/// @brief Conversion into unwrapped enum value
+constexpr explicit operator int32_t () const noexcept {
+return static_cast<int32_t>(this->value__);
+}
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TextureSizeMode();
+// Ctor Parameters []
+// @brief default ctor
+constexpr TextureSizeMode() ;
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr TextureSizeMode(int32_t value__) noexcept;
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr TextureSizeMode(int32_t  value__) noexcept;
 
-  /// @brief Field Explicit value: I32(0)
-  static ::UnityEngine::Rendering::RenderGraphModule::TextureSizeMode const Explicit;
+/// @brief Field Explicit value: I32(0)
+static ::UnityEngine::Rendering::RenderGraphModule::TextureSizeMode const Explicit;
 
-  /// @brief Field Functor value: I32(2)
-  static ::UnityEngine::Rendering::RenderGraphModule::TextureSizeMode const Functor;
+/// @brief Field Functor value: I32(2)
+static ::UnityEngine::Rendering::RenderGraphModule::TextureSizeMode const Functor;
 
-  /// @brief Field Scale value: I32(1)
-  static ::UnityEngine::Rendering::RenderGraphModule::TextureSizeMode const Scale;
+/// @brief Field Scale value: I32(1)
+static ::UnityEngine::Rendering::RenderGraphModule::TextureSizeMode const Scale;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12438 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12442};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x4};
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+/// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+ int32_t  value__;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Rendering::RenderGraphModule::TextureSizeMode, value__) == 0x0, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::RenderGraphModule::TextureSizeMode, 0x4>, "Size mismatch!");
 
-} // namespace UnityEngine::Rendering::RenderGraphModule
+} // namespace end def UnityEngine::Rendering::RenderGraphModule
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::RenderGraphModule::TextureSizeMode, "UnityEngine.Rendering.RenderGraphModule", "TextureSizeMode");

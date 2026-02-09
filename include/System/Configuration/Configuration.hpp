@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "System/Configuration/ConfigurationCollectionAttribute.hpp"
 #include "System/Configuration/ConfigurationElement.hpp"
@@ -13,5 +13,6 @@ module;
 #include "System/Configuration/IConfigurationSectionHandler.hpp"
 #include "System/Configuration/IgnoreSection.hpp"
 #ifdef __cpp_modules
-export module Configuration;
-#endif
+                    export module Configuration;
+                    #endif
+                

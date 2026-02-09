@@ -26,75 +26,72 @@ namespace UnityEngine {
 // CS Name: UnityEngine.ContactPoint
 struct CORDL_TYPE ContactPoint {
 public:
-  // Declarations
-  __declspec(property(get = get_impulse)) ::UnityEngine::Vector3 impulse;
+// Declarations
+ __declspec(property(get=get_impulse)) ::UnityEngine::Vector3  impulse;
 
-  __declspec(property(get = get_normal)) ::UnityEngine::Vector3 normal;
+ __declspec(property(get=get_normal)) ::UnityEngine::Vector3  normal;
 
-  __declspec(property(get = get_otherCollider)) ::UnityW<::UnityEngine::Collider> otherCollider;
+ __declspec(property(get=get_otherCollider)) ::UnityW<::UnityEngine::Collider>  otherCollider;
 
-  __declspec(property(get = get_point)) ::UnityEngine::Vector3 point;
+ __declspec(property(get=get_point)) ::UnityEngine::Vector3  point;
 
-  __declspec(property(get = get_separation)) float_t separation;
+ __declspec(property(get=get_separation)) float_t  separation;
 
-  __declspec(property(get = get_thisCollider)) ::UnityW<::UnityEngine::Collider> thisCollider;
+ __declspec(property(get=get_thisCollider)) ::UnityW<::UnityEngine::Collider>  thisCollider;
 
-  /// @brief Method .ctor, addr 0x69a5fb8, size 0x30, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::Vector3 point, ::UnityEngine::Vector3 normal, ::UnityEngine::Vector3 impulse, float_t separation, int32_t thisInstanceID, int32_t otherInstenceID);
+/// @brief Method .ctor, addr 0x69a6678, size 0x30, virtual false, abstract: false, final false
+inline void _ctor(::UnityEngine::Vector3  point, ::UnityEngine::Vector3  normal, ::UnityEngine::Vector3  impulse, float_t  separation, int32_t  thisInstanceID, int32_t  otherInstenceID) ;
 
-  /// @brief Method get_impulse, addr 0x69a5da4, size 0xc, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector3 get_impulse();
+/// @brief Method get_impulse, addr 0x69a6464, size 0xc, virtual false, abstract: false, final false
+inline ::UnityEngine::Vector3 get_impulse() ;
 
-  /// @brief Method get_normal, addr 0x69a5d98, size 0xc, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector3 get_normal();
+/// @brief Method get_normal, addr 0x69a6458, size 0xc, virtual false, abstract: false, final false
+inline ::UnityEngine::Vector3 get_normal() ;
 
-  /// @brief Method get_otherCollider, addr 0x69a5f54, size 0x5c, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::Collider> get_otherCollider();
+/// @brief Method get_otherCollider, addr 0x69a6614, size 0x5c, virtual false, abstract: false, final false
+inline ::UnityW<::UnityEngine::Collider> get_otherCollider() ;
 
-  /// @brief Method get_point, addr 0x69a5d8c, size 0xc, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector3 get_point();
+/// @brief Method get_point, addr 0x69a644c, size 0xc, virtual false, abstract: false, final false
+inline ::UnityEngine::Vector3 get_point() ;
 
-  /// @brief Method get_separation, addr 0x69a5fb0, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_separation();
+/// @brief Method get_separation, addr 0x69a6670, size 0x8, virtual false, abstract: false, final false
+inline float_t get_separation() ;
 
-  /// @brief Method get_thisCollider, addr 0x69a5db0, size 0x5c, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::Collider> get_thisCollider();
+/// @brief Method get_thisCollider, addr 0x69a6470, size 0x5c, virtual false, abstract: false, final false
+inline ::UnityW<::UnityEngine::Collider> get_thisCollider() ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ContactPoint();
+// Ctor Parameters []
+// @brief default ctor
+constexpr ContactPoint() ;
 
-  // Ctor Parameters [CppParam { name: "m_Point", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "m_Normal", ty: "::UnityEngine::Vector3", modifiers: "", def_value:
-  // None }, CppParam { name: "m_Impulse", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "m_ThisColliderInstanceID", ty: "int32_t", modifiers: "", def_value: None },
-  // CppParam { name: "m_OtherColliderInstanceID", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_Separation", ty: "float_t", modifiers: "", def_value: None }]
-  constexpr ContactPoint(::UnityEngine::Vector3 m_Point, ::UnityEngine::Vector3 m_Normal, ::UnityEngine::Vector3 m_Impulse, int32_t m_ThisColliderInstanceID, int32_t m_OtherColliderInstanceID,
-                         float_t m_Separation) noexcept;
+// Ctor Parameters [CppParam { name: "m_Point", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "m_Normal", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "m_Impulse", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "m_ThisColliderInstanceID", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_OtherColliderInstanceID", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_Separation", ty: "float_t", modifiers: "", def_value: None }]
+constexpr ContactPoint(::UnityEngine::Vector3  m_Point, ::UnityEngine::Vector3  m_Normal, ::UnityEngine::Vector3  m_Impulse, int32_t  m_ThisColliderInstanceID, int32_t  m_OtherColliderInstanceID, float_t  m_Separation) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18576 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{18580};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x30};
 
-  /// @brief Field m_Point, offset: 0x0, size: 0xc, def value: None
-  ::UnityEngine::Vector3 m_Point;
+/// @brief Field m_Point, offset: 0x0, size: 0xc, def value: None
+ ::UnityEngine::Vector3  m_Point;
 
-  /// @brief Field m_Normal, offset: 0xc, size: 0xc, def value: None
-  ::UnityEngine::Vector3 m_Normal;
+/// @brief Field m_Normal, offset: 0xc, size: 0xc, def value: None
+ ::UnityEngine::Vector3  m_Normal;
 
-  /// @brief Field m_Impulse, offset: 0x18, size: 0xc, def value: None
-  ::UnityEngine::Vector3 m_Impulse;
+/// @brief Field m_Impulse, offset: 0x18, size: 0xc, def value: None
+ ::UnityEngine::Vector3  m_Impulse;
 
-  /// @brief Field m_ThisColliderInstanceID, offset: 0x24, size: 0x4, def value: None
-  int32_t m_ThisColliderInstanceID;
+/// @brief Field m_ThisColliderInstanceID, offset: 0x24, size: 0x4, def value: None
+ int32_t  m_ThisColliderInstanceID;
 
-  /// @brief Field m_OtherColliderInstanceID, offset: 0x28, size: 0x4, def value: None
-  int32_t m_OtherColliderInstanceID;
+/// @brief Field m_OtherColliderInstanceID, offset: 0x28, size: 0x4, def value: None
+ int32_t  m_OtherColliderInstanceID;
 
-  /// @brief Field m_Separation, offset: 0x2c, size: 0x4, def value: None
-  float_t m_Separation;
+/// @brief Field m_Separation, offset: 0x2c, size: 0x4, def value: None
+ float_t  m_Separation;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::ContactPoint, m_Point) == 0x0, "Offset mismatch!");
@@ -111,5 +108,5 @@ static_assert(offsetof(::UnityEngine::ContactPoint, m_Separation) == 0x2c, "Offs
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ContactPoint, 0x30>, "Size mismatch!");
 
-} // namespace UnityEngine
+} // namespace end def UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ContactPoint, "UnityEngine", "ContactPoint");

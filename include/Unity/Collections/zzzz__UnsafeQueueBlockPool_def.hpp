@@ -28,50 +28,50 @@ namespace Unity::Collections {
 // CS Name: Unity.Collections.UnsafeQueueBlockPool
 class CORDL_TYPE UnsafeQueueBlockPool : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field Data, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_Data, put = setStaticF_Data)) ::Unity::Burst::SharedStatic_1<::System::IntPtr> Data;
+// Declarations
+/// @brief Field Data, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_Data, put=setStaticF_Data)) ::Unity::Burst::SharedStatic_1<::System::IntPtr>  Data;
 
-  /// @brief Method AppDomainOnDomainUnload, addr 0x6312d38, size 0x94, virtual false, abstract: false, final false
-  static inline void AppDomainOnDomainUnload();
+/// @brief Method AppDomainOnDomainUnload, addr 0x63133f8, size 0x94, virtual false, abstract: false, final false
+static inline void AppDomainOnDomainUnload() ;
 
-  /// @brief Method GetQueueBlockPool, addr 0x6312c0c, size 0x12c, virtual false, abstract: false, final false
-  static inline ::Unity::Collections::UnsafeQueueBlockPoolData* GetQueueBlockPool();
+/// @brief Method GetQueueBlockPool, addr 0x63132cc, size 0x12c, virtual false, abstract: false, final false
+static inline ::Unity::Collections::UnsafeQueueBlockPoolData* GetQueueBlockPool() ;
 
-  static inline ::Unity::Collections::UnsafeQueueBlockPool* New_ctor();
+static inline ::Unity::Collections::UnsafeQueueBlockPool* New_ctor() ;
 
-  /// @brief Method OnDomainUnload, addr 0x6312dcc, size 0xf0, virtual false, abstract: false, final false
-  static inline void OnDomainUnload(::System::Object* sender, ::System::EventArgs* e);
+/// @brief Method OnDomainUnload, addr 0x631348c, size 0xf0, virtual false, abstract: false, final false
+static inline void OnDomainUnload(::System::Object*  sender, ::System::EventArgs*  e) ;
 
-  /// @brief Method .ctor, addr 0x6312ebc, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x631357c, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  static inline ::Unity::Burst::SharedStatic_1<::System::IntPtr> getStaticF_Data();
+static inline ::Unity::Burst::SharedStatic_1<::System::IntPtr> getStaticF_Data() ;
 
-  static inline void setStaticF_Data(::Unity::Burst::SharedStatic_1<::System::IntPtr> value);
+static inline void setStaticF_Data(::Unity::Burst::SharedStatic_1<::System::IntPtr>  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr UnsafeQueueBlockPool();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr UnsafeQueueBlockPool() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UnsafeQueueBlockPool", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  UnsafeQueueBlockPool(UnsafeQueueBlockPool&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UnsafeQueueBlockPool", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  UnsafeQueueBlockPool(UnsafeQueueBlockPool const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "UnsafeQueueBlockPool", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+UnsafeQueueBlockPool(UnsafeQueueBlockPool && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15701 };
+// Ctor Parameters [CppParam { name: "", ty: "UnsafeQueueBlockPool", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+UnsafeQueueBlockPool(UnsafeQueueBlockPool const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{15705};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Unity::Collections::UnsafeQueueBlockPool, 0x10>, "Size mismatch!");
 
-} // namespace Unity::Collections
+} // namespace end def Unity::Collections
 NEED_NO_BOX(::Unity::Collections::UnsafeQueueBlockPool);
 DEFINE_IL2CPP_ARG_TYPE(::Unity::Collections::UnsafeQueueBlockPool*, "Unity.Collections", "UnsafeQueueBlockPool");

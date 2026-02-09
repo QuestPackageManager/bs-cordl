@@ -9,10 +9,12 @@ namespace GlobalNamespace {
 class BeatmapLevelSO;
 }
 namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
+template<typename T>
+class IReadOnlyList_1;
 }
 namespace System::Collections::Generic {
-template <typename T> class List_1;
+template<typename T>
+class List_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -26,60 +28,59 @@ namespace GlobalNamespace {
 // CS Name: BeatmapLevelCollectionSO
 class CORDL_TYPE BeatmapLevelCollectionSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
-  // Declarations
-  /// @brief Field _beatmapLevels, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__beatmapLevels,
-                      put = __cordl_internal_set__beatmapLevels)) ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BeatmapLevelSO>>* _beatmapLevels;
+// Declarations
+/// @brief Field _beatmapLevels, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get__beatmapLevels, put=__cordl_internal_set__beatmapLevels)) ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BeatmapLevelSO>>*  _beatmapLevels;
 
-  __declspec(property(get = get_beatmapLevels)) ::System::Collections::Generic::IReadOnlyList_1<::UnityW<::GlobalNamespace::BeatmapLevelSO>>* beatmapLevels;
+ __declspec(property(get=get_beatmapLevels)) ::System::Collections::Generic::IReadOnlyList_1<::UnityW<::GlobalNamespace::BeatmapLevelSO>>*  beatmapLevels;
 
-  /// @brief Method AddBeatmapLevel, addr 0x36234b0, size 0xb4, virtual false, abstract: false, final false
-  inline void AddBeatmapLevel(::GlobalNamespace::BeatmapLevelSO* beatmapLevel);
+/// @brief Method AddBeatmapLevel, addr 0x3623400, size 0xb4, virtual false, abstract: false, final false
+inline void AddBeatmapLevel(::GlobalNamespace::BeatmapLevelSO*  beatmapLevel) ;
 
-  /// @brief Method Create, addr 0x362340c, size 0xa4, virtual false, abstract: false, final false
-  static inline ::UnityW<::GlobalNamespace::BeatmapLevelCollectionSO> Create();
+/// @brief Method Create, addr 0x362335c, size 0xa4, virtual false, abstract: false, final false
+static inline ::UnityW<::GlobalNamespace::BeatmapLevelCollectionSO> Create() ;
 
-  static inline ::GlobalNamespace::BeatmapLevelCollectionSO* New_ctor();
+static inline ::GlobalNamespace::BeatmapLevelCollectionSO* New_ctor() ;
 
-  constexpr ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BeatmapLevelSO>>* const& __cordl_internal_get__beatmapLevels() const;
+constexpr ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BeatmapLevelSO>>* const& __cordl_internal_get__beatmapLevels() const;
 
-  constexpr ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BeatmapLevelSO>>*& __cordl_internal_get__beatmapLevels();
+constexpr ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BeatmapLevelSO>>*& __cordl_internal_get__beatmapLevels() ;
 
-  constexpr void __cordl_internal_set__beatmapLevels(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BeatmapLevelSO>>* value);
+constexpr void __cordl_internal_set__beatmapLevels(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BeatmapLevelSO>>*  value) ;
 
-  /// @brief Method .ctor, addr 0x3623564, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x36234b4, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_beatmapLevels, addr 0x3623404, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::IReadOnlyList_1<::UnityW<::GlobalNamespace::BeatmapLevelSO>>* get_beatmapLevels();
+/// @brief Method get_beatmapLevels, addr 0x3623354, size 0x8, virtual false, abstract: false, final false
+inline ::System::Collections::Generic::IReadOnlyList_1<::UnityW<::GlobalNamespace::BeatmapLevelSO>>* get_beatmapLevels() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BeatmapLevelCollectionSO();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr BeatmapLevelCollectionSO() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelCollectionSO", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  BeatmapLevelCollectionSO(BeatmapLevelCollectionSO&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelCollectionSO", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapLevelCollectionSO(BeatmapLevelCollectionSO const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelCollectionSO", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+BeatmapLevelCollectionSO(BeatmapLevelCollectionSO && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14929 };
+// Ctor Parameters [CppParam { name: "", ty: "BeatmapLevelCollectionSO", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+BeatmapLevelCollectionSO(BeatmapLevelCollectionSO const& ) = delete;
 
-  /// @brief Field _beatmapLevels, offset: 0x18, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BeatmapLevelSO>>* ____beatmapLevels;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{14933};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _beatmapLevels, offset: 0x18, size: 0x8, def value: None
+ ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BeatmapLevelSO>>*  ____beatmapLevels;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::BeatmapLevelCollectionSO, ____beatmapLevels) == 0x18, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatmapLevelCollectionSO, 0x20>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BeatmapLevelCollectionSO);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BeatmapLevelCollectionSO*, "", "BeatmapLevelCollectionSO");

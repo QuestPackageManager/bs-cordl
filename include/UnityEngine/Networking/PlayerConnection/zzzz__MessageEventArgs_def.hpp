@@ -18,54 +18,54 @@ namespace UnityEngine::Networking::PlayerConnection {
 // CS Name: UnityEngine.Networking.PlayerConnection.MessageEventArgs
 class CORDL_TYPE MessageEventArgs : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field data, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_data, put = __cordl_internal_set_data)) ::ArrayW<uint8_t, ::Array<uint8_t>*> data;
+// Declarations
+/// @brief Field data, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_data, put=__cordl_internal_set_data)) ::ArrayW<uint8_t,::Array<uint8_t>*>  data;
 
-  /// @brief Field playerId, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_playerId, put = __cordl_internal_set_playerId)) int32_t playerId;
+/// @brief Field playerId, offset 0x10, size 0x4 
+ __declspec(property(get=__cordl_internal_get_playerId, put=__cordl_internal_set_playerId)) int32_t  playerId;
 
-  static inline ::UnityEngine::Networking::PlayerConnection::MessageEventArgs* New_ctor();
+static inline ::UnityEngine::Networking::PlayerConnection::MessageEventArgs* New_ctor() ;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_data() const;
+constexpr ::ArrayW<uint8_t,::Array<uint8_t>*> const& __cordl_internal_get_data() const;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_data();
+constexpr ::ArrayW<uint8_t,::Array<uint8_t>*>& __cordl_internal_get_data() ;
 
-  constexpr int32_t const& __cordl_internal_get_playerId() const;
+constexpr int32_t const& __cordl_internal_get_playerId() const;
 
-  constexpr int32_t& __cordl_internal_get_playerId();
+constexpr int32_t& __cordl_internal_get_playerId() ;
 
-  constexpr void __cordl_internal_set_data(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+constexpr void __cordl_internal_set_data(::ArrayW<uint8_t,::Array<uint8_t>*>  value) ;
 
-  constexpr void __cordl_internal_set_playerId(int32_t value);
+constexpr void __cordl_internal_set_playerId(int32_t  value) ;
 
-  /// @brief Method .ctor, addr 0x6936c94, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6937354, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MessageEventArgs();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr MessageEventArgs() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MessageEventArgs", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  MessageEventArgs(MessageEventArgs&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MessageEventArgs", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  MessageEventArgs(MessageEventArgs const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "MessageEventArgs", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+MessageEventArgs(MessageEventArgs && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10626 };
+// Ctor Parameters [CppParam { name: "", ty: "MessageEventArgs", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+MessageEventArgs(MessageEventArgs const& ) = delete;
 
-  /// @brief Field playerId, offset: 0x10, size: 0x4, def value: None
-  int32_t ___playerId;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10630};
 
-  /// @brief Field data, offset: 0x18, size: 0x8, def value: None
-  ::ArrayW<uint8_t, ::Array<uint8_t>*> ___data;
+/// @brief Field playerId, offset: 0x10, size: 0x4, def value: None
+ int32_t  ___playerId;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field data, offset: 0x18, size: 0x8, def value: None
+ ::ArrayW<uint8_t,::Array<uint8_t>*>  ___data;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Networking::PlayerConnection::MessageEventArgs, ___playerId) == 0x10, "Offset mismatch!");
@@ -74,6 +74,6 @@ static_assert(offsetof(::UnityEngine::Networking::PlayerConnection::MessageEvent
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Networking::PlayerConnection::MessageEventArgs, 0x20>, "Size mismatch!");
 
-} // namespace UnityEngine::Networking::PlayerConnection
+} // namespace end def UnityEngine::Networking::PlayerConnection
 NEED_NO_BOX(::UnityEngine::Networking::PlayerConnection::MessageEventArgs);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Networking::PlayerConnection::MessageEventArgs*, "UnityEngine.Networking.PlayerConnection", "MessageEventArgs");

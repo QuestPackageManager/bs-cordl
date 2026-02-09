@@ -5,125 +5,148 @@
 #include "GlobalNamespace/zzzz__LayerMasks_def.hpp"
 #include "UnityEngine/zzzz__LayerMask_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::LayerMasks.GetLayerMask
-template <>
+template<>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::LayerMask (*)(::StringW)>(&::GlobalNamespace::LayerMasks::GetLayerMask)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x35fca24;
+  constexpr static std::size_t addrs = 0x35fc974;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LayerMasks*>::get(), "GetLayerMask", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LayerMasks*>::get(),
+                        "GetLayerMask",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::LayerMasks.GetLayerMask
-template <>
+template<>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::LayerMask (*)(int32_t)>(&::GlobalNamespace::LayerMasks::GetLayerMask)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x35fca40;
+  constexpr static std::size_t addrs = 0x35fc990;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LayerMasks*>::get(), "GetLayerMask", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LayerMasks*>::get(),
+                        "GetLayerMask",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::LayerMasks.GetLayer
-template <>
+template<>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::StringW)>(&::GlobalNamespace::LayerMasks::GetLayer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x35fca4c;
+  constexpr static std::size_t addrs = 0x35fc99c;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LayerMasks*>::get(), "GetLayer", std::span<Il2CppClass const* const, 0>(),
-                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LayerMasks*>::get(),
+                        "GetLayer",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::LayerMasks._ctor
-template <>
+template<>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LayerMasks::*)()>(&::GlobalNamespace::LayerMasks::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x35fca54;
+  constexpr static std::size_t addrs = 0x35fc9a4;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LayerMasks*>::get(), ".ctor",
-                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LayerMasks*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
-inline void GlobalNamespace::LayerMasks::setStaticF_saberLayerMask(::UnityEngine::LayerMask value) {
-  ::cordl_internals::setStaticField<::UnityEngine::LayerMask, "saberLayerMask", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LayerMasks*>::get>(
-      std::forward<::UnityEngine::LayerMask>(value));
+inline void GlobalNamespace::LayerMasks::setStaticF_saberLayerMask(::UnityEngine::LayerMask  value)  {
+::cordl_internals::setStaticField<::UnityEngine::LayerMask, "saberLayerMask", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LayerMasks*>::get>(std::forward<::UnityEngine::LayerMask>(value));
 }
-inline ::UnityEngine::LayerMask GlobalNamespace::LayerMasks::getStaticF_saberLayerMask() {
-  return ::cordl_internals::getStaticField<::UnityEngine::LayerMask, "saberLayerMask", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LayerMasks*>::get>();
+inline ::UnityEngine::LayerMask GlobalNamespace::LayerMasks::getStaticF_saberLayerMask()  {
+return ::cordl_internals::getStaticField<::UnityEngine::LayerMask, "saberLayerMask", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LayerMasks*>::get>();
 }
-inline void GlobalNamespace::LayerMasks::setStaticF_noteLayerMask(::UnityEngine::LayerMask value) {
-  ::cordl_internals::setStaticField<::UnityEngine::LayerMask, "noteLayerMask", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LayerMasks*>::get>(
-      std::forward<::UnityEngine::LayerMask>(value));
+inline void GlobalNamespace::LayerMasks::setStaticF_noteLayerMask(::UnityEngine::LayerMask  value)  {
+::cordl_internals::setStaticField<::UnityEngine::LayerMask, "noteLayerMask", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LayerMasks*>::get>(std::forward<::UnityEngine::LayerMask>(value));
 }
-inline ::UnityEngine::LayerMask GlobalNamespace::LayerMasks::getStaticF_noteLayerMask() {
-  return ::cordl_internals::getStaticField<::UnityEngine::LayerMask, "noteLayerMask", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LayerMasks*>::get>();
+inline ::UnityEngine::LayerMask GlobalNamespace::LayerMasks::getStaticF_noteLayerMask()  {
+return ::cordl_internals::getStaticField<::UnityEngine::LayerMask, "noteLayerMask", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LayerMasks*>::get>();
 }
-inline void GlobalNamespace::LayerMasks::setStaticF_noteDebrisLayer(int32_t value) {
-  ::cordl_internals::setStaticField<int32_t, "noteDebrisLayer", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LayerMasks*>::get>(std::forward<int32_t>(value));
+inline void GlobalNamespace::LayerMasks::setStaticF_noteDebrisLayer(int32_t  value)  {
+::cordl_internals::setStaticField<int32_t, "noteDebrisLayer", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LayerMasks*>::get>(std::forward<int32_t>(value));
 }
-inline int32_t GlobalNamespace::LayerMasks::getStaticF_noteDebrisLayer() {
-  return ::cordl_internals::getStaticField<int32_t, "noteDebrisLayer", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LayerMasks*>::get>();
+inline int32_t GlobalNamespace::LayerMasks::getStaticF_noteDebrisLayer()  {
+return ::cordl_internals::getStaticField<int32_t, "noteDebrisLayer", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LayerMasks*>::get>();
 }
-inline void GlobalNamespace::LayerMasks::setStaticF_cutEffectParticlesLayer(int32_t value) {
-  ::cordl_internals::setStaticField<int32_t, "cutEffectParticlesLayer", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LayerMasks*>::get>(std::forward<int32_t>(value));
+inline void GlobalNamespace::LayerMasks::setStaticF_cutEffectParticlesLayer(int32_t  value)  {
+::cordl_internals::setStaticField<int32_t, "cutEffectParticlesLayer", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LayerMasks*>::get>(std::forward<int32_t>(value));
 }
-inline int32_t GlobalNamespace::LayerMasks::getStaticF_cutEffectParticlesLayer() {
-  return ::cordl_internals::getStaticField<int32_t, "cutEffectParticlesLayer", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LayerMasks*>::get>();
+inline int32_t GlobalNamespace::LayerMasks::getStaticF_cutEffectParticlesLayer()  {
+return ::cordl_internals::getStaticField<int32_t, "cutEffectParticlesLayer", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LayerMasks*>::get>();
 }
-inline void GlobalNamespace::LayerMasks::setStaticF_noteDebrisLayerMask(::UnityEngine::LayerMask value) {
-  ::cordl_internals::setStaticField<::UnityEngine::LayerMask, "noteDebrisLayerMask", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LayerMasks*>::get>(
-      std::forward<::UnityEngine::LayerMask>(value));
+inline void GlobalNamespace::LayerMasks::setStaticF_noteDebrisLayerMask(::UnityEngine::LayerMask  value)  {
+::cordl_internals::setStaticField<::UnityEngine::LayerMask, "noteDebrisLayerMask", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LayerMasks*>::get>(std::forward<::UnityEngine::LayerMask>(value));
 }
-inline ::UnityEngine::LayerMask GlobalNamespace::LayerMasks::getStaticF_noteDebrisLayerMask() {
-  return ::cordl_internals::getStaticField<::UnityEngine::LayerMask, "noteDebrisLayerMask", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LayerMasks*>::get>();
+inline ::UnityEngine::LayerMask GlobalNamespace::LayerMasks::getStaticF_noteDebrisLayerMask()  {
+return ::cordl_internals::getStaticField<::UnityEngine::LayerMask, "noteDebrisLayerMask", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LayerMasks*>::get>();
 }
-inline void GlobalNamespace::LayerMasks::setStaticF_cutEffectParticlesLayerMask(::UnityEngine::LayerMask value) {
-  ::cordl_internals::setStaticField<::UnityEngine::LayerMask, "cutEffectParticlesLayerMask", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LayerMasks*>::get>(
-      std::forward<::UnityEngine::LayerMask>(value));
+inline void GlobalNamespace::LayerMasks::setStaticF_cutEffectParticlesLayerMask(::UnityEngine::LayerMask  value)  {
+::cordl_internals::setStaticField<::UnityEngine::LayerMask, "cutEffectParticlesLayerMask", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LayerMasks*>::get>(std::forward<::UnityEngine::LayerMask>(value));
 }
-inline ::UnityEngine::LayerMask GlobalNamespace::LayerMasks::getStaticF_cutEffectParticlesLayerMask() {
-  return ::cordl_internals::getStaticField<::UnityEngine::LayerMask, "cutEffectParticlesLayerMask", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LayerMasks*>::get>();
+inline ::UnityEngine::LayerMask GlobalNamespace::LayerMasks::getStaticF_cutEffectParticlesLayerMask()  {
+return ::cordl_internals::getStaticField<::UnityEngine::LayerMask, "cutEffectParticlesLayerMask", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LayerMasks*>::get>();
 }
-inline ::UnityEngine::LayerMask GlobalNamespace::LayerMasks::GetLayerMask(::StringW layerName) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LayerMasks*>::get(), "GetLayerMask", std::span<Il2CppClass const* const, 0>(),
-                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::LayerMask, false>(nullptr, ___internal_method, layerName);
+inline ::UnityEngine::LayerMask GlobalNamespace::LayerMasks::GetLayerMask(::StringW  layerName)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LayerMasks*>::get(),
+                        "GetLayerMask",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::LayerMask, false>(nullptr, ___internal_method, layerName);
 }
-inline ::UnityEngine::LayerMask GlobalNamespace::LayerMasks::GetLayerMask(int32_t layerNum) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LayerMasks*>::get(), "GetLayerMask", std::span<Il2CppClass const* const, 0>(),
-                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::LayerMask, false>(nullptr, ___internal_method, layerNum);
+inline ::UnityEngine::LayerMask GlobalNamespace::LayerMasks::GetLayerMask(int32_t  layerNum)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LayerMasks*>::get(),
+                        "GetLayerMask",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::LayerMask, false>(nullptr, ___internal_method, layerNum);
 }
-inline int32_t GlobalNamespace::LayerMasks::GetLayer(::StringW layerName) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LayerMasks*>::get(), "GetLayer", std::span<Il2CppClass const* const, 0>(),
-                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
-  return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, layerName);
+inline int32_t GlobalNamespace::LayerMasks::GetLayer(::StringW  layerName)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LayerMasks*>::get(),
+                        "GetLayer",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, layerName);
 }
-inline void GlobalNamespace::LayerMasks::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LayerMasks*>::get(), ".ctor",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::LayerMasks::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LayerMasks*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::LayerMasks* GlobalNamespace::LayerMasks::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::LayerMasks*>());
+inline ::GlobalNamespace::LayerMasks* GlobalNamespace::LayerMasks::New_ctor()  {
+return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::LayerMasks*>());
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::LayerMasks::LayerMasks() {}
+constexpr ::GlobalNamespace::LayerMasks::LayerMasks()   {
+}

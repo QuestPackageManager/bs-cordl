@@ -18,48 +18,48 @@ namespace Oculus::Haptics {
 // CS Name: Oculus.Haptics.HapticClip
 class CORDL_TYPE HapticClip : public ::UnityEngine::ScriptableObject {
 public:
-  // Declarations
-  /// @brief Field json, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_json, put = __cordl_internal_set_json)) ::StringW json;
+// Declarations
+/// @brief Field json, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_json, put=__cordl_internal_set_json)) ::StringW  json;
 
-  static inline ::Oculus::Haptics::HapticClip* New_ctor();
+static inline ::Oculus::Haptics::HapticClip* New_ctor() ;
 
-  constexpr ::StringW const& __cordl_internal_get_json() const;
+constexpr ::StringW const& __cordl_internal_get_json() const;
 
-  constexpr ::StringW& __cordl_internal_get_json();
+constexpr ::StringW& __cordl_internal_get_json() ;
 
-  constexpr void __cordl_internal_set_json(::StringW value);
+constexpr void __cordl_internal_set_json(::StringW  value) ;
 
-  /// @brief Method .ctor, addr 0x5c01d14, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5c02220, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HapticClip();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr HapticClip() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HapticClip", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  HapticClip(HapticClip&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HapticClip", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  HapticClip(HapticClip const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "HapticClip", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+HapticClip(HapticClip && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22438 };
+// Ctor Parameters [CppParam { name: "", ty: "HapticClip", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+HapticClip(HapticClip const& ) = delete;
 
-  /// @brief Field json, offset: 0x18, size: 0x8, def value: None
-  ::StringW ___json;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{22442};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field json, offset: 0x18, size: 0x8, def value: None
+ ::StringW  ___json;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Oculus::Haptics::HapticClip, ___json) == 0x18, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::Oculus::Haptics::HapticClip, 0x20>, "Size mismatch!");
 
-} // namespace Oculus::Haptics
+} // namespace end def Oculus::Haptics
 NEED_NO_BOX(::Oculus::Haptics::HapticClip);
 DEFINE_IL2CPP_ARG_TYPE(::Oculus::Haptics::HapticClip*, "Oculus.Haptics", "HapticClip");

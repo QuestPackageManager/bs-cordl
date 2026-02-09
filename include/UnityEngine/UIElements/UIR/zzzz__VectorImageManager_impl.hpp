@@ -16,318 +16,351 @@
 #include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 #include "UnityEngine/zzzz__Texture2D_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::UIR::VectorImageManager.get_atlas
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Texture2D> (::UnityEngine::UIElements::UIR::VectorImageManager::*)()>(
-    &::UnityEngine::UIElements::UIR::VectorImageManager::get_atlas)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Texture2D> (::UnityEngine::UIElements::UIR::VectorImageManager::*)()>(&::UnityEngine::UIElements::UIR::VectorImageManager::get_atlas)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x6b2a8a4;
+  constexpr static std::size_t addrs = 0x6b2af64;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::VectorImageManager*>::get(),
-                                                                               "get_atlas", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::VectorImageManager*>::get(),
+                        "get_atlas",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::UIR::VectorImageManager._ctor
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::VectorImageManager::*)(::UnityEngine::UIElements::AtlasBase*)>(
-    &::UnityEngine::UIElements::UIR::VectorImageManager::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::VectorImageManager::*)(::UnityEngine::UIElements::AtlasBase*)>(&::UnityEngine::UIElements::UIR::VectorImageManager::_ctor)> {
   constexpr static std::size_t size = 0x1cc;
-  constexpr static std::size_t addrs = 0x6b2a8bc;
+  constexpr static std::size_t addrs = 0x6b2af7c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::VectorImageManager*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::AtlasBase*>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::VectorImageManager*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::AtlasBase*>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::UIR::VectorImageManager.get_disposed
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::UIR::VectorImageManager::*)()>(
-    &::UnityEngine::UIElements::UIR::VectorImageManager::get_disposed)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::UIR::VectorImageManager::*)()>(&::UnityEngine::UIElements::UIR::VectorImageManager::get_disposed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b2aa88;
+  constexpr static std::size_t addrs = 0x6b2b148;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::VectorImageManager*>::get(),
-                                                                               "get_disposed", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::VectorImageManager*>::get(),
+                        "get_disposed",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::UIR::VectorImageManager.set_disposed
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::VectorImageManager::*)(bool)>(
-    &::UnityEngine::UIElements::UIR::VectorImageManager::set_disposed)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::VectorImageManager::*)(bool)>(&::UnityEngine::UIElements::UIR::VectorImageManager::set_disposed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6b2aa90;
+  constexpr static std::size_t addrs = 0x6b2b150;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::VectorImageManager*>::get(), "set_disposed",
-                                                 std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::VectorImageManager*>::get(),
+                        "set_disposed",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::UIR::VectorImageManager.Dispose
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::VectorImageManager::*)()>(
-    &::UnityEngine::UIElements::UIR::VectorImageManager::Dispose)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::VectorImageManager::*)()>(&::UnityEngine::UIElements::UIR::VectorImageManager::Dispose)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x6b2aa98;
+  constexpr static std::size_t addrs = 0x6b2b158;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::VectorImageManager*>::get(),
-                                                                               "Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::VectorImageManager*>::get(),
+                        "Dispose",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::UIR::VectorImageManager.Dispose
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::VectorImageManager::*)(bool)>(
-    &::UnityEngine::UIElements::UIR::VectorImageManager::Dispose)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::VectorImageManager::*)(bool)>(&::UnityEngine::UIElements::UIR::VectorImageManager::Dispose)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x6b2ab08;
+  constexpr static std::size_t addrs = 0x6b2b1c8;
 
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::VectorImageManager*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::VectorImageManager*>::get(), 5));
+  inline static const ::MethodInfo* methodInfo() {
+    
+                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::VectorImageManager*>::get(),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::VectorImageManager*>::get(),
+                                  5
+                                ));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::UIR::VectorImageManager.Commit
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::VectorImageManager::*)()>(
-    &::UnityEngine::UIElements::UIR::VectorImageManager::Commit)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::VectorImageManager::*)()>(&::UnityEngine::UIElements::UIR::VectorImageManager::Commit)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6b2ac34;
+  constexpr static std::size_t addrs = 0x6b2b2f4;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::VectorImageManager*>::get(),
-                                                                               "Commit", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::VectorImageManager*>::get(),
+                        "Commit",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::UIR::VectorImageManager.AddUser
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::UIR::GradientRemap* (
-    ::UnityEngine::UIElements::UIR::VectorImageManager::*)(::UnityEngine::UIElements::VectorImage*, ::UnityEngine::UIElements::VisualElement*)>(
-    &::UnityEngine::UIElements::UIR::VectorImageManager::AddUser)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::UIR::GradientRemap* (::UnityEngine::UIElements::UIR::VectorImageManager::*)(::UnityEngine::UIElements::VectorImage*, ::UnityEngine::UIElements::VisualElement*)>(&::UnityEngine::UIElements::UIR::VectorImageManager::AddUser)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x6b2ac5c;
+  constexpr static std::size_t addrs = 0x6b2b31c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::VectorImageManager*>::get(), "AddUser", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::VectorImage*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::VisualElement*>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::VectorImageManager*>::get(),
+                        "AddUser",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::VectorImage*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::VisualElement*>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::UIElements::UIR::VectorImageManager.Register
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::UIR::VectorImageRenderInfo* (
-    ::UnityEngine::UIElements::UIR::VectorImageManager::*)(::UnityEngine::UIElements::VectorImage*, ::UnityEngine::UIElements::VisualElement*)>(
-    &::UnityEngine::UIElements::UIR::VectorImageManager::Register)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::UIR::VectorImageRenderInfo* (::UnityEngine::UIElements::UIR::VectorImageManager::*)(::UnityEngine::UIElements::VectorImage*, ::UnityEngine::UIElements::VisualElement*)>(&::UnityEngine::UIElements::UIR::VectorImageManager::Register)> {
   constexpr static std::size_t size = 0x3c4;
-  constexpr static std::size_t addrs = 0x6b2ad68;
+  constexpr static std::size_t addrs = 0x6b2b428;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::VectorImageManager*>::get(), "Register", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::VectorImage*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::VisualElement*>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::VectorImageManager*>::get(),
+                        "Register",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::VectorImage*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::VisualElement*>::get()}
+                    )));
     return ___internal_method;
   }
 };
-constexpr ::UnityEngine::UIElements::AtlasBase*& UnityEngine::UIElements::UIR::VectorImageManager::__cordl_internal_get_m_Atlas() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_Atlas;
+constexpr ::UnityEngine::UIElements::AtlasBase*& UnityEngine::UIElements::UIR::VectorImageManager::__cordl_internal_get_m_Atlas()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_Atlas;
 }
 constexpr ::UnityEngine::UIElements::AtlasBase* const& UnityEngine::UIElements::UIR::VectorImageManager::__cordl_internal_get_m_Atlas() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_Atlas;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_Atlas;
 }
-constexpr void UnityEngine::UIElements::UIR::VectorImageManager::__cordl_internal_set_m_Atlas(::UnityEngine::UIElements::AtlasBase* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Atlas)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void UnityEngine::UIElements::UIR::VectorImageManager::__cordl_internal_set_m_Atlas(::UnityEngine::UIElements::AtlasBase*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Atlas)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::UIElements::VectorImage>, ::UnityEngine::UIElements::UIR::VectorImageRenderInfo*>*&
-UnityEngine::UIElements::UIR::VectorImageManager::__cordl_internal_get_m_Registered() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_Registered;
+constexpr ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::UIElements::VectorImage>,::UnityEngine::UIElements::UIR::VectorImageRenderInfo*>*& UnityEngine::UIElements::UIR::VectorImageManager::__cordl_internal_get_m_Registered()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_Registered;
 }
-constexpr ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::UIElements::VectorImage>, ::UnityEngine::UIElements::UIR::VectorImageRenderInfo*>* const&
-UnityEngine::UIElements::UIR::VectorImageManager::__cordl_internal_get_m_Registered() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_Registered;
+constexpr ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::UIElements::VectorImage>,::UnityEngine::UIElements::UIR::VectorImageRenderInfo*>* const& UnityEngine::UIElements::UIR::VectorImageManager::__cordl_internal_get_m_Registered() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_Registered;
 }
-constexpr void UnityEngine::UIElements::UIR::VectorImageManager::__cordl_internal_set_m_Registered(
-    ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::UIElements::VectorImage>, ::UnityEngine::UIElements::UIR::VectorImageRenderInfo*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Registered)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void UnityEngine::UIElements::UIR::VectorImageManager::__cordl_internal_set_m_Registered(::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::UIElements::VectorImage>,::UnityEngine::UIElements::UIR::VectorImageRenderInfo*>*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Registered)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::UIElements::UIR::VectorImageRenderInfoPool*& UnityEngine::UIElements::UIR::VectorImageManager::__cordl_internal_get_m_RenderInfoPool() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_RenderInfoPool;
+constexpr ::UnityEngine::UIElements::UIR::VectorImageRenderInfoPool*& UnityEngine::UIElements::UIR::VectorImageManager::__cordl_internal_get_m_RenderInfoPool()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_RenderInfoPool;
 }
 constexpr ::UnityEngine::UIElements::UIR::VectorImageRenderInfoPool* const& UnityEngine::UIElements::UIR::VectorImageManager::__cordl_internal_get_m_RenderInfoPool() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_RenderInfoPool;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_RenderInfoPool;
 }
-constexpr void UnityEngine::UIElements::UIR::VectorImageManager::__cordl_internal_set_m_RenderInfoPool(::UnityEngine::UIElements::UIR::VectorImageRenderInfoPool* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_RenderInfoPool)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void UnityEngine::UIElements::UIR::VectorImageManager::__cordl_internal_set_m_RenderInfoPool(::UnityEngine::UIElements::UIR::VectorImageRenderInfoPool*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_RenderInfoPool)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::UIElements::UIR::GradientRemapPool*& UnityEngine::UIElements::UIR::VectorImageManager::__cordl_internal_get_m_GradientRemapPool() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_GradientRemapPool;
+constexpr ::UnityEngine::UIElements::UIR::GradientRemapPool*& UnityEngine::UIElements::UIR::VectorImageManager::__cordl_internal_get_m_GradientRemapPool()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_GradientRemapPool;
 }
 constexpr ::UnityEngine::UIElements::UIR::GradientRemapPool* const& UnityEngine::UIElements::UIR::VectorImageManager::__cordl_internal_get_m_GradientRemapPool() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_GradientRemapPool;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_GradientRemapPool;
 }
-constexpr void UnityEngine::UIElements::UIR::VectorImageManager::__cordl_internal_set_m_GradientRemapPool(::UnityEngine::UIElements::UIR::GradientRemapPool* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_GradientRemapPool)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void UnityEngine::UIElements::UIR::VectorImageManager::__cordl_internal_set_m_GradientRemapPool(::UnityEngine::UIElements::UIR::GradientRemapPool*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_GradientRemapPool)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::UIElements::UIR::GradientSettingsAtlas*& UnityEngine::UIElements::UIR::VectorImageManager::__cordl_internal_get_m_GradientSettingsAtlas() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_GradientSettingsAtlas;
+constexpr ::UnityEngine::UIElements::UIR::GradientSettingsAtlas*& UnityEngine::UIElements::UIR::VectorImageManager::__cordl_internal_get_m_GradientSettingsAtlas()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_GradientSettingsAtlas;
 }
 constexpr ::UnityEngine::UIElements::UIR::GradientSettingsAtlas* const& UnityEngine::UIElements::UIR::VectorImageManager::__cordl_internal_get_m_GradientSettingsAtlas() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_GradientSettingsAtlas;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_GradientSettingsAtlas;
 }
-constexpr void UnityEngine::UIElements::UIR::VectorImageManager::__cordl_internal_set_m_GradientSettingsAtlas(::UnityEngine::UIElements::UIR::GradientSettingsAtlas* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_GradientSettingsAtlas)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void UnityEngine::UIElements::UIR::VectorImageManager::__cordl_internal_set_m_GradientSettingsAtlas(::UnityEngine::UIElements::UIR::GradientSettingsAtlas*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_GradientSettingsAtlas)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr bool& UnityEngine::UIElements::UIR::VectorImageManager::__cordl_internal_get_m_LoggedExhaustedSettingsAtlas() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_LoggedExhaustedSettingsAtlas;
+constexpr bool& UnityEngine::UIElements::UIR::VectorImageManager::__cordl_internal_get_m_LoggedExhaustedSettingsAtlas()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_LoggedExhaustedSettingsAtlas;
 }
 constexpr bool const& UnityEngine::UIElements::UIR::VectorImageManager::__cordl_internal_get_m_LoggedExhaustedSettingsAtlas() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_LoggedExhaustedSettingsAtlas;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_LoggedExhaustedSettingsAtlas;
 }
-constexpr void UnityEngine::UIElements::UIR::VectorImageManager::__cordl_internal_set_m_LoggedExhaustedSettingsAtlas(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___m_LoggedExhaustedSettingsAtlas = value;
+constexpr void UnityEngine::UIElements::UIR::VectorImageManager::__cordl_internal_set_m_LoggedExhaustedSettingsAtlas(bool  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_LoggedExhaustedSettingsAtlas = value;
 }
-constexpr bool& UnityEngine::UIElements::UIR::VectorImageManager::__cordl_internal_get__disposed_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____disposed_k__BackingField;
+constexpr bool& UnityEngine::UIElements::UIR::VectorImageManager::__cordl_internal_get__disposed_k__BackingField()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____disposed_k__BackingField;
 }
 constexpr bool const& UnityEngine::UIElements::UIR::VectorImageManager::__cordl_internal_get__disposed_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____disposed_k__BackingField;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____disposed_k__BackingField;
 }
-constexpr void UnityEngine::UIElements::UIR::VectorImageManager::__cordl_internal_set__disposed_k__BackingField(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____disposed_k__BackingField = value;
+constexpr void UnityEngine::UIElements::UIR::VectorImageManager::__cordl_internal_set__disposed_k__BackingField(bool  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____disposed_k__BackingField = value;
 }
-inline void UnityEngine::UIElements::UIR::VectorImageManager::setStaticF_instances(::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::VectorImageManager*>* value) {
-  ::cordl_internals::setStaticField<::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::VectorImageManager*>*, "instances",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::VectorImageManager*>::get>(
-      std::forward<::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::VectorImageManager*>*>(value));
+inline void UnityEngine::UIElements::UIR::VectorImageManager::setStaticF_instances(::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::VectorImageManager*>*  value)  {
+::cordl_internals::setStaticField<::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::VectorImageManager*>*, "instances", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::VectorImageManager*>::get>(std::forward<::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::VectorImageManager*>*>(value));
 }
-inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::VectorImageManager*>* UnityEngine::UIElements::UIR::VectorImageManager::getStaticF_instances() {
-  return ::cordl_internals::getStaticField<::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::VectorImageManager*>*, "instances",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::VectorImageManager*>::get>();
+inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::VectorImageManager*>* UnityEngine::UIElements::UIR::VectorImageManager::getStaticF_instances()  {
+return ::cordl_internals::getStaticField<::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::VectorImageManager*>*, "instances", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::VectorImageManager*>::get>();
 }
-inline void UnityEngine::UIElements::UIR::VectorImageManager::setStaticF_s_MarkerRegister(::Unity::Profiling::ProfilerMarker value) {
-  ::cordl_internals::setStaticField<::Unity::Profiling::ProfilerMarker, "s_MarkerRegister",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::VectorImageManager*>::get>(
-      std::forward<::Unity::Profiling::ProfilerMarker>(value));
+inline void UnityEngine::UIElements::UIR::VectorImageManager::setStaticF_s_MarkerRegister(::Unity::Profiling::ProfilerMarker  value)  {
+::cordl_internals::setStaticField<::Unity::Profiling::ProfilerMarker, "s_MarkerRegister", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::VectorImageManager*>::get>(std::forward<::Unity::Profiling::ProfilerMarker>(value));
 }
-inline ::Unity::Profiling::ProfilerMarker UnityEngine::UIElements::UIR::VectorImageManager::getStaticF_s_MarkerRegister() {
-  return ::cordl_internals::getStaticField<::Unity::Profiling::ProfilerMarker, "s_MarkerRegister",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::VectorImageManager*>::get>();
+inline ::Unity::Profiling::ProfilerMarker UnityEngine::UIElements::UIR::VectorImageManager::getStaticF_s_MarkerRegister()  {
+return ::cordl_internals::getStaticField<::Unity::Profiling::ProfilerMarker, "s_MarkerRegister", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::VectorImageManager*>::get>();
 }
-inline void UnityEngine::UIElements::UIR::VectorImageManager::setStaticF_s_MarkerUnregister(::Unity::Profiling::ProfilerMarker value) {
-  ::cordl_internals::setStaticField<::Unity::Profiling::ProfilerMarker, "s_MarkerUnregister",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::VectorImageManager*>::get>(
-      std::forward<::Unity::Profiling::ProfilerMarker>(value));
+inline void UnityEngine::UIElements::UIR::VectorImageManager::setStaticF_s_MarkerUnregister(::Unity::Profiling::ProfilerMarker  value)  {
+::cordl_internals::setStaticField<::Unity::Profiling::ProfilerMarker, "s_MarkerUnregister", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::VectorImageManager*>::get>(std::forward<::Unity::Profiling::ProfilerMarker>(value));
 }
-inline ::Unity::Profiling::ProfilerMarker UnityEngine::UIElements::UIR::VectorImageManager::getStaticF_s_MarkerUnregister() {
-  return ::cordl_internals::getStaticField<::Unity::Profiling::ProfilerMarker, "s_MarkerUnregister",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::VectorImageManager*>::get>();
+inline ::Unity::Profiling::ProfilerMarker UnityEngine::UIElements::UIR::VectorImageManager::getStaticF_s_MarkerUnregister()  {
+return ::cordl_internals::getStaticField<::Unity::Profiling::ProfilerMarker, "s_MarkerUnregister", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::VectorImageManager*>::get>();
 }
-inline ::UnityW<::UnityEngine::Texture2D> UnityEngine::UIElements::UIR::VectorImageManager::get_atlas() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::VectorImageManager*>::get(),
-                                                                             "get_atlas", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Texture2D>, false>(this, ___internal_method);
+inline ::UnityW<::UnityEngine::Texture2D> UnityEngine::UIElements::UIR::VectorImageManager::get_atlas()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::VectorImageManager*>::get(),
+                        "get_atlas",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Texture2D>, false>(this, ___internal_method);
 }
-inline void UnityEngine::UIElements::UIR::VectorImageManager::_ctor(::UnityEngine::UIElements::AtlasBase* atlas) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::VectorImageManager*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::AtlasBase*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, atlas);
+inline void UnityEngine::UIElements::UIR::VectorImageManager::_ctor(::UnityEngine::UIElements::AtlasBase*  atlas)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::VectorImageManager*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::AtlasBase*>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, atlas);
 }
-inline bool UnityEngine::UIElements::UIR::VectorImageManager::get_disposed() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::VectorImageManager*>::get(),
-                                                                             "get_disposed", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool UnityEngine::UIElements::UIR::VectorImageManager::get_disposed()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::VectorImageManager*>::get(),
+                        "get_disposed",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline void UnityEngine::UIElements::UIR::VectorImageManager::set_disposed(bool value) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::VectorImageManager*>::get(), "set_disposed",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void UnityEngine::UIElements::UIR::VectorImageManager::set_disposed(bool  value)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::VectorImageManager*>::get(),
+                        "set_disposed",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void UnityEngine::UIElements::UIR::VectorImageManager::Dispose() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::VectorImageManager*>::get(),
-                                                                             "Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void UnityEngine::UIElements::UIR::VectorImageManager::Dispose()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::VectorImageManager*>::get(),
+                        "Dispose",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void UnityEngine::UIElements::UIR::VectorImageManager::Dispose(bool disposing) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::VectorImageManager*>::get(), 5)));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, disposing);
+inline void UnityEngine::UIElements::UIR::VectorImageManager::Dispose(bool  disposing)  {
+auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::VectorImageManager*>::get(),
+                            5
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, disposing);
 }
-inline void UnityEngine::UIElements::UIR::VectorImageManager::Commit() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::VectorImageManager*>::get(),
-                                                                             "Commit", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void UnityEngine::UIElements::UIR::VectorImageManager::Commit()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::VectorImageManager*>::get(),
+                        "Commit",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::UnityEngine::UIElements::UIR::GradientRemap* UnityEngine::UIElements::UIR::VectorImageManager::AddUser(::UnityEngine::UIElements::VectorImage* vi,
-                                                                                                                ::UnityEngine::UIElements::VisualElement* context) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::VectorImageManager*>::get(), "AddUser", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::VectorImage*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::VisualElement*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::UIR::GradientRemap*, false>(this, ___internal_method, vi, context);
+inline ::UnityEngine::UIElements::UIR::GradientRemap* UnityEngine::UIElements::UIR::VectorImageManager::AddUser(::UnityEngine::UIElements::VectorImage*  vi, ::UnityEngine::UIElements::VisualElement*  context)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::VectorImageManager*>::get(),
+                        "AddUser",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::VectorImage*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::VisualElement*>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::UIR::GradientRemap*, false>(this, ___internal_method, vi, context);
 }
-inline ::UnityEngine::UIElements::UIR::VectorImageRenderInfo* UnityEngine::UIElements::UIR::VectorImageManager::Register(::UnityEngine::UIElements::VectorImage* vi,
-                                                                                                                         ::UnityEngine::UIElements::VisualElement* context) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::VectorImageManager*>::get(), "Register", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::VectorImage*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::VisualElement*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::UIR::VectorImageRenderInfo*, false>(this, ___internal_method, vi, context);
+inline ::UnityEngine::UIElements::UIR::VectorImageRenderInfo* UnityEngine::UIElements::UIR::VectorImageManager::Register(::UnityEngine::UIElements::VectorImage*  vi, ::UnityEngine::UIElements::VisualElement*  context)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::VectorImageManager*>::get(),
+                        "Register",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::VectorImage*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::VisualElement*>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::UIR::VectorImageRenderInfo*, false>(this, ___internal_method, vi, context);
 }
-inline ::UnityEngine::UIElements::UIR::VectorImageManager* UnityEngine::UIElements::UIR::VectorImageManager::New_ctor(::UnityEngine::UIElements::AtlasBase* atlas) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::UIR::VectorImageManager*>(atlas));
+inline ::UnityEngine::UIElements::UIR::VectorImageManager* UnityEngine::UIElements::UIR::VectorImageManager::New_ctor(::UnityEngine::UIElements::AtlasBase*  atlas)  {
+return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::UIR::VectorImageManager*>(atlas));
 }
 /// @brief Convert operator to "::System::IDisposable"
-constexpr UnityEngine::UIElements::UIR::VectorImageManager::operator ::System::IDisposable*() noexcept {
-  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+constexpr  UnityEngine::UIElements::UIR::VectorImageManager::operator ::System::IDisposable*() noexcept {
+return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::IDisposable"
 constexpr ::System::IDisposable* UnityEngine::UIElements::UIR::VectorImageManager::i___System__IDisposable() noexcept {
-  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::UIElements::UIR::VectorImageManager::VectorImageManager() {}
+constexpr ::UnityEngine::UIElements::UIR::VectorImageManager::VectorImageManager()   {
+}

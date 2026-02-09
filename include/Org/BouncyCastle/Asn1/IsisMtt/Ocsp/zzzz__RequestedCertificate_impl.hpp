@@ -9,245 +9,275 @@
 #include "Org/BouncyCastle/Asn1/zzzz__IAsn1Choice_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate_Choice::RequestedCertificate_Choice(int32_t value__) noexcept {
-  this->value__ = value__;
+constexpr ::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate_Choice::RequestedCertificate_Choice(int32_t  value__) noexcept  {
+this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate_Choice::RequestedCertificate_Choice() {}
-constexpr ::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate_Choice Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate_Choice::Certificate{ static_cast<int32_t>(0xffffffff) };
-constexpr ::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate_Choice Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate_Choice::PublicKeyCertificate{ static_cast<int32_t>(0x0) };
-constexpr ::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate_Choice Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate_Choice::AttributeCertificate{ static_cast<int32_t>(0x1) };
+constexpr ::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate_Choice::RequestedCertificate_Choice()   {
+}
+constexpr ::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate_Choice  Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate_Choice::Certificate{static_cast<int32_t>(0xffffffff)};
+constexpr ::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate_Choice  Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate_Choice::PublicKeyCertificate{static_cast<int32_t>(0x0)};
+constexpr ::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate_Choice  Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate_Choice::AttributeCertificate{static_cast<int32_t>(0x1)};
 //  Writing Method size for method: ::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate.GetInstance
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate* (*)(::System::Object*)>(
-    &::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate::GetInstance)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate* (*)(::System::Object*)>(&::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate::GetInstance)> {
   constexpr static std::size_t size = 0x1e8;
-  constexpr static std::size_t addrs = 0x3354d3c;
+  constexpr static std::size_t addrs = 0x3354c8c;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate*>::get(), "GetInstance",
-                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate*>::get(),
+                        "GetInstance",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate.GetInstance
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate* (*)(::Org::BouncyCastle::Asn1::Asn1TaggedObject*, bool)>(
-        &::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate::GetInstance)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate* (*)(::Org::BouncyCastle::Asn1::Asn1TaggedObject*, bool)>(&::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate::GetInstance)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3355034;
+  constexpr static std::size_t addrs = 0x3354f84;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate*>::get(), "GetInstance", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::Asn1TaggedObject*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate*>::get(),
+                        "GetInstance",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::Asn1TaggedObject*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate._ctor
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate::*)(
-    ::Org::BouncyCastle::Asn1::Asn1TaggedObject*)>(&::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate::*)(::Org::BouncyCastle::Asn1::Asn1TaggedObject*)>(&::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate::_ctor)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x3354f2c;
+  constexpr static std::size_t addrs = 0x3354e7c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::Asn1TaggedObject*>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::Asn1TaggedObject*>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate._ctor
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate::*)(
-    ::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*)>(&::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate::*)(::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*)>(&::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3354f24;
+  constexpr static std::size_t addrs = 0x3354e74;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate._ctor
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate::*)(
-    ::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate_Choice, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate::*)(::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate_Choice, ::ArrayW<uint8_t,::Array<uint8_t>*>)>(&::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x33550a8;
+  constexpr static std::size_t addrs = 0x3354ff8;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate_Choice>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate_Choice>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t,::Array<uint8_t>*>>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate.get_Type
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate_Choice (
-    ::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate::*)()>(&::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate::get_Type)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate_Choice (::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate::*)()>(&::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate::get_Type)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3355148;
+  constexpr static std::size_t addrs = 0x3355098;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate*>::get(), "get_Type",
-                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate*>::get(),
+                        "get_Type",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate.GetCertificateBytes
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate::*)()>(
-    &::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate::GetCertificateBytes)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t,::Array<uint8_t>*> (::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate::*)()>(&::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate::GetCertificateBytes)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x3355168;
+  constexpr static std::size_t addrs = 0x33550b8;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate*>::get(), "GetCertificateBytes",
-                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate*>::get(),
+                        "GetCertificateBytes",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate.ToAsn1Object
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate::*)()>(
-    &::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate::ToAsn1Object)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate::*)()>(&::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate::ToAsn1Object)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x3355268;
+  constexpr static std::size_t addrs = 0x33551b8;
 
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate*>::get(), 5));
+  inline static const ::MethodInfo* methodInfo() {
+    
+                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate*>::get(),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate*>::get(),
+                                  5
+                                ));
     return ___internal_method;
   }
 };
-constexpr ::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*& Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate::__cordl_internal_get_cert() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___cert;
+constexpr ::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*& Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate::__cordl_internal_get_cert()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___cert;
 }
 constexpr ::Org::BouncyCastle::Asn1::X509::X509CertificateStructure* const& Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate::__cordl_internal_get_cert() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___cert;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___cert;
 }
-constexpr void Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate::__cordl_internal_set_cert(::Org::BouncyCastle::Asn1::X509::X509CertificateStructure* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___cert)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate::__cordl_internal_set_cert(::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___cert)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate::__cordl_internal_get_publicKeyCert() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___publicKeyCert;
+constexpr ::ArrayW<uint8_t,::Array<uint8_t>*>& Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate::__cordl_internal_get_publicKeyCert()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___publicKeyCert;
 }
-constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate::__cordl_internal_get_publicKeyCert() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___publicKeyCert;
+constexpr ::ArrayW<uint8_t,::Array<uint8_t>*> const& Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate::__cordl_internal_get_publicKeyCert() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___publicKeyCert;
 }
-constexpr void Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate::__cordl_internal_set_publicKeyCert(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___publicKeyCert)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate::__cordl_internal_set_publicKeyCert(::ArrayW<uint8_t,::Array<uint8_t>*>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___publicKeyCert)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate::__cordl_internal_get_attributeCert() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___attributeCert;
+constexpr ::ArrayW<uint8_t,::Array<uint8_t>*>& Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate::__cordl_internal_get_attributeCert()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___attributeCert;
 }
-constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate::__cordl_internal_get_attributeCert() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___attributeCert;
+constexpr ::ArrayW<uint8_t,::Array<uint8_t>*> const& Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate::__cordl_internal_get_attributeCert() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___attributeCert;
 }
-constexpr void Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate::__cordl_internal_set_attributeCert(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___attributeCert)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate::__cordl_internal_set_attributeCert(::ArrayW<uint8_t,::Array<uint8_t>*>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___attributeCert)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate* Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate::GetInstance(::System::Object* obj) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate*>::get(), "GetInstance",
-                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate*, false>(nullptr, ___internal_method, obj);
+inline ::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate* Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate::GetInstance(::System::Object*  obj)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate*>::get(),
+                        "GetInstance",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate*, false>(nullptr, ___internal_method, obj);
 }
-inline ::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate* Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate::GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj,
-                                                                                                                                                 bool isExplicit) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate*>::get(), "GetInstance", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::Asn1TaggedObject*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate*, false>(nullptr, ___internal_method, obj, isExplicit);
+inline ::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate* Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate::GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject*  obj, bool  isExplicit)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate*>::get(),
+                        "GetInstance",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::Asn1TaggedObject*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate*, false>(nullptr, ___internal_method, obj, isExplicit);
 }
-inline void Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate::_ctor(::Org::BouncyCastle::Asn1::Asn1TaggedObject* tagged) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::Asn1TaggedObject*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, tagged);
+inline void Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate::_ctor(::Org::BouncyCastle::Asn1::Asn1TaggedObject*  tagged)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::Asn1TaggedObject*>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, tagged);
 }
-inline void Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate::_ctor(::Org::BouncyCastle::Asn1::X509::X509CertificateStructure* certificate) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, certificate);
+inline void Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate::_ctor(::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*  certificate)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, certificate);
 }
-inline void Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate::_ctor(::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate_Choice type,
-                                                                                ::ArrayW<uint8_t, ::Array<uint8_t>*> certificateOctets) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate_Choice>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, type, certificateOctets);
+inline void Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate::_ctor(::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate_Choice  type, ::ArrayW<uint8_t,::Array<uint8_t>*>  certificateOctets)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate_Choice>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t,::Array<uint8_t>*>>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, type, certificateOctets);
 }
-inline ::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate_Choice Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate::get_Type() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate*>::get(), "get_Type",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate_Choice, false>(this, ___internal_method);
+inline ::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate_Choice Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate::get_Type()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate*>::get(),
+                        "get_Type",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate_Choice, false>(this, ___internal_method);
 }
-inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate::GetCertificateBytes() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate*>::get(), "GetCertificateBytes",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::ArrayW<uint8_t, ::Array<uint8_t>*>, false>(this, ___internal_method);
+inline ::ArrayW<uint8_t,::Array<uint8_t>*> Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate::GetCertificateBytes()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate*>::get(),
+                        "GetCertificateBytes",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<::ArrayW<uint8_t,::Array<uint8_t>*>, false>(this, ___internal_method);
 }
-inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate::ToAsn1Object() {
-  auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate*>::get(), 5)));
-  return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::Asn1Object*, false>(this, ___internal_method);
+inline ::Org::BouncyCastle::Asn1::Asn1Object* Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate::ToAsn1Object()  {
+auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate*>::get(),
+                            5
+                        )));
+return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Asn1::Asn1Object*, false>(this, ___internal_method);
 }
-inline ::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate* Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate::New_ctor(::Org::BouncyCastle::Asn1::Asn1TaggedObject* tagged) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate*>(tagged));
+inline ::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate* Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate::New_ctor(::Org::BouncyCastle::Asn1::Asn1TaggedObject*  tagged)  {
+return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate*>(tagged));
 }
-inline ::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate*
-Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate::New_ctor(::Org::BouncyCastle::Asn1::X509::X509CertificateStructure* certificate) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate*>(certificate));
+inline ::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate* Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate::New_ctor(::Org::BouncyCastle::Asn1::X509::X509CertificateStructure*  certificate)  {
+return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate*>(certificate));
 }
-inline ::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate*
-Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate::New_ctor(::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate_Choice type,
-                                                                       ::ArrayW<uint8_t, ::Array<uint8_t>*> certificateOctets) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate*>(type, certificateOctets));
+inline ::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate* Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate::New_ctor(::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate_Choice  type, ::ArrayW<uint8_t,::Array<uint8_t>*>  certificateOctets)  {
+return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate*>(type, certificateOctets));
 }
 /// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1Choice"
-constexpr Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate::operator ::Org::BouncyCastle::Asn1::IAsn1Choice*() noexcept {
-  return static_cast<::Org::BouncyCastle::Asn1::IAsn1Choice*>(static_cast<void*>(this));
+constexpr  Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate::operator ::Org::BouncyCastle::Asn1::IAsn1Choice*() noexcept {
+return static_cast<::Org::BouncyCastle::Asn1::IAsn1Choice*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Choice"
 constexpr ::Org::BouncyCastle::Asn1::IAsn1Choice* Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate::i___Org__BouncyCastle__Asn1__IAsn1Choice() noexcept {
-  return static_cast<::Org::BouncyCastle::Asn1::IAsn1Choice*>(static_cast<void*>(this));
+return static_cast<::Org::BouncyCastle::Asn1::IAsn1Choice*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
-constexpr ::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate::RequestedCertificate() {}
+constexpr ::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::RequestedCertificate::RequestedCertificate()   {
+}

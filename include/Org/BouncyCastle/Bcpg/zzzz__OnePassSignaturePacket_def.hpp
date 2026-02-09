@@ -32,131 +32,130 @@ namespace Org::BouncyCastle::Bcpg {
 // CS Name: Org.BouncyCastle.Bcpg.OnePassSignaturePacket
 class CORDL_TYPE OnePassSignaturePacket : public ::Org::BouncyCastle::Bcpg::ContainedPacket {
 public:
-  // Declarations
-  __declspec(property(get = get_HashAlgorithm)) ::Org::BouncyCastle::Bcpg::HashAlgorithmTag HashAlgorithm;
+// Declarations
+ __declspec(property(get=get_HashAlgorithm)) ::Org::BouncyCastle::Bcpg::HashAlgorithmTag  HashAlgorithm;
 
-  __declspec(property(get = get_KeyAlgorithm)) ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag KeyAlgorithm;
+ __declspec(property(get=get_KeyAlgorithm)) ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag  KeyAlgorithm;
 
-  __declspec(property(get = get_KeyId)) int64_t KeyId;
+ __declspec(property(get=get_KeyId)) int64_t  KeyId;
 
-  __declspec(property(get = get_SignatureType)) int32_t SignatureType;
+ __declspec(property(get=get_SignatureType)) int32_t  SignatureType;
 
-  /// @brief Field hashAlgorithm, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get_hashAlgorithm, put = __cordl_internal_set_hashAlgorithm)) ::Org::BouncyCastle::Bcpg::HashAlgorithmTag hashAlgorithm;
+/// @brief Field hashAlgorithm, offset 0x18, size 0x4 
+ __declspec(property(get=__cordl_internal_get_hashAlgorithm, put=__cordl_internal_set_hashAlgorithm)) ::Org::BouncyCastle::Bcpg::HashAlgorithmTag  hashAlgorithm;
 
-  /// @brief Field keyAlgorithm, offset 0x1c, size 0x4
-  __declspec(property(get = __cordl_internal_get_keyAlgorithm, put = __cordl_internal_set_keyAlgorithm)) ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag keyAlgorithm;
+/// @brief Field keyAlgorithm, offset 0x1c, size 0x4 
+ __declspec(property(get=__cordl_internal_get_keyAlgorithm, put=__cordl_internal_set_keyAlgorithm)) ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag  keyAlgorithm;
 
-  /// @brief Field keyId, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_keyId, put = __cordl_internal_set_keyId)) int64_t keyId;
+/// @brief Field keyId, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get_keyId, put=__cordl_internal_set_keyId)) int64_t  keyId;
 
-  /// @brief Field nested, offset 0x28, size 0x4
-  __declspec(property(get = __cordl_internal_get_nested, put = __cordl_internal_set_nested)) int32_t nested;
+/// @brief Field nested, offset 0x28, size 0x4 
+ __declspec(property(get=__cordl_internal_get_nested, put=__cordl_internal_set_nested)) int32_t  nested;
 
-  /// @brief Field sigType, offset 0x14, size 0x4
-  __declspec(property(get = __cordl_internal_get_sigType, put = __cordl_internal_set_sigType)) int32_t sigType;
+/// @brief Field sigType, offset 0x14, size 0x4 
+ __declspec(property(get=__cordl_internal_get_sigType, put=__cordl_internal_set_sigType)) int32_t  sigType;
 
-  /// @brief Field version, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version)) int32_t version;
+/// @brief Field version, offset 0x10, size 0x4 
+ __declspec(property(get=__cordl_internal_get_version, put=__cordl_internal_set_version)) int32_t  version;
 
-  /// @brief Method Encode, addr 0x35a2f34, size 0x178, virtual true, abstract: false, final false
-  inline void Encode(::Org::BouncyCastle::Bcpg::BcpgOutputStream* bcpgOut);
+/// @brief Method Encode, addr 0x35a2e84, size 0x178, virtual true, abstract: false, final false
+inline void Encode(::Org::BouncyCastle::Bcpg::BcpgOutputStream*  bcpgOut) ;
 
-  static inline ::Org::BouncyCastle::Bcpg::OnePassSignaturePacket* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
+static inline ::Org::BouncyCastle::Bcpg::OnePassSignaturePacket* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream*  bcpgIn) ;
 
-  static inline ::Org::BouncyCastle::Bcpg::OnePassSignaturePacket* New_ctor(int32_t sigType, ::Org::BouncyCastle::Bcpg::HashAlgorithmTag hashAlgorithm,
-                                                                            ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag keyAlgorithm, int64_t keyId, bool isNested);
+static inline ::Org::BouncyCastle::Bcpg::OnePassSignaturePacket* New_ctor(int32_t  sigType, ::Org::BouncyCastle::Bcpg::HashAlgorithmTag  hashAlgorithm, ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag  keyAlgorithm, int64_t  keyId, bool  isNested) ;
 
-  constexpr ::Org::BouncyCastle::Bcpg::HashAlgorithmTag const& __cordl_internal_get_hashAlgorithm() const;
+constexpr ::Org::BouncyCastle::Bcpg::HashAlgorithmTag const& __cordl_internal_get_hashAlgorithm() const;
 
-  constexpr ::Org::BouncyCastle::Bcpg::HashAlgorithmTag& __cordl_internal_get_hashAlgorithm();
+constexpr ::Org::BouncyCastle::Bcpg::HashAlgorithmTag& __cordl_internal_get_hashAlgorithm() ;
 
-  constexpr ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag const& __cordl_internal_get_keyAlgorithm() const;
+constexpr ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag const& __cordl_internal_get_keyAlgorithm() const;
 
-  constexpr ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag& __cordl_internal_get_keyAlgorithm();
+constexpr ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag& __cordl_internal_get_keyAlgorithm() ;
 
-  constexpr int64_t const& __cordl_internal_get_keyId() const;
+constexpr int64_t const& __cordl_internal_get_keyId() const;
 
-  constexpr int64_t& __cordl_internal_get_keyId();
+constexpr int64_t& __cordl_internal_get_keyId() ;
 
-  constexpr int32_t const& __cordl_internal_get_nested() const;
+constexpr int32_t const& __cordl_internal_get_nested() const;
 
-  constexpr int32_t& __cordl_internal_get_nested();
+constexpr int32_t& __cordl_internal_get_nested() ;
 
-  constexpr int32_t const& __cordl_internal_get_sigType() const;
+constexpr int32_t const& __cordl_internal_get_sigType() const;
 
-  constexpr int32_t& __cordl_internal_get_sigType();
+constexpr int32_t& __cordl_internal_get_sigType() ;
 
-  constexpr int32_t const& __cordl_internal_get_version() const;
+constexpr int32_t const& __cordl_internal_get_version() const;
 
-  constexpr int32_t& __cordl_internal_get_version();
+constexpr int32_t& __cordl_internal_get_version() ;
 
-  constexpr void __cordl_internal_set_hashAlgorithm(::Org::BouncyCastle::Bcpg::HashAlgorithmTag value);
+constexpr void __cordl_internal_set_hashAlgorithm(::Org::BouncyCastle::Bcpg::HashAlgorithmTag  value) ;
 
-  constexpr void __cordl_internal_set_keyAlgorithm(::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag value);
+constexpr void __cordl_internal_set_keyAlgorithm(::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag  value) ;
 
-  constexpr void __cordl_internal_set_keyId(int64_t value);
+constexpr void __cordl_internal_set_keyId(int64_t  value) ;
 
-  constexpr void __cordl_internal_set_nested(int32_t value);
+constexpr void __cordl_internal_set_nested(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_sigType(int32_t value);
+constexpr void __cordl_internal_set_sigType(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_version(int32_t value);
+constexpr void __cordl_internal_set_version(int32_t  value) ;
 
-  /// @brief Method .ctor, addr 0x359f594, size 0x190, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
+/// @brief Method .ctor, addr 0x359f4e4, size 0x190, virtual false, abstract: false, final false
+inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream*  bcpgIn) ;
 
-  /// @brief Method .ctor, addr 0x35a2ef4, size 0x20, virtual false, abstract: false, final false
-  inline void _ctor(int32_t sigType, ::Org::BouncyCastle::Bcpg::HashAlgorithmTag hashAlgorithm, ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag keyAlgorithm, int64_t keyId, bool isNested);
+/// @brief Method .ctor, addr 0x35a2e44, size 0x20, virtual false, abstract: false, final false
+inline void _ctor(int32_t  sigType, ::Org::BouncyCastle::Bcpg::HashAlgorithmTag  hashAlgorithm, ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag  keyAlgorithm, int64_t  keyId, bool  isNested) ;
 
-  /// @brief Method get_HashAlgorithm, addr 0x35a2f24, size 0x8, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Bcpg::HashAlgorithmTag get_HashAlgorithm();
+/// @brief Method get_HashAlgorithm, addr 0x35a2e74, size 0x8, virtual false, abstract: false, final false
+inline ::Org::BouncyCastle::Bcpg::HashAlgorithmTag get_HashAlgorithm() ;
 
-  /// @brief Method get_KeyAlgorithm, addr 0x35a2f1c, size 0x8, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag get_KeyAlgorithm();
+/// @brief Method get_KeyAlgorithm, addr 0x35a2e6c, size 0x8, virtual false, abstract: false, final false
+inline ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag get_KeyAlgorithm() ;
 
-  /// @brief Method get_KeyId, addr 0x35a2f2c, size 0x8, virtual false, abstract: false, final false
-  inline int64_t get_KeyId();
+/// @brief Method get_KeyId, addr 0x35a2e7c, size 0x8, virtual false, abstract: false, final false
+inline int64_t get_KeyId() ;
 
-  /// @brief Method get_SignatureType, addr 0x35a2f14, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_SignatureType();
+/// @brief Method get_SignatureType, addr 0x35a2e64, size 0x8, virtual false, abstract: false, final false
+inline int32_t get_SignatureType() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr OnePassSignaturePacket();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr OnePassSignaturePacket() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OnePassSignaturePacket", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  OnePassSignaturePacket(OnePassSignaturePacket&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OnePassSignaturePacket", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  OnePassSignaturePacket(OnePassSignaturePacket const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "OnePassSignaturePacket", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+OnePassSignaturePacket(OnePassSignaturePacket && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 577 };
+// Ctor Parameters [CppParam { name: "", ty: "OnePassSignaturePacket", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+OnePassSignaturePacket(OnePassSignaturePacket const& ) = delete;
 
-  /// @brief Field version, offset: 0x10, size: 0x4, def value: None
-  int32_t ___version;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{577};
 
-  /// @brief Field sigType, offset: 0x14, size: 0x4, def value: None
-  int32_t ___sigType;
+/// @brief Field version, offset: 0x10, size: 0x4, def value: None
+ int32_t  ___version;
 
-  /// @brief Field hashAlgorithm, offset: 0x18, size: 0x4, def value: None
-  ::Org::BouncyCastle::Bcpg::HashAlgorithmTag ___hashAlgorithm;
+/// @brief Field sigType, offset: 0x14, size: 0x4, def value: None
+ int32_t  ___sigType;
 
-  /// @brief Field keyAlgorithm, offset: 0x1c, size: 0x4, def value: None
-  ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag ___keyAlgorithm;
+/// @brief Field hashAlgorithm, offset: 0x18, size: 0x4, def value: None
+ ::Org::BouncyCastle::Bcpg::HashAlgorithmTag  ___hashAlgorithm;
 
-  /// @brief Field keyId, offset: 0x20, size: 0x8, def value: None
-  int64_t ___keyId;
+/// @brief Field keyAlgorithm, offset: 0x1c, size: 0x4, def value: None
+ ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag  ___keyAlgorithm;
 
-  /// @brief Field nested, offset: 0x28, size: 0x4, def value: None
-  int32_t ___nested;
+/// @brief Field keyId, offset: 0x20, size: 0x8, def value: None
+ int64_t  ___keyId;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field nested, offset: 0x28, size: 0x4, def value: None
+ int32_t  ___nested;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Org::BouncyCastle::Bcpg::OnePassSignaturePacket, ___version) == 0x10, "Offset mismatch!");
@@ -173,6 +172,6 @@ static_assert(offsetof(::Org::BouncyCastle::Bcpg::OnePassSignaturePacket, ___nes
 
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Bcpg::OnePassSignaturePacket, 0x30>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Bcpg
+} // namespace end def Org::BouncyCastle::Bcpg
 NEED_NO_BOX(::Org::BouncyCastle::Bcpg::OnePassSignaturePacket);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Bcpg::OnePassSignaturePacket*, "Org.BouncyCastle.Bcpg", "OnePassSignaturePacket");

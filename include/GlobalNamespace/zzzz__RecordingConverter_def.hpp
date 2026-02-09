@@ -24,51 +24,51 @@ namespace GlobalNamespace {
 // CS Name: RecordingConverter
 class CORDL_TYPE RecordingConverter : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field _logger, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__logger, put = __cordl_internal_set__logger)) ::GlobalNamespace::IBeatSaberLogger* _logger;
+// Declarations
+/// @brief Field _logger, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get__logger, put=__cordl_internal_set__logger)) ::GlobalNamespace::IBeatSaberLogger*  _logger;
 
-  static inline ::GlobalNamespace::RecordingConverter* New_ctor(::GlobalNamespace::IBeatSaberLogger* logger);
+static inline ::GlobalNamespace::RecordingConverter* New_ctor(::GlobalNamespace::IBeatSaberLogger*  logger) ;
 
-  /// @brief Method SaveToOldFormat, addr 0x575840c, size 0x100, virtual false, abstract: false, final false
-  inline void SaveToOldFormat(::StringW path, ::GlobalNamespace::PosesRecordingData* data);
+/// @brief Method SaveToOldFormat, addr 0x5758d40, size 0x100, virtual false, abstract: false, final false
+inline void SaveToOldFormat(::StringW  path, ::GlobalNamespace::PosesRecordingData*  data) ;
 
-  constexpr ::GlobalNamespace::IBeatSaberLogger* const& __cordl_internal_get__logger() const;
+constexpr ::GlobalNamespace::IBeatSaberLogger* const& __cordl_internal_get__logger() const;
 
-  constexpr ::GlobalNamespace::IBeatSaberLogger*& __cordl_internal_get__logger();
+constexpr ::GlobalNamespace::IBeatSaberLogger*& __cordl_internal_get__logger() ;
 
-  constexpr void __cordl_internal_set__logger(::GlobalNamespace::IBeatSaberLogger* value);
+constexpr void __cordl_internal_set__logger(::GlobalNamespace::IBeatSaberLogger*  value) ;
 
-  /// @brief Method .ctor, addr 0x5757308, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::GlobalNamespace::IBeatSaberLogger* logger);
+/// @brief Method .ctor, addr 0x5757c3c, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(::GlobalNamespace::IBeatSaberLogger*  logger) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RecordingConverter();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr RecordingConverter() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RecordingConverter", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  RecordingConverter(RecordingConverter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RecordingConverter", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  RecordingConverter(RecordingConverter const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "RecordingConverter", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+RecordingConverter(RecordingConverter && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6672 };
+// Ctor Parameters [CppParam { name: "", ty: "RecordingConverter", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+RecordingConverter(RecordingConverter const& ) = delete;
 
-  /// @brief Field _logger, offset: 0x10, size: 0x8, def value: None
-  ::GlobalNamespace::IBeatSaberLogger* ____logger;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6676};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _logger, offset: 0x10, size: 0x8, def value: None
+ ::GlobalNamespace::IBeatSaberLogger*  ____logger;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::RecordingConverter, ____logger) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::RecordingConverter, 0x18>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::RecordingConverter);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::RecordingConverter*, "", "RecordingConverter");

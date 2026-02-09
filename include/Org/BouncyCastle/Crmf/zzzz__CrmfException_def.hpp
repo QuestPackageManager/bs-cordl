@@ -21,44 +21,44 @@ namespace Org::BouncyCastle::Crmf {
 // CS Name: Org.BouncyCastle.Crmf.CrmfException
 class CORDL_TYPE CrmfException : public ::System::Exception {
 public:
-  // Declarations
-  static inline ::Org::BouncyCastle::Crmf::CrmfException* New_ctor();
+// Declarations
+static inline ::Org::BouncyCastle::Crmf::CrmfException* New_ctor() ;
 
-  static inline ::Org::BouncyCastle::Crmf::CrmfException* New_ctor(::StringW message);
+static inline ::Org::BouncyCastle::Crmf::CrmfException* New_ctor(::StringW  message) ;
 
-  static inline ::Org::BouncyCastle::Crmf::CrmfException* New_ctor(::StringW message, ::System::Exception* innerException);
+static inline ::Org::BouncyCastle::Crmf::CrmfException* New_ctor(::StringW  message, ::System::Exception*  innerException) ;
 
-  /// @brief Method .ctor, addr 0x35de838, size 0x58, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x35de788, size 0x58, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method .ctor, addr 0x35de890, size 0x6c, virtual false, abstract: false, final false
-  inline void _ctor(::StringW message);
+/// @brief Method .ctor, addr 0x35de7e0, size 0x6c, virtual false, abstract: false, final false
+inline void _ctor(::StringW  message) ;
 
-  /// @brief Method .ctor, addr 0x35dcc3c, size 0x74, virtual false, abstract: false, final false
-  inline void _ctor(::StringW message, ::System::Exception* innerException);
+/// @brief Method .ctor, addr 0x35dcb8c, size 0x74, virtual false, abstract: false, final false
+inline void _ctor(::StringW  message, ::System::Exception*  innerException) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CrmfException();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr CrmfException() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CrmfException", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  CrmfException(CrmfException&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CrmfException", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  CrmfException(CrmfException const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "CrmfException", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+CrmfException(CrmfException && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 698 };
+// Ctor Parameters [CppParam { name: "", ty: "CrmfException", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+CrmfException(CrmfException const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{698};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crmf::CrmfException, 0x90>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Crmf
+} // namespace end def Org::BouncyCastle::Crmf
 NEED_NO_BOX(::Org::BouncyCastle::Crmf::CrmfException);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crmf::CrmfException*, "Org.BouncyCastle.Crmf", "CrmfException");

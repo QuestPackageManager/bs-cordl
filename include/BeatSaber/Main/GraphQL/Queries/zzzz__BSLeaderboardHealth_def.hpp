@@ -8,7 +8,8 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BSLeaderboardHealth)
 namespace System::Collections::Generic {
-template <typename T> class List_1;
+template<typename T>
+class List_1;
 }
 // Forward declare root types
 namespace BeatSaber::Main::GraphQL::Queries {
@@ -22,40 +23,40 @@ namespace BeatSaber::Main::GraphQL::Queries {
 // CS Name: BeatSaber.Main.GraphQL.Queries.BSLeaderboardHealth
 class CORDL_TYPE BSLeaderboardHealth : public ::OculusStudios::GraphQL::Client::GraphQLQueryOperation {
 public:
-  // Declarations
-  /// @brief Method GetPersistedQueryID, addr 0x31ca744, size 0x14, virtual true, abstract: false, final false
-  inline uint64_t GetPersistedQueryID();
+// Declarations
+/// @brief Method GetPersistedQueryID, addr 0x31ca694, size 0x14, virtual true, abstract: false, final false
+inline uint64_t GetPersistedQueryID() ;
 
-  /// @brief Method GetVariableNames, addr 0x31ca6d4, size 0x70, virtual true, abstract: false, final false
-  inline ::System::Collections::Generic::List_1<::StringW>* GetVariableNames();
+/// @brief Method GetVariableNames, addr 0x31ca624, size 0x70, virtual true, abstract: false, final false
+inline ::System::Collections::Generic::List_1<::StringW>* GetVariableNames() ;
 
-  static inline ::BeatSaber::Main::GraphQL::Queries::BSLeaderboardHealth* New_ctor();
+static inline ::BeatSaber::Main::GraphQL::Queries::BSLeaderboardHealth* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x31ca758, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x31ca6a8, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BSLeaderboardHealth();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr BSLeaderboardHealth() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BSLeaderboardHealth", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  BSLeaderboardHealth(BSLeaderboardHealth&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BSLeaderboardHealth", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  BSLeaderboardHealth(BSLeaderboardHealth const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "BSLeaderboardHealth", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+BSLeaderboardHealth(BSLeaderboardHealth && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20907 };
+// Ctor Parameters [CppParam { name: "", ty: "BSLeaderboardHealth", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+BSLeaderboardHealth(BSLeaderboardHealth const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20911};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::BeatSaber::Main::GraphQL::Queries::BSLeaderboardHealth, 0x18>, "Size mismatch!");
 
-} // namespace BeatSaber::Main::GraphQL::Queries
+} // namespace end def BeatSaber::Main::GraphQL::Queries
 NEED_NO_BOX(::BeatSaber::Main::GraphQL::Queries::BSLeaderboardHealth);
 DEFINE_IL2CPP_ARG_TYPE(::BeatSaber::Main::GraphQL::Queries::BSLeaderboardHealth*, "BeatSaber.Main.GraphQL.Queries", "BSLeaderboardHealth");

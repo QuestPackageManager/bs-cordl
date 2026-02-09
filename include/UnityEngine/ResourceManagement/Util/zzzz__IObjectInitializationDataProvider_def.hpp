@@ -14,31 +14,31 @@ class IObjectInitializationDataProvider;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ResourceManagement::Util::IObjectInitializationDataProvider);
-// Dependencies
+// Dependencies 
 namespace UnityEngine::ResourceManagement::Util {
 // Is value type: false
 // CS Name: UnityEngine.ResourceManagement.Util.IObjectInitializationDataProvider
 class CORDL_TYPE IObjectInitializationDataProvider {
 public:
-  // Declarations
-  __declspec(property(get = get_Name)) ::StringW Name;
+// Declarations
+ __declspec(property(get=get_Name)) ::StringW  Name;
 
-  /// @brief Method CreateObjectInitializationData, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline ::UnityEngine::ResourceManagement::Util::ObjectInitializationData CreateObjectInitializationData();
+/// @brief Method CreateObjectInitializationData, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline ::UnityEngine::ResourceManagement::Util::ObjectInitializationData CreateObjectInitializationData() ;
 
-  /// @brief Method get_Name, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline ::StringW get_Name();
+/// @brief Method get_Name, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline ::StringW get_Name() ;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IObjectInitializationDataProvider", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  IObjectInitializationDataProvider(IObjectInitializationDataProvider const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "IObjectInitializationDataProvider", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+IObjectInitializationDataProvider(IObjectInitializationDataProvider const& ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18715 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{18719};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-} // namespace UnityEngine::ResourceManagement::Util
+} // namespace end def UnityEngine::ResourceManagement::Util
 NEED_NO_BOX(::UnityEngine::ResourceManagement::Util::IObjectInitializationDataProvider);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ResourceManagement::Util::IObjectInitializationDataProvider*, "UnityEngine.ResourceManagement.Util", "IObjectInitializationDataProvider");

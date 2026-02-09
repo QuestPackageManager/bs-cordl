@@ -21,40 +21,40 @@ namespace Org::BouncyCastle::Cms {
 // CS Name: Org.BouncyCastle.Cms.SignerID
 class CORDL_TYPE SignerID : public ::Org::BouncyCastle::X509::Store::X509CertStoreSelector {
 public:
-  // Declarations
-  /// @brief Method Equals, addr 0x35d7e88, size 0x144, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* obj);
+// Declarations
+/// @brief Method Equals, addr 0x35d7dd8, size 0x144, virtual true, abstract: false, final false
+inline bool Equals(::System::Object*  obj) ;
 
-  /// @brief Method GetHashCode, addr 0x35d7de0, size 0xa8, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
+/// @brief Method GetHashCode, addr 0x35d7d30, size 0xa8, virtual true, abstract: false, final false
+inline int32_t GetHashCode() ;
 
-  static inline ::Org::BouncyCastle::Cms::SignerID* New_ctor();
+static inline ::Org::BouncyCastle::Cms::SignerID* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x35d7fcc, size 0xc, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x35d7f1c, size 0xc, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SignerID();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr SignerID() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SignerID", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  SignerID(SignerID&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SignerID", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  SignerID(SignerID const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "SignerID", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+SignerID(SignerID && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 688 };
+// Ctor Parameters [CppParam { name: "", ty: "SignerID", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+SignerID(SignerID const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{688};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Cms::SignerID, 0x88>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Cms
+} // namespace end def Org::BouncyCastle::Cms
 NEED_NO_BOX(::Org::BouncyCastle::Cms::SignerID);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Cms::SignerID*, "Org.BouncyCastle.Cms", "SignerID");

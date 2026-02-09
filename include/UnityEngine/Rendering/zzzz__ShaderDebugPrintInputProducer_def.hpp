@@ -20,32 +20,32 @@ namespace UnityEngine::Rendering {
 // CS Name: UnityEngine.Rendering.ShaderDebugPrintInputProducer
 class CORDL_TYPE ShaderDebugPrintInputProducer : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method Get, addr 0x65b8b4c, size 0x17c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Rendering::ShaderDebugPrintInput Get();
+// Declarations
+/// @brief Method Get, addr 0x65b920c, size 0x17c, virtual false, abstract: false, final false
+static inline ::UnityEngine::Rendering::ShaderDebugPrintInput Get() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ShaderDebugPrintInputProducer();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ShaderDebugPrintInputProducer() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ShaderDebugPrintInputProducer", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ShaderDebugPrintInputProducer(ShaderDebugPrintInputProducer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ShaderDebugPrintInputProducer", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ShaderDebugPrintInputProducer(ShaderDebugPrintInputProducer const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ShaderDebugPrintInputProducer", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ShaderDebugPrintInputProducer(ShaderDebugPrintInputProducer && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12033 };
+// Ctor Parameters [CppParam { name: "", ty: "ShaderDebugPrintInputProducer", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ShaderDebugPrintInputProducer(ShaderDebugPrintInputProducer const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12037};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::ShaderDebugPrintInputProducer, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine::Rendering
+} // namespace end def UnityEngine::Rendering
 NEED_NO_BOX(::UnityEngine::Rendering::ShaderDebugPrintInputProducer);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::ShaderDebugPrintInputProducer*, "UnityEngine.Rendering", "ShaderDebugPrintInputProducer");

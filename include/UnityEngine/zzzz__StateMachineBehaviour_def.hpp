@@ -27,76 +27,76 @@ namespace UnityEngine {
 // CS Name: UnityEngine.StateMachineBehaviour
 class CORDL_TYPE StateMachineBehaviour : public ::UnityEngine::ScriptableObject {
 public:
-  // Declarations
-  static inline ::UnityEngine::StateMachineBehaviour* New_ctor();
+// Declarations
+static inline ::UnityEngine::StateMachineBehaviour* New_ctor() ;
 
-  /// @brief Method OnStateEnter, addr 0x6865628, size 0x4, virtual true, abstract: false, final false
-  inline void OnStateEnter(::UnityEngine::Animator* animator, ::UnityEngine::AnimatorStateInfo stateInfo, int32_t layerIndex);
+/// @brief Method OnStateEnter, addr 0x6865ce8, size 0x4, virtual true, abstract: false, final false
+inline void OnStateEnter(::UnityEngine::Animator*  animator, ::UnityEngine::AnimatorStateInfo  stateInfo, int32_t  layerIndex) ;
 
-  /// @brief Method OnStateEnter, addr 0x6865644, size 0x4, virtual true, abstract: false, final false
-  inline void OnStateEnter(::UnityEngine::Animator* animator, ::UnityEngine::AnimatorStateInfo stateInfo, int32_t layerIndex, ::UnityEngine::Animations::AnimatorControllerPlayable controller);
+/// @brief Method OnStateEnter, addr 0x6865d04, size 0x4, virtual true, abstract: false, final false
+inline void OnStateEnter(::UnityEngine::Animator*  animator, ::UnityEngine::AnimatorStateInfo  stateInfo, int32_t  layerIndex, ::UnityEngine::Animations::AnimatorControllerPlayable  controller) ;
 
-  /// @brief Method OnStateExit, addr 0x6865630, size 0x4, virtual true, abstract: false, final false
-  inline void OnStateExit(::UnityEngine::Animator* animator, ::UnityEngine::AnimatorStateInfo stateInfo, int32_t layerIndex);
+/// @brief Method OnStateExit, addr 0x6865cf0, size 0x4, virtual true, abstract: false, final false
+inline void OnStateExit(::UnityEngine::Animator*  animator, ::UnityEngine::AnimatorStateInfo  stateInfo, int32_t  layerIndex) ;
 
-  /// @brief Method OnStateExit, addr 0x686564c, size 0x4, virtual true, abstract: false, final false
-  inline void OnStateExit(::UnityEngine::Animator* animator, ::UnityEngine::AnimatorStateInfo stateInfo, int32_t layerIndex, ::UnityEngine::Animations::AnimatorControllerPlayable controller);
+/// @brief Method OnStateExit, addr 0x6865d0c, size 0x4, virtual true, abstract: false, final false
+inline void OnStateExit(::UnityEngine::Animator*  animator, ::UnityEngine::AnimatorStateInfo  stateInfo, int32_t  layerIndex, ::UnityEngine::Animations::AnimatorControllerPlayable  controller) ;
 
-  /// @brief Method OnStateIK, addr 0x6865638, size 0x4, virtual true, abstract: false, final false
-  inline void OnStateIK(::UnityEngine::Animator* animator, ::UnityEngine::AnimatorStateInfo stateInfo, int32_t layerIndex);
+/// @brief Method OnStateIK, addr 0x6865cf8, size 0x4, virtual true, abstract: false, final false
+inline void OnStateIK(::UnityEngine::Animator*  animator, ::UnityEngine::AnimatorStateInfo  stateInfo, int32_t  layerIndex) ;
 
-  /// @brief Method OnStateIK, addr 0x6865654, size 0x4, virtual true, abstract: false, final false
-  inline void OnStateIK(::UnityEngine::Animator* animator, ::UnityEngine::AnimatorStateInfo stateInfo, int32_t layerIndex, ::UnityEngine::Animations::AnimatorControllerPlayable controller);
+/// @brief Method OnStateIK, addr 0x6865d14, size 0x4, virtual true, abstract: false, final false
+inline void OnStateIK(::UnityEngine::Animator*  animator, ::UnityEngine::AnimatorStateInfo  stateInfo, int32_t  layerIndex, ::UnityEngine::Animations::AnimatorControllerPlayable  controller) ;
 
-  /// @brief Method OnStateMachineEnter, addr 0x686563c, size 0x4, virtual true, abstract: false, final false
-  inline void OnStateMachineEnter(::UnityEngine::Animator* animator, int32_t stateMachinePathHash);
+/// @brief Method OnStateMachineEnter, addr 0x6865cfc, size 0x4, virtual true, abstract: false, final false
+inline void OnStateMachineEnter(::UnityEngine::Animator*  animator, int32_t  stateMachinePathHash) ;
 
-  /// @brief Method OnStateMachineEnter, addr 0x6865658, size 0x4, virtual true, abstract: false, final false
-  inline void OnStateMachineEnter(::UnityEngine::Animator* animator, int32_t stateMachinePathHash, ::UnityEngine::Animations::AnimatorControllerPlayable controller);
+/// @brief Method OnStateMachineEnter, addr 0x6865d18, size 0x4, virtual true, abstract: false, final false
+inline void OnStateMachineEnter(::UnityEngine::Animator*  animator, int32_t  stateMachinePathHash, ::UnityEngine::Animations::AnimatorControllerPlayable  controller) ;
 
-  /// @brief Method OnStateMachineExit, addr 0x6865640, size 0x4, virtual true, abstract: false, final false
-  inline void OnStateMachineExit(::UnityEngine::Animator* animator, int32_t stateMachinePathHash);
+/// @brief Method OnStateMachineExit, addr 0x6865d00, size 0x4, virtual true, abstract: false, final false
+inline void OnStateMachineExit(::UnityEngine::Animator*  animator, int32_t  stateMachinePathHash) ;
 
-  /// @brief Method OnStateMachineExit, addr 0x686565c, size 0x4, virtual true, abstract: false, final false
-  inline void OnStateMachineExit(::UnityEngine::Animator* animator, int32_t stateMachinePathHash, ::UnityEngine::Animations::AnimatorControllerPlayable controller);
+/// @brief Method OnStateMachineExit, addr 0x6865d1c, size 0x4, virtual true, abstract: false, final false
+inline void OnStateMachineExit(::UnityEngine::Animator*  animator, int32_t  stateMachinePathHash, ::UnityEngine::Animations::AnimatorControllerPlayable  controller) ;
 
-  /// @brief Method OnStateMove, addr 0x6865634, size 0x4, virtual true, abstract: false, final false
-  inline void OnStateMove(::UnityEngine::Animator* animator, ::UnityEngine::AnimatorStateInfo stateInfo, int32_t layerIndex);
+/// @brief Method OnStateMove, addr 0x6865cf4, size 0x4, virtual true, abstract: false, final false
+inline void OnStateMove(::UnityEngine::Animator*  animator, ::UnityEngine::AnimatorStateInfo  stateInfo, int32_t  layerIndex) ;
 
-  /// @brief Method OnStateMove, addr 0x6865650, size 0x4, virtual true, abstract: false, final false
-  inline void OnStateMove(::UnityEngine::Animator* animator, ::UnityEngine::AnimatorStateInfo stateInfo, int32_t layerIndex, ::UnityEngine::Animations::AnimatorControllerPlayable controller);
+/// @brief Method OnStateMove, addr 0x6865d10, size 0x4, virtual true, abstract: false, final false
+inline void OnStateMove(::UnityEngine::Animator*  animator, ::UnityEngine::AnimatorStateInfo  stateInfo, int32_t  layerIndex, ::UnityEngine::Animations::AnimatorControllerPlayable  controller) ;
 
-  /// @brief Method OnStateUpdate, addr 0x686562c, size 0x4, virtual true, abstract: false, final false
-  inline void OnStateUpdate(::UnityEngine::Animator* animator, ::UnityEngine::AnimatorStateInfo stateInfo, int32_t layerIndex);
+/// @brief Method OnStateUpdate, addr 0x6865cec, size 0x4, virtual true, abstract: false, final false
+inline void OnStateUpdate(::UnityEngine::Animator*  animator, ::UnityEngine::AnimatorStateInfo  stateInfo, int32_t  layerIndex) ;
 
-  /// @brief Method OnStateUpdate, addr 0x6865648, size 0x4, virtual true, abstract: false, final false
-  inline void OnStateUpdate(::UnityEngine::Animator* animator, ::UnityEngine::AnimatorStateInfo stateInfo, int32_t layerIndex, ::UnityEngine::Animations::AnimatorControllerPlayable controller);
+/// @brief Method OnStateUpdate, addr 0x6865d08, size 0x4, virtual true, abstract: false, final false
+inline void OnStateUpdate(::UnityEngine::Animator*  animator, ::UnityEngine::AnimatorStateInfo  stateInfo, int32_t  layerIndex, ::UnityEngine::Animations::AnimatorControllerPlayable  controller) ;
 
-  /// @brief Method .ctor, addr 0x6865660, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6865d20, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr StateMachineBehaviour();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr StateMachineBehaviour() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StateMachineBehaviour", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  StateMachineBehaviour(StateMachineBehaviour&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StateMachineBehaviour", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  StateMachineBehaviour(StateMachineBehaviour const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "StateMachineBehaviour", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+StateMachineBehaviour(StateMachineBehaviour && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19969 };
+// Ctor Parameters [CppParam { name: "", ty: "StateMachineBehaviour", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+StateMachineBehaviour(StateMachineBehaviour const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{19973};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::StateMachineBehaviour, 0x18>, "Size mismatch!");
 
-} // namespace UnityEngine
+} // namespace end def UnityEngine
 NEED_NO_BOX(::UnityEngine::StateMachineBehaviour);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::StateMachineBehaviour*, "UnityEngine", "StateMachineBehaviour");

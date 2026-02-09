@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "System/Collections/Concurrent/BlockingCollectionDebugView_1.hpp"
 #include "System/Collections/Concurrent/BlockingCollection_1.hpp"
@@ -14,5 +14,6 @@ module;
 #include "System/Collections/Concurrent/IProducerConsumerCollection_1.hpp"
 #include "System/Collections/Concurrent/PaddedHeadAndTail.hpp"
 #ifdef __cpp_modules
-export module Concurrent;
-#endif
+                    export module Concurrent;
+                    #endif
+                

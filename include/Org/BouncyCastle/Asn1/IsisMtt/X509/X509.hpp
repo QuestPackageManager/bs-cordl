@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "Org/BouncyCastle/Asn1/IsisMtt/X509/AdditionalInformationSyntax.hpp"
 #include "Org/BouncyCastle/Asn1/IsisMtt/X509/AdmissionSyntax.hpp"
@@ -13,5 +13,6 @@ module;
 #include "Org/BouncyCastle/Asn1/IsisMtt/X509/ProfessionInfo.hpp"
 #include "Org/BouncyCastle/Asn1/IsisMtt/X509/Restriction.hpp"
 #ifdef __cpp_modules
-export module X509;
-#endif
+                    export module X509;
+                    #endif
+                

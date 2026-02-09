@@ -20,34 +20,33 @@ namespace OVR::OpenVR {
 // CS Name: OVR.OpenVR.ImuSample_t
 struct CORDL_TYPE ImuSample_t {
 public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ImuSample_t();
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr ImuSample_t() ;
 
-  // Ctor Parameters [CppParam { name: "fSampleTime", ty: "double_t", modifiers: "", def_value: None }, CppParam { name: "vAccel", ty: "::OVR::OpenVR::HmdVector3d_t", modifiers: "", def_value: None },
-  // CppParam { name: "vGyro", ty: "::OVR::OpenVR::HmdVector3d_t", modifiers: "", def_value: None }, CppParam { name: "unOffScaleFlags", ty: "uint32_t", modifiers: "", def_value: None }]
-  constexpr ImuSample_t(double_t fSampleTime, ::OVR::OpenVR::HmdVector3d_t vAccel, ::OVR::OpenVR::HmdVector3d_t vGyro, uint32_t unOffScaleFlags) noexcept;
+// Ctor Parameters [CppParam { name: "fSampleTime", ty: "double_t", modifiers: "", def_value: None }, CppParam { name: "vAccel", ty: "::OVR::OpenVR::HmdVector3d_t", modifiers: "", def_value: None }, CppParam { name: "vGyro", ty: "::OVR::OpenVR::HmdVector3d_t", modifiers: "", def_value: None }, CppParam { name: "unOffScaleFlags", ty: "uint32_t", modifiers: "", def_value: None }]
+constexpr ImuSample_t(double_t  fSampleTime, ::OVR::OpenVR::HmdVector3d_t  vAccel, ::OVR::OpenVR::HmdVector3d_t  vGyro, uint32_t  unOffScaleFlags) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8501 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8505};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x40};
 
-  /// @brief Field fSampleTime, offset: 0x0, size: 0x8, def value: None
-  double_t fSampleTime;
+/// @brief Field fSampleTime, offset: 0x0, size: 0x8, def value: None
+ double_t  fSampleTime;
 
-  /// @brief Field vAccel, offset: 0x8, size: 0x18, def value: None
-  ::OVR::OpenVR::HmdVector3d_t vAccel;
+/// @brief Field vAccel, offset: 0x8, size: 0x18, def value: None
+ ::OVR::OpenVR::HmdVector3d_t  vAccel;
 
-  /// @brief Field vGyro, offset: 0x20, size: 0x18, def value: None
-  ::OVR::OpenVR::HmdVector3d_t vGyro;
+/// @brief Field vGyro, offset: 0x20, size: 0x18, def value: None
+ ::OVR::OpenVR::HmdVector3d_t  vGyro;
 
-  /// @brief Field unOffScaleFlags, offset: 0x38, size: 0x4, def value: None
-  uint32_t unOffScaleFlags;
+/// @brief Field unOffScaleFlags, offset: 0x38, size: 0x4, def value: None
+ uint32_t  unOffScaleFlags;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::OVR::OpenVR::ImuSample_t, fSampleTime) == 0x0, "Offset mismatch!");
@@ -60,5 +59,5 @@ static_assert(offsetof(::OVR::OpenVR::ImuSample_t, unOffScaleFlags) == 0x38, "Of
 
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::ImuSample_t, 0x40>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::ImuSample_t, "OVR.OpenVR", "ImuSample_t");

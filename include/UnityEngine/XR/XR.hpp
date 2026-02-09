@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "UnityEngine/XR/AvailableTrackingData.hpp"
 #include "UnityEngine/XR/Bone.hpp"
@@ -32,5 +32,6 @@ module;
 #include "UnityEngine/XR/XRNodeState.hpp"
 #include "UnityEngine/XR/XRSettings.hpp"
 #ifdef __cpp_modules
-export module XR;
-#endif
+                    export module XR;
+                    #endif
+                

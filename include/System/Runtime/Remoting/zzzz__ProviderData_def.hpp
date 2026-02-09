@@ -24,93 +24,93 @@ namespace System::Runtime::Remoting {
 // CS Name: System.Runtime.Remoting.ProviderData
 class CORDL_TYPE ProviderData : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field CustomData, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_CustomData, put = __cordl_internal_set_CustomData)) ::System::Collections::IList* CustomData;
+// Declarations
+/// @brief Field CustomData, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get_CustomData, put=__cordl_internal_set_CustomData)) ::System::Collections::IList*  CustomData;
 
-  /// @brief Field CustomProperties, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_CustomProperties, put = __cordl_internal_set_CustomProperties)) ::System::Collections::Hashtable* CustomProperties;
+/// @brief Field CustomProperties, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get_CustomProperties, put=__cordl_internal_set_CustomProperties)) ::System::Collections::Hashtable*  CustomProperties;
 
-  /// @brief Field Id, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_Id, put = __cordl_internal_set_Id)) ::StringW Id;
+/// @brief Field Id, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get_Id, put=__cordl_internal_set_Id)) ::StringW  Id;
 
-  /// @brief Field Ref, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_Ref, put = __cordl_internal_set_Ref)) ::StringW Ref;
+/// @brief Field Ref, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_Ref, put=__cordl_internal_set_Ref)) ::StringW  Ref;
 
-  /// @brief Field Type, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_Type, put = __cordl_internal_set_Type)) ::StringW Type;
+/// @brief Field Type, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_Type, put=__cordl_internal_set_Type)) ::StringW  Type;
 
-  /// @brief Method CopyFrom, addr 0x5978b74, size 0x69c, virtual false, abstract: false, final false
-  inline void CopyFrom(::System::Runtime::Remoting::ProviderData* other);
+/// @brief Method CopyFrom, addr 0x5979080, size 0x69c, virtual false, abstract: false, final false
+inline void CopyFrom(::System::Runtime::Remoting::ProviderData*  other) ;
 
-  static inline ::System::Runtime::Remoting::ProviderData* New_ctor();
+static inline ::System::Runtime::Remoting::ProviderData* New_ctor() ;
 
-  constexpr ::System::Collections::IList* const& __cordl_internal_get_CustomData() const;
+constexpr ::System::Collections::IList* const& __cordl_internal_get_CustomData() const;
 
-  constexpr ::System::Collections::IList*& __cordl_internal_get_CustomData();
+constexpr ::System::Collections::IList*& __cordl_internal_get_CustomData() ;
 
-  constexpr ::System::Collections::Hashtable* const& __cordl_internal_get_CustomProperties() const;
+constexpr ::System::Collections::Hashtable* const& __cordl_internal_get_CustomProperties() const;
 
-  constexpr ::System::Collections::Hashtable*& __cordl_internal_get_CustomProperties();
+constexpr ::System::Collections::Hashtable*& __cordl_internal_get_CustomProperties() ;
 
-  constexpr ::StringW const& __cordl_internal_get_Id() const;
+constexpr ::StringW const& __cordl_internal_get_Id() const;
 
-  constexpr ::StringW& __cordl_internal_get_Id();
+constexpr ::StringW& __cordl_internal_get_Id() ;
 
-  constexpr ::StringW const& __cordl_internal_get_Ref() const;
+constexpr ::StringW const& __cordl_internal_get_Ref() const;
 
-  constexpr ::StringW& __cordl_internal_get_Ref();
+constexpr ::StringW& __cordl_internal_get_Ref() ;
 
-  constexpr ::StringW const& __cordl_internal_get_Type() const;
+constexpr ::StringW const& __cordl_internal_get_Type() const;
 
-  constexpr ::StringW& __cordl_internal_get_Type();
+constexpr ::StringW& __cordl_internal_get_Type() ;
 
-  constexpr void __cordl_internal_set_CustomData(::System::Collections::IList* value);
+constexpr void __cordl_internal_set_CustomData(::System::Collections::IList*  value) ;
 
-  constexpr void __cordl_internal_set_CustomProperties(::System::Collections::Hashtable* value);
+constexpr void __cordl_internal_set_CustomProperties(::System::Collections::Hashtable*  value) ;
 
-  constexpr void __cordl_internal_set_Id(::StringW value);
+constexpr void __cordl_internal_set_Id(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_Ref(::StringW value);
+constexpr void __cordl_internal_set_Ref(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_Type(::StringW value);
+constexpr void __cordl_internal_set_Type(::StringW  value) ;
 
-  /// @brief Method .ctor, addr 0x5978b14, size 0x60, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5979020, size 0x60, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ProviderData();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ProviderData() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ProviderData", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ProviderData(ProviderData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ProviderData", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ProviderData(ProviderData const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ProviderData", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ProviderData(ProviderData && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3083 };
+// Ctor Parameters [CppParam { name: "", ty: "ProviderData", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ProviderData(ProviderData const& ) = delete;
 
-  /// @brief Field Ref, offset: 0x10, size: 0x8, def value: None
-  ::StringW ___Ref;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{3083};
 
-  /// @brief Field Type, offset: 0x18, size: 0x8, def value: None
-  ::StringW ___Type;
+/// @brief Field Ref, offset: 0x10, size: 0x8, def value: None
+ ::StringW  ___Ref;
 
-  /// @brief Field Id, offset: 0x20, size: 0x8, def value: None
-  ::StringW ___Id;
+/// @brief Field Type, offset: 0x18, size: 0x8, def value: None
+ ::StringW  ___Type;
 
-  /// @brief Field CustomProperties, offset: 0x28, size: 0x8, def value: None
-  ::System::Collections::Hashtable* ___CustomProperties;
+/// @brief Field Id, offset: 0x20, size: 0x8, def value: None
+ ::StringW  ___Id;
 
-  /// @brief Field CustomData, offset: 0x30, size: 0x8, def value: None
-  ::System::Collections::IList* ___CustomData;
+/// @brief Field CustomProperties, offset: 0x28, size: 0x8, def value: None
+ ::System::Collections::Hashtable*  ___CustomProperties;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field CustomData, offset: 0x30, size: 0x8, def value: None
+ ::System::Collections::IList*  ___CustomData;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Runtime::Remoting::ProviderData, ___Ref) == 0x10, "Offset mismatch!");
@@ -125,6 +125,6 @@ static_assert(offsetof(::System::Runtime::Remoting::ProviderData, ___CustomData)
 
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Remoting::ProviderData, 0x38>, "Size mismatch!");
 
-} // namespace System::Runtime::Remoting
+} // namespace end def System::Runtime::Remoting
 NEED_NO_BOX(::System::Runtime::Remoting::ProviderData);
 DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::ProviderData*, "System.Runtime.Remoting", "ProviderData");

@@ -19,86 +19,86 @@ namespace HMUI {
 // CS Name: HMUI.TableViewWithVariableSizedCells
 class CORDL_TYPE TableViewWithVariableSizedCells : public ::HMUI::TableView {
 public:
-  // Declarations
-  /// @brief Field _cachedCellSizes, offset 0xc8, size 0x8
-  __declspec(property(get = __cordl_internal_get__cachedCellSizes, put = __cordl_internal_set__cachedCellSizes)) ::ArrayW<float_t, ::Array<float_t>*> _cachedCellSizes;
+// Declarations
+/// @brief Field _cachedCellSizes, offset 0xc8, size 0x8 
+ __declspec(property(get=__cordl_internal_get__cachedCellSizes, put=__cordl_internal_set__cachedCellSizes)) ::ArrayW<float_t,::Array<float_t>*>  _cachedCellSizes;
 
-  /// @brief Field _cachedCumulativeCellSizes, offset 0xd0, size 0x8
-  __declspec(property(get = __cordl_internal_get__cachedCumulativeCellSizes, put = __cordl_internal_set__cachedCumulativeCellSizes)) ::ArrayW<float_t, ::Array<float_t>*> _cachedCumulativeCellSizes;
+/// @brief Field _cachedCumulativeCellSizes, offset 0xd0, size 0x8 
+ __declspec(property(get=__cordl_internal_get__cachedCumulativeCellSizes, put=__cordl_internal_set__cachedCumulativeCellSizes)) ::ArrayW<float_t,::Array<float_t>*>  _cachedCumulativeCellSizes;
 
-  /// @brief Field _totalHeight, offset 0xc4, size 0x4
-  __declspec(property(get = __cordl_internal_get__totalHeight, put = __cordl_internal_set__totalHeight)) float_t _totalHeight;
+/// @brief Field _totalHeight, offset 0xc4, size 0x4 
+ __declspec(property(get=__cordl_internal_get__totalHeight, put=__cordl_internal_set__totalHeight)) float_t  _totalHeight;
 
-  __declspec(property(get = get_contentSize)) float_t contentSize;
+ __declspec(property(get=get_contentSize)) float_t  contentSize;
 
-  /// @brief Method GetCellPosition, addr 0x56dc1e4, size 0x50, virtual true, abstract: false, final false
-  inline float_t GetCellPosition(int32_t idx);
+/// @brief Method GetCellPosition, addr 0x56dbf6c, size 0x50, virtual true, abstract: false, final false
+inline float_t GetCellPosition(int32_t  idx) ;
 
-  /// @brief Method GetCellSize, addr 0x56dc1b4, size 0x30, virtual true, abstract: false, final false
-  inline float_t GetCellSize(int32_t idx);
+/// @brief Method GetCellSize, addr 0x56dbf3c, size 0x30, virtual true, abstract: false, final false
+inline float_t GetCellSize(int32_t  idx) ;
 
-  /// @brief Method GetMaxVisibleIdx, addr 0x56dc0c4, size 0xf0, virtual true, abstract: false, final false
-  inline int32_t GetMaxVisibleIdx();
+/// @brief Method GetMaxVisibleIdx, addr 0x56dbe4c, size 0xf0, virtual true, abstract: false, final false
+inline int32_t GetMaxVisibleIdx() ;
 
-  /// @brief Method GetMinVisibleIdx, addr 0x56dbff4, size 0xd0, virtual true, abstract: false, final false
-  inline int32_t GetMinVisibleIdx();
+/// @brief Method GetMinVisibleIdx, addr 0x56dbd7c, size 0xd0, virtual true, abstract: false, final false
+inline int32_t GetMinVisibleIdx() ;
 
-  static inline ::HMUI::TableViewWithVariableSizedCells* New_ctor();
+static inline ::HMUI::TableViewWithVariableSizedCells* New_ctor() ;
 
-  /// @brief Method UpdateCachedData, addr 0x56dc234, size 0x1f4, virtual true, abstract: false, final false
-  inline void UpdateCachedData();
+/// @brief Method UpdateCachedData, addr 0x56dbfbc, size 0x1f4, virtual true, abstract: false, final false
+inline void UpdateCachedData() ;
 
-  constexpr ::ArrayW<float_t, ::Array<float_t>*> const& __cordl_internal_get__cachedCellSizes() const;
+constexpr ::ArrayW<float_t,::Array<float_t>*> const& __cordl_internal_get__cachedCellSizes() const;
 
-  constexpr ::ArrayW<float_t, ::Array<float_t>*>& __cordl_internal_get__cachedCellSizes();
+constexpr ::ArrayW<float_t,::Array<float_t>*>& __cordl_internal_get__cachedCellSizes() ;
 
-  constexpr ::ArrayW<float_t, ::Array<float_t>*> const& __cordl_internal_get__cachedCumulativeCellSizes() const;
+constexpr ::ArrayW<float_t,::Array<float_t>*> const& __cordl_internal_get__cachedCumulativeCellSizes() const;
 
-  constexpr ::ArrayW<float_t, ::Array<float_t>*>& __cordl_internal_get__cachedCumulativeCellSizes();
+constexpr ::ArrayW<float_t,::Array<float_t>*>& __cordl_internal_get__cachedCumulativeCellSizes() ;
 
-  constexpr float_t const& __cordl_internal_get__totalHeight() const;
+constexpr float_t const& __cordl_internal_get__totalHeight() const;
 
-  constexpr float_t& __cordl_internal_get__totalHeight();
+constexpr float_t& __cordl_internal_get__totalHeight() ;
 
-  constexpr void __cordl_internal_set__cachedCellSizes(::ArrayW<float_t, ::Array<float_t>*> value);
+constexpr void __cordl_internal_set__cachedCellSizes(::ArrayW<float_t,::Array<float_t>*>  value) ;
 
-  constexpr void __cordl_internal_set__cachedCumulativeCellSizes(::ArrayW<float_t, ::Array<float_t>*> value);
+constexpr void __cordl_internal_set__cachedCumulativeCellSizes(::ArrayW<float_t,::Array<float_t>*>  value) ;
 
-  constexpr void __cordl_internal_set__totalHeight(float_t value);
+constexpr void __cordl_internal_set__totalHeight(float_t  value) ;
 
-  /// @brief Method .ctor, addr 0x56dc428, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x56dc1b0, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_contentSize, addr 0x56dbfec, size 0x8, virtual true, abstract: false, final false
-  inline float_t get_contentSize();
+/// @brief Method get_contentSize, addr 0x56dbd74, size 0x8, virtual true, abstract: false, final false
+inline float_t get_contentSize() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TableViewWithVariableSizedCells();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr TableViewWithVariableSizedCells() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TableViewWithVariableSizedCells", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  TableViewWithVariableSizedCells(TableViewWithVariableSizedCells&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TableViewWithVariableSizedCells", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  TableViewWithVariableSizedCells(TableViewWithVariableSizedCells const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "TableViewWithVariableSizedCells", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+TableViewWithVariableSizedCells(TableViewWithVariableSizedCells && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19221 };
+// Ctor Parameters [CppParam { name: "", ty: "TableViewWithVariableSizedCells", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+TableViewWithVariableSizedCells(TableViewWithVariableSizedCells const& ) = delete;
 
-  /// @brief Field _totalHeight, offset: 0xc4, size: 0x4, def value: None
-  float_t ____totalHeight;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{19225};
 
-  /// @brief Field _cachedCellSizes, offset: 0xc8, size: 0x8, def value: None
-  ::ArrayW<float_t, ::Array<float_t>*> ____cachedCellSizes;
+/// @brief Field _totalHeight, offset: 0xc4, size: 0x4, def value: None
+ float_t  ____totalHeight;
 
-  /// @brief Field _cachedCumulativeCellSizes, offset: 0xd0, size: 0x8, def value: None
-  ::ArrayW<float_t, ::Array<float_t>*> ____cachedCumulativeCellSizes;
+/// @brief Field _cachedCellSizes, offset: 0xc8, size: 0x8, def value: None
+ ::ArrayW<float_t,::Array<float_t>*>  ____cachedCellSizes;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _cachedCumulativeCellSizes, offset: 0xd0, size: 0x8, def value: None
+ ::ArrayW<float_t,::Array<float_t>*>  ____cachedCumulativeCellSizes;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::HMUI::TableViewWithVariableSizedCells, ____totalHeight) == 0xc4, "Offset mismatch!");
@@ -109,6 +109,6 @@ static_assert(offsetof(::HMUI::TableViewWithVariableSizedCells, ____cachedCumula
 
 static_assert(::cordl_internals::size_check_v<::HMUI::TableViewWithVariableSizedCells, 0xd8>, "Size mismatch!");
 
-} // namespace HMUI
+} // namespace end def HMUI
 NEED_NO_BOX(::HMUI::TableViewWithVariableSizedCells);
 DEFINE_IL2CPP_ARG_TYPE(::HMUI::TableViewWithVariableSizedCells*, "HMUI", "TableViewWithVariableSizedCells");

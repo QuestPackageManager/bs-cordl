@@ -5,138 +5,172 @@
 #include "UnityEngine/Rendering/zzzz__EditorInstanceDataArrays_def.hpp"
 #include "UnityEngine/Rendering/zzzz__IDataArrays_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::EditorInstanceDataArrays_ReadOnly._ctor
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::EditorInstanceDataArrays_ReadOnly::*)(
-    ::ByRef<::UnityEngine::Rendering::CPUInstanceData>)>(&::UnityEngine::Rendering::EditorInstanceDataArrays_ReadOnly::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::EditorInstanceDataArrays_ReadOnly::*)(::ByRef<::UnityEngine::Rendering::CPUInstanceData>)>(&::UnityEngine::Rendering::EditorInstanceDataArrays_ReadOnly::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x666e318;
+  constexpr static std::size_t addrs = 0x666e9d8;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::EditorInstanceDataArrays_ReadOnly>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Rendering::CPUInstanceData>>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::EditorInstanceDataArrays_ReadOnly>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Rendering::CPUInstanceData>>::get()}
+                    )));
     return ___internal_method;
   }
 };
-inline void UnityEngine::Rendering::EditorInstanceDataArrays_ReadOnly::_ctor(::ByRef<::UnityEngine::Rendering::CPUInstanceData> instanceData) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::EditorInstanceDataArrays_ReadOnly>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Rendering::CPUInstanceData>>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, instanceData);
+inline void UnityEngine::Rendering::EditorInstanceDataArrays_ReadOnly::_ctor(::ByRef<::UnityEngine::Rendering::CPUInstanceData>  instanceData)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::EditorInstanceDataArrays_ReadOnly>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Rendering::CPUInstanceData>>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, instanceData);
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::Rendering::EditorInstanceDataArrays_ReadOnly::EditorInstanceDataArrays_ReadOnly() {}
+constexpr ::UnityEngine::Rendering::EditorInstanceDataArrays_ReadOnly::EditorInstanceDataArrays_ReadOnly()   {
+}
 //  Writing Method size for method: ::UnityEngine::Rendering::EditorInstanceDataArrays.Initialize
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::EditorInstanceDataArrays::*)(int32_t)>(
-    &::UnityEngine::Rendering::EditorInstanceDataArrays::Initialize)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::EditorInstanceDataArrays::*)(int32_t)>(&::UnityEngine::Rendering::EditorInstanceDataArrays::Initialize)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x666cecc;
+  constexpr static std::size_t addrs = 0x666d58c;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::EditorInstanceDataArrays>::get(), "Initialize",
-                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::EditorInstanceDataArrays>::get(),
+                        "Initialize",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::EditorInstanceDataArrays.Dispose
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::EditorInstanceDataArrays::*)()>(
-    &::UnityEngine::Rendering::EditorInstanceDataArrays::Dispose)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::EditorInstanceDataArrays::*)()>(&::UnityEngine::Rendering::EditorInstanceDataArrays::Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x666cfe8;
+  constexpr static std::size_t addrs = 0x666d6a8;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::EditorInstanceDataArrays>::get(),
-                                                                               "Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::EditorInstanceDataArrays>::get(),
+                        "Dispose",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::EditorInstanceDataArrays.Grow
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::EditorInstanceDataArrays::*)(int32_t)>(
-    &::UnityEngine::Rendering::EditorInstanceDataArrays::Grow)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::EditorInstanceDataArrays::*)(int32_t)>(&::UnityEngine::Rendering::EditorInstanceDataArrays::Grow)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x666d214;
+  constexpr static std::size_t addrs = 0x666d8d4;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::EditorInstanceDataArrays>::get(), "Grow", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::EditorInstanceDataArrays>::get(),
+                        "Grow",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::EditorInstanceDataArrays.Remove
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::EditorInstanceDataArrays::*)(int32_t, int32_t)>(
-    &::UnityEngine::Rendering::EditorInstanceDataArrays::Remove)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::EditorInstanceDataArrays::*)(int32_t, int32_t)>(&::UnityEngine::Rendering::EditorInstanceDataArrays::Remove)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x666db44;
+  constexpr static std::size_t addrs = 0x666e204;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::EditorInstanceDataArrays>::get(), "Remove", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::EditorInstanceDataArrays>::get(),
+                        "Remove",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::EditorInstanceDataArrays.SetDefault
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::EditorInstanceDataArrays::*)(int32_t)>(
-    &::UnityEngine::Rendering::EditorInstanceDataArrays::SetDefault)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::EditorInstanceDataArrays::*)(int32_t)>(&::UnityEngine::Rendering::EditorInstanceDataArrays::SetDefault)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x666dc1c;
+  constexpr static std::size_t addrs = 0x666e2dc;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::EditorInstanceDataArrays>::get(), "SetDefault",
-                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::EditorInstanceDataArrays>::get(),
+                        "SetDefault",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
+                    )));
     return ___internal_method;
   }
 };
-inline void UnityEngine::Rendering::EditorInstanceDataArrays::Initialize(int32_t initCapacity) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::EditorInstanceDataArrays>::get(), "Initialize",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, initCapacity);
+inline void UnityEngine::Rendering::EditorInstanceDataArrays::Initialize(int32_t  initCapacity)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::EditorInstanceDataArrays>::get(),
+                        "Initialize",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, initCapacity);
 }
-inline void UnityEngine::Rendering::EditorInstanceDataArrays::Dispose() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::EditorInstanceDataArrays>::get(),
-                                                                             "Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void UnityEngine::Rendering::EditorInstanceDataArrays::Dispose()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::EditorInstanceDataArrays>::get(),
+                        "Dispose",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void UnityEngine::Rendering::EditorInstanceDataArrays::Grow(int32_t newCapacity) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::EditorInstanceDataArrays>::get(), "Grow",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, newCapacity);
+inline void UnityEngine::Rendering::EditorInstanceDataArrays::Grow(int32_t  newCapacity)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::EditorInstanceDataArrays>::get(),
+                        "Grow",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, newCapacity);
 }
-inline void UnityEngine::Rendering::EditorInstanceDataArrays::Remove(int32_t index, int32_t lastIndex) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::EditorInstanceDataArrays>::get(), "Remove", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, index, lastIndex);
+inline void UnityEngine::Rendering::EditorInstanceDataArrays::Remove(int32_t  index, int32_t  lastIndex)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::EditorInstanceDataArrays>::get(),
+                        "Remove",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, index, lastIndex);
 }
-inline void UnityEngine::Rendering::EditorInstanceDataArrays::SetDefault(int32_t index) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::EditorInstanceDataArrays>::get(), "SetDefault",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, index);
+inline void UnityEngine::Rendering::EditorInstanceDataArrays::SetDefault(int32_t  index)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::EditorInstanceDataArrays>::get(),
+                        "SetDefault",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, index);
 }
 /// @brief Convert operator to "::UnityEngine::Rendering::IDataArrays"
-constexpr UnityEngine::Rendering::EditorInstanceDataArrays::operator ::UnityEngine::Rendering::IDataArrays*() {
-  return static_cast<::UnityEngine::Rendering::IDataArrays*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+constexpr  UnityEngine::Rendering::EditorInstanceDataArrays::operator ::UnityEngine::Rendering::IDataArrays*()  {
+return static_cast<::UnityEngine::Rendering::IDataArrays*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::UnityEngine::Rendering::IDataArrays"
-constexpr ::UnityEngine::Rendering::IDataArrays* UnityEngine::Rendering::EditorInstanceDataArrays::i___UnityEngine__Rendering__IDataArrays() {
-  return static_cast<::UnityEngine::Rendering::IDataArrays*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+constexpr ::UnityEngine::Rendering::IDataArrays* UnityEngine::Rendering::EditorInstanceDataArrays::i___UnityEngine__Rendering__IDataArrays()  {
+return static_cast<::UnityEngine::Rendering::IDataArrays*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::Rendering::EditorInstanceDataArrays::EditorInstanceDataArrays() {}
+constexpr ::UnityEngine::Rendering::EditorInstanceDataArrays::EditorInstanceDataArrays()   {
+}

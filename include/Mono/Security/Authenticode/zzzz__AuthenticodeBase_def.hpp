@@ -25,164 +25,164 @@ namespace Mono::Security::Authenticode {
 // CS Name: Mono.Security.Authenticode.AuthenticodeBase
 class CORDL_TYPE AuthenticodeBase : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(get = get_PEOffset)) int32_t PEOffset;
+// Declarations
+ __declspec(property(get=get_PEOffset)) int32_t  PEOffset;
 
-  /// @brief Field blockLength, offset 0x24, size 0x4
-  __declspec(property(get = __cordl_internal_get_blockLength, put = __cordl_internal_set_blockLength)) int32_t blockLength;
+/// @brief Field blockLength, offset 0x24, size 0x4 
+ __declspec(property(get=__cordl_internal_get_blockLength, put=__cordl_internal_set_blockLength)) int32_t  blockLength;
 
-  /// @brief Field blockNo, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get_blockNo, put = __cordl_internal_set_blockNo)) int32_t blockNo;
+/// @brief Field blockNo, offset 0x20, size 0x4 
+ __declspec(property(get=__cordl_internal_get_blockNo, put=__cordl_internal_set_blockNo)) int32_t  blockNo;
 
-  /// @brief Field coffSymbolTableOffset, offset 0x34, size 0x4
-  __declspec(property(get = __cordl_internal_get_coffSymbolTableOffset, put = __cordl_internal_set_coffSymbolTableOffset)) int32_t coffSymbolTableOffset;
+/// @brief Field coffSymbolTableOffset, offset 0x34, size 0x4 
+ __declspec(property(get=__cordl_internal_get_coffSymbolTableOffset, put=__cordl_internal_set_coffSymbolTableOffset)) int32_t  coffSymbolTableOffset;
 
-  /// @brief Field dirSecurityOffset, offset 0x2c, size 0x4
-  __declspec(property(get = __cordl_internal_get_dirSecurityOffset, put = __cordl_internal_set_dirSecurityOffset)) int32_t dirSecurityOffset;
+/// @brief Field dirSecurityOffset, offset 0x2c, size 0x4 
+ __declspec(property(get=__cordl_internal_get_dirSecurityOffset, put=__cordl_internal_set_dirSecurityOffset)) int32_t  dirSecurityOffset;
 
-  /// @brief Field dirSecuritySize, offset 0x30, size 0x4
-  __declspec(property(get = __cordl_internal_get_dirSecuritySize, put = __cordl_internal_set_dirSecuritySize)) int32_t dirSecuritySize;
+/// @brief Field dirSecuritySize, offset 0x30, size 0x4 
+ __declspec(property(get=__cordl_internal_get_dirSecuritySize, put=__cordl_internal_set_dirSecuritySize)) int32_t  dirSecuritySize;
 
-  /// @brief Field fileblock, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_fileblock, put = __cordl_internal_set_fileblock)) ::ArrayW<uint8_t, ::Array<uint8_t>*> fileblock;
+/// @brief Field fileblock, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_fileblock, put=__cordl_internal_set_fileblock)) ::ArrayW<uint8_t,::Array<uint8_t>*>  fileblock;
 
-  /// @brief Field fs, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_fs, put = __cordl_internal_set_fs)) ::System::IO::Stream* fs;
+/// @brief Field fs, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_fs, put=__cordl_internal_set_fs)) ::System::IO::Stream*  fs;
 
-  /// @brief Field pe64, offset 0x38, size 0x1
-  __declspec(property(get = __cordl_internal_get_pe64, put = __cordl_internal_set_pe64)) bool pe64;
+/// @brief Field pe64, offset 0x38, size 0x1 
+ __declspec(property(get=__cordl_internal_get_pe64, put=__cordl_internal_set_pe64)) bool  pe64;
 
-  /// @brief Field peOffset, offset 0x28, size 0x4
-  __declspec(property(get = __cordl_internal_get_peOffset, put = __cordl_internal_set_peOffset)) int32_t peOffset;
+/// @brief Field peOffset, offset 0x28, size 0x4 
+ __declspec(property(get=__cordl_internal_get_peOffset, put=__cordl_internal_set_peOffset)) int32_t  peOffset;
 
-  /// @brief Method Close, addr 0x58f6ec8, size 0x2c, virtual false, abstract: false, final false
-  inline void Close();
+/// @brief Method Close, addr 0x58f73d4, size 0x2c, virtual false, abstract: false, final false
+inline void Close() ;
 
-  /// @brief Method GetHash, addr 0x58f72a8, size 0x4cc, virtual false, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetHash(::System::Security::Cryptography::HashAlgorithm* hash);
+/// @brief Method GetHash, addr 0x58f77b4, size 0x4cc, virtual false, abstract: false, final false
+inline ::ArrayW<uint8_t,::Array<uint8_t>*> GetHash(::System::Security::Cryptography::HashAlgorithm*  hash) ;
 
-  /// @brief Method GetSecurityEntry, addr 0x58f71d4, size 0xd4, virtual false, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetSecurityEntry();
+/// @brief Method GetSecurityEntry, addr 0x58f76e0, size 0xd4, virtual false, abstract: false, final false
+inline ::ArrayW<uint8_t,::Array<uint8_t>*> GetSecurityEntry() ;
 
-  static inline ::Mono::Security::Authenticode::AuthenticodeBase* New_ctor();
+static inline ::Mono::Security::Authenticode::AuthenticodeBase* New_ctor() ;
 
-  /// @brief Method Open, addr 0x58f6e20, size 0xa8, virtual false, abstract: false, final false
-  inline void Open(::StringW filename);
+/// @brief Method Open, addr 0x58f732c, size 0xa8, virtual false, abstract: false, final false
+inline void Open(::StringW  filename) ;
 
-  /// @brief Method Open, addr 0x58f6ef4, size 0x90, virtual false, abstract: false, final false
-  inline void Open(::ArrayW<uint8_t, ::Array<uint8_t>*> rawdata);
+/// @brief Method Open, addr 0x58f7400, size 0x90, virtual false, abstract: false, final false
+inline void Open(::ArrayW<uint8_t,::Array<uint8_t>*>  rawdata) ;
 
-  /// @brief Method ProcessFirstBlock, addr 0x58f6f84, size 0x250, virtual false, abstract: false, final false
-  inline int32_t ProcessFirstBlock();
+/// @brief Method ProcessFirstBlock, addr 0x58f7490, size 0x250, virtual false, abstract: false, final false
+inline int32_t ProcessFirstBlock() ;
 
-  /// @brief Method ReadFirstBlock, addr 0x58f6d54, size 0xcc, virtual false, abstract: false, final false
-  inline void ReadFirstBlock();
+/// @brief Method ReadFirstBlock, addr 0x58f7260, size 0xcc, virtual false, abstract: false, final false
+inline void ReadFirstBlock() ;
 
-  constexpr int32_t const& __cordl_internal_get_blockLength() const;
+constexpr int32_t const& __cordl_internal_get_blockLength() const;
 
-  constexpr int32_t& __cordl_internal_get_blockLength();
+constexpr int32_t& __cordl_internal_get_blockLength() ;
 
-  constexpr int32_t const& __cordl_internal_get_blockNo() const;
+constexpr int32_t const& __cordl_internal_get_blockNo() const;
 
-  constexpr int32_t& __cordl_internal_get_blockNo();
+constexpr int32_t& __cordl_internal_get_blockNo() ;
 
-  constexpr int32_t const& __cordl_internal_get_coffSymbolTableOffset() const;
+constexpr int32_t const& __cordl_internal_get_coffSymbolTableOffset() const;
 
-  constexpr int32_t& __cordl_internal_get_coffSymbolTableOffset();
+constexpr int32_t& __cordl_internal_get_coffSymbolTableOffset() ;
 
-  constexpr int32_t const& __cordl_internal_get_dirSecurityOffset() const;
+constexpr int32_t const& __cordl_internal_get_dirSecurityOffset() const;
 
-  constexpr int32_t& __cordl_internal_get_dirSecurityOffset();
+constexpr int32_t& __cordl_internal_get_dirSecurityOffset() ;
 
-  constexpr int32_t const& __cordl_internal_get_dirSecuritySize() const;
+constexpr int32_t const& __cordl_internal_get_dirSecuritySize() const;
 
-  constexpr int32_t& __cordl_internal_get_dirSecuritySize();
+constexpr int32_t& __cordl_internal_get_dirSecuritySize() ;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_fileblock() const;
+constexpr ::ArrayW<uint8_t,::Array<uint8_t>*> const& __cordl_internal_get_fileblock() const;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_fileblock();
+constexpr ::ArrayW<uint8_t,::Array<uint8_t>*>& __cordl_internal_get_fileblock() ;
 
-  constexpr ::System::IO::Stream* const& __cordl_internal_get_fs() const;
+constexpr ::System::IO::Stream* const& __cordl_internal_get_fs() const;
 
-  constexpr ::System::IO::Stream*& __cordl_internal_get_fs();
+constexpr ::System::IO::Stream*& __cordl_internal_get_fs() ;
 
-  constexpr bool const& __cordl_internal_get_pe64() const;
+constexpr bool const& __cordl_internal_get_pe64() const;
 
-  constexpr bool& __cordl_internal_get_pe64();
+constexpr bool& __cordl_internal_get_pe64() ;
 
-  constexpr int32_t const& __cordl_internal_get_peOffset() const;
+constexpr int32_t const& __cordl_internal_get_peOffset() const;
 
-  constexpr int32_t& __cordl_internal_get_peOffset();
+constexpr int32_t& __cordl_internal_get_peOffset() ;
 
-  constexpr void __cordl_internal_set_blockLength(int32_t value);
+constexpr void __cordl_internal_set_blockLength(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_blockNo(int32_t value);
+constexpr void __cordl_internal_set_blockNo(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_coffSymbolTableOffset(int32_t value);
+constexpr void __cordl_internal_set_coffSymbolTableOffset(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_dirSecurityOffset(int32_t value);
+constexpr void __cordl_internal_set_dirSecurityOffset(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_dirSecuritySize(int32_t value);
+constexpr void __cordl_internal_set_dirSecuritySize(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_fileblock(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+constexpr void __cordl_internal_set_fileblock(::ArrayW<uint8_t,::Array<uint8_t>*>  value) ;
 
-  constexpr void __cordl_internal_set_fs(::System::IO::Stream* value);
+constexpr void __cordl_internal_set_fs(::System::IO::Stream*  value) ;
 
-  constexpr void __cordl_internal_set_pe64(bool value);
+constexpr void __cordl_internal_set_pe64(bool  value) ;
 
-  constexpr void __cordl_internal_set_peOffset(int32_t value);
+constexpr void __cordl_internal_set_peOffset(int32_t  value) ;
 
-  /// @brief Method .ctor, addr 0x58f6cd8, size 0x54, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x58f71e4, size 0x54, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_PEOffset, addr 0x58f6d2c, size 0x28, virtual false, abstract: false, final false
-  inline int32_t get_PEOffset();
+/// @brief Method get_PEOffset, addr 0x58f7238, size 0x28, virtual false, abstract: false, final false
+inline int32_t get_PEOffset() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AuthenticodeBase();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr AuthenticodeBase() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AuthenticodeBase", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  AuthenticodeBase(AuthenticodeBase&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AuthenticodeBase", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  AuthenticodeBase(AuthenticodeBase const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "AuthenticodeBase", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+AuthenticodeBase(AuthenticodeBase && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19297 };
+// Ctor Parameters [CppParam { name: "", ty: "AuthenticodeBase", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+AuthenticodeBase(AuthenticodeBase const& ) = delete;
 
-  /// @brief Field fileblock, offset: 0x10, size: 0x8, def value: None
-  ::ArrayW<uint8_t, ::Array<uint8_t>*> ___fileblock;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{19301};
 
-  /// @brief Field fs, offset: 0x18, size: 0x8, def value: None
-  ::System::IO::Stream* ___fs;
+/// @brief Field fileblock, offset: 0x10, size: 0x8, def value: None
+ ::ArrayW<uint8_t,::Array<uint8_t>*>  ___fileblock;
 
-  /// @brief Field blockNo, offset: 0x20, size: 0x4, def value: None
-  int32_t ___blockNo;
+/// @brief Field fs, offset: 0x18, size: 0x8, def value: None
+ ::System::IO::Stream*  ___fs;
 
-  /// @brief Field blockLength, offset: 0x24, size: 0x4, def value: None
-  int32_t ___blockLength;
+/// @brief Field blockNo, offset: 0x20, size: 0x4, def value: None
+ int32_t  ___blockNo;
 
-  /// @brief Field peOffset, offset: 0x28, size: 0x4, def value: None
-  int32_t ___peOffset;
+/// @brief Field blockLength, offset: 0x24, size: 0x4, def value: None
+ int32_t  ___blockLength;
 
-  /// @brief Field dirSecurityOffset, offset: 0x2c, size: 0x4, def value: None
-  int32_t ___dirSecurityOffset;
+/// @brief Field peOffset, offset: 0x28, size: 0x4, def value: None
+ int32_t  ___peOffset;
 
-  /// @brief Field dirSecuritySize, offset: 0x30, size: 0x4, def value: None
-  int32_t ___dirSecuritySize;
+/// @brief Field dirSecurityOffset, offset: 0x2c, size: 0x4, def value: None
+ int32_t  ___dirSecurityOffset;
 
-  /// @brief Field coffSymbolTableOffset, offset: 0x34, size: 0x4, def value: None
-  int32_t ___coffSymbolTableOffset;
+/// @brief Field dirSecuritySize, offset: 0x30, size: 0x4, def value: None
+ int32_t  ___dirSecuritySize;
 
-  /// @brief Field pe64, offset: 0x38, size: 0x1, def value: None
-  bool ___pe64;
+/// @brief Field coffSymbolTableOffset, offset: 0x34, size: 0x4, def value: None
+ int32_t  ___coffSymbolTableOffset;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field pe64, offset: 0x38, size: 0x1, def value: None
+ bool  ___pe64;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Mono::Security::Authenticode::AuthenticodeBase, ___fileblock) == 0x10, "Offset mismatch!");
@@ -205,6 +205,6 @@ static_assert(offsetof(::Mono::Security::Authenticode::AuthenticodeBase, ___pe64
 
 static_assert(::cordl_internals::size_check_v<::Mono::Security::Authenticode::AuthenticodeBase, 0x40>, "Size mismatch!");
 
-} // namespace Mono::Security::Authenticode
+} // namespace end def Mono::Security::Authenticode
 NEED_NO_BOX(::Mono::Security::Authenticode::AuthenticodeBase);
 DEFINE_IL2CPP_ARG_TYPE(::Mono::Security::Authenticode::AuthenticodeBase*, "Mono.Security.Authenticode", "AuthenticodeBase");

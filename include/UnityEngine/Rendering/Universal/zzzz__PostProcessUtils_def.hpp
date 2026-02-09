@@ -46,125 +46,122 @@ namespace UnityEngine::Rendering::Universal {
 // CS Name: UnityEngine.Rendering.Universal.PostProcessUtils/ShaderConstants
 class CORDL_TYPE PostProcessUtils_ShaderConstants : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field _BlueNoise_Texture, offset 0xffffffff, size 0x4
-  __declspec(property(get = getStaticF__BlueNoise_Texture, put = setStaticF__BlueNoise_Texture)) int32_t _BlueNoise_Texture;
+// Declarations
+/// @brief Field _BlueNoise_Texture, offset 0xffffffff, size 0x4 
+ __declspec(property(get=getStaticF__BlueNoise_Texture, put=setStaticF__BlueNoise_Texture)) int32_t  _BlueNoise_Texture;
 
-  /// @brief Field _Dithering_Params, offset 0xffffffff, size 0x4
-  __declspec(property(get = getStaticF__Dithering_Params, put = setStaticF__Dithering_Params)) int32_t _Dithering_Params;
+/// @brief Field _Dithering_Params, offset 0xffffffff, size 0x4 
+ __declspec(property(get=getStaticF__Dithering_Params, put=setStaticF__Dithering_Params)) int32_t  _Dithering_Params;
 
-  /// @brief Field _Grain_Params, offset 0xffffffff, size 0x4
-  __declspec(property(get = getStaticF__Grain_Params, put = setStaticF__Grain_Params)) int32_t _Grain_Params;
+/// @brief Field _Grain_Params, offset 0xffffffff, size 0x4 
+ __declspec(property(get=getStaticF__Grain_Params, put=setStaticF__Grain_Params)) int32_t  _Grain_Params;
 
-  /// @brief Field _Grain_Texture, offset 0xffffffff, size 0x4
-  __declspec(property(get = getStaticF__Grain_Texture, put = setStaticF__Grain_Texture)) int32_t _Grain_Texture;
+/// @brief Field _Grain_Texture, offset 0xffffffff, size 0x4 
+ __declspec(property(get=getStaticF__Grain_Texture, put=setStaticF__Grain_Texture)) int32_t  _Grain_Texture;
 
-  /// @brief Field _Grain_TilingParams, offset 0xffffffff, size 0x4
-  __declspec(property(get = getStaticF__Grain_TilingParams, put = setStaticF__Grain_TilingParams)) int32_t _Grain_TilingParams;
+/// @brief Field _Grain_TilingParams, offset 0xffffffff, size 0x4 
+ __declspec(property(get=getStaticF__Grain_TilingParams, put=setStaticF__Grain_TilingParams)) int32_t  _Grain_TilingParams;
 
-  /// @brief Field _SourceSize, offset 0xffffffff, size 0x4
-  __declspec(property(get = getStaticF__SourceSize, put = setStaticF__SourceSize)) int32_t _SourceSize;
+/// @brief Field _SourceSize, offset 0xffffffff, size 0x4 
+ __declspec(property(get=getStaticF__SourceSize, put=setStaticF__SourceSize)) int32_t  _SourceSize;
 
-  static inline int32_t getStaticF__BlueNoise_Texture();
+static inline int32_t getStaticF__BlueNoise_Texture() ;
 
-  static inline int32_t getStaticF__Dithering_Params();
+static inline int32_t getStaticF__Dithering_Params() ;
 
-  static inline int32_t getStaticF__Grain_Params();
+static inline int32_t getStaticF__Grain_Params() ;
 
-  static inline int32_t getStaticF__Grain_Texture();
+static inline int32_t getStaticF__Grain_Texture() ;
 
-  static inline int32_t getStaticF__Grain_TilingParams();
+static inline int32_t getStaticF__Grain_TilingParams() ;
 
-  static inline int32_t getStaticF__SourceSize();
+static inline int32_t getStaticF__SourceSize() ;
 
-  static inline void setStaticF__BlueNoise_Texture(int32_t value);
+static inline void setStaticF__BlueNoise_Texture(int32_t  value) ;
 
-  static inline void setStaticF__Dithering_Params(int32_t value);
+static inline void setStaticF__Dithering_Params(int32_t  value) ;
 
-  static inline void setStaticF__Grain_Params(int32_t value);
+static inline void setStaticF__Grain_Params(int32_t  value) ;
 
-  static inline void setStaticF__Grain_Texture(int32_t value);
+static inline void setStaticF__Grain_Texture(int32_t  value) ;
 
-  static inline void setStaticF__Grain_TilingParams(int32_t value);
+static inline void setStaticF__Grain_TilingParams(int32_t  value) ;
 
-  static inline void setStaticF__SourceSize(int32_t value);
+static inline void setStaticF__SourceSize(int32_t  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PostProcessUtils_ShaderConstants();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr PostProcessUtils_ShaderConstants() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PostProcessUtils_ShaderConstants", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  PostProcessUtils_ShaderConstants(PostProcessUtils_ShaderConstants&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PostProcessUtils_ShaderConstants", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  PostProcessUtils_ShaderConstants(PostProcessUtils_ShaderConstants const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "PostProcessUtils_ShaderConstants", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+PostProcessUtils_ShaderConstants(PostProcessUtils_ShaderConstants && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12870 };
+// Ctor Parameters [CppParam { name: "", ty: "PostProcessUtils_ShaderConstants", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+PostProcessUtils_ShaderConstants(PostProcessUtils_ShaderConstants const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12874};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::Universal::PostProcessUtils_ShaderConstants, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine::Rendering::Universal
+} // namespace end def UnityEngine::Rendering::Universal
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
 // CS Name: UnityEngine.Rendering.Universal.PostProcessUtils
 class CORDL_TYPE PostProcessUtils : public ::System::Object {
 public:
-  // Declarations
-  using ShaderConstants = ::UnityEngine::Rendering::Universal::PostProcessUtils_ShaderConstants;
+// Declarations
+using ShaderConstants = ::UnityEngine::Rendering::Universal::PostProcessUtils_ShaderConstants;
 
-  /// @brief Method ConfigureDithering, addr 0x66f3030, size 0x64, virtual false, abstract: false, final false
-  static inline int32_t ConfigureDithering(::UnityEngine::Rendering::Universal::PostProcessData* data, int32_t index, ::UnityEngine::Camera* camera, ::UnityEngine::Material* material);
+/// @brief Method ConfigureDithering, addr 0x66f36f0, size 0x64, virtual false, abstract: false, final false
+static inline int32_t ConfigureDithering(::UnityEngine::Rendering::Universal::PostProcessData*  data, int32_t  index, ::UnityEngine::Camera*  camera, ::UnityEngine::Material*  material) ;
 
-  /// @brief Method ConfigureDithering, addr 0x66f3094, size 0x224, virtual false, abstract: false, final false
-  static inline int32_t ConfigureDithering(::UnityEngine::Rendering::Universal::PostProcessData* data, int32_t index, int32_t cameraPixelWidth, int32_t cameraPixelHeight,
-                                           ::UnityEngine::Material* material);
+/// @brief Method ConfigureDithering, addr 0x66f3754, size 0x224, virtual false, abstract: false, final false
+static inline int32_t ConfigureDithering(::UnityEngine::Rendering::Universal::PostProcessData*  data, int32_t  index, int32_t  cameraPixelWidth, int32_t  cameraPixelHeight, ::UnityEngine::Material*  material) ;
 
-  /// @brief Method ConfigureFilmGrain, addr 0x66f32b8, size 0x64, virtual false, abstract: false, final false
-  static inline void ConfigureFilmGrain(::UnityEngine::Rendering::Universal::PostProcessData* data, ::UnityEngine::Rendering::Universal::FilmGrain* settings, ::UnityEngine::Camera* camera,
-                                        ::UnityEngine::Material* material);
+/// @brief Method ConfigureFilmGrain, addr 0x66f3978, size 0x64, virtual false, abstract: false, final false
+static inline void ConfigureFilmGrain(::UnityEngine::Rendering::Universal::PostProcessData*  data, ::UnityEngine::Rendering::Universal::FilmGrain*  settings, ::UnityEngine::Camera*  camera, ::UnityEngine::Material*  material) ;
 
-  /// @brief Method ConfigureFilmGrain, addr 0x66f331c, size 0x354, virtual false, abstract: false, final false
-  static inline void ConfigureFilmGrain(::UnityEngine::Rendering::Universal::PostProcessData* data, ::UnityEngine::Rendering::Universal::FilmGrain* settings, int32_t cameraPixelWidth,
-                                        int32_t cameraPixelHeight, ::UnityEngine::Material* material);
+/// @brief Method ConfigureFilmGrain, addr 0x66f39dc, size 0x354, virtual false, abstract: false, final false
+static inline void ConfigureFilmGrain(::UnityEngine::Rendering::Universal::PostProcessData*  data, ::UnityEngine::Rendering::Universal::FilmGrain*  settings, int32_t  cameraPixelWidth, int32_t  cameraPixelHeight, ::UnityEngine::Material*  material) ;
 
-  /// @brief Method SetSourceSize, addr 0x66e6824, size 0x70, virtual false, abstract: false, final false
-  static inline void SetSourceSize(::UnityEngine::Rendering::CommandBuffer* cmd, ::UnityEngine::Rendering::RTHandle* source);
+/// @brief Method SetSourceSize, addr 0x66e6ee4, size 0x70, virtual false, abstract: false, final false
+static inline void SetSourceSize(::UnityEngine::Rendering::CommandBuffer*  cmd, ::UnityEngine::Rendering::RTHandle*  source) ;
 
-  /// @brief Method SetSourceSize, addr 0x66e7374, size 0x144, virtual false, abstract: false, final false
-  static inline void SetSourceSize(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::UnityEngine::Rendering::RTHandle* source);
+/// @brief Method SetSourceSize, addr 0x66e7a34, size 0x144, virtual false, abstract: false, final false
+static inline void SetSourceSize(::UnityEngine::Rendering::RasterCommandBuffer*  cmd, ::UnityEngine::Rendering::RTHandle*  source) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PostProcessUtils();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr PostProcessUtils() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PostProcessUtils", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  PostProcessUtils(PostProcessUtils&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PostProcessUtils", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  PostProcessUtils(PostProcessUtils const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "PostProcessUtils", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+PostProcessUtils(PostProcessUtils && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12871 };
+// Ctor Parameters [CppParam { name: "", ty: "PostProcessUtils", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+PostProcessUtils(PostProcessUtils const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12875};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::Universal::PostProcessUtils, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine::Rendering::Universal
+} // namespace end def UnityEngine::Rendering::Universal
 NEED_NO_BOX(::UnityEngine::Rendering::Universal::PostProcessUtils);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::Universal::PostProcessUtils*, "UnityEngine.Rendering.Universal", "PostProcessUtils");
 NEED_NO_BOX(::UnityEngine::Rendering::Universal::PostProcessUtils_ShaderConstants);

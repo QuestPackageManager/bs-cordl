@@ -32,70 +32,69 @@ namespace BeatSaber::Destinations {
 // CS Name: BeatSaber.Destinations.SimpleBeatmapKey
 class CORDL_TYPE SimpleBeatmapKey : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field characteristic, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_characteristic, put = __cordl_internal_set_characteristic)) ::BeatSaber::Destinations::BeatmapCharacteristic characteristic;
+// Declarations
+/// @brief Field characteristic, offset 0x10, size 0x4 
+ __declspec(property(get=__cordl_internal_get_characteristic, put=__cordl_internal_set_characteristic)) ::BeatSaber::Destinations::BeatmapCharacteristic  characteristic;
 
-  /// @brief Field difficulty, offset 0x14, size 0x4
-  __declspec(property(get = __cordl_internal_get_difficulty, put = __cordl_internal_set_difficulty)) ::GlobalNamespace::BeatmapDifficulty difficulty;
+/// @brief Field difficulty, offset 0x14, size 0x4 
+ __declspec(property(get=__cordl_internal_get_difficulty, put=__cordl_internal_set_difficulty)) ::GlobalNamespace::BeatmapDifficulty  difficulty;
 
-  /// @brief Field levelId, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_levelId, put = __cordl_internal_set_levelId)) ::StringW levelId;
+/// @brief Field levelId, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_levelId, put=__cordl_internal_set_levelId)) ::StringW  levelId;
 
-  static inline ::BeatSaber::Destinations::SimpleBeatmapKey* New_ctor(::BeatSaber::Destinations::BeatmapCharacteristic characteristic, ::GlobalNamespace::BeatmapDifficulty difficulty,
-                                                                      ::StringW levelId);
+static inline ::BeatSaber::Destinations::SimpleBeatmapKey* New_ctor(::BeatSaber::Destinations::BeatmapCharacteristic  characteristic, ::GlobalNamespace::BeatmapDifficulty  difficulty, ::StringW  levelId) ;
 
-  /// @brief Method ToStruct, addr 0x31b15c8, size 0x68, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::BeatmapKey ToStruct(::GlobalNamespace::BeatmapCharacteristicCollection* characteristicCollection);
+/// @brief Method ToStruct, addr 0x31b1518, size 0x68, virtual false, abstract: false, final false
+inline ::GlobalNamespace::BeatmapKey ToStruct(::GlobalNamespace::BeatmapCharacteristicCollection*  characteristicCollection) ;
 
-  constexpr ::BeatSaber::Destinations::BeatmapCharacteristic const& __cordl_internal_get_characteristic() const;
+constexpr ::BeatSaber::Destinations::BeatmapCharacteristic const& __cordl_internal_get_characteristic() const;
 
-  constexpr ::BeatSaber::Destinations::BeatmapCharacteristic& __cordl_internal_get_characteristic();
+constexpr ::BeatSaber::Destinations::BeatmapCharacteristic& __cordl_internal_get_characteristic() ;
 
-  constexpr ::GlobalNamespace::BeatmapDifficulty const& __cordl_internal_get_difficulty() const;
+constexpr ::GlobalNamespace::BeatmapDifficulty const& __cordl_internal_get_difficulty() const;
 
-  constexpr ::GlobalNamespace::BeatmapDifficulty& __cordl_internal_get_difficulty();
+constexpr ::GlobalNamespace::BeatmapDifficulty& __cordl_internal_get_difficulty() ;
 
-  constexpr ::StringW const& __cordl_internal_get_levelId() const;
+constexpr ::StringW const& __cordl_internal_get_levelId() const;
 
-  constexpr ::StringW& __cordl_internal_get_levelId();
+constexpr ::StringW& __cordl_internal_get_levelId() ;
 
-  constexpr void __cordl_internal_set_characteristic(::BeatSaber::Destinations::BeatmapCharacteristic value);
+constexpr void __cordl_internal_set_characteristic(::BeatSaber::Destinations::BeatmapCharacteristic  value) ;
 
-  constexpr void __cordl_internal_set_difficulty(::GlobalNamespace::BeatmapDifficulty value);
+constexpr void __cordl_internal_set_difficulty(::GlobalNamespace::BeatmapDifficulty  value) ;
 
-  constexpr void __cordl_internal_set_levelId(::StringW value);
+constexpr void __cordl_internal_set_levelId(::StringW  value) ;
 
-  /// @brief Method .ctor, addr 0x31b15bc, size 0xc, virtual false, abstract: false, final false
-  inline void _ctor(::BeatSaber::Destinations::BeatmapCharacteristic characteristic, ::GlobalNamespace::BeatmapDifficulty difficulty, ::StringW levelId);
+/// @brief Method .ctor, addr 0x31b150c, size 0xc, virtual false, abstract: false, final false
+inline void _ctor(::BeatSaber::Destinations::BeatmapCharacteristic  characteristic, ::GlobalNamespace::BeatmapDifficulty  difficulty, ::StringW  levelId) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SimpleBeatmapKey();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr SimpleBeatmapKey() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SimpleBeatmapKey", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  SimpleBeatmapKey(SimpleBeatmapKey&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SimpleBeatmapKey", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  SimpleBeatmapKey(SimpleBeatmapKey const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "SimpleBeatmapKey", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+SimpleBeatmapKey(SimpleBeatmapKey && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22744 };
+// Ctor Parameters [CppParam { name: "", ty: "SimpleBeatmapKey", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+SimpleBeatmapKey(SimpleBeatmapKey const& ) = delete;
 
-  /// @brief Field characteristic, offset: 0x10, size: 0x4, def value: None
-  ::BeatSaber::Destinations::BeatmapCharacteristic ___characteristic;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{22748};
 
-  /// @brief Field difficulty, offset: 0x14, size: 0x4, def value: None
-  ::GlobalNamespace::BeatmapDifficulty ___difficulty;
+/// @brief Field characteristic, offset: 0x10, size: 0x4, def value: None
+ ::BeatSaber::Destinations::BeatmapCharacteristic  ___characteristic;
 
-  /// @brief Field levelId, offset: 0x18, size: 0x8, def value: None
-  ::StringW ___levelId;
+/// @brief Field difficulty, offset: 0x14, size: 0x4, def value: None
+ ::GlobalNamespace::BeatmapDifficulty  ___difficulty;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field levelId, offset: 0x18, size: 0x8, def value: None
+ ::StringW  ___levelId;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::BeatSaber::Destinations::SimpleBeatmapKey, ___characteristic) == 0x10, "Offset mismatch!");
@@ -106,6 +105,6 @@ static_assert(offsetof(::BeatSaber::Destinations::SimpleBeatmapKey, ___levelId) 
 
 static_assert(::cordl_internals::size_check_v<::BeatSaber::Destinations::SimpleBeatmapKey, 0x20>, "Size mismatch!");
 
-} // namespace BeatSaber::Destinations
+} // namespace end def BeatSaber::Destinations
 NEED_NO_BOX(::BeatSaber::Destinations::SimpleBeatmapKey);
 DEFINE_IL2CPP_ARG_TYPE(::BeatSaber::Destinations::SimpleBeatmapKey*, "BeatSaber.Destinations", "SimpleBeatmapKey");

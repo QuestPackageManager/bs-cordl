@@ -19,59 +19,59 @@ namespace System::Net {
 // CS Name: System.Net.ValidationHelper
 class CORDL_TYPE ValidationHelper : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field EmptyArray, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_EmptyArray, put = setStaticF_EmptyArray)) ::ArrayW<::StringW, ::Array<::StringW>*> EmptyArray;
+// Declarations
+/// @brief Field EmptyArray, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_EmptyArray, put=setStaticF_EmptyArray)) ::ArrayW<::StringW,::Array<::StringW>*>  EmptyArray;
 
-  /// @brief Field InvalidMethodChars, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_InvalidMethodChars, put = setStaticF_InvalidMethodChars)) ::ArrayW<char16_t, ::Array<char16_t>*> InvalidMethodChars;
+/// @brief Field InvalidMethodChars, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_InvalidMethodChars, put=setStaticF_InvalidMethodChars)) ::ArrayW<char16_t,::Array<char16_t>*>  InvalidMethodChars;
 
-  /// @brief Field InvalidParamChars, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_InvalidParamChars, put = setStaticF_InvalidParamChars)) ::ArrayW<char16_t, ::Array<char16_t>*> InvalidParamChars;
+/// @brief Field InvalidParamChars, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_InvalidParamChars, put=setStaticF_InvalidParamChars)) ::ArrayW<char16_t,::Array<char16_t>*>  InvalidParamChars;
 
-  /// @brief Method IsBlankString, addr 0x6258708, size 0x1c, virtual false, abstract: false, final false
-  static inline bool IsBlankString(::StringW stringValue);
+/// @brief Method IsBlankString, addr 0x6258dc8, size 0x1c, virtual false, abstract: false, final false
+static inline bool IsBlankString(::StringW  stringValue) ;
 
-  /// @brief Method MakeStringNull, addr 0x6255dc0, size 0x14, virtual false, abstract: false, final false
-  static inline ::StringW MakeStringNull(::StringW stringValue);
+/// @brief Method MakeStringNull, addr 0x6256480, size 0x14, virtual false, abstract: false, final false
+static inline ::StringW MakeStringNull(::StringW  stringValue) ;
 
-  /// @brief Method ValidateTcpPort, addr 0x6258724, size 0xc, virtual false, abstract: false, final false
-  static inline bool ValidateTcpPort(int32_t port);
+/// @brief Method ValidateTcpPort, addr 0x6258de4, size 0xc, virtual false, abstract: false, final false
+static inline bool ValidateTcpPort(int32_t  port) ;
 
-  static inline ::ArrayW<::StringW, ::Array<::StringW>*> getStaticF_EmptyArray();
+static inline ::ArrayW<::StringW,::Array<::StringW>*> getStaticF_EmptyArray() ;
 
-  static inline ::ArrayW<char16_t, ::Array<char16_t>*> getStaticF_InvalidMethodChars();
+static inline ::ArrayW<char16_t,::Array<char16_t>*> getStaticF_InvalidMethodChars() ;
 
-  static inline ::ArrayW<char16_t, ::Array<char16_t>*> getStaticF_InvalidParamChars();
+static inline ::ArrayW<char16_t,::Array<char16_t>*> getStaticF_InvalidParamChars() ;
 
-  static inline void setStaticF_EmptyArray(::ArrayW<::StringW, ::Array<::StringW>*> value);
+static inline void setStaticF_EmptyArray(::ArrayW<::StringW,::Array<::StringW>*>  value) ;
 
-  static inline void setStaticF_InvalidMethodChars(::ArrayW<char16_t, ::Array<char16_t>*> value);
+static inline void setStaticF_InvalidMethodChars(::ArrayW<char16_t,::Array<char16_t>*>  value) ;
 
-  static inline void setStaticF_InvalidParamChars(::ArrayW<char16_t, ::Array<char16_t>*> value);
+static inline void setStaticF_InvalidParamChars(::ArrayW<char16_t,::Array<char16_t>*>  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ValidationHelper();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ValidationHelper() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ValidationHelper", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ValidationHelper(ValidationHelper&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ValidationHelper", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ValidationHelper(ValidationHelper const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ValidationHelper", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ValidationHelper(ValidationHelper && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11474 };
+// Ctor Parameters [CppParam { name: "", ty: "ValidationHelper", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ValidationHelper(ValidationHelper const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11478};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::ValidationHelper, 0x10>, "Size mismatch!");
 
-} // namespace System::Net
+} // namespace end def System::Net
 NEED_NO_BOX(::System::Net::ValidationHelper);
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::ValidationHelper*, "System.Net", "ValidationHelper");

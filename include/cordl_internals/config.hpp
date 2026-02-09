@@ -22,6 +22,7 @@
 
 #endif
 
+
 #ifndef CORDL_METHOD
 // attributes for methods
 #define CORDL_METHOD CORDL_HIDDEN CORDL_ALWAYS_INLINE CORDL_MODULE_EXPORT_STRUCT
@@ -40,3 +41,4 @@
 // attributes for properties
 #define CORDL_PROP CORDL_HIDDEN
 #endif
+

@@ -7,7 +7,8 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PlayerLoop)
 namespace System::Collections::Generic {
-template <typename T> class List_1;
+template<typename T>
+class List_1;
 }
 namespace UnityEngine::LowLevel {
 struct PlayerLoopSystemInternal;
@@ -27,49 +28,47 @@ namespace UnityEngine::LowLevel {
 // CS Name: UnityEngine.LowLevel.PlayerLoop
 class CORDL_TYPE PlayerLoop : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method GetCurrentPlayerLoop, addr 0x6936580, size 0x6c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::LowLevel::PlayerLoopSystem GetCurrentPlayerLoop();
+// Declarations
+/// @brief Method GetCurrentPlayerLoop, addr 0x6936c40, size 0x6c, virtual false, abstract: false, final false
+static inline ::UnityEngine::LowLevel::PlayerLoopSystem GetCurrentPlayerLoop() ;
 
-  /// @brief Method GetCurrentPlayerLoopInternal, addr 0x69365ec, size 0x28, virtual false, abstract: false, final false
-  static inline ::ArrayW<::UnityEngine::LowLevel::PlayerLoopSystemInternal, ::Array<::UnityEngine::LowLevel::PlayerLoopSystemInternal>*> GetCurrentPlayerLoopInternal();
+/// @brief Method GetCurrentPlayerLoopInternal, addr 0x6936cac, size 0x28, virtual false, abstract: false, final false
+static inline ::ArrayW<::UnityEngine::LowLevel::PlayerLoopSystemInternal,::Array<::UnityEngine::LowLevel::PlayerLoopSystemInternal>*> GetCurrentPlayerLoopInternal() ;
 
-  /// @brief Method InternalToPlayerLoopSystem, addr 0x6936614, size 0x1f8, virtual false, abstract: false, final false
-  static inline ::UnityEngine::LowLevel::PlayerLoopSystem
-  InternalToPlayerLoopSystem(::ArrayW<::UnityEngine::LowLevel::PlayerLoopSystemInternal, ::Array<::UnityEngine::LowLevel::PlayerLoopSystemInternal>*> internalSys, ::ByRef<int32_t> offset);
+/// @brief Method InternalToPlayerLoopSystem, addr 0x6936cd4, size 0x1f8, virtual false, abstract: false, final false
+static inline ::UnityEngine::LowLevel::PlayerLoopSystem InternalToPlayerLoopSystem(::ArrayW<::UnityEngine::LowLevel::PlayerLoopSystemInternal,::Array<::UnityEngine::LowLevel::PlayerLoopSystemInternal>*>  internalSys, ::ByRef<int32_t>  offset) ;
 
-  /// @brief Method PlayerLoopSystemToInternal, addr 0x69368f4, size 0x1ac, virtual false, abstract: false, final false
-  static inline int32_t PlayerLoopSystemToInternal(::UnityEngine::LowLevel::PlayerLoopSystem sys,
-                                                   ::ByRef<::System::Collections::Generic::List_1<::UnityEngine::LowLevel::PlayerLoopSystemInternal>*> internalSys);
+/// @brief Method PlayerLoopSystemToInternal, addr 0x6936fb4, size 0x1ac, virtual false, abstract: false, final false
+static inline int32_t PlayerLoopSystemToInternal(::UnityEngine::LowLevel::PlayerLoopSystem  sys, ::ByRef<::System::Collections::Generic::List_1<::UnityEngine::LowLevel::PlayerLoopSystemInternal>*>  internalSys) ;
 
-  /// @brief Method SetPlayerLoop, addr 0x693680c, size 0xe8, virtual false, abstract: false, final false
-  static inline void SetPlayerLoop(::UnityEngine::LowLevel::PlayerLoopSystem loop);
+/// @brief Method SetPlayerLoop, addr 0x6936ecc, size 0xe8, virtual false, abstract: false, final false
+static inline void SetPlayerLoop(::UnityEngine::LowLevel::PlayerLoopSystem  loop) ;
 
-  /// @brief Method SetPlayerLoopInternal, addr 0x6936aa0, size 0x3c, virtual false, abstract: false, final false
-  static inline void SetPlayerLoopInternal(::ArrayW<::UnityEngine::LowLevel::PlayerLoopSystemInternal, ::Array<::UnityEngine::LowLevel::PlayerLoopSystemInternal>*> loop);
+/// @brief Method SetPlayerLoopInternal, addr 0x6937160, size 0x3c, virtual false, abstract: false, final false
+static inline void SetPlayerLoopInternal(::ArrayW<::UnityEngine::LowLevel::PlayerLoopSystemInternal,::Array<::UnityEngine::LowLevel::PlayerLoopSystemInternal>*>  loop) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PlayerLoop();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr PlayerLoop() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerLoop", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  PlayerLoop(PlayerLoop&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerLoop", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  PlayerLoop(PlayerLoop const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "PlayerLoop", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+PlayerLoop(PlayerLoop && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10474 };
+// Ctor Parameters [CppParam { name: "", ty: "PlayerLoop", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+PlayerLoop(PlayerLoop const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10478};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::LowLevel::PlayerLoop, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine::LowLevel
+} // namespace end def UnityEngine::LowLevel
 NEED_NO_BOX(::UnityEngine::LowLevel::PlayerLoop);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::LowLevel::PlayerLoop*, "UnityEngine.LowLevel", "PlayerLoop");

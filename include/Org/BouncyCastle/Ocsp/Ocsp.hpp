@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "Org/BouncyCastle/Ocsp/BasicOcspResp.hpp"
 #include "Org/BouncyCastle/Ocsp/BasicOcspRespGenerator.hpp"
@@ -22,5 +22,6 @@ module;
 #include "Org/BouncyCastle/Ocsp/SingleResp.hpp"
 #include "Org/BouncyCastle/Ocsp/UnknownStatus.hpp"
 #ifdef __cpp_modules
-export module Ocsp;
-#endif
+                    export module Ocsp;
+                    #endif
+                

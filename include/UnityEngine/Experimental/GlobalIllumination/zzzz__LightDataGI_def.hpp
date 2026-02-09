@@ -37,114 +37,102 @@ struct LightDataGI;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::Experimental::GlobalIllumination::LightDataGI);
-// Dependencies UnityEngine.Experimental.GlobalIllumination.FalloffType, UnityEngine.Experimental.GlobalIllumination.LightMode, UnityEngine.Experimental.GlobalIllumination.LightType,
-// UnityEngine.Experimental.GlobalIllumination.LinearColor, UnityEngine.Quaternion, UnityEngine.Vector3
+// Dependencies UnityEngine.Experimental.GlobalIllumination.FalloffType, UnityEngine.Experimental.GlobalIllumination.LightMode, UnityEngine.Experimental.GlobalIllumination.LightType, UnityEngine.Experimental.GlobalIllumination.LinearColor, UnityEngine.Quaternion, UnityEngine.Vector3
 namespace UnityEngine::Experimental::GlobalIllumination {
 // Is value type: true
 // CS Name: UnityEngine.Experimental.GlobalIllumination.LightDataGI
 struct CORDL_TYPE LightDataGI {
 public:
-  // Declarations
-  /// @brief Method Init, addr 0x6963f04, size 0x78, virtual false, abstract: false, final false
-  inline void Init(::ByRef<::UnityEngine::Experimental::GlobalIllumination::DirectionalLight> light);
+// Declarations
+/// @brief Method Init, addr 0x69645c4, size 0x78, virtual false, abstract: false, final false
+inline void Init(::ByRef<::UnityEngine::Experimental::GlobalIllumination::DirectionalLight>  light) ;
 
-  /// @brief Method Init, addr 0x6963cb4, size 0x70, virtual false, abstract: false, final false
-  inline void Init(::ByRef<::UnityEngine::Experimental::GlobalIllumination::DirectionalLight> light, ::ByRef<::UnityEngine::Experimental::GlobalIllumination::Cookie> cookie);
+/// @brief Method Init, addr 0x6964374, size 0x70, virtual false, abstract: false, final false
+inline void Init(::ByRef<::UnityEngine::Experimental::GlobalIllumination::DirectionalLight>  light, ::ByRef<::UnityEngine::Experimental::GlobalIllumination::Cookie>  cookie) ;
 
-  /// @brief Method Init, addr 0x6963e8c, size 0x78, virtual false, abstract: false, final false
-  inline void Init(::ByRef<::UnityEngine::Experimental::GlobalIllumination::DiscLight> light, ::ByRef<::UnityEngine::Experimental::GlobalIllumination::Cookie> cookie);
+/// @brief Method Init, addr 0x696454c, size 0x78, virtual false, abstract: false, final false
+inline void Init(::ByRef<::UnityEngine::Experimental::GlobalIllumination::DiscLight>  light, ::ByRef<::UnityEngine::Experimental::GlobalIllumination::Cookie>  cookie) ;
 
-  /// @brief Method Init, addr 0x6963f7c, size 0x74, virtual false, abstract: false, final false
-  inline void Init(::ByRef<::UnityEngine::Experimental::GlobalIllumination::PointLight> light);
+/// @brief Method Init, addr 0x696463c, size 0x74, virtual false, abstract: false, final false
+inline void Init(::ByRef<::UnityEngine::Experimental::GlobalIllumination::PointLight>  light) ;
 
-  /// @brief Method Init, addr 0x6963d24, size 0x78, virtual false, abstract: false, final false
-  inline void Init(::ByRef<::UnityEngine::Experimental::GlobalIllumination::PointLight> light, ::ByRef<::UnityEngine::Experimental::GlobalIllumination::Cookie> cookie);
+/// @brief Method Init, addr 0x69643e4, size 0x78, virtual false, abstract: false, final false
+inline void Init(::ByRef<::UnityEngine::Experimental::GlobalIllumination::PointLight>  light, ::ByRef<::UnityEngine::Experimental::GlobalIllumination::Cookie>  cookie) ;
 
-  /// @brief Method Init, addr 0x6963e18, size 0x74, virtual false, abstract: false, final false
-  inline void Init(::ByRef<::UnityEngine::Experimental::GlobalIllumination::RectangleLight> light, ::ByRef<::UnityEngine::Experimental::GlobalIllumination::Cookie> cookie);
+/// @brief Method Init, addr 0x69644d8, size 0x74, virtual false, abstract: false, final false
+inline void Init(::ByRef<::UnityEngine::Experimental::GlobalIllumination::RectangleLight>  light, ::ByRef<::UnityEngine::Experimental::GlobalIllumination::Cookie>  cookie) ;
 
-  /// @brief Method Init, addr 0x6963ff0, size 0x28, virtual false, abstract: false, final false
-  inline void Init(::ByRef<::UnityEngine::Experimental::GlobalIllumination::SpotLight> light);
+/// @brief Method Init, addr 0x69646b0, size 0x28, virtual false, abstract: false, final false
+inline void Init(::ByRef<::UnityEngine::Experimental::GlobalIllumination::SpotLight>  light) ;
 
-  /// @brief Method Init, addr 0x6963d9c, size 0x7c, virtual false, abstract: false, final false
-  inline void Init(::ByRef<::UnityEngine::Experimental::GlobalIllumination::SpotLight> light, ::ByRef<::UnityEngine::Experimental::GlobalIllumination::Cookie> cookie);
+/// @brief Method Init, addr 0x696445c, size 0x7c, virtual false, abstract: false, final false
+inline void Init(::ByRef<::UnityEngine::Experimental::GlobalIllumination::SpotLight>  light, ::ByRef<::UnityEngine::Experimental::GlobalIllumination::Cookie>  cookie) ;
 
-  /// @brief Method InitNoBake, addr 0x6964018, size 0x10, virtual false, abstract: false, final false
-  inline void InitNoBake(int32_t lightInstanceID);
+/// @brief Method InitNoBake, addr 0x69646d8, size 0x10, virtual false, abstract: false, final false
+inline void InitNoBake(int32_t  lightInstanceID) ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LightDataGI();
+// Ctor Parameters []
+// @brief default ctor
+constexpr LightDataGI() ;
 
-  // Ctor Parameters [CppParam { name: "instanceID", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "cookieID", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "cookieScale", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "color", ty: "::UnityEngine::Experimental::GlobalIllumination::LinearColor", modifiers: "", def_value: None },
-  // CppParam { name: "indirectColor", ty: "::UnityEngine::Experimental::GlobalIllumination::LinearColor", modifiers: "", def_value: None }, CppParam { name: "orientation", ty:
-  // "::UnityEngine::Quaternion", modifiers: "", def_value: None }, CppParam { name: "position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "range", ty:
-  // "float_t", modifiers: "", def_value: None }, CppParam { name: "coneAngle", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "innerConeAngle", ty: "float_t", modifiers: "",
-  // def_value: None }, CppParam { name: "shape0", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "shape1", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "type",
-  // ty: "::UnityEngine::Experimental::GlobalIllumination::LightType", modifiers: "", def_value: None }, CppParam { name: "mode", ty: "::UnityEngine::Experimental::GlobalIllumination::LightMode",
-  // modifiers: "", def_value: None }, CppParam { name: "shadow", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "falloff", ty:
-  // "::UnityEngine::Experimental::GlobalIllumination::FalloffType", modifiers: "", def_value: None }]
-  constexpr LightDataGI(int32_t instanceID, int32_t cookieID, float_t cookieScale, ::UnityEngine::Experimental::GlobalIllumination::LinearColor color,
-                        ::UnityEngine::Experimental::GlobalIllumination::LinearColor indirectColor, ::UnityEngine::Quaternion orientation, ::UnityEngine::Vector3 position, float_t range,
-                        float_t coneAngle, float_t innerConeAngle, float_t shape0, float_t shape1, ::UnityEngine::Experimental::GlobalIllumination::LightType type,
-                        ::UnityEngine::Experimental::GlobalIllumination::LightMode mode, uint8_t shadow, ::UnityEngine::Experimental::GlobalIllumination::FalloffType falloff) noexcept;
+// Ctor Parameters [CppParam { name: "instanceID", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "cookieID", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "cookieScale", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "color", ty: "::UnityEngine::Experimental::GlobalIllumination::LinearColor", modifiers: "", def_value: None }, CppParam { name: "indirectColor", ty: "::UnityEngine::Experimental::GlobalIllumination::LinearColor", modifiers: "", def_value: None }, CppParam { name: "orientation", ty: "::UnityEngine::Quaternion", modifiers: "", def_value: None }, CppParam { name: "position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "range", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "coneAngle", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "innerConeAngle", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "shape0", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "shape1", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "type", ty: "::UnityEngine::Experimental::GlobalIllumination::LightType", modifiers: "", def_value: None }, CppParam { name: "mode", ty: "::UnityEngine::Experimental::GlobalIllumination::LightMode", modifiers: "", def_value: None }, CppParam { name: "shadow", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "falloff", ty: "::UnityEngine::Experimental::GlobalIllumination::FalloffType", modifiers: "", def_value: None }]
+constexpr LightDataGI(int32_t  instanceID, int32_t  cookieID, float_t  cookieScale, ::UnityEngine::Experimental::GlobalIllumination::LinearColor  color, ::UnityEngine::Experimental::GlobalIllumination::LinearColor  indirectColor, ::UnityEngine::Quaternion  orientation, ::UnityEngine::Vector3  position, float_t  range, float_t  coneAngle, float_t  innerConeAngle, float_t  shape0, float_t  shape1, ::UnityEngine::Experimental::GlobalIllumination::LightType  type, ::UnityEngine::Experimental::GlobalIllumination::LightMode  mode, uint8_t  shadow, ::UnityEngine::Experimental::GlobalIllumination::FalloffType  falloff) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10886 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10890};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x60 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x60};
 
-  /// @brief Field instanceID, offset: 0x0, size: 0x4, def value: None
-  int32_t instanceID;
+/// @brief Field instanceID, offset: 0x0, size: 0x4, def value: None
+ int32_t  instanceID;
 
-  /// @brief Field cookieID, offset: 0x4, size: 0x4, def value: None
-  int32_t cookieID;
+/// @brief Field cookieID, offset: 0x4, size: 0x4, def value: None
+ int32_t  cookieID;
 
-  /// @brief Field cookieScale, offset: 0x8, size: 0x4, def value: None
-  float_t cookieScale;
+/// @brief Field cookieScale, offset: 0x8, size: 0x4, def value: None
+ float_t  cookieScale;
 
-  /// @brief Field color, offset: 0xc, size: 0x10, def value: None
-  ::UnityEngine::Experimental::GlobalIllumination::LinearColor color;
+/// @brief Field color, offset: 0xc, size: 0x10, def value: None
+ ::UnityEngine::Experimental::GlobalIllumination::LinearColor  color;
 
-  /// @brief Field indirectColor, offset: 0x1c, size: 0x10, def value: None
-  ::UnityEngine::Experimental::GlobalIllumination::LinearColor indirectColor;
+/// @brief Field indirectColor, offset: 0x1c, size: 0x10, def value: None
+ ::UnityEngine::Experimental::GlobalIllumination::LinearColor  indirectColor;
 
-  /// @brief Field orientation, offset: 0x2c, size: 0x10, def value: None
-  ::UnityEngine::Quaternion orientation;
+/// @brief Field orientation, offset: 0x2c, size: 0x10, def value: None
+ ::UnityEngine::Quaternion  orientation;
 
-  /// @brief Field position, offset: 0x3c, size: 0xc, def value: None
-  ::UnityEngine::Vector3 position;
+/// @brief Field position, offset: 0x3c, size: 0xc, def value: None
+ ::UnityEngine::Vector3  position;
 
-  /// @brief Field range, offset: 0x48, size: 0x4, def value: None
-  float_t range;
+/// @brief Field range, offset: 0x48, size: 0x4, def value: None
+ float_t  range;
 
-  /// @brief Field coneAngle, offset: 0x4c, size: 0x4, def value: None
-  float_t coneAngle;
+/// @brief Field coneAngle, offset: 0x4c, size: 0x4, def value: None
+ float_t  coneAngle;
 
-  /// @brief Field innerConeAngle, offset: 0x50, size: 0x4, def value: None
-  float_t innerConeAngle;
+/// @brief Field innerConeAngle, offset: 0x50, size: 0x4, def value: None
+ float_t  innerConeAngle;
 
-  /// @brief Field shape0, offset: 0x54, size: 0x4, def value: None
-  float_t shape0;
+/// @brief Field shape0, offset: 0x54, size: 0x4, def value: None
+ float_t  shape0;
 
-  /// @brief Field shape1, offset: 0x58, size: 0x4, def value: None
-  float_t shape1;
+/// @brief Field shape1, offset: 0x58, size: 0x4, def value: None
+ float_t  shape1;
 
-  /// @brief Field type, offset: 0x5c, size: 0x1, def value: None
-  ::UnityEngine::Experimental::GlobalIllumination::LightType type;
+/// @brief Field type, offset: 0x5c, size: 0x1, def value: None
+ ::UnityEngine::Experimental::GlobalIllumination::LightType  type;
 
-  /// @brief Field mode, offset: 0x5d, size: 0x1, def value: None
-  ::UnityEngine::Experimental::GlobalIllumination::LightMode mode;
+/// @brief Field mode, offset: 0x5d, size: 0x1, def value: None
+ ::UnityEngine::Experimental::GlobalIllumination::LightMode  mode;
 
-  /// @brief Field shadow, offset: 0x5e, size: 0x1, def value: None
-  uint8_t shadow;
+/// @brief Field shadow, offset: 0x5e, size: 0x1, def value: None
+ uint8_t  shadow;
 
-  /// @brief Field falloff, offset: 0x5f, size: 0x1, def value: None
-  ::UnityEngine::Experimental::GlobalIllumination::FalloffType falloff;
+/// @brief Field falloff, offset: 0x5f, size: 0x1, def value: None
+ ::UnityEngine::Experimental::GlobalIllumination::FalloffType  falloff;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Experimental::GlobalIllumination::LightDataGI, instanceID) == 0x0, "Offset mismatch!");
@@ -181,5 +169,5 @@ static_assert(offsetof(::UnityEngine::Experimental::GlobalIllumination::LightDat
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Experimental::GlobalIllumination::LightDataGI, 0x60>, "Size mismatch!");
 
-} // namespace UnityEngine::Experimental::GlobalIllumination
+} // namespace end def UnityEngine::Experimental::GlobalIllumination
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Experimental::GlobalIllumination::LightDataGI, "UnityEngine.Experimental.GlobalIllumination", "LightDataGI");

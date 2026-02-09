@@ -26,79 +26,79 @@ namespace UnityEngine::UIElements {
 // CS Name: UnityEngine.UIElements.Box/UxmlFactory
 class CORDL_TYPE Box_UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_1<::UnityEngine::UIElements::Box*> {
 public:
-  // Declarations
-  static inline ::UnityEngine::UIElements::Box_UxmlFactory* New_ctor();
+// Declarations
+static inline ::UnityEngine::UIElements::Box_UxmlFactory* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x6b6ca6c, size 0x74, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6b6d12c, size 0x74, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Box_UxmlFactory();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr Box_UxmlFactory() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Box_UxmlFactory", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  Box_UxmlFactory(Box_UxmlFactory&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Box_UxmlFactory", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  Box_UxmlFactory(Box_UxmlFactory const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "Box_UxmlFactory", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+Box_UxmlFactory(Box_UxmlFactory && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4141 };
+// Ctor Parameters [CppParam { name: "", ty: "Box_UxmlFactory", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+Box_UxmlFactory(Box_UxmlFactory const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4141};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::Box_UxmlFactory, 0x18>, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements
+} // namespace end def UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.VisualElement
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.Box
 class CORDL_TYPE Box : public ::UnityEngine::UIElements::VisualElement {
 public:
-  // Declarations
-  using UxmlFactory = ::UnityEngine::UIElements::Box_UxmlFactory;
+// Declarations
+using UxmlFactory = ::UnityEngine::UIElements::Box_UxmlFactory;
 
-  /// @brief Field ussClassName, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_ussClassName, put = setStaticF_ussClassName)) ::StringW ussClassName;
+/// @brief Field ussClassName, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_ussClassName, put=setStaticF_ussClassName)) ::StringW  ussClassName;
 
-  static inline ::UnityEngine::UIElements::Box* New_ctor();
+static inline ::UnityEngine::UIElements::Box* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x6b6c968, size 0x9c, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6b6d028, size 0x9c, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  static inline ::StringW getStaticF_ussClassName();
+static inline ::StringW getStaticF_ussClassName() ;
 
-  static inline void setStaticF_ussClassName(::StringW value);
+static inline void setStaticF_ussClassName(::StringW  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Box();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr Box() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Box", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  Box(Box&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Box", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  Box(Box const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "Box", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+Box(Box && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4142 };
+// Ctor Parameters [CppParam { name: "", ty: "Box", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+Box(Box const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4142};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::Box, 0x4a8>, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements
+} // namespace end def UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::Box);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::Box*, "UnityEngine.UIElements", "Box");
 NEED_NO_BOX(::UnityEngine::UIElements::Box_UxmlFactory);

@@ -18,64 +18,64 @@ namespace UnityEngine::Android {
 // CS Name: UnityEngine.Android.AndroidLocale
 class CORDL_TYPE AndroidLocale : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field <country>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__country_k__BackingField, put = __cordl_internal_set__country_k__BackingField)) ::StringW _country_k__BackingField;
+// Declarations
+/// @brief Field <country>k__BackingField, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get__country_k__BackingField, put=__cordl_internal_set__country_k__BackingField)) ::StringW  _country_k__BackingField;
 
-  /// @brief Field <language>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__language_k__BackingField, put = __cordl_internal_set__language_k__BackingField)) ::StringW _language_k__BackingField;
+/// @brief Field <language>k__BackingField, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get__language_k__BackingField, put=__cordl_internal_set__language_k__BackingField)) ::StringW  _language_k__BackingField;
 
-  __declspec(property(get = get_country)) ::StringW country;
+ __declspec(property(get=get_country)) ::StringW  country;
 
-  __declspec(property(get = get_language)) ::StringW language;
+ __declspec(property(get=get_language)) ::StringW  language;
 
-  static inline ::UnityEngine::Android::AndroidLocale* New_ctor(::StringW _country, ::StringW _language);
+static inline ::UnityEngine::Android::AndroidLocale* New_ctor(::StringW  _country, ::StringW  _language) ;
 
-  constexpr ::StringW const& __cordl_internal_get__country_k__BackingField() const;
+constexpr ::StringW const& __cordl_internal_get__country_k__BackingField() const;
 
-  constexpr ::StringW& __cordl_internal_get__country_k__BackingField();
+constexpr ::StringW& __cordl_internal_get__country_k__BackingField() ;
 
-  constexpr ::StringW const& __cordl_internal_get__language_k__BackingField() const;
+constexpr ::StringW const& __cordl_internal_get__language_k__BackingField() const;
 
-  constexpr ::StringW& __cordl_internal_get__language_k__BackingField();
+constexpr ::StringW& __cordl_internal_get__language_k__BackingField() ;
 
-  constexpr void __cordl_internal_set__country_k__BackingField(::StringW value);
+constexpr void __cordl_internal_set__country_k__BackingField(::StringW  value) ;
 
-  constexpr void __cordl_internal_set__language_k__BackingField(::StringW value);
+constexpr void __cordl_internal_set__language_k__BackingField(::StringW  value) ;
 
-  /// @brief Method .ctor, addr 0x6864278, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::StringW _country, ::StringW _language);
+/// @brief Method .ctor, addr 0x6864938, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(::StringW  _country, ::StringW  _language) ;
 
-  /// @brief Method get_country, addr 0x6864268, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_country();
+/// @brief Method get_country, addr 0x6864928, size 0x8, virtual false, abstract: false, final false
+inline ::StringW get_country() ;
 
-  /// @brief Method get_language, addr 0x6864270, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_language();
+/// @brief Method get_language, addr 0x6864930, size 0x8, virtual false, abstract: false, final false
+inline ::StringW get_language() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AndroidLocale();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr AndroidLocale() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AndroidLocale", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  AndroidLocale(AndroidLocale&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AndroidLocale", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  AndroidLocale(AndroidLocale const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "AndroidLocale", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+AndroidLocale(AndroidLocale && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19951 };
+// Ctor Parameters [CppParam { name: "", ty: "AndroidLocale", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+AndroidLocale(AndroidLocale const& ) = delete;
 
-  /// @brief Field <country>k__BackingField, offset: 0x10, size: 0x8, def value: None
-  ::StringW ____country_k__BackingField;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{19955};
 
-  /// @brief Field <language>k__BackingField, offset: 0x18, size: 0x8, def value: None
-  ::StringW ____language_k__BackingField;
+/// @brief Field <country>k__BackingField, offset: 0x10, size: 0x8, def value: None
+ ::StringW  ____country_k__BackingField;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field <language>k__BackingField, offset: 0x18, size: 0x8, def value: None
+ ::StringW  ____language_k__BackingField;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Android::AndroidLocale, ____country_k__BackingField) == 0x10, "Offset mismatch!");
@@ -84,6 +84,6 @@ static_assert(offsetof(::UnityEngine::Android::AndroidLocale, ____language_k__Ba
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Android::AndroidLocale, 0x20>, "Size mismatch!");
 
-} // namespace UnityEngine::Android
+} // namespace end def UnityEngine::Android
 NEED_NO_BOX(::UnityEngine::Android::AndroidLocale);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Android::AndroidLocale*, "UnityEngine.Android", "AndroidLocale");

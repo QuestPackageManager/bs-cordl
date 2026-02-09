@@ -28,10 +28,12 @@ namespace GlobalNamespace {
 class MultiplayerScoreProvider;
 }
 namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+template<typename TKey,typename TValue>
+class Dictionary_2;
 }
 namespace System::Collections::Generic {
-template <typename T> class List_1;
+template<typename T>
+class List_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -45,202 +47,198 @@ namespace GlobalNamespace {
 // CS Name: MultiplayerVerticalPlayerMovementManager
 class CORDL_TYPE MultiplayerVerticalPlayerMovementManager : public ::UnityEngine::MonoBehaviour {
 public:
-  // Declarations
-  /// @brief Field _accelerationMetersPerSecondSquared, offset 0x2c, size 0x4
-  __declspec(property(get = __cordl_internal_get__accelerationMetersPerSecondSquared, put = __cordl_internal_set__accelerationMetersPerSecondSquared)) float_t _accelerationMetersPerSecondSquared;
+// Declarations
+/// @brief Field _accelerationMetersPerSecondSquared, offset 0x2c, size 0x4 
+ __declspec(property(get=__cordl_internal_get__accelerationMetersPerSecondSquared, put=__cordl_internal_set__accelerationMetersPerSecondSquared)) float_t  _accelerationMetersPerSecondSquared;
 
-  /// @brief Field _currentSpeedsDictionary, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get__currentSpeedsDictionary,
-                      put = __cordl_internal_set__currentSpeedsDictionary)) ::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerFacade>, float_t>*
-      _currentSpeedsDictionary;
+/// @brief Field _currentSpeedsDictionary, offset 0x60, size 0x8 
+ __declspec(property(get=__cordl_internal_get__currentSpeedsDictionary, put=__cordl_internal_set__currentSpeedsDictionary)) ::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerFacade>,float_t>*  _currentSpeedsDictionary;
 
-  /// @brief Field _decelerationMetersPerSecondSquared, offset 0x30, size 0x4
-  __declspec(property(get = __cordl_internal_get__decelerationMetersPerSecondSquared, put = __cordl_internal_set__decelerationMetersPerSecondSquared)) float_t _decelerationMetersPerSecondSquared;
+/// @brief Field _decelerationMetersPerSecondSquared, offset 0x30, size 0x4 
+ __declspec(property(get=__cordl_internal_get__decelerationMetersPerSecondSquared, put=__cordl_internal_set__decelerationMetersPerSecondSquared)) float_t  _decelerationMetersPerSecondSquared;
 
-  /// @brief Field _duelMovementRange, offset 0x24, size 0x4
-  __declspec(property(get = __cordl_internal_get__duelMovementRange, put = __cordl_internal_set__duelMovementRange)) float_t _duelMovementRange;
+/// @brief Field _duelMovementRange, offset 0x24, size 0x4 
+ __declspec(property(get=__cordl_internal_get__duelMovementRange, put=__cordl_internal_set__duelMovementRange)) float_t  _duelMovementRange;
 
-  /// @brief Field _lastFrameBaseScore, offset 0x68, size 0x4
-  __declspec(property(get = __cordl_internal_get__lastFrameBaseScore, put = __cordl_internal_set__lastFrameBaseScore)) float_t _lastFrameBaseScore;
+/// @brief Field _lastFrameBaseScore, offset 0x68, size 0x4 
+ __declspec(property(get=__cordl_internal_get__lastFrameBaseScore, put=__cordl_internal_set__lastFrameBaseScore)) float_t  _lastFrameBaseScore;
 
-  /// @brief Field _layoutProvider, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__layoutProvider, put = __cordl_internal_set__layoutProvider)) ::GlobalNamespace::MultiplayerLayoutProvider* _layoutProvider;
+/// @brief Field _layoutProvider, offset 0x48, size 0x8 
+ __declspec(property(get=__cordl_internal_get__layoutProvider, put=__cordl_internal_set__layoutProvider)) ::GlobalNamespace::MultiplayerLayoutProvider*  _layoutProvider;
 
-  /// @brief Field _maxMoveSpeedMetersPerSecond, offset 0x28, size 0x4
-  __declspec(property(get = __cordl_internal_get__maxMoveSpeedMetersPerSecond, put = __cordl_internal_set__maxMoveSpeedMetersPerSecond)) float_t _maxMoveSpeedMetersPerSecond;
+/// @brief Field _maxMoveSpeedMetersPerSecond, offset 0x28, size 0x4 
+ __declspec(property(get=__cordl_internal_get__maxMoveSpeedMetersPerSecond, put=__cordl_internal_set__maxMoveSpeedMetersPerSecond)) float_t  _maxMoveSpeedMetersPerSecond;
 
-  /// @brief Field _minScoreDifference, offset 0x34, size 0x4
-  __declspec(property(get = __cordl_internal_get__minScoreDifference, put = __cordl_internal_set__minScoreDifference)) float_t _minScoreDifference;
+/// @brief Field _minScoreDifference, offset 0x34, size 0x4 
+ __declspec(property(get=__cordl_internal_get__minScoreDifference, put=__cordl_internal_set__minScoreDifference)) float_t  _minScoreDifference;
 
-  /// @brief Field _movementRange, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get__movementRange, put = __cordl_internal_set__movementRange)) float_t _movementRange;
+/// @brief Field _movementRange, offset 0x20, size 0x4 
+ __declspec(property(get=__cordl_internal_get__movementRange, put=__cordl_internal_set__movementRange)) float_t  _movementRange;
 
-  /// @brief Field _multiplayerController, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get__multiplayerController, put = __cordl_internal_set__multiplayerController)) ::UnityW<::GlobalNamespace::MultiplayerController> _multiplayerController;
+/// @brief Field _multiplayerController, offset 0x50, size 0x8 
+ __declspec(property(get=__cordl_internal_get__multiplayerController, put=__cordl_internal_set__multiplayerController)) ::UnityW<::GlobalNamespace::MultiplayerController>  _multiplayerController;
 
-  /// @brief Field _multiplayerPlayersManager, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__multiplayerPlayersManager, put = __cordl_internal_set__multiplayerPlayersManager)) ::UnityW<::GlobalNamespace::MultiplayerPlayersManager>
-      _multiplayerPlayersManager;
+/// @brief Field _multiplayerPlayersManager, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get__multiplayerPlayersManager, put=__cordl_internal_set__multiplayerPlayersManager)) ::UnityW<::GlobalNamespace::MultiplayerPlayersManager>  _multiplayerPlayersManager;
 
-  /// @brief Field _reusablePlayersList, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get__reusablePlayersList,
-                      put = __cordl_internal_set__reusablePlayersList)) ::System::Collections::Generic::List_1<::GlobalNamespace::MultiplayerScoreProvider_RankedPlayer*>* _reusablePlayersList;
+/// @brief Field _reusablePlayersList, offset 0x58, size 0x8 
+ __declspec(property(get=__cordl_internal_get__reusablePlayersList, put=__cordl_internal_set__reusablePlayersList)) ::System::Collections::Generic::List_1<::GlobalNamespace::MultiplayerScoreProvider_RankedPlayer*>*  _reusablePlayersList;
 
-  /// @brief Field _scoreProvider, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__scoreProvider, put = __cordl_internal_set__scoreProvider)) ::UnityW<::GlobalNamespace::MultiplayerScoreProvider> _scoreProvider;
+/// @brief Field _scoreProvider, offset 0x40, size 0x8 
+ __declspec(property(get=__cordl_internal_get__scoreProvider, put=__cordl_internal_set__scoreProvider)) ::UnityW<::GlobalNamespace::MultiplayerScoreProvider>  _scoreProvider;
 
-  /// @brief Method HandleStateChanged, addr 0x583c728, size 0x10, virtual false, abstract: false, final false
-  inline void HandleStateChanged(::GlobalNamespace::MultiplayerController_State state);
+/// @brief Method HandleStateChanged, addr 0x583d058, size 0x10, virtual false, abstract: false, final false
+inline void HandleStateChanged(::GlobalNamespace::MultiplayerController_State  state) ;
 
-  static inline ::GlobalNamespace::MultiplayerVerticalPlayerMovementManager* New_ctor();
+static inline ::GlobalNamespace::MultiplayerVerticalPlayerMovementManager* New_ctor() ;
 
-  /// @brief Method OnDestroy, addr 0x583c738, size 0x114, virtual false, abstract: false, final false
-  inline void OnDestroy();
+/// @brief Method OnDestroy, addr 0x583d068, size 0x114, virtual false, abstract: false, final false
+inline void OnDestroy() ;
 
-  /// @brief Method Start, addr 0x583c678, size 0xb0, virtual false, abstract: false, final false
-  inline void Start();
+/// @brief Method Start, addr 0x583cfa8, size 0xb0, virtual false, abstract: false, final false
+inline void Start() ;
 
-  /// @brief Method Update, addr 0x583c84c, size 0x8a0, virtual false, abstract: false, final false
-  inline void Update();
+/// @brief Method Update, addr 0x583d17c, size 0x8a0, virtual false, abstract: false, final false
+inline void Update() ;
 
-  constexpr float_t const& __cordl_internal_get__accelerationMetersPerSecondSquared() const;
+constexpr float_t const& __cordl_internal_get__accelerationMetersPerSecondSquared() const;
 
-  constexpr float_t& __cordl_internal_get__accelerationMetersPerSecondSquared();
+constexpr float_t& __cordl_internal_get__accelerationMetersPerSecondSquared() ;
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerFacade>, float_t>* const& __cordl_internal_get__currentSpeedsDictionary() const;
+constexpr ::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerFacade>,float_t>* const& __cordl_internal_get__currentSpeedsDictionary() const;
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerFacade>, float_t>*& __cordl_internal_get__currentSpeedsDictionary();
+constexpr ::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerFacade>,float_t>*& __cordl_internal_get__currentSpeedsDictionary() ;
 
-  constexpr float_t const& __cordl_internal_get__decelerationMetersPerSecondSquared() const;
+constexpr float_t const& __cordl_internal_get__decelerationMetersPerSecondSquared() const;
 
-  constexpr float_t& __cordl_internal_get__decelerationMetersPerSecondSquared();
+constexpr float_t& __cordl_internal_get__decelerationMetersPerSecondSquared() ;
 
-  constexpr float_t const& __cordl_internal_get__duelMovementRange() const;
+constexpr float_t const& __cordl_internal_get__duelMovementRange() const;
 
-  constexpr float_t& __cordl_internal_get__duelMovementRange();
+constexpr float_t& __cordl_internal_get__duelMovementRange() ;
 
-  constexpr float_t const& __cordl_internal_get__lastFrameBaseScore() const;
+constexpr float_t const& __cordl_internal_get__lastFrameBaseScore() const;
 
-  constexpr float_t& __cordl_internal_get__lastFrameBaseScore();
+constexpr float_t& __cordl_internal_get__lastFrameBaseScore() ;
 
-  constexpr ::GlobalNamespace::MultiplayerLayoutProvider* const& __cordl_internal_get__layoutProvider() const;
+constexpr ::GlobalNamespace::MultiplayerLayoutProvider* const& __cordl_internal_get__layoutProvider() const;
 
-  constexpr ::GlobalNamespace::MultiplayerLayoutProvider*& __cordl_internal_get__layoutProvider();
+constexpr ::GlobalNamespace::MultiplayerLayoutProvider*& __cordl_internal_get__layoutProvider() ;
 
-  constexpr float_t const& __cordl_internal_get__maxMoveSpeedMetersPerSecond() const;
+constexpr float_t const& __cordl_internal_get__maxMoveSpeedMetersPerSecond() const;
 
-  constexpr float_t& __cordl_internal_get__maxMoveSpeedMetersPerSecond();
+constexpr float_t& __cordl_internal_get__maxMoveSpeedMetersPerSecond() ;
 
-  constexpr float_t const& __cordl_internal_get__minScoreDifference() const;
+constexpr float_t const& __cordl_internal_get__minScoreDifference() const;
 
-  constexpr float_t& __cordl_internal_get__minScoreDifference();
+constexpr float_t& __cordl_internal_get__minScoreDifference() ;
 
-  constexpr float_t const& __cordl_internal_get__movementRange() const;
+constexpr float_t const& __cordl_internal_get__movementRange() const;
 
-  constexpr float_t& __cordl_internal_get__movementRange();
+constexpr float_t& __cordl_internal_get__movementRange() ;
 
-  constexpr ::UnityW<::GlobalNamespace::MultiplayerController> const& __cordl_internal_get__multiplayerController() const;
+constexpr ::UnityW<::GlobalNamespace::MultiplayerController> const& __cordl_internal_get__multiplayerController() const;
 
-  constexpr ::UnityW<::GlobalNamespace::MultiplayerController>& __cordl_internal_get__multiplayerController();
+constexpr ::UnityW<::GlobalNamespace::MultiplayerController>& __cordl_internal_get__multiplayerController() ;
 
-  constexpr ::UnityW<::GlobalNamespace::MultiplayerPlayersManager> const& __cordl_internal_get__multiplayerPlayersManager() const;
+constexpr ::UnityW<::GlobalNamespace::MultiplayerPlayersManager> const& __cordl_internal_get__multiplayerPlayersManager() const;
 
-  constexpr ::UnityW<::GlobalNamespace::MultiplayerPlayersManager>& __cordl_internal_get__multiplayerPlayersManager();
+constexpr ::UnityW<::GlobalNamespace::MultiplayerPlayersManager>& __cordl_internal_get__multiplayerPlayersManager() ;
 
-  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::MultiplayerScoreProvider_RankedPlayer*>* const& __cordl_internal_get__reusablePlayersList() const;
+constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::MultiplayerScoreProvider_RankedPlayer*>* const& __cordl_internal_get__reusablePlayersList() const;
 
-  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::MultiplayerScoreProvider_RankedPlayer*>*& __cordl_internal_get__reusablePlayersList();
+constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::MultiplayerScoreProvider_RankedPlayer*>*& __cordl_internal_get__reusablePlayersList() ;
 
-  constexpr ::UnityW<::GlobalNamespace::MultiplayerScoreProvider> const& __cordl_internal_get__scoreProvider() const;
+constexpr ::UnityW<::GlobalNamespace::MultiplayerScoreProvider> const& __cordl_internal_get__scoreProvider() const;
 
-  constexpr ::UnityW<::GlobalNamespace::MultiplayerScoreProvider>& __cordl_internal_get__scoreProvider();
+constexpr ::UnityW<::GlobalNamespace::MultiplayerScoreProvider>& __cordl_internal_get__scoreProvider() ;
 
-  constexpr void __cordl_internal_set__accelerationMetersPerSecondSquared(float_t value);
+constexpr void __cordl_internal_set__accelerationMetersPerSecondSquared(float_t  value) ;
 
-  constexpr void __cordl_internal_set__currentSpeedsDictionary(::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerFacade>, float_t>* value);
+constexpr void __cordl_internal_set__currentSpeedsDictionary(::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerFacade>,float_t>*  value) ;
 
-  constexpr void __cordl_internal_set__decelerationMetersPerSecondSquared(float_t value);
+constexpr void __cordl_internal_set__decelerationMetersPerSecondSquared(float_t  value) ;
 
-  constexpr void __cordl_internal_set__duelMovementRange(float_t value);
+constexpr void __cordl_internal_set__duelMovementRange(float_t  value) ;
 
-  constexpr void __cordl_internal_set__lastFrameBaseScore(float_t value);
+constexpr void __cordl_internal_set__lastFrameBaseScore(float_t  value) ;
 
-  constexpr void __cordl_internal_set__layoutProvider(::GlobalNamespace::MultiplayerLayoutProvider* value);
+constexpr void __cordl_internal_set__layoutProvider(::GlobalNamespace::MultiplayerLayoutProvider*  value) ;
 
-  constexpr void __cordl_internal_set__maxMoveSpeedMetersPerSecond(float_t value);
+constexpr void __cordl_internal_set__maxMoveSpeedMetersPerSecond(float_t  value) ;
 
-  constexpr void __cordl_internal_set__minScoreDifference(float_t value);
+constexpr void __cordl_internal_set__minScoreDifference(float_t  value) ;
 
-  constexpr void __cordl_internal_set__movementRange(float_t value);
+constexpr void __cordl_internal_set__movementRange(float_t  value) ;
 
-  constexpr void __cordl_internal_set__multiplayerController(::UnityW<::GlobalNamespace::MultiplayerController> value);
+constexpr void __cordl_internal_set__multiplayerController(::UnityW<::GlobalNamespace::MultiplayerController>  value) ;
 
-  constexpr void __cordl_internal_set__multiplayerPlayersManager(::UnityW<::GlobalNamespace::MultiplayerPlayersManager> value);
+constexpr void __cordl_internal_set__multiplayerPlayersManager(::UnityW<::GlobalNamespace::MultiplayerPlayersManager>  value) ;
 
-  constexpr void __cordl_internal_set__reusablePlayersList(::System::Collections::Generic::List_1<::GlobalNamespace::MultiplayerScoreProvider_RankedPlayer*>* value);
+constexpr void __cordl_internal_set__reusablePlayersList(::System::Collections::Generic::List_1<::GlobalNamespace::MultiplayerScoreProvider_RankedPlayer*>*  value) ;
 
-  constexpr void __cordl_internal_set__scoreProvider(::UnityW<::GlobalNamespace::MultiplayerScoreProvider> value);
+constexpr void __cordl_internal_set__scoreProvider(::UnityW<::GlobalNamespace::MultiplayerScoreProvider>  value) ;
 
-  /// @brief Method .ctor, addr 0x583d0ec, size 0xfc, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x583da1c, size 0xfc, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MultiplayerVerticalPlayerMovementManager();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr MultiplayerVerticalPlayerMovementManager() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerVerticalPlayerMovementManager", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  MultiplayerVerticalPlayerMovementManager(MultiplayerVerticalPlayerMovementManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerVerticalPlayerMovementManager", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerVerticalPlayerMovementManager(MultiplayerVerticalPlayerMovementManager const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "MultiplayerVerticalPlayerMovementManager", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+MultiplayerVerticalPlayerMovementManager(MultiplayerVerticalPlayerMovementManager && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6199 };
+// Ctor Parameters [CppParam { name: "", ty: "MultiplayerVerticalPlayerMovementManager", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+MultiplayerVerticalPlayerMovementManager(MultiplayerVerticalPlayerMovementManager const& ) = delete;
 
-  /// @brief Field _movementRange, offset: 0x20, size: 0x4, def value: None
-  float_t ____movementRange;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6199};
 
-  /// @brief Field _duelMovementRange, offset: 0x24, size: 0x4, def value: None
-  float_t ____duelMovementRange;
+/// @brief Field _movementRange, offset: 0x20, size: 0x4, def value: None
+ float_t  ____movementRange;
 
-  /// @brief Field _maxMoveSpeedMetersPerSecond, offset: 0x28, size: 0x4, def value: None
-  float_t ____maxMoveSpeedMetersPerSecond;
+/// @brief Field _duelMovementRange, offset: 0x24, size: 0x4, def value: None
+ float_t  ____duelMovementRange;
 
-  /// @brief Field _accelerationMetersPerSecondSquared, offset: 0x2c, size: 0x4, def value: None
-  float_t ____accelerationMetersPerSecondSquared;
+/// @brief Field _maxMoveSpeedMetersPerSecond, offset: 0x28, size: 0x4, def value: None
+ float_t  ____maxMoveSpeedMetersPerSecond;
 
-  /// @brief Field _decelerationMetersPerSecondSquared, offset: 0x30, size: 0x4, def value: None
-  float_t ____decelerationMetersPerSecondSquared;
+/// @brief Field _accelerationMetersPerSecondSquared, offset: 0x2c, size: 0x4, def value: None
+ float_t  ____accelerationMetersPerSecondSquared;
 
-  /// @brief Field _minScoreDifference, offset: 0x34, size: 0x4, def value: None
-  float_t ____minScoreDifference;
+/// @brief Field _decelerationMetersPerSecondSquared, offset: 0x30, size: 0x4, def value: None
+ float_t  ____decelerationMetersPerSecondSquared;
 
-  /// @brief Field _multiplayerPlayersManager, offset: 0x38, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::MultiplayerPlayersManager> ____multiplayerPlayersManager;
+/// @brief Field _minScoreDifference, offset: 0x34, size: 0x4, def value: None
+ float_t  ____minScoreDifference;
 
-  /// @brief Field _scoreProvider, offset: 0x40, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::MultiplayerScoreProvider> ____scoreProvider;
+/// @brief Field _multiplayerPlayersManager, offset: 0x38, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::MultiplayerPlayersManager>  ____multiplayerPlayersManager;
 
-  /// @brief Field _layoutProvider, offset: 0x48, size: 0x8, def value: None
-  ::GlobalNamespace::MultiplayerLayoutProvider* ____layoutProvider;
+/// @brief Field _scoreProvider, offset: 0x40, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::MultiplayerScoreProvider>  ____scoreProvider;
 
-  /// @brief Field _multiplayerController, offset: 0x50, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::MultiplayerController> ____multiplayerController;
+/// @brief Field _layoutProvider, offset: 0x48, size: 0x8, def value: None
+ ::GlobalNamespace::MultiplayerLayoutProvider*  ____layoutProvider;
 
-  /// @brief Field _reusablePlayersList, offset: 0x58, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::GlobalNamespace::MultiplayerScoreProvider_RankedPlayer*>* ____reusablePlayersList;
+/// @brief Field _multiplayerController, offset: 0x50, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::MultiplayerController>  ____multiplayerController;
 
-  /// @brief Field _currentSpeedsDictionary, offset: 0x60, size: 0x8, def value: None
-  ::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerFacade>, float_t>* ____currentSpeedsDictionary;
+/// @brief Field _reusablePlayersList, offset: 0x58, size: 0x8, def value: None
+ ::System::Collections::Generic::List_1<::GlobalNamespace::MultiplayerScoreProvider_RankedPlayer*>*  ____reusablePlayersList;
 
-  /// @brief Field _lastFrameBaseScore, offset: 0x68, size: 0x4, def value: None
-  float_t ____lastFrameBaseScore;
+/// @brief Field _currentSpeedsDictionary, offset: 0x60, size: 0x8, def value: None
+ ::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerFacade>,float_t>*  ____currentSpeedsDictionary;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _lastFrameBaseScore, offset: 0x68, size: 0x4, def value: None
+ float_t  ____lastFrameBaseScore;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::MultiplayerVerticalPlayerMovementManager, ____movementRange) == 0x20, "Offset mismatch!");
@@ -271,6 +269,6 @@ static_assert(offsetof(::GlobalNamespace::MultiplayerVerticalPlayerMovementManag
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerVerticalPlayerMovementManager, 0x70>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MultiplayerVerticalPlayerMovementManager);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerVerticalPlayerMovementManager*, "", "MultiplayerVerticalPlayerMovementManager");

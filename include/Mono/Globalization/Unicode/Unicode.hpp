@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "Mono/Globalization/Unicode/CodePointIndexer.hpp"
 #include "Mono/Globalization/Unicode/Contraction.hpp"
@@ -14,5 +14,6 @@ module;
 #include "Mono/Globalization/Unicode/SortKeyBuffer.hpp"
 #include "Mono/Globalization/Unicode/TailoringInfo.hpp"
 #ifdef __cpp_modules
-export module Unicode;
-#endif
+                    export module Unicode;
+                    #endif
+                

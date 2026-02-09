@@ -39,150 +39,150 @@ namespace UnityEngine::Rendering::UI {
 // CS Name: UnityEngine.Rendering.UI.DebugUIHandlerVector2
 class CORDL_TYPE DebugUIHandlerVector2 : public ::UnityEngine::Rendering::UI::DebugUIHandlerWidget {
 public:
-  // Declarations
-  /// @brief Field fieldX, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get_fieldX, put = __cordl_internal_set_fieldX)) ::UnityW<::UnityEngine::Rendering::UI::DebugUIHandlerIndirectFloatField> fieldX;
+// Declarations
+/// @brief Field fieldX, offset 0x70, size 0x8 
+ __declspec(property(get=__cordl_internal_get_fieldX, put=__cordl_internal_set_fieldX)) ::UnityW<::UnityEngine::Rendering::UI::DebugUIHandlerIndirectFloatField>  fieldX;
 
-  /// @brief Field fieldY, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get_fieldY, put = __cordl_internal_set_fieldY)) ::UnityW<::UnityEngine::Rendering::UI::DebugUIHandlerIndirectFloatField> fieldY;
+/// @brief Field fieldY, offset 0x78, size 0x8 
+ __declspec(property(get=__cordl_internal_get_fieldY, put=__cordl_internal_set_fieldY)) ::UnityW<::UnityEngine::Rendering::UI::DebugUIHandlerIndirectFloatField>  fieldY;
 
-  /// @brief Field m_Container, offset 0x88, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Container, put = __cordl_internal_set_m_Container)) ::UnityW<::UnityEngine::Rendering::UI::DebugUIHandlerContainer> m_Container;
+/// @brief Field m_Container, offset 0x88, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_Container, put=__cordl_internal_set_m_Container)) ::UnityW<::UnityEngine::Rendering::UI::DebugUIHandlerContainer>  m_Container;
 
-  /// @brief Field m_Field, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Field, put = __cordl_internal_set_m_Field)) ::UnityEngine::Rendering::DebugUI_Vector2Field* m_Field;
+/// @brief Field m_Field, offset 0x80, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_Field, put=__cordl_internal_set_m_Field)) ::UnityEngine::Rendering::DebugUI_Vector2Field*  m_Field;
 
-  /// @brief Field nameLabel, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get_nameLabel, put = __cordl_internal_set_nameLabel)) ::UnityW<::UnityEngine::UI::Text> nameLabel;
+/// @brief Field nameLabel, offset 0x60, size 0x8 
+ __declspec(property(get=__cordl_internal_get_nameLabel, put=__cordl_internal_set_nameLabel)) ::UnityW<::UnityEngine::UI::Text>  nameLabel;
 
-  /// @brief Field valueToggle, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get_valueToggle, put = __cordl_internal_set_valueToggle)) ::UnityW<::UnityEngine::Rendering::UI::UIFoldout> valueToggle;
+/// @brief Field valueToggle, offset 0x68, size 0x8 
+ __declspec(property(get=__cordl_internal_get_valueToggle, put=__cordl_internal_set_valueToggle)) ::UnityW<::UnityEngine::Rendering::UI::UIFoldout>  valueToggle;
 
-  static inline ::UnityEngine::Rendering::UI::DebugUIHandlerVector2* New_ctor();
+static inline ::UnityEngine::Rendering::UI::DebugUIHandlerVector2* New_ctor() ;
 
-  /// @brief Method Next, addr 0x6651250, size 0xcc, virtual true, abstract: false, final false
-  inline ::UnityW<::UnityEngine::Rendering::UI::DebugUIHandlerWidget> Next();
+/// @brief Method Next, addr 0x6651910, size 0xcc, virtual true, abstract: false, final false
+inline ::UnityW<::UnityEngine::Rendering::UI::DebugUIHandlerWidget> Next() ;
 
-  /// @brief Method OnAction, addr 0x665122c, size 0x24, virtual true, abstract: false, final false
-  inline void OnAction();
+/// @brief Method OnAction, addr 0x66518ec, size 0x24, virtual true, abstract: false, final false
+inline void OnAction() ;
 
-  /// @brief Method OnDecrement, addr 0x6651210, size 0x1c, virtual true, abstract: false, final false
-  inline void OnDecrement(bool fast);
+/// @brief Method OnDecrement, addr 0x66518d0, size 0x1c, virtual true, abstract: false, final false
+inline void OnDecrement(bool  fast) ;
 
-  /// @brief Method OnDeselection, addr 0x66511c8, size 0x2c, virtual true, abstract: false, final false
-  inline void OnDeselection();
+/// @brief Method OnDeselection, addr 0x6651888, size 0x2c, virtual true, abstract: false, final false
+inline void OnDeselection() ;
 
-  /// @brief Method OnIncrement, addr 0x66511f4, size 0x1c, virtual true, abstract: false, final false
-  inline void OnIncrement(bool fast);
+/// @brief Method OnIncrement, addr 0x66518b4, size 0x1c, virtual true, abstract: false, final false
+inline void OnIncrement(bool  fast) ;
 
-  /// @brief Method OnSelection, addr 0x66510dc, size 0xec, virtual true, abstract: false, final false
-  inline bool OnSelection(bool fromNext, ::UnityEngine::Rendering::UI::DebugUIHandlerWidget* previous);
+/// @brief Method OnSelection, addr 0x665179c, size 0xec, virtual true, abstract: false, final false
+inline bool OnSelection(bool  fromNext, ::UnityEngine::Rendering::UI::DebugUIHandlerWidget*  previous) ;
 
-  /// @brief Method SetValue, addr 0x6651038, size 0xa4, virtual false, abstract: false, final false
-  inline void SetValue(float_t v, bool x, bool y);
+/// @brief Method SetValue, addr 0x66516f8, size 0xa4, virtual false, abstract: false, final false
+inline void SetValue(float_t  v, bool  x, bool  y) ;
 
-  /// @brief Method SetWidget, addr 0x6650c48, size 0x2e8, virtual true, abstract: false, final false
-  inline void SetWidget(::UnityEngine::Rendering::DebugUI_Widget* widget);
+/// @brief Method SetWidget, addr 0x6651308, size 0x2e8, virtual true, abstract: false, final false
+inline void SetWidget(::UnityEngine::Rendering::DebugUI_Widget*  widget) ;
 
-  /// @brief Method SetupSettings, addr 0x6650f30, size 0x108, virtual false, abstract: false, final false
-  inline void SetupSettings(::UnityEngine::Rendering::UI::DebugUIHandlerIndirectFloatField* field);
+/// @brief Method SetupSettings, addr 0x66515f0, size 0x108, virtual false, abstract: false, final false
+inline void SetupSettings(::UnityEngine::Rendering::UI::DebugUIHandlerIndirectFloatField*  field) ;
 
-  /// @brief Method <SetWidget>b__6_0, addr 0x6651334, size 0x60, virtual false, abstract: false, final false
-  inline float_t _SetWidget_b__6_0();
+/// @brief Method <SetWidget>b__6_0, addr 0x66519f4, size 0x60, virtual false, abstract: false, final false
+inline float_t _SetWidget_b__6_0() ;
 
-  /// @brief Method <SetWidget>b__6_1, addr 0x6651394, size 0xc, virtual false, abstract: false, final false
-  inline void _SetWidget_b__6_1(float_t x);
+/// @brief Method <SetWidget>b__6_1, addr 0x6651a54, size 0xc, virtual false, abstract: false, final false
+inline void _SetWidget_b__6_1(float_t  x) ;
 
-  /// @brief Method <SetWidget>b__6_2, addr 0x66513a0, size 0x68, virtual false, abstract: false, final false
-  inline float_t _SetWidget_b__6_2();
+/// @brief Method <SetWidget>b__6_2, addr 0x6651a60, size 0x68, virtual false, abstract: false, final false
+inline float_t _SetWidget_b__6_2() ;
 
-  /// @brief Method <SetWidget>b__6_3, addr 0x6651408, size 0xc, virtual false, abstract: false, final false
-  inline void _SetWidget_b__6_3(float_t x);
+/// @brief Method <SetWidget>b__6_3, addr 0x6651ac8, size 0xc, virtual false, abstract: false, final false
+inline void _SetWidget_b__6_3(float_t  x) ;
 
-  /// @brief Method <SetupSettings>b__8_0, addr 0x6651414, size 0x18, virtual false, abstract: false, final false
-  inline float_t _SetupSettings_b__8_0();
+/// @brief Method <SetupSettings>b__8_0, addr 0x6651ad4, size 0x18, virtual false, abstract: false, final false
+inline float_t _SetupSettings_b__8_0() ;
 
-  /// @brief Method <SetupSettings>b__8_1, addr 0x665142c, size 0x18, virtual false, abstract: false, final false
-  inline float_t _SetupSettings_b__8_1();
+/// @brief Method <SetupSettings>b__8_1, addr 0x6651aec, size 0x18, virtual false, abstract: false, final false
+inline float_t _SetupSettings_b__8_1() ;
 
-  /// @brief Method <SetupSettings>b__8_2, addr 0x6651444, size 0x1c, virtual false, abstract: false, final false
-  inline float_t _SetupSettings_b__8_2();
+/// @brief Method <SetupSettings>b__8_2, addr 0x6651b04, size 0x1c, virtual false, abstract: false, final false
+inline float_t _SetupSettings_b__8_2() ;
 
-  constexpr ::UnityW<::UnityEngine::Rendering::UI::DebugUIHandlerIndirectFloatField> const& __cordl_internal_get_fieldX() const;
+constexpr ::UnityW<::UnityEngine::Rendering::UI::DebugUIHandlerIndirectFloatField> const& __cordl_internal_get_fieldX() const;
 
-  constexpr ::UnityW<::UnityEngine::Rendering::UI::DebugUIHandlerIndirectFloatField>& __cordl_internal_get_fieldX();
+constexpr ::UnityW<::UnityEngine::Rendering::UI::DebugUIHandlerIndirectFloatField>& __cordl_internal_get_fieldX() ;
 
-  constexpr ::UnityW<::UnityEngine::Rendering::UI::DebugUIHandlerIndirectFloatField> const& __cordl_internal_get_fieldY() const;
+constexpr ::UnityW<::UnityEngine::Rendering::UI::DebugUIHandlerIndirectFloatField> const& __cordl_internal_get_fieldY() const;
 
-  constexpr ::UnityW<::UnityEngine::Rendering::UI::DebugUIHandlerIndirectFloatField>& __cordl_internal_get_fieldY();
+constexpr ::UnityW<::UnityEngine::Rendering::UI::DebugUIHandlerIndirectFloatField>& __cordl_internal_get_fieldY() ;
 
-  constexpr ::UnityW<::UnityEngine::Rendering::UI::DebugUIHandlerContainer> const& __cordl_internal_get_m_Container() const;
+constexpr ::UnityW<::UnityEngine::Rendering::UI::DebugUIHandlerContainer> const& __cordl_internal_get_m_Container() const;
 
-  constexpr ::UnityW<::UnityEngine::Rendering::UI::DebugUIHandlerContainer>& __cordl_internal_get_m_Container();
+constexpr ::UnityW<::UnityEngine::Rendering::UI::DebugUIHandlerContainer>& __cordl_internal_get_m_Container() ;
 
-  constexpr ::UnityEngine::Rendering::DebugUI_Vector2Field* const& __cordl_internal_get_m_Field() const;
+constexpr ::UnityEngine::Rendering::DebugUI_Vector2Field* const& __cordl_internal_get_m_Field() const;
 
-  constexpr ::UnityEngine::Rendering::DebugUI_Vector2Field*& __cordl_internal_get_m_Field();
+constexpr ::UnityEngine::Rendering::DebugUI_Vector2Field*& __cordl_internal_get_m_Field() ;
 
-  constexpr ::UnityW<::UnityEngine::UI::Text> const& __cordl_internal_get_nameLabel() const;
+constexpr ::UnityW<::UnityEngine::UI::Text> const& __cordl_internal_get_nameLabel() const;
 
-  constexpr ::UnityW<::UnityEngine::UI::Text>& __cordl_internal_get_nameLabel();
+constexpr ::UnityW<::UnityEngine::UI::Text>& __cordl_internal_get_nameLabel() ;
 
-  constexpr ::UnityW<::UnityEngine::Rendering::UI::UIFoldout> const& __cordl_internal_get_valueToggle() const;
+constexpr ::UnityW<::UnityEngine::Rendering::UI::UIFoldout> const& __cordl_internal_get_valueToggle() const;
 
-  constexpr ::UnityW<::UnityEngine::Rendering::UI::UIFoldout>& __cordl_internal_get_valueToggle();
+constexpr ::UnityW<::UnityEngine::Rendering::UI::UIFoldout>& __cordl_internal_get_valueToggle() ;
 
-  constexpr void __cordl_internal_set_fieldX(::UnityW<::UnityEngine::Rendering::UI::DebugUIHandlerIndirectFloatField> value);
+constexpr void __cordl_internal_set_fieldX(::UnityW<::UnityEngine::Rendering::UI::DebugUIHandlerIndirectFloatField>  value) ;
 
-  constexpr void __cordl_internal_set_fieldY(::UnityW<::UnityEngine::Rendering::UI::DebugUIHandlerIndirectFloatField> value);
+constexpr void __cordl_internal_set_fieldY(::UnityW<::UnityEngine::Rendering::UI::DebugUIHandlerIndirectFloatField>  value) ;
 
-  constexpr void __cordl_internal_set_m_Container(::UnityW<::UnityEngine::Rendering::UI::DebugUIHandlerContainer> value);
+constexpr void __cordl_internal_set_m_Container(::UnityW<::UnityEngine::Rendering::UI::DebugUIHandlerContainer>  value) ;
 
-  constexpr void __cordl_internal_set_m_Field(::UnityEngine::Rendering::DebugUI_Vector2Field* value);
+constexpr void __cordl_internal_set_m_Field(::UnityEngine::Rendering::DebugUI_Vector2Field*  value) ;
 
-  constexpr void __cordl_internal_set_nameLabel(::UnityW<::UnityEngine::UI::Text> value);
+constexpr void __cordl_internal_set_nameLabel(::UnityW<::UnityEngine::UI::Text>  value) ;
 
-  constexpr void __cordl_internal_set_valueToggle(::UnityW<::UnityEngine::Rendering::UI::UIFoldout> value);
+constexpr void __cordl_internal_set_valueToggle(::UnityW<::UnityEngine::Rendering::UI::UIFoldout>  value) ;
 
-  /// @brief Method .ctor, addr 0x665131c, size 0x18, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x66519dc, size 0x18, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DebugUIHandlerVector2();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr DebugUIHandlerVector2() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUIHandlerVector2", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  DebugUIHandlerVector2(DebugUIHandlerVector2&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugUIHandlerVector2", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  DebugUIHandlerVector2(DebugUIHandlerVector2 const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "DebugUIHandlerVector2", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+DebugUIHandlerVector2(DebugUIHandlerVector2 && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12519 };
+// Ctor Parameters [CppParam { name: "", ty: "DebugUIHandlerVector2", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+DebugUIHandlerVector2(DebugUIHandlerVector2 const& ) = delete;
 
-  /// @brief Field nameLabel, offset: 0x60, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::UI::Text> ___nameLabel;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12523};
 
-  /// @brief Field valueToggle, offset: 0x68, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::Rendering::UI::UIFoldout> ___valueToggle;
+/// @brief Field nameLabel, offset: 0x60, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::UI::Text>  ___nameLabel;
 
-  /// @brief Field fieldX, offset: 0x70, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::Rendering::UI::DebugUIHandlerIndirectFloatField> ___fieldX;
+/// @brief Field valueToggle, offset: 0x68, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::Rendering::UI::UIFoldout>  ___valueToggle;
 
-  /// @brief Field fieldY, offset: 0x78, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::Rendering::UI::DebugUIHandlerIndirectFloatField> ___fieldY;
+/// @brief Field fieldX, offset: 0x70, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::Rendering::UI::DebugUIHandlerIndirectFloatField>  ___fieldX;
 
-  /// @brief Field m_Field, offset: 0x80, size: 0x8, def value: None
-  ::UnityEngine::Rendering::DebugUI_Vector2Field* ___m_Field;
+/// @brief Field fieldY, offset: 0x78, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::Rendering::UI::DebugUIHandlerIndirectFloatField>  ___fieldY;
 
-  /// @brief Field m_Container, offset: 0x88, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::Rendering::UI::DebugUIHandlerContainer> ___m_Container;
+/// @brief Field m_Field, offset: 0x80, size: 0x8, def value: None
+ ::UnityEngine::Rendering::DebugUI_Vector2Field*  ___m_Field;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field m_Container, offset: 0x88, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::Rendering::UI::DebugUIHandlerContainer>  ___m_Container;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Rendering::UI::DebugUIHandlerVector2, ___nameLabel) == 0x60, "Offset mismatch!");
@@ -199,6 +199,6 @@ static_assert(offsetof(::UnityEngine::Rendering::UI::DebugUIHandlerVector2, ___m
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::UI::DebugUIHandlerVector2, 0x90>, "Size mismatch!");
 
-} // namespace UnityEngine::Rendering::UI
+} // namespace end def UnityEngine::Rendering::UI
 NEED_NO_BOX(::UnityEngine::Rendering::UI::DebugUIHandlerVector2);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::UI::DebugUIHandlerVector2*, "UnityEngine.Rendering.UI", "DebugUIHandlerVector2");

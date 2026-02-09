@@ -22,53 +22,48 @@ namespace BeatmapSaveDataVersion4 {
 // CS Name: BeatmapSaveDataVersion4.IndexFilter
 struct CORDL_TYPE IndexFilter {
 public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr IndexFilter();
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr IndexFilter() ;
 
-  // Ctor Parameters [CppParam { name: "f", ty: "::BeatmapSaveDataCommon::IndexFilterType", modifiers: "", def_value: None }, CppParam { name: "p", ty: "int32_t", modifiers: "", def_value: None },
-  // CppParam { name: "t", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "r", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "c", ty: "int32_t", modifiers: "",
-  // def_value: None }, CppParam { name: "n", ty: "::BeatmapSaveDataCommon::IndexFilterRandomType", modifiers: "", def_value: None }, CppParam { name: "s", ty: "int32_t", modifiers: "", def_value:
-  // None }, CppParam { name: "l", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "d", ty: "::BeatmapSaveDataCommon::IndexFilterLimitAlsoAffectsType", modifiers: "", def_value: None
-  // }]
-  constexpr IndexFilter(::BeatmapSaveDataCommon::IndexFilterType f, int32_t p, int32_t t, int32_t r, int32_t c, ::BeatmapSaveDataCommon::IndexFilterRandomType n, int32_t s, float_t l,
-                        ::BeatmapSaveDataCommon::IndexFilterLimitAlsoAffectsType d) noexcept;
+// Ctor Parameters [CppParam { name: "f", ty: "::BeatmapSaveDataCommon::IndexFilterType", modifiers: "", def_value: None }, CppParam { name: "p", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "t", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "r", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "c", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "n", ty: "::BeatmapSaveDataCommon::IndexFilterRandomType", modifiers: "", def_value: None }, CppParam { name: "s", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "l", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "d", ty: "::BeatmapSaveDataCommon::IndexFilterLimitAlsoAffectsType", modifiers: "", def_value: None }]
+constexpr IndexFilter(::BeatmapSaveDataCommon::IndexFilterType  f, int32_t  p, int32_t  t, int32_t  r, int32_t  c, ::BeatmapSaveDataCommon::IndexFilterRandomType  n, int32_t  s, float_t  l, ::BeatmapSaveDataCommon::IndexFilterLimitAlsoAffectsType  d) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15302 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{15306};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x24 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x24};
 
-  /// @brief Field f, offset: 0x0, size: 0x4, def value: None
-  ::BeatmapSaveDataCommon::IndexFilterType f;
+/// @brief Field f, offset: 0x0, size: 0x4, def value: None
+ ::BeatmapSaveDataCommon::IndexFilterType  f;
 
-  /// @brief Field p, offset: 0x4, size: 0x4, def value: None
-  int32_t p;
+/// @brief Field p, offset: 0x4, size: 0x4, def value: None
+ int32_t  p;
 
-  /// @brief Field t, offset: 0x8, size: 0x4, def value: None
-  int32_t t;
+/// @brief Field t, offset: 0x8, size: 0x4, def value: None
+ int32_t  t;
 
-  /// @brief Field r, offset: 0xc, size: 0x4, def value: None
-  int32_t r;
+/// @brief Field r, offset: 0xc, size: 0x4, def value: None
+ int32_t  r;
 
-  /// @brief Field c, offset: 0x10, size: 0x4, def value: None
-  int32_t c;
+/// @brief Field c, offset: 0x10, size: 0x4, def value: None
+ int32_t  c;
 
-  /// @brief Field n, offset: 0x14, size: 0x4, def value: None
-  ::BeatmapSaveDataCommon::IndexFilterRandomType n;
+/// @brief Field n, offset: 0x14, size: 0x4, def value: None
+ ::BeatmapSaveDataCommon::IndexFilterRandomType  n;
 
-  /// @brief Field s, offset: 0x18, size: 0x4, def value: None
-  int32_t s;
+/// @brief Field s, offset: 0x18, size: 0x4, def value: None
+ int32_t  s;
 
-  /// @brief Field l, offset: 0x1c, size: 0x4, def value: None
-  float_t l;
+/// @brief Field l, offset: 0x1c, size: 0x4, def value: None
+ float_t  l;
 
-  /// @brief Field d, offset: 0x20, size: 0x4, def value: None
-  ::BeatmapSaveDataCommon::IndexFilterLimitAlsoAffectsType d;
+/// @brief Field d, offset: 0x20, size: 0x4, def value: None
+ ::BeatmapSaveDataCommon::IndexFilterLimitAlsoAffectsType  d;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::BeatmapSaveDataVersion4::IndexFilter, f) == 0x0, "Offset mismatch!");
@@ -91,5 +86,5 @@ static_assert(offsetof(::BeatmapSaveDataVersion4::IndexFilter, d) == 0x20, "Offs
 
 static_assert(::cordl_internals::size_check_v<::BeatmapSaveDataVersion4::IndexFilter, 0x24>, "Size mismatch!");
 
-} // namespace BeatmapSaveDataVersion4
+} // namespace end def BeatmapSaveDataVersion4
 DEFINE_IL2CPP_ARG_TYPE(::BeatmapSaveDataVersion4::IndexFilter, "BeatmapSaveDataVersion4", "IndexFilter");

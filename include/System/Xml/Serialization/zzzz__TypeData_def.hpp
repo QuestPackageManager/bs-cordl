@@ -40,270 +40,269 @@ namespace System::Xml::Serialization {
 // CS Name: System.Xml.Serialization.TypeData
 class CORDL_TYPE TypeData : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(get = get_FullTypeName)) ::StringW FullTypeName;
+// Declarations
+ __declspec(property(get=get_FullTypeName)) ::StringW  FullTypeName;
 
-  __declspec(property(get = get_HasPublicConstructor)) bool HasPublicConstructor;
+ __declspec(property(get=get_HasPublicConstructor)) bool  HasPublicConstructor;
 
-  __declspec(property(get = get_IsComplexType)) bool IsComplexType;
+ __declspec(property(get=get_IsComplexType)) bool  IsComplexType;
 
-  __declspec(property(get = get_IsListType)) bool IsListType;
+ __declspec(property(get=get_IsListType)) bool  IsListType;
 
-  __declspec(property(get = get_IsNullable, put = set_IsNullable)) bool IsNullable;
+ __declspec(property(get=get_IsNullable, put=set_IsNullable)) bool  IsNullable;
 
-  __declspec(property(get = get_IsValueType)) bool IsValueType;
+ __declspec(property(get=get_IsValueType)) bool  IsValueType;
 
-  __declspec(property(get = get_IsXsdType)) bool IsXsdType;
+ __declspec(property(get=get_IsXsdType)) bool  IsXsdType;
 
-  __declspec(property(get = get_ListItemType)) ::System::Type* ListItemType;
+ __declspec(property(get=get_ListItemType)) ::System::Type*  ListItemType;
 
-  __declspec(property(get = get_ListItemTypeData)) ::System::Xml::Serialization::TypeData* ListItemTypeData;
+ __declspec(property(get=get_ListItemTypeData)) ::System::Xml::Serialization::TypeData*  ListItemTypeData;
 
-  __declspec(property(get = get_SchemaType)) ::System::Xml::Serialization::SchemaTypes SchemaType;
+ __declspec(property(get=get_SchemaType)) ::System::Xml::Serialization::SchemaTypes  SchemaType;
 
-  __declspec(property(get = get_Type)) ::System::Type* Type;
+ __declspec(property(get=get_Type)) ::System::Type*  Type;
 
-  __declspec(property(get = get_TypeName)) ::StringW TypeName;
+ __declspec(property(get=get_TypeName)) ::StringW  TypeName;
 
-  __declspec(property(get = get_XmlType)) ::StringW XmlType;
+ __declspec(property(get=get_XmlType)) ::StringW  XmlType;
 
-  /// @brief Field elementName, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_elementName, put = __cordl_internal_set_elementName)) ::StringW elementName;
+/// @brief Field elementName, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_elementName, put=__cordl_internal_set_elementName)) ::StringW  elementName;
 
-  /// @brief Field facet, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_facet, put = __cordl_internal_set_facet)) ::System::Xml::Schema::XmlSchemaPatternFacet* facet;
+/// @brief Field facet, offset 0x50, size 0x8 
+ __declspec(property(get=__cordl_internal_get_facet, put=__cordl_internal_set_facet)) ::System::Xml::Schema::XmlSchemaPatternFacet*  facet;
 
-  /// @brief Field fullTypeName, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_fullTypeName, put = __cordl_internal_set_fullTypeName)) ::StringW fullTypeName;
+/// @brief Field fullTypeName, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get_fullTypeName, put=__cordl_internal_set_fullTypeName)) ::StringW  fullTypeName;
 
-  /// @brief Field hasPublicConstructor, offset 0x60, size 0x1
-  __declspec(property(get = __cordl_internal_get_hasPublicConstructor, put = __cordl_internal_set_hasPublicConstructor)) bool hasPublicConstructor;
+/// @brief Field hasPublicConstructor, offset 0x60, size 0x1 
+ __declspec(property(get=__cordl_internal_get_hasPublicConstructor, put=__cordl_internal_set_hasPublicConstructor)) bool  hasPublicConstructor;
 
-  /// @brief Field keywords, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_keywords, put = setStaticF_keywords)) ::ArrayW<::StringW, ::Array<::StringW>*> keywords;
+/// @brief Field keywords, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_keywords, put=setStaticF_keywords)) ::ArrayW<::StringW,::Array<::StringW>*>  keywords;
 
-  /// @brief Field listItemType, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_listItemType, put = __cordl_internal_set_listItemType)) ::System::Type* listItemType;
+/// @brief Field listItemType, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get_listItemType, put=__cordl_internal_set_listItemType)) ::System::Type*  listItemType;
 
-  /// @brief Field listItemTypeData, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_listItemTypeData, put = __cordl_internal_set_listItemTypeData)) ::System::Xml::Serialization::TypeData* listItemTypeData;
+/// @brief Field listItemTypeData, offset 0x40, size 0x8 
+ __declspec(property(get=__cordl_internal_get_listItemTypeData, put=__cordl_internal_set_listItemTypeData)) ::System::Xml::Serialization::TypeData*  listItemTypeData;
 
-  /// @brief Field mappedType, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_mappedType, put = __cordl_internal_set_mappedType)) ::System::Xml::Serialization::TypeData* mappedType;
+/// @brief Field mappedType, offset 0x48, size 0x8 
+ __declspec(property(get=__cordl_internal_get_mappedType, put=__cordl_internal_set_mappedType)) ::System::Xml::Serialization::TypeData*  mappedType;
 
-  /// @brief Field nullableOverride, offset 0x61, size 0x1
-  __declspec(property(get = __cordl_internal_get_nullableOverride, put = __cordl_internal_set_nullableOverride)) bool nullableOverride;
+/// @brief Field nullableOverride, offset 0x61, size 0x1 
+ __declspec(property(get=__cordl_internal_get_nullableOverride, put=__cordl_internal_set_nullableOverride)) bool  nullableOverride;
 
-  /// @brief Field sType, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get_sType, put = __cordl_internal_set_sType)) ::System::Xml::Serialization::SchemaTypes sType;
+/// @brief Field sType, offset 0x20, size 0x4 
+ __declspec(property(get=__cordl_internal_get_sType, put=__cordl_internal_set_sType)) ::System::Xml::Serialization::SchemaTypes  sType;
 
-  /// @brief Field type, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type)) ::System::Type* type;
+/// @brief Field type, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_type, put=__cordl_internal_set_type)) ::System::Type*  type;
 
-  /// @brief Field typeConvertor, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get_typeConvertor, put = __cordl_internal_set_typeConvertor)) ::System::Reflection::MethodInfo* typeConvertor;
+/// @brief Field typeConvertor, offset 0x58, size 0x8 
+ __declspec(property(get=__cordl_internal_get_typeConvertor, put=__cordl_internal_set_typeConvertor)) ::System::Reflection::MethodInfo*  typeConvertor;
 
-  /// @brief Field typeName, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_typeName, put = __cordl_internal_set_typeName)) ::StringW typeName;
+/// @brief Field typeName, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get_typeName, put=__cordl_internal_set_typeName)) ::StringW  typeName;
 
-  /// @brief Method ConvertForAssignment, addr 0x6138888, size 0xd4, virtual false, abstract: false, final false
-  inline void ConvertForAssignment(::ByRef<::System::Object*> value);
+/// @brief Method ConvertForAssignment, addr 0x6138f48, size 0xd4, virtual false, abstract: false, final false
+inline void ConvertForAssignment(::ByRef<::System::Object*>  value) ;
 
-  /// @brief Method CreateMissingAddMethodException, addr 0x6139478, size 0x14c, virtual false, abstract: false, final false
-  static inline ::System::InvalidOperationException* CreateMissingAddMethodException(::System::Type* type, ::StringW inheritFrom, ::System::Type* argumentType);
+/// @brief Method CreateMissingAddMethodException, addr 0x6139b38, size 0x14c, virtual false, abstract: false, final false
+static inline ::System::InvalidOperationException* CreateMissingAddMethodException(::System::Type*  type, ::StringW  inheritFrom, ::System::Type*  argumentType) ;
 
-  /// @brief Method GetGenericListItemType, addr 0x61391a0, size 0x1e0, virtual false, abstract: false, final false
-  static inline ::System::Type* GetGenericListItemType(::System::Type* type);
+/// @brief Method GetGenericListItemType, addr 0x6139860, size 0x1e0, virtual false, abstract: false, final false
+static inline ::System::Type* GetGenericListItemType(::System::Type*  type) ;
 
-  /// @brief Method GetIndexerProperty, addr 0x6139380, size 0xf8, virtual false, abstract: false, final false
-  static inline ::System::Reflection::PropertyInfo* GetIndexerProperty(::System::Type* collectionType);
+/// @brief Method GetIndexerProperty, addr 0x6139a40, size 0xf8, virtual false, abstract: false, final false
+static inline ::System::Reflection::PropertyInfo* GetIndexerProperty(::System::Type*  collectionType) ;
 
-  /// @brief Method LookupTypeConvertor, addr 0x61387dc, size 0xac, virtual false, abstract: false, final false
-  inline void LookupTypeConvertor();
+/// @brief Method LookupTypeConvertor, addr 0x6138e9c, size 0xac, virtual false, abstract: false, final false
+inline void LookupTypeConvertor() ;
 
-  static inline ::System::Xml::Serialization::TypeData* New_ctor(::System::Type* type, ::StringW elementName, bool isPrimitive);
+static inline ::System::Xml::Serialization::TypeData* New_ctor(::System::Type*  type, ::StringW  elementName, bool  isPrimitive) ;
 
-  static inline ::System::Xml::Serialization::TypeData* New_ctor(::System::Type* type, ::StringW elementName, bool isPrimitive, ::System::Xml::Serialization::TypeData* mappedType,
-                                                                 ::System::Xml::Schema::XmlSchemaPatternFacet* facet);
+static inline ::System::Xml::Serialization::TypeData* New_ctor(::System::Type*  type, ::StringW  elementName, bool  isPrimitive, ::System::Xml::Serialization::TypeData*  mappedType, ::System::Xml::Schema::XmlSchemaPatternFacet*  facet) ;
 
-  constexpr ::StringW const& __cordl_internal_get_elementName() const;
+constexpr ::StringW const& __cordl_internal_get_elementName() const;
 
-  constexpr ::StringW& __cordl_internal_get_elementName();
+constexpr ::StringW& __cordl_internal_get_elementName() ;
 
-  constexpr ::System::Xml::Schema::XmlSchemaPatternFacet* const& __cordl_internal_get_facet() const;
+constexpr ::System::Xml::Schema::XmlSchemaPatternFacet* const& __cordl_internal_get_facet() const;
 
-  constexpr ::System::Xml::Schema::XmlSchemaPatternFacet*& __cordl_internal_get_facet();
+constexpr ::System::Xml::Schema::XmlSchemaPatternFacet*& __cordl_internal_get_facet() ;
 
-  constexpr ::StringW const& __cordl_internal_get_fullTypeName() const;
+constexpr ::StringW const& __cordl_internal_get_fullTypeName() const;
 
-  constexpr ::StringW& __cordl_internal_get_fullTypeName();
+constexpr ::StringW& __cordl_internal_get_fullTypeName() ;
 
-  constexpr bool const& __cordl_internal_get_hasPublicConstructor() const;
+constexpr bool const& __cordl_internal_get_hasPublicConstructor() const;
 
-  constexpr bool& __cordl_internal_get_hasPublicConstructor();
+constexpr bool& __cordl_internal_get_hasPublicConstructor() ;
 
-  constexpr ::System::Type* const& __cordl_internal_get_listItemType() const;
+constexpr ::System::Type* const& __cordl_internal_get_listItemType() const;
 
-  constexpr ::System::Type*& __cordl_internal_get_listItemType();
+constexpr ::System::Type*& __cordl_internal_get_listItemType() ;
 
-  constexpr ::System::Xml::Serialization::TypeData* const& __cordl_internal_get_listItemTypeData() const;
+constexpr ::System::Xml::Serialization::TypeData* const& __cordl_internal_get_listItemTypeData() const;
 
-  constexpr ::System::Xml::Serialization::TypeData*& __cordl_internal_get_listItemTypeData();
+constexpr ::System::Xml::Serialization::TypeData*& __cordl_internal_get_listItemTypeData() ;
 
-  constexpr ::System::Xml::Serialization::TypeData* const& __cordl_internal_get_mappedType() const;
+constexpr ::System::Xml::Serialization::TypeData* const& __cordl_internal_get_mappedType() const;
 
-  constexpr ::System::Xml::Serialization::TypeData*& __cordl_internal_get_mappedType();
+constexpr ::System::Xml::Serialization::TypeData*& __cordl_internal_get_mappedType() ;
 
-  constexpr bool const& __cordl_internal_get_nullableOverride() const;
+constexpr bool const& __cordl_internal_get_nullableOverride() const;
 
-  constexpr bool& __cordl_internal_get_nullableOverride();
+constexpr bool& __cordl_internal_get_nullableOverride() ;
 
-  constexpr ::System::Xml::Serialization::SchemaTypes const& __cordl_internal_get_sType() const;
+constexpr ::System::Xml::Serialization::SchemaTypes const& __cordl_internal_get_sType() const;
 
-  constexpr ::System::Xml::Serialization::SchemaTypes& __cordl_internal_get_sType();
+constexpr ::System::Xml::Serialization::SchemaTypes& __cordl_internal_get_sType() ;
 
-  constexpr ::System::Type* const& __cordl_internal_get_type() const;
+constexpr ::System::Type* const& __cordl_internal_get_type() const;
 
-  constexpr ::System::Type*& __cordl_internal_get_type();
+constexpr ::System::Type*& __cordl_internal_get_type() ;
 
-  constexpr ::System::Reflection::MethodInfo* const& __cordl_internal_get_typeConvertor() const;
+constexpr ::System::Reflection::MethodInfo* const& __cordl_internal_get_typeConvertor() const;
 
-  constexpr ::System::Reflection::MethodInfo*& __cordl_internal_get_typeConvertor();
+constexpr ::System::Reflection::MethodInfo*& __cordl_internal_get_typeConvertor() ;
 
-  constexpr ::StringW const& __cordl_internal_get_typeName() const;
+constexpr ::StringW const& __cordl_internal_get_typeName() const;
 
-  constexpr ::StringW& __cordl_internal_get_typeName();
+constexpr ::StringW& __cordl_internal_get_typeName() ;
 
-  constexpr void __cordl_internal_set_elementName(::StringW value);
+constexpr void __cordl_internal_set_elementName(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_facet(::System::Xml::Schema::XmlSchemaPatternFacet* value);
+constexpr void __cordl_internal_set_facet(::System::Xml::Schema::XmlSchemaPatternFacet*  value) ;
 
-  constexpr void __cordl_internal_set_fullTypeName(::StringW value);
+constexpr void __cordl_internal_set_fullTypeName(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_hasPublicConstructor(bool value);
+constexpr void __cordl_internal_set_hasPublicConstructor(bool  value) ;
 
-  constexpr void __cordl_internal_set_listItemType(::System::Type* value);
+constexpr void __cordl_internal_set_listItemType(::System::Type*  value) ;
 
-  constexpr void __cordl_internal_set_listItemTypeData(::System::Xml::Serialization::TypeData* value);
+constexpr void __cordl_internal_set_listItemTypeData(::System::Xml::Serialization::TypeData*  value) ;
 
-  constexpr void __cordl_internal_set_mappedType(::System::Xml::Serialization::TypeData* value);
+constexpr void __cordl_internal_set_mappedType(::System::Xml::Serialization::TypeData*  value) ;
 
-  constexpr void __cordl_internal_set_nullableOverride(bool value);
+constexpr void __cordl_internal_set_nullableOverride(bool  value) ;
 
-  constexpr void __cordl_internal_set_sType(::System::Xml::Serialization::SchemaTypes value);
+constexpr void __cordl_internal_set_sType(::System::Xml::Serialization::SchemaTypes  value) ;
 
-  constexpr void __cordl_internal_set_type(::System::Type* value);
+constexpr void __cordl_internal_set_type(::System::Type*  value) ;
 
-  constexpr void __cordl_internal_set_typeConvertor(::System::Reflection::MethodInfo* value);
+constexpr void __cordl_internal_set_typeConvertor(::System::Reflection::MethodInfo*  value) ;
 
-  constexpr void __cordl_internal_set_typeName(::StringW value);
+constexpr void __cordl_internal_set_typeName(::StringW  value) ;
 
-  /// @brief Method .ctor, addr 0x6138268, size 0xc, virtual false, abstract: false, final false
-  inline void _ctor(::System::Type* type, ::StringW elementName, bool isPrimitive);
+/// @brief Method .ctor, addr 0x6138928, size 0xc, virtual false, abstract: false, final false
+inline void _ctor(::System::Type*  type, ::StringW  elementName, bool  isPrimitive) ;
 
-  /// @brief Method .ctor, addr 0x6138274, size 0x3c4, virtual false, abstract: false, final false
-  inline void _ctor(::System::Type* type, ::StringW elementName, bool isPrimitive, ::System::Xml::Serialization::TypeData* mappedType, ::System::Xml::Schema::XmlSchemaPatternFacet* facet);
+/// @brief Method .ctor, addr 0x6138934, size 0x3c4, virtual false, abstract: false, final false
+inline void _ctor(::System::Type*  type, ::StringW  elementName, bool  isPrimitive, ::System::Xml::Serialization::TypeData*  mappedType, ::System::Xml::Schema::XmlSchemaPatternFacet*  facet) ;
 
-  static inline ::ArrayW<::StringW, ::Array<::StringW>*> getStaticF_keywords();
+static inline ::ArrayW<::StringW,::Array<::StringW>*> getStaticF_keywords() ;
 
-  /// @brief Method get_FullTypeName, addr 0x6138974, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_FullTypeName();
+/// @brief Method get_FullTypeName, addr 0x6139034, size 0x8, virtual false, abstract: false, final false
+inline ::StringW get_FullTypeName() ;
 
-  /// @brief Method get_HasPublicConstructor, addr 0x61395c4, size 0x8, virtual false, abstract: false, final false
-  inline bool get_HasPublicConstructor();
+/// @brief Method get_HasPublicConstructor, addr 0x6139c84, size 0x8, virtual false, abstract: false, final false
+inline bool get_HasPublicConstructor() ;
 
-  /// @brief Method get_IsComplexType, addr 0x6138984, size 0x28, virtual false, abstract: false, final false
-  inline bool get_IsComplexType();
+/// @brief Method get_IsComplexType, addr 0x6139044, size 0x28, virtual false, abstract: false, final false
+inline bool get_IsComplexType() ;
 
-  /// @brief Method get_IsListType, addr 0x61379a8, size 0x10, virtual false, abstract: false, final false
-  inline bool get_IsListType();
+/// @brief Method get_IsListType, addr 0x6138068, size 0x10, virtual false, abstract: false, final false
+inline bool get_IsListType() ;
 
-  /// @brief Method get_IsNullable, addr 0x6138a28, size 0xf4, virtual false, abstract: false, final false
-  inline bool get_IsNullable();
+/// @brief Method get_IsNullable, addr 0x61390e8, size 0xf4, virtual false, abstract: false, final false
+inline bool get_IsNullable() ;
 
-  /// @brief Method get_IsValueType, addr 0x61389bc, size 0x6c, virtual false, abstract: false, final false
-  inline bool get_IsValueType();
+/// @brief Method get_IsValueType, addr 0x613907c, size 0x6c, virtual false, abstract: false, final false
+inline bool get_IsValueType() ;
 
-  /// @brief Method get_IsXsdType, addr 0x61389ac, size 0x10, virtual false, abstract: false, final false
-  inline bool get_IsXsdType();
+/// @brief Method get_IsXsdType, addr 0x613906c, size 0x10, virtual false, abstract: false, final false
+inline bool get_IsXsdType() ;
 
-  /// @brief Method get_ListItemType, addr 0x6138b24, size 0x67c, virtual false, abstract: false, final false
-  inline ::System::Type* get_ListItemType();
+/// @brief Method get_ListItemType, addr 0x61391e4, size 0x67c, virtual false, abstract: false, final false
+inline ::System::Type* get_ListItemType() ;
 
-  /// @brief Method get_ListItemTypeData, addr 0x6138638, size 0xa0, virtual false, abstract: false, final false
-  inline ::System::Xml::Serialization::TypeData* get_ListItemTypeData();
+/// @brief Method get_ListItemTypeData, addr 0x6138cf8, size 0xa0, virtual false, abstract: false, final false
+inline ::System::Xml::Serialization::TypeData* get_ListItemTypeData() ;
 
-  /// @brief Method get_SchemaType, addr 0x613897c, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Xml::Serialization::SchemaTypes get_SchemaType();
+/// @brief Method get_SchemaType, addr 0x613903c, size 0x8, virtual false, abstract: false, final false
+inline ::System::Xml::Serialization::SchemaTypes get_SchemaType() ;
 
-  /// @brief Method get_Type, addr 0x613896c, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Type* get_Type();
+/// @brief Method get_Type, addr 0x613902c, size 0x8, virtual false, abstract: false, final false
+inline ::System::Type* get_Type() ;
 
-  /// @brief Method get_TypeName, addr 0x613895c, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_TypeName();
+/// @brief Method get_TypeName, addr 0x613901c, size 0x8, virtual false, abstract: false, final false
+inline ::StringW get_TypeName() ;
 
-  /// @brief Method get_XmlType, addr 0x6138964, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_XmlType();
+/// @brief Method get_XmlType, addr 0x6139024, size 0x8, virtual false, abstract: false, final false
+inline ::StringW get_XmlType() ;
 
-  static inline void setStaticF_keywords(::ArrayW<::StringW, ::Array<::StringW>*> value);
+static inline void setStaticF_keywords(::ArrayW<::StringW,::Array<::StringW>*>  value) ;
 
-  /// @brief Method set_IsNullable, addr 0x6138b1c, size 0x8, virtual false, abstract: false, final false
-  inline void set_IsNullable(bool value);
+/// @brief Method set_IsNullable, addr 0x61391dc, size 0x8, virtual false, abstract: false, final false
+inline void set_IsNullable(bool  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TypeData();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr TypeData() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TypeData", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  TypeData(TypeData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TypeData", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  TypeData(TypeData const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "TypeData", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+TypeData(TypeData && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9471 };
+// Ctor Parameters [CppParam { name: "", ty: "TypeData", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+TypeData(TypeData const& ) = delete;
 
-  /// @brief Field type, offset: 0x10, size: 0x8, def value: None
-  ::System::Type* ___type;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{9475};
 
-  /// @brief Field elementName, offset: 0x18, size: 0x8, def value: None
-  ::StringW ___elementName;
+/// @brief Field type, offset: 0x10, size: 0x8, def value: None
+ ::System::Type*  ___type;
 
-  /// @brief Field sType, offset: 0x20, size: 0x4, def value: None
-  ::System::Xml::Serialization::SchemaTypes ___sType;
+/// @brief Field elementName, offset: 0x18, size: 0x8, def value: None
+ ::StringW  ___elementName;
 
-  /// @brief Field listItemType, offset: 0x28, size: 0x8, def value: None
-  ::System::Type* ___listItemType;
+/// @brief Field sType, offset: 0x20, size: 0x4, def value: None
+ ::System::Xml::Serialization::SchemaTypes  ___sType;
 
-  /// @brief Field typeName, offset: 0x30, size: 0x8, def value: None
-  ::StringW ___typeName;
+/// @brief Field listItemType, offset: 0x28, size: 0x8, def value: None
+ ::System::Type*  ___listItemType;
 
-  /// @brief Field fullTypeName, offset: 0x38, size: 0x8, def value: None
-  ::StringW ___fullTypeName;
+/// @brief Field typeName, offset: 0x30, size: 0x8, def value: None
+ ::StringW  ___typeName;
 
-  /// @brief Field listItemTypeData, offset: 0x40, size: 0x8, def value: None
-  ::System::Xml::Serialization::TypeData* ___listItemTypeData;
+/// @brief Field fullTypeName, offset: 0x38, size: 0x8, def value: None
+ ::StringW  ___fullTypeName;
 
-  /// @brief Field mappedType, offset: 0x48, size: 0x8, def value: None
-  ::System::Xml::Serialization::TypeData* ___mappedType;
+/// @brief Field listItemTypeData, offset: 0x40, size: 0x8, def value: None
+ ::System::Xml::Serialization::TypeData*  ___listItemTypeData;
 
-  /// @brief Field facet, offset: 0x50, size: 0x8, def value: None
-  ::System::Xml::Schema::XmlSchemaPatternFacet* ___facet;
+/// @brief Field mappedType, offset: 0x48, size: 0x8, def value: None
+ ::System::Xml::Serialization::TypeData*  ___mappedType;
 
-  /// @brief Field typeConvertor, offset: 0x58, size: 0x8, def value: None
-  ::System::Reflection::MethodInfo* ___typeConvertor;
+/// @brief Field facet, offset: 0x50, size: 0x8, def value: None
+ ::System::Xml::Schema::XmlSchemaPatternFacet*  ___facet;
 
-  /// @brief Field hasPublicConstructor, offset: 0x60, size: 0x1, def value: None
-  bool ___hasPublicConstructor;
+/// @brief Field typeConvertor, offset: 0x58, size: 0x8, def value: None
+ ::System::Reflection::MethodInfo*  ___typeConvertor;
 
-  /// @brief Field nullableOverride, offset: 0x61, size: 0x1, def value: None
-  bool ___nullableOverride;
+/// @brief Field hasPublicConstructor, offset: 0x60, size: 0x1, def value: None
+ bool  ___hasPublicConstructor;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field nullableOverride, offset: 0x61, size: 0x1, def value: None
+ bool  ___nullableOverride;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Xml::Serialization::TypeData, ___type) == 0x10, "Offset mismatch!");
@@ -332,6 +331,6 @@ static_assert(offsetof(::System::Xml::Serialization::TypeData, ___nullableOverri
 
 static_assert(::cordl_internals::size_check_v<::System::Xml::Serialization::TypeData, 0x68>, "Size mismatch!");
 
-} // namespace System::Xml::Serialization
+} // namespace end def System::Xml::Serialization
 NEED_NO_BOX(::System::Xml::Serialization::TypeData);
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Serialization::TypeData*, "System.Xml.Serialization", "TypeData");

@@ -21,59 +21,59 @@ namespace Org::BouncyCastle::Math::Raw {
 // CS Name: Org.BouncyCastle.Math.Raw.Mod
 class CORDL_TYPE Mod : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field RandomSource, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_RandomSource, put = setStaticF_RandomSource)) ::Org::BouncyCastle::Security::SecureRandom* RandomSource;
+// Declarations
+/// @brief Field RandomSource, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_RandomSource, put=setStaticF_RandomSource)) ::Org::BouncyCastle::Security::SecureRandom*  RandomSource;
 
-  /// @brief Method Add, addr 0x34384d4, size 0x4c, virtual false, abstract: false, final false
-  static inline void Add(::ArrayW<uint32_t, ::Array<uint32_t>*> p, ::ArrayW<uint32_t, ::Array<uint32_t>*> x, ::ArrayW<uint32_t, ::Array<uint32_t>*> y, ::ArrayW<uint32_t, ::Array<uint32_t>*> z);
+/// @brief Method Add, addr 0x3438424, size 0x4c, virtual false, abstract: false, final false
+static inline void Add(::ArrayW<uint32_t,::Array<uint32_t>*>  p, ::ArrayW<uint32_t,::Array<uint32_t>*>  x, ::ArrayW<uint32_t,::Array<uint32_t>*>  y, ::ArrayW<uint32_t,::Array<uint32_t>*>  z) ;
 
-  /// @brief Method InversionResult, addr 0x343823c, size 0x4c, virtual false, abstract: false, final false
-  static inline void InversionResult(::ArrayW<uint32_t, ::Array<uint32_t>*> p, int32_t ac, ::ArrayW<uint32_t, ::Array<uint32_t>*> a, ::ArrayW<uint32_t, ::Array<uint32_t>*> z);
+/// @brief Method InversionResult, addr 0x343818c, size 0x4c, virtual false, abstract: false, final false
+static inline void InversionResult(::ArrayW<uint32_t,::Array<uint32_t>*>  p, int32_t  ac, ::ArrayW<uint32_t,::Array<uint32_t>*>  a, ::ArrayW<uint32_t,::Array<uint32_t>*>  z) ;
 
-  /// @brief Method InversionStep, addr 0x3438100, size 0x13c, virtual false, abstract: false, final false
-  static inline void InversionStep(::ArrayW<uint32_t, ::Array<uint32_t>*> p, ::ArrayW<uint32_t, ::Array<uint32_t>*> u, int32_t uLen, ::ArrayW<uint32_t, ::Array<uint32_t>*> x, ::ByRef<int32_t> xc);
+/// @brief Method InversionStep, addr 0x3438050, size 0x13c, virtual false, abstract: false, final false
+static inline void InversionStep(::ArrayW<uint32_t,::Array<uint32_t>*>  p, ::ArrayW<uint32_t,::Array<uint32_t>*>  u, int32_t  uLen, ::ArrayW<uint32_t,::Array<uint32_t>*>  x, ::ByRef<int32_t>  xc) ;
 
-  /// @brief Method Invert, addr 0x3437b94, size 0x3b4, virtual false, abstract: false, final false
-  static inline void Invert(::ArrayW<uint32_t, ::Array<uint32_t>*> p, ::ArrayW<uint32_t, ::Array<uint32_t>*> x, ::ArrayW<uint32_t, ::Array<uint32_t>*> z);
+/// @brief Method Invert, addr 0x3437ae4, size 0x3b4, virtual false, abstract: false, final false
+static inline void Invert(::ArrayW<uint32_t,::Array<uint32_t>*>  p, ::ArrayW<uint32_t,::Array<uint32_t>*>  x, ::ArrayW<uint32_t,::Array<uint32_t>*>  z) ;
 
-  static inline ::Org::BouncyCastle::Math::Raw::Mod* New_ctor();
+static inline ::Org::BouncyCastle::Math::Raw::Mod* New_ctor() ;
 
-  /// @brief Method Random, addr 0x343837c, size 0x158, virtual false, abstract: false, final false
-  static inline ::ArrayW<uint32_t, ::Array<uint32_t>*> Random(::ArrayW<uint32_t, ::Array<uint32_t>*> p);
+/// @brief Method Random, addr 0x34382cc, size 0x158, virtual false, abstract: false, final false
+static inline ::ArrayW<uint32_t,::Array<uint32_t>*> Random(::ArrayW<uint32_t,::Array<uint32_t>*>  p) ;
 
-  /// @brief Method Subtract, addr 0x34385b4, size 0x4c, virtual false, abstract: false, final false
-  static inline void Subtract(::ArrayW<uint32_t, ::Array<uint32_t>*> p, ::ArrayW<uint32_t, ::Array<uint32_t>*> x, ::ArrayW<uint32_t, ::Array<uint32_t>*> y, ::ArrayW<uint32_t, ::Array<uint32_t>*> z);
+/// @brief Method Subtract, addr 0x3438504, size 0x4c, virtual false, abstract: false, final false
+static inline void Subtract(::ArrayW<uint32_t,::Array<uint32_t>*>  p, ::ArrayW<uint32_t,::Array<uint32_t>*>  x, ::ArrayW<uint32_t,::Array<uint32_t>*>  y, ::ArrayW<uint32_t,::Array<uint32_t>*>  z) ;
 
-  /// @brief Method .ctor, addr 0x34388b0, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x3438800, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  static inline ::Org::BouncyCastle::Security::SecureRandom* getStaticF_RandomSource();
+static inline ::Org::BouncyCastle::Security::SecureRandom* getStaticF_RandomSource() ;
 
-  static inline void setStaticF_RandomSource(::Org::BouncyCastle::Security::SecureRandom* value);
+static inline void setStaticF_RandomSource(::Org::BouncyCastle::Security::SecureRandom*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Mod();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr Mod() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Mod", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  Mod(Mod&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Mod", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  Mod(Mod const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "Mod", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+Mod(Mod && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1589 };
+// Ctor Parameters [CppParam { name: "", ty: "Mod", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+Mod(Mod const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{1589};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Math::Raw::Mod, 0x10>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Math::Raw
+} // namespace end def Org::BouncyCastle::Math::Raw
 NEED_NO_BOX(::Org::BouncyCastle::Math::Raw::Mod);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Math::Raw::Mod*, "Org.BouncyCastle.Math.Raw", "Mod");

@@ -27,61 +27,61 @@ namespace GlobalNamespace {
 // CS Name: NoteLODGroup
 class CORDL_TYPE NoteLODGroup : public ::GlobalNamespace::CustomLODGroup {
 public:
-  // Declarations
-  /// @brief Field _postProcessEnabled, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__postProcessEnabled, put = __cordl_internal_set__postProcessEnabled)) ::UnityW<::GlobalNamespace::BoolSO> _postProcessEnabled;
+// Declarations
+/// @brief Field _postProcessEnabled, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get__postProcessEnabled, put=__cordl_internal_set__postProcessEnabled)) ::UnityW<::GlobalNamespace::BoolSO>  _postProcessEnabled;
 
-  __declspec(property(get = get_meshFilter)) ::UnityW<::UnityEngine::MeshFilter> meshFilter;
+ __declspec(property(get=get_meshFilter)) ::UnityW<::UnityEngine::MeshFilter>  meshFilter;
 
-  __declspec(property(get = get_meshRenderer)) ::UnityW<::UnityEngine::MeshRenderer> meshRenderer;
+ __declspec(property(get=get_meshRenderer)) ::UnityW<::UnityEngine::MeshRenderer>  meshRenderer;
 
-  /// @brief Method GetStartupLevel, addr 0x57cfc20, size 0x8, virtual true, abstract: false, final false
-  inline int32_t GetStartupLevel();
+/// @brief Method GetStartupLevel, addr 0x57d0550, size 0x8, virtual true, abstract: false, final false
+inline int32_t GetStartupLevel() ;
 
-  static inline ::GlobalNamespace::NoteLODGroup* New_ctor();
+static inline ::GlobalNamespace::NoteLODGroup* New_ctor() ;
 
-  constexpr ::UnityW<::GlobalNamespace::BoolSO> const& __cordl_internal_get__postProcessEnabled() const;
+constexpr ::UnityW<::GlobalNamespace::BoolSO> const& __cordl_internal_get__postProcessEnabled() const;
 
-  constexpr ::UnityW<::GlobalNamespace::BoolSO>& __cordl_internal_get__postProcessEnabled();
+constexpr ::UnityW<::GlobalNamespace::BoolSO>& __cordl_internal_get__postProcessEnabled() ;
 
-  constexpr void __cordl_internal_set__postProcessEnabled(::UnityW<::GlobalNamespace::BoolSO> value);
+constexpr void __cordl_internal_set__postProcessEnabled(::UnityW<::GlobalNamespace::BoolSO>  value) ;
 
-  /// @brief Method .ctor, addr 0x57cfc28, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x57d0558, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_meshFilter, addr 0x57cfb28, size 0x7c, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::MeshFilter> get_meshFilter();
+/// @brief Method get_meshFilter, addr 0x57d0458, size 0x7c, virtual false, abstract: false, final false
+inline ::UnityW<::UnityEngine::MeshFilter> get_meshFilter() ;
 
-  /// @brief Method get_meshRenderer, addr 0x57cfba4, size 0x7c, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::MeshRenderer> get_meshRenderer();
+/// @brief Method get_meshRenderer, addr 0x57d04d4, size 0x7c, virtual false, abstract: false, final false
+inline ::UnityW<::UnityEngine::MeshRenderer> get_meshRenderer() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NoteLODGroup();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr NoteLODGroup() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NoteLODGroup", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  NoteLODGroup(NoteLODGroup&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NoteLODGroup", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  NoteLODGroup(NoteLODGroup const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "NoteLODGroup", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+NoteLODGroup(NoteLODGroup && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5755 };
+// Ctor Parameters [CppParam { name: "", ty: "NoteLODGroup", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+NoteLODGroup(NoteLODGroup const& ) = delete;
 
-  /// @brief Field _postProcessEnabled, offset: 0x30, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::BoolSO> ____postProcessEnabled;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{5755};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _postProcessEnabled, offset: 0x30, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::BoolSO>  ____postProcessEnabled;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::NoteLODGroup, ____postProcessEnabled) == 0x30, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::NoteLODGroup, 0x38>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::NoteLODGroup);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::NoteLODGroup*, "", "NoteLODGroup");

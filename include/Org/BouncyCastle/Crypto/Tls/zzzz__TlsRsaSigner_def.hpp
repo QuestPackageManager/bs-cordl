@@ -33,58 +33,55 @@ namespace Org::BouncyCastle::Crypto::Tls {
 // CS Name: Org.BouncyCastle.Crypto.Tls.TlsRsaSigner
 class CORDL_TYPE TlsRsaSigner : public ::Org::BouncyCastle::Crypto::Tls::AbstractTlsSigner {
 public:
-  // Declarations
-  /// @brief Method CreateRsaImpl, addr 0x338ff70, size 0x88, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* CreateRsaImpl();
+// Declarations
+/// @brief Method CreateRsaImpl, addr 0x338fec0, size 0x88, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* CreateRsaImpl() ;
 
-  /// @brief Method CreateSigner, addr 0x338f848, size 0x118, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Crypto::ISigner* CreateSigner(::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm* algorithm, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey);
+/// @brief Method CreateSigner, addr 0x338f798, size 0x118, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Crypto::ISigner* CreateSigner(::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm*  algorithm, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*  privateKey) ;
 
-  /// @brief Method CreateVerifyer, addr 0x338f960, size 0x1c, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Crypto::ISigner* CreateVerifyer(::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm* algorithm, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicKey);
+/// @brief Method CreateVerifyer, addr 0x338f8b0, size 0x1c, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Crypto::ISigner* CreateVerifyer(::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm*  algorithm, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*  publicKey) ;
 
-  /// @brief Method GenerateRawSignature, addr 0x338f4d8, size 0x210, virtual true, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenerateRawSignature(::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm* algorithm,
-                                                                   ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey, ::ArrayW<uint8_t, ::Array<uint8_t>*> hash);
+/// @brief Method GenerateRawSignature, addr 0x338f428, size 0x210, virtual true, abstract: false, final false
+inline ::ArrayW<uint8_t,::Array<uint8_t>*> GenerateRawSignature(::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm*  algorithm, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*  privateKey, ::ArrayW<uint8_t,::Array<uint8_t>*>  hash) ;
 
-  /// @brief Method IsValidPublicKey, addr 0x338f97c, size 0x88, virtual true, abstract: false, final false
-  inline bool IsValidPublicKey(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicKey);
+/// @brief Method IsValidPublicKey, addr 0x338f8cc, size 0x88, virtual true, abstract: false, final false
+inline bool IsValidPublicKey(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*  publicKey) ;
 
-  /// @brief Method MakeSigner, addr 0x338fa04, size 0x2b8, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Crypto::ISigner* MakeSigner(::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm* algorithm, bool raw, bool forSigning,
-                                                          ::Org::BouncyCastle::Crypto::ICipherParameters* cp);
+/// @brief Method MakeSigner, addr 0x338f954, size 0x2b8, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Crypto::ISigner* MakeSigner(::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm*  algorithm, bool  raw, bool  forSigning, ::Org::BouncyCastle::Crypto::ICipherParameters*  cp) ;
 
-  static inline ::Org::BouncyCastle::Crypto::Tls::TlsRsaSigner* New_ctor();
+static inline ::Org::BouncyCastle::Crypto::Tls::TlsRsaSigner* New_ctor() ;
 
-  /// @brief Method VerifyRawSignature, addr 0x338f6e8, size 0x160, virtual true, abstract: false, final false
-  inline bool VerifyRawSignature(::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm* algorithm, ::ArrayW<uint8_t, ::Array<uint8_t>*> sigBytes,
-                                 ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicKey, ::ArrayW<uint8_t, ::Array<uint8_t>*> hash);
+/// @brief Method VerifyRawSignature, addr 0x338f638, size 0x160, virtual true, abstract: false, final false
+inline bool VerifyRawSignature(::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm*  algorithm, ::ArrayW<uint8_t,::Array<uint8_t>*>  sigBytes, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*  publicKey, ::ArrayW<uint8_t,::Array<uint8_t>*>  hash) ;
 
-  /// @brief Method .ctor, addr 0x3387cd4, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x3387c24, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TlsRsaSigner();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr TlsRsaSigner() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TlsRsaSigner", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  TlsRsaSigner(TlsRsaSigner&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TlsRsaSigner", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  TlsRsaSigner(TlsRsaSigner const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "TlsRsaSigner", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+TlsRsaSigner(TlsRsaSigner && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1319 };
+// Ctor Parameters [CppParam { name: "", ty: "TlsRsaSigner", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+TlsRsaSigner(TlsRsaSigner const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{1319};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Tls::TlsRsaSigner, 0x18>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Crypto::Tls
+} // namespace end def Org::BouncyCastle::Crypto::Tls
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Tls::TlsRsaSigner);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Tls::TlsRsaSigner*, "Org.BouncyCastle.Crypto.Tls", "TlsRsaSigner");

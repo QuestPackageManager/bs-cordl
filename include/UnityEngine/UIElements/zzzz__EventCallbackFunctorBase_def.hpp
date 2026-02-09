@@ -34,72 +34,72 @@ namespace UnityEngine::UIElements {
 // CS Name: UnityEngine.UIElements.EventCallbackFunctorBase
 class CORDL_TYPE EventCallbackFunctorBase : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field eventTypeId, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_eventTypeId, put = __cordl_internal_set_eventTypeId)) int64_t eventTypeId;
+// Declarations
+/// @brief Field eventTypeId, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_eventTypeId, put=__cordl_internal_set_eventTypeId)) int64_t  eventTypeId;
 
-  /// @brief Field invokePolicy, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get_invokePolicy, put = __cordl_internal_set_invokePolicy)) ::UnityEngine::UIElements::InvokePolicy invokePolicy;
+/// @brief Field invokePolicy, offset 0x18, size 0x4 
+ __declspec(property(get=__cordl_internal_get_invokePolicy, put=__cordl_internal_set_invokePolicy)) ::UnityEngine::UIElements::InvokePolicy  invokePolicy;
 
-  /// @brief Convert operator to "::System::IDisposable"
-  constexpr operator ::System::IDisposable*() noexcept;
+/// @brief Convert operator to "::System::IDisposable"
+constexpr operator  ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void Dispose();
+/// @brief Method Dispose, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline void Dispose() ;
 
-  /// @brief Method Invoke, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void Invoke(::UnityEngine::UIElements::EventBase* evt);
+/// @brief Method Invoke, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline void Invoke(::UnityEngine::UIElements::EventBase*  evt) ;
 
-  /// @brief Method IsEquivalentTo, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline bool IsEquivalentTo(int64_t eventTypeId, ::System::Delegate* callback);
+/// @brief Method IsEquivalentTo, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline bool IsEquivalentTo(int64_t  eventTypeId, ::System::Delegate*  callback) ;
 
-  static inline ::UnityEngine::UIElements::EventCallbackFunctorBase* New_ctor();
+static inline ::UnityEngine::UIElements::EventCallbackFunctorBase* New_ctor() ;
 
-  /// @brief Method UnregisterCallback, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void UnregisterCallback(::UnityEngine::UIElements::CallbackEventHandler* target, ::UnityEngine::UIElements::TrickleDown useTrickleDown);
+/// @brief Method UnregisterCallback, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline void UnregisterCallback(::UnityEngine::UIElements::CallbackEventHandler*  target, ::UnityEngine::UIElements::TrickleDown  useTrickleDown) ;
 
-  constexpr int64_t const& __cordl_internal_get_eventTypeId() const;
+constexpr int64_t const& __cordl_internal_get_eventTypeId() const;
 
-  constexpr int64_t& __cordl_internal_get_eventTypeId();
+constexpr int64_t& __cordl_internal_get_eventTypeId() ;
 
-  constexpr ::UnityEngine::UIElements::InvokePolicy const& __cordl_internal_get_invokePolicy() const;
+constexpr ::UnityEngine::UIElements::InvokePolicy const& __cordl_internal_get_invokePolicy() const;
 
-  constexpr ::UnityEngine::UIElements::InvokePolicy& __cordl_internal_get_invokePolicy();
+constexpr ::UnityEngine::UIElements::InvokePolicy& __cordl_internal_get_invokePolicy() ;
 
-  constexpr void __cordl_internal_set_eventTypeId(int64_t value);
+constexpr void __cordl_internal_set_eventTypeId(int64_t  value) ;
 
-  constexpr void __cordl_internal_set_invokePolicy(::UnityEngine::UIElements::InvokePolicy value);
+constexpr void __cordl_internal_set_invokePolicy(::UnityEngine::UIElements::InvokePolicy  value) ;
 
-  /// @brief Method .ctor, addr 0x6bcd164, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6bcd824, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Convert to "::System::IDisposable"
-  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+/// @brief Convert to "::System::IDisposable"
+constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr EventCallbackFunctorBase();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr EventCallbackFunctorBase() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EventCallbackFunctorBase", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  EventCallbackFunctorBase(EventCallbackFunctorBase&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EventCallbackFunctorBase", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  EventCallbackFunctorBase(EventCallbackFunctorBase const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "EventCallbackFunctorBase", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+EventCallbackFunctorBase(EventCallbackFunctorBase && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4453 };
+// Ctor Parameters [CppParam { name: "", ty: "EventCallbackFunctorBase", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+EventCallbackFunctorBase(EventCallbackFunctorBase const& ) = delete;
 
-  /// @brief Field eventTypeId, offset: 0x10, size: 0x8, def value: None
-  int64_t ___eventTypeId;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4453};
 
-  /// @brief Field invokePolicy, offset: 0x18, size: 0x4, def value: None
-  ::UnityEngine::UIElements::InvokePolicy ___invokePolicy;
+/// @brief Field eventTypeId, offset: 0x10, size: 0x8, def value: None
+ int64_t  ___eventTypeId;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field invokePolicy, offset: 0x18, size: 0x4, def value: None
+ ::UnityEngine::UIElements::InvokePolicy  ___invokePolicy;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::UIElements::EventCallbackFunctorBase, ___eventTypeId) == 0x10, "Offset mismatch!");
@@ -108,6 +108,6 @@ static_assert(offsetof(::UnityEngine::UIElements::EventCallbackFunctorBase, ___i
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::EventCallbackFunctorBase, 0x20>, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements
+} // namespace end def UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::EventCallbackFunctorBase);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::EventCallbackFunctorBase*, "UnityEngine.UIElements", "EventCallbackFunctorBase");

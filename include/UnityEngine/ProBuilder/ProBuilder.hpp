@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "UnityEngine/ProBuilder/ActionResult.hpp"
 #include "UnityEngine/ProBuilder/ArrayUtility.hpp"
@@ -106,5 +106,6 @@ module;
 #include "UnityEngine/ProBuilder/WingedEdgeEnumerator.hpp"
 #include "UnityEngine/ProBuilder/XYZColor.hpp"
 #ifdef __cpp_modules
-export module ProBuilder;
-#endif
+                    export module ProBuilder;
+                    #endif
+                

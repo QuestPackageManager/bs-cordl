@@ -30,47 +30,47 @@ namespace Org::BouncyCastle::Crypto::Operators {
 // CS Name: Org.BouncyCastle.Crypto.Operators.KeyWrapperUtil
 class CORDL_TYPE KeyWrapperUtil : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field providerMap, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_providerMap, put = setStaticF_providerMap)) ::System::Collections::IDictionary* providerMap;
+// Declarations
+/// @brief Field providerMap, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_providerMap, put=setStaticF_providerMap)) ::System::Collections::IDictionary*  providerMap;
 
-  static inline ::Org::BouncyCastle::Crypto::Operators::KeyWrapperUtil* New_ctor();
+static inline ::Org::BouncyCastle::Crypto::Operators::KeyWrapperUtil* New_ctor() ;
 
-  /// @brief Method UnwrapperForName, addr 0x330aaa8, size 0x240, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Crypto::IKeyUnwrapper* UnwrapperForName(::StringW algorithm, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
+/// @brief Method UnwrapperForName, addr 0x330a9f8, size 0x240, virtual false, abstract: false, final false
+static inline ::Org::BouncyCastle::Crypto::IKeyUnwrapper* UnwrapperForName(::StringW  algorithm, ::Org::BouncyCastle::Crypto::ICipherParameters*  parameters) ;
 
-  /// @brief Method WrapperForName, addr 0x330a29c, size 0x240, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Crypto::IKeyWrapper* WrapperForName(::StringW algorithm, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
+/// @brief Method WrapperForName, addr 0x330a1ec, size 0x240, virtual false, abstract: false, final false
+static inline ::Org::BouncyCastle::Crypto::IKeyWrapper* WrapperForName(::StringW  algorithm, ::Org::BouncyCastle::Crypto::ICipherParameters*  parameters) ;
 
-  /// @brief Method .ctor, addr 0x330ace8, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x330ac38, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  static inline ::System::Collections::IDictionary* getStaticF_providerMap();
+static inline ::System::Collections::IDictionary* getStaticF_providerMap() ;
 
-  static inline void setStaticF_providerMap(::System::Collections::IDictionary* value);
+static inline void setStaticF_providerMap(::System::Collections::IDictionary*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr KeyWrapperUtil();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr KeyWrapperUtil() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "KeyWrapperUtil", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  KeyWrapperUtil(KeyWrapperUtil&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "KeyWrapperUtil", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  KeyWrapperUtil(KeyWrapperUtil const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "KeyWrapperUtil", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+KeyWrapperUtil(KeyWrapperUtil && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 985 };
+// Ctor Parameters [CppParam { name: "", ty: "KeyWrapperUtil", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+KeyWrapperUtil(KeyWrapperUtil const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{985};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Operators::KeyWrapperUtil, 0x10>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Crypto::Operators
+} // namespace end def Org::BouncyCastle::Crypto::Operators
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Operators::KeyWrapperUtil);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Operators::KeyWrapperUtil*, "Org.BouncyCastle.Crypto.Operators", "KeyWrapperUtil");

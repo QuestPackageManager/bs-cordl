@@ -30,80 +30,77 @@ namespace System::Runtime::Diagnostics {
 // CS Name: System.Runtime.Diagnostics.EtwProvider
 class CORDL_TYPE EtwProvider : public ::System::Runtime::Diagnostics::DiagnosticsEventProvider {
 public:
-  // Declarations
-  __declspec(property(get = get_ControllerCallBack, put = set_ControllerCallBack)) ::System::Action* ControllerCallBack;
+// Declarations
+ __declspec(property(get=get_ControllerCallBack, put=set_ControllerCallBack)) ::System::Action*  ControllerCallBack;
 
-  /// @brief Field end2EndActivityTracingEnabled, offset 0x58, size 0x1
-  __declspec(property(get = __cordl_internal_get_end2EndActivityTracingEnabled, put = __cordl_internal_set_end2EndActivityTracingEnabled)) bool end2EndActivityTracingEnabled;
+/// @brief Field end2EndActivityTracingEnabled, offset 0x58, size 0x1 
+ __declspec(property(get=__cordl_internal_get_end2EndActivityTracingEnabled, put=__cordl_internal_set_end2EndActivityTracingEnabled)) bool  end2EndActivityTracingEnabled;
 
-  /// @brief Field invokeControllerCallback, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_invokeControllerCallback, put = __cordl_internal_set_invokeControllerCallback)) ::System::Action* invokeControllerCallback;
+/// @brief Field invokeControllerCallback, offset 0x50, size 0x8 
+ __declspec(property(get=__cordl_internal_get_invokeControllerCallback, put=__cordl_internal_set_invokeControllerCallback)) ::System::Action*  invokeControllerCallback;
 
-  static inline ::System::Runtime::Diagnostics::EtwProvider* New_ctor(::System::Guid id);
+static inline ::System::Runtime::Diagnostics::EtwProvider* New_ctor(::System::Guid  id) ;
 
-  /// @brief Method OnControllerCommand, addr 0x5fdc6c0, size 0x20, virtual true, abstract: false, final false
-  inline void OnControllerCommand();
+/// @brief Method OnControllerCommand, addr 0x5fdcd80, size 0x20, virtual true, abstract: false, final false
+inline void OnControllerCommand() ;
 
-  /// @brief Method SetEnd2EndActivityTracingEnabled, addr 0x5fdc6e0, size 0x8, virtual false, abstract: false, final false
-  inline void SetEnd2EndActivityTracingEnabled(bool isEnd2EndActivityTracingEnabled);
+/// @brief Method SetEnd2EndActivityTracingEnabled, addr 0x5fdcda0, size 0x8, virtual false, abstract: false, final false
+inline void SetEnd2EndActivityTracingEnabled(bool  isEnd2EndActivityTracingEnabled) ;
 
-  /// @brief Method WriteEvent, addr 0x5fd573c, size 0xf8, virtual false, abstract: false, final false
-  inline bool WriteEvent(::ByRef<::System::Runtime::Diagnostics::EventDescriptor> eventDescriptor, ::System::Runtime::Diagnostics::EventTraceActivity* eventTraceActivity, ::StringW value1,
-                         ::StringW value2);
+/// @brief Method WriteEvent, addr 0x5fd5dfc, size 0xf8, virtual false, abstract: false, final false
+inline bool WriteEvent(::ByRef<::System::Runtime::Diagnostics::EventDescriptor>  eventDescriptor, ::System::Runtime::Diagnostics::EventTraceActivity*  eventTraceActivity, ::StringW  value1, ::StringW  value2) ;
 
-  /// @brief Method WriteEvent, addr 0x5fd55fc, size 0x140, virtual false, abstract: false, final false
-  inline bool WriteEvent(::ByRef<::System::Runtime::Diagnostics::EventDescriptor> eventDescriptor, ::System::Runtime::Diagnostics::EventTraceActivity* eventTraceActivity, ::StringW value1,
-                         ::StringW value2, ::StringW value3);
+/// @brief Method WriteEvent, addr 0x5fd5cbc, size 0x140, virtual false, abstract: false, final false
+inline bool WriteEvent(::ByRef<::System::Runtime::Diagnostics::EventDescriptor>  eventDescriptor, ::System::Runtime::Diagnostics::EventTraceActivity*  eventTraceActivity, ::StringW  value1, ::StringW  value2, ::StringW  value3) ;
 
-  /// @brief Method WriteEvent, addr 0x5fd5478, size 0x184, virtual false, abstract: false, final false
-  inline bool WriteEvent(::ByRef<::System::Runtime::Diagnostics::EventDescriptor> eventDescriptor, ::System::Runtime::Diagnostics::EventTraceActivity* eventTraceActivity, ::StringW value1,
-                         ::StringW value2, ::StringW value3, ::StringW value4);
+/// @brief Method WriteEvent, addr 0x5fd5b38, size 0x184, virtual false, abstract: false, final false
+inline bool WriteEvent(::ByRef<::System::Runtime::Diagnostics::EventDescriptor>  eventDescriptor, ::System::Runtime::Diagnostics::EventTraceActivity*  eventTraceActivity, ::StringW  value1, ::StringW  value2, ::StringW  value3, ::StringW  value4) ;
 
-  constexpr bool const& __cordl_internal_get_end2EndActivityTracingEnabled() const;
+constexpr bool const& __cordl_internal_get_end2EndActivityTracingEnabled() const;
 
-  constexpr bool& __cordl_internal_get_end2EndActivityTracingEnabled();
+constexpr bool& __cordl_internal_get_end2EndActivityTracingEnabled() ;
 
-  constexpr ::System::Action* const& __cordl_internal_get_invokeControllerCallback() const;
+constexpr ::System::Action* const& __cordl_internal_get_invokeControllerCallback() const;
 
-  constexpr ::System::Action*& __cordl_internal_get_invokeControllerCallback();
+constexpr ::System::Action*& __cordl_internal_get_invokeControllerCallback() ;
 
-  constexpr void __cordl_internal_set_end2EndActivityTracingEnabled(bool value);
+constexpr void __cordl_internal_set_end2EndActivityTracingEnabled(bool  value) ;
 
-  constexpr void __cordl_internal_set_invokeControllerCallback(::System::Action* value);
+constexpr void __cordl_internal_set_invokeControllerCallback(::System::Action*  value) ;
 
-  /// @brief Method .ctor, addr 0x5fda494, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor(::System::Guid id);
+/// @brief Method .ctor, addr 0x5fdab54, size 0x4, virtual false, abstract: false, final false
+inline void _ctor(::System::Guid  id) ;
 
-  /// @brief Method get_ControllerCallBack, addr 0x5fdc6b0, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Action* get_ControllerCallBack();
+/// @brief Method get_ControllerCallBack, addr 0x5fdcd70, size 0x8, virtual false, abstract: false, final false
+inline ::System::Action* get_ControllerCallBack() ;
 
-  /// @brief Method set_ControllerCallBack, addr 0x5fdc6b8, size 0x8, virtual false, abstract: false, final false
-  inline void set_ControllerCallBack(::System::Action* value);
+/// @brief Method set_ControllerCallBack, addr 0x5fdcd78, size 0x8, virtual false, abstract: false, final false
+inline void set_ControllerCallBack(::System::Action*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr EtwProvider();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr EtwProvider() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EtwProvider", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  EtwProvider(EtwProvider&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EtwProvider", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  EtwProvider(EtwProvider const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "EtwProvider", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+EtwProvider(EtwProvider && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21132 };
+// Ctor Parameters [CppParam { name: "", ty: "EtwProvider", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+EtwProvider(EtwProvider const& ) = delete;
 
-  /// @brief Field invokeControllerCallback, offset: 0x50, size: 0x8, def value: None
-  ::System::Action* ___invokeControllerCallback;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{21136};
 
-  /// @brief Field end2EndActivityTracingEnabled, offset: 0x58, size: 0x1, def value: None
-  bool ___end2EndActivityTracingEnabled;
+/// @brief Field invokeControllerCallback, offset: 0x50, size: 0x8, def value: None
+ ::System::Action*  ___invokeControllerCallback;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field end2EndActivityTracingEnabled, offset: 0x58, size: 0x1, def value: None
+ bool  ___end2EndActivityTracingEnabled;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Runtime::Diagnostics::EtwProvider, ___invokeControllerCallback) == 0x50, "Offset mismatch!");
@@ -112,6 +109,6 @@ static_assert(offsetof(::System::Runtime::Diagnostics::EtwProvider, ___end2EndAc
 
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Diagnostics::EtwProvider, 0x60>, "Size mismatch!");
 
-} // namespace System::Runtime::Diagnostics
+} // namespace end def System::Runtime::Diagnostics
 NEED_NO_BOX(::System::Runtime::Diagnostics::EtwProvider);
 DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Diagnostics::EtwProvider*, "System.Runtime.Diagnostics", "EtwProvider");

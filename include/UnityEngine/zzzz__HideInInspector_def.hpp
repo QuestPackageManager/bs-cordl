@@ -17,34 +17,34 @@ namespace UnityEngine {
 // CS Name: UnityEngine.HideInInspector
 class CORDL_TYPE HideInInspector : public ::System::Attribute {
 public:
-  // Declarations
-  static inline ::UnityEngine::HideInInspector* New_ctor();
+// Declarations
+static inline ::UnityEngine::HideInInspector* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x6910028, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x69106e8, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HideInInspector();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr HideInInspector() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HideInInspector", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  HideInInspector(HideInInspector&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HideInInspector", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  HideInInspector(HideInInspector const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "HideInInspector", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+HideInInspector(HideInInspector && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10289 };
+// Ctor Parameters [CppParam { name: "", ty: "HideInInspector", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+HideInInspector(HideInInspector const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10293};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::HideInInspector, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine
+} // namespace end def UnityEngine
 NEED_NO_BOX(::UnityEngine::HideInInspector);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::HideInInspector*, "UnityEngine", "HideInInspector");

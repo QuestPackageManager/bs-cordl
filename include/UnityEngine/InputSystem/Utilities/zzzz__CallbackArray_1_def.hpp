@@ -9,76 +9,72 @@ CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(CallbackArray_1)
 // Forward declare root types
 namespace UnityEngine::InputSystem::Utilities {
-template <typename TDelegate> struct CallbackArray_1;
+template<typename TDelegate>
+struct CallbackArray_1;
 }
 // Write type traits
 MARK_GEN_VAL_T(::UnityEngine::InputSystem::Utilities::CallbackArray_1);
 // Dependencies UnityEngine.InputSystem.Utilities.InlinedArray`1<TValue>
 namespace UnityEngine::InputSystem::Utilities {
 // cpp template
-template <typename TDelegate>
+template<typename TDelegate>
 // Is value type: true
 // CS Name: UnityEngine.InputSystem.Utilities.CallbackArray`1<TDelegate>
 struct CORDL_TYPE CallbackArray_1 {
 public:
-  // Declarations
-  __declspec(property(get = get_Item)) TDelegate Item[];
+// Declarations
+ __declspec(property(get=get_Item)) TDelegate  Item[];
 
-  __declspec(property(get = get_length)) int32_t length;
+ __declspec(property(get=get_length)) int32_t  length;
 
-  /// @brief Method AddCallback, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void AddCallback(TDelegate dlg);
+/// @brief Method AddCallback, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+inline void AddCallback(TDelegate  dlg) ;
 
-  /// @brief Method Clear, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void Clear();
+/// @brief Method Clear, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+inline void Clear() ;
 
-  /// @brief Method LockForChanges, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void LockForChanges();
+/// @brief Method LockForChanges, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+inline void LockForChanges() ;
 
-  /// @brief Method RemoveCallback, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void RemoveCallback(TDelegate dlg);
+/// @brief Method RemoveCallback, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+inline void RemoveCallback(TDelegate  dlg) ;
 
-  /// @brief Method UnlockForChanges, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void UnlockForChanges();
+/// @brief Method UnlockForChanges, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+inline void UnlockForChanges() ;
 
-  /// @brief Method get_Item, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline TDelegate get_Item(int32_t index);
+/// @brief Method get_Item, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+inline TDelegate get_Item(int32_t  index) ;
 
-  /// @brief Method get_length, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline int32_t get_length();
+/// @brief Method get_length, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+inline int32_t get_length() ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CallbackArray_1();
+// Ctor Parameters []
+// @brief default ctor
+constexpr CallbackArray_1() ;
 
-  // Ctor Parameters [CppParam { name: "m_CannotMutateCallbacksArray", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "m_Callbacks", ty:
-  // "::UnityEngine::InputSystem::Utilities::InlinedArray_1<TDelegate>", modifiers: "", def_value: None }, CppParam { name: "m_CallbacksToAdd", ty:
-  // "::UnityEngine::InputSystem::Utilities::InlinedArray_1<TDelegate>", modifiers: "", def_value: None }, CppParam { name: "m_CallbacksToRemove", ty:
-  // "::UnityEngine::InputSystem::Utilities::InlinedArray_1<TDelegate>", modifiers: "", def_value: None }]
-  constexpr CallbackArray_1(bool m_CannotMutateCallbacksArray, ::UnityEngine::InputSystem::Utilities::InlinedArray_1<TDelegate> m_Callbacks,
-                            ::UnityEngine::InputSystem::Utilities::InlinedArray_1<TDelegate> m_CallbacksToAdd,
-                            ::UnityEngine::InputSystem::Utilities::InlinedArray_1<TDelegate> m_CallbacksToRemove) noexcept;
+// Ctor Parameters [CppParam { name: "m_CannotMutateCallbacksArray", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "m_Callbacks", ty: "::UnityEngine::InputSystem::Utilities::InlinedArray_1<TDelegate>", modifiers: "", def_value: None }, CppParam { name: "m_CallbacksToAdd", ty: "::UnityEngine::InputSystem::Utilities::InlinedArray_1<TDelegate>", modifiers: "", def_value: None }, CppParam { name: "m_CallbacksToRemove", ty: "::UnityEngine::InputSystem::Utilities::InlinedArray_1<TDelegate>", modifiers: "", def_value: None }]
+constexpr CallbackArray_1(bool  m_CannotMutateCallbacksArray, ::UnityEngine::InputSystem::Utilities::InlinedArray_1<TDelegate>  m_Callbacks, ::UnityEngine::InputSystem::Utilities::InlinedArray_1<TDelegate>  m_CallbacksToAdd, ::UnityEngine::InputSystem::Utilities::InlinedArray_1<TDelegate>  m_CallbacksToRemove) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9132 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{9136};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x50};
 
-  /// @brief Field m_CannotMutateCallbacksArray, offset: 0x0, size: 0x1, def value: None
-  bool m_CannotMutateCallbacksArray;
+/// @brief Field m_CannotMutateCallbacksArray, offset: 0x0, size: 0x1, def value: None
+ bool  m_CannotMutateCallbacksArray;
 
-  /// @brief Field m_Callbacks, offset: 0x8, size: 0x18, def value: None
-  ::UnityEngine::InputSystem::Utilities::InlinedArray_1<TDelegate> m_Callbacks;
+/// @brief Field m_Callbacks, offset: 0x8, size: 0x18, def value: None
+ ::UnityEngine::InputSystem::Utilities::InlinedArray_1<TDelegate>  m_Callbacks;
 
-  /// @brief Field m_CallbacksToAdd, offset: 0x20, size: 0x18, def value: None
-  ::UnityEngine::InputSystem::Utilities::InlinedArray_1<TDelegate> m_CallbacksToAdd;
+/// @brief Field m_CallbacksToAdd, offset: 0x20, size: 0x18, def value: None
+ ::UnityEngine::InputSystem::Utilities::InlinedArray_1<TDelegate>  m_CallbacksToAdd;
 
-  /// @brief Field m_CallbacksToRemove, offset: 0x38, size: 0x18, def value: None
-  ::UnityEngine::InputSystem::Utilities::InlinedArray_1<TDelegate> m_CallbacksToRemove;
+/// @brief Field m_CallbacksToRemove, offset: 0x38, size: 0x18, def value: None
+ ::UnityEngine::InputSystem::Utilities::InlinedArray_1<TDelegate>  m_CallbacksToRemove;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-} // namespace UnityEngine::InputSystem::Utilities
+} // namespace end def UnityEngine::InputSystem::Utilities
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(::UnityEngine::InputSystem::Utilities::CallbackArray_1, "UnityEngine.InputSystem.Utilities", "CallbackArray`1");

@@ -15,482 +15,528 @@
 #include "UnityEngine/zzzz__CanvasGroup_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
 //  Writing Method size for method: ::BeatSaber::GameSettings::ControllerProfilesSettingsViewController.add_onRequestSelectProfileToCopyFrom
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::GameSettings::ControllerProfilesSettingsViewController::*)(
-    ::System::Action_1<::ArrayW<::System::ValueTuple_2<::StringW, int32_t>, ::Array<::System::ValueTuple_2<::StringW, int32_t>>*>>*)>(
-    &::BeatSaber::GameSettings::ControllerProfilesSettingsViewController::add_onRequestSelectProfileToCopyFrom)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::GameSettings::ControllerProfilesSettingsViewController::*)(::System::Action_1<::ArrayW<::System::ValueTuple_2<::StringW,int32_t>,::Array<::System::ValueTuple_2<::StringW,int32_t>>*>>*)>(&::BeatSaber::GameSettings::ControllerProfilesSettingsViewController::add_onRequestSelectProfileToCopyFrom)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x31c39c4;
+  constexpr static std::size_t addrs = 0x31c3914;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::GameSettings::ControllerProfilesSettingsViewController*>::get(),
-                                                 "add_onRequestSelectProfileToCopyFrom", std::span<Il2CppClass const* const, 0>(),
-                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                                                     ::System::Action_1<::ArrayW<::System::ValueTuple_2<::StringW, int32_t>, ::Array<::System::ValueTuple_2<::StringW, int32_t>>*>>*>::get() })));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::GameSettings::ControllerProfilesSettingsViewController*>::get(),
+                        "add_onRequestSelectProfileToCopyFrom",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::ArrayW<::System::ValueTuple_2<::StringW,int32_t>,::Array<::System::ValueTuple_2<::StringW,int32_t>>*>>*>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::BeatSaber::GameSettings::ControllerProfilesSettingsViewController.remove_onRequestSelectProfileToCopyFrom
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::GameSettings::ControllerProfilesSettingsViewController::*)(
-    ::System::Action_1<::ArrayW<::System::ValueTuple_2<::StringW, int32_t>, ::Array<::System::ValueTuple_2<::StringW, int32_t>>*>>*)>(
-    &::BeatSaber::GameSettings::ControllerProfilesSettingsViewController::remove_onRequestSelectProfileToCopyFrom)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::GameSettings::ControllerProfilesSettingsViewController::*)(::System::Action_1<::ArrayW<::System::ValueTuple_2<::StringW,int32_t>,::Array<::System::ValueTuple_2<::StringW,int32_t>>*>>*)>(&::BeatSaber::GameSettings::ControllerProfilesSettingsViewController::remove_onRequestSelectProfileToCopyFrom)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x31c3a84;
+  constexpr static std::size_t addrs = 0x31c39d4;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::GameSettings::ControllerProfilesSettingsViewController*>::get(),
-                                                 "remove_onRequestSelectProfileToCopyFrom", std::span<Il2CppClass const* const, 0>(),
-                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                                                     ::System::Action_1<::ArrayW<::System::ValueTuple_2<::StringW, int32_t>, ::Array<::System::ValueTuple_2<::StringW, int32_t>>*>>*>::get() })));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::GameSettings::ControllerProfilesSettingsViewController*>::get(),
+                        "remove_onRequestSelectProfileToCopyFrom",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::ArrayW<::System::ValueTuple_2<::StringW,int32_t>,::Array<::System::ValueTuple_2<::StringW,int32_t>>*>>*>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::BeatSaber::GameSettings::ControllerProfilesSettingsViewController.CopyProfileResponse
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::GameSettings::ControllerProfilesSettingsViewController::*)(bool, int32_t)>(
-    &::BeatSaber::GameSettings::ControllerProfilesSettingsViewController::CopyProfileResponse)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::GameSettings::ControllerProfilesSettingsViewController::*)(bool, int32_t)>(&::BeatSaber::GameSettings::ControllerProfilesSettingsViewController::CopyProfileResponse)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x31c3b44;
+  constexpr static std::size_t addrs = 0x31c3a94;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::GameSettings::ControllerProfilesSettingsViewController*>::get(), "CopyProfileResponse",
-        std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::GameSettings::ControllerProfilesSettingsViewController*>::get(),
+                        "CopyProfileResponse",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::BeatSaber::GameSettings::ControllerProfilesSettingsViewController.DidActivate
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::GameSettings::ControllerProfilesSettingsViewController::*)(bool, bool, bool)>(
-    &::BeatSaber::GameSettings::ControllerProfilesSettingsViewController::DidActivate)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::GameSettings::ControllerProfilesSettingsViewController::*)(bool, bool, bool)>(&::BeatSaber::GameSettings::ControllerProfilesSettingsViewController::DidActivate)> {
   constexpr static std::size_t size = 0x3fc;
-  constexpr static std::size_t addrs = 0x31c3c30;
+  constexpr static std::size_t addrs = 0x31c3b80;
 
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::GameSettings::ControllerProfilesSettingsViewController*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::GameSettings::ControllerProfilesSettingsViewController*>::get(), 5));
+  inline static const ::MethodInfo* methodInfo() {
+    
+                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::GameSettings::ControllerProfilesSettingsViewController*>::get(),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::GameSettings::ControllerProfilesSettingsViewController*>::get(),
+                                  5
+                                ));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::BeatSaber::GameSettings::ControllerProfilesSettingsViewController.DidDeactivate
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::GameSettings::ControllerProfilesSettingsViewController::*)(bool, bool)>(
-    &::BeatSaber::GameSettings::ControllerProfilesSettingsViewController::DidDeactivate)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::GameSettings::ControllerProfilesSettingsViewController::*)(bool, bool)>(&::BeatSaber::GameSettings::ControllerProfilesSettingsViewController::DidDeactivate)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x31c4580;
+  constexpr static std::size_t addrs = 0x31c44d0;
 
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::GameSettings::ControllerProfilesSettingsViewController*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::GameSettings::ControllerProfilesSettingsViewController*>::get(), 6));
+  inline static const ::MethodInfo* methodInfo() {
+    
+                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::GameSettings::ControllerProfilesSettingsViewController*>::get(),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::GameSettings::ControllerProfilesSettingsViewController*>::get(),
+                                  6
+                                ));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::BeatSaber::GameSettings::ControllerProfilesSettingsViewController.GetSelectedProfile
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BeatSaber::GameSettings::ControllerProfile* (
-    ::BeatSaber::GameSettings::ControllerProfilesSettingsViewController::*)()>(&::BeatSaber::GameSettings::ControllerProfilesSettingsViewController::GetSelectedProfile)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BeatSaber::GameSettings::ControllerProfile* (::BeatSaber::GameSettings::ControllerProfilesSettingsViewController::*)()>(&::BeatSaber::GameSettings::ControllerProfilesSettingsViewController::GetSelectedProfile)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x31c45d0;
+  constexpr static std::size_t addrs = 0x31c4520;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::GameSettings::ControllerProfilesSettingsViewController*>::get(),
-                                                 "GetSelectedProfile", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::GameSettings::ControllerProfilesSettingsViewController*>::get(),
+                        "GetSelectedProfile",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::BeatSaber::GameSettings::ControllerProfilesSettingsViewController.HandlingToggleChanged
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::GameSettings::ControllerProfilesSettingsViewController::*)(bool)>(
-    &::BeatSaber::GameSettings::ControllerProfilesSettingsViewController::HandlingToggleChanged)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::GameSettings::ControllerProfilesSettingsViewController::*)(bool)>(&::BeatSaber::GameSettings::ControllerProfilesSettingsViewController::HandlingToggleChanged)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x31c45e4;
+  constexpr static std::size_t addrs = 0x31c4534;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::GameSettings::ControllerProfilesSettingsViewController*>::get(), "HandlingToggleChanged",
-                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::GameSettings::ControllerProfilesSettingsViewController*>::get(),
+                        "HandlingToggleChanged",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::BeatSaber::GameSettings::ControllerProfilesSettingsViewController.ProfileSelected
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::GameSettings::ControllerProfilesSettingsViewController::*)(
-    ::HMUI::DropdownWithTableView*, int32_t)>(&::BeatSaber::GameSettings::ControllerProfilesSettingsViewController::ProfileSelected)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::GameSettings::ControllerProfilesSettingsViewController::*)(::HMUI::DropdownWithTableView*, int32_t)>(&::BeatSaber::GameSettings::ControllerProfilesSettingsViewController::ProfileSelected)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x31c4610;
+  constexpr static std::size_t addrs = 0x31c4560;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::GameSettings::ControllerProfilesSettingsViewController*>::get(), "ProfileSelected",
-                                                 std::span<Il2CppClass const* const, 0>(),
-                                                 ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HMUI::DropdownWithTableView*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::GameSettings::ControllerProfilesSettingsViewController*>::get(),
+                        "ProfileSelected",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HMUI::DropdownWithTableView*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::BeatSaber::GameSettings::ControllerProfilesSettingsViewController.CopyFormLeftToRight
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::GameSettings::ControllerProfilesSettingsViewController::*)()>(
-    &::BeatSaber::GameSettings::ControllerProfilesSettingsViewController::CopyFormLeftToRight)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::GameSettings::ControllerProfilesSettingsViewController::*)()>(&::BeatSaber::GameSettings::ControllerProfilesSettingsViewController::CopyFormLeftToRight)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x31c463c;
+  constexpr static std::size_t addrs = 0x31c458c;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::GameSettings::ControllerProfilesSettingsViewController*>::get(),
-                                                 "CopyFormLeftToRight", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::GameSettings::ControllerProfilesSettingsViewController*>::get(),
+                        "CopyFormLeftToRight",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::BeatSaber::GameSettings::ControllerProfilesSettingsViewController.CopyFromRightToLeft
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::GameSettings::ControllerProfilesSettingsViewController::*)()>(
-    &::BeatSaber::GameSettings::ControllerProfilesSettingsViewController::CopyFromRightToLeft)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::GameSettings::ControllerProfilesSettingsViewController::*)()>(&::BeatSaber::GameSettings::ControllerProfilesSettingsViewController::CopyFromRightToLeft)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x31c4678;
+  constexpr static std::size_t addrs = 0x31c45c8;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::GameSettings::ControllerProfilesSettingsViewController*>::get(),
-                                                 "CopyFromRightToLeft", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::GameSettings::ControllerProfilesSettingsViewController*>::get(),
+                        "CopyFromRightToLeft",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::BeatSaber::GameSettings::ControllerProfilesSettingsViewController.ShowCopyFromProfile
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::GameSettings::ControllerProfilesSettingsViewController::*)()>(
-    &::BeatSaber::GameSettings::ControllerProfilesSettingsViewController::ShowCopyFromProfile)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::GameSettings::ControllerProfilesSettingsViewController::*)()>(&::BeatSaber::GameSettings::ControllerProfilesSettingsViewController::ShowCopyFromProfile)> {
   constexpr static std::size_t size = 0x270;
-  constexpr static std::size_t addrs = 0x31c46b4;
+  constexpr static std::size_t addrs = 0x31c4604;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::GameSettings::ControllerProfilesSettingsViewController*>::get(),
-                                                 "ShowCopyFromProfile", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::GameSettings::ControllerProfilesSettingsViewController*>::get(),
+                        "ShowCopyFromProfile",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::BeatSaber::GameSettings::ControllerProfilesSettingsViewController.GetControllerProfileDisplayName
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::BeatSaber::GameSettings::ControllerProfile*)>(
-    &::BeatSaber::GameSettings::ControllerProfilesSettingsViewController::GetControllerProfileDisplayName)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::BeatSaber::GameSettings::ControllerProfile*)>(&::BeatSaber::GameSettings::ControllerProfilesSettingsViewController::GetControllerProfileDisplayName)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x31c4924;
+  constexpr static std::size_t addrs = 0x31c4874;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::GameSettings::ControllerProfilesSettingsViewController*>::get(), "GetControllerProfileDisplayName",
-        std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BeatSaber::GameSettings::ControllerProfile*>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::GameSettings::ControllerProfilesSettingsViewController*>::get(),
+                        "GetControllerProfileDisplayName",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BeatSaber::GameSettings::ControllerProfile*>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::BeatSaber::GameSettings::ControllerProfilesSettingsViewController.CopyValuesFromOtherProfile
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::GameSettings::ControllerProfilesSettingsViewController::*)(int32_t)>(
-    &::BeatSaber::GameSettings::ControllerProfilesSettingsViewController::CopyValuesFromOtherProfile)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::GameSettings::ControllerProfilesSettingsViewController::*)(int32_t)>(&::BeatSaber::GameSettings::ControllerProfilesSettingsViewController::CopyValuesFromOtherProfile)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x31c3b54;
+  constexpr static std::size_t addrs = 0x31c3aa4;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::GameSettings::ControllerProfilesSettingsViewController*>::get(), "CopyValuesFromOtherProfile",
-                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::GameSettings::ControllerProfilesSettingsViewController*>::get(),
+                        "CopyValuesFromOtherProfile",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::BeatSaber::GameSettings::ControllerProfilesSettingsViewController.RefreshView
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::GameSettings::ControllerProfilesSettingsViewController::*)()>(
-    &::BeatSaber::GameSettings::ControllerProfilesSettingsViewController::RefreshView)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::GameSettings::ControllerProfilesSettingsViewController::*)()>(&::BeatSaber::GameSettings::ControllerProfilesSettingsViewController::RefreshView)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x31c4480;
+  constexpr static std::size_t addrs = 0x31c43d0;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::GameSettings::ControllerProfilesSettingsViewController*>::get(), "RefreshView",
-                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::GameSettings::ControllerProfilesSettingsViewController*>::get(),
+                        "RefreshView",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::BeatSaber::GameSettings::ControllerProfilesSettingsViewController._ctor
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::GameSettings::ControllerProfilesSettingsViewController::*)()>(
-    &::BeatSaber::GameSettings::ControllerProfilesSettingsViewController::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::GameSettings::ControllerProfilesSettingsViewController::*)()>(&::BeatSaber::GameSettings::ControllerProfilesSettingsViewController::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x31c4b44;
+  constexpr static std::size_t addrs = 0x31c4a94;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::GameSettings::ControllerProfilesSettingsViewController*>::get(), ".ctor",
-                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::GameSettings::ControllerProfilesSettingsViewController*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
-constexpr ::UnityW<::HMUI::SimpleTextDropdown>& BeatSaber::GameSettings::ControllerProfilesSettingsViewController::__cordl_internal_get__profilesDropdown() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____profilesDropdown;
+constexpr ::UnityW<::HMUI::SimpleTextDropdown>& BeatSaber::GameSettings::ControllerProfilesSettingsViewController::__cordl_internal_get__profilesDropdown()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____profilesDropdown;
 }
 constexpr ::UnityW<::HMUI::SimpleTextDropdown> const& BeatSaber::GameSettings::ControllerProfilesSettingsViewController::__cordl_internal_get__profilesDropdown() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____profilesDropdown;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____profilesDropdown;
 }
-constexpr void BeatSaber::GameSettings::ControllerProfilesSettingsViewController::__cordl_internal_set__profilesDropdown(::UnityW<::HMUI::SimpleTextDropdown> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____profilesDropdown)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void BeatSaber::GameSettings::ControllerProfilesSettingsViewController::__cordl_internal_set__profilesDropdown(::UnityW<::HMUI::SimpleTextDropdown>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____profilesDropdown)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::UnityEngine::UI::Toggle>& BeatSaber::GameSettings::ControllerProfilesSettingsViewController::__cordl_internal_get__handlingToggle() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____handlingToggle;
+constexpr ::UnityW<::UnityEngine::UI::Toggle>& BeatSaber::GameSettings::ControllerProfilesSettingsViewController::__cordl_internal_get__handlingToggle()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____handlingToggle;
 }
 constexpr ::UnityW<::UnityEngine::UI::Toggle> const& BeatSaber::GameSettings::ControllerProfilesSettingsViewController::__cordl_internal_get__handlingToggle() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____handlingToggle;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____handlingToggle;
 }
-constexpr void BeatSaber::GameSettings::ControllerProfilesSettingsViewController::__cordl_internal_set__handlingToggle(::UnityW<::UnityEngine::UI::Toggle> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____handlingToggle)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void BeatSaber::GameSettings::ControllerProfilesSettingsViewController::__cordl_internal_set__handlingToggle(::UnityW<::UnityEngine::UI::Toggle>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____handlingToggle)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<::UnityW<::UnityEngine::CanvasGroup>, ::Array<::UnityW<::UnityEngine::CanvasGroup>>*>&
-BeatSaber::GameSettings::ControllerProfilesSettingsViewController::__cordl_internal_get__interactableCanvasGroups() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____interactableCanvasGroups;
+constexpr ::ArrayW<::UnityW<::UnityEngine::CanvasGroup>,::Array<::UnityW<::UnityEngine::CanvasGroup>>*>& BeatSaber::GameSettings::ControllerProfilesSettingsViewController::__cordl_internal_get__interactableCanvasGroups()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____interactableCanvasGroups;
 }
-constexpr ::ArrayW<::UnityW<::UnityEngine::CanvasGroup>, ::Array<::UnityW<::UnityEngine::CanvasGroup>>*> const&
-BeatSaber::GameSettings::ControllerProfilesSettingsViewController::__cordl_internal_get__interactableCanvasGroups() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____interactableCanvasGroups;
+constexpr ::ArrayW<::UnityW<::UnityEngine::CanvasGroup>,::Array<::UnityW<::UnityEngine::CanvasGroup>>*> const& BeatSaber::GameSettings::ControllerProfilesSettingsViewController::__cordl_internal_get__interactableCanvasGroups() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____interactableCanvasGroups;
 }
-constexpr void BeatSaber::GameSettings::ControllerProfilesSettingsViewController::__cordl_internal_set__interactableCanvasGroups(
-    ::ArrayW<::UnityW<::UnityEngine::CanvasGroup>, ::Array<::UnityW<::UnityEngine::CanvasGroup>>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____interactableCanvasGroups)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void BeatSaber::GameSettings::ControllerProfilesSettingsViewController::__cordl_internal_set__interactableCanvasGroups(::ArrayW<::UnityW<::UnityEngine::CanvasGroup>,::Array<::UnityW<::UnityEngine::CanvasGroup>>*>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____interactableCanvasGroups)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<::UnityW<::BeatSaber::GameSettings::ControllersTransformSettings>, ::Array<::UnityW<::BeatSaber::GameSettings::ControllersTransformSettings>>*>&
-BeatSaber::GameSettings::ControllerProfilesSettingsViewController::__cordl_internal_get__transformSettingsViewControllers() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____transformSettingsViewControllers;
+constexpr ::ArrayW<::UnityW<::BeatSaber::GameSettings::ControllersTransformSettings>,::Array<::UnityW<::BeatSaber::GameSettings::ControllersTransformSettings>>*>& BeatSaber::GameSettings::ControllerProfilesSettingsViewController::__cordl_internal_get__transformSettingsViewControllers()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____transformSettingsViewControllers;
 }
-constexpr ::ArrayW<::UnityW<::BeatSaber::GameSettings::ControllersTransformSettings>, ::Array<::UnityW<::BeatSaber::GameSettings::ControllersTransformSettings>>*> const&
-BeatSaber::GameSettings::ControllerProfilesSettingsViewController::__cordl_internal_get__transformSettingsViewControllers() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____transformSettingsViewControllers;
+constexpr ::ArrayW<::UnityW<::BeatSaber::GameSettings::ControllersTransformSettings>,::Array<::UnityW<::BeatSaber::GameSettings::ControllersTransformSettings>>*> const& BeatSaber::GameSettings::ControllerProfilesSettingsViewController::__cordl_internal_get__transformSettingsViewControllers() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____transformSettingsViewControllers;
 }
-constexpr void BeatSaber::GameSettings::ControllerProfilesSettingsViewController::__cordl_internal_set__transformSettingsViewControllers(
-    ::ArrayW<::UnityW<::BeatSaber::GameSettings::ControllersTransformSettings>, ::Array<::UnityW<::BeatSaber::GameSettings::ControllersTransformSettings>>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____transformSettingsViewControllers)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void BeatSaber::GameSettings::ControllerProfilesSettingsViewController::__cordl_internal_set__transformSettingsViewControllers(::ArrayW<::UnityW<::BeatSaber::GameSettings::ControllersTransformSettings>,::Array<::UnityW<::BeatSaber::GameSettings::ControllersTransformSettings>>*>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____transformSettingsViewControllers)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::UnityEngine::GameObject>& BeatSaber::GameSettings::ControllerProfilesSettingsViewController::__cordl_internal_get__buttonsContainer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____buttonsContainer;
+constexpr ::UnityW<::UnityEngine::GameObject>& BeatSaber::GameSettings::ControllerProfilesSettingsViewController::__cordl_internal_get__buttonsContainer()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____buttonsContainer;
 }
 constexpr ::UnityW<::UnityEngine::GameObject> const& BeatSaber::GameSettings::ControllerProfilesSettingsViewController::__cordl_internal_get__buttonsContainer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____buttonsContainer;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____buttonsContainer;
 }
-constexpr void BeatSaber::GameSettings::ControllerProfilesSettingsViewController::__cordl_internal_set__buttonsContainer(::UnityW<::UnityEngine::GameObject> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____buttonsContainer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void BeatSaber::GameSettings::ControllerProfilesSettingsViewController::__cordl_internal_set__buttonsContainer(::UnityW<::UnityEngine::GameObject>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____buttonsContainer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::UnityEngine::UI::Button>& BeatSaber::GameSettings::ControllerProfilesSettingsViewController::__cordl_internal_get__copyFromLeftButton() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____copyFromLeftButton;
+constexpr ::UnityW<::UnityEngine::UI::Button>& BeatSaber::GameSettings::ControllerProfilesSettingsViewController::__cordl_internal_get__copyFromLeftButton()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____copyFromLeftButton;
 }
 constexpr ::UnityW<::UnityEngine::UI::Button> const& BeatSaber::GameSettings::ControllerProfilesSettingsViewController::__cordl_internal_get__copyFromLeftButton() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____copyFromLeftButton;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____copyFromLeftButton;
 }
-constexpr void BeatSaber::GameSettings::ControllerProfilesSettingsViewController::__cordl_internal_set__copyFromLeftButton(::UnityW<::UnityEngine::UI::Button> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____copyFromLeftButton)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void BeatSaber::GameSettings::ControllerProfilesSettingsViewController::__cordl_internal_set__copyFromLeftButton(::UnityW<::UnityEngine::UI::Button>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____copyFromLeftButton)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::UnityEngine::UI::Button>& BeatSaber::GameSettings::ControllerProfilesSettingsViewController::__cordl_internal_get__copyFromRightButton() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____copyFromRightButton;
+constexpr ::UnityW<::UnityEngine::UI::Button>& BeatSaber::GameSettings::ControllerProfilesSettingsViewController::__cordl_internal_get__copyFromRightButton()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____copyFromRightButton;
 }
 constexpr ::UnityW<::UnityEngine::UI::Button> const& BeatSaber::GameSettings::ControllerProfilesSettingsViewController::__cordl_internal_get__copyFromRightButton() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____copyFromRightButton;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____copyFromRightButton;
 }
-constexpr void BeatSaber::GameSettings::ControllerProfilesSettingsViewController::__cordl_internal_set__copyFromRightButton(::UnityW<::UnityEngine::UI::Button> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____copyFromRightButton)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void BeatSaber::GameSettings::ControllerProfilesSettingsViewController::__cordl_internal_set__copyFromRightButton(::UnityW<::UnityEngine::UI::Button>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____copyFromRightButton)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::UnityEngine::UI::Button>& BeatSaber::GameSettings::ControllerProfilesSettingsViewController::__cordl_internal_get__copyFromProfileButton() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____copyFromProfileButton;
+constexpr ::UnityW<::UnityEngine::UI::Button>& BeatSaber::GameSettings::ControllerProfilesSettingsViewController::__cordl_internal_get__copyFromProfileButton()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____copyFromProfileButton;
 }
 constexpr ::UnityW<::UnityEngine::UI::Button> const& BeatSaber::GameSettings::ControllerProfilesSettingsViewController::__cordl_internal_get__copyFromProfileButton() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____copyFromProfileButton;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____copyFromProfileButton;
 }
-constexpr void BeatSaber::GameSettings::ControllerProfilesSettingsViewController::__cordl_internal_set__copyFromProfileButton(::UnityW<::UnityEngine::UI::Button> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____copyFromProfileButton)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void BeatSaber::GameSettings::ControllerProfilesSettingsViewController::__cordl_internal_set__copyFromProfileButton(::UnityW<::UnityEngine::UI::Button>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____copyFromProfileButton)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::BeatSaber::GameSettings::ControllerProfilesModel*& BeatSaber::GameSettings::ControllerProfilesSettingsViewController::__cordl_internal_get__profileModel() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____profileModel;
+constexpr ::BeatSaber::GameSettings::ControllerProfilesModel*& BeatSaber::GameSettings::ControllerProfilesSettingsViewController::__cordl_internal_get__profileModel()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____profileModel;
 }
 constexpr ::BeatSaber::GameSettings::ControllerProfilesModel* const& BeatSaber::GameSettings::ControllerProfilesSettingsViewController::__cordl_internal_get__profileModel() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____profileModel;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____profileModel;
 }
-constexpr void BeatSaber::GameSettings::ControllerProfilesSettingsViewController::__cordl_internal_set__profileModel(::BeatSaber::GameSettings::ControllerProfilesModel* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____profileModel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void BeatSaber::GameSettings::ControllerProfilesSettingsViewController::__cordl_internal_set__profileModel(::BeatSaber::GameSettings::ControllerProfilesModel*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____profileModel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::HMUI::ToggleBinder*& BeatSaber::GameSettings::ControllerProfilesSettingsViewController::__cordl_internal_get__toggleBinder() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____toggleBinder;
+constexpr ::HMUI::ToggleBinder*& BeatSaber::GameSettings::ControllerProfilesSettingsViewController::__cordl_internal_get__toggleBinder()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____toggleBinder;
 }
 constexpr ::HMUI::ToggleBinder* const& BeatSaber::GameSettings::ControllerProfilesSettingsViewController::__cordl_internal_get__toggleBinder() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____toggleBinder;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____toggleBinder;
 }
-constexpr void BeatSaber::GameSettings::ControllerProfilesSettingsViewController::__cordl_internal_set__toggleBinder(::HMUI::ToggleBinder* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____toggleBinder)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void BeatSaber::GameSettings::ControllerProfilesSettingsViewController::__cordl_internal_set__toggleBinder(::HMUI::ToggleBinder*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____toggleBinder)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Action_1<::ArrayW<::System::ValueTuple_2<::StringW, int32_t>, ::Array<::System::ValueTuple_2<::StringW, int32_t>>*>>*&
-BeatSaber::GameSettings::ControllerProfilesSettingsViewController::__cordl_internal_get_onRequestSelectProfileToCopyFrom() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___onRequestSelectProfileToCopyFrom;
+constexpr ::System::Action_1<::ArrayW<::System::ValueTuple_2<::StringW,int32_t>,::Array<::System::ValueTuple_2<::StringW,int32_t>>*>>*& BeatSaber::GameSettings::ControllerProfilesSettingsViewController::__cordl_internal_get_onRequestSelectProfileToCopyFrom()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___onRequestSelectProfileToCopyFrom;
 }
-constexpr ::System::Action_1<::ArrayW<::System::ValueTuple_2<::StringW, int32_t>, ::Array<::System::ValueTuple_2<::StringW, int32_t>>*>>* const&
-BeatSaber::GameSettings::ControllerProfilesSettingsViewController::__cordl_internal_get_onRequestSelectProfileToCopyFrom() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___onRequestSelectProfileToCopyFrom;
+constexpr ::System::Action_1<::ArrayW<::System::ValueTuple_2<::StringW,int32_t>,::Array<::System::ValueTuple_2<::StringW,int32_t>>*>>* const& BeatSaber::GameSettings::ControllerProfilesSettingsViewController::__cordl_internal_get_onRequestSelectProfileToCopyFrom() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___onRequestSelectProfileToCopyFrom;
 }
-constexpr void BeatSaber::GameSettings::ControllerProfilesSettingsViewController::__cordl_internal_set_onRequestSelectProfileToCopyFrom(
-    ::System::Action_1<::ArrayW<::System::ValueTuple_2<::StringW, int32_t>, ::Array<::System::ValueTuple_2<::StringW, int32_t>>*>>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___onRequestSelectProfileToCopyFrom)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void BeatSaber::GameSettings::ControllerProfilesSettingsViewController::__cordl_internal_set_onRequestSelectProfileToCopyFrom(::System::Action_1<::ArrayW<::System::ValueTuple_2<::StringW,int32_t>,::Array<::System::ValueTuple_2<::StringW,int32_t>>*>>*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___onRequestSelectProfileToCopyFrom)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void BeatSaber::GameSettings::ControllerProfilesSettingsViewController::add_onRequestSelectProfileToCopyFrom(
-    ::System::Action_1<::ArrayW<::System::ValueTuple_2<::StringW, int32_t>, ::Array<::System::ValueTuple_2<::StringW, int32_t>>*>>* value) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::GameSettings::ControllerProfilesSettingsViewController*>::get(),
-                                               "add_onRequestSelectProfileToCopyFrom", std::span<Il2CppClass const* const, 0>(),
-                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                                                   ::System::Action_1<::ArrayW<::System::ValueTuple_2<::StringW, int32_t>, ::Array<::System::ValueTuple_2<::StringW, int32_t>>*>>*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void BeatSaber::GameSettings::ControllerProfilesSettingsViewController::add_onRequestSelectProfileToCopyFrom(::System::Action_1<::ArrayW<::System::ValueTuple_2<::StringW,int32_t>,::Array<::System::ValueTuple_2<::StringW,int32_t>>*>>*  value)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::GameSettings::ControllerProfilesSettingsViewController*>::get(),
+                        "add_onRequestSelectProfileToCopyFrom",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::ArrayW<::System::ValueTuple_2<::StringW,int32_t>,::Array<::System::ValueTuple_2<::StringW,int32_t>>*>>*>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void BeatSaber::GameSettings::ControllerProfilesSettingsViewController::remove_onRequestSelectProfileToCopyFrom(
-    ::System::Action_1<::ArrayW<::System::ValueTuple_2<::StringW, int32_t>, ::Array<::System::ValueTuple_2<::StringW, int32_t>>*>>* value) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::GameSettings::ControllerProfilesSettingsViewController*>::get(),
-                                               "remove_onRequestSelectProfileToCopyFrom", std::span<Il2CppClass const* const, 0>(),
-                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
-                                                   ::System::Action_1<::ArrayW<::System::ValueTuple_2<::StringW, int32_t>, ::Array<::System::ValueTuple_2<::StringW, int32_t>>*>>*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void BeatSaber::GameSettings::ControllerProfilesSettingsViewController::remove_onRequestSelectProfileToCopyFrom(::System::Action_1<::ArrayW<::System::ValueTuple_2<::StringW,int32_t>,::Array<::System::ValueTuple_2<::StringW,int32_t>>*>>*  value)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::GameSettings::ControllerProfilesSettingsViewController*>::get(),
+                        "remove_onRequestSelectProfileToCopyFrom",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::ArrayW<::System::ValueTuple_2<::StringW,int32_t>,::Array<::System::ValueTuple_2<::StringW,int32_t>>*>>*>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void BeatSaber::GameSettings::ControllerProfilesSettingsViewController::CopyProfileResponse(bool wasCanceled, int32_t selectedDropdownIndex) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::GameSettings::ControllerProfilesSettingsViewController*>::get(), "CopyProfileResponse",
-      std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, wasCanceled, selectedDropdownIndex);
+inline void BeatSaber::GameSettings::ControllerProfilesSettingsViewController::CopyProfileResponse(bool  wasCanceled, int32_t  selectedDropdownIndex)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::GameSettings::ControllerProfilesSettingsViewController*>::get(),
+                        "CopyProfileResponse",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, wasCanceled, selectedDropdownIndex);
 }
-inline void BeatSaber::GameSettings::ControllerProfilesSettingsViewController::DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling) {
-  auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::GameSettings::ControllerProfilesSettingsViewController*>::get(), 5)));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, firstActivation, addedToHierarchy, screenSystemEnabling);
+inline void BeatSaber::GameSettings::ControllerProfilesSettingsViewController::DidActivate(bool  firstActivation, bool  addedToHierarchy, bool  screenSystemEnabling)  {
+auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::GameSettings::ControllerProfilesSettingsViewController*>::get(),
+                            5
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, firstActivation, addedToHierarchy, screenSystemEnabling);
 }
-inline void BeatSaber::GameSettings::ControllerProfilesSettingsViewController::DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling) {
-  auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::GameSettings::ControllerProfilesSettingsViewController*>::get(), 6)));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, removedFromHierarchy, screenSystemDisabling);
+inline void BeatSaber::GameSettings::ControllerProfilesSettingsViewController::DidDeactivate(bool  removedFromHierarchy, bool  screenSystemDisabling)  {
+auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::GameSettings::ControllerProfilesSettingsViewController*>::get(),
+                            6
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, removedFromHierarchy, screenSystemDisabling);
 }
-inline ::BeatSaber::GameSettings::ControllerProfile* BeatSaber::GameSettings::ControllerProfilesSettingsViewController::GetSelectedProfile() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::GameSettings::ControllerProfilesSettingsViewController*>::get(),
-                                               "GetSelectedProfile", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::BeatSaber::GameSettings::ControllerProfile*, false>(this, ___internal_method);
+inline ::BeatSaber::GameSettings::ControllerProfile* BeatSaber::GameSettings::ControllerProfilesSettingsViewController::GetSelectedProfile()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::GameSettings::ControllerProfilesSettingsViewController*>::get(),
+                        "GetSelectedProfile",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<::BeatSaber::GameSettings::ControllerProfile*, false>(this, ___internal_method);
 }
-inline void BeatSaber::GameSettings::ControllerProfilesSettingsViewController::HandlingToggleChanged(bool value) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::GameSettings::ControllerProfilesSettingsViewController*>::get(), "HandlingToggleChanged",
-                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void BeatSaber::GameSettings::ControllerProfilesSettingsViewController::HandlingToggleChanged(bool  value)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::GameSettings::ControllerProfilesSettingsViewController*>::get(),
+                        "HandlingToggleChanged",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void BeatSaber::GameSettings::ControllerProfilesSettingsViewController::ProfileSelected(::HMUI::DropdownWithTableView* view, int32_t index) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::GameSettings::ControllerProfilesSettingsViewController*>::get(), "ProfileSelected", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HMUI::DropdownWithTableView*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, view, index);
+inline void BeatSaber::GameSettings::ControllerProfilesSettingsViewController::ProfileSelected(::HMUI::DropdownWithTableView*  view, int32_t  index)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::GameSettings::ControllerProfilesSettingsViewController*>::get(),
+                        "ProfileSelected",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HMUI::DropdownWithTableView*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, view, index);
 }
-inline void BeatSaber::GameSettings::ControllerProfilesSettingsViewController::CopyFormLeftToRight() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::GameSettings::ControllerProfilesSettingsViewController*>::get(),
-                                               "CopyFormLeftToRight", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void BeatSaber::GameSettings::ControllerProfilesSettingsViewController::CopyFormLeftToRight()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::GameSettings::ControllerProfilesSettingsViewController*>::get(),
+                        "CopyFormLeftToRight",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void BeatSaber::GameSettings::ControllerProfilesSettingsViewController::CopyFromRightToLeft() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::GameSettings::ControllerProfilesSettingsViewController*>::get(),
-                                               "CopyFromRightToLeft", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void BeatSaber::GameSettings::ControllerProfilesSettingsViewController::CopyFromRightToLeft()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::GameSettings::ControllerProfilesSettingsViewController*>::get(),
+                        "CopyFromRightToLeft",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void BeatSaber::GameSettings::ControllerProfilesSettingsViewController::ShowCopyFromProfile() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::GameSettings::ControllerProfilesSettingsViewController*>::get(),
-                                               "ShowCopyFromProfile", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void BeatSaber::GameSettings::ControllerProfilesSettingsViewController::ShowCopyFromProfile()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::GameSettings::ControllerProfilesSettingsViewController*>::get(),
+                        "ShowCopyFromProfile",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::StringW BeatSaber::GameSettings::ControllerProfilesSettingsViewController::GetControllerProfileDisplayName(::BeatSaber::GameSettings::ControllerProfile* profile) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::GameSettings::ControllerProfilesSettingsViewController*>::get(), "GetControllerProfileDisplayName",
-      std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BeatSaber::GameSettings::ControllerProfile*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, profile);
+inline ::StringW BeatSaber::GameSettings::ControllerProfilesSettingsViewController::GetControllerProfileDisplayName(::BeatSaber::GameSettings::ControllerProfile*  profile)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::GameSettings::ControllerProfilesSettingsViewController*>::get(),
+                        "GetControllerProfileDisplayName",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BeatSaber::GameSettings::ControllerProfile*>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, profile);
 }
-inline void BeatSaber::GameSettings::ControllerProfilesSettingsViewController::CopyValuesFromOtherProfile(int32_t otherProfileIndex) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::GameSettings::ControllerProfilesSettingsViewController*>::get(), "CopyValuesFromOtherProfile",
-                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, otherProfileIndex);
+inline void BeatSaber::GameSettings::ControllerProfilesSettingsViewController::CopyValuesFromOtherProfile(int32_t  otherProfileIndex)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::GameSettings::ControllerProfilesSettingsViewController*>::get(),
+                        "CopyValuesFromOtherProfile",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, otherProfileIndex);
 }
-inline void BeatSaber::GameSettings::ControllerProfilesSettingsViewController::RefreshView() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::GameSettings::ControllerProfilesSettingsViewController*>::get(), "RefreshView",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void BeatSaber::GameSettings::ControllerProfilesSettingsViewController::RefreshView()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::GameSettings::ControllerProfilesSettingsViewController*>::get(),
+                        "RefreshView",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void BeatSaber::GameSettings::ControllerProfilesSettingsViewController::_ctor() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::GameSettings::ControllerProfilesSettingsViewController*>::get(), ".ctor",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void BeatSaber::GameSettings::ControllerProfilesSettingsViewController::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::GameSettings::ControllerProfilesSettingsViewController*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::BeatSaber::GameSettings::ControllerProfilesSettingsViewController* BeatSaber::GameSettings::ControllerProfilesSettingsViewController::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BeatSaber::GameSettings::ControllerProfilesSettingsViewController*>());
+inline ::BeatSaber::GameSettings::ControllerProfilesSettingsViewController* BeatSaber::GameSettings::ControllerProfilesSettingsViewController::New_ctor()  {
+return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BeatSaber::GameSettings::ControllerProfilesSettingsViewController*>());
 }
 // Ctor Parameters []
-constexpr ::BeatSaber::GameSettings::ControllerProfilesSettingsViewController::ControllerProfilesSettingsViewController() {}
+constexpr ::BeatSaber::GameSettings::ControllerProfilesSettingsViewController::ControllerProfilesSettingsViewController()   {
+}

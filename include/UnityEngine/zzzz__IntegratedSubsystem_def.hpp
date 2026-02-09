@@ -34,132 +34,132 @@ namespace UnityEngine {
 // CS Name: UnityEngine.IntegratedSubsystem/BindingsMarshaller
 class CORDL_TYPE IntegratedSubsystem_BindingsMarshaller : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method ConvertToNative, addr 0x69ece30, size 0x14, virtual false, abstract: false, final false
-  static inline ::System::IntPtr ConvertToNative(::UnityEngine::IntegratedSubsystem* integratedSubsystem);
+// Declarations
+/// @brief Method ConvertToNative, addr 0x69ed4f0, size 0x14, virtual false, abstract: false, final false
+static inline ::System::IntPtr ConvertToNative(::UnityEngine::IntegratedSubsystem*  integratedSubsystem) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr IntegratedSubsystem_BindingsMarshaller();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr IntegratedSubsystem_BindingsMarshaller() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IntegratedSubsystem_BindingsMarshaller", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IntegratedSubsystem_BindingsMarshaller(IntegratedSubsystem_BindingsMarshaller&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IntegratedSubsystem_BindingsMarshaller", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  IntegratedSubsystem_BindingsMarshaller(IntegratedSubsystem_BindingsMarshaller const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "IntegratedSubsystem_BindingsMarshaller", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+IntegratedSubsystem_BindingsMarshaller(IntegratedSubsystem_BindingsMarshaller && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22527 };
+// Ctor Parameters [CppParam { name: "", ty: "IntegratedSubsystem_BindingsMarshaller", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+IntegratedSubsystem_BindingsMarshaller(IntegratedSubsystem_BindingsMarshaller const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{22531};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::IntegratedSubsystem_BindingsMarshaller, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine
+} // namespace end def UnityEngine
 // Dependencies System.IntPtr, System.Object
 namespace UnityEngine {
 // Is value type: false
 // CS Name: UnityEngine.IntegratedSubsystem
 class CORDL_TYPE IntegratedSubsystem : public ::System::Object {
 public:
-  // Declarations
-  using BindingsMarshaller = ::UnityEngine::IntegratedSubsystem_BindingsMarshaller;
+// Declarations
+using BindingsMarshaller = ::UnityEngine::IntegratedSubsystem_BindingsMarshaller;
 
-  /// @brief Field m_Ptr, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Ptr, put = __cordl_internal_set_m_Ptr)) ::System::IntPtr m_Ptr;
+/// @brief Field m_Ptr, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_Ptr, put=__cordl_internal_set_m_Ptr)) ::System::IntPtr  m_Ptr;
 
-  /// @brief Field m_SubsystemDescriptor, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_SubsystemDescriptor, put = __cordl_internal_set_m_SubsystemDescriptor)) ::UnityEngine::ISubsystemDescriptor* m_SubsystemDescriptor;
+/// @brief Field m_SubsystemDescriptor, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_SubsystemDescriptor, put=__cordl_internal_set_m_SubsystemDescriptor)) ::UnityEngine::ISubsystemDescriptor*  m_SubsystemDescriptor;
 
-  __declspec(property(get = get_running)) bool running;
+ __declspec(property(get=get_running)) bool  running;
 
-  __declspec(property(get = get_valid)) bool valid;
+ __declspec(property(get=get_valid)) bool  valid;
 
-  /// @brief Convert operator to "::UnityEngine::ISubsystem"
-  constexpr operator ::UnityEngine::ISubsystem*() noexcept;
+/// @brief Convert operator to "::UnityEngine::ISubsystem"
+constexpr operator  ::UnityEngine::ISubsystem*() noexcept;
 
-  /// @brief Method Destroy, addr 0x69ecb4c, size 0x8c, virtual true, abstract: false, final true
-  inline void Destroy();
+/// @brief Method Destroy, addr 0x69ed20c, size 0x8c, virtual true, abstract: false, final true
+inline void Destroy() ;
 
-  /// @brief Method IsRunning, addr 0x69ecda0, size 0x50, virtual false, abstract: false, final false
-  inline bool IsRunning();
+/// @brief Method IsRunning, addr 0x69ed460, size 0x50, virtual false, abstract: false, final false
+inline bool IsRunning() ;
 
-  /// @brief Method IsRunning_Injected, addr 0x69ecdf0, size 0x3c, virtual false, abstract: false, final false
-  static inline bool IsRunning_Injected(::System::IntPtr _unity_self);
+/// @brief Method IsRunning_Injected, addr 0x69ed4b0, size 0x3c, virtual false, abstract: false, final false
+static inline bool IsRunning_Injected(::System::IntPtr  _unity_self) ;
 
-  static inline ::UnityEngine::IntegratedSubsystem* New_ctor();
+static inline ::UnityEngine::IntegratedSubsystem* New_ctor() ;
 
-  /// @brief Method SetHandle, addr 0x69ec998, size 0x58, virtual false, abstract: false, final false
-  inline void SetHandle(::UnityEngine::IntegratedSubsystem* subsystem);
+/// @brief Method SetHandle, addr 0x69ed058, size 0x58, virtual false, abstract: false, final false
+inline void SetHandle(::UnityEngine::IntegratedSubsystem*  subsystem) ;
 
-  /// @brief Method SetHandle_Injected, addr 0x69ec9f0, size 0x44, virtual false, abstract: false, final false
-  static inline void SetHandle_Injected(::System::IntPtr _unity_self, ::UnityEngine::IntegratedSubsystem* subsystem);
+/// @brief Method SetHandle_Injected, addr 0x69ed0b0, size 0x44, virtual false, abstract: false, final false
+static inline void SetHandle_Injected(::System::IntPtr  _unity_self, ::UnityEngine::IntegratedSubsystem*  subsystem) ;
 
-  /// @brief Method Start, addr 0x69eca34, size 0x50, virtual true, abstract: false, final true
-  inline void Start();
+/// @brief Method Start, addr 0x69ed0f4, size 0x50, virtual true, abstract: false, final true
+inline void Start() ;
 
-  /// @brief Method Start_Injected, addr 0x69eca84, size 0x3c, virtual false, abstract: false, final false
-  static inline void Start_Injected(::System::IntPtr _unity_self);
+/// @brief Method Start_Injected, addr 0x69ed144, size 0x3c, virtual false, abstract: false, final false
+static inline void Start_Injected(::System::IntPtr  _unity_self) ;
 
-  /// @brief Method Stop, addr 0x69ecac0, size 0x50, virtual true, abstract: false, final true
-  inline void Stop();
+/// @brief Method Stop, addr 0x69ed180, size 0x50, virtual true, abstract: false, final true
+inline void Stop() ;
 
-  /// @brief Method Stop_Injected, addr 0x69ecb10, size 0x3c, virtual false, abstract: false, final false
-  static inline void Stop_Injected(::System::IntPtr _unity_self);
+/// @brief Method Stop_Injected, addr 0x69ed1d0, size 0x3c, virtual false, abstract: false, final false
+static inline void Stop_Injected(::System::IntPtr  _unity_self) ;
 
-  constexpr ::System::IntPtr const& __cordl_internal_get_m_Ptr() const;
+constexpr ::System::IntPtr const& __cordl_internal_get_m_Ptr() const;
 
-  constexpr ::System::IntPtr& __cordl_internal_get_m_Ptr();
+constexpr ::System::IntPtr& __cordl_internal_get_m_Ptr() ;
 
-  constexpr ::UnityEngine::ISubsystemDescriptor* const& __cordl_internal_get_m_SubsystemDescriptor() const;
+constexpr ::UnityEngine::ISubsystemDescriptor* const& __cordl_internal_get_m_SubsystemDescriptor() const;
 
-  constexpr ::UnityEngine::ISubsystemDescriptor*& __cordl_internal_get_m_SubsystemDescriptor();
+constexpr ::UnityEngine::ISubsystemDescriptor*& __cordl_internal_get_m_SubsystemDescriptor() ;
 
-  constexpr void __cordl_internal_set_m_Ptr(::System::IntPtr value);
+constexpr void __cordl_internal_set_m_Ptr(::System::IntPtr  value) ;
 
-  constexpr void __cordl_internal_set_m_SubsystemDescriptor(::UnityEngine::ISubsystemDescriptor* value);
+constexpr void __cordl_internal_set_m_SubsystemDescriptor(::UnityEngine::ISubsystemDescriptor*  value) ;
 
-  /// @brief Method .ctor, addr 0x69ece2c, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x69ed4ec, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_running, addr 0x69ecd7c, size 0x14, virtual true, abstract: false, final true
-  inline bool get_running();
+/// @brief Method get_running, addr 0x69ed43c, size 0x14, virtual true, abstract: false, final true
+inline bool get_running() ;
 
-  /// @brief Method get_valid, addr 0x69ecd90, size 0x10, virtual false, abstract: false, final false
-  inline bool get_valid();
+/// @brief Method get_valid, addr 0x69ed450, size 0x10, virtual false, abstract: false, final false
+inline bool get_valid() ;
 
-  /// @brief Convert to "::UnityEngine::ISubsystem"
-  constexpr ::UnityEngine::ISubsystem* i___UnityEngine__ISubsystem() noexcept;
+/// @brief Convert to "::UnityEngine::ISubsystem"
+constexpr ::UnityEngine::ISubsystem* i___UnityEngine__ISubsystem() noexcept;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr IntegratedSubsystem();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr IntegratedSubsystem() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IntegratedSubsystem", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IntegratedSubsystem(IntegratedSubsystem&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IntegratedSubsystem", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  IntegratedSubsystem(IntegratedSubsystem const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "IntegratedSubsystem", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+IntegratedSubsystem(IntegratedSubsystem && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22528 };
+// Ctor Parameters [CppParam { name: "", ty: "IntegratedSubsystem", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+IntegratedSubsystem(IntegratedSubsystem const& ) = delete;
 
-  /// @brief Field m_Ptr, offset: 0x10, size: 0x8, def value: None
-  ::System::IntPtr ___m_Ptr;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{22532};
 
-  /// @brief Field m_SubsystemDescriptor, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::ISubsystemDescriptor* ___m_SubsystemDescriptor;
+/// @brief Field m_Ptr, offset: 0x10, size: 0x8, def value: None
+ ::System::IntPtr  ___m_Ptr;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field m_SubsystemDescriptor, offset: 0x18, size: 0x8, def value: None
+ ::UnityEngine::ISubsystemDescriptor*  ___m_SubsystemDescriptor;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::IntegratedSubsystem, ___m_Ptr) == 0x10, "Offset mismatch!");
@@ -168,7 +168,7 @@ static_assert(offsetof(::UnityEngine::IntegratedSubsystem, ___m_SubsystemDescrip
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::IntegratedSubsystem, 0x20>, "Size mismatch!");
 
-} // namespace UnityEngine
+} // namespace end def UnityEngine
 NEED_NO_BOX(::UnityEngine::IntegratedSubsystem);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::IntegratedSubsystem*, "UnityEngine", "IntegratedSubsystem");
 NEED_NO_BOX(::UnityEngine::IntegratedSubsystem_BindingsMarshaller);

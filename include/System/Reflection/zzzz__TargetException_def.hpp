@@ -27,49 +27,49 @@ namespace System::Reflection {
 // CS Name: System.Reflection.TargetException
 class CORDL_TYPE TargetException : public ::System::ApplicationException {
 public:
-  // Declarations
-  static inline ::System::Reflection::TargetException* New_ctor();
+// Declarations
+static inline ::System::Reflection::TargetException* New_ctor() ;
 
-  static inline ::System::Reflection::TargetException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
+static inline ::System::Reflection::TargetException* New_ctor(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context) ;
 
-  static inline ::System::Reflection::TargetException* New_ctor(::StringW message);
+static inline ::System::Reflection::TargetException* New_ctor(::StringW  message) ;
 
-  static inline ::System::Reflection::TargetException* New_ctor(::StringW message, ::System::Exception* inner);
+static inline ::System::Reflection::TargetException* New_ctor(::StringW  message, ::System::Exception*  inner) ;
 
-  /// @brief Method .ctor, addr 0x59d3d98, size 0x2c, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x59d42a4, size 0x2c, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method .ctor, addr 0x59d3e10, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
+/// @brief Method .ctor, addr 0x59d431c, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context) ;
 
-  /// @brief Method .ctor, addr 0x59d3dc4, size 0x28, virtual false, abstract: false, final false
-  inline void _ctor(::StringW message);
+/// @brief Method .ctor, addr 0x59d42d0, size 0x28, virtual false, abstract: false, final false
+inline void _ctor(::StringW  message) ;
 
-  /// @brief Method .ctor, addr 0x59d3dec, size 0x24, virtual false, abstract: false, final false
-  inline void _ctor(::StringW message, ::System::Exception* inner);
+/// @brief Method .ctor, addr 0x59d42f8, size 0x24, virtual false, abstract: false, final false
+inline void _ctor(::StringW  message, ::System::Exception*  inner) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TargetException();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr TargetException() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TargetException", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  TargetException(TargetException&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TargetException", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  TargetException(TargetException const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "TargetException", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+TargetException(TargetException && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3522 };
+// Ctor Parameters [CppParam { name: "", ty: "TargetException", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+TargetException(TargetException const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{3522};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Reflection::TargetException, 0x90>, "Size mismatch!");
 
-} // namespace System::Reflection
+} // namespace end def System::Reflection
 NEED_NO_BOX(::System::Reflection::TargetException);
 DEFINE_IL2CPP_ARG_TYPE(::System::Reflection::TargetException*, "System.Reflection", "TargetException");

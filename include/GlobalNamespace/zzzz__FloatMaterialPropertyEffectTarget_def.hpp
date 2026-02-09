@@ -24,104 +24,102 @@ namespace GlobalNamespace {
 // CS Name: FloatMaterialPropertyEffectTarget
 class CORDL_TYPE FloatMaterialPropertyEffectTarget : public ::GlobalNamespace::FloatFxGroupEffectTarget {
 public:
-  // Declarations
-  /// @brief Field _granularityMultiplier, offset 0x38, size 0x4
-  __declspec(property(get = __cordl_internal_get__granularityMultiplier, put = __cordl_internal_set__granularityMultiplier)) float_t _granularityMultiplier;
+// Declarations
+/// @brief Field _granularityMultiplier, offset 0x38, size 0x4 
+ __declspec(property(get=__cordl_internal_get__granularityMultiplier, put=__cordl_internal_set__granularityMultiplier)) float_t  _granularityMultiplier;
 
-  /// @brief Field _materialPropertyBlockController, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__materialPropertyBlockController,
-                      put = __cordl_internal_set__materialPropertyBlockController)) ::UnityW<::GlobalNamespace::MaterialPropertyBlockController>
-      _materialPropertyBlockController;
+/// @brief Field _materialPropertyBlockController, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get__materialPropertyBlockController, put=__cordl_internal_set__materialPropertyBlockController)) ::UnityW<::GlobalNamespace::MaterialPropertyBlockController>  _materialPropertyBlockController;
 
-  /// @brief Field _propertyId, offset 0x3c, size 0x4
-  __declspec(property(get = __cordl_internal_get__propertyId, put = __cordl_internal_set__propertyId)) int32_t _propertyId;
+/// @brief Field _propertyId, offset 0x3c, size 0x4 
+ __declspec(property(get=__cordl_internal_get__propertyId, put=__cordl_internal_set__propertyId)) int32_t  _propertyId;
 
-  /// @brief Field _propertyName, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__propertyName, put = __cordl_internal_set__propertyName)) ::StringW _propertyName;
+/// @brief Field _propertyName, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get__propertyName, put=__cordl_internal_set__propertyName)) ::StringW  _propertyName;
 
-  /// @brief Field _valueBounds, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__valueBounds, put = __cordl_internal_set__valueBounds)) ::UnityEngine::Vector2 _valueBounds;
+/// @brief Field _valueBounds, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get__valueBounds, put=__cordl_internal_set__valueBounds)) ::UnityEngine::Vector2  _valueBounds;
 
-  /// @brief Method Awake, addr 0x57e179c, size 0x20, virtual false, abstract: false, final false
-  inline void Awake();
+/// @brief Method Awake, addr 0x57e20cc, size 0x20, virtual false, abstract: false, final false
+inline void Awake() ;
 
-  static inline ::GlobalNamespace::FloatMaterialPropertyEffectTarget* New_ctor();
+static inline ::GlobalNamespace::FloatMaterialPropertyEffectTarget* New_ctor() ;
 
-  /// @brief Method SetFloat, addr 0x57e17c0, size 0x64, virtual false, abstract: false, final false
-  inline void SetFloat(float_t value);
+/// @brief Method SetFloat, addr 0x57e20f0, size 0x64, virtual false, abstract: false, final false
+inline void SetFloat(float_t  value) ;
 
-  /// @brief Method SetValue, addr 0x57e17bc, size 0x4, virtual true, abstract: false, final false
-  inline void SetValue(int32_t groupId, int32_t elementId, float_t value);
+/// @brief Method SetValue, addr 0x57e20ec, size 0x4, virtual true, abstract: false, final false
+inline void SetValue(int32_t  groupId, int32_t  elementId, float_t  value) ;
 
-  /// @brief Method TriggerValue, addr 0x57e1824, size 0x4, virtual true, abstract: false, final false
-  inline void TriggerValue(int32_t groupId, int32_t elementId, float_t value);
+/// @brief Method TriggerValue, addr 0x57e2154, size 0x4, virtual true, abstract: false, final false
+inline void TriggerValue(int32_t  groupId, int32_t  elementId, float_t  value) ;
 
-  constexpr float_t const& __cordl_internal_get__granularityMultiplier() const;
+constexpr float_t const& __cordl_internal_get__granularityMultiplier() const;
 
-  constexpr float_t& __cordl_internal_get__granularityMultiplier();
+constexpr float_t& __cordl_internal_get__granularityMultiplier() ;
 
-  constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> const& __cordl_internal_get__materialPropertyBlockController() const;
+constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> const& __cordl_internal_get__materialPropertyBlockController() const;
 
-  constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController>& __cordl_internal_get__materialPropertyBlockController();
+constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController>& __cordl_internal_get__materialPropertyBlockController() ;
 
-  constexpr int32_t const& __cordl_internal_get__propertyId() const;
+constexpr int32_t const& __cordl_internal_get__propertyId() const;
 
-  constexpr int32_t& __cordl_internal_get__propertyId();
+constexpr int32_t& __cordl_internal_get__propertyId() ;
 
-  constexpr ::StringW const& __cordl_internal_get__propertyName() const;
+constexpr ::StringW const& __cordl_internal_get__propertyName() const;
 
-  constexpr ::StringW& __cordl_internal_get__propertyName();
+constexpr ::StringW& __cordl_internal_get__propertyName() ;
 
-  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get__valueBounds() const;
+constexpr ::UnityEngine::Vector2 const& __cordl_internal_get__valueBounds() const;
 
-  constexpr ::UnityEngine::Vector2& __cordl_internal_get__valueBounds();
+constexpr ::UnityEngine::Vector2& __cordl_internal_get__valueBounds() ;
 
-  constexpr void __cordl_internal_set__granularityMultiplier(float_t value);
+constexpr void __cordl_internal_set__granularityMultiplier(float_t  value) ;
 
-  constexpr void __cordl_internal_set__materialPropertyBlockController(::UnityW<::GlobalNamespace::MaterialPropertyBlockController> value);
+constexpr void __cordl_internal_set__materialPropertyBlockController(::UnityW<::GlobalNamespace::MaterialPropertyBlockController>  value) ;
 
-  constexpr void __cordl_internal_set__propertyId(int32_t value);
+constexpr void __cordl_internal_set__propertyId(int32_t  value) ;
 
-  constexpr void __cordl_internal_set__propertyName(::StringW value);
+constexpr void __cordl_internal_set__propertyName(::StringW  value) ;
 
-  constexpr void __cordl_internal_set__valueBounds(::UnityEngine::Vector2 value);
+constexpr void __cordl_internal_set__valueBounds(::UnityEngine::Vector2  value) ;
 
-  /// @brief Method .ctor, addr 0x57e1828, size 0x18, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x57e2158, size 0x18, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr FloatMaterialPropertyEffectTarget();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr FloatMaterialPropertyEffectTarget() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FloatMaterialPropertyEffectTarget", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  FloatMaterialPropertyEffectTarget(FloatMaterialPropertyEffectTarget&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FloatMaterialPropertyEffectTarget", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  FloatMaterialPropertyEffectTarget(FloatMaterialPropertyEffectTarget const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "FloatMaterialPropertyEffectTarget", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+FloatMaterialPropertyEffectTarget(FloatMaterialPropertyEffectTarget && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5842 };
+// Ctor Parameters [CppParam { name: "", ty: "FloatMaterialPropertyEffectTarget", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+FloatMaterialPropertyEffectTarget(FloatMaterialPropertyEffectTarget const& ) = delete;
 
-  /// @brief Field _materialPropertyBlockController, offset: 0x20, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> ____materialPropertyBlockController;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{5842};
 
-  /// @brief Field _propertyName, offset: 0x28, size: 0x8, def value: None
-  ::StringW ____propertyName;
+/// @brief Field _materialPropertyBlockController, offset: 0x20, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::MaterialPropertyBlockController>  ____materialPropertyBlockController;
 
-  /// @brief Field _valueBounds, offset: 0x30, size: 0x8, def value: None
-  ::UnityEngine::Vector2 ____valueBounds;
+/// @brief Field _propertyName, offset: 0x28, size: 0x8, def value: None
+ ::StringW  ____propertyName;
 
-  /// @brief Field _granularityMultiplier, offset: 0x38, size: 0x4, def value: None
-  float_t ____granularityMultiplier;
+/// @brief Field _valueBounds, offset: 0x30, size: 0x8, def value: None
+ ::UnityEngine::Vector2  ____valueBounds;
 
-  /// @brief Field _propertyId, offset: 0x3c, size: 0x4, def value: None
-  int32_t ____propertyId;
+/// @brief Field _granularityMultiplier, offset: 0x38, size: 0x4, def value: None
+ float_t  ____granularityMultiplier;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _propertyId, offset: 0x3c, size: 0x4, def value: None
+ int32_t  ____propertyId;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::FloatMaterialPropertyEffectTarget, ____materialPropertyBlockController) == 0x20, "Offset mismatch!");
@@ -136,6 +134,6 @@ static_assert(offsetof(::GlobalNamespace::FloatMaterialPropertyEffectTarget, ___
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::FloatMaterialPropertyEffectTarget, 0x40>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::FloatMaterialPropertyEffectTarget);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::FloatMaterialPropertyEffectTarget*, "", "FloatMaterialPropertyEffectTarget");

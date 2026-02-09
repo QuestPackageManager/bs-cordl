@@ -12,7 +12,8 @@ namespace GlobalNamespace {
 class LightRotationBeatmapEventData;
 }
 namespace System::Collections::Generic {
-template <typename T> class LinkedListNode_1;
+template<typename T>
+class LinkedListNode_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -26,40 +27,40 @@ namespace GlobalNamespace {
 // CS Name: LightRotationBeatmapEventDataProcessor
 class CORDL_TYPE LightRotationBeatmapEventDataProcessor : public ::GlobalNamespace::BeatmapEventDataProcessor_1<::GlobalNamespace::LightRotationBeatmapEventData*> {
 public:
-  // Declarations
-  static inline ::GlobalNamespace::LightRotationBeatmapEventDataProcessor* New_ctor();
+// Declarations
+static inline ::GlobalNamespace::LightRotationBeatmapEventDataProcessor* New_ctor() ;
 
-  /// @brief Method ProcessBeforeDeleteEventDataInternal, addr 0x3194fd8, size 0xf0, virtual true, abstract: false, final false
-  inline void ProcessBeforeDeleteEventDataInternal(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>* nodeToDelete);
+/// @brief Method ProcessBeforeDeleteEventDataInternal, addr 0x3194f28, size 0xf0, virtual true, abstract: false, final false
+inline void ProcessBeforeDeleteEventDataInternal(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>*  nodeToDelete) ;
 
-  /// @brief Method ProcessInsertedEventDataInternal, addr 0x3194ee4, size 0xf4, virtual true, abstract: false, final false
-  inline void ProcessInsertedEventDataInternal(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>* insertedNode);
+/// @brief Method ProcessInsertedEventDataInternal, addr 0x3194e34, size 0xf4, virtual true, abstract: false, final false
+inline void ProcessInsertedEventDataInternal(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>*  insertedNode) ;
 
-  /// @brief Method .ctor, addr 0x31950c8, size 0x3c, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x3195018, size 0x3c, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LightRotationBeatmapEventDataProcessor();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr LightRotationBeatmapEventDataProcessor() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LightRotationBeatmapEventDataProcessor", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  LightRotationBeatmapEventDataProcessor(LightRotationBeatmapEventDataProcessor&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LightRotationBeatmapEventDataProcessor", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  LightRotationBeatmapEventDataProcessor(LightRotationBeatmapEventDataProcessor const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "LightRotationBeatmapEventDataProcessor", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+LightRotationBeatmapEventDataProcessor(LightRotationBeatmapEventDataProcessor && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21063 };
+// Ctor Parameters [CppParam { name: "", ty: "LightRotationBeatmapEventDataProcessor", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+LightRotationBeatmapEventDataProcessor(LightRotationBeatmapEventDataProcessor const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{21067};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LightRotationBeatmapEventDataProcessor, 0x10>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::LightRotationBeatmapEventDataProcessor);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LightRotationBeatmapEventDataProcessor*, "", "LightRotationBeatmapEventDataProcessor");

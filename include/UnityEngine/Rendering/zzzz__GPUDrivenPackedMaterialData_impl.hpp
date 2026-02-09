@@ -2,105 +2,139 @@
 // IWYU pragma private; include "UnityEngine/Rendering/GPUDrivenPackedMaterialData.hpp"
 #include "UnityEngine/Rendering/zzzz__GPUDrivenPackedMaterialData_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::GPUDrivenPackedMaterialData.get_isTransparent
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::GPUDrivenPackedMaterialData::*)()>(
-    &::UnityEngine::Rendering::GPUDrivenPackedMaterialData::get_isTransparent)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::GPUDrivenPackedMaterialData::*)()>(&::UnityEngine::Rendering::GPUDrivenPackedMaterialData::get_isTransparent)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x69619dc;
+  constexpr static std::size_t addrs = 0x696209c;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::GPUDrivenPackedMaterialData>::get(),
-                                                                               "get_isTransparent", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::GPUDrivenPackedMaterialData>::get(),
+                        "get_isTransparent",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::GPUDrivenPackedMaterialData.get_isMotionVectorsPassEnabled
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::GPUDrivenPackedMaterialData::*)()>(
-    &::UnityEngine::Rendering::GPUDrivenPackedMaterialData::get_isMotionVectorsPassEnabled)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::GPUDrivenPackedMaterialData::*)()>(&::UnityEngine::Rendering::GPUDrivenPackedMaterialData::get_isMotionVectorsPassEnabled)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x69619e8;
+  constexpr static std::size_t addrs = 0x69620a8;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::GPUDrivenPackedMaterialData>::get(),
-                                                                               "get_isMotionVectorsPassEnabled", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::GPUDrivenPackedMaterialData>::get(),
+                        "get_isMotionVectorsPassEnabled",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::GPUDrivenPackedMaterialData.get_isIndirectSupported
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::GPUDrivenPackedMaterialData::*)()>(
-    &::UnityEngine::Rendering::GPUDrivenPackedMaterialData::get_isIndirectSupported)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::GPUDrivenPackedMaterialData::*)()>(&::UnityEngine::Rendering::GPUDrivenPackedMaterialData::get_isIndirectSupported)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x69619f4;
+  constexpr static std::size_t addrs = 0x69620b4;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::GPUDrivenPackedMaterialData>::get(),
-                                                                               "get_isIndirectSupported", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::GPUDrivenPackedMaterialData>::get(),
+                        "get_isIndirectSupported",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::GPUDrivenPackedMaterialData._ctor
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::GPUDrivenPackedMaterialData::*)()>(
-    &::UnityEngine::Rendering::GPUDrivenPackedMaterialData::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::GPUDrivenPackedMaterialData::*)()>(&::UnityEngine::Rendering::GPUDrivenPackedMaterialData::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6961a00;
+  constexpr static std::size_t addrs = 0x69620c0;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::GPUDrivenPackedMaterialData>::get(),
-                                                                               ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::GPUDrivenPackedMaterialData>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Rendering::GPUDrivenPackedMaterialData.Equals
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::GPUDrivenPackedMaterialData::*)(
-    ::UnityEngine::Rendering::GPUDrivenPackedMaterialData)>(&::UnityEngine::Rendering::GPUDrivenPackedMaterialData::Equals)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::GPUDrivenPackedMaterialData::*)(::UnityEngine::Rendering::GPUDrivenPackedMaterialData)>(&::UnityEngine::Rendering::GPUDrivenPackedMaterialData::Equals)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x6961a08;
+  constexpr static std::size_t addrs = 0x69620c8;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::GPUDrivenPackedMaterialData>::get(), "Equals", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::GPUDrivenPackedMaterialData>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::GPUDrivenPackedMaterialData>::get(),
+                        "Equals",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::GPUDrivenPackedMaterialData>::get()}
+                    )));
     return ___internal_method;
   }
 };
-inline bool UnityEngine::Rendering::GPUDrivenPackedMaterialData::get_isTransparent() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::GPUDrivenPackedMaterialData>::get(),
-                                                                             "get_isTransparent", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool UnityEngine::Rendering::GPUDrivenPackedMaterialData::get_isTransparent()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::GPUDrivenPackedMaterialData>::get(),
+                        "get_isTransparent",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline bool UnityEngine::Rendering::GPUDrivenPackedMaterialData::get_isMotionVectorsPassEnabled() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::GPUDrivenPackedMaterialData>::get(),
-                                                                             "get_isMotionVectorsPassEnabled", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool UnityEngine::Rendering::GPUDrivenPackedMaterialData::get_isMotionVectorsPassEnabled()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::GPUDrivenPackedMaterialData>::get(),
+                        "get_isMotionVectorsPassEnabled",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline bool UnityEngine::Rendering::GPUDrivenPackedMaterialData::get_isIndirectSupported() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::GPUDrivenPackedMaterialData>::get(),
-                                                                             "get_isIndirectSupported", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool UnityEngine::Rendering::GPUDrivenPackedMaterialData::get_isIndirectSupported()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::GPUDrivenPackedMaterialData>::get(),
+                        "get_isIndirectSupported",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline void UnityEngine::Rendering::GPUDrivenPackedMaterialData::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::GPUDrivenPackedMaterialData>::get(),
-                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void UnityEngine::Rendering::GPUDrivenPackedMaterialData::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::GPUDrivenPackedMaterialData>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline bool UnityEngine::Rendering::GPUDrivenPackedMaterialData::Equals(::UnityEngine::Rendering::GPUDrivenPackedMaterialData other) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::GPUDrivenPackedMaterialData>::get(), "Equals", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::GPUDrivenPackedMaterialData>::get() })));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, other);
+inline bool UnityEngine::Rendering::GPUDrivenPackedMaterialData::Equals(::UnityEngine::Rendering::GPUDrivenPackedMaterialData  other)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::GPUDrivenPackedMaterialData>::get(),
+                        "Equals",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::GPUDrivenPackedMaterialData>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, other);
 }
 // Ctor Parameters [CppParam { name: "data", ty: "uint32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::UnityEngine::Rendering::GPUDrivenPackedMaterialData::GPUDrivenPackedMaterialData(uint32_t data) noexcept {
-  this->data = data;
+constexpr ::UnityEngine::Rendering::GPUDrivenPackedMaterialData::GPUDrivenPackedMaterialData(uint32_t  data) noexcept  {
+this->data = data;
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::Rendering::GPUDrivenPackedMaterialData::GPUDrivenPackedMaterialData() {}
+constexpr ::UnityEngine::Rendering::GPUDrivenPackedMaterialData::GPUDrivenPackedMaterialData()   {
+}

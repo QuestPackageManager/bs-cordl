@@ -7,7 +7,8 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(CoreCameraValues)
 namespace System {
-template <typename T> class IEquatable_1;
+template<typename T>
+class IEquatable_1;
 }
 namespace System {
 class Object;
@@ -18,52 +19,51 @@ struct CoreCameraValues;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::CoreCameraValues);
-// Dependencies
+// Dependencies 
 namespace UnityEngine::Rendering {
 // Is value type: true
 // CS Name: UnityEngine.Rendering.CoreCameraValues
 struct CORDL_TYPE CoreCameraValues {
 public:
-  // Declarations
-  /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::CoreCameraValues>"
-  constexpr operator ::System::IEquatable_1<::UnityEngine::Rendering::CoreCameraValues>*();
+// Declarations
+/// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::CoreCameraValues>"
+constexpr operator  ::System::IEquatable_1<::UnityEngine::Rendering::CoreCameraValues>*() ;
 
-  /// @brief Method Equals, addr 0x6953118, size 0x9c, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* obj);
+/// @brief Method Equals, addr 0x69537d8, size 0x9c, virtual true, abstract: false, final false
+inline bool Equals(::System::Object*  obj) ;
 
-  /// @brief Method Equals, addr 0x69530e4, size 0x34, virtual true, abstract: false, final true
-  inline bool Equals(::UnityEngine::Rendering::CoreCameraValues other);
+/// @brief Method Equals, addr 0x69537a4, size 0x34, virtual true, abstract: false, final true
+inline bool Equals(::UnityEngine::Rendering::CoreCameraValues  other) ;
 
-  /// @brief Method GetHashCode, addr 0x69531b4, size 0x20, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
+/// @brief Method GetHashCode, addr 0x6953874, size 0x20, virtual true, abstract: false, final false
+inline int32_t GetHashCode() ;
 
-  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rendering::CoreCameraValues>"
-  constexpr ::System::IEquatable_1<::UnityEngine::Rendering::CoreCameraValues>* i___System__IEquatable_1___UnityEngine__Rendering__CoreCameraValues_();
+/// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rendering::CoreCameraValues>"
+constexpr ::System::IEquatable_1<::UnityEngine::Rendering::CoreCameraValues>* i___System__IEquatable_1___UnityEngine__Rendering__CoreCameraValues_() ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CoreCameraValues();
+// Ctor Parameters []
+// @brief default ctor
+constexpr CoreCameraValues() ;
 
-  // Ctor Parameters [CppParam { name: "filterMode", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "cullingMask", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "instanceID", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr CoreCameraValues(int32_t filterMode, uint32_t cullingMask, int32_t instanceID) noexcept;
+// Ctor Parameters [CppParam { name: "filterMode", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "cullingMask", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "instanceID", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr CoreCameraValues(int32_t  filterMode, uint32_t  cullingMask, int32_t  instanceID) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10768 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10772};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0xc};
 
-  /// @brief Field filterMode, offset: 0x0, size: 0x4, def value: None
-  int32_t filterMode;
+/// @brief Field filterMode, offset: 0x0, size: 0x4, def value: None
+ int32_t  filterMode;
 
-  /// @brief Field cullingMask, offset: 0x4, size: 0x4, def value: None
-  uint32_t cullingMask;
+/// @brief Field cullingMask, offset: 0x4, size: 0x4, def value: None
+ uint32_t  cullingMask;
 
-  /// @brief Field instanceID, offset: 0x8, size: 0x4, def value: None
-  int32_t instanceID;
+/// @brief Field instanceID, offset: 0x8, size: 0x4, def value: None
+ int32_t  instanceID;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Rendering::CoreCameraValues, filterMode) == 0x0, "Offset mismatch!");
@@ -74,5 +74,5 @@ static_assert(offsetof(::UnityEngine::Rendering::CoreCameraValues, instanceID) =
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::CoreCameraValues, 0xc>, "Size mismatch!");
 
-} // namespace UnityEngine::Rendering
+} // namespace end def UnityEngine::Rendering
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::CoreCameraValues, "UnityEngine.Rendering", "CoreCameraValues");

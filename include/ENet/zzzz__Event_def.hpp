@@ -31,65 +31,65 @@ namespace ENet {
 // CS Name: ENet.Event
 struct CORDL_TYPE Event {
 public:
-  // Declarations
-  __declspec(property(get = get_ChannelID)) uint8_t ChannelID;
+// Declarations
+ __declspec(property(get=get_ChannelID)) uint8_t  ChannelID;
 
-  __declspec(property(get = get_Data)) uint32_t Data;
+ __declspec(property(get=get_Data)) uint32_t  Data;
 
-  __declspec(property(get = get_NativeData, put = set_NativeData)) ::ENet::ENetEvent NativeData;
+ __declspec(property(get=get_NativeData, put=set_NativeData)) ::ENet::ENetEvent  NativeData;
 
-  __declspec(property(get = get_Packet)) ::ENet::Packet Packet;
+ __declspec(property(get=get_Packet)) ::ENet::Packet  Packet;
 
-  __declspec(property(get = get_Peer)) ::ENet::Peer Peer;
+ __declspec(property(get=get_Peer)) ::ENet::Peer  Peer;
 
-  __declspec(property(get = get_Type)) ::ENet::EventType Type;
+ __declspec(property(get=get_Type)) ::ENet::EventType  Type;
 
-  /// @brief Method .ctor, addr 0x56dd760, size 0xc, virtual false, abstract: false, final false
-  inline void _ctor(::ENet::ENetEvent event);
+/// @brief Method .ctor, addr 0x56dd4e8, size 0xc, virtual false, abstract: false, final false
+inline void _ctor(::ENet::ENetEvent  event) ;
 
-  /// @brief Method get_ChannelID, addr 0x56dd7cc, size 0x8, virtual false, abstract: false, final false
-  inline uint8_t get_ChannelID();
+/// @brief Method get_ChannelID, addr 0x56dd554, size 0x8, virtual false, abstract: false, final false
+inline uint8_t get_ChannelID() ;
 
-  /// @brief Method get_Data, addr 0x56dd7d4, size 0x8, virtual false, abstract: false, final false
-  inline uint32_t get_Data();
+/// @brief Method get_Data, addr 0x56dd55c, size 0x8, virtual false, abstract: false, final false
+inline uint32_t get_Data() ;
 
-  /// @brief Method get_NativeData, addr 0x56dd748, size 0xc, virtual false, abstract: false, final false
-  inline ::ENet::ENetEvent get_NativeData();
+/// @brief Method get_NativeData, addr 0x56dd4d0, size 0xc, virtual false, abstract: false, final false
+inline ::ENet::ENetEvent get_NativeData() ;
 
-  /// @brief Method get_Packet, addr 0x56dd7dc, size 0x8, virtual false, abstract: false, final false
-  inline ::ENet::Packet get_Packet();
+/// @brief Method get_Packet, addr 0x56dd564, size 0x8, virtual false, abstract: false, final false
+inline ::ENet::Packet get_Packet() ;
 
-  /// @brief Method get_Peer, addr 0x56dd774, size 0x2c, virtual false, abstract: false, final false
-  inline ::ENet::Peer get_Peer();
+/// @brief Method get_Peer, addr 0x56dd4fc, size 0x2c, virtual false, abstract: false, final false
+inline ::ENet::Peer get_Peer() ;
 
-  /// @brief Method get_Type, addr 0x56dd76c, size 0x8, virtual false, abstract: false, final false
-  inline ::ENet::EventType get_Type();
+/// @brief Method get_Type, addr 0x56dd4f4, size 0x8, virtual false, abstract: false, final false
+inline ::ENet::EventType get_Type() ;
 
-  /// @brief Method set_NativeData, addr 0x56dd754, size 0xc, virtual false, abstract: false, final false
-  inline void set_NativeData(::ENet::ENetEvent value);
+/// @brief Method set_NativeData, addr 0x56dd4dc, size 0xc, virtual false, abstract: false, final false
+inline void set_NativeData(::ENet::ENetEvent  value) ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Event();
+// Ctor Parameters []
+// @brief default ctor
+constexpr Event() ;
 
-  // Ctor Parameters [CppParam { name: "nativeEvent", ty: "::ENet::ENetEvent", modifiers: "", def_value: None }]
-  constexpr Event(::ENet::ENetEvent nativeEvent) noexcept;
+// Ctor Parameters [CppParam { name: "nativeEvent", ty: "::ENet::ENetEvent", modifiers: "", def_value: None }]
+constexpr Event(::ENet::ENetEvent  nativeEvent) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21537 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{21541};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x20};
 
-  /// @brief Field nativeEvent, offset: 0x0, size: 0x20, def value: None
-  ::ENet::ENetEvent nativeEvent;
+/// @brief Field nativeEvent, offset: 0x0, size: 0x20, def value: None
+ ::ENet::ENetEvent  nativeEvent;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::ENet::Event, nativeEvent) == 0x0, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::ENet::Event, 0x20>, "Size mismatch!");
 
-} // namespace ENet
+} // namespace end def ENet
 DEFINE_IL2CPP_ARG_TYPE(::ENet::Event, "ENet", "Event");

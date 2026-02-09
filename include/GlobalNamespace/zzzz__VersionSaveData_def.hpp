@@ -18,48 +18,48 @@ namespace GlobalNamespace {
 // CS Name: VersionSaveData
 class CORDL_TYPE VersionSaveData : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field version, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version)) ::StringW version;
+// Declarations
+/// @brief Field version, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_version, put=__cordl_internal_set_version)) ::StringW  version;
 
-  static inline ::GlobalNamespace::VersionSaveData* New_ctor();
+static inline ::GlobalNamespace::VersionSaveData* New_ctor() ;
 
-  constexpr ::StringW const& __cordl_internal_get_version() const;
+constexpr ::StringW const& __cordl_internal_get_version() const;
 
-  constexpr ::StringW& __cordl_internal_get_version();
+constexpr ::StringW& __cordl_internal_get_version() ;
 
-  constexpr void __cordl_internal_set_version(::StringW value);
+constexpr void __cordl_internal_set_version(::StringW  value) ;
 
-  /// @brief Method .ctor, addr 0x3657764, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x36577cc, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr VersionSaveData();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr VersionSaveData() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VersionSaveData", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  VersionSaveData(VersionSaveData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VersionSaveData", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  VersionSaveData(VersionSaveData const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "VersionSaveData", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+VersionSaveData(VersionSaveData && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15241 };
+// Ctor Parameters [CppParam { name: "", ty: "VersionSaveData", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+VersionSaveData(VersionSaveData const& ) = delete;
 
-  /// @brief Field version, offset: 0x10, size: 0x8, def value: None
-  ::StringW ___version;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{15245};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field version, offset: 0x10, size: 0x8, def value: None
+ ::StringW  ___version;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::VersionSaveData, ___version) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::VersionSaveData, 0x18>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::VersionSaveData);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::VersionSaveData*, "", "VersionSaveData");

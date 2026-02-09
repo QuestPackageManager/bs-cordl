@@ -17,32 +17,32 @@ namespace UnityEngine::InputSystem::XInput {
 // CS Name: UnityEngine.InputSystem.XInput.XInputSupport
 class CORDL_TYPE XInputSupport : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method Initialize, addr 0x63d5e80, size 0x78, virtual false, abstract: false, final false
-  static inline void Initialize();
+// Declarations
+/// @brief Method Initialize, addr 0x63d6540, size 0x78, virtual false, abstract: false, final false
+static inline void Initialize() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr XInputSupport();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr XInputSupport() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XInputSupport", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  XInputSupport(XInputSupport&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XInputSupport", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  XInputSupport(XInputSupport const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "XInputSupport", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+XInputSupport(XInputSupport && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8825 };
+// Ctor Parameters [CppParam { name: "", ty: "XInputSupport", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+XInputSupport(XInputSupport const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8829};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::XInput::XInputSupport, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine::InputSystem::XInput
+} // namespace end def UnityEngine::InputSystem::XInput
 NEED_NO_BOX(::UnityEngine::InputSystem::XInput::XInputSupport);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::XInput::XInputSupport*, "UnityEngine.InputSystem.XInput", "XInputSupport");

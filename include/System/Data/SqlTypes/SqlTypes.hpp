@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "System/Data/SqlTypes/EComparison.hpp"
 #include "System/Data/SqlTypes/INullable.hpp"
@@ -30,5 +30,6 @@ module;
 #include "System/Data/SqlTypes/SqlXml.hpp"
 #include "System/Data/SqlTypes/SqlXmlStreamWrapper.hpp"
 #ifdef __cpp_modules
-export module SqlTypes;
-#endif
+                    export module SqlTypes;
+                    #endif
+                

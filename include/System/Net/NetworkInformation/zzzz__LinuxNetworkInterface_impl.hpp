@@ -5,170 +5,198 @@
 #include "System/Net/NetworkInformation/zzzz__IPInterfaceProperties_def.hpp"
 #include "System/Net/NetworkInformation/zzzz__OperationalStatus_def.hpp"
 //  Writing Method size for method: ::System::Net::NetworkInformation::LinuxNetworkInterface.unitydroid_get_network_interface_up_state
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::ByRef<bool>)>(
-    &::System::Net::NetworkInformation::LinuxNetworkInterface::unitydroid_get_network_interface_up_state)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::ByRef<bool>)>(&::System::Net::NetworkInformation::LinuxNetworkInterface::unitydroid_get_network_interface_up_state)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x61a0ca4;
+  constexpr static std::size_t addrs = 0x61a1364;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::LinuxNetworkInterface*>::get(), "unitydroid_get_network_interface_up_state",
-        std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<bool>>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::LinuxNetworkInterface*>::get(),
+                        "unitydroid_get_network_interface_up_state",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<bool>>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Net::NetworkInformation::LinuxNetworkInterface.get_IfacePath
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Net::NetworkInformation::LinuxNetworkInterface::*)()>(
-    &::System::Net::NetworkInformation::LinuxNetworkInterface::get_IfacePath)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Net::NetworkInformation::LinuxNetworkInterface::*)()>(&::System::Net::NetworkInformation::LinuxNetworkInterface::get_IfacePath)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x61a0ca8;
+  constexpr static std::size_t addrs = 0x61a1368;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::LinuxNetworkInterface*>::get(),
-                                                                               "get_IfacePath", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::LinuxNetworkInterface*>::get(),
+                        "get_IfacePath",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Net::NetworkInformation::LinuxNetworkInterface._ctor
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::NetworkInformation::LinuxNetworkInterface::*)(::StringW)>(
-    &::System::Net::NetworkInformation::LinuxNetworkInterface::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::NetworkInformation::LinuxNetworkInterface::*)(::StringW)>(&::System::Net::NetworkInformation::LinuxNetworkInterface::_ctor)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x61a0bbc;
+  constexpr static std::size_t addrs = 0x61a127c;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::LinuxNetworkInterface*>::get(), ".ctor",
-                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::LinuxNetworkInterface*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Net::NetworkInformation::LinuxNetworkInterface.GetIPProperties
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::NetworkInformation::IPInterfaceProperties* (
-    ::System::Net::NetworkInformation::LinuxNetworkInterface::*)()>(&::System::Net::NetworkInformation::LinuxNetworkInterface::GetIPProperties)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::NetworkInformation::IPInterfaceProperties* (::System::Net::NetworkInformation::LinuxNetworkInterface::*)()>(&::System::Net::NetworkInformation::LinuxNetworkInterface::GetIPProperties)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x61a0cb0;
+  constexpr static std::size_t addrs = 0x61a1370;
 
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::LinuxNetworkInterface*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::LinuxNetworkInterface*>::get(), 5));
+  inline static const ::MethodInfo* methodInfo() {
+    
+                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::LinuxNetworkInterface*>::get(),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::LinuxNetworkInterface*>::get(),
+                                  5
+                                ));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Net::NetworkInformation::LinuxNetworkInterface.get_OperationalStatus
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::NetworkInformation::OperationalStatus (::System::Net::NetworkInformation::LinuxNetworkInterface::*)()>(
-    &::System::Net::NetworkInformation::LinuxNetworkInterface::get_OperationalStatus)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::NetworkInformation::OperationalStatus (::System::Net::NetworkInformation::LinuxNetworkInterface::*)()>(&::System::Net::NetworkInformation::LinuxNetworkInterface::get_OperationalStatus)> {
   constexpr static std::size_t size = 0x344;
-  constexpr static std::size_t addrs = 0x61a0d20;
+  constexpr static std::size_t addrs = 0x61a13e0;
 
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::LinuxNetworkInterface*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::LinuxNetworkInterface*>::get(), 6));
+  inline static const ::MethodInfo* methodInfo() {
+    
+                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::LinuxNetworkInterface*>::get(),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::LinuxNetworkInterface*>::get(),
+                                  6
+                                ));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Net::NetworkInformation::LinuxNetworkInterface.ReadLine
-template <>
+template<>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&::System::Net::NetworkInformation::LinuxNetworkInterface::ReadLine)> {
   constexpr static std::size_t size = 0x264;
-  constexpr static std::size_t addrs = 0x61a1064;
+  constexpr static std::size_t addrs = 0x61a1724;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::LinuxNetworkInterface*>::get(), "ReadLine",
-                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::LinuxNetworkInterface*>::get(),
+                        "ReadLine",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
+                    )));
     return ___internal_method;
   }
 };
-constexpr ::StringW& System::Net::NetworkInformation::LinuxNetworkInterface::__cordl_internal_get_iface_path() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___iface_path;
+constexpr ::StringW& System::Net::NetworkInformation::LinuxNetworkInterface::__cordl_internal_get_iface_path()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___iface_path;
 }
 constexpr ::StringW const& System::Net::NetworkInformation::LinuxNetworkInterface::__cordl_internal_get_iface_path() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___iface_path;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___iface_path;
 }
-constexpr void System::Net::NetworkInformation::LinuxNetworkInterface::__cordl_internal_set_iface_path(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___iface_path)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Net::NetworkInformation::LinuxNetworkInterface::__cordl_internal_set_iface_path(::StringW  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___iface_path)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::StringW& System::Net::NetworkInformation::LinuxNetworkInterface::__cordl_internal_get_iface_operstate_path() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___iface_operstate_path;
+constexpr ::StringW& System::Net::NetworkInformation::LinuxNetworkInterface::__cordl_internal_get_iface_operstate_path()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___iface_operstate_path;
 }
 constexpr ::StringW const& System::Net::NetworkInformation::LinuxNetworkInterface::__cordl_internal_get_iface_operstate_path() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___iface_operstate_path;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___iface_operstate_path;
 }
-constexpr void System::Net::NetworkInformation::LinuxNetworkInterface::__cordl_internal_set_iface_operstate_path(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___iface_operstate_path)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Net::NetworkInformation::LinuxNetworkInterface::__cordl_internal_set_iface_operstate_path(::StringW  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___iface_operstate_path)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::StringW& System::Net::NetworkInformation::LinuxNetworkInterface::__cordl_internal_get_iface_flags_path() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___iface_flags_path;
+constexpr ::StringW& System::Net::NetworkInformation::LinuxNetworkInterface::__cordl_internal_get_iface_flags_path()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___iface_flags_path;
 }
 constexpr ::StringW const& System::Net::NetworkInformation::LinuxNetworkInterface::__cordl_internal_get_iface_flags_path() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___iface_flags_path;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___iface_flags_path;
 }
-constexpr void System::Net::NetworkInformation::LinuxNetworkInterface::__cordl_internal_set_iface_flags_path(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___iface_flags_path)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Net::NetworkInformation::LinuxNetworkInterface::__cordl_internal_set_iface_flags_path(::StringW  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___iface_flags_path)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline bool System::Net::NetworkInformation::LinuxNetworkInterface::unitydroid_get_network_interface_up_state(::StringW ifname, ::ByRef<bool> is_up) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::LinuxNetworkInterface*>::get(), "unitydroid_get_network_interface_up_state",
-      std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<bool>>::get() })));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, ifname, is_up);
+inline bool System::Net::NetworkInformation::LinuxNetworkInterface::unitydroid_get_network_interface_up_state(::StringW  ifname, ::ByRef<bool>  is_up)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::LinuxNetworkInterface*>::get(),
+                        "unitydroid_get_network_interface_up_state",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<bool>>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, ifname, is_up);
 }
-inline ::StringW System::Net::NetworkInformation::LinuxNetworkInterface::get_IfacePath() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::LinuxNetworkInterface*>::get(),
-                                                                             "get_IfacePath", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+inline ::StringW System::Net::NetworkInformation::LinuxNetworkInterface::get_IfacePath()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::LinuxNetworkInterface*>::get(),
+                        "get_IfacePath",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-inline void System::Net::NetworkInformation::LinuxNetworkInterface::_ctor(::StringW name) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::LinuxNetworkInterface*>::get(), ".ctor",
-                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, name);
+inline void System::Net::NetworkInformation::LinuxNetworkInterface::_ctor(::StringW  name)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::LinuxNetworkInterface*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, name);
 }
-inline ::System::Net::NetworkInformation::IPInterfaceProperties* System::Net::NetworkInformation::LinuxNetworkInterface::GetIPProperties() {
-  auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::LinuxNetworkInterface*>::get(), 5)));
-  return ::cordl_internals::RunMethodRethrow<::System::Net::NetworkInformation::IPInterfaceProperties*, false>(this, ___internal_method);
+inline ::System::Net::NetworkInformation::IPInterfaceProperties* System::Net::NetworkInformation::LinuxNetworkInterface::GetIPProperties()  {
+auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::LinuxNetworkInterface*>::get(),
+                            5
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Net::NetworkInformation::IPInterfaceProperties*, false>(this, ___internal_method);
 }
-inline ::System::Net::NetworkInformation::OperationalStatus System::Net::NetworkInformation::LinuxNetworkInterface::get_OperationalStatus() {
-  auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::LinuxNetworkInterface*>::get(), 6)));
-  return ::cordl_internals::RunMethodRethrow<::System::Net::NetworkInformation::OperationalStatus, false>(this, ___internal_method);
+inline ::System::Net::NetworkInformation::OperationalStatus System::Net::NetworkInformation::LinuxNetworkInterface::get_OperationalStatus()  {
+auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::LinuxNetworkInterface*>::get(),
+                            6
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Net::NetworkInformation::OperationalStatus, false>(this, ___internal_method);
 }
-inline ::StringW System::Net::NetworkInformation::LinuxNetworkInterface::ReadLine(::StringW path) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::LinuxNetworkInterface*>::get(), "ReadLine",
-                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, path);
+inline ::StringW System::Net::NetworkInformation::LinuxNetworkInterface::ReadLine(::StringW  path)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::LinuxNetworkInterface*>::get(),
+                        "ReadLine",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, path);
 }
-inline ::System::Net::NetworkInformation::LinuxNetworkInterface* System::Net::NetworkInformation::LinuxNetworkInterface::New_ctor(::StringW name) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::NetworkInformation::LinuxNetworkInterface*>(name));
+inline ::System::Net::NetworkInformation::LinuxNetworkInterface* System::Net::NetworkInformation::LinuxNetworkInterface::New_ctor(::StringW  name)  {
+return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::NetworkInformation::LinuxNetworkInterface*>(name));
 }
 // Ctor Parameters []
-constexpr ::System::Net::NetworkInformation::LinuxNetworkInterface::LinuxNetworkInterface() {}
+constexpr ::System::Net::NetworkInformation::LinuxNetworkInterface::LinuxNetworkInterface()   {
+}

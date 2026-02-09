@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "System/Data/AcceptRejectRule.hpp"
 #include "System/Data/Aggregate.hpp"
@@ -136,5 +136,6 @@ module;
 #include "System/Data/XmlWriteMode.hpp"
 #include "System/Data/ZeroOpNode.hpp"
 #ifdef __cpp_modules
-export module Data;
-#endif
+                    export module Data;
+                    #endif
+                

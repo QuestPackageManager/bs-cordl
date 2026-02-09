@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "OculusStudios/Platform/Core/AssignableOf_1.hpp"
 #include "OculusStudios/Platform/Core/AssignableOf_2.hpp"
@@ -38,5 +38,6 @@ module;
 #include "OculusStudios/Platform/Core/UserAgeCategory.hpp"
 #include "OculusStudios/Platform/Core/Vendor.hpp"
 #ifdef __cpp_modules
-export module Core;
-#endif
+                    export module Core;
+                    #endif
+                

@@ -32,91 +32,91 @@ namespace UnityEngine::UIElements {
 // CS Name: UnityEngine.UIElements.VisualTreeHierarchyFlagsUpdater
 class CORDL_TYPE VisualTreeHierarchyFlagsUpdater : public ::UnityEngine::UIElements::BaseVisualTreeUpdater {
 public:
-  // Declarations
-  /// @brief Field m_LastVersion, offset 0x2c, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_LastVersion, put = __cordl_internal_set_m_LastVersion)) uint32_t m_LastVersion;
+// Declarations
+/// @brief Field m_LastVersion, offset 0x2c, size 0x4 
+ __declspec(property(get=__cordl_internal_get_m_LastVersion, put=__cordl_internal_set_m_LastVersion)) uint32_t  m_LastVersion;
 
-  /// @brief Field m_Version, offset 0x28, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_Version, put = __cordl_internal_set_m_Version)) uint32_t m_Version;
+/// @brief Field m_Version, offset 0x28, size 0x4 
+ __declspec(property(get=__cordl_internal_get_m_Version, put=__cordl_internal_set_m_Version)) uint32_t  m_Version;
 
-  __declspec(property(get = get_profilerMarker)) ::Unity::Profiling::ProfilerMarker profilerMarker;
+ __declspec(property(get=get_profilerMarker)) ::Unity::Profiling::ProfilerMarker  profilerMarker;
 
-  /// @brief Field s_Description, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_s_Description, put = setStaticF_s_Description)) ::StringW s_Description;
+/// @brief Field s_Description, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_s_Description, put=setStaticF_s_Description)) ::StringW  s_Description;
 
-  /// @brief Field s_ProfilerMarker, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_s_ProfilerMarker, put = setStaticF_s_ProfilerMarker)) ::Unity::Profiling::ProfilerMarker s_ProfilerMarker;
+/// @brief Field s_ProfilerMarker, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_s_ProfilerMarker, put=setStaticF_s_ProfilerMarker)) ::Unity::Profiling::ProfilerMarker  s_ProfilerMarker;
 
-  /// @brief Method DirtyBoundingBoxHierarchy, addr 0x6b026e0, size 0x50, virtual false, abstract: false, final false
-  static inline void DirtyBoundingBoxHierarchy(::UnityEngine::UIElements::VisualElement* ve);
+/// @brief Method DirtyBoundingBoxHierarchy, addr 0x6b02da0, size 0x50, virtual false, abstract: false, final false
+static inline void DirtyBoundingBoxHierarchy(::UnityEngine::UIElements::VisualElement*  ve) ;
 
-  /// @brief Method DirtyHierarchy, addr 0x6b025f4, size 0xec, virtual false, abstract: false, final false
-  static inline void DirtyHierarchy(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::VisualElementFlags mustDirtyFlags);
+/// @brief Method DirtyHierarchy, addr 0x6b02cb4, size 0xec, virtual false, abstract: false, final false
+static inline void DirtyHierarchy(::UnityEngine::UIElements::VisualElement*  ve, ::UnityEngine::UIElements::VisualElementFlags  mustDirtyFlags) ;
 
-  /// @brief Method DirtyParentHierarchy, addr 0x6b02764, size 0x38, virtual false, abstract: false, final false
-  static inline void DirtyParentHierarchy(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::VisualElementFlags flags);
+/// @brief Method DirtyParentHierarchy, addr 0x6b02e24, size 0x38, virtual false, abstract: false, final false
+static inline void DirtyParentHierarchy(::UnityEngine::UIElements::VisualElement*  ve, ::UnityEngine::UIElements::VisualElementFlags  flags) ;
 
-  /// @brief Method GetChildrenMustDirtyFlags, addr 0x6b02730, size 0x34, virtual false, abstract: false, final false
-  static inline ::UnityEngine::UIElements::VisualElementFlags GetChildrenMustDirtyFlags(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::VersionChangeType versionChangeType);
+/// @brief Method GetChildrenMustDirtyFlags, addr 0x6b02df0, size 0x34, virtual false, abstract: false, final false
+static inline ::UnityEngine::UIElements::VisualElementFlags GetChildrenMustDirtyFlags(::UnityEngine::UIElements::VisualElement*  ve, ::UnityEngine::UIElements::VersionChangeType  versionChangeType) ;
 
-  static inline ::UnityEngine::UIElements::VisualTreeHierarchyFlagsUpdater* New_ctor();
+static inline ::UnityEngine::UIElements::VisualTreeHierarchyFlagsUpdater* New_ctor() ;
 
-  /// @brief Method OnVersionChanged, addr 0x6b0250c, size 0xe8, virtual true, abstract: false, final false
-  inline void OnVersionChanged(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::VersionChangeType versionChangeType);
+/// @brief Method OnVersionChanged, addr 0x6b02bcc, size 0xe8, virtual true, abstract: false, final false
+inline void OnVersionChanged(::UnityEngine::UIElements::VisualElement*  ve, ::UnityEngine::UIElements::VersionChangeType  versionChangeType) ;
 
-  /// @brief Method Update, addr 0x6b0279c, size 0x5c, virtual true, abstract: false, final false
-  inline void Update();
+/// @brief Method Update, addr 0x6b02e5c, size 0x5c, virtual true, abstract: false, final false
+inline void Update() ;
 
-  constexpr uint32_t const& __cordl_internal_get_m_LastVersion() const;
+constexpr uint32_t const& __cordl_internal_get_m_LastVersion() const;
 
-  constexpr uint32_t& __cordl_internal_get_m_LastVersion();
+constexpr uint32_t& __cordl_internal_get_m_LastVersion() ;
 
-  constexpr uint32_t const& __cordl_internal_get_m_Version() const;
+constexpr uint32_t const& __cordl_internal_get_m_Version() const;
 
-  constexpr uint32_t& __cordl_internal_get_m_Version();
+constexpr uint32_t& __cordl_internal_get_m_Version() ;
 
-  constexpr void __cordl_internal_set_m_LastVersion(uint32_t value);
+constexpr void __cordl_internal_set_m_LastVersion(uint32_t  value) ;
 
-  constexpr void __cordl_internal_set_m_Version(uint32_t value);
+constexpr void __cordl_internal_set_m_Version(uint32_t  value) ;
 
-  /// @brief Method .ctor, addr 0x6b027f8, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6b02eb8, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  static inline ::StringW getStaticF_s_Description();
+static inline ::StringW getStaticF_s_Description() ;
 
-  static inline ::Unity::Profiling::ProfilerMarker getStaticF_s_ProfilerMarker();
+static inline ::Unity::Profiling::ProfilerMarker getStaticF_s_ProfilerMarker() ;
 
-  /// @brief Method get_profilerMarker, addr 0x6b024b0, size 0x5c, virtual true, abstract: false, final false
-  inline ::Unity::Profiling::ProfilerMarker get_profilerMarker();
+/// @brief Method get_profilerMarker, addr 0x6b02b70, size 0x5c, virtual true, abstract: false, final false
+inline ::Unity::Profiling::ProfilerMarker get_profilerMarker() ;
 
-  static inline void setStaticF_s_Description(::StringW value);
+static inline void setStaticF_s_Description(::StringW  value) ;
 
-  static inline void setStaticF_s_ProfilerMarker(::Unity::Profiling::ProfilerMarker value);
+static inline void setStaticF_s_ProfilerMarker(::Unity::Profiling::ProfilerMarker  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr VisualTreeHierarchyFlagsUpdater();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr VisualTreeHierarchyFlagsUpdater() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VisualTreeHierarchyFlagsUpdater", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  VisualTreeHierarchyFlagsUpdater(VisualTreeHierarchyFlagsUpdater&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VisualTreeHierarchyFlagsUpdater", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  VisualTreeHierarchyFlagsUpdater(VisualTreeHierarchyFlagsUpdater const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "VisualTreeHierarchyFlagsUpdater", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+VisualTreeHierarchyFlagsUpdater(VisualTreeHierarchyFlagsUpdater && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5252 };
+// Ctor Parameters [CppParam { name: "", ty: "VisualTreeHierarchyFlagsUpdater", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+VisualTreeHierarchyFlagsUpdater(VisualTreeHierarchyFlagsUpdater const& ) = delete;
 
-  /// @brief Field m_Version, offset: 0x28, size: 0x4, def value: None
-  uint32_t ___m_Version;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{5252};
 
-  /// @brief Field m_LastVersion, offset: 0x2c, size: 0x4, def value: None
-  uint32_t ___m_LastVersion;
+/// @brief Field m_Version, offset: 0x28, size: 0x4, def value: None
+ uint32_t  ___m_Version;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field m_LastVersion, offset: 0x2c, size: 0x4, def value: None
+ uint32_t  ___m_LastVersion;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::UIElements::VisualTreeHierarchyFlagsUpdater, ___m_Version) == 0x28, "Offset mismatch!");
@@ -125,6 +125,6 @@ static_assert(offsetof(::UnityEngine::UIElements::VisualTreeHierarchyFlagsUpdate
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::VisualTreeHierarchyFlagsUpdater, 0x30>, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements
+} // namespace end def UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::VisualTreeHierarchyFlagsUpdater);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::VisualTreeHierarchyFlagsUpdater*, "UnityEngine.UIElements", "VisualTreeHierarchyFlagsUpdater");

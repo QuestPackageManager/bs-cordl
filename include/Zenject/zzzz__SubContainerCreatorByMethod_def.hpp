@@ -6,10 +6,12 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__SubContainerCreatorByMethodBase_def.hpp"
 CORDL_MODULE_EXPORT(SubContainerCreatorByMethod)
 namespace System::Collections::Generic {
-template <typename T> class List_1;
+template<typename T>
+class List_1;
 }
 namespace System {
-template <typename T> class Action_1;
+template<typename T>
+class Action_1;
 }
 namespace Zenject {
 class DiContainer;
@@ -35,52 +37,51 @@ namespace Zenject {
 // CS Name: Zenject.SubContainerCreatorByMethod
 class CORDL_TYPE SubContainerCreatorByMethod : public ::Zenject::SubContainerCreatorByMethodBase {
 public:
-  // Declarations
-  /// @brief Field _installMethod, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__installMethod, put = __cordl_internal_set__installMethod)) ::System::Action_1<::Zenject::DiContainer*>* _installMethod;
+// Declarations
+/// @brief Field _installMethod, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get__installMethod, put=__cordl_internal_set__installMethod)) ::System::Action_1<::Zenject::DiContainer*>*  _installMethod;
 
-  /// @brief Method CreateSubContainer, addr 0x6cbe554, size 0x9c, virtual true, abstract: false, final false
-  inline ::Zenject::DiContainer* CreateSubContainer(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ::Zenject::InjectContext* context);
+/// @brief Method CreateSubContainer, addr 0x6cbec14, size 0x9c, virtual true, abstract: false, final false
+inline ::Zenject::DiContainer* CreateSubContainer(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*  args, ::Zenject::InjectContext*  context) ;
 
-  static inline ::Zenject::SubContainerCreatorByMethod* New_ctor(::Zenject::DiContainer* container, ::Zenject::SubContainerCreatorBindInfo* containerBindInfo,
-                                                                 ::System::Action_1<::Zenject::DiContainer*>* installMethod);
+static inline ::Zenject::SubContainerCreatorByMethod* New_ctor(::Zenject::DiContainer*  container, ::Zenject::SubContainerCreatorBindInfo*  containerBindInfo, ::System::Action_1<::Zenject::DiContainer*>*  installMethod) ;
 
-  constexpr ::System::Action_1<::Zenject::DiContainer*>* const& __cordl_internal_get__installMethod() const;
+constexpr ::System::Action_1<::Zenject::DiContainer*>* const& __cordl_internal_get__installMethod() const;
 
-  constexpr ::System::Action_1<::Zenject::DiContainer*>*& __cordl_internal_get__installMethod();
+constexpr ::System::Action_1<::Zenject::DiContainer*>*& __cordl_internal_get__installMethod() ;
 
-  constexpr void __cordl_internal_set__installMethod(::System::Action_1<::Zenject::DiContainer*>* value);
+constexpr void __cordl_internal_set__installMethod(::System::Action_1<::Zenject::DiContainer*>*  value) ;
 
-  /// @brief Method .ctor, addr 0x6cbe548, size 0xc, virtual false, abstract: false, final false
-  inline void _ctor(::Zenject::DiContainer* container, ::Zenject::SubContainerCreatorBindInfo* containerBindInfo, ::System::Action_1<::Zenject::DiContainer*>* installMethod);
+/// @brief Method .ctor, addr 0x6cbec08, size 0xc, virtual false, abstract: false, final false
+inline void _ctor(::Zenject::DiContainer*  container, ::Zenject::SubContainerCreatorBindInfo*  containerBindInfo, ::System::Action_1<::Zenject::DiContainer*>*  installMethod) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SubContainerCreatorByMethod();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr SubContainerCreatorByMethod() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SubContainerCreatorByMethod", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  SubContainerCreatorByMethod(SubContainerCreatorByMethod&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SubContainerCreatorByMethod", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  SubContainerCreatorByMethod(SubContainerCreatorByMethod const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "SubContainerCreatorByMethod", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+SubContainerCreatorByMethod(SubContainerCreatorByMethod && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14574 };
+// Ctor Parameters [CppParam { name: "", ty: "SubContainerCreatorByMethod", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+SubContainerCreatorByMethod(SubContainerCreatorByMethod const& ) = delete;
 
-  /// @brief Field _installMethod, offset: 0x20, size: 0x8, def value: None
-  ::System::Action_1<::Zenject::DiContainer*>* ____installMethod;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{14578};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _installMethod, offset: 0x20, size: 0x8, def value: None
+ ::System::Action_1<::Zenject::DiContainer*>*  ____installMethod;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Zenject::SubContainerCreatorByMethod, ____installMethod) == 0x20, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::Zenject::SubContainerCreatorByMethod, 0x28>, "Size mismatch!");
 
-} // namespace Zenject
+} // namespace end def Zenject
 NEED_NO_BOX(::Zenject::SubContainerCreatorByMethod);
 DEFINE_IL2CPP_ARG_TYPE(::Zenject::SubContainerCreatorByMethod*, "Zenject", "SubContainerCreatorByMethod");

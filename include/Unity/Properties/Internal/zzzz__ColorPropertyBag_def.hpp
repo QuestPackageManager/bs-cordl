@@ -50,249 +50,249 @@ MARK_REF_PTR_T(::Unity::Properties::Internal::ColorPropertyBag_RProperty);
 namespace Unity::Properties::Internal {
 // Is value type: false
 // CS Name: Unity.Properties.Internal.ColorPropertyBag/RProperty
-class CORDL_TYPE ColorPropertyBag_RProperty : public ::Unity::Properties::Property_2<::UnityEngine::Color, float_t> {
+class CORDL_TYPE ColorPropertyBag_RProperty : public ::Unity::Properties::Property_2<::UnityEngine::Color,float_t> {
 public:
-  // Declarations
-  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
+// Declarations
+ __declspec(property(get=get_IsReadOnly)) bool  IsReadOnly;
 
-  __declspec(property(get = get_Name)) ::StringW Name;
+ __declspec(property(get=get_Name)) ::StringW  Name;
 
-  /// @brief Method GetValue, addr 0x69e7ff8, size 0x8, virtual true, abstract: false, final false
-  inline float_t GetValue(::ByRef<::UnityEngine::Color> container);
+/// @brief Method GetValue, addr 0x69e86b8, size 0x8, virtual true, abstract: false, final false
+inline float_t GetValue(::ByRef<::UnityEngine::Color>  container) ;
 
-  static inline ::Unity::Properties::Internal::ColorPropertyBag_RProperty* New_ctor();
+static inline ::Unity::Properties::Internal::ColorPropertyBag_RProperty* New_ctor() ;
 
-  /// @brief Method SetValue, addr 0x69e8000, size 0x8, virtual true, abstract: false, final false
-  inline void SetValue(::ByRef<::UnityEngine::Color> container, float_t value);
+/// @brief Method SetValue, addr 0x69e86c0, size 0x8, virtual true, abstract: false, final false
+inline void SetValue(::ByRef<::UnityEngine::Color>  container, float_t  value) ;
 
-  /// @brief Method .ctor, addr 0x69e7ebc, size 0x3c, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x69e857c, size 0x3c, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_IsReadOnly, addr 0x69e7ff0, size 0x8, virtual true, abstract: false, final false
-  inline bool get_IsReadOnly();
+/// @brief Method get_IsReadOnly, addr 0x69e86b0, size 0x8, virtual true, abstract: false, final false
+inline bool get_IsReadOnly() ;
 
-  /// @brief Method get_Name, addr 0x69e7fac, size 0x44, virtual true, abstract: false, final false
-  inline ::StringW get_Name();
+/// @brief Method get_Name, addr 0x69e866c, size 0x44, virtual true, abstract: false, final false
+inline ::StringW get_Name() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ColorPropertyBag_RProperty();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ColorPropertyBag_RProperty() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ColorPropertyBag_RProperty", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ColorPropertyBag_RProperty(ColorPropertyBag_RProperty&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ColorPropertyBag_RProperty", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ColorPropertyBag_RProperty(ColorPropertyBag_RProperty const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ColorPropertyBag_RProperty", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ColorPropertyBag_RProperty(ColorPropertyBag_RProperty && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19431 };
+// Ctor Parameters [CppParam { name: "", ty: "ColorPropertyBag_RProperty", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ColorPropertyBag_RProperty(ColorPropertyBag_RProperty const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{19435};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Unity::Properties::Internal::ColorPropertyBag_RProperty, 0x18>, "Size mismatch!");
 
-} // namespace Unity::Properties::Internal
+} // namespace end def Unity::Properties::Internal
 // Dependencies Unity.Properties.Property`2<TContainer, TValue>, UnityEngine.Color
 namespace Unity::Properties::Internal {
 // Is value type: false
 // CS Name: Unity.Properties.Internal.ColorPropertyBag/GProperty
-class CORDL_TYPE ColorPropertyBag_GProperty : public ::Unity::Properties::Property_2<::UnityEngine::Color, float_t> {
+class CORDL_TYPE ColorPropertyBag_GProperty : public ::Unity::Properties::Property_2<::UnityEngine::Color,float_t> {
 public:
-  // Declarations
-  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
+// Declarations
+ __declspec(property(get=get_IsReadOnly)) bool  IsReadOnly;
 
-  __declspec(property(get = get_Name)) ::StringW Name;
+ __declspec(property(get=get_Name)) ::StringW  Name;
 
-  /// @brief Method GetValue, addr 0x69e8054, size 0x8, virtual true, abstract: false, final false
-  inline float_t GetValue(::ByRef<::UnityEngine::Color> container);
+/// @brief Method GetValue, addr 0x69e8714, size 0x8, virtual true, abstract: false, final false
+inline float_t GetValue(::ByRef<::UnityEngine::Color>  container) ;
 
-  static inline ::Unity::Properties::Internal::ColorPropertyBag_GProperty* New_ctor();
+static inline ::Unity::Properties::Internal::ColorPropertyBag_GProperty* New_ctor() ;
 
-  /// @brief Method SetValue, addr 0x69e805c, size 0x8, virtual true, abstract: false, final false
-  inline void SetValue(::ByRef<::UnityEngine::Color> container, float_t value);
+/// @brief Method SetValue, addr 0x69e871c, size 0x8, virtual true, abstract: false, final false
+inline void SetValue(::ByRef<::UnityEngine::Color>  container, float_t  value) ;
 
-  /// @brief Method .ctor, addr 0x69e7ef8, size 0x3c, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x69e85b8, size 0x3c, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_IsReadOnly, addr 0x69e804c, size 0x8, virtual true, abstract: false, final false
-  inline bool get_IsReadOnly();
+/// @brief Method get_IsReadOnly, addr 0x69e870c, size 0x8, virtual true, abstract: false, final false
+inline bool get_IsReadOnly() ;
 
-  /// @brief Method get_Name, addr 0x69e8008, size 0x44, virtual true, abstract: false, final false
-  inline ::StringW get_Name();
+/// @brief Method get_Name, addr 0x69e86c8, size 0x44, virtual true, abstract: false, final false
+inline ::StringW get_Name() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ColorPropertyBag_GProperty();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ColorPropertyBag_GProperty() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ColorPropertyBag_GProperty", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ColorPropertyBag_GProperty(ColorPropertyBag_GProperty&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ColorPropertyBag_GProperty", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ColorPropertyBag_GProperty(ColorPropertyBag_GProperty const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ColorPropertyBag_GProperty", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ColorPropertyBag_GProperty(ColorPropertyBag_GProperty && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19432 };
+// Ctor Parameters [CppParam { name: "", ty: "ColorPropertyBag_GProperty", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ColorPropertyBag_GProperty(ColorPropertyBag_GProperty const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{19436};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Unity::Properties::Internal::ColorPropertyBag_GProperty, 0x18>, "Size mismatch!");
 
-} // namespace Unity::Properties::Internal
+} // namespace end def Unity::Properties::Internal
 // Dependencies Unity.Properties.Property`2<TContainer, TValue>, UnityEngine.Color
 namespace Unity::Properties::Internal {
 // Is value type: false
 // CS Name: Unity.Properties.Internal.ColorPropertyBag/BProperty
-class CORDL_TYPE ColorPropertyBag_BProperty : public ::Unity::Properties::Property_2<::UnityEngine::Color, float_t> {
+class CORDL_TYPE ColorPropertyBag_BProperty : public ::Unity::Properties::Property_2<::UnityEngine::Color,float_t> {
 public:
-  // Declarations
-  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
+// Declarations
+ __declspec(property(get=get_IsReadOnly)) bool  IsReadOnly;
 
-  __declspec(property(get = get_Name)) ::StringW Name;
+ __declspec(property(get=get_Name)) ::StringW  Name;
 
-  /// @brief Method GetValue, addr 0x69e80b0, size 0x8, virtual true, abstract: false, final false
-  inline float_t GetValue(::ByRef<::UnityEngine::Color> container);
+/// @brief Method GetValue, addr 0x69e8770, size 0x8, virtual true, abstract: false, final false
+inline float_t GetValue(::ByRef<::UnityEngine::Color>  container) ;
 
-  static inline ::Unity::Properties::Internal::ColorPropertyBag_BProperty* New_ctor();
+static inline ::Unity::Properties::Internal::ColorPropertyBag_BProperty* New_ctor() ;
 
-  /// @brief Method SetValue, addr 0x69e80b8, size 0x8, virtual true, abstract: false, final false
-  inline void SetValue(::ByRef<::UnityEngine::Color> container, float_t value);
+/// @brief Method SetValue, addr 0x69e8778, size 0x8, virtual true, abstract: false, final false
+inline void SetValue(::ByRef<::UnityEngine::Color>  container, float_t  value) ;
 
-  /// @brief Method .ctor, addr 0x69e7f34, size 0x3c, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x69e85f4, size 0x3c, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_IsReadOnly, addr 0x69e80a8, size 0x8, virtual true, abstract: false, final false
-  inline bool get_IsReadOnly();
+/// @brief Method get_IsReadOnly, addr 0x69e8768, size 0x8, virtual true, abstract: false, final false
+inline bool get_IsReadOnly() ;
 
-  /// @brief Method get_Name, addr 0x69e8064, size 0x44, virtual true, abstract: false, final false
-  inline ::StringW get_Name();
+/// @brief Method get_Name, addr 0x69e8724, size 0x44, virtual true, abstract: false, final false
+inline ::StringW get_Name() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ColorPropertyBag_BProperty();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ColorPropertyBag_BProperty() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ColorPropertyBag_BProperty", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ColorPropertyBag_BProperty(ColorPropertyBag_BProperty&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ColorPropertyBag_BProperty", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ColorPropertyBag_BProperty(ColorPropertyBag_BProperty const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ColorPropertyBag_BProperty", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ColorPropertyBag_BProperty(ColorPropertyBag_BProperty && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19433 };
+// Ctor Parameters [CppParam { name: "", ty: "ColorPropertyBag_BProperty", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ColorPropertyBag_BProperty(ColorPropertyBag_BProperty const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{19437};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Unity::Properties::Internal::ColorPropertyBag_BProperty, 0x18>, "Size mismatch!");
 
-} // namespace Unity::Properties::Internal
+} // namespace end def Unity::Properties::Internal
 // Dependencies Unity.Properties.Property`2<TContainer, TValue>, UnityEngine.Color
 namespace Unity::Properties::Internal {
 // Is value type: false
 // CS Name: Unity.Properties.Internal.ColorPropertyBag/AProperty
-class CORDL_TYPE ColorPropertyBag_AProperty : public ::Unity::Properties::Property_2<::UnityEngine::Color, float_t> {
+class CORDL_TYPE ColorPropertyBag_AProperty : public ::Unity::Properties::Property_2<::UnityEngine::Color,float_t> {
 public:
-  // Declarations
-  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
+// Declarations
+ __declspec(property(get=get_IsReadOnly)) bool  IsReadOnly;
 
-  __declspec(property(get = get_Name)) ::StringW Name;
+ __declspec(property(get=get_Name)) ::StringW  Name;
 
-  /// @brief Method GetValue, addr 0x69e810c, size 0x8, virtual true, abstract: false, final false
-  inline float_t GetValue(::ByRef<::UnityEngine::Color> container);
+/// @brief Method GetValue, addr 0x69e87cc, size 0x8, virtual true, abstract: false, final false
+inline float_t GetValue(::ByRef<::UnityEngine::Color>  container) ;
 
-  static inline ::Unity::Properties::Internal::ColorPropertyBag_AProperty* New_ctor();
+static inline ::Unity::Properties::Internal::ColorPropertyBag_AProperty* New_ctor() ;
 
-  /// @brief Method SetValue, addr 0x69e8114, size 0x8, virtual true, abstract: false, final false
-  inline void SetValue(::ByRef<::UnityEngine::Color> container, float_t value);
+/// @brief Method SetValue, addr 0x69e87d4, size 0x8, virtual true, abstract: false, final false
+inline void SetValue(::ByRef<::UnityEngine::Color>  container, float_t  value) ;
 
-  /// @brief Method .ctor, addr 0x69e7f70, size 0x3c, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x69e8630, size 0x3c, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_IsReadOnly, addr 0x69e8104, size 0x8, virtual true, abstract: false, final false
-  inline bool get_IsReadOnly();
+/// @brief Method get_IsReadOnly, addr 0x69e87c4, size 0x8, virtual true, abstract: false, final false
+inline bool get_IsReadOnly() ;
 
-  /// @brief Method get_Name, addr 0x69e80c0, size 0x44, virtual true, abstract: false, final false
-  inline ::StringW get_Name();
+/// @brief Method get_Name, addr 0x69e8780, size 0x44, virtual true, abstract: false, final false
+inline ::StringW get_Name() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ColorPropertyBag_AProperty();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ColorPropertyBag_AProperty() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ColorPropertyBag_AProperty", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ColorPropertyBag_AProperty(ColorPropertyBag_AProperty&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ColorPropertyBag_AProperty", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ColorPropertyBag_AProperty(ColorPropertyBag_AProperty const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ColorPropertyBag_AProperty", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ColorPropertyBag_AProperty(ColorPropertyBag_AProperty && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19434 };
+// Ctor Parameters [CppParam { name: "", ty: "ColorPropertyBag_AProperty", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ColorPropertyBag_AProperty(ColorPropertyBag_AProperty const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{19438};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Unity::Properties::Internal::ColorPropertyBag_AProperty, 0x18>, "Size mismatch!");
 
-} // namespace Unity::Properties::Internal
+} // namespace end def Unity::Properties::Internal
 // Dependencies Unity.Properties.ContainerPropertyBag`1<TContainer>, UnityEngine.Color
 namespace Unity::Properties::Internal {
 // Is value type: false
 // CS Name: Unity.Properties.Internal.ColorPropertyBag
 class CORDL_TYPE ColorPropertyBag : public ::Unity::Properties::ContainerPropertyBag_1<::UnityEngine::Color> {
 public:
-  // Declarations
-  using AProperty = ::Unity::Properties::Internal::ColorPropertyBag_AProperty;
+// Declarations
+using AProperty = ::Unity::Properties::Internal::ColorPropertyBag_AProperty;
 
-  using BProperty = ::Unity::Properties::Internal::ColorPropertyBag_BProperty;
+using BProperty = ::Unity::Properties::Internal::ColorPropertyBag_BProperty;
 
-  using GProperty = ::Unity::Properties::Internal::ColorPropertyBag_GProperty;
+using GProperty = ::Unity::Properties::Internal::ColorPropertyBag_GProperty;
 
-  using RProperty = ::Unity::Properties::Internal::ColorPropertyBag_RProperty;
+using RProperty = ::Unity::Properties::Internal::ColorPropertyBag_RProperty;
 
-  static inline ::Unity::Properties::Internal::ColorPropertyBag* New_ctor();
+static inline ::Unity::Properties::Internal::ColorPropertyBag* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x69e6cc0, size 0x204, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x69e7380, size 0x204, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ColorPropertyBag();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ColorPropertyBag() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ColorPropertyBag", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ColorPropertyBag(ColorPropertyBag&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ColorPropertyBag", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ColorPropertyBag(ColorPropertyBag const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ColorPropertyBag", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ColorPropertyBag(ColorPropertyBag && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19435 };
+// Ctor Parameters [CppParam { name: "", ty: "ColorPropertyBag", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ColorPropertyBag(ColorPropertyBag const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{19439};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Unity::Properties::Internal::ColorPropertyBag, 0x28>, "Size mismatch!");
 
-} // namespace Unity::Properties::Internal
+} // namespace end def Unity::Properties::Internal
 NEED_NO_BOX(::Unity::Properties::Internal::ColorPropertyBag);
 DEFINE_IL2CPP_ARG_TYPE(::Unity::Properties::Internal::ColorPropertyBag*, "Unity.Properties.Internal", "ColorPropertyBag");
 NEED_NO_BOX(::Unity::Properties::Internal::ColorPropertyBag_AProperty);

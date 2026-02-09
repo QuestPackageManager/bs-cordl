@@ -21,44 +21,44 @@ namespace OculusStudios::Platform::Core {
 // CS Name: OculusStudios.Platform.Core.PlatformInitFailedException
 class CORDL_TYPE PlatformInitFailedException : public ::System::Exception {
 public:
-  // Declarations
-  static inline ::OculusStudios::Platform::Core::PlatformInitFailedException* New_ctor();
+// Declarations
+static inline ::OculusStudios::Platform::Core::PlatformInitFailedException* New_ctor() ;
 
-  static inline ::OculusStudios::Platform::Core::PlatformInitFailedException* New_ctor(::StringW message);
+static inline ::OculusStudios::Platform::Core::PlatformInitFailedException* New_ctor(::StringW  message) ;
 
-  static inline ::OculusStudios::Platform::Core::PlatformInitFailedException* New_ctor(::StringW message, ::System::Exception* inner);
+static inline ::OculusStudios::Platform::Core::PlatformInitFailedException* New_ctor(::StringW  message, ::System::Exception*  inner) ;
 
-  /// @brief Method .ctor, addr 0x5d7ffac, size 0x58, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5d804b8, size 0x58, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method .ctor, addr 0x5d80004, size 0x6c, virtual false, abstract: false, final false
-  inline void _ctor(::StringW message);
+/// @brief Method .ctor, addr 0x5d80510, size 0x6c, virtual false, abstract: false, final false
+inline void _ctor(::StringW  message) ;
 
-  /// @brief Method .ctor, addr 0x5d80070, size 0x74, virtual false, abstract: false, final false
-  inline void _ctor(::StringW message, ::System::Exception* inner);
+/// @brief Method .ctor, addr 0x5d8057c, size 0x74, virtual false, abstract: false, final false
+inline void _ctor(::StringW  message, ::System::Exception*  inner) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PlatformInitFailedException();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr PlatformInitFailedException() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlatformInitFailedException", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  PlatformInitFailedException(PlatformInitFailedException&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlatformInitFailedException", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  PlatformInitFailedException(PlatformInitFailedException const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "PlatformInitFailedException", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+PlatformInitFailedException(PlatformInitFailedException && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22180 };
+// Ctor Parameters [CppParam { name: "", ty: "PlatformInitFailedException", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+PlatformInitFailedException(PlatformInitFailedException const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{22184};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OculusStudios::Platform::Core::PlatformInitFailedException, 0x90>, "Size mismatch!");
 
-} // namespace OculusStudios::Platform::Core
+} // namespace end def OculusStudios::Platform::Core
 NEED_NO_BOX(::OculusStudios::Platform::Core::PlatformInitFailedException);
 DEFINE_IL2CPP_ARG_TYPE(::OculusStudios::Platform::Core::PlatformInitFailedException*, "OculusStudios.Platform.Core", "PlatformInitFailedException");

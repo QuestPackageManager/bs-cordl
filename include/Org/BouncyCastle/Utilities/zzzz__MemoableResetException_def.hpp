@@ -18,34 +18,34 @@ namespace Org::BouncyCastle::Utilities {
 // CS Name: Org.BouncyCastle.Utilities.MemoableResetException
 class CORDL_TYPE MemoableResetException : public ::System::InvalidCastException {
 public:
-  // Declarations
-  static inline ::Org::BouncyCastle::Utilities::MemoableResetException* New_ctor(::StringW msg);
+// Declarations
+static inline ::Org::BouncyCastle::Utilities::MemoableResetException* New_ctor(::StringW  msg) ;
 
-  /// @brief Method .ctor, addr 0x3542294, size 0x24, virtual false, abstract: false, final false
-  inline void _ctor(::StringW msg);
+/// @brief Method .ctor, addr 0x35421e4, size 0x24, virtual false, abstract: false, final false
+inline void _ctor(::StringW  msg) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MemoableResetException();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr MemoableResetException() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MemoableResetException", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  MemoableResetException(MemoableResetException&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MemoableResetException", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  MemoableResetException(MemoableResetException const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "MemoableResetException", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+MemoableResetException(MemoableResetException && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1835 };
+// Ctor Parameters [CppParam { name: "", ty: "MemoableResetException", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+MemoableResetException(MemoableResetException const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{1835};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Utilities::MemoableResetException, 0x90>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Utilities
+} // namespace end def Org::BouncyCastle::Utilities
 NEED_NO_BOX(::Org::BouncyCastle::Utilities::MemoableResetException);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Utilities::MemoableResetException*, "Org.BouncyCastle.Utilities", "MemoableResetException");

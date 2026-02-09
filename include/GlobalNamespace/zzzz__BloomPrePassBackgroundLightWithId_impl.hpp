@@ -5,78 +5,97 @@
 #include "GlobalNamespace/zzzz__BloomPrePassBackgroundColor_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::BloomPrePassBackgroundLightWithId.get_color
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::GlobalNamespace::BloomPrePassBackgroundLightWithId::*)()>(
-    &::GlobalNamespace::BloomPrePassBackgroundLightWithId::get_color)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::GlobalNamespace::BloomPrePassBackgroundLightWithId::*)()>(&::GlobalNamespace::BloomPrePassBackgroundLightWithId::get_color)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x56b8edc;
+  constexpr static std::size_t addrs = 0x56b8c64;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassBackgroundLightWithId*>::get(),
-                                                                               "get_color", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassBackgroundLightWithId*>::get(),
+                        "get_color",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::BloomPrePassBackgroundLightWithId.ColorWasSet
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BloomPrePassBackgroundLightWithId::*)(::UnityEngine::Color)>(
-    &::GlobalNamespace::BloomPrePassBackgroundLightWithId::ColorWasSet)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BloomPrePassBackgroundLightWithId::*)(::UnityEngine::Color)>(&::GlobalNamespace::BloomPrePassBackgroundLightWithId::ColorWasSet)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x56b8ef8;
+  constexpr static std::size_t addrs = 0x56b8c80;
 
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassBackgroundLightWithId*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassBackgroundLightWithId*>::get(), 9));
+  inline static const ::MethodInfo* methodInfo() {
+    
+                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassBackgroundLightWithId*>::get(),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassBackgroundLightWithId*>::get(),
+                                  9
+                                ));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::BloomPrePassBackgroundLightWithId._ctor
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BloomPrePassBackgroundLightWithId::*)()>(
-    &::GlobalNamespace::BloomPrePassBackgroundLightWithId::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BloomPrePassBackgroundLightWithId::*)()>(&::GlobalNamespace::BloomPrePassBackgroundLightWithId::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x56b8f14;
+  constexpr static std::size_t addrs = 0x56b8c9c;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassBackgroundLightWithId*>::get(),
-                                                                               ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassBackgroundLightWithId*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
-constexpr ::UnityW<::GlobalNamespace::BloomPrePassBackgroundColor>& GlobalNamespace::BloomPrePassBackgroundLightWithId::__cordl_internal_get__bloomPrePassBackgroundColor() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____bloomPrePassBackgroundColor;
+constexpr ::UnityW<::GlobalNamespace::BloomPrePassBackgroundColor>& GlobalNamespace::BloomPrePassBackgroundLightWithId::__cordl_internal_get__bloomPrePassBackgroundColor()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____bloomPrePassBackgroundColor;
 }
 constexpr ::UnityW<::GlobalNamespace::BloomPrePassBackgroundColor> const& GlobalNamespace::BloomPrePassBackgroundLightWithId::__cordl_internal_get__bloomPrePassBackgroundColor() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____bloomPrePassBackgroundColor;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____bloomPrePassBackgroundColor;
 }
-constexpr void GlobalNamespace::BloomPrePassBackgroundLightWithId::__cordl_internal_set__bloomPrePassBackgroundColor(::UnityW<::GlobalNamespace::BloomPrePassBackgroundColor> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____bloomPrePassBackgroundColor)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::BloomPrePassBackgroundLightWithId::__cordl_internal_set__bloomPrePassBackgroundColor(::UnityW<::GlobalNamespace::BloomPrePassBackgroundColor>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____bloomPrePassBackgroundColor)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::UnityEngine::Color GlobalNamespace::BloomPrePassBackgroundLightWithId::get_color() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassBackgroundLightWithId*>::get(),
-                                                                             "get_color", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Color, false>(this, ___internal_method);
+inline ::UnityEngine::Color GlobalNamespace::BloomPrePassBackgroundLightWithId::get_color()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassBackgroundLightWithId*>::get(),
+                        "get_color",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::Color, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::BloomPrePassBackgroundLightWithId::ColorWasSet(::UnityEngine::Color newColor) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassBackgroundLightWithId*>::get(), 9)));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, newColor);
+inline void GlobalNamespace::BloomPrePassBackgroundLightWithId::ColorWasSet(::UnityEngine::Color  newColor)  {
+auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassBackgroundLightWithId*>::get(),
+                            9
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, newColor);
 }
-inline void GlobalNamespace::BloomPrePassBackgroundLightWithId::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassBackgroundLightWithId*>::get(),
-                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::BloomPrePassBackgroundLightWithId::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassBackgroundLightWithId*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::BloomPrePassBackgroundLightWithId* GlobalNamespace::BloomPrePassBackgroundLightWithId::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BloomPrePassBackgroundLightWithId*>());
+inline ::GlobalNamespace::BloomPrePassBackgroundLightWithId* GlobalNamespace::BloomPrePassBackgroundLightWithId::New_ctor()  {
+return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BloomPrePassBackgroundLightWithId*>());
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::BloomPrePassBackgroundLightWithId::BloomPrePassBackgroundLightWithId() {}
+constexpr ::GlobalNamespace::BloomPrePassBackgroundLightWithId::BloomPrePassBackgroundLightWithId()   {
+}

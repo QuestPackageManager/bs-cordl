@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "Org/BouncyCastle/Asn1/Esf/CertificateValues.hpp"
 #include "Org/BouncyCastle/Asn1/Esf/CommitmentTypeIdentifier.hpp"
@@ -30,5 +30,6 @@ module;
 #include "Org/BouncyCastle/Asn1/Esf/SignerAttribute.hpp"
 #include "Org/BouncyCastle/Asn1/Esf/SignerLocation.hpp"
 #ifdef __cpp_modules
-export module Esf;
-#endif
+                    export module Esf;
+                    #endif
+                

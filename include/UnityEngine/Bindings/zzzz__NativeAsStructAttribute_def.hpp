@@ -17,34 +17,34 @@ namespace UnityEngine::Bindings {
 // CS Name: UnityEngine.Bindings.NativeAsStructAttribute
 class CORDL_TYPE NativeAsStructAttribute : public ::System::Attribute {
 public:
-  // Declarations
-  static inline ::UnityEngine::Bindings::NativeAsStructAttribute* New_ctor();
+// Declarations
+static inline ::UnityEngine::Bindings::NativeAsStructAttribute* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x69eaeb4, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x69eb574, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NativeAsStructAttribute();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr NativeAsStructAttribute() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NativeAsStructAttribute", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  NativeAsStructAttribute(NativeAsStructAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NativeAsStructAttribute", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  NativeAsStructAttribute(NativeAsStructAttribute const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "NativeAsStructAttribute", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+NativeAsStructAttribute(NativeAsStructAttribute && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22701 };
+// Ctor Parameters [CppParam { name: "", ty: "NativeAsStructAttribute", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+NativeAsStructAttribute(NativeAsStructAttribute const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{22705};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Bindings::NativeAsStructAttribute, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine::Bindings
+} // namespace end def UnityEngine::Bindings
 NEED_NO_BOX(::UnityEngine::Bindings::NativeAsStructAttribute);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Bindings::NativeAsStructAttribute*, "UnityEngine.Bindings", "NativeAsStructAttribute");

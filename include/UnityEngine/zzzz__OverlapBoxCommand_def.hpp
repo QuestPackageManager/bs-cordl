@@ -11,7 +11,8 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(OverlapBoxCommand)
 namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+template<typename T>
+struct NativeArray_1;
 }
 namespace Unity::Jobs::LowLevel::Unsafe {
 struct JobsUtility_JobScheduleParameters;
@@ -46,92 +47,83 @@ namespace UnityEngine {
 // CS Name: UnityEngine.OverlapBoxCommand
 struct CORDL_TYPE OverlapBoxCommand {
 public:
-  // Declarations
-  __declspec(property(get = get_center, put = set_center)) ::UnityEngine::Vector3 center;
+// Declarations
+ __declspec(property(get=get_center, put=set_center)) ::UnityEngine::Vector3  center;
 
-  __declspec(property(get = get_halfExtents, put = set_halfExtents)) ::UnityEngine::Vector3 halfExtents;
+ __declspec(property(get=get_halfExtents, put=set_halfExtents)) ::UnityEngine::Vector3  halfExtents;
 
-  __declspec(property(get = get_orientation, put = set_orientation)) ::UnityEngine::Quaternion orientation;
+ __declspec(property(get=get_orientation, put=set_orientation)) ::UnityEngine::Quaternion  orientation;
 
-  __declspec(property(get = get_physicsScene, put = set_physicsScene)) ::UnityEngine::PhysicsScene physicsScene;
+ __declspec(property(get=get_physicsScene, put=set_physicsScene)) ::UnityEngine::PhysicsScene  physicsScene;
 
-  /// @brief Method ScheduleBatch, addr 0x69cce10, size 0x1ac, virtual false, abstract: false, final false
-  static inline ::Unity::Jobs::JobHandle ScheduleBatch(::Unity::Collections::NativeArray_1<::UnityEngine::OverlapBoxCommand> commands,
-                                                       ::Unity::Collections::NativeArray_1<::UnityEngine::ColliderHit> results, int32_t minCommandsPerJob, int32_t maxHits,
-                                                       ::Unity::Jobs::JobHandle dependsOn);
+/// @brief Method ScheduleBatch, addr 0x69cd4d0, size 0x1ac, virtual false, abstract: false, final false
+static inline ::Unity::Jobs::JobHandle ScheduleBatch(::Unity::Collections::NativeArray_1<::UnityEngine::OverlapBoxCommand>  commands, ::Unity::Collections::NativeArray_1<::UnityEngine::ColliderHit>  results, int32_t  minCommandsPerJob, int32_t  maxHits, ::Unity::Jobs::JobHandle  dependsOn) ;
 
-  /// @brief Method ScheduleOverlapBoxBatch, addr 0x69ccfbc, size 0x9c, virtual false, abstract: false, final false
-  static inline ::Unity::Jobs::JobHandle ScheduleOverlapBoxBatch(::ByRef<::Unity::Jobs::LowLevel::Unsafe::JobsUtility_JobScheduleParameters> parameters, void* commands, int32_t commandLen,
-                                                                 void* result, int32_t resultLen, int32_t minCommandsPerJob, int32_t maxHits);
+/// @brief Method ScheduleOverlapBoxBatch, addr 0x69cd67c, size 0x9c, virtual false, abstract: false, final false
+static inline ::Unity::Jobs::JobHandle ScheduleOverlapBoxBatch(::ByRef<::Unity::Jobs::LowLevel::Unsafe::JobsUtility_JobScheduleParameters>  parameters, void*  commands, int32_t  commandLen, void*  result, int32_t  resultLen, int32_t  minCommandsPerJob, int32_t  maxHits) ;
 
-  /// @brief Method ScheduleOverlapBoxBatch_Injected, addr 0x69cd058, size 0x8c, virtual false, abstract: false, final false
-  static inline void ScheduleOverlapBoxBatch_Injected(::ByRef<::Unity::Jobs::LowLevel::Unsafe::JobsUtility_JobScheduleParameters> parameters, void* commands, int32_t commandLen, void* result,
-                                                      int32_t resultLen, int32_t minCommandsPerJob, int32_t maxHits, ::ByRef<::Unity::Jobs::JobHandle> ret);
+/// @brief Method ScheduleOverlapBoxBatch_Injected, addr 0x69cd718, size 0x8c, virtual false, abstract: false, final false
+static inline void ScheduleOverlapBoxBatch_Injected(::ByRef<::Unity::Jobs::LowLevel::Unsafe::JobsUtility_JobScheduleParameters>  parameters, void*  commands, int32_t  commandLen, void*  result, int32_t  resultLen, int32_t  minCommandsPerJob, int32_t  maxHits, ::ByRef<::Unity::Jobs::JobHandle>  ret) ;
 
-  /// @brief Method .ctor, addr 0x69cccbc, size 0xd8, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::Vector3 center, ::UnityEngine::Vector3 halfExtents, ::UnityEngine::Quaternion orientation, ::UnityEngine::QueryParameters queryParameters);
+/// @brief Method .ctor, addr 0x69cd37c, size 0xd8, virtual false, abstract: false, final false
+inline void _ctor(::UnityEngine::Vector3  center, ::UnityEngine::Vector3  halfExtents, ::UnityEngine::Quaternion  orientation, ::UnityEngine::QueryParameters  queryParameters) ;
 
-  /// @brief Method .ctor, addr 0x69ccd94, size 0x24, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::PhysicsScene physicsScene, ::UnityEngine::Vector3 center, ::UnityEngine::Vector3 halfExtents, ::UnityEngine::Quaternion orientation,
-                    ::UnityEngine::QueryParameters queryParameters);
+/// @brief Method .ctor, addr 0x69cd454, size 0x24, virtual false, abstract: false, final false
+inline void _ctor(::UnityEngine::PhysicsScene  physicsScene, ::UnityEngine::Vector3  center, ::UnityEngine::Vector3  halfExtents, ::UnityEngine::Quaternion  orientation, ::UnityEngine::QueryParameters  queryParameters) ;
 
-  /// @brief Method get_center, addr 0x69ccdb8, size 0xc, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector3 get_center();
+/// @brief Method get_center, addr 0x69cd478, size 0xc, virtual false, abstract: false, final false
+inline ::UnityEngine::Vector3 get_center() ;
 
-  /// @brief Method get_halfExtents, addr 0x69ccdd0, size 0xc, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector3 get_halfExtents();
+/// @brief Method get_halfExtents, addr 0x69cd490, size 0xc, virtual false, abstract: false, final false
+inline ::UnityEngine::Vector3 get_halfExtents() ;
 
-  /// @brief Method get_orientation, addr 0x69ccde8, size 0xc, virtual false, abstract: false, final false
-  inline ::UnityEngine::Quaternion get_orientation();
+/// @brief Method get_orientation, addr 0x69cd4a8, size 0xc, virtual false, abstract: false, final false
+inline ::UnityEngine::Quaternion get_orientation() ;
 
-  /// @brief Method get_physicsScene, addr 0x69cce00, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::PhysicsScene get_physicsScene();
+/// @brief Method get_physicsScene, addr 0x69cd4c0, size 0x8, virtual false, abstract: false, final false
+inline ::UnityEngine::PhysicsScene get_physicsScene() ;
 
-  /// @brief Method set_center, addr 0x69ccdc4, size 0xc, virtual false, abstract: false, final false
-  inline void set_center(::UnityEngine::Vector3 value);
+/// @brief Method set_center, addr 0x69cd484, size 0xc, virtual false, abstract: false, final false
+inline void set_center(::UnityEngine::Vector3  value) ;
 
-  /// @brief Method set_halfExtents, addr 0x69ccddc, size 0xc, virtual false, abstract: false, final false
-  inline void set_halfExtents(::UnityEngine::Vector3 value);
+/// @brief Method set_halfExtents, addr 0x69cd49c, size 0xc, virtual false, abstract: false, final false
+inline void set_halfExtents(::UnityEngine::Vector3  value) ;
 
-  /// @brief Method set_orientation, addr 0x69ccdf4, size 0xc, virtual false, abstract: false, final false
-  inline void set_orientation(::UnityEngine::Quaternion value);
+/// @brief Method set_orientation, addr 0x69cd4b4, size 0xc, virtual false, abstract: false, final false
+inline void set_orientation(::UnityEngine::Quaternion  value) ;
 
-  /// @brief Method set_physicsScene, addr 0x69cce08, size 0x8, virtual false, abstract: false, final false
-  inline void set_physicsScene(::UnityEngine::PhysicsScene value);
+/// @brief Method set_physicsScene, addr 0x69cd4c8, size 0x8, virtual false, abstract: false, final false
+inline void set_physicsScene(::UnityEngine::PhysicsScene  value) ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr OverlapBoxCommand();
+// Ctor Parameters []
+// @brief default ctor
+constexpr OverlapBoxCommand() ;
 
-  // Ctor Parameters [CppParam { name: "_center_k__BackingField", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "_halfExtents_k__BackingField", ty:
-  // "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "_orientation_k__BackingField", ty: "::UnityEngine::Quaternion", modifiers: "", def_value: None }, CppParam { name:
-  // "_physicsScene_k__BackingField", ty: "::UnityEngine::PhysicsScene", modifiers: "", def_value: None }, CppParam { name: "queryParameters", ty: "::UnityEngine::QueryParameters", modifiers: "",
-  // def_value: None }]
-  constexpr OverlapBoxCommand(::UnityEngine::Vector3 _center_k__BackingField, ::UnityEngine::Vector3 _halfExtents_k__BackingField, ::UnityEngine::Quaternion _orientation_k__BackingField,
-                              ::UnityEngine::PhysicsScene _physicsScene_k__BackingField, ::UnityEngine::QueryParameters queryParameters) noexcept;
+// Ctor Parameters [CppParam { name: "_center_k__BackingField", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "_halfExtents_k__BackingField", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "_orientation_k__BackingField", ty: "::UnityEngine::Quaternion", modifiers: "", def_value: None }, CppParam { name: "_physicsScene_k__BackingField", ty: "::UnityEngine::PhysicsScene", modifiers: "", def_value: None }, CppParam { name: "queryParameters", ty: "::UnityEngine::QueryParameters", modifiers: "", def_value: None }]
+constexpr OverlapBoxCommand(::UnityEngine::Vector3  _center_k__BackingField, ::UnityEngine::Vector3  _halfExtents_k__BackingField, ::UnityEngine::Quaternion  _orientation_k__BackingField, ::UnityEngine::PhysicsScene  _physicsScene_k__BackingField, ::UnityEngine::QueryParameters  queryParameters) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18651 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{18655};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x3c };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x3c};
 
-  /// @brief Field <center>k__BackingField, offset: 0x0, size: 0xc, def value: None
-  ::UnityEngine::Vector3 _center_k__BackingField;
+/// @brief Field <center>k__BackingField, offset: 0x0, size: 0xc, def value: None
+ ::UnityEngine::Vector3  _center_k__BackingField;
 
-  /// @brief Field <halfExtents>k__BackingField, offset: 0xc, size: 0xc, def value: None
-  ::UnityEngine::Vector3 _halfExtents_k__BackingField;
+/// @brief Field <halfExtents>k__BackingField, offset: 0xc, size: 0xc, def value: None
+ ::UnityEngine::Vector3  _halfExtents_k__BackingField;
 
-  /// @brief Field <orientation>k__BackingField, offset: 0x18, size: 0x10, def value: None
-  ::UnityEngine::Quaternion _orientation_k__BackingField;
+/// @brief Field <orientation>k__BackingField, offset: 0x18, size: 0x10, def value: None
+ ::UnityEngine::Quaternion  _orientation_k__BackingField;
 
-  /// @brief Field <physicsScene>k__BackingField, offset: 0x28, size: 0x4, def value: None
-  ::UnityEngine::PhysicsScene _physicsScene_k__BackingField;
+/// @brief Field <physicsScene>k__BackingField, offset: 0x28, size: 0x4, def value: None
+ ::UnityEngine::PhysicsScene  _physicsScene_k__BackingField;
 
-  /// @brief Field queryParameters, offset: 0x2c, size: 0x10, def value: None
-  ::UnityEngine::QueryParameters queryParameters;
+/// @brief Field queryParameters, offset: 0x2c, size: 0x10, def value: None
+ ::UnityEngine::QueryParameters  queryParameters;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::OverlapBoxCommand, _center_k__BackingField) == 0x0, "Offset mismatch!");
@@ -146,5 +138,5 @@ static_assert(offsetof(::UnityEngine::OverlapBoxCommand, queryParameters) == 0x2
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::OverlapBoxCommand, 0x3c>, "Size mismatch!");
 
-} // namespace UnityEngine
+} // namespace end def UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::OverlapBoxCommand, "UnityEngine", "OverlapBoxCommand");

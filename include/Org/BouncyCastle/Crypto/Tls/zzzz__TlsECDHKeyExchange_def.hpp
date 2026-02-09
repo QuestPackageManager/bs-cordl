@@ -51,169 +51,164 @@ namespace Org::BouncyCastle::Crypto::Tls {
 // CS Name: Org.BouncyCastle.Crypto.Tls.TlsECDHKeyExchange
 class CORDL_TYPE TlsECDHKeyExchange : public ::Org::BouncyCastle::Crypto::Tls::AbstractTlsKeyExchange {
 public:
-  // Declarations
-  __declspec(property(get = get_RequiresServerKeyExchange)) bool RequiresServerKeyExchange;
+// Declarations
+ __declspec(property(get=get_RequiresServerKeyExchange)) bool  RequiresServerKeyExchange;
 
-  /// @brief Field mAgreementCredentials, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_mAgreementCredentials,
-                      put = __cordl_internal_set_mAgreementCredentials)) ::Org::BouncyCastle::Crypto::Tls::TlsAgreementCredentials* mAgreementCredentials;
+/// @brief Field mAgreementCredentials, offset 0x50, size 0x8 
+ __declspec(property(get=__cordl_internal_get_mAgreementCredentials, put=__cordl_internal_set_mAgreementCredentials)) ::Org::BouncyCastle::Crypto::Tls::TlsAgreementCredentials*  mAgreementCredentials;
 
-  /// @brief Field mClientECPointFormats, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_mClientECPointFormats, put = __cordl_internal_set_mClientECPointFormats)) ::ArrayW<uint8_t, ::Array<uint8_t>*> mClientECPointFormats;
+/// @brief Field mClientECPointFormats, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get_mClientECPointFormats, put=__cordl_internal_set_mClientECPointFormats)) ::ArrayW<uint8_t,::Array<uint8_t>*>  mClientECPointFormats;
 
-  /// @brief Field mECAgreePrivateKey, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get_mECAgreePrivateKey,
-                      put = __cordl_internal_set_mECAgreePrivateKey)) ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* mECAgreePrivateKey;
+/// @brief Field mECAgreePrivateKey, offset 0x58, size 0x8 
+ __declspec(property(get=__cordl_internal_get_mECAgreePrivateKey, put=__cordl_internal_set_mECAgreePrivateKey)) ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters*  mECAgreePrivateKey;
 
-  /// @brief Field mECAgreePublicKey, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get_mECAgreePublicKey, put = __cordl_internal_set_mECAgreePublicKey)) ::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters* mECAgreePublicKey;
+/// @brief Field mECAgreePublicKey, offset 0x60, size 0x8 
+ __declspec(property(get=__cordl_internal_get_mECAgreePublicKey, put=__cordl_internal_set_mECAgreePublicKey)) ::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters*  mECAgreePublicKey;
 
-  /// @brief Field mNamedCurves, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_mNamedCurves, put = __cordl_internal_set_mNamedCurves)) ::ArrayW<int32_t, ::Array<int32_t>*> mNamedCurves;
+/// @brief Field mNamedCurves, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get_mNamedCurves, put=__cordl_internal_set_mNamedCurves)) ::ArrayW<int32_t,::Array<int32_t>*>  mNamedCurves;
 
-  /// @brief Field mServerECPointFormats, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_mServerECPointFormats, put = __cordl_internal_set_mServerECPointFormats)) ::ArrayW<uint8_t, ::Array<uint8_t>*> mServerECPointFormats;
+/// @brief Field mServerECPointFormats, offset 0x40, size 0x8 
+ __declspec(property(get=__cordl_internal_get_mServerECPointFormats, put=__cordl_internal_set_mServerECPointFormats)) ::ArrayW<uint8_t,::Array<uint8_t>*>  mServerECPointFormats;
 
-  /// @brief Field mServerPublicKey, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_mServerPublicKey, put = __cordl_internal_set_mServerPublicKey)) ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* mServerPublicKey;
+/// @brief Field mServerPublicKey, offset 0x48, size 0x8 
+ __declspec(property(get=__cordl_internal_get_mServerPublicKey, put=__cordl_internal_set_mServerPublicKey)) ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*  mServerPublicKey;
 
-  /// @brief Field mTlsSigner, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_mTlsSigner, put = __cordl_internal_set_mTlsSigner)) ::Org::BouncyCastle::Crypto::Tls::TlsSigner* mTlsSigner;
+/// @brief Field mTlsSigner, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get_mTlsSigner, put=__cordl_internal_set_mTlsSigner)) ::Org::BouncyCastle::Crypto::Tls::TlsSigner*  mTlsSigner;
 
-  /// @brief Method GenerateClientKeyExchange, addr 0x3388820, size 0x118, virtual true, abstract: false, final false
-  inline void GenerateClientKeyExchange(::System::IO::Stream* output);
+/// @brief Method GenerateClientKeyExchange, addr 0x3388770, size 0x118, virtual true, abstract: false, final false
+inline void GenerateClientKeyExchange(::System::IO::Stream*  output) ;
 
-  /// @brief Method GeneratePremasterSecret, addr 0x3388a48, size 0x128, virtual true, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GeneratePremasterSecret();
+/// @brief Method GeneratePremasterSecret, addr 0x3388998, size 0x128, virtual true, abstract: false, final false
+inline ::ArrayW<uint8_t,::Array<uint8_t>*> GeneratePremasterSecret() ;
 
-  /// @brief Method GenerateServerKeyExchange, addr 0x3388328, size 0x170, virtual true, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenerateServerKeyExchange();
+/// @brief Method GenerateServerKeyExchange, addr 0x3388278, size 0x170, virtual true, abstract: false, final false
+inline ::ArrayW<uint8_t,::Array<uint8_t>*> GenerateServerKeyExchange() ;
 
-  /// @brief Method Init, addr 0x3387cdc, size 0xd0, virtual true, abstract: false, final false
-  inline void Init(::Org::BouncyCastle::Crypto::Tls::TlsContext* context);
+/// @brief Method Init, addr 0x3387c2c, size 0xd0, virtual true, abstract: false, final false
+inline void Init(::Org::BouncyCastle::Crypto::Tls::TlsContext*  context) ;
 
-  static inline ::Org::BouncyCastle::Crypto::Tls::TlsECDHKeyExchange* New_ctor(int32_t keyExchange, ::System::Collections::IList* supportedSignatureAlgorithms,
-                                                                               ::ArrayW<int32_t, ::Array<int32_t>*> namedCurves, ::ArrayW<uint8_t, ::Array<uint8_t>*> clientECPointFormats,
-                                                                               ::ArrayW<uint8_t, ::Array<uint8_t>*> serverECPointFormats);
+static inline ::Org::BouncyCastle::Crypto::Tls::TlsECDHKeyExchange* New_ctor(int32_t  keyExchange, ::System::Collections::IList*  supportedSignatureAlgorithms, ::ArrayW<int32_t,::Array<int32_t>*>  namedCurves, ::ArrayW<uint8_t,::Array<uint8_t>*>  clientECPointFormats, ::ArrayW<uint8_t,::Array<uint8_t>*>  serverECPointFormats) ;
 
-  /// @brief Method ProcessClientCertificate, addr 0x3388938, size 0x48, virtual true, abstract: false, final false
-  inline void ProcessClientCertificate(::Org::BouncyCastle::Crypto::Tls::Certificate* clientCertificate);
+/// @brief Method ProcessClientCertificate, addr 0x3388888, size 0x48, virtual true, abstract: false, final false
+inline void ProcessClientCertificate(::Org::BouncyCastle::Crypto::Tls::Certificate*  clientCertificate) ;
 
-  /// @brief Method ProcessClientCredentials, addr 0x3388718, size 0x108, virtual true, abstract: false, final false
-  inline void ProcessClientCredentials(::Org::BouncyCastle::Crypto::Tls::TlsCredentials* clientCredentials);
+/// @brief Method ProcessClientCredentials, addr 0x3388668, size 0x108, virtual true, abstract: false, final false
+inline void ProcessClientCredentials(::Org::BouncyCastle::Crypto::Tls::TlsCredentials*  clientCredentials) ;
 
-  /// @brief Method ProcessClientKeyExchange, addr 0x3388980, size 0xc8, virtual true, abstract: false, final false
-  inline void ProcessClientKeyExchange(::System::IO::Stream* input);
+/// @brief Method ProcessClientKeyExchange, addr 0x33888d0, size 0xc8, virtual true, abstract: false, final false
+inline void ProcessClientKeyExchange(::System::IO::Stream*  input) ;
 
-  /// @brief Method ProcessServerCertificate, addr 0x3387e40, size 0x380, virtual true, abstract: false, final false
-  inline void ProcessServerCertificate(::Org::BouncyCastle::Crypto::Tls::Certificate* serverCertificate);
+/// @brief Method ProcessServerCertificate, addr 0x3387d90, size 0x380, virtual true, abstract: false, final false
+inline void ProcessServerCertificate(::Org::BouncyCastle::Crypto::Tls::Certificate*  serverCertificate) ;
 
-  /// @brief Method ProcessServerKeyExchange, addr 0x3388498, size 0x118, virtual true, abstract: false, final false
-  inline void ProcessServerKeyExchange(::System::IO::Stream* input);
+/// @brief Method ProcessServerKeyExchange, addr 0x33883e8, size 0x118, virtual true, abstract: false, final false
+inline void ProcessServerKeyExchange(::System::IO::Stream*  input) ;
 
-  /// @brief Method SkipServerCredentials, addr 0x3387dac, size 0x48, virtual true, abstract: false, final false
-  inline void SkipServerCredentials();
+/// @brief Method SkipServerCredentials, addr 0x3387cfc, size 0x48, virtual true, abstract: false, final false
+inline void SkipServerCredentials() ;
 
-  /// @brief Method ValidateCertificateRequest, addr 0x3388644, size 0xd4, virtual true, abstract: false, final false
-  inline void ValidateCertificateRequest(::Org::BouncyCastle::Crypto::Tls::CertificateRequest* certificateRequest);
+/// @brief Method ValidateCertificateRequest, addr 0x3388594, size 0xd4, virtual true, abstract: false, final false
+inline void ValidateCertificateRequest(::Org::BouncyCastle::Crypto::Tls::CertificateRequest*  certificateRequest) ;
 
-  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsAgreementCredentials* const& __cordl_internal_get_mAgreementCredentials() const;
+constexpr ::Org::BouncyCastle::Crypto::Tls::TlsAgreementCredentials* const& __cordl_internal_get_mAgreementCredentials() const;
 
-  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsAgreementCredentials*& __cordl_internal_get_mAgreementCredentials();
+constexpr ::Org::BouncyCastle::Crypto::Tls::TlsAgreementCredentials*& __cordl_internal_get_mAgreementCredentials() ;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_mClientECPointFormats() const;
+constexpr ::ArrayW<uint8_t,::Array<uint8_t>*> const& __cordl_internal_get_mClientECPointFormats() const;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_mClientECPointFormats();
+constexpr ::ArrayW<uint8_t,::Array<uint8_t>*>& __cordl_internal_get_mClientECPointFormats() ;
 
-  constexpr ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* const& __cordl_internal_get_mECAgreePrivateKey() const;
+constexpr ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* const& __cordl_internal_get_mECAgreePrivateKey() const;
 
-  constexpr ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters*& __cordl_internal_get_mECAgreePrivateKey();
+constexpr ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters*& __cordl_internal_get_mECAgreePrivateKey() ;
 
-  constexpr ::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters* const& __cordl_internal_get_mECAgreePublicKey() const;
+constexpr ::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters* const& __cordl_internal_get_mECAgreePublicKey() const;
 
-  constexpr ::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters*& __cordl_internal_get_mECAgreePublicKey();
+constexpr ::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters*& __cordl_internal_get_mECAgreePublicKey() ;
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_mNamedCurves() const;
+constexpr ::ArrayW<int32_t,::Array<int32_t>*> const& __cordl_internal_get_mNamedCurves() const;
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_mNamedCurves();
+constexpr ::ArrayW<int32_t,::Array<int32_t>*>& __cordl_internal_get_mNamedCurves() ;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_mServerECPointFormats() const;
+constexpr ::ArrayW<uint8_t,::Array<uint8_t>*> const& __cordl_internal_get_mServerECPointFormats() const;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_mServerECPointFormats();
+constexpr ::ArrayW<uint8_t,::Array<uint8_t>*>& __cordl_internal_get_mServerECPointFormats() ;
 
-  constexpr ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* const& __cordl_internal_get_mServerPublicKey() const;
+constexpr ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* const& __cordl_internal_get_mServerPublicKey() const;
 
-  constexpr ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*& __cordl_internal_get_mServerPublicKey();
+constexpr ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*& __cordl_internal_get_mServerPublicKey() ;
 
-  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsSigner* const& __cordl_internal_get_mTlsSigner() const;
+constexpr ::Org::BouncyCastle::Crypto::Tls::TlsSigner* const& __cordl_internal_get_mTlsSigner() const;
 
-  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsSigner*& __cordl_internal_get_mTlsSigner();
+constexpr ::Org::BouncyCastle::Crypto::Tls::TlsSigner*& __cordl_internal_get_mTlsSigner() ;
 
-  constexpr void __cordl_internal_set_mAgreementCredentials(::Org::BouncyCastle::Crypto::Tls::TlsAgreementCredentials* value);
+constexpr void __cordl_internal_set_mAgreementCredentials(::Org::BouncyCastle::Crypto::Tls::TlsAgreementCredentials*  value) ;
 
-  constexpr void __cordl_internal_set_mClientECPointFormats(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+constexpr void __cordl_internal_set_mClientECPointFormats(::ArrayW<uint8_t,::Array<uint8_t>*>  value) ;
 
-  constexpr void __cordl_internal_set_mECAgreePrivateKey(::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* value);
+constexpr void __cordl_internal_set_mECAgreePrivateKey(::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters*  value) ;
 
-  constexpr void __cordl_internal_set_mECAgreePublicKey(::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters* value);
+constexpr void __cordl_internal_set_mECAgreePublicKey(::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters*  value) ;
 
-  constexpr void __cordl_internal_set_mNamedCurves(::ArrayW<int32_t, ::Array<int32_t>*> value);
+constexpr void __cordl_internal_set_mNamedCurves(::ArrayW<int32_t,::Array<int32_t>*>  value) ;
 
-  constexpr void __cordl_internal_set_mServerECPointFormats(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+constexpr void __cordl_internal_set_mServerECPointFormats(::ArrayW<uint8_t,::Array<uint8_t>*>  value) ;
 
-  constexpr void __cordl_internal_set_mServerPublicKey(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* value);
+constexpr void __cordl_internal_set_mServerPublicKey(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*  value) ;
 
-  constexpr void __cordl_internal_set_mTlsSigner(::Org::BouncyCastle::Crypto::Tls::TlsSigner* value);
+constexpr void __cordl_internal_set_mTlsSigner(::Org::BouncyCastle::Crypto::Tls::TlsSigner*  value) ;
 
-  /// @brief Method .ctor, addr 0x3387ba8, size 0x12c, virtual false, abstract: false, final false
-  inline void _ctor(int32_t keyExchange, ::System::Collections::IList* supportedSignatureAlgorithms, ::ArrayW<int32_t, ::Array<int32_t>*> namedCurves,
-                    ::ArrayW<uint8_t, ::Array<uint8_t>*> clientECPointFormats, ::ArrayW<uint8_t, ::Array<uint8_t>*> serverECPointFormats);
+/// @brief Method .ctor, addr 0x3387af8, size 0x12c, virtual false, abstract: false, final false
+inline void _ctor(int32_t  keyExchange, ::System::Collections::IList*  supportedSignatureAlgorithms, ::ArrayW<int32_t,::Array<int32_t>*>  namedCurves, ::ArrayW<uint8_t,::Array<uint8_t>*>  clientECPointFormats, ::ArrayW<uint8_t,::Array<uint8_t>*>  serverECPointFormats) ;
 
-  /// @brief Method get_RequiresServerKeyExchange, addr 0x338830c, size 0x1c, virtual true, abstract: false, final false
-  inline bool get_RequiresServerKeyExchange();
+/// @brief Method get_RequiresServerKeyExchange, addr 0x338825c, size 0x1c, virtual true, abstract: false, final false
+inline bool get_RequiresServerKeyExchange() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TlsECDHKeyExchange();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr TlsECDHKeyExchange() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TlsECDHKeyExchange", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  TlsECDHKeyExchange(TlsECDHKeyExchange&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TlsECDHKeyExchange", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  TlsECDHKeyExchange(TlsECDHKeyExchange const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "TlsECDHKeyExchange", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+TlsECDHKeyExchange(TlsECDHKeyExchange && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1304 };
+// Ctor Parameters [CppParam { name: "", ty: "TlsECDHKeyExchange", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+TlsECDHKeyExchange(TlsECDHKeyExchange const& ) = delete;
 
-  /// @brief Field mTlsSigner, offset: 0x28, size: 0x8, def value: None
-  ::Org::BouncyCastle::Crypto::Tls::TlsSigner* ___mTlsSigner;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{1304};
 
-  /// @brief Field mNamedCurves, offset: 0x30, size: 0x8, def value: None
-  ::ArrayW<int32_t, ::Array<int32_t>*> ___mNamedCurves;
+/// @brief Field mTlsSigner, offset: 0x28, size: 0x8, def value: None
+ ::Org::BouncyCastle::Crypto::Tls::TlsSigner*  ___mTlsSigner;
 
-  /// @brief Field mClientECPointFormats, offset: 0x38, size: 0x8, def value: None
-  ::ArrayW<uint8_t, ::Array<uint8_t>*> ___mClientECPointFormats;
+/// @brief Field mNamedCurves, offset: 0x30, size: 0x8, def value: None
+ ::ArrayW<int32_t,::Array<int32_t>*>  ___mNamedCurves;
 
-  /// @brief Field mServerECPointFormats, offset: 0x40, size: 0x8, def value: None
-  ::ArrayW<uint8_t, ::Array<uint8_t>*> ___mServerECPointFormats;
+/// @brief Field mClientECPointFormats, offset: 0x38, size: 0x8, def value: None
+ ::ArrayW<uint8_t,::Array<uint8_t>*>  ___mClientECPointFormats;
 
-  /// @brief Field mServerPublicKey, offset: 0x48, size: 0x8, def value: None
-  ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* ___mServerPublicKey;
+/// @brief Field mServerECPointFormats, offset: 0x40, size: 0x8, def value: None
+ ::ArrayW<uint8_t,::Array<uint8_t>*>  ___mServerECPointFormats;
 
-  /// @brief Field mAgreementCredentials, offset: 0x50, size: 0x8, def value: None
-  ::Org::BouncyCastle::Crypto::Tls::TlsAgreementCredentials* ___mAgreementCredentials;
+/// @brief Field mServerPublicKey, offset: 0x48, size: 0x8, def value: None
+ ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*  ___mServerPublicKey;
 
-  /// @brief Field mECAgreePrivateKey, offset: 0x58, size: 0x8, def value: None
-  ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* ___mECAgreePrivateKey;
+/// @brief Field mAgreementCredentials, offset: 0x50, size: 0x8, def value: None
+ ::Org::BouncyCastle::Crypto::Tls::TlsAgreementCredentials*  ___mAgreementCredentials;
 
-  /// @brief Field mECAgreePublicKey, offset: 0x60, size: 0x8, def value: None
-  ::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters* ___mECAgreePublicKey;
+/// @brief Field mECAgreePrivateKey, offset: 0x58, size: 0x8, def value: None
+ ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters*  ___mECAgreePrivateKey;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field mECAgreePublicKey, offset: 0x60, size: 0x8, def value: None
+ ::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters*  ___mECAgreePublicKey;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::TlsECDHKeyExchange, ___mTlsSigner) == 0x28, "Offset mismatch!");
@@ -234,6 +229,6 @@ static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::TlsECDHKeyExchange, ___
 
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Tls::TlsECDHKeyExchange, 0x68>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Crypto::Tls
+} // namespace end def Org::BouncyCastle::Crypto::Tls
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Tls::TlsECDHKeyExchange);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Tls::TlsECDHKeyExchange*, "Org.BouncyCastle.Crypto.Tls", "TlsECDHKeyExchange");

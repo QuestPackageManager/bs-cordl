@@ -2,134 +2,165 @@
 // IWYU pragma private; include "Unity/Collections/LowLevel/Unsafe/UnsafeAtomicCounter64.hpp"
 #include "Unity/Collections/LowLevel/Unsafe/zzzz__UnsafeAtomicCounter64_def.hpp"
 //  Writing Method size for method: ::Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter64._ctor
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter64::*)(void*)>(
-    &::Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter64::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter64::*)(void*)>(&::Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter64::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6317744;
+  constexpr static std::size_t addrs = 0x6317e04;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter64>::get(), ".ctor",
-                                                 std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<void*>::get() })));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter64>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<void*>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter64.Reset
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter64::*)(int64_t)>(
-    &::Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter64::Reset)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter64::*)(int64_t)>(&::Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter64::Reset)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x631774c;
+  constexpr static std::size_t addrs = 0x6317e0c;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter64>::get(), "Reset",
-                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get() })));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter64>::get(),
+                        "Reset",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter64.Add
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter64::*)(int64_t)>(
-    &::Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter64::Add)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter64::*)(int64_t)>(&::Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter64::Add)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x6317758;
+  constexpr static std::size_t addrs = 0x6317e18;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter64>::get(), "Add",
-                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get() })));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter64>::get(),
+                        "Add",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter64.Sub
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter64::*)(int64_t)>(
-    &::Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter64::Sub)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter64::*)(int64_t)>(&::Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter64::Sub)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x63177b4;
+  constexpr static std::size_t addrs = 0x6317e74;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter64>::get(), "Sub",
-                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get() })));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter64>::get(),
+                        "Sub",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter64.AddSat
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter64::*)(int64_t, int64_t)>(
-    &::Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter64::AddSat)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter64::*)(int64_t, int64_t)>(&::Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter64::AddSat)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x6317810;
+  constexpr static std::size_t addrs = 0x6317ed0;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter64>::get(), "AddSat", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter64>::get(),
+                        "AddSat",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter64.SubSat
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter64::*)(int64_t, int64_t)>(
-    &::Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter64::SubSat)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter64::*)(int64_t, int64_t)>(&::Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter64::SubSat)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x63178a0;
+  constexpr static std::size_t addrs = 0x6317f60;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter64>::get(), "SubSat", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter64>::get(),
+                        "SubSat",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get()}
+                    )));
     return ___internal_method;
   }
 };
-inline void Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter64::_ctor(void* ptr) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter64>::get(), ".ctor",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<void*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, ptr);
+inline void Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter64::_ctor(void*  ptr)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter64>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<void*>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, ptr);
 }
-inline void Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter64::Reset(int64_t value) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter64>::get(), "Reset",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter64::Reset(int64_t  value)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter64>::get(),
+                        "Reset",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline int64_t Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter64::Add(int64_t value) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter64>::get(), "Add",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<int64_t, false>(this, ___internal_method, value);
+inline int64_t Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter64::Add(int64_t  value)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter64>::get(),
+                        "Add",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<int64_t, false>(this, ___internal_method, value);
 }
-inline int64_t Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter64::Sub(int64_t value) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter64>::get(), "Sub",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<int64_t, false>(this, ___internal_method, value);
+inline int64_t Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter64::Sub(int64_t  value)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter64>::get(),
+                        "Sub",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<int64_t, false>(this, ___internal_method, value);
 }
-inline int64_t Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter64::AddSat(int64_t value, int64_t max) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter64>::get(), "AddSat", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<int64_t, false>(this, ___internal_method, value, max);
+inline int64_t Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter64::AddSat(int64_t  value, int64_t  max)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter64>::get(),
+                        "AddSat",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<int64_t, false>(this, ___internal_method, value, max);
 }
-inline int64_t Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter64::SubSat(int64_t value, int64_t min) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter64>::get(), "SubSat", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<int64_t, false>(this, ___internal_method, value, min);
+inline int64_t Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter64::SubSat(int64_t  value, int64_t  min)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter64>::get(),
+                        "SubSat",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<int64_t, false>(this, ___internal_method, value, min);
 }
 // Ctor Parameters [CppParam { name: "Counter", ty: "int64_t*", modifiers: "", def_value: Some("{}") }]
-constexpr ::Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter64::UnsafeAtomicCounter64(int64_t* Counter) noexcept {
-  this->Counter = Counter;
+constexpr ::Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter64::UnsafeAtomicCounter64(int64_t*  Counter) noexcept  {
+this->Counter = Counter;
 }
 // Ctor Parameters []
-constexpr ::Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter64::UnsafeAtomicCounter64() {}
+constexpr ::Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter64::UnsafeAtomicCounter64()   {
+}

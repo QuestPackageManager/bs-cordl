@@ -20,54 +20,54 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
 // CS Name: UnityEngine.ProBuilder.Poly2Tri.DTSweepEdgeEvent
 class CORDL_TYPE DTSweepEdgeEvent : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field ConstrainedEdge, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_ConstrainedEdge, put = __cordl_internal_set_ConstrainedEdge)) ::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint* ConstrainedEdge;
+// Declarations
+/// @brief Field ConstrainedEdge, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_ConstrainedEdge, put=__cordl_internal_set_ConstrainedEdge)) ::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*  ConstrainedEdge;
 
-  /// @brief Field Right, offset 0x18, size 0x1
-  __declspec(property(get = __cordl_internal_get_Right, put = __cordl_internal_set_Right)) bool Right;
+/// @brief Field Right, offset 0x18, size 0x1 
+ __declspec(property(get=__cordl_internal_get_Right, put=__cordl_internal_set_Right)) bool  Right;
 
-  static inline ::UnityEngine::ProBuilder::Poly2Tri::DTSweepEdgeEvent* New_ctor();
+static inline ::UnityEngine::ProBuilder::Poly2Tri::DTSweepEdgeEvent* New_ctor() ;
 
-  constexpr ::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint* const& __cordl_internal_get_ConstrainedEdge() const;
+constexpr ::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint* const& __cordl_internal_get_ConstrainedEdge() const;
 
-  constexpr ::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*& __cordl_internal_get_ConstrainedEdge();
+constexpr ::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*& __cordl_internal_get_ConstrainedEdge() ;
 
-  constexpr bool const& __cordl_internal_get_Right() const;
+constexpr bool const& __cordl_internal_get_Right() const;
 
-  constexpr bool& __cordl_internal_get_Right();
+constexpr bool& __cordl_internal_get_Right() ;
 
-  constexpr void __cordl_internal_set_ConstrainedEdge(::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint* value);
+constexpr void __cordl_internal_set_ConstrainedEdge(::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*  value) ;
 
-  constexpr void __cordl_internal_set_Right(bool value);
+constexpr void __cordl_internal_set_Right(bool  value) ;
 
-  /// @brief Method .ctor, addr 0x64f9cd4, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x64fa394, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DTSweepEdgeEvent();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr DTSweepEdgeEvent() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DTSweepEdgeEvent", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  DTSweepEdgeEvent(DTSweepEdgeEvent&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DTSweepEdgeEvent", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  DTSweepEdgeEvent(DTSweepEdgeEvent const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "DTSweepEdgeEvent", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+DTSweepEdgeEvent(DTSweepEdgeEvent && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21579 };
+// Ctor Parameters [CppParam { name: "", ty: "DTSweepEdgeEvent", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+DTSweepEdgeEvent(DTSweepEdgeEvent const& ) = delete;
 
-  /// @brief Field ConstrainedEdge, offset: 0x10, size: 0x8, def value: None
-  ::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint* ___ConstrainedEdge;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{21583};
 
-  /// @brief Field Right, offset: 0x18, size: 0x1, def value: None
-  bool ___Right;
+/// @brief Field ConstrainedEdge, offset: 0x10, size: 0x8, def value: None
+ ::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*  ___ConstrainedEdge;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field Right, offset: 0x18, size: 0x1, def value: None
+ bool  ___Right;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::ProBuilder::Poly2Tri::DTSweepEdgeEvent, ___ConstrainedEdge) == 0x10, "Offset mismatch!");
@@ -76,6 +76,6 @@ static_assert(offsetof(::UnityEngine::ProBuilder::Poly2Tri::DTSweepEdgeEvent, __
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::Poly2Tri::DTSweepEdgeEvent, 0x20>, "Size mismatch!");
 
-} // namespace UnityEngine::ProBuilder::Poly2Tri
+} // namespace end def UnityEngine::ProBuilder::Poly2Tri
 NEED_NO_BOX(::UnityEngine::ProBuilder::Poly2Tri::DTSweepEdgeEvent);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::Poly2Tri::DTSweepEdgeEvent*, "UnityEngine.ProBuilder.Poly2Tri", "DTSweepEdgeEvent");

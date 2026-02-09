@@ -6,7 +6,8 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(InstanceProvider)
 namespace System::Collections::Generic {
-template <typename T> class List_1;
+template<typename T>
+class List_1;
 }
 namespace System {
 class Action;
@@ -41,92 +42,91 @@ namespace Zenject {
 // CS Name: Zenject.InstanceProvider
 class CORDL_TYPE InstanceProvider : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(get = get_IsCached)) bool IsCached;
+// Declarations
+ __declspec(property(get=get_IsCached)) bool  IsCached;
 
-  __declspec(property(get = get_TypeVariesBasedOnMemberType)) bool TypeVariesBasedOnMemberType;
+ __declspec(property(get=get_TypeVariesBasedOnMemberType)) bool  TypeVariesBasedOnMemberType;
 
-  /// @brief Field _container, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__container, put = __cordl_internal_set__container)) ::Zenject::DiContainer* _container;
+/// @brief Field _container, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get__container, put=__cordl_internal_set__container)) ::Zenject::DiContainer*  _container;
 
-  /// @brief Field _instance, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__instance, put = __cordl_internal_set__instance)) ::System::Object* _instance;
+/// @brief Field _instance, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get__instance, put=__cordl_internal_set__instance)) ::System::Object*  _instance;
 
-  /// @brief Field _instanceType, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__instanceType, put = __cordl_internal_set__instanceType)) ::System::Type* _instanceType;
+/// @brief Field _instanceType, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get__instanceType, put=__cordl_internal_set__instanceType)) ::System::Type*  _instanceType;
 
-  /// @brief Convert operator to "::Zenject::IProvider"
-  constexpr operator ::Zenject::IProvider*() noexcept;
+/// @brief Convert operator to "::Zenject::IProvider"
+constexpr operator  ::Zenject::IProvider*() noexcept;
 
-  /// @brief Method GetAllInstancesWithInjectSplit, addr 0x6cba8bc, size 0x1d8, virtual true, abstract: false, final true
-  inline void GetAllInstancesWithInjectSplit(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ::ByRef<::System::Action*> injectAction,
-                                             ::System::Collections::Generic::List_1<::System::Object*>* buffer);
+/// @brief Method GetAllInstancesWithInjectSplit, addr 0x6cbaf7c, size 0x1d8, virtual true, abstract: false, final true
+inline void GetAllInstancesWithInjectSplit(::Zenject::InjectContext*  context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*  args, ::ByRef<::System::Action*>  injectAction, ::System::Collections::Generic::List_1<::System::Object*>*  buffer) ;
 
-  /// @brief Method GetInstanceType, addr 0x6cba8b4, size 0x8, virtual true, abstract: false, final true
-  inline ::System::Type* GetInstanceType(::Zenject::InjectContext* context);
+/// @brief Method GetInstanceType, addr 0x6cbaf74, size 0x8, virtual true, abstract: false, final true
+inline ::System::Type* GetInstanceType(::Zenject::InjectContext*  context) ;
 
-  static inline ::Zenject::InstanceProvider* New_ctor(::System::Type* instanceType, ::System::Object* instance, ::Zenject::DiContainer* container);
+static inline ::Zenject::InstanceProvider* New_ctor(::System::Type*  instanceType, ::System::Object*  instance, ::Zenject::DiContainer*  container) ;
 
-  /// @brief Method <GetAllInstancesWithInjectSplit>b__9_0, addr 0x6cbaa94, size 0x58, virtual false, abstract: false, final false
-  inline void _GetAllInstancesWithInjectSplit_b__9_0();
+/// @brief Method <GetAllInstancesWithInjectSplit>b__9_0, addr 0x6cbb154, size 0x58, virtual false, abstract: false, final false
+inline void _GetAllInstancesWithInjectSplit_b__9_0() ;
 
-  constexpr ::Zenject::DiContainer* const& __cordl_internal_get__container() const;
+constexpr ::Zenject::DiContainer* const& __cordl_internal_get__container() const;
 
-  constexpr ::Zenject::DiContainer*& __cordl_internal_get__container();
+constexpr ::Zenject::DiContainer*& __cordl_internal_get__container() ;
 
-  constexpr ::System::Object* const& __cordl_internal_get__instance() const;
+constexpr ::System::Object* const& __cordl_internal_get__instance() const;
 
-  constexpr ::System::Object*& __cordl_internal_get__instance();
+constexpr ::System::Object*& __cordl_internal_get__instance() ;
 
-  constexpr ::System::Type* const& __cordl_internal_get__instanceType() const;
+constexpr ::System::Type* const& __cordl_internal_get__instanceType() const;
 
-  constexpr ::System::Type*& __cordl_internal_get__instanceType();
+constexpr ::System::Type*& __cordl_internal_get__instanceType() ;
 
-  constexpr void __cordl_internal_set__container(::Zenject::DiContainer* value);
+constexpr void __cordl_internal_set__container(::Zenject::DiContainer*  value) ;
 
-  constexpr void __cordl_internal_set__instance(::System::Object* value);
+constexpr void __cordl_internal_set__instance(::System::Object*  value) ;
 
-  constexpr void __cordl_internal_set__instanceType(::System::Type* value);
+constexpr void __cordl_internal_set__instanceType(::System::Type*  value) ;
 
-  /// @brief Method .ctor, addr 0x6cba898, size 0xc, virtual false, abstract: false, final false
-  inline void _ctor(::System::Type* instanceType, ::System::Object* instance, ::Zenject::DiContainer* container);
+/// @brief Method .ctor, addr 0x6cbaf58, size 0xc, virtual false, abstract: false, final false
+inline void _ctor(::System::Type*  instanceType, ::System::Object*  instance, ::Zenject::DiContainer*  container) ;
 
-  /// @brief Method get_IsCached, addr 0x6cba8a4, size 0x8, virtual true, abstract: false, final true
-  inline bool get_IsCached();
+/// @brief Method get_IsCached, addr 0x6cbaf64, size 0x8, virtual true, abstract: false, final true
+inline bool get_IsCached() ;
 
-  /// @brief Method get_TypeVariesBasedOnMemberType, addr 0x6cba8ac, size 0x8, virtual true, abstract: false, final true
-  inline bool get_TypeVariesBasedOnMemberType();
+/// @brief Method get_TypeVariesBasedOnMemberType, addr 0x6cbaf6c, size 0x8, virtual true, abstract: false, final true
+inline bool get_TypeVariesBasedOnMemberType() ;
 
-  /// @brief Convert to "::Zenject::IProvider"
-  constexpr ::Zenject::IProvider* i___Zenject__IProvider() noexcept;
+/// @brief Convert to "::Zenject::IProvider"
+constexpr ::Zenject::IProvider* i___Zenject__IProvider() noexcept;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr InstanceProvider();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr InstanceProvider() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InstanceProvider", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  InstanceProvider(InstanceProvider&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InstanceProvider", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  InstanceProvider(InstanceProvider const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "InstanceProvider", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+InstanceProvider(InstanceProvider && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14530 };
+// Ctor Parameters [CppParam { name: "", ty: "InstanceProvider", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+InstanceProvider(InstanceProvider const& ) = delete;
 
-  /// @brief Field _instance, offset: 0x10, size: 0x8, def value: None
-  ::System::Object* ____instance;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{14534};
 
-  /// @brief Field _instanceType, offset: 0x18, size: 0x8, def value: None
-  ::System::Type* ____instanceType;
+/// @brief Field _instance, offset: 0x10, size: 0x8, def value: None
+ ::System::Object*  ____instance;
 
-  /// @brief Field _container, offset: 0x20, size: 0x8, def value: None
-  ::Zenject::DiContainer* ____container;
+/// @brief Field _instanceType, offset: 0x18, size: 0x8, def value: None
+ ::System::Type*  ____instanceType;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _container, offset: 0x20, size: 0x8, def value: None
+ ::Zenject::DiContainer*  ____container;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Zenject::InstanceProvider, ____instance) == 0x10, "Offset mismatch!");
@@ -137,6 +137,6 @@ static_assert(offsetof(::Zenject::InstanceProvider, ____container) == 0x20, "Off
 
 static_assert(::cordl_internals::size_check_v<::Zenject::InstanceProvider, 0x28>, "Size mismatch!");
 
-} // namespace Zenject
+} // namespace end def Zenject
 NEED_NO_BOX(::Zenject::InstanceProvider);
 DEFINE_IL2CPP_ARG_TYPE(::Zenject::InstanceProvider*, "Zenject", "InstanceProvider");

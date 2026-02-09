@@ -27,37 +27,37 @@ namespace System::Net {
 // CS Name: System.Net.HttpContinueDelegate
 class CORDL_TYPE HttpContinueDelegate : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method Invoke, addr 0x6258ba8, size 0x14, virtual true, abstract: false, final false
-  inline void Invoke(int32_t StatusCode, ::System::Net::WebHeaderCollection* httpHeaders);
+// Declarations
+/// @brief Method Invoke, addr 0x6259268, size 0x14, virtual true, abstract: false, final false
+inline void Invoke(int32_t  StatusCode, ::System::Net::WebHeaderCollection*  httpHeaders) ;
 
-  static inline ::System::Net::HttpContinueDelegate* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::System::Net::HttpContinueDelegate* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x6258b3c, size 0x6c, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x62591fc, size 0x6c, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HttpContinueDelegate();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr HttpContinueDelegate() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HttpContinueDelegate", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  HttpContinueDelegate(HttpContinueDelegate&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HttpContinueDelegate", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  HttpContinueDelegate(HttpContinueDelegate const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "HttpContinueDelegate", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+HttpContinueDelegate(HttpContinueDelegate && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11477 };
+// Ctor Parameters [CppParam { name: "", ty: "HttpContinueDelegate", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+HttpContinueDelegate(HttpContinueDelegate const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11481};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::HttpContinueDelegate, 0x80>, "Size mismatch!");
 
-} // namespace System::Net
+} // namespace end def System::Net
 NEED_NO_BOX(::System::Net::HttpContinueDelegate);
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::HttpContinueDelegate*, "System.Net", "HttpContinueDelegate");

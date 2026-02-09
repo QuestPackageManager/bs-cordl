@@ -43,224 +43,212 @@ namespace GlobalNamespace {
 // CS Name: MissionObjectiveCheckersManager/InitData
 class CORDL_TYPE MissionObjectiveCheckersManager_InitData : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field missionObjectives, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_missionObjectives,
-                      put = __cordl_internal_set_missionObjectives)) ::ArrayW<::GlobalNamespace::MissionObjective*, ::Array<::GlobalNamespace::MissionObjective*>*>
-      missionObjectives;
+// Declarations
+/// @brief Field missionObjectives, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_missionObjectives, put=__cordl_internal_set_missionObjectives)) ::ArrayW<::GlobalNamespace::MissionObjective*,::Array<::GlobalNamespace::MissionObjective*>*>  missionObjectives;
 
-  static inline ::GlobalNamespace::MissionObjectiveCheckersManager_InitData* New_ctor(::ArrayW<::GlobalNamespace::MissionObjective*, ::Array<::GlobalNamespace::MissionObjective*>*> missionObjectives);
+static inline ::GlobalNamespace::MissionObjectiveCheckersManager_InitData* New_ctor(::ArrayW<::GlobalNamespace::MissionObjective*,::Array<::GlobalNamespace::MissionObjective*>*>  missionObjectives) ;
 
-  constexpr ::ArrayW<::GlobalNamespace::MissionObjective*, ::Array<::GlobalNamespace::MissionObjective*>*> const& __cordl_internal_get_missionObjectives() const;
+constexpr ::ArrayW<::GlobalNamespace::MissionObjective*,::Array<::GlobalNamespace::MissionObjective*>*> const& __cordl_internal_get_missionObjectives() const;
 
-  constexpr ::ArrayW<::GlobalNamespace::MissionObjective*, ::Array<::GlobalNamespace::MissionObjective*>*>& __cordl_internal_get_missionObjectives();
+constexpr ::ArrayW<::GlobalNamespace::MissionObjective*,::Array<::GlobalNamespace::MissionObjective*>*>& __cordl_internal_get_missionObjectives() ;
 
-  constexpr void __cordl_internal_set_missionObjectives(::ArrayW<::GlobalNamespace::MissionObjective*, ::Array<::GlobalNamespace::MissionObjective*>*> value);
+constexpr void __cordl_internal_set_missionObjectives(::ArrayW<::GlobalNamespace::MissionObjective*,::Array<::GlobalNamespace::MissionObjective*>*>  value) ;
 
-  /// @brief Method .ctor, addr 0x580b874, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::ArrayW<::GlobalNamespace::MissionObjective*, ::Array<::GlobalNamespace::MissionObjective*>*> missionObjectives);
+/// @brief Method .ctor, addr 0x580c1a4, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(::ArrayW<::GlobalNamespace::MissionObjective*,::Array<::GlobalNamespace::MissionObjective*>*>  missionObjectives) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MissionObjectiveCheckersManager_InitData();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr MissionObjectiveCheckersManager_InitData() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MissionObjectiveCheckersManager_InitData", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  MissionObjectiveCheckersManager_InitData(MissionObjectiveCheckersManager_InitData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MissionObjectiveCheckersManager_InitData", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  MissionObjectiveCheckersManager_InitData(MissionObjectiveCheckersManager_InitData const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "MissionObjectiveCheckersManager_InitData", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+MissionObjectiveCheckersManager_InitData(MissionObjectiveCheckersManager_InitData && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6052 };
+// Ctor Parameters [CppParam { name: "", ty: "MissionObjectiveCheckersManager_InitData", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+MissionObjectiveCheckersManager_InitData(MissionObjectiveCheckersManager_InitData const& ) = delete;
 
-  /// @brief Field missionObjectives, offset: 0x10, size: 0x8, def value: None
-  ::ArrayW<::GlobalNamespace::MissionObjective*, ::Array<::GlobalNamespace::MissionObjective*>*> ___missionObjectives;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6052};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field missionObjectives, offset: 0x10, size: 0x8, def value: None
+ ::ArrayW<::GlobalNamespace::MissionObjective*,::Array<::GlobalNamespace::MissionObjective*>*>  ___missionObjectives;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::MissionObjectiveCheckersManager_InitData, ___missionObjectives) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MissionObjectiveCheckersManager_InitData, 0x18>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 // Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: MissionObjectiveCheckersManager
 class CORDL_TYPE MissionObjectiveCheckersManager : public ::UnityEngine::MonoBehaviour {
 public:
-  // Declarations
-  using InitData = ::GlobalNamespace::MissionObjectiveCheckersManager_InitData;
+// Declarations
+using InitData = ::GlobalNamespace::MissionObjectiveCheckersManager_InitData;
 
-  /// @brief Field _activeMissionObjectiveCheckers, offset 0x50, size 0x8
-  __declspec(property(
-      get = __cordl_internal_get__activeMissionObjectiveCheckers,
-      put = __cordl_internal_set__activeMissionObjectiveCheckers)) ::ArrayW<::UnityW<::GlobalNamespace::MissionObjectiveChecker>, ::Array<::UnityW<::GlobalNamespace::MissionObjectiveChecker>>*>
-      _activeMissionObjectiveCheckers;
+/// @brief Field _activeMissionObjectiveCheckers, offset 0x50, size 0x8 
+ __declspec(property(get=__cordl_internal_get__activeMissionObjectiveCheckers, put=__cordl_internal_set__activeMissionObjectiveCheckers)) ::ArrayW<::UnityW<::GlobalNamespace::MissionObjectiveChecker>,::Array<::UnityW<::GlobalNamespace::MissionObjectiveChecker>>*>  _activeMissionObjectiveCheckers;
 
-  /// @brief Field _gameplayManager, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__gameplayManager, put = __cordl_internal_set__gameplayManager)) ::GlobalNamespace::ILevelEndActions* _gameplayManager;
+/// @brief Field _gameplayManager, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get__gameplayManager, put=__cordl_internal_set__gameplayManager)) ::GlobalNamespace::ILevelEndActions*  _gameplayManager;
 
-  /// @brief Field _initData, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__initData, put = __cordl_internal_set__initData)) ::GlobalNamespace::MissionObjectiveCheckersManager_InitData* _initData;
+/// @brief Field _initData, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get__initData, put=__cordl_internal_set__initData)) ::GlobalNamespace::MissionObjectiveCheckersManager_InitData*  _initData;
 
-  /// @brief Field _missionObjectiveCheckers, offset 0x20, size 0x8
-  __declspec(property(
-      get = __cordl_internal_get__missionObjectiveCheckers,
-      put = __cordl_internal_set__missionObjectiveCheckers)) ::ArrayW<::UnityW<::GlobalNamespace::MissionObjectiveChecker>, ::Array<::UnityW<::GlobalNamespace::MissionObjectiveChecker>>*>
-      _missionObjectiveCheckers;
+/// @brief Field _missionObjectiveCheckers, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get__missionObjectiveCheckers, put=__cordl_internal_set__missionObjectiveCheckers)) ::ArrayW<::UnityW<::GlobalNamespace::MissionObjectiveChecker>,::Array<::UnityW<::GlobalNamespace::MissionObjectiveChecker>>*>  _missionObjectiveCheckers;
 
-  __declspec(property(get = get_activeMissionObjectiveCheckers)) ::ArrayW<::UnityW<::GlobalNamespace::MissionObjectiveChecker>, ::Array<::UnityW<::GlobalNamespace::MissionObjectiveChecker>>*>
-      activeMissionObjectiveCheckers;
+ __declspec(property(get=get_activeMissionObjectiveCheckers)) ::ArrayW<::UnityW<::GlobalNamespace::MissionObjectiveChecker>,::Array<::UnityW<::GlobalNamespace::MissionObjectiveChecker>>*>  activeMissionObjectiveCheckers;
 
-  /// @brief Field objectiveDidFailEvent, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_objectiveDidFailEvent, put = __cordl_internal_set_objectiveDidFailEvent)) ::System::Action* objectiveDidFailEvent;
+/// @brief Field objectiveDidFailEvent, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get_objectiveDidFailEvent, put=__cordl_internal_set_objectiveDidFailEvent)) ::System::Action*  objectiveDidFailEvent;
 
-  /// @brief Field objectiveWasClearedEvent, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_objectiveWasClearedEvent, put = __cordl_internal_set_objectiveWasClearedEvent)) ::System::Action* objectiveWasClearedEvent;
+/// @brief Field objectiveWasClearedEvent, offset 0x40, size 0x8 
+ __declspec(property(get=__cordl_internal_get_objectiveWasClearedEvent, put=__cordl_internal_set_objectiveWasClearedEvent)) ::System::Action*  objectiveWasClearedEvent;
 
-  /// @brief Field objectivesListDidChangeEvent, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_objectivesListDidChangeEvent, put = __cordl_internal_set_objectivesListDidChangeEvent)) ::System::Action* objectivesListDidChangeEvent;
+/// @brief Field objectivesListDidChangeEvent, offset 0x48, size 0x8 
+ __declspec(property(get=__cordl_internal_get_objectivesListDidChangeEvent, put=__cordl_internal_set_objectivesListDidChangeEvent)) ::System::Action*  objectivesListDidChangeEvent;
 
-  /// @brief Method GetMissionObjectiveChecker, addr 0x580b674, size 0xcc, virtual false, abstract: false, final false
-  inline ::UnityW<::GlobalNamespace::MissionObjectiveChecker> GetMissionObjectiveChecker(::GlobalNamespace::MissionObjectiveTypeSO* missionObjectiveType);
+/// @brief Method GetMissionObjectiveChecker, addr 0x580bfa4, size 0xcc, virtual false, abstract: false, final false
+inline ::UnityW<::GlobalNamespace::MissionObjectiveChecker> GetMissionObjectiveChecker(::GlobalNamespace::MissionObjectiveTypeSO*  missionObjectiveType) ;
 
-  /// @brief Method GetResults, addr 0x58077a8, size 0x194, virtual false, abstract: false, final false
-  inline ::ArrayW<::GlobalNamespace::MissionObjectiveResult*, ::Array<::GlobalNamespace::MissionObjectiveResult*>*> GetResults();
+/// @brief Method GetResults, addr 0x58080d8, size 0x194, virtual false, abstract: false, final false
+inline ::ArrayW<::GlobalNamespace::MissionObjectiveResult*,::Array<::GlobalNamespace::MissionObjectiveResult*>*> GetResults() ;
 
-  /// @brief Method HandleLevelFailed, addr 0x580b740, size 0x4, virtual false, abstract: false, final false
-  inline void HandleLevelFailed();
+/// @brief Method HandleLevelFailed, addr 0x580c070, size 0x4, virtual false, abstract: false, final false
+inline void HandleLevelFailed() ;
 
-  /// @brief Method HandleLevelFinished, addr 0x580b814, size 0x4, virtual false, abstract: false, final false
-  inline void HandleLevelFinished();
+/// @brief Method HandleLevelFinished, addr 0x580c144, size 0x4, virtual false, abstract: false, final false
+inline void HandleLevelFinished() ;
 
-  /// @brief Method HandleMissionObjectiveCheckerStatusDidChange, addr 0x580b630, size 0x44, virtual false, abstract: false, final false
-  inline void HandleMissionObjectiveCheckerStatusDidChange(::GlobalNamespace::MissionObjectiveChecker* missionObjectiveChecker);
+/// @brief Method HandleMissionObjectiveCheckerStatusDidChange, addr 0x580bf60, size 0x44, virtual false, abstract: false, final false
+inline void HandleMissionObjectiveCheckerStatusDidChange(::GlobalNamespace::MissionObjectiveChecker*  missionObjectiveChecker) ;
 
-  static inline ::GlobalNamespace::MissionObjectiveCheckersManager* New_ctor();
+static inline ::GlobalNamespace::MissionObjectiveCheckersManager* New_ctor() ;
 
-  /// @brief Method OnDestroy, addr 0x580b44c, size 0x1e4, virtual false, abstract: false, final false
-  inline void OnDestroy();
+/// @brief Method OnDestroy, addr 0x580bd7c, size 0x1e4, virtual false, abstract: false, final false
+inline void OnDestroy() ;
 
-  /// @brief Method Start, addr 0x580aea4, size 0x5a8, virtual false, abstract: false, final false
-  inline void Start();
+/// @brief Method Start, addr 0x580b7d4, size 0x5a8, virtual false, abstract: false, final false
+inline void Start() ;
 
-  /// @brief Method StopChecking, addr 0x580b744, size 0xd0, virtual false, abstract: false, final false
-  inline void StopChecking();
+/// @brief Method StopChecking, addr 0x580c074, size 0xd0, virtual false, abstract: false, final false
+inline void StopChecking() ;
 
-  constexpr ::ArrayW<::UnityW<::GlobalNamespace::MissionObjectiveChecker>, ::Array<::UnityW<::GlobalNamespace::MissionObjectiveChecker>>*> const&
-  __cordl_internal_get__activeMissionObjectiveCheckers() const;
+constexpr ::ArrayW<::UnityW<::GlobalNamespace::MissionObjectiveChecker>,::Array<::UnityW<::GlobalNamespace::MissionObjectiveChecker>>*> const& __cordl_internal_get__activeMissionObjectiveCheckers() const;
 
-  constexpr ::ArrayW<::UnityW<::GlobalNamespace::MissionObjectiveChecker>, ::Array<::UnityW<::GlobalNamespace::MissionObjectiveChecker>>*>& __cordl_internal_get__activeMissionObjectiveCheckers();
+constexpr ::ArrayW<::UnityW<::GlobalNamespace::MissionObjectiveChecker>,::Array<::UnityW<::GlobalNamespace::MissionObjectiveChecker>>*>& __cordl_internal_get__activeMissionObjectiveCheckers() ;
 
-  constexpr ::GlobalNamespace::ILevelEndActions* const& __cordl_internal_get__gameplayManager() const;
+constexpr ::GlobalNamespace::ILevelEndActions* const& __cordl_internal_get__gameplayManager() const;
 
-  constexpr ::GlobalNamespace::ILevelEndActions*& __cordl_internal_get__gameplayManager();
+constexpr ::GlobalNamespace::ILevelEndActions*& __cordl_internal_get__gameplayManager() ;
 
-  constexpr ::GlobalNamespace::MissionObjectiveCheckersManager_InitData* const& __cordl_internal_get__initData() const;
+constexpr ::GlobalNamespace::MissionObjectiveCheckersManager_InitData* const& __cordl_internal_get__initData() const;
 
-  constexpr ::GlobalNamespace::MissionObjectiveCheckersManager_InitData*& __cordl_internal_get__initData();
+constexpr ::GlobalNamespace::MissionObjectiveCheckersManager_InitData*& __cordl_internal_get__initData() ;
 
-  constexpr ::ArrayW<::UnityW<::GlobalNamespace::MissionObjectiveChecker>, ::Array<::UnityW<::GlobalNamespace::MissionObjectiveChecker>>*> const&
-  __cordl_internal_get__missionObjectiveCheckers() const;
+constexpr ::ArrayW<::UnityW<::GlobalNamespace::MissionObjectiveChecker>,::Array<::UnityW<::GlobalNamespace::MissionObjectiveChecker>>*> const& __cordl_internal_get__missionObjectiveCheckers() const;
 
-  constexpr ::ArrayW<::UnityW<::GlobalNamespace::MissionObjectiveChecker>, ::Array<::UnityW<::GlobalNamespace::MissionObjectiveChecker>>*>& __cordl_internal_get__missionObjectiveCheckers();
+constexpr ::ArrayW<::UnityW<::GlobalNamespace::MissionObjectiveChecker>,::Array<::UnityW<::GlobalNamespace::MissionObjectiveChecker>>*>& __cordl_internal_get__missionObjectiveCheckers() ;
 
-  constexpr ::System::Action* const& __cordl_internal_get_objectiveDidFailEvent() const;
+constexpr ::System::Action* const& __cordl_internal_get_objectiveDidFailEvent() const;
 
-  constexpr ::System::Action*& __cordl_internal_get_objectiveDidFailEvent();
+constexpr ::System::Action*& __cordl_internal_get_objectiveDidFailEvent() ;
 
-  constexpr ::System::Action* const& __cordl_internal_get_objectiveWasClearedEvent() const;
+constexpr ::System::Action* const& __cordl_internal_get_objectiveWasClearedEvent() const;
 
-  constexpr ::System::Action*& __cordl_internal_get_objectiveWasClearedEvent();
+constexpr ::System::Action*& __cordl_internal_get_objectiveWasClearedEvent() ;
 
-  constexpr ::System::Action* const& __cordl_internal_get_objectivesListDidChangeEvent() const;
+constexpr ::System::Action* const& __cordl_internal_get_objectivesListDidChangeEvent() const;
 
-  constexpr ::System::Action*& __cordl_internal_get_objectivesListDidChangeEvent();
+constexpr ::System::Action*& __cordl_internal_get_objectivesListDidChangeEvent() ;
 
-  constexpr void
-  __cordl_internal_set__activeMissionObjectiveCheckers(::ArrayW<::UnityW<::GlobalNamespace::MissionObjectiveChecker>, ::Array<::UnityW<::GlobalNamespace::MissionObjectiveChecker>>*> value);
+constexpr void __cordl_internal_set__activeMissionObjectiveCheckers(::ArrayW<::UnityW<::GlobalNamespace::MissionObjectiveChecker>,::Array<::UnityW<::GlobalNamespace::MissionObjectiveChecker>>*>  value) ;
 
-  constexpr void __cordl_internal_set__gameplayManager(::GlobalNamespace::ILevelEndActions* value);
+constexpr void __cordl_internal_set__gameplayManager(::GlobalNamespace::ILevelEndActions*  value) ;
 
-  constexpr void __cordl_internal_set__initData(::GlobalNamespace::MissionObjectiveCheckersManager_InitData* value);
+constexpr void __cordl_internal_set__initData(::GlobalNamespace::MissionObjectiveCheckersManager_InitData*  value) ;
 
-  constexpr void __cordl_internal_set__missionObjectiveCheckers(::ArrayW<::UnityW<::GlobalNamespace::MissionObjectiveChecker>, ::Array<::UnityW<::GlobalNamespace::MissionObjectiveChecker>>*> value);
+constexpr void __cordl_internal_set__missionObjectiveCheckers(::ArrayW<::UnityW<::GlobalNamespace::MissionObjectiveChecker>,::Array<::UnityW<::GlobalNamespace::MissionObjectiveChecker>>*>  value) ;
 
-  constexpr void __cordl_internal_set_objectiveDidFailEvent(::System::Action* value);
+constexpr void __cordl_internal_set_objectiveDidFailEvent(::System::Action*  value) ;
 
-  constexpr void __cordl_internal_set_objectiveWasClearedEvent(::System::Action* value);
+constexpr void __cordl_internal_set_objectiveWasClearedEvent(::System::Action*  value) ;
 
-  constexpr void __cordl_internal_set_objectivesListDidChangeEvent(::System::Action* value);
+constexpr void __cordl_internal_set_objectivesListDidChangeEvent(::System::Action*  value) ;
 
-  /// @brief Method .ctor, addr 0x580b818, size 0x5c, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x580c148, size 0x5c, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method add_objectiveDidFailEvent, addr 0x580aa94, size 0xac, virtual false, abstract: false, final false
-  inline void add_objectiveDidFailEvent(::System::Action* value);
+/// @brief Method add_objectiveDidFailEvent, addr 0x580b3c4, size 0xac, virtual false, abstract: false, final false
+inline void add_objectiveDidFailEvent(::System::Action*  value) ;
 
-  /// @brief Method add_objectiveWasClearedEvent, addr 0x580abec, size 0xac, virtual false, abstract: false, final false
-  inline void add_objectiveWasClearedEvent(::System::Action* value);
+/// @brief Method add_objectiveWasClearedEvent, addr 0x580b51c, size 0xac, virtual false, abstract: false, final false
+inline void add_objectiveWasClearedEvent(::System::Action*  value) ;
 
-  /// @brief Method add_objectivesListDidChangeEvent, addr 0x580ad44, size 0xac, virtual false, abstract: false, final false
-  inline void add_objectivesListDidChangeEvent(::System::Action* value);
+/// @brief Method add_objectivesListDidChangeEvent, addr 0x580b674, size 0xac, virtual false, abstract: false, final false
+inline void add_objectivesListDidChangeEvent(::System::Action*  value) ;
 
-  /// @brief Method get_activeMissionObjectiveCheckers, addr 0x580ae9c, size 0x8, virtual false, abstract: false, final false
-  inline ::ArrayW<::UnityW<::GlobalNamespace::MissionObjectiveChecker>, ::Array<::UnityW<::GlobalNamespace::MissionObjectiveChecker>>*> get_activeMissionObjectiveCheckers();
+/// @brief Method get_activeMissionObjectiveCheckers, addr 0x580b7cc, size 0x8, virtual false, abstract: false, final false
+inline ::ArrayW<::UnityW<::GlobalNamespace::MissionObjectiveChecker>,::Array<::UnityW<::GlobalNamespace::MissionObjectiveChecker>>*> get_activeMissionObjectiveCheckers() ;
 
-  /// @brief Method remove_objectiveDidFailEvent, addr 0x580ab40, size 0xac, virtual false, abstract: false, final false
-  inline void remove_objectiveDidFailEvent(::System::Action* value);
+/// @brief Method remove_objectiveDidFailEvent, addr 0x580b470, size 0xac, virtual false, abstract: false, final false
+inline void remove_objectiveDidFailEvent(::System::Action*  value) ;
 
-  /// @brief Method remove_objectiveWasClearedEvent, addr 0x580ac98, size 0xac, virtual false, abstract: false, final false
-  inline void remove_objectiveWasClearedEvent(::System::Action* value);
+/// @brief Method remove_objectiveWasClearedEvent, addr 0x580b5c8, size 0xac, virtual false, abstract: false, final false
+inline void remove_objectiveWasClearedEvent(::System::Action*  value) ;
 
-  /// @brief Method remove_objectivesListDidChangeEvent, addr 0x580adf0, size 0xac, virtual false, abstract: false, final false
-  inline void remove_objectivesListDidChangeEvent(::System::Action* value);
+/// @brief Method remove_objectivesListDidChangeEvent, addr 0x580b720, size 0xac, virtual false, abstract: false, final false
+inline void remove_objectivesListDidChangeEvent(::System::Action*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MissionObjectiveCheckersManager();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr MissionObjectiveCheckersManager() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MissionObjectiveCheckersManager", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  MissionObjectiveCheckersManager(MissionObjectiveCheckersManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MissionObjectiveCheckersManager", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  MissionObjectiveCheckersManager(MissionObjectiveCheckersManager const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "MissionObjectiveCheckersManager", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+MissionObjectiveCheckersManager(MissionObjectiveCheckersManager && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6053 };
+// Ctor Parameters [CppParam { name: "", ty: "MissionObjectiveCheckersManager", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+MissionObjectiveCheckersManager(MissionObjectiveCheckersManager const& ) = delete;
 
-  /// @brief Field _missionObjectiveCheckers, offset: 0x20, size: 0x8, def value: None
-  ::ArrayW<::UnityW<::GlobalNamespace::MissionObjectiveChecker>, ::Array<::UnityW<::GlobalNamespace::MissionObjectiveChecker>>*> ____missionObjectiveCheckers;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6053};
 
-  /// @brief Field _initData, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::MissionObjectiveCheckersManager_InitData* ____initData;
+/// @brief Field _missionObjectiveCheckers, offset: 0x20, size: 0x8, def value: None
+ ::ArrayW<::UnityW<::GlobalNamespace::MissionObjectiveChecker>,::Array<::UnityW<::GlobalNamespace::MissionObjectiveChecker>>*>  ____missionObjectiveCheckers;
 
-  /// @brief Field _gameplayManager, offset: 0x30, size: 0x8, def value: None
-  ::GlobalNamespace::ILevelEndActions* ____gameplayManager;
+/// @brief Field _initData, offset: 0x28, size: 0x8, def value: None
+ ::GlobalNamespace::MissionObjectiveCheckersManager_InitData*  ____initData;
 
-  /// @brief Field objectiveDidFailEvent, offset: 0x38, size: 0x8, def value: None
-  ::System::Action* ___objectiveDidFailEvent;
+/// @brief Field _gameplayManager, offset: 0x30, size: 0x8, def value: None
+ ::GlobalNamespace::ILevelEndActions*  ____gameplayManager;
 
-  /// @brief Field objectiveWasClearedEvent, offset: 0x40, size: 0x8, def value: None
-  ::System::Action* ___objectiveWasClearedEvent;
+/// @brief Field objectiveDidFailEvent, offset: 0x38, size: 0x8, def value: None
+ ::System::Action*  ___objectiveDidFailEvent;
 
-  /// @brief Field objectivesListDidChangeEvent, offset: 0x48, size: 0x8, def value: None
-  ::System::Action* ___objectivesListDidChangeEvent;
+/// @brief Field objectiveWasClearedEvent, offset: 0x40, size: 0x8, def value: None
+ ::System::Action*  ___objectiveWasClearedEvent;
 
-  /// @brief Field _activeMissionObjectiveCheckers, offset: 0x50, size: 0x8, def value: None
-  ::ArrayW<::UnityW<::GlobalNamespace::MissionObjectiveChecker>, ::Array<::UnityW<::GlobalNamespace::MissionObjectiveChecker>>*> ____activeMissionObjectiveCheckers;
+/// @brief Field objectivesListDidChangeEvent, offset: 0x48, size: 0x8, def value: None
+ ::System::Action*  ___objectivesListDidChangeEvent;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _activeMissionObjectiveCheckers, offset: 0x50, size: 0x8, def value: None
+ ::ArrayW<::UnityW<::GlobalNamespace::MissionObjectiveChecker>,::Array<::UnityW<::GlobalNamespace::MissionObjectiveChecker>>*>  ____activeMissionObjectiveCheckers;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::MissionObjectiveCheckersManager, ____missionObjectiveCheckers) == 0x20, "Offset mismatch!");
@@ -279,7 +267,7 @@ static_assert(offsetof(::GlobalNamespace::MissionObjectiveCheckersManager, ____a
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MissionObjectiveCheckersManager, 0x58>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MissionObjectiveCheckersManager);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MissionObjectiveCheckersManager*, "", "MissionObjectiveCheckersManager");
 NEED_NO_BOX(::GlobalNamespace::MissionObjectiveCheckersManager_InitData);

@@ -18,43 +18,43 @@ namespace OculusStudios::GraphQL::Client {
 // CS Name: OculusStudios.GraphQL.Client.HttpHeaderConstants
 class CORDL_TYPE HttpHeaderConstants : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field APPLICATION_JSON, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_APPLICATION_JSON, put = setStaticF_APPLICATION_JSON)) ::StringW APPLICATION_JSON;
+// Declarations
+/// @brief Field APPLICATION_JSON, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_APPLICATION_JSON, put=setStaticF_APPLICATION_JSON)) ::StringW  APPLICATION_JSON;
 
-  /// @brief Field APPLICATION_X_WWW_FORM_URLENCODED, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_APPLICATION_X_WWW_FORM_URLENCODED, put = setStaticF_APPLICATION_X_WWW_FORM_URLENCODED)) ::StringW APPLICATION_X_WWW_FORM_URLENCODED;
+/// @brief Field APPLICATION_X_WWW_FORM_URLENCODED, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_APPLICATION_X_WWW_FORM_URLENCODED, put=setStaticF_APPLICATION_X_WWW_FORM_URLENCODED)) ::StringW  APPLICATION_X_WWW_FORM_URLENCODED;
 
-  static inline ::StringW getStaticF_APPLICATION_JSON();
+static inline ::StringW getStaticF_APPLICATION_JSON() ;
 
-  static inline ::StringW getStaticF_APPLICATION_X_WWW_FORM_URLENCODED();
+static inline ::StringW getStaticF_APPLICATION_X_WWW_FORM_URLENCODED() ;
 
-  static inline void setStaticF_APPLICATION_JSON(::StringW value);
+static inline void setStaticF_APPLICATION_JSON(::StringW  value) ;
 
-  static inline void setStaticF_APPLICATION_X_WWW_FORM_URLENCODED(::StringW value);
+static inline void setStaticF_APPLICATION_X_WWW_FORM_URLENCODED(::StringW  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HttpHeaderConstants();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr HttpHeaderConstants() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HttpHeaderConstants", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  HttpHeaderConstants(HttpHeaderConstants&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HttpHeaderConstants", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  HttpHeaderConstants(HttpHeaderConstants const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "HttpHeaderConstants", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+HttpHeaderConstants(HttpHeaderConstants && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20192 };
+// Ctor Parameters [CppParam { name: "", ty: "HttpHeaderConstants", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+HttpHeaderConstants(HttpHeaderConstants const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20196};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OculusStudios::GraphQL::Client::HttpHeaderConstants, 0x10>, "Size mismatch!");
 
-} // namespace OculusStudios::GraphQL::Client
+} // namespace end def OculusStudios::GraphQL::Client
 NEED_NO_BOX(::OculusStudios::GraphQL::Client::HttpHeaderConstants);
 DEFINE_IL2CPP_ARG_TYPE(::OculusStudios::GraphQL::Client::HttpHeaderConstants*, "OculusStudios.GraphQL.Client", "HttpHeaderConstants");

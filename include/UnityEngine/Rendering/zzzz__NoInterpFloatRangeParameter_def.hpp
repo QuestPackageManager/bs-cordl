@@ -22,62 +22,62 @@ namespace UnityEngine::Rendering {
 // CS Name: UnityEngine.Rendering.NoInterpFloatRangeParameter
 class CORDL_TYPE NoInterpFloatRangeParameter : public ::UnityEngine::Rendering::VolumeParameter_1<::UnityEngine::Vector2> {
 public:
-  // Declarations
-  /// @brief Field max, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get_max, put = __cordl_internal_set_max)) float_t max;
+// Declarations
+/// @brief Field max, offset 0x20, size 0x4 
+ __declspec(property(get=__cordl_internal_get_max, put=__cordl_internal_set_max)) float_t  max;
 
-  /// @brief Field min, offset 0x1c, size 0x4
-  __declspec(property(get = __cordl_internal_get_min, put = __cordl_internal_set_min)) float_t min;
+/// @brief Field min, offset 0x1c, size 0x4 
+ __declspec(property(get=__cordl_internal_get_min, put=__cordl_internal_set_min)) float_t  min;
 
-  __declspec(property(get = get_value, put = set_value)) ::UnityEngine::Vector2 value;
+ __declspec(property(get=get_value, put=set_value)) ::UnityEngine::Vector2  value;
 
-  static inline ::UnityEngine::Rendering::NoInterpFloatRangeParameter* New_ctor(::UnityEngine::Vector2 value, float_t min, float_t max, bool overrideState);
+static inline ::UnityEngine::Rendering::NoInterpFloatRangeParameter* New_ctor(::UnityEngine::Vector2  value, float_t  min, float_t  max, bool  overrideState) ;
 
-  constexpr float_t const& __cordl_internal_get_max() const;
+constexpr float_t const& __cordl_internal_get_max() const;
 
-  constexpr float_t& __cordl_internal_get_max();
+constexpr float_t& __cordl_internal_get_max() ;
 
-  constexpr float_t const& __cordl_internal_get_min() const;
+constexpr float_t const& __cordl_internal_get_min() const;
 
-  constexpr float_t& __cordl_internal_get_min();
+constexpr float_t& __cordl_internal_get_min() ;
 
-  constexpr void __cordl_internal_set_max(float_t value);
+constexpr void __cordl_internal_set_max(float_t  value) ;
 
-  constexpr void __cordl_internal_set_min(float_t value);
+constexpr void __cordl_internal_set_min(float_t  value) ;
 
-  /// @brief Method .ctor, addr 0x6615f38, size 0x88, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::Vector2 value, float_t min, float_t max, bool overrideState);
+/// @brief Method .ctor, addr 0x66165f8, size 0x88, virtual false, abstract: false, final false
+inline void _ctor(::UnityEngine::Vector2  value, float_t  min, float_t  max, bool  overrideState) ;
 
-  /// @brief Method get_value, addr 0x6615f04, size 0x8, virtual true, abstract: false, final false
-  inline ::UnityEngine::Vector2 get_value();
+/// @brief Method get_value, addr 0x66165c4, size 0x8, virtual true, abstract: false, final false
+inline ::UnityEngine::Vector2 get_value() ;
 
-  /// @brief Method set_value, addr 0x6615f0c, size 0x2c, virtual true, abstract: false, final false
-  inline void set_value(::UnityEngine::Vector2 value);
+/// @brief Method set_value, addr 0x66165cc, size 0x2c, virtual true, abstract: false, final false
+inline void set_value(::UnityEngine::Vector2  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NoInterpFloatRangeParameter();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr NoInterpFloatRangeParameter() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NoInterpFloatRangeParameter", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  NoInterpFloatRangeParameter(NoInterpFloatRangeParameter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NoInterpFloatRangeParameter", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  NoInterpFloatRangeParameter(NoInterpFloatRangeParameter const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "NoInterpFloatRangeParameter", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+NoInterpFloatRangeParameter(NoInterpFloatRangeParameter && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12329 };
+// Ctor Parameters [CppParam { name: "", ty: "NoInterpFloatRangeParameter", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+NoInterpFloatRangeParameter(NoInterpFloatRangeParameter const& ) = delete;
 
-  /// @brief Field min, offset: 0x1c, size: 0x4, def value: None
-  float_t ___min;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12333};
 
-  /// @brief Field max, offset: 0x20, size: 0x4, def value: None
-  float_t ___max;
+/// @brief Field min, offset: 0x1c, size: 0x4, def value: None
+ float_t  ___min;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field max, offset: 0x20, size: 0x4, def value: None
+ float_t  ___max;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Rendering::NoInterpFloatRangeParameter, ___min) == 0x1c, "Offset mismatch!");
@@ -86,6 +86,6 @@ static_assert(offsetof(::UnityEngine::Rendering::NoInterpFloatRangeParameter, __
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::NoInterpFloatRangeParameter, 0x28>, "Size mismatch!");
 
-} // namespace UnityEngine::Rendering
+} // namespace end def UnityEngine::Rendering
 NEED_NO_BOX(::UnityEngine::Rendering::NoInterpFloatRangeParameter);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::NoInterpFloatRangeParameter*, "UnityEngine.Rendering", "NoInterpFloatRangeParameter");

@@ -4,53 +4,68 @@
 #include "GlobalNamespace/zzzz__AudioSettingsDspTimeProvider_def.hpp"
 #include "GlobalNamespace/zzzz__IDspTimeProvider_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::AudioSettingsDspTimeProvider.get_dspTime
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (::GlobalNamespace::AudioSettingsDspTimeProvider::*)()>(
-    &::GlobalNamespace::AudioSettingsDspTimeProvider::get_dspTime)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (::GlobalNamespace::AudioSettingsDspTimeProvider::*)()>(&::GlobalNamespace::AudioSettingsDspTimeProvider::get_dspTime)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x570c970;
+  constexpr static std::size_t addrs = 0x570c6f8;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AudioSettingsDspTimeProvider*>::get(),
-                                                                               "get_dspTime", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AudioSettingsDspTimeProvider*>::get(),
+                        "get_dspTime",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::AudioSettingsDspTimeProvider._ctor
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AudioSettingsDspTimeProvider::*)()>(
-    &::GlobalNamespace::AudioSettingsDspTimeProvider::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AudioSettingsDspTimeProvider::*)()>(&::GlobalNamespace::AudioSettingsDspTimeProvider::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x570c998;
+  constexpr static std::size_t addrs = 0x570c720;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AudioSettingsDspTimeProvider*>::get(), ".ctor",
-                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AudioSettingsDspTimeProvider*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
-inline double_t GlobalNamespace::AudioSettingsDspTimeProvider::get_dspTime() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AudioSettingsDspTimeProvider*>::get(),
-                                                                             "get_dspTime", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<double_t, false>(this, ___internal_method);
+inline double_t GlobalNamespace::AudioSettingsDspTimeProvider::get_dspTime()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AudioSettingsDspTimeProvider*>::get(),
+                        "get_dspTime",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<double_t, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::AudioSettingsDspTimeProvider::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AudioSettingsDspTimeProvider*>::get(), ".ctor",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::AudioSettingsDspTimeProvider::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AudioSettingsDspTimeProvider*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::AudioSettingsDspTimeProvider* GlobalNamespace::AudioSettingsDspTimeProvider::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::AudioSettingsDspTimeProvider*>());
+inline ::GlobalNamespace::AudioSettingsDspTimeProvider* GlobalNamespace::AudioSettingsDspTimeProvider::New_ctor()  {
+return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::AudioSettingsDspTimeProvider*>());
 }
 /// @brief Convert operator to "::GlobalNamespace::IDspTimeProvider"
-constexpr GlobalNamespace::AudioSettingsDspTimeProvider::operator ::GlobalNamespace::IDspTimeProvider*() noexcept {
-  return static_cast<::GlobalNamespace::IDspTimeProvider*>(static_cast<void*>(this));
+constexpr  GlobalNamespace::AudioSettingsDspTimeProvider::operator ::GlobalNamespace::IDspTimeProvider*() noexcept {
+return static_cast<::GlobalNamespace::IDspTimeProvider*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::GlobalNamespace::IDspTimeProvider"
 constexpr ::GlobalNamespace::IDspTimeProvider* GlobalNamespace::AudioSettingsDspTimeProvider::i___GlobalNamespace__IDspTimeProvider() noexcept {
-  return static_cast<::GlobalNamespace::IDspTimeProvider*>(static_cast<void*>(this));
+return static_cast<::GlobalNamespace::IDspTimeProvider*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::AudioSettingsDspTimeProvider::AudioSettingsDspTimeProvider() {}
+constexpr ::GlobalNamespace::AudioSettingsDspTimeProvider::AudioSettingsDspTimeProvider()   {
+}

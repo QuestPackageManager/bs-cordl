@@ -26,74 +26,74 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::ProgressBar_UxmlFactory);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.ProgressBar/UxmlFactory
-class CORDL_TYPE ProgressBar_UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::ProgressBar*, ::UnityEngine::UIElements::AbstractProgressBar_UxmlTraits*> {
+class CORDL_TYPE ProgressBar_UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::ProgressBar*,::UnityEngine::UIElements::AbstractProgressBar_UxmlTraits*> {
 public:
-  // Declarations
-  static inline ::UnityEngine::UIElements::ProgressBar_UxmlFactory* New_ctor();
+// Declarations
+static inline ::UnityEngine::UIElements::ProgressBar_UxmlFactory* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x6b992a8, size 0x68, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6b99968, size 0x68, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ProgressBar_UxmlFactory();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ProgressBar_UxmlFactory() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ProgressBar_UxmlFactory", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ProgressBar_UxmlFactory(ProgressBar_UxmlFactory&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ProgressBar_UxmlFactory", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ProgressBar_UxmlFactory(ProgressBar_UxmlFactory const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ProgressBar_UxmlFactory", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ProgressBar_UxmlFactory(ProgressBar_UxmlFactory && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4291 };
+// Ctor Parameters [CppParam { name: "", ty: "ProgressBar_UxmlFactory", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ProgressBar_UxmlFactory(ProgressBar_UxmlFactory const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4291};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::ProgressBar_UxmlFactory, 0x18>, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements
+} // namespace end def UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.AbstractProgressBar
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.ProgressBar
 class CORDL_TYPE ProgressBar : public ::UnityEngine::UIElements::AbstractProgressBar {
 public:
-  // Declarations
-  using UxmlFactory = ::UnityEngine::UIElements::ProgressBar_UxmlFactory;
+// Declarations
+using UxmlFactory = ::UnityEngine::UIElements::ProgressBar_UxmlFactory;
 
-  static inline ::UnityEngine::UIElements::ProgressBar* New_ctor();
+static inline ::UnityEngine::UIElements::ProgressBar* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x6b99250, size 0x58, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6b99910, size 0x58, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ProgressBar();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ProgressBar() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ProgressBar", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ProgressBar(ProgressBar&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ProgressBar", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ProgressBar(ProgressBar const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ProgressBar", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ProgressBar(ProgressBar && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4292 };
+// Ctor Parameters [CppParam { name: "", ty: "ProgressBar", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ProgressBar(ProgressBar const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4292};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::ProgressBar, 0x4e0>, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements
+} // namespace end def UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::ProgressBar);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::ProgressBar*, "UnityEngine.UIElements", "ProgressBar");
 NEED_NO_BOX(::UnityEngine::UIElements::ProgressBar_UxmlFactory);

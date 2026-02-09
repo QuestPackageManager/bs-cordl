@@ -22,49 +22,49 @@ namespace UnityEngine::Rendering::RenderGraphModule {
 // CS Name: UnityEngine.Rendering.RenderGraphModule.BufferPool
 class CORDL_TYPE BufferPool : public ::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourcePool_1<::UnityEngine::GraphicsBuffer*> {
 public:
-  // Declarations
-  /// @brief Method GetResourceName, addr 0x662d980, size 0x44, virtual true, abstract: false, final false
-  inline ::StringW GetResourceName(::ByRef<::UnityEngine::GraphicsBuffer*> res);
+// Declarations
+/// @brief Method GetResourceName, addr 0x662e040, size 0x44, virtual true, abstract: false, final false
+inline ::StringW GetResourceName(::ByRef<::UnityEngine::GraphicsBuffer*>  res) ;
 
-  /// @brief Method GetResourceSize, addr 0x662d9c4, size 0x44, virtual true, abstract: false, final false
-  inline int64_t GetResourceSize(::ByRef<::UnityEngine::GraphicsBuffer*> res);
+/// @brief Method GetResourceSize, addr 0x662e084, size 0x44, virtual true, abstract: false, final false
+inline int64_t GetResourceSize(::ByRef<::UnityEngine::GraphicsBuffer*>  res) ;
 
-  /// @brief Method GetResourceTypeName, addr 0x662da08, size 0x44, virtual true, abstract: false, final false
-  inline ::StringW GetResourceTypeName();
+/// @brief Method GetResourceTypeName, addr 0x662e0c8, size 0x44, virtual true, abstract: false, final false
+inline ::StringW GetResourceTypeName() ;
 
-  /// @brief Method GetSortIndex, addr 0x662da4c, size 0x20, virtual true, abstract: false, final false
-  inline int32_t GetSortIndex(::UnityEngine::GraphicsBuffer* res);
+/// @brief Method GetSortIndex, addr 0x662e10c, size 0x20, virtual true, abstract: false, final false
+inline int32_t GetSortIndex(::UnityEngine::GraphicsBuffer*  res) ;
 
-  static inline ::UnityEngine::Rendering::RenderGraphModule::BufferPool* New_ctor();
+static inline ::UnityEngine::Rendering::RenderGraphModule::BufferPool* New_ctor() ;
 
-  /// @brief Method ReleaseInternalResource, addr 0x662d96c, size 0x14, virtual true, abstract: false, final false
-  inline void ReleaseInternalResource(::UnityEngine::GraphicsBuffer* res);
+/// @brief Method ReleaseInternalResource, addr 0x662e02c, size 0x14, virtual true, abstract: false, final false
+inline void ReleaseInternalResource(::UnityEngine::GraphicsBuffer*  res) ;
 
-  /// @brief Method .ctor, addr 0x662da6c, size 0x74, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x662e12c, size 0x74, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BufferPool();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr BufferPool() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BufferPool", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  BufferPool(BufferPool&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BufferPool", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  BufferPool(BufferPool const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "BufferPool", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+BufferPool(BufferPool && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12417 };
+// Ctor Parameters [CppParam { name: "", ty: "BufferPool", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+BufferPool(BufferPool const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12421};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::RenderGraphModule::BufferPool, 0x20>, "Size mismatch!");
 
-} // namespace UnityEngine::Rendering::RenderGraphModule
+} // namespace end def UnityEngine::Rendering::RenderGraphModule
 NEED_NO_BOX(::UnityEngine::Rendering::RenderGraphModule::BufferPool);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::RenderGraphModule::BufferPool*, "UnityEngine.Rendering.RenderGraphModule", "BufferPool");

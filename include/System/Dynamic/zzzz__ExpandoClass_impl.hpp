@@ -7,225 +7,261 @@
 #include "System/Dynamic/zzzz__ExpandoObject_def.hpp"
 #include "System/zzzz__WeakReference_def.hpp"
 //  Writing Method size for method: ::System::Dynamic::ExpandoClass._ctor
-template <>
+template<>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Dynamic::ExpandoClass::*)()>(&::System::Dynamic::ExpandoClass::_ctor)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x5e0f6d8;
+  constexpr static std::size_t addrs = 0x5e0fd98;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoClass*>::get(), ".ctor",
-                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoClass*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Dynamic::ExpandoClass._ctor
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Dynamic::ExpandoClass::*)(::ArrayW<::StringW, ::Array<::StringW>*>, int32_t)>(
-    &::System::Dynamic::ExpandoClass::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Dynamic::ExpandoClass::*)(::ArrayW<::StringW,::Array<::StringW>*>, int32_t)>(&::System::Dynamic::ExpandoClass::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5e0f780;
+  constexpr static std::size_t addrs = 0x5e0fe40;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoClass*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-                                                 ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::StringW, ::Array<::StringW>*>>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoClass*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::StringW,::Array<::StringW>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Dynamic::ExpandoClass.FindNewClass
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Dynamic::ExpandoClass* (::System::Dynamic::ExpandoClass::*)(::StringW)>(
-    &::System::Dynamic::ExpandoClass::FindNewClass)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Dynamic::ExpandoClass* (::System::Dynamic::ExpandoClass::*)(::StringW)>(&::System::Dynamic::ExpandoClass::FindNewClass)> {
   constexpr static std::size_t size = 0x3ec;
-  constexpr static std::size_t addrs = 0x5e0f78c;
+  constexpr static std::size_t addrs = 0x5e0fe4c;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoClass*>::get(), "FindNewClass", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoClass*>::get(),
+                        "FindNewClass",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Dynamic::ExpandoClass.GetTransitionList
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::System::WeakReference*>* (::System::Dynamic::ExpandoClass::*)(int32_t)>(
-    &::System::Dynamic::ExpandoClass::GetTransitionList)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::System::WeakReference*>* (::System::Dynamic::ExpandoClass::*)(int32_t)>(&::System::Dynamic::ExpandoClass::GetTransitionList)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x5e0fb78;
+  constexpr static std::size_t addrs = 0x5e10238;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoClass*>::get(), "GetTransitionList", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoClass*>::get(),
+                        "GetTransitionList",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Dynamic::ExpandoClass.GetValueIndex
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Dynamic::ExpandoClass::*)(::StringW, bool, ::System::Dynamic::ExpandoObject*)>(
-    &::System::Dynamic::ExpandoClass::GetValueIndex)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Dynamic::ExpandoClass::*)(::StringW, bool, ::System::Dynamic::ExpandoObject*)>(&::System::Dynamic::ExpandoClass::GetValueIndex)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x5e0fcfc;
+  constexpr static std::size_t addrs = 0x5e103bc;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoClass*>::get(), "GetValueIndex", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Dynamic::ExpandoObject*>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoClass*>::get(),
+                        "GetValueIndex",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Dynamic::ExpandoObject*>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Dynamic::ExpandoClass.GetValueIndexCaseSensitive
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Dynamic::ExpandoClass::*)(::StringW)>(
-    &::System::Dynamic::ExpandoClass::GetValueIndexCaseSensitive)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Dynamic::ExpandoClass::*)(::StringW)>(&::System::Dynamic::ExpandoClass::GetValueIndexCaseSensitive)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x5e0fe88;
+  constexpr static std::size_t addrs = 0x5e10548;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoClass*>::get(), "GetValueIndexCaseSensitive",
-                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoClass*>::get(),
+                        "GetValueIndexCaseSensitive",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Dynamic::ExpandoClass.GetValueIndexCaseInsensitive
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Dynamic::ExpandoClass::*)(::StringW, ::System::Dynamic::ExpandoObject*)>(
-    &::System::Dynamic::ExpandoClass::GetValueIndexCaseInsensitive)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Dynamic::ExpandoClass::*)(::StringW, ::System::Dynamic::ExpandoObject*)>(&::System::Dynamic::ExpandoClass::GetValueIndexCaseInsensitive)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x5e0fd0c;
+  constexpr static std::size_t addrs = 0x5e103cc;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoClass*>::get(), "GetValueIndexCaseInsensitive", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Dynamic::ExpandoObject*>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoClass*>::get(),
+                        "GetValueIndexCaseInsensitive",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Dynamic::ExpandoObject*>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Dynamic::ExpandoClass.get_Keys
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::StringW, ::Array<::StringW>*> (::System::Dynamic::ExpandoClass::*)()>(
-    &::System::Dynamic::ExpandoClass::get_Keys)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::StringW,::Array<::StringW>*> (::System::Dynamic::ExpandoClass::*)()>(&::System::Dynamic::ExpandoClass::get_Keys)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e0ffac;
+  constexpr static std::size_t addrs = 0x5e1066c;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoClass*>::get(), "get_Keys",
-                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoClass*>::get(),
+                        "get_Keys",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
-constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& System::Dynamic::ExpandoClass::__cordl_internal_get__keys() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____keys;
+constexpr ::ArrayW<::StringW,::Array<::StringW>*>& System::Dynamic::ExpandoClass::__cordl_internal_get__keys()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____keys;
 }
-constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& System::Dynamic::ExpandoClass::__cordl_internal_get__keys() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____keys;
+constexpr ::ArrayW<::StringW,::Array<::StringW>*> const& System::Dynamic::ExpandoClass::__cordl_internal_get__keys() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____keys;
 }
-constexpr void System::Dynamic::ExpandoClass::__cordl_internal_set__keys(::ArrayW<::StringW, ::Array<::StringW>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____keys)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Dynamic::ExpandoClass::__cordl_internal_set__keys(::ArrayW<::StringW,::Array<::StringW>*>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____keys)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr int32_t& System::Dynamic::ExpandoClass::__cordl_internal_get__hashCode() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____hashCode;
+constexpr int32_t& System::Dynamic::ExpandoClass::__cordl_internal_get__hashCode()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____hashCode;
 }
 constexpr int32_t const& System::Dynamic::ExpandoClass::__cordl_internal_get__hashCode() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____hashCode;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____hashCode;
 }
-constexpr void System::Dynamic::ExpandoClass::__cordl_internal_set__hashCode(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____hashCode = value;
+constexpr void System::Dynamic::ExpandoClass::__cordl_internal_set__hashCode(int32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____hashCode = value;
 }
-constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::System::Collections::Generic::List_1<::System::WeakReference*>*>*&
-System::Dynamic::ExpandoClass::__cordl_internal_get__transitions() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____transitions;
+constexpr ::System::Collections::Generic::Dictionary_2<int32_t,::System::Collections::Generic::List_1<::System::WeakReference*>*>*& System::Dynamic::ExpandoClass::__cordl_internal_get__transitions()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____transitions;
 }
-constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::System::Collections::Generic::List_1<::System::WeakReference*>*>* const&
-System::Dynamic::ExpandoClass::__cordl_internal_get__transitions() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____transitions;
+constexpr ::System::Collections::Generic::Dictionary_2<int32_t,::System::Collections::Generic::List_1<::System::WeakReference*>*>* const& System::Dynamic::ExpandoClass::__cordl_internal_get__transitions() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____transitions;
 }
-constexpr void
-System::Dynamic::ExpandoClass::__cordl_internal_set__transitions(::System::Collections::Generic::Dictionary_2<int32_t, ::System::Collections::Generic::List_1<::System::WeakReference*>*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____transitions)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Dynamic::ExpandoClass::__cordl_internal_set__transitions(::System::Collections::Generic::Dictionary_2<int32_t,::System::Collections::Generic::List_1<::System::WeakReference*>*>*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____transitions)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void System::Dynamic::ExpandoClass::setStaticF_Empty(::System::Dynamic::ExpandoClass* value) {
-  ::cordl_internals::setStaticField<::System::Dynamic::ExpandoClass*, "Empty", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoClass*>::get>(
-      std::forward<::System::Dynamic::ExpandoClass*>(value));
+inline void System::Dynamic::ExpandoClass::setStaticF_Empty(::System::Dynamic::ExpandoClass*  value)  {
+::cordl_internals::setStaticField<::System::Dynamic::ExpandoClass*, "Empty", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoClass*>::get>(std::forward<::System::Dynamic::ExpandoClass*>(value));
 }
-inline ::System::Dynamic::ExpandoClass* System::Dynamic::ExpandoClass::getStaticF_Empty() {
-  return ::cordl_internals::getStaticField<::System::Dynamic::ExpandoClass*, "Empty", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoClass*>::get>();
+inline ::System::Dynamic::ExpandoClass* System::Dynamic::ExpandoClass::getStaticF_Empty()  {
+return ::cordl_internals::getStaticField<::System::Dynamic::ExpandoClass*, "Empty", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoClass*>::get>();
 }
-inline void System::Dynamic::ExpandoClass::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoClass*>::get(), ".ctor",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void System::Dynamic::ExpandoClass::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoClass*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void System::Dynamic::ExpandoClass::_ctor(::ArrayW<::StringW, ::Array<::StringW>*> keys, int32_t hashCode) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoClass*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::StringW, ::Array<::StringW>*>>::get(),
-                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, keys, hashCode);
+inline void System::Dynamic::ExpandoClass::_ctor(::ArrayW<::StringW,::Array<::StringW>*>  keys, int32_t  hashCode)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoClass*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::StringW,::Array<::StringW>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, keys, hashCode);
 }
-inline ::System::Dynamic::ExpandoClass* System::Dynamic::ExpandoClass::FindNewClass(::StringW newKey) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoClass*>::get(), "FindNewClass", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::System::Dynamic::ExpandoClass*, false>(this, ___internal_method, newKey);
+inline ::System::Dynamic::ExpandoClass* System::Dynamic::ExpandoClass::FindNewClass(::StringW  newKey)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoClass*>::get(),
+                        "FindNewClass",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Dynamic::ExpandoClass*, false>(this, ___internal_method, newKey);
 }
-inline ::System::Collections::Generic::List_1<::System::WeakReference*>* System::Dynamic::ExpandoClass::GetTransitionList(int32_t hashCode) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoClass*>::get(), "GetTransitionList",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<::System::WeakReference*>*, false>(this, ___internal_method, hashCode);
+inline ::System::Collections::Generic::List_1<::System::WeakReference*>* System::Dynamic::ExpandoClass::GetTransitionList(int32_t  hashCode)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoClass*>::get(),
+                        "GetTransitionList",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<::System::WeakReference*>*, false>(this, ___internal_method, hashCode);
 }
-inline int32_t System::Dynamic::ExpandoClass::GetValueIndex(::StringW name, bool caseInsensitive, ::System::Dynamic::ExpandoObject* obj) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoClass*>::get(), "GetValueIndex", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Dynamic::ExpandoObject*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, name, caseInsensitive, obj);
+inline int32_t System::Dynamic::ExpandoClass::GetValueIndex(::StringW  name, bool  caseInsensitive, ::System::Dynamic::ExpandoObject*  obj)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoClass*>::get(),
+                        "GetValueIndex",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Dynamic::ExpandoObject*>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, name, caseInsensitive, obj);
 }
-inline int32_t System::Dynamic::ExpandoClass::GetValueIndexCaseSensitive(::StringW name) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoClass*>::get(), "GetValueIndexCaseSensitive",
-                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
-  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, name);
+inline int32_t System::Dynamic::ExpandoClass::GetValueIndexCaseSensitive(::StringW  name)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoClass*>::get(),
+                        "GetValueIndexCaseSensitive",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, name);
 }
-inline int32_t System::Dynamic::ExpandoClass::GetValueIndexCaseInsensitive(::StringW name, ::System::Dynamic::ExpandoObject* obj) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoClass*>::get(), "GetValueIndexCaseInsensitive", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Dynamic::ExpandoObject*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, name, obj);
+inline int32_t System::Dynamic::ExpandoClass::GetValueIndexCaseInsensitive(::StringW  name, ::System::Dynamic::ExpandoObject*  obj)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoClass*>::get(),
+                        "GetValueIndexCaseInsensitive",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Dynamic::ExpandoObject*>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, name, obj);
 }
-inline ::ArrayW<::StringW, ::Array<::StringW>*> System::Dynamic::ExpandoClass::get_Keys() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoClass*>::get(), "get_Keys",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::ArrayW<::StringW, ::Array<::StringW>*>, false>(this, ___internal_method);
+inline ::ArrayW<::StringW,::Array<::StringW>*> System::Dynamic::ExpandoClass::get_Keys()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::ExpandoClass*>::get(),
+                        "get_Keys",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<::ArrayW<::StringW,::Array<::StringW>*>, false>(this, ___internal_method);
 }
-inline ::System::Dynamic::ExpandoClass* System::Dynamic::ExpandoClass::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Dynamic::ExpandoClass*>());
+inline ::System::Dynamic::ExpandoClass* System::Dynamic::ExpandoClass::New_ctor()  {
+return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Dynamic::ExpandoClass*>());
 }
-inline ::System::Dynamic::ExpandoClass* System::Dynamic::ExpandoClass::New_ctor(::ArrayW<::StringW, ::Array<::StringW>*> keys, int32_t hashCode) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Dynamic::ExpandoClass*>(keys, hashCode));
+inline ::System::Dynamic::ExpandoClass* System::Dynamic::ExpandoClass::New_ctor(::ArrayW<::StringW,::Array<::StringW>*>  keys, int32_t  hashCode)  {
+return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Dynamic::ExpandoClass*>(keys, hashCode));
 }
 // Ctor Parameters []
-constexpr ::System::Dynamic::ExpandoClass::ExpandoClass() {}
+constexpr ::System::Dynamic::ExpandoClass::ExpandoClass()   {
+}

@@ -20,70 +20,70 @@ namespace GlobalNamespace {
 // CS Name: PlayerVRControllersManager
 class CORDL_TYPE PlayerVRControllersManager : public ::UnityEngine::MonoBehaviour {
 public:
-  // Declarations
-  /// @brief Field _leftHandVRController, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__leftHandVRController, put = __cordl_internal_set__leftHandVRController)) ::UnityW<::GlobalNamespace::VRController> _leftHandVRController;
+// Declarations
+/// @brief Field _leftHandVRController, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get__leftHandVRController, put=__cordl_internal_set__leftHandVRController)) ::UnityW<::GlobalNamespace::VRController>  _leftHandVRController;
 
-  /// @brief Field _rightHandVRController, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__rightHandVRController, put = __cordl_internal_set__rightHandVRController)) ::UnityW<::GlobalNamespace::VRController> _rightHandVRController;
+/// @brief Field _rightHandVRController, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get__rightHandVRController, put=__cordl_internal_set__rightHandVRController)) ::UnityW<::GlobalNamespace::VRController>  _rightHandVRController;
 
-  __declspec(property(get = get_leftHandVRController)) ::UnityW<::GlobalNamespace::VRController> leftHandVRController;
+ __declspec(property(get=get_leftHandVRController)) ::UnityW<::GlobalNamespace::VRController>  leftHandVRController;
 
-  __declspec(property(get = get_rightHandVRController)) ::UnityW<::GlobalNamespace::VRController> rightHandVRController;
+ __declspec(property(get=get_rightHandVRController)) ::UnityW<::GlobalNamespace::VRController>  rightHandVRController;
 
-  /// @brief Method DisableAutoplayForAllControllers, addr 0x5841950, size 0x48, virtual false, abstract: false, final false
-  inline void DisableAutoplayForAllControllers();
+/// @brief Method DisableAutoplayForAllControllers, addr 0x5842280, size 0x48, virtual false, abstract: false, final false
+inline void DisableAutoplayForAllControllers() ;
 
-  static inline ::GlobalNamespace::PlayerVRControllersManager* New_ctor();
+static inline ::GlobalNamespace::PlayerVRControllersManager* New_ctor() ;
 
-  /// @brief Method SetupAutoplayForAllControllers, addr 0x5841904, size 0x4c, virtual false, abstract: false, final false
-  inline void SetupAutoplayForAllControllers();
+/// @brief Method SetupAutoplayForAllControllers, addr 0x5842234, size 0x4c, virtual false, abstract: false, final false
+inline void SetupAutoplayForAllControllers() ;
 
-  constexpr ::UnityW<::GlobalNamespace::VRController> const& __cordl_internal_get__leftHandVRController() const;
+constexpr ::UnityW<::GlobalNamespace::VRController> const& __cordl_internal_get__leftHandVRController() const;
 
-  constexpr ::UnityW<::GlobalNamespace::VRController>& __cordl_internal_get__leftHandVRController();
+constexpr ::UnityW<::GlobalNamespace::VRController>& __cordl_internal_get__leftHandVRController() ;
 
-  constexpr ::UnityW<::GlobalNamespace::VRController> const& __cordl_internal_get__rightHandVRController() const;
+constexpr ::UnityW<::GlobalNamespace::VRController> const& __cordl_internal_get__rightHandVRController() const;
 
-  constexpr ::UnityW<::GlobalNamespace::VRController>& __cordl_internal_get__rightHandVRController();
+constexpr ::UnityW<::GlobalNamespace::VRController>& __cordl_internal_get__rightHandVRController() ;
 
-  constexpr void __cordl_internal_set__leftHandVRController(::UnityW<::GlobalNamespace::VRController> value);
+constexpr void __cordl_internal_set__leftHandVRController(::UnityW<::GlobalNamespace::VRController>  value) ;
 
-  constexpr void __cordl_internal_set__rightHandVRController(::UnityW<::GlobalNamespace::VRController> value);
+constexpr void __cordl_internal_set__rightHandVRController(::UnityW<::GlobalNamespace::VRController>  value) ;
 
-  /// @brief Method .ctor, addr 0x5841998, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x58422c8, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_leftHandVRController, addr 0x58418f4, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityW<::GlobalNamespace::VRController> get_leftHandVRController();
+/// @brief Method get_leftHandVRController, addr 0x5842224, size 0x8, virtual false, abstract: false, final false
+inline ::UnityW<::GlobalNamespace::VRController> get_leftHandVRController() ;
 
-  /// @brief Method get_rightHandVRController, addr 0x58418fc, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityW<::GlobalNamespace::VRController> get_rightHandVRController();
+/// @brief Method get_rightHandVRController, addr 0x584222c, size 0x8, virtual false, abstract: false, final false
+inline ::UnityW<::GlobalNamespace::VRController> get_rightHandVRController() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PlayerVRControllersManager();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr PlayerVRControllersManager() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerVRControllersManager", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  PlayerVRControllersManager(PlayerVRControllersManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerVRControllersManager", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  PlayerVRControllersManager(PlayerVRControllersManager const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "PlayerVRControllersManager", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+PlayerVRControllersManager(PlayerVRControllersManager && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6221 };
+// Ctor Parameters [CppParam { name: "", ty: "PlayerVRControllersManager", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+PlayerVRControllersManager(PlayerVRControllersManager const& ) = delete;
 
-  /// @brief Field _leftHandVRController, offset: 0x20, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::VRController> ____leftHandVRController;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6221};
 
-  /// @brief Field _rightHandVRController, offset: 0x28, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::VRController> ____rightHandVRController;
+/// @brief Field _leftHandVRController, offset: 0x20, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::VRController>  ____leftHandVRController;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _rightHandVRController, offset: 0x28, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::VRController>  ____rightHandVRController;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::PlayerVRControllersManager, ____leftHandVRController) == 0x20, "Offset mismatch!");
@@ -92,6 +92,6 @@ static_assert(offsetof(::GlobalNamespace::PlayerVRControllersManager, ____rightH
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PlayerVRControllersManager, 0x30>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::PlayerVRControllersManager);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PlayerVRControllersManager*, "", "PlayerVRControllersManager");

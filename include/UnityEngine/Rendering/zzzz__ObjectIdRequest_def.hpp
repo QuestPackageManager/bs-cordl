@@ -20,49 +20,48 @@ namespace UnityEngine::Rendering {
 // CS Name: UnityEngine.Rendering.ObjectIdRequest
 class CORDL_TYPE ObjectIdRequest : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field <destination>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__destination_k__BackingField, put = __cordl_internal_set__destination_k__BackingField)) ::UnityW<::UnityEngine::RenderTexture>
-      _destination_k__BackingField;
+// Declarations
+/// @brief Field <destination>k__BackingField, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get__destination_k__BackingField, put=__cordl_internal_set__destination_k__BackingField)) ::UnityW<::UnityEngine::RenderTexture>  _destination_k__BackingField;
 
-  __declspec(property(get = get_destination)) ::UnityW<::UnityEngine::RenderTexture> destination;
+ __declspec(property(get=get_destination)) ::UnityW<::UnityEngine::RenderTexture>  destination;
 
-  constexpr ::UnityW<::UnityEngine::RenderTexture> const& __cordl_internal_get__destination_k__BackingField() const;
+constexpr ::UnityW<::UnityEngine::RenderTexture> const& __cordl_internal_get__destination_k__BackingField() const;
 
-  constexpr ::UnityW<::UnityEngine::RenderTexture>& __cordl_internal_get__destination_k__BackingField();
+constexpr ::UnityW<::UnityEngine::RenderTexture>& __cordl_internal_get__destination_k__BackingField() ;
 
-  constexpr void __cordl_internal_set__destination_k__BackingField(::UnityW<::UnityEngine::RenderTexture> value);
+constexpr void __cordl_internal_set__destination_k__BackingField(::UnityW<::UnityEngine::RenderTexture>  value) ;
 
-  /// @brief Method get_destination, addr 0x69568dc, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::RenderTexture> get_destination();
+/// @brief Method get_destination, addr 0x6956f9c, size 0x8, virtual false, abstract: false, final false
+inline ::UnityW<::UnityEngine::RenderTexture> get_destination() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ObjectIdRequest();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ObjectIdRequest() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ObjectIdRequest", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ObjectIdRequest(ObjectIdRequest&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ObjectIdRequest", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ObjectIdRequest(ObjectIdRequest const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ObjectIdRequest", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ObjectIdRequest(ObjectIdRequest && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10789 };
+// Ctor Parameters [CppParam { name: "", ty: "ObjectIdRequest", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ObjectIdRequest(ObjectIdRequest const& ) = delete;
 
-  /// @brief Field <destination>k__BackingField, offset: 0x10, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::RenderTexture> ____destination_k__BackingField;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10793};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field <destination>k__BackingField, offset: 0x10, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::RenderTexture>  ____destination_k__BackingField;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Rendering::ObjectIdRequest, ____destination_k__BackingField) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::ObjectIdRequest, 0x18>, "Size mismatch!");
 
-} // namespace UnityEngine::Rendering
+} // namespace end def UnityEngine::Rendering
 NEED_NO_BOX(::UnityEngine::Rendering::ObjectIdRequest);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::ObjectIdRequest*, "UnityEngine.Rendering", "ObjectIdRequest");

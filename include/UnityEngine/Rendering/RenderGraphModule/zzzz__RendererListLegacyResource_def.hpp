@@ -18,31 +18,30 @@ namespace UnityEngine::Rendering::RenderGraphModule {
 // CS Name: UnityEngine.Rendering.RenderGraphModule.RendererListLegacyResource
 struct CORDL_TYPE RendererListLegacyResource {
 public:
-  // Declarations
-  /// @brief Method .ctor, addr 0x6632b18, size 0x1c, virtual false, abstract: false, final false
-  inline void _ctor(::ByRef<bool> active);
+// Declarations
+/// @brief Method .ctor, addr 0x66331d8, size 0x1c, virtual false, abstract: false, final false
+inline void _ctor(::ByRef<bool>  active) ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RendererListLegacyResource();
+// Ctor Parameters []
+// @brief default ctor
+constexpr RendererListLegacyResource() ;
 
-  // Ctor Parameters [CppParam { name: "rendererList", ty: "::UnityEngine::Rendering::RendererList", modifiers: "", def_value: None }, CppParam { name: "isActive", ty: "bool", modifiers: "",
-  // def_value: None }]
-  constexpr RendererListLegacyResource(::UnityEngine::Rendering::RendererList rendererList, bool isActive) noexcept;
+// Ctor Parameters [CppParam { name: "rendererList", ty: "::UnityEngine::Rendering::RendererList", modifiers: "", def_value: None }, CppParam { name: "isActive", ty: "bool", modifiers: "", def_value: None }]
+constexpr RendererListLegacyResource(::UnityEngine::Rendering::RendererList  rendererList, bool  isActive) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12431 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12435};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x20};
 
-  /// @brief Field rendererList, offset: 0x0, size: 0x18, def value: None
-  ::UnityEngine::Rendering::RendererList rendererList;
+/// @brief Field rendererList, offset: 0x0, size: 0x18, def value: None
+ ::UnityEngine::Rendering::RendererList  rendererList;
 
-  /// @brief Field isActive, offset: 0x18, size: 0x1, def value: None
-  bool isActive;
+/// @brief Field isActive, offset: 0x18, size: 0x1, def value: None
+ bool  isActive;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Rendering::RenderGraphModule::RendererListLegacyResource, rendererList) == 0x0, "Offset mismatch!");
@@ -51,5 +50,5 @@ static_assert(offsetof(::UnityEngine::Rendering::RenderGraphModule::RendererList
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::RenderGraphModule::RendererListLegacyResource, 0x20>, "Size mismatch!");
 
-} // namespace UnityEngine::Rendering::RenderGraphModule
+} // namespace end def UnityEngine::Rendering::RenderGraphModule
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::RenderGraphModule::RendererListLegacyResource, "UnityEngine.Rendering.RenderGraphModule", "RendererListLegacyResource");

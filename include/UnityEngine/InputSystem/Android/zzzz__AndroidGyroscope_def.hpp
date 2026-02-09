@@ -17,34 +17,34 @@ namespace UnityEngine::InputSystem::Android {
 // CS Name: UnityEngine.InputSystem.Android.AndroidGyroscope
 class CORDL_TYPE AndroidGyroscope : public ::UnityEngine::InputSystem::Gyroscope {
 public:
-  // Declarations
-  static inline ::UnityEngine::InputSystem::Android::AndroidGyroscope* New_ctor();
+// Declarations
+static inline ::UnityEngine::InputSystem::Android::AndroidGyroscope* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x63f5308, size 0x20, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x63f59c8, size 0x20, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AndroidGyroscope();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr AndroidGyroscope() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AndroidGyroscope", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  AndroidGyroscope(AndroidGyroscope&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AndroidGyroscope", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  AndroidGyroscope(AndroidGyroscope const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "AndroidGyroscope", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+AndroidGyroscope(AndroidGyroscope && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8905 };
+// Ctor Parameters [CppParam { name: "", ty: "AndroidGyroscope", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+AndroidGyroscope(AndroidGyroscope const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8909};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Android::AndroidGyroscope, 0x190>, "Size mismatch!");
 
-} // namespace UnityEngine::InputSystem::Android
+} // namespace end def UnityEngine::InputSystem::Android
 NEED_NO_BOX(::UnityEngine::InputSystem::Android::AndroidGyroscope);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Android::AndroidGyroscope*, "UnityEngine.InputSystem.Android", "AndroidGyroscope");

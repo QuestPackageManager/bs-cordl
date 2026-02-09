@@ -32,43 +32,43 @@ namespace Newtonsoft::Json::Schema {
 // CS Name: Newtonsoft.Json.Schema.ValidationEventHandler
 class CORDL_TYPE ValidationEventHandler : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x5bba038, size 0x28, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::System::Object* sender, ::Newtonsoft::Json::Schema::ValidationEventArgs* e, ::System::AsyncCallback* callback, ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x5bba544, size 0x28, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(::System::Object*  sender, ::Newtonsoft::Json::Schema::ValidationEventArgs*  e, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x5bba060, size 0xc, virtual true, abstract: false, final false
-  inline void EndInvoke(::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x5bba56c, size 0xc, virtual true, abstract: false, final false
+inline void EndInvoke(::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x5bba024, size 0x14, virtual true, abstract: false, final false
-  inline void Invoke(::System::Object* sender, ::Newtonsoft::Json::Schema::ValidationEventArgs* e);
+/// @brief Method Invoke, addr 0x5bba530, size 0x14, virtual true, abstract: false, final false
+inline void Invoke(::System::Object*  sender, ::Newtonsoft::Json::Schema::ValidationEventArgs*  e) ;
 
-  static inline ::Newtonsoft::Json::Schema::ValidationEventHandler* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::Newtonsoft::Json::Schema::ValidationEventHandler* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x5bae9c4, size 0x148, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x5baeed0, size 0x148, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ValidationEventHandler();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ValidationEventHandler() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ValidationEventHandler", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ValidationEventHandler(ValidationEventHandler&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ValidationEventHandler", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ValidationEventHandler(ValidationEventHandler const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ValidationEventHandler", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ValidationEventHandler(ValidationEventHandler && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13535 };
+// Ctor Parameters [CppParam { name: "", ty: "ValidationEventHandler", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ValidationEventHandler(ValidationEventHandler const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{13539};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Schema::ValidationEventHandler, 0x80>, "Size mismatch!");
 
-} // namespace Newtonsoft::Json::Schema
+} // namespace end def Newtonsoft::Json::Schema
 NEED_NO_BOX(::Newtonsoft::Json::Schema::ValidationEventHandler);
 DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Schema::ValidationEventHandler*, "Newtonsoft.Json.Schema", "ValidationEventHandler");

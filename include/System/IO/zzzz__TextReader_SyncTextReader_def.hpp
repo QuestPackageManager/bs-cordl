@@ -11,7 +11,8 @@ namespace System::IO {
 class TextReader;
 }
 namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
+template<typename TResult>
+class Task_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -25,72 +26,72 @@ namespace GlobalNamespace {
 // CS Name: System.IO.TextReader/SyncTextReader
 class CORDL_TYPE TextReader_SyncTextReader : public ::System::IO::TextReader {
 public:
-  // Declarations
-  /// @brief Field _in, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__in, put = __cordl_internal_set__in)) ::System::IO::TextReader* _in;
+// Declarations
+/// @brief Field _in, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get__in, put=__cordl_internal_set__in)) ::System::IO::TextReader*  _in;
 
-  /// @brief Method Close, addr 0x5a53704, size 0x1c, virtual true, abstract: false, final false
-  inline void Close();
+/// @brief Method Close, addr 0x5a53c10, size 0x1c, virtual true, abstract: false, final false
+inline void Close() ;
 
-  /// @brief Method Dispose, addr 0x5a53720, size 0xc4, virtual true, abstract: false, final false
-  inline void Dispose(bool disposing);
+/// @brief Method Dispose, addr 0x5a53c2c, size 0xc4, virtual true, abstract: false, final false
+inline void Dispose(bool  disposing) ;
 
-  static inline ::GlobalNamespace::TextReader_SyncTextReader* New_ctor(::System::IO::TextReader* t);
+static inline ::GlobalNamespace::TextReader_SyncTextReader* New_ctor(::System::IO::TextReader*  t) ;
 
-  /// @brief Method Peek, addr 0x5a537e4, size 0x1c, virtual true, abstract: false, final false
-  inline int32_t Peek();
+/// @brief Method Peek, addr 0x5a53cf0, size 0x1c, virtual true, abstract: false, final false
+inline int32_t Peek() ;
 
-  /// @brief Method Read, addr 0x5a53800, size 0x1c, virtual true, abstract: false, final false
-  inline int32_t Read();
+/// @brief Method Read, addr 0x5a53d0c, size 0x1c, virtual true, abstract: false, final false
+inline int32_t Read() ;
 
-  /// @brief Method Read, addr 0x5a5381c, size 0x1c, virtual true, abstract: false, final false
-  inline int32_t Read(::ArrayW<char16_t, ::Array<char16_t>*> buffer, int32_t index, int32_t count);
+/// @brief Method Read, addr 0x5a53d28, size 0x1c, virtual true, abstract: false, final false
+inline int32_t Read(::ArrayW<char16_t,::Array<char16_t>*>  buffer, int32_t  index, int32_t  count) ;
 
-  /// @brief Method ReadAsync, addr 0x5a53878, size 0x1cc, virtual true, abstract: false, final false
-  inline ::System::Threading::Tasks::Task_1<int32_t>* ReadAsync(::ArrayW<char16_t, ::Array<char16_t>*> buffer, int32_t index, int32_t count);
+/// @brief Method ReadAsync, addr 0x5a53d84, size 0x1cc, virtual true, abstract: false, final false
+inline ::System::Threading::Tasks::Task_1<int32_t>* ReadAsync(::ArrayW<char16_t,::Array<char16_t>*>  buffer, int32_t  index, int32_t  count) ;
 
-  /// @brief Method ReadLine, addr 0x5a53838, size 0x20, virtual true, abstract: false, final false
-  inline ::StringW ReadLine();
+/// @brief Method ReadLine, addr 0x5a53d44, size 0x20, virtual true, abstract: false, final false
+inline ::StringW ReadLine() ;
 
-  /// @brief Method ReadToEnd, addr 0x5a53858, size 0x20, virtual true, abstract: false, final false
-  inline ::StringW ReadToEnd();
+/// @brief Method ReadToEnd, addr 0x5a53d64, size 0x20, virtual true, abstract: false, final false
+inline ::StringW ReadToEnd() ;
 
-  constexpr ::System::IO::TextReader* const& __cordl_internal_get__in() const;
+constexpr ::System::IO::TextReader* const& __cordl_internal_get__in() const;
 
-  constexpr ::System::IO::TextReader*& __cordl_internal_get__in();
+constexpr ::System::IO::TextReader*& __cordl_internal_get__in() ;
 
-  constexpr void __cordl_internal_set__in(::System::IO::TextReader* value);
+constexpr void __cordl_internal_set__in(::System::IO::TextReader*  value) ;
 
-  /// @brief Method .ctor, addr 0x5a535c4, size 0x64, virtual false, abstract: false, final false
-  inline void _ctor(::System::IO::TextReader* t);
+/// @brief Method .ctor, addr 0x5a53ad0, size 0x64, virtual false, abstract: false, final false
+inline void _ctor(::System::IO::TextReader*  t) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TextReader_SyncTextReader();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr TextReader_SyncTextReader() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TextReader_SyncTextReader", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  TextReader_SyncTextReader(TextReader_SyncTextReader&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TextReader_SyncTextReader", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  TextReader_SyncTextReader(TextReader_SyncTextReader const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "TextReader_SyncTextReader", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+TextReader_SyncTextReader(TextReader_SyncTextReader && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3865 };
+// Ctor Parameters [CppParam { name: "", ty: "TextReader_SyncTextReader", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+TextReader_SyncTextReader(TextReader_SyncTextReader const& ) = delete;
 
-  /// @brief Field _in, offset: 0x18, size: 0x8, def value: None
-  ::System::IO::TextReader* ____in;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{3865};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _in, offset: 0x18, size: 0x8, def value: None
+ ::System::IO::TextReader*  ____in;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::TextReader_SyncTextReader, ____in) == 0x18, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::TextReader_SyncTextReader, 0x20>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::TextReader_SyncTextReader);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::TextReader_SyncTextReader*, "System.IO", "TextReader/SyncTextReader");

@@ -15,7 +15,8 @@ namespace System {
 class Action;
 }
 namespace System {
-template <typename TResult> class Func_1;
+template<typename TResult>
+class Func_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -29,35 +30,35 @@ namespace GlobalNamespace {
 // CS Name: StandaloneMonobehaviorExtensions
 class CORDL_TYPE StandaloneMonobehaviorExtensions : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method Dispatch, addr 0x323a86c, size 0xb0, virtual false, abstract: false, final false
-  static inline void Dispatch(::GlobalNamespace::IStandaloneMonobehavior* standaloneMonoBehavior, ::System::Action* action);
+// Declarations
+/// @brief Method Dispatch, addr 0x323a7bc, size 0xb0, virtual false, abstract: false, final false
+static inline void Dispatch(::GlobalNamespace::IStandaloneMonobehavior*  standaloneMonoBehavior, ::System::Action*  action) ;
 
-  /// @brief Method DispatchAsync, addr 0x323a91c, size 0xb4, virtual false, abstract: false, final false
-  static inline ::System::Threading::Tasks::Task* DispatchAsync(::GlobalNamespace::IStandaloneMonobehavior* standaloneMonoBehavior, ::System::Func_1<::System::Threading::Tasks::Task*>* action);
+/// @brief Method DispatchAsync, addr 0x323a86c, size 0xb4, virtual false, abstract: false, final false
+static inline ::System::Threading::Tasks::Task* DispatchAsync(::GlobalNamespace::IStandaloneMonobehavior*  standaloneMonoBehavior, ::System::Func_1<::System::Threading::Tasks::Task*>*  action) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr StandaloneMonobehaviorExtensions();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr StandaloneMonobehaviorExtensions() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StandaloneMonobehaviorExtensions", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  StandaloneMonobehaviorExtensions(StandaloneMonobehaviorExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StandaloneMonobehaviorExtensions", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  StandaloneMonobehaviorExtensions(StandaloneMonobehaviorExtensions const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "StandaloneMonobehaviorExtensions", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+StandaloneMonobehaviorExtensions(StandaloneMonobehaviorExtensions && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18167 };
+// Ctor Parameters [CppParam { name: "", ty: "StandaloneMonobehaviorExtensions", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+StandaloneMonobehaviorExtensions(StandaloneMonobehaviorExtensions const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{18171};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::StandaloneMonobehaviorExtensions, 0x10>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::StandaloneMonobehaviorExtensions);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::StandaloneMonobehaviorExtensions*, "", "StandaloneMonobehaviorExtensions");

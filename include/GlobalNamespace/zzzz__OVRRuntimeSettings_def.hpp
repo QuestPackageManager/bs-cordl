@@ -30,205 +30,205 @@ namespace GlobalNamespace {
 // CS Name: OVRRuntimeSettings
 class CORDL_TYPE OVRRuntimeSettings : public ::GlobalNamespace::OVRRuntimeAssetsBase {
 public:
-  // Declarations
-  __declspec(property(get = get_BodyTrackingFidelity, put = set_BodyTrackingFidelity)) ::GlobalNamespace::OVRPlugin_BodyTrackingFidelity2 BodyTrackingFidelity;
+// Declarations
+ __declspec(property(get=get_BodyTrackingFidelity, put=set_BodyTrackingFidelity)) ::GlobalNamespace::OVRPlugin_BodyTrackingFidelity2  BodyTrackingFidelity;
 
-  __declspec(property(get = get_BodyTrackingJointSet, put = set_BodyTrackingJointSet)) ::GlobalNamespace::OVRPlugin_BodyJointSet BodyTrackingJointSet;
+ __declspec(property(get=get_BodyTrackingJointSet, put=set_BodyTrackingJointSet)) ::GlobalNamespace::OVRPlugin_BodyJointSet  BodyTrackingJointSet;
 
-  __declspec(property(get = get_EnableFaceTrackingVisemesOutput, put = set_EnableFaceTrackingVisemesOutput)) bool EnableFaceTrackingVisemesOutput;
+ __declspec(property(get=get_EnableFaceTrackingVisemesOutput, put=set_EnableFaceTrackingVisemesOutput)) bool  EnableFaceTrackingVisemesOutput;
 
-  __declspec(property(get = get_HandSkeletonVersion, put = set_HandSkeletonVersion)) ::GlobalNamespace::OVRHandSkeletonVersion HandSkeletonVersion;
+ __declspec(property(get=get_HandSkeletonVersion, put=set_HandSkeletonVersion)) ::GlobalNamespace::OVRHandSkeletonVersion  HandSkeletonVersion;
 
-  /// @brief Field NewProjectDefaultSkeletonVersion, offset 0xffffffff, size 0x4
-  __declspec(property(get = getStaticF_NewProjectDefaultSkeletonVersion, put = setStaticF_NewProjectDefaultSkeletonVersion)) ::GlobalNamespace::OVRHandSkeletonVersion NewProjectDefaultSkeletonVersion;
+/// @brief Field NewProjectDefaultSkeletonVersion, offset 0xffffffff, size 0x4 
+ __declspec(property(get=getStaticF_NewProjectDefaultSkeletonVersion, put=setStaticF_NewProjectDefaultSkeletonVersion)) ::GlobalNamespace::OVRHandSkeletonVersion  NewProjectDefaultSkeletonVersion;
 
-  __declspec(property(get = get_RequestsAudioFaceTracking, put = set_RequestsAudioFaceTracking)) bool RequestsAudioFaceTracking;
+ __declspec(property(get=get_RequestsAudioFaceTracking, put=set_RequestsAudioFaceTracking)) bool  RequestsAudioFaceTracking;
 
-  __declspec(property(get = get_RequestsVisualFaceTracking, put = set_RequestsVisualFaceTracking)) bool RequestsVisualFaceTracking;
+ __declspec(property(get=get_RequestsVisualFaceTracking, put=set_RequestsVisualFaceTracking)) bool  RequestsVisualFaceTracking;
 
-  __declspec(property(get = get_TelemetryProjectGuid)) ::StringW TelemetryProjectGuid;
+ __declspec(property(get=get_TelemetryProjectGuid)) ::StringW  TelemetryProjectGuid;
 
-  /// @brief Field _instance, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF__instance, put = setStaticF__instance)) ::UnityW<::GlobalNamespace::OVRRuntimeSettings> _instance;
+/// @brief Field _instance, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF__instance, put=setStaticF__instance)) ::UnityW<::GlobalNamespace::OVRRuntimeSettings>  _instance;
 
-  /// @brief Field bodyTrackingFidelity, offset 0x30, size 0x4
-  __declspec(property(get = __cordl_internal_get_bodyTrackingFidelity, put = __cordl_internal_set_bodyTrackingFidelity)) ::GlobalNamespace::OVRPlugin_BodyTrackingFidelity2 bodyTrackingFidelity;
+/// @brief Field bodyTrackingFidelity, offset 0x30, size 0x4 
+ __declspec(property(get=__cordl_internal_get_bodyTrackingFidelity, put=__cordl_internal_set_bodyTrackingFidelity)) ::GlobalNamespace::OVRPlugin_BodyTrackingFidelity2  bodyTrackingFidelity;
 
-  /// @brief Field bodyTrackingJointSet, offset 0x34, size 0x4
-  __declspec(property(get = __cordl_internal_get_bodyTrackingJointSet, put = __cordl_internal_set_bodyTrackingJointSet)) ::GlobalNamespace::OVRPlugin_BodyJointSet bodyTrackingJointSet;
+/// @brief Field bodyTrackingJointSet, offset 0x34, size 0x4 
+ __declspec(property(get=__cordl_internal_get_bodyTrackingJointSet, put=__cordl_internal_set_bodyTrackingJointSet)) ::GlobalNamespace::OVRPlugin_BodyJointSet  bodyTrackingJointSet;
 
-  /// @brief Field colorSpace, offset 0x1c, size 0x4
-  __declspec(property(get = __cordl_internal_get_colorSpace, put = __cordl_internal_set_colorSpace)) ::GlobalNamespace::OVRManager_ColorSpace colorSpace;
+/// @brief Field colorSpace, offset 0x1c, size 0x4 
+ __declspec(property(get=__cordl_internal_get_colorSpace, put=__cordl_internal_set_colorSpace)) ::GlobalNamespace::OVRManager_ColorSpace  colorSpace;
 
-  /// @brief Field enableFaceTrackingVisemesOutput, offset 0x22, size 0x1
-  __declspec(property(get = __cordl_internal_get_enableFaceTrackingVisemesOutput, put = __cordl_internal_set_enableFaceTrackingVisemesOutput)) bool enableFaceTrackingVisemesOutput;
+/// @brief Field enableFaceTrackingVisemesOutput, offset 0x22, size 0x1 
+ __declspec(property(get=__cordl_internal_get_enableFaceTrackingVisemesOutput, put=__cordl_internal_set_enableFaceTrackingVisemesOutput)) bool  enableFaceTrackingVisemesOutput;
 
-  /// @brief Field handSkeletonVersion, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get_handSkeletonVersion, put = __cordl_internal_set_handSkeletonVersion)) ::GlobalNamespace::OVRHandSkeletonVersion handSkeletonVersion;
+/// @brief Field handSkeletonVersion, offset 0x18, size 0x4 
+ __declspec(property(get=__cordl_internal_get_handSkeletonVersion, put=__cordl_internal_set_handSkeletonVersion)) ::GlobalNamespace::OVRHandSkeletonVersion  handSkeletonVersion;
 
-  /// @brief Field requestsAudioFaceTracking, offset 0x21, size 0x1
-  __declspec(property(get = __cordl_internal_get_requestsAudioFaceTracking, put = __cordl_internal_set_requestsAudioFaceTracking)) bool requestsAudioFaceTracking;
+/// @brief Field requestsAudioFaceTracking, offset 0x21, size 0x1 
+ __declspec(property(get=__cordl_internal_get_requestsAudioFaceTracking, put=__cordl_internal_set_requestsAudioFaceTracking)) bool  requestsAudioFaceTracking;
 
-  /// @brief Field requestsVisualFaceTracking, offset 0x20, size 0x1
-  __declspec(property(get = __cordl_internal_get_requestsVisualFaceTracking, put = __cordl_internal_set_requestsVisualFaceTracking)) bool requestsVisualFaceTracking;
+/// @brief Field requestsVisualFaceTracking, offset 0x20, size 0x1 
+ __declspec(property(get=__cordl_internal_get_requestsVisualFaceTracking, put=__cordl_internal_set_requestsVisualFaceTracking)) bool  requestsVisualFaceTracking;
 
-  /// @brief Field telemetryProjectGuid, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_telemetryProjectGuid, put = __cordl_internal_set_telemetryProjectGuid)) ::StringW telemetryProjectGuid;
+/// @brief Field telemetryProjectGuid, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get_telemetryProjectGuid, put=__cordl_internal_set_telemetryProjectGuid)) ::StringW  telemetryProjectGuid;
 
-  /// @brief Method GetRuntimeSettings, addr 0x5d1129c, size 0x174, virtual false, abstract: false, final false
-  static inline ::UnityW<::GlobalNamespace::OVRRuntimeSettings> GetRuntimeSettings();
+/// @brief Method GetRuntimeSettings, addr 0x5d117a8, size 0x174, virtual false, abstract: false, final false
+static inline ::UnityW<::GlobalNamespace::OVRRuntimeSettings> GetRuntimeSettings() ;
 
-  /// @brief Method HandleSettingsCreated, addr 0x5d1150c, size 0x4, virtual false, abstract: false, final false
-  static inline void HandleSettingsCreated(::GlobalNamespace::OVRRuntimeSettings* settings);
+/// @brief Method HandleSettingsCreated, addr 0x5d11a18, size 0x4, virtual false, abstract: false, final false
+static inline void HandleSettingsCreated(::GlobalNamespace::OVRRuntimeSettings*  settings) ;
 
-  static inline ::GlobalNamespace::OVRRuntimeSettings* New_ctor();
+static inline ::GlobalNamespace::OVRRuntimeSettings* New_ctor() ;
 
-  constexpr ::GlobalNamespace::OVRPlugin_BodyTrackingFidelity2 const& __cordl_internal_get_bodyTrackingFidelity() const;
+constexpr ::GlobalNamespace::OVRPlugin_BodyTrackingFidelity2 const& __cordl_internal_get_bodyTrackingFidelity() const;
 
-  constexpr ::GlobalNamespace::OVRPlugin_BodyTrackingFidelity2& __cordl_internal_get_bodyTrackingFidelity();
+constexpr ::GlobalNamespace::OVRPlugin_BodyTrackingFidelity2& __cordl_internal_get_bodyTrackingFidelity() ;
 
-  constexpr ::GlobalNamespace::OVRPlugin_BodyJointSet const& __cordl_internal_get_bodyTrackingJointSet() const;
+constexpr ::GlobalNamespace::OVRPlugin_BodyJointSet const& __cordl_internal_get_bodyTrackingJointSet() const;
 
-  constexpr ::GlobalNamespace::OVRPlugin_BodyJointSet& __cordl_internal_get_bodyTrackingJointSet();
+constexpr ::GlobalNamespace::OVRPlugin_BodyJointSet& __cordl_internal_get_bodyTrackingJointSet() ;
 
-  constexpr ::GlobalNamespace::OVRManager_ColorSpace const& __cordl_internal_get_colorSpace() const;
+constexpr ::GlobalNamespace::OVRManager_ColorSpace const& __cordl_internal_get_colorSpace() const;
 
-  constexpr ::GlobalNamespace::OVRManager_ColorSpace& __cordl_internal_get_colorSpace();
+constexpr ::GlobalNamespace::OVRManager_ColorSpace& __cordl_internal_get_colorSpace() ;
 
-  constexpr bool const& __cordl_internal_get_enableFaceTrackingVisemesOutput() const;
+constexpr bool const& __cordl_internal_get_enableFaceTrackingVisemesOutput() const;
 
-  constexpr bool& __cordl_internal_get_enableFaceTrackingVisemesOutput();
+constexpr bool& __cordl_internal_get_enableFaceTrackingVisemesOutput() ;
 
-  constexpr ::GlobalNamespace::OVRHandSkeletonVersion const& __cordl_internal_get_handSkeletonVersion() const;
+constexpr ::GlobalNamespace::OVRHandSkeletonVersion const& __cordl_internal_get_handSkeletonVersion() const;
 
-  constexpr ::GlobalNamespace::OVRHandSkeletonVersion& __cordl_internal_get_handSkeletonVersion();
+constexpr ::GlobalNamespace::OVRHandSkeletonVersion& __cordl_internal_get_handSkeletonVersion() ;
 
-  constexpr bool const& __cordl_internal_get_requestsAudioFaceTracking() const;
+constexpr bool const& __cordl_internal_get_requestsAudioFaceTracking() const;
 
-  constexpr bool& __cordl_internal_get_requestsAudioFaceTracking();
+constexpr bool& __cordl_internal_get_requestsAudioFaceTracking() ;
 
-  constexpr bool const& __cordl_internal_get_requestsVisualFaceTracking() const;
+constexpr bool const& __cordl_internal_get_requestsVisualFaceTracking() const;
 
-  constexpr bool& __cordl_internal_get_requestsVisualFaceTracking();
+constexpr bool& __cordl_internal_get_requestsVisualFaceTracking() ;
 
-  constexpr ::StringW const& __cordl_internal_get_telemetryProjectGuid() const;
+constexpr ::StringW const& __cordl_internal_get_telemetryProjectGuid() const;
 
-  constexpr ::StringW& __cordl_internal_get_telemetryProjectGuid();
+constexpr ::StringW& __cordl_internal_get_telemetryProjectGuid() ;
 
-  constexpr void __cordl_internal_set_bodyTrackingFidelity(::GlobalNamespace::OVRPlugin_BodyTrackingFidelity2 value);
+constexpr void __cordl_internal_set_bodyTrackingFidelity(::GlobalNamespace::OVRPlugin_BodyTrackingFidelity2  value) ;
 
-  constexpr void __cordl_internal_set_bodyTrackingJointSet(::GlobalNamespace::OVRPlugin_BodyJointSet value);
+constexpr void __cordl_internal_set_bodyTrackingJointSet(::GlobalNamespace::OVRPlugin_BodyJointSet  value) ;
 
-  constexpr void __cordl_internal_set_colorSpace(::GlobalNamespace::OVRManager_ColorSpace value);
+constexpr void __cordl_internal_set_colorSpace(::GlobalNamespace::OVRManager_ColorSpace  value) ;
 
-  constexpr void __cordl_internal_set_enableFaceTrackingVisemesOutput(bool value);
+constexpr void __cordl_internal_set_enableFaceTrackingVisemesOutput(bool  value) ;
 
-  constexpr void __cordl_internal_set_handSkeletonVersion(::GlobalNamespace::OVRHandSkeletonVersion value);
+constexpr void __cordl_internal_set_handSkeletonVersion(::GlobalNamespace::OVRHandSkeletonVersion  value) ;
 
-  constexpr void __cordl_internal_set_requestsAudioFaceTracking(bool value);
+constexpr void __cordl_internal_set_requestsAudioFaceTracking(bool  value) ;
 
-  constexpr void __cordl_internal_set_requestsVisualFaceTracking(bool value);
+constexpr void __cordl_internal_set_requestsVisualFaceTracking(bool  value) ;
 
-  constexpr void __cordl_internal_set_telemetryProjectGuid(::StringW value);
+constexpr void __cordl_internal_set_telemetryProjectGuid(::StringW  value) ;
 
-  /// @brief Method .ctor, addr 0x5d11510, size 0x70, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5d11a1c, size 0x70, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  static inline ::GlobalNamespace::OVRHandSkeletonVersion getStaticF_NewProjectDefaultSkeletonVersion();
+static inline ::GlobalNamespace::OVRHandSkeletonVersion getStaticF_NewProjectDefaultSkeletonVersion() ;
 
-  static inline ::UnityW<::GlobalNamespace::OVRRuntimeSettings> getStaticF__instance();
+static inline ::UnityW<::GlobalNamespace::OVRRuntimeSettings> getStaticF__instance() ;
 
-  /// @brief Method get_BodyTrackingFidelity, addr 0x5d114ec, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::OVRPlugin_BodyTrackingFidelity2 get_BodyTrackingFidelity();
+/// @brief Method get_BodyTrackingFidelity, addr 0x5d119f8, size 0x8, virtual false, abstract: false, final false
+inline ::GlobalNamespace::OVRPlugin_BodyTrackingFidelity2 get_BodyTrackingFidelity() ;
 
-  /// @brief Method get_BodyTrackingJointSet, addr 0x5d114fc, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::OVRPlugin_BodyJointSet get_BodyTrackingJointSet();
+/// @brief Method get_BodyTrackingJointSet, addr 0x5d11a08, size 0x8, virtual false, abstract: false, final false
+inline ::GlobalNamespace::OVRPlugin_BodyJointSet get_BodyTrackingJointSet() ;
 
-  /// @brief Method get_EnableFaceTrackingVisemesOutput, addr 0x5d11430, size 0x8, virtual false, abstract: false, final false
-  inline bool get_EnableFaceTrackingVisemesOutput();
+/// @brief Method get_EnableFaceTrackingVisemesOutput, addr 0x5d1193c, size 0x8, virtual false, abstract: false, final false
+inline bool get_EnableFaceTrackingVisemesOutput() ;
 
-  /// @brief Method get_HandSkeletonVersion, addr 0x5d111e8, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::OVRHandSkeletonVersion get_HandSkeletonVersion();
+/// @brief Method get_HandSkeletonVersion, addr 0x5d116f4, size 0x8, virtual false, abstract: false, final false
+inline ::GlobalNamespace::OVRHandSkeletonVersion get_HandSkeletonVersion() ;
 
-  /// @brief Method get_Instance, addr 0x5d111f8, size 0xa4, virtual false, abstract: false, final false
-  static inline ::UnityW<::GlobalNamespace::OVRRuntimeSettings> get_Instance();
+/// @brief Method get_Instance, addr 0x5d11704, size 0xa4, virtual false, abstract: false, final false
+static inline ::UnityW<::GlobalNamespace::OVRRuntimeSettings> get_Instance() ;
 
-  /// @brief Method get_RequestsAudioFaceTracking, addr 0x5d11420, size 0x8, virtual false, abstract: false, final false
-  inline bool get_RequestsAudioFaceTracking();
+/// @brief Method get_RequestsAudioFaceTracking, addr 0x5d1192c, size 0x8, virtual false, abstract: false, final false
+inline bool get_RequestsAudioFaceTracking() ;
 
-  /// @brief Method get_RequestsVisualFaceTracking, addr 0x5d11410, size 0x8, virtual false, abstract: false, final false
-  inline bool get_RequestsVisualFaceTracking();
+/// @brief Method get_RequestsVisualFaceTracking, addr 0x5d1191c, size 0x8, virtual false, abstract: false, final false
+inline bool get_RequestsVisualFaceTracking() ;
 
-  /// @brief Method get_TelemetryProjectGuid, addr 0x5d114a8, size 0x44, virtual false, abstract: false, final false
-  inline ::StringW get_TelemetryProjectGuid();
+/// @brief Method get_TelemetryProjectGuid, addr 0x5d119b4, size 0x44, virtual false, abstract: false, final false
+inline ::StringW get_TelemetryProjectGuid() ;
 
-  static inline void setStaticF_NewProjectDefaultSkeletonVersion(::GlobalNamespace::OVRHandSkeletonVersion value);
+static inline void setStaticF_NewProjectDefaultSkeletonVersion(::GlobalNamespace::OVRHandSkeletonVersion  value) ;
 
-  static inline void setStaticF__instance(::UnityW<::GlobalNamespace::OVRRuntimeSettings> value);
+static inline void setStaticF__instance(::UnityW<::GlobalNamespace::OVRRuntimeSettings>  value) ;
 
-  /// @brief Method set_BodyTrackingFidelity, addr 0x5d114f4, size 0x8, virtual false, abstract: false, final false
-  inline void set_BodyTrackingFidelity(::GlobalNamespace::OVRPlugin_BodyTrackingFidelity2 value);
+/// @brief Method set_BodyTrackingFidelity, addr 0x5d11a00, size 0x8, virtual false, abstract: false, final false
+inline void set_BodyTrackingFidelity(::GlobalNamespace::OVRPlugin_BodyTrackingFidelity2  value) ;
 
-  /// @brief Method set_BodyTrackingJointSet, addr 0x5d11504, size 0x8, virtual false, abstract: false, final false
-  inline void set_BodyTrackingJointSet(::GlobalNamespace::OVRPlugin_BodyJointSet value);
+/// @brief Method set_BodyTrackingJointSet, addr 0x5d11a10, size 0x8, virtual false, abstract: false, final false
+inline void set_BodyTrackingJointSet(::GlobalNamespace::OVRPlugin_BodyJointSet  value) ;
 
-  /// @brief Method set_EnableFaceTrackingVisemesOutput, addr 0x5d11438, size 0x70, virtual false, abstract: false, final false
-  inline void set_EnableFaceTrackingVisemesOutput(bool value);
+/// @brief Method set_EnableFaceTrackingVisemesOutput, addr 0x5d11944, size 0x70, virtual false, abstract: false, final false
+inline void set_EnableFaceTrackingVisemesOutput(bool  value) ;
 
-  /// @brief Method set_HandSkeletonVersion, addr 0x5d111f0, size 0x8, virtual false, abstract: false, final false
-  inline void set_HandSkeletonVersion(::GlobalNamespace::OVRHandSkeletonVersion value);
+/// @brief Method set_HandSkeletonVersion, addr 0x5d116fc, size 0x8, virtual false, abstract: false, final false
+inline void set_HandSkeletonVersion(::GlobalNamespace::OVRHandSkeletonVersion  value) ;
 
-  /// @brief Method set_RequestsAudioFaceTracking, addr 0x5d11428, size 0x8, virtual false, abstract: false, final false
-  inline void set_RequestsAudioFaceTracking(bool value);
+/// @brief Method set_RequestsAudioFaceTracking, addr 0x5d11934, size 0x8, virtual false, abstract: false, final false
+inline void set_RequestsAudioFaceTracking(bool  value) ;
 
-  /// @brief Method set_RequestsVisualFaceTracking, addr 0x5d11418, size 0x8, virtual false, abstract: false, final false
-  inline void set_RequestsVisualFaceTracking(bool value);
+/// @brief Method set_RequestsVisualFaceTracking, addr 0x5d11924, size 0x8, virtual false, abstract: false, final false
+inline void set_RequestsVisualFaceTracking(bool  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr OVRRuntimeSettings();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr OVRRuntimeSettings() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRRuntimeSettings", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  OVRRuntimeSettings(OVRRuntimeSettings&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRRuntimeSettings", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  OVRRuntimeSettings(OVRRuntimeSettings const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "OVRRuntimeSettings", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+OVRRuntimeSettings(OVRRuntimeSettings && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7634 };
+// Ctor Parameters [CppParam { name: "", ty: "OVRRuntimeSettings", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+OVRRuntimeSettings(OVRRuntimeSettings const& ) = delete;
 
-  /// @brief Field _assetName offset 0xffffffff size 0x8
-  static constexpr ::ConstString _assetName{ u"OculusRuntimeSettings" };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{7638};
 
-  /// @brief Field handSkeletonVersion, offset: 0x18, size: 0x4, def value: None
-  ::GlobalNamespace::OVRHandSkeletonVersion ___handSkeletonVersion;
+/// @brief Field _assetName offset 0xffffffff size 0x8
+static constexpr ::ConstString  _assetName{u"OculusRuntimeSettings"};
 
-  /// @brief Field colorSpace, offset: 0x1c, size: 0x4, def value: None
-  ::GlobalNamespace::OVRManager_ColorSpace ___colorSpace;
+/// @brief Field handSkeletonVersion, offset: 0x18, size: 0x4, def value: None
+ ::GlobalNamespace::OVRHandSkeletonVersion  ___handSkeletonVersion;
 
-  /// @brief Field requestsVisualFaceTracking, offset: 0x20, size: 0x1, def value: None
-  bool ___requestsVisualFaceTracking;
+/// @brief Field colorSpace, offset: 0x1c, size: 0x4, def value: None
+ ::GlobalNamespace::OVRManager_ColorSpace  ___colorSpace;
 
-  /// @brief Field requestsAudioFaceTracking, offset: 0x21, size: 0x1, def value: None
-  bool ___requestsAudioFaceTracking;
+/// @brief Field requestsVisualFaceTracking, offset: 0x20, size: 0x1, def value: None
+ bool  ___requestsVisualFaceTracking;
 
-  /// @brief Field enableFaceTrackingVisemesOutput, offset: 0x22, size: 0x1, def value: None
-  bool ___enableFaceTrackingVisemesOutput;
+/// @brief Field requestsAudioFaceTracking, offset: 0x21, size: 0x1, def value: None
+ bool  ___requestsAudioFaceTracking;
 
-  /// @brief Field telemetryProjectGuid, offset: 0x28, size: 0x8, def value: None
-  ::StringW ___telemetryProjectGuid;
+/// @brief Field enableFaceTrackingVisemesOutput, offset: 0x22, size: 0x1, def value: None
+ bool  ___enableFaceTrackingVisemesOutput;
 
-  /// @brief Field bodyTrackingFidelity, offset: 0x30, size: 0x4, def value: None
-  ::GlobalNamespace::OVRPlugin_BodyTrackingFidelity2 ___bodyTrackingFidelity;
+/// @brief Field telemetryProjectGuid, offset: 0x28, size: 0x8, def value: None
+ ::StringW  ___telemetryProjectGuid;
 
-  /// @brief Field bodyTrackingJointSet, offset: 0x34, size: 0x4, def value: None
-  ::GlobalNamespace::OVRPlugin_BodyJointSet ___bodyTrackingJointSet;
+/// @brief Field bodyTrackingFidelity, offset: 0x30, size: 0x4, def value: None
+ ::GlobalNamespace::OVRPlugin_BodyTrackingFidelity2  ___bodyTrackingFidelity;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field bodyTrackingJointSet, offset: 0x34, size: 0x4, def value: None
+ ::GlobalNamespace::OVRPlugin_BodyJointSet  ___bodyTrackingJointSet;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::OVRRuntimeSettings, ___handSkeletonVersion) == 0x18, "Offset mismatch!");
@@ -249,6 +249,6 @@ static_assert(offsetof(::GlobalNamespace::OVRRuntimeSettings, ___bodyTrackingJoi
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRRuntimeSettings, 0x38>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::OVRRuntimeSettings);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRRuntimeSettings*, "", "OVRRuntimeSettings");

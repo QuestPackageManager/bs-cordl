@@ -20,58 +20,51 @@ struct FreeLODGroupDataJob;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::FreeLODGroupDataJob);
-// Dependencies Unity.Collections.NativeArray`1<T>, Unity.Collections.NativeList`1<T>, Unity.Collections.NativeParallelHashMap`2<TKey, TValue>, UnityEngine.Rendering.GPUInstanceIndex,
-// UnityEngine.Rendering.LODGroupData
+// Dependencies Unity.Collections.NativeArray`1<T>, Unity.Collections.NativeList`1<T>, Unity.Collections.NativeParallelHashMap`2<TKey, TValue>, UnityEngine.Rendering.GPUInstanceIndex, UnityEngine.Rendering.LODGroupData
 namespace UnityEngine::Rendering {
 // Is value type: true
 // CS Name: UnityEngine.Rendering.FreeLODGroupDataJob
 struct CORDL_TYPE FreeLODGroupDataJob {
 public:
-  // Declarations
-  /// @brief Convert operator to "::Unity::Jobs::IJob"
-  constexpr operator ::Unity::Jobs::IJob*();
+// Declarations
+/// @brief Convert operator to "::Unity::Jobs::IJob"
+constexpr operator  ::Unity::Jobs::IJob*() ;
 
-  /// @brief Method Execute, addr 0x667a4ec, size 0x25c, virtual true, abstract: false, final true
-  inline void Execute();
+/// @brief Method Execute, addr 0x667abac, size 0x25c, virtual true, abstract: false, final true
+inline void Execute() ;
 
-  /// @brief Convert to "::Unity::Jobs::IJob"
-  constexpr ::Unity::Jobs::IJob* i___Unity__Jobs__IJob();
+/// @brief Convert to "::Unity::Jobs::IJob"
+constexpr ::Unity::Jobs::IJob* i___Unity__Jobs__IJob() ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr FreeLODGroupDataJob();
+// Ctor Parameters []
+// @brief default ctor
+constexpr FreeLODGroupDataJob() ;
 
-  // Ctor Parameters [CppParam { name: "destroyedLODGroupsID", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: None }, CppParam { name: "lodGroupsData", ty:
-  // "::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupData>", modifiers: "", def_value: None }, CppParam { name: "lodGroupDataHash", ty:
-  // "::Unity::Collections::NativeParallelHashMap_2<int32_t,::UnityEngine::Rendering::GPUInstanceIndex>", modifiers: "", def_value: None }, CppParam { name: "freeLODGroupDataHandles", ty:
-  // "::Unity::Collections::NativeList_1<::UnityEngine::Rendering::GPUInstanceIndex>", modifiers: "", def_value: None }, CppParam { name: "removedRendererCount", ty: "int32_t*", modifiers: "",
-  // def_value: None }]
-  constexpr FreeLODGroupDataJob(::Unity::Collections::NativeArray_1<int32_t> destroyedLODGroupsID, ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupData> lodGroupsData,
-                                ::Unity::Collections::NativeParallelHashMap_2<int32_t, ::UnityEngine::Rendering::GPUInstanceIndex> lodGroupDataHash,
-                                ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::GPUInstanceIndex> freeLODGroupDataHandles, int32_t* removedRendererCount) noexcept;
+// Ctor Parameters [CppParam { name: "destroyedLODGroupsID", ty: "::Unity::Collections::NativeArray_1<int32_t>", modifiers: "", def_value: None }, CppParam { name: "lodGroupsData", ty: "::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupData>", modifiers: "", def_value: None }, CppParam { name: "lodGroupDataHash", ty: "::Unity::Collections::NativeParallelHashMap_2<int32_t,::UnityEngine::Rendering::GPUInstanceIndex>", modifiers: "", def_value: None }, CppParam { name: "freeLODGroupDataHandles", ty: "::Unity::Collections::NativeList_1<::UnityEngine::Rendering::GPUInstanceIndex>", modifiers: "", def_value: None }, CppParam { name: "removedRendererCount", ty: "int32_t*", modifiers: "", def_value: None }]
+constexpr FreeLODGroupDataJob(::Unity::Collections::NativeArray_1<int32_t>  destroyedLODGroupsID, ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupData>  lodGroupsData, ::Unity::Collections::NativeParallelHashMap_2<int32_t,::UnityEngine::Rendering::GPUInstanceIndex>  lodGroupDataHash, ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::GPUInstanceIndex>  freeLODGroupDataHandles, int32_t*  removedRendererCount) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17728 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{17732};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x38};
 
-  /// @brief Field destroyedLODGroupsID, offset: 0x0, size: 0x10, def value: None
-  ::Unity::Collections::NativeArray_1<int32_t> destroyedLODGroupsID;
+/// @brief Field destroyedLODGroupsID, offset: 0x0, size: 0x10, def value: None
+ ::Unity::Collections::NativeArray_1<int32_t>  destroyedLODGroupsID;
 
-  /// @brief Field lodGroupsData, offset: 0x10, size: 0x8, def value: None
-  ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupData> lodGroupsData;
+/// @brief Field lodGroupsData, offset: 0x10, size: 0x8, def value: None
+ ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::LODGroupData>  lodGroupsData;
 
-  /// @brief Field lodGroupDataHash, offset: 0x18, size: 0x10, def value: None
-  ::Unity::Collections::NativeParallelHashMap_2<int32_t, ::UnityEngine::Rendering::GPUInstanceIndex> lodGroupDataHash;
+/// @brief Field lodGroupDataHash, offset: 0x18, size: 0x10, def value: None
+ ::Unity::Collections::NativeParallelHashMap_2<int32_t,::UnityEngine::Rendering::GPUInstanceIndex>  lodGroupDataHash;
 
-  /// @brief Field freeLODGroupDataHandles, offset: 0x28, size: 0x8, def value: None
-  ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::GPUInstanceIndex> freeLODGroupDataHandles;
+/// @brief Field freeLODGroupDataHandles, offset: 0x28, size: 0x8, def value: None
+ ::Unity::Collections::NativeList_1<::UnityEngine::Rendering::GPUInstanceIndex>  freeLODGroupDataHandles;
 
-  /// @brief Field removedRendererCount, offset: 0x30, size: 0x8, def value: None
-  int32_t* removedRendererCount;
+/// @brief Field removedRendererCount, offset: 0x30, size: 0x8, def value: None
+ int32_t*  removedRendererCount;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Rendering::FreeLODGroupDataJob, destroyedLODGroupsID) == 0x0, "Offset mismatch!");
@@ -86,5 +79,5 @@ static_assert(offsetof(::UnityEngine::Rendering::FreeLODGroupDataJob, removedRen
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::FreeLODGroupDataJob, 0x38>, "Size mismatch!");
 
-} // namespace UnityEngine::Rendering
+} // namespace end def UnityEngine::Rendering
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::FreeLODGroupDataJob, "UnityEngine.Rendering", "FreeLODGroupDataJob");

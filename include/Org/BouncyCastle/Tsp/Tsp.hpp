@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "Org/BouncyCastle/Tsp/GenTimeAccuracy.hpp"
 #include "Org/BouncyCastle/Tsp/TimeStampRequest.hpp"
@@ -16,5 +16,6 @@ module;
 #include "Org/BouncyCastle/Tsp/TspUtil.hpp"
 #include "Org/BouncyCastle/Tsp/TspValidationException.hpp"
 #ifdef __cpp_modules
-export module Tsp;
-#endif
+                    export module Tsp;
+                    #endif
+                

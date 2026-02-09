@@ -8,7 +8,8 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PathInternal)
 namespace System {
-template <typename T> struct ReadOnlySpan_1;
+template<typename T>
+struct ReadOnlySpan_1;
 }
 // Forward declare root types
 namespace System::IO {
@@ -22,66 +23,66 @@ namespace System::IO {
 // CS Name: System.IO.PathInternal
 class CORDL_TYPE PathInternal : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field s_isCaseSensitive, offset 0xffffffff, size 0x1
-  __declspec(property(get = getStaticF_s_isCaseSensitive, put = setStaticF_s_isCaseSensitive)) bool s_isCaseSensitive;
+// Declarations
+/// @brief Field s_isCaseSensitive, offset 0xffffffff, size 0x1 
+ __declspec(property(get=getStaticF_s_isCaseSensitive, put=setStaticF_s_isCaseSensitive)) bool  s_isCaseSensitive;
 
-  /// @brief Method EndsInDirectorySeparator, addr 0x5a45644, size 0x94, virtual false, abstract: false, final false
-  static inline bool EndsInDirectorySeparator(::System::ReadOnlySpan_1<char16_t> path);
+/// @brief Method EndsInDirectorySeparator, addr 0x5a45b50, size 0x94, virtual false, abstract: false, final false
+static inline bool EndsInDirectorySeparator(::System::ReadOnlySpan_1<char16_t>  path) ;
 
-  /// @brief Method GetIsCaseSensitive, addr 0x5a4a178, size 0x2d0, virtual false, abstract: false, final false
-  static inline bool GetIsCaseSensitive();
+/// @brief Method GetIsCaseSensitive, addr 0x5a4a684, size 0x2d0, virtual false, abstract: false, final false
+static inline bool GetIsCaseSensitive() ;
 
-  /// @brief Method GetRootLength, addr 0x5a4570c, size 0x90, virtual false, abstract: false, final false
-  static inline int32_t GetRootLength(::System::ReadOnlySpan_1<char16_t> path);
+/// @brief Method GetRootLength, addr 0x5a45c18, size 0x90, virtual false, abstract: false, final false
+static inline int32_t GetRootLength(::System::ReadOnlySpan_1<char16_t>  path) ;
 
-  /// @brief Method IsDirectorySeparator, addr 0x5a456d8, size 0x10, virtual false, abstract: false, final false
-  static inline bool IsDirectorySeparator(char16_t c);
+/// @brief Method IsDirectorySeparator, addr 0x5a45be4, size 0x10, virtual false, abstract: false, final false
+static inline bool IsDirectorySeparator(char16_t  c) ;
 
-  /// @brief Method IsPartiallyQualified, addr 0x5a4a60c, size 0x8, virtual false, abstract: false, final false
-  static inline bool IsPartiallyQualified(::StringW path);
+/// @brief Method IsPartiallyQualified, addr 0x5a4ab18, size 0x8, virtual false, abstract: false, final false
+static inline bool IsPartiallyQualified(::StringW  path) ;
 
-  /// @brief Method IsRoot, addr 0x5a4a094, size 0x88, virtual false, abstract: false, final false
-  static inline bool IsRoot(::System::ReadOnlySpan_1<char16_t> path);
+/// @brief Method IsRoot, addr 0x5a4a5a0, size 0x88, virtual false, abstract: false, final false
+static inline bool IsRoot(::System::ReadOnlySpan_1<char16_t>  path) ;
 
-  /// @brief Method StartsWithDirectorySeparator, addr 0x5a4a004, size 0x90, virtual false, abstract: false, final false
-  static inline bool StartsWithDirectorySeparator(::System::ReadOnlySpan_1<char16_t> path);
+/// @brief Method StartsWithDirectorySeparator, addr 0x5a4a510, size 0x90, virtual false, abstract: false, final false
+static inline bool StartsWithDirectorySeparator(::System::ReadOnlySpan_1<char16_t>  path) ;
 
-  /// @brief Method TrimEndingDirectorySeparator, addr 0x5a44e4c, size 0x140, virtual false, abstract: false, final false
-  static inline ::StringW TrimEndingDirectorySeparator(::StringW path);
+/// @brief Method TrimEndingDirectorySeparator, addr 0x5a45358, size 0x140, virtual false, abstract: false, final false
+static inline ::StringW TrimEndingDirectorySeparator(::StringW  path) ;
 
-  /// @brief Method TrimEndingDirectorySeparator, addr 0x5a461f4, size 0xf4, virtual false, abstract: false, final false
-  static inline ::System::ReadOnlySpan_1<char16_t> TrimEndingDirectorySeparator(::System::ReadOnlySpan_1<char16_t> path);
+/// @brief Method TrimEndingDirectorySeparator, addr 0x5a46700, size 0xf4, virtual false, abstract: false, final false
+static inline ::System::ReadOnlySpan_1<char16_t> TrimEndingDirectorySeparator(::System::ReadOnlySpan_1<char16_t>  path) ;
 
-  static inline bool getStaticF_s_isCaseSensitive();
+static inline bool getStaticF_s_isCaseSensitive() ;
 
-  /// @brief Method get_IsCaseSensitive, addr 0x5a4a11c, size 0x5c, virtual false, abstract: false, final false
-  static inline bool get_IsCaseSensitive();
+/// @brief Method get_IsCaseSensitive, addr 0x5a4a628, size 0x5c, virtual false, abstract: false, final false
+static inline bool get_IsCaseSensitive() ;
 
-  static inline void setStaticF_s_isCaseSensitive(bool value);
+static inline void setStaticF_s_isCaseSensitive(bool  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PathInternal();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr PathInternal() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PathInternal", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  PathInternal(PathInternal&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PathInternal", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  PathInternal(PathInternal const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "PathInternal", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+PathInternal(PathInternal && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3849 };
+// Ctor Parameters [CppParam { name: "", ty: "PathInternal", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+PathInternal(PathInternal const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{3849};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::IO::PathInternal, 0x10>, "Size mismatch!");
 
-} // namespace System::IO
+} // namespace end def System::IO
 NEED_NO_BOX(::System::IO::PathInternal);
 DEFINE_IL2CPP_ARG_TYPE(::System::IO::PathInternal*, "System.IO", "PathInternal");

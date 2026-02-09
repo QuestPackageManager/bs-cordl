@@ -28,53 +28,53 @@ namespace System::ComponentModel {
 // CS Name: System.ComponentModel.SingleConverter
 class CORDL_TYPE SingleConverter : public ::System::ComponentModel::BaseNumberConverter {
 public:
-  // Declarations
-  __declspec(property(get = get_AllowHex)) bool AllowHex;
+// Declarations
+ __declspec(property(get=get_AllowHex)) bool  AllowHex;
 
-  __declspec(property(get = get_TargetType)) ::System::Type* TargetType;
+ __declspec(property(get=get_TargetType)) ::System::Type*  TargetType;
 
-  /// @brief Method FromString, addr 0x6213054, size 0x30, virtual true, abstract: false, final false
-  inline ::System::Object* FromString(::StringW value, ::System::Globalization::NumberFormatInfo* formatInfo);
+/// @brief Method FromString, addr 0x6213714, size 0x30, virtual true, abstract: false, final false
+inline ::System::Object* FromString(::StringW  value, ::System::Globalization::NumberFormatInfo*  formatInfo) ;
 
-  /// @brief Method FromString, addr 0x6212f88, size 0xcc, virtual true, abstract: false, final false
-  inline ::System::Object* FromString(::StringW value, int32_t radix);
+/// @brief Method FromString, addr 0x6213648, size 0xcc, virtual true, abstract: false, final false
+inline ::System::Object* FromString(::StringW  value, int32_t  radix) ;
 
-  static inline ::System::ComponentModel::SingleConverter* New_ctor();
+static inline ::System::ComponentModel::SingleConverter* New_ctor() ;
 
-  /// @brief Method ToString, addr 0x6213084, size 0x98, virtual true, abstract: false, final false
-  inline ::StringW ToString(::System::Object* value, ::System::Globalization::NumberFormatInfo* formatInfo);
+/// @brief Method ToString, addr 0x6213744, size 0x98, virtual true, abstract: false, final false
+inline ::StringW ToString(::System::Object*  value, ::System::Globalization::NumberFormatInfo*  formatInfo) ;
 
-  /// @brief Method .ctor, addr 0x621311c, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x62137dc, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_AllowHex, addr 0x6212f50, size 0x8, virtual true, abstract: false, final false
-  inline bool get_AllowHex();
+/// @brief Method get_AllowHex, addr 0x6213610, size 0x8, virtual true, abstract: false, final false
+inline bool get_AllowHex() ;
 
-  /// @brief Method get_TargetType, addr 0x6212f58, size 0x30, virtual true, abstract: false, final false
-  inline ::System::Type* get_TargetType();
+/// @brief Method get_TargetType, addr 0x6213618, size 0x30, virtual true, abstract: false, final false
+inline ::System::Type* get_TargetType() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SingleConverter();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr SingleConverter() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SingleConverter", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  SingleConverter(SingleConverter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SingleConverter", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  SingleConverter(SingleConverter const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "SingleConverter", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+SingleConverter(SingleConverter && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11272 };
+// Ctor Parameters [CppParam { name: "", ty: "SingleConverter", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+SingleConverter(SingleConverter const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11276};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::ComponentModel::SingleConverter, 0x10>, "Size mismatch!");
 
-} // namespace System::ComponentModel
+} // namespace end def System::ComponentModel
 NEED_NO_BOX(::System::ComponentModel::SingleConverter);
 DEFINE_IL2CPP_ARG_TYPE(::System::ComponentModel::SingleConverter*, "System.ComponentModel", "SingleConverter");

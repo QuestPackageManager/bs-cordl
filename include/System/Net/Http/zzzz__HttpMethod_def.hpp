@@ -8,7 +8,8 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(HttpMethod)
 namespace System {
-template <typename T> class IEquatable_1;
+template<typename T>
+class IEquatable_1;
 }
 namespace System {
 class Object;
@@ -25,129 +26,129 @@ namespace System::Net::Http {
 // CS Name: System.Net.Http.HttpMethod
 class CORDL_TYPE HttpMethod : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(get = get_Method)) ::StringW Method;
+// Declarations
+ __declspec(property(get=get_Method)) ::StringW  Method;
 
-  /// @brief Field delete_method, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_delete_method, put = setStaticF_delete_method)) ::System::Net::Http::HttpMethod* delete_method;
+/// @brief Field delete_method, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_delete_method, put=setStaticF_delete_method)) ::System::Net::Http::HttpMethod*  delete_method;
 
-  /// @brief Field get_method, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_get_method, put = setStaticF_get_method)) ::System::Net::Http::HttpMethod* get_method;
+/// @brief Field get_method, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_get_method, put=setStaticF_get_method)) ::System::Net::Http::HttpMethod*  get_method;
 
-  /// @brief Field head_method, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_head_method, put = setStaticF_head_method)) ::System::Net::Http::HttpMethod* head_method;
+/// @brief Field head_method, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_head_method, put=setStaticF_head_method)) ::System::Net::Http::HttpMethod*  head_method;
 
-  /// @brief Field method, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_method, put = __cordl_internal_set_method)) ::StringW method;
+/// @brief Field method, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_method, put=__cordl_internal_set_method)) ::StringW  method;
 
-  /// @brief Field options_method, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_options_method, put = setStaticF_options_method)) ::System::Net::Http::HttpMethod* options_method;
+/// @brief Field options_method, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_options_method, put=setStaticF_options_method)) ::System::Net::Http::HttpMethod*  options_method;
 
-  /// @brief Field post_method, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_post_method, put = setStaticF_post_method)) ::System::Net::Http::HttpMethod* post_method;
+/// @brief Field post_method, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_post_method, put=setStaticF_post_method)) ::System::Net::Http::HttpMethod*  post_method;
 
-  /// @brief Field put_method, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_put_method, put = setStaticF_put_method)) ::System::Net::Http::HttpMethod* put_method;
+/// @brief Field put_method, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_put_method, put=setStaticF_put_method)) ::System::Net::Http::HttpMethod*  put_method;
 
-  /// @brief Field trace_method, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_trace_method, put = setStaticF_trace_method)) ::System::Net::Http::HttpMethod* trace_method;
+/// @brief Field trace_method, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_trace_method, put=setStaticF_trace_method)) ::System::Net::Http::HttpMethod*  trace_method;
 
-  /// @brief Convert operator to "::System::IEquatable_1<::System::Net::Http::HttpMethod*>"
-  constexpr operator ::System::IEquatable_1<::System::Net::Http::HttpMethod*>*() noexcept;
+/// @brief Convert operator to "::System::IEquatable_1<::System::Net::Http::HttpMethod*>"
+constexpr operator  ::System::IEquatable_1<::System::Net::Http::HttpMethod*>*() noexcept;
 
-  /// @brief Method Equals, addr 0x5f2a430, size 0xa4, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* obj);
+/// @brief Method Equals, addr 0x5f2aaf0, size 0xa4, virtual true, abstract: false, final false
+inline bool Equals(::System::Object*  obj) ;
 
-  /// @brief Method Equals, addr 0x5f2a410, size 0x20, virtual true, abstract: false, final true
-  inline bool Equals(::System::Net::Http::HttpMethod* other);
+/// @brief Method Equals, addr 0x5f2aad0, size 0x20, virtual true, abstract: false, final true
+inline bool Equals(::System::Net::Http::HttpMethod*  other) ;
 
-  /// @brief Method GetHashCode, addr 0x5f2a4d4, size 0x1c, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
+/// @brief Method GetHashCode, addr 0x5f2ab94, size 0x1c, virtual true, abstract: false, final false
+inline int32_t GetHashCode() ;
 
-  static inline ::System::Net::Http::HttpMethod* New_ctor(::StringW method);
+static inline ::System::Net::Http::HttpMethod* New_ctor(::StringW  method) ;
 
-  /// @brief Method ToString, addr 0x5f2a4f0, size 0x8, virtual true, abstract: false, final false
-  inline ::StringW ToString();
+/// @brief Method ToString, addr 0x5f2abb0, size 0x8, virtual true, abstract: false, final false
+inline ::StringW ToString() ;
 
-  constexpr ::StringW const& __cordl_internal_get_method() const;
+constexpr ::StringW const& __cordl_internal_get_method() const;
 
-  constexpr ::StringW& __cordl_internal_get_method();
+constexpr ::StringW& __cordl_internal_get_method() ;
 
-  constexpr void __cordl_internal_set_method(::StringW value);
+constexpr void __cordl_internal_set_method(::StringW  value) ;
 
-  /// @brief Method .ctor, addr 0x5f2a1b4, size 0x7c, virtual false, abstract: false, final false
-  inline void _ctor(::StringW method);
+/// @brief Method .ctor, addr 0x5f2a874, size 0x7c, virtual false, abstract: false, final false
+inline void _ctor(::StringW  method) ;
 
-  static inline ::System::Net::Http::HttpMethod* getStaticF_delete_method();
+static inline ::System::Net::Http::HttpMethod* getStaticF_delete_method() ;
 
-  static inline ::System::Net::Http::HttpMethod* getStaticF_get_method();
+static inline ::System::Net::Http::HttpMethod* getStaticF_get_method() ;
 
-  static inline ::System::Net::Http::HttpMethod* getStaticF_head_method();
+static inline ::System::Net::Http::HttpMethod* getStaticF_head_method() ;
 
-  static inline ::System::Net::Http::HttpMethod* getStaticF_options_method();
+static inline ::System::Net::Http::HttpMethod* getStaticF_options_method() ;
 
-  static inline ::System::Net::Http::HttpMethod* getStaticF_post_method();
+static inline ::System::Net::Http::HttpMethod* getStaticF_post_method() ;
 
-  static inline ::System::Net::Http::HttpMethod* getStaticF_put_method();
+static inline ::System::Net::Http::HttpMethod* getStaticF_put_method() ;
 
-  static inline ::System::Net::Http::HttpMethod* getStaticF_trace_method();
+static inline ::System::Net::Http::HttpMethod* getStaticF_trace_method() ;
 
-  /// @brief Method get_Get, addr 0x5f2a328, size 0x5c, virtual false, abstract: false, final false
-  static inline ::System::Net::Http::HttpMethod* get_Get();
+/// @brief Method get_Get, addr 0x5f2a9e8, size 0x5c, virtual false, abstract: false, final false
+static inline ::System::Net::Http::HttpMethod* get_Get() ;
 
-  /// @brief Method get_Method, addr 0x5f2a384, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_Method();
+/// @brief Method get_Method, addr 0x5f2aa44, size 0x8, virtual false, abstract: false, final false
+inline ::StringW get_Method() ;
 
-  /// @brief Method get_Post, addr 0x5f2a38c, size 0x5c, virtual false, abstract: false, final false
-  static inline ::System::Net::Http::HttpMethod* get_Post();
+/// @brief Method get_Post, addr 0x5f2aa4c, size 0x5c, virtual false, abstract: false, final false
+static inline ::System::Net::Http::HttpMethod* get_Post() ;
 
-  /// @brief Convert to "::System::IEquatable_1<::System::Net::Http::HttpMethod*>"
-  constexpr ::System::IEquatable_1<::System::Net::Http::HttpMethod*>* i___System__IEquatable_1___System__Net__Http__HttpMethod__() noexcept;
+/// @brief Convert to "::System::IEquatable_1<::System::Net::Http::HttpMethod*>"
+constexpr ::System::IEquatable_1<::System::Net::Http::HttpMethod*>* i___System__IEquatable_1___System__Net__Http__HttpMethod__() noexcept;
 
-  /// @brief Method op_Equality, addr 0x5f2a3e8, size 0x28, virtual false, abstract: false, final false
-  static inline bool op_Equality(::System::Net::Http::HttpMethod* left, ::System::Net::Http::HttpMethod* right);
+/// @brief Method op_Equality, addr 0x5f2aaa8, size 0x28, virtual false, abstract: false, final false
+static inline bool op_Equality(::System::Net::Http::HttpMethod*  left, ::System::Net::Http::HttpMethod*  right) ;
 
-  static inline void setStaticF_delete_method(::System::Net::Http::HttpMethod* value);
+static inline void setStaticF_delete_method(::System::Net::Http::HttpMethod*  value) ;
 
-  static inline void setStaticF_get_method(::System::Net::Http::HttpMethod* value);
+static inline void setStaticF_get_method(::System::Net::Http::HttpMethod*  value) ;
 
-  static inline void setStaticF_head_method(::System::Net::Http::HttpMethod* value);
+static inline void setStaticF_head_method(::System::Net::Http::HttpMethod*  value) ;
 
-  static inline void setStaticF_options_method(::System::Net::Http::HttpMethod* value);
+static inline void setStaticF_options_method(::System::Net::Http::HttpMethod*  value) ;
 
-  static inline void setStaticF_post_method(::System::Net::Http::HttpMethod* value);
+static inline void setStaticF_post_method(::System::Net::Http::HttpMethod*  value) ;
 
-  static inline void setStaticF_put_method(::System::Net::Http::HttpMethod* value);
+static inline void setStaticF_put_method(::System::Net::Http::HttpMethod*  value) ;
 
-  static inline void setStaticF_trace_method(::System::Net::Http::HttpMethod* value);
+static inline void setStaticF_trace_method(::System::Net::Http::HttpMethod*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HttpMethod();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr HttpMethod() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HttpMethod", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  HttpMethod(HttpMethod&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HttpMethod", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  HttpMethod(HttpMethod const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "HttpMethod", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+HttpMethod(HttpMethod && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20054 };
+// Ctor Parameters [CppParam { name: "", ty: "HttpMethod", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+HttpMethod(HttpMethod const& ) = delete;
 
-  /// @brief Field method, offset: 0x10, size: 0x8, def value: None
-  ::StringW ___method;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20058};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field method, offset: 0x10, size: 0x8, def value: None
+ ::StringW  ___method;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Net::Http::HttpMethod, ___method) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::System::Net::Http::HttpMethod, 0x18>, "Size mismatch!");
 
-} // namespace System::Net::Http
+} // namespace end def System::Net::Http
 NEED_NO_BOX(::System::Net::Http::HttpMethod);
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::Http::HttpMethod*, "System.Net.Http", "HttpMethod");

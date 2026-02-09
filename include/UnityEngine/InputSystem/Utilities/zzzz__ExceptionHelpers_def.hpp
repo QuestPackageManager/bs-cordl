@@ -20,32 +20,32 @@ namespace UnityEngine::InputSystem::Utilities {
 // CS Name: UnityEngine.InputSystem.Utilities.ExceptionHelpers
 class CORDL_TYPE ExceptionHelpers : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method IsExceptionIndicatingBugInCode, addr 0x634ae50, size 0xf0, virtual false, abstract: false, final false
-  static inline bool IsExceptionIndicatingBugInCode(::System::Exception* exception);
+// Declarations
+/// @brief Method IsExceptionIndicatingBugInCode, addr 0x634b510, size 0xf0, virtual false, abstract: false, final false
+static inline bool IsExceptionIndicatingBugInCode(::System::Exception*  exception) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ExceptionHelpers();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ExceptionHelpers() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ExceptionHelpers", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ExceptionHelpers(ExceptionHelpers&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ExceptionHelpers", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ExceptionHelpers(ExceptionHelpers const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ExceptionHelpers", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ExceptionHelpers(ExceptionHelpers && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9138 };
+// Ctor Parameters [CppParam { name: "", ty: "ExceptionHelpers", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ExceptionHelpers(ExceptionHelpers const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{9142};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Utilities::ExceptionHelpers, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine::InputSystem::Utilities
+} // namespace end def UnityEngine::InputSystem::Utilities
 NEED_NO_BOX(::UnityEngine::InputSystem::Utilities::ExceptionHelpers);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Utilities::ExceptionHelpers*, "UnityEngine.InputSystem.Utilities", "ExceptionHelpers");

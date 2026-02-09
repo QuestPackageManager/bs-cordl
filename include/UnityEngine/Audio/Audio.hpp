@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "UnityEngine/Audio/AudioClipPlayable.hpp"
 #include "UnityEngine/Audio/AudioContainerElement.hpp"
@@ -21,5 +21,6 @@ module;
 #include "UnityEngine/Audio/AudioRandomContainerTriggerMode.hpp"
 #include "UnityEngine/Audio/AudioResource.hpp"
 #ifdef __cpp_modules
-export module Audio;
-#endif
+                    export module Audio;
+                    #endif
+                

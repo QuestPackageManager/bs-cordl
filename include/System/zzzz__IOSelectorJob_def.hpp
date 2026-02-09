@@ -33,81 +33,81 @@ namespace System {
 // CS Name: System.IOSelectorJob
 class CORDL_TYPE IOSelectorJob : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field callback, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_callback, put = __cordl_internal_set_callback)) ::System::IOAsyncCallback* callback;
+// Declarations
+/// @brief Field callback, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_callback, put=__cordl_internal_set_callback)) ::System::IOAsyncCallback*  callback;
 
-  /// @brief Field operation, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_operation, put = __cordl_internal_set_operation)) ::System::IOOperation operation;
+/// @brief Field operation, offset 0x10, size 0x4 
+ __declspec(property(get=__cordl_internal_get_operation, put=__cordl_internal_set_operation)) ::System::IOOperation  operation;
 
-  /// @brief Field state, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_state, put = __cordl_internal_set_state)) ::System::IOAsyncResult* state;
+/// @brief Field state, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get_state, put=__cordl_internal_set_state)) ::System::IOAsyncResult*  state;
 
-  /// @brief Convert operator to "::System::Threading::IThreadPoolWorkItem"
-  constexpr operator ::System::Threading::IThreadPoolWorkItem*() noexcept;
+/// @brief Convert operator to "::System::Threading::IThreadPoolWorkItem"
+constexpr operator  ::System::Threading::IThreadPoolWorkItem*() noexcept;
 
-  /// @brief Method MarkDisposed, addr 0x61c5cd8, size 0x1c, virtual false, abstract: false, final false
-  inline void MarkDisposed();
+/// @brief Method MarkDisposed, addr 0x61c6398, size 0x1c, virtual false, abstract: false, final false
+inline void MarkDisposed() ;
 
-  static inline ::System::IOSelectorJob* New_ctor(::System::IOOperation operation, ::System::IOAsyncCallback* callback, ::System::IOAsyncResult* state);
+static inline ::System::IOSelectorJob* New_ctor(::System::IOOperation  operation, ::System::IOAsyncCallback*  callback, ::System::IOAsyncResult*  state) ;
 
-  /// @brief Method System.Threading.IThreadPoolWorkItem.ExecuteWorkItem, addr 0x61c5cb0, size 0x24, virtual true, abstract: false, final true
-  inline void System_Threading_IThreadPoolWorkItem_ExecuteWorkItem();
+/// @brief Method System.Threading.IThreadPoolWorkItem.ExecuteWorkItem, addr 0x61c6370, size 0x24, virtual true, abstract: false, final true
+inline void System_Threading_IThreadPoolWorkItem_ExecuteWorkItem() ;
 
-  /// @brief Method System.Threading.IThreadPoolWorkItem.MarkAborted, addr 0x61c5cd4, size 0x4, virtual true, abstract: false, final true
-  inline void System_Threading_IThreadPoolWorkItem_MarkAborted(::System::Threading::ThreadAbortException* tae);
+/// @brief Method System.Threading.IThreadPoolWorkItem.MarkAborted, addr 0x61c6394, size 0x4, virtual true, abstract: false, final true
+inline void System_Threading_IThreadPoolWorkItem_MarkAborted(::System::Threading::ThreadAbortException*  tae) ;
 
-  constexpr ::System::IOAsyncCallback* const& __cordl_internal_get_callback() const;
+constexpr ::System::IOAsyncCallback* const& __cordl_internal_get_callback() const;
 
-  constexpr ::System::IOAsyncCallback*& __cordl_internal_get_callback();
+constexpr ::System::IOAsyncCallback*& __cordl_internal_get_callback() ;
 
-  constexpr ::System::IOOperation const& __cordl_internal_get_operation() const;
+constexpr ::System::IOOperation const& __cordl_internal_get_operation() const;
 
-  constexpr ::System::IOOperation& __cordl_internal_get_operation();
+constexpr ::System::IOOperation& __cordl_internal_get_operation() ;
 
-  constexpr ::System::IOAsyncResult* const& __cordl_internal_get_state() const;
+constexpr ::System::IOAsyncResult* const& __cordl_internal_get_state() const;
 
-  constexpr ::System::IOAsyncResult*& __cordl_internal_get_state();
+constexpr ::System::IOAsyncResult*& __cordl_internal_get_state() ;
 
-  constexpr void __cordl_internal_set_callback(::System::IOAsyncCallback* value);
+constexpr void __cordl_internal_set_callback(::System::IOAsyncCallback*  value) ;
 
-  constexpr void __cordl_internal_set_operation(::System::IOOperation value);
+constexpr void __cordl_internal_set_operation(::System::IOOperation  value) ;
 
-  constexpr void __cordl_internal_set_state(::System::IOAsyncResult* value);
+constexpr void __cordl_internal_set_state(::System::IOAsyncResult*  value) ;
 
-  /// @brief Method .ctor, addr 0x61c5ca4, size 0xc, virtual false, abstract: false, final false
-  inline void _ctor(::System::IOOperation operation, ::System::IOAsyncCallback* callback, ::System::IOAsyncResult* state);
+/// @brief Method .ctor, addr 0x61c6364, size 0xc, virtual false, abstract: false, final false
+inline void _ctor(::System::IOOperation  operation, ::System::IOAsyncCallback*  callback, ::System::IOAsyncResult*  state) ;
 
-  /// @brief Convert to "::System::Threading::IThreadPoolWorkItem"
-  constexpr ::System::Threading::IThreadPoolWorkItem* i___System__Threading__IThreadPoolWorkItem() noexcept;
+/// @brief Convert to "::System::Threading::IThreadPoolWorkItem"
+constexpr ::System::Threading::IThreadPoolWorkItem* i___System__Threading__IThreadPoolWorkItem() noexcept;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr IOSelectorJob();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr IOSelectorJob() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IOSelectorJob", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IOSelectorJob(IOSelectorJob&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IOSelectorJob", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  IOSelectorJob(IOSelectorJob const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "IOSelectorJob", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+IOSelectorJob(IOSelectorJob && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11064 };
+// Ctor Parameters [CppParam { name: "", ty: "IOSelectorJob", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+IOSelectorJob(IOSelectorJob const& ) = delete;
 
-  /// @brief Field operation, offset: 0x10, size: 0x4, def value: None
-  ::System::IOOperation ___operation;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11068};
 
-  /// @brief Field callback, offset: 0x18, size: 0x8, def value: None
-  ::System::IOAsyncCallback* ___callback;
+/// @brief Field operation, offset: 0x10, size: 0x4, def value: None
+ ::System::IOOperation  ___operation;
 
-  /// @brief Field state, offset: 0x20, size: 0x8, def value: None
-  ::System::IOAsyncResult* ___state;
+/// @brief Field callback, offset: 0x18, size: 0x8, def value: None
+ ::System::IOAsyncCallback*  ___callback;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field state, offset: 0x20, size: 0x8, def value: None
+ ::System::IOAsyncResult*  ___state;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::IOSelectorJob, ___operation) == 0x10, "Offset mismatch!");
@@ -118,6 +118,6 @@ static_assert(offsetof(::System::IOSelectorJob, ___state) == 0x20, "Offset misma
 
 static_assert(::cordl_internals::size_check_v<::System::IOSelectorJob, 0x28>, "Size mismatch!");
 
-} // namespace System
+} // namespace end def System
 NEED_NO_BOX(::System::IOSelectorJob);
 DEFINE_IL2CPP_ARG_TYPE(::System::IOSelectorJob*, "System", "IOSelectorJob");

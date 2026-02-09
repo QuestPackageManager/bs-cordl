@@ -23,52 +23,52 @@ namespace UnityEngine::Rendering {
 // CS Name: UnityEngine.Rendering.XRGraphicsAutomatedTests
 class CORDL_TYPE XRGraphicsAutomatedTests : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field <enabled>k__BackingField, offset 0xffffffff, size 0x1
-  __declspec(property(get = getStaticF__enabled_k__BackingField, put = setStaticF__enabled_k__BackingField)) bool _enabled_k__BackingField;
+// Declarations
+/// @brief Field <enabled>k__BackingField, offset 0xffffffff, size 0x1 
+ __declspec(property(get=getStaticF__enabled_k__BackingField, put=setStaticF__enabled_k__BackingField)) bool  _enabled_k__BackingField;
 
-  /// @brief Field running, offset 0xffffffff, size 0x1
-  __declspec(property(get = getStaticF_running, put = setStaticF_running)) bool running;
+/// @brief Field running, offset 0xffffffff, size 0x1 
+ __declspec(property(get=getStaticF_running, put=setStaticF_running)) bool  running;
 
-  /// @brief Method OverrideLayout, addr 0x6618474, size 0x51c, virtual false, abstract: false, final false
-  static inline void OverrideLayout(::UnityEngine::Experimental::Rendering::XRLayout* layout, ::UnityEngine::Camera* camera);
+/// @brief Method OverrideLayout, addr 0x6618b34, size 0x51c, virtual false, abstract: false, final false
+static inline void OverrideLayout(::UnityEngine::Experimental::Rendering::XRLayout*  layout, ::UnityEngine::Camera*  camera) ;
 
-  static inline bool getStaticF__enabled_k__BackingField();
+static inline bool getStaticF__enabled_k__BackingField() ;
 
-  static inline bool getStaticF_running();
+static inline bool getStaticF_running() ;
 
-  /// @brief Method get_activatedFromCommandLine, addr 0x6618410, size 0x8, virtual false, abstract: false, final false
-  static inline bool get_activatedFromCommandLine();
+/// @brief Method get_activatedFromCommandLine, addr 0x6618ad0, size 0x8, virtual false, abstract: false, final false
+static inline bool get_activatedFromCommandLine() ;
 
-  /// @brief Method get_enabled, addr 0x6618418, size 0x5c, virtual false, abstract: false, final false
-  static inline bool get_enabled();
+/// @brief Method get_enabled, addr 0x6618ad8, size 0x5c, virtual false, abstract: false, final false
+static inline bool get_enabled() ;
 
-  static inline void setStaticF__enabled_k__BackingField(bool value);
+static inline void setStaticF__enabled_k__BackingField(bool  value) ;
 
-  static inline void setStaticF_running(bool value);
+static inline void setStaticF_running(bool  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr XRGraphicsAutomatedTests();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr XRGraphicsAutomatedTests() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XRGraphicsAutomatedTests", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  XRGraphicsAutomatedTests(XRGraphicsAutomatedTests&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XRGraphicsAutomatedTests", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  XRGraphicsAutomatedTests(XRGraphicsAutomatedTests const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "XRGraphicsAutomatedTests", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+XRGraphicsAutomatedTests(XRGraphicsAutomatedTests && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12353 };
+// Ctor Parameters [CppParam { name: "", ty: "XRGraphicsAutomatedTests", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+XRGraphicsAutomatedTests(XRGraphicsAutomatedTests const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12357};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::XRGraphicsAutomatedTests, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine::Rendering
+} // namespace end def UnityEngine::Rendering
 NEED_NO_BOX(::UnityEngine::Rendering::XRGraphicsAutomatedTests);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::XRGraphicsAutomatedTests*, "UnityEngine.Rendering", "XRGraphicsAutomatedTests");

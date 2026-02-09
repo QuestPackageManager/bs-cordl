@@ -20,60 +20,59 @@ namespace UnityEngine::Experimental::Rendering {
 // CS Name: UnityEngine.Experimental.Rendering.ScriptableRuntimeReflectionSystemWrapper
 class CORDL_TYPE ScriptableRuntimeReflectionSystemWrapper : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field <implementation>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__implementation_k__BackingField,
-                      put = __cordl_internal_set__implementation_k__BackingField)) ::UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem* _implementation_k__BackingField;
+// Declarations
+/// @brief Field <implementation>k__BackingField, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get__implementation_k__BackingField, put=__cordl_internal_set__implementation_k__BackingField)) ::UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem*  _implementation_k__BackingField;
 
-  __declspec(property(get = get_implementation, put = set_implementation)) ::UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem* implementation;
+ __declspec(property(get=get_implementation, put=set_implementation)) ::UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem*  implementation;
 
-  /// @brief Method Internal_ScriptableRuntimeReflectionSystemWrapper_TickRealtimeProbes, addr 0x6965858, size 0xcc, virtual false, abstract: false, final false
-  inline void Internal_ScriptableRuntimeReflectionSystemWrapper_TickRealtimeProbes(::ByRef<bool> result);
+/// @brief Method Internal_ScriptableRuntimeReflectionSystemWrapper_TickRealtimeProbes, addr 0x6965f18, size 0xcc, virtual false, abstract: false, final false
+inline void Internal_ScriptableRuntimeReflectionSystemWrapper_TickRealtimeProbes(::ByRef<bool>  result) ;
 
-  static inline ::UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemWrapper* New_ctor();
+static inline ::UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemWrapper* New_ctor() ;
 
-  constexpr ::UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem* const& __cordl_internal_get__implementation_k__BackingField() const;
+constexpr ::UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem* const& __cordl_internal_get__implementation_k__BackingField() const;
 
-  constexpr ::UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem*& __cordl_internal_get__implementation_k__BackingField();
+constexpr ::UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem*& __cordl_internal_get__implementation_k__BackingField() ;
 
-  constexpr void __cordl_internal_set__implementation_k__BackingField(::UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem* value);
+constexpr void __cordl_internal_set__implementation_k__BackingField(::UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem*  value) ;
 
-  /// @brief Method .ctor, addr 0x6965844, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6965f04, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_implementation, addr 0x6965848, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem* get_implementation();
+/// @brief Method get_implementation, addr 0x6965f08, size 0x8, virtual false, abstract: false, final false
+inline ::UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem* get_implementation() ;
 
-  /// @brief Method set_implementation, addr 0x6965850, size 0x8, virtual false, abstract: false, final false
-  inline void set_implementation(::UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem* value);
+/// @brief Method set_implementation, addr 0x6965f10, size 0x8, virtual false, abstract: false, final false
+inline void set_implementation(::UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ScriptableRuntimeReflectionSystemWrapper();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ScriptableRuntimeReflectionSystemWrapper() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ScriptableRuntimeReflectionSystemWrapper", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ScriptableRuntimeReflectionSystemWrapper(ScriptableRuntimeReflectionSystemWrapper&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ScriptableRuntimeReflectionSystemWrapper", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ScriptableRuntimeReflectionSystemWrapper(ScriptableRuntimeReflectionSystemWrapper const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ScriptableRuntimeReflectionSystemWrapper", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ScriptableRuntimeReflectionSystemWrapper(ScriptableRuntimeReflectionSystemWrapper && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10898 };
+// Ctor Parameters [CppParam { name: "", ty: "ScriptableRuntimeReflectionSystemWrapper", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ScriptableRuntimeReflectionSystemWrapper(ScriptableRuntimeReflectionSystemWrapper const& ) = delete;
 
-  /// @brief Field <implementation>k__BackingField, offset: 0x10, size: 0x8, def value: None
-  ::UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem* ____implementation_k__BackingField;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10902};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field <implementation>k__BackingField, offset: 0x10, size: 0x8, def value: None
+ ::UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem*  ____implementation_k__BackingField;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemWrapper, ____implementation_k__BackingField) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemWrapper, 0x18>, "Size mismatch!");
 
-} // namespace UnityEngine::Experimental::Rendering
+} // namespace end def UnityEngine::Experimental::Rendering
 NEED_NO_BOX(::UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemWrapper);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemWrapper*, "UnityEngine.Experimental.Rendering", "ScriptableRuntimeReflectionSystemWrapper");

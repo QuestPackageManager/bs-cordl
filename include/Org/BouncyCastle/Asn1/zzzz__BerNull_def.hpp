@@ -21,49 +21,49 @@ namespace Org::BouncyCastle::Asn1 {
 // CS Name: Org.BouncyCastle.Asn1.BerNull
 class CORDL_TYPE BerNull : public ::Org::BouncyCastle::Asn1::DerNull {
 public:
-  // Declarations
-  /// @brief Field Instance, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance)) ::Org::BouncyCastle::Asn1::BerNull* Instance;
+// Declarations
+/// @brief Field Instance, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_Instance, put=setStaticF_Instance)) ::Org::BouncyCastle::Asn1::BerNull*  Instance;
 
-  /// @brief Method Encode, addr 0x358dc5c, size 0xe4, virtual true, abstract: false, final false
-  inline void Encode(::Org::BouncyCastle::Asn1::DerOutputStream* derOut);
+/// @brief Method Encode, addr 0x358dbac, size 0xe4, virtual true, abstract: false, final false
+inline void Encode(::Org::BouncyCastle::Asn1::DerOutputStream*  derOut) ;
 
-  static inline ::Org::BouncyCastle::Asn1::BerNull* New_ctor();
+static inline ::Org::BouncyCastle::Asn1::BerNull* New_ctor() ;
 
-  static inline ::Org::BouncyCastle::Asn1::BerNull* New_ctor(int32_t dummy);
+static inline ::Org::BouncyCastle::Asn1::BerNull* New_ctor(int32_t  dummy) ;
 
-  /// @brief Method .ctor, addr 0x358dbac, size 0x58, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x358dafc, size 0x58, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method .ctor, addr 0x358dc04, size 0x58, virtual false, abstract: false, final false
-  inline void _ctor(int32_t dummy);
+/// @brief Method .ctor, addr 0x358db54, size 0x58, virtual false, abstract: false, final false
+inline void _ctor(int32_t  dummy) ;
 
-  static inline ::Org::BouncyCastle::Asn1::BerNull* getStaticF_Instance();
+static inline ::Org::BouncyCastle::Asn1::BerNull* getStaticF_Instance() ;
 
-  static inline void setStaticF_Instance(::Org::BouncyCastle::Asn1::BerNull* value);
+static inline void setStaticF_Instance(::Org::BouncyCastle::Asn1::BerNull*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BerNull();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr BerNull() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BerNull", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  BerNull(BerNull&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BerNull", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  BerNull(BerNull const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "BerNull", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+BerNull(BerNull && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 478 };
+// Ctor Parameters [CppParam { name: "", ty: "BerNull", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+BerNull(BerNull const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{478};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::BerNull, 0x18>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Asn1
+} // namespace end def Org::BouncyCastle::Asn1
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::BerNull);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::BerNull*, "Org.BouncyCastle.Asn1", "BerNull");

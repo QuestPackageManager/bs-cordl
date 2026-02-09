@@ -5,67 +5,80 @@
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "System/zzzz__AppContext_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::System::AppContext_SwitchValueState::AppContext_SwitchValueState(int32_t value__) noexcept {
-  this->value__ = value__;
+constexpr ::System::AppContext_SwitchValueState::AppContext_SwitchValueState(int32_t  value__) noexcept  {
+this->value__ = value__;
 }
 // Ctor Parameters []
-constexpr ::System::AppContext_SwitchValueState::AppContext_SwitchValueState() {}
-constexpr ::System::AppContext_SwitchValueState System::AppContext_SwitchValueState::HasFalseValue{ static_cast<int32_t>(0x1) };
-constexpr ::System::AppContext_SwitchValueState System::AppContext_SwitchValueState::HasTrueValue{ static_cast<int32_t>(0x2) };
-constexpr ::System::AppContext_SwitchValueState System::AppContext_SwitchValueState::HasLookedForOverride{ static_cast<int32_t>(0x4) };
-constexpr ::System::AppContext_SwitchValueState System::AppContext_SwitchValueState::UnknownValue{ static_cast<int32_t>(0x8) };
+constexpr ::System::AppContext_SwitchValueState::AppContext_SwitchValueState()   {
+}
+constexpr ::System::AppContext_SwitchValueState  System::AppContext_SwitchValueState::HasFalseValue{static_cast<int32_t>(0x1)};
+constexpr ::System::AppContext_SwitchValueState  System::AppContext_SwitchValueState::HasTrueValue{static_cast<int32_t>(0x2)};
+constexpr ::System::AppContext_SwitchValueState  System::AppContext_SwitchValueState::HasLookedForOverride{static_cast<int32_t>(0x4)};
+constexpr ::System::AppContext_SwitchValueState  System::AppContext_SwitchValueState::UnknownValue{static_cast<int32_t>(0x8)};
 //  Writing Method size for method: ::System::AppContext.InitializeDefaultSwitchValues
-template <>
+template<>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::System::AppContext::InitializeDefaultSwitchValues)> {
   constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x5ac05b0;
+  constexpr static std::size_t addrs = 0x5ac0abc;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::AppContext*>::get(), "InitializeDefaultSwitchValues",
-                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::AppContext*>::get(),
+                        "InitializeDefaultSwitchValues",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::AppContext.TryGetSwitch
-template <>
+template<>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::ByRef<bool>)>(&::System::AppContext::TryGetSwitch)> {
   constexpr static std::size_t size = 0x3a8;
-  constexpr static std::size_t addrs = 0x5ac071c;
+  constexpr static std::size_t addrs = 0x5ac0c28;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::AppContext*>::get(), "TryGetSwitch", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<bool>>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::AppContext*>::get(),
+                        "TryGetSwitch",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<bool>>::get()}
+                    )));
     return ___internal_method;
   }
 };
-inline void System::AppContext::setStaticF_s_switchMap(::System::Collections::Generic::Dictionary_2<::StringW, ::System::AppContext_SwitchValueState>* value) {
-  ::cordl_internals::setStaticField<::System::Collections::Generic::Dictionary_2<::StringW, ::System::AppContext_SwitchValueState>*, "s_switchMap",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::AppContext*>::get>(
-      std::forward<::System::Collections::Generic::Dictionary_2<::StringW, ::System::AppContext_SwitchValueState>*>(value));
+inline void System::AppContext::setStaticF_s_switchMap(::System::Collections::Generic::Dictionary_2<::StringW,::System::AppContext_SwitchValueState>*  value)  {
+::cordl_internals::setStaticField<::System::Collections::Generic::Dictionary_2<::StringW,::System::AppContext_SwitchValueState>*, "s_switchMap", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::AppContext*>::get>(std::forward<::System::Collections::Generic::Dictionary_2<::StringW,::System::AppContext_SwitchValueState>*>(value));
 }
-inline ::System::Collections::Generic::Dictionary_2<::StringW, ::System::AppContext_SwitchValueState>* System::AppContext::getStaticF_s_switchMap() {
-  return ::cordl_internals::getStaticField<::System::Collections::Generic::Dictionary_2<::StringW, ::System::AppContext_SwitchValueState>*, "s_switchMap",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::AppContext*>::get>();
+inline ::System::Collections::Generic::Dictionary_2<::StringW,::System::AppContext_SwitchValueState>* System::AppContext::getStaticF_s_switchMap()  {
+return ::cordl_internals::getStaticField<::System::Collections::Generic::Dictionary_2<::StringW,::System::AppContext_SwitchValueState>*, "s_switchMap", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::AppContext*>::get>();
 }
-inline void System::AppContext::setStaticF_s_defaultsInitialized(bool value) {
-  ::cordl_internals::setStaticField<bool, "s_defaultsInitialized", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::AppContext*>::get>(std::forward<bool>(value));
+inline void System::AppContext::setStaticF_s_defaultsInitialized(bool  value)  {
+::cordl_internals::setStaticField<bool, "s_defaultsInitialized", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::AppContext*>::get>(std::forward<bool>(value));
 }
-inline bool System::AppContext::getStaticF_s_defaultsInitialized() {
-  return ::cordl_internals::getStaticField<bool, "s_defaultsInitialized", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::AppContext*>::get>();
+inline bool System::AppContext::getStaticF_s_defaultsInitialized()  {
+return ::cordl_internals::getStaticField<bool, "s_defaultsInitialized", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::AppContext*>::get>();
 }
-inline void System::AppContext::InitializeDefaultSwitchValues() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::AppContext*>::get(), "InitializeDefaultSwitchValues",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method);
+inline void System::AppContext::InitializeDefaultSwitchValues()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::AppContext*>::get(),
+                        "InitializeDefaultSwitchValues",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method);
 }
-inline bool System::AppContext::TryGetSwitch(::StringW switchName, ::ByRef<bool> isEnabled) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::AppContext*>::get(), "TryGetSwitch", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<bool>>::get() })));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, switchName, isEnabled);
+inline bool System::AppContext::TryGetSwitch(::StringW  switchName, ::ByRef<bool>  isEnabled)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::AppContext*>::get(),
+                        "TryGetSwitch",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<bool>>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, switchName, isEnabled);
 }
 // Ctor Parameters []
-constexpr ::System::AppContext::AppContext() {}
+constexpr ::System::AppContext::AppContext()   {
+}

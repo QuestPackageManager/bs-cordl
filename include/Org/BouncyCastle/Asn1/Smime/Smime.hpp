@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "Org/BouncyCastle/Asn1/Smime/SmimeAttributes.hpp"
 #include "Org/BouncyCastle/Asn1/Smime/SmimeCapabilities.hpp"
@@ -10,5 +10,6 @@ module;
 #include "Org/BouncyCastle/Asn1/Smime/SmimeCapabilityVector.hpp"
 #include "Org/BouncyCastle/Asn1/Smime/SmimeEncryptionKeyPreferenceAttribute.hpp"
 #ifdef __cpp_modules
-export module Smime;
-#endif
+                    export module Smime;
+                    #endif
+                

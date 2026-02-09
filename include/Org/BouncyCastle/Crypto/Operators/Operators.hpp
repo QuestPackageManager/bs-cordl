@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "Org/BouncyCastle/Crypto/Operators/Asn1CipherBuilderWithKey.hpp"
 #include "Org/BouncyCastle/Crypto/Operators/Asn1KeyWrapper.hpp"
@@ -20,5 +20,6 @@ module;
 #include "Org/BouncyCastle/Crypto/Operators/WrapperProvider.hpp"
 #include "Org/BouncyCastle/Crypto/Operators/X509Utilities.hpp"
 #ifdef __cpp_modules
-export module Operators;
-#endif
+                    export module Operators;
+                    #endif
+                

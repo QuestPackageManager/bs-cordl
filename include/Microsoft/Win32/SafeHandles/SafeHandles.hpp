@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "Microsoft/Win32/SafeHandles/SafeFileHandle.hpp"
 #include "Microsoft/Win32/SafeHandles/SafeHandleCache_1.hpp"
@@ -11,5 +11,6 @@ module;
 #include "Microsoft/Win32/SafeHandles/SafeProcessHandle.hpp"
 #include "Microsoft/Win32/SafeHandles/SafeWaitHandle.hpp"
 #ifdef __cpp_modules
-export module SafeHandles;
-#endif
+                    export module SafeHandles;
+                    #endif
+                

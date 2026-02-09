@@ -24,42 +24,39 @@ namespace UnityEngine::InputSystem::UI {
 // CS Name: UnityEngine.InputSystem.UI.NavigationModel
 struct CORDL_TYPE NavigationModel {
 public:
-  // Declarations
-  /// @brief Method Reset, addr 0x63e0d38, size 0x54, virtual false, abstract: false, final false
-  inline void Reset();
+// Declarations
+/// @brief Method Reset, addr 0x63e13f8, size 0x54, virtual false, abstract: false, final false
+inline void Reset() ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NavigationModel();
+// Ctor Parameters []
+// @brief default ctor
+constexpr NavigationModel() ;
 
-  // Ctor Parameters [CppParam { name: "move", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "consecutiveMoveCount", ty: "int32_t", modifiers: "", def_value: None },
-  // CppParam { name: "lastMoveDirection", ty: "::UnityEngine::EventSystems::MoveDirection", modifiers: "", def_value: None }, CppParam { name: "lastMoveTime", ty: "float_t", modifiers: "", def_value:
-  // None }, CppParam { name: "eventData", ty: "::UnityEngine::EventSystems::AxisEventData*", modifiers: "", def_value: None }]
-  constexpr NavigationModel(::UnityEngine::Vector2 move, int32_t consecutiveMoveCount, ::UnityEngine::EventSystems::MoveDirection lastMoveDirection, float_t lastMoveTime,
-                            ::UnityEngine::EventSystems::AxisEventData* eventData) noexcept;
+// Ctor Parameters [CppParam { name: "move", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "consecutiveMoveCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "lastMoveDirection", ty: "::UnityEngine::EventSystems::MoveDirection", modifiers: "", def_value: None }, CppParam { name: "lastMoveTime", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "eventData", ty: "::UnityEngine::EventSystems::AxisEventData*", modifiers: "", def_value: None }]
+constexpr NavigationModel(::UnityEngine::Vector2  move, int32_t  consecutiveMoveCount, ::UnityEngine::EventSystems::MoveDirection  lastMoveDirection, float_t  lastMoveTime, ::UnityEngine::EventSystems::AxisEventData*  eventData) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8847 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8851};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x20};
 
-  /// @brief Field move, offset: 0x0, size: 0x8, def value: None
-  ::UnityEngine::Vector2 move;
+/// @brief Field move, offset: 0x0, size: 0x8, def value: None
+ ::UnityEngine::Vector2  move;
 
-  /// @brief Field consecutiveMoveCount, offset: 0x8, size: 0x4, def value: None
-  int32_t consecutiveMoveCount;
+/// @brief Field consecutiveMoveCount, offset: 0x8, size: 0x4, def value: None
+ int32_t  consecutiveMoveCount;
 
-  /// @brief Field lastMoveDirection, offset: 0xc, size: 0x4, def value: None
-  ::UnityEngine::EventSystems::MoveDirection lastMoveDirection;
+/// @brief Field lastMoveDirection, offset: 0xc, size: 0x4, def value: None
+ ::UnityEngine::EventSystems::MoveDirection  lastMoveDirection;
 
-  /// @brief Field lastMoveTime, offset: 0x10, size: 0x4, def value: None
-  float_t lastMoveTime;
+/// @brief Field lastMoveTime, offset: 0x10, size: 0x4, def value: None
+ float_t  lastMoveTime;
 
-  /// @brief Field eventData, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::EventSystems::AxisEventData* eventData;
+/// @brief Field eventData, offset: 0x18, size: 0x8, def value: None
+ ::UnityEngine::EventSystems::AxisEventData*  eventData;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::InputSystem::UI::NavigationModel, move) == 0x0, "Offset mismatch!");
@@ -74,5 +71,5 @@ static_assert(offsetof(::UnityEngine::InputSystem::UI::NavigationModel, eventDat
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::UI::NavigationModel, 0x20>, "Size mismatch!");
 
-} // namespace UnityEngine::InputSystem::UI
+} // namespace end def UnityEngine::InputSystem::UI
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::UI::NavigationModel, "UnityEngine.InputSystem.UI", "NavigationModel");

@@ -18,32 +18,32 @@ namespace UnityEngine {
 // CS Name: UnityEngine.HumanTrait
 class CORDL_TYPE HumanTrait : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method GetBoneIndexFromMono, addr 0x686ec2c, size 0x3c, virtual false, abstract: false, final false
-  static inline int32_t GetBoneIndexFromMono(int32_t humanId);
+// Declarations
+/// @brief Method GetBoneIndexFromMono, addr 0x686f2ec, size 0x3c, virtual false, abstract: false, final false
+static inline int32_t GetBoneIndexFromMono(int32_t  humanId) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HumanTrait();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr HumanTrait() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HumanTrait", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  HumanTrait(HumanTrait&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HumanTrait", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  HumanTrait(HumanTrait const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "HumanTrait", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+HumanTrait(HumanTrait && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20008 };
+// Ctor Parameters [CppParam { name: "", ty: "HumanTrait", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+HumanTrait(HumanTrait const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20012};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::HumanTrait, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine
+} // namespace end def UnityEngine
 NEED_NO_BOX(::UnityEngine::HumanTrait);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::HumanTrait*, "UnityEngine", "HumanTrait");

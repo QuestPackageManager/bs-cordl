@@ -22,67 +22,67 @@ namespace GlobalNamespace {
 // CS Name: MockPlatformEntitlement
 class CORDL_TYPE MockPlatformEntitlement : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field _id, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__id, put = __cordl_internal_set__id)) ::StringW _id;
+// Declarations
+/// @brief Field _id, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get__id, put=__cordl_internal_set__id)) ::StringW  _id;
 
-  /// @brief Field _status, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get__status, put = __cordl_internal_set__status)) ::GlobalNamespace::EntitlementStatus _status;
+/// @brief Field _status, offset 0x18, size 0x4 
+ __declspec(property(get=__cordl_internal_get__status, put=__cordl_internal_set__status)) ::GlobalNamespace::EntitlementStatus  _status;
 
-  __declspec(property(get = get_id)) ::StringW id;
+ __declspec(property(get=get_id)) ::StringW  id;
 
-  __declspec(property(get = get_status)) ::GlobalNamespace::EntitlementStatus status;
+ __declspec(property(get=get_status)) ::GlobalNamespace::EntitlementStatus  status;
 
-  /// @brief Method GetIt, addr 0x36002ac, size 0xc, virtual false, abstract: false, final false
-  inline void GetIt();
+/// @brief Method GetIt, addr 0x36001fc, size 0xc, virtual false, abstract: false, final false
+inline void GetIt() ;
 
-  static inline ::GlobalNamespace::MockPlatformEntitlement* New_ctor(::StringW id, ::GlobalNamespace::EntitlementStatus status);
+static inline ::GlobalNamespace::MockPlatformEntitlement* New_ctor(::StringW  id, ::GlobalNamespace::EntitlementStatus  status) ;
 
-  constexpr ::StringW const& __cordl_internal_get__id() const;
+constexpr ::StringW const& __cordl_internal_get__id() const;
 
-  constexpr ::StringW& __cordl_internal_get__id();
+constexpr ::StringW& __cordl_internal_get__id() ;
 
-  constexpr ::GlobalNamespace::EntitlementStatus const& __cordl_internal_get__status() const;
+constexpr ::GlobalNamespace::EntitlementStatus const& __cordl_internal_get__status() const;
 
-  constexpr ::GlobalNamespace::EntitlementStatus& __cordl_internal_get__status();
+constexpr ::GlobalNamespace::EntitlementStatus& __cordl_internal_get__status() ;
 
-  constexpr void __cordl_internal_set__id(::StringW value);
+constexpr void __cordl_internal_set__id(::StringW  value) ;
 
-  constexpr void __cordl_internal_set__status(::GlobalNamespace::EntitlementStatus value);
+constexpr void __cordl_internal_set__status(::GlobalNamespace::EntitlementStatus  value) ;
 
-  /// @brief Method .ctor, addr 0x36002b8, size 0xc, virtual false, abstract: false, final false
-  inline void _ctor(::StringW id, ::GlobalNamespace::EntitlementStatus status);
+/// @brief Method .ctor, addr 0x3600208, size 0xc, virtual false, abstract: false, final false
+inline void _ctor(::StringW  id, ::GlobalNamespace::EntitlementStatus  status) ;
 
-  /// @brief Method get_id, addr 0x3601468, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_id();
+/// @brief Method get_id, addr 0x36013b8, size 0x8, virtual false, abstract: false, final false
+inline ::StringW get_id() ;
 
-  /// @brief Method get_status, addr 0x3601470, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::EntitlementStatus get_status();
+/// @brief Method get_status, addr 0x36013c0, size 0x8, virtual false, abstract: false, final false
+inline ::GlobalNamespace::EntitlementStatus get_status() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MockPlatformEntitlement();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr MockPlatformEntitlement() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MockPlatformEntitlement", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  MockPlatformEntitlement(MockPlatformEntitlement&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MockPlatformEntitlement", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  MockPlatformEntitlement(MockPlatformEntitlement const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "MockPlatformEntitlement", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+MockPlatformEntitlement(MockPlatformEntitlement && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14747 };
+// Ctor Parameters [CppParam { name: "", ty: "MockPlatformEntitlement", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+MockPlatformEntitlement(MockPlatformEntitlement const& ) = delete;
 
-  /// @brief Field _id, offset: 0x10, size: 0x8, def value: None
-  ::StringW ____id;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{14751};
 
-  /// @brief Field _status, offset: 0x18, size: 0x4, def value: None
-  ::GlobalNamespace::EntitlementStatus ____status;
+/// @brief Field _id, offset: 0x10, size: 0x8, def value: None
+ ::StringW  ____id;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _status, offset: 0x18, size: 0x4, def value: None
+ ::GlobalNamespace::EntitlementStatus  ____status;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::MockPlatformEntitlement, ____id) == 0x10, "Offset mismatch!");
@@ -91,6 +91,6 @@ static_assert(offsetof(::GlobalNamespace::MockPlatformEntitlement, ____status) =
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MockPlatformEntitlement, 0x20>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MockPlatformEntitlement);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MockPlatformEntitlement*, "", "MockPlatformEntitlement");

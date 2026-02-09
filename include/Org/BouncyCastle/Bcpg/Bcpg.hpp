@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "Org/BouncyCastle/Bcpg/ArmoredInputStream.hpp"
 #include "Org/BouncyCastle/Bcpg/ArmoredOutputStream.hpp"
@@ -60,5 +60,6 @@ module;
 #include "Org/BouncyCastle/Bcpg/UserAttributeSubpacketsParser.hpp"
 #include "Org/BouncyCastle/Bcpg/UserIdPacket.hpp"
 #ifdef __cpp_modules
-export module Bcpg;
-#endif
+                    export module Bcpg;
+                    #endif
+                

@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "Newtonsoft/Json/Schema/Extensions.hpp"
 #include "Newtonsoft/Json/Schema/JsonSchema.hpp"
@@ -20,5 +20,6 @@ module;
 #include "Newtonsoft/Json/Schema/ValidationEventArgs.hpp"
 #include "Newtonsoft/Json/Schema/ValidationEventHandler.hpp"
 #ifdef __cpp_modules
-export module Schema;
-#endif
+                    export module Schema;
+                    #endif
+                

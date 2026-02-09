@@ -8,10 +8,12 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TMP_StyleSheet)
 namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+template<typename TKey,typename TValue>
+class Dictionary_2;
 }
 namespace System::Collections::Generic {
-template <typename T> class List_1;
+template<typename T>
+class List_1;
 }
 namespace TMPro {
 class TMP_Style;
@@ -28,75 +30,74 @@ namespace TMPro {
 // CS Name: TMPro.TMP_StyleSheet
 class CORDL_TYPE TMP_StyleSheet : public ::UnityEngine::ScriptableObject {
 public:
-  // Declarations
-  /// @brief Field m_StyleList, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_StyleList, put = __cordl_internal_set_m_StyleList)) ::System::Collections::Generic::List_1<::TMPro::TMP_Style*>* m_StyleList;
+// Declarations
+/// @brief Field m_StyleList, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_StyleList, put=__cordl_internal_set_m_StyleList)) ::System::Collections::Generic::List_1<::TMPro::TMP_Style*>*  m_StyleList;
 
-  /// @brief Field m_StyleLookupDictionary, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_StyleLookupDictionary,
-                      put = __cordl_internal_set_m_StyleLookupDictionary)) ::System::Collections::Generic::Dictionary_2<int32_t, ::TMPro::TMP_Style*>* m_StyleLookupDictionary;
+/// @brief Field m_StyleLookupDictionary, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_StyleLookupDictionary, put=__cordl_internal_set_m_StyleLookupDictionary)) ::System::Collections::Generic::Dictionary_2<int32_t,::TMPro::TMP_Style*>*  m_StyleLookupDictionary;
 
-  __declspec(property(get = get_styles)) ::System::Collections::Generic::List_1<::TMPro::TMP_Style*>* styles;
+ __declspec(property(get=get_styles)) ::System::Collections::Generic::List_1<::TMPro::TMP_Style*>*  styles;
 
-  /// @brief Method GetStyle, addr 0x67ea400, size 0x8c, virtual false, abstract: false, final false
-  inline ::TMPro::TMP_Style* GetStyle(int32_t hashCode);
+/// @brief Method GetStyle, addr 0x67eaac0, size 0x8c, virtual false, abstract: false, final false
+inline ::TMPro::TMP_Style* GetStyle(int32_t  hashCode) ;
 
-  /// @brief Method GetStyle, addr 0x67ea48c, size 0xc0, virtual false, abstract: false, final false
-  inline ::TMPro::TMP_Style* GetStyle(::StringW name);
+/// @brief Method GetStyle, addr 0x67eab4c, size 0xc0, virtual false, abstract: false, final false
+inline ::TMPro::TMP_Style* GetStyle(::StringW  name) ;
 
-  /// @brief Method LoadStyleDictionaryInternal, addr 0x67ea094, size 0x36c, virtual false, abstract: false, final false
-  inline void LoadStyleDictionaryInternal();
+/// @brief Method LoadStyleDictionaryInternal, addr 0x67ea754, size 0x36c, virtual false, abstract: false, final false
+inline void LoadStyleDictionaryInternal() ;
 
-  static inline ::TMPro::TMP_StyleSheet* New_ctor();
+static inline ::TMPro::TMP_StyleSheet* New_ctor() ;
 
-  /// @brief Method RefreshStyles, addr 0x67ea54c, size 0x4, virtual false, abstract: false, final false
-  inline void RefreshStyles();
+/// @brief Method RefreshStyles, addr 0x67eac0c, size 0x4, virtual false, abstract: false, final false
+inline void RefreshStyles() ;
 
-  /// @brief Method Reset, addr 0x67ea090, size 0x4, virtual false, abstract: false, final false
-  inline void Reset();
+/// @brief Method Reset, addr 0x67ea750, size 0x4, virtual false, abstract: false, final false
+inline void Reset() ;
 
-  constexpr ::System::Collections::Generic::List_1<::TMPro::TMP_Style*>* const& __cordl_internal_get_m_StyleList() const;
+constexpr ::System::Collections::Generic::List_1<::TMPro::TMP_Style*>* const& __cordl_internal_get_m_StyleList() const;
 
-  constexpr ::System::Collections::Generic::List_1<::TMPro::TMP_Style*>*& __cordl_internal_get_m_StyleList();
+constexpr ::System::Collections::Generic::List_1<::TMPro::TMP_Style*>*& __cordl_internal_get_m_StyleList() ;
 
-  constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::TMPro::TMP_Style*>* const& __cordl_internal_get_m_StyleLookupDictionary() const;
+constexpr ::System::Collections::Generic::Dictionary_2<int32_t,::TMPro::TMP_Style*>* const& __cordl_internal_get_m_StyleLookupDictionary() const;
 
-  constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::TMPro::TMP_Style*>*& __cordl_internal_get_m_StyleLookupDictionary();
+constexpr ::System::Collections::Generic::Dictionary_2<int32_t,::TMPro::TMP_Style*>*& __cordl_internal_get_m_StyleLookupDictionary() ;
 
-  constexpr void __cordl_internal_set_m_StyleList(::System::Collections::Generic::List_1<::TMPro::TMP_Style*>* value);
+constexpr void __cordl_internal_set_m_StyleList(::System::Collections::Generic::List_1<::TMPro::TMP_Style*>*  value) ;
 
-  constexpr void __cordl_internal_set_m_StyleLookupDictionary(::System::Collections::Generic::Dictionary_2<int32_t, ::TMPro::TMP_Style*>* value);
+constexpr void __cordl_internal_set_m_StyleLookupDictionary(::System::Collections::Generic::Dictionary_2<int32_t,::TMPro::TMP_Style*>*  value) ;
 
-  /// @brief Method .ctor, addr 0x67ea550, size 0x80, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x67eac10, size 0x80, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_styles, addr 0x67ea088, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::List_1<::TMPro::TMP_Style*>* get_styles();
+/// @brief Method get_styles, addr 0x67ea748, size 0x8, virtual false, abstract: false, final false
+inline ::System::Collections::Generic::List_1<::TMPro::TMP_Style*>* get_styles() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TMP_StyleSheet();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr TMP_StyleSheet() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TMP_StyleSheet", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  TMP_StyleSheet(TMP_StyleSheet&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TMP_StyleSheet", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  TMP_StyleSheet(TMP_StyleSheet const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "TMP_StyleSheet", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+TMP_StyleSheet(TMP_StyleSheet && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15954 };
+// Ctor Parameters [CppParam { name: "", ty: "TMP_StyleSheet", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+TMP_StyleSheet(TMP_StyleSheet const& ) = delete;
 
-  /// @brief Field m_StyleList, offset: 0x18, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::TMPro::TMP_Style*>* ___m_StyleList;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{15958};
 
-  /// @brief Field m_StyleLookupDictionary, offset: 0x20, size: 0x8, def value: None
-  ::System::Collections::Generic::Dictionary_2<int32_t, ::TMPro::TMP_Style*>* ___m_StyleLookupDictionary;
+/// @brief Field m_StyleList, offset: 0x18, size: 0x8, def value: None
+ ::System::Collections::Generic::List_1<::TMPro::TMP_Style*>*  ___m_StyleList;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field m_StyleLookupDictionary, offset: 0x20, size: 0x8, def value: None
+ ::System::Collections::Generic::Dictionary_2<int32_t,::TMPro::TMP_Style*>*  ___m_StyleLookupDictionary;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::TMPro::TMP_StyleSheet, ___m_StyleList) == 0x18, "Offset mismatch!");
@@ -105,6 +106,6 @@ static_assert(offsetof(::TMPro::TMP_StyleSheet, ___m_StyleLookupDictionary) == 0
 
 static_assert(::cordl_internals::size_check_v<::TMPro::TMP_StyleSheet, 0x28>, "Size mismatch!");
 
-} // namespace TMPro
+} // namespace end def TMPro
 NEED_NO_BOX(::TMPro::TMP_StyleSheet);
 DEFINE_IL2CPP_ARG_TYPE(::TMPro::TMP_StyleSheet*, "TMPro", "TMP_StyleSheet");

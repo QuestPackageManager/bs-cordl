@@ -19,46 +19,42 @@ namespace UnityEngine::UIElements::UIR {
 // CS Name: UnityEngine.UIElements.UIR.CopyMeshJobData
 struct CORDL_TYPE CopyMeshJobData {
 public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CopyMeshJobData();
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr CopyMeshJobData() ;
 
-  // Ctor Parameters [CppParam { name: "vertSrc", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "vertDst", ty: "::System::IntPtr", modifiers: "", def_value: None },
-  // CppParam { name: "vertCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "indexSrc", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "indexDst",
-  // ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "indexCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "indexOffset", ty: "int32_t", modifiers:
-  // "", def_value: None }]
-  constexpr CopyMeshJobData(::System::IntPtr vertSrc, ::System::IntPtr vertDst, int32_t vertCount, ::System::IntPtr indexSrc, ::System::IntPtr indexDst, int32_t indexCount,
-                            int32_t indexOffset) noexcept;
+// Ctor Parameters [CppParam { name: "vertSrc", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "vertDst", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "vertCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "indexSrc", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "indexDst", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "indexCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "indexOffset", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr CopyMeshJobData(::System::IntPtr  vertSrc, ::System::IntPtr  vertDst, int32_t  vertCount, ::System::IntPtr  indexSrc, ::System::IntPtr  indexDst, int32_t  indexCount, int32_t  indexOffset) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5303 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{5303};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x30};
 
-  /// @brief Field vertSrc, offset: 0x0, size: 0x8, def value: None
-  ::System::IntPtr vertSrc;
+/// @brief Field vertSrc, offset: 0x0, size: 0x8, def value: None
+ ::System::IntPtr  vertSrc;
 
-  /// @brief Field vertDst, offset: 0x8, size: 0x8, def value: None
-  ::System::IntPtr vertDst;
+/// @brief Field vertDst, offset: 0x8, size: 0x8, def value: None
+ ::System::IntPtr  vertDst;
 
-  /// @brief Field vertCount, offset: 0x10, size: 0x4, def value: None
-  int32_t vertCount;
+/// @brief Field vertCount, offset: 0x10, size: 0x4, def value: None
+ int32_t  vertCount;
 
-  /// @brief Field indexSrc, offset: 0x18, size: 0x8, def value: None
-  ::System::IntPtr indexSrc;
+/// @brief Field indexSrc, offset: 0x18, size: 0x8, def value: None
+ ::System::IntPtr  indexSrc;
 
-  /// @brief Field indexDst, offset: 0x20, size: 0x8, def value: None
-  ::System::IntPtr indexDst;
+/// @brief Field indexDst, offset: 0x20, size: 0x8, def value: None
+ ::System::IntPtr  indexDst;
 
-  /// @brief Field indexCount, offset: 0x28, size: 0x4, def value: None
-  int32_t indexCount;
+/// @brief Field indexCount, offset: 0x28, size: 0x4, def value: None
+ int32_t  indexCount;
 
-  /// @brief Field indexOffset, offset: 0x2c, size: 0x4, def value: None
-  int32_t indexOffset;
+/// @brief Field indexOffset, offset: 0x2c, size: 0x4, def value: None
+ int32_t  indexOffset;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::UIElements::UIR::CopyMeshJobData, vertSrc) == 0x0, "Offset mismatch!");
@@ -77,5 +73,5 @@ static_assert(offsetof(::UnityEngine::UIElements::UIR::CopyMeshJobData, indexOff
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIR::CopyMeshJobData, 0x30>, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements::UIR
+} // namespace end def UnityEngine::UIElements::UIR
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::UIR::CopyMeshJobData, "UnityEngine.UIElements.UIR", "CopyMeshJobData");

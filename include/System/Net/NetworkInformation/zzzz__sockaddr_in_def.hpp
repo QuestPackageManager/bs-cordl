@@ -12,37 +12,36 @@ struct sockaddr_in;
 }
 // Write type traits
 MARK_VAL_T(::System::Net::NetworkInformation::sockaddr_in);
-// Dependencies
+// Dependencies 
 namespace System::Net::NetworkInformation {
 // Is value type: true
 // CS Name: System.Net.NetworkInformation.sockaddr_in
 struct CORDL_TYPE sockaddr_in {
 public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr sockaddr_in();
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr sockaddr_in() ;
 
-  // Ctor Parameters [CppParam { name: "sin_family", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "sin_port", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name:
-  // "sin_addr", ty: "uint32_t", modifiers: "", def_value: None }]
-  constexpr sockaddr_in(uint16_t sin_family, uint16_t sin_port, uint32_t sin_addr) noexcept;
+// Ctor Parameters [CppParam { name: "sin_family", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "sin_port", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "sin_addr", ty: "uint32_t", modifiers: "", def_value: None }]
+constexpr sockaddr_in(uint16_t  sin_family, uint16_t  sin_port, uint32_t  sin_addr) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11671 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11675};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x8};
 
-  /// @brief Field sin_family, offset: 0x0, size: 0x2, def value: None
-  uint16_t sin_family;
+/// @brief Field sin_family, offset: 0x0, size: 0x2, def value: None
+ uint16_t  sin_family;
 
-  /// @brief Field sin_port, offset: 0x2, size: 0x2, def value: None
-  uint16_t sin_port;
+/// @brief Field sin_port, offset: 0x2, size: 0x2, def value: None
+ uint16_t  sin_port;
 
-  /// @brief Field sin_addr, offset: 0x4, size: 0x4, def value: None
-  uint32_t sin_addr;
+/// @brief Field sin_addr, offset: 0x4, size: 0x4, def value: None
+ uint32_t  sin_addr;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Net::NetworkInformation::sockaddr_in, sin_family) == 0x0, "Offset mismatch!");
@@ -53,5 +52,5 @@ static_assert(offsetof(::System::Net::NetworkInformation::sockaddr_in, sin_addr)
 
 static_assert(::cordl_internals::size_check_v<::System::Net::NetworkInformation::sockaddr_in, 0x8>, "Size mismatch!");
 
-} // namespace System::Net::NetworkInformation
+} // namespace end def System::Net::NetworkInformation
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::NetworkInformation::sockaddr_in, "System.Net.NetworkInformation", "sockaddr_in");

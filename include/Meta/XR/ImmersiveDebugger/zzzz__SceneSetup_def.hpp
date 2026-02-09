@@ -17,35 +17,35 @@ namespace Meta::XR::ImmersiveDebugger {
 // CS Name: Meta.XR.ImmersiveDebugger.SceneSetup
 class CORDL_TYPE SceneSetup : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method OnLoad, addr 0x589364c, size 0x5c, virtual false, abstract: false, final false
-  static inline void OnLoad();
+// Declarations
+/// @brief Method OnLoad, addr 0x5893b58, size 0x5c, virtual false, abstract: false, final false
+static inline void OnLoad() ;
 
-  /// @brief Method SetupImmersiveDebugger, addr 0x58936a8, size 0x34c, virtual false, abstract: false, final false
-  static inline void SetupImmersiveDebugger();
+/// @brief Method SetupImmersiveDebugger, addr 0x5893bb4, size 0x34c, virtual false, abstract: false, final false
+static inline void SetupImmersiveDebugger() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SceneSetup();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr SceneSetup() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SceneSetup", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  SceneSetup(SceneSetup&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SceneSetup", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  SceneSetup(SceneSetup const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "SceneSetup", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+SceneSetup(SceneSetup && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18302 };
+// Ctor Parameters [CppParam { name: "", ty: "SceneSetup", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+SceneSetup(SceneSetup const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{18306};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Meta::XR::ImmersiveDebugger::SceneSetup, 0x10>, "Size mismatch!");
 
-} // namespace Meta::XR::ImmersiveDebugger
+} // namespace end def Meta::XR::ImmersiveDebugger
 NEED_NO_BOX(::Meta::XR::ImmersiveDebugger::SceneSetup);
 DEFINE_IL2CPP_ARG_TYPE(::Meta::XR::ImmersiveDebugger::SceneSetup*, "Meta.XR.ImmersiveDebugger", "SceneSetup");

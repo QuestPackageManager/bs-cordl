@@ -28,322 +28,321 @@ namespace System::Text::RegularExpressions {
 // CS Name: System.Text.RegularExpressions.RegexRunner
 class CORDL_TYPE RegexRunner : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field _ignoreTimeout, offset 0x74, size 0x1
-  __declspec(property(get = __cordl_internal_get__ignoreTimeout, put = __cordl_internal_set__ignoreTimeout)) bool _ignoreTimeout;
+// Declarations
+/// @brief Field _ignoreTimeout, offset 0x74, size 0x1 
+ __declspec(property(get=__cordl_internal_get__ignoreTimeout, put=__cordl_internal_set__ignoreTimeout)) bool  _ignoreTimeout;
 
-  /// @brief Field _timeout, offset 0x70, size 0x4
-  __declspec(property(get = __cordl_internal_get__timeout, put = __cordl_internal_set__timeout)) int32_t _timeout;
+/// @brief Field _timeout, offset 0x70, size 0x4 
+ __declspec(property(get=__cordl_internal_get__timeout, put=__cordl_internal_set__timeout)) int32_t  _timeout;
 
-  /// @brief Field _timeoutChecksToSkip, offset 0x7c, size 0x4
-  __declspec(property(get = __cordl_internal_get__timeoutChecksToSkip, put = __cordl_internal_set__timeoutChecksToSkip)) int32_t _timeoutChecksToSkip;
+/// @brief Field _timeoutChecksToSkip, offset 0x7c, size 0x4 
+ __declspec(property(get=__cordl_internal_get__timeoutChecksToSkip, put=__cordl_internal_set__timeoutChecksToSkip)) int32_t  _timeoutChecksToSkip;
 
-  /// @brief Field _timeoutOccursAt, offset 0x78, size 0x4
-  __declspec(property(get = __cordl_internal_get__timeoutOccursAt, put = __cordl_internal_set__timeoutOccursAt)) int32_t _timeoutOccursAt;
+/// @brief Field _timeoutOccursAt, offset 0x78, size 0x4 
+ __declspec(property(get=__cordl_internal_get__timeoutOccursAt, put=__cordl_internal_set__timeoutOccursAt)) int32_t  _timeoutOccursAt;
 
-  /// @brief Field runcrawl, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_runcrawl, put = __cordl_internal_set_runcrawl)) ::ArrayW<int32_t, ::Array<int32_t>*> runcrawl;
+/// @brief Field runcrawl, offset 0x50, size 0x8 
+ __declspec(property(get=__cordl_internal_get_runcrawl, put=__cordl_internal_set_runcrawl)) ::ArrayW<int32_t,::Array<int32_t>*>  runcrawl;
 
-  /// @brief Field runcrawlpos, offset 0x58, size 0x4
-  __declspec(property(get = __cordl_internal_get_runcrawlpos, put = __cordl_internal_set_runcrawlpos)) int32_t runcrawlpos;
+/// @brief Field runcrawlpos, offset 0x58, size 0x4 
+ __declspec(property(get=__cordl_internal_get_runcrawlpos, put=__cordl_internal_set_runcrawlpos)) int32_t  runcrawlpos;
 
-  /// @brief Field runmatch, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get_runmatch, put = __cordl_internal_set_runmatch)) ::System::Text::RegularExpressions::Match* runmatch;
+/// @brief Field runmatch, offset 0x60, size 0x8 
+ __declspec(property(get=__cordl_internal_get_runmatch, put=__cordl_internal_set_runmatch)) ::System::Text::RegularExpressions::Match*  runmatch;
 
-  /// @brief Field runregex, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get_runregex, put = __cordl_internal_set_runregex)) ::System::Text::RegularExpressions::Regex* runregex;
+/// @brief Field runregex, offset 0x68, size 0x8 
+ __declspec(property(get=__cordl_internal_get_runregex, put=__cordl_internal_set_runregex)) ::System::Text::RegularExpressions::Regex*  runregex;
 
-  /// @brief Field runstack, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_runstack, put = __cordl_internal_set_runstack)) ::ArrayW<int32_t, ::Array<int32_t>*> runstack;
+/// @brief Field runstack, offset 0x40, size 0x8 
+ __declspec(property(get=__cordl_internal_get_runstack, put=__cordl_internal_set_runstack)) ::ArrayW<int32_t,::Array<int32_t>*>  runstack;
 
-  /// @brief Field runstackpos, offset 0x48, size 0x4
-  __declspec(property(get = __cordl_internal_get_runstackpos, put = __cordl_internal_set_runstackpos)) int32_t runstackpos;
+/// @brief Field runstackpos, offset 0x48, size 0x4 
+ __declspec(property(get=__cordl_internal_get_runstackpos, put=__cordl_internal_set_runstackpos)) int32_t  runstackpos;
 
-  /// @brief Field runtext, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_runtext, put = __cordl_internal_set_runtext)) ::StringW runtext;
+/// @brief Field runtext, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get_runtext, put=__cordl_internal_set_runtext)) ::StringW  runtext;
 
-  /// @brief Field runtextbeg, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_runtextbeg, put = __cordl_internal_set_runtextbeg)) int32_t runtextbeg;
+/// @brief Field runtextbeg, offset 0x10, size 0x4 
+ __declspec(property(get=__cordl_internal_get_runtextbeg, put=__cordl_internal_set_runtextbeg)) int32_t  runtextbeg;
 
-  /// @brief Field runtextend, offset 0x14, size 0x4
-  __declspec(property(get = __cordl_internal_get_runtextend, put = __cordl_internal_set_runtextend)) int32_t runtextend;
+/// @brief Field runtextend, offset 0x14, size 0x4 
+ __declspec(property(get=__cordl_internal_get_runtextend, put=__cordl_internal_set_runtextend)) int32_t  runtextend;
 
-  /// @brief Field runtextpos, offset 0x28, size 0x4
-  __declspec(property(get = __cordl_internal_get_runtextpos, put = __cordl_internal_set_runtextpos)) int32_t runtextpos;
+/// @brief Field runtextpos, offset 0x28, size 0x4 
+ __declspec(property(get=__cordl_internal_get_runtextpos, put=__cordl_internal_set_runtextpos)) int32_t  runtextpos;
 
-  /// @brief Field runtextstart, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get_runtextstart, put = __cordl_internal_set_runtextstart)) int32_t runtextstart;
+/// @brief Field runtextstart, offset 0x18, size 0x4 
+ __declspec(property(get=__cordl_internal_get_runtextstart, put=__cordl_internal_set_runtextstart)) int32_t  runtextstart;
 
-  /// @brief Field runtrack, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_runtrack, put = __cordl_internal_set_runtrack)) ::ArrayW<int32_t, ::Array<int32_t>*> runtrack;
+/// @brief Field runtrack, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get_runtrack, put=__cordl_internal_set_runtrack)) ::ArrayW<int32_t,::Array<int32_t>*>  runtrack;
 
-  /// @brief Field runtrackcount, offset 0x5c, size 0x4
-  __declspec(property(get = __cordl_internal_get_runtrackcount, put = __cordl_internal_set_runtrackcount)) int32_t runtrackcount;
+/// @brief Field runtrackcount, offset 0x5c, size 0x4 
+ __declspec(property(get=__cordl_internal_get_runtrackcount, put=__cordl_internal_set_runtrackcount)) int32_t  runtrackcount;
 
-  /// @brief Field runtrackpos, offset 0x38, size 0x4
-  __declspec(property(get = __cordl_internal_get_runtrackpos, put = __cordl_internal_set_runtrackpos)) int32_t runtrackpos;
+/// @brief Field runtrackpos, offset 0x38, size 0x4 
+ __declspec(property(get=__cordl_internal_get_runtrackpos, put=__cordl_internal_set_runtrackpos)) int32_t  runtrackpos;
 
-  /// @brief Method Capture, addr 0x61d7948, size 0x58, virtual false, abstract: false, final false
-  inline void Capture(int32_t capnum, int32_t start, int32_t end);
+/// @brief Method Capture, addr 0x61d8008, size 0x58, virtual false, abstract: false, final false
+inline void Capture(int32_t  capnum, int32_t  start, int32_t  end) ;
 
-  /// @brief Method CheckTimeout, addr 0x61d7808, size 0x10, virtual false, abstract: false, final false
-  inline void CheckTimeout();
+/// @brief Method CheckTimeout, addr 0x61d7ec8, size 0x10, virtual false, abstract: false, final false
+inline void CheckTimeout() ;
 
-  /// @brief Method Crawl, addr 0x61dfb1c, size 0x5c, virtual false, abstract: false, final false
-  inline void Crawl(int32_t i);
+/// @brief Method Crawl, addr 0x61e01dc, size 0x5c, virtual false, abstract: false, final false
+inline void Crawl(int32_t  i) ;
 
-  /// @brief Method Crawlpos, addr 0x61d79d0, size 0x20, virtual false, abstract: false, final false
-  inline int32_t Crawlpos();
+/// @brief Method Crawlpos, addr 0x61d8090, size 0x20, virtual false, abstract: false, final false
+inline int32_t Crawlpos() ;
 
-  /// @brief Method DoCheckTimeout, addr 0x61df868, size 0xc8, virtual false, abstract: false, final false
-  inline void DoCheckTimeout();
+/// @brief Method DoCheckTimeout, addr 0x61dff28, size 0xc8, virtual false, abstract: false, final false
+inline void DoCheckTimeout() ;
 
-  /// @brief Method DoubleCrawl, addr 0x61dfa78, size 0xa4, virtual false, abstract: false, final false
-  inline void DoubleCrawl();
+/// @brief Method DoubleCrawl, addr 0x61e0138, size 0xa4, virtual false, abstract: false, final false
+inline void DoubleCrawl() ;
 
-  /// @brief Method DoubleStack, addr 0x61df930, size 0xa4, virtual false, abstract: false, final false
-  inline void DoubleStack();
+/// @brief Method DoubleStack, addr 0x61dfff0, size 0xa4, virtual false, abstract: false, final false
+inline void DoubleStack() ;
 
-  /// @brief Method DoubleTrack, addr 0x61df9d4, size 0xa4, virtual false, abstract: false, final false
-  inline void DoubleTrack();
+/// @brief Method DoubleTrack, addr 0x61e0094, size 0xa4, virtual false, abstract: false, final false
+inline void DoubleTrack() ;
 
-  /// @brief Method EnsureStorage, addr 0x61d5818, size 0x48, virtual false, abstract: false, final false
-  inline void EnsureStorage();
+/// @brief Method EnsureStorage, addr 0x61d5ed8, size 0x48, virtual false, abstract: false, final false
+inline void EnsureStorage() ;
 
-  /// @brief Method FindFirstChar, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline bool FindFirstChar();
+/// @brief Method FindFirstChar, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline bool FindFirstChar() ;
 
-  /// @brief Method Go, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void Go();
+/// @brief Method Go, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline void Go() ;
 
-  /// @brief Method InitMatch, addr 0x61df638, size 0x1ec, virtual false, abstract: false, final false
-  inline void InitMatch();
+/// @brief Method InitMatch, addr 0x61dfcf8, size 0x1ec, virtual false, abstract: false, final false
+inline void InitMatch() ;
 
-  /// @brief Method InitTrackCount, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void InitTrackCount();
+/// @brief Method InitTrackCount, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline void InitTrackCount() ;
 
-  /// @brief Method IsBoundary, addr 0x61d79f0, size 0x11c, virtual false, abstract: false, final false
-  inline bool IsBoundary(int32_t index, int32_t startpos, int32_t endpos);
+/// @brief Method IsBoundary, addr 0x61d80b0, size 0x11c, virtual false, abstract: false, final false
+inline bool IsBoundary(int32_t  index, int32_t  startpos, int32_t  endpos) ;
 
-  /// @brief Method IsECMABoundary, addr 0x61d7b0c, size 0x11c, virtual false, abstract: false, final false
-  inline bool IsECMABoundary(int32_t index, int32_t startpos, int32_t endpos);
+/// @brief Method IsECMABoundary, addr 0x61d81cc, size 0x11c, virtual false, abstract: false, final false
+inline bool IsECMABoundary(int32_t  index, int32_t  startpos, int32_t  endpos) ;
 
-  /// @brief Method IsMatched, addr 0x61d7818, size 0x1c, virtual false, abstract: false, final false
-  inline bool IsMatched(int32_t cap);
+/// @brief Method IsMatched, addr 0x61d7ed8, size 0x1c, virtual false, abstract: false, final false
+inline bool IsMatched(int32_t  cap) ;
 
-  /// @brief Method MatchIndex, addr 0x61d7c28, size 0x1c, virtual false, abstract: false, final false
-  inline int32_t MatchIndex(int32_t cap);
+/// @brief Method MatchIndex, addr 0x61d82e8, size 0x1c, virtual false, abstract: false, final false
+inline int32_t MatchIndex(int32_t  cap) ;
 
-  /// @brief Method MatchLength, addr 0x61d7c44, size 0x1c, virtual false, abstract: false, final false
-  inline int32_t MatchLength(int32_t cap);
+/// @brief Method MatchLength, addr 0x61d8304, size 0x1c, virtual false, abstract: false, final false
+inline int32_t MatchLength(int32_t  cap) ;
 
-  static inline ::System::Text::RegularExpressions::RegexRunner* New_ctor();
+static inline ::System::Text::RegularExpressions::RegexRunner* New_ctor() ;
 
-  /// @brief Method Popcrawl, addr 0x61dfb78, size 0x3c, virtual false, abstract: false, final false
-  inline int32_t Popcrawl();
+/// @brief Method Popcrawl, addr 0x61e0238, size 0x3c, virtual false, abstract: false, final false
+inline int32_t Popcrawl() ;
 
-  /// @brief Method Scan, addr 0x61df284, size 0x380, virtual false, abstract: false, final false
-  inline ::System::Text::RegularExpressions::Match* Scan(::System::Text::RegularExpressions::Regex* regex, ::StringW text, int32_t textbeg, int32_t textend, int32_t textstart, int32_t prevlen,
-                                                         bool quick, ::System::TimeSpan timeout);
+/// @brief Method Scan, addr 0x61df944, size 0x380, virtual false, abstract: false, final false
+inline ::System::Text::RegularExpressions::Match* Scan(::System::Text::RegularExpressions::Regex*  regex, ::StringW  text, int32_t  textbeg, int32_t  textend, int32_t  textstart, int32_t  prevlen, bool  quick, ::System::TimeSpan  timeout) ;
 
-  /// @brief Method StartTimeoutWatch, addr 0x61df604, size 0x34, virtual false, abstract: false, final false
-  inline void StartTimeoutWatch();
+/// @brief Method StartTimeoutWatch, addr 0x61dfcc4, size 0x34, virtual false, abstract: false, final false
+inline void StartTimeoutWatch() ;
 
-  /// @brief Method TidyMatch, addr 0x61df824, size 0x44, virtual false, abstract: false, final false
-  inline ::System::Text::RegularExpressions::Match* TidyMatch(bool quick);
+/// @brief Method TidyMatch, addr 0x61dfee4, size 0x44, virtual false, abstract: false, final false
+inline ::System::Text::RegularExpressions::Match* TidyMatch(bool  quick) ;
 
-  /// @brief Method TransferCapture, addr 0x61d7834, size 0x114, virtual false, abstract: false, final false
-  inline void TransferCapture(int32_t capnum, int32_t uncapnum, int32_t start, int32_t end);
+/// @brief Method TransferCapture, addr 0x61d7ef4, size 0x114, virtual false, abstract: false, final false
+inline void TransferCapture(int32_t  capnum, int32_t  uncapnum, int32_t  start, int32_t  end) ;
 
-  /// @brief Method Uncapture, addr 0x61d79a0, size 0x30, virtual false, abstract: false, final false
-  inline void Uncapture();
+/// @brief Method Uncapture, addr 0x61d8060, size 0x30, virtual false, abstract: false, final false
+inline void Uncapture() ;
 
-  constexpr bool const& __cordl_internal_get__ignoreTimeout() const;
+constexpr bool const& __cordl_internal_get__ignoreTimeout() const;
 
-  constexpr bool& __cordl_internal_get__ignoreTimeout();
+constexpr bool& __cordl_internal_get__ignoreTimeout() ;
 
-  constexpr int32_t const& __cordl_internal_get__timeout() const;
+constexpr int32_t const& __cordl_internal_get__timeout() const;
 
-  constexpr int32_t& __cordl_internal_get__timeout();
+constexpr int32_t& __cordl_internal_get__timeout() ;
 
-  constexpr int32_t const& __cordl_internal_get__timeoutChecksToSkip() const;
+constexpr int32_t const& __cordl_internal_get__timeoutChecksToSkip() const;
 
-  constexpr int32_t& __cordl_internal_get__timeoutChecksToSkip();
+constexpr int32_t& __cordl_internal_get__timeoutChecksToSkip() ;
 
-  constexpr int32_t const& __cordl_internal_get__timeoutOccursAt() const;
+constexpr int32_t const& __cordl_internal_get__timeoutOccursAt() const;
 
-  constexpr int32_t& __cordl_internal_get__timeoutOccursAt();
+constexpr int32_t& __cordl_internal_get__timeoutOccursAt() ;
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_runcrawl() const;
+constexpr ::ArrayW<int32_t,::Array<int32_t>*> const& __cordl_internal_get_runcrawl() const;
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_runcrawl();
+constexpr ::ArrayW<int32_t,::Array<int32_t>*>& __cordl_internal_get_runcrawl() ;
 
-  constexpr int32_t const& __cordl_internal_get_runcrawlpos() const;
+constexpr int32_t const& __cordl_internal_get_runcrawlpos() const;
 
-  constexpr int32_t& __cordl_internal_get_runcrawlpos();
+constexpr int32_t& __cordl_internal_get_runcrawlpos() ;
 
-  constexpr ::System::Text::RegularExpressions::Match* const& __cordl_internal_get_runmatch() const;
+constexpr ::System::Text::RegularExpressions::Match* const& __cordl_internal_get_runmatch() const;
 
-  constexpr ::System::Text::RegularExpressions::Match*& __cordl_internal_get_runmatch();
+constexpr ::System::Text::RegularExpressions::Match*& __cordl_internal_get_runmatch() ;
 
-  constexpr ::System::Text::RegularExpressions::Regex* const& __cordl_internal_get_runregex() const;
+constexpr ::System::Text::RegularExpressions::Regex* const& __cordl_internal_get_runregex() const;
 
-  constexpr ::System::Text::RegularExpressions::Regex*& __cordl_internal_get_runregex();
+constexpr ::System::Text::RegularExpressions::Regex*& __cordl_internal_get_runregex() ;
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_runstack() const;
+constexpr ::ArrayW<int32_t,::Array<int32_t>*> const& __cordl_internal_get_runstack() const;
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_runstack();
+constexpr ::ArrayW<int32_t,::Array<int32_t>*>& __cordl_internal_get_runstack() ;
 
-  constexpr int32_t const& __cordl_internal_get_runstackpos() const;
+constexpr int32_t const& __cordl_internal_get_runstackpos() const;
 
-  constexpr int32_t& __cordl_internal_get_runstackpos();
+constexpr int32_t& __cordl_internal_get_runstackpos() ;
 
-  constexpr ::StringW const& __cordl_internal_get_runtext() const;
+constexpr ::StringW const& __cordl_internal_get_runtext() const;
 
-  constexpr ::StringW& __cordl_internal_get_runtext();
+constexpr ::StringW& __cordl_internal_get_runtext() ;
 
-  constexpr int32_t const& __cordl_internal_get_runtextbeg() const;
+constexpr int32_t const& __cordl_internal_get_runtextbeg() const;
 
-  constexpr int32_t& __cordl_internal_get_runtextbeg();
+constexpr int32_t& __cordl_internal_get_runtextbeg() ;
 
-  constexpr int32_t const& __cordl_internal_get_runtextend() const;
+constexpr int32_t const& __cordl_internal_get_runtextend() const;
 
-  constexpr int32_t& __cordl_internal_get_runtextend();
+constexpr int32_t& __cordl_internal_get_runtextend() ;
 
-  constexpr int32_t const& __cordl_internal_get_runtextpos() const;
+constexpr int32_t const& __cordl_internal_get_runtextpos() const;
 
-  constexpr int32_t& __cordl_internal_get_runtextpos();
+constexpr int32_t& __cordl_internal_get_runtextpos() ;
 
-  constexpr int32_t const& __cordl_internal_get_runtextstart() const;
+constexpr int32_t const& __cordl_internal_get_runtextstart() const;
 
-  constexpr int32_t& __cordl_internal_get_runtextstart();
+constexpr int32_t& __cordl_internal_get_runtextstart() ;
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_runtrack() const;
+constexpr ::ArrayW<int32_t,::Array<int32_t>*> const& __cordl_internal_get_runtrack() const;
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_runtrack();
+constexpr ::ArrayW<int32_t,::Array<int32_t>*>& __cordl_internal_get_runtrack() ;
 
-  constexpr int32_t const& __cordl_internal_get_runtrackcount() const;
+constexpr int32_t const& __cordl_internal_get_runtrackcount() const;
 
-  constexpr int32_t& __cordl_internal_get_runtrackcount();
+constexpr int32_t& __cordl_internal_get_runtrackcount() ;
 
-  constexpr int32_t const& __cordl_internal_get_runtrackpos() const;
+constexpr int32_t const& __cordl_internal_get_runtrackpos() const;
 
-  constexpr int32_t& __cordl_internal_get_runtrackpos();
+constexpr int32_t& __cordl_internal_get_runtrackpos() ;
 
-  constexpr void __cordl_internal_set__ignoreTimeout(bool value);
+constexpr void __cordl_internal_set__ignoreTimeout(bool  value) ;
 
-  constexpr void __cordl_internal_set__timeout(int32_t value);
+constexpr void __cordl_internal_set__timeout(int32_t  value) ;
 
-  constexpr void __cordl_internal_set__timeoutChecksToSkip(int32_t value);
+constexpr void __cordl_internal_set__timeoutChecksToSkip(int32_t  value) ;
 
-  constexpr void __cordl_internal_set__timeoutOccursAt(int32_t value);
+constexpr void __cordl_internal_set__timeoutOccursAt(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_runcrawl(::ArrayW<int32_t, ::Array<int32_t>*> value);
+constexpr void __cordl_internal_set_runcrawl(::ArrayW<int32_t,::Array<int32_t>*>  value) ;
 
-  constexpr void __cordl_internal_set_runcrawlpos(int32_t value);
+constexpr void __cordl_internal_set_runcrawlpos(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_runmatch(::System::Text::RegularExpressions::Match* value);
+constexpr void __cordl_internal_set_runmatch(::System::Text::RegularExpressions::Match*  value) ;
 
-  constexpr void __cordl_internal_set_runregex(::System::Text::RegularExpressions::Regex* value);
+constexpr void __cordl_internal_set_runregex(::System::Text::RegularExpressions::Regex*  value) ;
 
-  constexpr void __cordl_internal_set_runstack(::ArrayW<int32_t, ::Array<int32_t>*> value);
+constexpr void __cordl_internal_set_runstack(::ArrayW<int32_t,::Array<int32_t>*>  value) ;
 
-  constexpr void __cordl_internal_set_runstackpos(int32_t value);
+constexpr void __cordl_internal_set_runstackpos(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_runtext(::StringW value);
+constexpr void __cordl_internal_set_runtext(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_runtextbeg(int32_t value);
+constexpr void __cordl_internal_set_runtextbeg(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_runtextend(int32_t value);
+constexpr void __cordl_internal_set_runtextend(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_runtextpos(int32_t value);
+constexpr void __cordl_internal_set_runtextpos(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_runtextstart(int32_t value);
+constexpr void __cordl_internal_set_runtextstart(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_runtrack(::ArrayW<int32_t, ::Array<int32_t>*> value);
+constexpr void __cordl_internal_set_runtrack(::ArrayW<int32_t,::Array<int32_t>*>  value) ;
 
-  constexpr void __cordl_internal_set_runtrackcount(int32_t value);
+constexpr void __cordl_internal_set_runtrackcount(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_runtrackpos(int32_t value);
+constexpr void __cordl_internal_set_runtrackpos(int32_t  value) ;
 
-  /// @brief Method .ctor, addr 0x61d56fc, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x61d5dbc, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RegexRunner();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr RegexRunner() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RegexRunner", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  RegexRunner(RegexRunner&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RegexRunner", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  RegexRunner(RegexRunner const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "RegexRunner", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+RegexRunner(RegexRunner && ) = delete;
 
-  /// @brief Field TimeoutCheckFrequency offset 0xffffffff size 0x4
-  static constexpr int32_t TimeoutCheckFrequency{ static_cast<int32_t>(0x3e8) };
+// Ctor Parameters [CppParam { name: "", ty: "RegexRunner", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+RegexRunner(RegexRunner const& ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11098 };
+/// @brief Field TimeoutCheckFrequency offset 0xffffffff size 0x4
+static constexpr int32_t  TimeoutCheckFrequency{static_cast<int32_t>(0x3e8)};
 
-  /// @brief Field runtextbeg, offset: 0x10, size: 0x4, def value: None
-  int32_t ___runtextbeg;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11102};
 
-  /// @brief Field runtextend, offset: 0x14, size: 0x4, def value: None
-  int32_t ___runtextend;
+/// @brief Field runtextbeg, offset: 0x10, size: 0x4, def value: None
+ int32_t  ___runtextbeg;
 
-  /// @brief Field runtextstart, offset: 0x18, size: 0x4, def value: None
-  int32_t ___runtextstart;
+/// @brief Field runtextend, offset: 0x14, size: 0x4, def value: None
+ int32_t  ___runtextend;
 
-  /// @brief Field runtext, offset: 0x20, size: 0x8, def value: None
-  ::StringW ___runtext;
+/// @brief Field runtextstart, offset: 0x18, size: 0x4, def value: None
+ int32_t  ___runtextstart;
 
-  /// @brief Field runtextpos, offset: 0x28, size: 0x4, def value: None
-  int32_t ___runtextpos;
+/// @brief Field runtext, offset: 0x20, size: 0x8, def value: None
+ ::StringW  ___runtext;
 
-  /// @brief Field runtrack, offset: 0x30, size: 0x8, def value: None
-  ::ArrayW<int32_t, ::Array<int32_t>*> ___runtrack;
+/// @brief Field runtextpos, offset: 0x28, size: 0x4, def value: None
+ int32_t  ___runtextpos;
 
-  /// @brief Field runtrackpos, offset: 0x38, size: 0x4, def value: None
-  int32_t ___runtrackpos;
+/// @brief Field runtrack, offset: 0x30, size: 0x8, def value: None
+ ::ArrayW<int32_t,::Array<int32_t>*>  ___runtrack;
 
-  /// @brief Field runstack, offset: 0x40, size: 0x8, def value: None
-  ::ArrayW<int32_t, ::Array<int32_t>*> ___runstack;
+/// @brief Field runtrackpos, offset: 0x38, size: 0x4, def value: None
+ int32_t  ___runtrackpos;
 
-  /// @brief Field runstackpos, offset: 0x48, size: 0x4, def value: None
-  int32_t ___runstackpos;
+/// @brief Field runstack, offset: 0x40, size: 0x8, def value: None
+ ::ArrayW<int32_t,::Array<int32_t>*>  ___runstack;
 
-  /// @brief Field runcrawl, offset: 0x50, size: 0x8, def value: None
-  ::ArrayW<int32_t, ::Array<int32_t>*> ___runcrawl;
+/// @brief Field runstackpos, offset: 0x48, size: 0x4, def value: None
+ int32_t  ___runstackpos;
 
-  /// @brief Field runcrawlpos, offset: 0x58, size: 0x4, def value: None
-  int32_t ___runcrawlpos;
+/// @brief Field runcrawl, offset: 0x50, size: 0x8, def value: None
+ ::ArrayW<int32_t,::Array<int32_t>*>  ___runcrawl;
 
-  /// @brief Field runtrackcount, offset: 0x5c, size: 0x4, def value: None
-  int32_t ___runtrackcount;
+/// @brief Field runcrawlpos, offset: 0x58, size: 0x4, def value: None
+ int32_t  ___runcrawlpos;
 
-  /// @brief Field runmatch, offset: 0x60, size: 0x8, def value: None
-  ::System::Text::RegularExpressions::Match* ___runmatch;
+/// @brief Field runtrackcount, offset: 0x5c, size: 0x4, def value: None
+ int32_t  ___runtrackcount;
 
-  /// @brief Field runregex, offset: 0x68, size: 0x8, def value: None
-  ::System::Text::RegularExpressions::Regex* ___runregex;
+/// @brief Field runmatch, offset: 0x60, size: 0x8, def value: None
+ ::System::Text::RegularExpressions::Match*  ___runmatch;
 
-  /// @brief Field _timeout, offset: 0x70, size: 0x4, def value: None
-  int32_t ____timeout;
+/// @brief Field runregex, offset: 0x68, size: 0x8, def value: None
+ ::System::Text::RegularExpressions::Regex*  ___runregex;
 
-  /// @brief Field _ignoreTimeout, offset: 0x74, size: 0x1, def value: None
-  bool ____ignoreTimeout;
+/// @brief Field _timeout, offset: 0x70, size: 0x4, def value: None
+ int32_t  ____timeout;
 
-  /// @brief Field _timeoutOccursAt, offset: 0x78, size: 0x4, def value: None
-  int32_t ____timeoutOccursAt;
+/// @brief Field _ignoreTimeout, offset: 0x74, size: 0x1, def value: None
+ bool  ____ignoreTimeout;
 
-  /// @brief Field _timeoutChecksToSkip, offset: 0x7c, size: 0x4, def value: None
-  int32_t ____timeoutChecksToSkip;
+/// @brief Field _timeoutOccursAt, offset: 0x78, size: 0x4, def value: None
+ int32_t  ____timeoutOccursAt;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _timeoutChecksToSkip, offset: 0x7c, size: 0x4, def value: None
+ int32_t  ____timeoutChecksToSkip;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Text::RegularExpressions::RegexRunner, ___runtextbeg) == 0x10, "Offset mismatch!");
@@ -384,6 +383,6 @@ static_assert(offsetof(::System::Text::RegularExpressions::RegexRunner, ____time
 
 static_assert(::cordl_internals::size_check_v<::System::Text::RegularExpressions::RegexRunner, 0x80>, "Size mismatch!");
 
-} // namespace System::Text::RegularExpressions
+} // namespace end def System::Text::RegularExpressions
 NEED_NO_BOX(::System::Text::RegularExpressions::RegexRunner);
 DEFINE_IL2CPP_ARG_TYPE(::System::Text::RegularExpressions::RegexRunner*, "System.Text.RegularExpressions", "RegexRunner");

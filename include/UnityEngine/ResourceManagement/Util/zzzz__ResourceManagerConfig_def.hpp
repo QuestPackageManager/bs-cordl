@@ -33,59 +33,62 @@ namespace UnityEngine::ResourceManagement::Util {
 // CS Name: UnityEngine.ResourceManagement.Util.ResourceManagerConfig
 class CORDL_TYPE ResourceManagerConfig : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method CreateArrayResult, addr 0x6760064, size 0x17c, virtual false, abstract: false, final false
-  static inline ::System::Array* CreateArrayResult(::System::Type* type, ::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*> allAssets);
+// Declarations
+/// @brief Method CreateArrayResult, addr 0x6760724, size 0x17c, virtual false, abstract: false, final false
+static inline ::System::Array* CreateArrayResult(::System::Type*  type, ::ArrayW<::UnityEngine::Object*,::Array<::UnityEngine::Object*>*>  allAssets) ;
 
-  /// @brief Method CreateArrayResult, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TObject> static inline TObject CreateArrayResult(::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*> allAssets);
+/// @brief Method CreateArrayResult, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+template<typename TObject>
+static inline TObject CreateArrayResult(::ArrayW<::UnityEngine::Object*,::Array<::UnityEngine::Object*>*>  allAssets) ;
 
-  /// @brief Method CreateListResult, addr 0x67601e0, size 0x1c8, virtual false, abstract: false, final false
-  static inline ::System::Collections::IList* CreateListResult(::System::Type* type, ::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*> allAssets);
+/// @brief Method CreateListResult, addr 0x67608a0, size 0x1c8, virtual false, abstract: false, final false
+static inline ::System::Collections::IList* CreateListResult(::System::Type*  type, ::ArrayW<::UnityEngine::Object*,::Array<::UnityEngine::Object*>*>  allAssets) ;
 
-  /// @brief Method CreateListResult, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TObject> static inline TObject CreateListResult(::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*> allAssets);
+/// @brief Method CreateListResult, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+template<typename TObject>
+static inline TObject CreateListResult(::ArrayW<::UnityEngine::Object*,::Array<::UnityEngine::Object*>*>  allAssets) ;
 
-  /// @brief Method ExtractKeyAndSubKey, addr 0x675fd04, size 0xc8, virtual false, abstract: false, final false
-  static inline bool ExtractKeyAndSubKey(::System::Object* keyObj, ::ByRef<::StringW> mainKey, ::ByRef<::StringW> subKey);
+/// @brief Method ExtractKeyAndSubKey, addr 0x67603c4, size 0xc8, virtual false, abstract: false, final false
+static inline bool ExtractKeyAndSubKey(::System::Object*  keyObj, ::ByRef<::StringW>  mainKey, ::ByRef<::StringW>  subKey) ;
 
-  /// @brief Method IsInstance, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T1, typename T2> static inline bool IsInstance();
+/// @brief Method IsInstance, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+template<typename T1,typename T2>
+static inline bool IsInstance() ;
 
-  /// @brief Method IsPathRemote, addr 0x675fdcc, size 0x68, virtual false, abstract: false, final false
-  static inline bool IsPathRemote(::StringW path);
+/// @brief Method IsPathRemote, addr 0x676048c, size 0x68, virtual false, abstract: false, final false
+static inline bool IsPathRemote(::StringW  path) ;
 
-  /// @brief Method PlatformCanLoadLocallyFromUrlPath, addr 0x675ff14, size 0x150, virtual false, abstract: false, final false
-  static inline bool PlatformCanLoadLocallyFromUrlPath();
+/// @brief Method PlatformCanLoadLocallyFromUrlPath, addr 0x67605d4, size 0x150, virtual false, abstract: false, final false
+static inline bool PlatformCanLoadLocallyFromUrlPath() ;
 
-  /// @brief Method ShouldPathUseWebRequest, addr 0x675fe7c, size 0x98, virtual false, abstract: false, final false
-  static inline bool ShouldPathUseWebRequest(::StringW path);
+/// @brief Method ShouldPathUseWebRequest, addr 0x676053c, size 0x98, virtual false, abstract: false, final false
+static inline bool ShouldPathUseWebRequest(::StringW  path) ;
 
-  /// @brief Method StripQueryParameters, addr 0x675fe34, size 0x48, virtual false, abstract: false, final false
-  static inline ::StringW StripQueryParameters(::StringW path);
+/// @brief Method StripQueryParameters, addr 0x67604f4, size 0x48, virtual false, abstract: false, final false
+static inline ::StringW StripQueryParameters(::StringW  path) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ResourceManagerConfig();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ResourceManagerConfig() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ResourceManagerConfig", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ResourceManagerConfig(ResourceManagerConfig&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ResourceManagerConfig", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ResourceManagerConfig(ResourceManagerConfig const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ResourceManagerConfig", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ResourceManagerConfig(ResourceManagerConfig && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18724 };
+// Ctor Parameters [CppParam { name: "", ty: "ResourceManagerConfig", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ResourceManagerConfig(ResourceManagerConfig const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{18728};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ResourceManagement::Util::ResourceManagerConfig, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine::ResourceManagement::Util
+} // namespace end def UnityEngine::ResourceManagement::Util
 NEED_NO_BOX(::UnityEngine::ResourceManagement::Util::ResourceManagerConfig);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ResourceManagement::Util::ResourceManagerConfig*, "UnityEngine.ResourceManagement.Util", "ResourceManagerConfig");

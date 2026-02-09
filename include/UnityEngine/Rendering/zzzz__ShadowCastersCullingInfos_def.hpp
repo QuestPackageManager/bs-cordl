@@ -20,29 +20,27 @@ namespace UnityEngine::Rendering {
 // CS Name: UnityEngine.Rendering.ShadowCastersCullingInfos
 struct CORDL_TYPE ShadowCastersCullingInfos {
 public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ShadowCastersCullingInfos();
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr ShadowCastersCullingInfos() ;
 
-  // Ctor Parameters [CppParam { name: "splitBuffer", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::ShadowSplitData>", modifiers: "", def_value: None }, CppParam { name:
-  // "perLightInfos", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::LightShadowCasterCullingInfo>", modifiers: "", def_value: None }]
-  constexpr ShadowCastersCullingInfos(::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::ShadowSplitData> splitBuffer,
-                                      ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::LightShadowCasterCullingInfo> perLightInfos) noexcept;
+// Ctor Parameters [CppParam { name: "splitBuffer", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::ShadowSplitData>", modifiers: "", def_value: None }, CppParam { name: "perLightInfos", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::LightShadowCasterCullingInfo>", modifiers: "", def_value: None }]
+constexpr ShadowCastersCullingInfos(::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::ShadowSplitData>  splitBuffer, ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::LightShadowCasterCullingInfo>  perLightInfos) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10778 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10782};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x20};
 
-  /// @brief Field splitBuffer, offset: 0x0, size: 0x10, def value: None
-  ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::ShadowSplitData> splitBuffer;
+/// @brief Field splitBuffer, offset: 0x0, size: 0x10, def value: None
+ ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::ShadowSplitData>  splitBuffer;
 
-  /// @brief Field perLightInfos, offset: 0x10, size: 0x10, def value: None
-  ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::LightShadowCasterCullingInfo> perLightInfos;
+/// @brief Field perLightInfos, offset: 0x10, size: 0x10, def value: None
+ ::Unity::Collections::NativeArray_1<::UnityEngine::Rendering::LightShadowCasterCullingInfo>  perLightInfos;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Rendering::ShadowCastersCullingInfos, splitBuffer) == 0x0, "Offset mismatch!");
@@ -51,5 +49,5 @@ static_assert(offsetof(::UnityEngine::Rendering::ShadowCastersCullingInfos, perL
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::ShadowCastersCullingInfos, 0x20>, "Size mismatch!");
 
-} // namespace UnityEngine::Rendering
+} // namespace end def UnityEngine::Rendering
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::ShadowCastersCullingInfos, "UnityEngine.Rendering", "ShadowCastersCullingInfos");

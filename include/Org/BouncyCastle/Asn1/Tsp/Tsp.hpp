@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "Org/BouncyCastle/Asn1/Tsp/Accuracy.hpp"
 #include "Org/BouncyCastle/Asn1/Tsp/MessageImprint.hpp"
@@ -9,5 +9,6 @@ module;
 #include "Org/BouncyCastle/Asn1/Tsp/TimeStampResp.hpp"
 #include "Org/BouncyCastle/Asn1/Tsp/TstInfo.hpp"
 #ifdef __cpp_modules
-export module Tsp;
-#endif
+                    export module Tsp;
+                    #endif
+                

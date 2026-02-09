@@ -24,83 +24,83 @@ namespace Org::BouncyCastle::Crypto::Signers {
 // CS Name: Org.BouncyCastle.Crypto.Signers.IsoTrailers
 class CORDL_TYPE IsoTrailers : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field trailerMap, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_trailerMap, put = setStaticF_trailerMap)) ::System::Collections::IDictionary* trailerMap;
+// Declarations
+/// @brief Field trailerMap, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_trailerMap, put=setStaticF_trailerMap)) ::System::Collections::IDictionary*  trailerMap;
 
-  /// @brief Method CreateTrailerMap, addr 0x3332bbc, size 0x688, virtual false, abstract: false, final false
-  static inline ::System::Collections::IDictionary* CreateTrailerMap();
+/// @brief Method CreateTrailerMap, addr 0x3332b0c, size 0x688, virtual false, abstract: false, final false
+static inline ::System::Collections::IDictionary* CreateTrailerMap() ;
 
-  /// @brief Method GetTrailer, addr 0x332f084, size 0x17c, virtual false, abstract: false, final false
-  static inline int32_t GetTrailer(::Org::BouncyCastle::Crypto::IDigest* digest);
+/// @brief Method GetTrailer, addr 0x332efd4, size 0x17c, virtual false, abstract: false, final false
+static inline int32_t GetTrailer(::Org::BouncyCastle::Crypto::IDigest*  digest) ;
 
-  static inline ::Org::BouncyCastle::Crypto::Signers::IsoTrailers* New_ctor();
+static inline ::Org::BouncyCastle::Crypto::Signers::IsoTrailers* New_ctor() ;
 
-  /// @brief Method NoTrailerAvailable, addr 0x332ef24, size 0x160, virtual false, abstract: false, final false
-  static inline bool NoTrailerAvailable(::Org::BouncyCastle::Crypto::IDigest* digest);
+/// @brief Method NoTrailerAvailable, addr 0x332ee74, size 0x160, virtual false, abstract: false, final false
+static inline bool NoTrailerAvailable(::Org::BouncyCastle::Crypto::IDigest*  digest) ;
 
-  /// @brief Method .ctor, addr 0x3333294, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x33331e4, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  static inline ::System::Collections::IDictionary* getStaticF_trailerMap();
+static inline ::System::Collections::IDictionary* getStaticF_trailerMap() ;
 
-  static inline void setStaticF_trailerMap(::System::Collections::IDictionary* value);
+static inline void setStaticF_trailerMap(::System::Collections::IDictionary*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr IsoTrailers();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr IsoTrailers() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IsoTrailers", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IsoTrailers(IsoTrailers&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IsoTrailers", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  IsoTrailers(IsoTrailers const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "IsoTrailers", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+IsoTrailers(IsoTrailers && ) = delete;
 
-  /// @brief Field TRAILER_IMPLICIT offset 0xffffffff size 0x4
-  static constexpr int32_t TRAILER_IMPLICIT{ static_cast<int32_t>(0xbc) };
+// Ctor Parameters [CppParam { name: "", ty: "IsoTrailers", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+IsoTrailers(IsoTrailers const& ) = delete;
 
-  /// @brief Field TRAILER_RIPEMD128 offset 0xffffffff size 0x4
-  static constexpr int32_t TRAILER_RIPEMD128{ static_cast<int32_t>(0x32cc) };
+/// @brief Field TRAILER_IMPLICIT offset 0xffffffff size 0x4
+static constexpr int32_t  TRAILER_IMPLICIT{static_cast<int32_t>(0xbc)};
 
-  /// @brief Field TRAILER_RIPEMD160 offset 0xffffffff size 0x4
-  static constexpr int32_t TRAILER_RIPEMD160{ static_cast<int32_t>(0x31cc) };
+/// @brief Field TRAILER_RIPEMD128 offset 0xffffffff size 0x4
+static constexpr int32_t  TRAILER_RIPEMD128{static_cast<int32_t>(0x32cc)};
 
-  /// @brief Field TRAILER_SHA1 offset 0xffffffff size 0x4
-  static constexpr int32_t TRAILER_SHA1{ static_cast<int32_t>(0x33cc) };
+/// @brief Field TRAILER_RIPEMD160 offset 0xffffffff size 0x4
+static constexpr int32_t  TRAILER_RIPEMD160{static_cast<int32_t>(0x31cc)};
 
-  /// @brief Field TRAILER_SHA224 offset 0xffffffff size 0x4
-  static constexpr int32_t TRAILER_SHA224{ static_cast<int32_t>(0x38cc) };
+/// @brief Field TRAILER_SHA1 offset 0xffffffff size 0x4
+static constexpr int32_t  TRAILER_SHA1{static_cast<int32_t>(0x33cc)};
 
-  /// @brief Field TRAILER_SHA256 offset 0xffffffff size 0x4
-  static constexpr int32_t TRAILER_SHA256{ static_cast<int32_t>(0x34cc) };
+/// @brief Field TRAILER_SHA224 offset 0xffffffff size 0x4
+static constexpr int32_t  TRAILER_SHA224{static_cast<int32_t>(0x38cc)};
 
-  /// @brief Field TRAILER_SHA384 offset 0xffffffff size 0x4
-  static constexpr int32_t TRAILER_SHA384{ static_cast<int32_t>(0x36cc) };
+/// @brief Field TRAILER_SHA256 offset 0xffffffff size 0x4
+static constexpr int32_t  TRAILER_SHA256{static_cast<int32_t>(0x34cc)};
 
-  /// @brief Field TRAILER_SHA512 offset 0xffffffff size 0x4
-  static constexpr int32_t TRAILER_SHA512{ static_cast<int32_t>(0x35cc) };
+/// @brief Field TRAILER_SHA384 offset 0xffffffff size 0x4
+static constexpr int32_t  TRAILER_SHA384{static_cast<int32_t>(0x36cc)};
 
-  /// @brief Field TRAILER_SHA512_224 offset 0xffffffff size 0x4
-  static constexpr int32_t TRAILER_SHA512_224{ static_cast<int32_t>(0x39cc) };
+/// @brief Field TRAILER_SHA512 offset 0xffffffff size 0x4
+static constexpr int32_t  TRAILER_SHA512{static_cast<int32_t>(0x35cc)};
 
-  /// @brief Field TRAILER_SHA512_256 offset 0xffffffff size 0x4
-  static constexpr int32_t TRAILER_SHA512_256{ static_cast<int32_t>(0x40cc) };
+/// @brief Field TRAILER_SHA512_224 offset 0xffffffff size 0x4
+static constexpr int32_t  TRAILER_SHA512_224{static_cast<int32_t>(0x39cc)};
 
-  /// @brief Field TRAILER_WHIRLPOOL offset 0xffffffff size 0x4
-  static constexpr int32_t TRAILER_WHIRLPOOL{ static_cast<int32_t>(0x37cc) };
+/// @brief Field TRAILER_SHA512_256 offset 0xffffffff size 0x4
+static constexpr int32_t  TRAILER_SHA512_256{static_cast<int32_t>(0x40cc)};
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1148 };
+/// @brief Field TRAILER_WHIRLPOOL offset 0xffffffff size 0x4
+static constexpr int32_t  TRAILER_WHIRLPOOL{static_cast<int32_t>(0x37cc)};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{1148};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Signers::IsoTrailers, 0x10>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Crypto::Signers
+} // namespace end def Org::BouncyCastle::Crypto::Signers
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Signers::IsoTrailers);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Signers::IsoTrailers*, "Org.BouncyCastle.Crypto.Signers", "IsoTrailers");

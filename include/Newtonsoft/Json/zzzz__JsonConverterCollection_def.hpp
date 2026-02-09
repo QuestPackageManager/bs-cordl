@@ -20,34 +20,34 @@ namespace Newtonsoft::Json {
 // CS Name: Newtonsoft.Json.JsonConverterCollection
 class CORDL_TYPE JsonConverterCollection : public ::System::Collections::ObjectModel::Collection_1<::Newtonsoft::Json::JsonConverter*> {
 public:
-  // Declarations
-  static inline ::Newtonsoft::Json::JsonConverterCollection* New_ctor();
+// Declarations
+static inline ::Newtonsoft::Json::JsonConverterCollection* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x5b289f4, size 0x4c, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5b28f00, size 0x4c, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr JsonConverterCollection();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr JsonConverterCollection() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "JsonConverterCollection", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  JsonConverterCollection(JsonConverterCollection&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "JsonConverterCollection", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  JsonConverterCollection(JsonConverterCollection const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "JsonConverterCollection", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+JsonConverterCollection(JsonConverterCollection && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13225 };
+// Ctor Parameters [CppParam { name: "", ty: "JsonConverterCollection", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+JsonConverterCollection(JsonConverterCollection const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{13229};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::JsonConverterCollection, 0x18>, "Size mismatch!");
 
-} // namespace Newtonsoft::Json
+} // namespace end def Newtonsoft::Json
 NEED_NO_BOX(::Newtonsoft::Json::JsonConverterCollection);
 DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::JsonConverterCollection*, "Newtonsoft.Json", "JsonConverterCollection");

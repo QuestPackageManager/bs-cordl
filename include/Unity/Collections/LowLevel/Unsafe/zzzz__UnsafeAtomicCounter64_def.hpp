@@ -12,53 +12,53 @@ struct UnsafeAtomicCounter64;
 }
 // Write type traits
 MARK_VAL_T(::Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter64);
-// Dependencies
+// Dependencies 
 namespace Unity::Collections::LowLevel::Unsafe {
 // Is value type: true
 // CS Name: Unity.Collections.LowLevel.Unsafe.UnsafeAtomicCounter64
 struct CORDL_TYPE UnsafeAtomicCounter64 {
 public:
-  // Declarations
-  /// @brief Method Add, addr 0x6317758, size 0x5c, virtual false, abstract: false, final false
-  inline int64_t Add(int64_t value);
+// Declarations
+/// @brief Method Add, addr 0x6317e18, size 0x5c, virtual false, abstract: false, final false
+inline int64_t Add(int64_t  value) ;
 
-  /// @brief Method AddSat, addr 0x6317810, size 0x90, virtual false, abstract: false, final false
-  inline int64_t AddSat(int64_t value, int64_t max);
+/// @brief Method AddSat, addr 0x6317ed0, size 0x90, virtual false, abstract: false, final false
+inline int64_t AddSat(int64_t  value, int64_t  max) ;
 
-  /// @brief Method Reset, addr 0x631774c, size 0xc, virtual false, abstract: false, final false
-  inline void Reset(int64_t value);
+/// @brief Method Reset, addr 0x6317e0c, size 0xc, virtual false, abstract: false, final false
+inline void Reset(int64_t  value) ;
 
-  /// @brief Method Sub, addr 0x63177b4, size 0x5c, virtual false, abstract: false, final false
-  inline int64_t Sub(int64_t value);
+/// @brief Method Sub, addr 0x6317e74, size 0x5c, virtual false, abstract: false, final false
+inline int64_t Sub(int64_t  value) ;
 
-  /// @brief Method SubSat, addr 0x63178a0, size 0x90, virtual false, abstract: false, final false
-  inline int64_t SubSat(int64_t value, int64_t min);
+/// @brief Method SubSat, addr 0x6317f60, size 0x90, virtual false, abstract: false, final false
+inline int64_t SubSat(int64_t  value, int64_t  min) ;
 
-  /// @brief Method .ctor, addr 0x6317744, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(void* ptr);
+/// @brief Method .ctor, addr 0x6317e04, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(void*  ptr) ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr UnsafeAtomicCounter64();
+// Ctor Parameters []
+// @brief default ctor
+constexpr UnsafeAtomicCounter64() ;
 
-  // Ctor Parameters [CppParam { name: "Counter", ty: "int64_t*", modifiers: "", def_value: None }]
-  constexpr UnsafeAtomicCounter64(int64_t* Counter) noexcept;
+// Ctor Parameters [CppParam { name: "Counter", ty: "int64_t*", modifiers: "", def_value: None }]
+constexpr UnsafeAtomicCounter64(int64_t*  Counter) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15728 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{15732};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x8};
 
-  /// @brief Field Counter, offset: 0x0, size: 0x8, def value: None
-  int64_t* Counter;
+/// @brief Field Counter, offset: 0x0, size: 0x8, def value: None
+ int64_t*  Counter;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter64, Counter) == 0x0, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter64, 0x8>, "Size mismatch!");
 
-} // namespace Unity::Collections::LowLevel::Unsafe
+} // namespace end def Unity::Collections::LowLevel::Unsafe
 DEFINE_IL2CPP_ARG_TYPE(::Unity::Collections::LowLevel::Unsafe::UnsafeAtomicCounter64, "Unity.Collections.LowLevel.Unsafe", "UnsafeAtomicCounter64");

@@ -30,76 +30,76 @@ namespace System::Runtime::Remoting::Channels {
 // CS Name: System.Runtime.Remoting.Channels.SinkProviderData
 class CORDL_TYPE SinkProviderData : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(get = get_Children)) ::System::Collections::IList* Children;
+// Declarations
+ __declspec(property(get=get_Children)) ::System::Collections::IList*  Children;
 
-  __declspec(property(get = get_Properties)) ::System::Collections::IDictionary* Properties;
+ __declspec(property(get=get_Properties)) ::System::Collections::IDictionary*  Properties;
 
-  /// @brief Field children, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_children, put = __cordl_internal_set_children)) ::System::Collections::ArrayList* children;
+/// @brief Field children, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_children, put=__cordl_internal_set_children)) ::System::Collections::ArrayList*  children;
 
-  /// @brief Field properties, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_properties, put = __cordl_internal_set_properties)) ::System::Collections::Hashtable* properties;
+/// @brief Field properties, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get_properties, put=__cordl_internal_set_properties)) ::System::Collections::Hashtable*  properties;
 
-  /// @brief Field sinkName, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_sinkName, put = __cordl_internal_set_sinkName)) ::StringW sinkName;
+/// @brief Field sinkName, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_sinkName, put=__cordl_internal_set_sinkName)) ::StringW  sinkName;
 
-  static inline ::System::Runtime::Remoting::Channels::SinkProviderData* New_ctor(::StringW name);
+static inline ::System::Runtime::Remoting::Channels::SinkProviderData* New_ctor(::StringW  name) ;
 
-  constexpr ::System::Collections::ArrayList* const& __cordl_internal_get_children() const;
+constexpr ::System::Collections::ArrayList* const& __cordl_internal_get_children() const;
 
-  constexpr ::System::Collections::ArrayList*& __cordl_internal_get_children();
+constexpr ::System::Collections::ArrayList*& __cordl_internal_get_children() ;
 
-  constexpr ::System::Collections::Hashtable* const& __cordl_internal_get_properties() const;
+constexpr ::System::Collections::Hashtable* const& __cordl_internal_get_properties() const;
 
-  constexpr ::System::Collections::Hashtable*& __cordl_internal_get_properties();
+constexpr ::System::Collections::Hashtable*& __cordl_internal_get_properties() ;
 
-  constexpr ::StringW const& __cordl_internal_get_sinkName() const;
+constexpr ::StringW const& __cordl_internal_get_sinkName() const;
 
-  constexpr ::StringW& __cordl_internal_get_sinkName();
+constexpr ::StringW& __cordl_internal_get_sinkName() ;
 
-  constexpr void __cordl_internal_set_children(::System::Collections::ArrayList* value);
+constexpr void __cordl_internal_set_children(::System::Collections::ArrayList*  value) ;
 
-  constexpr void __cordl_internal_set_properties(::System::Collections::Hashtable* value);
+constexpr void __cordl_internal_set_properties(::System::Collections::Hashtable*  value) ;
 
-  constexpr void __cordl_internal_set_sinkName(::StringW value);
+constexpr void __cordl_internal_set_sinkName(::StringW  value) ;
 
-  /// @brief Method .ctor, addr 0x598cc08, size 0xa0, virtual false, abstract: false, final false
-  inline void _ctor(::StringW name);
+/// @brief Method .ctor, addr 0x598d114, size 0xa0, virtual false, abstract: false, final false
+inline void _ctor(::StringW  name) ;
 
-  /// @brief Method get_Children, addr 0x598cca8, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Collections::IList* get_Children();
+/// @brief Method get_Children, addr 0x598d1b4, size 0x8, virtual false, abstract: false, final false
+inline ::System::Collections::IList* get_Children() ;
 
-  /// @brief Method get_Properties, addr 0x598ccb0, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Collections::IDictionary* get_Properties();
+/// @brief Method get_Properties, addr 0x598d1bc, size 0x8, virtual false, abstract: false, final false
+inline ::System::Collections::IDictionary* get_Properties() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SinkProviderData();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr SinkProviderData() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SinkProviderData", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  SinkProviderData(SinkProviderData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SinkProviderData", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  SinkProviderData(SinkProviderData const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "SinkProviderData", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+SinkProviderData(SinkProviderData && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3144 };
+// Ctor Parameters [CppParam { name: "", ty: "SinkProviderData", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+SinkProviderData(SinkProviderData const& ) = delete;
 
-  /// @brief Field sinkName, offset: 0x10, size: 0x8, def value: None
-  ::StringW ___sinkName;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{3144};
 
-  /// @brief Field children, offset: 0x18, size: 0x8, def value: None
-  ::System::Collections::ArrayList* ___children;
+/// @brief Field sinkName, offset: 0x10, size: 0x8, def value: None
+ ::StringW  ___sinkName;
 
-  /// @brief Field properties, offset: 0x20, size: 0x8, def value: None
-  ::System::Collections::Hashtable* ___properties;
+/// @brief Field children, offset: 0x18, size: 0x8, def value: None
+ ::System::Collections::ArrayList*  ___children;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field properties, offset: 0x20, size: 0x8, def value: None
+ ::System::Collections::Hashtable*  ___properties;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Runtime::Remoting::Channels::SinkProviderData, ___sinkName) == 0x10, "Offset mismatch!");
@@ -110,6 +110,6 @@ static_assert(offsetof(::System::Runtime::Remoting::Channels::SinkProviderData, 
 
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Remoting::Channels::SinkProviderData, 0x28>, "Size mismatch!");
 
-} // namespace System::Runtime::Remoting::Channels
+} // namespace end def System::Runtime::Remoting::Channels
 NEED_NO_BOX(::System::Runtime::Remoting::Channels::SinkProviderData);
 DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::Channels::SinkProviderData*, "System.Runtime.Remoting.Channels", "SinkProviderData");

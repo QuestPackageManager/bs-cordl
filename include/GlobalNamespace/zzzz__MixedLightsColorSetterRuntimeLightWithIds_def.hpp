@@ -24,59 +24,57 @@ namespace GlobalNamespace {
 // CS Name: MixedLightsColorSetterRuntimeLightWithIds
 class CORDL_TYPE MixedLightsColorSetterRuntimeLightWithIds : public ::GlobalNamespace::RuntimeLightWithIds {
 public:
-  // Declarations
-  /// @brief Field _lightMultiplier, offset 0x58, size 0x4
-  __declspec(property(get = __cordl_internal_get__lightMultiplier, put = __cordl_internal_set__lightMultiplier)) float_t _lightMultiplier;
+// Declarations
+/// @brief Field _lightMultiplier, offset 0x58, size 0x4 
+ __declspec(property(get=__cordl_internal_get__lightMultiplier, put=__cordl_internal_set__lightMultiplier)) float_t  _lightMultiplier;
 
-  /// @brief Field _materialPropertyBlockColorSetter, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get__materialPropertyBlockColorSetter,
-                      put = __cordl_internal_set__materialPropertyBlockColorSetter)) ::UnityW<::GlobalNamespace::MaterialPropertyBlockColorSetter>
-      _materialPropertyBlockColorSetter;
+/// @brief Field _materialPropertyBlockColorSetter, offset 0x50, size 0x8 
+ __declspec(property(get=__cordl_internal_get__materialPropertyBlockColorSetter, put=__cordl_internal_set__materialPropertyBlockColorSetter)) ::UnityW<::GlobalNamespace::MaterialPropertyBlockColorSetter>  _materialPropertyBlockColorSetter;
 
-  /// @brief Method ColorWasSet, addr 0x56bc398, size 0x30, virtual true, abstract: false, final false
-  inline void ColorWasSet(::UnityEngine::Color color);
+/// @brief Method ColorWasSet, addr 0x56bc120, size 0x30, virtual true, abstract: false, final false
+inline void ColorWasSet(::UnityEngine::Color  color) ;
 
-  static inline ::GlobalNamespace::MixedLightsColorSetterRuntimeLightWithIds* New_ctor();
+static inline ::GlobalNamespace::MixedLightsColorSetterRuntimeLightWithIds* New_ctor() ;
 
-  constexpr float_t const& __cordl_internal_get__lightMultiplier() const;
+constexpr float_t const& __cordl_internal_get__lightMultiplier() const;
 
-  constexpr float_t& __cordl_internal_get__lightMultiplier();
+constexpr float_t& __cordl_internal_get__lightMultiplier() ;
 
-  constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockColorSetter> const& __cordl_internal_get__materialPropertyBlockColorSetter() const;
+constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockColorSetter> const& __cordl_internal_get__materialPropertyBlockColorSetter() const;
 
-  constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockColorSetter>& __cordl_internal_get__materialPropertyBlockColorSetter();
+constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockColorSetter>& __cordl_internal_get__materialPropertyBlockColorSetter() ;
 
-  constexpr void __cordl_internal_set__lightMultiplier(float_t value);
+constexpr void __cordl_internal_set__lightMultiplier(float_t  value) ;
 
-  constexpr void __cordl_internal_set__materialPropertyBlockColorSetter(::UnityW<::GlobalNamespace::MaterialPropertyBlockColorSetter> value);
+constexpr void __cordl_internal_set__materialPropertyBlockColorSetter(::UnityW<::GlobalNamespace::MaterialPropertyBlockColorSetter>  value) ;
 
-  /// @brief Method .ctor, addr 0x56bc3c8, size 0x1c, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x56bc150, size 0x1c, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MixedLightsColorSetterRuntimeLightWithIds();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr MixedLightsColorSetterRuntimeLightWithIds() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MixedLightsColorSetterRuntimeLightWithIds", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  MixedLightsColorSetterRuntimeLightWithIds(MixedLightsColorSetterRuntimeLightWithIds&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MixedLightsColorSetterRuntimeLightWithIds", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  MixedLightsColorSetterRuntimeLightWithIds(MixedLightsColorSetterRuntimeLightWithIds const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "MixedLightsColorSetterRuntimeLightWithIds", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+MixedLightsColorSetterRuntimeLightWithIds(MixedLightsColorSetterRuntimeLightWithIds && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19738 };
+// Ctor Parameters [CppParam { name: "", ty: "MixedLightsColorSetterRuntimeLightWithIds", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+MixedLightsColorSetterRuntimeLightWithIds(MixedLightsColorSetterRuntimeLightWithIds const& ) = delete;
 
-  /// @brief Field _materialPropertyBlockColorSetter, offset: 0x50, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::MaterialPropertyBlockColorSetter> ____materialPropertyBlockColorSetter;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{19742};
 
-  /// @brief Field _lightMultiplier, offset: 0x58, size: 0x4, def value: None
-  float_t ____lightMultiplier;
+/// @brief Field _materialPropertyBlockColorSetter, offset: 0x50, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::MaterialPropertyBlockColorSetter>  ____materialPropertyBlockColorSetter;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _lightMultiplier, offset: 0x58, size: 0x4, def value: None
+ float_t  ____lightMultiplier;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::MixedLightsColorSetterRuntimeLightWithIds, ____materialPropertyBlockColorSetter) == 0x50, "Offset mismatch!");
@@ -85,6 +83,6 @@ static_assert(offsetof(::GlobalNamespace::MixedLightsColorSetterRuntimeLightWith
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MixedLightsColorSetterRuntimeLightWithIds, 0x60>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MixedLightsColorSetterRuntimeLightWithIds);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MixedLightsColorSetterRuntimeLightWithIds*, "", "MixedLightsColorSetterRuntimeLightWithIds");

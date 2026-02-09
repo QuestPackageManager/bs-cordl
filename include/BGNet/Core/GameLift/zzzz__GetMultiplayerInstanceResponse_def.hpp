@@ -26,50 +26,45 @@ namespace BGNet::Core::GameLift {
 // CS Name: BGNet.Core.GameLift.GetMultiplayerInstanceResponse
 struct CORDL_TYPE GetMultiplayerInstanceResponse {
 public:
-  // Declarations
-  /// @brief Method .ctor, addr 0x31ee5c8, size 0x18, virtual false, abstract: false, final false
-  inline void _ctor(::GlobalNamespace::MultiplayerPlacementErrorCode errorCode, ::BGNet::Core::GameLift::PlayerSessionInfo* playerSessionInfo, int32_t pollIntervalMs, ::StringW ticketId,
-                    ::StringW ticketStatus, ::StringW placementId, ::StringW placementStatus);
+// Declarations
+/// @brief Method .ctor, addr 0x31ee518, size 0x18, virtual false, abstract: false, final false
+inline void _ctor(::GlobalNamespace::MultiplayerPlacementErrorCode  errorCode, ::BGNet::Core::GameLift::PlayerSessionInfo*  playerSessionInfo, int32_t  pollIntervalMs, ::StringW  ticketId, ::StringW  ticketStatus, ::StringW  placementId, ::StringW  placementStatus) ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr GetMultiplayerInstanceResponse();
+// Ctor Parameters []
+// @brief default ctor
+constexpr GetMultiplayerInstanceResponse() ;
 
-  // Ctor Parameters [CppParam { name: "errorCode", ty: "::GlobalNamespace::MultiplayerPlacementErrorCode", modifiers: "", def_value: None }, CppParam { name: "playerSessionInfo", ty:
-  // "::BGNet::Core::GameLift::PlayerSessionInfo*", modifiers: "", def_value: None }, CppParam { name: "pollIntervalMs", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "ticketId",
-  // ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "ticketStatus", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "placementId", ty: "::StringW", modifiers:
-  // "", def_value: None }, CppParam { name: "placementStatus", ty: "::StringW", modifiers: "", def_value: None }]
-  constexpr GetMultiplayerInstanceResponse(::GlobalNamespace::MultiplayerPlacementErrorCode errorCode, ::BGNet::Core::GameLift::PlayerSessionInfo* playerSessionInfo, int32_t pollIntervalMs,
-                                           ::StringW ticketId, ::StringW ticketStatus, ::StringW placementId, ::StringW placementStatus) noexcept;
+// Ctor Parameters [CppParam { name: "errorCode", ty: "::GlobalNamespace::MultiplayerPlacementErrorCode", modifiers: "", def_value: None }, CppParam { name: "playerSessionInfo", ty: "::BGNet::Core::GameLift::PlayerSessionInfo*", modifiers: "", def_value: None }, CppParam { name: "pollIntervalMs", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "ticketId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "ticketStatus", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "placementId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "placementStatus", ty: "::StringW", modifiers: "", def_value: None }]
+constexpr GetMultiplayerInstanceResponse(::GlobalNamespace::MultiplayerPlacementErrorCode  errorCode, ::BGNet::Core::GameLift::PlayerSessionInfo*  playerSessionInfo, int32_t  pollIntervalMs, ::StringW  ticketId, ::StringW  ticketStatus, ::StringW  placementId, ::StringW  placementStatus) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18964 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{18968};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x38};
 
-  /// @brief Field errorCode, offset: 0x0, size: 0x4, def value: None
-  ::GlobalNamespace::MultiplayerPlacementErrorCode errorCode;
+/// @brief Field errorCode, offset: 0x0, size: 0x4, def value: None
+ ::GlobalNamespace::MultiplayerPlacementErrorCode  errorCode;
 
-  /// @brief Field playerSessionInfo, offset: 0x8, size: 0x8, def value: None
-  ::BGNet::Core::GameLift::PlayerSessionInfo* playerSessionInfo;
+/// @brief Field playerSessionInfo, offset: 0x8, size: 0x8, def value: None
+ ::BGNet::Core::GameLift::PlayerSessionInfo*  playerSessionInfo;
 
-  /// @brief Field pollIntervalMs, offset: 0x10, size: 0x4, def value: None
-  int32_t pollIntervalMs;
+/// @brief Field pollIntervalMs, offset: 0x10, size: 0x4, def value: None
+ int32_t  pollIntervalMs;
 
-  /// @brief Field ticketId, offset: 0x18, size: 0x8, def value: None
-  ::StringW ticketId;
+/// @brief Field ticketId, offset: 0x18, size: 0x8, def value: None
+ ::StringW  ticketId;
 
-  /// @brief Field ticketStatus, offset: 0x20, size: 0x8, def value: None
-  ::StringW ticketStatus;
+/// @brief Field ticketStatus, offset: 0x20, size: 0x8, def value: None
+ ::StringW  ticketStatus;
 
-  /// @brief Field placementId, offset: 0x28, size: 0x8, def value: None
-  ::StringW placementId;
+/// @brief Field placementId, offset: 0x28, size: 0x8, def value: None
+ ::StringW  placementId;
 
-  /// @brief Field placementStatus, offset: 0x30, size: 0x8, def value: None
-  ::StringW placementStatus;
+/// @brief Field placementStatus, offset: 0x30, size: 0x8, def value: None
+ ::StringW  placementStatus;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::BGNet::Core::GameLift::GetMultiplayerInstanceResponse, errorCode) == 0x0, "Offset mismatch!");
@@ -88,5 +83,5 @@ static_assert(offsetof(::BGNet::Core::GameLift::GetMultiplayerInstanceResponse, 
 
 static_assert(::cordl_internals::size_check_v<::BGNet::Core::GameLift::GetMultiplayerInstanceResponse, 0x38>, "Size mismatch!");
 
-} // namespace BGNet::Core::GameLift
+} // namespace end def BGNet::Core::GameLift
 DEFINE_IL2CPP_ARG_TYPE(::BGNet::Core::GameLift::GetMultiplayerInstanceResponse, "BGNet.Core.GameLift", "GetMultiplayerInstanceResponse");

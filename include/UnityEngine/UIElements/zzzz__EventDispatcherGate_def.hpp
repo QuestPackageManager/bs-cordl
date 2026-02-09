@@ -10,7 +10,8 @@ namespace System {
 class IDisposable;
 }
 namespace System {
-template <typename T> class IEquatable_1;
+template<typename T>
+class IEquatable_1;
 }
 namespace System {
 class Object;
@@ -24,62 +25,62 @@ struct EventDispatcherGate;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::EventDispatcherGate);
-// Dependencies
+// Dependencies 
 namespace UnityEngine::UIElements {
 // Is value type: true
 // CS Name: UnityEngine.UIElements.EventDispatcherGate
 struct CORDL_TYPE EventDispatcherGate {
 public:
-  // Declarations
-  /// @brief Convert operator to "::System::IDisposable"
-  constexpr operator ::System::IDisposable*();
+// Declarations
+/// @brief Convert operator to "::System::IDisposable"
+constexpr operator  ::System::IDisposable*() ;
 
-  /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::EventDispatcherGate>"
-  constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::EventDispatcherGate>*();
+/// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::EventDispatcherGate>"
+constexpr operator  ::System::IEquatable_1<::UnityEngine::UIElements::EventDispatcherGate>*() ;
 
-  /// @brief Method Dispose, addr 0x6bc9134, size 0x14, virtual true, abstract: false, final true
-  inline void Dispose();
+/// @brief Method Dispose, addr 0x6bc97f4, size 0x14, virtual true, abstract: false, final true
+inline void Dispose() ;
 
-  /// @brief Method Equals, addr 0x6bc930c, size 0xa8, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* obj);
+/// @brief Method Equals, addr 0x6bc99cc, size 0xa8, virtual true, abstract: false, final false
+inline bool Equals(::System::Object*  obj) ;
 
-  /// @brief Method Equals, addr 0x6bc92dc, size 0x30, virtual true, abstract: false, final true
-  inline bool Equals(::UnityEngine::UIElements::EventDispatcherGate other);
+/// @brief Method Equals, addr 0x6bc999c, size 0x30, virtual true, abstract: false, final true
+inline bool Equals(::UnityEngine::UIElements::EventDispatcherGate  other) ;
 
-  /// @brief Method GetHashCode, addr 0x6bc93b4, size 0x18, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
+/// @brief Method GetHashCode, addr 0x6bc9a74, size 0x18, virtual true, abstract: false, final false
+inline int32_t GetHashCode() ;
 
-  /// @brief Method .ctor, addr 0x6bc90b8, size 0x68, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::UIElements::EventDispatcher* d);
+/// @brief Method .ctor, addr 0x6bc9778, size 0x68, virtual false, abstract: false, final false
+inline void _ctor(::UnityEngine::UIElements::EventDispatcher*  d) ;
 
-  /// @brief Convert to "::System::IDisposable"
-  constexpr ::System::IDisposable* i___System__IDisposable();
+/// @brief Convert to "::System::IDisposable"
+constexpr ::System::IDisposable* i___System__IDisposable() ;
 
-  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::EventDispatcherGate>"
-  constexpr ::System::IEquatable_1<::UnityEngine::UIElements::EventDispatcherGate>* i___System__IEquatable_1___UnityEngine__UIElements__EventDispatcherGate_();
+/// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::EventDispatcherGate>"
+constexpr ::System::IEquatable_1<::UnityEngine::UIElements::EventDispatcherGate>* i___System__IEquatable_1___UnityEngine__UIElements__EventDispatcherGate_() ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr EventDispatcherGate();
+// Ctor Parameters []
+// @brief default ctor
+constexpr EventDispatcherGate() ;
 
-  // Ctor Parameters [CppParam { name: "m_Dispatcher", ty: "::UnityEngine::UIElements::EventDispatcher*", modifiers: "", def_value: None }]
-  constexpr EventDispatcherGate(::UnityEngine::UIElements::EventDispatcher* m_Dispatcher) noexcept;
+// Ctor Parameters [CppParam { name: "m_Dispatcher", ty: "::UnityEngine::UIElements::EventDispatcher*", modifiers: "", def_value: None }]
+constexpr EventDispatcherGate(::UnityEngine::UIElements::EventDispatcher*  m_Dispatcher) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4423 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4423};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x8};
 
-  /// @brief Field m_Dispatcher, offset: 0x0, size: 0x8, def value: None
-  ::UnityEngine::UIElements::EventDispatcher* m_Dispatcher;
+/// @brief Field m_Dispatcher, offset: 0x0, size: 0x8, def value: None
+ ::UnityEngine::UIElements::EventDispatcher*  m_Dispatcher;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::UIElements::EventDispatcherGate, m_Dispatcher) == 0x0, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::EventDispatcherGate, 0x8>, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements
+} // namespace end def UnityEngine::UIElements
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::EventDispatcherGate, "UnityEngine.UIElements", "EventDispatcherGate");

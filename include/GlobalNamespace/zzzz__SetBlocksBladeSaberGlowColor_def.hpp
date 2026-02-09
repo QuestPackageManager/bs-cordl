@@ -26,69 +26,69 @@ namespace GlobalNamespace {
 // CS Name: SetBlocksBladeSaberGlowColor
 class CORDL_TYPE SetBlocksBladeSaberGlowColor : public ::UnityEngine::MonoBehaviour {
 public:
-  // Declarations
-  /// @brief Field _blocksBlade, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__blocksBlade, put = __cordl_internal_set__blocksBlade)) ::UnityW<::GlobalNamespace::BlocksBlade> _blocksBlade;
+// Declarations
+/// @brief Field _blocksBlade, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get__blocksBlade, put=__cordl_internal_set__blocksBlade)) ::UnityW<::GlobalNamespace::BlocksBlade>  _blocksBlade;
 
-  /// @brief Field _colorManager, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__colorManager, put = __cordl_internal_set__colorManager)) ::GlobalNamespace::ColorManager* _colorManager;
+/// @brief Field _colorManager, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get__colorManager, put=__cordl_internal_set__colorManager)) ::GlobalNamespace::ColorManager*  _colorManager;
 
-  /// @brief Field _saber, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__saber, put = __cordl_internal_set__saber)) ::UnityW<::GlobalNamespace::SaberTypeObject> _saber;
+/// @brief Field _saber, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get__saber, put=__cordl_internal_set__saber)) ::UnityW<::GlobalNamespace::SaberTypeObject>  _saber;
 
-  static inline ::GlobalNamespace::SetBlocksBladeSaberGlowColor* New_ctor();
+static inline ::GlobalNamespace::SetBlocksBladeSaberGlowColor* New_ctor() ;
 
-  /// @brief Method Start, addr 0x58455c4, size 0x40, virtual false, abstract: false, final false
-  inline void Start();
+/// @brief Method Start, addr 0x5845ef4, size 0x40, virtual false, abstract: false, final false
+inline void Start() ;
 
-  constexpr ::UnityW<::GlobalNamespace::BlocksBlade> const& __cordl_internal_get__blocksBlade() const;
+constexpr ::UnityW<::GlobalNamespace::BlocksBlade> const& __cordl_internal_get__blocksBlade() const;
 
-  constexpr ::UnityW<::GlobalNamespace::BlocksBlade>& __cordl_internal_get__blocksBlade();
+constexpr ::UnityW<::GlobalNamespace::BlocksBlade>& __cordl_internal_get__blocksBlade() ;
 
-  constexpr ::GlobalNamespace::ColorManager* const& __cordl_internal_get__colorManager() const;
+constexpr ::GlobalNamespace::ColorManager* const& __cordl_internal_get__colorManager() const;
 
-  constexpr ::GlobalNamespace::ColorManager*& __cordl_internal_get__colorManager();
+constexpr ::GlobalNamespace::ColorManager*& __cordl_internal_get__colorManager() ;
 
-  constexpr ::UnityW<::GlobalNamespace::SaberTypeObject> const& __cordl_internal_get__saber() const;
+constexpr ::UnityW<::GlobalNamespace::SaberTypeObject> const& __cordl_internal_get__saber() const;
 
-  constexpr ::UnityW<::GlobalNamespace::SaberTypeObject>& __cordl_internal_get__saber();
+constexpr ::UnityW<::GlobalNamespace::SaberTypeObject>& __cordl_internal_get__saber() ;
 
-  constexpr void __cordl_internal_set__blocksBlade(::UnityW<::GlobalNamespace::BlocksBlade> value);
+constexpr void __cordl_internal_set__blocksBlade(::UnityW<::GlobalNamespace::BlocksBlade>  value) ;
 
-  constexpr void __cordl_internal_set__colorManager(::GlobalNamespace::ColorManager* value);
+constexpr void __cordl_internal_set__colorManager(::GlobalNamespace::ColorManager*  value) ;
 
-  constexpr void __cordl_internal_set__saber(::UnityW<::GlobalNamespace::SaberTypeObject> value);
+constexpr void __cordl_internal_set__saber(::UnityW<::GlobalNamespace::SaberTypeObject>  value) ;
 
-  /// @brief Method .ctor, addr 0x5845604, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5845f34, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SetBlocksBladeSaberGlowColor();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr SetBlocksBladeSaberGlowColor() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SetBlocksBladeSaberGlowColor", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  SetBlocksBladeSaberGlowColor(SetBlocksBladeSaberGlowColor&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SetBlocksBladeSaberGlowColor", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  SetBlocksBladeSaberGlowColor(SetBlocksBladeSaberGlowColor const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "SetBlocksBladeSaberGlowColor", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+SetBlocksBladeSaberGlowColor(SetBlocksBladeSaberGlowColor && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6245 };
+// Ctor Parameters [CppParam { name: "", ty: "SetBlocksBladeSaberGlowColor", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+SetBlocksBladeSaberGlowColor(SetBlocksBladeSaberGlowColor const& ) = delete;
 
-  /// @brief Field _saber, offset: 0x20, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::SaberTypeObject> ____saber;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6245};
 
-  /// @brief Field _colorManager, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::ColorManager* ____colorManager;
+/// @brief Field _saber, offset: 0x20, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::SaberTypeObject>  ____saber;
 
-  /// @brief Field _blocksBlade, offset: 0x30, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::BlocksBlade> ____blocksBlade;
+/// @brief Field _colorManager, offset: 0x28, size: 0x8, def value: None
+ ::GlobalNamespace::ColorManager*  ____colorManager;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _blocksBlade, offset: 0x30, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::BlocksBlade>  ____blocksBlade;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::SetBlocksBladeSaberGlowColor, ____saber) == 0x20, "Offset mismatch!");
@@ -99,6 +99,6 @@ static_assert(offsetof(::GlobalNamespace::SetBlocksBladeSaberGlowColor, ____bloc
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SetBlocksBladeSaberGlowColor, 0x38>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SetBlocksBladeSaberGlowColor);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SetBlocksBladeSaberGlowColor*, "", "SetBlocksBladeSaberGlowColor");

@@ -24,71 +24,71 @@ namespace GlobalNamespace {
 // CS Name: ColorBoostBeatmapEventData
 class CORDL_TYPE ColorBoostBeatmapEventData : public ::GlobalNamespace::BeatmapEventData {
 public:
-  // Declarations
-  /// @brief Field _defaultCopy, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF__defaultCopy, put = setStaticF__defaultCopy)) ::GlobalNamespace::ColorBoostBeatmapEventData* _defaultCopy;
+// Declarations
+/// @brief Field _defaultCopy, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF__defaultCopy, put=setStaticF__defaultCopy)) ::GlobalNamespace::ColorBoostBeatmapEventData*  _defaultCopy;
 
-  /// @brief Field boostColorsAreOn, offset 0x30, size 0x1
-  __declspec(property(get = __cordl_internal_get_boostColorsAreOn, put = __cordl_internal_set_boostColorsAreOn)) bool boostColorsAreOn;
+/// @brief Field boostColorsAreOn, offset 0x30, size 0x1 
+ __declspec(property(get=__cordl_internal_get_boostColorsAreOn, put=__cordl_internal_set_boostColorsAreOn)) bool  boostColorsAreOn;
 
-  __declspec(property(get = get_nextSameTypeEventData)) ::GlobalNamespace::ColorBoostBeatmapEventData* nextSameTypeEventData;
+ __declspec(property(get=get_nextSameTypeEventData)) ::GlobalNamespace::ColorBoostBeatmapEventData*  nextSameTypeEventData;
 
-  __declspec(property(get = get_previousSameTypeEventData)) ::GlobalNamespace::ColorBoostBeatmapEventData* previousSameTypeEventData;
+ __declspec(property(get=get_previousSameTypeEventData)) ::GlobalNamespace::ColorBoostBeatmapEventData*  previousSameTypeEventData;
 
-  /// @brief Method GetCopy, addr 0x3192f44, size 0x78, virtual true, abstract: false, final false
-  inline ::GlobalNamespace::BeatmapDataItem* GetCopy();
+/// @brief Method GetCopy, addr 0x3192e94, size 0x78, virtual true, abstract: false, final false
+inline ::GlobalNamespace::BeatmapDataItem* GetCopy() ;
 
-  /// @brief Method GetDefault, addr 0x3192fbc, size 0x5c, virtual true, abstract: false, final false
-  inline ::GlobalNamespace::BeatmapEventData* GetDefault();
+/// @brief Method GetDefault, addr 0x3192f0c, size 0x5c, virtual true, abstract: false, final false
+inline ::GlobalNamespace::BeatmapEventData* GetDefault() ;
 
-  static inline ::GlobalNamespace::ColorBoostBeatmapEventData* New_ctor(float_t time, bool boostColorsAreOn);
+static inline ::GlobalNamespace::ColorBoostBeatmapEventData* New_ctor(float_t  time, bool  boostColorsAreOn) ;
 
-  constexpr bool const& __cordl_internal_get_boostColorsAreOn() const;
+constexpr bool const& __cordl_internal_get_boostColorsAreOn() const;
 
-  constexpr bool& __cordl_internal_get_boostColorsAreOn();
+constexpr bool& __cordl_internal_get_boostColorsAreOn() ;
 
-  constexpr void __cordl_internal_set_boostColorsAreOn(bool value);
+constexpr void __cordl_internal_set_boostColorsAreOn(bool  value) ;
 
-  /// @brief Method .ctor, addr 0x3192f24, size 0x20, virtual false, abstract: false, final false
-  inline void _ctor(float_t time, bool boostColorsAreOn);
+/// @brief Method .ctor, addr 0x3192e74, size 0x20, virtual false, abstract: false, final false
+inline void _ctor(float_t  time, bool  boostColorsAreOn) ;
 
-  static inline ::GlobalNamespace::ColorBoostBeatmapEventData* getStaticF__defaultCopy();
+static inline ::GlobalNamespace::ColorBoostBeatmapEventData* getStaticF__defaultCopy() ;
 
-  /// @brief Method get_nextSameTypeEventData, addr 0x3192ea8, size 0x7c, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::ColorBoostBeatmapEventData* get_nextSameTypeEventData();
+/// @brief Method get_nextSameTypeEventData, addr 0x3192df8, size 0x7c, virtual false, abstract: false, final false
+inline ::GlobalNamespace::ColorBoostBeatmapEventData* get_nextSameTypeEventData() ;
 
-  /// @brief Method get_previousSameTypeEventData, addr 0x3192e2c, size 0x7c, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::ColorBoostBeatmapEventData* get_previousSameTypeEventData();
+/// @brief Method get_previousSameTypeEventData, addr 0x3192d7c, size 0x7c, virtual false, abstract: false, final false
+inline ::GlobalNamespace::ColorBoostBeatmapEventData* get_previousSameTypeEventData() ;
 
-  static inline void setStaticF__defaultCopy(::GlobalNamespace::ColorBoostBeatmapEventData* value);
+static inline void setStaticF__defaultCopy(::GlobalNamespace::ColorBoostBeatmapEventData*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ColorBoostBeatmapEventData();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ColorBoostBeatmapEventData() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ColorBoostBeatmapEventData", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ColorBoostBeatmapEventData(ColorBoostBeatmapEventData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ColorBoostBeatmapEventData", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ColorBoostBeatmapEventData(ColorBoostBeatmapEventData const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ColorBoostBeatmapEventData", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ColorBoostBeatmapEventData(ColorBoostBeatmapEventData && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21049 };
+// Ctor Parameters [CppParam { name: "", ty: "ColorBoostBeatmapEventData", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ColorBoostBeatmapEventData(ColorBoostBeatmapEventData const& ) = delete;
 
-  /// @brief Field boostColorsAreOn, offset: 0x30, size: 0x1, def value: None
-  bool ___boostColorsAreOn;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{21053};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field boostColorsAreOn, offset: 0x30, size: 0x1, def value: None
+ bool  ___boostColorsAreOn;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::ColorBoostBeatmapEventData, ___boostColorsAreOn) == 0x30, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ColorBoostBeatmapEventData, 0x38>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ColorBoostBeatmapEventData);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ColorBoostBeatmapEventData*, "", "ColorBoostBeatmapEventData");

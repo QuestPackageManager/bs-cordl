@@ -63,311 +63,304 @@ namespace GlobalNamespace {
 // CS Name: SaberBurnMarkArea
 class CORDL_TYPE SaberBurnMarkArea : public ::UnityEngine::MonoBehaviour {
 public:
-  // Declarations
-  /// @brief Field _blackMarkLineRandomOffset, offset 0x28, size 0x4
-  __declspec(property(get = __cordl_internal_get__blackMarkLineRandomOffset, put = __cordl_internal_set__blackMarkLineRandomOffset)) float_t _blackMarkLineRandomOffset;
+// Declarations
+/// @brief Field _blackMarkLineRandomOffset, offset 0x28, size 0x4 
+ __declspec(property(get=__cordl_internal_get__blackMarkLineRandomOffset, put=__cordl_internal_set__blackMarkLineRandomOffset)) float_t  _blackMarkLineRandomOffset;
 
-  /// @brief Field _bounds, offset 0x50, size 0x18
-  __declspec(property(get = __cordl_internal_get__bounds, put = __cordl_internal_set__bounds)) ::UnityEngine::Bounds _bounds;
+/// @brief Field _bounds, offset 0x50, size 0x18 
+ __declspec(property(get=__cordl_internal_get__bounds, put=__cordl_internal_set__bounds)) ::UnityEngine::Bounds  _bounds;
 
-  /// @brief Field _burnMarksFadeOutStrength, offset 0x34, size 0x4
-  __declspec(property(get = __cordl_internal_get__burnMarksFadeOutStrength, put = __cordl_internal_set__burnMarksFadeOutStrength)) float_t _burnMarksFadeOutStrength;
+/// @brief Field _burnMarksFadeOutStrength, offset 0x34, size 0x4 
+ __declspec(property(get=__cordl_internal_get__burnMarksFadeOutStrength, put=__cordl_internal_set__burnMarksFadeOutStrength)) float_t  _burnMarksFadeOutStrength;
 
-  /// @brief Field _commandBuffers, offset 0xa8, size 0x8
-  __declspec(property(get = __cordl_internal_get__commandBuffers,
-                      put = __cordl_internal_set__commandBuffers)) ::ArrayW<::UnityEngine::Rendering::CommandBuffer*, ::Array<::UnityEngine::Rendering::CommandBuffer*>*>
-      _commandBuffers;
+/// @brief Field _commandBuffers, offset 0xa8, size 0x8 
+ __declspec(property(get=__cordl_internal_get__commandBuffers, put=__cordl_internal_set__commandBuffers)) ::ArrayW<::UnityEngine::Rendering::CommandBuffer*,::Array<::UnityEngine::Rendering::CommandBuffer*>*>  _commandBuffers;
 
-  /// @brief Field _currentCommandBuffer, offset 0xb0, size 0x8
-  __declspec(property(get = __cordl_internal_get__currentCommandBuffer, put = __cordl_internal_set__currentCommandBuffer)) ::UnityEngine::Rendering::CommandBuffer* _currentCommandBuffer;
+/// @brief Field _currentCommandBuffer, offset 0xb0, size 0x8 
+ __declspec(property(get=__cordl_internal_get__currentCommandBuffer, put=__cordl_internal_set__currentCommandBuffer)) ::UnityEngine::Rendering::CommandBuffer*  _currentCommandBuffer;
 
-  /// @brief Field _disableBlitTimer, offset 0xb8, size 0x4
-  __declspec(property(get = __cordl_internal_get__disableBlitTimer, put = __cordl_internal_set__disableBlitTimer)) float_t _disableBlitTimer;
+/// @brief Field _disableBlitTimer, offset 0xb8, size 0x4 
+ __declspec(property(get=__cordl_internal_get__disableBlitTimer, put=__cordl_internal_set__disableBlitTimer)) float_t  _disableBlitTimer;
 
-  /// @brief Field _fadeOutMaterial, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get__fadeOutMaterial, put = __cordl_internal_set__fadeOutMaterial)) ::UnityW<::UnityEngine::Material> _fadeOutMaterial;
+/// @brief Field _fadeOutMaterial, offset 0x70, size 0x8 
+ __declspec(property(get=__cordl_internal_get__fadeOutMaterial, put=__cordl_internal_set__fadeOutMaterial)) ::UnityW<::UnityEngine::Material>  _fadeOutMaterial;
 
-  /// @brief Field _fadeOutShader, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__fadeOutShader, put = __cordl_internal_set__fadeOutShader)) ::UnityW<::UnityEngine::Shader> _fadeOutShader;
+/// @brief Field _fadeOutShader, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get__fadeOutShader, put=__cordl_internal_set__fadeOutShader)) ::UnityW<::UnityEngine::Shader>  _fadeOutShader;
 
-  /// @brief Field _fadeOutStrengthShaderPropertyID, offset 0xffffffff, size 0x4
-  __declspec(property(get = getStaticF__fadeOutStrengthShaderPropertyID, put = setStaticF__fadeOutStrengthShaderPropertyID)) int32_t _fadeOutStrengthShaderPropertyID;
+/// @brief Field _fadeOutStrengthShaderPropertyID, offset 0xffffffff, size 0x4 
+ __declspec(property(get=getStaticF__fadeOutStrengthShaderPropertyID, put=setStaticF__fadeOutStrengthShaderPropertyID)) int32_t  _fadeOutStrengthShaderPropertyID;
 
-  /// @brief Field _linePoints, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get__linePoints, put = __cordl_internal_set__linePoints)) ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> _linePoints;
+/// @brief Field _linePoints, offset 0x78, size 0x8 
+ __declspec(property(get=__cordl_internal_get__linePoints, put=__cordl_internal_set__linePoints)) ::ArrayW<::UnityEngine::Vector3,::Array<::UnityEngine::Vector3>*>  _linePoints;
 
-  /// @brief Field _lineRenderers, offset 0x88, size 0x8
-  __declspec(property(get = __cordl_internal_get__lineRenderers,
-                      put = __cordl_internal_set__lineRenderers)) ::ArrayW<::UnityW<::UnityEngine::LineRenderer>, ::Array<::UnityW<::UnityEngine::LineRenderer>>*>
-      _lineRenderers;
+/// @brief Field _lineRenderers, offset 0x88, size 0x8 
+ __declspec(property(get=__cordl_internal_get__lineRenderers, put=__cordl_internal_set__lineRenderers)) ::ArrayW<::UnityW<::UnityEngine::LineRenderer>,::Array<::UnityW<::UnityEngine::LineRenderer>>*>  _lineRenderers;
 
-  /// @brief Field _prevBurnMarkPos, offset 0x90, size 0x8
-  __declspec(property(get = __cordl_internal_get__prevBurnMarkPos, put = __cordl_internal_set__prevBurnMarkPos)) ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> _prevBurnMarkPos;
+/// @brief Field _prevBurnMarkPos, offset 0x90, size 0x8 
+ __declspec(property(get=__cordl_internal_get__prevBurnMarkPos, put=__cordl_internal_set__prevBurnMarkPos)) ::ArrayW<::UnityEngine::Vector3,::Array<::UnityEngine::Vector3>*>  _prevBurnMarkPos;
 
-  /// @brief Field _prevBurnMarkPosValid, offset 0x98, size 0x8
-  __declspec(property(get = __cordl_internal_get__prevBurnMarkPosValid, put = __cordl_internal_set__prevBurnMarkPosValid)) ::ArrayW<bool, ::Array<bool>*> _prevBurnMarkPosValid;
+/// @brief Field _prevBurnMarkPosValid, offset 0x98, size 0x8 
+ __declspec(property(get=__cordl_internal_get__prevBurnMarkPosValid, put=__cordl_internal_set__prevBurnMarkPosValid)) ::ArrayW<bool,::Array<bool>*>  _prevBurnMarkPosValid;
 
-  /// @brief Field _random, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__random, put = __cordl_internal_set__random)) ::System::Random* _random;
+/// @brief Field _random, offset 0x48, size 0x8 
+ __declspec(property(get=__cordl_internal_get__random, put=__cordl_internal_set__random)) ::System::Random*  _random;
 
-  /// @brief Field _renderMaterial, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get__renderMaterial, put = __cordl_internal_set__renderMaterial)) ::UnityW<::UnityEngine::Material> _renderMaterial;
+/// @brief Field _renderMaterial, offset 0x68, size 0x8 
+ __declspec(property(get=__cordl_internal_get__renderMaterial, put=__cordl_internal_set__renderMaterial)) ::UnityW<::UnityEngine::Material>  _renderMaterial;
 
-  /// @brief Field _renderTextures, offset 0xa0, size 0x8
-  __declspec(property(get = __cordl_internal_get__renderTextures,
-                      put = __cordl_internal_set__renderTextures)) ::ArrayW<::UnityW<::UnityEngine::RenderTexture>, ::Array<::UnityW<::UnityEngine::RenderTexture>>*>
-      _renderTextures;
+/// @brief Field _renderTextures, offset 0xa0, size 0x8 
+ __declspec(property(get=__cordl_internal_get__renderTextures, put=__cordl_internal_set__renderTextures)) ::ArrayW<::UnityW<::UnityEngine::RenderTexture>,::Array<::UnityW<::UnityEngine::RenderTexture>>*>  _renderTextures;
 
-  /// @brief Field _saberBurnMarkLinePrefab, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__saberBurnMarkLinePrefab, put = __cordl_internal_set__saberBurnMarkLinePrefab)) ::UnityW<::UnityEngine::LineRenderer> _saberBurnMarkLinePrefab;
+/// @brief Field _saberBurnMarkLinePrefab, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get__saberBurnMarkLinePrefab, put=__cordl_internal_set__saberBurnMarkLinePrefab)) ::UnityW<::UnityEngine::LineRenderer>  _saberBurnMarkLinePrefab;
 
-  /// @brief Field _sabers, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get__sabers, put = __cordl_internal_set__sabers)) ::ArrayW<::UnityW<::GlobalNamespace::Saber>, ::Array<::UnityW<::GlobalNamespace::Saber>>*> _sabers;
+/// @brief Field _sabers, offset 0x80, size 0x8 
+ __declspec(property(get=__cordl_internal_get__sabers, put=__cordl_internal_set__sabers)) ::ArrayW<::UnityW<::GlobalNamespace::Saber>,::Array<::UnityW<::GlobalNamespace::Saber>>*>  _sabers;
 
-  /// @brief Field _textureHeight, offset 0x30, size 0x4
-  __declspec(property(get = __cordl_internal_get__textureHeight, put = __cordl_internal_set__textureHeight)) int32_t _textureHeight;
+/// @brief Field _textureHeight, offset 0x30, size 0x4 
+ __declspec(property(get=__cordl_internal_get__textureHeight, put=__cordl_internal_set__textureHeight)) int32_t  _textureHeight;
 
-  /// @brief Field _textureWidth, offset 0x2c, size 0x4
-  __declspec(property(get = __cordl_internal_get__textureWidth, put = __cordl_internal_set__textureWidth)) int32_t _textureWidth;
+/// @brief Field _textureWidth, offset 0x2c, size 0x4 
+ __declspec(property(get=__cordl_internal_get__textureWidth, put=__cordl_internal_set__textureWidth)) int32_t  _textureWidth;
 
-  /// @brief Field kBufferNames, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_kBufferNames, put = __cordl_internal_set_kBufferNames)) ::ArrayW<::StringW, ::Array<::StringW>*> kBufferNames;
+/// @brief Field kBufferNames, offset 0x40, size 0x8 
+ __declspec(property(get=__cordl_internal_get_kBufferNames, put=__cordl_internal_set_kBufferNames)) ::ArrayW<::StringW,::Array<::StringW>*>  kBufferNames;
 
-  /// @brief Method GetBurnMarkPos, addr 0x57d8e74, size 0x32c, virtual false, abstract: false, final false
-  static inline bool GetBurnMarkPos(::UnityEngine::Transform* transform, ::ByRef<::UnityEngine::Bounds> bounds, ::ByRef<::UnityEngine::Plane> plane, ::UnityEngine::Vector3 bladeBottomPos,
-                                    ::UnityEngine::Vector3 bladeTopPos, ::ByRef<::UnityEngine::Vector3> burnMarkPos);
+/// @brief Method GetBurnMarkPos, addr 0x57d97a4, size 0x32c, virtual false, abstract: false, final false
+static inline bool GetBurnMarkPos(::UnityEngine::Transform*  transform, ::ByRef<::UnityEngine::Bounds>  bounds, ::ByRef<::UnityEngine::Plane>  plane, ::UnityEngine::Vector3  bladeBottomPos, ::UnityEngine::Vector3  bladeTopPos, ::ByRef<::UnityEngine::Vector3>  burnMarkPos) ;
 
-  /// @brief Method Initialize, addr 0x57d7a48, size 0x78c, virtual false, abstract: false, final false
-  inline void Initialize(::GlobalNamespace::SettingsManager* settingsManager, ::GlobalNamespace::SaberManager* saberManager, ::GlobalNamespace::ColorManager* colorManager);
+/// @brief Method Initialize, addr 0x57d8378, size 0x78c, virtual false, abstract: false, final false
+inline void Initialize(::GlobalNamespace::SettingsManager*  settingsManager, ::GlobalNamespace::SaberManager*  saberManager, ::GlobalNamespace::ColorManager*  colorManager) ;
 
-  /// @brief Method LateUpdate, addr 0x57d85ac, size 0x8c8, virtual false, abstract: false, final false
-  inline void LateUpdate();
+/// @brief Method LateUpdate, addr 0x57d8edc, size 0x8c8, virtual false, abstract: false, final false
+inline void LateUpdate() ;
 
-  static inline ::GlobalNamespace::SaberBurnMarkArea* New_ctor();
+static inline ::GlobalNamespace::SaberBurnMarkArea* New_ctor() ;
 
-  /// @brief Method OnDestroy, addr 0x57d81d4, size 0x220, virtual false, abstract: false, final false
-  inline void OnDestroy();
+/// @brief Method OnDestroy, addr 0x57d8b04, size 0x220, virtual false, abstract: false, final false
+inline void OnDestroy() ;
 
-  /// @brief Method OnDisable, addr 0x57d84d0, size 0xdc, virtual false, abstract: false, final false
-  inline void OnDisable();
+/// @brief Method OnDisable, addr 0x57d8e00, size 0xdc, virtual false, abstract: false, final false
+inline void OnDisable() ;
 
-  /// @brief Method OnEnable, addr 0x57d83f4, size 0xdc, virtual false, abstract: false, final false
-  inline void OnEnable();
+/// @brief Method OnEnable, addr 0x57d8d24, size 0xdc, virtual false, abstract: false, final false
+inline void OnEnable() ;
 
-  constexpr float_t const& __cordl_internal_get__blackMarkLineRandomOffset() const;
+constexpr float_t const& __cordl_internal_get__blackMarkLineRandomOffset() const;
 
-  constexpr float_t& __cordl_internal_get__blackMarkLineRandomOffset();
+constexpr float_t& __cordl_internal_get__blackMarkLineRandomOffset() ;
 
-  constexpr ::UnityEngine::Bounds const& __cordl_internal_get__bounds() const;
+constexpr ::UnityEngine::Bounds const& __cordl_internal_get__bounds() const;
 
-  constexpr ::UnityEngine::Bounds& __cordl_internal_get__bounds();
+constexpr ::UnityEngine::Bounds& __cordl_internal_get__bounds() ;
 
-  constexpr float_t const& __cordl_internal_get__burnMarksFadeOutStrength() const;
+constexpr float_t const& __cordl_internal_get__burnMarksFadeOutStrength() const;
 
-  constexpr float_t& __cordl_internal_get__burnMarksFadeOutStrength();
+constexpr float_t& __cordl_internal_get__burnMarksFadeOutStrength() ;
 
-  constexpr ::ArrayW<::UnityEngine::Rendering::CommandBuffer*, ::Array<::UnityEngine::Rendering::CommandBuffer*>*> const& __cordl_internal_get__commandBuffers() const;
+constexpr ::ArrayW<::UnityEngine::Rendering::CommandBuffer*,::Array<::UnityEngine::Rendering::CommandBuffer*>*> const& __cordl_internal_get__commandBuffers() const;
 
-  constexpr ::ArrayW<::UnityEngine::Rendering::CommandBuffer*, ::Array<::UnityEngine::Rendering::CommandBuffer*>*>& __cordl_internal_get__commandBuffers();
+constexpr ::ArrayW<::UnityEngine::Rendering::CommandBuffer*,::Array<::UnityEngine::Rendering::CommandBuffer*>*>& __cordl_internal_get__commandBuffers() ;
 
-  constexpr ::UnityEngine::Rendering::CommandBuffer* const& __cordl_internal_get__currentCommandBuffer() const;
+constexpr ::UnityEngine::Rendering::CommandBuffer* const& __cordl_internal_get__currentCommandBuffer() const;
 
-  constexpr ::UnityEngine::Rendering::CommandBuffer*& __cordl_internal_get__currentCommandBuffer();
+constexpr ::UnityEngine::Rendering::CommandBuffer*& __cordl_internal_get__currentCommandBuffer() ;
 
-  constexpr float_t const& __cordl_internal_get__disableBlitTimer() const;
+constexpr float_t const& __cordl_internal_get__disableBlitTimer() const;
 
-  constexpr float_t& __cordl_internal_get__disableBlitTimer();
+constexpr float_t& __cordl_internal_get__disableBlitTimer() ;
 
-  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get__fadeOutMaterial() const;
+constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get__fadeOutMaterial() const;
 
-  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get__fadeOutMaterial();
+constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get__fadeOutMaterial() ;
 
-  constexpr ::UnityW<::UnityEngine::Shader> const& __cordl_internal_get__fadeOutShader() const;
+constexpr ::UnityW<::UnityEngine::Shader> const& __cordl_internal_get__fadeOutShader() const;
 
-  constexpr ::UnityW<::UnityEngine::Shader>& __cordl_internal_get__fadeOutShader();
+constexpr ::UnityW<::UnityEngine::Shader>& __cordl_internal_get__fadeOutShader() ;
 
-  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> const& __cordl_internal_get__linePoints() const;
+constexpr ::ArrayW<::UnityEngine::Vector3,::Array<::UnityEngine::Vector3>*> const& __cordl_internal_get__linePoints() const;
 
-  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>& __cordl_internal_get__linePoints();
+constexpr ::ArrayW<::UnityEngine::Vector3,::Array<::UnityEngine::Vector3>*>& __cordl_internal_get__linePoints() ;
 
-  constexpr ::ArrayW<::UnityW<::UnityEngine::LineRenderer>, ::Array<::UnityW<::UnityEngine::LineRenderer>>*> const& __cordl_internal_get__lineRenderers() const;
+constexpr ::ArrayW<::UnityW<::UnityEngine::LineRenderer>,::Array<::UnityW<::UnityEngine::LineRenderer>>*> const& __cordl_internal_get__lineRenderers() const;
 
-  constexpr ::ArrayW<::UnityW<::UnityEngine::LineRenderer>, ::Array<::UnityW<::UnityEngine::LineRenderer>>*>& __cordl_internal_get__lineRenderers();
+constexpr ::ArrayW<::UnityW<::UnityEngine::LineRenderer>,::Array<::UnityW<::UnityEngine::LineRenderer>>*>& __cordl_internal_get__lineRenderers() ;
 
-  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> const& __cordl_internal_get__prevBurnMarkPos() const;
+constexpr ::ArrayW<::UnityEngine::Vector3,::Array<::UnityEngine::Vector3>*> const& __cordl_internal_get__prevBurnMarkPos() const;
 
-  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>& __cordl_internal_get__prevBurnMarkPos();
+constexpr ::ArrayW<::UnityEngine::Vector3,::Array<::UnityEngine::Vector3>*>& __cordl_internal_get__prevBurnMarkPos() ;
 
-  constexpr ::ArrayW<bool, ::Array<bool>*> const& __cordl_internal_get__prevBurnMarkPosValid() const;
+constexpr ::ArrayW<bool,::Array<bool>*> const& __cordl_internal_get__prevBurnMarkPosValid() const;
 
-  constexpr ::ArrayW<bool, ::Array<bool>*>& __cordl_internal_get__prevBurnMarkPosValid();
+constexpr ::ArrayW<bool,::Array<bool>*>& __cordl_internal_get__prevBurnMarkPosValid() ;
 
-  constexpr ::System::Random* const& __cordl_internal_get__random() const;
+constexpr ::System::Random* const& __cordl_internal_get__random() const;
 
-  constexpr ::System::Random*& __cordl_internal_get__random();
+constexpr ::System::Random*& __cordl_internal_get__random() ;
 
-  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get__renderMaterial() const;
+constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get__renderMaterial() const;
 
-  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get__renderMaterial();
+constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get__renderMaterial() ;
 
-  constexpr ::ArrayW<::UnityW<::UnityEngine::RenderTexture>, ::Array<::UnityW<::UnityEngine::RenderTexture>>*> const& __cordl_internal_get__renderTextures() const;
+constexpr ::ArrayW<::UnityW<::UnityEngine::RenderTexture>,::Array<::UnityW<::UnityEngine::RenderTexture>>*> const& __cordl_internal_get__renderTextures() const;
 
-  constexpr ::ArrayW<::UnityW<::UnityEngine::RenderTexture>, ::Array<::UnityW<::UnityEngine::RenderTexture>>*>& __cordl_internal_get__renderTextures();
+constexpr ::ArrayW<::UnityW<::UnityEngine::RenderTexture>,::Array<::UnityW<::UnityEngine::RenderTexture>>*>& __cordl_internal_get__renderTextures() ;
 
-  constexpr ::UnityW<::UnityEngine::LineRenderer> const& __cordl_internal_get__saberBurnMarkLinePrefab() const;
+constexpr ::UnityW<::UnityEngine::LineRenderer> const& __cordl_internal_get__saberBurnMarkLinePrefab() const;
 
-  constexpr ::UnityW<::UnityEngine::LineRenderer>& __cordl_internal_get__saberBurnMarkLinePrefab();
+constexpr ::UnityW<::UnityEngine::LineRenderer>& __cordl_internal_get__saberBurnMarkLinePrefab() ;
 
-  constexpr ::ArrayW<::UnityW<::GlobalNamespace::Saber>, ::Array<::UnityW<::GlobalNamespace::Saber>>*> const& __cordl_internal_get__sabers() const;
+constexpr ::ArrayW<::UnityW<::GlobalNamespace::Saber>,::Array<::UnityW<::GlobalNamespace::Saber>>*> const& __cordl_internal_get__sabers() const;
 
-  constexpr ::ArrayW<::UnityW<::GlobalNamespace::Saber>, ::Array<::UnityW<::GlobalNamespace::Saber>>*>& __cordl_internal_get__sabers();
+constexpr ::ArrayW<::UnityW<::GlobalNamespace::Saber>,::Array<::UnityW<::GlobalNamespace::Saber>>*>& __cordl_internal_get__sabers() ;
 
-  constexpr int32_t const& __cordl_internal_get__textureHeight() const;
+constexpr int32_t const& __cordl_internal_get__textureHeight() const;
 
-  constexpr int32_t& __cordl_internal_get__textureHeight();
+constexpr int32_t& __cordl_internal_get__textureHeight() ;
 
-  constexpr int32_t const& __cordl_internal_get__textureWidth() const;
+constexpr int32_t const& __cordl_internal_get__textureWidth() const;
 
-  constexpr int32_t& __cordl_internal_get__textureWidth();
+constexpr int32_t& __cordl_internal_get__textureWidth() ;
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get_kBufferNames() const;
+constexpr ::ArrayW<::StringW,::Array<::StringW>*> const& __cordl_internal_get_kBufferNames() const;
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get_kBufferNames();
+constexpr ::ArrayW<::StringW,::Array<::StringW>*>& __cordl_internal_get_kBufferNames() ;
 
-  constexpr void __cordl_internal_set__blackMarkLineRandomOffset(float_t value);
+constexpr void __cordl_internal_set__blackMarkLineRandomOffset(float_t  value) ;
 
-  constexpr void __cordl_internal_set__bounds(::UnityEngine::Bounds value);
+constexpr void __cordl_internal_set__bounds(::UnityEngine::Bounds  value) ;
 
-  constexpr void __cordl_internal_set__burnMarksFadeOutStrength(float_t value);
+constexpr void __cordl_internal_set__burnMarksFadeOutStrength(float_t  value) ;
 
-  constexpr void __cordl_internal_set__commandBuffers(::ArrayW<::UnityEngine::Rendering::CommandBuffer*, ::Array<::UnityEngine::Rendering::CommandBuffer*>*> value);
+constexpr void __cordl_internal_set__commandBuffers(::ArrayW<::UnityEngine::Rendering::CommandBuffer*,::Array<::UnityEngine::Rendering::CommandBuffer*>*>  value) ;
 
-  constexpr void __cordl_internal_set__currentCommandBuffer(::UnityEngine::Rendering::CommandBuffer* value);
+constexpr void __cordl_internal_set__currentCommandBuffer(::UnityEngine::Rendering::CommandBuffer*  value) ;
 
-  constexpr void __cordl_internal_set__disableBlitTimer(float_t value);
+constexpr void __cordl_internal_set__disableBlitTimer(float_t  value) ;
 
-  constexpr void __cordl_internal_set__fadeOutMaterial(::UnityW<::UnityEngine::Material> value);
+constexpr void __cordl_internal_set__fadeOutMaterial(::UnityW<::UnityEngine::Material>  value) ;
 
-  constexpr void __cordl_internal_set__fadeOutShader(::UnityW<::UnityEngine::Shader> value);
+constexpr void __cordl_internal_set__fadeOutShader(::UnityW<::UnityEngine::Shader>  value) ;
 
-  constexpr void __cordl_internal_set__linePoints(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
+constexpr void __cordl_internal_set__linePoints(::ArrayW<::UnityEngine::Vector3,::Array<::UnityEngine::Vector3>*>  value) ;
 
-  constexpr void __cordl_internal_set__lineRenderers(::ArrayW<::UnityW<::UnityEngine::LineRenderer>, ::Array<::UnityW<::UnityEngine::LineRenderer>>*> value);
+constexpr void __cordl_internal_set__lineRenderers(::ArrayW<::UnityW<::UnityEngine::LineRenderer>,::Array<::UnityW<::UnityEngine::LineRenderer>>*>  value) ;
 
-  constexpr void __cordl_internal_set__prevBurnMarkPos(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
+constexpr void __cordl_internal_set__prevBurnMarkPos(::ArrayW<::UnityEngine::Vector3,::Array<::UnityEngine::Vector3>*>  value) ;
 
-  constexpr void __cordl_internal_set__prevBurnMarkPosValid(::ArrayW<bool, ::Array<bool>*> value);
+constexpr void __cordl_internal_set__prevBurnMarkPosValid(::ArrayW<bool,::Array<bool>*>  value) ;
 
-  constexpr void __cordl_internal_set__random(::System::Random* value);
+constexpr void __cordl_internal_set__random(::System::Random*  value) ;
 
-  constexpr void __cordl_internal_set__renderMaterial(::UnityW<::UnityEngine::Material> value);
+constexpr void __cordl_internal_set__renderMaterial(::UnityW<::UnityEngine::Material>  value) ;
 
-  constexpr void __cordl_internal_set__renderTextures(::ArrayW<::UnityW<::UnityEngine::RenderTexture>, ::Array<::UnityW<::UnityEngine::RenderTexture>>*> value);
+constexpr void __cordl_internal_set__renderTextures(::ArrayW<::UnityW<::UnityEngine::RenderTexture>,::Array<::UnityW<::UnityEngine::RenderTexture>>*>  value) ;
 
-  constexpr void __cordl_internal_set__saberBurnMarkLinePrefab(::UnityW<::UnityEngine::LineRenderer> value);
+constexpr void __cordl_internal_set__saberBurnMarkLinePrefab(::UnityW<::UnityEngine::LineRenderer>  value) ;
 
-  constexpr void __cordl_internal_set__sabers(::ArrayW<::UnityW<::GlobalNamespace::Saber>, ::Array<::UnityW<::GlobalNamespace::Saber>>*> value);
+constexpr void __cordl_internal_set__sabers(::ArrayW<::UnityW<::GlobalNamespace::Saber>,::Array<::UnityW<::GlobalNamespace::Saber>>*>  value) ;
 
-  constexpr void __cordl_internal_set__textureHeight(int32_t value);
+constexpr void __cordl_internal_set__textureHeight(int32_t  value) ;
 
-  constexpr void __cordl_internal_set__textureWidth(int32_t value);
+constexpr void __cordl_internal_set__textureWidth(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_kBufferNames(::ArrayW<::StringW, ::Array<::StringW>*> value);
+constexpr void __cordl_internal_set_kBufferNames(::ArrayW<::StringW,::Array<::StringW>*>  value) ;
 
-  /// @brief Method .ctor, addr 0x57d91a0, size 0x22c, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x57d9ad0, size 0x22c, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  static inline int32_t getStaticF__fadeOutStrengthShaderPropertyID();
+static inline int32_t getStaticF__fadeOutStrengthShaderPropertyID() ;
 
-  static inline void setStaticF__fadeOutStrengthShaderPropertyID(int32_t value);
+static inline void setStaticF__fadeOutStrengthShaderPropertyID(int32_t  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SaberBurnMarkArea();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr SaberBurnMarkArea() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SaberBurnMarkArea", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  SaberBurnMarkArea(SaberBurnMarkArea&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SaberBurnMarkArea", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  SaberBurnMarkArea(SaberBurnMarkArea const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "SaberBurnMarkArea", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+SaberBurnMarkArea(SaberBurnMarkArea && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5801 };
+// Ctor Parameters [CppParam { name: "", ty: "SaberBurnMarkArea", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+SaberBurnMarkArea(SaberBurnMarkArea const& ) = delete;
 
-  /// @brief Field kBufferCount offset 0xffffffff size 0x4
-  static constexpr int32_t kBufferCount{ static_cast<int32_t>(0x2) };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{5801};
 
-  /// @brief Field kDisableBlitAfterSecondsThreshold offset 0xffffffff size 0x4
-  static constexpr float_t kDisableBlitAfterSecondsThreshold{ static_cast<float_t>(5.0f) };
+/// @brief Field kBufferCount offset 0xffffffff size 0x4
+static constexpr int32_t  kBufferCount{static_cast<int32_t>(0x2)};
 
-  /// @brief Field kSaberCount offset 0xffffffff size 0x4
-  static constexpr int32_t kSaberCount{ static_cast<int32_t>(0x2) };
+/// @brief Field kDisableBlitAfterSecondsThreshold offset 0xffffffff size 0x4
+static constexpr float_t  kDisableBlitAfterSecondsThreshold{static_cast<float_t>(5.0f)};
 
-  /// @brief Field _saberBurnMarkLinePrefab, offset: 0x20, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::LineRenderer> ____saberBurnMarkLinePrefab;
+/// @brief Field kSaberCount offset 0xffffffff size 0x4
+static constexpr int32_t  kSaberCount{static_cast<int32_t>(0x2)};
 
-  /// @brief Field _blackMarkLineRandomOffset, offset: 0x28, size: 0x4, def value: None
-  float_t ____blackMarkLineRandomOffset;
+/// @brief Field _saberBurnMarkLinePrefab, offset: 0x20, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::LineRenderer>  ____saberBurnMarkLinePrefab;
 
-  /// @brief Field _textureWidth, offset: 0x2c, size: 0x4, def value: None
-  int32_t ____textureWidth;
+/// @brief Field _blackMarkLineRandomOffset, offset: 0x28, size: 0x4, def value: None
+ float_t  ____blackMarkLineRandomOffset;
 
-  /// @brief Field _textureHeight, offset: 0x30, size: 0x4, def value: None
-  int32_t ____textureHeight;
+/// @brief Field _textureWidth, offset: 0x2c, size: 0x4, def value: None
+ int32_t  ____textureWidth;
 
-  /// @brief Field _burnMarksFadeOutStrength, offset: 0x34, size: 0x4, def value: None
-  float_t ____burnMarksFadeOutStrength;
+/// @brief Field _textureHeight, offset: 0x30, size: 0x4, def value: None
+ int32_t  ____textureHeight;
 
-  /// @brief Field _fadeOutShader, offset: 0x38, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::Shader> ____fadeOutShader;
+/// @brief Field _burnMarksFadeOutStrength, offset: 0x34, size: 0x4, def value: None
+ float_t  ____burnMarksFadeOutStrength;
 
-  /// @brief Field kBufferNames, offset: 0x40, size: 0x8, def value: None
-  ::ArrayW<::StringW, ::Array<::StringW>*> ___kBufferNames;
+/// @brief Field _fadeOutShader, offset: 0x38, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::Shader>  ____fadeOutShader;
 
-  /// @brief Field _random, offset: 0x48, size: 0x8, def value: None
-  ::System::Random* ____random;
+/// @brief Field kBufferNames, offset: 0x40, size: 0x8, def value: None
+ ::ArrayW<::StringW,::Array<::StringW>*>  ___kBufferNames;
 
-  /// @brief Field _bounds, offset: 0x50, size: 0x18, def value: None
-  ::UnityEngine::Bounds ____bounds;
+/// @brief Field _random, offset: 0x48, size: 0x8, def value: None
+ ::System::Random*  ____random;
 
-  /// @brief Field _renderMaterial, offset: 0x68, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::Material> ____renderMaterial;
+/// @brief Field _bounds, offset: 0x50, size: 0x18, def value: None
+ ::UnityEngine::Bounds  ____bounds;
 
-  /// @brief Field _fadeOutMaterial, offset: 0x70, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::Material> ____fadeOutMaterial;
+/// @brief Field _renderMaterial, offset: 0x68, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::Material>  ____renderMaterial;
 
-  /// @brief Field _linePoints, offset: 0x78, size: 0x8, def value: None
-  ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> ____linePoints;
+/// @brief Field _fadeOutMaterial, offset: 0x70, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::Material>  ____fadeOutMaterial;
 
-  /// @brief Field _sabers, offset: 0x80, size: 0x8, def value: None
-  ::ArrayW<::UnityW<::GlobalNamespace::Saber>, ::Array<::UnityW<::GlobalNamespace::Saber>>*> ____sabers;
+/// @brief Field _linePoints, offset: 0x78, size: 0x8, def value: None
+ ::ArrayW<::UnityEngine::Vector3,::Array<::UnityEngine::Vector3>*>  ____linePoints;
 
-  /// @brief Field _lineRenderers, offset: 0x88, size: 0x8, def value: None
-  ::ArrayW<::UnityW<::UnityEngine::LineRenderer>, ::Array<::UnityW<::UnityEngine::LineRenderer>>*> ____lineRenderers;
+/// @brief Field _sabers, offset: 0x80, size: 0x8, def value: None
+ ::ArrayW<::UnityW<::GlobalNamespace::Saber>,::Array<::UnityW<::GlobalNamespace::Saber>>*>  ____sabers;
 
-  /// @brief Field _prevBurnMarkPos, offset: 0x90, size: 0x8, def value: None
-  ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> ____prevBurnMarkPos;
+/// @brief Field _lineRenderers, offset: 0x88, size: 0x8, def value: None
+ ::ArrayW<::UnityW<::UnityEngine::LineRenderer>,::Array<::UnityW<::UnityEngine::LineRenderer>>*>  ____lineRenderers;
 
-  /// @brief Field _prevBurnMarkPosValid, offset: 0x98, size: 0x8, def value: None
-  ::ArrayW<bool, ::Array<bool>*> ____prevBurnMarkPosValid;
+/// @brief Field _prevBurnMarkPos, offset: 0x90, size: 0x8, def value: None
+ ::ArrayW<::UnityEngine::Vector3,::Array<::UnityEngine::Vector3>*>  ____prevBurnMarkPos;
 
-  /// @brief Field _renderTextures, offset: 0xa0, size: 0x8, def value: None
-  ::ArrayW<::UnityW<::UnityEngine::RenderTexture>, ::Array<::UnityW<::UnityEngine::RenderTexture>>*> ____renderTextures;
+/// @brief Field _prevBurnMarkPosValid, offset: 0x98, size: 0x8, def value: None
+ ::ArrayW<bool,::Array<bool>*>  ____prevBurnMarkPosValid;
 
-  /// @brief Field _commandBuffers, offset: 0xa8, size: 0x8, def value: None
-  ::ArrayW<::UnityEngine::Rendering::CommandBuffer*, ::Array<::UnityEngine::Rendering::CommandBuffer*>*> ____commandBuffers;
+/// @brief Field _renderTextures, offset: 0xa0, size: 0x8, def value: None
+ ::ArrayW<::UnityW<::UnityEngine::RenderTexture>,::Array<::UnityW<::UnityEngine::RenderTexture>>*>  ____renderTextures;
 
-  /// @brief Field _currentCommandBuffer, offset: 0xb0, size: 0x8, def value: None
-  ::UnityEngine::Rendering::CommandBuffer* ____currentCommandBuffer;
+/// @brief Field _commandBuffers, offset: 0xa8, size: 0x8, def value: None
+ ::ArrayW<::UnityEngine::Rendering::CommandBuffer*,::Array<::UnityEngine::Rendering::CommandBuffer*>*>  ____commandBuffers;
 
-  /// @brief Field _disableBlitTimer, offset: 0xb8, size: 0x4, def value: None
-  float_t ____disableBlitTimer;
+/// @brief Field _currentCommandBuffer, offset: 0xb0, size: 0x8, def value: None
+ ::UnityEngine::Rendering::CommandBuffer*  ____currentCommandBuffer;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _disableBlitTimer, offset: 0xb8, size: 0x4, def value: None
+ float_t  ____disableBlitTimer;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::SaberBurnMarkArea, ____saberBurnMarkLinePrefab) == 0x20, "Offset mismatch!");
@@ -412,6 +405,6 @@ static_assert(offsetof(::GlobalNamespace::SaberBurnMarkArea, ____disableBlitTime
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SaberBurnMarkArea, 0xc0>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SaberBurnMarkArea);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SaberBurnMarkArea*, "", "SaberBurnMarkArea");

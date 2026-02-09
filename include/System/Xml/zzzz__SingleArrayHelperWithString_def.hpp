@@ -24,50 +24,49 @@ MARK_REF_PTR_T(::System::Xml::SingleArrayHelperWithString);
 namespace System::Xml {
 // Is value type: false
 // CS Name: System.Xml.SingleArrayHelperWithString
-class CORDL_TYPE SingleArrayHelperWithString : public ::System::Xml::ArrayHelper_2<::StringW, float_t> {
+class CORDL_TYPE SingleArrayHelperWithString : public ::System::Xml::ArrayHelper_2<::StringW,float_t> {
 public:
-  // Declarations
-  /// @brief Field Instance, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance)) ::System::Xml::SingleArrayHelperWithString* Instance;
+// Declarations
+/// @brief Field Instance, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_Instance, put=setStaticF_Instance)) ::System::Xml::SingleArrayHelperWithString*  Instance;
 
-  static inline ::System::Xml::SingleArrayHelperWithString* New_ctor();
+static inline ::System::Xml::SingleArrayHelperWithString* New_ctor() ;
 
-  /// @brief Method ReadArray, addr 0x5f49e94, size 0x38, virtual true, abstract: false, final false
-  inline int32_t ReadArray(::System::Xml::XmlDictionaryReader* reader, ::StringW localName, ::StringW namespaceUri, ::ArrayW<float_t, ::Array<float_t>*> array, int32_t offset, int32_t count);
+/// @brief Method ReadArray, addr 0x5f4a554, size 0x38, virtual true, abstract: false, final false
+inline int32_t ReadArray(::System::Xml::XmlDictionaryReader*  reader, ::StringW  localName, ::StringW  namespaceUri, ::ArrayW<float_t,::Array<float_t>*>  array, int32_t  offset, int32_t  count) ;
 
-  /// @brief Method WriteArray, addr 0x5f49ecc, size 0x3c, virtual true, abstract: false, final false
-  inline void WriteArray(::System::Xml::XmlDictionaryWriter* writer, ::StringW prefix, ::StringW localName, ::StringW namespaceUri, ::ArrayW<float_t, ::Array<float_t>*> array, int32_t offset,
-                         int32_t count);
+/// @brief Method WriteArray, addr 0x5f4a58c, size 0x3c, virtual true, abstract: false, final false
+inline void WriteArray(::System::Xml::XmlDictionaryWriter*  writer, ::StringW  prefix, ::StringW  localName, ::StringW  namespaceUri, ::ArrayW<float_t,::Array<float_t>*>  array, int32_t  offset, int32_t  count) ;
 
-  /// @brief Method .ctor, addr 0x5f49f08, size 0x3c, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5f4a5c8, size 0x3c, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  static inline ::System::Xml::SingleArrayHelperWithString* getStaticF_Instance();
+static inline ::System::Xml::SingleArrayHelperWithString* getStaticF_Instance() ;
 
-  static inline void setStaticF_Instance(::System::Xml::SingleArrayHelperWithString* value);
+static inline void setStaticF_Instance(::System::Xml::SingleArrayHelperWithString*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SingleArrayHelperWithString();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr SingleArrayHelperWithString() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SingleArrayHelperWithString", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  SingleArrayHelperWithString(SingleArrayHelperWithString&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SingleArrayHelperWithString", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  SingleArrayHelperWithString(SingleArrayHelperWithString const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "SingleArrayHelperWithString", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+SingleArrayHelperWithString(SingleArrayHelperWithString && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16887 };
+// Ctor Parameters [CppParam { name: "", ty: "SingleArrayHelperWithString", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+SingleArrayHelperWithString(SingleArrayHelperWithString const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{16891};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Xml::SingleArrayHelperWithString, 0x10>, "Size mismatch!");
 
-} // namespace System::Xml
+} // namespace end def System::Xml
 NEED_NO_BOX(::System::Xml::SingleArrayHelperWithString);
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::SingleArrayHelperWithString*, "System.Xml", "SingleArrayHelperWithString");

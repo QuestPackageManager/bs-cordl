@@ -31,93 +31,93 @@ namespace System::Data::Common {
 // CS Name: System.Data.Common.StringStorage
 class CORDL_TYPE StringStorage : public ::System::Data::Common::DataStorage {
 public:
-  // Declarations
-  /// @brief Field _values, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get__values, put = __cordl_internal_set__values)) ::ArrayW<::StringW, ::Array<::StringW>*> _values;
+// Declarations
+/// @brief Field _values, offset 0x50, size 0x8 
+ __declspec(property(get=__cordl_internal_get__values, put=__cordl_internal_set__values)) ::ArrayW<::StringW,::Array<::StringW>*>  _values;
 
-  /// @brief Method Aggregate, addr 0x5f18304, size 0x2bc, virtual true, abstract: false, final false
-  inline ::System::Object* Aggregate(::ArrayW<int32_t, ::Array<int32_t>*> recordNos, ::System::Data::AggregateType kind);
+/// @brief Method Aggregate, addr 0x5f189c4, size 0x2bc, virtual true, abstract: false, final false
+inline ::System::Object* Aggregate(::ArrayW<int32_t,::Array<int32_t>*>  recordNos, ::System::Data::AggregateType  kind) ;
 
-  /// @brief Method Compare, addr 0x5f185c0, size 0x78, virtual true, abstract: false, final false
-  inline int32_t Compare(int32_t recordNo1, int32_t recordNo2);
+/// @brief Method Compare, addr 0x5f18c80, size 0x78, virtual true, abstract: false, final false
+inline int32_t Compare(int32_t  recordNo1, int32_t  recordNo2) ;
 
-  /// @brief Method CompareValueTo, addr 0x5f18638, size 0x88, virtual true, abstract: false, final false
-  inline int32_t CompareValueTo(int32_t recordNo, ::System::Object* value);
+/// @brief Method CompareValueTo, addr 0x5f18cf8, size 0x88, virtual true, abstract: false, final false
+inline int32_t CompareValueTo(int32_t  recordNo, ::System::Object*  value) ;
 
-  /// @brief Method ConvertObjectToXml, addr 0x5f1890c, size 0x28, virtual true, abstract: false, final false
-  inline ::StringW ConvertObjectToXml(::System::Object* value);
+/// @brief Method ConvertObjectToXml, addr 0x5f18fcc, size 0x28, virtual true, abstract: false, final false
+inline ::StringW ConvertObjectToXml(::System::Object*  value) ;
 
-  /// @brief Method ConvertValue, addr 0x5f186c0, size 0x28, virtual true, abstract: false, final false
-  inline ::System::Object* ConvertValue(::System::Object* value);
+/// @brief Method ConvertValue, addr 0x5f18d80, size 0x28, virtual true, abstract: false, final false
+inline ::System::Object* ConvertValue(::System::Object*  value) ;
 
-  /// @brief Method ConvertXmlToObject, addr 0x5f18904, size 0x8, virtual true, abstract: false, final false
-  inline ::System::Object* ConvertXmlToObject(::StringW s);
+/// @brief Method ConvertXmlToObject, addr 0x5f18fc4, size 0x8, virtual true, abstract: false, final false
+inline ::System::Object* ConvertXmlToObject(::StringW  s) ;
 
-  /// @brief Method Copy, addr 0x5f186e8, size 0x3c, virtual true, abstract: false, final false
-  inline void Copy(int32_t recordNo1, int32_t recordNo2);
+/// @brief Method Copy, addr 0x5f18da8, size 0x3c, virtual true, abstract: false, final false
+inline void Copy(int32_t  recordNo1, int32_t  recordNo2) ;
 
-  /// @brief Method CopyValue, addr 0x5f18980, size 0x104, virtual true, abstract: false, final false
-  inline void CopyValue(int32_t record, ::System::Object* store, ::System::Collections::BitArray* nullbits, int32_t storeIndex);
+/// @brief Method CopyValue, addr 0x5f19040, size 0x104, virtual true, abstract: false, final false
+inline void CopyValue(int32_t  record, ::System::Object*  store, ::System::Collections::BitArray*  nullbits, int32_t  storeIndex) ;
 
-  /// @brief Method Get, addr 0x5f18724, size 0x3c, virtual true, abstract: false, final false
-  inline ::System::Object* Get(int32_t recordNo);
+/// @brief Method Get, addr 0x5f18de4, size 0x3c, virtual true, abstract: false, final false
+inline ::System::Object* Get(int32_t  recordNo) ;
 
-  /// @brief Method GetEmptyStorage, addr 0x5f18934, size 0x4c, virtual true, abstract: false, final false
-  inline ::System::Object* GetEmptyStorage(int32_t recordCount);
+/// @brief Method GetEmptyStorage, addr 0x5f18ff4, size 0x4c, virtual true, abstract: false, final false
+inline ::System::Object* GetEmptyStorage(int32_t  recordCount) ;
 
-  /// @brief Method GetStringLength, addr 0x5f18760, size 0x40, virtual true, abstract: false, final false
-  inline int32_t GetStringLength(int32_t record);
+/// @brief Method GetStringLength, addr 0x5f18e20, size 0x40, virtual true, abstract: false, final false
+inline int32_t GetStringLength(int32_t  record) ;
 
-  /// @brief Method IsNull, addr 0x5f187a0, size 0x38, virtual true, abstract: false, final false
-  inline bool IsNull(int32_t record);
+/// @brief Method IsNull, addr 0x5f18e60, size 0x38, virtual true, abstract: false, final false
+inline bool IsNull(int32_t  record) ;
 
-  static inline ::System::Data::Common::StringStorage* New_ctor(::System::Data::DataColumn* column);
+static inline ::System::Data::Common::StringStorage* New_ctor(::System::Data::DataColumn*  column) ;
 
-  /// @brief Method Set, addr 0x5f187d8, size 0x74, virtual true, abstract: false, final false
-  inline void Set(int32_t record, ::System::Object* value);
+/// @brief Method Set, addr 0x5f18e98, size 0x74, virtual true, abstract: false, final false
+inline void Set(int32_t  record, ::System::Object*  value) ;
 
-  /// @brief Method SetCapacity, addr 0x5f1884c, size 0xb8, virtual true, abstract: false, final false
-  inline void SetCapacity(int32_t capacity);
+/// @brief Method SetCapacity, addr 0x5f18f0c, size 0xb8, virtual true, abstract: false, final false
+inline void SetCapacity(int32_t  capacity) ;
 
-  /// @brief Method SetStorage, addr 0x5f18a84, size 0x90, virtual true, abstract: false, final false
-  inline void SetStorage(::System::Object* store, ::System::Collections::BitArray* nullbits);
+/// @brief Method SetStorage, addr 0x5f19144, size 0x90, virtual true, abstract: false, final false
+inline void SetStorage(::System::Object*  store, ::System::Collections::BitArray*  nullbits) ;
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get__values() const;
+constexpr ::ArrayW<::StringW,::Array<::StringW>*> const& __cordl_internal_get__values() const;
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get__values();
+constexpr ::ArrayW<::StringW,::Array<::StringW>*>& __cordl_internal_get__values() ;
 
-  constexpr void __cordl_internal_set__values(::ArrayW<::StringW, ::Array<::StringW>*> value);
+constexpr void __cordl_internal_set__values(::ArrayW<::StringW,::Array<::StringW>*>  value) ;
 
-  /// @brief Method .ctor, addr 0x5f1824c, size 0xb8, virtual false, abstract: false, final false
-  inline void _ctor(::System::Data::DataColumn* column);
+/// @brief Method .ctor, addr 0x5f1890c, size 0xb8, virtual false, abstract: false, final false
+inline void _ctor(::System::Data::DataColumn*  column) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr StringStorage();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr StringStorage() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StringStorage", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  StringStorage(StringStorage&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StringStorage", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  StringStorage(StringStorage const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "StringStorage", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+StringStorage(StringStorage && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13920 };
+// Ctor Parameters [CppParam { name: "", ty: "StringStorage", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+StringStorage(StringStorage const& ) = delete;
 
-  /// @brief Field _values, offset: 0x50, size: 0x8, def value: None
-  ::ArrayW<::StringW, ::Array<::StringW>*> ____values;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{13924};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _values, offset: 0x50, size: 0x8, def value: None
+ ::ArrayW<::StringW,::Array<::StringW>*>  ____values;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Data::Common::StringStorage, ____values) == 0x50, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::System::Data::Common::StringStorage, 0x58>, "Size mismatch!");
 
-} // namespace System::Data::Common
+} // namespace end def System::Data::Common
 NEED_NO_BOX(::System::Data::Common::StringStorage);
 DEFINE_IL2CPP_ARG_TYPE(::System::Data::Common::StringStorage*, "System.Data.Common", "StringStorage");

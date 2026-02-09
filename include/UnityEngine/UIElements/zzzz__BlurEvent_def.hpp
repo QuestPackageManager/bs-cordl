@@ -25,82 +25,82 @@ namespace UnityEngine::UIElements {
 // CS Name: UnityEngine.UIElements.BlurEvent/<>c
 class CORDL_TYPE BlurEvent___c : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field <>9, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::UIElements::BlurEvent___c* __9;
+// Declarations
+/// @brief Field <>9, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF___9, put=setStaticF___9)) ::UnityEngine::UIElements::BlurEvent___c*  __9;
 
-  static inline ::UnityEngine::UIElements::BlurEvent___c* New_ctor();
+static inline ::UnityEngine::UIElements::BlurEvent___c* New_ctor() ;
 
-  /// @brief Method <.cctor>b__0_0, addr 0x6bd1640, size 0x54, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::BlurEvent* __cctor_b__0_0();
+/// @brief Method <.cctor>b__0_0, addr 0x6bd1d00, size 0x54, virtual false, abstract: false, final false
+inline ::UnityEngine::UIElements::BlurEvent* __cctor_b__0_0() ;
 
-  /// @brief Method .ctor, addr 0x6bd163c, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6bd1cfc, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  static inline ::UnityEngine::UIElements::BlurEvent___c* getStaticF___9();
+static inline ::UnityEngine::UIElements::BlurEvent___c* getStaticF___9() ;
 
-  static inline void setStaticF___9(::UnityEngine::UIElements::BlurEvent___c* value);
+static inline void setStaticF___9(::UnityEngine::UIElements::BlurEvent___c*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BlurEvent___c();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr BlurEvent___c() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BlurEvent___c", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  BlurEvent___c(BlurEvent___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BlurEvent___c", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  BlurEvent___c(BlurEvent___c const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "BlurEvent___c", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+BlurEvent___c(BlurEvent___c && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4469 };
+// Ctor Parameters [CppParam { name: "", ty: "BlurEvent___c", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+BlurEvent___c(BlurEvent___c const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4469};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::BlurEvent___c, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements
+} // namespace end def UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.FocusEventBase`1<T>
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.BlurEvent
 class CORDL_TYPE BlurEvent : public ::UnityEngine::UIElements::FocusEventBase_1<::UnityEngine::UIElements::BlurEvent*> {
 public:
-  // Declarations
-  using __c = ::UnityEngine::UIElements::BlurEvent___c;
+// Declarations
+using __c = ::UnityEngine::UIElements::BlurEvent___c;
 
-  static inline ::UnityEngine::UIElements::BlurEvent* New_ctor();
+static inline ::UnityEngine::UIElements::BlurEvent* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x6bd159c, size 0x4c, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6bd1c5c, size 0x4c, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BlurEvent();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr BlurEvent() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BlurEvent", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  BlurEvent(BlurEvent&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BlurEvent", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  BlurEvent(BlurEvent const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "BlurEvent", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+BlurEvent(BlurEvent && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4470 };
+// Ctor Parameters [CppParam { name: "", ty: "BlurEvent", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+BlurEvent(BlurEvent const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4470};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::BlurEvent, 0x88>, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements
+} // namespace end def UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::BlurEvent);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::BlurEvent*, "UnityEngine.UIElements", "BlurEvent");
 NEED_NO_BOX(::UnityEngine::UIElements::BlurEvent___c);

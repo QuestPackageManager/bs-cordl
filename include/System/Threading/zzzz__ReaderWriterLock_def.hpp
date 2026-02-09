@@ -24,137 +24,137 @@ namespace System::Threading {
 // CS Name: System.Threading.ReaderWriterLock
 class CORDL_TYPE ReaderWriterLock : public ::System::Runtime::ConstrainedExecution::CriticalFinalizerObject {
 public:
-  // Declarations
-  __declspec(property(get = get_IsWriterLockHeld)) bool IsWriterLockHeld;
+// Declarations
+ __declspec(property(get=get_IsWriterLockHeld)) bool  IsWriterLockHeld;
 
-  /// @brief Field reader_locks, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_reader_locks, put = __cordl_internal_set_reader_locks)) ::System::Collections::Hashtable* reader_locks;
+/// @brief Field reader_locks, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get_reader_locks, put=__cordl_internal_set_reader_locks)) ::System::Collections::Hashtable*  reader_locks;
 
-  /// @brief Field readers, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get_readers, put = __cordl_internal_set_readers)) int32_t readers;
+/// @brief Field readers, offset 0x18, size 0x4 
+ __declspec(property(get=__cordl_internal_get_readers, put=__cordl_internal_set_readers)) int32_t  readers;
 
-  /// @brief Field seq_num, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_seq_num, put = __cordl_internal_set_seq_num)) int32_t seq_num;
+/// @brief Field seq_num, offset 0x10, size 0x4 
+ __declspec(property(get=__cordl_internal_get_seq_num, put=__cordl_internal_set_seq_num)) int32_t  seq_num;
 
-  /// @brief Field state, offset 0x14, size 0x4
-  __declspec(property(get = __cordl_internal_get_state, put = __cordl_internal_set_state)) int32_t state;
+/// @brief Field state, offset 0x14, size 0x4 
+ __declspec(property(get=__cordl_internal_get_state, put=__cordl_internal_set_state)) int32_t  state;
 
-  /// @brief Field writer_lock_owner, offset 0x1c, size 0x4
-  __declspec(property(get = __cordl_internal_get_writer_lock_owner, put = __cordl_internal_set_writer_lock_owner)) int32_t writer_lock_owner;
+/// @brief Field writer_lock_owner, offset 0x1c, size 0x4 
+ __declspec(property(get=__cordl_internal_get_writer_lock_owner, put=__cordl_internal_set_writer_lock_owner)) int32_t  writer_lock_owner;
 
-  /// @brief Field writer_queue, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_writer_queue, put = __cordl_internal_set_writer_queue)) ::System::Threading::LockQueue* writer_queue;
+/// @brief Field writer_queue, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get_writer_queue, put=__cordl_internal_set_writer_queue)) ::System::Threading::LockQueue*  writer_queue;
 
-  /// @brief Method AcquireReaderLock, addr 0x5b087f8, size 0x8, virtual false, abstract: false, final false
-  inline void AcquireReaderLock(int32_t millisecondsTimeout);
+/// @brief Method AcquireReaderLock, addr 0x5b08d04, size 0x8, virtual false, abstract: false, final false
+inline void AcquireReaderLock(int32_t  millisecondsTimeout) ;
 
-  /// @brief Method AcquireReaderLock, addr 0x5b08800, size 0x360, virtual false, abstract: false, final false
-  inline void AcquireReaderLock(int32_t millisecondsTimeout, int32_t initialLockCount);
+/// @brief Method AcquireReaderLock, addr 0x5b08d0c, size 0x360, virtual false, abstract: false, final false
+inline void AcquireReaderLock(int32_t  millisecondsTimeout, int32_t  initialLockCount) ;
 
-  /// @brief Method AcquireWriterLock, addr 0x5b08d40, size 0x8, virtual false, abstract: false, final false
-  inline void AcquireWriterLock(int32_t millisecondsTimeout);
+/// @brief Method AcquireWriterLock, addr 0x5b0924c, size 0x8, virtual false, abstract: false, final false
+inline void AcquireWriterLock(int32_t  millisecondsTimeout) ;
 
-  /// @brief Method AcquireWriterLock, addr 0x5b08b94, size 0x1ac, virtual false, abstract: false, final false
-  inline void AcquireWriterLock(int32_t millisecondsTimeout, int32_t initialLockCount);
+/// @brief Method AcquireWriterLock, addr 0x5b090a0, size 0x1ac, virtual false, abstract: false, final false
+inline void AcquireWriterLock(int32_t  millisecondsTimeout, int32_t  initialLockCount) ;
 
-  /// @brief Method Finalize, addr 0x5b08714, size 0x4, virtual true, abstract: false, final false
-  inline void Finalize();
+/// @brief Method Finalize, addr 0x5b08c20, size 0x4, virtual true, abstract: false, final false
+inline void Finalize() ;
 
-  /// @brief Method HasWriterLock, addr 0x5b08b60, size 0x34, virtual false, abstract: false, final false
-  inline bool HasWriterLock();
+/// @brief Method HasWriterLock, addr 0x5b0906c, size 0x34, virtual false, abstract: false, final false
+inline bool HasWriterLock() ;
 
-  static inline ::System::Threading::ReaderWriterLock* New_ctor();
+static inline ::System::Threading::ReaderWriterLock* New_ctor() ;
 
-  /// @brief Method ReleaseReaderLock, addr 0x5b08d48, size 0x1c4, virtual false, abstract: false, final false
-  inline void ReleaseReaderLock();
+/// @brief Method ReleaseReaderLock, addr 0x5b09254, size 0x1c4, virtual false, abstract: false, final false
+inline void ReleaseReaderLock() ;
 
-  /// @brief Method ReleaseReaderLock, addr 0x5b09038, size 0x11c, virtual false, abstract: false, final false
-  inline void ReleaseReaderLock(int32_t currentCount, int32_t releaseCount);
+/// @brief Method ReleaseReaderLock, addr 0x5b09544, size 0x11c, virtual false, abstract: false, final false
+inline void ReleaseReaderLock(int32_t  currentCount, int32_t  releaseCount) ;
 
-  /// @brief Method ReleaseWriterLock, addr 0x5b08f0c, size 0x12c, virtual false, abstract: false, final false
-  inline void ReleaseWriterLock();
+/// @brief Method ReleaseWriterLock, addr 0x5b09418, size 0x12c, virtual false, abstract: false, final false
+inline void ReleaseWriterLock() ;
 
-  /// @brief Method ReleaseWriterLock, addr 0x5b09154, size 0x5c, virtual false, abstract: false, final false
-  inline void ReleaseWriterLock(int32_t releaseCount);
+/// @brief Method ReleaseWriterLock, addr 0x5b09660, size 0x5c, virtual false, abstract: false, final false
+inline void ReleaseWriterLock(int32_t  releaseCount) ;
 
-  constexpr ::System::Collections::Hashtable* const& __cordl_internal_get_reader_locks() const;
+constexpr ::System::Collections::Hashtable* const& __cordl_internal_get_reader_locks() const;
 
-  constexpr ::System::Collections::Hashtable*& __cordl_internal_get_reader_locks();
+constexpr ::System::Collections::Hashtable*& __cordl_internal_get_reader_locks() ;
 
-  constexpr int32_t const& __cordl_internal_get_readers() const;
+constexpr int32_t const& __cordl_internal_get_readers() const;
 
-  constexpr int32_t& __cordl_internal_get_readers();
+constexpr int32_t& __cordl_internal_get_readers() ;
 
-  constexpr int32_t const& __cordl_internal_get_seq_num() const;
+constexpr int32_t const& __cordl_internal_get_seq_num() const;
 
-  constexpr int32_t& __cordl_internal_get_seq_num();
+constexpr int32_t& __cordl_internal_get_seq_num() ;
 
-  constexpr int32_t const& __cordl_internal_get_state() const;
+constexpr int32_t const& __cordl_internal_get_state() const;
 
-  constexpr int32_t& __cordl_internal_get_state();
+constexpr int32_t& __cordl_internal_get_state() ;
 
-  constexpr int32_t const& __cordl_internal_get_writer_lock_owner() const;
+constexpr int32_t const& __cordl_internal_get_writer_lock_owner() const;
 
-  constexpr int32_t& __cordl_internal_get_writer_lock_owner();
+constexpr int32_t& __cordl_internal_get_writer_lock_owner() ;
 
-  constexpr ::System::Threading::LockQueue* const& __cordl_internal_get_writer_queue() const;
+constexpr ::System::Threading::LockQueue* const& __cordl_internal_get_writer_queue() const;
 
-  constexpr ::System::Threading::LockQueue*& __cordl_internal_get_writer_queue();
+constexpr ::System::Threading::LockQueue*& __cordl_internal_get_writer_queue() ;
 
-  constexpr void __cordl_internal_set_reader_locks(::System::Collections::Hashtable* value);
+constexpr void __cordl_internal_set_reader_locks(::System::Collections::Hashtable*  value) ;
 
-  constexpr void __cordl_internal_set_readers(int32_t value);
+constexpr void __cordl_internal_set_readers(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_seq_num(int32_t value);
+constexpr void __cordl_internal_set_seq_num(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_state(int32_t value);
+constexpr void __cordl_internal_set_state(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_writer_lock_owner(int32_t value);
+constexpr void __cordl_internal_set_writer_lock_owner(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_writer_queue(::System::Threading::LockQueue* value);
+constexpr void __cordl_internal_set_writer_queue(::System::Threading::LockQueue*  value) ;
 
-  /// @brief Method .ctor, addr 0x5b08650, size 0xc4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5b08b5c, size 0xc4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_IsWriterLockHeld, addr 0x5b08718, size 0xe0, virtual false, abstract: false, final false
-  inline bool get_IsWriterLockHeld();
+/// @brief Method get_IsWriterLockHeld, addr 0x5b08c24, size 0xe0, virtual false, abstract: false, final false
+inline bool get_IsWriterLockHeld() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ReaderWriterLock();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ReaderWriterLock() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ReaderWriterLock", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ReaderWriterLock(ReaderWriterLock&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ReaderWriterLock", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ReaderWriterLock(ReaderWriterLock const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ReaderWriterLock", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ReaderWriterLock(ReaderWriterLock && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2759 };
+// Ctor Parameters [CppParam { name: "", ty: "ReaderWriterLock", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ReaderWriterLock(ReaderWriterLock const& ) = delete;
 
-  /// @brief Field seq_num, offset: 0x10, size: 0x4, def value: None
-  int32_t ___seq_num;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{2759};
 
-  /// @brief Field state, offset: 0x14, size: 0x4, def value: None
-  int32_t ___state;
+/// @brief Field seq_num, offset: 0x10, size: 0x4, def value: None
+ int32_t  ___seq_num;
 
-  /// @brief Field readers, offset: 0x18, size: 0x4, def value: None
-  int32_t ___readers;
+/// @brief Field state, offset: 0x14, size: 0x4, def value: None
+ int32_t  ___state;
 
-  /// @brief Field writer_lock_owner, offset: 0x1c, size: 0x4, def value: None
-  int32_t ___writer_lock_owner;
+/// @brief Field readers, offset: 0x18, size: 0x4, def value: None
+ int32_t  ___readers;
 
-  /// @brief Field writer_queue, offset: 0x20, size: 0x8, def value: None
-  ::System::Threading::LockQueue* ___writer_queue;
+/// @brief Field writer_lock_owner, offset: 0x1c, size: 0x4, def value: None
+ int32_t  ___writer_lock_owner;
 
-  /// @brief Field reader_locks, offset: 0x28, size: 0x8, def value: None
-  ::System::Collections::Hashtable* ___reader_locks;
+/// @brief Field writer_queue, offset: 0x20, size: 0x8, def value: None
+ ::System::Threading::LockQueue*  ___writer_queue;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field reader_locks, offset: 0x28, size: 0x8, def value: None
+ ::System::Collections::Hashtable*  ___reader_locks;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Threading::ReaderWriterLock, ___seq_num) == 0x10, "Offset mismatch!");
@@ -171,6 +171,6 @@ static_assert(offsetof(::System::Threading::ReaderWriterLock, ___reader_locks) =
 
 static_assert(::cordl_internals::size_check_v<::System::Threading::ReaderWriterLock, 0x30>, "Size mismatch!");
 
-} // namespace System::Threading
+} // namespace end def System::Threading
 NEED_NO_BOX(::System::Threading::ReaderWriterLock);
 DEFINE_IL2CPP_ARG_TYPE(::System::Threading::ReaderWriterLock*, "System.Threading", "ReaderWriterLock");

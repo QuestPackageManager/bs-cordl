@@ -18,56 +18,56 @@ namespace JetBrains::Annotations {
 // CS Name: JetBrains.Annotations.HtmlAttributeValueAttribute
 class CORDL_TYPE HtmlAttributeValueAttribute : public ::System::Attribute {
 public:
-  // Declarations
-  __declspec(property(get = get_Name, put = set_Name)) ::StringW Name;
+// Declarations
+ __declspec(property(get=get_Name, put=set_Name)) ::StringW  Name;
 
-  /// @brief Field <Name>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__Name_k__BackingField, put = __cordl_internal_set__Name_k__BackingField)) ::StringW _Name_k__BackingField;
+/// @brief Field <Name>k__BackingField, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get__Name_k__BackingField, put=__cordl_internal_set__Name_k__BackingField)) ::StringW  _Name_k__BackingField;
 
-  static inline ::JetBrains::Annotations::HtmlAttributeValueAttribute* New_ctor(::StringW name);
+static inline ::JetBrains::Annotations::HtmlAttributeValueAttribute* New_ctor(::StringW  name) ;
 
-  constexpr ::StringW const& __cordl_internal_get__Name_k__BackingField() const;
+constexpr ::StringW const& __cordl_internal_get__Name_k__BackingField() const;
 
-  constexpr ::StringW& __cordl_internal_get__Name_k__BackingField();
+constexpr ::StringW& __cordl_internal_get__Name_k__BackingField() ;
 
-  constexpr void __cordl_internal_set__Name_k__BackingField(::StringW value);
+constexpr void __cordl_internal_set__Name_k__BackingField(::StringW  value) ;
 
-  /// @brief Method .ctor, addr 0x6c7248c, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::StringW name);
+/// @brief Method .ctor, addr 0x6c72b4c, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(::StringW  name) ;
 
-  /// @brief Method get_Name, addr 0x6c72494, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_Name();
+/// @brief Method get_Name, addr 0x6c72b54, size 0x8, virtual false, abstract: false, final false
+inline ::StringW get_Name() ;
 
-  /// @brief Method set_Name, addr 0x6c7249c, size 0x8, virtual false, abstract: false, final false
-  inline void set_Name(::StringW value);
+/// @brief Method set_Name, addr 0x6c72b5c, size 0x8, virtual false, abstract: false, final false
+inline void set_Name(::StringW  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HtmlAttributeValueAttribute();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr HtmlAttributeValueAttribute() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HtmlAttributeValueAttribute", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  HtmlAttributeValueAttribute(HtmlAttributeValueAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HtmlAttributeValueAttribute", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  HtmlAttributeValueAttribute(HtmlAttributeValueAttribute const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "HtmlAttributeValueAttribute", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+HtmlAttributeValueAttribute(HtmlAttributeValueAttribute && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22312 };
+// Ctor Parameters [CppParam { name: "", ty: "HtmlAttributeValueAttribute", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+HtmlAttributeValueAttribute(HtmlAttributeValueAttribute const& ) = delete;
 
-  /// @brief Field <Name>k__BackingField, offset: 0x10, size: 0x8, def value: None
-  ::StringW ____Name_k__BackingField;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{22316};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field <Name>k__BackingField, offset: 0x10, size: 0x8, def value: None
+ ::StringW  ____Name_k__BackingField;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::JetBrains::Annotations::HtmlAttributeValueAttribute, ____Name_k__BackingField) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::JetBrains::Annotations::HtmlAttributeValueAttribute, 0x18>, "Size mismatch!");
 
-} // namespace JetBrains::Annotations
+} // namespace end def JetBrains::Annotations
 NEED_NO_BOX(::JetBrains::Annotations::HtmlAttributeValueAttribute);
 DEFINE_IL2CPP_ARG_TYPE(::JetBrains::Annotations::HtmlAttributeValueAttribute*, "JetBrains.Annotations", "HtmlAttributeValueAttribute");

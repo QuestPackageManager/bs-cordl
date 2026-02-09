@@ -20,70 +20,66 @@ namespace UnityEngine {
 // CS Name: UnityEngine.UIVertex
 struct CORDL_TYPE UIVertex {
 public:
-  // Declarations
-  /// @brief Field s_DefaultColor, offset 0xffffffff, size 0x4
-  __declspec(property(get = getStaticF_s_DefaultColor, put = setStaticF_s_DefaultColor)) ::UnityEngine::Color32 s_DefaultColor;
+// Declarations
+/// @brief Field s_DefaultColor, offset 0xffffffff, size 0x4 
+ __declspec(property(get=getStaticF_s_DefaultColor, put=setStaticF_s_DefaultColor)) ::UnityEngine::Color32  s_DefaultColor;
 
-  /// @brief Field s_DefaultTangent, offset 0xffffffff, size 0x10
-  __declspec(property(get = getStaticF_s_DefaultTangent, put = setStaticF_s_DefaultTangent)) ::UnityEngine::Vector4 s_DefaultTangent;
+/// @brief Field s_DefaultTangent, offset 0xffffffff, size 0x10 
+ __declspec(property(get=getStaticF_s_DefaultTangent, put=setStaticF_s_DefaultTangent)) ::UnityEngine::Vector4  s_DefaultTangent;
 
-  /// @brief Field simpleVert, offset 0xffffffff, size 0x6c
-  __declspec(property(get = getStaticF_simpleVert, put = setStaticF_simpleVert)) ::UnityEngine::UIVertex simpleVert;
+/// @brief Field simpleVert, offset 0xffffffff, size 0x6c 
+ __declspec(property(get=getStaticF_simpleVert, put=setStaticF_simpleVert)) ::UnityEngine::UIVertex  simpleVert;
 
-  static inline ::UnityEngine::Color32 getStaticF_s_DefaultColor();
+static inline ::UnityEngine::Color32 getStaticF_s_DefaultColor() ;
 
-  static inline ::UnityEngine::Vector4 getStaticF_s_DefaultTangent();
+static inline ::UnityEngine::Vector4 getStaticF_s_DefaultTangent() ;
 
-  static inline ::UnityEngine::UIVertex getStaticF_simpleVert();
+static inline ::UnityEngine::UIVertex getStaticF_simpleVert() ;
 
-  static inline void setStaticF_s_DefaultColor(::UnityEngine::Color32 value);
+static inline void setStaticF_s_DefaultColor(::UnityEngine::Color32  value) ;
 
-  static inline void setStaticF_s_DefaultTangent(::UnityEngine::Vector4 value);
+static inline void setStaticF_s_DefaultTangent(::UnityEngine::Vector4  value) ;
 
-  static inline void setStaticF_simpleVert(::UnityEngine::UIVertex value);
+static inline void setStaticF_simpleVert(::UnityEngine::UIVertex  value) ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr UIVertex();
+// Ctor Parameters []
+// @brief default ctor
+constexpr UIVertex() ;
 
-  // Ctor Parameters [CppParam { name: "position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "normal", ty: "::UnityEngine::Vector3", modifiers: "", def_value:
-  // None }, CppParam { name: "tangent", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None }, CppParam { name: "color", ty: "::UnityEngine::Color32", modifiers: "", def_value: None },
-  // CppParam { name: "uv0", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None }, CppParam { name: "uv1", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None }, CppParam { name:
-  // "uv2", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None }, CppParam { name: "uv3", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None }]
-  constexpr UIVertex(::UnityEngine::Vector3 position, ::UnityEngine::Vector3 normal, ::UnityEngine::Vector4 tangent, ::UnityEngine::Color32 color, ::UnityEngine::Vector4 uv0,
-                     ::UnityEngine::Vector4 uv1, ::UnityEngine::Vector4 uv2, ::UnityEngine::Vector4 uv3) noexcept;
+// Ctor Parameters [CppParam { name: "position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "normal", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "tangent", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None }, CppParam { name: "color", ty: "::UnityEngine::Color32", modifiers: "", def_value: None }, CppParam { name: "uv0", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None }, CppParam { name: "uv1", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None }, CppParam { name: "uv2", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None }, CppParam { name: "uv3", ty: "::UnityEngine::Vector4", modifiers: "", def_value: None }]
+constexpr UIVertex(::UnityEngine::Vector3  position, ::UnityEngine::Vector3  normal, ::UnityEngine::Vector4  tangent, ::UnityEngine::Color32  color, ::UnityEngine::Vector4  uv0, ::UnityEngine::Vector4  uv1, ::UnityEngine::Vector4  uv2, ::UnityEngine::Vector4  uv3) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22157 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{22161};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x6c };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x6c};
 
-  /// @brief Field position, offset: 0x0, size: 0xc, def value: None
-  ::UnityEngine::Vector3 position;
+/// @brief Field position, offset: 0x0, size: 0xc, def value: None
+ ::UnityEngine::Vector3  position;
 
-  /// @brief Field normal, offset: 0xc, size: 0xc, def value: None
-  ::UnityEngine::Vector3 normal;
+/// @brief Field normal, offset: 0xc, size: 0xc, def value: None
+ ::UnityEngine::Vector3  normal;
 
-  /// @brief Field tangent, offset: 0x18, size: 0x10, def value: None
-  ::UnityEngine::Vector4 tangent;
+/// @brief Field tangent, offset: 0x18, size: 0x10, def value: None
+ ::UnityEngine::Vector4  tangent;
 
-  /// @brief Field color, offset: 0x28, size: 0x4, def value: None
-  ::UnityEngine::Color32 color;
+/// @brief Field color, offset: 0x28, size: 0x4, def value: None
+ ::UnityEngine::Color32  color;
 
-  /// @brief Field uv0, offset: 0x2c, size: 0x10, def value: None
-  ::UnityEngine::Vector4 uv0;
+/// @brief Field uv0, offset: 0x2c, size: 0x10, def value: None
+ ::UnityEngine::Vector4  uv0;
 
-  /// @brief Field uv1, offset: 0x3c, size: 0x10, def value: None
-  ::UnityEngine::Vector4 uv1;
+/// @brief Field uv1, offset: 0x3c, size: 0x10, def value: None
+ ::UnityEngine::Vector4  uv1;
 
-  /// @brief Field uv2, offset: 0x4c, size: 0x10, def value: None
-  ::UnityEngine::Vector4 uv2;
+/// @brief Field uv2, offset: 0x4c, size: 0x10, def value: None
+ ::UnityEngine::Vector4  uv2;
 
-  /// @brief Field uv3, offset: 0x5c, size: 0x10, def value: None
-  ::UnityEngine::Vector4 uv3;
+/// @brief Field uv3, offset: 0x5c, size: 0x10, def value: None
+ ::UnityEngine::Vector4  uv3;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::UIVertex, position) == 0x0, "Offset mismatch!");
@@ -104,5 +100,5 @@ static_assert(offsetof(::UnityEngine::UIVertex, uv3) == 0x5c, "Offset mismatch!"
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIVertex, 0x6c>, "Size mismatch!");
 
-} // namespace UnityEngine
+} // namespace end def UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIVertex, "UnityEngine", "UIVertex");

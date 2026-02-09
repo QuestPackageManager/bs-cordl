@@ -19,188 +19,182 @@ namespace Newtonsoft::Json::Utilities {
 // CS Name: Newtonsoft.Json.Utilities.DateTimeParser
 struct CORDL_TYPE DateTimeParser {
 public:
-  // Declarations
-  /// @brief Field LzHH, offset 0xffffffff, size 0x4
-  __declspec(property(get = getStaticF_LzHH, put = setStaticF_LzHH)) int32_t LzHH;
+// Declarations
+/// @brief Field LzHH, offset 0xffffffff, size 0x4 
+ __declspec(property(get=getStaticF_LzHH, put=setStaticF_LzHH)) int32_t  LzHH;
 
-  /// @brief Field LzHH_, offset 0xffffffff, size 0x4
-  __declspec(property(get = getStaticF_LzHH_, put = setStaticF_LzHH_)) int32_t LzHH_;
+/// @brief Field LzHH_, offset 0xffffffff, size 0x4 
+ __declspec(property(get=getStaticF_LzHH_, put=setStaticF_LzHH_)) int32_t  LzHH_;
 
-  /// @brief Field LzHH_mm, offset 0xffffffff, size 0x4
-  __declspec(property(get = getStaticF_LzHH_mm, put = setStaticF_LzHH_mm)) int32_t LzHH_mm;
+/// @brief Field LzHH_mm, offset 0xffffffff, size 0x4 
+ __declspec(property(get=getStaticF_LzHH_mm, put=setStaticF_LzHH_mm)) int32_t  LzHH_mm;
 
-  /// @brief Field LzHH_mm_, offset 0xffffffff, size 0x4
-  __declspec(property(get = getStaticF_LzHH_mm_, put = setStaticF_LzHH_mm_)) int32_t LzHH_mm_;
+/// @brief Field LzHH_mm_, offset 0xffffffff, size 0x4 
+ __declspec(property(get=getStaticF_LzHH_mm_, put=setStaticF_LzHH_mm_)) int32_t  LzHH_mm_;
 
-  /// @brief Field LzHH_mm_ss, offset 0xffffffff, size 0x4
-  __declspec(property(get = getStaticF_LzHH_mm_ss, put = setStaticF_LzHH_mm_ss)) int32_t LzHH_mm_ss;
+/// @brief Field LzHH_mm_ss, offset 0xffffffff, size 0x4 
+ __declspec(property(get=getStaticF_LzHH_mm_ss, put=setStaticF_LzHH_mm_ss)) int32_t  LzHH_mm_ss;
 
-  /// @brief Field Lz_, offset 0xffffffff, size 0x4
-  __declspec(property(get = getStaticF_Lz_, put = setStaticF_Lz_)) int32_t Lz_;
+/// @brief Field Lz_, offset 0xffffffff, size 0x4 
+ __declspec(property(get=getStaticF_Lz_, put=setStaticF_Lz_)) int32_t  Lz_;
 
-  /// @brief Field Lz_zz, offset 0xffffffff, size 0x4
-  __declspec(property(get = getStaticF_Lz_zz, put = setStaticF_Lz_zz)) int32_t Lz_zz;
+/// @brief Field Lz_zz, offset 0xffffffff, size 0x4 
+ __declspec(property(get=getStaticF_Lz_zz, put=setStaticF_Lz_zz)) int32_t  Lz_zz;
 
-  /// @brief Field Lzyyyy, offset 0xffffffff, size 0x4
-  __declspec(property(get = getStaticF_Lzyyyy, put = setStaticF_Lzyyyy)) int32_t Lzyyyy;
+/// @brief Field Lzyyyy, offset 0xffffffff, size 0x4 
+ __declspec(property(get=getStaticF_Lzyyyy, put=setStaticF_Lzyyyy)) int32_t  Lzyyyy;
 
-  /// @brief Field Lzyyyy_, offset 0xffffffff, size 0x4
-  __declspec(property(get = getStaticF_Lzyyyy_, put = setStaticF_Lzyyyy_)) int32_t Lzyyyy_;
+/// @brief Field Lzyyyy_, offset 0xffffffff, size 0x4 
+ __declspec(property(get=getStaticF_Lzyyyy_, put=setStaticF_Lzyyyy_)) int32_t  Lzyyyy_;
 
-  /// @brief Field Lzyyyy_MM, offset 0xffffffff, size 0x4
-  __declspec(property(get = getStaticF_Lzyyyy_MM, put = setStaticF_Lzyyyy_MM)) int32_t Lzyyyy_MM;
+/// @brief Field Lzyyyy_MM, offset 0xffffffff, size 0x4 
+ __declspec(property(get=getStaticF_Lzyyyy_MM, put=setStaticF_Lzyyyy_MM)) int32_t  Lzyyyy_MM;
 
-  /// @brief Field Lzyyyy_MM_, offset 0xffffffff, size 0x4
-  __declspec(property(get = getStaticF_Lzyyyy_MM_, put = setStaticF_Lzyyyy_MM_)) int32_t Lzyyyy_MM_;
+/// @brief Field Lzyyyy_MM_, offset 0xffffffff, size 0x4 
+ __declspec(property(get=getStaticF_Lzyyyy_MM_, put=setStaticF_Lzyyyy_MM_)) int32_t  Lzyyyy_MM_;
 
-  /// @brief Field Lzyyyy_MM_dd, offset 0xffffffff, size 0x4
-  __declspec(property(get = getStaticF_Lzyyyy_MM_dd, put = setStaticF_Lzyyyy_MM_dd)) int32_t Lzyyyy_MM_dd;
+/// @brief Field Lzyyyy_MM_dd, offset 0xffffffff, size 0x4 
+ __declspec(property(get=getStaticF_Lzyyyy_MM_dd, put=setStaticF_Lzyyyy_MM_dd)) int32_t  Lzyyyy_MM_dd;
 
-  /// @brief Field Lzyyyy_MM_ddT, offset 0xffffffff, size 0x4
-  __declspec(property(get = getStaticF_Lzyyyy_MM_ddT, put = setStaticF_Lzyyyy_MM_ddT)) int32_t Lzyyyy_MM_ddT;
+/// @brief Field Lzyyyy_MM_ddT, offset 0xffffffff, size 0x4 
+ __declspec(property(get=getStaticF_Lzyyyy_MM_ddT, put=setStaticF_Lzyyyy_MM_ddT)) int32_t  Lzyyyy_MM_ddT;
 
-  /// @brief Field Power10, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_Power10, put = setStaticF_Power10)) ::ArrayW<int32_t, ::Array<int32_t>*> Power10;
+/// @brief Field Power10, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_Power10, put=setStaticF_Power10)) ::ArrayW<int32_t,::Array<int32_t>*>  Power10;
 
-  /// @brief Method Parse, addr 0x5b72f10, size 0xf4, virtual false, abstract: false, final false
-  inline bool Parse(::ArrayW<char16_t, ::Array<char16_t>*> text, int32_t startIndex, int32_t length);
+/// @brief Method Parse, addr 0x5b7341c, size 0xf4, virtual false, abstract: false, final false
+inline bool Parse(::ArrayW<char16_t,::Array<char16_t>*>  text, int32_t  startIndex, int32_t  length) ;
 
-  /// @brief Method Parse2Digit, addr 0x5b7337c, size 0x98, virtual false, abstract: false, final false
-  inline bool Parse2Digit(int32_t start, ::ByRef<int32_t> num);
+/// @brief Method Parse2Digit, addr 0x5b73888, size 0x98, virtual false, abstract: false, final false
+inline bool Parse2Digit(int32_t  start, ::ByRef<int32_t>  num) ;
 
-  /// @brief Method Parse4Digit, addr 0x5b73298, size 0xe4, virtual false, abstract: false, final false
-  inline bool Parse4Digit(int32_t start, ::ByRef<int32_t> num);
+/// @brief Method Parse4Digit, addr 0x5b737a4, size 0xe4, virtual false, abstract: false, final false
+inline bool Parse4Digit(int32_t  start, ::ByRef<int32_t>  num) ;
 
-  /// @brief Method ParseChar, addr 0x5b731ac, size 0x4c, virtual false, abstract: false, final false
-  inline bool ParseChar(int32_t start, char16_t ch);
+/// @brief Method ParseChar, addr 0x5b736b8, size 0x4c, virtual false, abstract: false, final false
+inline bool ParseChar(int32_t  start, char16_t  ch) ;
 
-  /// @brief Method ParseDate, addr 0x5b73004, size 0x1a8, virtual false, abstract: false, final false
-  inline bool ParseDate(int32_t start);
+/// @brief Method ParseDate, addr 0x5b73510, size 0x1a8, virtual false, abstract: false, final false
+inline bool ParseDate(int32_t  start) ;
 
-  /// @brief Method ParseTime, addr 0x5b73414, size 0x2c8, virtual false, abstract: false, final false
-  inline bool ParseTime(::ByRef<int32_t> start);
+/// @brief Method ParseTime, addr 0x5b73920, size 0x2c8, virtual false, abstract: false, final false
+inline bool ParseTime(::ByRef<int32_t>  start) ;
 
-  /// @brief Method ParseTimeAndZoneAndWhitespace, addr 0x5b731f8, size 0xa0, virtual false, abstract: false, final false
-  inline bool ParseTimeAndZoneAndWhitespace(int32_t start);
+/// @brief Method ParseTimeAndZoneAndWhitespace, addr 0x5b73704, size 0xa0, virtual false, abstract: false, final false
+inline bool ParseTimeAndZoneAndWhitespace(int32_t  start) ;
 
-  /// @brief Method ParseZone, addr 0x5b736dc, size 0x1fc, virtual false, abstract: false, final false
-  inline bool ParseZone(int32_t start);
+/// @brief Method ParseZone, addr 0x5b73be8, size 0x1fc, virtual false, abstract: false, final false
+inline bool ParseZone(int32_t  start) ;
 
-  static inline int32_t getStaticF_LzHH();
+static inline int32_t getStaticF_LzHH() ;
 
-  static inline int32_t getStaticF_LzHH_();
+static inline int32_t getStaticF_LzHH_() ;
 
-  static inline int32_t getStaticF_LzHH_mm();
+static inline int32_t getStaticF_LzHH_mm() ;
 
-  static inline int32_t getStaticF_LzHH_mm_();
+static inline int32_t getStaticF_LzHH_mm_() ;
 
-  static inline int32_t getStaticF_LzHH_mm_ss();
+static inline int32_t getStaticF_LzHH_mm_ss() ;
 
-  static inline int32_t getStaticF_Lz_();
+static inline int32_t getStaticF_Lz_() ;
 
-  static inline int32_t getStaticF_Lz_zz();
+static inline int32_t getStaticF_Lz_zz() ;
 
-  static inline int32_t getStaticF_Lzyyyy();
+static inline int32_t getStaticF_Lzyyyy() ;
 
-  static inline int32_t getStaticF_Lzyyyy_();
+static inline int32_t getStaticF_Lzyyyy_() ;
 
-  static inline int32_t getStaticF_Lzyyyy_MM();
+static inline int32_t getStaticF_Lzyyyy_MM() ;
 
-  static inline int32_t getStaticF_Lzyyyy_MM_();
+static inline int32_t getStaticF_Lzyyyy_MM_() ;
 
-  static inline int32_t getStaticF_Lzyyyy_MM_dd();
+static inline int32_t getStaticF_Lzyyyy_MM_dd() ;
 
-  static inline int32_t getStaticF_Lzyyyy_MM_ddT();
+static inline int32_t getStaticF_Lzyyyy_MM_ddT() ;
 
-  static inline ::ArrayW<int32_t, ::Array<int32_t>*> getStaticF_Power10();
+static inline ::ArrayW<int32_t,::Array<int32_t>*> getStaticF_Power10() ;
 
-  static inline void setStaticF_LzHH(int32_t value);
+static inline void setStaticF_LzHH(int32_t  value) ;
 
-  static inline void setStaticF_LzHH_(int32_t value);
+static inline void setStaticF_LzHH_(int32_t  value) ;
 
-  static inline void setStaticF_LzHH_mm(int32_t value);
+static inline void setStaticF_LzHH_mm(int32_t  value) ;
 
-  static inline void setStaticF_LzHH_mm_(int32_t value);
+static inline void setStaticF_LzHH_mm_(int32_t  value) ;
 
-  static inline void setStaticF_LzHH_mm_ss(int32_t value);
+static inline void setStaticF_LzHH_mm_ss(int32_t  value) ;
 
-  static inline void setStaticF_Lz_(int32_t value);
+static inline void setStaticF_Lz_(int32_t  value) ;
 
-  static inline void setStaticF_Lz_zz(int32_t value);
+static inline void setStaticF_Lz_zz(int32_t  value) ;
 
-  static inline void setStaticF_Lzyyyy(int32_t value);
+static inline void setStaticF_Lzyyyy(int32_t  value) ;
 
-  static inline void setStaticF_Lzyyyy_(int32_t value);
+static inline void setStaticF_Lzyyyy_(int32_t  value) ;
 
-  static inline void setStaticF_Lzyyyy_MM(int32_t value);
+static inline void setStaticF_Lzyyyy_MM(int32_t  value) ;
 
-  static inline void setStaticF_Lzyyyy_MM_(int32_t value);
+static inline void setStaticF_Lzyyyy_MM_(int32_t  value) ;
 
-  static inline void setStaticF_Lzyyyy_MM_dd(int32_t value);
+static inline void setStaticF_Lzyyyy_MM_dd(int32_t  value) ;
 
-  static inline void setStaticF_Lzyyyy_MM_ddT(int32_t value);
+static inline void setStaticF_Lzyyyy_MM_ddT(int32_t  value) ;
 
-  static inline void setStaticF_Power10(::ArrayW<int32_t, ::Array<int32_t>*> value);
+static inline void setStaticF_Power10(::ArrayW<int32_t,::Array<int32_t>*>  value) ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DateTimeParser();
+// Ctor Parameters []
+// @brief default ctor
+constexpr DateTimeParser() ;
 
-  // Ctor Parameters [CppParam { name: "Year", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Month", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Day", ty:
-  // "int32_t", modifiers: "", def_value: None }, CppParam { name: "Hour", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Minute", ty: "int32_t", modifiers: "", def_value: None },
-  // CppParam { name: "Second", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Fraction", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "ZoneHour", ty:
-  // "int32_t", modifiers: "", def_value: None }, CppParam { name: "ZoneMinute", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Zone", ty:
-  // "::Newtonsoft::Json::Utilities::ParserTimeZone", modifiers: "", def_value: None }, CppParam { name: "_text", ty: "::ArrayW<char16_t,::Array<char16_t>*>", modifiers: "", def_value: None },
-  // CppParam { name: "_end", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr DateTimeParser(int32_t Year, int32_t Month, int32_t Day, int32_t Hour, int32_t Minute, int32_t Second, int32_t Fraction, int32_t ZoneHour, int32_t ZoneMinute,
-                           ::Newtonsoft::Json::Utilities::ParserTimeZone Zone, ::ArrayW<char16_t, ::Array<char16_t>*> _text, int32_t _end) noexcept;
+// Ctor Parameters [CppParam { name: "Year", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Month", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Day", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Hour", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Minute", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Second", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Fraction", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "ZoneHour", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "ZoneMinute", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Zone", ty: "::Newtonsoft::Json::Utilities::ParserTimeZone", modifiers: "", def_value: None }, CppParam { name: "_text", ty: "::ArrayW<char16_t,::Array<char16_t>*>", modifiers: "", def_value: None }, CppParam { name: "_end", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr DateTimeParser(int32_t  Year, int32_t  Month, int32_t  Day, int32_t  Hour, int32_t  Minute, int32_t  Second, int32_t  Fraction, int32_t  ZoneHour, int32_t  ZoneMinute, ::Newtonsoft::Json::Utilities::ParserTimeZone  Zone, ::ArrayW<char16_t,::Array<char16_t>*>  _text, int32_t  _end) noexcept;
 
-  /// @brief Field MaxFractionDigits offset 0xffffffff size 0x2
-  static constexpr int16_t MaxFractionDigits{ static_cast<int16_t>(0x7) };
+/// @brief Field MaxFractionDigits offset 0xffffffff size 0x2
+static constexpr int16_t  MaxFractionDigits{static_cast<int16_t>(0x7)};
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13360 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{13364};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x38};
 
-  /// @brief Field Year, offset: 0x0, size: 0x4, def value: None
-  int32_t Year;
+/// @brief Field Year, offset: 0x0, size: 0x4, def value: None
+ int32_t  Year;
 
-  /// @brief Field Month, offset: 0x4, size: 0x4, def value: None
-  int32_t Month;
+/// @brief Field Month, offset: 0x4, size: 0x4, def value: None
+ int32_t  Month;
 
-  /// @brief Field Day, offset: 0x8, size: 0x4, def value: None
-  int32_t Day;
+/// @brief Field Day, offset: 0x8, size: 0x4, def value: None
+ int32_t  Day;
 
-  /// @brief Field Hour, offset: 0xc, size: 0x4, def value: None
-  int32_t Hour;
+/// @brief Field Hour, offset: 0xc, size: 0x4, def value: None
+ int32_t  Hour;
 
-  /// @brief Field Minute, offset: 0x10, size: 0x4, def value: None
-  int32_t Minute;
+/// @brief Field Minute, offset: 0x10, size: 0x4, def value: None
+ int32_t  Minute;
 
-  /// @brief Field Second, offset: 0x14, size: 0x4, def value: None
-  int32_t Second;
+/// @brief Field Second, offset: 0x14, size: 0x4, def value: None
+ int32_t  Second;
 
-  /// @brief Field Fraction, offset: 0x18, size: 0x4, def value: None
-  int32_t Fraction;
+/// @brief Field Fraction, offset: 0x18, size: 0x4, def value: None
+ int32_t  Fraction;
 
-  /// @brief Field ZoneHour, offset: 0x1c, size: 0x4, def value: None
-  int32_t ZoneHour;
+/// @brief Field ZoneHour, offset: 0x1c, size: 0x4, def value: None
+ int32_t  ZoneHour;
 
-  /// @brief Field ZoneMinute, offset: 0x20, size: 0x4, def value: None
-  int32_t ZoneMinute;
+/// @brief Field ZoneMinute, offset: 0x20, size: 0x4, def value: None
+ int32_t  ZoneMinute;
 
-  /// @brief Field Zone, offset: 0x24, size: 0x4, def value: None
-  ::Newtonsoft::Json::Utilities::ParserTimeZone Zone;
+/// @brief Field Zone, offset: 0x24, size: 0x4, def value: None
+ ::Newtonsoft::Json::Utilities::ParserTimeZone  Zone;
 
-  /// @brief Field _text, offset: 0x28, size: 0x8, def value: None
-  ::ArrayW<char16_t, ::Array<char16_t>*> _text;
+/// @brief Field _text, offset: 0x28, size: 0x8, def value: None
+ ::ArrayW<char16_t,::Array<char16_t>*>  _text;
 
-  /// @brief Field _end, offset: 0x30, size: 0x4, def value: None
-  int32_t _end;
+/// @brief Field _end, offset: 0x30, size: 0x4, def value: None
+ int32_t  _end;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::Newtonsoft::Json::Utilities::DateTimeParser, Year) == 0x0, "Offset mismatch!");
@@ -229,5 +223,5 @@ static_assert(offsetof(::Newtonsoft::Json::Utilities::DateTimeParser, _end) == 0
 
 static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Utilities::DateTimeParser, 0x38>, "Size mismatch!");
 
-} // namespace Newtonsoft::Json::Utilities
+} // namespace end def Newtonsoft::Json::Utilities
 DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Utilities::DateTimeParser, "Newtonsoft.Json.Utilities", "DateTimeParser");

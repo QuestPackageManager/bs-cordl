@@ -23,40 +23,40 @@ namespace Oculus::Platform {
 // CS Name: Oculus.Platform.MessageWithLeaderboardEntryList
 class CORDL_TYPE MessageWithLeaderboardEntryList : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::LeaderboardEntryList*> {
 public:
-  // Declarations
-  /// @brief Method GetDataFromMessage, addr 0x5c2d1d4, size 0x9c, virtual true, abstract: false, final false
-  inline ::Oculus::Platform::Models::LeaderboardEntryList* GetDataFromMessage(::System::IntPtr c_message);
+// Declarations
+/// @brief Method GetDataFromMessage, addr 0x5c2d6e0, size 0x9c, virtual true, abstract: false, final false
+inline ::Oculus::Platform::Models::LeaderboardEntryList* GetDataFromMessage(::System::IntPtr  c_message) ;
 
-  /// @brief Method GetLeaderboardEntryList, addr 0x5c2d190, size 0x44, virtual true, abstract: false, final false
-  inline ::Oculus::Platform::Models::LeaderboardEntryList* GetLeaderboardEntryList();
+/// @brief Method GetLeaderboardEntryList, addr 0x5c2d69c, size 0x44, virtual true, abstract: false, final false
+inline ::Oculus::Platform::Models::LeaderboardEntryList* GetLeaderboardEntryList() ;
 
-  static inline ::Oculus::Platform::MessageWithLeaderboardEntryList* New_ctor(::System::IntPtr c_message);
+static inline ::Oculus::Platform::MessageWithLeaderboardEntryList* New_ctor(::System::IntPtr  c_message) ;
 
-  /// @brief Method .ctor, addr 0x5c29494, size 0x5c, virtual false, abstract: false, final false
-  inline void _ctor(::System::IntPtr c_message);
+/// @brief Method .ctor, addr 0x5c299a0, size 0x5c, virtual false, abstract: false, final false
+inline void _ctor(::System::IntPtr  c_message) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MessageWithLeaderboardEntryList();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr MessageWithLeaderboardEntryList() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MessageWithLeaderboardEntryList", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  MessageWithLeaderboardEntryList(MessageWithLeaderboardEntryList&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MessageWithLeaderboardEntryList", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  MessageWithLeaderboardEntryList(MessageWithLeaderboardEntryList const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "MessageWithLeaderboardEntryList", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+MessageWithLeaderboardEntryList(MessageWithLeaderboardEntryList && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17861 };
+// Ctor Parameters [CppParam { name: "", ty: "MessageWithLeaderboardEntryList", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+MessageWithLeaderboardEntryList(MessageWithLeaderboardEntryList const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{17865};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Oculus::Platform::MessageWithLeaderboardEntryList, 0x30>, "Size mismatch!");
 
-} // namespace Oculus::Platform
+} // namespace end def Oculus::Platform
 NEED_NO_BOX(::Oculus::Platform::MessageWithLeaderboardEntryList);
 DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::MessageWithLeaderboardEntryList*, "Oculus.Platform", "MessageWithLeaderboardEntryList");

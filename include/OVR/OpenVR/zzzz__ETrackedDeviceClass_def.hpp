@@ -12,79 +12,79 @@ struct ETrackedDeviceClass;
 }
 // Write type traits
 MARK_VAL_T(::OVR::OpenVR::ETrackedDeviceClass);
-// Dependencies
+// Dependencies 
 namespace OVR::OpenVR {
 // Is value type: true
 // CS Name: OVR.OpenVR.ETrackedDeviceClass
 struct CORDL_TYPE ETrackedDeviceClass {
 public:
-  // Declarations
-  using __CORDL_BACKING_ENUM_TYPE = int32_t;
+// Declarations
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct __ETrackedDeviceClass_Unwrapped
-  enum struct __ETrackedDeviceClass_Unwrapped : int32_t {
-    __E_Invalid = static_cast<int32_t>(0x0),
-    __E_HMD = static_cast<int32_t>(0x1),
-    __E_Controller = static_cast<int32_t>(0x2),
-    __E_GenericTracker = static_cast<int32_t>(0x3),
-    __E_TrackingReference = static_cast<int32_t>(0x4),
-    __E_DisplayRedirect = static_cast<int32_t>(0x5),
-    __E_Max = static_cast<int32_t>(0x6),
-  };
+/// @brief Nested struct __ETrackedDeviceClass_Unwrapped
+enum struct __ETrackedDeviceClass_Unwrapped : int32_t {
+__E_Invalid = static_cast<int32_t>(0x0),
+__E_HMD = static_cast<int32_t>(0x1),
+__E_Controller = static_cast<int32_t>(0x2),
+__E_GenericTracker = static_cast<int32_t>(0x3),
+__E_TrackingReference = static_cast<int32_t>(0x4),
+__E_DisplayRedirect = static_cast<int32_t>(0x5),
+__E_Max = static_cast<int32_t>(0x6),
+};
 
-  /// @brief Conversion into unwrapped enum value
-  constexpr operator __ETrackedDeviceClass_Unwrapped() const noexcept {
-    return static_cast<__ETrackedDeviceClass_Unwrapped>(this->value__);
-  }
+/// @brief Conversion into unwrapped enum value
+constexpr operator __ETrackedDeviceClass_Unwrapped () const noexcept {
+return static_cast<__ETrackedDeviceClass_Unwrapped>(this->value__);
+}
 
-  /// @brief Conversion into unwrapped enum value
-  constexpr explicit operator int32_t() const noexcept {
-    return static_cast<int32_t>(this->value__);
-  }
+/// @brief Conversion into unwrapped enum value
+constexpr explicit operator int32_t () const noexcept {
+return static_cast<int32_t>(this->value__);
+}
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ETrackedDeviceClass();
+// Ctor Parameters []
+// @brief default ctor
+constexpr ETrackedDeviceClass() ;
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr ETrackedDeviceClass(int32_t value__) noexcept;
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr ETrackedDeviceClass(int32_t  value__) noexcept;
 
-  /// @brief Field Controller value: I32(2)
-  static ::OVR::OpenVR::ETrackedDeviceClass const Controller;
+/// @brief Field Controller value: I32(2)
+static ::OVR::OpenVR::ETrackedDeviceClass const Controller;
 
-  /// @brief Field DisplayRedirect value: I32(5)
-  static ::OVR::OpenVR::ETrackedDeviceClass const DisplayRedirect;
+/// @brief Field DisplayRedirect value: I32(5)
+static ::OVR::OpenVR::ETrackedDeviceClass const DisplayRedirect;
 
-  /// @brief Field GenericTracker value: I32(3)
-  static ::OVR::OpenVR::ETrackedDeviceClass const GenericTracker;
+/// @brief Field GenericTracker value: I32(3)
+static ::OVR::OpenVR::ETrackedDeviceClass const GenericTracker;
 
-  /// @brief Field HMD value: I32(1)
-  static ::OVR::OpenVR::ETrackedDeviceClass const HMD;
+/// @brief Field HMD value: I32(1)
+static ::OVR::OpenVR::ETrackedDeviceClass const HMD;
 
-  /// @brief Field Invalid value: I32(0)
-  static ::OVR::OpenVR::ETrackedDeviceClass const Invalid;
+/// @brief Field Invalid value: I32(0)
+static ::OVR::OpenVR::ETrackedDeviceClass const Invalid;
 
-  /// @brief Field Max value: I32(6)
-  static ::OVR::OpenVR::ETrackedDeviceClass const Max;
+/// @brief Field Max value: I32(6)
+static ::OVR::OpenVR::ETrackedDeviceClass const Max;
 
-  /// @brief Field TrackingReference value: I32(4)
-  static ::OVR::OpenVR::ETrackedDeviceClass const TrackingReference;
+/// @brief Field TrackingReference value: I32(4)
+static ::OVR::OpenVR::ETrackedDeviceClass const TrackingReference;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8383 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8387};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x4};
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+/// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+ int32_t  value__;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::OVR::OpenVR::ETrackedDeviceClass, value__) == 0x0, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::ETrackedDeviceClass, 0x4>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::ETrackedDeviceClass, "OVR.OpenVR", "ETrackedDeviceClass");

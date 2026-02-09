@@ -33,43 +33,43 @@ namespace UnityEngine::InputSystem::LowLevel {
 // CS Name: UnityEngine.InputSystem.LowLevel.InputDeviceExecuteCommandDelegate
 class CORDL_TYPE InputDeviceExecuteCommandDelegate : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x63f71c4, size 0x90, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::ByRef<::UnityEngine::InputSystem::LowLevel::InputDeviceCommand> command, ::System::AsyncCallback* callback, ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x63f7884, size 0x90, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(::ByRef<::UnityEngine::InputSystem::LowLevel::InputDeviceCommand>  command, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x63f7254, size 0x24, virtual true, abstract: false, final false
-  inline int64_t EndInvoke(::ByRef<::UnityEngine::InputSystem::LowLevel::InputDeviceCommand> command, ::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x63f7914, size 0x24, virtual true, abstract: false, final false
+inline int64_t EndInvoke(::ByRef<::UnityEngine::InputSystem::LowLevel::InputDeviceCommand>  command, ::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x63f71b0, size 0x14, virtual true, abstract: false, final false
-  inline int64_t Invoke(::ByRef<::UnityEngine::InputSystem::LowLevel::InputDeviceCommand> command);
+/// @brief Method Invoke, addr 0x63f7870, size 0x14, virtual true, abstract: false, final false
+inline int64_t Invoke(::ByRef<::UnityEngine::InputSystem::LowLevel::InputDeviceCommand>  command) ;
 
-  static inline ::UnityEngine::InputSystem::LowLevel::InputDeviceExecuteCommandDelegate* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::UnityEngine::InputSystem::LowLevel::InputDeviceExecuteCommandDelegate* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x63f7134, size 0x7c, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x63f77f4, size 0x7c, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr InputDeviceExecuteCommandDelegate();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr InputDeviceExecuteCommandDelegate() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InputDeviceExecuteCommandDelegate", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  InputDeviceExecuteCommandDelegate(InputDeviceExecuteCommandDelegate&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InputDeviceExecuteCommandDelegate", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  InputDeviceExecuteCommandDelegate(InputDeviceExecuteCommandDelegate const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "InputDeviceExecuteCommandDelegate", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+InputDeviceExecuteCommandDelegate(InputDeviceExecuteCommandDelegate && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8943 };
+// Ctor Parameters [CppParam { name: "", ty: "InputDeviceExecuteCommandDelegate", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+InputDeviceExecuteCommandDelegate(InputDeviceExecuteCommandDelegate const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8947};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::LowLevel::InputDeviceExecuteCommandDelegate, 0x80>, "Size mismatch!");
 
-} // namespace UnityEngine::InputSystem::LowLevel
+} // namespace end def UnityEngine::InputSystem::LowLevel
 NEED_NO_BOX(::UnityEngine::InputSystem::LowLevel::InputDeviceExecuteCommandDelegate);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::LowLevel::InputDeviceExecuteCommandDelegate*, "UnityEngine.InputSystem.LowLevel", "InputDeviceExecuteCommandDelegate");

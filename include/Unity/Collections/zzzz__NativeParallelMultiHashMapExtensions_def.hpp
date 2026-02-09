@@ -7,7 +7,8 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(NativeParallelMultiHashMapExtensions)
 namespace Unity::Collections {
-template <typename TKey, typename TValue> struct NativeParallelMultiHashMap_2;
+template<typename TKey,typename TValue>
+struct NativeParallelMultiHashMap_2;
 }
 // Forward declare root types
 namespace Unity::Collections {
@@ -21,33 +22,33 @@ namespace Unity::Collections {
 // CS Name: Unity.Collections.NativeParallelMultiHashMapExtensions
 class CORDL_TYPE NativeParallelMultiHashMapExtensions : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method Initialize, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TKey, typename TValue, typename U>
-  static inline void Initialize(::ByRef<::Unity::Collections::NativeParallelMultiHashMap_2<TKey, TValue>> container, int32_t capacity, ::ByRef<U> allocator);
+// Declarations
+/// @brief Method Initialize, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+template<typename TKey,typename TValue,typename U>
+static inline void Initialize(::ByRef<::Unity::Collections::NativeParallelMultiHashMap_2<TKey,TValue>>  container, int32_t  capacity, ::ByRef<U>  allocator) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NativeParallelMultiHashMapExtensions();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr NativeParallelMultiHashMapExtensions() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NativeParallelMultiHashMapExtensions", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  NativeParallelMultiHashMapExtensions(NativeParallelMultiHashMapExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NativeParallelMultiHashMapExtensions", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  NativeParallelMultiHashMapExtensions(NativeParallelMultiHashMapExtensions const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "NativeParallelMultiHashMapExtensions", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+NativeParallelMultiHashMapExtensions(NativeParallelMultiHashMapExtensions && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15645 };
+// Ctor Parameters [CppParam { name: "", ty: "NativeParallelMultiHashMapExtensions", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+NativeParallelMultiHashMapExtensions(NativeParallelMultiHashMapExtensions const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{15649};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Unity::Collections::NativeParallelMultiHashMapExtensions, 0x10>, "Size mismatch!");
 
-} // namespace Unity::Collections
+} // namespace end def Unity::Collections
 NEED_NO_BOX(::Unity::Collections::NativeParallelMultiHashMapExtensions);
 DEFINE_IL2CPP_ARG_TYPE(::Unity::Collections::NativeParallelMultiHashMapExtensions*, "Unity.Collections", "NativeParallelMultiHashMapExtensions");

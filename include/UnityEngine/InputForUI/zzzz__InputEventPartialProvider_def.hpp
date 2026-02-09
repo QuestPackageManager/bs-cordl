@@ -10,7 +10,8 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(InputEventPartialProvider)
 namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class IDictionary_2;
+template<typename TKey,typename TValue>
+class IDictionary_2;
 }
 namespace Unity::IntegerTime {
 struct DiscreteTime;
@@ -48,143 +49,141 @@ namespace UnityEngine::InputForUI {
 // CS Name: UnityEngine.InputForUI.InputEventPartialProvider
 class CORDL_TYPE InputEventPartialProvider : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field _IMGUICommandToInputForUICommandType, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get__IMGUICommandToInputForUICommandType,
-                      put = __cordl_internal_set__IMGUICommandToInputForUICommandType)) ::System::Collections::Generic::IDictionary_2<::StringW, ::UnityEngine::InputForUI::CommandEvent_Command>*
-      _IMGUICommandToInputForUICommandType;
+// Declarations
+/// @brief Field _IMGUICommandToInputForUICommandType, offset 0x50, size 0x8 
+ __declspec(property(get=__cordl_internal_get__IMGUICommandToInputForUICommandType, put=__cordl_internal_set__IMGUICommandToInputForUICommandType)) ::System::Collections::Generic::IDictionary_2<::StringW,::UnityEngine::InputForUI::CommandEvent_Command>*  _IMGUICommandToInputForUICommandType;
 
-  /// @brief Field _ev, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__ev, put = __cordl_internal_set__ev)) ::UnityEngine::Event* _ev;
+/// @brief Field _ev, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get__ev, put=__cordl_internal_set__ev)) ::UnityEngine::Event*  _ev;
 
-  /// @brief Field _eventModifiers, offset 0x44, size 0x4
-  __declspec(property(get = __cordl_internal_get__eventModifiers, put = __cordl_internal_set__eventModifiers)) ::UnityEngine::InputForUI::EventModifiers _eventModifiers;
+/// @brief Field _eventModifiers, offset 0x44, size 0x4 
+ __declspec(property(get=__cordl_internal_get__eventModifiers, put=__cordl_internal_set__eventModifiers)) ::UnityEngine::InputForUI::EventModifiers  _eventModifiers;
 
-  /// @brief Field _keyboardButtonsState, offset 0x1c, size 0x28
-  __declspec(property(get = __cordl_internal_get__keyboardButtonsState, put = __cordl_internal_set__keyboardButtonsState)) ::UnityEngine::InputForUI::KeyEvent_ButtonsState _keyboardButtonsState;
+/// @brief Field _keyboardButtonsState, offset 0x1c, size 0x28 
+ __declspec(property(get=__cordl_internal_get__keyboardButtonsState, put=__cordl_internal_set__keyboardButtonsState)) ::UnityEngine::InputForUI::KeyEvent_ButtonsState  _keyboardButtonsState;
 
-  /// @brief Field _operatingSystemFamily, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get__operatingSystemFamily, put = __cordl_internal_set__operatingSystemFamily)) ::UnityEngine::OperatingSystemFamily _operatingSystemFamily;
+/// @brief Field _operatingSystemFamily, offset 0x18, size 0x4 
+ __declspec(property(get=__cordl_internal_get__operatingSystemFamily, put=__cordl_internal_set__operatingSystemFamily)) ::UnityEngine::OperatingSystemFamily  _operatingSystemFamily;
 
-  /// @brief Field _sendNavigationEventOnTabKey, offset 0x48, size 0x1
-  __declspec(property(get = __cordl_internal_get__sendNavigationEventOnTabKey, put = __cordl_internal_set__sendNavigationEventOnTabKey)) bool _sendNavigationEventOnTabKey;
+/// @brief Field _sendNavigationEventOnTabKey, offset 0x48, size 0x1 
+ __declspec(property(get=__cordl_internal_get__sendNavigationEventOnTabKey, put=__cordl_internal_set__sendNavigationEventOnTabKey)) bool  _sendNavigationEventOnTabKey;
 
-  /// @brief Convert operator to "::UnityEngine::InputForUI::IEventProviderImpl"
-  constexpr operator ::UnityEngine::InputForUI::IEventProviderImpl*() noexcept;
+/// @brief Convert operator to "::UnityEngine::InputForUI::IEventProviderImpl"
+constexpr operator  ::UnityEngine::InputForUI::IEventProviderImpl*() noexcept;
 
-  /// @brief Method GetTimestamp, addr 0x6991e6c, size 0x18, virtual false, abstract: false, final false
-  inline ::Unity::IntegerTime::DiscreteTime GetTimestamp(::ByRef<::UnityEngine::Event*> ev);
+/// @brief Method GetTimestamp, addr 0x699252c, size 0x18, virtual false, abstract: false, final false
+inline ::Unity::IntegerTime::DiscreteTime GetTimestamp(::ByRef<::UnityEngine::Event*>  ev) ;
 
-  /// @brief Method Initialize, addr 0x6990f2c, size 0x1b0, virtual true, abstract: false, final true
-  inline void Initialize();
+/// @brief Method Initialize, addr 0x69915ec, size 0x1b0, virtual true, abstract: false, final true
+inline void Initialize() ;
 
-  static inline ::UnityEngine::InputForUI::InputEventPartialProvider* New_ctor();
+static inline ::UnityEngine::InputForUI::InputEventPartialProvider* New_ctor() ;
 
-  /// @brief Method OnFocusChanged, addr 0x6991bac, size 0x178, virtual true, abstract: false, final true
-  inline void OnFocusChanged(bool focus);
+/// @brief Method OnFocusChanged, addr 0x699226c, size 0x178, virtual true, abstract: false, final true
+inline void OnFocusChanged(bool  focus) ;
 
-  /// @brief Method RequestCurrentState, addr 0x6991d24, size 0x148, virtual true, abstract: false, final true
-  inline bool RequestCurrentState(::UnityEngine::InputForUI::Event_Type type);
+/// @brief Method RequestCurrentState, addr 0x69923e4, size 0x148, virtual true, abstract: false, final true
+inline bool RequestCurrentState(::UnityEngine::InputForUI::Event_Type  type) ;
 
-  /// @brief Method SendNextOrPreviousNavigationEventOnTabKeyDownEvent, addr 0x6991820, size 0x168, virtual false, abstract: false, final false
-  inline void SendNextOrPreviousNavigationEventOnTabKeyDownEvent(::ByRef<::UnityEngine::Event*> ev);
+/// @brief Method SendNextOrPreviousNavigationEventOnTabKeyDownEvent, addr 0x6991ee0, size 0x168, virtual false, abstract: false, final false
+inline void SendNextOrPreviousNavigationEventOnTabKeyDownEvent(::ByRef<::UnityEngine::Event*>  ev) ;
 
-  /// @brief Method Shutdown, addr 0x69910dc, size 0x4, virtual true, abstract: false, final true
-  inline void Shutdown();
+/// @brief Method Shutdown, addr 0x699179c, size 0x4, virtual true, abstract: false, final true
+inline void Shutdown() ;
 
-  /// @brief Method ToCommandEvent, addr 0x69919f0, size 0x1bc, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputForUI::CommandEvent ToCommandEvent(::ByRef<::UnityEngine::Event*> ev);
+/// @brief Method ToCommandEvent, addr 0x69920b0, size 0x1bc, virtual false, abstract: false, final false
+inline ::UnityEngine::InputForUI::CommandEvent ToCommandEvent(::ByRef<::UnityEngine::Event*>  ev) ;
 
-  /// @brief Method ToKeyEvent, addr 0x69916b0, size 0x170, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputForUI::KeyEvent ToKeyEvent(::ByRef<::UnityEngine::Event*> ev);
+/// @brief Method ToKeyEvent, addr 0x6991d70, size 0x170, virtual false, abstract: false, final false
+inline ::UnityEngine::InputForUI::KeyEvent ToKeyEvent(::ByRef<::UnityEngine::Event*>  ev) ;
 
-  /// @brief Method ToTextInputEvent, addr 0x6991988, size 0x68, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputForUI::TextInputEvent ToTextInputEvent(::ByRef<::UnityEngine::Event*> ev);
+/// @brief Method ToTextInputEvent, addr 0x6992048, size 0x68, virtual false, abstract: false, final false
+inline ::UnityEngine::InputForUI::TextInputEvent ToTextInputEvent(::ByRef<::UnityEngine::Event*>  ev) ;
 
-  /// @brief Method Update, addr 0x69910e0, size 0x2e0, virtual true, abstract: false, final true
-  inline void Update();
+/// @brief Method Update, addr 0x69917a0, size 0x2e0, virtual true, abstract: false, final true
+inline void Update() ;
 
-  /// @brief Method UpdateEventModifiers, addr 0x69913c0, size 0x2f0, virtual false, abstract: false, final false
-  inline void UpdateEventModifiers(::ByRef<::UnityEngine::Event*> ev);
+/// @brief Method UpdateEventModifiers, addr 0x6991a80, size 0x2f0, virtual false, abstract: false, final false
+inline void UpdateEventModifiers(::ByRef<::UnityEngine::Event*>  ev) ;
 
-  constexpr ::System::Collections::Generic::IDictionary_2<::StringW, ::UnityEngine::InputForUI::CommandEvent_Command>* const& __cordl_internal_get__IMGUICommandToInputForUICommandType() const;
+constexpr ::System::Collections::Generic::IDictionary_2<::StringW,::UnityEngine::InputForUI::CommandEvent_Command>* const& __cordl_internal_get__IMGUICommandToInputForUICommandType() const;
 
-  constexpr ::System::Collections::Generic::IDictionary_2<::StringW, ::UnityEngine::InputForUI::CommandEvent_Command>*& __cordl_internal_get__IMGUICommandToInputForUICommandType();
+constexpr ::System::Collections::Generic::IDictionary_2<::StringW,::UnityEngine::InputForUI::CommandEvent_Command>*& __cordl_internal_get__IMGUICommandToInputForUICommandType() ;
 
-  constexpr ::UnityEngine::Event* const& __cordl_internal_get__ev() const;
+constexpr ::UnityEngine::Event* const& __cordl_internal_get__ev() const;
 
-  constexpr ::UnityEngine::Event*& __cordl_internal_get__ev();
+constexpr ::UnityEngine::Event*& __cordl_internal_get__ev() ;
 
-  constexpr ::UnityEngine::InputForUI::EventModifiers const& __cordl_internal_get__eventModifiers() const;
+constexpr ::UnityEngine::InputForUI::EventModifiers const& __cordl_internal_get__eventModifiers() const;
 
-  constexpr ::UnityEngine::InputForUI::EventModifiers& __cordl_internal_get__eventModifiers();
+constexpr ::UnityEngine::InputForUI::EventModifiers& __cordl_internal_get__eventModifiers() ;
 
-  constexpr ::UnityEngine::InputForUI::KeyEvent_ButtonsState const& __cordl_internal_get__keyboardButtonsState() const;
+constexpr ::UnityEngine::InputForUI::KeyEvent_ButtonsState const& __cordl_internal_get__keyboardButtonsState() const;
 
-  constexpr ::UnityEngine::InputForUI::KeyEvent_ButtonsState& __cordl_internal_get__keyboardButtonsState();
+constexpr ::UnityEngine::InputForUI::KeyEvent_ButtonsState& __cordl_internal_get__keyboardButtonsState() ;
 
-  constexpr ::UnityEngine::OperatingSystemFamily const& __cordl_internal_get__operatingSystemFamily() const;
+constexpr ::UnityEngine::OperatingSystemFamily const& __cordl_internal_get__operatingSystemFamily() const;
 
-  constexpr ::UnityEngine::OperatingSystemFamily& __cordl_internal_get__operatingSystemFamily();
+constexpr ::UnityEngine::OperatingSystemFamily& __cordl_internal_get__operatingSystemFamily() ;
 
-  constexpr bool const& __cordl_internal_get__sendNavigationEventOnTabKey() const;
+constexpr bool const& __cordl_internal_get__sendNavigationEventOnTabKey() const;
 
-  constexpr bool& __cordl_internal_get__sendNavigationEventOnTabKey();
+constexpr bool& __cordl_internal_get__sendNavigationEventOnTabKey() ;
 
-  constexpr void __cordl_internal_set__IMGUICommandToInputForUICommandType(::System::Collections::Generic::IDictionary_2<::StringW, ::UnityEngine::InputForUI::CommandEvent_Command>* value);
+constexpr void __cordl_internal_set__IMGUICommandToInputForUICommandType(::System::Collections::Generic::IDictionary_2<::StringW,::UnityEngine::InputForUI::CommandEvent_Command>*  value) ;
 
-  constexpr void __cordl_internal_set__ev(::UnityEngine::Event* value);
+constexpr void __cordl_internal_set__ev(::UnityEngine::Event*  value) ;
 
-  constexpr void __cordl_internal_set__eventModifiers(::UnityEngine::InputForUI::EventModifiers value);
+constexpr void __cordl_internal_set__eventModifiers(::UnityEngine::InputForUI::EventModifiers  value) ;
 
-  constexpr void __cordl_internal_set__keyboardButtonsState(::UnityEngine::InputForUI::KeyEvent_ButtonsState value);
+constexpr void __cordl_internal_set__keyboardButtonsState(::UnityEngine::InputForUI::KeyEvent_ButtonsState  value) ;
 
-  constexpr void __cordl_internal_set__operatingSystemFamily(::UnityEngine::OperatingSystemFamily value);
+constexpr void __cordl_internal_set__operatingSystemFamily(::UnityEngine::OperatingSystemFamily  value) ;
 
-  constexpr void __cordl_internal_set__sendNavigationEventOnTabKey(bool value);
+constexpr void __cordl_internal_set__sendNavigationEventOnTabKey(bool  value) ;
 
-  /// @brief Method .ctor, addr 0x6991e84, size 0x674, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6992544, size 0x674, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Convert to "::UnityEngine::InputForUI::IEventProviderImpl"
-  constexpr ::UnityEngine::InputForUI::IEventProviderImpl* i___UnityEngine__InputForUI__IEventProviderImpl() noexcept;
+/// @brief Convert to "::UnityEngine::InputForUI::IEventProviderImpl"
+constexpr ::UnityEngine::InputForUI::IEventProviderImpl* i___UnityEngine__InputForUI__IEventProviderImpl() noexcept;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr InputEventPartialProvider();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr InputEventPartialProvider() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InputEventPartialProvider", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  InputEventPartialProvider(InputEventPartialProvider&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InputEventPartialProvider", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  InputEventPartialProvider(InputEventPartialProvider const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "InputEventPartialProvider", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+InputEventPartialProvider(InputEventPartialProvider && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21636 };
+// Ctor Parameters [CppParam { name: "", ty: "InputEventPartialProvider", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+InputEventPartialProvider(InputEventPartialProvider const& ) = delete;
 
-  /// @brief Field _ev, offset: 0x10, size: 0x8, def value: None
-  ::UnityEngine::Event* ____ev;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{21640};
 
-  /// @brief Field _operatingSystemFamily, offset: 0x18, size: 0x4, def value: None
-  ::UnityEngine::OperatingSystemFamily ____operatingSystemFamily;
+/// @brief Field _ev, offset: 0x10, size: 0x8, def value: None
+ ::UnityEngine::Event*  ____ev;
 
-  /// @brief Field _keyboardButtonsState, offset: 0x1c, size: 0x28, def value: None
-  ::UnityEngine::InputForUI::KeyEvent_ButtonsState ____keyboardButtonsState;
+/// @brief Field _operatingSystemFamily, offset: 0x18, size: 0x4, def value: None
+ ::UnityEngine::OperatingSystemFamily  ____operatingSystemFamily;
 
-  /// @brief Field _eventModifiers, offset: 0x44, size: 0x4, def value: None
-  ::UnityEngine::InputForUI::EventModifiers ____eventModifiers;
+/// @brief Field _keyboardButtonsState, offset: 0x1c, size: 0x28, def value: None
+ ::UnityEngine::InputForUI::KeyEvent_ButtonsState  ____keyboardButtonsState;
 
-  /// @brief Field _sendNavigationEventOnTabKey, offset: 0x48, size: 0x1, def value: None
-  bool ____sendNavigationEventOnTabKey;
+/// @brief Field _eventModifiers, offset: 0x44, size: 0x4, def value: None
+ ::UnityEngine::InputForUI::EventModifiers  ____eventModifiers;
 
-  /// @brief Field _IMGUICommandToInputForUICommandType, offset: 0x50, size: 0x8, def value: None
-  ::System::Collections::Generic::IDictionary_2<::StringW, ::UnityEngine::InputForUI::CommandEvent_Command>* ____IMGUICommandToInputForUICommandType;
+/// @brief Field _sendNavigationEventOnTabKey, offset: 0x48, size: 0x1, def value: None
+ bool  ____sendNavigationEventOnTabKey;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _IMGUICommandToInputForUICommandType, offset: 0x50, size: 0x8, def value: None
+ ::System::Collections::Generic::IDictionary_2<::StringW,::UnityEngine::InputForUI::CommandEvent_Command>*  ____IMGUICommandToInputForUICommandType;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::InputForUI::InputEventPartialProvider, ____ev) == 0x10, "Offset mismatch!");
@@ -201,6 +200,6 @@ static_assert(offsetof(::UnityEngine::InputForUI::InputEventPartialProvider, ___
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputForUI::InputEventPartialProvider, 0x58>, "Size mismatch!");
 
-} // namespace UnityEngine::InputForUI
+} // namespace end def UnityEngine::InputForUI
 NEED_NO_BOX(::UnityEngine::InputForUI::InputEventPartialProvider);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputForUI::InputEventPartialProvider*, "UnityEngine.InputForUI", "InputEventPartialProvider");

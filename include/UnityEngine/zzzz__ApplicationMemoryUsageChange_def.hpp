@@ -21,37 +21,37 @@ namespace UnityEngine {
 // CS Name: UnityEngine.ApplicationMemoryUsageChange
 struct CORDL_TYPE ApplicationMemoryUsageChange {
 public:
-  // Declarations
-  __declspec(property(put = set_memoryUsage)) ::UnityEngine::ApplicationMemoryUsage memoryUsage;
+// Declarations
+ __declspec(property(put=set_memoryUsage)) ::UnityEngine::ApplicationMemoryUsage  memoryUsage;
 
-  /// @brief Method .ctor, addr 0x689b344, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::ApplicationMemoryUsage usage);
+/// @brief Method .ctor, addr 0x689ba04, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(::UnityEngine::ApplicationMemoryUsage  usage) ;
 
-  /// @brief Method set_memoryUsage, addr 0x689c624, size 0x8, virtual false, abstract: false, final false
-  inline void set_memoryUsage(::UnityEngine::ApplicationMemoryUsage value);
+/// @brief Method set_memoryUsage, addr 0x689cce4, size 0x8, virtual false, abstract: false, final false
+inline void set_memoryUsage(::UnityEngine::ApplicationMemoryUsage  value) ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ApplicationMemoryUsageChange();
+// Ctor Parameters []
+// @brief default ctor
+constexpr ApplicationMemoryUsageChange() ;
 
-  // Ctor Parameters [CppParam { name: "_memoryUsage_k__BackingField", ty: "::UnityEngine::ApplicationMemoryUsage", modifiers: "", def_value: None }]
-  constexpr ApplicationMemoryUsageChange(::UnityEngine::ApplicationMemoryUsage _memoryUsage_k__BackingField) noexcept;
+// Ctor Parameters [CppParam { name: "_memoryUsage_k__BackingField", ty: "::UnityEngine::ApplicationMemoryUsage", modifiers: "", def_value: None }]
+constexpr ApplicationMemoryUsageChange(::UnityEngine::ApplicationMemoryUsage  _memoryUsage_k__BackingField) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10041 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10045};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x4};
 
-  /// @brief Field <memoryUsage>k__BackingField, offset: 0x0, size: 0x4, def value: None
-  ::UnityEngine::ApplicationMemoryUsage _memoryUsage_k__BackingField;
+/// @brief Field <memoryUsage>k__BackingField, offset: 0x0, size: 0x4, def value: None
+ ::UnityEngine::ApplicationMemoryUsage  _memoryUsage_k__BackingField;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::ApplicationMemoryUsageChange, _memoryUsage_k__BackingField) == 0x0, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ApplicationMemoryUsageChange, 0x4>, "Size mismatch!");
 
-} // namespace UnityEngine
+} // namespace end def UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ApplicationMemoryUsageChange, "UnityEngine", "ApplicationMemoryUsageChange");

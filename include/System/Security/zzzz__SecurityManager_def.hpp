@@ -17,35 +17,35 @@ namespace System::Security {
 // CS Name: System.Security.SecurityManager
 class CORDL_TYPE SecurityManager : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method EnsureElevatedPermissions, addr 0x594245c, size 0x4, virtual false, abstract: false, final false
-  static inline void EnsureElevatedPermissions();
+// Declarations
+/// @brief Method EnsureElevatedPermissions, addr 0x5942968, size 0x4, virtual false, abstract: false, final false
+static inline void EnsureElevatedPermissions() ;
 
-  /// @brief Method get_SecurityEnabled, addr 0x593efac, size 0x8, virtual false, abstract: false, final false
-  static inline bool get_SecurityEnabled();
+/// @brief Method get_SecurityEnabled, addr 0x593f4b8, size 0x8, virtual false, abstract: false, final false
+static inline bool get_SecurityEnabled() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SecurityManager();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr SecurityManager() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SecurityManager", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  SecurityManager(SecurityManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SecurityManager", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  SecurityManager(SecurityManager const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "SecurityManager", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+SecurityManager(SecurityManager && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2910 };
+// Ctor Parameters [CppParam { name: "", ty: "SecurityManager", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+SecurityManager(SecurityManager const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{2910};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Security::SecurityManager, 0x10>, "Size mismatch!");
 
-} // namespace System::Security
+} // namespace end def System::Security
 NEED_NO_BOX(::System::Security::SecurityManager);
 DEFINE_IL2CPP_ARG_TYPE(::System::Security::SecurityManager*, "System.Security", "SecurityManager");

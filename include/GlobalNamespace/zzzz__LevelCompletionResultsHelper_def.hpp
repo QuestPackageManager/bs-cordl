@@ -52,43 +52,35 @@ namespace GlobalNamespace {
 // CS Name: LevelCompletionResultsHelper
 class CORDL_TYPE LevelCompletionResultsHelper : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method Create, addr 0x3611388, size 0x444, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::LevelCompletionResults*
-  Create(::GlobalNamespace::IReadonlyBeatmapData* beatmapData,
-         ::ArrayW<::GlobalNamespace::BeatmapObjectExecutionRating*, ::Array<::GlobalNamespace::BeatmapObjectExecutionRating*>*> beatmapObjectExecutionRatings,
-         ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::GlobalNamespace::GameplayModifiersModelSO* gameplayModifiersModel, int32_t multipliedScore, int32_t modifiedScore, int32_t maxCombo,
-         ::ArrayW<float_t, ::Array<float_t>*> saberActivityValues, float_t leftSaberMovementDistance, float_t rightSaberMovementDistance, ::ArrayW<float_t, ::Array<float_t>*> handActivityValues,
-         float_t leftHandMovementDistance, float_t rightHandMovementDistance, ::GlobalNamespace::LevelCompletionResults_LevelEndStateType levelEndStateType,
-         ::GlobalNamespace::LevelCompletionResults_LevelEndAction levelEndAction, float_t energy, float_t songTime, bool invalidated);
+// Declarations
+/// @brief Method Create, addr 0x36112d8, size 0x444, virtual false, abstract: false, final false
+static inline ::GlobalNamespace::LevelCompletionResults* Create(::GlobalNamespace::IReadonlyBeatmapData*  beatmapData, ::ArrayW<::GlobalNamespace::BeatmapObjectExecutionRating*,::Array<::GlobalNamespace::BeatmapObjectExecutionRating*>*>  beatmapObjectExecutionRatings, ::GlobalNamespace::GameplayModifiers*  gameplayModifiers, ::GlobalNamespace::GameplayModifiersModelSO*  gameplayModifiersModel, int32_t  multipliedScore, int32_t  modifiedScore, int32_t  maxCombo, ::ArrayW<float_t,::Array<float_t>*>  saberActivityValues, float_t  leftSaberMovementDistance, float_t  rightSaberMovementDistance, ::ArrayW<float_t,::Array<float_t>*>  handActivityValues, float_t  leftHandMovementDistance, float_t  rightHandMovementDistance, ::GlobalNamespace::LevelCompletionResults_LevelEndStateType  levelEndStateType, ::GlobalNamespace::LevelCompletionResults_LevelEndAction  levelEndAction, float_t  energy, float_t  songTime, bool  invalidated) ;
 
-  /// @brief Method ProcessScore, addr 0x36117cc, size 0x148, virtual false, abstract: false, final false
-  static inline void ProcessScore(::ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::PlayerData* playerData, ::GlobalNamespace::PlayerLevelStatsData* playerLevelStats,
-                                  ::GlobalNamespace::LevelCompletionResults* levelCompletionResults, ::GlobalNamespace::IReadonlyBeatmapData* transformedBeatmapData,
-                                  ::GlobalNamespace::PlatformLeaderboardsModel* platformLeaderboardsModel);
+/// @brief Method ProcessScore, addr 0x361171c, size 0x148, virtual false, abstract: false, final false
+static inline void ProcessScore(::ByRef<::GlobalNamespace::BeatmapKey>  beatmapKey, ::GlobalNamespace::PlayerData*  playerData, ::GlobalNamespace::PlayerLevelStatsData*  playerLevelStats, ::GlobalNamespace::LevelCompletionResults*  levelCompletionResults, ::GlobalNamespace::IReadonlyBeatmapData*  transformedBeatmapData, ::GlobalNamespace::PlatformLeaderboardsModel*  platformLeaderboardsModel) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LevelCompletionResultsHelper();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr LevelCompletionResultsHelper() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LevelCompletionResultsHelper", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  LevelCompletionResultsHelper(LevelCompletionResultsHelper&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LevelCompletionResultsHelper", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  LevelCompletionResultsHelper(LevelCompletionResultsHelper const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "LevelCompletionResultsHelper", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+LevelCompletionResultsHelper(LevelCompletionResultsHelper && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14842 };
+// Ctor Parameters [CppParam { name: "", ty: "LevelCompletionResultsHelper", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+LevelCompletionResultsHelper(LevelCompletionResultsHelper const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{14846};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LevelCompletionResultsHelper, 0x10>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::LevelCompletionResultsHelper);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LevelCompletionResultsHelper*, "", "LevelCompletionResultsHelper");

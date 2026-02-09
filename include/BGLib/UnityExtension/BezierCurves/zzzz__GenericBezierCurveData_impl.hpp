@@ -6,192 +6,212 @@
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 //  Writing Method size for method: ::BGLib::UnityExtension::BezierCurves::GenericBezierCurveData.get_startPoint
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::BGLib::UnityExtension::BezierCurves::GenericBezierCurveData::*)()>(
-    &::BGLib::UnityExtension::BezierCurves::GenericBezierCurveData::get_startPoint)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::BGLib::UnityExtension::BezierCurves::GenericBezierCurveData::*)()>(&::BGLib::UnityExtension::BezierCurves::GenericBezierCurveData::get_startPoint)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x32306b4;
+  constexpr static std::size_t addrs = 0x3230604;
 
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::UnityExtension::BezierCurves::GenericBezierCurveData*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::UnityExtension::BezierCurves::GenericBezierCurveData*>::get(), 4));
+  inline static const ::MethodInfo* methodInfo() {
+    
+                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::UnityExtension::BezierCurves::GenericBezierCurveData*>::get(),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::UnityExtension::BezierCurves::GenericBezierCurveData*>::get(),
+                                  4
+                                ));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::BGLib::UnityExtension::BezierCurves::GenericBezierCurveData.get_endPoint
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::BGLib::UnityExtension::BezierCurves::GenericBezierCurveData::*)()>(
-    &::BGLib::UnityExtension::BezierCurves::GenericBezierCurveData::get_endPoint)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::BGLib::UnityExtension::BezierCurves::GenericBezierCurveData::*)()>(&::BGLib::UnityExtension::BezierCurves::GenericBezierCurveData::get_endPoint)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x32306c0;
+  constexpr static std::size_t addrs = 0x3230610;
 
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::UnityExtension::BezierCurves::GenericBezierCurveData*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::UnityExtension::BezierCurves::GenericBezierCurveData*>::get(), 5));
+  inline static const ::MethodInfo* methodInfo() {
+    
+                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::UnityExtension::BezierCurves::GenericBezierCurveData*>::get(),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::UnityExtension::BezierCurves::GenericBezierCurveData*>::get(),
+                                  5
+                                ));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::BGLib::UnityExtension::BezierCurves::GenericBezierCurveData.SetStartPoint
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::UnityExtension::BezierCurves::GenericBezierCurveData::*)(::UnityEngine::Vector3)>(
-    &::BGLib::UnityExtension::BezierCurves::GenericBezierCurveData::SetStartPoint)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::UnityExtension::BezierCurves::GenericBezierCurveData::*)(::UnityEngine::Vector3)>(&::BGLib::UnityExtension::BezierCurves::GenericBezierCurveData::SetStartPoint)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x32306cc;
+  constexpr static std::size_t addrs = 0x323061c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::UnityExtension::BezierCurves::GenericBezierCurveData*>::get(), "SetStartPoint", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::UnityExtension::BezierCurves::GenericBezierCurveData*>::get(),
+                        "SetStartPoint",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::BGLib::UnityExtension::BezierCurves::GenericBezierCurveData.SetEndPoint
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::UnityExtension::BezierCurves::GenericBezierCurveData::*)(::UnityEngine::Vector3)>(
-    &::BGLib::UnityExtension::BezierCurves::GenericBezierCurveData::SetEndPoint)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::UnityExtension::BezierCurves::GenericBezierCurveData::*)(::UnityEngine::Vector3)>(&::BGLib::UnityExtension::BezierCurves::GenericBezierCurveData::SetEndPoint)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x32306d8;
+  constexpr static std::size_t addrs = 0x3230628;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::UnityExtension::BezierCurves::GenericBezierCurveData*>::get(), "SetEndPoint", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::UnityExtension::BezierCurves::GenericBezierCurveData*>::get(),
+                        "SetEndPoint",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::BGLib::UnityExtension::BezierCurves::GenericBezierCurveData.RotatePointsAroundPivot
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::BGLib::UnityExtension::BezierCurves::GenericBezierCurveData* (::BGLib::UnityExtension::BezierCurves::GenericBezierCurveData::*)(::UnityEngine::Vector3, ::UnityEngine::Quaternion)>(
-        &::BGLib::UnityExtension::BezierCurves::GenericBezierCurveData::RotatePointsAroundPivot)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BGLib::UnityExtension::BezierCurves::GenericBezierCurveData* (::BGLib::UnityExtension::BezierCurves::GenericBezierCurveData::*)(::UnityEngine::Vector3, ::UnityEngine::Quaternion)>(&::BGLib::UnityExtension::BezierCurves::GenericBezierCurveData::RotatePointsAroundPivot)> {
   constexpr static std::size_t size = 0x264;
-  constexpr static std::size_t addrs = 0x32306e4;
+  constexpr static std::size_t addrs = 0x3230634;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::UnityExtension::BezierCurves::GenericBezierCurveData*>::get(),
-                                                 "RotatePointsAroundPivot", std::span<Il2CppClass const* const, 0>(),
-                                                 ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Quaternion>::get() })));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::UnityExtension::BezierCurves::GenericBezierCurveData*>::get(),
+                        "RotatePointsAroundPivot",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Quaternion>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::BGLib::UnityExtension::BezierCurves::GenericBezierCurveData.RotatePointAroundPivot
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Quaternion)>(
-    &::BGLib::UnityExtension::BezierCurves::GenericBezierCurveData::RotatePointAroundPivot)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Quaternion)>(&::BGLib::UnityExtension::BezierCurves::GenericBezierCurveData::RotatePointAroundPivot)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3230948;
+  constexpr static std::size_t addrs = 0x3230898;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::UnityExtension::BezierCurves::GenericBezierCurveData*>::get(),
-                                                 "RotatePointAroundPivot", std::span<Il2CppClass const* const, 0>(),
-                                                 ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Quaternion>::get() })));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::UnityExtension::BezierCurves::GenericBezierCurveData*>::get(),
+                        "RotatePointAroundPivot",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Quaternion>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::BGLib::UnityExtension::BezierCurves::GenericBezierCurveData._ctor
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::UnityExtension::BezierCurves::GenericBezierCurveData::*)()>(
-    &::BGLib::UnityExtension::BezierCurves::GenericBezierCurveData::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::UnityExtension::BezierCurves::GenericBezierCurveData::*)()>(&::BGLib::UnityExtension::BezierCurves::GenericBezierCurveData::_ctor)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x3230998;
+  constexpr static std::size_t addrs = 0x32308e8;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::UnityExtension::BezierCurves::GenericBezierCurveData*>::get(), ".ctor",
-                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::UnityExtension::BezierCurves::GenericBezierCurveData*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
-constexpr ::UnityEngine::Vector3& BGLib::UnityExtension::BezierCurves::GenericBezierCurveData::__cordl_internal_get__startPoint() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____startPoint;
+constexpr ::UnityEngine::Vector3& BGLib::UnityExtension::BezierCurves::GenericBezierCurveData::__cordl_internal_get__startPoint()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____startPoint;
 }
 constexpr ::UnityEngine::Vector3 const& BGLib::UnityExtension::BezierCurves::GenericBezierCurveData::__cordl_internal_get__startPoint() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____startPoint;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____startPoint;
 }
-constexpr void BGLib::UnityExtension::BezierCurves::GenericBezierCurveData::__cordl_internal_set__startPoint(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____startPoint = value;
+constexpr void BGLib::UnityExtension::BezierCurves::GenericBezierCurveData::__cordl_internal_set__startPoint(::UnityEngine::Vector3  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____startPoint = value;
 }
-constexpr ::UnityEngine::Vector3& BGLib::UnityExtension::BezierCurves::GenericBezierCurveData::__cordl_internal_get__endPoint() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____endPoint;
+constexpr ::UnityEngine::Vector3& BGLib::UnityExtension::BezierCurves::GenericBezierCurveData::__cordl_internal_get__endPoint()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____endPoint;
 }
 constexpr ::UnityEngine::Vector3 const& BGLib::UnityExtension::BezierCurves::GenericBezierCurveData::__cordl_internal_get__endPoint() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____endPoint;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____endPoint;
 }
-constexpr void BGLib::UnityExtension::BezierCurves::GenericBezierCurveData::__cordl_internal_set__endPoint(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____endPoint = value;
+constexpr void BGLib::UnityExtension::BezierCurves::GenericBezierCurveData::__cordl_internal_set__endPoint(::UnityEngine::Vector3  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____endPoint = value;
 }
-inline ::UnityEngine::Vector3 BGLib::UnityExtension::BezierCurves::GenericBezierCurveData::get_startPoint() {
-  auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::UnityExtension::BezierCurves::GenericBezierCurveData*>::get(), 4)));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector3, false>(this, ___internal_method);
+inline ::UnityEngine::Vector3 BGLib::UnityExtension::BezierCurves::GenericBezierCurveData::get_startPoint()  {
+auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::UnityExtension::BezierCurves::GenericBezierCurveData*>::get(),
+                            4
+                        )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector3, false>(this, ___internal_method);
 }
-inline ::UnityEngine::Vector3 BGLib::UnityExtension::BezierCurves::GenericBezierCurveData::get_endPoint() {
-  auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::UnityExtension::BezierCurves::GenericBezierCurveData*>::get(), 5)));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector3, false>(this, ___internal_method);
+inline ::UnityEngine::Vector3 BGLib::UnityExtension::BezierCurves::GenericBezierCurveData::get_endPoint()  {
+auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::UnityExtension::BezierCurves::GenericBezierCurveData*>::get(),
+                            5
+                        )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector3, false>(this, ___internal_method);
 }
-inline void BGLib::UnityExtension::BezierCurves::GenericBezierCurveData::SetStartPoint(::UnityEngine::Vector3 newValue) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::UnityExtension::BezierCurves::GenericBezierCurveData*>::get(), "SetStartPoint", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, newValue);
+inline void BGLib::UnityExtension::BezierCurves::GenericBezierCurveData::SetStartPoint(::UnityEngine::Vector3  newValue)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::UnityExtension::BezierCurves::GenericBezierCurveData*>::get(),
+                        "SetStartPoint",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, newValue);
 }
-inline void BGLib::UnityExtension::BezierCurves::GenericBezierCurveData::SetEndPoint(::UnityEngine::Vector3 newValue) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::UnityExtension::BezierCurves::GenericBezierCurveData*>::get(), "SetEndPoint", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, newValue);
+inline void BGLib::UnityExtension::BezierCurves::GenericBezierCurveData::SetEndPoint(::UnityEngine::Vector3  newValue)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::UnityExtension::BezierCurves::GenericBezierCurveData*>::get(),
+                        "SetEndPoint",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, newValue);
 }
-inline ::BGLib::UnityExtension::BezierCurves::GenericBezierCurveData* BGLib::UnityExtension::BezierCurves::GenericBezierCurveData::RotatePointsAroundPivot(::UnityEngine::Vector3 pivot,
-                                                                                                                                                           ::UnityEngine::Quaternion rot) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::UnityExtension::BezierCurves::GenericBezierCurveData*>::get(), "RotatePointsAroundPivot",
-                                               std::span<Il2CppClass const* const, 0>(),
-                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(),
-                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Quaternion>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::BGLib::UnityExtension::BezierCurves::GenericBezierCurveData*, false>(this, ___internal_method, pivot, rot);
+inline ::BGLib::UnityExtension::BezierCurves::GenericBezierCurveData* BGLib::UnityExtension::BezierCurves::GenericBezierCurveData::RotatePointsAroundPivot(::UnityEngine::Vector3  pivot, ::UnityEngine::Quaternion  rot)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::UnityExtension::BezierCurves::GenericBezierCurveData*>::get(),
+                        "RotatePointsAroundPivot",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Quaternion>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::BGLib::UnityExtension::BezierCurves::GenericBezierCurveData*, false>(this, ___internal_method, pivot, rot);
 }
-inline ::UnityEngine::Vector3 BGLib::UnityExtension::BezierCurves::GenericBezierCurveData::RotatePointAroundPivot(::UnityEngine::Vector3 point, ::UnityEngine::Vector3 pivot,
-                                                                                                                  ::UnityEngine::Quaternion rot) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::UnityExtension::BezierCurves::GenericBezierCurveData*>::get(), "RotatePointAroundPivot", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Quaternion>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector3, false>(nullptr, ___internal_method, point, pivot, rot);
+inline ::UnityEngine::Vector3 BGLib::UnityExtension::BezierCurves::GenericBezierCurveData::RotatePointAroundPivot(::UnityEngine::Vector3  point, ::UnityEngine::Vector3  pivot, ::UnityEngine::Quaternion  rot)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::UnityExtension::BezierCurves::GenericBezierCurveData*>::get(),
+                        "RotatePointAroundPivot",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Quaternion>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector3, false>(nullptr, ___internal_method, point, pivot, rot);
 }
-inline void BGLib::UnityExtension::BezierCurves::GenericBezierCurveData::_ctor() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::UnityExtension::BezierCurves::GenericBezierCurveData*>::get(), ".ctor",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void BGLib::UnityExtension::BezierCurves::GenericBezierCurveData::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::UnityExtension::BezierCurves::GenericBezierCurveData*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::BGLib::UnityExtension::BezierCurves::GenericBezierCurveData* BGLib::UnityExtension::BezierCurves::GenericBezierCurveData::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BGLib::UnityExtension::BezierCurves::GenericBezierCurveData*>());
+inline ::BGLib::UnityExtension::BezierCurves::GenericBezierCurveData* BGLib::UnityExtension::BezierCurves::GenericBezierCurveData::New_ctor()  {
+return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BGLib::UnityExtension::BezierCurves::GenericBezierCurveData*>());
 }
 // Ctor Parameters []
-constexpr ::BGLib::UnityExtension::BezierCurves::GenericBezierCurveData::GenericBezierCurveData() {}
+constexpr ::BGLib::UnityExtension::BezierCurves::GenericBezierCurveData::GenericBezierCurveData()   {
+}

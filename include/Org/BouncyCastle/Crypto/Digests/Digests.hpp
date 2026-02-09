@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "Org/BouncyCastle/Crypto/Digests/Blake2bDigest.hpp"
 #include "Org/BouncyCastle/Crypto/Digests/Blake2sDigest.hpp"
@@ -37,5 +37,6 @@ module;
 #include "Org/BouncyCastle/Crypto/Digests/TigerDigest.hpp"
 #include "Org/BouncyCastle/Crypto/Digests/WhirlpoolDigest.hpp"
 #ifdef __cpp_modules
-export module Digests;
-#endif
+                    export module Digests;
+                    #endif
+                

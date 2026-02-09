@@ -20,32 +20,32 @@ namespace System::Linq::Expressions::Interpreter {
 // CS Name: System.Linq.Expressions.Interpreter.ExceptionHelpers
 class CORDL_TYPE ExceptionHelpers : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method UnwrapAndRethrow, addr 0x5dfa1e4, size 0x18, virtual false, abstract: false, final false
-  static inline void UnwrapAndRethrow(::System::Reflection::TargetInvocationException* exception);
+// Declarations
+/// @brief Method UnwrapAndRethrow, addr 0x5dfa8a4, size 0x18, virtual false, abstract: false, final false
+static inline void UnwrapAndRethrow(::System::Reflection::TargetInvocationException*  exception) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ExceptionHelpers();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ExceptionHelpers() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ExceptionHelpers", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ExceptionHelpers(ExceptionHelpers&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ExceptionHelpers", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ExceptionHelpers(ExceptionHelpers const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ExceptionHelpers", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ExceptionHelpers(ExceptionHelpers && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16589 };
+// Ctor Parameters [CppParam { name: "", ty: "ExceptionHelpers", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ExceptionHelpers(ExceptionHelpers const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{16593};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Interpreter::ExceptionHelpers, 0x10>, "Size mismatch!");
 
-} // namespace System::Linq::Expressions::Interpreter
+} // namespace end def System::Linq::Expressions::Interpreter
 NEED_NO_BOX(::System::Linq::Expressions::Interpreter::ExceptionHelpers);
 DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::Interpreter::ExceptionHelpers*, "System.Linq.Expressions.Interpreter", "ExceptionHelpers");

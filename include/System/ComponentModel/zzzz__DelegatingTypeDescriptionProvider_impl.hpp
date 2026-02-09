@@ -10,198 +10,222 @@
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 //  Writing Method size for method: ::System::ComponentModel::DelegatingTypeDescriptionProvider._ctor
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::DelegatingTypeDescriptionProvider::*)(::System::Type*)>(
-    &::System::ComponentModel::DelegatingTypeDescriptionProvider::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::DelegatingTypeDescriptionProvider::*)(::System::Type*)>(&::System::ComponentModel::DelegatingTypeDescriptionProvider::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x620a278;
+  constexpr static std::size_t addrs = 0x620a938;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DelegatingTypeDescriptionProvider*>::get(), ".ctor",
-                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DelegatingTypeDescriptionProvider*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::ComponentModel::DelegatingTypeDescriptionProvider.get_Provider
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ComponentModel::TypeDescriptionProvider* (
-    ::System::ComponentModel::DelegatingTypeDescriptionProvider::*)()>(&::System::ComponentModel::DelegatingTypeDescriptionProvider::get_Provider)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ComponentModel::TypeDescriptionProvider* (::System::ComponentModel::DelegatingTypeDescriptionProvider::*)()>(&::System::ComponentModel::DelegatingTypeDescriptionProvider::get_Provider)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x620a284;
+  constexpr static std::size_t addrs = 0x620a944;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DelegatingTypeDescriptionProvider*>::get(), "get_Provider",
-                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DelegatingTypeDescriptionProvider*>::get(),
+                        "get_Provider",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::ComponentModel::DelegatingTypeDescriptionProvider.CreateInstance
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Object* (::System::ComponentModel::DelegatingTypeDescriptionProvider::*)(::System::IServiceProvider*, ::System::Type*, ::ArrayW<::System::Type*, ::Array<::System::Type*>*>,
-                                                                                                   ::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(
-        &::System::ComponentModel::DelegatingTypeDescriptionProvider::CreateInstance)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::ComponentModel::DelegatingTypeDescriptionProvider::*)(::System::IServiceProvider*, ::System::Type*, ::ArrayW<::System::Type*,::Array<::System::Type*>*>, ::ArrayW<::System::Object*,::Array<::System::Object*>*>)>(&::System::ComponentModel::DelegatingTypeDescriptionProvider::CreateInstance)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x620a2e4;
+  constexpr static std::size_t addrs = 0x620a9a4;
 
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DelegatingTypeDescriptionProvider*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DelegatingTypeDescriptionProvider*>::get(), 4));
+  inline static const ::MethodInfo* methodInfo() {
+    
+                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DelegatingTypeDescriptionProvider*>::get(),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DelegatingTypeDescriptionProvider*>::get(),
+                                  4
+                                ));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::ComponentModel::DelegatingTypeDescriptionProvider.GetCache
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IDictionary* (
-    ::System::ComponentModel::DelegatingTypeDescriptionProvider::*)(::System::Object*)>(&::System::ComponentModel::DelegatingTypeDescriptionProvider::GetCache)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IDictionary* (::System::ComponentModel::DelegatingTypeDescriptionProvider::*)(::System::Object*)>(&::System::ComponentModel::DelegatingTypeDescriptionProvider::GetCache)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x620a334;
+  constexpr static std::size_t addrs = 0x620a9f4;
 
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DelegatingTypeDescriptionProvider*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DelegatingTypeDescriptionProvider*>::get(), 5));
+  inline static const ::MethodInfo* methodInfo() {
+    
+                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DelegatingTypeDescriptionProvider*>::get(),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DelegatingTypeDescriptionProvider*>::get(),
+                                  5
+                                ));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::ComponentModel::DelegatingTypeDescriptionProvider.GetExtendedTypeDescriptor
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ComponentModel::ICustomTypeDescriptor* (
-    ::System::ComponentModel::DelegatingTypeDescriptionProvider::*)(::System::Object*)>(&::System::ComponentModel::DelegatingTypeDescriptionProvider::GetExtendedTypeDescriptor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ComponentModel::ICustomTypeDescriptor* (::System::ComponentModel::DelegatingTypeDescriptionProvider::*)(::System::Object*)>(&::System::ComponentModel::DelegatingTypeDescriptionProvider::GetExtendedTypeDescriptor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x620a35c;
+  constexpr static std::size_t addrs = 0x620aa1c;
 
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DelegatingTypeDescriptionProvider*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DelegatingTypeDescriptionProvider*>::get(), 6));
+  inline static const ::MethodInfo* methodInfo() {
+    
+                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DelegatingTypeDescriptionProvider*>::get(),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DelegatingTypeDescriptionProvider*>::get(),
+                                  6
+                                ));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::ComponentModel::DelegatingTypeDescriptionProvider.GetExtenderProviders
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::ComponentModel::IExtenderProvider*, ::Array<::System::ComponentModel::IExtenderProvider*>*> (
-    ::System::ComponentModel::DelegatingTypeDescriptionProvider::*)(::System::Object*)>(&::System::ComponentModel::DelegatingTypeDescriptionProvider::GetExtenderProviders)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::ComponentModel::IExtenderProvider*,::Array<::System::ComponentModel::IExtenderProvider*>*> (::System::ComponentModel::DelegatingTypeDescriptionProvider::*)(::System::Object*)>(&::System::ComponentModel::DelegatingTypeDescriptionProvider::GetExtenderProviders)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x620a384;
+  constexpr static std::size_t addrs = 0x620aa44;
 
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DelegatingTypeDescriptionProvider*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DelegatingTypeDescriptionProvider*>::get(), 7));
+  inline static const ::MethodInfo* methodInfo() {
+    
+                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DelegatingTypeDescriptionProvider*>::get(),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DelegatingTypeDescriptionProvider*>::get(),
+                                  7
+                                ));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::ComponentModel::DelegatingTypeDescriptionProvider.GetReflectionType
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::ComponentModel::DelegatingTypeDescriptionProvider::*)(::System::Type*, ::System::Object*)>(
-    &::System::ComponentModel::DelegatingTypeDescriptionProvider::GetReflectionType)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::ComponentModel::DelegatingTypeDescriptionProvider::*)(::System::Type*, ::System::Object*)>(&::System::ComponentModel::DelegatingTypeDescriptionProvider::GetReflectionType)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x620a3ac;
+  constexpr static std::size_t addrs = 0x620aa6c;
 
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DelegatingTypeDescriptionProvider*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DelegatingTypeDescriptionProvider*>::get(), 8));
+  inline static const ::MethodInfo* methodInfo() {
+    
+                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DelegatingTypeDescriptionProvider*>::get(),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DelegatingTypeDescriptionProvider*>::get(),
+                                  8
+                                ));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::ComponentModel::DelegatingTypeDescriptionProvider.GetTypeDescriptor
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ComponentModel::ICustomTypeDescriptor* (
-    ::System::ComponentModel::DelegatingTypeDescriptionProvider::*)(::System::Type*, ::System::Object*)>(&::System::ComponentModel::DelegatingTypeDescriptionProvider::GetTypeDescriptor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ComponentModel::ICustomTypeDescriptor* (::System::ComponentModel::DelegatingTypeDescriptionProvider::*)(::System::Type*, ::System::Object*)>(&::System::ComponentModel::DelegatingTypeDescriptionProvider::GetTypeDescriptor)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x620a3e4;
+  constexpr static std::size_t addrs = 0x620aaa4;
 
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DelegatingTypeDescriptionProvider*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DelegatingTypeDescriptionProvider*>::get(), 9));
+  inline static const ::MethodInfo* methodInfo() {
+    
+                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DelegatingTypeDescriptionProvider*>::get(),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DelegatingTypeDescriptionProvider*>::get(),
+                                  9
+                                ));
     return ___internal_method;
   }
 };
-constexpr ::System::Type*& System::ComponentModel::DelegatingTypeDescriptionProvider::__cordl_internal_get__type() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____type;
+constexpr ::System::Type*& System::ComponentModel::DelegatingTypeDescriptionProvider::__cordl_internal_get__type()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____type;
 }
 constexpr ::System::Type* const& System::ComponentModel::DelegatingTypeDescriptionProvider::__cordl_internal_get__type() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____type;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____type;
 }
-constexpr void System::ComponentModel::DelegatingTypeDescriptionProvider::__cordl_internal_set__type(::System::Type* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____type)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::ComponentModel::DelegatingTypeDescriptionProvider::__cordl_internal_set__type(::System::Type*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____type)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void System::ComponentModel::DelegatingTypeDescriptionProvider::_ctor(::System::Type* type) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DelegatingTypeDescriptionProvider*>::get(), ".ctor",
-                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, type);
+inline void System::ComponentModel::DelegatingTypeDescriptionProvider::_ctor(::System::Type*  type)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DelegatingTypeDescriptionProvider*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, type);
 }
-inline ::System::ComponentModel::TypeDescriptionProvider* System::ComponentModel::DelegatingTypeDescriptionProvider::get_Provider() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DelegatingTypeDescriptionProvider*>::get(), "get_Provider",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::System::ComponentModel::TypeDescriptionProvider*, false>(this, ___internal_method);
+inline ::System::ComponentModel::TypeDescriptionProvider* System::ComponentModel::DelegatingTypeDescriptionProvider::get_Provider()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DelegatingTypeDescriptionProvider*>::get(),
+                        "get_Provider",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::ComponentModel::TypeDescriptionProvider*, false>(this, ___internal_method);
 }
-inline ::System::Object* System::ComponentModel::DelegatingTypeDescriptionProvider::CreateInstance(::System::IServiceProvider* provider, ::System::Type* objectType,
-                                                                                                   ::ArrayW<::System::Type*, ::Array<::System::Type*>*> argTypes,
-                                                                                                   ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args) {
-  auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DelegatingTypeDescriptionProvider*>::get(), 4)));
-  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, provider, objectType, argTypes, args);
+inline ::System::Object* System::ComponentModel::DelegatingTypeDescriptionProvider::CreateInstance(::System::IServiceProvider*  provider, ::System::Type*  objectType, ::ArrayW<::System::Type*,::Array<::System::Type*>*>  argTypes, ::ArrayW<::System::Object*,::Array<::System::Object*>*>  args)  {
+auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DelegatingTypeDescriptionProvider*>::get(),
+                            4
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, provider, objectType, argTypes, args);
 }
-inline ::System::Collections::IDictionary* System::ComponentModel::DelegatingTypeDescriptionProvider::GetCache(::System::Object* instance) {
-  auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DelegatingTypeDescriptionProvider*>::get(), 5)));
-  return ::cordl_internals::RunMethodRethrow<::System::Collections::IDictionary*, false>(this, ___internal_method, instance);
+inline ::System::Collections::IDictionary* System::ComponentModel::DelegatingTypeDescriptionProvider::GetCache(::System::Object*  instance)  {
+auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DelegatingTypeDescriptionProvider*>::get(),
+                            5
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::IDictionary*, false>(this, ___internal_method, instance);
 }
-inline ::System::ComponentModel::ICustomTypeDescriptor* System::ComponentModel::DelegatingTypeDescriptionProvider::GetExtendedTypeDescriptor(::System::Object* instance) {
-  auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DelegatingTypeDescriptionProvider*>::get(), 6)));
-  return ::cordl_internals::RunMethodRethrow<::System::ComponentModel::ICustomTypeDescriptor*, false>(this, ___internal_method, instance);
+inline ::System::ComponentModel::ICustomTypeDescriptor* System::ComponentModel::DelegatingTypeDescriptionProvider::GetExtendedTypeDescriptor(::System::Object*  instance)  {
+auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DelegatingTypeDescriptionProvider*>::get(),
+                            6
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::ComponentModel::ICustomTypeDescriptor*, false>(this, ___internal_method, instance);
 }
-inline ::ArrayW<::System::ComponentModel::IExtenderProvider*, ::Array<::System::ComponentModel::IExtenderProvider*>*>
-System::ComponentModel::DelegatingTypeDescriptionProvider::GetExtenderProviders(::System::Object* instance) {
-  auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DelegatingTypeDescriptionProvider*>::get(), 7)));
-  return ::cordl_internals::RunMethodRethrow<::ArrayW<::System::ComponentModel::IExtenderProvider*, ::Array<::System::ComponentModel::IExtenderProvider*>*>, false>(this, ___internal_method, instance);
+inline ::ArrayW<::System::ComponentModel::IExtenderProvider*,::Array<::System::ComponentModel::IExtenderProvider*>*> System::ComponentModel::DelegatingTypeDescriptionProvider::GetExtenderProviders(::System::Object*  instance)  {
+auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DelegatingTypeDescriptionProvider*>::get(),
+                            7
+                        )));
+return ::cordl_internals::RunMethodRethrow<::ArrayW<::System::ComponentModel::IExtenderProvider*,::Array<::System::ComponentModel::IExtenderProvider*>*>, false>(this, ___internal_method, instance);
 }
-inline ::System::Type* System::ComponentModel::DelegatingTypeDescriptionProvider::GetReflectionType(::System::Type* objectType, ::System::Object* instance) {
-  auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DelegatingTypeDescriptionProvider*>::get(), 8)));
-  return ::cordl_internals::RunMethodRethrow<::System::Type*, false>(this, ___internal_method, objectType, instance);
+inline ::System::Type* System::ComponentModel::DelegatingTypeDescriptionProvider::GetReflectionType(::System::Type*  objectType, ::System::Object*  instance)  {
+auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DelegatingTypeDescriptionProvider*>::get(),
+                            8
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Type*, false>(this, ___internal_method, objectType, instance);
 }
-inline ::System::ComponentModel::ICustomTypeDescriptor* System::ComponentModel::DelegatingTypeDescriptionProvider::GetTypeDescriptor(::System::Type* objectType, ::System::Object* instance) {
-  auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DelegatingTypeDescriptionProvider*>::get(), 9)));
-  return ::cordl_internals::RunMethodRethrow<::System::ComponentModel::ICustomTypeDescriptor*, false>(this, ___internal_method, objectType, instance);
+inline ::System::ComponentModel::ICustomTypeDescriptor* System::ComponentModel::DelegatingTypeDescriptionProvider::GetTypeDescriptor(::System::Type*  objectType, ::System::Object*  instance)  {
+auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DelegatingTypeDescriptionProvider*>::get(),
+                            9
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::ComponentModel::ICustomTypeDescriptor*, false>(this, ___internal_method, objectType, instance);
 }
-inline ::System::ComponentModel::DelegatingTypeDescriptionProvider* System::ComponentModel::DelegatingTypeDescriptionProvider::New_ctor(::System::Type* type) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::ComponentModel::DelegatingTypeDescriptionProvider*>(type));
+inline ::System::ComponentModel::DelegatingTypeDescriptionProvider* System::ComponentModel::DelegatingTypeDescriptionProvider::New_ctor(::System::Type*  type)  {
+return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::ComponentModel::DelegatingTypeDescriptionProvider*>(type));
 }
 // Ctor Parameters []
-constexpr ::System::ComponentModel::DelegatingTypeDescriptionProvider::DelegatingTypeDescriptionProvider() {}
+constexpr ::System::ComponentModel::DelegatingTypeDescriptionProvider::DelegatingTypeDescriptionProvider()   {
+}

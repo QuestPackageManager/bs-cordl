@@ -19,58 +19,58 @@ namespace Tayx::Graphy::Utils::NumString {
 // CS Name: Tayx.Graphy.Utils.NumString.G_IntString
 class CORDL_TYPE G_IntString : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field m_negativeBuffer, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_m_negativeBuffer, put = setStaticF_m_negativeBuffer)) ::ArrayW<::StringW, ::Array<::StringW>*> m_negativeBuffer;
+// Declarations
+/// @brief Field m_negativeBuffer, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_m_negativeBuffer, put=setStaticF_m_negativeBuffer)) ::ArrayW<::StringW,::Array<::StringW>*>  m_negativeBuffer;
 
-  /// @brief Field m_positiveBuffer, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_m_positiveBuffer, put = setStaticF_m_positiveBuffer)) ::ArrayW<::StringW, ::Array<::StringW>*> m_positiveBuffer;
+/// @brief Field m_positiveBuffer, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_m_positiveBuffer, put=setStaticF_m_positiveBuffer)) ::ArrayW<::StringW,::Array<::StringW>*>  m_positiveBuffer;
 
-  /// @brief Method Dispose, addr 0x6284c78, size 0xa0, virtual false, abstract: false, final false
-  static inline void Dispose();
+/// @brief Method Dispose, addr 0x6285338, size 0xa0, virtual false, abstract: false, final false
+static inline void Dispose() ;
 
-  /// @brief Method Init, addr 0x6288ea4, size 0x230, virtual false, abstract: false, final false
-  static inline void Init(int32_t minNegativeValue, int32_t maxPositiveValue);
+/// @brief Method Init, addr 0x6289564, size 0x230, virtual false, abstract: false, final false
+static inline void Init(int32_t  minNegativeValue, int32_t  maxPositiveValue) ;
 
-  /// @brief Method ToStringNonAlloc, addr 0x62890d4, size 0x124, virtual false, abstract: false, final false
-  static inline ::StringW ToStringNonAlloc(int32_t value);
+/// @brief Method ToStringNonAlloc, addr 0x6289794, size 0x124, virtual false, abstract: false, final false
+static inline ::StringW ToStringNonAlloc(int32_t  value) ;
 
-  static inline ::ArrayW<::StringW, ::Array<::StringW>*> getStaticF_m_negativeBuffer();
+static inline ::ArrayW<::StringW,::Array<::StringW>*> getStaticF_m_negativeBuffer() ;
 
-  static inline ::ArrayW<::StringW, ::Array<::StringW>*> getStaticF_m_positiveBuffer();
+static inline ::ArrayW<::StringW,::Array<::StringW>*> getStaticF_m_positiveBuffer() ;
 
-  /// @brief Method get_MaxValue, addr 0x6288e3c, size 0x68, virtual false, abstract: false, final false
-  static inline int32_t get_MaxValue();
+/// @brief Method get_MaxValue, addr 0x62894fc, size 0x68, virtual false, abstract: false, final false
+static inline int32_t get_MaxValue() ;
 
-  /// @brief Method get_MinValue, addr 0x6288dcc, size 0x70, virtual false, abstract: false, final false
-  static inline int32_t get_MinValue();
+/// @brief Method get_MinValue, addr 0x628948c, size 0x70, virtual false, abstract: false, final false
+static inline int32_t get_MinValue() ;
 
-  static inline void setStaticF_m_negativeBuffer(::ArrayW<::StringW, ::Array<::StringW>*> value);
+static inline void setStaticF_m_negativeBuffer(::ArrayW<::StringW,::Array<::StringW>*>  value) ;
 
-  static inline void setStaticF_m_positiveBuffer(::ArrayW<::StringW, ::Array<::StringW>*> value);
+static inline void setStaticF_m_positiveBuffer(::ArrayW<::StringW,::Array<::StringW>*>  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr G_IntString();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr G_IntString() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "G_IntString", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  G_IntString(G_IntString&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "G_IntString", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  G_IntString(G_IntString const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "G_IntString", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+G_IntString(G_IntString && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21218 };
+// Ctor Parameters [CppParam { name: "", ty: "G_IntString", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+G_IntString(G_IntString const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{21222};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Tayx::Graphy::Utils::NumString::G_IntString, 0x10>, "Size mismatch!");
 
-} // namespace Tayx::Graphy::Utils::NumString
+} // namespace end def Tayx::Graphy::Utils::NumString
 NEED_NO_BOX(::Tayx::Graphy::Utils::NumString::G_IntString);
 DEFINE_IL2CPP_ARG_TYPE(::Tayx::Graphy::Utils::NumString::G_IntString*, "Tayx.Graphy.Utils.NumString", "G_IntString");

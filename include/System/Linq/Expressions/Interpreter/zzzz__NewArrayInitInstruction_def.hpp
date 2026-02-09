@@ -25,72 +25,72 @@ namespace System::Linq::Expressions::Interpreter {
 // CS Name: System.Linq.Expressions.Interpreter.NewArrayInitInstruction
 class CORDL_TYPE NewArrayInitInstruction : public ::System::Linq::Expressions::Interpreter::Instruction {
 public:
-  // Declarations
-  __declspec(property(get = get_ConsumedStack)) int32_t ConsumedStack;
+// Declarations
+ __declspec(property(get=get_ConsumedStack)) int32_t  ConsumedStack;
 
-  __declspec(property(get = get_InstructionName)) ::StringW InstructionName;
+ __declspec(property(get=get_InstructionName)) ::StringW  InstructionName;
 
-  __declspec(property(get = get_ProducedStack)) int32_t ProducedStack;
+ __declspec(property(get=get_ProducedStack)) int32_t  ProducedStack;
 
-  /// @brief Field _elementCount, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get__elementCount, put = __cordl_internal_set__elementCount)) int32_t _elementCount;
+/// @brief Field _elementCount, offset 0x18, size 0x4 
+ __declspec(property(get=__cordl_internal_get__elementCount, put=__cordl_internal_set__elementCount)) int32_t  _elementCount;
 
-  /// @brief Field _elementType, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__elementType, put = __cordl_internal_set__elementType)) ::System::Type* _elementType;
+/// @brief Field _elementType, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get__elementType, put=__cordl_internal_set__elementType)) ::System::Type*  _elementType;
 
-  static inline ::System::Linq::Expressions::Interpreter::NewArrayInitInstruction* New_ctor(::System::Type* elementType, int32_t elementCount);
+static inline ::System::Linq::Expressions::Interpreter::NewArrayInitInstruction* New_ctor(::System::Type*  elementType, int32_t  elementCount) ;
 
-  /// @brief Method Run, addr 0x5dd871c, size 0x90, virtual true, abstract: false, final false
-  inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
+/// @brief Method Run, addr 0x5dd8ddc, size 0x90, virtual true, abstract: false, final false
+inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame*  frame) ;
 
-  constexpr int32_t const& __cordl_internal_get__elementCount() const;
+constexpr int32_t const& __cordl_internal_get__elementCount() const;
 
-  constexpr int32_t& __cordl_internal_get__elementCount();
+constexpr int32_t& __cordl_internal_get__elementCount() ;
 
-  constexpr ::System::Type* const& __cordl_internal_get__elementType() const;
+constexpr ::System::Type* const& __cordl_internal_get__elementType() const;
 
-  constexpr ::System::Type*& __cordl_internal_get__elementType();
+constexpr ::System::Type*& __cordl_internal_get__elementType() ;
 
-  constexpr void __cordl_internal_set__elementCount(int32_t value);
+constexpr void __cordl_internal_set__elementCount(int32_t  value) ;
 
-  constexpr void __cordl_internal_set__elementType(::System::Type* value);
+constexpr void __cordl_internal_set__elementType(::System::Type*  value) ;
 
-  /// @brief Method .ctor, addr 0x5dd86bc, size 0xc, virtual false, abstract: false, final false
-  inline void _ctor(::System::Type* elementType, int32_t elementCount);
+/// @brief Method .ctor, addr 0x5dd8d7c, size 0xc, virtual false, abstract: false, final false
+inline void _ctor(::System::Type*  elementType, int32_t  elementCount) ;
 
-  /// @brief Method get_ConsumedStack, addr 0x5dd86c8, size 0x8, virtual true, abstract: false, final false
-  inline int32_t get_ConsumedStack();
+/// @brief Method get_ConsumedStack, addr 0x5dd8d88, size 0x8, virtual true, abstract: false, final false
+inline int32_t get_ConsumedStack() ;
 
-  /// @brief Method get_InstructionName, addr 0x5dd86d8, size 0x44, virtual true, abstract: false, final false
-  inline ::StringW get_InstructionName();
+/// @brief Method get_InstructionName, addr 0x5dd8d98, size 0x44, virtual true, abstract: false, final false
+inline ::StringW get_InstructionName() ;
 
-  /// @brief Method get_ProducedStack, addr 0x5dd86d0, size 0x8, virtual true, abstract: false, final false
-  inline int32_t get_ProducedStack();
+/// @brief Method get_ProducedStack, addr 0x5dd8d90, size 0x8, virtual true, abstract: false, final false
+inline int32_t get_ProducedStack() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NewArrayInitInstruction();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr NewArrayInitInstruction() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NewArrayInitInstruction", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  NewArrayInitInstruction(NewArrayInitInstruction&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NewArrayInitInstruction", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  NewArrayInitInstruction(NewArrayInitInstruction const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "NewArrayInitInstruction", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+NewArrayInitInstruction(NewArrayInitInstruction && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16230 };
+// Ctor Parameters [CppParam { name: "", ty: "NewArrayInitInstruction", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+NewArrayInitInstruction(NewArrayInitInstruction const& ) = delete;
 
-  /// @brief Field _elementType, offset: 0x10, size: 0x8, def value: None
-  ::System::Type* ____elementType;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{16234};
 
-  /// @brief Field _elementCount, offset: 0x18, size: 0x4, def value: None
-  int32_t ____elementCount;
+/// @brief Field _elementType, offset: 0x10, size: 0x8, def value: None
+ ::System::Type*  ____elementType;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _elementCount, offset: 0x18, size: 0x4, def value: None
+ int32_t  ____elementCount;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Linq::Expressions::Interpreter::NewArrayInitInstruction, ____elementType) == 0x10, "Offset mismatch!");
@@ -99,6 +99,6 @@ static_assert(offsetof(::System::Linq::Expressions::Interpreter::NewArrayInitIns
 
 static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Interpreter::NewArrayInitInstruction, 0x20>, "Size mismatch!");
 
-} // namespace System::Linq::Expressions::Interpreter
+} // namespace end def System::Linq::Expressions::Interpreter
 NEED_NO_BOX(::System::Linq::Expressions::Interpreter::NewArrayInitInstruction);
 DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::Interpreter::NewArrayInitInstruction*, "System.Linq.Expressions.Interpreter", "NewArrayInitInstruction");

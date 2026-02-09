@@ -28,48 +28,48 @@ namespace System::ComponentModel {
 // CS Name: System.ComponentModel.ByteConverter
 class CORDL_TYPE ByteConverter : public ::System::ComponentModel::BaseNumberConverter {
 public:
-  // Declarations
-  __declspec(property(get = get_TargetType)) ::System::Type* TargetType;
+// Declarations
+ __declspec(property(get=get_TargetType)) ::System::Type*  TargetType;
 
-  /// @brief Method FromString, addr 0x620154c, size 0x34, virtual true, abstract: false, final false
-  inline ::System::Object* FromString(::StringW value, ::System::Globalization::NumberFormatInfo* formatInfo);
+/// @brief Method FromString, addr 0x6201c0c, size 0x34, virtual true, abstract: false, final false
+inline ::System::Object* FromString(::StringW  value, ::System::Globalization::NumberFormatInfo*  formatInfo) ;
 
-  /// @brief Method FromString, addr 0x62014c4, size 0x88, virtual true, abstract: false, final false
-  inline ::System::Object* FromString(::StringW value, int32_t radix);
+/// @brief Method FromString, addr 0x6201b84, size 0x88, virtual true, abstract: false, final false
+inline ::System::Object* FromString(::StringW  value, int32_t  radix) ;
 
-  static inline ::System::ComponentModel::ByteConverter* New_ctor();
+static inline ::System::ComponentModel::ByteConverter* New_ctor() ;
 
-  /// @brief Method ToString, addr 0x6201580, size 0x98, virtual true, abstract: false, final false
-  inline ::StringW ToString(::System::Object* value, ::System::Globalization::NumberFormatInfo* formatInfo);
+/// @brief Method ToString, addr 0x6201c40, size 0x98, virtual true, abstract: false, final false
+inline ::StringW ToString(::System::Object*  value, ::System::Globalization::NumberFormatInfo*  formatInfo) ;
 
-  /// @brief Method .ctor, addr 0x6201618, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6201cd8, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_TargetType, addr 0x6201494, size 0x30, virtual true, abstract: false, final false
-  inline ::System::Type* get_TargetType();
+/// @brief Method get_TargetType, addr 0x6201b54, size 0x30, virtual true, abstract: false, final false
+inline ::System::Type* get_TargetType() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ByteConverter();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ByteConverter() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ByteConverter", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ByteConverter(ByteConverter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ByteConverter", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ByteConverter(ByteConverter const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ByteConverter", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ByteConverter(ByteConverter && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11219 };
+// Ctor Parameters [CppParam { name: "", ty: "ByteConverter", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ByteConverter(ByteConverter const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11223};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::ComponentModel::ByteConverter, 0x10>, "Size mismatch!");
 
-} // namespace System::ComponentModel
+} // namespace end def System::ComponentModel
 NEED_NO_BOX(::System::ComponentModel::ByteConverter);
 DEFINE_IL2CPP_ARG_TYPE(::System::ComponentModel::ByteConverter*, "System.ComponentModel", "ByteConverter");

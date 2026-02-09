@@ -21,48 +21,48 @@ namespace UnityEngine::Rendering::Universal {
 // CS Name: UnityEngine.Rendering.Universal.RenderPathCompatibleAttribute
 class CORDL_TYPE RenderPathCompatibleAttribute : public ::System::Attribute {
 public:
-  // Declarations
-  /// @brief Field renderPath, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_renderPath, put = __cordl_internal_set_renderPath)) ::UnityEngine::Rendering::Universal::RenderPathCompatibility renderPath;
+// Declarations
+/// @brief Field renderPath, offset 0x10, size 0x4 
+ __declspec(property(get=__cordl_internal_get_renderPath, put=__cordl_internal_set_renderPath)) ::UnityEngine::Rendering::Universal::RenderPathCompatibility  renderPath;
 
-  static inline ::UnityEngine::Rendering::Universal::RenderPathCompatibleAttribute* New_ctor(::UnityEngine::Rendering::Universal::RenderPathCompatibility renderPath);
+static inline ::UnityEngine::Rendering::Universal::RenderPathCompatibleAttribute* New_ctor(::UnityEngine::Rendering::Universal::RenderPathCompatibility  renderPath) ;
 
-  constexpr ::UnityEngine::Rendering::Universal::RenderPathCompatibility const& __cordl_internal_get_renderPath() const;
+constexpr ::UnityEngine::Rendering::Universal::RenderPathCompatibility const& __cordl_internal_get_renderPath() const;
 
-  constexpr ::UnityEngine::Rendering::Universal::RenderPathCompatibility& __cordl_internal_get_renderPath();
+constexpr ::UnityEngine::Rendering::Universal::RenderPathCompatibility& __cordl_internal_get_renderPath() ;
 
-  constexpr void __cordl_internal_set_renderPath(::UnityEngine::Rendering::Universal::RenderPathCompatibility value);
+constexpr void __cordl_internal_set_renderPath(::UnityEngine::Rendering::Universal::RenderPathCompatibility  value) ;
 
-  /// @brief Method .ctor, addr 0x671ffe0, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::Rendering::Universal::RenderPathCompatibility renderPath);
+/// @brief Method .ctor, addr 0x67206a0, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(::UnityEngine::Rendering::Universal::RenderPathCompatibility  renderPath) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RenderPathCompatibleAttribute();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr RenderPathCompatibleAttribute() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RenderPathCompatibleAttribute", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  RenderPathCompatibleAttribute(RenderPathCompatibleAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RenderPathCompatibleAttribute", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  RenderPathCompatibleAttribute(RenderPathCompatibleAttribute const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "RenderPathCompatibleAttribute", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+RenderPathCompatibleAttribute(RenderPathCompatibleAttribute && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12985 };
+// Ctor Parameters [CppParam { name: "", ty: "RenderPathCompatibleAttribute", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+RenderPathCompatibleAttribute(RenderPathCompatibleAttribute const& ) = delete;
 
-  /// @brief Field renderPath, offset: 0x10, size: 0x4, def value: None
-  ::UnityEngine::Rendering::Universal::RenderPathCompatibility ___renderPath;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12989};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field renderPath, offset: 0x10, size: 0x4, def value: None
+ ::UnityEngine::Rendering::Universal::RenderPathCompatibility  ___renderPath;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Rendering::Universal::RenderPathCompatibleAttribute, ___renderPath) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::Universal::RenderPathCompatibleAttribute, 0x18>, "Size mismatch!");
 
-} // namespace UnityEngine::Rendering::Universal
+} // namespace end def UnityEngine::Rendering::Universal
 NEED_NO_BOX(::UnityEngine::Rendering::Universal::RenderPathCompatibleAttribute);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::Universal::RenderPathCompatibleAttribute*, "UnityEngine.Rendering.Universal", "RenderPathCompatibleAttribute");

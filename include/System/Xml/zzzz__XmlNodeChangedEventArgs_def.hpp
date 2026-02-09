@@ -25,109 +25,107 @@ namespace System::Xml {
 // CS Name: System.Xml.XmlNodeChangedEventArgs
 class CORDL_TYPE XmlNodeChangedEventArgs : public ::System::EventArgs {
 public:
-  // Declarations
-  __declspec(property(get = get_Action)) ::System::Xml::XmlNodeChangedAction Action;
+// Declarations
+ __declspec(property(get=get_Action)) ::System::Xml::XmlNodeChangedAction  Action;
 
-  /// @brief Field action, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_action, put = __cordl_internal_set_action)) ::System::Xml::XmlNodeChangedAction action;
+/// @brief Field action, offset 0x10, size 0x4 
+ __declspec(property(get=__cordl_internal_get_action, put=__cordl_internal_set_action)) ::System::Xml::XmlNodeChangedAction  action;
 
-  /// @brief Field newParent, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_newParent, put = __cordl_internal_set_newParent)) ::System::Xml::XmlNode* newParent;
+/// @brief Field newParent, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get_newParent, put=__cordl_internal_set_newParent)) ::System::Xml::XmlNode*  newParent;
 
-  /// @brief Field newValue, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_newValue, put = __cordl_internal_set_newValue)) ::StringW newValue;
+/// @brief Field newValue, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get_newValue, put=__cordl_internal_set_newValue)) ::StringW  newValue;
 
-  /// @brief Field node, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_node, put = __cordl_internal_set_node)) ::System::Xml::XmlNode* node;
+/// @brief Field node, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_node, put=__cordl_internal_set_node)) ::System::Xml::XmlNode*  node;
 
-  /// @brief Field oldParent, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_oldParent, put = __cordl_internal_set_oldParent)) ::System::Xml::XmlNode* oldParent;
+/// @brief Field oldParent, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get_oldParent, put=__cordl_internal_set_oldParent)) ::System::Xml::XmlNode*  oldParent;
 
-  /// @brief Field oldValue, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_oldValue, put = __cordl_internal_set_oldValue)) ::StringW oldValue;
+/// @brief Field oldValue, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get_oldValue, put=__cordl_internal_set_oldValue)) ::StringW  oldValue;
 
-  static inline ::System::Xml::XmlNodeChangedEventArgs* New_ctor(::System::Xml::XmlNode* node, ::System::Xml::XmlNode* oldParent, ::System::Xml::XmlNode* newParent, ::StringW oldValue,
-                                                                 ::StringW newValue, ::System::Xml::XmlNodeChangedAction action);
+static inline ::System::Xml::XmlNodeChangedEventArgs* New_ctor(::System::Xml::XmlNode*  node, ::System::Xml::XmlNode*  oldParent, ::System::Xml::XmlNode*  newParent, ::StringW  oldValue, ::StringW  newValue, ::System::Xml::XmlNodeChangedAction  action) ;
 
-  constexpr ::System::Xml::XmlNodeChangedAction const& __cordl_internal_get_action() const;
+constexpr ::System::Xml::XmlNodeChangedAction const& __cordl_internal_get_action() const;
 
-  constexpr ::System::Xml::XmlNodeChangedAction& __cordl_internal_get_action();
+constexpr ::System::Xml::XmlNodeChangedAction& __cordl_internal_get_action() ;
 
-  constexpr ::System::Xml::XmlNode* const& __cordl_internal_get_newParent() const;
+constexpr ::System::Xml::XmlNode* const& __cordl_internal_get_newParent() const;
 
-  constexpr ::System::Xml::XmlNode*& __cordl_internal_get_newParent();
+constexpr ::System::Xml::XmlNode*& __cordl_internal_get_newParent() ;
 
-  constexpr ::StringW const& __cordl_internal_get_newValue() const;
+constexpr ::StringW const& __cordl_internal_get_newValue() const;
 
-  constexpr ::StringW& __cordl_internal_get_newValue();
+constexpr ::StringW& __cordl_internal_get_newValue() ;
 
-  constexpr ::System::Xml::XmlNode* const& __cordl_internal_get_node() const;
+constexpr ::System::Xml::XmlNode* const& __cordl_internal_get_node() const;
 
-  constexpr ::System::Xml::XmlNode*& __cordl_internal_get_node();
+constexpr ::System::Xml::XmlNode*& __cordl_internal_get_node() ;
 
-  constexpr ::System::Xml::XmlNode* const& __cordl_internal_get_oldParent() const;
+constexpr ::System::Xml::XmlNode* const& __cordl_internal_get_oldParent() const;
 
-  constexpr ::System::Xml::XmlNode*& __cordl_internal_get_oldParent();
+constexpr ::System::Xml::XmlNode*& __cordl_internal_get_oldParent() ;
 
-  constexpr ::StringW const& __cordl_internal_get_oldValue() const;
+constexpr ::StringW const& __cordl_internal_get_oldValue() const;
 
-  constexpr ::StringW& __cordl_internal_get_oldValue();
+constexpr ::StringW& __cordl_internal_get_oldValue() ;
 
-  constexpr void __cordl_internal_set_action(::System::Xml::XmlNodeChangedAction value);
+constexpr void __cordl_internal_set_action(::System::Xml::XmlNodeChangedAction  value) ;
 
-  constexpr void __cordl_internal_set_newParent(::System::Xml::XmlNode* value);
+constexpr void __cordl_internal_set_newParent(::System::Xml::XmlNode*  value) ;
 
-  constexpr void __cordl_internal_set_newValue(::StringW value);
+constexpr void __cordl_internal_set_newValue(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_node(::System::Xml::XmlNode* value);
+constexpr void __cordl_internal_set_node(::System::Xml::XmlNode*  value) ;
 
-  constexpr void __cordl_internal_set_oldParent(::System::Xml::XmlNode* value);
+constexpr void __cordl_internal_set_oldParent(::System::Xml::XmlNode*  value) ;
 
-  constexpr void __cordl_internal_set_oldValue(::StringW value);
+constexpr void __cordl_internal_set_oldValue(::StringW  value) ;
 
-  /// @brief Method .ctor, addr 0x610a90c, size 0x94, virtual false, abstract: false, final false
-  inline void _ctor(::System::Xml::XmlNode* node, ::System::Xml::XmlNode* oldParent, ::System::Xml::XmlNode* newParent, ::StringW oldValue, ::StringW newValue,
-                    ::System::Xml::XmlNodeChangedAction action);
+/// @brief Method .ctor, addr 0x610afcc, size 0x94, virtual false, abstract: false, final false
+inline void _ctor(::System::Xml::XmlNode*  node, ::System::Xml::XmlNode*  oldParent, ::System::Xml::XmlNode*  newParent, ::StringW  oldValue, ::StringW  newValue, ::System::Xml::XmlNodeChangedAction  action) ;
 
-  /// @brief Method get_Action, addr 0x6113b48, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Xml::XmlNodeChangedAction get_Action();
+/// @brief Method get_Action, addr 0x6114208, size 0x8, virtual false, abstract: false, final false
+inline ::System::Xml::XmlNodeChangedAction get_Action() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr XmlNodeChangedEventArgs();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr XmlNodeChangedEventArgs() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlNodeChangedEventArgs", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  XmlNodeChangedEventArgs(XmlNodeChangedEventArgs&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlNodeChangedEventArgs", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  XmlNodeChangedEventArgs(XmlNodeChangedEventArgs const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "XmlNodeChangedEventArgs", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+XmlNodeChangedEventArgs(XmlNodeChangedEventArgs && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9379 };
+// Ctor Parameters [CppParam { name: "", ty: "XmlNodeChangedEventArgs", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+XmlNodeChangedEventArgs(XmlNodeChangedEventArgs const& ) = delete;
 
-  /// @brief Field action, offset: 0x10, size: 0x4, def value: None
-  ::System::Xml::XmlNodeChangedAction ___action;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{9383};
 
-  /// @brief Field node, offset: 0x18, size: 0x8, def value: None
-  ::System::Xml::XmlNode* ___node;
+/// @brief Field action, offset: 0x10, size: 0x4, def value: None
+ ::System::Xml::XmlNodeChangedAction  ___action;
 
-  /// @brief Field oldParent, offset: 0x20, size: 0x8, def value: None
-  ::System::Xml::XmlNode* ___oldParent;
+/// @brief Field node, offset: 0x18, size: 0x8, def value: None
+ ::System::Xml::XmlNode*  ___node;
 
-  /// @brief Field newParent, offset: 0x28, size: 0x8, def value: None
-  ::System::Xml::XmlNode* ___newParent;
+/// @brief Field oldParent, offset: 0x20, size: 0x8, def value: None
+ ::System::Xml::XmlNode*  ___oldParent;
 
-  /// @brief Field oldValue, offset: 0x30, size: 0x8, def value: None
-  ::StringW ___oldValue;
+/// @brief Field newParent, offset: 0x28, size: 0x8, def value: None
+ ::System::Xml::XmlNode*  ___newParent;
 
-  /// @brief Field newValue, offset: 0x38, size: 0x8, def value: None
-  ::StringW ___newValue;
+/// @brief Field oldValue, offset: 0x30, size: 0x8, def value: None
+ ::StringW  ___oldValue;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field newValue, offset: 0x38, size: 0x8, def value: None
+ ::StringW  ___newValue;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Xml::XmlNodeChangedEventArgs, ___action) == 0x10, "Offset mismatch!");
@@ -144,6 +142,6 @@ static_assert(offsetof(::System::Xml::XmlNodeChangedEventArgs, ___newValue) == 0
 
 static_assert(::cordl_internals::size_check_v<::System::Xml::XmlNodeChangedEventArgs, 0x40>, "Size mismatch!");
 
-} // namespace System::Xml
+} // namespace end def System::Xml
 NEED_NO_BOX(::System::Xml::XmlNodeChangedEventArgs);
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::XmlNodeChangedEventArgs*, "System.Xml", "XmlNodeChangedEventArgs");

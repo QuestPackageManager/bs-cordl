@@ -19,7 +19,8 @@ namespace GlobalNamespace {
 class SafeAreaRectChecker;
 }
 namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+template<typename T>
+class IEnumerator_1;
 }
 namespace System::Collections {
 class IEnumerator;
@@ -55,103 +56,103 @@ namespace GlobalNamespace {
 // CS Name: HealthWarningViewController/<DismissHealthAndSafety>d__11
 class CORDL_TYPE HealthWarningViewController__DismissHealthAndSafety_d__11 : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current)) ::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
+// Declarations
+ __declspec(property(get=System_Collections_Generic_IEnumerator_System_Object__get_Current)) ::System::Object*  System_Collections_Generic_IEnumerator_System_Object__Current;
 
-  __declspec(property(get = System_Collections_IEnumerator_get_Current)) ::System::Object* System_Collections_IEnumerator_Current;
+ __declspec(property(get=System_Collections_IEnumerator_get_Current)) ::System::Object*  System_Collections_IEnumerator_Current;
 
-  /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
+/// @brief Field <>1__state, offset 0x10, size 0x4 
+ __declspec(property(get=__cordl_internal_get___1__state, put=__cordl_internal_set___1__state)) int32_t  __1__state;
 
-  /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current)) ::System::Object* __2__current;
+/// @brief Field <>2__current, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get___2__current, put=__cordl_internal_set___2__current)) ::System::Object*  __2__current;
 
-  /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::UnityW<::GlobalNamespace::HealthWarningViewController> __4__this;
+/// @brief Field <>4__this, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get___4__this, put=__cordl_internal_set___4__this)) ::UnityW<::GlobalNamespace::HealthWarningViewController>  __4__this;
 
-  /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
-  constexpr operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+constexpr operator  ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept;
 
-  /// @brief Convert operator to "::System::Collections::IEnumerator"
-  constexpr operator ::System::Collections::IEnumerator*() noexcept;
+/// @brief Convert operator to "::System::Collections::IEnumerator"
+constexpr operator  ::System::Collections::IEnumerator*() noexcept;
 
-  /// @brief Convert operator to "::System::IDisposable"
-  constexpr operator ::System::IDisposable*() noexcept;
+/// @brief Convert operator to "::System::IDisposable"
+constexpr operator  ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x5877268, size 0xac, virtual true, abstract: false, final true
-  inline bool MoveNext();
+/// @brief Method MoveNext, addr 0x5878014, size 0xac, virtual true, abstract: false, final true
+inline bool MoveNext() ;
 
-  static inline ::GlobalNamespace::HealthWarningViewController__DismissHealthAndSafety_d__11* New_ctor(int32_t __1__state);
+static inline ::GlobalNamespace::HealthWarningViewController__DismissHealthAndSafety_d__11* New_ctor(int32_t  __1__state) ;
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5877314, size 0x8, virtual true, abstract: false, final true
-  inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
+/// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x58780c0, size 0x8, virtual true, abstract: false, final true
+inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current() ;
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x587731c, size 0x38, virtual true, abstract: false, final true
-  inline void System_Collections_IEnumerator_Reset();
+/// @brief Method System.Collections.IEnumerator.Reset, addr 0x58780c8, size 0x38, virtual true, abstract: false, final true
+inline void System_Collections_IEnumerator_Reset() ;
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5877354, size 0x8, virtual true, abstract: false, final true
-  inline ::System::Object* System_Collections_IEnumerator_get_Current();
+/// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5878100, size 0x8, virtual true, abstract: false, final true
+inline ::System::Object* System_Collections_IEnumerator_get_Current() ;
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x5877264, size 0x4, virtual true, abstract: false, final true
-  inline void System_IDisposable_Dispose();
+/// @brief Method System.IDisposable.Dispose, addr 0x5878010, size 0x4, virtual true, abstract: false, final true
+inline void System_IDisposable_Dispose() ;
 
-  constexpr int32_t const& __cordl_internal_get___1__state() const;
+constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr int32_t& __cordl_internal_get___1__state();
+constexpr int32_t& __cordl_internal_get___1__state() ;
 
-  constexpr ::System::Object* const& __cordl_internal_get___2__current() const;
+constexpr ::System::Object* const& __cordl_internal_get___2__current() const;
 
-  constexpr ::System::Object*& __cordl_internal_get___2__current();
+constexpr ::System::Object*& __cordl_internal_get___2__current() ;
 
-  constexpr ::UnityW<::GlobalNamespace::HealthWarningViewController> const& __cordl_internal_get___4__this() const;
+constexpr ::UnityW<::GlobalNamespace::HealthWarningViewController> const& __cordl_internal_get___4__this() const;
 
-  constexpr ::UnityW<::GlobalNamespace::HealthWarningViewController>& __cordl_internal_get___4__this();
+constexpr ::UnityW<::GlobalNamespace::HealthWarningViewController>& __cordl_internal_get___4__this() ;
 
-  constexpr void __cordl_internal_set___1__state(int32_t value);
+constexpr void __cordl_internal_set___1__state(int32_t  value) ;
 
-  constexpr void __cordl_internal_set___2__current(::System::Object* value);
+constexpr void __cordl_internal_set___2__current(::System::Object*  value) ;
 
-  constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::HealthWarningViewController> value);
+constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::HealthWarningViewController>  value) ;
 
-  /// @brief Method .ctor, addr 0x5877258, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(int32_t __1__state);
+/// @brief Method .ctor, addr 0x5878004, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(int32_t  __1__state) ;
 
-  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
-  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
+/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
+constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept;
 
-  /// @brief Convert to "::System::Collections::IEnumerator"
-  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+/// @brief Convert to "::System::Collections::IEnumerator"
+constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
-  /// @brief Convert to "::System::IDisposable"
-  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+/// @brief Convert to "::System::IDisposable"
+constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HealthWarningViewController__DismissHealthAndSafety_d__11();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr HealthWarningViewController__DismissHealthAndSafety_d__11() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HealthWarningViewController__DismissHealthAndSafety_d__11", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  HealthWarningViewController__DismissHealthAndSafety_d__11(HealthWarningViewController__DismissHealthAndSafety_d__11&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HealthWarningViewController__DismissHealthAndSafety_d__11", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  HealthWarningViewController__DismissHealthAndSafety_d__11(HealthWarningViewController__DismissHealthAndSafety_d__11 const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "HealthWarningViewController__DismissHealthAndSafety_d__11", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+HealthWarningViewController__DismissHealthAndSafety_d__11(HealthWarningViewController__DismissHealthAndSafety_d__11 && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6483 };
+// Ctor Parameters [CppParam { name: "", ty: "HealthWarningViewController__DismissHealthAndSafety_d__11", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+HealthWarningViewController__DismissHealthAndSafety_d__11(HealthWarningViewController__DismissHealthAndSafety_d__11 const& ) = delete;
 
-  /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
-  int32_t _____1__state;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6484};
 
-  /// @brief Field <>2__current, offset: 0x18, size: 0x8, def value: None
-  ::System::Object* _____2__current;
+/// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
+ int32_t  _____1__state;
 
-  /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::HealthWarningViewController> _____4__this;
+/// @brief Field <>2__current, offset: 0x18, size: 0x8, def value: None
+ ::System::Object*  _____2__current;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::HealthWarningViewController>  _____4__this;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::HealthWarningViewController__DismissHealthAndSafety_d__11, _____1__state) == 0x10, "Offset mismatch!");
@@ -162,147 +163,147 @@ static_assert(offsetof(::GlobalNamespace::HealthWarningViewController__DismissHe
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::HealthWarningViewController__DismissHealthAndSafety_d__11, 0x28>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 // Dependencies CompletableViewController
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: HealthWarningViewController
 class CORDL_TYPE HealthWarningViewController : public ::GlobalNamespace::CompletableViewController {
 public:
-  // Declarations
-  using _DismissHealthAndSafety_d__11 = ::GlobalNamespace::HealthWarningViewController__DismissHealthAndSafety_d__11;
+// Declarations
+using _DismissHealthAndSafety_d__11 = ::GlobalNamespace::HealthWarningViewController__DismissHealthAndSafety_d__11;
 
-  /// @brief Field _continueButton, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get__continueButton, put = __cordl_internal_set__continueButton)) ::UnityW<::UnityEngine::UI::Button> _continueButton;
+/// @brief Field _continueButton, offset 0x80, size 0x8 
+ __declspec(property(get=__cordl_internal_get__continueButton, put=__cordl_internal_set__continueButton)) ::UnityW<::UnityEngine::UI::Button>  _continueButton;
 
-  /// @brief Field _coroutineStarter, offset 0xa8, size 0x8
-  __declspec(property(get = __cordl_internal_get__coroutineStarter, put = __cordl_internal_set__coroutineStarter)) ::GlobalNamespace::ICoroutineStarter* _coroutineStarter;
+/// @brief Field _coroutineStarter, offset 0xa8, size 0x8 
+ __declspec(property(get=__cordl_internal_get__coroutineStarter, put=__cordl_internal_set__coroutineStarter)) ::GlobalNamespace::ICoroutineStarter*  _coroutineStarter;
 
-  /// @brief Field _dismissCoroutine, offset 0xb8, size 0x8
-  __declspec(property(get = __cordl_internal_get__dismissCoroutine, put = __cordl_internal_set__dismissCoroutine)) ::UnityEngine::Coroutine* _dismissCoroutine;
+/// @brief Field _dismissCoroutine, offset 0xb8, size 0x8 
+ __declspec(property(get=__cordl_internal_get__dismissCoroutine, put=__cordl_internal_set__dismissCoroutine)) ::UnityEngine::Coroutine*  _dismissCoroutine;
 
-  /// @brief Field _duration, offset 0x90, size 0x4
-  __declspec(property(get = __cordl_internal_get__duration, put = __cordl_internal_set__duration)) float_t _duration;
+/// @brief Field _duration, offset 0x90, size 0x4 
+ __declspec(property(get=__cordl_internal_get__duration, put=__cordl_internal_set__duration)) float_t  _duration;
 
-  /// @brief Field _healthAndSafetyLocalizationKey, offset 0xa0, size 0x8
-  __declspec(property(get = __cordl_internal_get__healthAndSafetyLocalizationKey, put = __cordl_internal_set__healthAndSafetyLocalizationKey)) ::StringW _healthAndSafetyLocalizationKey;
+/// @brief Field _healthAndSafetyLocalizationKey, offset 0xa0, size 0x8 
+ __declspec(property(get=__cordl_internal_get__healthAndSafetyLocalizationKey, put=__cordl_internal_set__healthAndSafetyLocalizationKey)) ::StringW  _healthAndSafetyLocalizationKey;
 
-  /// @brief Field _healthAndSafetyTextMesh, offset 0x98, size 0x8
-  __declspec(property(get = __cordl_internal_get__healthAndSafetyTextMesh, put = __cordl_internal_set__healthAndSafetyTextMesh)) ::UnityW<::TMPro::TextMeshProUGUI> _healthAndSafetyTextMesh;
+/// @brief Field _healthAndSafetyTextMesh, offset 0x98, size 0x8 
+ __declspec(property(get=__cordl_internal_get__healthAndSafetyTextMesh, put=__cordl_internal_set__healthAndSafetyTextMesh)) ::UnityW<::TMPro::TextMeshProUGUI>  _healthAndSafetyTextMesh;
 
-  /// @brief Field _requiresInteraction, offset 0xb0, size 0x1
-  __declspec(property(get = __cordl_internal_get__requiresInteraction, put = __cordl_internal_set__requiresInteraction)) bool _requiresInteraction;
+/// @brief Field _requiresInteraction, offset 0xb0, size 0x1 
+ __declspec(property(get=__cordl_internal_get__requiresInteraction, put=__cordl_internal_set__requiresInteraction)) bool  _requiresInteraction;
 
-  /// @brief Field _safeAreaRectChecker, offset 0x88, size 0x8
-  __declspec(property(get = __cordl_internal_get__safeAreaRectChecker, put = __cordl_internal_set__safeAreaRectChecker)) ::UnityW<::GlobalNamespace::SafeAreaRectChecker> _safeAreaRectChecker;
+/// @brief Field _safeAreaRectChecker, offset 0x88, size 0x8 
+ __declspec(property(get=__cordl_internal_get__safeAreaRectChecker, put=__cordl_internal_set__safeAreaRectChecker)) ::UnityW<::GlobalNamespace::SafeAreaRectChecker>  _safeAreaRectChecker;
 
-  /// @brief Method DidActivate, addr 0x5876f48, size 0x1e0, virtual true, abstract: false, final false
-  inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
+/// @brief Method DidActivate, addr 0x5877cf4, size 0x1e0, virtual true, abstract: false, final false
+inline void DidActivate(bool  firstActivation, bool  addedToHierarchy, bool  screenSystemEnabling) ;
 
-  /// @brief Method DidDeactivate, addr 0x587717c, size 0xd4, virtual true, abstract: false, final false
-  inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
+/// @brief Method DidDeactivate, addr 0x5877f28, size 0xd4, virtual true, abstract: false, final false
+inline void DidDeactivate(bool  removedFromHierarchy, bool  screenSystemDisabling) ;
 
-  /// @brief Method DismissHealthAndSafety, addr 0x5877128, size 0x54, virtual false, abstract: false, final false
-  inline ::System::Collections::IEnumerator* DismissHealthAndSafety();
+/// @brief Method DismissHealthAndSafety, addr 0x5877ed4, size 0x54, virtual false, abstract: false, final false
+inline ::System::Collections::IEnumerator* DismissHealthAndSafety() ;
 
-  /// @brief Method Init, addr 0x5877250, size 0x8, virtual false, abstract: false, final false
-  inline void Init(bool requiresInteraction);
+/// @brief Method Init, addr 0x5877ffc, size 0x8, virtual false, abstract: false, final false
+inline void Init(bool  requiresInteraction) ;
 
-  static inline ::GlobalNamespace::HealthWarningViewController* New_ctor();
+static inline ::GlobalNamespace::HealthWarningViewController* New_ctor() ;
 
-  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__continueButton() const;
+constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__continueButton() const;
 
-  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__continueButton();
+constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__continueButton() ;
 
-  constexpr ::GlobalNamespace::ICoroutineStarter* const& __cordl_internal_get__coroutineStarter() const;
+constexpr ::GlobalNamespace::ICoroutineStarter* const& __cordl_internal_get__coroutineStarter() const;
 
-  constexpr ::GlobalNamespace::ICoroutineStarter*& __cordl_internal_get__coroutineStarter();
+constexpr ::GlobalNamespace::ICoroutineStarter*& __cordl_internal_get__coroutineStarter() ;
 
-  constexpr ::UnityEngine::Coroutine* const& __cordl_internal_get__dismissCoroutine() const;
+constexpr ::UnityEngine::Coroutine* const& __cordl_internal_get__dismissCoroutine() const;
 
-  constexpr ::UnityEngine::Coroutine*& __cordl_internal_get__dismissCoroutine();
+constexpr ::UnityEngine::Coroutine*& __cordl_internal_get__dismissCoroutine() ;
 
-  constexpr float_t const& __cordl_internal_get__duration() const;
+constexpr float_t const& __cordl_internal_get__duration() const;
 
-  constexpr float_t& __cordl_internal_get__duration();
+constexpr float_t& __cordl_internal_get__duration() ;
 
-  constexpr ::StringW const& __cordl_internal_get__healthAndSafetyLocalizationKey() const;
+constexpr ::StringW const& __cordl_internal_get__healthAndSafetyLocalizationKey() const;
 
-  constexpr ::StringW& __cordl_internal_get__healthAndSafetyLocalizationKey();
+constexpr ::StringW& __cordl_internal_get__healthAndSafetyLocalizationKey() ;
 
-  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__healthAndSafetyTextMesh() const;
+constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__healthAndSafetyTextMesh() const;
 
-  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__healthAndSafetyTextMesh();
+constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__healthAndSafetyTextMesh() ;
 
-  constexpr bool const& __cordl_internal_get__requiresInteraction() const;
+constexpr bool const& __cordl_internal_get__requiresInteraction() const;
 
-  constexpr bool& __cordl_internal_get__requiresInteraction();
+constexpr bool& __cordl_internal_get__requiresInteraction() ;
 
-  constexpr ::UnityW<::GlobalNamespace::SafeAreaRectChecker> const& __cordl_internal_get__safeAreaRectChecker() const;
+constexpr ::UnityW<::GlobalNamespace::SafeAreaRectChecker> const& __cordl_internal_get__safeAreaRectChecker() const;
 
-  constexpr ::UnityW<::GlobalNamespace::SafeAreaRectChecker>& __cordl_internal_get__safeAreaRectChecker();
+constexpr ::UnityW<::GlobalNamespace::SafeAreaRectChecker>& __cordl_internal_get__safeAreaRectChecker() ;
 
-  constexpr void __cordl_internal_set__continueButton(::UnityW<::UnityEngine::UI::Button> value);
+constexpr void __cordl_internal_set__continueButton(::UnityW<::UnityEngine::UI::Button>  value) ;
 
-  constexpr void __cordl_internal_set__coroutineStarter(::GlobalNamespace::ICoroutineStarter* value);
+constexpr void __cordl_internal_set__coroutineStarter(::GlobalNamespace::ICoroutineStarter*  value) ;
 
-  constexpr void __cordl_internal_set__dismissCoroutine(::UnityEngine::Coroutine* value);
+constexpr void __cordl_internal_set__dismissCoroutine(::UnityEngine::Coroutine*  value) ;
 
-  constexpr void __cordl_internal_set__duration(float_t value);
+constexpr void __cordl_internal_set__duration(float_t  value) ;
 
-  constexpr void __cordl_internal_set__healthAndSafetyLocalizationKey(::StringW value);
+constexpr void __cordl_internal_set__healthAndSafetyLocalizationKey(::StringW  value) ;
 
-  constexpr void __cordl_internal_set__healthAndSafetyTextMesh(::UnityW<::TMPro::TextMeshProUGUI> value);
+constexpr void __cordl_internal_set__healthAndSafetyTextMesh(::UnityW<::TMPro::TextMeshProUGUI>  value) ;
 
-  constexpr void __cordl_internal_set__requiresInteraction(bool value);
+constexpr void __cordl_internal_set__requiresInteraction(bool  value) ;
 
-  constexpr void __cordl_internal_set__safeAreaRectChecker(::UnityW<::GlobalNamespace::SafeAreaRectChecker> value);
+constexpr void __cordl_internal_set__safeAreaRectChecker(::UnityW<::GlobalNamespace::SafeAreaRectChecker>  value) ;
 
-  /// @brief Method .ctor, addr 0x5877260, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x587800c, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HealthWarningViewController();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr HealthWarningViewController() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HealthWarningViewController", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  HealthWarningViewController(HealthWarningViewController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HealthWarningViewController", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  HealthWarningViewController(HealthWarningViewController const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "HealthWarningViewController", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+HealthWarningViewController(HealthWarningViewController && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6484 };
+// Ctor Parameters [CppParam { name: "", ty: "HealthWarningViewController", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+HealthWarningViewController(HealthWarningViewController const& ) = delete;
 
-  /// @brief Field _continueButton, offset: 0x80, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::UI::Button> ____continueButton;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6485};
 
-  /// @brief Field _safeAreaRectChecker, offset: 0x88, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::SafeAreaRectChecker> ____safeAreaRectChecker;
+/// @brief Field _continueButton, offset: 0x80, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::UI::Button>  ____continueButton;
 
-  /// @brief Field _duration, offset: 0x90, size: 0x4, def value: None
-  float_t ____duration;
+/// @brief Field _safeAreaRectChecker, offset: 0x88, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::SafeAreaRectChecker>  ____safeAreaRectChecker;
 
-  /// @brief Field _healthAndSafetyTextMesh, offset: 0x98, size: 0x8, def value: None
-  ::UnityW<::TMPro::TextMeshProUGUI> ____healthAndSafetyTextMesh;
+/// @brief Field _duration, offset: 0x90, size: 0x4, def value: None
+ float_t  ____duration;
 
-  /// @brief Field _healthAndSafetyLocalizationKey, offset: 0xa0, size: 0x8, def value: None
-  ::StringW ____healthAndSafetyLocalizationKey;
+/// @brief Field _healthAndSafetyTextMesh, offset: 0x98, size: 0x8, def value: None
+ ::UnityW<::TMPro::TextMeshProUGUI>  ____healthAndSafetyTextMesh;
 
-  /// @brief Field _coroutineStarter, offset: 0xa8, size: 0x8, def value: None
-  ::GlobalNamespace::ICoroutineStarter* ____coroutineStarter;
+/// @brief Field _healthAndSafetyLocalizationKey, offset: 0xa0, size: 0x8, def value: None
+ ::StringW  ____healthAndSafetyLocalizationKey;
 
-  /// @brief Field _requiresInteraction, offset: 0xb0, size: 0x1, def value: None
-  bool ____requiresInteraction;
+/// @brief Field _coroutineStarter, offset: 0xa8, size: 0x8, def value: None
+ ::GlobalNamespace::ICoroutineStarter*  ____coroutineStarter;
 
-  /// @brief Field _dismissCoroutine, offset: 0xb8, size: 0x8, def value: None
-  ::UnityEngine::Coroutine* ____dismissCoroutine;
+/// @brief Field _requiresInteraction, offset: 0xb0, size: 0x1, def value: None
+ bool  ____requiresInteraction;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _dismissCoroutine, offset: 0xb8, size: 0x8, def value: None
+ ::UnityEngine::Coroutine*  ____dismissCoroutine;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::HealthWarningViewController, ____continueButton) == 0x80, "Offset mismatch!");
@@ -323,7 +324,7 @@ static_assert(offsetof(::GlobalNamespace::HealthWarningViewController, ____dismi
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::HealthWarningViewController, 0xc0>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::HealthWarningViewController);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::HealthWarningViewController*, "", "HealthWarningViewController");
 NEED_NO_BOX(::GlobalNamespace::HealthWarningViewController__DismissHealthAndSafety_d__11);

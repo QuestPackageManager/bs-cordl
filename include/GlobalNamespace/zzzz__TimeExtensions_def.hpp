@@ -26,95 +26,95 @@ namespace GlobalNamespace {
 // CS Name: TimeExtensions
 class CORDL_TYPE TimeExtensions : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method AsUnixTime, addr 0x321781c, size 0xcc, virtual false, abstract: false, final false
-  static inline ::System::DateTime AsUnixTime(int64_t unixTime);
+// Declarations
+/// @brief Method AsUnixTime, addr 0x321776c, size 0xcc, virtual false, abstract: false, final false
+static inline ::System::DateTime AsUnixTime(int64_t  unixTime) ;
 
-  /// @brief Method DaysToSeconds, addr 0x32175b0, size 0x10, virtual false, abstract: false, final false
-  static inline int32_t DaysToSeconds(int32_t days);
+/// @brief Method DaysToSeconds, addr 0x3217500, size 0x10, virtual false, abstract: false, final false
+static inline int32_t DaysToSeconds(int32_t  days) ;
 
-  /// @brief Method GetFormattedRemainingTimeTwoOfDaysHoursMinutes, addr 0x32178e8, size 0x248, virtual false, abstract: false, final false
-  static inline ::StringW GetFormattedRemainingTimeTwoOfDaysHoursMinutes(::System::TimeSpan timeSpan);
+/// @brief Method GetFormattedRemainingTimeTwoOfDaysHoursMinutes, addr 0x3217838, size 0x248, virtual false, abstract: false, final false
+static inline ::StringW GetFormattedRemainingTimeTwoOfDaysHoursMinutes(::System::TimeSpan  timeSpan) ;
 
-  /// @brief Method Hours, addr 0x32175d8, size 0x80, virtual false, abstract: false, final false
-  static inline int32_t Hours(float_t time);
+/// @brief Method Hours, addr 0x3217528, size 0x80, virtual false, abstract: false, final false
+static inline int32_t Hours(float_t  time) ;
 
-  /// @brief Method HoursToSeconds, addr 0x32175c0, size 0xc, virtual false, abstract: false, final false
-  static inline int32_t HoursToSeconds(int32_t hours);
+/// @brief Method HoursToSeconds, addr 0x3217510, size 0xc, virtual false, abstract: false, final false
+static inline int32_t HoursToSeconds(int32_t  hours) ;
 
-  /// @brief Method Milliseconds, addr 0x32174d8, size 0x38, virtual false, abstract: false, final false
-  static inline int32_t Milliseconds(float_t time);
+/// @brief Method Milliseconds, addr 0x3217428, size 0x38, virtual false, abstract: false, final false
+static inline int32_t Milliseconds(float_t  time) ;
 
-  /// @brief Method MinSecDurationText, addr 0x3217158, size 0x1d0, virtual false, abstract: false, final false
-  static inline ::StringW MinSecDurationText(float_t duration);
+/// @brief Method MinSecDurationText, addr 0x32170a8, size 0x1d0, virtual false, abstract: false, final false
+static inline ::StringW MinSecDurationText(float_t  duration) ;
 
-  /// @brief Method MinSecMillisecDurationText, addr 0x32173d4, size 0x104, virtual false, abstract: false, final false
-  static inline ::StringW MinSecMillisecDurationText(float_t duration);
+/// @brief Method MinSecMillisecDurationText, addr 0x3217324, size 0x104, virtual false, abstract: false, final false
+static inline ::StringW MinSecMillisecDurationText(float_t  duration) ;
 
-  /// @brief Method Minutes, addr 0x3217328, size 0x7c, virtual false, abstract: false, final false
-  static inline int32_t Minutes(float_t time);
+/// @brief Method Minutes, addr 0x3217278, size 0x7c, virtual false, abstract: false, final false
+static inline int32_t Minutes(float_t  time) ;
 
-  /// @brief Method MinutesToSeconds, addr 0x32175cc, size 0xc, virtual false, abstract: false, final false
-  static inline int32_t MinutesToSeconds(int32_t minutes);
+/// @brief Method MinutesToSeconds, addr 0x321751c, size 0xc, virtual false, abstract: false, final false
+static inline int32_t MinutesToSeconds(int32_t  minutes) ;
 
-  /// @brief Method OneBeatDuration, addr 0x3217510, size 0x1c, virtual false, abstract: false, final false
-  static inline float_t OneBeatDuration(float_t bpm);
+/// @brief Method OneBeatDuration, addr 0x3217460, size 0x1c, virtual false, abstract: false, final false
+static inline float_t OneBeatDuration(float_t  bpm) ;
 
-  /// @brief Method Seconds, addr 0x32173a4, size 0x30, virtual false, abstract: false, final false
-  static inline int32_t Seconds(float_t time);
+/// @brief Method Seconds, addr 0x32172f4, size 0x30, virtual false, abstract: false, final false
+static inline int32_t Seconds(float_t  time) ;
 
-  /// @brief Method SecondsToDays, addr 0x3217550, size 0x20, virtual false, abstract: false, final false
-  static inline int32_t SecondsToDays(int32_t time);
+/// @brief Method SecondsToDays, addr 0x32174a0, size 0x20, virtual false, abstract: false, final false
+static inline int32_t SecondsToDays(int32_t  time) ;
 
-  /// @brief Method SecondsToHours, addr 0x3217570, size 0x20, virtual false, abstract: false, final false
-  static inline int32_t SecondsToHours(int32_t time);
+/// @brief Method SecondsToHours, addr 0x32174c0, size 0x20, virtual false, abstract: false, final false
+static inline int32_t SecondsToHours(int32_t  time) ;
 
-  /// @brief Method SecondsToMinutes, addr 0x3217540, size 0x10, virtual false, abstract: false, final false
-  static inline float_t SecondsToMinutes(float_t seconds);
+/// @brief Method SecondsToMinutes, addr 0x3217490, size 0x10, virtual false, abstract: false, final false
+static inline float_t SecondsToMinutes(float_t  seconds) ;
 
-  /// @brief Method SecondsToMinutes, addr 0x3217590, size 0x20, virtual false, abstract: false, final false
-  static inline int32_t SecondsToMinutes(int32_t time);
+/// @brief Method SecondsToMinutes, addr 0x32174e0, size 0x20, virtual false, abstract: false, final false
+static inline int32_t SecondsToMinutes(int32_t  time) ;
 
-  /// @brief Method TimeToBeat, addr 0x321752c, size 0x14, virtual false, abstract: false, final false
-  static inline float_t TimeToBeat(float_t time, float_t bpm);
+/// @brief Method TimeToBeat, addr 0x321747c, size 0x14, virtual false, abstract: false, final false
+static inline float_t TimeToBeat(float_t  time, float_t  bpm) ;
 
-  /// @brief Method ToUnixTime, addr 0x3217724, size 0xf8, virtual false, abstract: false, final false
-  static inline int64_t ToUnixTime(::System::DateTime dateTime);
+/// @brief Method ToUnixTime, addr 0x3217674, size 0xf8, virtual false, abstract: false, final false
+static inline int64_t ToUnixTime(::System::DateTime  dateTime) ;
 
-  /// @brief Method TotalDays, addr 0x3217658, size 0x38, virtual false, abstract: false, final false
-  static inline int32_t TotalDays(float_t time);
+/// @brief Method TotalDays, addr 0x32175a8, size 0x38, virtual false, abstract: false, final false
+static inline int32_t TotalDays(float_t  time) ;
 
-  /// @brief Method TotalHours, addr 0x3217690, size 0x3c, virtual false, abstract: false, final false
-  static inline int32_t TotalHours(float_t time);
+/// @brief Method TotalHours, addr 0x32175e0, size 0x3c, virtual false, abstract: false, final false
+static inline int32_t TotalHours(float_t  time) ;
 
-  /// @brief Method TotalMinutes, addr 0x32176cc, size 0x3c, virtual false, abstract: false, final false
-  static inline int32_t TotalMinutes(float_t time);
+/// @brief Method TotalMinutes, addr 0x321761c, size 0x3c, virtual false, abstract: false, final false
+static inline int32_t TotalMinutes(float_t  time) ;
 
-  /// @brief Method TotalSeconds, addr 0x3217708, size 0x1c, virtual false, abstract: false, final false
-  static inline int32_t TotalSeconds(float_t time);
+/// @brief Method TotalSeconds, addr 0x3217658, size 0x1c, virtual false, abstract: false, final false
+static inline int32_t TotalSeconds(float_t  time) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TimeExtensions();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr TimeExtensions() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TimeExtensions", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  TimeExtensions(TimeExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TimeExtensions", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  TimeExtensions(TimeExtensions const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "TimeExtensions", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+TimeExtensions(TimeExtensions && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20519 };
+// Ctor Parameters [CppParam { name: "", ty: "TimeExtensions", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+TimeExtensions(TimeExtensions const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20523};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::TimeExtensions, 0x10>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::TimeExtensions);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::TimeExtensions*, "", "TimeExtensions");

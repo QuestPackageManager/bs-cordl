@@ -33,50 +33,50 @@ namespace System::Runtime::Serialization {
 // CS Name: System.Runtime.Serialization.UnsignedShortDataContract
 class CORDL_TYPE UnsignedShortDataContract : public ::System::Runtime::Serialization::PrimitiveDataContract {
 public:
-  // Declarations
-  __declspec(property(get = get_ReadMethodName)) ::StringW ReadMethodName;
+// Declarations
+ __declspec(property(get=get_ReadMethodName)) ::StringW  ReadMethodName;
 
-  __declspec(property(get = get_WriteMethodName)) ::StringW WriteMethodName;
+ __declspec(property(get=get_WriteMethodName)) ::StringW  WriteMethodName;
 
-  static inline ::System::Runtime::Serialization::UnsignedShortDataContract* New_ctor();
+static inline ::System::Runtime::Serialization::UnsignedShortDataContract* New_ctor() ;
 
-  /// @brief Method ReadXmlValue, addr 0x5fa76d4, size 0xa0, virtual true, abstract: false, final false
-  inline ::System::Object* ReadXmlValue(::System::Runtime::Serialization::XmlReaderDelegator* reader, ::System::Runtime::Serialization::XmlObjectSerializerReadContext* context);
+/// @brief Method ReadXmlValue, addr 0x5fa7d94, size 0xa0, virtual true, abstract: false, final false
+inline ::System::Object* ReadXmlValue(::System::Runtime::Serialization::XmlReaderDelegator*  reader, ::System::Runtime::Serialization::XmlObjectSerializerReadContext*  context) ;
 
-  /// @brief Method WriteXmlValue, addr 0x5fa7678, size 0x5c, virtual true, abstract: false, final false
-  inline void WriteXmlValue(::System::Runtime::Serialization::XmlWriterDelegator* writer, ::System::Object* obj, ::System::Runtime::Serialization::XmlObjectSerializerWriteContext* context);
+/// @brief Method WriteXmlValue, addr 0x5fa7d38, size 0x5c, virtual true, abstract: false, final false
+inline void WriteXmlValue(::System::Runtime::Serialization::XmlWriterDelegator*  writer, ::System::Object*  obj, ::System::Runtime::Serialization::XmlObjectSerializerWriteContext*  context) ;
 
-  /// @brief Method .ctor, addr 0x5fa7554, size 0x9c, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5fa7c14, size 0x9c, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_ReadMethodName, addr 0x5fa7634, size 0x44, virtual true, abstract: false, final false
-  inline ::StringW get_ReadMethodName();
+/// @brief Method get_ReadMethodName, addr 0x5fa7cf4, size 0x44, virtual true, abstract: false, final false
+inline ::StringW get_ReadMethodName() ;
 
-  /// @brief Method get_WriteMethodName, addr 0x5fa75f0, size 0x44, virtual true, abstract: false, final false
-  inline ::StringW get_WriteMethodName();
+/// @brief Method get_WriteMethodName, addr 0x5fa7cb0, size 0x44, virtual true, abstract: false, final false
+inline ::StringW get_WriteMethodName() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr UnsignedShortDataContract();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr UnsignedShortDataContract() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UnsignedShortDataContract", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  UnsignedShortDataContract(UnsignedShortDataContract&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UnsignedShortDataContract", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  UnsignedShortDataContract(UnsignedShortDataContract const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "UnsignedShortDataContract", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+UnsignedShortDataContract(UnsignedShortDataContract && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17036 };
+// Ctor Parameters [CppParam { name: "", ty: "UnsignedShortDataContract", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+UnsignedShortDataContract(UnsignedShortDataContract const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{17040};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::UnsignedShortDataContract, 0x30>, "Size mismatch!");
 
-} // namespace System::Runtime::Serialization
+} // namespace end def System::Runtime::Serialization
 NEED_NO_BOX(::System::Runtime::Serialization::UnsignedShortDataContract);
 DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::UnsignedShortDataContract*, "System.Runtime.Serialization", "UnsignedShortDataContract");

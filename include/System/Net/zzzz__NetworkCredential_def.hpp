@@ -27,113 +27,113 @@ namespace System::Net {
 // CS Name: System.Net.NetworkCredential
 class CORDL_TYPE NetworkCredential : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(get = get_Domain, put = set_Domain)) ::StringW Domain;
+// Declarations
+ __declspec(property(get=get_Domain, put=set_Domain)) ::StringW  Domain;
 
-  __declspec(property(get = get_Password, put = set_Password)) ::StringW Password;
+ __declspec(property(get=get_Password, put=set_Password)) ::StringW  Password;
 
-  __declspec(property(get = get_UserName, put = set_UserName)) ::StringW UserName;
+ __declspec(property(get=get_UserName, put=set_UserName)) ::StringW  UserName;
 
-  /// @brief Field m_domain, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_domain, put = __cordl_internal_set_m_domain)) ::StringW m_domain;
+/// @brief Field m_domain, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_domain, put=__cordl_internal_set_m_domain)) ::StringW  m_domain;
 
-  /// @brief Field m_password, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_password, put = __cordl_internal_set_m_password)) ::System::Security::SecureString* m_password;
+/// @brief Field m_password, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_password, put=__cordl_internal_set_m_password)) ::System::Security::SecureString*  m_password;
 
-  /// @brief Field m_userName, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_userName, put = __cordl_internal_set_m_userName)) ::StringW m_userName;
+/// @brief Field m_userName, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_userName, put=__cordl_internal_set_m_userName)) ::StringW  m_userName;
 
-  /// @brief Convert operator to "::System::Net::ICredentials"
-  constexpr operator ::System::Net::ICredentials*() noexcept;
+/// @brief Convert operator to "::System::Net::ICredentials"
+constexpr operator  ::System::Net::ICredentials*() noexcept;
 
-  /// @brief Method GetCredential, addr 0x6258ff8, size 0x4, virtual true, abstract: false, final true
-  inline ::System::Net::NetworkCredential* GetCredential(::System::Uri* uri, ::StringW authType);
+/// @brief Method GetCredential, addr 0x62596b8, size 0x4, virtual true, abstract: false, final true
+inline ::System::Net::NetworkCredential* GetCredential(::System::Uri*  uri, ::StringW  authType) ;
 
-  /// @brief Method InternalGetDomain, addr 0x6258ff0, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW InternalGetDomain();
+/// @brief Method InternalGetDomain, addr 0x62596b0, size 0x8, virtual false, abstract: false, final false
+inline ::StringW InternalGetDomain() ;
 
-  /// @brief Method InternalGetPassword, addr 0x6258fd4, size 0xc, virtual false, abstract: false, final false
-  inline ::StringW InternalGetPassword();
+/// @brief Method InternalGetPassword, addr 0x6259694, size 0xc, virtual false, abstract: false, final false
+inline ::StringW InternalGetPassword() ;
 
-  /// @brief Method InternalGetUserName, addr 0x6258fe8, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW InternalGetUserName();
+/// @brief Method InternalGetUserName, addr 0x62596a8, size 0x8, virtual false, abstract: false, final false
+inline ::StringW InternalGetUserName() ;
 
-  static inline ::System::Net::NetworkCredential* New_ctor(::StringW userName, ::StringW password);
+static inline ::System::Net::NetworkCredential* New_ctor(::StringW  userName, ::StringW  password) ;
 
-  static inline ::System::Net::NetworkCredential* New_ctor(::StringW userName, ::StringW password, ::StringW domain);
+static inline ::System::Net::NetworkCredential* New_ctor(::StringW  userName, ::StringW  password, ::StringW  domain) ;
 
-  constexpr ::StringW const& __cordl_internal_get_m_domain() const;
+constexpr ::StringW const& __cordl_internal_get_m_domain() const;
 
-  constexpr ::StringW& __cordl_internal_get_m_domain();
+constexpr ::StringW& __cordl_internal_get_m_domain() ;
 
-  constexpr ::System::Security::SecureString* const& __cordl_internal_get_m_password() const;
+constexpr ::System::Security::SecureString* const& __cordl_internal_get_m_password() const;
 
-  constexpr ::System::Security::SecureString*& __cordl_internal_get_m_password();
+constexpr ::System::Security::SecureString*& __cordl_internal_get_m_password() ;
 
-  constexpr ::StringW const& __cordl_internal_get_m_userName() const;
+constexpr ::StringW const& __cordl_internal_get_m_userName() const;
 
-  constexpr ::StringW& __cordl_internal_get_m_userName();
+constexpr ::StringW& __cordl_internal_get_m_userName() ;
 
-  constexpr void __cordl_internal_set_m_domain(::StringW value);
+constexpr void __cordl_internal_set_m_domain(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_m_password(::System::Security::SecureString* value);
+constexpr void __cordl_internal_set_m_password(::System::Security::SecureString*  value) ;
 
-  constexpr void __cordl_internal_set_m_userName(::StringW value);
+constexpr void __cordl_internal_set_m_userName(::StringW  value) ;
 
-  /// @brief Method .ctor, addr 0x624f148, size 0x14, virtual false, abstract: false, final false
-  inline void _ctor(::StringW userName, ::StringW password);
+/// @brief Method .ctor, addr 0x624f808, size 0x14, virtual false, abstract: false, final false
+inline void _ctor(::StringW  userName, ::StringW  password) ;
 
-  /// @brief Method .ctor, addr 0x6254fe8, size 0x5c, virtual false, abstract: false, final false
-  inline void _ctor(::StringW userName, ::StringW password, ::StringW domain);
+/// @brief Method .ctor, addr 0x62556a8, size 0x5c, virtual false, abstract: false, final false
+inline void _ctor(::StringW  userName, ::StringW  password, ::StringW  domain) ;
 
-  /// @brief Method get_Domain, addr 0x6258fe0, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_Domain();
+/// @brief Method get_Domain, addr 0x62596a0, size 0x8, virtual false, abstract: false, final false
+inline ::StringW get_Domain() ;
 
-  /// @brief Method get_Password, addr 0x6258fc8, size 0xc, virtual false, abstract: false, final false
-  inline ::StringW get_Password();
+/// @brief Method get_Password, addr 0x6259688, size 0xc, virtual false, abstract: false, final false
+inline ::StringW get_Password() ;
 
-  /// @brief Method get_UserName, addr 0x6258fc0, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_UserName();
+/// @brief Method get_UserName, addr 0x6259680, size 0x8, virtual false, abstract: false, final false
+inline ::StringW get_UserName() ;
 
-  /// @brief Convert to "::System::Net::ICredentials"
-  constexpr ::System::Net::ICredentials* i___System__Net__ICredentials() noexcept;
+/// @brief Convert to "::System::Net::ICredentials"
+constexpr ::System::Net::ICredentials* i___System__Net__ICredentials() noexcept;
 
-  /// @brief Method set_Domain, addr 0x6258fa4, size 0x1c, virtual false, abstract: false, final false
-  inline void set_Domain(::StringW value);
+/// @brief Method set_Domain, addr 0x6259664, size 0x1c, virtual false, abstract: false, final false
+inline void set_Domain(::StringW  value) ;
 
-  /// @brief Method set_Password, addr 0x6258f84, size 0x20, virtual false, abstract: false, final false
-  inline void set_Password(::StringW value);
+/// @brief Method set_Password, addr 0x6259644, size 0x20, virtual false, abstract: false, final false
+inline void set_Password(::StringW  value) ;
 
-  /// @brief Method set_UserName, addr 0x6258f68, size 0x1c, virtual false, abstract: false, final false
-  inline void set_UserName(::StringW value);
+/// @brief Method set_UserName, addr 0x6259628, size 0x1c, virtual false, abstract: false, final false
+inline void set_UserName(::StringW  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NetworkCredential();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr NetworkCredential() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NetworkCredential", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  NetworkCredential(NetworkCredential&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NetworkCredential", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  NetworkCredential(NetworkCredential const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "NetworkCredential", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+NetworkCredential(NetworkCredential && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11480 };
+// Ctor Parameters [CppParam { name: "", ty: "NetworkCredential", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+NetworkCredential(NetworkCredential const& ) = delete;
 
-  /// @brief Field m_domain, offset: 0x10, size: 0x8, def value: None
-  ::StringW ___m_domain;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11484};
 
-  /// @brief Field m_userName, offset: 0x18, size: 0x8, def value: None
-  ::StringW ___m_userName;
+/// @brief Field m_domain, offset: 0x10, size: 0x8, def value: None
+ ::StringW  ___m_domain;
 
-  /// @brief Field m_password, offset: 0x20, size: 0x8, def value: None
-  ::System::Security::SecureString* ___m_password;
+/// @brief Field m_userName, offset: 0x18, size: 0x8, def value: None
+ ::StringW  ___m_userName;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field m_password, offset: 0x20, size: 0x8, def value: None
+ ::System::Security::SecureString*  ___m_password;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Net::NetworkCredential, ___m_domain) == 0x10, "Offset mismatch!");
@@ -144,6 +144,6 @@ static_assert(offsetof(::System::Net::NetworkCredential, ___m_password) == 0x20,
 
 static_assert(::cordl_internals::size_check_v<::System::Net::NetworkCredential, 0x28>, "Size mismatch!");
 
-} // namespace System::Net
+} // namespace end def System::Net
 NEED_NO_BOX(::System::Net::NetworkCredential);
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::NetworkCredential*, "System.Net", "NetworkCredential");

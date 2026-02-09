@@ -18,32 +18,32 @@ namespace OculusStudios::Platform::Core {
 // CS Name: OculusStudios.Platform.Core.Defines
 class CORDL_TYPE Defines : public ::System::Object {
 public:
-  // Declarations
+// Declarations
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Defines();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr Defines() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Defines", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  Defines(Defines&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Defines", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  Defines(Defines const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "Defines", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+Defines(Defines && ) = delete;
 
-  /// @brief Field TIMEOUT_WEBREQUEST_SECONDS offset 0xffffffff size 0x4
-  static constexpr uint32_t TIMEOUT_WEBREQUEST_SECONDS{ static_cast<uint32_t>(0x14u) };
+// Ctor Parameters [CppParam { name: "", ty: "Defines", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+Defines(Defines const& ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22179 };
+/// @brief Field TIMEOUT_WEBREQUEST_SECONDS offset 0xffffffff size 0x4
+static constexpr uint32_t  TIMEOUT_WEBREQUEST_SECONDS{static_cast<uint32_t>(0x14u)};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{22183};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OculusStudios::Platform::Core::Defines, 0x10>, "Size mismatch!");
 
-} // namespace OculusStudios::Platform::Core
+} // namespace end def OculusStudios::Platform::Core
 NEED_NO_BOX(::OculusStudios::Platform::Core::Defines);
 DEFINE_IL2CPP_ARG_TYPE(::OculusStudios::Platform::Core::Defines*, "OculusStudios.Platform.Core", "Defines");

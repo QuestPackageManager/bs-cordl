@@ -23,57 +23,57 @@ namespace GlobalNamespace {
 // CS Name: RecordingToolLoggingViewController
 class CORDL_TYPE RecordingToolLoggingViewController : public ::HMUI::ViewController {
 public:
-  // Declarations
-  /// @brief Field _listLogger, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get__listLogger, put = __cordl_internal_set__listLogger)) ::GlobalNamespace::ListLogger* _listLogger;
+// Declarations
+/// @brief Field _listLogger, offset 0x80, size 0x8 
+ __declspec(property(get=__cordl_internal_get__listLogger, put=__cordl_internal_set__listLogger)) ::GlobalNamespace::ListLogger*  _listLogger;
 
-  /// @brief Field _textPageScrollView, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get__textPageScrollView, put = __cordl_internal_set__textPageScrollView)) ::UnityW<::HMUI::TextPageScrollView> _textPageScrollView;
+/// @brief Field _textPageScrollView, offset 0x78, size 0x8 
+ __declspec(property(get=__cordl_internal_get__textPageScrollView, put=__cordl_internal_set__textPageScrollView)) ::UnityW<::HMUI::TextPageScrollView>  _textPageScrollView;
 
-  /// @brief Method DidActivate, addr 0x57354a8, size 0xa8, virtual true, abstract: false, final false
-  inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
+/// @brief Method DidActivate, addr 0x5735d0c, size 0xa8, virtual true, abstract: false, final false
+inline void DidActivate(bool  firstActivation, bool  addedToHierarchy, bool  screenSystemEnabling) ;
 
-  static inline ::GlobalNamespace::RecordingToolLoggingViewController* New_ctor();
+static inline ::GlobalNamespace::RecordingToolLoggingViewController* New_ctor() ;
 
-  constexpr ::GlobalNamespace::ListLogger* const& __cordl_internal_get__listLogger() const;
+constexpr ::GlobalNamespace::ListLogger* const& __cordl_internal_get__listLogger() const;
 
-  constexpr ::GlobalNamespace::ListLogger*& __cordl_internal_get__listLogger();
+constexpr ::GlobalNamespace::ListLogger*& __cordl_internal_get__listLogger() ;
 
-  constexpr ::UnityW<::HMUI::TextPageScrollView> const& __cordl_internal_get__textPageScrollView() const;
+constexpr ::UnityW<::HMUI::TextPageScrollView> const& __cordl_internal_get__textPageScrollView() const;
 
-  constexpr ::UnityW<::HMUI::TextPageScrollView>& __cordl_internal_get__textPageScrollView();
+constexpr ::UnityW<::HMUI::TextPageScrollView>& __cordl_internal_get__textPageScrollView() ;
 
-  constexpr void __cordl_internal_set__listLogger(::GlobalNamespace::ListLogger* value);
+constexpr void __cordl_internal_set__listLogger(::GlobalNamespace::ListLogger*  value) ;
 
-  constexpr void __cordl_internal_set__textPageScrollView(::UnityW<::HMUI::TextPageScrollView> value);
+constexpr void __cordl_internal_set__textPageScrollView(::UnityW<::HMUI::TextPageScrollView>  value) ;
 
-  /// @brief Method .ctor, addr 0x5735550, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5735db4, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RecordingToolLoggingViewController();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr RecordingToolLoggingViewController() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RecordingToolLoggingViewController", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  RecordingToolLoggingViewController(RecordingToolLoggingViewController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RecordingToolLoggingViewController", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  RecordingToolLoggingViewController(RecordingToolLoggingViewController const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "RecordingToolLoggingViewController", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+RecordingToolLoggingViewController(RecordingToolLoggingViewController && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6516 };
+// Ctor Parameters [CppParam { name: "", ty: "RecordingToolLoggingViewController", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+RecordingToolLoggingViewController(RecordingToolLoggingViewController const& ) = delete;
 
-  /// @brief Field _textPageScrollView, offset: 0x78, size: 0x8, def value: None
-  ::UnityW<::HMUI::TextPageScrollView> ____textPageScrollView;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6519};
 
-  /// @brief Field _listLogger, offset: 0x80, size: 0x8, def value: None
-  ::GlobalNamespace::ListLogger* ____listLogger;
+/// @brief Field _textPageScrollView, offset: 0x78, size: 0x8, def value: None
+ ::UnityW<::HMUI::TextPageScrollView>  ____textPageScrollView;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _listLogger, offset: 0x80, size: 0x8, def value: None
+ ::GlobalNamespace::ListLogger*  ____listLogger;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::RecordingToolLoggingViewController, ____textPageScrollView) == 0x78, "Offset mismatch!");
@@ -82,6 +82,6 @@ static_assert(offsetof(::GlobalNamespace::RecordingToolLoggingViewController, __
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::RecordingToolLoggingViewController, 0x88>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::RecordingToolLoggingViewController);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::RecordingToolLoggingViewController*, "", "RecordingToolLoggingViewController");

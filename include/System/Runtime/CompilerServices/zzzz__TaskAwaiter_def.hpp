@@ -37,57 +37,57 @@ namespace System::Runtime::CompilerServices {
 // CS Name: System.Runtime.CompilerServices.TaskAwaiter/<>c__DisplayClass11_0
 class CORDL_TYPE TaskAwaiter___c__DisplayClass11_0 : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field continuation, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_continuation, put = __cordl_internal_set_continuation)) ::System::Action* continuation;
+// Declarations
+/// @brief Field continuation, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_continuation, put=__cordl_internal_set_continuation)) ::System::Action*  continuation;
 
-  /// @brief Field task, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_task, put = __cordl_internal_set_task)) ::System::Threading::Tasks::Task* task;
+/// @brief Field task, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_task, put=__cordl_internal_set_task)) ::System::Threading::Tasks::Task*  task;
 
-  static inline ::System::Runtime::CompilerServices::TaskAwaiter___c__DisplayClass11_0* New_ctor();
+static inline ::System::Runtime::CompilerServices::TaskAwaiter___c__DisplayClass11_0* New_ctor() ;
 
-  /// @brief Method <OutputWaitEtwEvents>b__0, addr 0x59c1590, size 0x1b8, virtual false, abstract: false, final false
-  inline void _OutputWaitEtwEvents_b__0();
+/// @brief Method <OutputWaitEtwEvents>b__0, addr 0x59c1a9c, size 0x1b8, virtual false, abstract: false, final false
+inline void _OutputWaitEtwEvents_b__0() ;
 
-  constexpr ::System::Action* const& __cordl_internal_get_continuation() const;
+constexpr ::System::Action* const& __cordl_internal_get_continuation() const;
 
-  constexpr ::System::Action*& __cordl_internal_get_continuation();
+constexpr ::System::Action*& __cordl_internal_get_continuation() ;
 
-  constexpr ::System::Threading::Tasks::Task* const& __cordl_internal_get_task() const;
+constexpr ::System::Threading::Tasks::Task* const& __cordl_internal_get_task() const;
 
-  constexpr ::System::Threading::Tasks::Task*& __cordl_internal_get_task();
+constexpr ::System::Threading::Tasks::Task*& __cordl_internal_get_task() ;
 
-  constexpr void __cordl_internal_set_continuation(::System::Action* value);
+constexpr void __cordl_internal_set_continuation(::System::Action*  value) ;
 
-  constexpr void __cordl_internal_set_task(::System::Threading::Tasks::Task* value);
+constexpr void __cordl_internal_set_task(::System::Threading::Tasks::Task*  value) ;
 
-  /// @brief Method .ctor, addr 0x59c158c, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x59c1a98, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TaskAwaiter___c__DisplayClass11_0();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr TaskAwaiter___c__DisplayClass11_0() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TaskAwaiter___c__DisplayClass11_0", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  TaskAwaiter___c__DisplayClass11_0(TaskAwaiter___c__DisplayClass11_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TaskAwaiter___c__DisplayClass11_0", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  TaskAwaiter___c__DisplayClass11_0(TaskAwaiter___c__DisplayClass11_0 const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "TaskAwaiter___c__DisplayClass11_0", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+TaskAwaiter___c__DisplayClass11_0(TaskAwaiter___c__DisplayClass11_0 && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3407 };
+// Ctor Parameters [CppParam { name: "", ty: "TaskAwaiter___c__DisplayClass11_0", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+TaskAwaiter___c__DisplayClass11_0(TaskAwaiter___c__DisplayClass11_0 const& ) = delete;
 
-  /// @brief Field task, offset: 0x10, size: 0x8, def value: None
-  ::System::Threading::Tasks::Task* ___task;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{3407};
 
-  /// @brief Field continuation, offset: 0x18, size: 0x8, def value: None
-  ::System::Action* ___continuation;
+/// @brief Field task, offset: 0x10, size: 0x8, def value: None
+ ::System::Threading::Tasks::Task*  ___task;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field continuation, offset: 0x18, size: 0x8, def value: None
+ ::System::Action*  ___continuation;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Runtime::CompilerServices::TaskAwaiter___c__DisplayClass11_0, ___task) == 0x10, "Offset mismatch!");
@@ -96,84 +96,84 @@ static_assert(offsetof(::System::Runtime::CompilerServices::TaskAwaiter___c__Dis
 
 static_assert(::cordl_internals::size_check_v<::System::Runtime::CompilerServices::TaskAwaiter___c__DisplayClass11_0, 0x20>, "Size mismatch!");
 
-} // namespace System::Runtime::CompilerServices
-// Dependencies
+} // namespace end def System::Runtime::CompilerServices
+// Dependencies 
 namespace System::Runtime::CompilerServices {
 // Is value type: true
 // CS Name: System.Runtime.CompilerServices.TaskAwaiter
 struct CORDL_TYPE TaskAwaiter {
 public:
-  // Declarations
-  using __c__DisplayClass11_0 = ::System::Runtime::CompilerServices::TaskAwaiter___c__DisplayClass11_0;
+// Declarations
+using __c__DisplayClass11_0 = ::System::Runtime::CompilerServices::TaskAwaiter___c__DisplayClass11_0;
 
-  __declspec(property(get = get_IsCompleted)) bool IsCompleted;
+ __declspec(property(get=get_IsCompleted)) bool  IsCompleted;
 
-  /// @brief Convert operator to "::System::Runtime::CompilerServices::ICriticalNotifyCompletion"
-  constexpr operator ::System::Runtime::CompilerServices::ICriticalNotifyCompletion*();
+/// @brief Convert operator to "::System::Runtime::CompilerServices::ICriticalNotifyCompletion"
+constexpr operator  ::System::Runtime::CompilerServices::ICriticalNotifyCompletion*() ;
 
-  /// @brief Convert operator to "::System::Runtime::CompilerServices::INotifyCompletion"
-  constexpr operator ::System::Runtime::CompilerServices::INotifyCompletion*();
+/// @brief Convert operator to "::System::Runtime::CompilerServices::INotifyCompletion"
+constexpr operator  ::System::Runtime::CompilerServices::INotifyCompletion*() ;
 
-  /// @brief Method GetResult, addr 0x59c1164, size 0x8, virtual false, abstract: false, final false
-  inline void GetResult();
+/// @brief Method GetResult, addr 0x59c1670, size 0x8, virtual false, abstract: false, final false
+inline void GetResult() ;
 
-  /// @brief Method HandleNonSuccessAndDebuggerNotification, addr 0x59c119c, size 0x6c, virtual false, abstract: false, final false
-  static inline void HandleNonSuccessAndDebuggerNotification(::System::Threading::Tasks::Task* task);
+/// @brief Method HandleNonSuccessAndDebuggerNotification, addr 0x59c16a8, size 0x6c, virtual false, abstract: false, final false
+static inline void HandleNonSuccessAndDebuggerNotification(::System::Threading::Tasks::Task*  task) ;
 
-  /// @brief Method OnCompleted, addr 0x59c0d4c, size 0x10, virtual true, abstract: false, final true
-  inline void OnCompleted(::System::Action* continuation);
+/// @brief Method OnCompleted, addr 0x59c1258, size 0x10, virtual true, abstract: false, final true
+inline void OnCompleted(::System::Action*  continuation) ;
 
-  /// @brief Method OnCompletedInternal, addr 0x59c10b4, size 0xb0, virtual false, abstract: false, final false
-  static inline void OnCompletedInternal(::System::Threading::Tasks::Task* task, ::System::Action* continuation, bool continueOnCapturedContext, bool flowExecutionContext);
+/// @brief Method OnCompletedInternal, addr 0x59c15c0, size 0xb0, virtual false, abstract: false, final false
+static inline void OnCompletedInternal(::System::Threading::Tasks::Task*  task, ::System::Action*  continuation, bool  continueOnCapturedContext, bool  flowExecutionContext) ;
 
-  /// @brief Method OutputWaitEtwEvents, addr 0x59c1344, size 0x248, virtual false, abstract: false, final false
-  static inline ::System::Action* OutputWaitEtwEvents(::System::Threading::Tasks::Task* task, ::System::Action* continuation);
+/// @brief Method OutputWaitEtwEvents, addr 0x59c1850, size 0x248, virtual false, abstract: false, final false
+static inline ::System::Action* OutputWaitEtwEvents(::System::Threading::Tasks::Task*  task, ::System::Action*  continuation) ;
 
-  /// @brief Method ThrowForNonSuccess, addr 0x59c1208, size 0x13c, virtual false, abstract: false, final false
-  static inline void ThrowForNonSuccess(::System::Threading::Tasks::Task* task);
+/// @brief Method ThrowForNonSuccess, addr 0x59c1714, size 0x13c, virtual false, abstract: false, final false
+static inline void ThrowForNonSuccess(::System::Threading::Tasks::Task*  task) ;
 
-  /// @brief Method UnsafeOnCompleted, addr 0x59c0ef0, size 0x10, virtual true, abstract: false, final true
-  inline void UnsafeOnCompleted(::System::Action* continuation);
+/// @brief Method UnsafeOnCompleted, addr 0x59c13fc, size 0x10, virtual true, abstract: false, final true
+inline void UnsafeOnCompleted(::System::Action*  continuation) ;
 
-  /// @brief Method ValidateEnd, addr 0x59c116c, size 0x30, virtual false, abstract: false, final false
-  static inline void ValidateEnd(::System::Threading::Tasks::Task* task);
+/// @brief Method ValidateEnd, addr 0x59c1678, size 0x30, virtual false, abstract: false, final false
+static inline void ValidateEnd(::System::Threading::Tasks::Task*  task) ;
 
-  /// @brief Method .ctor, addr 0x59c1094, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::System::Threading::Tasks::Task* task);
+/// @brief Method .ctor, addr 0x59c15a0, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(::System::Threading::Tasks::Task*  task) ;
 
-  /// @brief Method get_IsCompleted, addr 0x59c109c, size 0x18, virtual false, abstract: false, final false
-  inline bool get_IsCompleted();
+/// @brief Method get_IsCompleted, addr 0x59c15a8, size 0x18, virtual false, abstract: false, final false
+inline bool get_IsCompleted() ;
 
-  /// @brief Convert to "::System::Runtime::CompilerServices::ICriticalNotifyCompletion"
-  constexpr ::System::Runtime::CompilerServices::ICriticalNotifyCompletion* i___System__Runtime__CompilerServices__ICriticalNotifyCompletion();
+/// @brief Convert to "::System::Runtime::CompilerServices::ICriticalNotifyCompletion"
+constexpr ::System::Runtime::CompilerServices::ICriticalNotifyCompletion* i___System__Runtime__CompilerServices__ICriticalNotifyCompletion() ;
 
-  /// @brief Convert to "::System::Runtime::CompilerServices::INotifyCompletion"
-  constexpr ::System::Runtime::CompilerServices::INotifyCompletion* i___System__Runtime__CompilerServices__INotifyCompletion();
+/// @brief Convert to "::System::Runtime::CompilerServices::INotifyCompletion"
+constexpr ::System::Runtime::CompilerServices::INotifyCompletion* i___System__Runtime__CompilerServices__INotifyCompletion() ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TaskAwaiter();
+// Ctor Parameters []
+// @brief default ctor
+constexpr TaskAwaiter() ;
 
-  // Ctor Parameters [CppParam { name: "m_task", ty: "::System::Threading::Tasks::Task*", modifiers: "", def_value: None }]
-  constexpr TaskAwaiter(::System::Threading::Tasks::Task* m_task) noexcept;
+// Ctor Parameters [CppParam { name: "m_task", ty: "::System::Threading::Tasks::Task*", modifiers: "", def_value: None }]
+constexpr TaskAwaiter(::System::Threading::Tasks::Task*  m_task) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3408 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{3408};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x8};
 
-  /// @brief Field m_task, offset: 0x0, size: 0x8, def value: None
-  ::System::Threading::Tasks::Task* m_task;
+/// @brief Field m_task, offset: 0x0, size: 0x8, def value: None
+ ::System::Threading::Tasks::Task*  m_task;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Runtime::CompilerServices::TaskAwaiter, m_task) == 0x0, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::System::Runtime::CompilerServices::TaskAwaiter, 0x8>, "Size mismatch!");
 
-} // namespace System::Runtime::CompilerServices
+} // namespace end def System::Runtime::CompilerServices
 NEED_NO_BOX(::System::Runtime::CompilerServices::TaskAwaiter___c__DisplayClass11_0);
 DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::CompilerServices::TaskAwaiter___c__DisplayClass11_0*, "System.Runtime.CompilerServices", "TaskAwaiter/<>c__DisplayClass11_0");
 DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::CompilerServices::TaskAwaiter, "System.Runtime.CompilerServices", "TaskAwaiter");

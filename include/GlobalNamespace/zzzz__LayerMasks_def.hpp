@@ -23,85 +23,85 @@ namespace GlobalNamespace {
 // CS Name: LayerMasks
 class CORDL_TYPE LayerMasks : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field cutEffectParticlesLayer, offset 0xffffffff, size 0x4
-  __declspec(property(get = getStaticF_cutEffectParticlesLayer, put = setStaticF_cutEffectParticlesLayer)) int32_t cutEffectParticlesLayer;
+// Declarations
+/// @brief Field cutEffectParticlesLayer, offset 0xffffffff, size 0x4 
+ __declspec(property(get=getStaticF_cutEffectParticlesLayer, put=setStaticF_cutEffectParticlesLayer)) int32_t  cutEffectParticlesLayer;
 
-  /// @brief Field cutEffectParticlesLayerMask, offset 0xffffffff, size 0x4
-  __declspec(property(get = getStaticF_cutEffectParticlesLayerMask, put = setStaticF_cutEffectParticlesLayerMask)) ::UnityEngine::LayerMask cutEffectParticlesLayerMask;
+/// @brief Field cutEffectParticlesLayerMask, offset 0xffffffff, size 0x4 
+ __declspec(property(get=getStaticF_cutEffectParticlesLayerMask, put=setStaticF_cutEffectParticlesLayerMask)) ::UnityEngine::LayerMask  cutEffectParticlesLayerMask;
 
-  /// @brief Field noteDebrisLayer, offset 0xffffffff, size 0x4
-  __declspec(property(get = getStaticF_noteDebrisLayer, put = setStaticF_noteDebrisLayer)) int32_t noteDebrisLayer;
+/// @brief Field noteDebrisLayer, offset 0xffffffff, size 0x4 
+ __declspec(property(get=getStaticF_noteDebrisLayer, put=setStaticF_noteDebrisLayer)) int32_t  noteDebrisLayer;
 
-  /// @brief Field noteDebrisLayerMask, offset 0xffffffff, size 0x4
-  __declspec(property(get = getStaticF_noteDebrisLayerMask, put = setStaticF_noteDebrisLayerMask)) ::UnityEngine::LayerMask noteDebrisLayerMask;
+/// @brief Field noteDebrisLayerMask, offset 0xffffffff, size 0x4 
+ __declspec(property(get=getStaticF_noteDebrisLayerMask, put=setStaticF_noteDebrisLayerMask)) ::UnityEngine::LayerMask  noteDebrisLayerMask;
 
-  /// @brief Field noteLayerMask, offset 0xffffffff, size 0x4
-  __declspec(property(get = getStaticF_noteLayerMask, put = setStaticF_noteLayerMask)) ::UnityEngine::LayerMask noteLayerMask;
+/// @brief Field noteLayerMask, offset 0xffffffff, size 0x4 
+ __declspec(property(get=getStaticF_noteLayerMask, put=setStaticF_noteLayerMask)) ::UnityEngine::LayerMask  noteLayerMask;
 
-  /// @brief Field saberLayerMask, offset 0xffffffff, size 0x4
-  __declspec(property(get = getStaticF_saberLayerMask, put = setStaticF_saberLayerMask)) ::UnityEngine::LayerMask saberLayerMask;
+/// @brief Field saberLayerMask, offset 0xffffffff, size 0x4 
+ __declspec(property(get=getStaticF_saberLayerMask, put=setStaticF_saberLayerMask)) ::UnityEngine::LayerMask  saberLayerMask;
 
-  /// @brief Method GetLayer, addr 0x35fca4c, size 0x8, virtual false, abstract: false, final false
-  static inline int32_t GetLayer(::StringW layerName);
+/// @brief Method GetLayer, addr 0x35fc99c, size 0x8, virtual false, abstract: false, final false
+static inline int32_t GetLayer(::StringW  layerName) ;
 
-  /// @brief Method GetLayerMask, addr 0x35fca24, size 0x1c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::LayerMask GetLayerMask(::StringW layerName);
+/// @brief Method GetLayerMask, addr 0x35fc974, size 0x1c, virtual false, abstract: false, final false
+static inline ::UnityEngine::LayerMask GetLayerMask(::StringW  layerName) ;
 
-  /// @brief Method GetLayerMask, addr 0x35fca40, size 0xc, virtual false, abstract: false, final false
-  static inline ::UnityEngine::LayerMask GetLayerMask(int32_t layerNum);
+/// @brief Method GetLayerMask, addr 0x35fc990, size 0xc, virtual false, abstract: false, final false
+static inline ::UnityEngine::LayerMask GetLayerMask(int32_t  layerNum) ;
 
-  static inline ::GlobalNamespace::LayerMasks* New_ctor();
+static inline ::GlobalNamespace::LayerMasks* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x35fca54, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x35fc9a4, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  static inline int32_t getStaticF_cutEffectParticlesLayer();
+static inline int32_t getStaticF_cutEffectParticlesLayer() ;
 
-  static inline ::UnityEngine::LayerMask getStaticF_cutEffectParticlesLayerMask();
+static inline ::UnityEngine::LayerMask getStaticF_cutEffectParticlesLayerMask() ;
 
-  static inline int32_t getStaticF_noteDebrisLayer();
+static inline int32_t getStaticF_noteDebrisLayer() ;
 
-  static inline ::UnityEngine::LayerMask getStaticF_noteDebrisLayerMask();
+static inline ::UnityEngine::LayerMask getStaticF_noteDebrisLayerMask() ;
 
-  static inline ::UnityEngine::LayerMask getStaticF_noteLayerMask();
+static inline ::UnityEngine::LayerMask getStaticF_noteLayerMask() ;
 
-  static inline ::UnityEngine::LayerMask getStaticF_saberLayerMask();
+static inline ::UnityEngine::LayerMask getStaticF_saberLayerMask() ;
 
-  static inline void setStaticF_cutEffectParticlesLayer(int32_t value);
+static inline void setStaticF_cutEffectParticlesLayer(int32_t  value) ;
 
-  static inline void setStaticF_cutEffectParticlesLayerMask(::UnityEngine::LayerMask value);
+static inline void setStaticF_cutEffectParticlesLayerMask(::UnityEngine::LayerMask  value) ;
 
-  static inline void setStaticF_noteDebrisLayer(int32_t value);
+static inline void setStaticF_noteDebrisLayer(int32_t  value) ;
 
-  static inline void setStaticF_noteDebrisLayerMask(::UnityEngine::LayerMask value);
+static inline void setStaticF_noteDebrisLayerMask(::UnityEngine::LayerMask  value) ;
 
-  static inline void setStaticF_noteLayerMask(::UnityEngine::LayerMask value);
+static inline void setStaticF_noteLayerMask(::UnityEngine::LayerMask  value) ;
 
-  static inline void setStaticF_saberLayerMask(::UnityEngine::LayerMask value);
+static inline void setStaticF_saberLayerMask(::UnityEngine::LayerMask  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LayerMasks();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr LayerMasks() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LayerMasks", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  LayerMasks(LayerMasks&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LayerMasks", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  LayerMasks(LayerMasks const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "LayerMasks", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+LayerMasks(LayerMasks && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23288 };
+// Ctor Parameters [CppParam { name: "", ty: "LayerMasks", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+LayerMasks(LayerMasks const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{23292};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LayerMasks, 0x10>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::LayerMasks);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LayerMasks*, "", "LayerMasks");

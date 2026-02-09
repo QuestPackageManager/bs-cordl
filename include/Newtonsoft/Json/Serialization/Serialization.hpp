@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "Newtonsoft/Json/Serialization/CachedAttributeGetter_1.hpp"
 #include "Newtonsoft/Json/Serialization/CamelCaseNamingStrategy.hpp"
@@ -54,5 +54,6 @@ module;
 #include "Newtonsoft/Json/Serialization/TraceJsonReader.hpp"
 #include "Newtonsoft/Json/Serialization/TraceJsonWriter.hpp"
 #ifdef __cpp_modules
-export module Serialization;
-#endif
+                    export module Serialization;
+                    #endif
+                

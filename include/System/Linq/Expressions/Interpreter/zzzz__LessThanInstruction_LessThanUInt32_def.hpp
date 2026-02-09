@@ -24,37 +24,37 @@ namespace GlobalNamespace {
 // CS Name: System.Linq.Expressions.Interpreter.LessThanInstruction/LessThanUInt32
 class CORDL_TYPE LessThanInstruction_LessThanUInt32 : public ::System::Linq::Expressions::Interpreter::LessThanInstruction {
 public:
-  // Declarations
-  static inline ::GlobalNamespace::LessThanInstruction_LessThanUInt32* New_ctor(::System::Object* nullValue);
+// Declarations
+static inline ::GlobalNamespace::LessThanInstruction_LessThanUInt32* New_ctor(::System::Object*  nullValue) ;
 
-  /// @brief Method Run, addr 0x5deb7b8, size 0xa4, virtual true, abstract: false, final false
-  inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
+/// @brief Method Run, addr 0x5debe78, size 0xa4, virtual true, abstract: false, final false
+inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame*  frame) ;
 
-  /// @brief Method .ctor, addr 0x5deb31c, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* nullValue);
+/// @brief Method .ctor, addr 0x5deb9dc, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  nullValue) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LessThanInstruction_LessThanUInt32();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr LessThanInstruction_LessThanUInt32() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LessThanInstruction_LessThanUInt32", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  LessThanInstruction_LessThanUInt32(LessThanInstruction_LessThanUInt32&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LessThanInstruction_LessThanUInt32", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  LessThanInstruction_LessThanUInt32(LessThanInstruction_LessThanUInt32 const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "LessThanInstruction_LessThanUInt32", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+LessThanInstruction_LessThanUInt32(LessThanInstruction_LessThanUInt32 && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16384 };
+// Ctor Parameters [CppParam { name: "", ty: "LessThanInstruction_LessThanUInt32", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+LessThanInstruction_LessThanUInt32(LessThanInstruction_LessThanUInt32 const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{16388};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LessThanInstruction_LessThanUInt32, 0x18>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::LessThanInstruction_LessThanUInt32);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LessThanInstruction_LessThanUInt32*, "System.Linq.Expressions.Interpreter", "LessThanInstruction/LessThanUInt32");

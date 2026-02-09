@@ -36,366 +36,360 @@ namespace System::Security::Cryptography {
 // CS Name: System.Security.Cryptography.RijndaelManagedTransform
 class CORDL_TYPE RijndaelManagedTransform : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(get = get_CanTransformMultipleBlocks)) bool CanTransformMultipleBlocks;
+// Declarations
+ __declspec(property(get=get_CanTransformMultipleBlocks)) bool  CanTransformMultipleBlocks;
 
-  __declspec(property(get = get_InputBlockSize)) int32_t InputBlockSize;
+ __declspec(property(get=get_InputBlockSize)) int32_t  InputBlockSize;
 
-  __declspec(property(get = get_OutputBlockSize)) int32_t OutputBlockSize;
+ __declspec(property(get=get_OutputBlockSize)) int32_t  OutputBlockSize;
 
-  /// @brief Field m_IV, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_IV, put = __cordl_internal_set_m_IV)) ::ArrayW<int32_t, ::Array<int32_t>*> m_IV;
+/// @brief Field m_IV, offset 0x60, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_IV, put=__cordl_internal_set_m_IV)) ::ArrayW<int32_t,::Array<int32_t>*>  m_IV;
 
-  /// @brief Field m_Nb, offset 0x44, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_Nb, put = __cordl_internal_set_m_Nb)) int32_t m_Nb;
+/// @brief Field m_Nb, offset 0x44, size 0x4 
+ __declspec(property(get=__cordl_internal_get_m_Nb, put=__cordl_internal_set_m_Nb)) int32_t  m_Nb;
 
-  /// @brief Field m_Nk, offset 0x48, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_Nk, put = __cordl_internal_set_m_Nk)) int32_t m_Nk;
+/// @brief Field m_Nk, offset 0x48, size 0x4 
+ __declspec(property(get=__cordl_internal_get_m_Nk, put=__cordl_internal_set_m_Nk)) int32_t  m_Nk;
 
-  /// @brief Field m_Nr, offset 0x40, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_Nr, put = __cordl_internal_set_m_Nr)) int32_t m_Nr;
+/// @brief Field m_Nr, offset 0x40, size 0x4 
+ __declspec(property(get=__cordl_internal_get_m_Nr, put=__cordl_internal_set_m_Nr)) int32_t  m_Nr;
 
-  /// @brief Field m_blockSizeBits, offset 0x1c, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_blockSizeBits, put = __cordl_internal_set_m_blockSizeBits)) int32_t m_blockSizeBits;
+/// @brief Field m_blockSizeBits, offset 0x1c, size 0x4 
+ __declspec(property(get=__cordl_internal_get_m_blockSizeBits, put=__cordl_internal_set_m_blockSizeBits)) int32_t  m_blockSizeBits;
 
-  /// @brief Field m_blockSizeBytes, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_blockSizeBytes, put = __cordl_internal_set_m_blockSizeBytes)) int32_t m_blockSizeBytes;
+/// @brief Field m_blockSizeBytes, offset 0x20, size 0x4 
+ __declspec(property(get=__cordl_internal_get_m_blockSizeBytes, put=__cordl_internal_set_m_blockSizeBytes)) int32_t  m_blockSizeBytes;
 
-  /// @brief Field m_cipherMode, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_cipherMode, put = __cordl_internal_set_m_cipherMode)) ::System::Security::Cryptography::CipherMode m_cipherMode;
+/// @brief Field m_cipherMode, offset 0x10, size 0x4 
+ __declspec(property(get=__cordl_internal_get_m_cipherMode, put=__cordl_internal_set_m_cipherMode)) ::System::Security::Cryptography::CipherMode  m_cipherMode;
 
-  /// @brief Field m_decryptKeyExpansion, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_decryptKeyExpansion, put = __cordl_internal_set_m_decryptKeyExpansion)) ::ArrayW<int32_t, ::Array<int32_t>*> m_decryptKeyExpansion;
+/// @brief Field m_decryptKeyExpansion, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_decryptKeyExpansion, put=__cordl_internal_set_m_decryptKeyExpansion)) ::ArrayW<int32_t,::Array<int32_t>*>  m_decryptKeyExpansion;
 
-  /// @brief Field m_decryptindex, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_decryptindex, put = __cordl_internal_set_m_decryptindex)) ::ArrayW<int32_t, ::Array<int32_t>*> m_decryptindex;
+/// @brief Field m_decryptindex, offset 0x58, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_decryptindex, put=__cordl_internal_set_m_decryptindex)) ::ArrayW<int32_t,::Array<int32_t>*>  m_decryptindex;
 
-  /// @brief Field m_depadBuffer, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_depadBuffer, put = __cordl_internal_set_m_depadBuffer)) ::ArrayW<uint8_t, ::Array<uint8_t>*> m_depadBuffer;
+/// @brief Field m_depadBuffer, offset 0x70, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_depadBuffer, put=__cordl_internal_set_m_depadBuffer)) ::ArrayW<uint8_t,::Array<uint8_t>*>  m_depadBuffer;
 
-  /// @brief Field m_encryptKeyExpansion, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_encryptKeyExpansion, put = __cordl_internal_set_m_encryptKeyExpansion)) ::ArrayW<int32_t, ::Array<int32_t>*> m_encryptKeyExpansion;
+/// @brief Field m_encryptKeyExpansion, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_encryptKeyExpansion, put=__cordl_internal_set_m_encryptKeyExpansion)) ::ArrayW<int32_t,::Array<int32_t>*>  m_encryptKeyExpansion;
 
-  /// @brief Field m_encryptindex, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_encryptindex, put = __cordl_internal_set_m_encryptindex)) ::ArrayW<int32_t, ::Array<int32_t>*> m_encryptindex;
+/// @brief Field m_encryptindex, offset 0x50, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_encryptindex, put=__cordl_internal_set_m_encryptindex)) ::ArrayW<int32_t,::Array<int32_t>*>  m_encryptindex;
 
-  /// @brief Field m_inputBlockSize, offset 0x24, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_inputBlockSize, put = __cordl_internal_set_m_inputBlockSize)) int32_t m_inputBlockSize;
+/// @brief Field m_inputBlockSize, offset 0x24, size 0x4 
+ __declspec(property(get=__cordl_internal_get_m_inputBlockSize, put=__cordl_internal_set_m_inputBlockSize)) int32_t  m_inputBlockSize;
 
-  /// @brief Field m_lastBlockBuffer, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_lastBlockBuffer, put = __cordl_internal_set_m_lastBlockBuffer)) ::ArrayW<int32_t, ::Array<int32_t>*> m_lastBlockBuffer;
+/// @brief Field m_lastBlockBuffer, offset 0x68, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_lastBlockBuffer, put=__cordl_internal_set_m_lastBlockBuffer)) ::ArrayW<int32_t,::Array<int32_t>*>  m_lastBlockBuffer;
 
-  /// @brief Field m_outputBlockSize, offset 0x28, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_outputBlockSize, put = __cordl_internal_set_m_outputBlockSize)) int32_t m_outputBlockSize;
+/// @brief Field m_outputBlockSize, offset 0x28, size 0x4 
+ __declspec(property(get=__cordl_internal_get_m_outputBlockSize, put=__cordl_internal_set_m_outputBlockSize)) int32_t  m_outputBlockSize;
 
-  /// @brief Field m_paddingValue, offset 0x14, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_paddingValue, put = __cordl_internal_set_m_paddingValue)) ::System::Security::Cryptography::PaddingMode m_paddingValue;
+/// @brief Field m_paddingValue, offset 0x14, size 0x4 
+ __declspec(property(get=__cordl_internal_get_m_paddingValue, put=__cordl_internal_set_m_paddingValue)) ::System::Security::Cryptography::PaddingMode  m_paddingValue;
 
-  /// @brief Field m_shiftRegister, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_shiftRegister, put = __cordl_internal_set_m_shiftRegister)) ::ArrayW<uint8_t, ::Array<uint8_t>*> m_shiftRegister;
+/// @brief Field m_shiftRegister, offset 0x78, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_shiftRegister, put=__cordl_internal_set_m_shiftRegister)) ::ArrayW<uint8_t,::Array<uint8_t>*>  m_shiftRegister;
 
-  /// @brief Field m_transformMode, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_transformMode, put = __cordl_internal_set_m_transformMode)) ::System::Security::Cryptography::RijndaelManagedTransformMode m_transformMode;
+/// @brief Field m_transformMode, offset 0x18, size 0x4 
+ __declspec(property(get=__cordl_internal_get_m_transformMode, put=__cordl_internal_set_m_transformMode)) ::System::Security::Cryptography::RijndaelManagedTransformMode  m_transformMode;
 
-  /// @brief Field s_Rcon, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_s_Rcon, put = setStaticF_s_Rcon)) ::ArrayW<int32_t, ::Array<int32_t>*> s_Rcon;
+/// @brief Field s_Rcon, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_s_Rcon, put=setStaticF_s_Rcon)) ::ArrayW<int32_t,::Array<int32_t>*>  s_Rcon;
 
-  /// @brief Field s_Sbox, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_s_Sbox, put = setStaticF_s_Sbox)) ::ArrayW<uint8_t, ::Array<uint8_t>*> s_Sbox;
+/// @brief Field s_Sbox, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_s_Sbox, put=setStaticF_s_Sbox)) ::ArrayW<uint8_t,::Array<uint8_t>*>  s_Sbox;
 
-  /// @brief Field s_T, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_s_T, put = setStaticF_s_T)) ::ArrayW<int32_t, ::Array<int32_t>*> s_T;
+/// @brief Field s_T, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_s_T, put=setStaticF_s_T)) ::ArrayW<int32_t,::Array<int32_t>*>  s_T;
 
-  /// @brief Field s_TF, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_s_TF, put = setStaticF_s_TF)) ::ArrayW<int32_t, ::Array<int32_t>*> s_TF;
+/// @brief Field s_TF, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_s_TF, put=setStaticF_s_TF)) ::ArrayW<int32_t,::Array<int32_t>*>  s_TF;
 
-  /// @brief Field s_iT, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_s_iT, put = setStaticF_s_iT)) ::ArrayW<int32_t, ::Array<int32_t>*> s_iT;
+/// @brief Field s_iT, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_s_iT, put=setStaticF_s_iT)) ::ArrayW<int32_t,::Array<int32_t>*>  s_iT;
 
-  /// @brief Field s_iTF, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_s_iTF, put = setStaticF_s_iTF)) ::ArrayW<int32_t, ::Array<int32_t>*> s_iTF;
+/// @brief Field s_iTF, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_s_iTF, put=setStaticF_s_iTF)) ::ArrayW<int32_t,::Array<int32_t>*>  s_iTF;
 
-  /// @brief Convert operator to "::System::IDisposable"
-  constexpr operator ::System::IDisposable*() noexcept;
+/// @brief Convert operator to "::System::IDisposable"
+constexpr operator  ::System::IDisposable*() noexcept;
 
-  /// @brief Convert operator to "::System::Security::Cryptography::ICryptoTransform"
-  constexpr operator ::System::Security::Cryptography::ICryptoTransform*() noexcept;
+/// @brief Convert operator to "::System::Security::Cryptography::ICryptoTransform"
+constexpr operator  ::System::Security::Cryptography::ICryptoTransform*() noexcept;
 
-  /// @brief Method Dec, addr 0x5950224, size 0x1d8, virtual false, abstract: false, final false
-  inline void Dec(int32_t* decryptindex, int32_t* decryptKeyExpansion, int32_t* iT, int32_t* iTF, int32_t* work, int32_t* temp);
+/// @brief Method Dec, addr 0x5950730, size 0x1d8, virtual false, abstract: false, final false
+inline void Dec(int32_t*  decryptindex, int32_t*  decryptKeyExpansion, int32_t*  iT, int32_t*  iTF, int32_t*  work, int32_t*  temp) ;
 
-  /// @brief Method DecryptData, addr 0x594f254, size 0xaec, virtual false, abstract: false, final false
-  inline int32_t DecryptData(::ArrayW<uint8_t, ::Array<uint8_t>*> inputBuffer, int32_t inputOffset, int32_t inputCount, ::ByRef<::ArrayW<uint8_t, ::Array<uint8_t>*>> outputBuffer,
-                             int32_t outputOffset, ::System::Security::Cryptography::PaddingMode paddingMode, bool fLast);
+/// @brief Method DecryptData, addr 0x594f760, size 0xaec, virtual false, abstract: false, final false
+inline int32_t DecryptData(::ArrayW<uint8_t,::Array<uint8_t>*>  inputBuffer, int32_t  inputOffset, int32_t  inputCount, ::ByRef<::ArrayW<uint8_t,::Array<uint8_t>*>>  outputBuffer, int32_t  outputOffset, ::System::Security::Cryptography::PaddingMode  paddingMode, bool  fLast) ;
 
-  /// @brief Method Dispose, addr 0x594e2b0, size 0x8, virtual true, abstract: false, final true
-  inline void Dispose();
+/// @brief Method Dispose, addr 0x594e7bc, size 0x8, virtual true, abstract: false, final true
+inline void Dispose() ;
 
-  /// @brief Method Dispose, addr 0x594e2b8, size 0xbc, virtual false, abstract: false, final false
-  inline void Dispose(bool disposing);
+/// @brief Method Dispose, addr 0x594e7c4, size 0xbc, virtual false, abstract: false, final false
+inline void Dispose(bool  disposing) ;
 
-  /// @brief Method Enc, addr 0x5950054, size 0x1d0, virtual false, abstract: false, final false
-  inline void Enc(int32_t* encryptindex, int32_t* encryptKeyExpansion, int32_t* T, int32_t* TF, int32_t* work, int32_t* temp);
+/// @brief Method Enc, addr 0x5950560, size 0x1d0, virtual false, abstract: false, final false
+inline void Enc(int32_t*  encryptindex, int32_t*  encryptKeyExpansion, int32_t*  T, int32_t*  TF, int32_t*  work, int32_t*  temp) ;
 
-  /// @brief Method EncryptData, addr 0x594e63c, size 0xc18, virtual false, abstract: false, final false
-  inline int32_t EncryptData(::ArrayW<uint8_t, ::Array<uint8_t>*> inputBuffer, int32_t inputOffset, int32_t inputCount, ::ByRef<::ArrayW<uint8_t, ::Array<uint8_t>*>> outputBuffer,
-                             int32_t outputOffset, ::System::Security::Cryptography::PaddingMode paddingMode, bool fLast);
+/// @brief Method EncryptData, addr 0x594eb48, size 0xc18, virtual false, abstract: false, final false
+inline int32_t EncryptData(::ArrayW<uint8_t,::Array<uint8_t>*>  inputBuffer, int32_t  inputOffset, int32_t  inputCount, ::ByRef<::ArrayW<uint8_t,::Array<uint8_t>*>>  outputBuffer, int32_t  outputOffset, ::System::Security::Cryptography::PaddingMode  paddingMode, bool  fLast) ;
 
-  /// @brief Method GenerateKeyExpansion, addr 0x594dd60, size 0x550, virtual false, abstract: false, final false
-  inline void GenerateKeyExpansion(::ArrayW<uint8_t, ::Array<uint8_t>*> rgbKey);
+/// @brief Method GenerateKeyExpansion, addr 0x594e26c, size 0x550, virtual false, abstract: false, final false
+inline void GenerateKeyExpansion(::ArrayW<uint8_t,::Array<uint8_t>*>  rgbKey) ;
 
-  /// @brief Method MulX, addr 0x59504cc, size 0x24, virtual false, abstract: false, final false
-  static inline int32_t MulX(int32_t x);
+/// @brief Method MulX, addr 0x59509d8, size 0x24, virtual false, abstract: false, final false
+static inline int32_t MulX(int32_t  x) ;
 
-  static inline ::System::Security::Cryptography::RijndaelManagedTransform* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> rgbKey, ::System::Security::Cryptography::CipherMode mode,
-                                                                                     ::ArrayW<uint8_t, ::Array<uint8_t>*> rgbIV, int32_t blockSize, int32_t feedbackSize,
-                                                                                     ::System::Security::Cryptography::PaddingMode PaddingValue,
-                                                                                     ::System::Security::Cryptography::RijndaelManagedTransformMode transformMode);
+static inline ::System::Security::Cryptography::RijndaelManagedTransform* New_ctor(::ArrayW<uint8_t,::Array<uint8_t>*>  rgbKey, ::System::Security::Cryptography::CipherMode  mode, ::ArrayW<uint8_t,::Array<uint8_t>*>  rgbIV, int32_t  blockSize, int32_t  feedbackSize, ::System::Security::Cryptography::PaddingMode  PaddingValue, ::System::Security::Cryptography::RijndaelManagedTransformMode  transformMode) ;
 
-  /// @brief Method Reset, addr 0x594fff4, size 0x60, virtual false, abstract: false, final false
-  inline void Reset();
+/// @brief Method Reset, addr 0x5950500, size 0x60, virtual false, abstract: false, final false
+inline void Reset() ;
 
-  /// @brief Method SubWord, addr 0x5950404, size 0xc8, virtual false, abstract: false, final false
-  static inline int32_t SubWord(int32_t a);
+/// @brief Method SubWord, addr 0x5950910, size 0xc8, virtual false, abstract: false, final false
+static inline int32_t SubWord(int32_t  a) ;
 
-  /// @brief Method TransformBlock, addr 0x594e38c, size 0x2b0, virtual true, abstract: false, final true
-  inline int32_t TransformBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> inputBuffer, int32_t inputOffset, int32_t inputCount, ::ArrayW<uint8_t, ::Array<uint8_t>*> outputBuffer, int32_t outputOffset);
+/// @brief Method TransformBlock, addr 0x594e898, size 0x2b0, virtual true, abstract: false, final true
+inline int32_t TransformBlock(::ArrayW<uint8_t,::Array<uint8_t>*>  inputBuffer, int32_t  inputOffset, int32_t  inputCount, ::ArrayW<uint8_t,::Array<uint8_t>*>  outputBuffer, int32_t  outputOffset) ;
 
-  /// @brief Method TransformFinalBlock, addr 0x594fd40, size 0x2b4, virtual true, abstract: false, final true
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> TransformFinalBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> inputBuffer, int32_t inputOffset, int32_t inputCount);
+/// @brief Method TransformFinalBlock, addr 0x595024c, size 0x2b4, virtual true, abstract: false, final true
+inline ::ArrayW<uint8_t,::Array<uint8_t>*> TransformFinalBlock(::ArrayW<uint8_t,::Array<uint8_t>*>  inputBuffer, int32_t  inputOffset, int32_t  inputCount) ;
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_m_IV() const;
+constexpr ::ArrayW<int32_t,::Array<int32_t>*> const& __cordl_internal_get_m_IV() const;
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_m_IV();
+constexpr ::ArrayW<int32_t,::Array<int32_t>*>& __cordl_internal_get_m_IV() ;
 
-  constexpr int32_t const& __cordl_internal_get_m_Nb() const;
+constexpr int32_t const& __cordl_internal_get_m_Nb() const;
 
-  constexpr int32_t& __cordl_internal_get_m_Nb();
+constexpr int32_t& __cordl_internal_get_m_Nb() ;
 
-  constexpr int32_t const& __cordl_internal_get_m_Nk() const;
+constexpr int32_t const& __cordl_internal_get_m_Nk() const;
 
-  constexpr int32_t& __cordl_internal_get_m_Nk();
+constexpr int32_t& __cordl_internal_get_m_Nk() ;
 
-  constexpr int32_t const& __cordl_internal_get_m_Nr() const;
+constexpr int32_t const& __cordl_internal_get_m_Nr() const;
 
-  constexpr int32_t& __cordl_internal_get_m_Nr();
+constexpr int32_t& __cordl_internal_get_m_Nr() ;
 
-  constexpr int32_t const& __cordl_internal_get_m_blockSizeBits() const;
+constexpr int32_t const& __cordl_internal_get_m_blockSizeBits() const;
 
-  constexpr int32_t& __cordl_internal_get_m_blockSizeBits();
+constexpr int32_t& __cordl_internal_get_m_blockSizeBits() ;
 
-  constexpr int32_t const& __cordl_internal_get_m_blockSizeBytes() const;
+constexpr int32_t const& __cordl_internal_get_m_blockSizeBytes() const;
 
-  constexpr int32_t& __cordl_internal_get_m_blockSizeBytes();
+constexpr int32_t& __cordl_internal_get_m_blockSizeBytes() ;
 
-  constexpr ::System::Security::Cryptography::CipherMode const& __cordl_internal_get_m_cipherMode() const;
+constexpr ::System::Security::Cryptography::CipherMode const& __cordl_internal_get_m_cipherMode() const;
 
-  constexpr ::System::Security::Cryptography::CipherMode& __cordl_internal_get_m_cipherMode();
+constexpr ::System::Security::Cryptography::CipherMode& __cordl_internal_get_m_cipherMode() ;
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_m_decryptKeyExpansion() const;
+constexpr ::ArrayW<int32_t,::Array<int32_t>*> const& __cordl_internal_get_m_decryptKeyExpansion() const;
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_m_decryptKeyExpansion();
+constexpr ::ArrayW<int32_t,::Array<int32_t>*>& __cordl_internal_get_m_decryptKeyExpansion() ;
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_m_decryptindex() const;
+constexpr ::ArrayW<int32_t,::Array<int32_t>*> const& __cordl_internal_get_m_decryptindex() const;
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_m_decryptindex();
+constexpr ::ArrayW<int32_t,::Array<int32_t>*>& __cordl_internal_get_m_decryptindex() ;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_m_depadBuffer() const;
+constexpr ::ArrayW<uint8_t,::Array<uint8_t>*> const& __cordl_internal_get_m_depadBuffer() const;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_m_depadBuffer();
+constexpr ::ArrayW<uint8_t,::Array<uint8_t>*>& __cordl_internal_get_m_depadBuffer() ;
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_m_encryptKeyExpansion() const;
+constexpr ::ArrayW<int32_t,::Array<int32_t>*> const& __cordl_internal_get_m_encryptKeyExpansion() const;
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_m_encryptKeyExpansion();
+constexpr ::ArrayW<int32_t,::Array<int32_t>*>& __cordl_internal_get_m_encryptKeyExpansion() ;
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_m_encryptindex() const;
+constexpr ::ArrayW<int32_t,::Array<int32_t>*> const& __cordl_internal_get_m_encryptindex() const;
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_m_encryptindex();
+constexpr ::ArrayW<int32_t,::Array<int32_t>*>& __cordl_internal_get_m_encryptindex() ;
 
-  constexpr int32_t const& __cordl_internal_get_m_inputBlockSize() const;
+constexpr int32_t const& __cordl_internal_get_m_inputBlockSize() const;
 
-  constexpr int32_t& __cordl_internal_get_m_inputBlockSize();
+constexpr int32_t& __cordl_internal_get_m_inputBlockSize() ;
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_m_lastBlockBuffer() const;
+constexpr ::ArrayW<int32_t,::Array<int32_t>*> const& __cordl_internal_get_m_lastBlockBuffer() const;
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_m_lastBlockBuffer();
+constexpr ::ArrayW<int32_t,::Array<int32_t>*>& __cordl_internal_get_m_lastBlockBuffer() ;
 
-  constexpr int32_t const& __cordl_internal_get_m_outputBlockSize() const;
+constexpr int32_t const& __cordl_internal_get_m_outputBlockSize() const;
 
-  constexpr int32_t& __cordl_internal_get_m_outputBlockSize();
+constexpr int32_t& __cordl_internal_get_m_outputBlockSize() ;
 
-  constexpr ::System::Security::Cryptography::PaddingMode const& __cordl_internal_get_m_paddingValue() const;
+constexpr ::System::Security::Cryptography::PaddingMode const& __cordl_internal_get_m_paddingValue() const;
 
-  constexpr ::System::Security::Cryptography::PaddingMode& __cordl_internal_get_m_paddingValue();
+constexpr ::System::Security::Cryptography::PaddingMode& __cordl_internal_get_m_paddingValue() ;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_m_shiftRegister() const;
+constexpr ::ArrayW<uint8_t,::Array<uint8_t>*> const& __cordl_internal_get_m_shiftRegister() const;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_m_shiftRegister();
+constexpr ::ArrayW<uint8_t,::Array<uint8_t>*>& __cordl_internal_get_m_shiftRegister() ;
 
-  constexpr ::System::Security::Cryptography::RijndaelManagedTransformMode const& __cordl_internal_get_m_transformMode() const;
+constexpr ::System::Security::Cryptography::RijndaelManagedTransformMode const& __cordl_internal_get_m_transformMode() const;
 
-  constexpr ::System::Security::Cryptography::RijndaelManagedTransformMode& __cordl_internal_get_m_transformMode();
+constexpr ::System::Security::Cryptography::RijndaelManagedTransformMode& __cordl_internal_get_m_transformMode() ;
 
-  constexpr void __cordl_internal_set_m_IV(::ArrayW<int32_t, ::Array<int32_t>*> value);
+constexpr void __cordl_internal_set_m_IV(::ArrayW<int32_t,::Array<int32_t>*>  value) ;
 
-  constexpr void __cordl_internal_set_m_Nb(int32_t value);
+constexpr void __cordl_internal_set_m_Nb(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_m_Nk(int32_t value);
+constexpr void __cordl_internal_set_m_Nk(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_m_Nr(int32_t value);
+constexpr void __cordl_internal_set_m_Nr(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_m_blockSizeBits(int32_t value);
+constexpr void __cordl_internal_set_m_blockSizeBits(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_m_blockSizeBytes(int32_t value);
+constexpr void __cordl_internal_set_m_blockSizeBytes(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_m_cipherMode(::System::Security::Cryptography::CipherMode value);
+constexpr void __cordl_internal_set_m_cipherMode(::System::Security::Cryptography::CipherMode  value) ;
 
-  constexpr void __cordl_internal_set_m_decryptKeyExpansion(::ArrayW<int32_t, ::Array<int32_t>*> value);
+constexpr void __cordl_internal_set_m_decryptKeyExpansion(::ArrayW<int32_t,::Array<int32_t>*>  value) ;
 
-  constexpr void __cordl_internal_set_m_decryptindex(::ArrayW<int32_t, ::Array<int32_t>*> value);
+constexpr void __cordl_internal_set_m_decryptindex(::ArrayW<int32_t,::Array<int32_t>*>  value) ;
 
-  constexpr void __cordl_internal_set_m_depadBuffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+constexpr void __cordl_internal_set_m_depadBuffer(::ArrayW<uint8_t,::Array<uint8_t>*>  value) ;
 
-  constexpr void __cordl_internal_set_m_encryptKeyExpansion(::ArrayW<int32_t, ::Array<int32_t>*> value);
+constexpr void __cordl_internal_set_m_encryptKeyExpansion(::ArrayW<int32_t,::Array<int32_t>*>  value) ;
 
-  constexpr void __cordl_internal_set_m_encryptindex(::ArrayW<int32_t, ::Array<int32_t>*> value);
+constexpr void __cordl_internal_set_m_encryptindex(::ArrayW<int32_t,::Array<int32_t>*>  value) ;
 
-  constexpr void __cordl_internal_set_m_inputBlockSize(int32_t value);
+constexpr void __cordl_internal_set_m_inputBlockSize(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_m_lastBlockBuffer(::ArrayW<int32_t, ::Array<int32_t>*> value);
+constexpr void __cordl_internal_set_m_lastBlockBuffer(::ArrayW<int32_t,::Array<int32_t>*>  value) ;
 
-  constexpr void __cordl_internal_set_m_outputBlockSize(int32_t value);
+constexpr void __cordl_internal_set_m_outputBlockSize(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_m_paddingValue(::System::Security::Cryptography::PaddingMode value);
+constexpr void __cordl_internal_set_m_paddingValue(::System::Security::Cryptography::PaddingMode  value) ;
 
-  constexpr void __cordl_internal_set_m_shiftRegister(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+constexpr void __cordl_internal_set_m_shiftRegister(::ArrayW<uint8_t,::Array<uint8_t>*>  value) ;
 
-  constexpr void __cordl_internal_set_m_transformMode(::System::Security::Cryptography::RijndaelManagedTransformMode value);
+constexpr void __cordl_internal_set_m_transformMode(::System::Security::Cryptography::RijndaelManagedTransformMode  value) ;
 
-  /// @brief Method .ctor, addr 0x594d768, size 0x5f8, virtual false, abstract: false, final false
-  inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> rgbKey, ::System::Security::Cryptography::CipherMode mode, ::ArrayW<uint8_t, ::Array<uint8_t>*> rgbIV, int32_t blockSize, int32_t feedbackSize,
-                    ::System::Security::Cryptography::PaddingMode PaddingValue, ::System::Security::Cryptography::RijndaelManagedTransformMode transformMode);
+/// @brief Method .ctor, addr 0x594dc74, size 0x5f8, virtual false, abstract: false, final false
+inline void _ctor(::ArrayW<uint8_t,::Array<uint8_t>*>  rgbKey, ::System::Security::Cryptography::CipherMode  mode, ::ArrayW<uint8_t,::Array<uint8_t>*>  rgbIV, int32_t  blockSize, int32_t  feedbackSize, ::System::Security::Cryptography::PaddingMode  PaddingValue, ::System::Security::Cryptography::RijndaelManagedTransformMode  transformMode) ;
 
-  static inline ::ArrayW<int32_t, ::Array<int32_t>*> getStaticF_s_Rcon();
+static inline ::ArrayW<int32_t,::Array<int32_t>*> getStaticF_s_Rcon() ;
 
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_s_Sbox();
+static inline ::ArrayW<uint8_t,::Array<uint8_t>*> getStaticF_s_Sbox() ;
 
-  static inline ::ArrayW<int32_t, ::Array<int32_t>*> getStaticF_s_T();
+static inline ::ArrayW<int32_t,::Array<int32_t>*> getStaticF_s_T() ;
 
-  static inline ::ArrayW<int32_t, ::Array<int32_t>*> getStaticF_s_TF();
+static inline ::ArrayW<int32_t,::Array<int32_t>*> getStaticF_s_TF() ;
 
-  static inline ::ArrayW<int32_t, ::Array<int32_t>*> getStaticF_s_iT();
+static inline ::ArrayW<int32_t,::Array<int32_t>*> getStaticF_s_iT() ;
 
-  static inline ::ArrayW<int32_t, ::Array<int32_t>*> getStaticF_s_iTF();
+static inline ::ArrayW<int32_t,::Array<int32_t>*> getStaticF_s_iTF() ;
 
-  /// @brief Method get_CanTransformMultipleBlocks, addr 0x594e384, size 0x8, virtual true, abstract: false, final true
-  inline bool get_CanTransformMultipleBlocks();
+/// @brief Method get_CanTransformMultipleBlocks, addr 0x594e890, size 0x8, virtual true, abstract: false, final true
+inline bool get_CanTransformMultipleBlocks() ;
 
-  /// @brief Method get_InputBlockSize, addr 0x594e374, size 0x8, virtual true, abstract: false, final true
-  inline int32_t get_InputBlockSize();
+/// @brief Method get_InputBlockSize, addr 0x594e880, size 0x8, virtual true, abstract: false, final true
+inline int32_t get_InputBlockSize() ;
 
-  /// @brief Method get_OutputBlockSize, addr 0x594e37c, size 0x8, virtual true, abstract: false, final true
-  inline int32_t get_OutputBlockSize();
+/// @brief Method get_OutputBlockSize, addr 0x594e888, size 0x8, virtual true, abstract: false, final true
+inline int32_t get_OutputBlockSize() ;
 
-  /// @brief Convert to "::System::IDisposable"
-  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+/// @brief Convert to "::System::IDisposable"
+constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Convert to "::System::Security::Cryptography::ICryptoTransform"
-  constexpr ::System::Security::Cryptography::ICryptoTransform* i___System__Security__Cryptography__ICryptoTransform() noexcept;
+/// @brief Convert to "::System::Security::Cryptography::ICryptoTransform"
+constexpr ::System::Security::Cryptography::ICryptoTransform* i___System__Security__Cryptography__ICryptoTransform() noexcept;
 
-  /// @brief Method rot1, addr 0x59504f8, size 0x8, virtual false, abstract: false, final false
-  static inline int32_t rot1(int32_t val);
+/// @brief Method rot1, addr 0x5950a04, size 0x8, virtual false, abstract: false, final false
+static inline int32_t rot1(int32_t  val) ;
 
-  /// @brief Method rot2, addr 0x59504f0, size 0x8, virtual false, abstract: false, final false
-  static inline int32_t rot2(int32_t val);
+/// @brief Method rot2, addr 0x59509fc, size 0x8, virtual false, abstract: false, final false
+static inline int32_t rot2(int32_t  val) ;
 
-  /// @brief Method rot3, addr 0x59503fc, size 0x8, virtual false, abstract: false, final false
-  static inline int32_t rot3(int32_t val);
+/// @brief Method rot3, addr 0x5950908, size 0x8, virtual false, abstract: false, final false
+static inline int32_t rot3(int32_t  val) ;
 
-  static inline void setStaticF_s_Rcon(::ArrayW<int32_t, ::Array<int32_t>*> value);
+static inline void setStaticF_s_Rcon(::ArrayW<int32_t,::Array<int32_t>*>  value) ;
 
-  static inline void setStaticF_s_Sbox(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+static inline void setStaticF_s_Sbox(::ArrayW<uint8_t,::Array<uint8_t>*>  value) ;
 
-  static inline void setStaticF_s_T(::ArrayW<int32_t, ::Array<int32_t>*> value);
+static inline void setStaticF_s_T(::ArrayW<int32_t,::Array<int32_t>*>  value) ;
 
-  static inline void setStaticF_s_TF(::ArrayW<int32_t, ::Array<int32_t>*> value);
+static inline void setStaticF_s_TF(::ArrayW<int32_t,::Array<int32_t>*>  value) ;
 
-  static inline void setStaticF_s_iT(::ArrayW<int32_t, ::Array<int32_t>*> value);
+static inline void setStaticF_s_iT(::ArrayW<int32_t,::Array<int32_t>*>  value) ;
 
-  static inline void setStaticF_s_iTF(::ArrayW<int32_t, ::Array<int32_t>*> value);
+static inline void setStaticF_s_iTF(::ArrayW<int32_t,::Array<int32_t>*>  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RijndaelManagedTransform();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr RijndaelManagedTransform() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RijndaelManagedTransform", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  RijndaelManagedTransform(RijndaelManagedTransform&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RijndaelManagedTransform", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  RijndaelManagedTransform(RijndaelManagedTransform const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "RijndaelManagedTransform", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+RijndaelManagedTransform(RijndaelManagedTransform && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2968 };
+// Ctor Parameters [CppParam { name: "", ty: "RijndaelManagedTransform", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+RijndaelManagedTransform(RijndaelManagedTransform const& ) = delete;
 
-  /// @brief Field m_cipherMode, offset: 0x10, size: 0x4, def value: None
-  ::System::Security::Cryptography::CipherMode ___m_cipherMode;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{2968};
 
-  /// @brief Field m_paddingValue, offset: 0x14, size: 0x4, def value: None
-  ::System::Security::Cryptography::PaddingMode ___m_paddingValue;
+/// @brief Field m_cipherMode, offset: 0x10, size: 0x4, def value: None
+ ::System::Security::Cryptography::CipherMode  ___m_cipherMode;
 
-  /// @brief Field m_transformMode, offset: 0x18, size: 0x4, def value: None
-  ::System::Security::Cryptography::RijndaelManagedTransformMode ___m_transformMode;
+/// @brief Field m_paddingValue, offset: 0x14, size: 0x4, def value: None
+ ::System::Security::Cryptography::PaddingMode  ___m_paddingValue;
 
-  /// @brief Field m_blockSizeBits, offset: 0x1c, size: 0x4, def value: None
-  int32_t ___m_blockSizeBits;
+/// @brief Field m_transformMode, offset: 0x18, size: 0x4, def value: None
+ ::System::Security::Cryptography::RijndaelManagedTransformMode  ___m_transformMode;
 
-  /// @brief Field m_blockSizeBytes, offset: 0x20, size: 0x4, def value: None
-  int32_t ___m_blockSizeBytes;
+/// @brief Field m_blockSizeBits, offset: 0x1c, size: 0x4, def value: None
+ int32_t  ___m_blockSizeBits;
 
-  /// @brief Field m_inputBlockSize, offset: 0x24, size: 0x4, def value: None
-  int32_t ___m_inputBlockSize;
+/// @brief Field m_blockSizeBytes, offset: 0x20, size: 0x4, def value: None
+ int32_t  ___m_blockSizeBytes;
 
-  /// @brief Field m_outputBlockSize, offset: 0x28, size: 0x4, def value: None
-  int32_t ___m_outputBlockSize;
+/// @brief Field m_inputBlockSize, offset: 0x24, size: 0x4, def value: None
+ int32_t  ___m_inputBlockSize;
 
-  /// @brief Field m_encryptKeyExpansion, offset: 0x30, size: 0x8, def value: None
-  ::ArrayW<int32_t, ::Array<int32_t>*> ___m_encryptKeyExpansion;
+/// @brief Field m_outputBlockSize, offset: 0x28, size: 0x4, def value: None
+ int32_t  ___m_outputBlockSize;
 
-  /// @brief Field m_decryptKeyExpansion, offset: 0x38, size: 0x8, def value: None
-  ::ArrayW<int32_t, ::Array<int32_t>*> ___m_decryptKeyExpansion;
+/// @brief Field m_encryptKeyExpansion, offset: 0x30, size: 0x8, def value: None
+ ::ArrayW<int32_t,::Array<int32_t>*>  ___m_encryptKeyExpansion;
 
-  /// @brief Field m_Nr, offset: 0x40, size: 0x4, def value: None
-  int32_t ___m_Nr;
+/// @brief Field m_decryptKeyExpansion, offset: 0x38, size: 0x8, def value: None
+ ::ArrayW<int32_t,::Array<int32_t>*>  ___m_decryptKeyExpansion;
 
-  /// @brief Field m_Nb, offset: 0x44, size: 0x4, def value: None
-  int32_t ___m_Nb;
+/// @brief Field m_Nr, offset: 0x40, size: 0x4, def value: None
+ int32_t  ___m_Nr;
 
-  /// @brief Field m_Nk, offset: 0x48, size: 0x4, def value: None
-  int32_t ___m_Nk;
+/// @brief Field m_Nb, offset: 0x44, size: 0x4, def value: None
+ int32_t  ___m_Nb;
 
-  /// @brief Field m_encryptindex, offset: 0x50, size: 0x8, def value: None
-  ::ArrayW<int32_t, ::Array<int32_t>*> ___m_encryptindex;
+/// @brief Field m_Nk, offset: 0x48, size: 0x4, def value: None
+ int32_t  ___m_Nk;
 
-  /// @brief Field m_decryptindex, offset: 0x58, size: 0x8, def value: None
-  ::ArrayW<int32_t, ::Array<int32_t>*> ___m_decryptindex;
+/// @brief Field m_encryptindex, offset: 0x50, size: 0x8, def value: None
+ ::ArrayW<int32_t,::Array<int32_t>*>  ___m_encryptindex;
 
-  /// @brief Field m_IV, offset: 0x60, size: 0x8, def value: None
-  ::ArrayW<int32_t, ::Array<int32_t>*> ___m_IV;
+/// @brief Field m_decryptindex, offset: 0x58, size: 0x8, def value: None
+ ::ArrayW<int32_t,::Array<int32_t>*>  ___m_decryptindex;
 
-  /// @brief Field m_lastBlockBuffer, offset: 0x68, size: 0x8, def value: None
-  ::ArrayW<int32_t, ::Array<int32_t>*> ___m_lastBlockBuffer;
+/// @brief Field m_IV, offset: 0x60, size: 0x8, def value: None
+ ::ArrayW<int32_t,::Array<int32_t>*>  ___m_IV;
 
-  /// @brief Field m_depadBuffer, offset: 0x70, size: 0x8, def value: None
-  ::ArrayW<uint8_t, ::Array<uint8_t>*> ___m_depadBuffer;
+/// @brief Field m_lastBlockBuffer, offset: 0x68, size: 0x8, def value: None
+ ::ArrayW<int32_t,::Array<int32_t>*>  ___m_lastBlockBuffer;
 
-  /// @brief Field m_shiftRegister, offset: 0x78, size: 0x8, def value: None
-  ::ArrayW<uint8_t, ::Array<uint8_t>*> ___m_shiftRegister;
+/// @brief Field m_depadBuffer, offset: 0x70, size: 0x8, def value: None
+ ::ArrayW<uint8_t,::Array<uint8_t>*>  ___m_depadBuffer;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field m_shiftRegister, offset: 0x78, size: 0x8, def value: None
+ ::ArrayW<uint8_t,::Array<uint8_t>*>  ___m_shiftRegister;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Security::Cryptography::RijndaelManagedTransform, ___m_cipherMode) == 0x10, "Offset mismatch!");
@@ -436,6 +430,6 @@ static_assert(offsetof(::System::Security::Cryptography::RijndaelManagedTransfor
 
 static_assert(::cordl_internals::size_check_v<::System::Security::Cryptography::RijndaelManagedTransform, 0x80>, "Size mismatch!");
 
-} // namespace System::Security::Cryptography
+} // namespace end def System::Security::Cryptography
 NEED_NO_BOX(::System::Security::Cryptography::RijndaelManagedTransform);
 DEFINE_IL2CPP_ARG_TYPE(::System::Security::Cryptography::RijndaelManagedTransform*, "System.Security.Cryptography", "RijndaelManagedTransform");

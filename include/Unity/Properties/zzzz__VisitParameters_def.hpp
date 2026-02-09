@@ -21,34 +21,34 @@ namespace Unity::Properties {
 // CS Name: Unity.Properties.VisitParameters
 struct CORDL_TYPE VisitParameters {
 public:
-  // Declarations
-  __declspec(property(get = get_IgnoreExceptions)) ::Unity::Properties::VisitExceptionKind IgnoreExceptions;
+// Declarations
+ __declspec(property(get=get_IgnoreExceptions)) ::Unity::Properties::VisitExceptionKind  IgnoreExceptions;
 
-  /// @brief Method get_IgnoreExceptions, addr 0x69d2d40, size 0x8, virtual false, abstract: false, final false
-  inline ::Unity::Properties::VisitExceptionKind get_IgnoreExceptions();
+/// @brief Method get_IgnoreExceptions, addr 0x69d3400, size 0x8, virtual false, abstract: false, final false
+inline ::Unity::Properties::VisitExceptionKind get_IgnoreExceptions() ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr VisitParameters();
+// Ctor Parameters []
+// @brief default ctor
+constexpr VisitParameters() ;
 
-  // Ctor Parameters [CppParam { name: "_IgnoreExceptions_k__BackingField", ty: "::Unity::Properties::VisitExceptionKind", modifiers: "", def_value: None }]
-  constexpr VisitParameters(::Unity::Properties::VisitExceptionKind _IgnoreExceptions_k__BackingField) noexcept;
+// Ctor Parameters [CppParam { name: "_IgnoreExceptions_k__BackingField", ty: "::Unity::Properties::VisitExceptionKind", modifiers: "", def_value: None }]
+constexpr VisitParameters(::Unity::Properties::VisitExceptionKind  _IgnoreExceptions_k__BackingField) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19322 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{19326};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x4};
 
-  /// @brief Field <IgnoreExceptions>k__BackingField, offset: 0x0, size: 0x4, def value: None
-  ::Unity::Properties::VisitExceptionKind _IgnoreExceptions_k__BackingField;
+/// @brief Field <IgnoreExceptions>k__BackingField, offset: 0x0, size: 0x4, def value: None
+ ::Unity::Properties::VisitExceptionKind  _IgnoreExceptions_k__BackingField;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::Unity::Properties::VisitParameters, _IgnoreExceptions_k__BackingField) == 0x0, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::Unity::Properties::VisitParameters, 0x4>, "Size mismatch!");
 
-} // namespace Unity::Properties
+} // namespace end def Unity::Properties
 DEFINE_IL2CPP_ARG_TYPE(::Unity::Properties::VisitParameters, "Unity.Properties", "VisitParameters");

@@ -26,67 +26,66 @@ namespace System::Runtime::CompilerServices {
 // CS Name: System.Runtime.CompilerServices.RuntimeWrappedException
 class CORDL_TYPE RuntimeWrappedException : public ::System::Exception {
 public:
-  // Declarations
-  __declspec(property(get = get_WrappedException)) ::System::Object* WrappedException;
+// Declarations
+ __declspec(property(get=get_WrappedException)) ::System::Object*  WrappedException;
 
-  /// @brief Field _wrappedException, offset 0x90, size 0x8
-  __declspec(property(get = __cordl_internal_get__wrappedException, put = __cordl_internal_set__wrappedException)) ::System::Object* _wrappedException;
+/// @brief Field _wrappedException, offset 0x90, size 0x8 
+ __declspec(property(get=__cordl_internal_get__wrappedException, put=__cordl_internal_set__wrappedException)) ::System::Object*  _wrappedException;
 
-  /// @brief Method GetObjectData, addr 0x59c0730, size 0xc0, virtual true, abstract: false, final false
-  inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
+/// @brief Method GetObjectData, addr 0x59c0c3c, size 0xc0, virtual true, abstract: false, final false
+inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context) ;
 
-  static inline ::System::Runtime::CompilerServices::RuntimeWrappedException* New_ctor();
+static inline ::System::Runtime::CompilerServices::RuntimeWrappedException* New_ctor() ;
 
-  static inline ::System::Runtime::CompilerServices::RuntimeWrappedException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info,
-                                                                                       ::System::Runtime::Serialization::StreamingContext context);
+static inline ::System::Runtime::CompilerServices::RuntimeWrappedException* New_ctor(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context) ;
 
-  static inline ::System::Runtime::CompilerServices::RuntimeWrappedException* New_ctor(::System::Object* thrownObject);
+static inline ::System::Runtime::CompilerServices::RuntimeWrappedException* New_ctor(::System::Object*  thrownObject) ;
 
-  constexpr ::System::Object* const& __cordl_internal_get__wrappedException() const;
+constexpr ::System::Object* const& __cordl_internal_get__wrappedException() const;
 
-  constexpr ::System::Object*& __cordl_internal_get__wrappedException();
+constexpr ::System::Object*& __cordl_internal_get__wrappedException() ;
 
-  constexpr void __cordl_internal_set__wrappedException(::System::Object* value);
+constexpr void __cordl_internal_set__wrappedException(::System::Object*  value) ;
 
-  /// @brief Method .ctor, addr 0x59c07f8, size 0x3c, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x59c0d04, size 0x3c, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method .ctor, addr 0x59c0648, size 0xe8, virtual false, abstract: false, final false
-  inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
+/// @brief Method .ctor, addr 0x59c0b54, size 0xe8, virtual false, abstract: false, final false
+inline void _ctor(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context) ;
 
-  /// @brief Method .ctor, addr 0x59c05b0, size 0x98, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* thrownObject);
+/// @brief Method .ctor, addr 0x59c0abc, size 0x98, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  thrownObject) ;
 
-  /// @brief Method get_WrappedException, addr 0x59c07f0, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Object* get_WrappedException();
+/// @brief Method get_WrappedException, addr 0x59c0cfc, size 0x8, virtual false, abstract: false, final false
+inline ::System::Object* get_WrappedException() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RuntimeWrappedException();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr RuntimeWrappedException() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RuntimeWrappedException", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  RuntimeWrappedException(RuntimeWrappedException&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RuntimeWrappedException", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  RuntimeWrappedException(RuntimeWrappedException const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "RuntimeWrappedException", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+RuntimeWrappedException(RuntimeWrappedException && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3398 };
+// Ctor Parameters [CppParam { name: "", ty: "RuntimeWrappedException", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+RuntimeWrappedException(RuntimeWrappedException const& ) = delete;
 
-  /// @brief Field _wrappedException, offset: 0x90, size: 0x8, def value: None
-  ::System::Object* ____wrappedException;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{3398};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _wrappedException, offset: 0x90, size: 0x8, def value: None
+ ::System::Object*  ____wrappedException;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Runtime::CompilerServices::RuntimeWrappedException, ____wrappedException) == 0x90, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::System::Runtime::CompilerServices::RuntimeWrappedException, 0x98>, "Size mismatch!");
 
-} // namespace System::Runtime::CompilerServices
+} // namespace end def System::Runtime::CompilerServices
 NEED_NO_BOX(::System::Runtime::CompilerServices::RuntimeWrappedException);
 DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::CompilerServices::RuntimeWrappedException*, "System.Runtime.CompilerServices", "RuntimeWrappedException");

@@ -18,34 +18,34 @@ namespace UnityEngine::Rendering::Universal {
 // CS Name: UnityEngine.Rendering.Universal.URPHelpURLAttribute
 class CORDL_TYPE URPHelpURLAttribute : public ::UnityEngine::Rendering::CoreRPHelpURLAttribute {
 public:
-  // Declarations
-  static inline ::UnityEngine::Rendering::Universal::URPHelpURLAttribute* New_ctor(::StringW pageName, ::StringW pageHash);
+// Declarations
+static inline ::UnityEngine::Rendering::Universal::URPHelpURLAttribute* New_ctor(::StringW  pageName, ::StringW  pageHash) ;
 
-  /// @brief Method .ctor, addr 0x66bc6f8, size 0x68, virtual false, abstract: false, final false
-  inline void _ctor(::StringW pageName, ::StringW pageHash);
+/// @brief Method .ctor, addr 0x66bcdb8, size 0x68, virtual false, abstract: false, final false
+inline void _ctor(::StringW  pageName, ::StringW  pageHash) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr URPHelpURLAttribute();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr URPHelpURLAttribute() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "URPHelpURLAttribute", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  URPHelpURLAttribute(URPHelpURLAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "URPHelpURLAttribute", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  URPHelpURLAttribute(URPHelpURLAttribute const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "URPHelpURLAttribute", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+URPHelpURLAttribute(URPHelpURLAttribute && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12722 };
+// Ctor Parameters [CppParam { name: "", ty: "URPHelpURLAttribute", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+URPHelpURLAttribute(URPHelpURLAttribute const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12726};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::Universal::URPHelpURLAttribute, 0x28>, "Size mismatch!");
 
-} // namespace UnityEngine::Rendering::Universal
+} // namespace end def UnityEngine::Rendering::Universal
 NEED_NO_BOX(::UnityEngine::Rendering::Universal::URPHelpURLAttribute);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::Universal::URPHelpURLAttribute*, "UnityEngine.Rendering.Universal", "URPHelpURLAttribute");

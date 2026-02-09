@@ -28,72 +28,72 @@ namespace System::IO {
 // CS Name: System.IO.CStreamWriter
 class CORDL_TYPE CStreamWriter : public ::System::IO::StreamWriter {
 public:
-  // Declarations
-  /// @brief Field driver, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get_driver, put = __cordl_internal_set_driver)) ::System::TermInfoDriver* driver;
+// Declarations
+/// @brief Field driver, offset 0x70, size 0x8 
+ __declspec(property(get=__cordl_internal_get_driver, put=__cordl_internal_set_driver)) ::System::TermInfoDriver*  driver;
 
-  /// @brief Method InternalWriteChar, addr 0x5a72a48, size 0x88, virtual false, abstract: false, final false
-  inline void InternalWriteChar(char16_t val);
+/// @brief Method InternalWriteChar, addr 0x5a72f54, size 0x88, virtual false, abstract: false, final false
+inline void InternalWriteChar(char16_t  val) ;
 
-  /// @brief Method InternalWriteChars, addr 0x5a72b58, size 0x90, virtual false, abstract: false, final false
-  inline void InternalWriteChars(::ArrayW<char16_t, ::Array<char16_t>*> buffer, int32_t n);
+/// @brief Method InternalWriteChars, addr 0x5a73064, size 0x90, virtual false, abstract: false, final false
+inline void InternalWriteChars(::ArrayW<char16_t,::Array<char16_t>*>  buffer, int32_t  n) ;
 
-  /// @brief Method InternalWriteString, addr 0x5a72ad0, size 0x88, virtual false, abstract: false, final false
-  inline void InternalWriteString(::StringW val);
+/// @brief Method InternalWriteString, addr 0x5a72fdc, size 0x88, virtual false, abstract: false, final false
+inline void InternalWriteString(::StringW  val) ;
 
-  static inline ::System::IO::CStreamWriter* New_ctor(::System::IO::Stream* stream, ::System::Text::Encoding* encoding, bool leaveOpen);
+static inline ::System::IO::CStreamWriter* New_ctor(::System::IO::Stream*  stream, ::System::Text::Encoding*  encoding, bool  leaveOpen) ;
 
-  /// @brief Method Write, addr 0x5a724c0, size 0x3d0, virtual true, abstract: false, final false
-  inline void Write(::ArrayW<char16_t, ::Array<char16_t>*> buffer, int32_t index, int32_t count);
+/// @brief Method Write, addr 0x5a729cc, size 0x3d0, virtual true, abstract: false, final false
+inline void Write(::ArrayW<char16_t,::Array<char16_t>*>  buffer, int32_t  index, int32_t  count) ;
 
-  /// @brief Method Write, addr 0x5a72be8, size 0x24, virtual true, abstract: false, final false
-  inline void Write(::ArrayW<char16_t, ::Array<char16_t>*> val);
+/// @brief Method Write, addr 0x5a730f4, size 0x24, virtual true, abstract: false, final false
+inline void Write(::ArrayW<char16_t,::Array<char16_t>*>  val) ;
 
-  /// @brief Method Write, addr 0x5a72c0c, size 0xd0, virtual true, abstract: false, final false
-  inline void Write(::StringW val);
+/// @brief Method Write, addr 0x5a73118, size 0xd0, virtual true, abstract: false, final false
+inline void Write(::StringW  val) ;
 
-  /// @brief Method Write, addr 0x5a72890, size 0x1b8, virtual true, abstract: false, final false
-  inline void Write(char16_t val);
+/// @brief Method Write, addr 0x5a72d9c, size 0x1b8, virtual true, abstract: false, final false
+inline void Write(char16_t  val) ;
 
-  /// @brief Method WriteLine, addr 0x5a72cdc, size 0x48, virtual true, abstract: false, final false
-  inline void WriteLine(::StringW val);
+/// @brief Method WriteLine, addr 0x5a731e8, size 0x48, virtual true, abstract: false, final false
+inline void WriteLine(::StringW  val) ;
 
-  constexpr ::System::TermInfoDriver* const& __cordl_internal_get_driver() const;
+constexpr ::System::TermInfoDriver* const& __cordl_internal_get_driver() const;
 
-  constexpr ::System::TermInfoDriver*& __cordl_internal_get_driver();
+constexpr ::System::TermInfoDriver*& __cordl_internal_get_driver() ;
 
-  constexpr void __cordl_internal_set_driver(::System::TermInfoDriver* value);
+constexpr void __cordl_internal_set_driver(::System::TermInfoDriver*  value) ;
 
-  /// @brief Method .ctor, addr 0x5a72388, size 0x138, virtual false, abstract: false, final false
-  inline void _ctor(::System::IO::Stream* stream, ::System::Text::Encoding* encoding, bool leaveOpen);
+/// @brief Method .ctor, addr 0x5a72894, size 0x138, virtual false, abstract: false, final false
+inline void _ctor(::System::IO::Stream*  stream, ::System::Text::Encoding*  encoding, bool  leaveOpen) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CStreamWriter();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr CStreamWriter() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CStreamWriter", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  CStreamWriter(CStreamWriter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CStreamWriter", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  CStreamWriter(CStreamWriter const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "CStreamWriter", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+CStreamWriter(CStreamWriter && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3922 };
+// Ctor Parameters [CppParam { name: "", ty: "CStreamWriter", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+CStreamWriter(CStreamWriter const& ) = delete;
 
-  /// @brief Field driver, offset: 0x70, size: 0x8, def value: None
-  ::System::TermInfoDriver* ___driver;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{3922};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field driver, offset: 0x70, size: 0x8, def value: None
+ ::System::TermInfoDriver*  ___driver;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::IO::CStreamWriter, ___driver) == 0x70, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::System::IO::CStreamWriter, 0x78>, "Size mismatch!");
 
-} // namespace System::IO
+} // namespace end def System::IO
 NEED_NO_BOX(::System::IO::CStreamWriter);
 DEFINE_IL2CPP_ARG_TYPE(::System::IO::CStreamWriter*, "System.IO", "CStreamWriter");

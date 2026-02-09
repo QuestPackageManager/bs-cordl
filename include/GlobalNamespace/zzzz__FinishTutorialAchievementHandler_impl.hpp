@@ -6,119 +6,148 @@
 #include "GlobalNamespace/zzzz__Signal_def.hpp"
 #include "OculusStudios/Platform/Core/zzzz__IPlatform_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::FinishTutorialAchievementHandler.Start
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FinishTutorialAchievementHandler::*)()>(
-    &::GlobalNamespace::FinishTutorialAchievementHandler::Start)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FinishTutorialAchievementHandler::*)()>(&::GlobalNamespace::FinishTutorialAchievementHandler::Start)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x35ff084;
+  constexpr static std::size_t addrs = 0x35fefd4;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FinishTutorialAchievementHandler*>::get(),
-                                                                               "Start", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FinishTutorialAchievementHandler*>::get(),
+                        "Start",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::FinishTutorialAchievementHandler.OnDestroy
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FinishTutorialAchievementHandler::*)()>(
-    &::GlobalNamespace::FinishTutorialAchievementHandler::OnDestroy)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FinishTutorialAchievementHandler::*)()>(&::GlobalNamespace::FinishTutorialAchievementHandler::OnDestroy)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x35ff11c;
+  constexpr static std::size_t addrs = 0x35ff06c;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FinishTutorialAchievementHandler*>::get(),
-                                                                               "OnDestroy", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FinishTutorialAchievementHandler*>::get(),
+                        "OnDestroy",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::FinishTutorialAchievementHandler.HandleTutorialFinished
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FinishTutorialAchievementHandler::*)()>(
-    &::GlobalNamespace::FinishTutorialAchievementHandler::HandleTutorialFinished)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FinishTutorialAchievementHandler::*)()>(&::GlobalNamespace::FinishTutorialAchievementHandler::HandleTutorialFinished)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x35ff1a8;
+  constexpr static std::size_t addrs = 0x35ff0f8;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FinishTutorialAchievementHandler*>::get(),
-                                                                               "HandleTutorialFinished", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FinishTutorialAchievementHandler*>::get(),
+                        "HandleTutorialFinished",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::FinishTutorialAchievementHandler._ctor
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FinishTutorialAchievementHandler::*)()>(
-    &::GlobalNamespace::FinishTutorialAchievementHandler::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FinishTutorialAchievementHandler::*)()>(&::GlobalNamespace::FinishTutorialAchievementHandler::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x35ff2dc;
+  constexpr static std::size_t addrs = 0x35ff22c;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FinishTutorialAchievementHandler*>::get(),
-                                                                               ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FinishTutorialAchievementHandler*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
-constexpr ::OculusStudios::Platform::Core::IPlatform*& GlobalNamespace::FinishTutorialAchievementHandler::__cordl_internal_get__platform() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____platform;
+constexpr ::OculusStudios::Platform::Core::IPlatform*& GlobalNamespace::FinishTutorialAchievementHandler::__cordl_internal_get__platform()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____platform;
 }
 constexpr ::OculusStudios::Platform::Core::IPlatform* const& GlobalNamespace::FinishTutorialAchievementHandler::__cordl_internal_get__platform() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____platform;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____platform;
 }
-constexpr void GlobalNamespace::FinishTutorialAchievementHandler::__cordl_internal_set__platform(::OculusStudios::Platform::Core::IPlatform* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____platform)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::FinishTutorialAchievementHandler::__cordl_internal_set__platform(::OculusStudios::Platform::Core::IPlatform*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____platform)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::GlobalNamespace::Signal>& GlobalNamespace::FinishTutorialAchievementHandler::__cordl_internal_get__tutorialFinishedSignal() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____tutorialFinishedSignal;
+constexpr ::UnityW<::GlobalNamespace::Signal>& GlobalNamespace::FinishTutorialAchievementHandler::__cordl_internal_get__tutorialFinishedSignal()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____tutorialFinishedSignal;
 }
 constexpr ::UnityW<::GlobalNamespace::Signal> const& GlobalNamespace::FinishTutorialAchievementHandler::__cordl_internal_get__tutorialFinishedSignal() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____tutorialFinishedSignal;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____tutorialFinishedSignal;
 }
-constexpr void GlobalNamespace::FinishTutorialAchievementHandler::__cordl_internal_set__tutorialFinishedSignal(::UnityW<::GlobalNamespace::Signal> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____tutorialFinishedSignal)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::FinishTutorialAchievementHandler::__cordl_internal_set__tutorialFinishedSignal(::UnityW<::GlobalNamespace::Signal>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____tutorialFinishedSignal)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::GlobalNamespace::AchievementSO>& GlobalNamespace::FinishTutorialAchievementHandler::__cordl_internal_get__finishTutorialAchievement() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____finishTutorialAchievement;
+constexpr ::UnityW<::GlobalNamespace::AchievementSO>& GlobalNamespace::FinishTutorialAchievementHandler::__cordl_internal_get__finishTutorialAchievement()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____finishTutorialAchievement;
 }
 constexpr ::UnityW<::GlobalNamespace::AchievementSO> const& GlobalNamespace::FinishTutorialAchievementHandler::__cordl_internal_get__finishTutorialAchievement() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____finishTutorialAchievement;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____finishTutorialAchievement;
 }
-constexpr void GlobalNamespace::FinishTutorialAchievementHandler::__cordl_internal_set__finishTutorialAchievement(::UnityW<::GlobalNamespace::AchievementSO> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____finishTutorialAchievement)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::FinishTutorialAchievementHandler::__cordl_internal_set__finishTutorialAchievement(::UnityW<::GlobalNamespace::AchievementSO>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____finishTutorialAchievement)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void GlobalNamespace::FinishTutorialAchievementHandler::Start() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FinishTutorialAchievementHandler*>::get(),
-                                                                             "Start", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::FinishTutorialAchievementHandler::Start()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FinishTutorialAchievementHandler*>::get(),
+                        "Start",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::FinishTutorialAchievementHandler::OnDestroy() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FinishTutorialAchievementHandler*>::get(),
-                                                                             "OnDestroy", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::FinishTutorialAchievementHandler::OnDestroy()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FinishTutorialAchievementHandler*>::get(),
+                        "OnDestroy",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::FinishTutorialAchievementHandler::HandleTutorialFinished() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FinishTutorialAchievementHandler*>::get(),
-                                                                             "HandleTutorialFinished", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::FinishTutorialAchievementHandler::HandleTutorialFinished()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FinishTutorialAchievementHandler*>::get(),
+                        "HandleTutorialFinished",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::FinishTutorialAchievementHandler::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FinishTutorialAchievementHandler*>::get(),
-                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::FinishTutorialAchievementHandler::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FinishTutorialAchievementHandler*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::FinishTutorialAchievementHandler* GlobalNamespace::FinishTutorialAchievementHandler::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::FinishTutorialAchievementHandler*>());
+inline ::GlobalNamespace::FinishTutorialAchievementHandler* GlobalNamespace::FinishTutorialAchievementHandler::New_ctor()  {
+return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::FinishTutorialAchievementHandler*>());
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::FinishTutorialAchievementHandler::FinishTutorialAchievementHandler() {}
+constexpr ::GlobalNamespace::FinishTutorialAchievementHandler::FinishTutorialAchievementHandler()   {
+}

@@ -21,34 +21,34 @@ namespace UnityEngine::Rendering {
 // CS Name: UnityEngine.Rendering.ResourcePathAttribute
 class CORDL_TYPE ResourcePathAttribute : public ::UnityEngine::Rendering::ResourcePathsBaseAttribute {
 public:
-  // Declarations
-  static inline ::UnityEngine::Rendering::ResourcePathAttribute* New_ctor(::StringW path, ::UnityEngine::Rendering::SearchType location);
+// Declarations
+static inline ::UnityEngine::Rendering::ResourcePathAttribute* New_ctor(::StringW  path, ::UnityEngine::Rendering::SearchType  location) ;
 
-  /// @brief Method .ctor, addr 0x694008c, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor(::StringW path, ::UnityEngine::Rendering::SearchType location);
+/// @brief Method .ctor, addr 0x694074c, size 0x4, virtual false, abstract: false, final false
+inline void _ctor(::StringW  path, ::UnityEngine::Rendering::SearchType  location) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ResourcePathAttribute();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ResourcePathAttribute() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ResourcePathAttribute", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ResourcePathAttribute(ResourcePathAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ResourcePathAttribute", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ResourcePathAttribute(ResourcePathAttribute const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ResourcePathAttribute", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ResourcePathAttribute(ResourcePathAttribute && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10746 };
+// Ctor Parameters [CppParam { name: "", ty: "ResourcePathAttribute", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ResourcePathAttribute(ResourcePathAttribute const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10750};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::ResourcePathAttribute, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine::Rendering
+} // namespace end def UnityEngine::Rendering
 NEED_NO_BOX(::UnityEngine::Rendering::ResourcePathAttribute);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::ResourcePathAttribute*, "UnityEngine.Rendering", "ResourcePathAttribute");

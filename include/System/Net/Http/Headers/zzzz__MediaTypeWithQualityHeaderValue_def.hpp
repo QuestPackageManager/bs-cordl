@@ -8,7 +8,8 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MediaTypeWithQualityHeaderValue)
 namespace System::Collections::Generic {
-template <typename T> class List_1;
+template<typename T>
+class List_1;
 }
 namespace System::Net::Http::Headers {
 class Lexer;
@@ -28,46 +29,45 @@ namespace System::Net::Http::Headers {
 // CS Name: System.Net.Http.Headers.MediaTypeWithQualityHeaderValue
 class CORDL_TYPE MediaTypeWithQualityHeaderValue : public ::System::Net::Http::Headers::MediaTypeHeaderValue {
 public:
-  // Declarations
-  static inline ::System::Net::Http::Headers::MediaTypeWithQualityHeaderValue* New_ctor();
+// Declarations
+static inline ::System::Net::Http::Headers::MediaTypeWithQualityHeaderValue* New_ctor() ;
 
-  static inline ::System::Net::Http::Headers::MediaTypeWithQualityHeaderValue* New_ctor(::StringW mediaType);
+static inline ::System::Net::Http::Headers::MediaTypeWithQualityHeaderValue* New_ctor(::StringW  mediaType) ;
 
-  /// @brief Method TryParse, addr 0x5f37468, size 0xb4, virtual false, abstract: false, final false
-  static inline bool TryParse(::StringW input, int32_t minimalCount, ::ByRef<::System::Collections::Generic::List_1<::System::Net::Http::Headers::MediaTypeWithQualityHeaderValue*>*> result);
+/// @brief Method TryParse, addr 0x5f37b28, size 0xb4, virtual false, abstract: false, final false
+static inline bool TryParse(::StringW  input, int32_t  minimalCount, ::ByRef<::System::Collections::Generic::List_1<::System::Net::Http::Headers::MediaTypeWithQualityHeaderValue*>*>  result) ;
 
-  /// @brief Method TryParseElement, addr 0x5f372f0, size 0x178, virtual false, abstract: false, final false
-  static inline bool TryParseElement(::System::Net::Http::Headers::Lexer* lexer, ::ByRef<::System::Net::Http::Headers::MediaTypeWithQualityHeaderValue*> parsedValue,
-                                     ::ByRef<::System::Net::Http::Headers::Token> t);
+/// @brief Method TryParseElement, addr 0x5f379b0, size 0x178, virtual false, abstract: false, final false
+static inline bool TryParseElement(::System::Net::Http::Headers::Lexer*  lexer, ::ByRef<::System::Net::Http::Headers::MediaTypeWithQualityHeaderValue*>  parsedValue, ::ByRef<::System::Net::Http::Headers::Token>  t) ;
 
-  /// @brief Method .ctor, addr 0x5f372ec, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5f379ac, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method .ctor, addr 0x5f372e8, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor(::StringW mediaType);
+/// @brief Method .ctor, addr 0x5f379a8, size 0x4, virtual false, abstract: false, final false
+inline void _ctor(::StringW  mediaType) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MediaTypeWithQualityHeaderValue();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr MediaTypeWithQualityHeaderValue() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MediaTypeWithQualityHeaderValue", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  MediaTypeWithQualityHeaderValue(MediaTypeWithQualityHeaderValue&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MediaTypeWithQualityHeaderValue", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  MediaTypeWithQualityHeaderValue(MediaTypeWithQualityHeaderValue const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "MediaTypeWithQualityHeaderValue", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+MediaTypeWithQualityHeaderValue(MediaTypeWithQualityHeaderValue && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20091 };
+// Ctor Parameters [CppParam { name: "", ty: "MediaTypeWithQualityHeaderValue", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+MediaTypeWithQualityHeaderValue(MediaTypeWithQualityHeaderValue const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20095};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::Http::Headers::MediaTypeWithQualityHeaderValue, 0x20>, "Size mismatch!");
 
-} // namespace System::Net::Http::Headers
+} // namespace end def System::Net::Http::Headers
 NEED_NO_BOX(::System::Net::Http::Headers::MediaTypeWithQualityHeaderValue);
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::Http::Headers::MediaTypeWithQualityHeaderValue*, "System.Net.Http.Headers", "MediaTypeWithQualityHeaderValue");

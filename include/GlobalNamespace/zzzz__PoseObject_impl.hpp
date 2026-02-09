@@ -5,91 +5,110 @@
 #include "GlobalNamespace/zzzz__PoseObjectIdSO_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::PoseObject.get_objectTransform
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Transform> (::GlobalNamespace::PoseObject::*)()>(
-    &::GlobalNamespace::PoseObject::get_objectTransform)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Transform> (::GlobalNamespace::PoseObject::*)()>(&::GlobalNamespace::PoseObject::get_objectTransform)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x57569fc;
+  constexpr static std::size_t addrs = 0x5757330;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PoseObject*>::get(), "get_objectTransform",
-                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PoseObject*>::get(),
+                        "get_objectTransform",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::PoseObject.get_id
-template <>
+template<>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::PoseObject::*)()>(&::GlobalNamespace::PoseObject::get_id)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x5756a04;
+  constexpr static std::size_t addrs = 0x5757338;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PoseObject*>::get(), "get_id",
-                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PoseObject*>::get(),
+                        "get_id",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::PoseObject._ctor
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PoseObject::*)(::UnityEngine::Transform*, ::GlobalNamespace::PoseObjectIdSO*)>(
-    &::GlobalNamespace::PoseObject::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PoseObject::*)(::UnityEngine::Transform*, ::GlobalNamespace::PoseObjectIdSO*)>(&::GlobalNamespace::PoseObject::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5754a54;
+  constexpr static std::size_t addrs = 0x5755388;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PoseObject*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-                                                 ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Transform*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::PoseObjectIdSO*>::get() })));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PoseObject*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Transform*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::PoseObjectIdSO*>::get()}
+                    )));
     return ___internal_method;
   }
 };
-constexpr ::UnityW<::UnityEngine::Transform>& GlobalNamespace::PoseObject::__cordl_internal_get__transform() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____transform;
+constexpr ::UnityW<::UnityEngine::Transform>& GlobalNamespace::PoseObject::__cordl_internal_get__transform()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____transform;
 }
 constexpr ::UnityW<::UnityEngine::Transform> const& GlobalNamespace::PoseObject::__cordl_internal_get__transform() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____transform;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____transform;
 }
-constexpr void GlobalNamespace::PoseObject::__cordl_internal_set__transform(::UnityW<::UnityEngine::Transform> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____transform)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::PoseObject::__cordl_internal_set__transform(::UnityW<::UnityEngine::Transform>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____transform)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::GlobalNamespace::PoseObjectIdSO>& GlobalNamespace::PoseObject::__cordl_internal_get__poseObjectId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____poseObjectId;
+constexpr ::UnityW<::GlobalNamespace::PoseObjectIdSO>& GlobalNamespace::PoseObject::__cordl_internal_get__poseObjectId()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____poseObjectId;
 }
 constexpr ::UnityW<::GlobalNamespace::PoseObjectIdSO> const& GlobalNamespace::PoseObject::__cordl_internal_get__poseObjectId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____poseObjectId;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____poseObjectId;
 }
-constexpr void GlobalNamespace::PoseObject::__cordl_internal_set__poseObjectId(::UnityW<::GlobalNamespace::PoseObjectIdSO> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____poseObjectId)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::PoseObject::__cordl_internal_set__poseObjectId(::UnityW<::GlobalNamespace::PoseObjectIdSO>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____poseObjectId)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::UnityW<::UnityEngine::Transform> GlobalNamespace::PoseObject::get_objectTransform() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PoseObject*>::get(), "get_objectTransform",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Transform>, false>(this, ___internal_method);
+inline ::UnityW<::UnityEngine::Transform> GlobalNamespace::PoseObject::get_objectTransform()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PoseObject*>::get(),
+                        "get_objectTransform",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Transform>, false>(this, ___internal_method);
 }
-inline ::StringW GlobalNamespace::PoseObject::get_id() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PoseObject*>::get(), "get_id",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+inline ::StringW GlobalNamespace::PoseObject::get_id()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PoseObject*>::get(),
+                        "get_id",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::PoseObject::_ctor(::UnityEngine::Transform* transform, ::GlobalNamespace::PoseObjectIdSO* poseObjectId) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PoseObject*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Transform*>::get(),
-                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::PoseObjectIdSO*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, transform, poseObjectId);
+inline void GlobalNamespace::PoseObject::_ctor(::UnityEngine::Transform*  transform, ::GlobalNamespace::PoseObjectIdSO*  poseObjectId)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PoseObject*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Transform*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::PoseObjectIdSO*>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, transform, poseObjectId);
 }
-inline ::GlobalNamespace::PoseObject* GlobalNamespace::PoseObject::New_ctor(::UnityEngine::Transform* transform, ::GlobalNamespace::PoseObjectIdSO* poseObjectId) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::PoseObject*>(transform, poseObjectId));
+inline ::GlobalNamespace::PoseObject* GlobalNamespace::PoseObject::New_ctor(::UnityEngine::Transform*  transform, ::GlobalNamespace::PoseObjectIdSO*  poseObjectId)  {
+return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::PoseObject*>(transform, poseObjectId));
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::PoseObject::PoseObject() {}
+constexpr ::GlobalNamespace::PoseObject::PoseObject()   {
+}

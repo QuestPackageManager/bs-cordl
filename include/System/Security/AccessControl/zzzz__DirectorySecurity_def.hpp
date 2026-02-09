@@ -21,34 +21,34 @@ namespace System::Security::AccessControl {
 // CS Name: System.Security.AccessControl.DirectorySecurity
 class CORDL_TYPE DirectorySecurity : public ::System::Security::AccessControl::FileSystemSecurity {
 public:
-  // Declarations
-  static inline ::System::Security::AccessControl::DirectorySecurity* New_ctor(::StringW name, ::System::Security::AccessControl::AccessControlSections includeSections);
+// Declarations
+static inline ::System::Security::AccessControl::DirectorySecurity* New_ctor(::StringW  name, ::System::Security::AccessControl::AccessControlSections  includeSections) ;
 
-  /// @brief Method .ctor, addr 0x596f4c0, size 0x18, virtual false, abstract: false, final false
-  inline void _ctor(::StringW name, ::System::Security::AccessControl::AccessControlSections includeSections);
+/// @brief Method .ctor, addr 0x596f9cc, size 0x18, virtual false, abstract: false, final false
+inline void _ctor(::StringW  name, ::System::Security::AccessControl::AccessControlSections  includeSections) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DirectorySecurity();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr DirectorySecurity() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DirectorySecurity", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  DirectorySecurity(DirectorySecurity&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DirectorySecurity", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  DirectorySecurity(DirectorySecurity const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "DirectorySecurity", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+DirectorySecurity(DirectorySecurity && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3045 };
+// Ctor Parameters [CppParam { name: "", ty: "DirectorySecurity", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+DirectorySecurity(DirectorySecurity const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{3045};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Security::AccessControl::DirectorySecurity, 0x30>, "Size mismatch!");
 
-} // namespace System::Security::AccessControl
+} // namespace end def System::Security::AccessControl
 NEED_NO_BOX(::System::Security::AccessControl::DirectorySecurity);
 DEFINE_IL2CPP_ARG_TYPE(::System::Security::AccessControl::DirectorySecurity*, "System.Security.AccessControl", "DirectorySecurity");

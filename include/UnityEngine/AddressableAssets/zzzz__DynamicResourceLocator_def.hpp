@@ -7,10 +7,12 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(DynamicResourceLocator)
 namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+template<typename T>
+class IEnumerable_1;
 }
 namespace System::Collections::Generic {
-template <typename T> class IList_1;
+template<typename T>
+class IList_1;
 }
 namespace System {
 class Object;
@@ -39,88 +41,86 @@ namespace UnityEngine::AddressableAssets {
 // CS Name: UnityEngine.AddressableAssets.DynamicResourceLocator
 class CORDL_TYPE DynamicResourceLocator : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(get = get_AllLocations)) ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* AllLocations;
+// Declarations
+ __declspec(property(get=get_AllLocations)) ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*  AllLocations;
 
-  __declspec(property(get = get_AtlasSpriteProviderId)) ::StringW AtlasSpriteProviderId;
+ __declspec(property(get=get_AtlasSpriteProviderId)) ::StringW  AtlasSpriteProviderId;
 
-  __declspec(property(get = get_Keys)) ::System::Collections::Generic::IEnumerable_1<::System::Object*>* Keys;
+ __declspec(property(get=get_Keys)) ::System::Collections::Generic::IEnumerable_1<::System::Object*>*  Keys;
 
-  __declspec(property(get = get_LocatorId)) ::StringW LocatorId;
+ __declspec(property(get=get_LocatorId)) ::StringW  LocatorId;
 
-  /// @brief Field m_Addressables, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Addressables, put = __cordl_internal_set_m_Addressables)) ::UnityEngine::AddressableAssets::AddressablesImpl* m_Addressables;
+/// @brief Field m_Addressables, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_Addressables, put=__cordl_internal_set_m_Addressables)) ::UnityEngine::AddressableAssets::AddressablesImpl*  m_Addressables;
 
-  /// @brief Field m_AtlasSpriteProviderId, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_AtlasSpriteProviderId, put = __cordl_internal_set_m_AtlasSpriteProviderId)) ::StringW m_AtlasSpriteProviderId;
+/// @brief Field m_AtlasSpriteProviderId, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_AtlasSpriteProviderId, put=__cordl_internal_set_m_AtlasSpriteProviderId)) ::StringW  m_AtlasSpriteProviderId;
 
-  /// @brief Convert operator to "::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator"
-  constexpr operator ::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*() noexcept;
+/// @brief Convert operator to "::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator"
+constexpr operator  ::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*() noexcept;
 
-  /// @brief Method CreateDynamicLocations, addr 0x62adc70, size 0x7b0, virtual false, abstract: false, final false
-  inline void CreateDynamicLocations(::System::Type* type, ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* locations,
-                                     ::StringW locName, ::StringW subKey, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* mainLoc);
+/// @brief Method CreateDynamicLocations, addr 0x62ae330, size 0x7b0, virtual false, abstract: false, final false
+inline void CreateDynamicLocations(::System::Type*  type, ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*  locations, ::StringW  locName, ::StringW  subKey, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*  mainLoc) ;
 
-  /// @brief Method Locate, addr 0x62ad76c, size 0x504, virtual true, abstract: false, final true
-  inline bool Locate(::System::Object* key, ::System::Type* type,
-                     ::ByRef<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*> locations);
+/// @brief Method Locate, addr 0x62ade2c, size 0x504, virtual true, abstract: false, final true
+inline bool Locate(::System::Object*  key, ::System::Type*  type, ::ByRef<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*>  locations) ;
 
-  static inline ::UnityEngine::AddressableAssets::DynamicResourceLocator* New_ctor(::UnityEngine::AddressableAssets::AddressablesImpl* addr);
+static inline ::UnityEngine::AddressableAssets::DynamicResourceLocator* New_ctor(::UnityEngine::AddressableAssets::AddressablesImpl*  addr) ;
 
-  constexpr ::UnityEngine::AddressableAssets::AddressablesImpl* const& __cordl_internal_get_m_Addressables() const;
+constexpr ::UnityEngine::AddressableAssets::AddressablesImpl* const& __cordl_internal_get_m_Addressables() const;
 
-  constexpr ::UnityEngine::AddressableAssets::AddressablesImpl*& __cordl_internal_get_m_Addressables();
+constexpr ::UnityEngine::AddressableAssets::AddressablesImpl*& __cordl_internal_get_m_Addressables() ;
 
-  constexpr ::StringW const& __cordl_internal_get_m_AtlasSpriteProviderId() const;
+constexpr ::StringW const& __cordl_internal_get_m_AtlasSpriteProviderId() const;
 
-  constexpr ::StringW& __cordl_internal_get_m_AtlasSpriteProviderId();
+constexpr ::StringW& __cordl_internal_get_m_AtlasSpriteProviderId() ;
 
-  constexpr void __cordl_internal_set_m_Addressables(::UnityEngine::AddressableAssets::AddressablesImpl* value);
+constexpr void __cordl_internal_set_m_Addressables(::UnityEngine::AddressableAssets::AddressablesImpl*  value) ;
 
-  constexpr void __cordl_internal_set_m_AtlasSpriteProviderId(::StringW value);
+constexpr void __cordl_internal_set_m_AtlasSpriteProviderId(::StringW  value) ;
 
-  /// @brief Method .ctor, addr 0x62ad764, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::AddressableAssets::AddressablesImpl* addr);
+/// @brief Method .ctor, addr 0x62ade24, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(::UnityEngine::AddressableAssets::AddressablesImpl*  addr) ;
 
-  /// @brief Method get_AllLocations, addr 0x62ad71c, size 0x48, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* get_AllLocations();
+/// @brief Method get_AllLocations, addr 0x62adddc, size 0x48, virtual false, abstract: false, final false
+inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* get_AllLocations() ;
 
-  /// @brief Method get_AtlasSpriteProviderId, addr 0x62ad314, size 0x408, virtual false, abstract: false, final false
-  inline ::StringW get_AtlasSpriteProviderId();
+/// @brief Method get_AtlasSpriteProviderId, addr 0x62ad9d4, size 0x408, virtual false, abstract: false, final false
+inline ::StringW get_AtlasSpriteProviderId() ;
 
-  /// @brief Method get_Keys, addr 0x62ad2cc, size 0x48, virtual true, abstract: false, final false
-  inline ::System::Collections::Generic::IEnumerable_1<::System::Object*>* get_Keys();
+/// @brief Method get_Keys, addr 0x62ad98c, size 0x48, virtual true, abstract: false, final false
+inline ::System::Collections::Generic::IEnumerable_1<::System::Object*>* get_Keys() ;
 
-  /// @brief Method get_LocatorId, addr 0x62ad288, size 0x44, virtual true, abstract: false, final true
-  inline ::StringW get_LocatorId();
+/// @brief Method get_LocatorId, addr 0x62ad948, size 0x44, virtual true, abstract: false, final true
+inline ::StringW get_LocatorId() ;
 
-  /// @brief Convert to "::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator"
-  constexpr ::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator* i___UnityEngine__AddressableAssets__ResourceLocators__IResourceLocator() noexcept;
+/// @brief Convert to "::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator"
+constexpr ::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator* i___UnityEngine__AddressableAssets__ResourceLocators__IResourceLocator() noexcept;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DynamicResourceLocator();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr DynamicResourceLocator() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DynamicResourceLocator", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  DynamicResourceLocator(DynamicResourceLocator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DynamicResourceLocator", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  DynamicResourceLocator(DynamicResourceLocator const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "DynamicResourceLocator", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+DynamicResourceLocator(DynamicResourceLocator && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19550 };
+// Ctor Parameters [CppParam { name: "", ty: "DynamicResourceLocator", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+DynamicResourceLocator(DynamicResourceLocator const& ) = delete;
 
-  /// @brief Field m_Addressables, offset: 0x10, size: 0x8, def value: None
-  ::UnityEngine::AddressableAssets::AddressablesImpl* ___m_Addressables;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{19554};
 
-  /// @brief Field m_AtlasSpriteProviderId, offset: 0x18, size: 0x8, def value: None
-  ::StringW ___m_AtlasSpriteProviderId;
+/// @brief Field m_Addressables, offset: 0x10, size: 0x8, def value: None
+ ::UnityEngine::AddressableAssets::AddressablesImpl*  ___m_Addressables;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field m_AtlasSpriteProviderId, offset: 0x18, size: 0x8, def value: None
+ ::StringW  ___m_AtlasSpriteProviderId;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::AddressableAssets::DynamicResourceLocator, ___m_Addressables) == 0x10, "Offset mismatch!");
@@ -129,6 +129,6 @@ static_assert(offsetof(::UnityEngine::AddressableAssets::DynamicResourceLocator,
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::AddressableAssets::DynamicResourceLocator, 0x20>, "Size mismatch!");
 
-} // namespace UnityEngine::AddressableAssets
+} // namespace end def UnityEngine::AddressableAssets
 NEED_NO_BOX(::UnityEngine::AddressableAssets::DynamicResourceLocator);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AddressableAssets::DynamicResourceLocator*, "UnityEngine.AddressableAssets", "DynamicResourceLocator");

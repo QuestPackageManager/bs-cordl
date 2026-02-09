@@ -9,7 +9,8 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(VisualElementAsset)
 namespace System::Collections::Generic {
-template <typename T> class List_1;
+template<typename T>
+class List_1;
 }
 namespace UnityEngine::UIElements {
 struct CreationContext;
@@ -38,196 +39,194 @@ namespace UnityEngine::UIElements {
 // CS Name: UnityEngine.UIElements.VisualElementAsset
 class CORDL_TYPE VisualElementAsset : public ::UnityEngine::UIElements::UxmlAsset {
 public:
-  // Declarations
-  __declspec(property(get = get_classes)) ::ArrayW<::StringW, ::Array<::StringW>*> classes;
+// Declarations
+ __declspec(property(get=get_classes)) ::ArrayW<::StringW,::Array<::StringW>*>  classes;
 
-  __declspec(property(get = get_hasStylesheetPaths)) bool hasStylesheetPaths;
+ __declspec(property(get=get_hasStylesheetPaths)) bool  hasStylesheetPaths;
 
-  __declspec(property(get = get_hasStylesheets)) bool hasStylesheets;
+ __declspec(property(get=get_hasStylesheets)) bool  hasStylesheets;
 
-  /// @brief Field m_Classes, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Classes, put = __cordl_internal_set_m_Classes)) ::ArrayW<::StringW, ::Array<::StringW>*> m_Classes;
+/// @brief Field m_Classes, offset 0x68, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_Classes, put=__cordl_internal_set_m_Classes)) ::ArrayW<::StringW,::Array<::StringW>*>  m_Classes;
 
-  /// @brief Field m_Name, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Name, put = __cordl_internal_set_m_Name)) ::StringW m_Name;
+/// @brief Field m_Name, offset 0x48, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_Name, put=__cordl_internal_set_m_Name)) ::StringW  m_Name;
 
-  /// @brief Field m_PickingMode, offset 0x60, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_PickingMode, put = __cordl_internal_set_m_PickingMode)) ::UnityEngine::UIElements::PickingMode m_PickingMode;
+/// @brief Field m_PickingMode, offset 0x60, size 0x4 
+ __declspec(property(get=__cordl_internal_get_m_PickingMode, put=__cordl_internal_set_m_PickingMode)) ::UnityEngine::UIElements::PickingMode  m_PickingMode;
 
-  /// @brief Field m_RuleIndex, offset 0x50, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_RuleIndex, put = __cordl_internal_set_m_RuleIndex)) int32_t m_RuleIndex;
+/// @brief Field m_RuleIndex, offset 0x50, size 0x4 
+ __declspec(property(get=__cordl_internal_get_m_RuleIndex, put=__cordl_internal_set_m_RuleIndex)) int32_t  m_RuleIndex;
 
-  /// @brief Field m_SerializedData, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_SerializedData, put = __cordl_internal_set_m_SerializedData)) ::UnityEngine::UIElements::UxmlSerializedData* m_SerializedData;
+/// @brief Field m_SerializedData, offset 0x80, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_SerializedData, put=__cordl_internal_set_m_SerializedData)) ::UnityEngine::UIElements::UxmlSerializedData*  m_SerializedData;
 
-  /// @brief Field m_SkipClone, offset 0x88, size 0x1
-  __declspec(property(get = __cordl_internal_get_m_SkipClone, put = __cordl_internal_set_m_SkipClone)) bool m_SkipClone;
+/// @brief Field m_SkipClone, offset 0x88, size 0x1 
+ __declspec(property(get=__cordl_internal_get_m_SkipClone, put=__cordl_internal_set_m_SkipClone)) bool  m_SkipClone;
 
-  /// @brief Field m_StylesheetPaths, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_StylesheetPaths, put = __cordl_internal_set_m_StylesheetPaths)) ::System::Collections::Generic::List_1<::StringW>* m_StylesheetPaths;
+/// @brief Field m_StylesheetPaths, offset 0x70, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_StylesheetPaths, put=__cordl_internal_set_m_StylesheetPaths)) ::System::Collections::Generic::List_1<::StringW>*  m_StylesheetPaths;
 
-  /// @brief Field m_Stylesheets, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Stylesheets,
-                      put = __cordl_internal_set_m_Stylesheets)) ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>* m_Stylesheets;
+/// @brief Field m_Stylesheets, offset 0x78, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_Stylesheets, put=__cordl_internal_set_m_Stylesheets)) ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>*  m_Stylesheets;
 
-  /// @brief Field m_Text, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Text, put = __cordl_internal_set_m_Text)) ::StringW m_Text;
+/// @brief Field m_Text, offset 0x58, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_Text, put=__cordl_internal_set_m_Text)) ::StringW  m_Text;
 
-  __declspec(property(get = get_ruleIndex)) int32_t ruleIndex;
+ __declspec(property(get=get_ruleIndex)) int32_t  ruleIndex;
 
-  __declspec(property(get = get_serializedData)) ::UnityEngine::UIElements::UxmlSerializedData* serializedData;
+ __declspec(property(get=get_serializedData)) ::UnityEngine::UIElements::UxmlSerializedData*  serializedData;
 
-  __declspec(property(get = get_skipClone)) bool skipClone;
+ __declspec(property(get=get_skipClone)) bool  skipClone;
 
-  __declspec(property(get = get_stylesheetPaths)) ::System::Collections::Generic::List_1<::StringW>* stylesheetPaths;
+ __declspec(property(get=get_stylesheetPaths)) ::System::Collections::Generic::List_1<::StringW>*  stylesheetPaths;
 
-  __declspec(property(get = get_stylesheets)) ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>* stylesheets;
+ __declspec(property(get=get_stylesheets)) ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>*  stylesheets;
 
-  /// @brief Convert operator to "::UnityEngine::ISerializationCallbackReceiver"
-  constexpr operator ::UnityEngine::ISerializationCallbackReceiver*() noexcept;
+/// @brief Convert operator to "::UnityEngine::ISerializationCallbackReceiver"
+constexpr operator  ::UnityEngine::ISerializationCallbackReceiver*() noexcept;
 
-  /// @brief Method IdsPathMatchesAttributeOverrideIdsPath, addr 0x6af61c0, size 0x13c, virtual false, abstract: false, final false
-  static inline bool IdsPathMatchesAttributeOverrideIdsPath(::System::Collections::Generic::List_1<int32_t>* idsPath, ::System::Collections::Generic::List_1<int32_t>* attributeOverrideIdsPath,
-                                                            int32_t templateId);
+/// @brief Method IdsPathMatchesAttributeOverrideIdsPath, addr 0x6af6880, size 0x13c, virtual false, abstract: false, final false
+static inline bool IdsPathMatchesAttributeOverrideIdsPath(::System::Collections::Generic::List_1<int32_t>*  idsPath, ::System::Collections::Generic::List_1<int32_t>*  attributeOverrideIdsPath, int32_t  templateId) ;
 
-  /// @brief Method Instantiate, addr 0x6af0a14, size 0x56c, virtual true, abstract: false, final false
-  inline ::UnityEngine::UIElements::VisualElement* Instantiate(::UnityEngine::UIElements::CreationContext cc);
+/// @brief Method Instantiate, addr 0x6af10d4, size 0x56c, virtual true, abstract: false, final false
+inline ::UnityEngine::UIElements::VisualElement* Instantiate(::UnityEngine::UIElements::CreationContext  cc) ;
 
-  /// @brief Method OnAfterDeserialize, addr 0x6af6020, size 0x1a0, virtual true, abstract: false, final true
-  inline void OnAfterDeserialize();
+/// @brief Method OnAfterDeserialize, addr 0x6af66e0, size 0x1a0, virtual true, abstract: false, final true
+inline void OnAfterDeserialize() ;
 
-  /// @brief Method OnBeforeSerialize, addr 0x6af601c, size 0x4, virtual true, abstract: false, final true
-  inline void OnBeforeSerialize();
+/// @brief Method OnBeforeSerialize, addr 0x6af66dc, size 0x4, virtual true, abstract: false, final true
+inline void OnBeforeSerialize() ;
 
-  /// @brief Method ToString, addr 0x6af63c0, size 0xa8, virtual true, abstract: false, final false
-  inline ::StringW ToString();
+/// @brief Method ToString, addr 0x6af6a80, size 0xa8, virtual true, abstract: false, final false
+inline ::StringW ToString() ;
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get_m_Classes() const;
+constexpr ::ArrayW<::StringW,::Array<::StringW>*> const& __cordl_internal_get_m_Classes() const;
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get_m_Classes();
+constexpr ::ArrayW<::StringW,::Array<::StringW>*>& __cordl_internal_get_m_Classes() ;
 
-  constexpr ::StringW const& __cordl_internal_get_m_Name() const;
+constexpr ::StringW const& __cordl_internal_get_m_Name() const;
 
-  constexpr ::StringW& __cordl_internal_get_m_Name();
+constexpr ::StringW& __cordl_internal_get_m_Name() ;
 
-  constexpr ::UnityEngine::UIElements::PickingMode const& __cordl_internal_get_m_PickingMode() const;
+constexpr ::UnityEngine::UIElements::PickingMode const& __cordl_internal_get_m_PickingMode() const;
 
-  constexpr ::UnityEngine::UIElements::PickingMode& __cordl_internal_get_m_PickingMode();
+constexpr ::UnityEngine::UIElements::PickingMode& __cordl_internal_get_m_PickingMode() ;
 
-  constexpr int32_t const& __cordl_internal_get_m_RuleIndex() const;
+constexpr int32_t const& __cordl_internal_get_m_RuleIndex() const;
 
-  constexpr int32_t& __cordl_internal_get_m_RuleIndex();
+constexpr int32_t& __cordl_internal_get_m_RuleIndex() ;
 
-  constexpr ::UnityEngine::UIElements::UxmlSerializedData* const& __cordl_internal_get_m_SerializedData() const;
+constexpr ::UnityEngine::UIElements::UxmlSerializedData* const& __cordl_internal_get_m_SerializedData() const;
 
-  constexpr ::UnityEngine::UIElements::UxmlSerializedData*& __cordl_internal_get_m_SerializedData();
+constexpr ::UnityEngine::UIElements::UxmlSerializedData*& __cordl_internal_get_m_SerializedData() ;
 
-  constexpr bool const& __cordl_internal_get_m_SkipClone() const;
+constexpr bool const& __cordl_internal_get_m_SkipClone() const;
 
-  constexpr bool& __cordl_internal_get_m_SkipClone();
+constexpr bool& __cordl_internal_get_m_SkipClone() ;
 
-  constexpr ::System::Collections::Generic::List_1<::StringW>* const& __cordl_internal_get_m_StylesheetPaths() const;
+constexpr ::System::Collections::Generic::List_1<::StringW>* const& __cordl_internal_get_m_StylesheetPaths() const;
 
-  constexpr ::System::Collections::Generic::List_1<::StringW>*& __cordl_internal_get_m_StylesheetPaths();
+constexpr ::System::Collections::Generic::List_1<::StringW>*& __cordl_internal_get_m_StylesheetPaths() ;
 
-  constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>* const& __cordl_internal_get_m_Stylesheets() const;
+constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>* const& __cordl_internal_get_m_Stylesheets() const;
 
-  constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>*& __cordl_internal_get_m_Stylesheets();
+constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>*& __cordl_internal_get_m_Stylesheets() ;
 
-  constexpr ::StringW const& __cordl_internal_get_m_Text() const;
+constexpr ::StringW const& __cordl_internal_get_m_Text() const;
 
-  constexpr ::StringW& __cordl_internal_get_m_Text();
+constexpr ::StringW& __cordl_internal_get_m_Text() ;
 
-  constexpr void __cordl_internal_set_m_Classes(::ArrayW<::StringW, ::Array<::StringW>*> value);
+constexpr void __cordl_internal_set_m_Classes(::ArrayW<::StringW,::Array<::StringW>*>  value) ;
 
-  constexpr void __cordl_internal_set_m_Name(::StringW value);
+constexpr void __cordl_internal_set_m_Name(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_m_PickingMode(::UnityEngine::UIElements::PickingMode value);
+constexpr void __cordl_internal_set_m_PickingMode(::UnityEngine::UIElements::PickingMode  value) ;
 
-  constexpr void __cordl_internal_set_m_RuleIndex(int32_t value);
+constexpr void __cordl_internal_set_m_RuleIndex(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_m_SerializedData(::UnityEngine::UIElements::UxmlSerializedData* value);
+constexpr void __cordl_internal_set_m_SerializedData(::UnityEngine::UIElements::UxmlSerializedData*  value) ;
 
-  constexpr void __cordl_internal_set_m_SkipClone(bool value);
+constexpr void __cordl_internal_set_m_SkipClone(bool  value) ;
 
-  constexpr void __cordl_internal_set_m_StylesheetPaths(::System::Collections::Generic::List_1<::StringW>* value);
+constexpr void __cordl_internal_set_m_StylesheetPaths(::System::Collections::Generic::List_1<::StringW>*  value) ;
 
-  constexpr void __cordl_internal_set_m_Stylesheets(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>* value);
+constexpr void __cordl_internal_set_m_Stylesheets(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>*  value) ;
 
-  constexpr void __cordl_internal_set_m_Text(::StringW value);
+constexpr void __cordl_internal_set_m_Text(::StringW  value) ;
 
-  /// @brief Method get_classes, addr 0x6af5ee4, size 0x8, virtual false, abstract: false, final false
-  inline ::ArrayW<::StringW, ::Array<::StringW>*> get_classes();
+/// @brief Method get_classes, addr 0x6af65a4, size 0x8, virtual false, abstract: false, final false
+inline ::ArrayW<::StringW,::Array<::StringW>*> get_classes() ;
 
-  /// @brief Method get_hasStylesheetPaths, addr 0x6af5f6c, size 0x10, virtual false, abstract: false, final false
-  inline bool get_hasStylesheetPaths();
+/// @brief Method get_hasStylesheetPaths, addr 0x6af662c, size 0x10, virtual false, abstract: false, final false
+inline bool get_hasStylesheetPaths() ;
 
-  /// @brief Method get_hasStylesheets, addr 0x6af5ffc, size 0x10, virtual false, abstract: false, final false
-  inline bool get_hasStylesheets();
+/// @brief Method get_hasStylesheets, addr 0x6af66bc, size 0x10, virtual false, abstract: false, final false
+inline bool get_hasStylesheets() ;
 
-  /// @brief Method get_ruleIndex, addr 0x6af5edc, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_ruleIndex();
+/// @brief Method get_ruleIndex, addr 0x6af659c, size 0x8, virtual false, abstract: false, final false
+inline int32_t get_ruleIndex() ;
 
-  /// @brief Method get_serializedData, addr 0x6af600c, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::UxmlSerializedData* get_serializedData();
+/// @brief Method get_serializedData, addr 0x6af66cc, size 0x8, virtual false, abstract: false, final false
+inline ::UnityEngine::UIElements::UxmlSerializedData* get_serializedData() ;
 
-  /// @brief Method get_skipClone, addr 0x6af6014, size 0x8, virtual false, abstract: false, final false
-  inline bool get_skipClone();
+/// @brief Method get_skipClone, addr 0x6af66d4, size 0x8, virtual false, abstract: false, final false
+inline bool get_skipClone() ;
 
-  /// @brief Method get_stylesheetPaths, addr 0x6af5eec, size 0x80, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::List_1<::StringW>* get_stylesheetPaths();
+/// @brief Method get_stylesheetPaths, addr 0x6af65ac, size 0x80, virtual false, abstract: false, final false
+inline ::System::Collections::Generic::List_1<::StringW>* get_stylesheetPaths() ;
 
-  /// @brief Method get_stylesheets, addr 0x6af5f7c, size 0x80, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>* get_stylesheets();
+/// @brief Method get_stylesheets, addr 0x6af663c, size 0x80, virtual false, abstract: false, final false
+inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>* get_stylesheets() ;
 
-  /// @brief Convert to "::UnityEngine::ISerializationCallbackReceiver"
-  constexpr ::UnityEngine::ISerializationCallbackReceiver* i___UnityEngine__ISerializationCallbackReceiver() noexcept;
+/// @brief Convert to "::UnityEngine::ISerializationCallbackReceiver"
+constexpr ::UnityEngine::ISerializationCallbackReceiver* i___UnityEngine__ISerializationCallbackReceiver() noexcept;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr VisualElementAsset();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr VisualElementAsset() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VisualElementAsset", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  VisualElementAsset(VisualElementAsset&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VisualElementAsset", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  VisualElementAsset(VisualElementAsset const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "VisualElementAsset", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+VisualElementAsset(VisualElementAsset && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5197 };
+// Ctor Parameters [CppParam { name: "", ty: "VisualElementAsset", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+VisualElementAsset(VisualElementAsset const& ) = delete;
 
-  /// @brief Field m_Name, offset: 0x48, size: 0x8, def value: None
-  ::StringW ___m_Name;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{5197};
 
-  /// @brief Field m_RuleIndex, offset: 0x50, size: 0x4, def value: None
-  int32_t ___m_RuleIndex;
+/// @brief Field m_Name, offset: 0x48, size: 0x8, def value: None
+ ::StringW  ___m_Name;
 
-  /// @brief Field m_Text, offset: 0x58, size: 0x8, def value: None
-  ::StringW ___m_Text;
+/// @brief Field m_RuleIndex, offset: 0x50, size: 0x4, def value: None
+ int32_t  ___m_RuleIndex;
 
-  /// @brief Field m_PickingMode, offset: 0x60, size: 0x4, def value: None
-  ::UnityEngine::UIElements::PickingMode ___m_PickingMode;
+/// @brief Field m_Text, offset: 0x58, size: 0x8, def value: None
+ ::StringW  ___m_Text;
 
-  /// @brief Field m_Classes, offset: 0x68, size: 0x8, def value: None
-  ::ArrayW<::StringW, ::Array<::StringW>*> ___m_Classes;
+/// @brief Field m_PickingMode, offset: 0x60, size: 0x4, def value: None
+ ::UnityEngine::UIElements::PickingMode  ___m_PickingMode;
 
-  /// @brief Field m_StylesheetPaths, offset: 0x70, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::StringW>* ___m_StylesheetPaths;
+/// @brief Field m_Classes, offset: 0x68, size: 0x8, def value: None
+ ::ArrayW<::StringW,::Array<::StringW>*>  ___m_Classes;
 
-  /// @brief Field m_Stylesheets, offset: 0x78, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>* ___m_Stylesheets;
+/// @brief Field m_StylesheetPaths, offset: 0x70, size: 0x8, def value: None
+ ::System::Collections::Generic::List_1<::StringW>*  ___m_StylesheetPaths;
 
-  /// @brief Field m_SerializedData, offset: 0x80, size: 0x8, def value: None
-  ::UnityEngine::UIElements::UxmlSerializedData* ___m_SerializedData;
+/// @brief Field m_Stylesheets, offset: 0x78, size: 0x8, def value: None
+ ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>*  ___m_Stylesheets;
 
-  /// @brief Field m_SkipClone, offset: 0x88, size: 0x1, def value: None
-  bool ___m_SkipClone;
+/// @brief Field m_SerializedData, offset: 0x80, size: 0x8, def value: None
+ ::UnityEngine::UIElements::UxmlSerializedData*  ___m_SerializedData;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field m_SkipClone, offset: 0x88, size: 0x1, def value: None
+ bool  ___m_SkipClone;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::UIElements::VisualElementAsset, ___m_Name) == 0x48, "Offset mismatch!");
@@ -250,6 +249,6 @@ static_assert(offsetof(::UnityEngine::UIElements::VisualElementAsset, ___m_SkipC
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::VisualElementAsset, 0x90>, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements
+} // namespace end def UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::VisualElementAsset);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::VisualElementAsset*, "UnityEngine.UIElements", "VisualElementAsset");

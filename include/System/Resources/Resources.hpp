@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "System/Resources/FastResourceComparer.hpp"
 #include "System/Resources/FileBasedResourceGroveler.hpp"
@@ -21,5 +21,6 @@ module;
 #include "System/Resources/SatelliteContractVersionAttribute.hpp"
 #include "System/Resources/UltimateResourceFallbackLocation.hpp"
 #ifdef __cpp_modules
-export module Resources;
-#endif
+                    export module Resources;
+                    #endif
+                

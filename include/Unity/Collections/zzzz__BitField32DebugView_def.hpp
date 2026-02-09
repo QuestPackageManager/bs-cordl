@@ -21,53 +21,53 @@ namespace Unity::Collections {
 // CS Name: Unity.Collections.BitField32DebugView
 class CORDL_TYPE BitField32DebugView : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field BitField, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_BitField, put = __cordl_internal_set_BitField)) ::Unity::Collections::BitField32 BitField;
+// Declarations
+/// @brief Field BitField, offset 0x10, size 0x4 
+ __declspec(property(get=__cordl_internal_get_BitField, put=__cordl_internal_set_BitField)) ::Unity::Collections::BitField32  BitField;
 
-  __declspec(property(get = get_Bits)) ::ArrayW<bool, ::Array<bool>*> Bits;
+ __declspec(property(get=get_Bits)) ::ArrayW<bool,::Array<bool>*>  Bits;
 
-  static inline ::Unity::Collections::BitField32DebugView* New_ctor(::Unity::Collections::BitField32 bitfield);
+static inline ::Unity::Collections::BitField32DebugView* New_ctor(::Unity::Collections::BitField32  bitfield) ;
 
-  constexpr ::Unity::Collections::BitField32 const& __cordl_internal_get_BitField() const;
+constexpr ::Unity::Collections::BitField32 const& __cordl_internal_get_BitField() const;
 
-  constexpr ::Unity::Collections::BitField32& __cordl_internal_get_BitField();
+constexpr ::Unity::Collections::BitField32& __cordl_internal_get_BitField() ;
 
-  constexpr void __cordl_internal_set_BitField(::Unity::Collections::BitField32 value);
+constexpr void __cordl_internal_set_BitField(::Unity::Collections::BitField32  value) ;
 
-  /// @brief Method .ctor, addr 0x62f5494, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::Unity::Collections::BitField32 bitfield);
+/// @brief Method .ctor, addr 0x62f5b54, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(::Unity::Collections::BitField32  bitfield) ;
 
-  /// @brief Method get_Bits, addr 0x62f549c, size 0x8c, virtual false, abstract: false, final false
-  inline ::ArrayW<bool, ::Array<bool>*> get_Bits();
+/// @brief Method get_Bits, addr 0x62f5b5c, size 0x8c, virtual false, abstract: false, final false
+inline ::ArrayW<bool,::Array<bool>*> get_Bits() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BitField32DebugView();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr BitField32DebugView() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BitField32DebugView", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  BitField32DebugView(BitField32DebugView&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BitField32DebugView", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  BitField32DebugView(BitField32DebugView const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "BitField32DebugView", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+BitField32DebugView(BitField32DebugView && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15522 };
+// Ctor Parameters [CppParam { name: "", ty: "BitField32DebugView", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+BitField32DebugView(BitField32DebugView const& ) = delete;
 
-  /// @brief Field BitField, offset: 0x10, size: 0x4, def value: None
-  ::Unity::Collections::BitField32 ___BitField;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{15526};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field BitField, offset: 0x10, size: 0x4, def value: None
+ ::Unity::Collections::BitField32  ___BitField;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Unity::Collections::BitField32DebugView, ___BitField) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::Unity::Collections::BitField32DebugView, 0x18>, "Size mismatch!");
 
-} // namespace Unity::Collections
+} // namespace end def Unity::Collections
 NEED_NO_BOX(::Unity::Collections::BitField32DebugView);
 DEFINE_IL2CPP_ARG_TYPE(::Unity::Collections::BitField32DebugView*, "Unity.Collections", "BitField32DebugView");

@@ -21,32 +21,32 @@ namespace OculusStudios::GraphQL::ClientInterface {
 // CS Name: OculusStudios.GraphQL.ClientInterface.RequestStateExtensions
 class CORDL_TYPE RequestStateExtensions : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method ToVerboseLogFormat, addr 0x5d7f244, size 0x104, virtual false, abstract: false, final false
-  static inline ::StringW ToVerboseLogFormat(::OculusStudios::GraphQL::ClientInterface::RequestState state);
+// Declarations
+/// @brief Method ToVerboseLogFormat, addr 0x5d7f750, size 0x104, virtual false, abstract: false, final false
+static inline ::StringW ToVerboseLogFormat(::OculusStudios::GraphQL::ClientInterface::RequestState  state) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RequestStateExtensions();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr RequestStateExtensions() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RequestStateExtensions", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  RequestStateExtensions(RequestStateExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RequestStateExtensions", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  RequestStateExtensions(RequestStateExtensions const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "RequestStateExtensions", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+RequestStateExtensions(RequestStateExtensions && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22480 };
+// Ctor Parameters [CppParam { name: "", ty: "RequestStateExtensions", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+RequestStateExtensions(RequestStateExtensions const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{22484};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OculusStudios::GraphQL::ClientInterface::RequestStateExtensions, 0x10>, "Size mismatch!");
 
-} // namespace OculusStudios::GraphQL::ClientInterface
+} // namespace end def OculusStudios::GraphQL::ClientInterface
 NEED_NO_BOX(::OculusStudios::GraphQL::ClientInterface::RequestStateExtensions);
 DEFINE_IL2CPP_ARG_TYPE(::OculusStudios::GraphQL::ClientInterface::RequestStateExtensions*, "OculusStudios.GraphQL.ClientInterface", "RequestStateExtensions");

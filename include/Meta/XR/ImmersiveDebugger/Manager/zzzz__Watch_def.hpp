@@ -28,50 +28,49 @@ namespace Meta::XR::ImmersiveDebugger::Manager {
 // CS Name: Meta.XR.ImmersiveDebugger.Manager.Watch
 class CORDL_TYPE Watch : public ::Meta::XR::ImmersiveDebugger::Manager::Hook {
 public:
-  // Declarations
-  __declspec(property(get = get_NumberOfValues)) int32_t NumberOfValues;
+// Declarations
+ __declspec(property(get=get_NumberOfValues)) int32_t  NumberOfValues;
 
-  __declspec(property(get = get_Value)) ::StringW Value;
+ __declspec(property(get=get_Value)) ::StringW  Value;
 
-  __declspec(property(get = get_Values)) ::ArrayW<::StringW, ::Array<::StringW>*> Values;
+ __declspec(property(get=get_Values)) ::ArrayW<::StringW,::Array<::StringW>*>  Values;
 
-  static inline ::Meta::XR::ImmersiveDebugger::Manager::Watch* New_ctor(::System::Reflection::MemberInfo* memberInfo, ::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle instanceHandle,
-                                                                        ::Meta::XR::ImmersiveDebugger::DebugMember* attribute);
+static inline ::Meta::XR::ImmersiveDebugger::Manager::Watch* New_ctor(::System::Reflection::MemberInfo*  memberInfo, ::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle  instanceHandle, ::Meta::XR::ImmersiveDebugger::DebugMember*  attribute) ;
 
-  /// @brief Method .ctor, addr 0x58b7054, size 0x28, virtual false, abstract: false, final false
-  inline void _ctor(::System::Reflection::MemberInfo* memberInfo, ::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle instanceHandle, ::Meta::XR::ImmersiveDebugger::DebugMember* attribute);
+/// @brief Method .ctor, addr 0x58b7560, size 0x28, virtual false, abstract: false, final false
+inline void _ctor(::System::Reflection::MemberInfo*  memberInfo, ::Meta::XR::ImmersiveDebugger::Utils::InstanceHandle  instanceHandle, ::Meta::XR::ImmersiveDebugger::DebugMember*  attribute) ;
 
-  /// @brief Method get_NumberOfValues, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline int32_t get_NumberOfValues();
+/// @brief Method get_NumberOfValues, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline int32_t get_NumberOfValues() ;
 
-  /// @brief Method get_Value, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline ::StringW get_Value();
+/// @brief Method get_Value, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline ::StringW get_Value() ;
 
-  /// @brief Method get_Values, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline ::ArrayW<::StringW, ::Array<::StringW>*> get_Values();
+/// @brief Method get_Values, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline ::ArrayW<::StringW,::Array<::StringW>*> get_Values() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Watch();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr Watch() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Watch", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  Watch(Watch&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Watch", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  Watch(Watch const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "Watch", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+Watch(Watch && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18413 };
+// Ctor Parameters [CppParam { name: "", ty: "Watch", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+Watch(Watch const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{18417};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Meta::XR::ImmersiveDebugger::Manager::Watch, 0x40>, "Size mismatch!");
 
-} // namespace Meta::XR::ImmersiveDebugger::Manager
+} // namespace end def Meta::XR::ImmersiveDebugger::Manager
 NEED_NO_BOX(::Meta::XR::ImmersiveDebugger::Manager::Watch);
 DEFINE_IL2CPP_ARG_TYPE(::Meta::XR::ImmersiveDebugger::Manager::Watch*, "Meta.XR.ImmersiveDebugger.Manager", "Watch");

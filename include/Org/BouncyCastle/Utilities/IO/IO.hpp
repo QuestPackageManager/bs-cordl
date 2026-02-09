@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "Org/BouncyCastle/Utilities/IO/BaseInputStream.hpp"
 #include "Org/BouncyCastle/Utilities/IO/BaseOutputStream.hpp"
@@ -15,5 +15,6 @@ module;
 #include "Org/BouncyCastle/Utilities/IO/TeeInputStream.hpp"
 #include "Org/BouncyCastle/Utilities/IO/TeeOutputStream.hpp"
 #ifdef __cpp_modules
-export module IO;
-#endif
+                    export module IO;
+                    #endif
+                

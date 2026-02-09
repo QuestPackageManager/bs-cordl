@@ -6,7 +6,8 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__ScriptableObject_def.hpp"
 CORDL_MODULE_EXPORT(SignalAsset)
 namespace System {
-template <typename T> class Action_1;
+template<typename T>
+class Action_1;
 }
 // Forward declare root types
 namespace UnityEngine::Timeline {
@@ -20,50 +21,50 @@ namespace UnityEngine::Timeline {
 // CS Name: UnityEngine.Timeline.SignalAsset
 class CORDL_TYPE SignalAsset : public ::UnityEngine::ScriptableObject {
 public:
-  // Declarations
-  /// @brief Field OnEnableCallback, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_OnEnableCallback, put = setStaticF_OnEnableCallback)) ::System::Action_1<::UnityW<::UnityEngine::Timeline::SignalAsset>>* OnEnableCallback;
+// Declarations
+/// @brief Field OnEnableCallback, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_OnEnableCallback, put=setStaticF_OnEnableCallback)) ::System::Action_1<::UnityW<::UnityEngine::Timeline::SignalAsset>>*  OnEnableCallback;
 
-  static inline ::UnityEngine::Timeline::SignalAsset* New_ctor();
+static inline ::UnityEngine::Timeline::SignalAsset* New_ctor() ;
 
-  /// @brief Method OnEnable, addr 0x680e4a4, size 0x70, virtual false, abstract: false, final false
-  inline void OnEnable();
+/// @brief Method OnEnable, addr 0x680eb64, size 0x70, virtual false, abstract: false, final false
+inline void OnEnable() ;
 
-  /// @brief Method .ctor, addr 0x680e514, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x680ebd4, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method add_OnEnableCallback, addr 0x680e2e4, size 0xe0, virtual false, abstract: false, final false
-  static inline void add_OnEnableCallback(::System::Action_1<::UnityW<::UnityEngine::Timeline::SignalAsset>>* value);
+/// @brief Method add_OnEnableCallback, addr 0x680e9a4, size 0xe0, virtual false, abstract: false, final false
+static inline void add_OnEnableCallback(::System::Action_1<::UnityW<::UnityEngine::Timeline::SignalAsset>>*  value) ;
 
-  static inline ::System::Action_1<::UnityW<::UnityEngine::Timeline::SignalAsset>>* getStaticF_OnEnableCallback();
+static inline ::System::Action_1<::UnityW<::UnityEngine::Timeline::SignalAsset>>* getStaticF_OnEnableCallback() ;
 
-  /// @brief Method remove_OnEnableCallback, addr 0x680e3c4, size 0xe0, virtual false, abstract: false, final false
-  static inline void remove_OnEnableCallback(::System::Action_1<::UnityW<::UnityEngine::Timeline::SignalAsset>>* value);
+/// @brief Method remove_OnEnableCallback, addr 0x680ea84, size 0xe0, virtual false, abstract: false, final false
+static inline void remove_OnEnableCallback(::System::Action_1<::UnityW<::UnityEngine::Timeline::SignalAsset>>*  value) ;
 
-  static inline void setStaticF_OnEnableCallback(::System::Action_1<::UnityW<::UnityEngine::Timeline::SignalAsset>>* value);
+static inline void setStaticF_OnEnableCallback(::System::Action_1<::UnityW<::UnityEngine::Timeline::SignalAsset>>*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SignalAsset();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr SignalAsset() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SignalAsset", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  SignalAsset(SignalAsset&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SignalAsset", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  SignalAsset(SignalAsset const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "SignalAsset", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+SignalAsset(SignalAsset && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19040 };
+// Ctor Parameters [CppParam { name: "", ty: "SignalAsset", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+SignalAsset(SignalAsset const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{19044};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Timeline::SignalAsset, 0x18>, "Size mismatch!");
 
-} // namespace UnityEngine::Timeline
+} // namespace end def UnityEngine::Timeline
 NEED_NO_BOX(::UnityEngine::Timeline::SignalAsset);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Timeline::SignalAsset*, "UnityEngine.Timeline", "SignalAsset");

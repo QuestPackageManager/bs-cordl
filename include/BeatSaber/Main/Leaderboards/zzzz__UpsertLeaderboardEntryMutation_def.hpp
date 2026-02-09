@@ -29,39 +29,37 @@ namespace BeatSaber::Main::Leaderboards {
 // CS Name: BeatSaber.Main.Leaderboards.UpsertLeaderboardEntryMutation
 class CORDL_TYPE UpsertLeaderboardEntryMutation : public ::OculusStudios::GraphQL::Client::MutationRequest_1<::BeatSaber::Main::GraphQL::InputTypes::XOCBeatGamesBeatmapLeaderboardEntryUpsertData*> {
 public:
-  // Declarations
-  /// @brief Method ConvertInputData, addr 0x31d0d4c, size 0xe8, virtual false, abstract: false, final false
-  static inline ::BeatSaber::Main::GraphQL::InputTypes::XOCBeatGamesBeatmapLeaderboardEntryUpsertData*
-  ConvertInputData(::GlobalNamespace::LevelCompletionResults* levelCompletionResults, ::GlobalNamespace::BeatmapKey beatmapKey, ::GlobalNamespace::GameplayModifiers* modifiers);
+// Declarations
+/// @brief Method ConvertInputData, addr 0x31d0c9c, size 0xe8, virtual false, abstract: false, final false
+static inline ::BeatSaber::Main::GraphQL::InputTypes::XOCBeatGamesBeatmapLeaderboardEntryUpsertData* ConvertInputData(::GlobalNamespace::LevelCompletionResults*  levelCompletionResults, ::GlobalNamespace::BeatmapKey  beatmapKey, ::GlobalNamespace::GameplayModifiers*  modifiers) ;
 
-  static inline ::BeatSaber::Main::Leaderboards::UpsertLeaderboardEntryMutation* New_ctor(::GlobalNamespace::LevelCompletionResults* results, ::GlobalNamespace::BeatmapKey beatmapKey,
-                                                                                          ::GlobalNamespace::GameplayModifiers* modifiers);
+static inline ::BeatSaber::Main::Leaderboards::UpsertLeaderboardEntryMutation* New_ctor(::GlobalNamespace::LevelCompletionResults*  results, ::GlobalNamespace::BeatmapKey  beatmapKey, ::GlobalNamespace::GameplayModifiers*  modifiers) ;
 
-  /// @brief Method .ctor, addr 0x31d0860, size 0xbc, virtual false, abstract: false, final false
-  inline void _ctor(::GlobalNamespace::LevelCompletionResults* results, ::GlobalNamespace::BeatmapKey beatmapKey, ::GlobalNamespace::GameplayModifiers* modifiers);
+/// @brief Method .ctor, addr 0x31d07b0, size 0xbc, virtual false, abstract: false, final false
+inline void _ctor(::GlobalNamespace::LevelCompletionResults*  results, ::GlobalNamespace::BeatmapKey  beatmapKey, ::GlobalNamespace::GameplayModifiers*  modifiers) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr UpsertLeaderboardEntryMutation();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr UpsertLeaderboardEntryMutation() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UpsertLeaderboardEntryMutation", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  UpsertLeaderboardEntryMutation(UpsertLeaderboardEntryMutation&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UpsertLeaderboardEntryMutation", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  UpsertLeaderboardEntryMutation(UpsertLeaderboardEntryMutation const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "UpsertLeaderboardEntryMutation", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+UpsertLeaderboardEntryMutation(UpsertLeaderboardEntryMutation && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20970 };
+// Ctor Parameters [CppParam { name: "", ty: "UpsertLeaderboardEntryMutation", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+UpsertLeaderboardEntryMutation(UpsertLeaderboardEntryMutation const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20974};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::BeatSaber::Main::Leaderboards::UpsertLeaderboardEntryMutation, 0x68>, "Size mismatch!");
 
-} // namespace BeatSaber::Main::Leaderboards
+} // namespace end def BeatSaber::Main::Leaderboards
 NEED_NO_BOX(::BeatSaber::Main::Leaderboards::UpsertLeaderboardEntryMutation);
 DEFINE_IL2CPP_ARG_TYPE(::BeatSaber::Main::Leaderboards::UpsertLeaderboardEntryMutation*, "BeatSaber.Main.Leaderboards", "UpsertLeaderboardEntryMutation");

@@ -21,32 +21,32 @@ namespace GlobalNamespace {
 // CS Name: BeatSaberNetworkUtility
 class CORDL_TYPE BeatSaberNetworkUtility : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method GetHashedUserId, addr 0x31d2edc, size 0x100, virtual false, abstract: false, final false
-  static inline ::StringW GetHashedUserId(::StringW userId, ::GlobalNamespace::AuthenticationToken_PlatformType platform);
+// Declarations
+/// @brief Method GetHashedUserId, addr 0x31d2e2c, size 0x100, virtual false, abstract: false, final false
+static inline ::StringW GetHashedUserId(::StringW  userId, ::GlobalNamespace::AuthenticationToken_PlatformType  platform) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BeatSaberNetworkUtility();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr BeatSaberNetworkUtility() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatSaberNetworkUtility", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  BeatSaberNetworkUtility(BeatSaberNetworkUtility&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatSaberNetworkUtility", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  BeatSaberNetworkUtility(BeatSaberNetworkUtility const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "BeatSaberNetworkUtility", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+BeatSaberNetworkUtility(BeatSaberNetworkUtility && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18810 };
+// Ctor Parameters [CppParam { name: "", ty: "BeatSaberNetworkUtility", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+BeatSaberNetworkUtility(BeatSaberNetworkUtility const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{18814};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatSaberNetworkUtility, 0x10>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BeatSaberNetworkUtility);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BeatSaberNetworkUtility*, "", "BeatSaberNetworkUtility");

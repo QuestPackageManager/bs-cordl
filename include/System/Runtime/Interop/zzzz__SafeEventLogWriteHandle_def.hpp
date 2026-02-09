@@ -21,43 +21,43 @@ namespace System::Runtime::Interop {
 // CS Name: System.Runtime.Interop.SafeEventLogWriteHandle
 class CORDL_TYPE SafeEventLogWriteHandle : public ::Microsoft::Win32::SafeHandles::SafeHandleZeroOrMinusOneIsInvalid {
 public:
-  // Declarations
-  /// @brief Method DeregisterEventSource, addr 0x5fd5d54, size 0x88, virtual false, abstract: false, final false
-  static inline bool DeregisterEventSource(::System::IntPtr hEventLog);
+// Declarations
+/// @brief Method DeregisterEventSource, addr 0x5fd6414, size 0x88, virtual false, abstract: false, final false
+static inline bool DeregisterEventSource(::System::IntPtr  hEventLog) ;
 
-  static inline ::System::Runtime::Interop::SafeEventLogWriteHandle* New_ctor();
+static inline ::System::Runtime::Interop::SafeEventLogWriteHandle* New_ctor() ;
 
-  /// @brief Method RegisterEventSource, addr 0x5fd5ba4, size 0x94, virtual false, abstract: false, final false
-  static inline ::System::Runtime::Interop::SafeEventLogWriteHandle* RegisterEventSource(::StringW uncServerName, ::StringW sourceName);
+/// @brief Method RegisterEventSource, addr 0x5fd6264, size 0x94, virtual false, abstract: false, final false
+static inline ::System::Runtime::Interop::SafeEventLogWriteHandle* RegisterEventSource(::StringW  uncServerName, ::StringW  sourceName) ;
 
-  /// @brief Method ReleaseHandle, addr 0x5fd5ddc, size 0x8, virtual true, abstract: false, final false
-  inline bool ReleaseHandle();
+/// @brief Method ReleaseHandle, addr 0x5fd649c, size 0x8, virtual true, abstract: false, final false
+inline bool ReleaseHandle() ;
 
-  /// @brief Method .ctor, addr 0x5fd5b50, size 0x54, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5fd6210, size 0x54, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SafeEventLogWriteHandle();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr SafeEventLogWriteHandle() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SafeEventLogWriteHandle", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  SafeEventLogWriteHandle(SafeEventLogWriteHandle&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SafeEventLogWriteHandle", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  SafeEventLogWriteHandle(SafeEventLogWriteHandle const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "SafeEventLogWriteHandle", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+SafeEventLogWriteHandle(SafeEventLogWriteHandle && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21121 };
+// Ctor Parameters [CppParam { name: "", ty: "SafeEventLogWriteHandle", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+SafeEventLogWriteHandle(SafeEventLogWriteHandle const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{21125};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Interop::SafeEventLogWriteHandle, 0x20>, "Size mismatch!");
 
-} // namespace System::Runtime::Interop
+} // namespace end def System::Runtime::Interop
 NEED_NO_BOX(::System::Runtime::Interop::SafeEventLogWriteHandle);
 DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Interop::SafeEventLogWriteHandle*, "System.Runtime.Interop", "SafeEventLogWriteHandle");

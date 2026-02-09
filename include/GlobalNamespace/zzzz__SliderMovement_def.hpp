@@ -22,7 +22,8 @@ namespace GlobalNamespace {
 struct SliderSpawnData;
 }
 namespace System {
-template <typename T> class Action_1;
+template<typename T>
+class Action_1;
 }
 namespace System {
 class Action;
@@ -42,249 +43,248 @@ namespace GlobalNamespace {
 // CS Name: SliderMovement
 class CORDL_TYPE SliderMovement : public ::UnityEngine::MonoBehaviour {
 public:
-  // Declarations
-  /// @brief Field _audioTimeSyncController, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__audioTimeSyncController, put = __cordl_internal_set__audioTimeSyncController)) ::GlobalNamespace::IAudioTimeSource* _audioTimeSyncController;
+// Declarations
+/// @brief Field _audioTimeSyncController, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get__audioTimeSyncController, put=__cordl_internal_set__audioTimeSyncController)) ::GlobalNamespace::IAudioTimeSource*  _audioTimeSyncController;
 
-  /// @brief Field _headDidMovePastCutMarkReported, offset 0xa1, size 0x1
-  __declspec(property(get = __cordl_internal_get__headDidMovePastCutMarkReported, put = __cordl_internal_set__headDidMovePastCutMarkReported)) bool _headDidMovePastCutMarkReported;
+/// @brief Field _headDidMovePastCutMarkReported, offset 0xa1, size 0x1 
+ __declspec(property(get=__cordl_internal_get__headDidMovePastCutMarkReported, put=__cordl_internal_set__headDidMovePastCutMarkReported)) bool  _headDidMovePastCutMarkReported;
 
-  /// @brief Field _localPosition, offset 0x50, size 0xc
-  __declspec(property(get = __cordl_internal_get__localPosition, put = __cordl_internal_set__localPosition)) ::UnityEngine::Vector3 _localPosition;
+/// @brief Field _localPosition, offset 0x50, size 0xc 
+ __declspec(property(get=__cordl_internal_get__localPosition, put=__cordl_internal_set__localPosition)) ::UnityEngine::Vector3  _localPosition;
 
-  /// @brief Field _movementEndReported, offset 0xa0, size 0x1
-  __declspec(property(get = __cordl_internal_get__movementEndReported, put = __cordl_internal_set__movementEndReported)) bool _movementEndReported;
+/// @brief Field _movementEndReported, offset 0xa0, size 0x1 
+ __declspec(property(get=__cordl_internal_get__movementEndReported, put=__cordl_internal_set__movementEndReported)) bool  _movementEndReported;
 
-  /// @brief Field _sliderData, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get__sliderData, put = __cordl_internal_set__sliderData)) ::GlobalNamespace::SliderData* _sliderData;
+/// @brief Field _sliderData, offset 0x70, size 0x8 
+ __declspec(property(get=__cordl_internal_get__sliderData, put=__cordl_internal_set__sliderData)) ::GlobalNamespace::SliderData*  _sliderData;
 
-  /// @brief Field _sliderSpawnData, offset 0x78, size 0x20
-  __declspec(property(get = __cordl_internal_get__sliderSpawnData, put = __cordl_internal_set__sliderSpawnData)) ::GlobalNamespace::SliderSpawnData _sliderSpawnData;
+/// @brief Field _sliderSpawnData, offset 0x78, size 0x20 
+ __declspec(property(get=__cordl_internal_get__sliderSpawnData, put=__cordl_internal_set__sliderSpawnData)) ::GlobalNamespace::SliderSpawnData  _sliderSpawnData;
 
-  /// @brief Field _tailDidMovePastCutMarkReported, offset 0xa2, size 0x1
-  __declspec(property(get = __cordl_internal_get__tailDidMovePastCutMarkReported, put = __cordl_internal_set__tailDidMovePastCutMarkReported)) bool _tailDidMovePastCutMarkReported;
+/// @brief Field _tailDidMovePastCutMarkReported, offset 0xa2, size 0x1 
+ __declspec(property(get=__cordl_internal_get__tailDidMovePastCutMarkReported, put=__cordl_internal_set__tailDidMovePastCutMarkReported)) bool  _tailDidMovePastCutMarkReported;
 
-  /// @brief Field _timeSinceHeadNoteJump, offset 0xa4, size 0x4
-  __declspec(property(get = __cordl_internal_get__timeSinceHeadNoteJump, put = __cordl_internal_set__timeSinceHeadNoteJump)) float_t _timeSinceHeadNoteJump;
+/// @brief Field _timeSinceHeadNoteJump, offset 0xa4, size 0x4 
+ __declspec(property(get=__cordl_internal_get__timeSinceHeadNoteJump, put=__cordl_internal_set__timeSinceHeadNoteJump)) float_t  _timeSinceHeadNoteJump;
 
-  /// @brief Field _transform, offset 0x98, size 0x8
-  __declspec(property(get = __cordl_internal_get__transform, put = __cordl_internal_set__transform)) ::UnityW<::UnityEngine::Transform> _transform;
+/// @brief Field _transform, offset 0x98, size 0x8 
+ __declspec(property(get=__cordl_internal_get__transform, put=__cordl_internal_set__transform)) ::UnityW<::UnityEngine::Transform>  _transform;
 
-  /// @brief Field _variableMovementDataProvider, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__variableMovementDataProvider,
-                      put = __cordl_internal_set__variableMovementDataProvider)) ::GlobalNamespace::IVariableMovementDataProvider* _variableMovementDataProvider;
+/// @brief Field _variableMovementDataProvider, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get__variableMovementDataProvider, put=__cordl_internal_set__variableMovementDataProvider)) ::GlobalNamespace::IVariableMovementDataProvider*  _variableMovementDataProvider;
 
-  /// @brief Field _worldRotation, offset 0x5c, size 0x10
-  __declspec(property(get = __cordl_internal_get__worldRotation, put = __cordl_internal_set__worldRotation)) ::UnityEngine::Quaternion _worldRotation;
+/// @brief Field _worldRotation, offset 0x5c, size 0x10 
+ __declspec(property(get=__cordl_internal_get__worldRotation, put=__cordl_internal_set__worldRotation)) ::UnityEngine::Quaternion  _worldRotation;
 
-  /// @brief Field headDidMovePastCutMarkEvent, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_headDidMovePastCutMarkEvent, put = __cordl_internal_set_headDidMovePastCutMarkEvent)) ::System::Action* headDidMovePastCutMarkEvent;
+/// @brief Field headDidMovePastCutMarkEvent, offset 0x40, size 0x8 
+ __declspec(property(get=__cordl_internal_get_headDidMovePastCutMarkEvent, put=__cordl_internal_set_headDidMovePastCutMarkEvent)) ::System::Action*  headDidMovePastCutMarkEvent;
 
-  /// @brief Field movementDidFinishEvent, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_movementDidFinishEvent, put = __cordl_internal_set_movementDidFinishEvent)) ::System::Action* movementDidFinishEvent;
+/// @brief Field movementDidFinishEvent, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get_movementDidFinishEvent, put=__cordl_internal_set_movementDidFinishEvent)) ::System::Action*  movementDidFinishEvent;
 
-  /// @brief Field movementDidMoveEvent, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_movementDidMoveEvent, put = __cordl_internal_set_movementDidMoveEvent)) ::System::Action_1<float_t>* movementDidMoveEvent;
+/// @brief Field movementDidMoveEvent, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get_movementDidMoveEvent, put=__cordl_internal_set_movementDidMoveEvent)) ::System::Action_1<float_t>*  movementDidMoveEvent;
 
-  /// @brief Field tailDidMovePastCutMarkEvent, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_tailDidMovePastCutMarkEvent, put = __cordl_internal_set_tailDidMovePastCutMarkEvent)) ::System::Action* tailDidMovePastCutMarkEvent;
+/// @brief Field tailDidMovePastCutMarkEvent, offset 0x48, size 0x8 
+ __declspec(property(get=__cordl_internal_get_tailDidMovePastCutMarkEvent, put=__cordl_internal_set_tailDidMovePastCutMarkEvent)) ::System::Action*  tailDidMovePastCutMarkEvent;
 
-  __declspec(property(get = get_timeSinceHeadNoteJump)) float_t timeSinceHeadNoteJump;
+ __declspec(property(get=get_timeSinceHeadNoteJump)) float_t  timeSinceHeadNoteJump;
 
-  /// @brief Method Init, addr 0x57c8c14, size 0x11c, virtual false, abstract: false, final false
-  inline void Init(::GlobalNamespace::SliderData* sliderData, ::ByRef<::GlobalNamespace::SliderSpawnData> sliderSpawnData);
+/// @brief Method Init, addr 0x57c9544, size 0x11c, virtual false, abstract: false, final false
+inline void Init(::GlobalNamespace::SliderData*  sliderData, ::ByRef<::GlobalNamespace::SliderSpawnData>  sliderSpawnData) ;
 
-  /// @brief Method ManualUpdate, addr 0x57ca6b0, size 0x48c, virtual false, abstract: false, final false
-  inline void ManualUpdate();
+/// @brief Method ManualUpdate, addr 0x57cafe0, size 0x48c, virtual false, abstract: false, final false
+inline void ManualUpdate() ;
 
-  static inline ::GlobalNamespace::SliderMovement* New_ctor();
+static inline ::GlobalNamespace::SliderMovement* New_ctor() ;
 
-  /// @brief Method StartMovement, addr 0x57c9810, size 0x24, virtual false, abstract: false, final false
-  inline void StartMovement();
+/// @brief Method StartMovement, addr 0x57ca140, size 0x24, virtual false, abstract: false, final false
+inline void StartMovement() ;
 
-  constexpr ::GlobalNamespace::IAudioTimeSource* const& __cordl_internal_get__audioTimeSyncController() const;
+constexpr ::GlobalNamespace::IAudioTimeSource* const& __cordl_internal_get__audioTimeSyncController() const;
 
-  constexpr ::GlobalNamespace::IAudioTimeSource*& __cordl_internal_get__audioTimeSyncController();
+constexpr ::GlobalNamespace::IAudioTimeSource*& __cordl_internal_get__audioTimeSyncController() ;
 
-  constexpr bool const& __cordl_internal_get__headDidMovePastCutMarkReported() const;
+constexpr bool const& __cordl_internal_get__headDidMovePastCutMarkReported() const;
 
-  constexpr bool& __cordl_internal_get__headDidMovePastCutMarkReported();
+constexpr bool& __cordl_internal_get__headDidMovePastCutMarkReported() ;
 
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__localPosition() const;
+constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__localPosition() const;
 
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get__localPosition();
+constexpr ::UnityEngine::Vector3& __cordl_internal_get__localPosition() ;
 
-  constexpr bool const& __cordl_internal_get__movementEndReported() const;
+constexpr bool const& __cordl_internal_get__movementEndReported() const;
 
-  constexpr bool& __cordl_internal_get__movementEndReported();
+constexpr bool& __cordl_internal_get__movementEndReported() ;
 
-  constexpr ::GlobalNamespace::SliderData* const& __cordl_internal_get__sliderData() const;
+constexpr ::GlobalNamespace::SliderData* const& __cordl_internal_get__sliderData() const;
 
-  constexpr ::GlobalNamespace::SliderData*& __cordl_internal_get__sliderData();
+constexpr ::GlobalNamespace::SliderData*& __cordl_internal_get__sliderData() ;
 
-  constexpr ::GlobalNamespace::SliderSpawnData const& __cordl_internal_get__sliderSpawnData() const;
+constexpr ::GlobalNamespace::SliderSpawnData const& __cordl_internal_get__sliderSpawnData() const;
 
-  constexpr ::GlobalNamespace::SliderSpawnData& __cordl_internal_get__sliderSpawnData();
+constexpr ::GlobalNamespace::SliderSpawnData& __cordl_internal_get__sliderSpawnData() ;
 
-  constexpr bool const& __cordl_internal_get__tailDidMovePastCutMarkReported() const;
+constexpr bool const& __cordl_internal_get__tailDidMovePastCutMarkReported() const;
 
-  constexpr bool& __cordl_internal_get__tailDidMovePastCutMarkReported();
+constexpr bool& __cordl_internal_get__tailDidMovePastCutMarkReported() ;
 
-  constexpr float_t const& __cordl_internal_get__timeSinceHeadNoteJump() const;
+constexpr float_t const& __cordl_internal_get__timeSinceHeadNoteJump() const;
 
-  constexpr float_t& __cordl_internal_get__timeSinceHeadNoteJump();
+constexpr float_t& __cordl_internal_get__timeSinceHeadNoteJump() ;
 
-  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__transform() const;
+constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__transform() const;
 
-  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__transform();
+constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__transform() ;
 
-  constexpr ::GlobalNamespace::IVariableMovementDataProvider* const& __cordl_internal_get__variableMovementDataProvider() const;
+constexpr ::GlobalNamespace::IVariableMovementDataProvider* const& __cordl_internal_get__variableMovementDataProvider() const;
 
-  constexpr ::GlobalNamespace::IVariableMovementDataProvider*& __cordl_internal_get__variableMovementDataProvider();
+constexpr ::GlobalNamespace::IVariableMovementDataProvider*& __cordl_internal_get__variableMovementDataProvider() ;
 
-  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get__worldRotation() const;
+constexpr ::UnityEngine::Quaternion const& __cordl_internal_get__worldRotation() const;
 
-  constexpr ::UnityEngine::Quaternion& __cordl_internal_get__worldRotation();
+constexpr ::UnityEngine::Quaternion& __cordl_internal_get__worldRotation() ;
 
-  constexpr ::System::Action* const& __cordl_internal_get_headDidMovePastCutMarkEvent() const;
+constexpr ::System::Action* const& __cordl_internal_get_headDidMovePastCutMarkEvent() const;
 
-  constexpr ::System::Action*& __cordl_internal_get_headDidMovePastCutMarkEvent();
+constexpr ::System::Action*& __cordl_internal_get_headDidMovePastCutMarkEvent() ;
 
-  constexpr ::System::Action* const& __cordl_internal_get_movementDidFinishEvent() const;
+constexpr ::System::Action* const& __cordl_internal_get_movementDidFinishEvent() const;
 
-  constexpr ::System::Action*& __cordl_internal_get_movementDidFinishEvent();
+constexpr ::System::Action*& __cordl_internal_get_movementDidFinishEvent() ;
 
-  constexpr ::System::Action_1<float_t>* const& __cordl_internal_get_movementDidMoveEvent() const;
+constexpr ::System::Action_1<float_t>* const& __cordl_internal_get_movementDidMoveEvent() const;
 
-  constexpr ::System::Action_1<float_t>*& __cordl_internal_get_movementDidMoveEvent();
+constexpr ::System::Action_1<float_t>*& __cordl_internal_get_movementDidMoveEvent() ;
 
-  constexpr ::System::Action* const& __cordl_internal_get_tailDidMovePastCutMarkEvent() const;
+constexpr ::System::Action* const& __cordl_internal_get_tailDidMovePastCutMarkEvent() const;
 
-  constexpr ::System::Action*& __cordl_internal_get_tailDidMovePastCutMarkEvent();
+constexpr ::System::Action*& __cordl_internal_get_tailDidMovePastCutMarkEvent() ;
 
-  constexpr void __cordl_internal_set__audioTimeSyncController(::GlobalNamespace::IAudioTimeSource* value);
+constexpr void __cordl_internal_set__audioTimeSyncController(::GlobalNamespace::IAudioTimeSource*  value) ;
 
-  constexpr void __cordl_internal_set__headDidMovePastCutMarkReported(bool value);
+constexpr void __cordl_internal_set__headDidMovePastCutMarkReported(bool  value) ;
 
-  constexpr void __cordl_internal_set__localPosition(::UnityEngine::Vector3 value);
+constexpr void __cordl_internal_set__localPosition(::UnityEngine::Vector3  value) ;
 
-  constexpr void __cordl_internal_set__movementEndReported(bool value);
+constexpr void __cordl_internal_set__movementEndReported(bool  value) ;
 
-  constexpr void __cordl_internal_set__sliderData(::GlobalNamespace::SliderData* value);
+constexpr void __cordl_internal_set__sliderData(::GlobalNamespace::SliderData*  value) ;
 
-  constexpr void __cordl_internal_set__sliderSpawnData(::GlobalNamespace::SliderSpawnData value);
+constexpr void __cordl_internal_set__sliderSpawnData(::GlobalNamespace::SliderSpawnData  value) ;
 
-  constexpr void __cordl_internal_set__tailDidMovePastCutMarkReported(bool value);
+constexpr void __cordl_internal_set__tailDidMovePastCutMarkReported(bool  value) ;
 
-  constexpr void __cordl_internal_set__timeSinceHeadNoteJump(float_t value);
+constexpr void __cordl_internal_set__timeSinceHeadNoteJump(float_t  value) ;
 
-  constexpr void __cordl_internal_set__transform(::UnityW<::UnityEngine::Transform> value);
+constexpr void __cordl_internal_set__transform(::UnityW<::UnityEngine::Transform>  value) ;
 
-  constexpr void __cordl_internal_set__variableMovementDataProvider(::GlobalNamespace::IVariableMovementDataProvider* value);
+constexpr void __cordl_internal_set__variableMovementDataProvider(::GlobalNamespace::IVariableMovementDataProvider*  value) ;
 
-  constexpr void __cordl_internal_set__worldRotation(::UnityEngine::Quaternion value);
+constexpr void __cordl_internal_set__worldRotation(::UnityEngine::Quaternion  value) ;
 
-  constexpr void __cordl_internal_set_headDidMovePastCutMarkEvent(::System::Action* value);
+constexpr void __cordl_internal_set_headDidMovePastCutMarkEvent(::System::Action*  value) ;
 
-  constexpr void __cordl_internal_set_movementDidFinishEvent(::System::Action* value);
+constexpr void __cordl_internal_set_movementDidFinishEvent(::System::Action*  value) ;
 
-  constexpr void __cordl_internal_set_movementDidMoveEvent(::System::Action_1<float_t>* value);
+constexpr void __cordl_internal_set_movementDidMoveEvent(::System::Action_1<float_t>*  value) ;
 
-  constexpr void __cordl_internal_set_tailDidMovePastCutMarkEvent(::System::Action* value);
+constexpr void __cordl_internal_set_tailDidMovePastCutMarkEvent(::System::Action*  value) ;
 
-  /// @brief Method .ctor, addr 0x57ce1d8, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x57ceb08, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method add_headDidMovePastCutMarkEvent, addr 0x57c9ac4, size 0xac, virtual false, abstract: false, final false
-  inline void add_headDidMovePastCutMarkEvent(::System::Action* value);
+/// @brief Method add_headDidMovePastCutMarkEvent, addr 0x57ca3f4, size 0xac, virtual false, abstract: false, final false
+inline void add_headDidMovePastCutMarkEvent(::System::Action*  value) ;
 
-  /// @brief Method add_movementDidFinishEvent, addr 0x57c9a18, size 0xac, virtual false, abstract: false, final false
-  inline void add_movementDidFinishEvent(::System::Action* value);
+/// @brief Method add_movementDidFinishEvent, addr 0x57ca348, size 0xac, virtual false, abstract: false, final false
+inline void add_movementDidFinishEvent(::System::Action*  value) ;
 
-  /// @brief Method add_movementDidMoveEvent, addr 0x57ce050, size 0xc0, virtual false, abstract: false, final false
-  inline void add_movementDidMoveEvent(::System::Action_1<float_t>* value);
+/// @brief Method add_movementDidMoveEvent, addr 0x57ce980, size 0xc0, virtual false, abstract: false, final false
+inline void add_movementDidMoveEvent(::System::Action_1<float_t>*  value) ;
 
-  /// @brief Method add_tailDidMovePastCutMarkEvent, addr 0x57c9b70, size 0xac, virtual false, abstract: false, final false
-  inline void add_tailDidMovePastCutMarkEvent(::System::Action* value);
+/// @brief Method add_tailDidMovePastCutMarkEvent, addr 0x57ca4a0, size 0xac, virtual false, abstract: false, final false
+inline void add_tailDidMovePastCutMarkEvent(::System::Action*  value) ;
 
-  /// @brief Method get_timeSinceHeadNoteJump, addr 0x57ce1d0, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_timeSinceHeadNoteJump();
+/// @brief Method get_timeSinceHeadNoteJump, addr 0x57ceb00, size 0x8, virtual false, abstract: false, final false
+inline float_t get_timeSinceHeadNoteJump() ;
 
-  /// @brief Method remove_headDidMovePastCutMarkEvent, addr 0x57ca26c, size 0xac, virtual false, abstract: false, final false
-  inline void remove_headDidMovePastCutMarkEvent(::System::Action* value);
+/// @brief Method remove_headDidMovePastCutMarkEvent, addr 0x57cab9c, size 0xac, virtual false, abstract: false, final false
+inline void remove_headDidMovePastCutMarkEvent(::System::Action*  value) ;
 
-  /// @brief Method remove_movementDidFinishEvent, addr 0x57ca1c0, size 0xac, virtual false, abstract: false, final false
-  inline void remove_movementDidFinishEvent(::System::Action* value);
+/// @brief Method remove_movementDidFinishEvent, addr 0x57caaf0, size 0xac, virtual false, abstract: false, final false
+inline void remove_movementDidFinishEvent(::System::Action*  value) ;
 
-  /// @brief Method remove_movementDidMoveEvent, addr 0x57ce110, size 0xc0, virtual false, abstract: false, final false
-  inline void remove_movementDidMoveEvent(::System::Action_1<float_t>* value);
+/// @brief Method remove_movementDidMoveEvent, addr 0x57cea40, size 0xc0, virtual false, abstract: false, final false
+inline void remove_movementDidMoveEvent(::System::Action_1<float_t>*  value) ;
 
-  /// @brief Method remove_tailDidMovePastCutMarkEvent, addr 0x57ca318, size 0xac, virtual false, abstract: false, final false
-  inline void remove_tailDidMovePastCutMarkEvent(::System::Action* value);
+/// @brief Method remove_tailDidMovePastCutMarkEvent, addr 0x57cac48, size 0xac, virtual false, abstract: false, final false
+inline void remove_tailDidMovePastCutMarkEvent(::System::Action*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SliderMovement();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr SliderMovement() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SliderMovement", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  SliderMovement(SliderMovement&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SliderMovement", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  SliderMovement(SliderMovement const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "SliderMovement", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+SliderMovement(SliderMovement && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5743 };
+// Ctor Parameters [CppParam { name: "", ty: "SliderMovement", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+SliderMovement(SliderMovement const& ) = delete;
 
-  /// @brief Field _audioTimeSyncController, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::IAudioTimeSource* ____audioTimeSyncController;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{5743};
 
-  /// @brief Field _variableMovementDataProvider, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::IVariableMovementDataProvider* ____variableMovementDataProvider;
+/// @brief Field _audioTimeSyncController, offset: 0x20, size: 0x8, def value: None
+ ::GlobalNamespace::IAudioTimeSource*  ____audioTimeSyncController;
 
-  /// @brief Field movementDidFinishEvent, offset: 0x30, size: 0x8, def value: None
-  ::System::Action* ___movementDidFinishEvent;
+/// @brief Field _variableMovementDataProvider, offset: 0x28, size: 0x8, def value: None
+ ::GlobalNamespace::IVariableMovementDataProvider*  ____variableMovementDataProvider;
 
-  /// @brief Field movementDidMoveEvent, offset: 0x38, size: 0x8, def value: None
-  ::System::Action_1<float_t>* ___movementDidMoveEvent;
+/// @brief Field movementDidFinishEvent, offset: 0x30, size: 0x8, def value: None
+ ::System::Action*  ___movementDidFinishEvent;
 
-  /// @brief Field headDidMovePastCutMarkEvent, offset: 0x40, size: 0x8, def value: None
-  ::System::Action* ___headDidMovePastCutMarkEvent;
+/// @brief Field movementDidMoveEvent, offset: 0x38, size: 0x8, def value: None
+ ::System::Action_1<float_t>*  ___movementDidMoveEvent;
 
-  /// @brief Field tailDidMovePastCutMarkEvent, offset: 0x48, size: 0x8, def value: None
-  ::System::Action* ___tailDidMovePastCutMarkEvent;
+/// @brief Field headDidMovePastCutMarkEvent, offset: 0x40, size: 0x8, def value: None
+ ::System::Action*  ___headDidMovePastCutMarkEvent;
 
-  /// @brief Field _localPosition, offset: 0x50, size: 0xc, def value: None
-  ::UnityEngine::Vector3 ____localPosition;
+/// @brief Field tailDidMovePastCutMarkEvent, offset: 0x48, size: 0x8, def value: None
+ ::System::Action*  ___tailDidMovePastCutMarkEvent;
 
-  /// @brief Field _worldRotation, offset: 0x5c, size: 0x10, def value: None
-  ::UnityEngine::Quaternion ____worldRotation;
+/// @brief Field _localPosition, offset: 0x50, size: 0xc, def value: None
+ ::UnityEngine::Vector3  ____localPosition;
 
-  /// @brief Field _sliderData, offset: 0x70, size: 0x8, def value: None
-  ::GlobalNamespace::SliderData* ____sliderData;
+/// @brief Field _worldRotation, offset: 0x5c, size: 0x10, def value: None
+ ::UnityEngine::Quaternion  ____worldRotation;
 
-  /// @brief Field _sliderSpawnData, offset: 0x78, size: 0x20, def value: None
-  ::GlobalNamespace::SliderSpawnData ____sliderSpawnData;
+/// @brief Field _sliderData, offset: 0x70, size: 0x8, def value: None
+ ::GlobalNamespace::SliderData*  ____sliderData;
 
-  /// @brief Field _transform, offset: 0x98, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::Transform> ____transform;
+/// @brief Field _sliderSpawnData, offset: 0x78, size: 0x20, def value: None
+ ::GlobalNamespace::SliderSpawnData  ____sliderSpawnData;
 
-  /// @brief Field _movementEndReported, offset: 0xa0, size: 0x1, def value: None
-  bool ____movementEndReported;
+/// @brief Field _transform, offset: 0x98, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::Transform>  ____transform;
 
-  /// @brief Field _headDidMovePastCutMarkReported, offset: 0xa1, size: 0x1, def value: None
-  bool ____headDidMovePastCutMarkReported;
+/// @brief Field _movementEndReported, offset: 0xa0, size: 0x1, def value: None
+ bool  ____movementEndReported;
 
-  /// @brief Field _tailDidMovePastCutMarkReported, offset: 0xa2, size: 0x1, def value: None
-  bool ____tailDidMovePastCutMarkReported;
+/// @brief Field _headDidMovePastCutMarkReported, offset: 0xa1, size: 0x1, def value: None
+ bool  ____headDidMovePastCutMarkReported;
 
-  /// @brief Field _timeSinceHeadNoteJump, offset: 0xa4, size: 0x4, def value: None
-  float_t ____timeSinceHeadNoteJump;
+/// @brief Field _tailDidMovePastCutMarkReported, offset: 0xa2, size: 0x1, def value: None
+ bool  ____tailDidMovePastCutMarkReported;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _timeSinceHeadNoteJump, offset: 0xa4, size: 0x4, def value: None
+ float_t  ____timeSinceHeadNoteJump;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::SliderMovement, ____audioTimeSyncController) == 0x20, "Offset mismatch!");
@@ -319,6 +319,6 @@ static_assert(offsetof(::GlobalNamespace::SliderMovement, ____timeSinceHeadNoteJ
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SliderMovement, 0xa8>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SliderMovement);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SliderMovement*, "", "SliderMovement");

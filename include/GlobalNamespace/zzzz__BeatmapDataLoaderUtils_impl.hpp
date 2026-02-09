@@ -7,50 +7,57 @@
 #include "GlobalNamespace/zzzz__IEnvironmentInfo_def.hpp"
 #include "GlobalNamespace/zzzz__IEnvironmentLightGroups_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::BeatmapDataLoaderUtils.GetEnvironmentKeywords
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::GlobalNamespace::EnvironmentKeywords* (*)(::GlobalNamespace::IEnvironmentInfo*, ::GlobalNamespace::BeatmapLevelDataVersion)>(
-        &::GlobalNamespace::BeatmapDataLoaderUtils::GetEnvironmentKeywords)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::EnvironmentKeywords* (*)(::GlobalNamespace::IEnvironmentInfo*, ::GlobalNamespace::BeatmapLevelDataVersion)>(&::GlobalNamespace::BeatmapDataLoaderUtils::GetEnvironmentKeywords)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x36159f8;
+  constexpr static std::size_t addrs = 0x3615948;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapDataLoaderUtils*>::get(), "GetEnvironmentKeywords", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IEnvironmentInfo*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapLevelDataVersion>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapDataLoaderUtils*>::get(),
+                        "GetEnvironmentKeywords",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IEnvironmentInfo*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapLevelDataVersion>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::BeatmapDataLoaderUtils.GetEnvironmentLightGroups
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::IEnvironmentLightGroups* (*)(::GlobalNamespace::IEnvironmentInfo*)>(
-    &::GlobalNamespace::BeatmapDataLoaderUtils::GetEnvironmentLightGroups)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::IEnvironmentLightGroups* (*)(::GlobalNamespace::IEnvironmentInfo*)>(&::GlobalNamespace::BeatmapDataLoaderUtils::GetEnvironmentLightGroups)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x3615b68;
+  constexpr static std::size_t addrs = 0x3615ab8;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapDataLoaderUtils*>::get(), "GetEnvironmentLightGroups", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IEnvironmentInfo*>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapDataLoaderUtils*>::get(),
+                        "GetEnvironmentLightGroups",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IEnvironmentInfo*>::get()}
+                    )));
     return ___internal_method;
   }
 };
-inline ::GlobalNamespace::EnvironmentKeywords* GlobalNamespace::BeatmapDataLoaderUtils::GetEnvironmentKeywords(::GlobalNamespace::IEnvironmentInfo* environmentInfo,
-                                                                                                               ::GlobalNamespace::BeatmapLevelDataVersion beatmapLevelDataVersion) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapDataLoaderUtils*>::get(), "GetEnvironmentKeywords", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IEnvironmentInfo*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapLevelDataVersion>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::EnvironmentKeywords*, false>(nullptr, ___internal_method, environmentInfo, beatmapLevelDataVersion);
+inline ::GlobalNamespace::EnvironmentKeywords* GlobalNamespace::BeatmapDataLoaderUtils::GetEnvironmentKeywords(::GlobalNamespace::IEnvironmentInfo*  environmentInfo, ::GlobalNamespace::BeatmapLevelDataVersion  beatmapLevelDataVersion)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapDataLoaderUtils*>::get(),
+                        "GetEnvironmentKeywords",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IEnvironmentInfo*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapLevelDataVersion>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::EnvironmentKeywords*, false>(nullptr, ___internal_method, environmentInfo, beatmapLevelDataVersion);
 }
-inline ::GlobalNamespace::IEnvironmentLightGroups* GlobalNamespace::BeatmapDataLoaderUtils::GetEnvironmentLightGroups(::GlobalNamespace::IEnvironmentInfo* environmentInfo) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapDataLoaderUtils*>::get(), "GetEnvironmentLightGroups", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IEnvironmentInfo*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::IEnvironmentLightGroups*, false>(nullptr, ___internal_method, environmentInfo);
+inline ::GlobalNamespace::IEnvironmentLightGroups* GlobalNamespace::BeatmapDataLoaderUtils::GetEnvironmentLightGroups(::GlobalNamespace::IEnvironmentInfo*  environmentInfo)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapDataLoaderUtils*>::get(),
+                        "GetEnvironmentLightGroups",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IEnvironmentInfo*>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::IEnvironmentLightGroups*, false>(nullptr, ___internal_method, environmentInfo);
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::BeatmapDataLoaderUtils::BeatmapDataLoaderUtils() {}
+constexpr ::GlobalNamespace::BeatmapDataLoaderUtils::BeatmapDataLoaderUtils()   {
+}

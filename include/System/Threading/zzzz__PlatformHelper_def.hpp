@@ -18,53 +18,53 @@ namespace System::Threading {
 // CS Name: System.Threading.PlatformHelper
 class CORDL_TYPE PlatformHelper : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field IsSingleProcessor, offset 0xffffffff, size 0x1
-  __declspec(property(get = getStaticF_IsSingleProcessor, put = setStaticF_IsSingleProcessor)) bool IsSingleProcessor;
+// Declarations
+/// @brief Field IsSingleProcessor, offset 0xffffffff, size 0x1 
+ __declspec(property(get=getStaticF_IsSingleProcessor, put=setStaticF_IsSingleProcessor)) bool  IsSingleProcessor;
 
-  /// @brief Field s_lastProcessorCountRefreshTicks, offset 0xffffffff, size 0x4
-  __declspec(property(get = getStaticF_s_lastProcessorCountRefreshTicks, put = setStaticF_s_lastProcessorCountRefreshTicks)) int32_t s_lastProcessorCountRefreshTicks;
+/// @brief Field s_lastProcessorCountRefreshTicks, offset 0xffffffff, size 0x4 
+ __declspec(property(get=getStaticF_s_lastProcessorCountRefreshTicks, put=setStaticF_s_lastProcessorCountRefreshTicks)) int32_t  s_lastProcessorCountRefreshTicks;
 
-  /// @brief Field s_processorCount, offset 0xffffffff, size 0x4
-  __declspec(property(get = getStaticF_s_processorCount, put = setStaticF_s_processorCount)) int32_t s_processorCount;
+/// @brief Field s_processorCount, offset 0xffffffff, size 0x4 
+ __declspec(property(get=getStaticF_s_processorCount, put=setStaticF_s_processorCount)) int32_t  s_processorCount;
 
-  static inline bool getStaticF_IsSingleProcessor();
+static inline bool getStaticF_IsSingleProcessor() ;
 
-  static inline int32_t getStaticF_s_lastProcessorCountRefreshTicks();
+static inline int32_t getStaticF_s_lastProcessorCountRefreshTicks() ;
 
-  static inline int32_t getStaticF_s_processorCount();
+static inline int32_t getStaticF_s_processorCount() ;
 
-  /// @brief Method get_ProcessorCount, addr 0x5afb61c, size 0xe4, virtual false, abstract: false, final false
-  static inline int32_t get_ProcessorCount();
+/// @brief Method get_ProcessorCount, addr 0x5afbb28, size 0xe4, virtual false, abstract: false, final false
+static inline int32_t get_ProcessorCount() ;
 
-  static inline void setStaticF_IsSingleProcessor(bool value);
+static inline void setStaticF_IsSingleProcessor(bool  value) ;
 
-  static inline void setStaticF_s_lastProcessorCountRefreshTicks(int32_t value);
+static inline void setStaticF_s_lastProcessorCountRefreshTicks(int32_t  value) ;
 
-  static inline void setStaticF_s_processorCount(int32_t value);
+static inline void setStaticF_s_processorCount(int32_t  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PlatformHelper();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr PlatformHelper() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlatformHelper", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  PlatformHelper(PlatformHelper&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlatformHelper", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  PlatformHelper(PlatformHelper const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "PlatformHelper", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+PlatformHelper(PlatformHelper && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2693 };
+// Ctor Parameters [CppParam { name: "", ty: "PlatformHelper", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+PlatformHelper(PlatformHelper const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{2693};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Threading::PlatformHelper, 0x10>, "Size mismatch!");
 
-} // namespace System::Threading
+} // namespace end def System::Threading
 NEED_NO_BOX(::System::Threading::PlatformHelper);
 DEFINE_IL2CPP_ARG_TYPE(::System::Threading::PlatformHelper*, "System.Threading", "PlatformHelper");

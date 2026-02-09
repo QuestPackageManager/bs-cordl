@@ -24,46 +24,46 @@ namespace Org::BouncyCastle::Crypto::Tls {
 // CS Name: Org.BouncyCastle.Crypto.Tls.TlsSRTPUtils
 class CORDL_TYPE TlsSRTPUtils : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method AddUseSrtpExtension, addr 0x33969ac, size 0xe0, virtual false, abstract: false, final false
-  static inline void AddUseSrtpExtension(::System::Collections::IDictionary* extensions, ::Org::BouncyCastle::Crypto::Tls::UseSrtpData* useSRTPData);
+// Declarations
+/// @brief Method AddUseSrtpExtension, addr 0x33968fc, size 0xe0, virtual false, abstract: false, final false
+static inline void AddUseSrtpExtension(::System::Collections::IDictionary*  extensions, ::Org::BouncyCastle::Crypto::Tls::UseSrtpData*  useSRTPData) ;
 
-  /// @brief Method CreateUseSrtpExtension, addr 0x3396a8c, size 0x120, virtual false, abstract: false, final false
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> CreateUseSrtpExtension(::Org::BouncyCastle::Crypto::Tls::UseSrtpData* useSrtpData);
+/// @brief Method CreateUseSrtpExtension, addr 0x33969dc, size 0x120, virtual false, abstract: false, final false
+static inline ::ArrayW<uint8_t,::Array<uint8_t>*> CreateUseSrtpExtension(::Org::BouncyCastle::Crypto::Tls::UseSrtpData*  useSrtpData) ;
 
-  /// @brief Method GetUseSrtpExtension, addr 0x3396bac, size 0x70, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Crypto::Tls::UseSrtpData* GetUseSrtpExtension(::System::Collections::IDictionary* extensions);
+/// @brief Method GetUseSrtpExtension, addr 0x3396afc, size 0x70, virtual false, abstract: false, final false
+static inline ::Org::BouncyCastle::Crypto::Tls::UseSrtpData* GetUseSrtpExtension(::System::Collections::IDictionary*  extensions) ;
 
-  static inline ::Org::BouncyCastle::Crypto::Tls::TlsSRTPUtils* New_ctor();
+static inline ::Org::BouncyCastle::Crypto::Tls::TlsSRTPUtils* New_ctor() ;
 
-  /// @brief Method ReadUseSrtpExtension, addr 0x3396c1c, size 0x178, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Crypto::Tls::UseSrtpData* ReadUseSrtpExtension(::ArrayW<uint8_t, ::Array<uint8_t>*> extensionData);
+/// @brief Method ReadUseSrtpExtension, addr 0x3396b6c, size 0x178, virtual false, abstract: false, final false
+static inline ::Org::BouncyCastle::Crypto::Tls::UseSrtpData* ReadUseSrtpExtension(::ArrayW<uint8_t,::Array<uint8_t>*>  extensionData) ;
 
-  /// @brief Method .ctor, addr 0x3396f48, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x3396e98, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TlsSRTPUtils();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr TlsSRTPUtils() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TlsSRTPUtils", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  TlsSRTPUtils(TlsSRTPUtils&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TlsSRTPUtils", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  TlsSRTPUtils(TlsSRTPUtils const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "TlsSRTPUtils", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+TlsSRTPUtils(TlsSRTPUtils && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1329 };
+// Ctor Parameters [CppParam { name: "", ty: "TlsSRTPUtils", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+TlsSRTPUtils(TlsSRTPUtils const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{1329};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Tls::TlsSRTPUtils, 0x10>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Crypto::Tls
+} // namespace end def Org::BouncyCastle::Crypto::Tls
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Tls::TlsSRTPUtils);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Tls::TlsSRTPUtils*, "Org.BouncyCastle.Crypto.Tls", "TlsSRTPUtils");

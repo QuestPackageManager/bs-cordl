@@ -12,7 +12,8 @@ namespace GlobalNamespace {
 class BeatmapDataItem;
 }
 namespace System::Collections::Generic {
-template <typename T> class LinkedListNode_1;
+template<typename T>
+class LinkedListNode_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -26,40 +27,40 @@ namespace GlobalNamespace {
 // CS Name: BasicBeatmapEventDataProcessor
 class CORDL_TYPE BasicBeatmapEventDataProcessor : public ::GlobalNamespace::BeatmapEventDataProcessor_1<::GlobalNamespace::BasicBeatmapEventData*> {
 public:
-  // Declarations
-  static inline ::GlobalNamespace::BasicBeatmapEventDataProcessor* New_ctor();
+// Declarations
+static inline ::GlobalNamespace::BasicBeatmapEventDataProcessor* New_ctor() ;
 
-  /// @brief Method ProcessBeforeDeleteEventDataInternal, addr 0x31949a4, size 0x1f0, virtual true, abstract: false, final false
-  inline void ProcessBeforeDeleteEventDataInternal(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>* nodeToDelete);
+/// @brief Method ProcessBeforeDeleteEventDataInternal, addr 0x31948f4, size 0x1f0, virtual true, abstract: false, final false
+inline void ProcessBeforeDeleteEventDataInternal(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>*  nodeToDelete) ;
 
-  /// @brief Method ProcessInsertedEventDataInternal, addr 0x31947c0, size 0x1e4, virtual true, abstract: false, final false
-  inline void ProcessInsertedEventDataInternal(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>* insertedNode);
+/// @brief Method ProcessInsertedEventDataInternal, addr 0x3194710, size 0x1e4, virtual true, abstract: false, final false
+inline void ProcessInsertedEventDataInternal(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>*  insertedNode) ;
 
-  /// @brief Method .ctor, addr 0x3194b94, size 0x3c, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x3194ae4, size 0x3c, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BasicBeatmapEventDataProcessor();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr BasicBeatmapEventDataProcessor() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BasicBeatmapEventDataProcessor", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  BasicBeatmapEventDataProcessor(BasicBeatmapEventDataProcessor&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BasicBeatmapEventDataProcessor", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  BasicBeatmapEventDataProcessor(BasicBeatmapEventDataProcessor const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "BasicBeatmapEventDataProcessor", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+BasicBeatmapEventDataProcessor(BasicBeatmapEventDataProcessor && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21057 };
+// Ctor Parameters [CppParam { name: "", ty: "BasicBeatmapEventDataProcessor", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+BasicBeatmapEventDataProcessor(BasicBeatmapEventDataProcessor const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{21061};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BasicBeatmapEventDataProcessor, 0x10>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BasicBeatmapEventDataProcessor);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BasicBeatmapEventDataProcessor*, "", "BasicBeatmapEventDataProcessor");

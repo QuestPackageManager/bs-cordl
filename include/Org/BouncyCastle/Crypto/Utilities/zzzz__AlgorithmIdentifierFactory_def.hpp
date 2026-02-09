@@ -27,59 +27,58 @@ namespace Org::BouncyCastle::Crypto::Utilities {
 // CS Name: Org.BouncyCastle.Crypto.Utilities.AlgorithmIdentifierFactory
 class CORDL_TYPE AlgorithmIdentifierFactory : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field CAST5_CBC, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_CAST5_CBC, put = setStaticF_CAST5_CBC)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* CAST5_CBC;
+// Declarations
+/// @brief Field CAST5_CBC, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_CAST5_CBC, put=setStaticF_CAST5_CBC)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier*  CAST5_CBC;
 
-  /// @brief Field IDEA_CBC, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_IDEA_CBC, put = setStaticF_IDEA_CBC)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* IDEA_CBC;
+/// @brief Field IDEA_CBC, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_IDEA_CBC, put=setStaticF_IDEA_CBC)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier*  IDEA_CBC;
 
-  /// @brief Field rc2Table, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_rc2Table, put = setStaticF_rc2Table)) ::ArrayW<int16_t, ::Array<int16_t>*> rc2Table;
+/// @brief Field rc2Table, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_rc2Table, put=setStaticF_rc2Table)) ::ArrayW<int16_t,::Array<int16_t>*>  rc2Table;
 
-  /// @brief Method GenerateEncryptionAlgID, addr 0x339dc80, size 0x530, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* GenerateEncryptionAlgID(::Org::BouncyCastle::Asn1::DerObjectIdentifier* encryptionOID, int32_t keySize,
-                                                                                              ::Org::BouncyCastle::Security::SecureRandom* random);
+/// @brief Method GenerateEncryptionAlgID, addr 0x339dbd0, size 0x530, virtual false, abstract: false, final false
+static inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* GenerateEncryptionAlgID(::Org::BouncyCastle::Asn1::DerObjectIdentifier*  encryptionOID, int32_t  keySize, ::Org::BouncyCastle::Security::SecureRandom*  random) ;
 
-  static inline ::Org::BouncyCastle::Crypto::Utilities::AlgorithmIdentifierFactory* New_ctor();
+static inline ::Org::BouncyCastle::Crypto::Utilities::AlgorithmIdentifierFactory* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x339e2d8, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x339e228, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_CAST5_CBC();
+static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_CAST5_CBC() ;
 
-  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_IDEA_CBC();
+static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_IDEA_CBC() ;
 
-  static inline ::ArrayW<int16_t, ::Array<int16_t>*> getStaticF_rc2Table();
+static inline ::ArrayW<int16_t,::Array<int16_t>*> getStaticF_rc2Table() ;
 
-  static inline void setStaticF_CAST5_CBC(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+static inline void setStaticF_CAST5_CBC(::Org::BouncyCastle::Asn1::DerObjectIdentifier*  value) ;
 
-  static inline void setStaticF_IDEA_CBC(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+static inline void setStaticF_IDEA_CBC(::Org::BouncyCastle::Asn1::DerObjectIdentifier*  value) ;
 
-  static inline void setStaticF_rc2Table(::ArrayW<int16_t, ::Array<int16_t>*> value);
+static inline void setStaticF_rc2Table(::ArrayW<int16_t,::Array<int16_t>*>  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AlgorithmIdentifierFactory();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr AlgorithmIdentifierFactory() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AlgorithmIdentifierFactory", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  AlgorithmIdentifierFactory(AlgorithmIdentifierFactory&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AlgorithmIdentifierFactory", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  AlgorithmIdentifierFactory(AlgorithmIdentifierFactory const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "AlgorithmIdentifierFactory", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+AlgorithmIdentifierFactory(AlgorithmIdentifierFactory && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1336 };
+// Ctor Parameters [CppParam { name: "", ty: "AlgorithmIdentifierFactory", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+AlgorithmIdentifierFactory(AlgorithmIdentifierFactory const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{1336};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Utilities::AlgorithmIdentifierFactory, 0x10>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Crypto::Utilities
+} // namespace end def Org::BouncyCastle::Crypto::Utilities
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Utilities::AlgorithmIdentifierFactory);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Utilities::AlgorithmIdentifierFactory*, "Org.BouncyCastle.Crypto.Utilities", "AlgorithmIdentifierFactory");

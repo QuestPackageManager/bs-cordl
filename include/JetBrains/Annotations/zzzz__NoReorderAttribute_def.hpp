@@ -17,34 +17,34 @@ namespace JetBrains::Annotations {
 // CS Name: JetBrains.Annotations.NoReorderAttribute
 class CORDL_TYPE NoReorderAttribute : public ::System::Attribute {
 public:
-  // Declarations
-  static inline ::JetBrains::Annotations::NoReorderAttribute* New_ctor();
+// Declarations
+static inline ::JetBrains::Annotations::NoReorderAttribute* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x6c724ec, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6c72bac, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NoReorderAttribute();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr NoReorderAttribute() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NoReorderAttribute", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  NoReorderAttribute(NoReorderAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NoReorderAttribute", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  NoReorderAttribute(NoReorderAttribute const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "NoReorderAttribute", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+NoReorderAttribute(NoReorderAttribute && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22323 };
+// Ctor Parameters [CppParam { name: "", ty: "NoReorderAttribute", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+NoReorderAttribute(NoReorderAttribute const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{22327};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::JetBrains::Annotations::NoReorderAttribute, 0x10>, "Size mismatch!");
 
-} // namespace JetBrains::Annotations
+} // namespace end def JetBrains::Annotations
 NEED_NO_BOX(::JetBrains::Annotations::NoReorderAttribute);
 DEFINE_IL2CPP_ARG_TYPE(::JetBrains::Annotations::NoReorderAttribute*, "JetBrains.Annotations", "NoReorderAttribute");

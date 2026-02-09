@@ -27,73 +27,73 @@ namespace HMUI {
 // CS Name: HMUI.IconAndTextSegmentedControlCell
 class CORDL_TYPE IconAndTextSegmentedControlCell : public ::HMUI::SegmentedControlCell {
 public:
-  // Declarations
-  /// @brief Field _icon, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get__icon, put = __cordl_internal_set__icon)) ::UnityW<::UnityEngine::UI::Image> _icon;
+// Declarations
+/// @brief Field _icon, offset 0x70, size 0x8 
+ __declspec(property(get=__cordl_internal_get__icon, put=__cordl_internal_set__icon)) ::UnityW<::UnityEngine::UI::Image>  _icon;
 
-  /// @brief Field _text, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get__text, put = __cordl_internal_set__text)) ::UnityW<::TMPro::TextMeshProUGUI> _text;
+/// @brief Field _text, offset 0x78, size 0x8 
+ __declspec(property(get=__cordl_internal_get__text, put=__cordl_internal_set__text)) ::UnityW<::TMPro::TextMeshProUGUI>  _text;
 
-  __declspec(property(get = get_sprite, put = set_sprite)) ::UnityW<::UnityEngine::Sprite> sprite;
+ __declspec(property(get=get_sprite, put=set_sprite)) ::UnityW<::UnityEngine::Sprite>  sprite;
 
-  __declspec(property(get = get_text, put = set_text)) ::StringW text;
+ __declspec(property(get=get_text, put=set_text)) ::StringW  text;
 
-  static inline ::HMUI::IconAndTextSegmentedControlCell* New_ctor();
+static inline ::HMUI::IconAndTextSegmentedControlCell* New_ctor() ;
 
-  /// @brief Method SetTextActive, addr 0x5da12e0, size 0x30, virtual false, abstract: false, final false
-  inline void SetTextActive(bool active);
+/// @brief Method SetTextActive, addr 0x5da19a0, size 0x30, virtual false, abstract: false, final false
+inline void SetTextActive(bool  active) ;
 
-  constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__icon() const;
+constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__icon() const;
 
-  constexpr ::UnityW<::UnityEngine::UI::Image>& __cordl_internal_get__icon();
+constexpr ::UnityW<::UnityEngine::UI::Image>& __cordl_internal_get__icon() ;
 
-  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__text() const;
+constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__text() const;
 
-  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__text();
+constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__text() ;
 
-  constexpr void __cordl_internal_set__icon(::UnityW<::UnityEngine::UI::Image> value);
+constexpr void __cordl_internal_set__icon(::UnityW<::UnityEngine::UI::Image>  value) ;
 
-  constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshProUGUI> value);
+constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshProUGUI>  value) ;
 
-  /// @brief Method .ctor, addr 0x5da1594, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5da1c54, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_sprite, addr 0x5da155c, size 0x18, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::Sprite> get_sprite();
+/// @brief Method get_sprite, addr 0x5da1c1c, size 0x18, virtual false, abstract: false, final false
+inline ::UnityW<::UnityEngine::Sprite> get_sprite() ;
 
-  /// @brief Method get_text, addr 0x5da1574, size 0x20, virtual false, abstract: false, final false
-  inline ::StringW get_text();
+/// @brief Method get_text, addr 0x5da1c34, size 0x20, virtual false, abstract: false, final false
+inline ::StringW get_text() ;
 
-  /// @brief Method set_sprite, addr 0x5da0fa4, size 0x18, virtual false, abstract: false, final false
-  inline void set_sprite(::UnityEngine::Sprite* value);
+/// @brief Method set_sprite, addr 0x5da1664, size 0x18, virtual false, abstract: false, final false
+inline void set_sprite(::UnityEngine::Sprite*  value) ;
 
-  /// @brief Method set_text, addr 0x5da0fbc, size 0x20, virtual false, abstract: false, final false
-  inline void set_text(::StringW value);
+/// @brief Method set_text, addr 0x5da167c, size 0x20, virtual false, abstract: false, final false
+inline void set_text(::StringW  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr IconAndTextSegmentedControlCell();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr IconAndTextSegmentedControlCell() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IconAndTextSegmentedControlCell", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IconAndTextSegmentedControlCell(IconAndTextSegmentedControlCell&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IconAndTextSegmentedControlCell", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  IconAndTextSegmentedControlCell(IconAndTextSegmentedControlCell const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "IconAndTextSegmentedControlCell", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+IconAndTextSegmentedControlCell(IconAndTextSegmentedControlCell && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22719 };
+// Ctor Parameters [CppParam { name: "", ty: "IconAndTextSegmentedControlCell", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+IconAndTextSegmentedControlCell(IconAndTextSegmentedControlCell const& ) = delete;
 
-  /// @brief Field _icon, offset: 0x70, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::UI::Image> ____icon;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{22723};
 
-  /// @brief Field _text, offset: 0x78, size: 0x8, def value: None
-  ::UnityW<::TMPro::TextMeshProUGUI> ____text;
+/// @brief Field _icon, offset: 0x70, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::UI::Image>  ____icon;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _text, offset: 0x78, size: 0x8, def value: None
+ ::UnityW<::TMPro::TextMeshProUGUI>  ____text;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::HMUI::IconAndTextSegmentedControlCell, ____icon) == 0x70, "Offset mismatch!");
@@ -102,6 +102,6 @@ static_assert(offsetof(::HMUI::IconAndTextSegmentedControlCell, ____text) == 0x7
 
 static_assert(::cordl_internals::size_check_v<::HMUI::IconAndTextSegmentedControlCell, 0x80>, "Size mismatch!");
 
-} // namespace HMUI
+} // namespace end def HMUI
 NEED_NO_BOX(::HMUI::IconAndTextSegmentedControlCell);
 DEFINE_IL2CPP_ARG_TYPE(::HMUI::IconAndTextSegmentedControlCell*, "HMUI", "IconAndTextSegmentedControlCell");

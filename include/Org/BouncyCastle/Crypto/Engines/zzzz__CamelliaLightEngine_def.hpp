@@ -25,198 +25,198 @@ namespace Org::BouncyCastle::Crypto::Engines {
 // CS Name: Org.BouncyCastle.Crypto.Engines.CamelliaLightEngine
 class CORDL_TYPE CamelliaLightEngine : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(get = get_AlgorithmName)) ::StringW AlgorithmName;
+// Declarations
+ __declspec(property(get=get_AlgorithmName)) ::StringW  AlgorithmName;
 
-  __declspec(property(get = get_IsPartialBlockOkay)) bool IsPartialBlockOkay;
+ __declspec(property(get=get_IsPartialBlockOkay)) bool  IsPartialBlockOkay;
 
-  /// @brief Field SBOX1, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_SBOX1, put = setStaticF_SBOX1)) ::ArrayW<uint8_t, ::Array<uint8_t>*> SBOX1;
+/// @brief Field SBOX1, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_SBOX1, put=setStaticF_SBOX1)) ::ArrayW<uint8_t,::Array<uint8_t>*>  SBOX1;
 
-  /// @brief Field SIGMA, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_SIGMA, put = setStaticF_SIGMA)) ::ArrayW<uint32_t, ::Array<uint32_t>*> SIGMA;
+/// @brief Field SIGMA, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_SIGMA, put=setStaticF_SIGMA)) ::ArrayW<uint32_t,::Array<uint32_t>*>  SIGMA;
 
-  /// @brief Field _keyis128, offset 0x11, size 0x1
-  __declspec(property(get = __cordl_internal_get__keyis128, put = __cordl_internal_set__keyis128)) bool _keyis128;
+/// @brief Field _keyis128, offset 0x11, size 0x1 
+ __declspec(property(get=__cordl_internal_get__keyis128, put=__cordl_internal_set__keyis128)) bool  _keyis128;
 
-  /// @brief Field initialised, offset 0x10, size 0x1
-  __declspec(property(get = __cordl_internal_get_initialised, put = __cordl_internal_set_initialised)) bool initialised;
+/// @brief Field initialised, offset 0x10, size 0x1 
+ __declspec(property(get=__cordl_internal_get_initialised, put=__cordl_internal_set_initialised)) bool  initialised;
 
-  /// @brief Field ke, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_ke, put = __cordl_internal_set_ke)) ::ArrayW<uint32_t, ::Array<uint32_t>*> ke;
+/// @brief Field ke, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get_ke, put=__cordl_internal_set_ke)) ::ArrayW<uint32_t,::Array<uint32_t>*>  ke;
 
-  /// @brief Field kw, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_kw, put = __cordl_internal_set_kw)) ::ArrayW<uint32_t, ::Array<uint32_t>*> kw;
+/// @brief Field kw, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get_kw, put=__cordl_internal_set_kw)) ::ArrayW<uint32_t,::Array<uint32_t>*>  kw;
 
-  /// @brief Field state, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_state, put = __cordl_internal_set_state)) ::ArrayW<uint32_t, ::Array<uint32_t>*> state;
+/// @brief Field state, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get_state, put=__cordl_internal_set_state)) ::ArrayW<uint32_t,::Array<uint32_t>*>  state;
 
-  /// @brief Field subkey, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_subkey, put = __cordl_internal_set_subkey)) ::ArrayW<uint32_t, ::Array<uint32_t>*> subkey;
+/// @brief Field subkey, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_subkey, put=__cordl_internal_set_subkey)) ::ArrayW<uint32_t,::Array<uint32_t>*>  subkey;
 
-  /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IBlockCipher"
-  constexpr operator ::Org::BouncyCastle::Crypto::IBlockCipher*() noexcept;
+/// @brief Convert operator to "::Org::BouncyCastle::Crypto::IBlockCipher"
+constexpr operator  ::Org::BouncyCastle::Crypto::IBlockCipher*() noexcept;
 
-  /// @brief Method GetBlockSize, addr 0x32a72a4, size 0x8, virtual true, abstract: false, final false
-  inline int32_t GetBlockSize();
+/// @brief Method GetBlockSize, addr 0x32a71f4, size 0x8, virtual true, abstract: false, final false
+inline int32_t GetBlockSize() ;
 
-  /// @brief Method Init, addr 0x32a72ac, size 0xf0, virtual true, abstract: false, final false
-  inline void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
+/// @brief Method Init, addr 0x32a71fc, size 0xf0, virtual true, abstract: false, final false
+inline void Init(bool  forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters*  parameters) ;
 
-  static inline ::Org::BouncyCastle::Crypto::Engines::CamelliaLightEngine* New_ctor();
+static inline ::Org::BouncyCastle::Crypto::Engines::CamelliaLightEngine* New_ctor() ;
 
-  /// @brief Method ProcessBlock, addr 0x32a739c, size 0x13c, virtual true, abstract: false, final false
-  inline int32_t ProcessBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
+/// @brief Method ProcessBlock, addr 0x32a72ec, size 0x13c, virtual true, abstract: false, final false
+inline int32_t ProcessBlock(::ArrayW<uint8_t,::Array<uint8_t>*>  input, int32_t  inOff, ::ArrayW<uint8_t,::Array<uint8_t>*>  output, int32_t  outOff) ;
 
-  /// @brief Method Reset, addr 0x32a74d8, size 0x4, virtual true, abstract: false, final false
-  inline void Reset();
+/// @brief Method Reset, addr 0x32a7428, size 0x4, virtual true, abstract: false, final false
+inline void Reset() ;
 
-  constexpr bool const& __cordl_internal_get__keyis128() const;
+constexpr bool const& __cordl_internal_get__keyis128() const;
 
-  constexpr bool& __cordl_internal_get__keyis128();
+constexpr bool& __cordl_internal_get__keyis128() ;
 
-  constexpr bool const& __cordl_internal_get_initialised() const;
+constexpr bool const& __cordl_internal_get_initialised() const;
 
-  constexpr bool& __cordl_internal_get_initialised();
+constexpr bool& __cordl_internal_get_initialised() ;
 
-  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __cordl_internal_get_ke() const;
+constexpr ::ArrayW<uint32_t,::Array<uint32_t>*> const& __cordl_internal_get_ke() const;
 
-  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*>& __cordl_internal_get_ke();
+constexpr ::ArrayW<uint32_t,::Array<uint32_t>*>& __cordl_internal_get_ke() ;
 
-  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __cordl_internal_get_kw() const;
+constexpr ::ArrayW<uint32_t,::Array<uint32_t>*> const& __cordl_internal_get_kw() const;
 
-  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*>& __cordl_internal_get_kw();
+constexpr ::ArrayW<uint32_t,::Array<uint32_t>*>& __cordl_internal_get_kw() ;
 
-  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __cordl_internal_get_state() const;
+constexpr ::ArrayW<uint32_t,::Array<uint32_t>*> const& __cordl_internal_get_state() const;
 
-  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*>& __cordl_internal_get_state();
+constexpr ::ArrayW<uint32_t,::Array<uint32_t>*>& __cordl_internal_get_state() ;
 
-  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __cordl_internal_get_subkey() const;
+constexpr ::ArrayW<uint32_t,::Array<uint32_t>*> const& __cordl_internal_get_subkey() const;
 
-  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*>& __cordl_internal_get_subkey();
+constexpr ::ArrayW<uint32_t,::Array<uint32_t>*>& __cordl_internal_get_subkey() ;
 
-  constexpr void __cordl_internal_set__keyis128(bool value);
+constexpr void __cordl_internal_set__keyis128(bool  value) ;
 
-  constexpr void __cordl_internal_set_initialised(bool value);
+constexpr void __cordl_internal_set_initialised(bool  value) ;
 
-  constexpr void __cordl_internal_set_ke(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
+constexpr void __cordl_internal_set_ke(::ArrayW<uint32_t,::Array<uint32_t>*>  value) ;
 
-  constexpr void __cordl_internal_set_kw(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
+constexpr void __cordl_internal_set_kw(::ArrayW<uint32_t,::Array<uint32_t>*>  value) ;
 
-  constexpr void __cordl_internal_set_state(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
+constexpr void __cordl_internal_set_state(::ArrayW<uint32_t,::Array<uint32_t>*>  value) ;
 
-  constexpr void __cordl_internal_set_subkey(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
+constexpr void __cordl_internal_set_subkey(::ArrayW<uint32_t,::Array<uint32_t>*>  value) ;
 
-  /// @brief Method .ctor, addr 0x32a71c4, size 0x94, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x32a7114, size 0x94, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method bytes2uint, addr 0x32a562c, size 0x58, virtual false, abstract: false, final false
-  static inline uint32_t bytes2uint(::ArrayW<uint8_t, ::Array<uint8_t>*> src, int32_t offset);
+/// @brief Method bytes2uint, addr 0x32a557c, size 0x58, virtual false, abstract: false, final false
+static inline uint32_t bytes2uint(::ArrayW<uint8_t,::Array<uint8_t>*>  src, int32_t  offset) ;
 
-  /// @brief Method camelliaF2, addr 0x32a5888, size 0x2dc, virtual false, abstract: false, final false
-  inline void camelliaF2(::ArrayW<uint32_t, ::Array<uint32_t>*> s, ::ArrayW<uint32_t, ::Array<uint32_t>*> skey, int32_t keyoff);
+/// @brief Method camelliaF2, addr 0x32a57d8, size 0x2dc, virtual false, abstract: false, final false
+inline void camelliaF2(::ArrayW<uint32_t,::Array<uint32_t>*>  s, ::ArrayW<uint32_t,::Array<uint32_t>*>  skey, int32_t  keyoff) ;
 
-  /// @brief Method camelliaFLs, addr 0x32a5b64, size 0x134, virtual false, abstract: false, final false
-  inline void camelliaFLs(::ArrayW<uint32_t, ::Array<uint32_t>*> s, ::ArrayW<uint32_t, ::Array<uint32_t>*> fkey, int32_t keyoff);
+/// @brief Method camelliaFLs, addr 0x32a5ab4, size 0x134, virtual false, abstract: false, final false
+inline void camelliaFLs(::ArrayW<uint32_t,::Array<uint32_t>*>  s, ::ArrayW<uint32_t,::Array<uint32_t>*>  fkey, int32_t  keyoff) ;
 
-  /// @brief Method decroldq, addr 0x32a52c0, size 0x124, virtual false, abstract: false, final false
-  static inline void decroldq(int32_t rot, ::ArrayW<uint32_t, ::Array<uint32_t>*> ki, int32_t ioff, ::ArrayW<uint32_t, ::Array<uint32_t>*> ko, int32_t ooff);
+/// @brief Method decroldq, addr 0x32a5210, size 0x124, virtual false, abstract: false, final false
+static inline void decroldq(int32_t  rot, ::ArrayW<uint32_t,::Array<uint32_t>*>  ki, int32_t  ioff, ::ArrayW<uint32_t,::Array<uint32_t>*>  ko, int32_t  ooff) ;
 
-  /// @brief Method decroldqo32, addr 0x32a5508, size 0x124, virtual false, abstract: false, final false
-  static inline void decroldqo32(int32_t rot, ::ArrayW<uint32_t, ::Array<uint32_t>*> ki, int32_t ioff, ::ArrayW<uint32_t, ::Array<uint32_t>*> ko, int32_t ooff);
+/// @brief Method decroldqo32, addr 0x32a5458, size 0x124, virtual false, abstract: false, final false
+static inline void decroldqo32(int32_t  rot, ::ArrayW<uint32_t,::Array<uint32_t>*>  ki, int32_t  ioff, ::ArrayW<uint32_t,::Array<uint32_t>*>  ko, int32_t  ooff) ;
 
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_SBOX1();
+static inline ::ArrayW<uint8_t,::Array<uint8_t>*> getStaticF_SBOX1() ;
 
-  static inline ::ArrayW<uint32_t, ::Array<uint32_t>*> getStaticF_SIGMA();
+static inline ::ArrayW<uint32_t,::Array<uint32_t>*> getStaticF_SIGMA() ;
 
-  /// @brief Method get_AlgorithmName, addr 0x32a7258, size 0x44, virtual true, abstract: false, final false
-  inline ::StringW get_AlgorithmName();
+/// @brief Method get_AlgorithmName, addr 0x32a71a8, size 0x44, virtual true, abstract: false, final false
+inline ::StringW get_AlgorithmName() ;
 
-  /// @brief Method get_IsPartialBlockOkay, addr 0x32a729c, size 0x8, virtual true, abstract: false, final false
-  inline bool get_IsPartialBlockOkay();
+/// @brief Method get_IsPartialBlockOkay, addr 0x32a71ec, size 0x8, virtual true, abstract: false, final false
+inline bool get_IsPartialBlockOkay() ;
 
-  /// @brief Convert to "::Org::BouncyCastle::Crypto::IBlockCipher"
-  constexpr ::Org::BouncyCastle::Crypto::IBlockCipher* i___Org__BouncyCastle__Crypto__IBlockCipher() noexcept;
+/// @brief Convert to "::Org::BouncyCastle::Crypto::IBlockCipher"
+constexpr ::Org::BouncyCastle::Crypto::IBlockCipher* i___Org__BouncyCastle__Crypto__IBlockCipher() noexcept;
 
-  /// @brief Method lRot8, addr 0x32a56cc, size 0x1c, virtual false, abstract: false, final false
-  inline uint8_t lRot8(uint8_t v, int32_t rot);
+/// @brief Method lRot8, addr 0x32a561c, size 0x1c, virtual false, abstract: false, final false
+inline uint8_t lRot8(uint8_t  v, int32_t  rot) ;
 
-  /// @brief Method leftRotate, addr 0x32a5188, size 0x14, virtual false, abstract: false, final false
-  static inline uint32_t leftRotate(uint32_t x, int32_t s);
+/// @brief Method leftRotate, addr 0x32a50d8, size 0x14, virtual false, abstract: false, final false
+static inline uint32_t leftRotate(uint32_t  x, int32_t  s) ;
 
-  /// @brief Method processBlock128, addr 0x32a6c20, size 0x2b4, virtual false, abstract: false, final false
-  inline int32_t processBlock128(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
+/// @brief Method processBlock128, addr 0x32a6b70, size 0x2b4, virtual false, abstract: false, final false
+inline int32_t processBlock128(::ArrayW<uint8_t,::Array<uint8_t>*>  input, int32_t  inOff, ::ArrayW<uint8_t,::Array<uint8_t>*>  output, int32_t  outOff) ;
 
-  /// @brief Method processBlock192or256, addr 0x32a6ed4, size 0x2f0, virtual false, abstract: false, final false
-  inline int32_t processBlock192or256(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
+/// @brief Method processBlock192or256, addr 0x32a6e24, size 0x2f0, virtual false, abstract: false, final false
+inline int32_t processBlock192or256(::ArrayW<uint8_t,::Array<uint8_t>*>  input, int32_t  inOff, ::ArrayW<uint8_t,::Array<uint8_t>*>  output, int32_t  outOff) ;
 
-  /// @brief Method rightRotate, addr 0x32a5174, size 0x14, virtual false, abstract: false, final false
-  static inline uint32_t rightRotate(uint32_t x, int32_t s);
+/// @brief Method rightRotate, addr 0x32a50c4, size 0x14, virtual false, abstract: false, final false
+static inline uint32_t rightRotate(uint32_t  x, int32_t  s) ;
 
-  /// @brief Method roldq, addr 0x32a519c, size 0x124, virtual false, abstract: false, final false
-  static inline void roldq(int32_t rot, ::ArrayW<uint32_t, ::Array<uint32_t>*> ki, int32_t ioff, ::ArrayW<uint32_t, ::Array<uint32_t>*> ko, int32_t ooff);
+/// @brief Method roldq, addr 0x32a50ec, size 0x124, virtual false, abstract: false, final false
+static inline void roldq(int32_t  rot, ::ArrayW<uint32_t,::Array<uint32_t>*>  ki, int32_t  ioff, ::ArrayW<uint32_t,::Array<uint32_t>*>  ko, int32_t  ooff) ;
 
-  /// @brief Method roldqo32, addr 0x32a53e4, size 0x124, virtual false, abstract: false, final false
-  static inline void roldqo32(int32_t rot, ::ArrayW<uint32_t, ::Array<uint32_t>*> ki, int32_t ioff, ::ArrayW<uint32_t, ::Array<uint32_t>*> ko, int32_t ooff);
+/// @brief Method roldqo32, addr 0x32a5334, size 0x124, virtual false, abstract: false, final false
+static inline void roldqo32(int32_t  rot, ::ArrayW<uint32_t,::Array<uint32_t>*>  ki, int32_t  ioff, ::ArrayW<uint32_t,::Array<uint32_t>*>  ko, int32_t  ooff) ;
 
-  /// @brief Method sbox2, addr 0x32a56e8, size 0x8c, virtual false, abstract: false, final false
-  inline uint32_t sbox2(int32_t x);
+/// @brief Method sbox2, addr 0x32a5638, size 0x8c, virtual false, abstract: false, final false
+inline uint32_t sbox2(int32_t  x) ;
 
-  /// @brief Method sbox3, addr 0x32a5774, size 0x8c, virtual false, abstract: false, final false
-  inline uint32_t sbox3(int32_t x);
+/// @brief Method sbox3, addr 0x32a56c4, size 0x8c, virtual false, abstract: false, final false
+inline uint32_t sbox3(int32_t  x) ;
 
-  /// @brief Method sbox4, addr 0x32a5800, size 0x88, virtual false, abstract: false, final false
-  inline uint32_t sbox4(int32_t x);
+/// @brief Method sbox4, addr 0x32a5750, size 0x88, virtual false, abstract: false, final false
+inline uint32_t sbox4(int32_t  x) ;
 
-  /// @brief Method setKey, addr 0x32a5c98, size 0xf88, virtual false, abstract: false, final false
-  inline void setKey(bool forEncryption, ::ArrayW<uint8_t, ::Array<uint8_t>*> key);
+/// @brief Method setKey, addr 0x32a5be8, size 0xf88, virtual false, abstract: false, final false
+inline void setKey(bool  forEncryption, ::ArrayW<uint8_t,::Array<uint8_t>*>  key) ;
 
-  static inline void setStaticF_SBOX1(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+static inline void setStaticF_SBOX1(::ArrayW<uint8_t,::Array<uint8_t>*>  value) ;
 
-  static inline void setStaticF_SIGMA(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
+static inline void setStaticF_SIGMA(::ArrayW<uint32_t,::Array<uint32_t>*>  value) ;
 
-  /// @brief Method uint2bytes, addr 0x32a5684, size 0x48, virtual false, abstract: false, final false
-  static inline void uint2bytes(uint32_t word, ::ArrayW<uint8_t, ::Array<uint8_t>*> dst, int32_t offset);
+/// @brief Method uint2bytes, addr 0x32a55d4, size 0x48, virtual false, abstract: false, final false
+static inline void uint2bytes(uint32_t  word, ::ArrayW<uint8_t,::Array<uint8_t>*>  dst, int32_t  offset) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CamelliaLightEngine();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr CamelliaLightEngine() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CamelliaLightEngine", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  CamelliaLightEngine(CamelliaLightEngine&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CamelliaLightEngine", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  CamelliaLightEngine(CamelliaLightEngine const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "CamelliaLightEngine", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+CamelliaLightEngine(CamelliaLightEngine && ) = delete;
 
-  /// @brief Field BLOCK_SIZE offset 0xffffffff size 0x4
-  static constexpr int32_t BLOCK_SIZE{ static_cast<int32_t>(0x10) };
+// Ctor Parameters [CppParam { name: "", ty: "CamelliaLightEngine", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+CamelliaLightEngine(CamelliaLightEngine const& ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 831 };
+/// @brief Field BLOCK_SIZE offset 0xffffffff size 0x4
+static constexpr int32_t  BLOCK_SIZE{static_cast<int32_t>(0x10)};
 
-  /// @brief Field initialised, offset: 0x10, size: 0x1, def value: None
-  bool ___initialised;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{831};
 
-  /// @brief Field _keyis128, offset: 0x11, size: 0x1, def value: None
-  bool ____keyis128;
+/// @brief Field initialised, offset: 0x10, size: 0x1, def value: None
+ bool  ___initialised;
 
-  /// @brief Field subkey, offset: 0x18, size: 0x8, def value: None
-  ::ArrayW<uint32_t, ::Array<uint32_t>*> ___subkey;
+/// @brief Field _keyis128, offset: 0x11, size: 0x1, def value: None
+ bool  ____keyis128;
 
-  /// @brief Field kw, offset: 0x20, size: 0x8, def value: None
-  ::ArrayW<uint32_t, ::Array<uint32_t>*> ___kw;
+/// @brief Field subkey, offset: 0x18, size: 0x8, def value: None
+ ::ArrayW<uint32_t,::Array<uint32_t>*>  ___subkey;
 
-  /// @brief Field ke, offset: 0x28, size: 0x8, def value: None
-  ::ArrayW<uint32_t, ::Array<uint32_t>*> ___ke;
+/// @brief Field kw, offset: 0x20, size: 0x8, def value: None
+ ::ArrayW<uint32_t,::Array<uint32_t>*>  ___kw;
 
-  /// @brief Field state, offset: 0x30, size: 0x8, def value: None
-  ::ArrayW<uint32_t, ::Array<uint32_t>*> ___state;
+/// @brief Field ke, offset: 0x28, size: 0x8, def value: None
+ ::ArrayW<uint32_t,::Array<uint32_t>*>  ___ke;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field state, offset: 0x30, size: 0x8, def value: None
+ ::ArrayW<uint32_t,::Array<uint32_t>*>  ___state;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::CamelliaLightEngine, ___initialised) == 0x10, "Offset mismatch!");
@@ -233,6 +233,6 @@ static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::CamelliaLightEngine
 
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Engines::CamelliaLightEngine, 0x38>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Crypto::Engines
+} // namespace end def Org::BouncyCastle::Crypto::Engines
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Engines::CamelliaLightEngine);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Engines::CamelliaLightEngine*, "Org.BouncyCastle.Crypto.Engines", "CamelliaLightEngine");

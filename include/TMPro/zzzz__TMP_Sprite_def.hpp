@@ -23,90 +23,90 @@ namespace TMPro {
 // CS Name: TMPro.TMP_Sprite
 class CORDL_TYPE TMP_Sprite : public ::TMPro::TMP_TextElement_Legacy {
 public:
-  // Declarations
-  /// @brief Field hashCode, offset 0x40, size 0x4
-  __declspec(property(get = __cordl_internal_get_hashCode, put = __cordl_internal_set_hashCode)) int32_t hashCode;
+// Declarations
+/// @brief Field hashCode, offset 0x40, size 0x4 
+ __declspec(property(get=__cordl_internal_get_hashCode, put=__cordl_internal_set_hashCode)) int32_t  hashCode;
 
-  /// @brief Field name, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_name, put = __cordl_internal_set_name)) ::StringW name;
+/// @brief Field name, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get_name, put=__cordl_internal_set_name)) ::StringW  name;
 
-  /// @brief Field pivot, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_pivot, put = __cordl_internal_set_pivot)) ::UnityEngine::Vector2 pivot;
+/// @brief Field pivot, offset 0x48, size 0x8 
+ __declspec(property(get=__cordl_internal_get_pivot, put=__cordl_internal_set_pivot)) ::UnityEngine::Vector2  pivot;
 
-  /// @brief Field sprite, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_sprite, put = __cordl_internal_set_sprite)) ::UnityW<::UnityEngine::Sprite> sprite;
+/// @brief Field sprite, offset 0x50, size 0x8 
+ __declspec(property(get=__cordl_internal_get_sprite, put=__cordl_internal_set_sprite)) ::UnityW<::UnityEngine::Sprite>  sprite;
 
-  /// @brief Field unicode, offset 0x44, size 0x4
-  __declspec(property(get = __cordl_internal_get_unicode, put = __cordl_internal_set_unicode)) int32_t unicode;
+/// @brief Field unicode, offset 0x44, size 0x4 
+ __declspec(property(get=__cordl_internal_get_unicode, put=__cordl_internal_set_unicode)) int32_t  unicode;
 
-  static inline ::TMPro::TMP_Sprite* New_ctor();
+static inline ::TMPro::TMP_Sprite* New_ctor() ;
 
-  constexpr int32_t const& __cordl_internal_get_hashCode() const;
+constexpr int32_t const& __cordl_internal_get_hashCode() const;
 
-  constexpr int32_t& __cordl_internal_get_hashCode();
+constexpr int32_t& __cordl_internal_get_hashCode() ;
 
-  constexpr ::StringW const& __cordl_internal_get_name() const;
+constexpr ::StringW const& __cordl_internal_get_name() const;
 
-  constexpr ::StringW& __cordl_internal_get_name();
+constexpr ::StringW& __cordl_internal_get_name() ;
 
-  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_pivot() const;
+constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_pivot() const;
 
-  constexpr ::UnityEngine::Vector2& __cordl_internal_get_pivot();
+constexpr ::UnityEngine::Vector2& __cordl_internal_get_pivot() ;
 
-  constexpr ::UnityW<::UnityEngine::Sprite> const& __cordl_internal_get_sprite() const;
+constexpr ::UnityW<::UnityEngine::Sprite> const& __cordl_internal_get_sprite() const;
 
-  constexpr ::UnityW<::UnityEngine::Sprite>& __cordl_internal_get_sprite();
+constexpr ::UnityW<::UnityEngine::Sprite>& __cordl_internal_get_sprite() ;
 
-  constexpr int32_t const& __cordl_internal_get_unicode() const;
+constexpr int32_t const& __cordl_internal_get_unicode() const;
 
-  constexpr int32_t& __cordl_internal_get_unicode();
+constexpr int32_t& __cordl_internal_get_unicode() ;
 
-  constexpr void __cordl_internal_set_hashCode(int32_t value);
+constexpr void __cordl_internal_set_hashCode(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_name(::StringW value);
+constexpr void __cordl_internal_set_name(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_pivot(::UnityEngine::Vector2 value);
+constexpr void __cordl_internal_set_pivot(::UnityEngine::Vector2  value) ;
 
-  constexpr void __cordl_internal_set_sprite(::UnityW<::UnityEngine::Sprite> value);
+constexpr void __cordl_internal_set_sprite(::UnityW<::UnityEngine::Sprite>  value) ;
 
-  constexpr void __cordl_internal_set_unicode(int32_t value);
+constexpr void __cordl_internal_set_unicode(int32_t  value) ;
 
-  /// @brief Method .ctor, addr 0x67e7358, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x67e7a18, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TMP_Sprite();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr TMP_Sprite() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TMP_Sprite", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  TMP_Sprite(TMP_Sprite&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TMP_Sprite", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  TMP_Sprite(TMP_Sprite const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "TMP_Sprite", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+TMP_Sprite(TMP_Sprite && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15946 };
+// Ctor Parameters [CppParam { name: "", ty: "TMP_Sprite", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+TMP_Sprite(TMP_Sprite const& ) = delete;
 
-  /// @brief Field name, offset: 0x38, size: 0x8, def value: None
-  ::StringW ___name;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{15950};
 
-  /// @brief Field hashCode, offset: 0x40, size: 0x4, def value: None
-  int32_t ___hashCode;
+/// @brief Field name, offset: 0x38, size: 0x8, def value: None
+ ::StringW  ___name;
 
-  /// @brief Field unicode, offset: 0x44, size: 0x4, def value: None
-  int32_t ___unicode;
+/// @brief Field hashCode, offset: 0x40, size: 0x4, def value: None
+ int32_t  ___hashCode;
 
-  /// @brief Field pivot, offset: 0x48, size: 0x8, def value: None
-  ::UnityEngine::Vector2 ___pivot;
+/// @brief Field unicode, offset: 0x44, size: 0x4, def value: None
+ int32_t  ___unicode;
 
-  /// @brief Field sprite, offset: 0x50, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::Sprite> ___sprite;
+/// @brief Field pivot, offset: 0x48, size: 0x8, def value: None
+ ::UnityEngine::Vector2  ___pivot;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field sprite, offset: 0x50, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::Sprite>  ___sprite;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::TMPro::TMP_Sprite, ___name) == 0x38, "Offset mismatch!");
@@ -121,6 +121,6 @@ static_assert(offsetof(::TMPro::TMP_Sprite, ___sprite) == 0x50, "Offset mismatch
 
 static_assert(::cordl_internals::size_check_v<::TMPro::TMP_Sprite, 0x58>, "Size mismatch!");
 
-} // namespace TMPro
+} // namespace end def TMPro
 NEED_NO_BOX(::TMPro::TMP_Sprite);
 DEFINE_IL2CPP_ARG_TYPE(::TMPro::TMP_Sprite*, "TMPro", "TMP_Sprite");

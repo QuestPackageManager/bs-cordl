@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "Org/BouncyCastle/Pkcs/AsymmetricKeyEntry.hpp"
 #include "Org/BouncyCastle/Pkcs/EncryptedPrivateKeyInfoFactory.hpp"
@@ -18,5 +18,6 @@ module;
 #include "Org/BouncyCastle/Pkcs/PrivateKeyInfoFactory.hpp"
 #include "Org/BouncyCastle/Pkcs/X509CertificateEntry.hpp"
 #ifdef __cpp_modules
-export module Pkcs;
-#endif
+                    export module Pkcs;
+                    #endif
+                

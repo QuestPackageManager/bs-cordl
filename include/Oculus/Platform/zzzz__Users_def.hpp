@@ -41,7 +41,8 @@ namespace Oculus::Platform::Models {
 class User;
 }
 namespace Oculus::Platform {
-template <typename T> class Request_1;
+template<typename T>
+class Request_1;
 }
 namespace Oculus::Platform {
 class UserOptions;
@@ -58,80 +59,80 @@ namespace Oculus::Platform {
 // CS Name: Oculus.Platform.Users
 class CORDL_TYPE Users : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method Get, addr 0x5c341a0, size 0x168, virtual false, abstract: false, final false
-  static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::User*>* Get(uint64_t userID);
+// Declarations
+/// @brief Method Get, addr 0x5c346ac, size 0x168, virtual false, abstract: false, final false
+static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::User*>* Get(uint64_t  userID) ;
 
-  /// @brief Method GetAccessToken, addr 0x5c34308, size 0x158, virtual false, abstract: false, final false
-  static inline ::Oculus::Platform::Request_1<::StringW>* GetAccessToken();
+/// @brief Method GetAccessToken, addr 0x5c34814, size 0x158, virtual false, abstract: false, final false
+static inline ::Oculus::Platform::Request_1<::StringW>* GetAccessToken() ;
 
-  /// @brief Method GetBlockedUsers, addr 0x5c34460, size 0x158, virtual false, abstract: false, final false
-  static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::BlockedUserList*>* GetBlockedUsers();
+/// @brief Method GetBlockedUsers, addr 0x5c3496c, size 0x158, virtual false, abstract: false, final false
+static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::BlockedUserList*>* GetBlockedUsers() ;
 
-  /// @brief Method GetLinkedAccounts, addr 0x5c345b8, size 0x170, virtual false, abstract: false, final false
-  static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::LinkedAccountList*>* GetLinkedAccounts(::Oculus::Platform::UserOptions* userOptions);
+/// @brief Method GetLinkedAccounts, addr 0x5c34ac4, size 0x170, virtual false, abstract: false, final false
+static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::LinkedAccountList*>* GetLinkedAccounts(::Oculus::Platform::UserOptions*  userOptions) ;
 
-  /// @brief Method GetLoggedInUser, addr 0x5c34734, size 0x158, virtual false, abstract: false, final false
-  static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::User*>* GetLoggedInUser();
+/// @brief Method GetLoggedInUser, addr 0x5c34c40, size 0x158, virtual false, abstract: false, final false
+static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::User*>* GetLoggedInUser() ;
 
-  /// @brief Method GetLoggedInUserFriends, addr 0x5c3488c, size 0x158, virtual false, abstract: false, final false
-  static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::UserList*>* GetLoggedInUserFriends();
+/// @brief Method GetLoggedInUserFriends, addr 0x5c34d98, size 0x158, virtual false, abstract: false, final false
+static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::UserList*>* GetLoggedInUserFriends() ;
 
-  /// @brief Method GetLoggedInUserLocale, addr 0x5c340b8, size 0xe8, virtual false, abstract: false, final false
-  static inline ::StringW GetLoggedInUserLocale();
+/// @brief Method GetLoggedInUserLocale, addr 0x5c345c4, size 0xe8, virtual false, abstract: false, final false
+static inline ::StringW GetLoggedInUserLocale() ;
 
-  /// @brief Method GetLoggedInUserManagedInfo, addr 0x5c349e4, size 0x158, virtual false, abstract: false, final false
-  static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::User*>* GetLoggedInUserManagedInfo();
+/// @brief Method GetLoggedInUserManagedInfo, addr 0x5c34ef0, size 0x158, virtual false, abstract: false, final false
+static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::User*>* GetLoggedInUserManagedInfo() ;
 
-  /// @brief Method GetNextBlockedUserListPage, addr 0x5c3538c, size 0x1f0, virtual false, abstract: false, final false
-  static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::BlockedUserList*>* GetNextBlockedUserListPage(::Oculus::Platform::Models::BlockedUserList* list);
+/// @brief Method GetNextBlockedUserListPage, addr 0x5c35898, size 0x1f0, virtual false, abstract: false, final false
+static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::BlockedUserList*>* GetNextBlockedUserListPage(::Oculus::Platform::Models::BlockedUserList*  list) ;
 
-  /// @brief Method GetNextUserCapabilityListPage, addr 0x5c3576c, size 0x1f0, virtual false, abstract: false, final false
-  static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::UserCapabilityList*>* GetNextUserCapabilityListPage(::Oculus::Platform::Models::UserCapabilityList* list);
+/// @brief Method GetNextUserCapabilityListPage, addr 0x5c35c78, size 0x1f0, virtual false, abstract: false, final false
+static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::UserCapabilityList*>* GetNextUserCapabilityListPage(::Oculus::Platform::Models::UserCapabilityList*  list) ;
 
-  /// @brief Method GetNextUserListPage, addr 0x5c3557c, size 0x1f0, virtual false, abstract: false, final false
-  static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::UserList*>* GetNextUserListPage(::Oculus::Platform::Models::UserList* list);
+/// @brief Method GetNextUserListPage, addr 0x5c35a88, size 0x1f0, virtual false, abstract: false, final false
+static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::UserList*>* GetNextUserListPage(::Oculus::Platform::Models::UserList*  list) ;
 
-  /// @brief Method GetOrgScopedID, addr 0x5c34b3c, size 0x168, virtual false, abstract: false, final false
-  static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::OrgScopedID*>* GetOrgScopedID(uint64_t userID);
+/// @brief Method GetOrgScopedID, addr 0x5c35048, size 0x168, virtual false, abstract: false, final false
+static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::OrgScopedID*>* GetOrgScopedID(uint64_t  userID) ;
 
-  /// @brief Method GetSdkAccounts, addr 0x5c34ca4, size 0x158, virtual false, abstract: false, final false
-  static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::SdkAccountList*>* GetSdkAccounts();
+/// @brief Method GetSdkAccounts, addr 0x5c351b0, size 0x158, virtual false, abstract: false, final false
+static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::SdkAccountList*>* GetSdkAccounts() ;
 
-  /// @brief Method GetUserProof, addr 0x5c34dfc, size 0x158, virtual false, abstract: false, final false
-  static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::UserProof*>* GetUserProof();
+/// @brief Method GetUserProof, addr 0x5c35308, size 0x158, virtual false, abstract: false, final false
+static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::UserProof*>* GetUserProof() ;
 
-  /// @brief Method LaunchBlockFlow, addr 0x5c34f54, size 0x168, virtual false, abstract: false, final false
-  static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::LaunchBlockFlowResult*>* LaunchBlockFlow(uint64_t userID);
+/// @brief Method LaunchBlockFlow, addr 0x5c35460, size 0x168, virtual false, abstract: false, final false
+static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::LaunchBlockFlowResult*>* LaunchBlockFlow(uint64_t  userID) ;
 
-  /// @brief Method LaunchFriendRequestFlow, addr 0x5c350bc, size 0x168, virtual false, abstract: false, final false
-  static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::LaunchFriendRequestFlowResult*>* LaunchFriendRequestFlow(uint64_t userID);
+/// @brief Method LaunchFriendRequestFlow, addr 0x5c355c8, size 0x168, virtual false, abstract: false, final false
+static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::LaunchFriendRequestFlowResult*>* LaunchFriendRequestFlow(uint64_t  userID) ;
 
-  /// @brief Method LaunchUnblockFlow, addr 0x5c35224, size 0x168, virtual false, abstract: false, final false
-  static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::LaunchUnblockFlowResult*>* LaunchUnblockFlow(uint64_t userID);
+/// @brief Method LaunchUnblockFlow, addr 0x5c35730, size 0x168, virtual false, abstract: false, final false
+static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::LaunchUnblockFlowResult*>* LaunchUnblockFlow(uint64_t  userID) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Users();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr Users() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Users", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  Users(Users&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Users", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  Users(Users const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "Users", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+Users(Users && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17917 };
+// Ctor Parameters [CppParam { name: "", ty: "Users", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+Users(Users const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{17921};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Oculus::Platform::Users, 0x10>, "Size mismatch!");
 
-} // namespace Oculus::Platform
+} // namespace end def Oculus::Platform
 NEED_NO_BOX(::Oculus::Platform::Users);
 DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Users*, "Oculus.Platform", "Users");

@@ -28,78 +28,78 @@ namespace System::Linq::Expressions::Interpreter {
 // CS Name: System.Linq.Expressions.Interpreter.NewInstruction
 class CORDL_TYPE NewInstruction : public ::System::Linq::Expressions::Interpreter::Instruction {
 public:
-  // Declarations
-  __declspec(property(get = get_ConsumedStack)) int32_t ConsumedStack;
+// Declarations
+ __declspec(property(get=get_ConsumedStack)) int32_t  ConsumedStack;
 
-  __declspec(property(get = get_InstructionName)) ::StringW InstructionName;
+ __declspec(property(get=get_InstructionName)) ::StringW  InstructionName;
 
-  __declspec(property(get = get_ProducedStack)) int32_t ProducedStack;
+ __declspec(property(get=get_ProducedStack)) int32_t  ProducedStack;
 
-  /// @brief Field _argumentCount, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get__argumentCount, put = __cordl_internal_set__argumentCount)) int32_t _argumentCount;
+/// @brief Field _argumentCount, offset 0x18, size 0x4 
+ __declspec(property(get=__cordl_internal_get__argumentCount, put=__cordl_internal_set__argumentCount)) int32_t  _argumentCount;
 
-  /// @brief Field _constructor, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__constructor, put = __cordl_internal_set__constructor)) ::System::Reflection::ConstructorInfo* _constructor;
+/// @brief Field _constructor, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get__constructor, put=__cordl_internal_set__constructor)) ::System::Reflection::ConstructorInfo*  _constructor;
 
-  /// @brief Method GetArgs, addr 0x5e02730, size 0x184, virtual false, abstract: false, final false
-  inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> GetArgs(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame, int32_t first);
+/// @brief Method GetArgs, addr 0x5e02df0, size 0x184, virtual false, abstract: false, final false
+inline ::ArrayW<::System::Object*,::Array<::System::Object*>*> GetArgs(::System::Linq::Expressions::Interpreter::InterpretedFrame*  frame, int32_t  first) ;
 
-  static inline ::System::Linq::Expressions::Interpreter::NewInstruction* New_ctor(::System::Reflection::ConstructorInfo* constructor, int32_t argumentCount);
+static inline ::System::Linq::Expressions::Interpreter::NewInstruction* New_ctor(::System::Reflection::ConstructorInfo*  constructor, int32_t  argumentCount) ;
 
-  /// @brief Method Run, addr 0x5e025ec, size 0x144, virtual true, abstract: false, final false
-  inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
+/// @brief Method Run, addr 0x5e02cac, size 0x144, virtual true, abstract: false, final false
+inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame*  frame) ;
 
-  /// @brief Method ToString, addr 0x5e028b4, size 0x138, virtual true, abstract: false, final false
-  inline ::StringW ToString();
+/// @brief Method ToString, addr 0x5e02f74, size 0x138, virtual true, abstract: false, final false
+inline ::StringW ToString() ;
 
-  constexpr int32_t const& __cordl_internal_get__argumentCount() const;
+constexpr int32_t const& __cordl_internal_get__argumentCount() const;
 
-  constexpr int32_t& __cordl_internal_get__argumentCount();
+constexpr int32_t& __cordl_internal_get__argumentCount() ;
 
-  constexpr ::System::Reflection::ConstructorInfo* const& __cordl_internal_get__constructor() const;
+constexpr ::System::Reflection::ConstructorInfo* const& __cordl_internal_get__constructor() const;
 
-  constexpr ::System::Reflection::ConstructorInfo*& __cordl_internal_get__constructor();
+constexpr ::System::Reflection::ConstructorInfo*& __cordl_internal_get__constructor() ;
 
-  constexpr void __cordl_internal_set__argumentCount(int32_t value);
+constexpr void __cordl_internal_set__argumentCount(int32_t  value) ;
 
-  constexpr void __cordl_internal_set__constructor(::System::Reflection::ConstructorInfo* value);
+constexpr void __cordl_internal_set__constructor(::System::Reflection::ConstructorInfo*  value) ;
 
-  /// @brief Method .ctor, addr 0x5e0258c, size 0xc, virtual false, abstract: false, final false
-  inline void _ctor(::System::Reflection::ConstructorInfo* constructor, int32_t argumentCount);
+/// @brief Method .ctor, addr 0x5e02c4c, size 0xc, virtual false, abstract: false, final false
+inline void _ctor(::System::Reflection::ConstructorInfo*  constructor, int32_t  argumentCount) ;
 
-  /// @brief Method get_ConsumedStack, addr 0x5e02598, size 0x8, virtual true, abstract: false, final false
-  inline int32_t get_ConsumedStack();
+/// @brief Method get_ConsumedStack, addr 0x5e02c58, size 0x8, virtual true, abstract: false, final false
+inline int32_t get_ConsumedStack() ;
 
-  /// @brief Method get_InstructionName, addr 0x5e025a8, size 0x44, virtual true, abstract: false, final false
-  inline ::StringW get_InstructionName();
+/// @brief Method get_InstructionName, addr 0x5e02c68, size 0x44, virtual true, abstract: false, final false
+inline ::StringW get_InstructionName() ;
 
-  /// @brief Method get_ProducedStack, addr 0x5e025a0, size 0x8, virtual true, abstract: false, final false
-  inline int32_t get_ProducedStack();
+/// @brief Method get_ProducedStack, addr 0x5e02c60, size 0x8, virtual true, abstract: false, final false
+inline int32_t get_ProducedStack() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NewInstruction();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr NewInstruction() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NewInstruction", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  NewInstruction(NewInstruction&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NewInstruction", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  NewInstruction(NewInstruction const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "NewInstruction", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+NewInstruction(NewInstruction && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16483 };
+// Ctor Parameters [CppParam { name: "", ty: "NewInstruction", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+NewInstruction(NewInstruction const& ) = delete;
 
-  /// @brief Field _constructor, offset: 0x10, size: 0x8, def value: None
-  ::System::Reflection::ConstructorInfo* ____constructor;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{16487};
 
-  /// @brief Field _argumentCount, offset: 0x18, size: 0x4, def value: None
-  int32_t ____argumentCount;
+/// @brief Field _constructor, offset: 0x10, size: 0x8, def value: None
+ ::System::Reflection::ConstructorInfo*  ____constructor;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _argumentCount, offset: 0x18, size: 0x4, def value: None
+ int32_t  ____argumentCount;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Linq::Expressions::Interpreter::NewInstruction, ____constructor) == 0x10, "Offset mismatch!");
@@ -108,6 +108,6 @@ static_assert(offsetof(::System::Linq::Expressions::Interpreter::NewInstruction,
 
 static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Interpreter::NewInstruction, 0x20>, "Size mismatch!");
 
-} // namespace System::Linq::Expressions::Interpreter
+} // namespace end def System::Linq::Expressions::Interpreter
 NEED_NO_BOX(::System::Linq::Expressions::Interpreter::NewInstruction);
 DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::Interpreter::NewInstruction*, "System.Linq.Expressions.Interpreter", "NewInstruction");

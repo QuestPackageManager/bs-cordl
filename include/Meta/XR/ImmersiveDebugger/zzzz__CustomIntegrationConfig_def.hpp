@@ -60,197 +60,195 @@ namespace Meta::XR::ImmersiveDebugger {
 // CS Name: Meta.XR.ImmersiveDebugger.CustomIntegrationConfig/GetCameraDelegate
 class CORDL_TYPE CustomIntegrationConfig_GetCameraDelegate : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x58a9840, size 0x1c, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x58a9d4c, size 0x1c, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x58a985c, size 0xc, virtual true, abstract: false, final false
-  inline ::UnityW<::UnityEngine::Camera> EndInvoke(::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x58a9d68, size 0xc, virtual true, abstract: false, final false
+inline ::UnityW<::UnityEngine::Camera> EndInvoke(::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x58a982c, size 0x14, virtual true, abstract: false, final false
-  inline ::UnityW<::UnityEngine::Camera> Invoke();
+/// @brief Method Invoke, addr 0x58a9d38, size 0x14, virtual true, abstract: false, final false
+inline ::UnityW<::UnityEngine::Camera> Invoke() ;
 
-  static inline ::Meta::XR::ImmersiveDebugger::CustomIntegrationConfig_GetCameraDelegate* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::Meta::XR::ImmersiveDebugger::CustomIntegrationConfig_GetCameraDelegate* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x58a9650, size 0x68, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x58a9b5c, size 0x68, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CustomIntegrationConfig_GetCameraDelegate();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr CustomIntegrationConfig_GetCameraDelegate() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CustomIntegrationConfig_GetCameraDelegate", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  CustomIntegrationConfig_GetCameraDelegate(CustomIntegrationConfig_GetCameraDelegate&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CustomIntegrationConfig_GetCameraDelegate", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  CustomIntegrationConfig_GetCameraDelegate(CustomIntegrationConfig_GetCameraDelegate const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "CustomIntegrationConfig_GetCameraDelegate", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+CustomIntegrationConfig_GetCameraDelegate(CustomIntegrationConfig_GetCameraDelegate && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23208 };
+// Ctor Parameters [CppParam { name: "", ty: "CustomIntegrationConfig_GetCameraDelegate", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+CustomIntegrationConfig_GetCameraDelegate(CustomIntegrationConfig_GetCameraDelegate const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{23212};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Meta::XR::ImmersiveDebugger::CustomIntegrationConfig_GetCameraDelegate, 0x80>, "Size mismatch!");
 
-} // namespace Meta::XR::ImmersiveDebugger
+} // namespace end def Meta::XR::ImmersiveDebugger
 // Dependencies System.MulticastDelegate
 namespace Meta::XR::ImmersiveDebugger {
 // Is value type: false
 // CS Name: Meta.XR.ImmersiveDebugger.CustomIntegrationConfig/GetLeftControllerTransformDelegate
 class CORDL_TYPE CustomIntegrationConfig_GetLeftControllerTransformDelegate : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x58a98e4, size 0x1c, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x58a9df0, size 0x1c, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x58a9900, size 0xc, virtual true, abstract: false, final false
-  inline ::UnityW<::UnityEngine::Transform> EndInvoke(::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x58a9e0c, size 0xc, virtual true, abstract: false, final false
+inline ::UnityW<::UnityEngine::Transform> EndInvoke(::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x58a98d0, size 0x14, virtual true, abstract: false, final false
-  inline ::UnityW<::UnityEngine::Transform> Invoke();
+/// @brief Method Invoke, addr 0x58a9ddc, size 0x14, virtual true, abstract: false, final false
+inline ::UnityW<::UnityEngine::Transform> Invoke() ;
 
-  static inline ::Meta::XR::ImmersiveDebugger::CustomIntegrationConfig_GetLeftControllerTransformDelegate* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::Meta::XR::ImmersiveDebugger::CustomIntegrationConfig_GetLeftControllerTransformDelegate* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x58a9868, size 0x68, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x58a9d74, size 0x68, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CustomIntegrationConfig_GetLeftControllerTransformDelegate();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr CustomIntegrationConfig_GetLeftControllerTransformDelegate() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CustomIntegrationConfig_GetLeftControllerTransformDelegate", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  CustomIntegrationConfig_GetLeftControllerTransformDelegate(CustomIntegrationConfig_GetLeftControllerTransformDelegate&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CustomIntegrationConfig_GetLeftControllerTransformDelegate", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  CustomIntegrationConfig_GetLeftControllerTransformDelegate(CustomIntegrationConfig_GetLeftControllerTransformDelegate const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "CustomIntegrationConfig_GetLeftControllerTransformDelegate", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+CustomIntegrationConfig_GetLeftControllerTransformDelegate(CustomIntegrationConfig_GetLeftControllerTransformDelegate && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23209 };
+// Ctor Parameters [CppParam { name: "", ty: "CustomIntegrationConfig_GetLeftControllerTransformDelegate", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+CustomIntegrationConfig_GetLeftControllerTransformDelegate(CustomIntegrationConfig_GetLeftControllerTransformDelegate const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{23213};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Meta::XR::ImmersiveDebugger::CustomIntegrationConfig_GetLeftControllerTransformDelegate, 0x80>, "Size mismatch!");
 
-} // namespace Meta::XR::ImmersiveDebugger
+} // namespace end def Meta::XR::ImmersiveDebugger
 // Dependencies System.MulticastDelegate
 namespace Meta::XR::ImmersiveDebugger {
 // Is value type: false
 // CS Name: Meta.XR.ImmersiveDebugger.CustomIntegrationConfig/GetRightControllerTransformDelegate
 class CORDL_TYPE CustomIntegrationConfig_GetRightControllerTransformDelegate : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x58a9988, size 0x1c, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x58a9e94, size 0x1c, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x58a99a4, size 0xc, virtual true, abstract: false, final false
-  inline ::UnityW<::UnityEngine::Transform> EndInvoke(::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x58a9eb0, size 0xc, virtual true, abstract: false, final false
+inline ::UnityW<::UnityEngine::Transform> EndInvoke(::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x58a9974, size 0x14, virtual true, abstract: false, final false
-  inline ::UnityW<::UnityEngine::Transform> Invoke();
+/// @brief Method Invoke, addr 0x58a9e80, size 0x14, virtual true, abstract: false, final false
+inline ::UnityW<::UnityEngine::Transform> Invoke() ;
 
-  static inline ::Meta::XR::ImmersiveDebugger::CustomIntegrationConfig_GetRightControllerTransformDelegate* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::Meta::XR::ImmersiveDebugger::CustomIntegrationConfig_GetRightControllerTransformDelegate* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x58a990c, size 0x68, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x58a9e18, size 0x68, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CustomIntegrationConfig_GetRightControllerTransformDelegate();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr CustomIntegrationConfig_GetRightControllerTransformDelegate() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CustomIntegrationConfig_GetRightControllerTransformDelegate", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  CustomIntegrationConfig_GetRightControllerTransformDelegate(CustomIntegrationConfig_GetRightControllerTransformDelegate&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CustomIntegrationConfig_GetRightControllerTransformDelegate", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  CustomIntegrationConfig_GetRightControllerTransformDelegate(CustomIntegrationConfig_GetRightControllerTransformDelegate const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "CustomIntegrationConfig_GetRightControllerTransformDelegate", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+CustomIntegrationConfig_GetRightControllerTransformDelegate(CustomIntegrationConfig_GetRightControllerTransformDelegate && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23210 };
+// Ctor Parameters [CppParam { name: "", ty: "CustomIntegrationConfig_GetRightControllerTransformDelegate", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+CustomIntegrationConfig_GetRightControllerTransformDelegate(CustomIntegrationConfig_GetRightControllerTransformDelegate const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{23214};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Meta::XR::ImmersiveDebugger::CustomIntegrationConfig_GetRightControllerTransformDelegate, 0x80>, "Size mismatch!");
 
-} // namespace Meta::XR::ImmersiveDebugger
+} // namespace end def Meta::XR::ImmersiveDebugger
 // Dependencies System.Object
 namespace Meta::XR::ImmersiveDebugger {
 // Is value type: false
 // CS Name: Meta.XR.ImmersiveDebugger.CustomIntegrationConfig
 class CORDL_TYPE CustomIntegrationConfig : public ::System::Object {
 public:
-  // Declarations
-  using GetCameraDelegate = ::Meta::XR::ImmersiveDebugger::CustomIntegrationConfig_GetCameraDelegate;
+// Declarations
+using GetCameraDelegate = ::Meta::XR::ImmersiveDebugger::CustomIntegrationConfig_GetCameraDelegate;
 
-  using GetLeftControllerTransformDelegate = ::Meta::XR::ImmersiveDebugger::CustomIntegrationConfig_GetLeftControllerTransformDelegate;
+using GetLeftControllerTransformDelegate = ::Meta::XR::ImmersiveDebugger::CustomIntegrationConfig_GetLeftControllerTransformDelegate;
 
-  using GetRightControllerTransformDelegate = ::Meta::XR::ImmersiveDebugger::CustomIntegrationConfig_GetRightControllerTransformDelegate;
+using GetRightControllerTransformDelegate = ::Meta::XR::ImmersiveDebugger::CustomIntegrationConfig_GetRightControllerTransformDelegate;
 
-  /// @brief Field GetCameraHandler, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_GetCameraHandler, put = setStaticF_GetCameraHandler)) ::Meta::XR::ImmersiveDebugger::CustomIntegrationConfig_GetCameraDelegate* GetCameraHandler;
+/// @brief Field GetCameraHandler, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_GetCameraHandler, put=setStaticF_GetCameraHandler)) ::Meta::XR::ImmersiveDebugger::CustomIntegrationConfig_GetCameraDelegate*  GetCameraHandler;
 
-  /// @brief Method ClearAllConfig, addr 0x58a96b8, size 0x108, virtual false, abstract: false, final false
-  static inline void ClearAllConfig(::Meta::XR::ImmersiveDebugger::ICustomIntegrationConfig* customConfig);
+/// @brief Method ClearAllConfig, addr 0x58a9bc4, size 0x108, virtual false, abstract: false, final false
+static inline void ClearAllConfig(::Meta::XR::ImmersiveDebugger::ICustomIntegrationConfig*  customConfig) ;
 
-  /// @brief Method GetCamera, addr 0x58a97c0, size 0x6c, virtual false, abstract: false, final false
-  static inline ::UnityW<::UnityEngine::Camera> GetCamera();
+/// @brief Method GetCamera, addr 0x58a9ccc, size 0x6c, virtual false, abstract: false, final false
+static inline ::UnityW<::UnityEngine::Camera> GetCamera() ;
 
-  /// @brief Method SetupAllConfig, addr 0x58a9548, size 0x108, virtual false, abstract: false, final false
-  static inline void SetupAllConfig(::Meta::XR::ImmersiveDebugger::ICustomIntegrationConfig* customConfig);
+/// @brief Method SetupAllConfig, addr 0x58a9a54, size 0x108, virtual false, abstract: false, final false
+static inline void SetupAllConfig(::Meta::XR::ImmersiveDebugger::ICustomIntegrationConfig*  customConfig) ;
 
-  /// @brief Method add_GetCameraHandler, addr 0x58a93b0, size 0xcc, virtual false, abstract: false, final false
-  static inline void add_GetCameraHandler(::Meta::XR::ImmersiveDebugger::CustomIntegrationConfig_GetCameraDelegate* value);
+/// @brief Method add_GetCameraHandler, addr 0x58a98bc, size 0xcc, virtual false, abstract: false, final false
+static inline void add_GetCameraHandler(::Meta::XR::ImmersiveDebugger::CustomIntegrationConfig_GetCameraDelegate*  value) ;
 
-  static inline ::Meta::XR::ImmersiveDebugger::CustomIntegrationConfig_GetCameraDelegate* getStaticF_GetCameraHandler();
+static inline ::Meta::XR::ImmersiveDebugger::CustomIntegrationConfig_GetCameraDelegate* getStaticF_GetCameraHandler() ;
 
-  /// @brief Method remove_GetCameraHandler, addr 0x58a947c, size 0xcc, virtual false, abstract: false, final false
-  static inline void remove_GetCameraHandler(::Meta::XR::ImmersiveDebugger::CustomIntegrationConfig_GetCameraDelegate* value);
+/// @brief Method remove_GetCameraHandler, addr 0x58a9988, size 0xcc, virtual false, abstract: false, final false
+static inline void remove_GetCameraHandler(::Meta::XR::ImmersiveDebugger::CustomIntegrationConfig_GetCameraDelegate*  value) ;
 
-  static inline void setStaticF_GetCameraHandler(::Meta::XR::ImmersiveDebugger::CustomIntegrationConfig_GetCameraDelegate* value);
+static inline void setStaticF_GetCameraHandler(::Meta::XR::ImmersiveDebugger::CustomIntegrationConfig_GetCameraDelegate*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CustomIntegrationConfig();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr CustomIntegrationConfig() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CustomIntegrationConfig", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  CustomIntegrationConfig(CustomIntegrationConfig&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CustomIntegrationConfig", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  CustomIntegrationConfig(CustomIntegrationConfig const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "CustomIntegrationConfig", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+CustomIntegrationConfig(CustomIntegrationConfig && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23211 };
+// Ctor Parameters [CppParam { name: "", ty: "CustomIntegrationConfig", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+CustomIntegrationConfig(CustomIntegrationConfig const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{23215};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Meta::XR::ImmersiveDebugger::CustomIntegrationConfig, 0x10>, "Size mismatch!");
 
-} // namespace Meta::XR::ImmersiveDebugger
+} // namespace end def Meta::XR::ImmersiveDebugger
 NEED_NO_BOX(::Meta::XR::ImmersiveDebugger::CustomIntegrationConfig);
 DEFINE_IL2CPP_ARG_TYPE(::Meta::XR::ImmersiveDebugger::CustomIntegrationConfig*, "Meta.XR.ImmersiveDebugger", "CustomIntegrationConfig");
 NEED_NO_BOX(::Meta::XR::ImmersiveDebugger::CustomIntegrationConfig_GetCameraDelegate);
 DEFINE_IL2CPP_ARG_TYPE(::Meta::XR::ImmersiveDebugger::CustomIntegrationConfig_GetCameraDelegate*, "Meta.XR.ImmersiveDebugger", "CustomIntegrationConfig/GetCameraDelegate");
 NEED_NO_BOX(::Meta::XR::ImmersiveDebugger::CustomIntegrationConfig_GetLeftControllerTransformDelegate);
-DEFINE_IL2CPP_ARG_TYPE(::Meta::XR::ImmersiveDebugger::CustomIntegrationConfig_GetLeftControllerTransformDelegate*, "Meta.XR.ImmersiveDebugger",
-                       "CustomIntegrationConfig/GetLeftControllerTransformDelegate");
+DEFINE_IL2CPP_ARG_TYPE(::Meta::XR::ImmersiveDebugger::CustomIntegrationConfig_GetLeftControllerTransformDelegate*, "Meta.XR.ImmersiveDebugger", "CustomIntegrationConfig/GetLeftControllerTransformDelegate");
 NEED_NO_BOX(::Meta::XR::ImmersiveDebugger::CustomIntegrationConfig_GetRightControllerTransformDelegate);
-DEFINE_IL2CPP_ARG_TYPE(::Meta::XR::ImmersiveDebugger::CustomIntegrationConfig_GetRightControllerTransformDelegate*, "Meta.XR.ImmersiveDebugger",
-                       "CustomIntegrationConfig/GetRightControllerTransformDelegate");
+DEFINE_IL2CPP_ARG_TYPE(::Meta::XR::ImmersiveDebugger::CustomIntegrationConfig_GetRightControllerTransformDelegate*, "Meta.XR.ImmersiveDebugger", "CustomIntegrationConfig/GetRightControllerTransformDelegate");

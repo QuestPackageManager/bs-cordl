@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "UnityEngine/XR/OpenXR/Input/Haptic.hpp"
 #include "UnityEngine/XR/OpenXR/Input/HapticControl.hpp"
@@ -11,5 +11,6 @@ module;
 #include "UnityEngine/XR/OpenXR/Input/Pose.hpp"
 #include "UnityEngine/XR/OpenXR/Input/PoseControl.hpp"
 #ifdef __cpp_modules
-export module Input;
-#endif
+                    export module Input;
+                    #endif
+                

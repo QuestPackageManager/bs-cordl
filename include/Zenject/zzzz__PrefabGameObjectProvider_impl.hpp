@@ -11,136 +11,158 @@
 #include "Zenject/zzzz__InjectContext_def.hpp"
 #include "Zenject/zzzz__TypeValuePair_def.hpp"
 //  Writing Method size for method: ::Zenject::PrefabGameObjectProvider._ctor
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::PrefabGameObjectProvider::*)(::Zenject::IPrefabInstantiator*)>(
-    &::Zenject::PrefabGameObjectProvider::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::PrefabGameObjectProvider::*)(::Zenject::IPrefabInstantiator*)>(&::Zenject::PrefabGameObjectProvider::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6cba6cc;
+  constexpr static std::size_t addrs = 0x6cbad8c;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::PrefabGameObjectProvider*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::IPrefabInstantiator*>::get() })));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::PrefabGameObjectProvider*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::IPrefabInstantiator*>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Zenject::PrefabGameObjectProvider.get_IsCached
-template <>
+template<>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Zenject::PrefabGameObjectProvider::*)()>(&::Zenject::PrefabGameObjectProvider::get_IsCached)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6cba6d4;
+  constexpr static std::size_t addrs = 0x6cbad94;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::PrefabGameObjectProvider*>::get(), "get_IsCached",
-                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::PrefabGameObjectProvider*>::get(),
+                        "get_IsCached",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Zenject::PrefabGameObjectProvider.get_TypeVariesBasedOnMemberType
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Zenject::PrefabGameObjectProvider::*)()>(
-    &::Zenject::PrefabGameObjectProvider::get_TypeVariesBasedOnMemberType)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Zenject::PrefabGameObjectProvider::*)()>(&::Zenject::PrefabGameObjectProvider::get_TypeVariesBasedOnMemberType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6cba6dc;
+  constexpr static std::size_t addrs = 0x6cbad9c;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::PrefabGameObjectProvider*>::get(), "get_TypeVariesBasedOnMemberType",
-                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::PrefabGameObjectProvider*>::get(),
+                        "get_TypeVariesBasedOnMemberType",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Zenject::PrefabGameObjectProvider.GetInstanceType
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::Zenject::PrefabGameObjectProvider::*)(::Zenject::InjectContext*)>(
-    &::Zenject::PrefabGameObjectProvider::GetInstanceType)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::Zenject::PrefabGameObjectProvider::*)(::Zenject::InjectContext*)>(&::Zenject::PrefabGameObjectProvider::GetInstanceType)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x6cba6e4;
+  constexpr static std::size_t addrs = 0x6cbada4;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::PrefabGameObjectProvider*>::get(), "GetInstanceType", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::InjectContext*>::get() })));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::PrefabGameObjectProvider*>::get(),
+                        "GetInstanceType",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::InjectContext*>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Zenject::PrefabGameObjectProvider.GetAllInstancesWithInjectSplit
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::PrefabGameObjectProvider::*)(
-    ::Zenject::InjectContext*, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*, ::ByRef<::System::Action*>, ::System::Collections::Generic::List_1<::System::Object*>*)>(
-    &::Zenject::PrefabGameObjectProvider::GetAllInstancesWithInjectSplit)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::PrefabGameObjectProvider::*)(::Zenject::InjectContext*, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*, ::ByRef<::System::Action*>, ::System::Collections::Generic::List_1<::System::Object*>*)>(&::Zenject::PrefabGameObjectProvider::GetAllInstancesWithInjectSplit)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x6cba744;
+  constexpr static std::size_t addrs = 0x6cbae04;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::PrefabGameObjectProvider*>::get(), "GetAllInstancesWithInjectSplit", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::InjectContext*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Action*>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::System::Object*>*>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::PrefabGameObjectProvider*>::get(),
+                        "GetAllInstancesWithInjectSplit",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::InjectContext*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Action*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::System::Object*>*>::get()}
+                    )));
     return ___internal_method;
   }
 };
-constexpr ::Zenject::IPrefabInstantiator*& Zenject::PrefabGameObjectProvider::__cordl_internal_get__prefabCreator() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____prefabCreator;
+constexpr ::Zenject::IPrefabInstantiator*& Zenject::PrefabGameObjectProvider::__cordl_internal_get__prefabCreator()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____prefabCreator;
 }
 constexpr ::Zenject::IPrefabInstantiator* const& Zenject::PrefabGameObjectProvider::__cordl_internal_get__prefabCreator() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____prefabCreator;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____prefabCreator;
 }
-constexpr void Zenject::PrefabGameObjectProvider::__cordl_internal_set__prefabCreator(::Zenject::IPrefabInstantiator* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____prefabCreator)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void Zenject::PrefabGameObjectProvider::__cordl_internal_set__prefabCreator(::Zenject::IPrefabInstantiator*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____prefabCreator)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void Zenject::PrefabGameObjectProvider::_ctor(::Zenject::IPrefabInstantiator* prefabCreator) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::PrefabGameObjectProvider*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::IPrefabInstantiator*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, prefabCreator);
+inline void Zenject::PrefabGameObjectProvider::_ctor(::Zenject::IPrefabInstantiator*  prefabCreator)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::PrefabGameObjectProvider*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::IPrefabInstantiator*>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, prefabCreator);
 }
-inline bool Zenject::PrefabGameObjectProvider::get_IsCached() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::PrefabGameObjectProvider*>::get(), "get_IsCached",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool Zenject::PrefabGameObjectProvider::get_IsCached()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::PrefabGameObjectProvider*>::get(),
+                        "get_IsCached",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline bool Zenject::PrefabGameObjectProvider::get_TypeVariesBasedOnMemberType() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::PrefabGameObjectProvider*>::get(),
-                                                                             "get_TypeVariesBasedOnMemberType", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool Zenject::PrefabGameObjectProvider::get_TypeVariesBasedOnMemberType()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::PrefabGameObjectProvider*>::get(),
+                        "get_TypeVariesBasedOnMemberType",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline ::System::Type* Zenject::PrefabGameObjectProvider::GetInstanceType(::Zenject::InjectContext* context) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::PrefabGameObjectProvider*>::get(), "GetInstanceType", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::InjectContext*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::System::Type*, false>(this, ___internal_method, context);
+inline ::System::Type* Zenject::PrefabGameObjectProvider::GetInstanceType(::Zenject::InjectContext*  context)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::PrefabGameObjectProvider*>::get(),
+                        "GetInstanceType",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::InjectContext*>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Type*, false>(this, ___internal_method, context);
 }
-inline void Zenject::PrefabGameObjectProvider::GetAllInstancesWithInjectSplit(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args,
-                                                                              ::ByRef<::System::Action*> injectAction, ::System::Collections::Generic::List_1<::System::Object*>* buffer) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::PrefabGameObjectProvider*>::get(), "GetAllInstancesWithInjectSplit", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::InjectContext*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Action*>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::System::Object*>*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, context, args, injectAction, buffer);
+inline void Zenject::PrefabGameObjectProvider::GetAllInstancesWithInjectSplit(::Zenject::InjectContext*  context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*  args, ::ByRef<::System::Action*>  injectAction, ::System::Collections::Generic::List_1<::System::Object*>*  buffer)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::PrefabGameObjectProvider*>::get(),
+                        "GetAllInstancesWithInjectSplit",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::InjectContext*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Action*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::System::Object*>*>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, context, args, injectAction, buffer);
 }
-inline ::Zenject::PrefabGameObjectProvider* Zenject::PrefabGameObjectProvider::New_ctor(::Zenject::IPrefabInstantiator* prefabCreator) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::PrefabGameObjectProvider*>(prefabCreator));
+inline ::Zenject::PrefabGameObjectProvider* Zenject::PrefabGameObjectProvider::New_ctor(::Zenject::IPrefabInstantiator*  prefabCreator)  {
+return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::PrefabGameObjectProvider*>(prefabCreator));
 }
 /// @brief Convert operator to "::Zenject::IProvider"
-constexpr Zenject::PrefabGameObjectProvider::operator ::Zenject::IProvider*() noexcept {
-  return static_cast<::Zenject::IProvider*>(static_cast<void*>(this));
+constexpr  Zenject::PrefabGameObjectProvider::operator ::Zenject::IProvider*() noexcept {
+return static_cast<::Zenject::IProvider*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::Zenject::IProvider"
 constexpr ::Zenject::IProvider* Zenject::PrefabGameObjectProvider::i___Zenject__IProvider() noexcept {
-  return static_cast<::Zenject::IProvider*>(static_cast<void*>(this));
+return static_cast<::Zenject::IProvider*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
-constexpr ::Zenject::PrefabGameObjectProvider::PrefabGameObjectProvider() {}
+constexpr ::Zenject::PrefabGameObjectProvider::PrefabGameObjectProvider()   {
+}

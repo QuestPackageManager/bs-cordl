@@ -24,37 +24,37 @@ namespace GlobalNamespace {
 // CS Name: System.Linq.Expressions.Interpreter.GreaterThanOrEqualInstruction/GreaterThanOrEqualChar
 class CORDL_TYPE GreaterThanOrEqualInstruction_GreaterThanOrEqualChar : public ::System::Linq::Expressions::Interpreter::GreaterThanOrEqualInstruction {
 public:
-  // Declarations
-  static inline ::GlobalNamespace::GreaterThanOrEqualInstruction_GreaterThanOrEqualChar* New_ctor(::System::Object* nullValue);
+// Declarations
+static inline ::GlobalNamespace::GreaterThanOrEqualInstruction_GreaterThanOrEqualChar* New_ctor(::System::Object*  nullValue) ;
 
-  /// @brief Method Run, addr 0x5de2324, size 0xa4, virtual true, abstract: false, final false
-  inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
+/// @brief Method Run, addr 0x5de29e4, size 0xa4, virtual true, abstract: false, final false
+inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame*  frame) ;
 
-  /// @brief Method .ctor, addr 0x5de2194, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* nullValue);
+/// @brief Method .ctor, addr 0x5de2854, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  nullValue) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr GreaterThanOrEqualInstruction_GreaterThanOrEqualChar();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr GreaterThanOrEqualInstruction_GreaterThanOrEqualChar() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GreaterThanOrEqualInstruction_GreaterThanOrEqualChar", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  GreaterThanOrEqualInstruction_GreaterThanOrEqualChar(GreaterThanOrEqualInstruction_GreaterThanOrEqualChar&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GreaterThanOrEqualInstruction_GreaterThanOrEqualChar", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  GreaterThanOrEqualInstruction_GreaterThanOrEqualChar(GreaterThanOrEqualInstruction_GreaterThanOrEqualChar const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "GreaterThanOrEqualInstruction_GreaterThanOrEqualChar", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+GreaterThanOrEqualInstruction_GreaterThanOrEqualChar(GreaterThanOrEqualInstruction_GreaterThanOrEqualChar && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16336 };
+// Ctor Parameters [CppParam { name: "", ty: "GreaterThanOrEqualInstruction_GreaterThanOrEqualChar", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+GreaterThanOrEqualInstruction_GreaterThanOrEqualChar(GreaterThanOrEqualInstruction_GreaterThanOrEqualChar const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{16340};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::GreaterThanOrEqualInstruction_GreaterThanOrEqualChar, 0x18>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::GreaterThanOrEqualInstruction_GreaterThanOrEqualChar);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::GreaterThanOrEqualInstruction_GreaterThanOrEqualChar*, "System.Linq.Expressions.Interpreter", "GreaterThanOrEqualInstruction/GreaterThanOrEqualChar");

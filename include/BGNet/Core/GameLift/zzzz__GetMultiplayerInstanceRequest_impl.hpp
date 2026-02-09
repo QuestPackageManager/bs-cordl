@@ -11,83 +11,48 @@
 #include "GlobalNamespace/zzzz__ServiceEnvironment_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 //  Writing Method size for method: ::BGNet::Core::GameLift::GetMultiplayerInstanceRequest._ctor
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGNet::Core::GameLift::GetMultiplayerInstanceRequest::*)(
-    ::StringW, ::GlobalNamespace::ServiceEnvironment, ::StringW, ::GlobalNamespace::BeatmapLevelSelectionMask, ::GlobalNamespace::GameplayServerConfiguration,
-    ::GlobalNamespace::AuthenticationToken_PlatformType, ::StringW, ::StringW, ::StringW, ::StringW, ::System::Collections::Generic::Dictionary_2<::StringW, int64_t>*, ::StringW, ::StringW,
-    ::StringW)>(&::BGNet::Core::GameLift::GetMultiplayerInstanceRequest::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGNet::Core::GameLift::GetMultiplayerInstanceRequest::*)(::StringW, ::GlobalNamespace::ServiceEnvironment, ::StringW, ::GlobalNamespace::BeatmapLevelSelectionMask, ::GlobalNamespace::GameplayServerConfiguration, ::GlobalNamespace::AuthenticationToken_PlatformType, ::StringW, ::StringW, ::StringW, ::StringW, ::System::Collections::Generic::Dictionary_2<::StringW,int64_t>*, ::StringW, ::StringW, ::StringW)>(&::BGNet::Core::GameLift::GetMultiplayerInstanceRequest::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x31ee560;
+  constexpr static std::size_t addrs = 0x31ee4b0;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Core::GameLift::GetMultiplayerInstanceRequest>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 14>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ServiceEnvironment>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapLevelSelectionMask>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameplayServerConfiguration>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::AuthenticationToken_PlatformType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<::StringW, int64_t>*>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Core::GameLift::GetMultiplayerInstanceRequest>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 14>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ServiceEnvironment>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapLevelSelectionMask>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameplayServerConfiguration>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::AuthenticationToken_PlatformType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<::StringW,int64_t>*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
+                    )));
     return ___internal_method;
   }
 };
-inline void BGNet::Core::GameLift::GetMultiplayerInstanceRequest::_ctor(::StringW version, ::GlobalNamespace::ServiceEnvironment serviceEnvironment, ::StringW userId,
-                                                                        ::GlobalNamespace::BeatmapLevelSelectionMask beatmapLevelSelectionMask,
-                                                                        ::GlobalNamespace::GameplayServerConfiguration gameplayServerConfiguration,
-                                                                        ::GlobalNamespace::AuthenticationToken_PlatformType platform, ::StringW authUserId, ::StringW singleUseAuthToken,
-                                                                        ::StringW privateGameSecret, ::StringW privateGameCode,
-                                                                        ::System::Collections::Generic::Dictionary_2<::StringW, int64_t>* gameliftRegionLatencies, ::StringW ticketId,
-                                                                        ::StringW placementId, ::StringW customLocation) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Core::GameLift::GetMultiplayerInstanceRequest>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 14>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ServiceEnvironment>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapLevelSelectionMask>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameplayServerConfiguration>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::AuthenticationToken_PlatformType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<::StringW, int64_t>*>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, version, serviceEnvironment, userId, beatmapLevelSelectionMask, gameplayServerConfiguration, platform, authUserId,
-                                                          singleUseAuthToken, privateGameSecret, privateGameCode, gameliftRegionLatencies, ticketId, placementId, customLocation);
+inline void BGNet::Core::GameLift::GetMultiplayerInstanceRequest::_ctor(::StringW  version, ::GlobalNamespace::ServiceEnvironment  serviceEnvironment, ::StringW  userId, ::GlobalNamespace::BeatmapLevelSelectionMask  beatmapLevelSelectionMask, ::GlobalNamespace::GameplayServerConfiguration  gameplayServerConfiguration, ::GlobalNamespace::AuthenticationToken_PlatformType  platform, ::StringW  authUserId, ::StringW  singleUseAuthToken, ::StringW  privateGameSecret, ::StringW  privateGameCode, ::System::Collections::Generic::Dictionary_2<::StringW,int64_t>*  gameliftRegionLatencies, ::StringW  ticketId, ::StringW  placementId, ::StringW  customLocation)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Core::GameLift::GetMultiplayerInstanceRequest>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 14>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ServiceEnvironment>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapLevelSelectionMask>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameplayServerConfiguration>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::AuthenticationToken_PlatformType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<::StringW,int64_t>*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, version, serviceEnvironment, userId, beatmapLevelSelectionMask, gameplayServerConfiguration, platform, authUserId, singleUseAuthToken, privateGameSecret, privateGameCode, gameliftRegionLatencies, ticketId, placementId, customLocation);
 }
-// Ctor Parameters [CppParam { name: "version", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "serviceEnvironment", ty: "::GlobalNamespace::ServiceEnvironment", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "singleUseAuthToken", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "beatmapLevelSelectionMask", ty:
-// "::GlobalNamespace::BeatmapLevelSelectionMask", modifiers: "", def_value: Some("{}") }, CppParam { name: "gameplayServerConfiguration", ty: "::GlobalNamespace::GameplayServerConfiguration",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "userId", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "privateGameSecret", ty: "::StringW", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "privateGameCode", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "platform", ty:
-// "::GlobalNamespace::AuthenticationToken_PlatformType", modifiers: "", def_value: Some("{}") }, CppParam { name: "authUserId", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "gameliftRegionLatencies", ty: "::System::Collections::Generic::Dictionary_2<::StringW,int64_t>*", modifiers: "", def_value: Some("{}") }, CppParam { name: "ticketId", ty: "::StringW",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "placementId", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "customLocation", ty: "::StringW", modifiers: "",
-// def_value: Some("{}") }]
-constexpr ::BGNet::Core::GameLift::GetMultiplayerInstanceRequest::GetMultiplayerInstanceRequest(::StringW version, ::GlobalNamespace::ServiceEnvironment serviceEnvironment,
-                                                                                                ::StringW singleUseAuthToken, ::GlobalNamespace::BeatmapLevelSelectionMask beatmapLevelSelectionMask,
-                                                                                                ::GlobalNamespace::GameplayServerConfiguration gameplayServerConfiguration, ::StringW userId,
-                                                                                                ::StringW privateGameSecret, ::StringW privateGameCode,
-                                                                                                ::GlobalNamespace::AuthenticationToken_PlatformType platform, ::StringW authUserId,
-                                                                                                ::System::Collections::Generic::Dictionary_2<::StringW, int64_t>* gameliftRegionLatencies,
-                                                                                                ::StringW ticketId, ::StringW placementId, ::StringW customLocation) noexcept {
-  this->version = version;
-  this->serviceEnvironment = serviceEnvironment;
-  this->singleUseAuthToken = singleUseAuthToken;
-  this->beatmapLevelSelectionMask = beatmapLevelSelectionMask;
-  this->gameplayServerConfiguration = gameplayServerConfiguration;
-  this->userId = userId;
-  this->privateGameSecret = privateGameSecret;
-  this->privateGameCode = privateGameCode;
-  this->platform = platform;
-  this->authUserId = authUserId;
-  this->gameliftRegionLatencies = gameliftRegionLatencies;
-  this->ticketId = ticketId;
-  this->placementId = placementId;
-  this->customLocation = customLocation;
+// Ctor Parameters [CppParam { name: "version", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "serviceEnvironment", ty: "::GlobalNamespace::ServiceEnvironment", modifiers: "", def_value: Some("{}") }, CppParam { name: "singleUseAuthToken", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "beatmapLevelSelectionMask", ty: "::GlobalNamespace::BeatmapLevelSelectionMask", modifiers: "", def_value: Some("{}") }, CppParam { name: "gameplayServerConfiguration", ty: "::GlobalNamespace::GameplayServerConfiguration", modifiers: "", def_value: Some("{}") }, CppParam { name: "userId", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "privateGameSecret", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "privateGameCode", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "platform", ty: "::GlobalNamespace::AuthenticationToken_PlatformType", modifiers: "", def_value: Some("{}") }, CppParam { name: "authUserId", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "gameliftRegionLatencies", ty: "::System::Collections::Generic::Dictionary_2<::StringW,int64_t>*", modifiers: "", def_value: Some("{}") }, CppParam { name: "ticketId", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "placementId", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "customLocation", ty: "::StringW", modifiers: "", def_value: Some("{}") }]
+constexpr ::BGNet::Core::GameLift::GetMultiplayerInstanceRequest::GetMultiplayerInstanceRequest(::StringW  version, ::GlobalNamespace::ServiceEnvironment  serviceEnvironment, ::StringW  singleUseAuthToken, ::GlobalNamespace::BeatmapLevelSelectionMask  beatmapLevelSelectionMask, ::GlobalNamespace::GameplayServerConfiguration  gameplayServerConfiguration, ::StringW  userId, ::StringW  privateGameSecret, ::StringW  privateGameCode, ::GlobalNamespace::AuthenticationToken_PlatformType  platform, ::StringW  authUserId, ::System::Collections::Generic::Dictionary_2<::StringW,int64_t>*  gameliftRegionLatencies, ::StringW  ticketId, ::StringW  placementId, ::StringW  customLocation) noexcept  {
+this->version = version;
+this->serviceEnvironment = serviceEnvironment;
+this->singleUseAuthToken = singleUseAuthToken;
+this->beatmapLevelSelectionMask = beatmapLevelSelectionMask;
+this->gameplayServerConfiguration = gameplayServerConfiguration;
+this->userId = userId;
+this->privateGameSecret = privateGameSecret;
+this->privateGameCode = privateGameCode;
+this->platform = platform;
+this->authUserId = authUserId;
+this->gameliftRegionLatencies = gameliftRegionLatencies;
+this->ticketId = ticketId;
+this->placementId = placementId;
+this->customLocation = customLocation;
 }
 // Ctor Parameters []
-constexpr ::BGNet::Core::GameLift::GetMultiplayerInstanceRequest::GetMultiplayerInstanceRequest() {}
+constexpr ::BGNet::Core::GameLift::GetMultiplayerInstanceRequest::GetMultiplayerInstanceRequest()   {
+}

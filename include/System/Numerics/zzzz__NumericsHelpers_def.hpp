@@ -19,56 +19,56 @@ namespace System::Numerics {
 // CS Name: System.Numerics.NumericsHelpers
 class CORDL_TYPE NumericsHelpers : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method Abs, addr 0x5f3efb4, size 0xc, virtual false, abstract: false, final false
-  static inline uint32_t Abs(int32_t a);
+// Declarations
+/// @brief Method Abs, addr 0x5f3f674, size 0xc, virtual false, abstract: false, final false
+static inline uint32_t Abs(int32_t  a) ;
 
-  /// @brief Method CbitHighZero, addr 0x5f3fde8, size 0x78, virtual false, abstract: false, final false
-  static inline int32_t CbitHighZero(uint32_t u);
+/// @brief Method CbitHighZero, addr 0x5f404a8, size 0x78, virtual false, abstract: false, final false
+static inline int32_t CbitHighZero(uint32_t  u) ;
 
-  /// @brief Method CbitHighZero, addr 0x5f44704, size 0x24, virtual false, abstract: false, final false
-  static inline int32_t CbitHighZero(uint64_t uu);
+/// @brief Method CbitHighZero, addr 0x5f44dc4, size 0x24, virtual false, abstract: false, final false
+static inline int32_t CbitHighZero(uint64_t  uu) ;
 
-  /// @brief Method CombineHash, addr 0x5f3e054, size 0x8, virtual false, abstract: false, final false
-  static inline int32_t CombineHash(int32_t n1, int32_t n2);
+/// @brief Method CombineHash, addr 0x5f3e714, size 0x8, virtual false, abstract: false, final false
+static inline int32_t CombineHash(int32_t  n1, int32_t  n2) ;
 
-  /// @brief Method CombineHash, addr 0x5f44728, size 0x8, virtual false, abstract: false, final false
-  static inline uint32_t CombineHash(uint32_t u1, uint32_t u2);
+/// @brief Method CombineHash, addr 0x5f44de8, size 0x8, virtual false, abstract: false, final false
+static inline uint32_t CombineHash(uint32_t  u1, uint32_t  u2) ;
 
-  /// @brief Method DangerousMakeTwosComplement, addr 0x5f3db90, size 0xa0, virtual false, abstract: false, final false
-  static inline void DangerousMakeTwosComplement(::ArrayW<uint32_t, ::Array<uint32_t>*> d);
+/// @brief Method DangerousMakeTwosComplement, addr 0x5f3e250, size 0xa0, virtual false, abstract: false, final false
+static inline void DangerousMakeTwosComplement(::ArrayW<uint32_t,::Array<uint32_t>*>  d) ;
 
-  /// @brief Method GetDoubleFromParts, addr 0x5f3fe60, size 0xa8, virtual false, abstract: false, final false
-  static inline double_t GetDoubleFromParts(int32_t sign, int32_t exp, uint64_t man);
+/// @brief Method GetDoubleFromParts, addr 0x5f40520, size 0xa8, virtual false, abstract: false, final false
+static inline double_t GetDoubleFromParts(int32_t  sign, int32_t  exp, uint64_t  man) ;
 
-  /// @brief Method GetDoubleParts, addr 0x5f3d308, size 0x7c, virtual false, abstract: false, final false
-  static inline void GetDoubleParts(double_t dbl, ::ByRef<int32_t> sign, ::ByRef<int32_t> exp, ::ByRef<uint64_t> man, ::ByRef<bool> fFinite);
+/// @brief Method GetDoubleParts, addr 0x5f3d9c8, size 0x7c, virtual false, abstract: false, final false
+static inline void GetDoubleParts(double_t  dbl, ::ByRef<int32_t>  sign, ::ByRef<int32_t>  exp, ::ByRef<uint64_t>  man, ::ByRef<bool>  fFinite) ;
 
-  /// @brief Method MakeUlong, addr 0x5f3e238, size 0xc, virtual false, abstract: false, final false
-  static inline uint64_t MakeUlong(uint32_t uHi, uint32_t uLo);
+/// @brief Method MakeUlong, addr 0x5f3e8f8, size 0xc, virtual false, abstract: false, final false
+static inline uint64_t MakeUlong(uint32_t  uHi, uint32_t  uLo) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NumericsHelpers();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr NumericsHelpers() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NumericsHelpers", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  NumericsHelpers(NumericsHelpers&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NumericsHelpers", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  NumericsHelpers(NumericsHelpers const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "NumericsHelpers", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+NumericsHelpers(NumericsHelpers && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21658 };
+// Ctor Parameters [CppParam { name: "", ty: "NumericsHelpers", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+NumericsHelpers(NumericsHelpers const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{21662};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Numerics::NumericsHelpers, 0x10>, "Size mismatch!");
 
-} // namespace System::Numerics
+} // namespace end def System::Numerics
 NEED_NO_BOX(::System::Numerics::NumericsHelpers);
 DEFINE_IL2CPP_ARG_TYPE(::System::Numerics::NumericsHelpers*, "System.Numerics", "NumericsHelpers");

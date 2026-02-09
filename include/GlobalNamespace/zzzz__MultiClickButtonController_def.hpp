@@ -27,105 +27,105 @@ namespace GlobalNamespace {
 // CS Name: MultiClickButtonController
 class CORDL_TYPE MultiClickButtonController : public ::UnityEngine::MonoBehaviour {
 public:
-  // Declarations
-  /// @brief Field _button, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__button, put = __cordl_internal_set__button)) ::UnityW<::UnityEngine::UI::Button> _button;
+// Declarations
+/// @brief Field _button, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get__button, put=__cordl_internal_set__button)) ::UnityW<::UnityEngine::UI::Button>  _button;
 
-  /// @brief Field _buttonBinder, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__buttonBinder, put = __cordl_internal_set__buttonBinder)) ::HMUI::ButtonBinder* _buttonBinder;
+/// @brief Field _buttonBinder, offset 0x40, size 0x8 
+ __declspec(property(get=__cordl_internal_get__buttonBinder, put=__cordl_internal_set__buttonBinder)) ::HMUI::ButtonBinder*  _buttonBinder;
 
-  /// @brief Field _currentNumberOfClicks, offset 0x38, size 0x4
-  __declspec(property(get = __cordl_internal_get__currentNumberOfClicks, put = __cordl_internal_set__currentNumberOfClicks)) int32_t _currentNumberOfClicks;
+/// @brief Field _currentNumberOfClicks, offset 0x38, size 0x4 
+ __declspec(property(get=__cordl_internal_get__currentNumberOfClicks, put=__cordl_internal_set__currentNumberOfClicks)) int32_t  _currentNumberOfClicks;
 
-  /// @brief Field _numberOfClicksRequired, offset 0x28, size 0x4
-  __declspec(property(get = __cordl_internal_get__numberOfClicksRequired, put = __cordl_internal_set__numberOfClicksRequired)) int32_t _numberOfClicksRequired;
+/// @brief Field _numberOfClicksRequired, offset 0x28, size 0x4 
+ __declspec(property(get=__cordl_internal_get__numberOfClicksRequired, put=__cordl_internal_set__numberOfClicksRequired)) int32_t  _numberOfClicksRequired;
 
-  /// @brief Field wasTriggeredEvent, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_wasTriggeredEvent, put = __cordl_internal_set_wasTriggeredEvent)) ::System::Action* wasTriggeredEvent;
+/// @brief Field wasTriggeredEvent, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get_wasTriggeredEvent, put=__cordl_internal_set_wasTriggeredEvent)) ::System::Action*  wasTriggeredEvent;
 
-  /// @brief Method HandleButtonClicked, addr 0x5857ba8, size 0x38, virtual false, abstract: false, final false
-  inline void HandleButtonClicked();
+/// @brief Method HandleButtonClicked, addr 0x58584d8, size 0x38, virtual false, abstract: false, final false
+inline void HandleButtonClicked() ;
 
-  static inline ::GlobalNamespace::MultiClickButtonController* New_ctor();
+static inline ::GlobalNamespace::MultiClickButtonController* New_ctor() ;
 
-  /// @brief Method OnDisable, addr 0x5857b90, size 0x18, virtual false, abstract: false, final false
-  inline void OnDisable();
+/// @brief Method OnDisable, addr 0x58584c0, size 0x18, virtual false, abstract: false, final false
+inline void OnDisable() ;
 
-  /// @brief Method OnEnable, addr 0x5857af0, size 0xa0, virtual false, abstract: false, final false
-  inline void OnEnable();
+/// @brief Method OnEnable, addr 0x5858420, size 0xa0, virtual false, abstract: false, final false
+inline void OnEnable() ;
 
-  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__button() const;
+constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__button() const;
 
-  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__button();
+constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__button() ;
 
-  constexpr ::HMUI::ButtonBinder* const& __cordl_internal_get__buttonBinder() const;
+constexpr ::HMUI::ButtonBinder* const& __cordl_internal_get__buttonBinder() const;
 
-  constexpr ::HMUI::ButtonBinder*& __cordl_internal_get__buttonBinder();
+constexpr ::HMUI::ButtonBinder*& __cordl_internal_get__buttonBinder() ;
 
-  constexpr int32_t const& __cordl_internal_get__currentNumberOfClicks() const;
+constexpr int32_t const& __cordl_internal_get__currentNumberOfClicks() const;
 
-  constexpr int32_t& __cordl_internal_get__currentNumberOfClicks();
+constexpr int32_t& __cordl_internal_get__currentNumberOfClicks() ;
 
-  constexpr int32_t const& __cordl_internal_get__numberOfClicksRequired() const;
+constexpr int32_t const& __cordl_internal_get__numberOfClicksRequired() const;
 
-  constexpr int32_t& __cordl_internal_get__numberOfClicksRequired();
+constexpr int32_t& __cordl_internal_get__numberOfClicksRequired() ;
 
-  constexpr ::System::Action* const& __cordl_internal_get_wasTriggeredEvent() const;
+constexpr ::System::Action* const& __cordl_internal_get_wasTriggeredEvent() const;
 
-  constexpr ::System::Action*& __cordl_internal_get_wasTriggeredEvent();
+constexpr ::System::Action*& __cordl_internal_get_wasTriggeredEvent() ;
 
-  constexpr void __cordl_internal_set__button(::UnityW<::UnityEngine::UI::Button> value);
+constexpr void __cordl_internal_set__button(::UnityW<::UnityEngine::UI::Button>  value) ;
 
-  constexpr void __cordl_internal_set__buttonBinder(::HMUI::ButtonBinder* value);
+constexpr void __cordl_internal_set__buttonBinder(::HMUI::ButtonBinder*  value) ;
 
-  constexpr void __cordl_internal_set__currentNumberOfClicks(int32_t value);
+constexpr void __cordl_internal_set__currentNumberOfClicks(int32_t  value) ;
 
-  constexpr void __cordl_internal_set__numberOfClicksRequired(int32_t value);
+constexpr void __cordl_internal_set__numberOfClicksRequired(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_wasTriggeredEvent(::System::Action* value);
+constexpr void __cordl_internal_set_wasTriggeredEvent(::System::Action*  value) ;
 
-  /// @brief Method .ctor, addr 0x5857be0, size 0x64, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5858510, size 0x64, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method add_wasTriggeredEvent, addr 0x5857998, size 0xac, virtual false, abstract: false, final false
-  inline void add_wasTriggeredEvent(::System::Action* value);
+/// @brief Method add_wasTriggeredEvent, addr 0x58582c8, size 0xac, virtual false, abstract: false, final false
+inline void add_wasTriggeredEvent(::System::Action*  value) ;
 
-  /// @brief Method remove_wasTriggeredEvent, addr 0x5857a44, size 0xac, virtual false, abstract: false, final false
-  inline void remove_wasTriggeredEvent(::System::Action* value);
+/// @brief Method remove_wasTriggeredEvent, addr 0x5858374, size 0xac, virtual false, abstract: false, final false
+inline void remove_wasTriggeredEvent(::System::Action*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MultiClickButtonController();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr MultiClickButtonController() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiClickButtonController", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  MultiClickButtonController(MultiClickButtonController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiClickButtonController", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  MultiClickButtonController(MultiClickButtonController const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "MultiClickButtonController", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+MultiClickButtonController(MultiClickButtonController && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6336 };
+// Ctor Parameters [CppParam { name: "", ty: "MultiClickButtonController", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+MultiClickButtonController(MultiClickButtonController const& ) = delete;
 
-  /// @brief Field _button, offset: 0x20, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::UI::Button> ____button;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6336};
 
-  /// @brief Field _numberOfClicksRequired, offset: 0x28, size: 0x4, def value: None
-  int32_t ____numberOfClicksRequired;
+/// @brief Field _button, offset: 0x20, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::UI::Button>  ____button;
 
-  /// @brief Field wasTriggeredEvent, offset: 0x30, size: 0x8, def value: None
-  ::System::Action* ___wasTriggeredEvent;
+/// @brief Field _numberOfClicksRequired, offset: 0x28, size: 0x4, def value: None
+ int32_t  ____numberOfClicksRequired;
 
-  /// @brief Field _currentNumberOfClicks, offset: 0x38, size: 0x4, def value: None
-  int32_t ____currentNumberOfClicks;
+/// @brief Field wasTriggeredEvent, offset: 0x30, size: 0x8, def value: None
+ ::System::Action*  ___wasTriggeredEvent;
 
-  /// @brief Field _buttonBinder, offset: 0x40, size: 0x8, def value: None
-  ::HMUI::ButtonBinder* ____buttonBinder;
+/// @brief Field _currentNumberOfClicks, offset: 0x38, size: 0x4, def value: None
+ int32_t  ____currentNumberOfClicks;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _buttonBinder, offset: 0x40, size: 0x8, def value: None
+ ::HMUI::ButtonBinder*  ____buttonBinder;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::MultiClickButtonController, ____button) == 0x20, "Offset mismatch!");
@@ -140,6 +140,6 @@ static_assert(offsetof(::GlobalNamespace::MultiClickButtonController, ____button
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiClickButtonController, 0x48>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MultiClickButtonController);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiClickButtonController*, "", "MultiClickButtonController");

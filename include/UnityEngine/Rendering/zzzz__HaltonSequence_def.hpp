@@ -19,32 +19,32 @@ namespace UnityEngine::Rendering {
 // CS Name: UnityEngine.Rendering.HaltonSequence
 class CORDL_TYPE HaltonSequence : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method Get, addr 0x660e208, size 0x44, virtual false, abstract: false, final false
-  static inline float_t Get(int32_t index, int32_t radix);
+// Declarations
+/// @brief Method Get, addr 0x660e8c8, size 0x44, virtual false, abstract: false, final false
+static inline float_t Get(int32_t  index, int32_t  radix) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HaltonSequence();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr HaltonSequence() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HaltonSequence", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  HaltonSequence(HaltonSequence&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HaltonSequence", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  HaltonSequence(HaltonSequence const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "HaltonSequence", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+HaltonSequence(HaltonSequence && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12276 };
+// Ctor Parameters [CppParam { name: "", ty: "HaltonSequence", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+HaltonSequence(HaltonSequence const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12280};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::HaltonSequence, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine::Rendering
+} // namespace end def UnityEngine::Rendering
 NEED_NO_BOX(::UnityEngine::Rendering::HaltonSequence);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::HaltonSequence*, "UnityEngine.Rendering", "HaltonSequence");

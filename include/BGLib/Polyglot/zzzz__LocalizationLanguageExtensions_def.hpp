@@ -13,7 +13,8 @@ namespace BGLib::Polyglot {
 struct LocalizationLanguage;
 }
 namespace System {
-template <typename T1, typename T2> struct ValueTuple_2;
+template<typename T1,typename T2>
+struct ValueTuple_2;
 }
 namespace UnityEngine {
 struct SystemLanguage;
@@ -30,44 +31,44 @@ namespace BGLib::Polyglot {
 // CS Name: BGLib.Polyglot.LocalizationLanguageExtensions
 class CORDL_TYPE LocalizationLanguageExtensions : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method GetLanguageDirection, addr 0x3227734, size 0x10, virtual false, abstract: false, final false
-  static inline ::BGLib::Polyglot::LanguageDirection GetLanguageDirection(::BGLib::Polyglot::LocalizationLanguage language);
+// Declarations
+/// @brief Method GetLanguageDirection, addr 0x3227684, size 0x10, virtual false, abstract: false, final false
+static inline ::BGLib::Polyglot::LanguageDirection GetLanguageDirection(::BGLib::Polyglot::LocalizationLanguage  language) ;
 
-  /// @brief Method ToCultureInfoName, addr 0x3226110, size 0xe8, virtual false, abstract: false, final false
-  static inline ::StringW ToCultureInfoName(::BGLib::Polyglot::LocalizationLanguage language);
+/// @brief Method ToCultureInfoName, addr 0x3226060, size 0xe8, virtual false, abstract: false, final false
+static inline ::StringW ToCultureInfoName(::BGLib::Polyglot::LocalizationLanguage  language) ;
 
-  /// @brief Method ToLocalizationLanguage, addr 0x32261f8, size 0x1458, virtual false, abstract: false, final false
-  static inline ::BGLib::Polyglot::LocalizationLanguage ToLocalizationLanguage(::StringW serializedName);
+/// @brief Method ToLocalizationLanguage, addr 0x3226148, size 0x1458, virtual false, abstract: false, final false
+static inline ::BGLib::Polyglot::LocalizationLanguage ToLocalizationLanguage(::StringW  serializedName) ;
 
-  /// @brief Method ToLocalizationLanguage, addr 0x3227690, size 0x8c, virtual false, abstract: false, final false
-  static inline ::System::ValueTuple_2<bool, ::BGLib::Polyglot::LocalizationLanguage> ToLocalizationLanguage(::UnityEngine::SystemLanguage systemLanguage);
+/// @brief Method ToLocalizationLanguage, addr 0x32275e0, size 0x8c, virtual false, abstract: false, final false
+static inline ::System::ValueTuple_2<bool,::BGLib::Polyglot::LocalizationLanguage> ToLocalizationLanguage(::UnityEngine::SystemLanguage  systemLanguage) ;
 
-  /// @brief Method ToSerializedName, addr 0x3225e50, size 0x2c0, virtual false, abstract: false, final false
-  static inline ::StringW ToSerializedName(::BGLib::Polyglot::LocalizationLanguage language);
+/// @brief Method ToSerializedName, addr 0x3225da0, size 0x2c0, virtual false, abstract: false, final false
+static inline ::StringW ToSerializedName(::BGLib::Polyglot::LocalizationLanguage  language) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LocalizationLanguageExtensions();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr LocalizationLanguageExtensions() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LocalizationLanguageExtensions", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  LocalizationLanguageExtensions(LocalizationLanguageExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LocalizationLanguageExtensions", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  LocalizationLanguageExtensions(LocalizationLanguageExtensions const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "LocalizationLanguageExtensions", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+LocalizationLanguageExtensions(LocalizationLanguageExtensions && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21989 };
+// Ctor Parameters [CppParam { name: "", ty: "LocalizationLanguageExtensions", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+LocalizationLanguageExtensions(LocalizationLanguageExtensions const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{21993};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::BGLib::Polyglot::LocalizationLanguageExtensions, 0x10>, "Size mismatch!");
 
-} // namespace BGLib::Polyglot
+} // namespace end def BGLib::Polyglot
 NEED_NO_BOX(::BGLib::Polyglot::LocalizationLanguageExtensions);
 DEFINE_IL2CPP_ARG_TYPE(::BGLib::Polyglot::LocalizationLanguageExtensions*, "BGLib.Polyglot", "LocalizationLanguageExtensions");

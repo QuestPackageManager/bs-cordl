@@ -17,34 +17,34 @@ namespace UnityEngine::InputSystem::Android {
 // CS Name: UnityEngine.InputSystem.Android.AndroidProximity
 class CORDL_TYPE AndroidProximity : public ::UnityEngine::InputSystem::ProximitySensor {
 public:
-  // Declarations
-  static inline ::UnityEngine::InputSystem::Android::AndroidProximity* New_ctor();
+// Declarations
+static inline ::UnityEngine::InputSystem::Android::AndroidProximity* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x63f5368, size 0x20, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x63f5a28, size 0x20, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AndroidProximity();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr AndroidProximity() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AndroidProximity", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  AndroidProximity(AndroidProximity&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AndroidProximity", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  AndroidProximity(AndroidProximity const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "AndroidProximity", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+AndroidProximity(AndroidProximity && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8908 };
+// Ctor Parameters [CppParam { name: "", ty: "AndroidProximity", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+AndroidProximity(AndroidProximity const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8912};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Android::AndroidProximity, 0x190>, "Size mismatch!");
 
-} // namespace UnityEngine::InputSystem::Android
+} // namespace end def UnityEngine::InputSystem::Android
 NEED_NO_BOX(::UnityEngine::InputSystem::Android::AndroidProximity);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Android::AndroidProximity*, "UnityEngine.InputSystem.Android", "AndroidProximity");

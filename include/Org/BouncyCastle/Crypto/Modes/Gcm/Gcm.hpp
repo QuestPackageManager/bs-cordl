@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "Org/BouncyCastle/Crypto/Modes/Gcm/BasicGcmExponentiator.hpp"
 #include "Org/BouncyCastle/Crypto/Modes/Gcm/BasicGcmMultiplier.hpp"
@@ -12,5 +12,6 @@ module;
 #include "Org/BouncyCastle/Crypto/Modes/Gcm/Tables64kGcmMultiplier.hpp"
 #include "Org/BouncyCastle/Crypto/Modes/Gcm/Tables8kGcmMultiplier.hpp"
 #ifdef __cpp_modules
-export module Gcm;
-#endif
+                    export module Gcm;
+                    #endif
+                

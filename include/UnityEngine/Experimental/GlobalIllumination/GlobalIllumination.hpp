@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "UnityEngine/Experimental/GlobalIllumination/AngularFalloffType.hpp"
 #include "UnityEngine/Experimental/GlobalIllumination/Cookie.hpp"
@@ -18,5 +18,6 @@ module;
 #include "UnityEngine/Experimental/GlobalIllumination/RectangleLight.hpp"
 #include "UnityEngine/Experimental/GlobalIllumination/SpotLight.hpp"
 #ifdef __cpp_modules
-export module GlobalIllumination;
-#endif
+                    export module GlobalIllumination;
+                    #endif
+                

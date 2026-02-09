@@ -4,49 +4,60 @@
 #include "System/Runtime/Remoting/Contexts/zzzz__ContextCallbackObject_def.hpp"
 #include "System/Runtime/Remoting/Contexts/zzzz__CrossContextDelegate_def.hpp"
 //  Writing Method size for method: ::System::Runtime::Remoting::Contexts::ContextCallbackObject.DoCallBack
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Contexts::ContextCallbackObject::*)(
-    ::System::Runtime::Remoting::Contexts::CrossContextDelegate*)>(&::System::Runtime::Remoting::Contexts::ContextCallbackObject::DoCallBack)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Contexts::ContextCallbackObject::*)(::System::Runtime::Remoting::Contexts::CrossContextDelegate*)>(&::System::Runtime::Remoting::Contexts::ContextCallbackObject::DoCallBack)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5988328;
+  constexpr static std::size_t addrs = 0x5988834;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Contexts::ContextCallbackObject*>::get(), "DoCallBack", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Remoting::Contexts::CrossContextDelegate*>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Contexts::ContextCallbackObject*>::get(),
+                        "DoCallBack",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Remoting::Contexts::CrossContextDelegate*>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::Remoting::Contexts::ContextCallbackObject._ctor
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Contexts::ContextCallbackObject::*)()>(
-    &::System::Runtime::Remoting::Contexts::ContextCallbackObject::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Contexts::ContextCallbackObject::*)()>(&::System::Runtime::Remoting::Contexts::ContextCallbackObject::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5988324;
+  constexpr static std::size_t addrs = 0x5988830;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Contexts::ContextCallbackObject*>::get(), ".ctor",
-                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Contexts::ContextCallbackObject*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
-inline void System::Runtime::Remoting::Contexts::ContextCallbackObject::DoCallBack(::System::Runtime::Remoting::Contexts::CrossContextDelegate* deleg) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Contexts::ContextCallbackObject*>::get(), "DoCallBack", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Remoting::Contexts::CrossContextDelegate*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, deleg);
+inline void System::Runtime::Remoting::Contexts::ContextCallbackObject::DoCallBack(::System::Runtime::Remoting::Contexts::CrossContextDelegate*  deleg)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Contexts::ContextCallbackObject*>::get(),
+                        "DoCallBack",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Remoting::Contexts::CrossContextDelegate*>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, deleg);
 }
-inline void System::Runtime::Remoting::Contexts::ContextCallbackObject::_ctor() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Contexts::ContextCallbackObject*>::get(), ".ctor",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void System::Runtime::Remoting::Contexts::ContextCallbackObject::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Contexts::ContextCallbackObject*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::System::Runtime::Remoting::Contexts::ContextCallbackObject* System::Runtime::Remoting::Contexts::ContextCallbackObject::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::Remoting::Contexts::ContextCallbackObject*>());
+inline ::System::Runtime::Remoting::Contexts::ContextCallbackObject* System::Runtime::Remoting::Contexts::ContextCallbackObject::New_ctor()  {
+return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::Remoting::Contexts::ContextCallbackObject*>());
 }
 // Ctor Parameters []
-constexpr ::System::Runtime::Remoting::Contexts::ContextCallbackObject::ContextCallbackObject() {}
+constexpr ::System::Runtime::Remoting::Contexts::ContextCallbackObject::ContextCallbackObject()   {
+}

@@ -17,34 +17,34 @@ namespace BeatSaber::Main::Leaderboards {
 // CS Name: BeatSaber.Main.Leaderboards.QueryLeaderboardHealth
 class CORDL_TYPE QueryLeaderboardHealth : public ::OculusStudios::GraphQL::Client::QueryRequest {
 public:
-  // Declarations
-  static inline ::BeatSaber::Main::Leaderboards::QueryLeaderboardHealth* New_ctor();
+// Declarations
+static inline ::BeatSaber::Main::Leaderboards::QueryLeaderboardHealth* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x31d002c, size 0x64, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x31cff7c, size 0x64, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr QueryLeaderboardHealth();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr QueryLeaderboardHealth() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "QueryLeaderboardHealth", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  QueryLeaderboardHealth(QueryLeaderboardHealth&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "QueryLeaderboardHealth", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  QueryLeaderboardHealth(QueryLeaderboardHealth const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "QueryLeaderboardHealth", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+QueryLeaderboardHealth(QueryLeaderboardHealth && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20974 };
+// Ctor Parameters [CppParam { name: "", ty: "QueryLeaderboardHealth", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+QueryLeaderboardHealth(QueryLeaderboardHealth const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20978};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::BeatSaber::Main::Leaderboards::QueryLeaderboardHealth, 0x68>, "Size mismatch!");
 
-} // namespace BeatSaber::Main::Leaderboards
+} // namespace end def BeatSaber::Main::Leaderboards
 NEED_NO_BOX(::BeatSaber::Main::Leaderboards::QueryLeaderboardHealth);
 DEFINE_IL2CPP_ARG_TYPE(::BeatSaber::Main::Leaderboards::QueryLeaderboardHealth*, "BeatSaber.Main.Leaderboards", "QueryLeaderboardHealth");

@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "Newtonsoft/Json/Utilities/AotHelper.hpp"
 #include "Newtonsoft/Json/Utilities/AsyncUtils.hpp"
@@ -52,5 +52,6 @@ module;
 #include "Newtonsoft/Json/Utilities/TypeInformation.hpp"
 #include "Newtonsoft/Json/Utilities/ValidationUtils.hpp"
 #ifdef __cpp_modules
-export module Utilities;
-#endif
+                    export module Utilities;
+                    #endif
+                

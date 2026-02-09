@@ -9,7 +9,8 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(UxmlAsset)
 namespace System::Collections::Generic {
-template <typename T> class List_1;
+template<typename T>
+class List_1;
 }
 namespace UnityEngine::UIElements {
 class IUxmlAttributes;
@@ -29,165 +30,164 @@ namespace UnityEngine::UIElements {
 // CS Name: UnityEngine.UIElements.UxmlAsset
 class CORDL_TYPE UxmlAsset : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(get = get_fullTypeName)) ::StringW fullTypeName;
+// Declarations
+ __declspec(property(get=get_fullTypeName)) ::StringW  fullTypeName;
 
-  __declspec(property(get = get_id, put = set_id)) int32_t id;
+ __declspec(property(get=get_id, put=set_id)) int32_t  id;
 
-  /// @brief Field m_FullTypeName, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_FullTypeName, put = __cordl_internal_set_m_FullTypeName)) ::StringW m_FullTypeName;
+/// @brief Field m_FullTypeName, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_FullTypeName, put=__cordl_internal_set_m_FullTypeName)) ::StringW  m_FullTypeName;
 
-  /// @brief Field m_Id, offset 0x28, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_Id, put = __cordl_internal_set_m_Id)) int32_t m_Id;
+/// @brief Field m_Id, offset 0x28, size 0x4 
+ __declspec(property(get=__cordl_internal_get_m_Id, put=__cordl_internal_set_m_Id)) int32_t  m_Id;
 
-  /// @brief Field m_NamespaceDefinitions, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_NamespaceDefinitions,
-                      put = __cordl_internal_set_m_NamespaceDefinitions)) ::System::Collections::Generic::List_1<::UnityEngine::UIElements::UxmlNamespaceDefinition>* m_NamespaceDefinitions;
+/// @brief Field m_NamespaceDefinitions, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_NamespaceDefinitions, put=__cordl_internal_set_m_NamespaceDefinitions)) ::System::Collections::Generic::List_1<::UnityEngine::UIElements::UxmlNamespaceDefinition>*  m_NamespaceDefinitions;
 
-  /// @brief Field m_OrderInDocument, offset 0x2c, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_OrderInDocument, put = __cordl_internal_set_m_OrderInDocument)) int32_t m_OrderInDocument;
+/// @brief Field m_OrderInDocument, offset 0x2c, size 0x4 
+ __declspec(property(get=__cordl_internal_get_m_OrderInDocument, put=__cordl_internal_set_m_OrderInDocument)) int32_t  m_OrderInDocument;
 
-  /// @brief Field m_ParentId, offset 0x30, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_ParentId, put = __cordl_internal_set_m_ParentId)) int32_t m_ParentId;
+/// @brief Field m_ParentId, offset 0x30, size 0x4 
+ __declspec(property(get=__cordl_internal_get_m_ParentId, put=__cordl_internal_set_m_ParentId)) int32_t  m_ParentId;
 
-  /// @brief Field m_Properties, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Properties, put = __cordl_internal_set_m_Properties)) ::System::Collections::Generic::List_1<::StringW>* m_Properties;
+/// @brief Field m_Properties, offset 0x40, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_Properties, put=__cordl_internal_set_m_Properties)) ::System::Collections::Generic::List_1<::StringW>*  m_Properties;
 
-  /// @brief Field m_XmlNamespace, offset 0x18, size 0x10
-  __declspec(property(get = __cordl_internal_get_m_XmlNamespace, put = __cordl_internal_set_m_XmlNamespace)) ::UnityEngine::UIElements::UxmlNamespaceDefinition m_XmlNamespace;
+/// @brief Field m_XmlNamespace, offset 0x18, size 0x10 
+ __declspec(property(get=__cordl_internal_get_m_XmlNamespace, put=__cordl_internal_set_m_XmlNamespace)) ::UnityEngine::UIElements::UxmlNamespaceDefinition  m_XmlNamespace;
 
-  __declspec(property(get = get_orderInDocument)) int32_t orderInDocument;
+ __declspec(property(get=get_orderInDocument)) int32_t  orderInDocument;
 
-  __declspec(property(get = get_parentId, put = set_parentId)) int32_t parentId;
+ __declspec(property(get=get_parentId, put=set_parentId)) int32_t  parentId;
 
-  /// @brief Convert operator to "::UnityEngine::UIElements::IUxmlAttributes"
-  constexpr operator ::UnityEngine::UIElements::IUxmlAttributes*() noexcept;
+/// @brief Convert operator to "::UnityEngine::UIElements::IUxmlAttributes"
+constexpr operator  ::UnityEngine::UIElements::IUxmlAttributes*() noexcept;
 
-  static inline ::UnityEngine::UIElements::UxmlAsset* New_ctor(::StringW fullTypeName, ::UnityEngine::UIElements::UxmlNamespaceDefinition xmlNamespace);
+static inline ::UnityEngine::UIElements::UxmlAsset* New_ctor(::StringW  fullTypeName, ::UnityEngine::UIElements::UxmlNamespaceDefinition  xmlNamespace) ;
 
-  /// @brief Method RemoveAttribute, addr 0x6af2698, size 0xfc, virtual false, abstract: false, final false
-  inline void RemoveAttribute(::StringW attributeName);
+/// @brief Method RemoveAttribute, addr 0x6af2d58, size 0xfc, virtual false, abstract: false, final false
+inline void RemoveAttribute(::StringW  attributeName) ;
 
-  /// @brief Method SetAttribute, addr 0x6af2794, size 0x4, virtual false, abstract: false, final false
-  inline void SetAttribute(::StringW name, ::StringW value);
+/// @brief Method SetAttribute, addr 0x6af2e54, size 0x4, virtual false, abstract: false, final false
+inline void SetAttribute(::StringW  name, ::StringW  value) ;
 
-  /// @brief Method SetOrAddProperty, addr 0x6af4c9c, size 0x210, virtual false, abstract: false, final false
-  inline void SetOrAddProperty(::StringW propertyName, ::StringW propertyValue);
+/// @brief Method SetOrAddProperty, addr 0x6af535c, size 0x210, virtual false, abstract: false, final false
+inline void SetOrAddProperty(::StringW  propertyName, ::StringW  propertyValue) ;
 
-  /// @brief Method ToString, addr 0x6af4eac, size 0xa0, virtual true, abstract: false, final false
-  inline ::StringW ToString();
+/// @brief Method ToString, addr 0x6af556c, size 0xa0, virtual true, abstract: false, final false
+inline ::StringW ToString() ;
 
-  /// @brief Method TryGetAttributeValue, addr 0x6af4bbc, size 0xe0, virtual true, abstract: false, final true
-  inline bool TryGetAttributeValue(::StringW propertyName, ::ByRef<::StringW> value);
+/// @brief Method TryGetAttributeValue, addr 0x6af527c, size 0xe0, virtual true, abstract: false, final true
+inline bool TryGetAttributeValue(::StringW  propertyName, ::ByRef<::StringW>  value) ;
 
-  constexpr ::StringW const& __cordl_internal_get_m_FullTypeName() const;
+constexpr ::StringW const& __cordl_internal_get_m_FullTypeName() const;
 
-  constexpr ::StringW& __cordl_internal_get_m_FullTypeName();
+constexpr ::StringW& __cordl_internal_get_m_FullTypeName() ;
 
-  constexpr int32_t const& __cordl_internal_get_m_Id() const;
+constexpr int32_t const& __cordl_internal_get_m_Id() const;
 
-  constexpr int32_t& __cordl_internal_get_m_Id();
+constexpr int32_t& __cordl_internal_get_m_Id() ;
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::UxmlNamespaceDefinition>* const& __cordl_internal_get_m_NamespaceDefinitions() const;
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::UxmlNamespaceDefinition>* const& __cordl_internal_get_m_NamespaceDefinitions() const;
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::UxmlNamespaceDefinition>*& __cordl_internal_get_m_NamespaceDefinitions();
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::UxmlNamespaceDefinition>*& __cordl_internal_get_m_NamespaceDefinitions() ;
 
-  constexpr int32_t const& __cordl_internal_get_m_OrderInDocument() const;
+constexpr int32_t const& __cordl_internal_get_m_OrderInDocument() const;
 
-  constexpr int32_t& __cordl_internal_get_m_OrderInDocument();
+constexpr int32_t& __cordl_internal_get_m_OrderInDocument() ;
 
-  constexpr int32_t const& __cordl_internal_get_m_ParentId() const;
+constexpr int32_t const& __cordl_internal_get_m_ParentId() const;
 
-  constexpr int32_t& __cordl_internal_get_m_ParentId();
+constexpr int32_t& __cordl_internal_get_m_ParentId() ;
 
-  constexpr ::System::Collections::Generic::List_1<::StringW>* const& __cordl_internal_get_m_Properties() const;
+constexpr ::System::Collections::Generic::List_1<::StringW>* const& __cordl_internal_get_m_Properties() const;
 
-  constexpr ::System::Collections::Generic::List_1<::StringW>*& __cordl_internal_get_m_Properties();
+constexpr ::System::Collections::Generic::List_1<::StringW>*& __cordl_internal_get_m_Properties() ;
 
-  constexpr ::UnityEngine::UIElements::UxmlNamespaceDefinition const& __cordl_internal_get_m_XmlNamespace() const;
+constexpr ::UnityEngine::UIElements::UxmlNamespaceDefinition const& __cordl_internal_get_m_XmlNamespace() const;
 
-  constexpr ::UnityEngine::UIElements::UxmlNamespaceDefinition& __cordl_internal_get_m_XmlNamespace();
+constexpr ::UnityEngine::UIElements::UxmlNamespaceDefinition& __cordl_internal_get_m_XmlNamespace() ;
 
-  constexpr void __cordl_internal_set_m_FullTypeName(::StringW value);
+constexpr void __cordl_internal_set_m_FullTypeName(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_m_Id(int32_t value);
+constexpr void __cordl_internal_set_m_Id(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_m_NamespaceDefinitions(::System::Collections::Generic::List_1<::UnityEngine::UIElements::UxmlNamespaceDefinition>* value);
+constexpr void __cordl_internal_set_m_NamespaceDefinitions(::System::Collections::Generic::List_1<::UnityEngine::UIElements::UxmlNamespaceDefinition>*  value) ;
 
-  constexpr void __cordl_internal_set_m_OrderInDocument(int32_t value);
+constexpr void __cordl_internal_set_m_OrderInDocument(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_m_ParentId(int32_t value);
+constexpr void __cordl_internal_set_m_ParentId(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_m_Properties(::System::Collections::Generic::List_1<::StringW>* value);
+constexpr void __cordl_internal_set_m_Properties(::System::Collections::Generic::List_1<::StringW>*  value) ;
 
-  constexpr void __cordl_internal_set_m_XmlNamespace(::UnityEngine::UIElements::UxmlNamespaceDefinition value);
+constexpr void __cordl_internal_set_m_XmlNamespace(::UnityEngine::UIElements::UxmlNamespaceDefinition  value) ;
 
-  /// @brief Method .ctor, addr 0x6af4b80, size 0xc, virtual false, abstract: false, final false
-  inline void _ctor(::StringW fullTypeName, ::UnityEngine::UIElements::UxmlNamespaceDefinition xmlNamespace);
+/// @brief Method .ctor, addr 0x6af5240, size 0xc, virtual false, abstract: false, final false
+inline void _ctor(::StringW  fullTypeName, ::UnityEngine::UIElements::UxmlNamespaceDefinition  xmlNamespace) ;
 
-  /// @brief Method get_fullTypeName, addr 0x6af4b8c, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_fullTypeName();
+/// @brief Method get_fullTypeName, addr 0x6af524c, size 0x8, virtual false, abstract: false, final false
+inline ::StringW get_fullTypeName() ;
 
-  /// @brief Method get_id, addr 0x6af4b94, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_id();
+/// @brief Method get_id, addr 0x6af5254, size 0x8, virtual false, abstract: false, final false
+inline int32_t get_id() ;
 
-  /// @brief Method get_orderInDocument, addr 0x6af4ba4, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_orderInDocument();
+/// @brief Method get_orderInDocument, addr 0x6af5264, size 0x8, virtual false, abstract: false, final false
+inline int32_t get_orderInDocument() ;
 
-  /// @brief Method get_parentId, addr 0x6af4bac, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_parentId();
+/// @brief Method get_parentId, addr 0x6af526c, size 0x8, virtual false, abstract: false, final false
+inline int32_t get_parentId() ;
 
-  /// @brief Convert to "::UnityEngine::UIElements::IUxmlAttributes"
-  constexpr ::UnityEngine::UIElements::IUxmlAttributes* i___UnityEngine__UIElements__IUxmlAttributes() noexcept;
+/// @brief Convert to "::UnityEngine::UIElements::IUxmlAttributes"
+constexpr ::UnityEngine::UIElements::IUxmlAttributes* i___UnityEngine__UIElements__IUxmlAttributes() noexcept;
 
-  /// @brief Method set_id, addr 0x6af4b9c, size 0x8, virtual false, abstract: false, final false
-  inline void set_id(int32_t value);
+/// @brief Method set_id, addr 0x6af525c, size 0x8, virtual false, abstract: false, final false
+inline void set_id(int32_t  value) ;
 
-  /// @brief Method set_parentId, addr 0x6af4bb4, size 0x8, virtual false, abstract: false, final false
-  inline void set_parentId(int32_t value);
+/// @brief Method set_parentId, addr 0x6af5274, size 0x8, virtual false, abstract: false, final false
+inline void set_parentId(int32_t  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr UxmlAsset();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr UxmlAsset() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UxmlAsset", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  UxmlAsset(UxmlAsset&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UxmlAsset", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  UxmlAsset(UxmlAsset const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "UxmlAsset", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+UxmlAsset(UxmlAsset && ) = delete;
 
-  /// @brief Field NullNodeType offset 0xffffffff size 0x8
-  static constexpr ::ConstString NullNodeType{ u"null" };
+// Ctor Parameters [CppParam { name: "", ty: "UxmlAsset", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+UxmlAsset(UxmlAsset const& ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5189 };
+/// @brief Field NullNodeType offset 0xffffffff size 0x8
+static constexpr ::ConstString  NullNodeType{u"null"};
 
-  /// @brief Field m_FullTypeName, offset: 0x10, size: 0x8, def value: None
-  ::StringW ___m_FullTypeName;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{5189};
 
-  /// @brief Field m_XmlNamespace, offset: 0x18, size: 0x10, def value: None
-  ::UnityEngine::UIElements::UxmlNamespaceDefinition ___m_XmlNamespace;
+/// @brief Field m_FullTypeName, offset: 0x10, size: 0x8, def value: None
+ ::StringW  ___m_FullTypeName;
 
-  /// @brief Field m_Id, offset: 0x28, size: 0x4, def value: None
-  int32_t ___m_Id;
+/// @brief Field m_XmlNamespace, offset: 0x18, size: 0x10, def value: None
+ ::UnityEngine::UIElements::UxmlNamespaceDefinition  ___m_XmlNamespace;
 
-  /// @brief Field m_OrderInDocument, offset: 0x2c, size: 0x4, def value: None
-  int32_t ___m_OrderInDocument;
+/// @brief Field m_Id, offset: 0x28, size: 0x4, def value: None
+ int32_t  ___m_Id;
 
-  /// @brief Field m_ParentId, offset: 0x30, size: 0x4, def value: None
-  int32_t ___m_ParentId;
+/// @brief Field m_OrderInDocument, offset: 0x2c, size: 0x4, def value: None
+ int32_t  ___m_OrderInDocument;
 
-  /// @brief Field m_NamespaceDefinitions, offset: 0x38, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::UnityEngine::UIElements::UxmlNamespaceDefinition>* ___m_NamespaceDefinitions;
+/// @brief Field m_ParentId, offset: 0x30, size: 0x4, def value: None
+ int32_t  ___m_ParentId;
 
-  /// @brief Field m_Properties, offset: 0x40, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::StringW>* ___m_Properties;
+/// @brief Field m_NamespaceDefinitions, offset: 0x38, size: 0x8, def value: None
+ ::System::Collections::Generic::List_1<::UnityEngine::UIElements::UxmlNamespaceDefinition>*  ___m_NamespaceDefinitions;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field m_Properties, offset: 0x40, size: 0x8, def value: None
+ ::System::Collections::Generic::List_1<::StringW>*  ___m_Properties;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::UIElements::UxmlAsset, ___m_FullTypeName) == 0x10, "Offset mismatch!");
@@ -206,6 +206,6 @@ static_assert(offsetof(::UnityEngine::UIElements::UxmlAsset, ___m_Properties) ==
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UxmlAsset, 0x48>, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements
+} // namespace end def UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::UxmlAsset);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::UxmlAsset*, "UnityEngine.UIElements", "UxmlAsset");

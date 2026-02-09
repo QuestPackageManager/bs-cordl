@@ -30,99 +30,98 @@ namespace UnityEngine {
 // CS Name: UnityEngine.Caching
 class CORDL_TYPE Caching : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method AddCache, addr 0x689d194, size 0x218, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Cache AddCache(::StringW cachePath);
+// Declarations
+/// @brief Method AddCache, addr 0x689d854, size 0x218, virtual false, abstract: false, final false
+static inline ::UnityEngine::Cache AddCache(::StringW  cachePath) ;
 
-  /// @brief Method AddCache, addr 0x689d4e0, size 0x144, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Cache AddCache(::StringW cachePath, bool isReadonly);
+/// @brief Method AddCache, addr 0x689dba0, size 0x144, virtual false, abstract: false, final false
+static inline ::UnityEngine::Cache AddCache(::StringW  cachePath, bool  isReadonly) ;
 
-  /// @brief Method AddCache_Injected, addr 0x689d624, size 0x54, virtual false, abstract: false, final false
-  static inline void AddCache_Injected(::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> cachePath, bool isReadonly, ::ByRef<::UnityEngine::Cache> ret);
+/// @brief Method AddCache_Injected, addr 0x689dce4, size 0x54, virtual false, abstract: false, final false
+static inline void AddCache_Injected(::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>  cachePath, bool  isReadonly, ::ByRef<::UnityEngine::Cache>  ret) ;
 
-  /// @brief Method ClearAllCachedVersions, addr 0x689ce20, size 0x68, virtual false, abstract: false, final false
-  static inline bool ClearAllCachedVersions(::StringW assetBundleName);
+/// @brief Method ClearAllCachedVersions, addr 0x689d4e0, size 0x68, virtual false, abstract: false, final false
+static inline bool ClearAllCachedVersions(::StringW  assetBundleName) ;
 
-  /// @brief Method ClearCachedVersion, addr 0x689caa0, size 0x5c, virtual false, abstract: false, final false
-  static inline bool ClearCachedVersion(::StringW assetBundleName, ::UnityEngine::Hash128 hash);
+/// @brief Method ClearCachedVersion, addr 0x689d160, size 0x5c, virtual false, abstract: false, final false
+static inline bool ClearCachedVersion(::StringW  assetBundleName, ::UnityEngine::Hash128  hash) ;
 
-  /// @brief Method ClearCachedVersionInternal, addr 0x689cafc, size 0x138, virtual false, abstract: false, final false
-  static inline bool ClearCachedVersionInternal(::StringW assetBundleName, ::UnityEngine::Hash128 hash);
+/// @brief Method ClearCachedVersionInternal, addr 0x689d1bc, size 0x138, virtual false, abstract: false, final false
+static inline bool ClearCachedVersionInternal(::StringW  assetBundleName, ::UnityEngine::Hash128  hash) ;
 
-  /// @brief Method ClearCachedVersionInternal_Injected, addr 0x689cc34, size 0x44, virtual false, abstract: false, final false
-  static inline bool ClearCachedVersionInternal_Injected(::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> assetBundleName, ::ByRef<::UnityEngine::Hash128> hash);
+/// @brief Method ClearCachedVersionInternal_Injected, addr 0x689d2f4, size 0x44, virtual false, abstract: false, final false
+static inline bool ClearCachedVersionInternal_Injected(::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>  assetBundleName, ::ByRef<::UnityEngine::Hash128>  hash) ;
 
-  /// @brief Method ClearCachedVersions, addr 0x689ccd8, size 0x148, virtual false, abstract: false, final false
-  static inline bool ClearCachedVersions(::StringW assetBundleName, ::UnityEngine::Hash128 hash, bool keepInputVersion);
+/// @brief Method ClearCachedVersions, addr 0x689d398, size 0x148, virtual false, abstract: false, final false
+static inline bool ClearCachedVersions(::StringW  assetBundleName, ::UnityEngine::Hash128  hash, bool  keepInputVersion) ;
 
-  /// @brief Method ClearCachedVersions_Injected, addr 0x689ce88, size 0x54, virtual false, abstract: false, final false
-  static inline bool ClearCachedVersions_Injected(::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> assetBundleName, ::ByRef<::UnityEngine::Hash128> hash, bool keepInputVersion);
+/// @brief Method ClearCachedVersions_Injected, addr 0x689d548, size 0x54, virtual false, abstract: false, final false
+static inline bool ClearCachedVersions_Injected(::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>  assetBundleName, ::ByRef<::UnityEngine::Hash128>  hash, bool  keepInputVersion) ;
 
-  /// @brief Method ClearOtherCachedVersions, addr 0x689cc78, size 0x60, virtual false, abstract: false, final false
-  static inline bool ClearOtherCachedVersions(::StringW assetBundleName, ::UnityEngine::Hash128 hash);
+/// @brief Method ClearOtherCachedVersions, addr 0x689d338, size 0x60, virtual false, abstract: false, final false
+static inline bool ClearOtherCachedVersions(::StringW  assetBundleName, ::UnityEngine::Hash128  hash) ;
 
-  /// @brief Method GetCacheByPath, addr 0x689d3ac, size 0x134, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Cache GetCacheByPath(::StringW cachePath);
+/// @brief Method GetCacheByPath, addr 0x689da6c, size 0x134, virtual false, abstract: false, final false
+static inline ::UnityEngine::Cache GetCacheByPath(::StringW  cachePath) ;
 
-  /// @brief Method GetCacheByPath_Injected, addr 0x689d678, size 0x44, virtual false, abstract: false, final false
-  static inline void GetCacheByPath_Injected(::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> cachePath, ::ByRef<::UnityEngine::Cache> ret);
+/// @brief Method GetCacheByPath_Injected, addr 0x689dd38, size 0x44, virtual false, abstract: false, final false
+static inline void GetCacheByPath_Injected(::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>  cachePath, ::ByRef<::UnityEngine::Cache>  ret) ;
 
-  /// @brief Method IsVersionCached, addr 0x689cedc, size 0xa4, virtual false, abstract: false, final false
-  static inline bool IsVersionCached(::UnityEngine::CachedAssetBundle cachedBundle);
+/// @brief Method IsVersionCached, addr 0x689d59c, size 0xa4, virtual false, abstract: false, final false
+static inline bool IsVersionCached(::UnityEngine::CachedAssetBundle  cachedBundle) ;
 
-  /// @brief Method IsVersionCached, addr 0x689cf80, size 0x1c0, virtual false, abstract: false, final false
-  static inline bool IsVersionCached(::StringW url, ::StringW assetBundleName, ::UnityEngine::Hash128 hash);
+/// @brief Method IsVersionCached, addr 0x689d640, size 0x1c0, virtual false, abstract: false, final false
+static inline bool IsVersionCached(::StringW  url, ::StringW  assetBundleName, ::UnityEngine::Hash128  hash) ;
 
-  /// @brief Method IsVersionCached_Injected, addr 0x689d140, size 0x54, virtual false, abstract: false, final false
-  static inline bool IsVersionCached_Injected(::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> url, ::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> assetBundleName,
-                                              ::ByRef<::UnityEngine::Hash128> hash);
+/// @brief Method IsVersionCached_Injected, addr 0x689d800, size 0x54, virtual false, abstract: false, final false
+static inline bool IsVersionCached_Injected(::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>  url, ::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>  assetBundleName, ::ByRef<::UnityEngine::Hash128>  hash) ;
 
-  /// @brief Method get_currentCacheForWriting, addr 0x689d73c, size 0x44, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Cache get_currentCacheForWriting();
+/// @brief Method get_currentCacheForWriting, addr 0x689ddfc, size 0x44, virtual false, abstract: false, final false
+static inline ::UnityEngine::Cache get_currentCacheForWriting() ;
 
-  /// @brief Method get_currentCacheForWriting_Injected, addr 0x689d780, size 0x3c, virtual false, abstract: false, final false
-  static inline void get_currentCacheForWriting_Injected(::ByRef<::UnityEngine::Cache> ret);
+/// @brief Method get_currentCacheForWriting_Injected, addr 0x689de40, size 0x3c, virtual false, abstract: false, final false
+static inline void get_currentCacheForWriting_Injected(::ByRef<::UnityEngine::Cache>  ret) ;
 
-  /// @brief Method get_defaultCache, addr 0x689d6bc, size 0x44, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Cache get_defaultCache();
+/// @brief Method get_defaultCache, addr 0x689dd7c, size 0x44, virtual false, abstract: false, final false
+static inline ::UnityEngine::Cache get_defaultCache() ;
 
-  /// @brief Method get_defaultCache_Injected, addr 0x689d700, size 0x3c, virtual false, abstract: false, final false
-  static inline void get_defaultCache_Injected(::ByRef<::UnityEngine::Cache> ret);
+/// @brief Method get_defaultCache_Injected, addr 0x689ddc0, size 0x3c, virtual false, abstract: false, final false
+static inline void get_defaultCache_Injected(::ByRef<::UnityEngine::Cache>  ret) ;
 
-  /// @brief Method get_ready, addr 0x689ca78, size 0x28, virtual false, abstract: false, final false
-  static inline bool get_ready();
+/// @brief Method get_ready, addr 0x689d138, size 0x28, virtual false, abstract: false, final false
+static inline bool get_ready() ;
 
-  /// @brief Method set_compressionEnabled, addr 0x689ca3c, size 0x3c, virtual false, abstract: false, final false
-  static inline void set_compressionEnabled(bool value);
+/// @brief Method set_compressionEnabled, addr 0x689d0fc, size 0x3c, virtual false, abstract: false, final false
+static inline void set_compressionEnabled(bool  value) ;
 
-  /// @brief Method set_currentCacheForWriting, addr 0x689d7bc, size 0x40, virtual false, abstract: false, final false
-  static inline void set_currentCacheForWriting(::UnityEngine::Cache value);
+/// @brief Method set_currentCacheForWriting, addr 0x689de7c, size 0x40, virtual false, abstract: false, final false
+static inline void set_currentCacheForWriting(::UnityEngine::Cache  value) ;
 
-  /// @brief Method set_currentCacheForWriting_Injected, addr 0x689d7fc, size 0x3c, virtual false, abstract: false, final false
-  static inline void set_currentCacheForWriting_Injected(::ByRef<::UnityEngine::Cache> value);
+/// @brief Method set_currentCacheForWriting_Injected, addr 0x689debc, size 0x3c, virtual false, abstract: false, final false
+static inline void set_currentCacheForWriting_Injected(::ByRef<::UnityEngine::Cache>  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Caching();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr Caching() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Caching", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  Caching(Caching&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Caching", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  Caching(Caching const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "Caching", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+Caching(Caching && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10057 };
+// Ctor Parameters [CppParam { name: "", ty: "Caching", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+Caching(Caching const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10061};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Caching, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine
+} // namespace end def UnityEngine
 NEED_NO_BOX(::UnityEngine::Caching);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Caching*, "UnityEngine", "Caching");

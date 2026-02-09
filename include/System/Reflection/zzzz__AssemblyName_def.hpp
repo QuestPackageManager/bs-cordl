@@ -60,347 +60,346 @@ class AssemblyName;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Reflection::AssemblyName);
-// Dependencies System.Configuration.Assemblies.AssemblyHashAlgorithm, System.Configuration.Assemblies.AssemblyVersionCompatibility, System.Object, System.Reflection.AssemblyContentType,
-// System.Reflection.AssemblyNameFlags, System.Reflection.ProcessorArchitecture
+// Dependencies System.Configuration.Assemblies.AssemblyHashAlgorithm, System.Configuration.Assemblies.AssemblyVersionCompatibility, System.Object, System.Reflection.AssemblyContentType, System.Reflection.AssemblyNameFlags, System.Reflection.ProcessorArchitecture
 namespace System::Reflection {
 // Is value type: false
 // CS Name: System.Reflection.AssemblyName
 class CORDL_TYPE AssemblyName : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(get = get_CultureInfo, put = set_CultureInfo)) ::System::Globalization::CultureInfo* CultureInfo;
+// Declarations
+ __declspec(property(get=get_CultureInfo, put=set_CultureInfo)) ::System::Globalization::CultureInfo*  CultureInfo;
 
-  __declspec(property(get = get_Flags, put = set_Flags)) ::System::Reflection::AssemblyNameFlags Flags;
+ __declspec(property(get=get_Flags, put=set_Flags)) ::System::Reflection::AssemblyNameFlags  Flags;
 
-  __declspec(property(get = get_FullName)) ::StringW FullName;
+ __declspec(property(get=get_FullName)) ::StringW  FullName;
 
-  __declspec(property(get = get_IsPublicKeyValid)) bool IsPublicKeyValid;
+ __declspec(property(get=get_IsPublicKeyValid)) bool  IsPublicKeyValid;
 
-  __declspec(property(get = get_Name, put = set_Name)) ::StringW Name;
+ __declspec(property(get=get_Name, put=set_Name)) ::StringW  Name;
 
-  __declspec(property(get = get_Version, put = set_Version)) ::System::Version* Version;
+ __declspec(property(get=get_Version, put=set_Version)) ::System::Version*  Version;
 
-  /// @brief Field build, offset 0x28, size 0x4
-  __declspec(property(get = __cordl_internal_get_build, put = __cordl_internal_set_build)) int32_t build;
+/// @brief Field build, offset 0x28, size 0x4 
+ __declspec(property(get=__cordl_internal_get_build, put=__cordl_internal_set_build)) int32_t  build;
 
-  /// @brief Field codebase, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_codebase, put = __cordl_internal_set_codebase)) ::StringW codebase;
+/// @brief Field codebase, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_codebase, put=__cordl_internal_set_codebase)) ::StringW  codebase;
 
-  /// @brief Field contentType, offset 0x6c, size 0x4
-  __declspec(property(get = __cordl_internal_get_contentType, put = __cordl_internal_set_contentType)) ::System::Reflection::AssemblyContentType contentType;
+/// @brief Field contentType, offset 0x6c, size 0x4 
+ __declspec(property(get=__cordl_internal_get_contentType, put=__cordl_internal_set_contentType)) ::System::Reflection::AssemblyContentType  contentType;
 
-  /// @brief Field cultureinfo, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_cultureinfo, put = __cordl_internal_set_cultureinfo)) ::System::Globalization::CultureInfo* cultureinfo;
+/// @brief Field cultureinfo, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get_cultureinfo, put=__cordl_internal_set_cultureinfo)) ::System::Globalization::CultureInfo*  cultureinfo;
 
-  /// @brief Field flags, offset 0x38, size 0x4
-  __declspec(property(get = __cordl_internal_get_flags, put = __cordl_internal_set_flags)) ::System::Reflection::AssemblyNameFlags flags;
+/// @brief Field flags, offset 0x38, size 0x4 
+ __declspec(property(get=__cordl_internal_get_flags, put=__cordl_internal_set_flags)) ::System::Reflection::AssemblyNameFlags  flags;
 
-  /// @brief Field hashalg, offset 0x3c, size 0x4
-  __declspec(property(get = __cordl_internal_get_hashalg, put = __cordl_internal_set_hashalg)) ::System::Configuration::Assemblies::AssemblyHashAlgorithm hashalg;
+/// @brief Field hashalg, offset 0x3c, size 0x4 
+ __declspec(property(get=__cordl_internal_get_hashalg, put=__cordl_internal_set_hashalg)) ::System::Configuration::Assemblies::AssemblyHashAlgorithm  hashalg;
 
-  /// @brief Field keyToken, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_keyToken, put = __cordl_internal_set_keyToken)) ::ArrayW<uint8_t, ::Array<uint8_t>*> keyToken;
+/// @brief Field keyToken, offset 0x50, size 0x8 
+ __declspec(property(get=__cordl_internal_get_keyToken, put=__cordl_internal_set_keyToken)) ::ArrayW<uint8_t,::Array<uint8_t>*>  keyToken;
 
-  /// @brief Field keypair, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_keypair, put = __cordl_internal_set_keypair)) ::System::Reflection::StrongNameKeyPair* keypair;
+/// @brief Field keypair, offset 0x40, size 0x8 
+ __declspec(property(get=__cordl_internal_get_keypair, put=__cordl_internal_set_keypair)) ::System::Reflection::StrongNameKeyPair*  keypair;
 
-  /// @brief Field major, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get_major, put = __cordl_internal_set_major)) int32_t major;
+/// @brief Field major, offset 0x20, size 0x4 
+ __declspec(property(get=__cordl_internal_get_major, put=__cordl_internal_set_major)) int32_t  major;
 
-  /// @brief Field minor, offset 0x24, size 0x4
-  __declspec(property(get = __cordl_internal_get_minor, put = __cordl_internal_set_minor)) int32_t minor;
+/// @brief Field minor, offset 0x24, size 0x4 
+ __declspec(property(get=__cordl_internal_get_minor, put=__cordl_internal_set_minor)) int32_t  minor;
 
-  /// @brief Field name, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_name, put = __cordl_internal_set_name)) ::StringW name;
+/// @brief Field name, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_name, put=__cordl_internal_set_name)) ::StringW  name;
 
-  /// @brief Field processor_architecture, offset 0x68, size 0x4
-  __declspec(property(get = __cordl_internal_get_processor_architecture, put = __cordl_internal_set_processor_architecture)) ::System::Reflection::ProcessorArchitecture processor_architecture;
+/// @brief Field processor_architecture, offset 0x68, size 0x4 
+ __declspec(property(get=__cordl_internal_get_processor_architecture, put=__cordl_internal_set_processor_architecture)) ::System::Reflection::ProcessorArchitecture  processor_architecture;
 
-  /// @brief Field publicKey, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_publicKey, put = __cordl_internal_set_publicKey)) ::ArrayW<uint8_t, ::Array<uint8_t>*> publicKey;
+/// @brief Field publicKey, offset 0x48, size 0x8 
+ __declspec(property(get=__cordl_internal_get_publicKey, put=__cordl_internal_set_publicKey)) ::ArrayW<uint8_t,::Array<uint8_t>*>  publicKey;
 
-  /// @brief Field revision, offset 0x2c, size 0x4
-  __declspec(property(get = __cordl_internal_get_revision, put = __cordl_internal_set_revision)) int32_t revision;
+/// @brief Field revision, offset 0x2c, size 0x4 
+ __declspec(property(get=__cordl_internal_get_revision, put=__cordl_internal_set_revision)) int32_t  revision;
 
-  /// @brief Field version, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version)) ::System::Version* version;
+/// @brief Field version, offset 0x60, size 0x8 
+ __declspec(property(get=__cordl_internal_get_version, put=__cordl_internal_set_version)) ::System::Version*  version;
 
-  /// @brief Field versioncompat, offset 0x58, size 0x4
-  __declspec(property(get = __cordl_internal_get_versioncompat, put = __cordl_internal_set_versioncompat)) ::System::Configuration::Assemblies::AssemblyVersionCompatibility versioncompat;
+/// @brief Field versioncompat, offset 0x58, size 0x4 
+ __declspec(property(get=__cordl_internal_get_versioncompat, put=__cordl_internal_set_versioncompat)) ::System::Configuration::Assemblies::AssemblyVersionCompatibility  versioncompat;
 
-  /// @brief Convert operator to "::System::ICloneable"
-  constexpr operator ::System::ICloneable*() noexcept;
+/// @brief Convert operator to "::System::ICloneable"
+constexpr operator  ::System::ICloneable*() noexcept;
 
-  /// @brief Convert operator to "::System::Runtime::InteropServices::_AssemblyName"
-  constexpr operator ::System::Runtime::InteropServices::_AssemblyName*() noexcept;
+/// @brief Convert operator to "::System::Runtime::InteropServices::_AssemblyName"
+constexpr operator  ::System::Runtime::InteropServices::_AssemblyName*() noexcept;
 
-  /// @brief Convert operator to "::System::Runtime::Serialization::IDeserializationCallback"
-  constexpr operator ::System::Runtime::Serialization::IDeserializationCallback*() noexcept;
+/// @brief Convert operator to "::System::Runtime::Serialization::IDeserializationCallback"
+constexpr operator  ::System::Runtime::Serialization::IDeserializationCallback*() noexcept;
 
-  /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
-  constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
+/// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
+constexpr operator  ::System::Runtime::Serialization::ISerializable*() noexcept;
 
-  /// @brief Method Clone, addr 0x59d9310, size 0x9c, virtual true, abstract: false, final true
-  inline ::System::Object* Clone();
+/// @brief Method Clone, addr 0x59d981c, size 0x9c, virtual true, abstract: false, final true
+inline ::System::Object* Clone() ;
 
-  /// @brief Method ComputePublicKeyToken, addr 0x59d8e80, size 0xe4, virtual false, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ComputePublicKeyToken();
+/// @brief Method ComputePublicKeyToken, addr 0x59d938c, size 0xe4, virtual false, abstract: false, final false
+inline ::ArrayW<uint8_t,::Array<uint8_t>*> ComputePublicKeyToken() ;
 
-  /// @brief Method Create, addr 0x59d93cc, size 0xc4, virtual false, abstract: false, final false
-  static inline ::System::Reflection::AssemblyName* Create(::System::Reflection::Assembly* assembly, bool fillCodebase);
+/// @brief Method Create, addr 0x59d98d8, size 0xc4, virtual false, abstract: false, final false
+static inline ::System::Reflection::AssemblyName* Create(::System::Reflection::Assembly*  assembly, bool  fillCodebase) ;
 
-  /// @brief Method FillName, addr 0x59d7bb4, size 0x284, virtual false, abstract: false, final false
-  inline void FillName(::Mono::MonoAssemblyName* native, ::StringW codeBase, bool addVersion, bool addPublickey, bool defaultToken, bool assemblyRef);
+/// @brief Method FillName, addr 0x59d80c0, size 0x284, virtual false, abstract: false, final false
+inline void FillName(::Mono::MonoAssemblyName*  native, ::StringW  codeBase, bool  addVersion, bool  addPublickey, bool  defaultToken, bool  assemblyRef) ;
 
-  /// @brief Method GetNativeName, addr 0x59d93c8, size 0x4, virtual false, abstract: false, final false
-  static inline ::Mono::MonoAssemblyName* GetNativeName(::System::IntPtr assembly_ptr);
+/// @brief Method GetNativeName, addr 0x59d98d4, size 0x4, virtual false, abstract: false, final false
+static inline ::Mono::MonoAssemblyName* GetNativeName(::System::IntPtr  assembly_ptr) ;
 
-  /// @brief Method GetObjectData, addr 0x59d8fc4, size 0x34c, virtual true, abstract: false, final true
-  inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
+/// @brief Method GetObjectData, addr 0x59d94d0, size 0x34c, virtual true, abstract: false, final true
+inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context) ;
 
-  /// @brief Method GetPublicKey, addr 0x59d8d0c, size 0x8, virtual false, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetPublicKey();
+/// @brief Method GetPublicKey, addr 0x59d9218, size 0x8, virtual false, abstract: false, final false
+inline ::ArrayW<uint8_t,::Array<uint8_t>*> GetPublicKey() ;
 
-  /// @brief Method GetPublicKeyToken, addr 0x59d8d14, size 0xe8, virtual false, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetPublicKeyToken();
+/// @brief Method GetPublicKeyToken, addr 0x59d9220, size 0xe8, virtual false, abstract: false, final false
+inline ::ArrayW<uint8_t,::Array<uint8_t>*> GetPublicKeyToken() ;
 
-  /// @brief Method InternalGetPublicKeyToken, addr 0x59d8bf4, size 0xe8, virtual false, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> InternalGetPublicKeyToken();
+/// @brief Method InternalGetPublicKeyToken, addr 0x59d9100, size 0xe8, virtual false, abstract: false, final false
+inline ::ArrayW<uint8_t,::Array<uint8_t>*> InternalGetPublicKeyToken() ;
 
-  static inline ::System::Reflection::AssemblyName* New_ctor();
+static inline ::System::Reflection::AssemblyName* New_ctor() ;
 
-  static inline ::System::Reflection::AssemblyName* New_ctor(::StringW assemblyName);
+static inline ::System::Reflection::AssemblyName* New_ctor(::StringW  assemblyName) ;
 
-  static inline ::System::Reflection::AssemblyName* New_ctor(::System::Runtime::Serialization::SerializationInfo* si, ::System::Runtime::Serialization::StreamingContext sc);
+static inline ::System::Reflection::AssemblyName* New_ctor(::System::Runtime::Serialization::SerializationInfo*  si, ::System::Runtime::Serialization::StreamingContext  sc) ;
 
-  /// @brief Method OnDeserialization, addr 0x59d93ac, size 0x1c, virtual true, abstract: false, final true
-  inline void OnDeserialization(::System::Object* sender);
+/// @brief Method OnDeserialization, addr 0x59d98b8, size 0x1c, virtual true, abstract: false, final true
+inline void OnDeserialization(::System::Object*  sender) ;
 
-  /// @brief Method ParseAssemblyName, addr 0x59d8030, size 0x4, virtual false, abstract: false, final false
-  static inline bool ParseAssemblyName(::System::IntPtr name, ::ByRef<::Mono::MonoAssemblyName> aname, ::ByRef<bool> is_version_definited, ::ByRef<bool> is_token_defined);
+/// @brief Method ParseAssemblyName, addr 0x59d853c, size 0x4, virtual false, abstract: false, final false
+static inline bool ParseAssemblyName(::System::IntPtr  name, ::ByRef<::Mono::MonoAssemblyName>  aname, ::ByRef<bool>  is_version_definited, ::ByRef<bool>  is_token_defined) ;
 
-  /// @brief Method SetPublicKey, addr 0x59d76ac, size 0x20, virtual false, abstract: false, final false
-  inline void SetPublicKey(::ArrayW<uint8_t, ::Array<uint8_t>*> publicKey);
+/// @brief Method SetPublicKey, addr 0x59d7bb8, size 0x20, virtual false, abstract: false, final false
+inline void SetPublicKey(::ArrayW<uint8_t,::Array<uint8_t>*>  publicKey) ;
 
-  /// @brief Method ToString, addr 0x59d8ce4, size 0x28, virtual true, abstract: false, final false
-  inline ::StringW ToString();
+/// @brief Method ToString, addr 0x59d91f0, size 0x28, virtual true, abstract: false, final false
+inline ::StringW ToString() ;
 
-  constexpr int32_t const& __cordl_internal_get_build() const;
+constexpr int32_t const& __cordl_internal_get_build() const;
 
-  constexpr int32_t& __cordl_internal_get_build();
+constexpr int32_t& __cordl_internal_get_build() ;
 
-  constexpr ::StringW const& __cordl_internal_get_codebase() const;
+constexpr ::StringW const& __cordl_internal_get_codebase() const;
 
-  constexpr ::StringW& __cordl_internal_get_codebase();
+constexpr ::StringW& __cordl_internal_get_codebase() ;
 
-  constexpr ::System::Reflection::AssemblyContentType const& __cordl_internal_get_contentType() const;
+constexpr ::System::Reflection::AssemblyContentType const& __cordl_internal_get_contentType() const;
 
-  constexpr ::System::Reflection::AssemblyContentType& __cordl_internal_get_contentType();
+constexpr ::System::Reflection::AssemblyContentType& __cordl_internal_get_contentType() ;
 
-  constexpr ::System::Globalization::CultureInfo* const& __cordl_internal_get_cultureinfo() const;
+constexpr ::System::Globalization::CultureInfo* const& __cordl_internal_get_cultureinfo() const;
 
-  constexpr ::System::Globalization::CultureInfo*& __cordl_internal_get_cultureinfo();
+constexpr ::System::Globalization::CultureInfo*& __cordl_internal_get_cultureinfo() ;
 
-  constexpr ::System::Reflection::AssemblyNameFlags const& __cordl_internal_get_flags() const;
+constexpr ::System::Reflection::AssemblyNameFlags const& __cordl_internal_get_flags() const;
 
-  constexpr ::System::Reflection::AssemblyNameFlags& __cordl_internal_get_flags();
+constexpr ::System::Reflection::AssemblyNameFlags& __cordl_internal_get_flags() ;
 
-  constexpr ::System::Configuration::Assemblies::AssemblyHashAlgorithm const& __cordl_internal_get_hashalg() const;
+constexpr ::System::Configuration::Assemblies::AssemblyHashAlgorithm const& __cordl_internal_get_hashalg() const;
 
-  constexpr ::System::Configuration::Assemblies::AssemblyHashAlgorithm& __cordl_internal_get_hashalg();
+constexpr ::System::Configuration::Assemblies::AssemblyHashAlgorithm& __cordl_internal_get_hashalg() ;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_keyToken() const;
+constexpr ::ArrayW<uint8_t,::Array<uint8_t>*> const& __cordl_internal_get_keyToken() const;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_keyToken();
+constexpr ::ArrayW<uint8_t,::Array<uint8_t>*>& __cordl_internal_get_keyToken() ;
 
-  constexpr ::System::Reflection::StrongNameKeyPair* const& __cordl_internal_get_keypair() const;
+constexpr ::System::Reflection::StrongNameKeyPair* const& __cordl_internal_get_keypair() const;
 
-  constexpr ::System::Reflection::StrongNameKeyPair*& __cordl_internal_get_keypair();
+constexpr ::System::Reflection::StrongNameKeyPair*& __cordl_internal_get_keypair() ;
 
-  constexpr int32_t const& __cordl_internal_get_major() const;
+constexpr int32_t const& __cordl_internal_get_major() const;
 
-  constexpr int32_t& __cordl_internal_get_major();
+constexpr int32_t& __cordl_internal_get_major() ;
 
-  constexpr int32_t const& __cordl_internal_get_minor() const;
+constexpr int32_t const& __cordl_internal_get_minor() const;
 
-  constexpr int32_t& __cordl_internal_get_minor();
+constexpr int32_t& __cordl_internal_get_minor() ;
 
-  constexpr ::StringW const& __cordl_internal_get_name() const;
+constexpr ::StringW const& __cordl_internal_get_name() const;
 
-  constexpr ::StringW& __cordl_internal_get_name();
+constexpr ::StringW& __cordl_internal_get_name() ;
 
-  constexpr ::System::Reflection::ProcessorArchitecture const& __cordl_internal_get_processor_architecture() const;
+constexpr ::System::Reflection::ProcessorArchitecture const& __cordl_internal_get_processor_architecture() const;
 
-  constexpr ::System::Reflection::ProcessorArchitecture& __cordl_internal_get_processor_architecture();
+constexpr ::System::Reflection::ProcessorArchitecture& __cordl_internal_get_processor_architecture() ;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_publicKey() const;
+constexpr ::ArrayW<uint8_t,::Array<uint8_t>*> const& __cordl_internal_get_publicKey() const;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_publicKey();
+constexpr ::ArrayW<uint8_t,::Array<uint8_t>*>& __cordl_internal_get_publicKey() ;
 
-  constexpr int32_t const& __cordl_internal_get_revision() const;
+constexpr int32_t const& __cordl_internal_get_revision() const;
 
-  constexpr int32_t& __cordl_internal_get_revision();
+constexpr int32_t& __cordl_internal_get_revision() ;
 
-  constexpr ::System::Version* const& __cordl_internal_get_version() const;
+constexpr ::System::Version* const& __cordl_internal_get_version() const;
 
-  constexpr ::System::Version*& __cordl_internal_get_version();
+constexpr ::System::Version*& __cordl_internal_get_version() ;
 
-  constexpr ::System::Configuration::Assemblies::AssemblyVersionCompatibility const& __cordl_internal_get_versioncompat() const;
+constexpr ::System::Configuration::Assemblies::AssemblyVersionCompatibility const& __cordl_internal_get_versioncompat() const;
 
-  constexpr ::System::Configuration::Assemblies::AssemblyVersionCompatibility& __cordl_internal_get_versioncompat();
+constexpr ::System::Configuration::Assemblies::AssemblyVersionCompatibility& __cordl_internal_get_versioncompat() ;
 
-  constexpr void __cordl_internal_set_build(int32_t value);
+constexpr void __cordl_internal_set_build(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_codebase(::StringW value);
+constexpr void __cordl_internal_set_codebase(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_contentType(::System::Reflection::AssemblyContentType value);
+constexpr void __cordl_internal_set_contentType(::System::Reflection::AssemblyContentType  value) ;
 
-  constexpr void __cordl_internal_set_cultureinfo(::System::Globalization::CultureInfo* value);
+constexpr void __cordl_internal_set_cultureinfo(::System::Globalization::CultureInfo*  value) ;
 
-  constexpr void __cordl_internal_set_flags(::System::Reflection::AssemblyNameFlags value);
+constexpr void __cordl_internal_set_flags(::System::Reflection::AssemblyNameFlags  value) ;
 
-  constexpr void __cordl_internal_set_hashalg(::System::Configuration::Assemblies::AssemblyHashAlgorithm value);
+constexpr void __cordl_internal_set_hashalg(::System::Configuration::Assemblies::AssemblyHashAlgorithm  value) ;
 
-  constexpr void __cordl_internal_set_keyToken(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+constexpr void __cordl_internal_set_keyToken(::ArrayW<uint8_t,::Array<uint8_t>*>  value) ;
 
-  constexpr void __cordl_internal_set_keypair(::System::Reflection::StrongNameKeyPair* value);
+constexpr void __cordl_internal_set_keypair(::System::Reflection::StrongNameKeyPair*  value) ;
 
-  constexpr void __cordl_internal_set_major(int32_t value);
+constexpr void __cordl_internal_set_major(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_minor(int32_t value);
+constexpr void __cordl_internal_set_minor(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_name(::StringW value);
+constexpr void __cordl_internal_set_name(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_processor_architecture(::System::Reflection::ProcessorArchitecture value);
+constexpr void __cordl_internal_set_processor_architecture(::System::Reflection::ProcessorArchitecture  value) ;
 
-  constexpr void __cordl_internal_set_publicKey(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+constexpr void __cordl_internal_set_publicKey(::ArrayW<uint8_t,::Array<uint8_t>*>  value) ;
 
-  constexpr void __cordl_internal_set_revision(int32_t value);
+constexpr void __cordl_internal_set_revision(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_version(::System::Version* value);
+constexpr void __cordl_internal_set_version(::System::Version*  value) ;
 
-  constexpr void __cordl_internal_set_versioncompat(::System::Configuration::Assemblies::AssemblyVersionCompatibility value);
+constexpr void __cordl_internal_set_versioncompat(::System::Configuration::Assemblies::AssemblyVersionCompatibility  value) ;
 
-  /// @brief Method .ctor, addr 0x59d76a0, size 0xc, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x59d7bac, size 0xc, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method .ctor, addr 0x59d8034, size 0x2d8, virtual false, abstract: false, final false
-  inline void _ctor(::StringW assemblyName);
+/// @brief Method .ctor, addr 0x59d8540, size 0x2d8, virtual false, abstract: false, final false
+inline void _ctor(::StringW  assemblyName) ;
 
-  /// @brief Method .ctor, addr 0x59d830c, size 0x544, virtual false, abstract: false, final false
-  inline void _ctor(::System::Runtime::Serialization::SerializationInfo* si, ::System::Runtime::Serialization::StreamingContext sc);
+/// @brief Method .ctor, addr 0x59d8818, size 0x544, virtual false, abstract: false, final false
+inline void _ctor(::System::Runtime::Serialization::SerializationInfo*  si, ::System::Runtime::Serialization::StreamingContext  sc) ;
 
-  /// @brief Method get_CultureInfo, addr 0x59d8860, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Globalization::CultureInfo* get_CultureInfo();
+/// @brief Method get_CultureInfo, addr 0x59d8d6c, size 0x8, virtual false, abstract: false, final false
+inline ::System::Globalization::CultureInfo* get_CultureInfo() ;
 
-  /// @brief Method get_Flags, addr 0x59d8870, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Reflection::AssemblyNameFlags get_Flags();
+/// @brief Method get_Flags, addr 0x59d8d7c, size 0x8, virtual false, abstract: false, final false
+inline ::System::Reflection::AssemblyNameFlags get_Flags() ;
 
-  /// @brief Method get_FullName, addr 0x59d8880, size 0x374, virtual false, abstract: false, final false
-  inline ::StringW get_FullName();
+/// @brief Method get_FullName, addr 0x59d8d8c, size 0x374, virtual false, abstract: false, final false
+inline ::StringW get_FullName() ;
 
-  /// @brief Method get_IsPublicKeyValid, addr 0x59d8dfc, size 0x84, virtual false, abstract: false, final false
-  inline bool get_IsPublicKeyValid();
+/// @brief Method get_IsPublicKeyValid, addr 0x59d9308, size 0x84, virtual false, abstract: false, final false
+inline bool get_IsPublicKeyValid() ;
 
-  /// @brief Method get_Name, addr 0x59d8850, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_Name();
+/// @brief Method get_Name, addr 0x59d8d5c, size 0x8, virtual false, abstract: false, final false
+inline ::StringW get_Name() ;
 
-  /// @brief Method get_Version, addr 0x59d8cdc, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Version* get_Version();
+/// @brief Method get_Version, addr 0x59d91e8, size 0x8, virtual false, abstract: false, final false
+inline ::System::Version* get_Version() ;
 
-  /// @brief Method get_public_token, addr 0x59d8f64, size 0x60, virtual false, abstract: false, final false
-  static inline void get_public_token(uint8_t* token, uint8_t* pubkey, int32_t len);
+/// @brief Method get_public_token, addr 0x59d9470, size 0x60, virtual false, abstract: false, final false
+static inline void get_public_token(uint8_t*  token, uint8_t*  pubkey, int32_t  len) ;
 
-  /// @brief Convert to "::System::ICloneable"
-  constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
+/// @brief Convert to "::System::ICloneable"
+constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
-  /// @brief Convert to "::System::Runtime::InteropServices::_AssemblyName"
-  constexpr ::System::Runtime::InteropServices::_AssemblyName* i___System__Runtime__InteropServices___AssemblyName() noexcept;
+/// @brief Convert to "::System::Runtime::InteropServices::_AssemblyName"
+constexpr ::System::Runtime::InteropServices::_AssemblyName* i___System__Runtime__InteropServices___AssemblyName() noexcept;
 
-  /// @brief Convert to "::System::Runtime::Serialization::IDeserializationCallback"
-  constexpr ::System::Runtime::Serialization::IDeserializationCallback* i___System__Runtime__Serialization__IDeserializationCallback() noexcept;
+/// @brief Convert to "::System::Runtime::Serialization::IDeserializationCallback"
+constexpr ::System::Runtime::Serialization::IDeserializationCallback* i___System__Runtime__Serialization__IDeserializationCallback() noexcept;
 
-  /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
-  constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
+/// @brief Convert to "::System::Runtime::Serialization::ISerializable"
+constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
 
-  /// @brief Method set_CultureInfo, addr 0x59d8868, size 0x8, virtual false, abstract: false, final false
-  inline void set_CultureInfo(::System::Globalization::CultureInfo* value);
+/// @brief Method set_CultureInfo, addr 0x59d8d74, size 0x8, virtual false, abstract: false, final false
+inline void set_CultureInfo(::System::Globalization::CultureInfo*  value) ;
 
-  /// @brief Method set_Flags, addr 0x59d8878, size 0x8, virtual false, abstract: false, final false
-  inline void set_Flags(::System::Reflection::AssemblyNameFlags value);
+/// @brief Method set_Flags, addr 0x59d8d84, size 0x8, virtual false, abstract: false, final false
+inline void set_Flags(::System::Reflection::AssemblyNameFlags  value) ;
 
-  /// @brief Method set_Name, addr 0x59d8858, size 0x8, virtual false, abstract: false, final false
-  inline void set_Name(::StringW value);
+/// @brief Method set_Name, addr 0x59d8d64, size 0x8, virtual false, abstract: false, final false
+inline void set_Name(::StringW  value) ;
 
-  /// @brief Method set_Version, addr 0x59d76cc, size 0x1c, virtual false, abstract: false, final false
-  inline void set_Version(::System::Version* value);
+/// @brief Method set_Version, addr 0x59d7bd8, size 0x1c, virtual false, abstract: false, final false
+inline void set_Version(::System::Version*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AssemblyName();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr AssemblyName() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AssemblyName", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  AssemblyName(AssemblyName&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AssemblyName", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  AssemblyName(AssemblyName const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "AssemblyName", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+AssemblyName(AssemblyName && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3538 };
+// Ctor Parameters [CppParam { name: "", ty: "AssemblyName", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+AssemblyName(AssemblyName const& ) = delete;
 
-  /// @brief Field name, offset: 0x10, size: 0x8, def value: None
-  ::StringW ___name;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{3538};
 
-  /// @brief Field codebase, offset: 0x18, size: 0x8, def value: None
-  ::StringW ___codebase;
+/// @brief Field name, offset: 0x10, size: 0x8, def value: None
+ ::StringW  ___name;
 
-  /// @brief Field major, offset: 0x20, size: 0x4, def value: None
-  int32_t ___major;
+/// @brief Field codebase, offset: 0x18, size: 0x8, def value: None
+ ::StringW  ___codebase;
 
-  /// @brief Field minor, offset: 0x24, size: 0x4, def value: None
-  int32_t ___minor;
+/// @brief Field major, offset: 0x20, size: 0x4, def value: None
+ int32_t  ___major;
 
-  /// @brief Field build, offset: 0x28, size: 0x4, def value: None
-  int32_t ___build;
+/// @brief Field minor, offset: 0x24, size: 0x4, def value: None
+ int32_t  ___minor;
 
-  /// @brief Field revision, offset: 0x2c, size: 0x4, def value: None
-  int32_t ___revision;
+/// @brief Field build, offset: 0x28, size: 0x4, def value: None
+ int32_t  ___build;
 
-  /// @brief Field cultureinfo, offset: 0x30, size: 0x8, def value: None
-  ::System::Globalization::CultureInfo* ___cultureinfo;
+/// @brief Field revision, offset: 0x2c, size: 0x4, def value: None
+ int32_t  ___revision;
 
-  /// @brief Field flags, offset: 0x38, size: 0x4, def value: None
-  ::System::Reflection::AssemblyNameFlags ___flags;
+/// @brief Field cultureinfo, offset: 0x30, size: 0x8, def value: None
+ ::System::Globalization::CultureInfo*  ___cultureinfo;
 
-  /// @brief Field hashalg, offset: 0x3c, size: 0x4, def value: None
-  ::System::Configuration::Assemblies::AssemblyHashAlgorithm ___hashalg;
+/// @brief Field flags, offset: 0x38, size: 0x4, def value: None
+ ::System::Reflection::AssemblyNameFlags  ___flags;
 
-  /// @brief Field keypair, offset: 0x40, size: 0x8, def value: None
-  ::System::Reflection::StrongNameKeyPair* ___keypair;
+/// @brief Field hashalg, offset: 0x3c, size: 0x4, def value: None
+ ::System::Configuration::Assemblies::AssemblyHashAlgorithm  ___hashalg;
 
-  /// @brief Field publicKey, offset: 0x48, size: 0x8, def value: None
-  ::ArrayW<uint8_t, ::Array<uint8_t>*> ___publicKey;
+/// @brief Field keypair, offset: 0x40, size: 0x8, def value: None
+ ::System::Reflection::StrongNameKeyPair*  ___keypair;
 
-  /// @brief Field keyToken, offset: 0x50, size: 0x8, def value: None
-  ::ArrayW<uint8_t, ::Array<uint8_t>*> ___keyToken;
+/// @brief Field publicKey, offset: 0x48, size: 0x8, def value: None
+ ::ArrayW<uint8_t,::Array<uint8_t>*>  ___publicKey;
 
-  /// @brief Field versioncompat, offset: 0x58, size: 0x4, def value: None
-  ::System::Configuration::Assemblies::AssemblyVersionCompatibility ___versioncompat;
+/// @brief Field keyToken, offset: 0x50, size: 0x8, def value: None
+ ::ArrayW<uint8_t,::Array<uint8_t>*>  ___keyToken;
 
-  /// @brief Field version, offset: 0x60, size: 0x8, def value: None
-  ::System::Version* ___version;
+/// @brief Field versioncompat, offset: 0x58, size: 0x4, def value: None
+ ::System::Configuration::Assemblies::AssemblyVersionCompatibility  ___versioncompat;
 
-  /// @brief Field processor_architecture, offset: 0x68, size: 0x4, def value: None
-  ::System::Reflection::ProcessorArchitecture ___processor_architecture;
+/// @brief Field version, offset: 0x60, size: 0x8, def value: None
+ ::System::Version*  ___version;
 
-  /// @brief Field contentType, offset: 0x6c, size: 0x4, def value: None
-  ::System::Reflection::AssemblyContentType ___contentType;
+/// @brief Field processor_architecture, offset: 0x68, size: 0x4, def value: None
+ ::System::Reflection::ProcessorArchitecture  ___processor_architecture;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field contentType, offset: 0x6c, size: 0x4, def value: None
+ ::System::Reflection::AssemblyContentType  ___contentType;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Reflection::AssemblyName, ___name) == 0x10, "Offset mismatch!");
@@ -437,6 +436,6 @@ static_assert(offsetof(::System::Reflection::AssemblyName, ___contentType) == 0x
 
 static_assert(::cordl_internals::size_check_v<::System::Reflection::AssemblyName, 0x70>, "Size mismatch!");
 
-} // namespace System::Reflection
+} // namespace end def System::Reflection
 NEED_NO_BOX(::System::Reflection::AssemblyName);
 DEFINE_IL2CPP_ARG_TYPE(::System::Reflection::AssemblyName*, "System.Reflection", "AssemblyName");

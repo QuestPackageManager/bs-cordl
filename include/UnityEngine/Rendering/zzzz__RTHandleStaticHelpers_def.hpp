@@ -17,42 +17,42 @@ struct RTHandleStaticHelpers;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::RTHandleStaticHelpers);
-// Dependencies
+// Dependencies 
 namespace UnityEngine::Rendering {
 // Is value type: true
 // CS Name: UnityEngine.Rendering.RTHandleStaticHelpers
 #pragma pack(push, 0)
 struct CORDL_TYPE RTHandleStaticHelpers {
 public:
-  // Declarations
-  /// @brief Field s_RTHandleWrapper, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_s_RTHandleWrapper, put = setStaticF_s_RTHandleWrapper)) ::UnityEngine::Rendering::RTHandle* s_RTHandleWrapper;
+// Declarations
+/// @brief Field s_RTHandleWrapper, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_s_RTHandleWrapper, put=setStaticF_s_RTHandleWrapper)) ::UnityEngine::Rendering::RTHandle*  s_RTHandleWrapper;
 
-  /// @brief Method SetRTHandleStaticWrapper, addr 0x65f3d2c, size 0xcc, virtual false, abstract: false, final false
-  static inline void SetRTHandleStaticWrapper(::UnityEngine::Rendering::RenderTargetIdentifier rtId);
+/// @brief Method SetRTHandleStaticWrapper, addr 0x65f43ec, size 0xcc, virtual false, abstract: false, final false
+static inline void SetRTHandleStaticWrapper(::UnityEngine::Rendering::RenderTargetIdentifier  rtId) ;
 
-  /// @brief Method SetRTHandleUserManagedWrapper, addr 0x65f3e9c, size 0x30, virtual false, abstract: false, final false
-  static inline void SetRTHandleUserManagedWrapper(::ByRef<::UnityEngine::Rendering::RTHandle*> rtWrapper, ::UnityEngine::Rendering::RenderTargetIdentifier rtId);
+/// @brief Method SetRTHandleUserManagedWrapper, addr 0x65f455c, size 0x30, virtual false, abstract: false, final false
+static inline void SetRTHandleUserManagedWrapper(::ByRef<::UnityEngine::Rendering::RTHandle*>  rtWrapper, ::UnityEngine::Rendering::RenderTargetIdentifier  rtId) ;
 
-  static inline ::UnityEngine::Rendering::RTHandle* getStaticF_s_RTHandleWrapper();
+static inline ::UnityEngine::Rendering::RTHandle* getStaticF_s_RTHandleWrapper() ;
 
-  static inline void setStaticF_s_RTHandleWrapper(::UnityEngine::Rendering::RTHandle* value);
+static inline void setStaticF_s_RTHandleWrapper(::UnityEngine::Rendering::RTHandle*  value) ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RTHandleStaticHelpers();
+// Ctor Parameters []
+// @brief default ctor
+constexpr RTHandleStaticHelpers() ;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12215 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12219};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x1};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::RTHandleStaticHelpers, 0x1>, "Size mismatch!");
 
-} // namespace UnityEngine::Rendering
+} // namespace end def UnityEngine::Rendering
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::RTHandleStaticHelpers, "UnityEngine.Rendering", "RTHandleStaticHelpers");

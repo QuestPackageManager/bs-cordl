@@ -18,69 +18,69 @@ namespace UnityEngine::Rendering {
 // CS Name: UnityEngine.Rendering.CurrentPipelineHelpURLAttribute
 class CORDL_TYPE CurrentPipelineHelpURLAttribute : public ::UnityEngine::HelpURLAttribute {
 public:
-  // Declarations
-  __declspec(property(get = get_URL)) ::StringW URL;
+// Declarations
+ __declspec(property(get=get_URL)) ::StringW  URL;
 
-  /// @brief Field <pageHash>k__BackingField, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__pageHash_k__BackingField, put = __cordl_internal_set__pageHash_k__BackingField)) ::StringW _pageHash_k__BackingField;
+/// @brief Field <pageHash>k__BackingField, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get__pageHash_k__BackingField, put=__cordl_internal_set__pageHash_k__BackingField)) ::StringW  _pageHash_k__BackingField;
 
-  /// @brief Field <pageName>k__BackingField, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__pageName_k__BackingField, put = __cordl_internal_set__pageName_k__BackingField)) ::StringW _pageName_k__BackingField;
+/// @brief Field <pageName>k__BackingField, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get__pageName_k__BackingField, put=__cordl_internal_set__pageName_k__BackingField)) ::StringW  _pageName_k__BackingField;
 
-  __declspec(property(get = get_pageHash)) ::StringW pageHash;
+ __declspec(property(get=get_pageHash)) ::StringW  pageHash;
 
-  __declspec(property(get = get_pageName)) ::StringW pageName;
+ __declspec(property(get=get_pageName)) ::StringW  pageName;
 
-  static inline ::UnityEngine::Rendering::CurrentPipelineHelpURLAttribute* New_ctor(::StringW pageName, ::StringW pageHash);
+static inline ::UnityEngine::Rendering::CurrentPipelineHelpURLAttribute* New_ctor(::StringW  pageName, ::StringW  pageHash) ;
 
-  constexpr ::StringW const& __cordl_internal_get__pageHash_k__BackingField() const;
+constexpr ::StringW const& __cordl_internal_get__pageHash_k__BackingField() const;
 
-  constexpr ::StringW& __cordl_internal_get__pageHash_k__BackingField();
+constexpr ::StringW& __cordl_internal_get__pageHash_k__BackingField() ;
 
-  constexpr ::StringW const& __cordl_internal_get__pageName_k__BackingField() const;
+constexpr ::StringW const& __cordl_internal_get__pageName_k__BackingField() const;
 
-  constexpr ::StringW& __cordl_internal_get__pageName_k__BackingField();
+constexpr ::StringW& __cordl_internal_get__pageName_k__BackingField() ;
 
-  constexpr void __cordl_internal_set__pageHash_k__BackingField(::StringW value);
+constexpr void __cordl_internal_set__pageHash_k__BackingField(::StringW  value) ;
 
-  constexpr void __cordl_internal_set__pageName_k__BackingField(::StringW value);
+constexpr void __cordl_internal_set__pageName_k__BackingField(::StringW  value) ;
 
-  /// @brief Method .ctor, addr 0x65d0a90, size 0x68, virtual false, abstract: false, final false
-  inline void _ctor(::StringW pageName, ::StringW pageHash);
+/// @brief Method .ctor, addr 0x65d1150, size 0x68, virtual false, abstract: false, final false
+inline void _ctor(::StringW  pageName, ::StringW  pageHash) ;
 
-  /// @brief Method get_URL, addr 0x65d0af8, size 0x14, virtual true, abstract: false, final false
-  inline ::StringW get_URL();
+/// @brief Method get_URL, addr 0x65d11b8, size 0x14, virtual true, abstract: false, final false
+inline ::StringW get_URL() ;
 
-  /// @brief Method get_pageHash, addr 0x65d0a88, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_pageHash();
+/// @brief Method get_pageHash, addr 0x65d1148, size 0x8, virtual false, abstract: false, final false
+inline ::StringW get_pageHash() ;
 
-  /// @brief Method get_pageName, addr 0x65d0a80, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_pageName();
+/// @brief Method get_pageName, addr 0x65d1140, size 0x8, virtual false, abstract: false, final false
+inline ::StringW get_pageName() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CurrentPipelineHelpURLAttribute();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr CurrentPipelineHelpURLAttribute() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CurrentPipelineHelpURLAttribute", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  CurrentPipelineHelpURLAttribute(CurrentPipelineHelpURLAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CurrentPipelineHelpURLAttribute", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  CurrentPipelineHelpURLAttribute(CurrentPipelineHelpURLAttribute const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "CurrentPipelineHelpURLAttribute", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+CurrentPipelineHelpURLAttribute(CurrentPipelineHelpURLAttribute && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12044 };
+// Ctor Parameters [CppParam { name: "", ty: "CurrentPipelineHelpURLAttribute", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+CurrentPipelineHelpURLAttribute(CurrentPipelineHelpURLAttribute const& ) = delete;
 
-  /// @brief Field <pageName>k__BackingField, offset: 0x28, size: 0x8, def value: None
-  ::StringW ____pageName_k__BackingField;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12048};
 
-  /// @brief Field <pageHash>k__BackingField, offset: 0x30, size: 0x8, def value: None
-  ::StringW ____pageHash_k__BackingField;
+/// @brief Field <pageName>k__BackingField, offset: 0x28, size: 0x8, def value: None
+ ::StringW  ____pageName_k__BackingField;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field <pageHash>k__BackingField, offset: 0x30, size: 0x8, def value: None
+ ::StringW  ____pageHash_k__BackingField;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Rendering::CurrentPipelineHelpURLAttribute, ____pageName_k__BackingField) == 0x28, "Offset mismatch!");
@@ -89,6 +89,6 @@ static_assert(offsetof(::UnityEngine::Rendering::CurrentPipelineHelpURLAttribute
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::CurrentPipelineHelpURLAttribute, 0x38>, "Size mismatch!");
 
-} // namespace UnityEngine::Rendering
+} // namespace end def UnityEngine::Rendering
 NEED_NO_BOX(::UnityEngine::Rendering::CurrentPipelineHelpURLAttribute);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::CurrentPipelineHelpURLAttribute*, "UnityEngine.Rendering", "CurrentPipelineHelpURLAttribute");

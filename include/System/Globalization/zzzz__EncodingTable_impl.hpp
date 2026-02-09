@@ -7,171 +7,191 @@
 #include "System/Globalization/zzzz__InternalCodePageDataItem_def.hpp"
 #include "System/Globalization/zzzz__InternalEncodingDataItem_def.hpp"
 //  Writing Method size for method: ::System::Globalization::EncodingTable.GetNumEncodingItems
-template <>
+template<>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)()>(&::System::Globalization::EncodingTable::GetNumEncodingItems)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x5a231bc;
+  constexpr static std::size_t addrs = 0x5a236c8;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::EncodingTable*>::get(),
-                                                                               "GetNumEncodingItems", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::EncodingTable*>::get(),
+                        "GetNumEncodingItems",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Globalization::EncodingTable.ENC
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Globalization::InternalEncodingDataItem (*)(::StringW, uint16_t)>(
-    &::System::Globalization::EncodingTable::ENC)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Globalization::InternalEncodingDataItem (*)(::StringW, uint16_t)>(&::System::Globalization::EncodingTable::ENC)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5a23224;
+  constexpr static std::size_t addrs = 0x5a23730;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::EncodingTable*>::get(), "ENC", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint16_t>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::EncodingTable*>::get(),
+                        "ENC",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint16_t>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Globalization::EncodingTable.MapCodePageDataItem
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Globalization::InternalCodePageDataItem (*)(uint16_t, uint16_t, ::StringW, uint32_t)>(
-    &::System::Globalization::EncodingTable::MapCodePageDataItem)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Globalization::InternalCodePageDataItem (*)(uint16_t, uint16_t, ::StringW, uint32_t)>(&::System::Globalization::EncodingTable::MapCodePageDataItem)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x5a2322c;
+  constexpr static std::size_t addrs = 0x5a23738;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::EncodingTable*>::get(), "MapCodePageDataItem", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint16_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint16_t>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::EncodingTable*>::get(),
+                        "MapCodePageDataItem",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint16_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint16_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Globalization::EncodingTable.internalGetCodePageFromName
-template <>
+template<>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::StringW)>(&::System::Globalization::EncodingTable::internalGetCodePageFromName)> {
   constexpr static std::size_t size = 0x238;
-  constexpr static std::size_t addrs = 0x5a28cec;
+  constexpr static std::size_t addrs = 0x5a291f8;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::EncodingTable*>::get(), "internalGetCodePageFromName",
-                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::EncodingTable*>::get(),
+                        "internalGetCodePageFromName",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Globalization::EncodingTable.GetCodePageFromName
-template <>
+template<>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::StringW)>(&::System::Globalization::EncodingTable::GetCodePageFromName)> {
   constexpr static std::size_t size = 0x2a4;
-  constexpr static std::size_t addrs = 0x5a28f44;
+  constexpr static std::size_t addrs = 0x5a29450;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::EncodingTable*>::get(), "GetCodePageFromName",
-                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::EncodingTable*>::get(),
+                        "GetCodePageFromName",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Globalization::EncodingTable.GetCodePageDataItem
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Globalization::CodePageDataItem* (*)(int32_t)>(
-    &::System::Globalization::EncodingTable::GetCodePageDataItem)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Globalization::CodePageDataItem* (*)(int32_t)>(&::System::Globalization::EncodingTable::GetCodePageDataItem)> {
   constexpr static std::size_t size = 0x2d4;
-  constexpr static std::size_t addrs = 0x5a291e8;
+  constexpr static std::size_t addrs = 0x5a296f4;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::EncodingTable*>::get(), "GetCodePageDataItem",
-                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::EncodingTable*>::get(),
+                        "GetCodePageDataItem",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
+                    )));
     return ___internal_method;
   }
 };
-inline void
-System::Globalization::EncodingTable::setStaticF_encodingDataPtr(::ArrayW<::System::Globalization::InternalEncodingDataItem, ::Array<::System::Globalization::InternalEncodingDataItem>*> value) {
-  ::cordl_internals::setStaticField<::ArrayW<::System::Globalization::InternalEncodingDataItem, ::Array<::System::Globalization::InternalEncodingDataItem>*>, "encodingDataPtr",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::EncodingTable*>::get>(
-      std::forward<::ArrayW<::System::Globalization::InternalEncodingDataItem, ::Array<::System::Globalization::InternalEncodingDataItem>*>>(value));
+inline void System::Globalization::EncodingTable::setStaticF_encodingDataPtr(::ArrayW<::System::Globalization::InternalEncodingDataItem,::Array<::System::Globalization::InternalEncodingDataItem>*>  value)  {
+::cordl_internals::setStaticField<::ArrayW<::System::Globalization::InternalEncodingDataItem,::Array<::System::Globalization::InternalEncodingDataItem>*>, "encodingDataPtr", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::EncodingTable*>::get>(std::forward<::ArrayW<::System::Globalization::InternalEncodingDataItem,::Array<::System::Globalization::InternalEncodingDataItem>*>>(value));
 }
-inline ::ArrayW<::System::Globalization::InternalEncodingDataItem, ::Array<::System::Globalization::InternalEncodingDataItem>*> System::Globalization::EncodingTable::getStaticF_encodingDataPtr() {
-  return ::cordl_internals::getStaticField<::ArrayW<::System::Globalization::InternalEncodingDataItem, ::Array<::System::Globalization::InternalEncodingDataItem>*>, "encodingDataPtr",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::EncodingTable*>::get>();
+inline ::ArrayW<::System::Globalization::InternalEncodingDataItem,::Array<::System::Globalization::InternalEncodingDataItem>*> System::Globalization::EncodingTable::getStaticF_encodingDataPtr()  {
+return ::cordl_internals::getStaticField<::ArrayW<::System::Globalization::InternalEncodingDataItem,::Array<::System::Globalization::InternalEncodingDataItem>*>, "encodingDataPtr", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::EncodingTable*>::get>();
 }
-inline void
-System::Globalization::EncodingTable::setStaticF_codePageDataPtr(::ArrayW<::System::Globalization::InternalCodePageDataItem, ::Array<::System::Globalization::InternalCodePageDataItem>*> value) {
-  ::cordl_internals::setStaticField<::ArrayW<::System::Globalization::InternalCodePageDataItem, ::Array<::System::Globalization::InternalCodePageDataItem>*>, "codePageDataPtr",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::EncodingTable*>::get>(
-      std::forward<::ArrayW<::System::Globalization::InternalCodePageDataItem, ::Array<::System::Globalization::InternalCodePageDataItem>*>>(value));
+inline void System::Globalization::EncodingTable::setStaticF_codePageDataPtr(::ArrayW<::System::Globalization::InternalCodePageDataItem,::Array<::System::Globalization::InternalCodePageDataItem>*>  value)  {
+::cordl_internals::setStaticField<::ArrayW<::System::Globalization::InternalCodePageDataItem,::Array<::System::Globalization::InternalCodePageDataItem>*>, "codePageDataPtr", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::EncodingTable*>::get>(std::forward<::ArrayW<::System::Globalization::InternalCodePageDataItem,::Array<::System::Globalization::InternalCodePageDataItem>*>>(value));
 }
-inline ::ArrayW<::System::Globalization::InternalCodePageDataItem, ::Array<::System::Globalization::InternalCodePageDataItem>*> System::Globalization::EncodingTable::getStaticF_codePageDataPtr() {
-  return ::cordl_internals::getStaticField<::ArrayW<::System::Globalization::InternalCodePageDataItem, ::Array<::System::Globalization::InternalCodePageDataItem>*>, "codePageDataPtr",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::EncodingTable*>::get>();
+inline ::ArrayW<::System::Globalization::InternalCodePageDataItem,::Array<::System::Globalization::InternalCodePageDataItem>*> System::Globalization::EncodingTable::getStaticF_codePageDataPtr()  {
+return ::cordl_internals::getStaticField<::ArrayW<::System::Globalization::InternalCodePageDataItem,::Array<::System::Globalization::InternalCodePageDataItem>*>, "codePageDataPtr", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::EncodingTable*>::get>();
 }
-inline void System::Globalization::EncodingTable::setStaticF_lastEncodingItem(int32_t value) {
-  ::cordl_internals::setStaticField<int32_t, "lastEncodingItem", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::EncodingTable*>::get>(std::forward<int32_t>(value));
+inline void System::Globalization::EncodingTable::setStaticF_lastEncodingItem(int32_t  value)  {
+::cordl_internals::setStaticField<int32_t, "lastEncodingItem", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::EncodingTable*>::get>(std::forward<int32_t>(value));
 }
-inline int32_t System::Globalization::EncodingTable::getStaticF_lastEncodingItem() {
-  return ::cordl_internals::getStaticField<int32_t, "lastEncodingItem", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::EncodingTable*>::get>();
+inline int32_t System::Globalization::EncodingTable::getStaticF_lastEncodingItem()  {
+return ::cordl_internals::getStaticField<int32_t, "lastEncodingItem", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::EncodingTable*>::get>();
 }
-inline void System::Globalization::EncodingTable::setStaticF_hashByName(::System::Collections::Generic::Dictionary_2<::StringW, int32_t>* value) {
-  ::cordl_internals::setStaticField<::System::Collections::Generic::Dictionary_2<::StringW, int32_t>*, "hashByName",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::EncodingTable*>::get>(
-      std::forward<::System::Collections::Generic::Dictionary_2<::StringW, int32_t>*>(value));
+inline void System::Globalization::EncodingTable::setStaticF_hashByName(::System::Collections::Generic::Dictionary_2<::StringW,int32_t>*  value)  {
+::cordl_internals::setStaticField<::System::Collections::Generic::Dictionary_2<::StringW,int32_t>*, "hashByName", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::EncodingTable*>::get>(std::forward<::System::Collections::Generic::Dictionary_2<::StringW,int32_t>*>(value));
 }
-inline ::System::Collections::Generic::Dictionary_2<::StringW, int32_t>* System::Globalization::EncodingTable::getStaticF_hashByName() {
-  return ::cordl_internals::getStaticField<::System::Collections::Generic::Dictionary_2<::StringW, int32_t>*, "hashByName",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::EncodingTable*>::get>();
+inline ::System::Collections::Generic::Dictionary_2<::StringW,int32_t>* System::Globalization::EncodingTable::getStaticF_hashByName()  {
+return ::cordl_internals::getStaticField<::System::Collections::Generic::Dictionary_2<::StringW,int32_t>*, "hashByName", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::EncodingTable*>::get>();
 }
-inline void System::Globalization::EncodingTable::setStaticF_hashByCodePage(::System::Collections::Generic::Dictionary_2<int32_t, ::System::Globalization::CodePageDataItem*>* value) {
-  ::cordl_internals::setStaticField<::System::Collections::Generic::Dictionary_2<int32_t, ::System::Globalization::CodePageDataItem*>*, "hashByCodePage",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::EncodingTable*>::get>(
-      std::forward<::System::Collections::Generic::Dictionary_2<int32_t, ::System::Globalization::CodePageDataItem*>*>(value));
+inline void System::Globalization::EncodingTable::setStaticF_hashByCodePage(::System::Collections::Generic::Dictionary_2<int32_t,::System::Globalization::CodePageDataItem*>*  value)  {
+::cordl_internals::setStaticField<::System::Collections::Generic::Dictionary_2<int32_t,::System::Globalization::CodePageDataItem*>*, "hashByCodePage", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::EncodingTable*>::get>(std::forward<::System::Collections::Generic::Dictionary_2<int32_t,::System::Globalization::CodePageDataItem*>*>(value));
 }
-inline ::System::Collections::Generic::Dictionary_2<int32_t, ::System::Globalization::CodePageDataItem*>* System::Globalization::EncodingTable::getStaticF_hashByCodePage() {
-  return ::cordl_internals::getStaticField<::System::Collections::Generic::Dictionary_2<int32_t, ::System::Globalization::CodePageDataItem*>*, "hashByCodePage",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::EncodingTable*>::get>();
+inline ::System::Collections::Generic::Dictionary_2<int32_t,::System::Globalization::CodePageDataItem*>* System::Globalization::EncodingTable::getStaticF_hashByCodePage()  {
+return ::cordl_internals::getStaticField<::System::Collections::Generic::Dictionary_2<int32_t,::System::Globalization::CodePageDataItem*>*, "hashByCodePage", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::EncodingTable*>::get>();
 }
-inline int32_t System::Globalization::EncodingTable::GetNumEncodingItems() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::EncodingTable*>::get(),
-                                                                             "GetNumEncodingItems", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method);
+inline int32_t System::Globalization::EncodingTable::GetNumEncodingItems()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::EncodingTable*>::get(),
+                        "GetNumEncodingItems",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method);
 }
-inline ::System::Globalization::InternalEncodingDataItem System::Globalization::EncodingTable::ENC(::StringW name, uint16_t cp) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::EncodingTable*>::get(), "ENC", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint16_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::System::Globalization::InternalEncodingDataItem, false>(nullptr, ___internal_method, name, cp);
+inline ::System::Globalization::InternalEncodingDataItem System::Globalization::EncodingTable::ENC(::StringW  name, uint16_t  cp)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::EncodingTable*>::get(),
+                        "ENC",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint16_t>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Globalization::InternalEncodingDataItem, false>(nullptr, ___internal_method, name, cp);
 }
-inline ::System::Globalization::InternalCodePageDataItem System::Globalization::EncodingTable::MapCodePageDataItem(uint16_t cp, uint16_t fcp, ::StringW names, uint32_t flags) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::EncodingTable*>::get(), "MapCodePageDataItem", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint16_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint16_t>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::System::Globalization::InternalCodePageDataItem, false>(nullptr, ___internal_method, cp, fcp, names, flags);
+inline ::System::Globalization::InternalCodePageDataItem System::Globalization::EncodingTable::MapCodePageDataItem(uint16_t  cp, uint16_t  fcp, ::StringW  names, uint32_t  flags)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::EncodingTable*>::get(),
+                        "MapCodePageDataItem",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint16_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint16_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Globalization::InternalCodePageDataItem, false>(nullptr, ___internal_method, cp, fcp, names, flags);
 }
-inline int32_t System::Globalization::EncodingTable::internalGetCodePageFromName(::StringW name) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::EncodingTable*>::get(), "internalGetCodePageFromName",
-                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
-  return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, name);
+inline int32_t System::Globalization::EncodingTable::internalGetCodePageFromName(::StringW  name)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::EncodingTable*>::get(),
+                        "internalGetCodePageFromName",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, name);
 }
-inline int32_t System::Globalization::EncodingTable::GetCodePageFromName(::StringW name) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::EncodingTable*>::get(), "GetCodePageFromName",
-                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
-  return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, name);
+inline int32_t System::Globalization::EncodingTable::GetCodePageFromName(::StringW  name)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::EncodingTable*>::get(),
+                        "GetCodePageFromName",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, name);
 }
-inline ::System::Globalization::CodePageDataItem* System::Globalization::EncodingTable::GetCodePageDataItem(int32_t codepage) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::EncodingTable*>::get(), "GetCodePageDataItem",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::System::Globalization::CodePageDataItem*, false>(nullptr, ___internal_method, codepage);
+inline ::System::Globalization::CodePageDataItem* System::Globalization::EncodingTable::GetCodePageDataItem(int32_t  codepage)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::EncodingTable*>::get(),
+                        "GetCodePageDataItem",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Globalization::CodePageDataItem*, false>(nullptr, ___internal_method, codepage);
 }
 // Ctor Parameters []
-constexpr ::System::Globalization::EncodingTable::EncodingTable() {}
+constexpr ::System::Globalization::EncodingTable::EncodingTable()   {
+}

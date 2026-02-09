@@ -13,28 +13,28 @@ class ITimelineClipAsset;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::Timeline::ITimelineClipAsset);
-// Dependencies
+// Dependencies 
 namespace UnityEngine::Timeline {
 // Is value type: false
 // CS Name: UnityEngine.Timeline.ITimelineClipAsset
 class CORDL_TYPE ITimelineClipAsset {
 public:
-  // Declarations
-  __declspec(property(get = get_clipCaps)) ::UnityEngine::Timeline::ClipCaps clipCaps;
+// Declarations
+ __declspec(property(get=get_clipCaps)) ::UnityEngine::Timeline::ClipCaps  clipCaps;
 
-  /// @brief Method get_clipCaps, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline ::UnityEngine::Timeline::ClipCaps get_clipCaps();
+/// @brief Method get_clipCaps, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline ::UnityEngine::Timeline::ClipCaps get_clipCaps() ;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ITimelineClipAsset", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ITimelineClipAsset(ITimelineClipAsset const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ITimelineClipAsset", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ITimelineClipAsset(ITimelineClipAsset const& ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19076 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{19080};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-} // namespace UnityEngine::Timeline
+} // namespace end def UnityEngine::Timeline
 NEED_NO_BOX(::UnityEngine::Timeline::ITimelineClipAsset);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Timeline::ITimelineClipAsset*, "UnityEngine.Timeline", "ITimelineClipAsset");

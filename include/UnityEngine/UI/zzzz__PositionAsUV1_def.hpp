@@ -20,37 +20,37 @@ namespace UnityEngine::UI {
 // CS Name: UnityEngine.UI.PositionAsUV1
 class CORDL_TYPE PositionAsUV1 : public ::UnityEngine::UI::BaseMeshEffect {
 public:
-  // Declarations
-  /// @brief Method ModifyMesh, addr 0x6c485c8, size 0xe0, virtual true, abstract: false, final false
-  inline void ModifyMesh(::UnityEngine::UI::VertexHelper* vh);
+// Declarations
+/// @brief Method ModifyMesh, addr 0x6c48c88, size 0xe0, virtual true, abstract: false, final false
+inline void ModifyMesh(::UnityEngine::UI::VertexHelper*  vh) ;
 
-  static inline ::UnityEngine::UI::PositionAsUV1* New_ctor();
+static inline ::UnityEngine::UI::PositionAsUV1* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x6c485c4, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6c48c84, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PositionAsUV1();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr PositionAsUV1() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PositionAsUV1", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  PositionAsUV1(PositionAsUV1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PositionAsUV1", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  PositionAsUV1(PositionAsUV1 const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "PositionAsUV1", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+PositionAsUV1(PositionAsUV1 && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17485 };
+// Ctor Parameters [CppParam { name: "", ty: "PositionAsUV1", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+PositionAsUV1(PositionAsUV1 const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{17489};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UI::PositionAsUV1, 0x28>, "Size mismatch!");
 
-} // namespace UnityEngine::UI
+} // namespace end def UnityEngine::UI
 NEED_NO_BOX(::UnityEngine::UI::PositionAsUV1);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UI::PositionAsUV1*, "UnityEngine.UI", "PositionAsUV1");

@@ -21,60 +21,60 @@ namespace GlobalNamespace {
 // CS Name: OVRProgressIndicator
 class CORDL_TYPE OVRProgressIndicator : public ::UnityEngine::MonoBehaviour {
 public:
-  // Declarations
-  /// @brief Field currentProgress, offset 0x28, size 0x4
-  __declspec(property(get = __cordl_internal_get_currentProgress, put = __cordl_internal_set_currentProgress)) float_t currentProgress;
+// Declarations
+/// @brief Field currentProgress, offset 0x28, size 0x4 
+ __declspec(property(get=__cordl_internal_get_currentProgress, put=__cordl_internal_set_currentProgress)) float_t  currentProgress;
 
-  /// @brief Field progressImage, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_progressImage, put = __cordl_internal_set_progressImage)) ::UnityW<::UnityEngine::MeshRenderer> progressImage;
+/// @brief Field progressImage, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get_progressImage, put=__cordl_internal_set_progressImage)) ::UnityW<::UnityEngine::MeshRenderer>  progressImage;
 
-  /// @brief Method Awake, addr 0x5d5ba5c, size 0x1c, virtual false, abstract: false, final false
-  inline void Awake();
+/// @brief Method Awake, addr 0x5d5bf68, size 0x1c, virtual false, abstract: false, final false
+inline void Awake() ;
 
-  static inline ::GlobalNamespace::OVRProgressIndicator* New_ctor();
+static inline ::GlobalNamespace::OVRProgressIndicator* New_ctor() ;
 
-  /// @brief Method Update, addr 0x5d5ba78, size 0x84, virtual false, abstract: false, final false
-  inline void Update();
+/// @brief Method Update, addr 0x5d5bf84, size 0x84, virtual false, abstract: false, final false
+inline void Update() ;
 
-  constexpr float_t const& __cordl_internal_get_currentProgress() const;
+constexpr float_t const& __cordl_internal_get_currentProgress() const;
 
-  constexpr float_t& __cordl_internal_get_currentProgress();
+constexpr float_t& __cordl_internal_get_currentProgress() ;
 
-  constexpr ::UnityW<::UnityEngine::MeshRenderer> const& __cordl_internal_get_progressImage() const;
+constexpr ::UnityW<::UnityEngine::MeshRenderer> const& __cordl_internal_get_progressImage() const;
 
-  constexpr ::UnityW<::UnityEngine::MeshRenderer>& __cordl_internal_get_progressImage();
+constexpr ::UnityW<::UnityEngine::MeshRenderer>& __cordl_internal_get_progressImage() ;
 
-  constexpr void __cordl_internal_set_currentProgress(float_t value);
+constexpr void __cordl_internal_set_currentProgress(float_t  value) ;
 
-  constexpr void __cordl_internal_set_progressImage(::UnityW<::UnityEngine::MeshRenderer> value);
+constexpr void __cordl_internal_set_progressImage(::UnityW<::UnityEngine::MeshRenderer>  value) ;
 
-  /// @brief Method .ctor, addr 0x5d5bafc, size 0x10, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5d5c008, size 0x10, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr OVRProgressIndicator();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr OVRProgressIndicator() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRProgressIndicator", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  OVRProgressIndicator(OVRProgressIndicator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRProgressIndicator", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  OVRProgressIndicator(OVRProgressIndicator const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "OVRProgressIndicator", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+OVRProgressIndicator(OVRProgressIndicator && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7947 };
+// Ctor Parameters [CppParam { name: "", ty: "OVRProgressIndicator", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+OVRProgressIndicator(OVRProgressIndicator const& ) = delete;
 
-  /// @brief Field progressImage, offset: 0x20, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::MeshRenderer> ___progressImage;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{7951};
 
-  /// @brief Field currentProgress, offset: 0x28, size: 0x4, def value: None
-  float_t ___currentProgress;
+/// @brief Field progressImage, offset: 0x20, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::MeshRenderer>  ___progressImage;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field currentProgress, offset: 0x28, size: 0x4, def value: None
+ float_t  ___currentProgress;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::OVRProgressIndicator, ___progressImage) == 0x20, "Offset mismatch!");
@@ -83,6 +83,6 @@ static_assert(offsetof(::GlobalNamespace::OVRProgressIndicator, ___currentProgre
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRProgressIndicator, 0x30>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::OVRProgressIndicator);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRProgressIndicator*, "", "OVRProgressIndicator");

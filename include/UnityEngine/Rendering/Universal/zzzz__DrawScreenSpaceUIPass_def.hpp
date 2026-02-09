@@ -13,7 +13,8 @@ namespace UnityEngine::Experimental::Rendering {
 struct GraphicsFormat;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
-template <typename PassData, typename ContextType> class BaseRenderFunc_2;
+template<typename PassData,typename ContextType>
+class BaseRenderFunc_2;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
 struct RasterGraphContext;
@@ -93,103 +94,103 @@ namespace UnityEngine::Rendering::Universal {
 // CS Name: UnityEngine.Rendering.Universal.DrawScreenSpaceUIPass/PassData
 class CORDL_TYPE DrawScreenSpaceUIPass_PassData : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field rendererList, offset 0x10, size 0xc
-  __declspec(property(get = __cordl_internal_get_rendererList, put = __cordl_internal_set_rendererList)) ::UnityEngine::Rendering::RenderGraphModule::RendererListHandle rendererList;
+// Declarations
+/// @brief Field rendererList, offset 0x10, size 0xc 
+ __declspec(property(get=__cordl_internal_get_rendererList, put=__cordl_internal_set_rendererList)) ::UnityEngine::Rendering::RenderGraphModule::RendererListHandle  rendererList;
 
-  static inline ::UnityEngine::Rendering::Universal::DrawScreenSpaceUIPass_PassData* New_ctor();
+static inline ::UnityEngine::Rendering::Universal::DrawScreenSpaceUIPass_PassData* New_ctor() ;
 
-  constexpr ::UnityEngine::Rendering::RenderGraphModule::RendererListHandle const& __cordl_internal_get_rendererList() const;
+constexpr ::UnityEngine::Rendering::RenderGraphModule::RendererListHandle const& __cordl_internal_get_rendererList() const;
 
-  constexpr ::UnityEngine::Rendering::RenderGraphModule::RendererListHandle& __cordl_internal_get_rendererList();
+constexpr ::UnityEngine::Rendering::RenderGraphModule::RendererListHandle& __cordl_internal_get_rendererList() ;
 
-  constexpr void __cordl_internal_set_rendererList(::UnityEngine::Rendering::RenderGraphModule::RendererListHandle value);
+constexpr void __cordl_internal_set_rendererList(::UnityEngine::Rendering::RenderGraphModule::RendererListHandle  value) ;
 
-  /// @brief Method .ctor, addr 0x66c9af8, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x66ca1b8, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DrawScreenSpaceUIPass_PassData();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr DrawScreenSpaceUIPass_PassData() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DrawScreenSpaceUIPass_PassData", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  DrawScreenSpaceUIPass_PassData(DrawScreenSpaceUIPass_PassData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DrawScreenSpaceUIPass_PassData", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  DrawScreenSpaceUIPass_PassData(DrawScreenSpaceUIPass_PassData const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "DrawScreenSpaceUIPass_PassData", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+DrawScreenSpaceUIPass_PassData(DrawScreenSpaceUIPass_PassData && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12801 };
+// Ctor Parameters [CppParam { name: "", ty: "DrawScreenSpaceUIPass_PassData", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+DrawScreenSpaceUIPass_PassData(DrawScreenSpaceUIPass_PassData const& ) = delete;
 
-  /// @brief Field rendererList, offset: 0x10, size: 0xc, def value: None
-  ::UnityEngine::Rendering::RenderGraphModule::RendererListHandle ___rendererList;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12805};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field rendererList, offset: 0x10, size: 0xc, def value: None
+ ::UnityEngine::Rendering::RenderGraphModule::RendererListHandle  ___rendererList;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Rendering::Universal::DrawScreenSpaceUIPass_PassData, ___rendererList) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::Universal::DrawScreenSpaceUIPass_PassData, 0x20>, "Size mismatch!");
 
-} // namespace UnityEngine::Rendering::Universal
+} // namespace end def UnityEngine::Rendering::Universal
 // Dependencies System.Object, UnityEngine.Rendering.RenderGraphModule.RendererListHandle, UnityEngine.Rendering.RenderGraphModule.TextureHandle
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
 // CS Name: UnityEngine.Rendering.Universal.DrawScreenSpaceUIPass/UnsafePassData
 class CORDL_TYPE DrawScreenSpaceUIPass_UnsafePassData : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field colorTarget, offset 0x1c, size 0x10
-  __declspec(property(get = __cordl_internal_get_colorTarget, put = __cordl_internal_set_colorTarget)) ::UnityEngine::Rendering::RenderGraphModule::TextureHandle colorTarget;
+// Declarations
+/// @brief Field colorTarget, offset 0x1c, size 0x10 
+ __declspec(property(get=__cordl_internal_get_colorTarget, put=__cordl_internal_set_colorTarget)) ::UnityEngine::Rendering::RenderGraphModule::TextureHandle  colorTarget;
 
-  /// @brief Field rendererList, offset 0x10, size 0xc
-  __declspec(property(get = __cordl_internal_get_rendererList, put = __cordl_internal_set_rendererList)) ::UnityEngine::Rendering::RenderGraphModule::RendererListHandle rendererList;
+/// @brief Field rendererList, offset 0x10, size 0xc 
+ __declspec(property(get=__cordl_internal_get_rendererList, put=__cordl_internal_set_rendererList)) ::UnityEngine::Rendering::RenderGraphModule::RendererListHandle  rendererList;
 
-  static inline ::UnityEngine::Rendering::Universal::DrawScreenSpaceUIPass_UnsafePassData* New_ctor();
+static inline ::UnityEngine::Rendering::Universal::DrawScreenSpaceUIPass_UnsafePassData* New_ctor() ;
 
-  constexpr ::UnityEngine::Rendering::RenderGraphModule::TextureHandle const& __cordl_internal_get_colorTarget() const;
+constexpr ::UnityEngine::Rendering::RenderGraphModule::TextureHandle const& __cordl_internal_get_colorTarget() const;
 
-  constexpr ::UnityEngine::Rendering::RenderGraphModule::TextureHandle& __cordl_internal_get_colorTarget();
+constexpr ::UnityEngine::Rendering::RenderGraphModule::TextureHandle& __cordl_internal_get_colorTarget() ;
 
-  constexpr ::UnityEngine::Rendering::RenderGraphModule::RendererListHandle const& __cordl_internal_get_rendererList() const;
+constexpr ::UnityEngine::Rendering::RenderGraphModule::RendererListHandle const& __cordl_internal_get_rendererList() const;
 
-  constexpr ::UnityEngine::Rendering::RenderGraphModule::RendererListHandle& __cordl_internal_get_rendererList();
+constexpr ::UnityEngine::Rendering::RenderGraphModule::RendererListHandle& __cordl_internal_get_rendererList() ;
 
-  constexpr void __cordl_internal_set_colorTarget(::UnityEngine::Rendering::RenderGraphModule::TextureHandle value);
+constexpr void __cordl_internal_set_colorTarget(::UnityEngine::Rendering::RenderGraphModule::TextureHandle  value) ;
 
-  constexpr void __cordl_internal_set_rendererList(::UnityEngine::Rendering::RenderGraphModule::RendererListHandle value);
+constexpr void __cordl_internal_set_rendererList(::UnityEngine::Rendering::RenderGraphModule::RendererListHandle  value) ;
 
-  /// @brief Method .ctor, addr 0x66cb77c, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x66cbe3c, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DrawScreenSpaceUIPass_UnsafePassData();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr DrawScreenSpaceUIPass_UnsafePassData() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DrawScreenSpaceUIPass_UnsafePassData", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  DrawScreenSpaceUIPass_UnsafePassData(DrawScreenSpaceUIPass_UnsafePassData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DrawScreenSpaceUIPass_UnsafePassData", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  DrawScreenSpaceUIPass_UnsafePassData(DrawScreenSpaceUIPass_UnsafePassData const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "DrawScreenSpaceUIPass_UnsafePassData", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+DrawScreenSpaceUIPass_UnsafePassData(DrawScreenSpaceUIPass_UnsafePassData && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12802 };
+// Ctor Parameters [CppParam { name: "", ty: "DrawScreenSpaceUIPass_UnsafePassData", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+DrawScreenSpaceUIPass_UnsafePassData(DrawScreenSpaceUIPass_UnsafePassData const& ) = delete;
 
-  /// @brief Field rendererList, offset: 0x10, size: 0xc, def value: None
-  ::UnityEngine::Rendering::RenderGraphModule::RendererListHandle ___rendererList;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12806};
 
-  /// @brief Field colorTarget, offset: 0x1c, size: 0x10, def value: None
-  ::UnityEngine::Rendering::RenderGraphModule::TextureHandle ___colorTarget;
+/// @brief Field rendererList, offset: 0x10, size: 0xc, def value: None
+ ::UnityEngine::Rendering::RenderGraphModule::RendererListHandle  ___rendererList;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field colorTarget, offset: 0x1c, size: 0x10, def value: None
+ ::UnityEngine::Rendering::RenderGraphModule::TextureHandle  ___colorTarget;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Rendering::Universal::DrawScreenSpaceUIPass_UnsafePassData, ___rendererList) == 0x10, "Offset mismatch!");
@@ -198,242 +199,217 @@ static_assert(offsetof(::UnityEngine::Rendering::Universal::DrawScreenSpaceUIPas
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::Universal::DrawScreenSpaceUIPass_UnsafePassData, 0x30>, "Size mismatch!");
 
-} // namespace UnityEngine::Rendering::Universal
+} // namespace end def UnityEngine::Rendering::Universal
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
 // CS Name: UnityEngine.Rendering.Universal.DrawScreenSpaceUIPass/<>c
 class CORDL_TYPE DrawScreenSpaceUIPass___c : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field <>9, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::Rendering::Universal::DrawScreenSpaceUIPass___c* __9;
+// Declarations
+/// @brief Field <>9, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF___9, put=setStaticF___9)) ::UnityEngine::Rendering::Universal::DrawScreenSpaceUIPass___c*  __9;
 
-  /// @brief Field <>9__17_0, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9__17_0,
-                      put = setStaticF___9__17_0)) ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::DrawScreenSpaceUIPass_PassData*,
-                                                                                                                 ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>* __9__17_0;
+/// @brief Field <>9__17_0, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF___9__17_0, put=setStaticF___9__17_0)) ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::DrawScreenSpaceUIPass_PassData*,::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>*  __9__17_0;
 
-  /// @brief Field <>9__17_1, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9__17_1,
-                      put = setStaticF___9__17_1)) ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::DrawScreenSpaceUIPass_UnsafePassData*,
-                                                                                                                 ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*>* __9__17_1;
+/// @brief Field <>9__17_1, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF___9__17_1, put=setStaticF___9__17_1)) ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::DrawScreenSpaceUIPass_UnsafePassData*,::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*>*  __9__17_1;
 
-  /// @brief Field <>9__18_0, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9__18_0,
-                      put = setStaticF___9__18_0)) ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::DrawScreenSpaceUIPass_PassData*,
-                                                                                                                 ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>* __9__18_0;
+/// @brief Field <>9__18_0, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF___9__18_0, put=setStaticF___9__18_0)) ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::DrawScreenSpaceUIPass_PassData*,::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>*  __9__18_0;
 
-  /// @brief Field <>9__18_1, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9__18_1,
-                      put = setStaticF___9__18_1)) ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::DrawScreenSpaceUIPass_UnsafePassData*,
-                                                                                                                 ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*>* __9__18_1;
+/// @brief Field <>9__18_1, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF___9__18_1, put=setStaticF___9__18_1)) ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::DrawScreenSpaceUIPass_UnsafePassData*,::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*>*  __9__18_1;
 
-  static inline ::UnityEngine::Rendering::Universal::DrawScreenSpaceUIPass___c* New_ctor();
+static inline ::UnityEngine::Rendering::Universal::DrawScreenSpaceUIPass___c* New_ctor() ;
 
-  /// @brief Method <RenderOffscreen>b__17_0, addr 0x66cb7d8, size 0xa8, virtual false, abstract: false, final false
-  inline void _RenderOffscreen_b__17_0(::UnityEngine::Rendering::Universal::DrawScreenSpaceUIPass_PassData* data, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext context);
+/// @brief Method <RenderOffscreen>b__17_0, addr 0x66cbe98, size 0xa8, virtual false, abstract: false, final false
+inline void _RenderOffscreen_b__17_0(::UnityEngine::Rendering::Universal::DrawScreenSpaceUIPass_PassData*  data, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext  context) ;
 
-  /// @brief Method <RenderOffscreen>b__17_1, addr 0x66cb880, size 0x120, virtual false, abstract: false, final false
-  inline void _RenderOffscreen_b__17_1(::UnityEngine::Rendering::Universal::DrawScreenSpaceUIPass_UnsafePassData* data, ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext* context);
+/// @brief Method <RenderOffscreen>b__17_1, addr 0x66cbf40, size 0x120, virtual false, abstract: false, final false
+inline void _RenderOffscreen_b__17_1(::UnityEngine::Rendering::Universal::DrawScreenSpaceUIPass_UnsafePassData*  data, ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*  context) ;
 
-  /// @brief Method <RenderOverlay>b__18_0, addr 0x66cb9a0, size 0xa8, virtual false, abstract: false, final false
-  inline void _RenderOverlay_b__18_0(::UnityEngine::Rendering::Universal::DrawScreenSpaceUIPass_PassData* data, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext context);
+/// @brief Method <RenderOverlay>b__18_0, addr 0x66cc060, size 0xa8, virtual false, abstract: false, final false
+inline void _RenderOverlay_b__18_0(::UnityEngine::Rendering::Universal::DrawScreenSpaceUIPass_PassData*  data, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext  context) ;
 
-  /// @brief Method <RenderOverlay>b__18_1, addr 0x66cba48, size 0x120, virtual false, abstract: false, final false
-  inline void _RenderOverlay_b__18_1(::UnityEngine::Rendering::Universal::DrawScreenSpaceUIPass_UnsafePassData* data, ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext* context);
+/// @brief Method <RenderOverlay>b__18_1, addr 0x66cc108, size 0x120, virtual false, abstract: false, final false
+inline void _RenderOverlay_b__18_1(::UnityEngine::Rendering::Universal::DrawScreenSpaceUIPass_UnsafePassData*  data, ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*  context) ;
 
-  /// @brief Method .ctor, addr 0x66cb7d4, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x66cbe94, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  static inline ::UnityEngine::Rendering::Universal::DrawScreenSpaceUIPass___c* getStaticF___9();
+static inline ::UnityEngine::Rendering::Universal::DrawScreenSpaceUIPass___c* getStaticF___9() ;
 
-  static inline ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::DrawScreenSpaceUIPass_PassData*,
-                                                                              ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>*
-  getStaticF___9__17_0();
+static inline ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::DrawScreenSpaceUIPass_PassData*,::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>* getStaticF___9__17_0() ;
 
-  static inline ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::DrawScreenSpaceUIPass_UnsafePassData*,
-                                                                              ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*>*
-  getStaticF___9__17_1();
+static inline ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::DrawScreenSpaceUIPass_UnsafePassData*,::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*>* getStaticF___9__17_1() ;
 
-  static inline ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::DrawScreenSpaceUIPass_PassData*,
-                                                                              ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>*
-  getStaticF___9__18_0();
+static inline ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::DrawScreenSpaceUIPass_PassData*,::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>* getStaticF___9__18_0() ;
 
-  static inline ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::DrawScreenSpaceUIPass_UnsafePassData*,
-                                                                              ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*>*
-  getStaticF___9__18_1();
+static inline ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::DrawScreenSpaceUIPass_UnsafePassData*,::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*>* getStaticF___9__18_1() ;
 
-  static inline void setStaticF___9(::UnityEngine::Rendering::Universal::DrawScreenSpaceUIPass___c* value);
+static inline void setStaticF___9(::UnityEngine::Rendering::Universal::DrawScreenSpaceUIPass___c*  value) ;
 
-  static inline void setStaticF___9__17_0(::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::DrawScreenSpaceUIPass_PassData*,
-                                                                                                        ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>* value);
+static inline void setStaticF___9__17_0(::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::DrawScreenSpaceUIPass_PassData*,::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>*  value) ;
 
-  static inline void setStaticF___9__17_1(::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::DrawScreenSpaceUIPass_UnsafePassData*,
-                                                                                                        ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*>* value);
+static inline void setStaticF___9__17_1(::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::DrawScreenSpaceUIPass_UnsafePassData*,::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*>*  value) ;
 
-  static inline void setStaticF___9__18_0(::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::DrawScreenSpaceUIPass_PassData*,
-                                                                                                        ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>* value);
+static inline void setStaticF___9__18_0(::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::DrawScreenSpaceUIPass_PassData*,::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>*  value) ;
 
-  static inline void setStaticF___9__18_1(::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::DrawScreenSpaceUIPass_UnsafePassData*,
-                                                                                                        ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*>* value);
+static inline void setStaticF___9__18_1(::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::DrawScreenSpaceUIPass_UnsafePassData*,::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*>*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DrawScreenSpaceUIPass___c();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr DrawScreenSpaceUIPass___c() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DrawScreenSpaceUIPass___c", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  DrawScreenSpaceUIPass___c(DrawScreenSpaceUIPass___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DrawScreenSpaceUIPass___c", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  DrawScreenSpaceUIPass___c(DrawScreenSpaceUIPass___c const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "DrawScreenSpaceUIPass___c", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+DrawScreenSpaceUIPass___c(DrawScreenSpaceUIPass___c && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12803 };
+// Ctor Parameters [CppParam { name: "", ty: "DrawScreenSpaceUIPass___c", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+DrawScreenSpaceUIPass___c(DrawScreenSpaceUIPass___c const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12807};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::Universal::DrawScreenSpaceUIPass___c, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine::Rendering::Universal
+} // namespace end def UnityEngine::Rendering::Universal
 // Dependencies UnityEngine.Rendering.Universal.ScriptableRenderPass
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
 // CS Name: UnityEngine.Rendering.Universal.DrawScreenSpaceUIPass
 class CORDL_TYPE DrawScreenSpaceUIPass : public ::UnityEngine::Rendering::Universal::ScriptableRenderPass {
 public:
-  // Declarations
-  using PassData = ::UnityEngine::Rendering::Universal::DrawScreenSpaceUIPass_PassData;
+// Declarations
+using PassData = ::UnityEngine::Rendering::Universal::DrawScreenSpaceUIPass_PassData;
 
-  using UnsafePassData = ::UnityEngine::Rendering::Universal::DrawScreenSpaceUIPass_UnsafePassData;
+using UnsafePassData = ::UnityEngine::Rendering::Universal::DrawScreenSpaceUIPass_UnsafePassData;
 
-  using __c = ::UnityEngine::Rendering::Universal::DrawScreenSpaceUIPass___c;
+using __c = ::UnityEngine::Rendering::Universal::DrawScreenSpaceUIPass___c;
 
-  /// @brief Field m_ColorTarget, offset 0xc0, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_ColorTarget, put = __cordl_internal_set_m_ColorTarget)) ::UnityEngine::Rendering::RTHandle* m_ColorTarget;
+/// @brief Field m_ColorTarget, offset 0xc0, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_ColorTarget, put=__cordl_internal_set_m_ColorTarget)) ::UnityEngine::Rendering::RTHandle*  m_ColorTarget;
 
-  /// @brief Field m_DepthTarget, offset 0xc8, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_DepthTarget, put = __cordl_internal_set_m_DepthTarget)) ::UnityEngine::Rendering::RTHandle* m_DepthTarget;
+/// @brief Field m_DepthTarget, offset 0xc8, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_DepthTarget, put=__cordl_internal_set_m_DepthTarget)) ::UnityEngine::Rendering::RTHandle*  m_DepthTarget;
 
-  /// @brief Field m_PassData, offset 0xb8, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_PassData, put = __cordl_internal_set_m_PassData)) ::UnityEngine::Rendering::Universal::DrawScreenSpaceUIPass_PassData* m_PassData;
+/// @brief Field m_PassData, offset 0xb8, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_PassData, put=__cordl_internal_set_m_PassData)) ::UnityEngine::Rendering::Universal::DrawScreenSpaceUIPass_PassData*  m_PassData;
 
-  /// @brief Field m_RenderOffscreen, offset 0xd0, size 0x1
-  __declspec(property(get = __cordl_internal_get_m_RenderOffscreen, put = __cordl_internal_set_m_RenderOffscreen)) bool m_RenderOffscreen;
+/// @brief Field m_RenderOffscreen, offset 0xd0, size 0x1 
+ __declspec(property(get=__cordl_internal_get_m_RenderOffscreen, put=__cordl_internal_set_m_RenderOffscreen)) bool  m_RenderOffscreen;
 
-  /// @brief Field s_CameraDepthTextureID, offset 0xffffffff, size 0x4
-  __declspec(property(get = getStaticF_s_CameraDepthTextureID, put = setStaticF_s_CameraDepthTextureID)) int32_t s_CameraDepthTextureID;
+/// @brief Field s_CameraDepthTextureID, offset 0xffffffff, size 0x4 
+ __declspec(property(get=getStaticF_s_CameraDepthTextureID, put=setStaticF_s_CameraDepthTextureID)) int32_t  s_CameraDepthTextureID;
 
-  /// @brief Field s_CameraOpaqueTextureID, offset 0xffffffff, size 0x4
-  __declspec(property(get = getStaticF_s_CameraOpaqueTextureID, put = setStaticF_s_CameraOpaqueTextureID)) int32_t s_CameraOpaqueTextureID;
+/// @brief Field s_CameraOpaqueTextureID, offset 0xffffffff, size 0x4 
+ __declspec(property(get=getStaticF_s_CameraOpaqueTextureID, put=setStaticF_s_CameraOpaqueTextureID)) int32_t  s_CameraOpaqueTextureID;
 
-  /// @brief Method ConfigureColorDescriptor, addr 0x66c9afc, size 0x34, virtual false, abstract: false, final false
-  static inline void ConfigureColorDescriptor(::ByRef<::UnityEngine::RenderTextureDescriptor> descriptor, int32_t cameraWidth, int32_t cameraHeight);
+/// @brief Method ConfigureColorDescriptor, addr 0x66ca1bc, size 0x34, virtual false, abstract: false, final false
+static inline void ConfigureColorDescriptor(::ByRef<::UnityEngine::RenderTextureDescriptor>  descriptor, int32_t  cameraWidth, int32_t  cameraHeight) ;
 
-  /// @brief Method ConfigureDepthDescriptor, addr 0x66c9b30, size 0x40, virtual false, abstract: false, final false
-  static inline void ConfigureDepthDescriptor(::ByRef<::UnityEngine::RenderTextureDescriptor> descriptor, ::UnityEngine::Experimental::Rendering::GraphicsFormat depthStencilFormat,
-                                              int32_t cameraWidth, int32_t cameraHeight);
+/// @brief Method ConfigureDepthDescriptor, addr 0x66ca1f0, size 0x40, virtual false, abstract: false, final false
+static inline void ConfigureDepthDescriptor(::ByRef<::UnityEngine::RenderTextureDescriptor>  descriptor, ::UnityEngine::Experimental::Rendering::GraphicsFormat  depthStencilFormat, int32_t  cameraWidth, int32_t  cameraHeight) ;
 
-  /// @brief Method Dispose, addr 0x66c9be0, size 0x34, virtual false, abstract: false, final false
-  inline void Dispose();
+/// @brief Method Dispose, addr 0x66ca2a0, size 0x34, virtual false, abstract: false, final false
+inline void Dispose() ;
 
-  /// @brief Method Execute, addr 0x66c9fb4, size 0x1a8, virtual true, abstract: false, final false
-  inline void Execute(::UnityEngine::Rendering::ScriptableRenderContext context, ::ByRef<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
+/// @brief Method Execute, addr 0x66ca674, size 0x1a8, virtual true, abstract: false, final false
+inline void Execute(::UnityEngine::Rendering::ScriptableRenderContext  context, ::ByRef<::UnityEngine::Rendering::Universal::RenderingData>  renderingData) ;
 
-  /// @brief Method ExecutePass, addr 0x66c9b70, size 0x38, virtual false, abstract: false, final false
-  static inline void ExecutePass(::UnityEngine::Rendering::RasterCommandBuffer* commandBuffer, ::UnityEngine::Rendering::Universal::DrawScreenSpaceUIPass_PassData* passData,
-                                 ::UnityEngine::Rendering::RendererList rendererList);
+/// @brief Method ExecutePass, addr 0x66ca230, size 0x38, virtual false, abstract: false, final false
+static inline void ExecutePass(::UnityEngine::Rendering::RasterCommandBuffer*  commandBuffer, ::UnityEngine::Rendering::Universal::DrawScreenSpaceUIPass_PassData*  passData, ::UnityEngine::Rendering::RendererList  rendererList) ;
 
-  /// @brief Method ExecutePass, addr 0x66c9ba8, size 0x38, virtual false, abstract: false, final false
-  static inline void ExecutePass(::UnityEngine::Rendering::UnsafeCommandBuffer* commandBuffer, ::UnityEngine::Rendering::Universal::DrawScreenSpaceUIPass_UnsafePassData* passData,
-                                 ::UnityEngine::Rendering::RendererList rendererList);
+/// @brief Method ExecutePass, addr 0x66ca268, size 0x38, virtual false, abstract: false, final false
+static inline void ExecutePass(::UnityEngine::Rendering::UnsafeCommandBuffer*  commandBuffer, ::UnityEngine::Rendering::Universal::DrawScreenSpaceUIPass_UnsafePassData*  passData, ::UnityEngine::Rendering::RendererList  rendererList) ;
 
-  static inline ::UnityEngine::Rendering::Universal::DrawScreenSpaceUIPass* New_ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt, bool renderOffscreen);
+static inline ::UnityEngine::Rendering::Universal::DrawScreenSpaceUIPass* New_ctor(::UnityEngine::Rendering::Universal::RenderPassEvent  evt, bool  renderOffscreen) ;
 
-  /// @brief Method OnCameraSetup, addr 0x66c9da4, size 0x210, virtual true, abstract: false, final false
-  inline void OnCameraSetup(::UnityEngine::Rendering::CommandBuffer* cmd, ::ByRef<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
+/// @brief Method OnCameraSetup, addr 0x66ca464, size 0x210, virtual true, abstract: false, final false
+inline void OnCameraSetup(::UnityEngine::Rendering::CommandBuffer*  cmd, ::ByRef<::UnityEngine::Rendering::Universal::RenderingData>  renderingData) ;
 
-  /// @brief Method RenderOffscreen, addr 0x66ca15c, size 0xc2c, virtual false, abstract: false, final false
-  inline void RenderOffscreen(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ContextContainer* frameData,
-                              ::UnityEngine::Experimental::Rendering::GraphicsFormat depthStencilFormat, ::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> output);
+/// @brief Method RenderOffscreen, addr 0x66ca81c, size 0xc2c, virtual false, abstract: false, final false
+inline void RenderOffscreen(::UnityEngine::Rendering::RenderGraphModule::RenderGraph*  renderGraph, ::UnityEngine::Rendering::ContextContainer*  frameData, ::UnityEngine::Experimental::Rendering::GraphicsFormat  depthStencilFormat, ::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>  output) ;
 
-  /// @brief Method RenderOverlay, addr 0x66cad88, size 0x950, virtual false, abstract: false, final false
-  inline void RenderOverlay(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* renderGraph, ::UnityEngine::Rendering::ContextContainer* frameData,
-                            ::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> colorBuffer, ::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureHandle> depthBuffer);
+/// @brief Method RenderOverlay, addr 0x66cb448, size 0x950, virtual false, abstract: false, final false
+inline void RenderOverlay(::UnityEngine::Rendering::RenderGraphModule::RenderGraph*  renderGraph, ::UnityEngine::Rendering::ContextContainer*  frameData, ::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>  colorBuffer, ::ByRef<::UnityEngine::Rendering::RenderGraphModule::TextureHandle>  depthBuffer) ;
 
-  /// @brief Method Setup, addr 0x66c9c14, size 0x190, virtual false, abstract: false, final false
-  inline void Setup(::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData, ::UnityEngine::Experimental::Rendering::GraphicsFormat depthStencilFormat);
+/// @brief Method Setup, addr 0x66ca2d4, size 0x190, virtual false, abstract: false, final false
+inline void Setup(::UnityEngine::Rendering::Universal::UniversalCameraData*  cameraData, ::UnityEngine::Experimental::Rendering::GraphicsFormat  depthStencilFormat) ;
 
-  constexpr ::UnityEngine::Rendering::RTHandle* const& __cordl_internal_get_m_ColorTarget() const;
+constexpr ::UnityEngine::Rendering::RTHandle* const& __cordl_internal_get_m_ColorTarget() const;
 
-  constexpr ::UnityEngine::Rendering::RTHandle*& __cordl_internal_get_m_ColorTarget();
+constexpr ::UnityEngine::Rendering::RTHandle*& __cordl_internal_get_m_ColorTarget() ;
 
-  constexpr ::UnityEngine::Rendering::RTHandle* const& __cordl_internal_get_m_DepthTarget() const;
+constexpr ::UnityEngine::Rendering::RTHandle* const& __cordl_internal_get_m_DepthTarget() const;
 
-  constexpr ::UnityEngine::Rendering::RTHandle*& __cordl_internal_get_m_DepthTarget();
+constexpr ::UnityEngine::Rendering::RTHandle*& __cordl_internal_get_m_DepthTarget() ;
 
-  constexpr ::UnityEngine::Rendering::Universal::DrawScreenSpaceUIPass_PassData* const& __cordl_internal_get_m_PassData() const;
+constexpr ::UnityEngine::Rendering::Universal::DrawScreenSpaceUIPass_PassData* const& __cordl_internal_get_m_PassData() const;
 
-  constexpr ::UnityEngine::Rendering::Universal::DrawScreenSpaceUIPass_PassData*& __cordl_internal_get_m_PassData();
+constexpr ::UnityEngine::Rendering::Universal::DrawScreenSpaceUIPass_PassData*& __cordl_internal_get_m_PassData() ;
 
-  constexpr bool const& __cordl_internal_get_m_RenderOffscreen() const;
+constexpr bool const& __cordl_internal_get_m_RenderOffscreen() const;
 
-  constexpr bool& __cordl_internal_get_m_RenderOffscreen();
+constexpr bool& __cordl_internal_get_m_RenderOffscreen() ;
 
-  constexpr void __cordl_internal_set_m_ColorTarget(::UnityEngine::Rendering::RTHandle* value);
+constexpr void __cordl_internal_set_m_ColorTarget(::UnityEngine::Rendering::RTHandle*  value) ;
 
-  constexpr void __cordl_internal_set_m_DepthTarget(::UnityEngine::Rendering::RTHandle* value);
+constexpr void __cordl_internal_set_m_DepthTarget(::UnityEngine::Rendering::RTHandle*  value) ;
 
-  constexpr void __cordl_internal_set_m_PassData(::UnityEngine::Rendering::Universal::DrawScreenSpaceUIPass_PassData* value);
+constexpr void __cordl_internal_set_m_PassData(::UnityEngine::Rendering::Universal::DrawScreenSpaceUIPass_PassData*  value) ;
 
-  constexpr void __cordl_internal_set_m_RenderOffscreen(bool value);
+constexpr void __cordl_internal_set_m_RenderOffscreen(bool  value) ;
 
-  /// @brief Method .ctor, addr 0x66c9a30, size 0xc8, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt, bool renderOffscreen);
+/// @brief Method .ctor, addr 0x66ca0f0, size 0xc8, virtual false, abstract: false, final false
+inline void _ctor(::UnityEngine::Rendering::Universal::RenderPassEvent  evt, bool  renderOffscreen) ;
 
-  static inline int32_t getStaticF_s_CameraDepthTextureID();
+static inline int32_t getStaticF_s_CameraDepthTextureID() ;
 
-  static inline int32_t getStaticF_s_CameraOpaqueTextureID();
+static inline int32_t getStaticF_s_CameraOpaqueTextureID() ;
 
-  static inline void setStaticF_s_CameraDepthTextureID(int32_t value);
+static inline void setStaticF_s_CameraDepthTextureID(int32_t  value) ;
 
-  static inline void setStaticF_s_CameraOpaqueTextureID(int32_t value);
+static inline void setStaticF_s_CameraOpaqueTextureID(int32_t  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DrawScreenSpaceUIPass();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr DrawScreenSpaceUIPass() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DrawScreenSpaceUIPass", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  DrawScreenSpaceUIPass(DrawScreenSpaceUIPass&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DrawScreenSpaceUIPass", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  DrawScreenSpaceUIPass(DrawScreenSpaceUIPass const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "DrawScreenSpaceUIPass", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+DrawScreenSpaceUIPass(DrawScreenSpaceUIPass && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12804 };
+// Ctor Parameters [CppParam { name: "", ty: "DrawScreenSpaceUIPass", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+DrawScreenSpaceUIPass(DrawScreenSpaceUIPass const& ) = delete;
 
-  /// @brief Field m_PassData, offset: 0xb8, size: 0x8, def value: None
-  ::UnityEngine::Rendering::Universal::DrawScreenSpaceUIPass_PassData* ___m_PassData;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12808};
 
-  /// @brief Field m_ColorTarget, offset: 0xc0, size: 0x8, def value: None
-  ::UnityEngine::Rendering::RTHandle* ___m_ColorTarget;
+/// @brief Field m_PassData, offset: 0xb8, size: 0x8, def value: None
+ ::UnityEngine::Rendering::Universal::DrawScreenSpaceUIPass_PassData*  ___m_PassData;
 
-  /// @brief Field m_DepthTarget, offset: 0xc8, size: 0x8, def value: None
-  ::UnityEngine::Rendering::RTHandle* ___m_DepthTarget;
+/// @brief Field m_ColorTarget, offset: 0xc0, size: 0x8, def value: None
+ ::UnityEngine::Rendering::RTHandle*  ___m_ColorTarget;
 
-  /// @brief Field m_RenderOffscreen, offset: 0xd0, size: 0x1, def value: None
-  bool ___m_RenderOffscreen;
+/// @brief Field m_DepthTarget, offset: 0xc8, size: 0x8, def value: None
+ ::UnityEngine::Rendering::RTHandle*  ___m_DepthTarget;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field m_RenderOffscreen, offset: 0xd0, size: 0x1, def value: None
+ bool  ___m_RenderOffscreen;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Rendering::Universal::DrawScreenSpaceUIPass, ___m_PassData) == 0xb8, "Offset mismatch!");
@@ -446,7 +422,7 @@ static_assert(offsetof(::UnityEngine::Rendering::Universal::DrawScreenSpaceUIPas
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::Universal::DrawScreenSpaceUIPass, 0xd8>, "Size mismatch!");
 
-} // namespace UnityEngine::Rendering::Universal
+} // namespace end def UnityEngine::Rendering::Universal
 NEED_NO_BOX(::UnityEngine::Rendering::Universal::DrawScreenSpaceUIPass);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::Universal::DrawScreenSpaceUIPass*, "UnityEngine.Rendering.Universal", "DrawScreenSpaceUIPass");
 NEED_NO_BOX(::UnityEngine::Rendering::Universal::DrawScreenSpaceUIPass_PassData);

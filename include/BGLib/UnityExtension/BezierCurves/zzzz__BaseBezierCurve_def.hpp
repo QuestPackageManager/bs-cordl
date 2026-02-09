@@ -24,48 +24,48 @@ namespace BGLib::UnityExtension::BezierCurves {
 // CS Name: BGLib.UnityExtension.BezierCurves.BaseBezierCurve
 class CORDL_TYPE BaseBezierCurve : public ::UnityEngine::MonoBehaviour {
 public:
-  // Declarations
-  __declspec(property(get = get_isReady)) bool isReady;
+// Declarations
+ __declspec(property(get=get_isReady)) bool  isReady;
 
-  /// @brief Method Evaluate, addr 0x322fac0, size 0x3c, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector3 Evaluate(float_t current);
+/// @brief Method Evaluate, addr 0x322fa10, size 0x3c, virtual false, abstract: false, final false
+inline ::UnityEngine::Vector3 Evaluate(float_t  current) ;
 
-  /// @brief Method GetBezierCurveData, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline ::BGLib::UnityExtension::BezierCurves::CurveData GetBezierCurveData();
+/// @brief Method GetBezierCurveData, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline ::BGLib::UnityExtension::BezierCurves::CurveData GetBezierCurveData() ;
 
-  static inline ::BGLib::UnityExtension::BezierCurves::BaseBezierCurve* New_ctor();
+static inline ::BGLib::UnityExtension::BezierCurves::BaseBezierCurve* New_ctor() ;
 
-  /// @brief Method SetBezierCurveData, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void SetBezierCurveData(::BGLib::UnityExtension::BezierCurves::CurveData data);
+/// @brief Method SetBezierCurveData, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline void SetBezierCurveData(::BGLib::UnityExtension::BezierCurves::CurveData  data) ;
 
-  /// @brief Method .ctor, addr 0x322fbcc, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x322fb1c, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_isReady, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline bool get_isReady();
+/// @brief Method get_isReady, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline bool get_isReady() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BaseBezierCurve();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr BaseBezierCurve() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BaseBezierCurve", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  BaseBezierCurve(BaseBezierCurve&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BaseBezierCurve", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  BaseBezierCurve(BaseBezierCurve const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "BaseBezierCurve", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+BaseBezierCurve(BaseBezierCurve && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20754 };
+// Ctor Parameters [CppParam { name: "", ty: "BaseBezierCurve", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+BaseBezierCurve(BaseBezierCurve const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20758};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::BGLib::UnityExtension::BezierCurves::BaseBezierCurve, 0x20>, "Size mismatch!");
 
-} // namespace BGLib::UnityExtension::BezierCurves
+} // namespace end def BGLib::UnityExtension::BezierCurves
 NEED_NO_BOX(::BGLib::UnityExtension::BezierCurves::BaseBezierCurve);
 DEFINE_IL2CPP_ARG_TYPE(::BGLib::UnityExtension::BezierCurves::BaseBezierCurve*, "BGLib.UnityExtension.BezierCurves", "BaseBezierCurve");

@@ -8,7 +8,8 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BasicUIAudioManager)
 namespace GlobalNamespace {
-template <typename T> class RandomObjectPicker_1;
+template<typename T>
+class RandomObjectPicker_1;
 }
 namespace GlobalNamespace {
 class Signal;
@@ -31,132 +32,126 @@ namespace GlobalNamespace {
 // CS Name: BasicUIAudioManager
 class CORDL_TYPE BasicUIAudioManager : public ::UnityEngine::MonoBehaviour {
 public:
-  // Declarations
-  /// @brief Field _audioSources, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__audioSources,
-                      put = __cordl_internal_set__audioSources)) ::ArrayW<::UnityW<::UnityEngine::AudioSource>, ::Array<::UnityW<::UnityEngine::AudioSource>>*>
-      _audioSources;
+// Declarations
+/// @brief Field _audioSources, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get__audioSources, put=__cordl_internal_set__audioSources)) ::ArrayW<::UnityW<::UnityEngine::AudioSource>,::Array<::UnityW<::UnityEngine::AudioSource>>*>  _audioSources;
 
-  /// @brief Field _buttonClickEvents, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__buttonClickEvents,
-                      put = __cordl_internal_set__buttonClickEvents)) ::ArrayW<::UnityW<::GlobalNamespace::Signal>, ::Array<::UnityW<::GlobalNamespace::Signal>>*>
-      _buttonClickEvents;
+/// @brief Field _buttonClickEvents, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get__buttonClickEvents, put=__cordl_internal_set__buttonClickEvents)) ::ArrayW<::UnityW<::GlobalNamespace::Signal>,::Array<::UnityW<::GlobalNamespace::Signal>>*>  _buttonClickEvents;
 
-  /// @brief Field _clickSounds, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__clickSounds, put = __cordl_internal_set__clickSounds)) ::ArrayW<::UnityW<::UnityEngine::AudioClip>, ::Array<::UnityW<::UnityEngine::AudioClip>>*>
-      _clickSounds;
+/// @brief Field _clickSounds, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get__clickSounds, put=__cordl_internal_set__clickSounds)) ::ArrayW<::UnityW<::UnityEngine::AudioClip>,::Array<::UnityW<::UnityEngine::AudioClip>>*>  _clickSounds;
 
-  /// @brief Field _index, offset 0x40, size 0x4
-  __declspec(property(get = __cordl_internal_get__index, put = __cordl_internal_set__index)) int32_t _index;
+/// @brief Field _index, offset 0x40, size 0x4 
+ __declspec(property(get=__cordl_internal_get__index, put=__cordl_internal_set__index)) int32_t  _index;
 
-  /// @brief Field _maxPitch, offset 0x3c, size 0x4
-  __declspec(property(get = __cordl_internal_get__maxPitch, put = __cordl_internal_set__maxPitch)) float_t _maxPitch;
+/// @brief Field _maxPitch, offset 0x3c, size 0x4 
+ __declspec(property(get=__cordl_internal_get__maxPitch, put=__cordl_internal_set__maxPitch)) float_t  _maxPitch;
 
-  /// @brief Field _minPitch, offset 0x38, size 0x4
-  __declspec(property(get = __cordl_internal_get__minPitch, put = __cordl_internal_set__minPitch)) float_t _minPitch;
+/// @brief Field _minPitch, offset 0x38, size 0x4 
+ __declspec(property(get=__cordl_internal_get__minPitch, put=__cordl_internal_set__minPitch)) float_t  _minPitch;
 
-  /// @brief Field _randomSoundPicker, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__randomSoundPicker,
-                      put = __cordl_internal_set__randomSoundPicker)) ::GlobalNamespace::RandomObjectPicker_1<::UnityW<::UnityEngine::AudioClip>>* _randomSoundPicker;
+/// @brief Field _randomSoundPicker, offset 0x48, size 0x8 
+ __declspec(property(get=__cordl_internal_get__randomSoundPicker, put=__cordl_internal_set__randomSoundPicker)) ::GlobalNamespace::RandomObjectPicker_1<::UnityW<::UnityEngine::AudioClip>>*  _randomSoundPicker;
 
-  /// @brief Method HandleButtonClickEvent, addr 0x5852c08, size 0x1c8, virtual false, abstract: false, final false
-  inline void HandleButtonClickEvent();
+/// @brief Method HandleButtonClickEvent, addr 0x5853538, size 0x1c8, virtual false, abstract: false, final false
+inline void HandleButtonClickEvent() ;
 
-  static inline ::GlobalNamespace::BasicUIAudioManager* New_ctor();
+static inline ::GlobalNamespace::BasicUIAudioManager* New_ctor() ;
 
-  /// @brief Method OnDisable, addr 0x5852b04, size 0x104, virtual false, abstract: false, final false
-  inline void OnDisable();
+/// @brief Method OnDisable, addr 0x5853434, size 0x104, virtual false, abstract: false, final false
+inline void OnDisable() ;
 
-  /// @brief Method OnEnable, addr 0x58529e8, size 0x11c, virtual false, abstract: false, final false
-  inline void OnEnable();
+/// @brief Method OnEnable, addr 0x5853318, size 0x11c, virtual false, abstract: false, final false
+inline void OnEnable() ;
 
-  /// @brief Method Start, addr 0x5852918, size 0xd0, virtual false, abstract: false, final false
-  inline void Start();
+/// @brief Method Start, addr 0x5853248, size 0xd0, virtual false, abstract: false, final false
+inline void Start() ;
 
-  constexpr ::ArrayW<::UnityW<::UnityEngine::AudioSource>, ::Array<::UnityW<::UnityEngine::AudioSource>>*> const& __cordl_internal_get__audioSources() const;
+constexpr ::ArrayW<::UnityW<::UnityEngine::AudioSource>,::Array<::UnityW<::UnityEngine::AudioSource>>*> const& __cordl_internal_get__audioSources() const;
 
-  constexpr ::ArrayW<::UnityW<::UnityEngine::AudioSource>, ::Array<::UnityW<::UnityEngine::AudioSource>>*>& __cordl_internal_get__audioSources();
+constexpr ::ArrayW<::UnityW<::UnityEngine::AudioSource>,::Array<::UnityW<::UnityEngine::AudioSource>>*>& __cordl_internal_get__audioSources() ;
 
-  constexpr ::ArrayW<::UnityW<::GlobalNamespace::Signal>, ::Array<::UnityW<::GlobalNamespace::Signal>>*> const& __cordl_internal_get__buttonClickEvents() const;
+constexpr ::ArrayW<::UnityW<::GlobalNamespace::Signal>,::Array<::UnityW<::GlobalNamespace::Signal>>*> const& __cordl_internal_get__buttonClickEvents() const;
 
-  constexpr ::ArrayW<::UnityW<::GlobalNamespace::Signal>, ::Array<::UnityW<::GlobalNamespace::Signal>>*>& __cordl_internal_get__buttonClickEvents();
+constexpr ::ArrayW<::UnityW<::GlobalNamespace::Signal>,::Array<::UnityW<::GlobalNamespace::Signal>>*>& __cordl_internal_get__buttonClickEvents() ;
 
-  constexpr ::ArrayW<::UnityW<::UnityEngine::AudioClip>, ::Array<::UnityW<::UnityEngine::AudioClip>>*> const& __cordl_internal_get__clickSounds() const;
+constexpr ::ArrayW<::UnityW<::UnityEngine::AudioClip>,::Array<::UnityW<::UnityEngine::AudioClip>>*> const& __cordl_internal_get__clickSounds() const;
 
-  constexpr ::ArrayW<::UnityW<::UnityEngine::AudioClip>, ::Array<::UnityW<::UnityEngine::AudioClip>>*>& __cordl_internal_get__clickSounds();
+constexpr ::ArrayW<::UnityW<::UnityEngine::AudioClip>,::Array<::UnityW<::UnityEngine::AudioClip>>*>& __cordl_internal_get__clickSounds() ;
 
-  constexpr int32_t const& __cordl_internal_get__index() const;
+constexpr int32_t const& __cordl_internal_get__index() const;
 
-  constexpr int32_t& __cordl_internal_get__index();
+constexpr int32_t& __cordl_internal_get__index() ;
 
-  constexpr float_t const& __cordl_internal_get__maxPitch() const;
+constexpr float_t const& __cordl_internal_get__maxPitch() const;
 
-  constexpr float_t& __cordl_internal_get__maxPitch();
+constexpr float_t& __cordl_internal_get__maxPitch() ;
 
-  constexpr float_t const& __cordl_internal_get__minPitch() const;
+constexpr float_t const& __cordl_internal_get__minPitch() const;
 
-  constexpr float_t& __cordl_internal_get__minPitch();
+constexpr float_t& __cordl_internal_get__minPitch() ;
 
-  constexpr ::GlobalNamespace::RandomObjectPicker_1<::UnityW<::UnityEngine::AudioClip>>* const& __cordl_internal_get__randomSoundPicker() const;
+constexpr ::GlobalNamespace::RandomObjectPicker_1<::UnityW<::UnityEngine::AudioClip>>* const& __cordl_internal_get__randomSoundPicker() const;
 
-  constexpr ::GlobalNamespace::RandomObjectPicker_1<::UnityW<::UnityEngine::AudioClip>>*& __cordl_internal_get__randomSoundPicker();
+constexpr ::GlobalNamespace::RandomObjectPicker_1<::UnityW<::UnityEngine::AudioClip>>*& __cordl_internal_get__randomSoundPicker() ;
 
-  constexpr void __cordl_internal_set__audioSources(::ArrayW<::UnityW<::UnityEngine::AudioSource>, ::Array<::UnityW<::UnityEngine::AudioSource>>*> value);
+constexpr void __cordl_internal_set__audioSources(::ArrayW<::UnityW<::UnityEngine::AudioSource>,::Array<::UnityW<::UnityEngine::AudioSource>>*>  value) ;
 
-  constexpr void __cordl_internal_set__buttonClickEvents(::ArrayW<::UnityW<::GlobalNamespace::Signal>, ::Array<::UnityW<::GlobalNamespace::Signal>>*> value);
+constexpr void __cordl_internal_set__buttonClickEvents(::ArrayW<::UnityW<::GlobalNamespace::Signal>,::Array<::UnityW<::GlobalNamespace::Signal>>*>  value) ;
 
-  constexpr void __cordl_internal_set__clickSounds(::ArrayW<::UnityW<::UnityEngine::AudioClip>, ::Array<::UnityW<::UnityEngine::AudioClip>>*> value);
+constexpr void __cordl_internal_set__clickSounds(::ArrayW<::UnityW<::UnityEngine::AudioClip>,::Array<::UnityW<::UnityEngine::AudioClip>>*>  value) ;
 
-  constexpr void __cordl_internal_set__index(int32_t value);
+constexpr void __cordl_internal_set__index(int32_t  value) ;
 
-  constexpr void __cordl_internal_set__maxPitch(float_t value);
+constexpr void __cordl_internal_set__maxPitch(float_t  value) ;
 
-  constexpr void __cordl_internal_set__minPitch(float_t value);
+constexpr void __cordl_internal_set__minPitch(float_t  value) ;
 
-  constexpr void __cordl_internal_set__randomSoundPicker(::GlobalNamespace::RandomObjectPicker_1<::UnityW<::UnityEngine::AudioClip>>* value);
+constexpr void __cordl_internal_set__randomSoundPicker(::GlobalNamespace::RandomObjectPicker_1<::UnityW<::UnityEngine::AudioClip>>*  value) ;
 
-  /// @brief Method .ctor, addr 0x5852dd0, size 0xc, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5853700, size 0xc, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BasicUIAudioManager();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr BasicUIAudioManager() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BasicUIAudioManager", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  BasicUIAudioManager(BasicUIAudioManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BasicUIAudioManager", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  BasicUIAudioManager(BasicUIAudioManager const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "BasicUIAudioManager", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+BasicUIAudioManager(BasicUIAudioManager && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6316 };
+// Ctor Parameters [CppParam { name: "", ty: "BasicUIAudioManager", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+BasicUIAudioManager(BasicUIAudioManager const& ) = delete;
 
-  /// @brief Field _buttonClickEvents, offset: 0x20, size: 0x8, def value: None
-  ::ArrayW<::UnityW<::GlobalNamespace::Signal>, ::Array<::UnityW<::GlobalNamespace::Signal>>*> ____buttonClickEvents;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6316};
 
-  /// @brief Field _audioSources, offset: 0x28, size: 0x8, def value: None
-  ::ArrayW<::UnityW<::UnityEngine::AudioSource>, ::Array<::UnityW<::UnityEngine::AudioSource>>*> ____audioSources;
+/// @brief Field _buttonClickEvents, offset: 0x20, size: 0x8, def value: None
+ ::ArrayW<::UnityW<::GlobalNamespace::Signal>,::Array<::UnityW<::GlobalNamespace::Signal>>*>  ____buttonClickEvents;
 
-  /// @brief Field _clickSounds, offset: 0x30, size: 0x8, def value: None
-  ::ArrayW<::UnityW<::UnityEngine::AudioClip>, ::Array<::UnityW<::UnityEngine::AudioClip>>*> ____clickSounds;
+/// @brief Field _audioSources, offset: 0x28, size: 0x8, def value: None
+ ::ArrayW<::UnityW<::UnityEngine::AudioSource>,::Array<::UnityW<::UnityEngine::AudioSource>>*>  ____audioSources;
 
-  /// @brief Field _minPitch, offset: 0x38, size: 0x4, def value: None
-  float_t ____minPitch;
+/// @brief Field _clickSounds, offset: 0x30, size: 0x8, def value: None
+ ::ArrayW<::UnityW<::UnityEngine::AudioClip>,::Array<::UnityW<::UnityEngine::AudioClip>>*>  ____clickSounds;
 
-  /// @brief Field _maxPitch, offset: 0x3c, size: 0x4, def value: None
-  float_t ____maxPitch;
+/// @brief Field _minPitch, offset: 0x38, size: 0x4, def value: None
+ float_t  ____minPitch;
 
-  /// @brief Field _index, offset: 0x40, size: 0x4, def value: None
-  int32_t ____index;
+/// @brief Field _maxPitch, offset: 0x3c, size: 0x4, def value: None
+ float_t  ____maxPitch;
 
-  /// @brief Field _randomSoundPicker, offset: 0x48, size: 0x8, def value: None
-  ::GlobalNamespace::RandomObjectPicker_1<::UnityW<::UnityEngine::AudioClip>>* ____randomSoundPicker;
+/// @brief Field _index, offset: 0x40, size: 0x4, def value: None
+ int32_t  ____index;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _randomSoundPicker, offset: 0x48, size: 0x8, def value: None
+ ::GlobalNamespace::RandomObjectPicker_1<::UnityW<::UnityEngine::AudioClip>>*  ____randomSoundPicker;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::BasicUIAudioManager, ____buttonClickEvents) == 0x20, "Offset mismatch!");
@@ -175,6 +170,6 @@ static_assert(offsetof(::GlobalNamespace::BasicUIAudioManager, ____randomSoundPi
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BasicUIAudioManager, 0x50>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BasicUIAudioManager);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BasicUIAudioManager*, "", "BasicUIAudioManager");

@@ -6,110 +6,134 @@
 #include "Mono/Math/Prime/zzzz__PrimalityTest_def.hpp"
 #include "Mono/Math/zzzz__BigInteger_def.hpp"
 //  Writing Method size for method: ::Mono::Math::Prime::Generator::PrimeGeneratorBase.get_Confidence
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Math::Prime::ConfidenceFactor (::Mono::Math::Prime::Generator::PrimeGeneratorBase::*)()>(
-    &::Mono::Math::Prime::Generator::PrimeGeneratorBase::get_Confidence)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Math::Prime::ConfidenceFactor (::Mono::Math::Prime::Generator::PrimeGeneratorBase::*)()>(&::Mono::Math::Prime::Generator::PrimeGeneratorBase::get_Confidence)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58fcbc0;
+  constexpr static std::size_t addrs = 0x58fd0cc;
 
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Math::Prime::Generator::PrimeGeneratorBase*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Math::Prime::Generator::PrimeGeneratorBase*>::get(), 4));
+  inline static const ::MethodInfo* methodInfo() {
+    
+                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Math::Prime::Generator::PrimeGeneratorBase*>::get(),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Math::Prime::Generator::PrimeGeneratorBase*>::get(),
+                                  4
+                                ));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Mono::Math::Prime::Generator::PrimeGeneratorBase.get_PrimalityTest
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Math::Prime::PrimalityTest* (::Mono::Math::Prime::Generator::PrimeGeneratorBase::*)()>(
-    &::Mono::Math::Prime::Generator::PrimeGeneratorBase::get_PrimalityTest)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Math::Prime::PrimalityTest* (::Mono::Math::Prime::Generator::PrimeGeneratorBase::*)()>(&::Mono::Math::Prime::Generator::PrimeGeneratorBase::get_PrimalityTest)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x58fcbc8;
+  constexpr static std::size_t addrs = 0x58fd0d4;
 
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Math::Prime::Generator::PrimeGeneratorBase*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Math::Prime::Generator::PrimeGeneratorBase*>::get(), 5));
+  inline static const ::MethodInfo* methodInfo() {
+    
+                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Math::Prime::Generator::PrimeGeneratorBase*>::get(),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Math::Prime::Generator::PrimeGeneratorBase*>::get(),
+                                  5
+                                ));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Mono::Math::Prime::Generator::PrimeGeneratorBase.get_TrialDivisionBounds
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Mono::Math::Prime::Generator::PrimeGeneratorBase::*)()>(
-    &::Mono::Math::Prime::Generator::PrimeGeneratorBase::get_TrialDivisionBounds)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Mono::Math::Prime::Generator::PrimeGeneratorBase::*)()>(&::Mono::Math::Prime::Generator::PrimeGeneratorBase::get_TrialDivisionBounds)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x58fcc3c;
+  constexpr static std::size_t addrs = 0x58fd148;
 
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Math::Prime::Generator::PrimeGeneratorBase*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Math::Prime::Generator::PrimeGeneratorBase*>::get(), 6));
+  inline static const ::MethodInfo* methodInfo() {
+    
+                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Math::Prime::Generator::PrimeGeneratorBase*>::get(),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Math::Prime::Generator::PrimeGeneratorBase*>::get(),
+                                  6
+                                ));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Mono::Math::Prime::Generator::PrimeGeneratorBase.GenerateNewPrime
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Math::BigInteger* (::Mono::Math::Prime::Generator::PrimeGeneratorBase::*)(int32_t)>(
-    &::Mono::Math::Prime::Generator::PrimeGeneratorBase::GenerateNewPrime)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Math::BigInteger* (::Mono::Math::Prime::Generator::PrimeGeneratorBase::*)(int32_t)>(&::Mono::Math::Prime::Generator::PrimeGeneratorBase::GenerateNewPrime)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0xffffffffffffffff;
 
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Math::Prime::Generator::PrimeGeneratorBase*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Math::Prime::Generator::PrimeGeneratorBase*>::get(), 7));
+  inline static const ::MethodInfo* methodInfo() {
+    
+                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Math::Prime::Generator::PrimeGeneratorBase*>::get(),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Math::Prime::Generator::PrimeGeneratorBase*>::get(),
+                                  7
+                                ));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Mono::Math::Prime::Generator::PrimeGeneratorBase._ctor
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Math::Prime::Generator::PrimeGeneratorBase::*)()>(
-    &::Mono::Math::Prime::Generator::PrimeGeneratorBase::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Math::Prime::Generator::PrimeGeneratorBase::*)()>(&::Mono::Math::Prime::Generator::PrimeGeneratorBase::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x58fcc44;
+  constexpr static std::size_t addrs = 0x58fd150;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Math::Prime::Generator::PrimeGeneratorBase*>::get(),
-                                                                               ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Math::Prime::Generator::PrimeGeneratorBase*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
-inline ::Mono::Math::Prime::ConfidenceFactor Mono::Math::Prime::Generator::PrimeGeneratorBase::get_Confidence() {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Math::Prime::Generator::PrimeGeneratorBase*>::get(), 4)));
-  return ::cordl_internals::RunMethodRethrow<::Mono::Math::Prime::ConfidenceFactor, false>(this, ___internal_method);
+inline ::Mono::Math::Prime::ConfidenceFactor Mono::Math::Prime::Generator::PrimeGeneratorBase::get_Confidence()  {
+auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Math::Prime::Generator::PrimeGeneratorBase*>::get(),
+                            4
+                        )));
+return ::cordl_internals::RunMethodRethrow<::Mono::Math::Prime::ConfidenceFactor, false>(this, ___internal_method);
 }
-inline ::Mono::Math::Prime::PrimalityTest* Mono::Math::Prime::Generator::PrimeGeneratorBase::get_PrimalityTest() {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Math::Prime::Generator::PrimeGeneratorBase*>::get(), 5)));
-  return ::cordl_internals::RunMethodRethrow<::Mono::Math::Prime::PrimalityTest*, false>(this, ___internal_method);
+inline ::Mono::Math::Prime::PrimalityTest* Mono::Math::Prime::Generator::PrimeGeneratorBase::get_PrimalityTest()  {
+auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Math::Prime::Generator::PrimeGeneratorBase*>::get(),
+                            5
+                        )));
+return ::cordl_internals::RunMethodRethrow<::Mono::Math::Prime::PrimalityTest*, false>(this, ___internal_method);
 }
-inline int32_t Mono::Math::Prime::Generator::PrimeGeneratorBase::get_TrialDivisionBounds() {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Math::Prime::Generator::PrimeGeneratorBase*>::get(), 6)));
-  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+inline int32_t Mono::Math::Prime::Generator::PrimeGeneratorBase::get_TrialDivisionBounds()  {
+auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Math::Prime::Generator::PrimeGeneratorBase*>::get(),
+                            6
+                        )));
+return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
-inline ::Mono::Math::BigInteger* Mono::Math::Prime::Generator::PrimeGeneratorBase::GenerateNewPrime(int32_t bits) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Math::Prime::Generator::PrimeGeneratorBase*>::get(), 7)));
-  return ::cordl_internals::RunMethodRethrow<::Mono::Math::BigInteger*, false>(this, ___internal_method, bits);
+inline ::Mono::Math::BigInteger* Mono::Math::Prime::Generator::PrimeGeneratorBase::GenerateNewPrime(int32_t  bits)  {
+auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Math::Prime::Generator::PrimeGeneratorBase*>::get(),
+                            7
+                        )));
+return ::cordl_internals::RunMethodRethrow<::Mono::Math::BigInteger*, false>(this, ___internal_method, bits);
 }
-inline void Mono::Math::Prime::Generator::PrimeGeneratorBase::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Math::Prime::Generator::PrimeGeneratorBase*>::get(),
-                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void Mono::Math::Prime::Generator::PrimeGeneratorBase::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Math::Prime::Generator::PrimeGeneratorBase*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::Mono::Math::Prime::Generator::PrimeGeneratorBase* Mono::Math::Prime::Generator::PrimeGeneratorBase::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Mono::Math::Prime::Generator::PrimeGeneratorBase*>());
+inline ::Mono::Math::Prime::Generator::PrimeGeneratorBase* Mono::Math::Prime::Generator::PrimeGeneratorBase::New_ctor()  {
+return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Mono::Math::Prime::Generator::PrimeGeneratorBase*>());
 }
 // Ctor Parameters []
-constexpr ::Mono::Math::Prime::Generator::PrimeGeneratorBase::PrimeGeneratorBase() {}
+constexpr ::Mono::Math::Prime::Generator::PrimeGeneratorBase::PrimeGeneratorBase()   {
+}

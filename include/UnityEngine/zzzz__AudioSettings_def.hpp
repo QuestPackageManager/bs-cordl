@@ -10,7 +10,8 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(AudioSettings)
 namespace System {
-template <typename T> class Action_1;
+template<typename T>
+class Action_1;
 }
 namespace System {
 class Action;
@@ -53,217 +54,216 @@ namespace UnityEngine {
 // CS Name: UnityEngine.AudioSettings/AudioConfigurationChangeHandler
 class CORDL_TYPE AudioSettings_AudioConfigurationChangeHandler : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method Invoke, addr 0x687c130, size 0x14, virtual true, abstract: false, final false
-  inline void Invoke(bool deviceWasChanged);
+// Declarations
+/// @brief Method Invoke, addr 0x687c7f0, size 0x14, virtual true, abstract: false, final false
+inline void Invoke(bool  deviceWasChanged) ;
 
-  static inline ::UnityEngine::AudioSettings_AudioConfigurationChangeHandler* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::UnityEngine::AudioSettings_AudioConfigurationChangeHandler* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x687c0c4, size 0x6c, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x687c784, size 0x6c, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AudioSettings_AudioConfigurationChangeHandler();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr AudioSettings_AudioConfigurationChangeHandler() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AudioSettings_AudioConfigurationChangeHandler", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  AudioSettings_AudioConfigurationChangeHandler(AudioSettings_AudioConfigurationChangeHandler&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AudioSettings_AudioConfigurationChangeHandler", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  AudioSettings_AudioConfigurationChangeHandler(AudioSettings_AudioConfigurationChangeHandler const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "AudioSettings_AudioConfigurationChangeHandler", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+AudioSettings_AudioConfigurationChangeHandler(AudioSettings_AudioConfigurationChangeHandler && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20571 };
+// Ctor Parameters [CppParam { name: "", ty: "AudioSettings_AudioConfigurationChangeHandler", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+AudioSettings_AudioConfigurationChangeHandler(AudioSettings_AudioConfigurationChangeHandler const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20575};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::AudioSettings_AudioConfigurationChangeHandler, 0x80>, "Size mismatch!");
 
-} // namespace UnityEngine
+} // namespace end def UnityEngine
 // Dependencies System.Object
 namespace UnityEngine {
 // Is value type: false
 // CS Name: UnityEngine.AudioSettings/Mobile
 class CORDL_TYPE AudioSettings_Mobile : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field OnMuteStateChanged, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_OnMuteStateChanged, put = setStaticF_OnMuteStateChanged)) ::System::Action_1<bool>* OnMuteStateChanged;
+// Declarations
+/// @brief Field OnMuteStateChanged, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_OnMuteStateChanged, put=setStaticF_OnMuteStateChanged)) ::System::Action_1<bool>*  OnMuteStateChanged;
 
-  /// @brief Field <muteState>k__BackingField, offset 0xffffffff, size 0x1
-  __declspec(property(get = getStaticF__muteState_k__BackingField, put = setStaticF__muteState_k__BackingField)) bool _muteState_k__BackingField;
+/// @brief Field <muteState>k__BackingField, offset 0xffffffff, size 0x1 
+ __declspec(property(get=getStaticF__muteState_k__BackingField, put=setStaticF__muteState_k__BackingField)) bool  _muteState_k__BackingField;
 
-  /// @brief Field _stopAudioOutputOnMute, offset 0xffffffff, size 0x1
-  __declspec(property(get = getStaticF__stopAudioOutputOnMute, put = setStaticF__stopAudioOutputOnMute)) bool _stopAudioOutputOnMute;
+/// @brief Field _stopAudioOutputOnMute, offset 0xffffffff, size 0x1 
+ __declspec(property(get=getStaticF__stopAudioOutputOnMute, put=setStaticF__stopAudioOutputOnMute)) bool  _stopAudioOutputOnMute;
 
-  /// @brief Method InvokeIsStopAudioOutputOnMuteEnabled, addr 0x687c440, size 0x4c, virtual false, abstract: false, final false
-  static inline bool InvokeIsStopAudioOutputOnMuteEnabled();
+/// @brief Method InvokeIsStopAudioOutputOnMuteEnabled, addr 0x687cb00, size 0x4c, virtual false, abstract: false, final false
+static inline bool InvokeIsStopAudioOutputOnMuteEnabled() ;
 
-  /// @brief Method InvokeOnMuteStateChanged, addr 0x687c230, size 0x1c0, virtual false, abstract: false, final false
-  static inline void InvokeOnMuteStateChanged(bool mute);
+/// @brief Method InvokeOnMuteStateChanged, addr 0x687c8f0, size 0x1c0, virtual false, abstract: false, final false
+static inline void InvokeOnMuteStateChanged(bool  mute) ;
 
-  /// @brief Method StartAudioOutput, addr 0x687c418, size 0x28, virtual false, abstract: false, final false
-  static inline void StartAudioOutput();
+/// @brief Method StartAudioOutput, addr 0x687cad8, size 0x28, virtual false, abstract: false, final false
+static inline void StartAudioOutput() ;
 
-  /// @brief Method StopAudioOutput, addr 0x687c3f0, size 0x28, virtual false, abstract: false, final false
-  static inline void StopAudioOutput();
+/// @brief Method StopAudioOutput, addr 0x687cab0, size 0x28, virtual false, abstract: false, final false
+static inline void StopAudioOutput() ;
 
-  static inline ::System::Action_1<bool>* getStaticF_OnMuteStateChanged();
+static inline ::System::Action_1<bool>* getStaticF_OnMuteStateChanged() ;
 
-  static inline bool getStaticF__muteState_k__BackingField();
+static inline bool getStaticF__muteState_k__BackingField() ;
 
-  static inline bool getStaticF__stopAudioOutputOnMute();
+static inline bool getStaticF__stopAudioOutputOnMute() ;
 
-  /// @brief Method get_muteState, addr 0x687c144, size 0x4c, virtual false, abstract: false, final false
-  static inline bool get_muteState();
+/// @brief Method get_muteState, addr 0x687c804, size 0x4c, virtual false, abstract: false, final false
+static inline bool get_muteState() ;
 
-  /// @brief Method get_stopAudioOutputOnMute, addr 0x687c1e4, size 0x4c, virtual false, abstract: false, final false
-  static inline bool get_stopAudioOutputOnMute();
+/// @brief Method get_stopAudioOutputOnMute, addr 0x687c8a4, size 0x4c, virtual false, abstract: false, final false
+static inline bool get_stopAudioOutputOnMute() ;
 
-  static inline void setStaticF_OnMuteStateChanged(::System::Action_1<bool>* value);
+static inline void setStaticF_OnMuteStateChanged(::System::Action_1<bool>*  value) ;
 
-  static inline void setStaticF__muteState_k__BackingField(bool value);
+static inline void setStaticF__muteState_k__BackingField(bool  value) ;
 
-  static inline void setStaticF__stopAudioOutputOnMute(bool value);
+static inline void setStaticF__stopAudioOutputOnMute(bool  value) ;
 
-  /// @brief Method set_muteState, addr 0x687c190, size 0x54, virtual false, abstract: false, final false
-  static inline void set_muteState(bool value);
+/// @brief Method set_muteState, addr 0x687c850, size 0x54, virtual false, abstract: false, final false
+static inline void set_muteState(bool  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AudioSettings_Mobile();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr AudioSettings_Mobile() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AudioSettings_Mobile", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  AudioSettings_Mobile(AudioSettings_Mobile&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AudioSettings_Mobile", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  AudioSettings_Mobile(AudioSettings_Mobile const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "AudioSettings_Mobile", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+AudioSettings_Mobile(AudioSettings_Mobile && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20572 };
+// Ctor Parameters [CppParam { name: "", ty: "AudioSettings_Mobile", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+AudioSettings_Mobile(AudioSettings_Mobile const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20576};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::AudioSettings_Mobile, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine
+} // namespace end def UnityEngine
 // Dependencies System.Object
 namespace UnityEngine {
 // Is value type: false
 // CS Name: UnityEngine.AudioSettings
 class CORDL_TYPE AudioSettings : public ::System::Object {
 public:
-  // Declarations
-  using AudioConfigurationChangeHandler = ::UnityEngine::AudioSettings_AudioConfigurationChangeHandler;
+// Declarations
+using AudioConfigurationChangeHandler = ::UnityEngine::AudioSettings_AudioConfigurationChangeHandler;
 
-  using Mobile = ::UnityEngine::AudioSettings_Mobile;
+using Mobile = ::UnityEngine::AudioSettings_Mobile;
 
-  /// @brief Field OnAudioConfigurationChanged, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_OnAudioConfigurationChanged,
-                      put = setStaticF_OnAudioConfigurationChanged)) ::UnityEngine::AudioSettings_AudioConfigurationChangeHandler* OnAudioConfigurationChanged;
+/// @brief Field OnAudioConfigurationChanged, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_OnAudioConfigurationChanged, put=setStaticF_OnAudioConfigurationChanged)) ::UnityEngine::AudioSettings_AudioConfigurationChangeHandler*  OnAudioConfigurationChanged;
 
-  /// @brief Field OnAudioSystemShuttingDown, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_OnAudioSystemShuttingDown, put = setStaticF_OnAudioSystemShuttingDown)) ::System::Action* OnAudioSystemShuttingDown;
+/// @brief Field OnAudioSystemShuttingDown, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_OnAudioSystemShuttingDown, put=setStaticF_OnAudioSystemShuttingDown)) ::System::Action*  OnAudioSystemShuttingDown;
 
-  /// @brief Field OnAudioSystemStartedUp, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_OnAudioSystemStartedUp, put = setStaticF_OnAudioSystemStartedUp)) ::System::Action* OnAudioSystemStartedUp;
+/// @brief Field OnAudioSystemStartedUp, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_OnAudioSystemStartedUp, put=setStaticF_OnAudioSystemStartedUp)) ::System::Action*  OnAudioSystemStartedUp;
 
-  /// @brief Method GetConfiguration, addr 0x687bcb0, size 0x60, virtual false, abstract: false, final false
-  static inline ::UnityEngine::AudioConfiguration GetConfiguration();
+/// @brief Method GetConfiguration, addr 0x687c370, size 0x60, virtual false, abstract: false, final false
+static inline ::UnityEngine::AudioConfiguration GetConfiguration() ;
 
-  /// @brief Method GetConfiguration_Injected, addr 0x687bd10, size 0x3c, virtual false, abstract: false, final false
-  static inline void GetConfiguration_Injected(::ByRef<::UnityEngine::AudioConfiguration> ret);
+/// @brief Method GetConfiguration_Injected, addr 0x687c3d0, size 0x3c, virtual false, abstract: false, final false
+static inline void GetConfiguration_Injected(::ByRef<::UnityEngine::AudioConfiguration>  ret) ;
 
-  /// @brief Method GetSampleRate, addr 0x687bb38, size 0x28, virtual false, abstract: false, final false
-  static inline int32_t GetSampleRate();
+/// @brief Method GetSampleRate, addr 0x687c1f8, size 0x28, virtual false, abstract: false, final false
+static inline int32_t GetSampleRate() ;
 
-  /// @brief Method GetSpatializerPluginName, addr 0x687bbb0, size 0xc4, virtual false, abstract: false, final false
-  static inline ::StringW GetSpatializerPluginName();
+/// @brief Method GetSpatializerPluginName, addr 0x687c270, size 0xc4, virtual false, abstract: false, final false
+static inline ::StringW GetSpatializerPluginName() ;
 
-  /// @brief Method GetSpatializerPluginName_Injected, addr 0x687bc74, size 0x3c, virtual false, abstract: false, final false
-  static inline void GetSpatializerPluginName_Injected(::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> ret);
+/// @brief Method GetSpatializerPluginName_Injected, addr 0x687c334, size 0x3c, virtual false, abstract: false, final false
+static inline void GetSpatializerPluginName_Injected(::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>  ret) ;
 
-  /// @brief Method InvokeOnAudioConfigurationChanged, addr 0x687bf34, size 0x70, virtual false, abstract: false, final false
-  static inline void InvokeOnAudioConfigurationChanged(bool deviceWasChanged);
+/// @brief Method InvokeOnAudioConfigurationChanged, addr 0x687c5f4, size 0x70, virtual false, abstract: false, final false
+static inline void InvokeOnAudioConfigurationChanged(bool  deviceWasChanged) ;
 
-  /// @brief Method InvokeOnAudioSystemShuttingDown, addr 0x687bfa4, size 0x68, virtual false, abstract: false, final false
-  static inline void InvokeOnAudioSystemShuttingDown();
+/// @brief Method InvokeOnAudioSystemShuttingDown, addr 0x687c664, size 0x68, virtual false, abstract: false, final false
+static inline void InvokeOnAudioSystemShuttingDown() ;
 
-  /// @brief Method InvokeOnAudioSystemStartedUp, addr 0x687c00c, size 0x68, virtual false, abstract: false, final false
-  static inline void InvokeOnAudioSystemStartedUp();
+/// @brief Method InvokeOnAudioSystemStartedUp, addr 0x687c6cc, size 0x68, virtual false, abstract: false, final false
+static inline void InvokeOnAudioSystemStartedUp() ;
 
-  /// @brief Method Reset, addr 0x687bd4c, size 0x50, virtual false, abstract: false, final false
-  static inline bool Reset(::UnityEngine::AudioConfiguration config);
+/// @brief Method Reset, addr 0x687c40c, size 0x50, virtual false, abstract: false, final false
+static inline bool Reset(::UnityEngine::AudioConfiguration  config) ;
 
-  /// @brief Method SetConfiguration, addr 0x687bac0, size 0x3c, virtual false, abstract: false, final false
-  static inline bool SetConfiguration(::UnityEngine::AudioConfiguration config);
+/// @brief Method SetConfiguration, addr 0x687c180, size 0x3c, virtual false, abstract: false, final false
+static inline bool SetConfiguration(::UnityEngine::AudioConfiguration  config) ;
 
-  /// @brief Method SetConfiguration_Injected, addr 0x687bafc, size 0x3c, virtual false, abstract: false, final false
-  static inline bool SetConfiguration_Injected(::ByRef<::UnityEngine::AudioConfiguration> config);
+/// @brief Method SetConfiguration_Injected, addr 0x687c1bc, size 0x3c, virtual false, abstract: false, final false
+static inline bool SetConfiguration_Injected(::ByRef<::UnityEngine::AudioConfiguration>  config) ;
 
-  /// @brief Method StartAudioOutput, addr 0x687c074, size 0x28, virtual false, abstract: false, final false
-  static inline bool StartAudioOutput();
+/// @brief Method StartAudioOutput, addr 0x687c734, size 0x28, virtual false, abstract: false, final false
+static inline bool StartAudioOutput() ;
 
-  /// @brief Method StopAudioOutput, addr 0x687c09c, size 0x28, virtual false, abstract: false, final false
-  static inline bool StopAudioOutput();
+/// @brief Method StopAudioOutput, addr 0x687c75c, size 0x28, virtual false, abstract: false, final false
+static inline bool StopAudioOutput() ;
 
-  /// @brief Method add_OnAudioConfigurationChanged, addr 0x687bd9c, size 0xcc, virtual false, abstract: false, final false
-  static inline void add_OnAudioConfigurationChanged(::UnityEngine::AudioSettings_AudioConfigurationChangeHandler* value);
+/// @brief Method add_OnAudioConfigurationChanged, addr 0x687c45c, size 0xcc, virtual false, abstract: false, final false
+static inline void add_OnAudioConfigurationChanged(::UnityEngine::AudioSettings_AudioConfigurationChangeHandler*  value) ;
 
-  static inline ::UnityEngine::AudioSettings_AudioConfigurationChangeHandler* getStaticF_OnAudioConfigurationChanged();
+static inline ::UnityEngine::AudioSettings_AudioConfigurationChangeHandler* getStaticF_OnAudioConfigurationChanged() ;
 
-  static inline ::System::Action* getStaticF_OnAudioSystemShuttingDown();
+static inline ::System::Action* getStaticF_OnAudioSystemShuttingDown() ;
 
-  static inline ::System::Action* getStaticF_OnAudioSystemStartedUp();
+static inline ::System::Action* getStaticF_OnAudioSystemStartedUp() ;
 
-  /// @brief Method get_dspTime, addr 0x687bb60, size 0x28, virtual false, abstract: false, final false
-  static inline double_t get_dspTime();
+/// @brief Method get_dspTime, addr 0x687c220, size 0x28, virtual false, abstract: false, final false
+static inline double_t get_dspTime() ;
 
-  /// @brief Method get_outputSampleRate, addr 0x687bb88, size 0x28, virtual false, abstract: false, final false
-  static inline int32_t get_outputSampleRate();
+/// @brief Method get_outputSampleRate, addr 0x687c248, size 0x28, virtual false, abstract: false, final false
+static inline int32_t get_outputSampleRate() ;
 
-  /// @brief Method remove_OnAudioConfigurationChanged, addr 0x687be68, size 0xcc, virtual false, abstract: false, final false
-  static inline void remove_OnAudioConfigurationChanged(::UnityEngine::AudioSettings_AudioConfigurationChangeHandler* value);
+/// @brief Method remove_OnAudioConfigurationChanged, addr 0x687c528, size 0xcc, virtual false, abstract: false, final false
+static inline void remove_OnAudioConfigurationChanged(::UnityEngine::AudioSettings_AudioConfigurationChangeHandler*  value) ;
 
-  static inline void setStaticF_OnAudioConfigurationChanged(::UnityEngine::AudioSettings_AudioConfigurationChangeHandler* value);
+static inline void setStaticF_OnAudioConfigurationChanged(::UnityEngine::AudioSettings_AudioConfigurationChangeHandler*  value) ;
 
-  static inline void setStaticF_OnAudioSystemShuttingDown(::System::Action* value);
+static inline void setStaticF_OnAudioSystemShuttingDown(::System::Action*  value) ;
 
-  static inline void setStaticF_OnAudioSystemStartedUp(::System::Action* value);
+static inline void setStaticF_OnAudioSystemStartedUp(::System::Action*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AudioSettings();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr AudioSettings() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AudioSettings", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  AudioSettings(AudioSettings&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AudioSettings", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  AudioSettings(AudioSettings const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "AudioSettings", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+AudioSettings(AudioSettings && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20573 };
+// Ctor Parameters [CppParam { name: "", ty: "AudioSettings", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+AudioSettings(AudioSettings const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20577};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::AudioSettings, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine
+} // namespace end def UnityEngine
 NEED_NO_BOX(::UnityEngine::AudioSettings);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AudioSettings*, "UnityEngine", "AudioSettings");
 NEED_NO_BOX(::UnityEngine::AudioSettings_AudioConfigurationChangeHandler);

@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "UnityEngine/InputSystem/Users/InputUser.hpp"
 #include "UnityEngine/InputSystem/Users/InputUserAccountHandle.hpp"
@@ -9,5 +9,6 @@ module;
 #include "UnityEngine/InputSystem/Users/InputUserPairingOptions.hpp"
 #include "UnityEngine/InputSystem/Users/InputUserSettings.hpp"
 #ifdef __cpp_modules
-export module Users;
-#endif
+                    export module Users;
+                    #endif
+                

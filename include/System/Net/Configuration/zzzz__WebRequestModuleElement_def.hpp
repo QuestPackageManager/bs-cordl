@@ -17,29 +17,29 @@ namespace System::Net::Configuration {
 // CS Name: System.Net.Configuration.WebRequestModuleElement
 class CORDL_TYPE WebRequestModuleElement : public ::System::Configuration::ConfigurationElement {
 public:
-  // Declarations
+// Declarations
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr WebRequestModuleElement();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr WebRequestModuleElement() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "WebRequestModuleElement", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  WebRequestModuleElement(WebRequestModuleElement&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "WebRequestModuleElement", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  WebRequestModuleElement(WebRequestModuleElement const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "WebRequestModuleElement", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+WebRequestModuleElement(WebRequestModuleElement && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11813 };
+// Ctor Parameters [CppParam { name: "", ty: "WebRequestModuleElement", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+WebRequestModuleElement(WebRequestModuleElement const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11817};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::Configuration::WebRequestModuleElement, 0x10>, "Size mismatch!");
 
-} // namespace System::Net::Configuration
+} // namespace end def System::Net::Configuration
 NEED_NO_BOX(::System::Net::Configuration::WebRequestModuleElement);
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::Configuration::WebRequestModuleElement*, "System.Net.Configuration", "WebRequestModuleElement");

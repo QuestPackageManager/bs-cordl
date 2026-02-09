@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "System/Runtime/Remoting/Contexts/Context.hpp"
 #include "System/Runtime/Remoting/Contexts/ContextCallbackObject.hpp"
@@ -18,5 +18,6 @@ module;
 #include "System/Runtime/Remoting/Contexts/IDynamicMessageSink.hpp"
 #include "System/Runtime/Remoting/Contexts/IDynamicProperty.hpp"
 #ifdef __cpp_modules
-export module Contexts;
-#endif
+                    export module Contexts;
+                    #endif
+                

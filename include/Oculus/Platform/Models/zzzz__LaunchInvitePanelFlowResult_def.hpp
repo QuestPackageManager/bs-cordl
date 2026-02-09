@@ -23,48 +23,48 @@ namespace Oculus::Platform::Models {
 // CS Name: Oculus.Platform.Models.LaunchInvitePanelFlowResult
 class CORDL_TYPE LaunchInvitePanelFlowResult : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field InvitedUsers, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_InvitedUsers, put = __cordl_internal_set_InvitedUsers)) ::Oculus::Platform::Models::UserList* InvitedUsers;
+// Declarations
+/// @brief Field InvitedUsers, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_InvitedUsers, put=__cordl_internal_set_InvitedUsers)) ::Oculus::Platform::Models::UserList*  InvitedUsers;
 
-  static inline ::Oculus::Platform::Models::LaunchInvitePanelFlowResult* New_ctor(::System::IntPtr o);
+static inline ::Oculus::Platform::Models::LaunchInvitePanelFlowResult* New_ctor(::System::IntPtr  o) ;
 
-  constexpr ::Oculus::Platform::Models::UserList* const& __cordl_internal_get_InvitedUsers() const;
+constexpr ::Oculus::Platform::Models::UserList* const& __cordl_internal_get_InvitedUsers() const;
 
-  constexpr ::Oculus::Platform::Models::UserList*& __cordl_internal_get_InvitedUsers();
+constexpr ::Oculus::Platform::Models::UserList*& __cordl_internal_get_InvitedUsers() ;
 
-  constexpr void __cordl_internal_set_InvitedUsers(::Oculus::Platform::Models::UserList* value);
+constexpr void __cordl_internal_set_InvitedUsers(::Oculus::Platform::Models::UserList*  value) ;
 
-  /// @brief Method .ctor, addr 0x5c41bdc, size 0xa4, virtual false, abstract: false, final false
-  inline void _ctor(::System::IntPtr o);
+/// @brief Method .ctor, addr 0x5c420e8, size 0xa4, virtual false, abstract: false, final false
+inline void _ctor(::System::IntPtr  o) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LaunchInvitePanelFlowResult();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr LaunchInvitePanelFlowResult() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LaunchInvitePanelFlowResult", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  LaunchInvitePanelFlowResult(LaunchInvitePanelFlowResult&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LaunchInvitePanelFlowResult", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  LaunchInvitePanelFlowResult(LaunchInvitePanelFlowResult const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "LaunchInvitePanelFlowResult", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+LaunchInvitePanelFlowResult(LaunchInvitePanelFlowResult && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18021 };
+// Ctor Parameters [CppParam { name: "", ty: "LaunchInvitePanelFlowResult", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+LaunchInvitePanelFlowResult(LaunchInvitePanelFlowResult const& ) = delete;
 
-  /// @brief Field InvitedUsers, offset: 0x10, size: 0x8, def value: None
-  ::Oculus::Platform::Models::UserList* ___InvitedUsers;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{18025};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field InvitedUsers, offset: 0x10, size: 0x8, def value: None
+ ::Oculus::Platform::Models::UserList*  ___InvitedUsers;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Oculus::Platform::Models::LaunchInvitePanelFlowResult, ___InvitedUsers) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::Oculus::Platform::Models::LaunchInvitePanelFlowResult, 0x18>, "Size mismatch!");
 
-} // namespace Oculus::Platform::Models
+} // namespace end def Oculus::Platform::Models
 NEED_NO_BOX(::Oculus::Platform::Models::LaunchInvitePanelFlowResult);
 DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::LaunchInvitePanelFlowResult*, "Oculus.Platform.Models", "LaunchInvitePanelFlowResult");

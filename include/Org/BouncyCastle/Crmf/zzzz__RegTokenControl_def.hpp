@@ -30,76 +30,76 @@ namespace Org::BouncyCastle::Crmf {
 // CS Name: Org.BouncyCastle.Crmf.RegTokenControl
 class CORDL_TYPE RegTokenControl : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(get = get_Type)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* Type;
+// Declarations
+ __declspec(property(get=get_Type)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier*  Type;
 
-  __declspec(property(get = get_Value)) ::Org::BouncyCastle::Asn1::Asn1Encodable* Value;
+ __declspec(property(get=get_Value)) ::Org::BouncyCastle::Asn1::Asn1Encodable*  Value;
 
-  /// @brief Field token, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_token, put = __cordl_internal_set_token)) ::Org::BouncyCastle::Asn1::DerUtf8String* token;
+/// @brief Field token, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_token, put=__cordl_internal_set_token)) ::Org::BouncyCastle::Asn1::DerUtf8String*  token;
 
-  /// @brief Field type, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_type, put = setStaticF_type)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* type;
+/// @brief Field type, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_type, put=setStaticF_type)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier*  type;
 
-  /// @brief Convert operator to "::Org::BouncyCastle::Crmf::IControl"
-  constexpr operator ::Org::BouncyCastle::Crmf::IControl*() noexcept;
+/// @brief Convert operator to "::Org::BouncyCastle::Crmf::IControl"
+constexpr operator  ::Org::BouncyCastle::Crmf::IControl*() noexcept;
 
-  static inline ::Org::BouncyCastle::Crmf::RegTokenControl* New_ctor(::Org::BouncyCastle::Asn1::DerUtf8String* token);
+static inline ::Org::BouncyCastle::Crmf::RegTokenControl* New_ctor(::Org::BouncyCastle::Asn1::DerUtf8String*  token) ;
 
-  static inline ::Org::BouncyCastle::Crmf::RegTokenControl* New_ctor(::StringW token);
+static inline ::Org::BouncyCastle::Crmf::RegTokenControl* New_ctor(::StringW  token) ;
 
-  constexpr ::Org::BouncyCastle::Asn1::DerUtf8String* const& __cordl_internal_get_token() const;
+constexpr ::Org::BouncyCastle::Asn1::DerUtf8String* const& __cordl_internal_get_token() const;
 
-  constexpr ::Org::BouncyCastle::Asn1::DerUtf8String*& __cordl_internal_get_token();
+constexpr ::Org::BouncyCastle::Asn1::DerUtf8String*& __cordl_internal_get_token() ;
 
-  constexpr void __cordl_internal_set_token(::Org::BouncyCastle::Asn1::DerUtf8String* value);
+constexpr void __cordl_internal_set_token(::Org::BouncyCastle::Asn1::DerUtf8String*  value) ;
 
-  /// @brief Method .ctor, addr 0x35dc538, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Asn1::DerUtf8String* token);
+/// @brief Method .ctor, addr 0x35dc488, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(::Org::BouncyCastle::Asn1::DerUtf8String*  token) ;
 
-  /// @brief Method .ctor, addr 0x35e0f60, size 0x6c, virtual false, abstract: false, final false
-  inline void _ctor(::StringW token);
+/// @brief Method .ctor, addr 0x35e0eb0, size 0x6c, virtual false, abstract: false, final false
+inline void _ctor(::StringW  token) ;
 
-  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_type();
+static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_type() ;
 
-  /// @brief Method get_Type, addr 0x35e0fcc, size 0x5c, virtual true, abstract: false, final true
-  inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_Type();
+/// @brief Method get_Type, addr 0x35e0f1c, size 0x5c, virtual true, abstract: false, final true
+inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_Type() ;
 
-  /// @brief Method get_Value, addr 0x35e1028, size 0x8, virtual true, abstract: false, final true
-  inline ::Org::BouncyCastle::Asn1::Asn1Encodable* get_Value();
+/// @brief Method get_Value, addr 0x35e0f78, size 0x8, virtual true, abstract: false, final true
+inline ::Org::BouncyCastle::Asn1::Asn1Encodable* get_Value() ;
 
-  /// @brief Convert to "::Org::BouncyCastle::Crmf::IControl"
-  constexpr ::Org::BouncyCastle::Crmf::IControl* i___Org__BouncyCastle__Crmf__IControl() noexcept;
+/// @brief Convert to "::Org::BouncyCastle::Crmf::IControl"
+constexpr ::Org::BouncyCastle::Crmf::IControl* i___Org__BouncyCastle__Crmf__IControl() noexcept;
 
-  static inline void setStaticF_type(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+static inline void setStaticF_type(::Org::BouncyCastle::Asn1::DerObjectIdentifier*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RegTokenControl();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr RegTokenControl() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RegTokenControl", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  RegTokenControl(RegTokenControl&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RegTokenControl", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  RegTokenControl(RegTokenControl const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "RegTokenControl", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+RegTokenControl(RegTokenControl && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 713 };
+// Ctor Parameters [CppParam { name: "", ty: "RegTokenControl", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+RegTokenControl(RegTokenControl const& ) = delete;
 
-  /// @brief Field token, offset: 0x10, size: 0x8, def value: None
-  ::Org::BouncyCastle::Asn1::DerUtf8String* ___token;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{713};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field token, offset: 0x10, size: 0x8, def value: None
+ ::Org::BouncyCastle::Asn1::DerUtf8String*  ___token;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Org::BouncyCastle::Crmf::RegTokenControl, ___token) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crmf::RegTokenControl, 0x18>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Crmf
+} // namespace end def Org::BouncyCastle::Crmf
 NEED_NO_BOX(::Org::BouncyCastle::Crmf::RegTokenControl);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crmf::RegTokenControl*, "Org.BouncyCastle.Crmf", "RegTokenControl");

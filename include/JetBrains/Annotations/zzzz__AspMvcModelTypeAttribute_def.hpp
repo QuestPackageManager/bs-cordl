@@ -17,34 +17,34 @@ namespace JetBrains::Annotations {
 // CS Name: JetBrains.Annotations.AspMvcModelTypeAttribute
 class CORDL_TYPE AspMvcModelTypeAttribute : public ::System::Attribute {
 public:
-  // Declarations
-  static inline ::JetBrains::Annotations::AspMvcModelTypeAttribute* New_ctor();
+// Declarations
+static inline ::JetBrains::Annotations::AspMvcModelTypeAttribute* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x6c72448, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6c72b08, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AspMvcModelTypeAttribute();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr AspMvcModelTypeAttribute() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AspMvcModelTypeAttribute", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  AspMvcModelTypeAttribute(AspMvcModelTypeAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AspMvcModelTypeAttribute", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  AspMvcModelTypeAttribute(AspMvcModelTypeAttribute const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "AspMvcModelTypeAttribute", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+AspMvcModelTypeAttribute(AspMvcModelTypeAttribute && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22301 };
+// Ctor Parameters [CppParam { name: "", ty: "AspMvcModelTypeAttribute", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+AspMvcModelTypeAttribute(AspMvcModelTypeAttribute const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{22305};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::JetBrains::Annotations::AspMvcModelTypeAttribute, 0x10>, "Size mismatch!");
 
-} // namespace JetBrains::Annotations
+} // namespace end def JetBrains::Annotations
 NEED_NO_BOX(::JetBrains::Annotations::AspMvcModelTypeAttribute);
 DEFINE_IL2CPP_ARG_TYPE(::JetBrains::Annotations::AspMvcModelTypeAttribute*, "JetBrains.Annotations", "AspMvcModelTypeAttribute");

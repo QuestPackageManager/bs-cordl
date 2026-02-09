@@ -18,37 +18,37 @@ namespace Org::BouncyCastle::Crypto::Tls {
 // CS Name: Org.BouncyCastle.Crypto.Tls.CertificateStatusType
 class CORDL_TYPE CertificateStatusType : public ::System::Object {
 public:
-  // Declarations
-  static inline ::Org::BouncyCastle::Crypto::Tls::CertificateStatusType* New_ctor();
+// Declarations
+static inline ::Org::BouncyCastle::Crypto::Tls::CertificateStatusType* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x333f7c4, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x333f714, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CertificateStatusType();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr CertificateStatusType() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CertificateStatusType", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  CertificateStatusType(CertificateStatusType&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CertificateStatusType", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  CertificateStatusType(CertificateStatusType const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "CertificateStatusType", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+CertificateStatusType(CertificateStatusType && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1190 };
+// Ctor Parameters [CppParam { name: "", ty: "CertificateStatusType", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+CertificateStatusType(CertificateStatusType const& ) = delete;
 
-  /// @brief Field ocsp offset 0xffffffff size 0x1
-  static constexpr uint8_t ocsp{ static_cast<uint8_t>(0x1u) };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{1190};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field ocsp offset 0xffffffff size 0x1
+static constexpr uint8_t  ocsp{static_cast<uint8_t>(0x1u)};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Tls::CertificateStatusType, 0x10>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Crypto::Tls
+} // namespace end def Org::BouncyCastle::Crypto::Tls
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Tls::CertificateStatusType);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Tls::CertificateStatusType*, "Org.BouncyCastle.Crypto.Tls", "CertificateStatusType");

@@ -17,37 +17,37 @@ namespace GlobalNamespace {
 // CS Name: UseOnlyForReflectionProbeBaking
 class CORDL_TYPE UseOnlyForReflectionProbeBaking : public ::UnityEngine::MonoBehaviour {
 public:
-  // Declarations
-  /// @brief Method Awake, addr 0x5751fb4, size 0x24, virtual false, abstract: false, final false
-  inline void Awake();
+// Declarations
+/// @brief Method Awake, addr 0x57528e8, size 0x24, virtual false, abstract: false, final false
+inline void Awake() ;
 
-  static inline ::GlobalNamespace::UseOnlyForReflectionProbeBaking* New_ctor();
+static inline ::GlobalNamespace::UseOnlyForReflectionProbeBaking* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x5751fd8, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x575290c, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr UseOnlyForReflectionProbeBaking();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr UseOnlyForReflectionProbeBaking() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UseOnlyForReflectionProbeBaking", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  UseOnlyForReflectionProbeBaking(UseOnlyForReflectionProbeBaking&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UseOnlyForReflectionProbeBaking", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  UseOnlyForReflectionProbeBaking(UseOnlyForReflectionProbeBaking const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "UseOnlyForReflectionProbeBaking", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+UseOnlyForReflectionProbeBaking(UseOnlyForReflectionProbeBaking && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6628 };
+// Ctor Parameters [CppParam { name: "", ty: "UseOnlyForReflectionProbeBaking", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+UseOnlyForReflectionProbeBaking(UseOnlyForReflectionProbeBaking const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6632};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::UseOnlyForReflectionProbeBaking, 0x20>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::UseOnlyForReflectionProbeBaking);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::UseOnlyForReflectionProbeBaking*, "", "UseOnlyForReflectionProbeBaking");

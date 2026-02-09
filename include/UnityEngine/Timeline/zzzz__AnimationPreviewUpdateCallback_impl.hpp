@@ -9,113 +9,130 @@
 #include "UnityEngine/Animations/zzzz__IAnimationWindowPreview_def.hpp"
 #include "UnityEngine/Timeline/zzzz__ITimelineEvaluateCallback_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Timeline::AnimationPreviewUpdateCallback._ctor
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::AnimationPreviewUpdateCallback::*)(
-    ::UnityEngine::Animations::AnimationPlayableOutput)>(&::UnityEngine::Timeline::AnimationPreviewUpdateCallback::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::AnimationPreviewUpdateCallback::*)(::UnityEngine::Animations::AnimationPlayableOutput)>(&::UnityEngine::Timeline::AnimationPreviewUpdateCallback::_ctor)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x67f5d30;
+  constexpr static std::size_t addrs = 0x67f63f0;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::AnimationPreviewUpdateCallback*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Animations::AnimationPlayableOutput>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::AnimationPreviewUpdateCallback*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Animations::AnimationPlayableOutput>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Timeline::AnimationPreviewUpdateCallback.Evaluate
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::AnimationPreviewUpdateCallback::*)()>(
-    &::UnityEngine::Timeline::AnimationPreviewUpdateCallback::Evaluate)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::AnimationPreviewUpdateCallback::*)()>(&::UnityEngine::Timeline::AnimationPreviewUpdateCallback::Evaluate)> {
   constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x67f5df0;
+  constexpr static std::size_t addrs = 0x67f64b0;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::AnimationPreviewUpdateCallback*>::get(),
-                                                                               "Evaluate", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::AnimationPreviewUpdateCallback*>::get(),
+                        "Evaluate",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Timeline::AnimationPreviewUpdateCallback.FetchPreviewComponents
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::AnimationPreviewUpdateCallback::*)()>(
-    &::UnityEngine::Timeline::AnimationPreviewUpdateCallback::FetchPreviewComponents)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::AnimationPreviewUpdateCallback::*)()>(&::UnityEngine::Timeline::AnimationPreviewUpdateCallback::FetchPreviewComponents)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x67f5fb0;
+  constexpr static std::size_t addrs = 0x67f6670;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::AnimationPreviewUpdateCallback*>::get(),
-                                                                               "FetchPreviewComponents", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::AnimationPreviewUpdateCallback*>::get(),
+                        "FetchPreviewComponents",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
-constexpr ::UnityEngine::Animations::AnimationPlayableOutput& UnityEngine::Timeline::AnimationPreviewUpdateCallback::__cordl_internal_get_m_Output() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_Output;
+constexpr ::UnityEngine::Animations::AnimationPlayableOutput& UnityEngine::Timeline::AnimationPreviewUpdateCallback::__cordl_internal_get_m_Output()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_Output;
 }
 constexpr ::UnityEngine::Animations::AnimationPlayableOutput const& UnityEngine::Timeline::AnimationPreviewUpdateCallback::__cordl_internal_get_m_Output() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_Output;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_Output;
 }
-constexpr void UnityEngine::Timeline::AnimationPreviewUpdateCallback::__cordl_internal_set_m_Output(::UnityEngine::Animations::AnimationPlayableOutput value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___m_Output = value;
+constexpr void UnityEngine::Timeline::AnimationPreviewUpdateCallback::__cordl_internal_set_m_Output(::UnityEngine::Animations::AnimationPlayableOutput  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_Output = value;
 }
-constexpr ::UnityEngine::Playables::PlayableGraph& UnityEngine::Timeline::AnimationPreviewUpdateCallback::__cordl_internal_get_m_Graph() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_Graph;
+constexpr ::UnityEngine::Playables::PlayableGraph& UnityEngine::Timeline::AnimationPreviewUpdateCallback::__cordl_internal_get_m_Graph()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_Graph;
 }
 constexpr ::UnityEngine::Playables::PlayableGraph const& UnityEngine::Timeline::AnimationPreviewUpdateCallback::__cordl_internal_get_m_Graph() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_Graph;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_Graph;
 }
-constexpr void UnityEngine::Timeline::AnimationPreviewUpdateCallback::__cordl_internal_set_m_Graph(::UnityEngine::Playables::PlayableGraph value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___m_Graph = value;
+constexpr void UnityEngine::Timeline::AnimationPreviewUpdateCallback::__cordl_internal_set_m_Graph(::UnityEngine::Playables::PlayableGraph  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_Graph = value;
 }
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::Animations::IAnimationWindowPreview*>*&
-UnityEngine::Timeline::AnimationPreviewUpdateCallback::__cordl_internal_get_m_PreviewComponents() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_PreviewComponents;
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::Animations::IAnimationWindowPreview*>*& UnityEngine::Timeline::AnimationPreviewUpdateCallback::__cordl_internal_get_m_PreviewComponents()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_PreviewComponents;
 }
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::Animations::IAnimationWindowPreview*>* const&
-UnityEngine::Timeline::AnimationPreviewUpdateCallback::__cordl_internal_get_m_PreviewComponents() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_PreviewComponents;
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::Animations::IAnimationWindowPreview*>* const& UnityEngine::Timeline::AnimationPreviewUpdateCallback::__cordl_internal_get_m_PreviewComponents() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_PreviewComponents;
 }
-constexpr void
-UnityEngine::Timeline::AnimationPreviewUpdateCallback::__cordl_internal_set_m_PreviewComponents(::System::Collections::Generic::List_1<::UnityEngine::Animations::IAnimationWindowPreview*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_PreviewComponents)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void UnityEngine::Timeline::AnimationPreviewUpdateCallback::__cordl_internal_set_m_PreviewComponents(::System::Collections::Generic::List_1<::UnityEngine::Animations::IAnimationWindowPreview*>*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_PreviewComponents)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void UnityEngine::Timeline::AnimationPreviewUpdateCallback::_ctor(::UnityEngine::Animations::AnimationPlayableOutput output) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::AnimationPreviewUpdateCallback*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Animations::AnimationPlayableOutput>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, output);
+inline void UnityEngine::Timeline::AnimationPreviewUpdateCallback::_ctor(::UnityEngine::Animations::AnimationPlayableOutput  output)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::AnimationPreviewUpdateCallback*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Animations::AnimationPlayableOutput>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, output);
 }
-inline void UnityEngine::Timeline::AnimationPreviewUpdateCallback::Evaluate() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::AnimationPreviewUpdateCallback*>::get(),
-                                                                             "Evaluate", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void UnityEngine::Timeline::AnimationPreviewUpdateCallback::Evaluate()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::AnimationPreviewUpdateCallback*>::get(),
+                        "Evaluate",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void UnityEngine::Timeline::AnimationPreviewUpdateCallback::FetchPreviewComponents() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::AnimationPreviewUpdateCallback*>::get(),
-                                                                             "FetchPreviewComponents", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void UnityEngine::Timeline::AnimationPreviewUpdateCallback::FetchPreviewComponents()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::AnimationPreviewUpdateCallback*>::get(),
+                        "FetchPreviewComponents",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::UnityEngine::Timeline::AnimationPreviewUpdateCallback* UnityEngine::Timeline::AnimationPreviewUpdateCallback::New_ctor(::UnityEngine::Animations::AnimationPlayableOutput output) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Timeline::AnimationPreviewUpdateCallback*>(output));
+inline ::UnityEngine::Timeline::AnimationPreviewUpdateCallback* UnityEngine::Timeline::AnimationPreviewUpdateCallback::New_ctor(::UnityEngine::Animations::AnimationPlayableOutput  output)  {
+return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Timeline::AnimationPreviewUpdateCallback*>(output));
 }
 /// @brief Convert operator to "::UnityEngine::Timeline::ITimelineEvaluateCallback"
-constexpr UnityEngine::Timeline::AnimationPreviewUpdateCallback::operator ::UnityEngine::Timeline::ITimelineEvaluateCallback*() noexcept {
-  return static_cast<::UnityEngine::Timeline::ITimelineEvaluateCallback*>(static_cast<void*>(this));
+constexpr  UnityEngine::Timeline::AnimationPreviewUpdateCallback::operator ::UnityEngine::Timeline::ITimelineEvaluateCallback*() noexcept {
+return static_cast<::UnityEngine::Timeline::ITimelineEvaluateCallback*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::UnityEngine::Timeline::ITimelineEvaluateCallback"
 constexpr ::UnityEngine::Timeline::ITimelineEvaluateCallback* UnityEngine::Timeline::AnimationPreviewUpdateCallback::i___UnityEngine__Timeline__ITimelineEvaluateCallback() noexcept {
-  return static_cast<::UnityEngine::Timeline::ITimelineEvaluateCallback*>(static_cast<void*>(this));
+return static_cast<::UnityEngine::Timeline::ITimelineEvaluateCallback*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::Timeline::AnimationPreviewUpdateCallback::AnimationPreviewUpdateCallback() {}
+constexpr ::UnityEngine::Timeline::AnimationPreviewUpdateCallback::AnimationPreviewUpdateCallback()   {
+}

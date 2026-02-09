@@ -35,47 +35,47 @@ namespace GlobalNamespace {
 // CS Name: PlayerDataModelHelper
 class CORDL_TYPE PlayerDataModelHelper : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method ToPlayerAllOverallStatsData, addr 0x364ee08, size 0xdc, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::PlayerAllOverallStatsData* ToPlayerAllOverallStatsData(::GlobalNamespace::PlayerSaveDataV1_0_1_PlayerAllOverallStatsData* playerAllOverallStatsData);
+// Declarations
+/// @brief Method ToPlayerAllOverallStatsData, addr 0x364ee60, size 0xdc, virtual false, abstract: false, final false
+static inline ::GlobalNamespace::PlayerAllOverallStatsData* ToPlayerAllOverallStatsData(::GlobalNamespace::PlayerSaveDataV1_0_1_PlayerAllOverallStatsData*  playerAllOverallStatsData) ;
 
-  /// @brief Method ToPlayerAllOverallStatsData, addr 0x364e75c, size 0xc4, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::PlayerAllOverallStatsData* ToPlayerAllOverallStatsData(::GlobalNamespace::PlayerSaveData_PlayerAllOverallStatsData* playerAllOverallStatsData);
+/// @brief Method ToPlayerAllOverallStatsData, addr 0x364e7b4, size 0xc4, virtual false, abstract: false, final false
+static inline ::GlobalNamespace::PlayerAllOverallStatsData* ToPlayerAllOverallStatsData(::GlobalNamespace::PlayerSaveData_PlayerAllOverallStatsData*  playerAllOverallStatsData) ;
 
-  /// @brief Method ToPlayerAllOverallStatsData, addr 0x364c5a4, size 0xc0, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::PlayerSaveData_PlayerAllOverallStatsData* ToPlayerAllOverallStatsData(::GlobalNamespace::PlayerAllOverallStatsData* playerAllOverallStatsData);
+/// @brief Method ToPlayerAllOverallStatsData, addr 0x364c5fc, size 0xc0, virtual false, abstract: false, final false
+static inline ::GlobalNamespace::PlayerSaveData_PlayerAllOverallStatsData* ToPlayerAllOverallStatsData(::GlobalNamespace::PlayerAllOverallStatsData*  playerAllOverallStatsData) ;
 
-  /// @brief Method ToPlayerOverallStats, addr 0x3650434, size 0xc8, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData* ToPlayerOverallStats(::GlobalNamespace::PlayerSaveDataV1_0_1_PlayerOverallStatsData* playerAllOverallStatsData);
+/// @brief Method ToPlayerOverallStats, addr 0x365048c, size 0xc8, virtual false, abstract: false, final false
+static inline ::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData* ToPlayerOverallStats(::GlobalNamespace::PlayerSaveDataV1_0_1_PlayerOverallStatsData*  playerAllOverallStatsData) ;
 
-  /// @brief Method ToPlayerOverallStats, addr 0x365036c, size 0xc8, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData* ToPlayerOverallStats(::GlobalNamespace::PlayerSaveData_PlayerOverallStatsData* playerAllOverallStatsData);
+/// @brief Method ToPlayerOverallStats, addr 0x36503c4, size 0xc8, virtual false, abstract: false, final false
+static inline ::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData* ToPlayerOverallStats(::GlobalNamespace::PlayerSaveData_PlayerOverallStatsData*  playerAllOverallStatsData) ;
 
-  /// @brief Method ToPlayerOverallStatsData, addr 0x365057c, size 0xe4, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::PlayerSaveData_PlayerOverallStatsData* ToPlayerOverallStatsData(::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData* playerOverallStatsData);
+/// @brief Method ToPlayerOverallStatsData, addr 0x36505d4, size 0xe4, virtual false, abstract: false, final false
+static inline ::GlobalNamespace::PlayerSaveData_PlayerOverallStatsData* ToPlayerOverallStatsData(::GlobalNamespace::PlayerAllOverallStatsData_PlayerOverallStatsData*  playerOverallStatsData) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PlayerDataModelHelper();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr PlayerDataModelHelper() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerDataModelHelper", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  PlayerDataModelHelper(PlayerDataModelHelper&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlayerDataModelHelper", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  PlayerDataModelHelper(PlayerDataModelHelper const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "PlayerDataModelHelper", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+PlayerDataModelHelper(PlayerDataModelHelper && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15154 };
+// Ctor Parameters [CppParam { name: "", ty: "PlayerDataModelHelper", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+PlayerDataModelHelper(PlayerDataModelHelper const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{15158};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PlayerDataModelHelper, 0x10>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::PlayerDataModelHelper);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PlayerDataModelHelper*, "", "PlayerDataModelHelper");

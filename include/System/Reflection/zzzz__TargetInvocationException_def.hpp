@@ -27,44 +27,44 @@ namespace System::Reflection {
 // CS Name: System.Reflection.TargetInvocationException
 class CORDL_TYPE TargetInvocationException : public ::System::ApplicationException {
 public:
-  // Declarations
-  static inline ::System::Reflection::TargetInvocationException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
+// Declarations
+static inline ::System::Reflection::TargetInvocationException* New_ctor(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context) ;
 
-  static inline ::System::Reflection::TargetInvocationException* New_ctor(::System::Exception* inner);
+static inline ::System::Reflection::TargetInvocationException* New_ctor(::System::Exception*  inner) ;
 
-  static inline ::System::Reflection::TargetInvocationException* New_ctor(::StringW message, ::System::Exception* inner);
+static inline ::System::Reflection::TargetInvocationException* New_ctor(::StringW  message, ::System::Exception*  inner) ;
 
-  /// @brief Method .ctor, addr 0x59d3eac, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
+/// @brief Method .ctor, addr 0x59d43b8, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context) ;
 
-  /// @brief Method .ctor, addr 0x59d3e18, size 0x70, virtual false, abstract: false, final false
-  inline void _ctor(::System::Exception* inner);
+/// @brief Method .ctor, addr 0x59d4324, size 0x70, virtual false, abstract: false, final false
+inline void _ctor(::System::Exception*  inner) ;
 
-  /// @brief Method .ctor, addr 0x59d3e88, size 0x24, virtual false, abstract: false, final false
-  inline void _ctor(::StringW message, ::System::Exception* inner);
+/// @brief Method .ctor, addr 0x59d4394, size 0x24, virtual false, abstract: false, final false
+inline void _ctor(::StringW  message, ::System::Exception*  inner) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TargetInvocationException();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr TargetInvocationException() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TargetInvocationException", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  TargetInvocationException(TargetInvocationException&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TargetInvocationException", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  TargetInvocationException(TargetInvocationException const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "TargetInvocationException", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+TargetInvocationException(TargetInvocationException && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3523 };
+// Ctor Parameters [CppParam { name: "", ty: "TargetInvocationException", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+TargetInvocationException(TargetInvocationException const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{3523};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Reflection::TargetInvocationException, 0x90>, "Size mismatch!");
 
-} // namespace System::Reflection
+} // namespace end def System::Reflection
 NEED_NO_BOX(::System::Reflection::TargetInvocationException);
 DEFINE_IL2CPP_ARG_TYPE(::System::Reflection::TargetInvocationException*, "System.Reflection", "TargetInvocationException");

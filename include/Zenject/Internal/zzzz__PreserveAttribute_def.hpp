@@ -17,34 +17,34 @@ namespace Zenject::Internal {
 // CS Name: Zenject.Internal.PreserveAttribute
 class CORDL_TYPE PreserveAttribute : public ::System::Attribute {
 public:
-  // Declarations
-  static inline ::Zenject::Internal::PreserveAttribute* New_ctor();
+// Declarations
+static inline ::Zenject::Internal::PreserveAttribute* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x6c71a34, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6c720f4, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PreserveAttribute();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr PreserveAttribute() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PreserveAttribute", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  PreserveAttribute(PreserveAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PreserveAttribute", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  PreserveAttribute(PreserveAttribute const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "PreserveAttribute", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+PreserveAttribute(PreserveAttribute && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22238 };
+// Ctor Parameters [CppParam { name: "", ty: "PreserveAttribute", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+PreserveAttribute(PreserveAttribute const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{22242};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Zenject::Internal::PreserveAttribute, 0x10>, "Size mismatch!");
 
-} // namespace Zenject::Internal
+} // namespace end def Zenject::Internal
 NEED_NO_BOX(::Zenject::Internal::PreserveAttribute);
 DEFINE_IL2CPP_ARG_TYPE(::Zenject::Internal::PreserveAttribute*, "Zenject.Internal", "PreserveAttribute");

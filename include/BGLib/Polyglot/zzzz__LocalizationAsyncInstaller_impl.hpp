@@ -13,218 +13,255 @@
 #include "System/zzzz__Func_2_def.hpp"
 #include "UnityEngine/zzzz__TextAsset_def.hpp"
 //  Writing Method size for method: ::BGLib::Polyglot::LocalizationAsyncInstaller___c._ctor
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::Polyglot::LocalizationAsyncInstaller___c::*)()>(
-    &::BGLib::Polyglot::LocalizationAsyncInstaller___c::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::Polyglot::LocalizationAsyncInstaller___c::*)()>(&::BGLib::Polyglot::LocalizationAsyncInstaller___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3224ce4;
+  constexpr static std::size_t addrs = 0x3224c34;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::Polyglot::LocalizationAsyncInstaller___c*>::get(),
-                                                                               ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::Polyglot::LocalizationAsyncInstaller___c*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::BGLib::Polyglot::LocalizationAsyncInstaller___c._LocalizationContentToAsset_b__6_0
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BGLib::Polyglot::LocalizationAsset* (
-    ::BGLib::Polyglot::LocalizationAsyncInstaller___c::*)(::UnityEngine::TextAsset*)>(&::BGLib::Polyglot::LocalizationAsyncInstaller___c::_LocalizationContentToAsset_b__6_0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BGLib::Polyglot::LocalizationAsset* (::BGLib::Polyglot::LocalizationAsyncInstaller___c::*)(::UnityEngine::TextAsset*)>(&::BGLib::Polyglot::LocalizationAsyncInstaller___c::_LocalizationContentToAsset_b__6_0)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3224ce8;
+  constexpr static std::size_t addrs = 0x3224c38;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::Polyglot::LocalizationAsyncInstaller___c*>::get(), "<LocalizationContentToAsset>b__6_0",
-        std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextAsset*>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::Polyglot::LocalizationAsyncInstaller___c*>::get(),
+                        "<LocalizationContentToAsset>b__6_0",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextAsset*>::get()}
+                    )));
     return ___internal_method;
   }
 };
-inline void BGLib::Polyglot::LocalizationAsyncInstaller___c::setStaticF___9(::BGLib::Polyglot::LocalizationAsyncInstaller___c* value) {
-  ::cordl_internals::setStaticField<::BGLib::Polyglot::LocalizationAsyncInstaller___c*, "<>9",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::Polyglot::LocalizationAsyncInstaller___c*>::get>(
-      std::forward<::BGLib::Polyglot::LocalizationAsyncInstaller___c*>(value));
+inline void BGLib::Polyglot::LocalizationAsyncInstaller___c::setStaticF___9(::BGLib::Polyglot::LocalizationAsyncInstaller___c*  value)  {
+::cordl_internals::setStaticField<::BGLib::Polyglot::LocalizationAsyncInstaller___c*, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::Polyglot::LocalizationAsyncInstaller___c*>::get>(std::forward<::BGLib::Polyglot::LocalizationAsyncInstaller___c*>(value));
 }
-inline ::BGLib::Polyglot::LocalizationAsyncInstaller___c* BGLib::Polyglot::LocalizationAsyncInstaller___c::getStaticF___9() {
-  return ::cordl_internals::getStaticField<::BGLib::Polyglot::LocalizationAsyncInstaller___c*, "<>9",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::Polyglot::LocalizationAsyncInstaller___c*>::get>();
+inline ::BGLib::Polyglot::LocalizationAsyncInstaller___c* BGLib::Polyglot::LocalizationAsyncInstaller___c::getStaticF___9()  {
+return ::cordl_internals::getStaticField<::BGLib::Polyglot::LocalizationAsyncInstaller___c*, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::Polyglot::LocalizationAsyncInstaller___c*>::get>();
 }
-inline void BGLib::Polyglot::LocalizationAsyncInstaller___c::setStaticF___9__6_0(::System::Func_2<::UnityW<::UnityEngine::TextAsset>, ::BGLib::Polyglot::LocalizationAsset*>* value) {
-  ::cordl_internals::setStaticField<::System::Func_2<::UnityW<::UnityEngine::TextAsset>, ::BGLib::Polyglot::LocalizationAsset*>*, "<>9__6_0",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::Polyglot::LocalizationAsyncInstaller___c*>::get>(
-      std::forward<::System::Func_2<::UnityW<::UnityEngine::TextAsset>, ::BGLib::Polyglot::LocalizationAsset*>*>(value));
+inline void BGLib::Polyglot::LocalizationAsyncInstaller___c::setStaticF___9__6_0(::System::Func_2<::UnityW<::UnityEngine::TextAsset>,::BGLib::Polyglot::LocalizationAsset*>*  value)  {
+::cordl_internals::setStaticField<::System::Func_2<::UnityW<::UnityEngine::TextAsset>,::BGLib::Polyglot::LocalizationAsset*>*, "<>9__6_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::Polyglot::LocalizationAsyncInstaller___c*>::get>(std::forward<::System::Func_2<::UnityW<::UnityEngine::TextAsset>,::BGLib::Polyglot::LocalizationAsset*>*>(value));
 }
-inline ::System::Func_2<::UnityW<::UnityEngine::TextAsset>, ::BGLib::Polyglot::LocalizationAsset*>* BGLib::Polyglot::LocalizationAsyncInstaller___c::getStaticF___9__6_0() {
-  return ::cordl_internals::getStaticField<::System::Func_2<::UnityW<::UnityEngine::TextAsset>, ::BGLib::Polyglot::LocalizationAsset*>*, "<>9__6_0",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::Polyglot::LocalizationAsyncInstaller___c*>::get>();
+inline ::System::Func_2<::UnityW<::UnityEngine::TextAsset>,::BGLib::Polyglot::LocalizationAsset*>* BGLib::Polyglot::LocalizationAsyncInstaller___c::getStaticF___9__6_0()  {
+return ::cordl_internals::getStaticField<::System::Func_2<::UnityW<::UnityEngine::TextAsset>,::BGLib::Polyglot::LocalizationAsset*>*, "<>9__6_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::Polyglot::LocalizationAsyncInstaller___c*>::get>();
 }
-inline void BGLib::Polyglot::LocalizationAsyncInstaller___c::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::Polyglot::LocalizationAsyncInstaller___c*>::get(), ".ctor",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void BGLib::Polyglot::LocalizationAsyncInstaller___c::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::Polyglot::LocalizationAsyncInstaller___c*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::BGLib::Polyglot::LocalizationAsset* BGLib::Polyglot::LocalizationAsyncInstaller___c::_LocalizationContentToAsset_b__6_0(::UnityEngine::TextAsset* localizationTextAsset) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::Polyglot::LocalizationAsyncInstaller___c*>::get(), "<LocalizationContentToAsset>b__6_0", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextAsset*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::BGLib::Polyglot::LocalizationAsset*, false>(this, ___internal_method, localizationTextAsset);
+inline ::BGLib::Polyglot::LocalizationAsset* BGLib::Polyglot::LocalizationAsyncInstaller___c::_LocalizationContentToAsset_b__6_0(::UnityEngine::TextAsset*  localizationTextAsset)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::Polyglot::LocalizationAsyncInstaller___c*>::get(),
+                        "<LocalizationContentToAsset>b__6_0",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextAsset*>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::BGLib::Polyglot::LocalizationAsset*, false>(this, ___internal_method, localizationTextAsset);
 }
-inline ::BGLib::Polyglot::LocalizationAsyncInstaller___c* BGLib::Polyglot::LocalizationAsyncInstaller___c::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BGLib::Polyglot::LocalizationAsyncInstaller___c*>());
+inline ::BGLib::Polyglot::LocalizationAsyncInstaller___c* BGLib::Polyglot::LocalizationAsyncInstaller___c::New_ctor()  {
+return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BGLib::Polyglot::LocalizationAsyncInstaller___c*>());
 }
 // Ctor Parameters []
-constexpr ::BGLib::Polyglot::LocalizationAsyncInstaller___c::LocalizationAsyncInstaller___c() {}
+constexpr ::BGLib::Polyglot::LocalizationAsyncInstaller___c::LocalizationAsyncInstaller___c()   {
+}
 //  Writing Method size for method: ::BGLib::Polyglot::LocalizationAsyncInstaller.get_assetLabelRuntimeKey
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::BGLib::Polyglot::LocalizationAsyncInstaller::*)()>(
-    &::BGLib::Polyglot::LocalizationAsyncInstaller::get_assetLabelRuntimeKey)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::BGLib::Polyglot::LocalizationAsyncInstaller::*)()>(&::BGLib::Polyglot::LocalizationAsyncInstaller::get_assetLabelRuntimeKey)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x32248ec;
+  constexpr static std::size_t addrs = 0x322483c;
 
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::Polyglot::LocalizationAsyncInstaller*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::Polyglot::LocalizationAsyncInstaller*>::get(), 12));
+  inline static const ::MethodInfo* methodInfo() {
+    
+                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::Polyglot::LocalizationAsyncInstaller*>::get(),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::Polyglot::LocalizationAsyncInstaller*>::get(),
+                                  12
+                                ));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::BGLib::Polyglot::LocalizationAsyncInstaller.LoadResourcesBeforeInstall
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::Polyglot::LocalizationAsyncInstaller::*)(
-    ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::TextAsset>>*, ::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry*)>(
-    &::BGLib::Polyglot::LocalizationAsyncInstaller::LoadResourcesBeforeInstall)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::Polyglot::LocalizationAsyncInstaller::*)(::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::TextAsset>>*, ::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry*)>(&::BGLib::Polyglot::LocalizationAsyncInstaller::LoadResourcesBeforeInstall)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3224930;
+  constexpr static std::size_t addrs = 0x3224880;
 
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::Polyglot::LocalizationAsyncInstaller*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::Polyglot::LocalizationAsyncInstaller*>::get(), 13));
+  inline static const ::MethodInfo* methodInfo() {
+    
+                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::Polyglot::LocalizationAsyncInstaller*>::get(),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::Polyglot::LocalizationAsyncInstaller*>::get(),
+                                  13
+                                ));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::BGLib::Polyglot::LocalizationAsyncInstaller.LocalizationContentToAsset
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Collections::Generic::List_1<::BGLib::Polyglot::LocalizationAsset*>* (*)(::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::TextAsset>>*)>(
-        &::BGLib::Polyglot::LocalizationAsyncInstaller::LocalizationContentToAsset)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::BGLib::Polyglot::LocalizationAsset*>* (*)(::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::TextAsset>>*)>(&::BGLib::Polyglot::LocalizationAsyncInstaller::LocalizationContentToAsset)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x322494c;
+  constexpr static std::size_t addrs = 0x322489c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::Polyglot::LocalizationAsyncInstaller*>::get(), "LocalizationContentToAsset", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::TextAsset>>*>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::Polyglot::LocalizationAsyncInstaller*>::get(),
+                        "LocalizationContentToAsset",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::TextAsset>>*>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::BGLib::Polyglot::LocalizationAsyncInstaller.InstallBindings
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::Polyglot::LocalizationAsyncInstaller::*)()>(
-    &::BGLib::Polyglot::LocalizationAsyncInstaller::InstallBindings)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::Polyglot::LocalizationAsyncInstaller::*)()>(&::BGLib::Polyglot::LocalizationAsyncInstaller::InstallBindings)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x3224a6c;
+  constexpr static std::size_t addrs = 0x32249bc;
 
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::Polyglot::LocalizationAsyncInstaller*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::Polyglot::LocalizationAsyncInstaller*>::get(), 8));
+  inline static const ::MethodInfo* methodInfo() {
+    
+                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::Polyglot::LocalizationAsyncInstaller*>::get(),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::Polyglot::LocalizationAsyncInstaller*>::get(),
+                                  8
+                                ));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::BGLib::Polyglot::LocalizationAsyncInstaller.LoadLocalizationAssetsSync
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::BGLib::Polyglot::LocalizationAsset*>* (*)()>(
-    &::BGLib::Polyglot::LocalizationAsyncInstaller::LoadLocalizationAssetsSync)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::BGLib::Polyglot::LocalizationAsset*>* (*)()>(&::BGLib::Polyglot::LocalizationAsyncInstaller::LoadLocalizationAssetsSync)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3224be8;
+  constexpr static std::size_t addrs = 0x3224b38;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::Polyglot::LocalizationAsyncInstaller*>::get(),
-                                                                               "LoadLocalizationAssetsSync", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::Polyglot::LocalizationAsyncInstaller*>::get(),
+                        "LoadLocalizationAssetsSync",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::BGLib::Polyglot::LocalizationAsyncInstaller._ctor
-template <>
+template<>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::Polyglot::LocalizationAsyncInstaller::*)()>(&::BGLib::Polyglot::LocalizationAsyncInstaller::_ctor)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x3224c4c;
+  constexpr static std::size_t addrs = 0x3224b9c;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::Polyglot::LocalizationAsyncInstaller*>::get(), ".ctor",
-                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::Polyglot::LocalizationAsyncInstaller*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
-constexpr ::UnityW<::BGLib::Polyglot::Localization>& BGLib::Polyglot::LocalizationAsyncInstaller::__cordl_internal_get__mainPolyglotAsset() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____mainPolyglotAsset;
+constexpr ::UnityW<::BGLib::Polyglot::Localization>& BGLib::Polyglot::LocalizationAsyncInstaller::__cordl_internal_get__mainPolyglotAsset()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____mainPolyglotAsset;
 }
 constexpr ::UnityW<::BGLib::Polyglot::Localization> const& BGLib::Polyglot::LocalizationAsyncInstaller::__cordl_internal_get__mainPolyglotAsset() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____mainPolyglotAsset;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____mainPolyglotAsset;
 }
-constexpr void BGLib::Polyglot::LocalizationAsyncInstaller::__cordl_internal_set__mainPolyglotAsset(::UnityW<::BGLib::Polyglot::Localization> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____mainPolyglotAsset)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void BGLib::Polyglot::LocalizationAsyncInstaller::__cordl_internal_set__mainPolyglotAsset(::UnityW<::BGLib::Polyglot::Localization>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____mainPolyglotAsset)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Collections::Generic::List_1<::BGLib::Polyglot::LocalizationAsset*>*& BGLib::Polyglot::LocalizationAsyncInstaller::__cordl_internal_get__inputFiles() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____inputFiles;
+constexpr ::System::Collections::Generic::List_1<::BGLib::Polyglot::LocalizationAsset*>*& BGLib::Polyglot::LocalizationAsyncInstaller::__cordl_internal_get__inputFiles()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____inputFiles;
 }
 constexpr ::System::Collections::Generic::List_1<::BGLib::Polyglot::LocalizationAsset*>* const& BGLib::Polyglot::LocalizationAsyncInstaller::__cordl_internal_get__inputFiles() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____inputFiles;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____inputFiles;
 }
-constexpr void BGLib::Polyglot::LocalizationAsyncInstaller::__cordl_internal_set__inputFiles(::System::Collections::Generic::List_1<::BGLib::Polyglot::LocalizationAsset*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____inputFiles)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void BGLib::Polyglot::LocalizationAsyncInstaller::__cordl_internal_set__inputFiles(::System::Collections::Generic::List_1<::BGLib::Polyglot::LocalizationAsset*>*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____inputFiles)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::StringW BGLib::Polyglot::LocalizationAsyncInstaller::get_assetLabelRuntimeKey() {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::Polyglot::LocalizationAsyncInstaller*>::get(), 12)));
-  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+inline ::StringW BGLib::Polyglot::LocalizationAsyncInstaller::get_assetLabelRuntimeKey()  {
+auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::Polyglot::LocalizationAsyncInstaller*>::get(),
+                            12
+                        )));
+return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-inline void BGLib::Polyglot::LocalizationAsyncInstaller::LoadResourcesBeforeInstall(::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::TextAsset>>* assets,
-                                                                                    ::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry* registry) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::Polyglot::LocalizationAsyncInstaller*>::get(), 13)));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, assets, registry);
+inline void BGLib::Polyglot::LocalizationAsyncInstaller::LoadResourcesBeforeInstall(::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::TextAsset>>*  assets, ::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry*  registry)  {
+auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::Polyglot::LocalizationAsyncInstaller*>::get(),
+                            13
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, assets, registry);
 }
-inline ::System::Collections::Generic::List_1<::BGLib::Polyglot::LocalizationAsset*>*
-BGLib::Polyglot::LocalizationAsyncInstaller::LocalizationContentToAsset(::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::TextAsset>>* content) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::Polyglot::LocalizationAsyncInstaller*>::get(), "LocalizationContentToAsset", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::TextAsset>>*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<::BGLib::Polyglot::LocalizationAsset*>*, false>(nullptr, ___internal_method, content);
+inline ::System::Collections::Generic::List_1<::BGLib::Polyglot::LocalizationAsset*>* BGLib::Polyglot::LocalizationAsyncInstaller::LocalizationContentToAsset(::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::TextAsset>>*  content)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::Polyglot::LocalizationAsyncInstaller*>::get(),
+                        "LocalizationContentToAsset",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::TextAsset>>*>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<::BGLib::Polyglot::LocalizationAsset*>*, false>(nullptr, ___internal_method, content);
 }
-inline void BGLib::Polyglot::LocalizationAsyncInstaller::InstallBindings() {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::Polyglot::LocalizationAsyncInstaller*>::get(), 8)));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void BGLib::Polyglot::LocalizationAsyncInstaller::InstallBindings()  {
+auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::Polyglot::LocalizationAsyncInstaller*>::get(),
+                            8
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::System::Collections::Generic::List_1<::BGLib::Polyglot::LocalizationAsset*>* BGLib::Polyglot::LocalizationAsyncInstaller::LoadLocalizationAssetsSync() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::Polyglot::LocalizationAsyncInstaller*>::get(),
-                                                                             "LoadLocalizationAssetsSync", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<::BGLib::Polyglot::LocalizationAsset*>*, false>(nullptr, ___internal_method);
+inline ::System::Collections::Generic::List_1<::BGLib::Polyglot::LocalizationAsset*>* BGLib::Polyglot::LocalizationAsyncInstaller::LoadLocalizationAssetsSync()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::Polyglot::LocalizationAsyncInstaller*>::get(),
+                        "LoadLocalizationAssetsSync",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<::BGLib::Polyglot::LocalizationAsset*>*, false>(nullptr, ___internal_method);
 }
-inline void BGLib::Polyglot::LocalizationAsyncInstaller::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::Polyglot::LocalizationAsyncInstaller*>::get(), ".ctor",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void BGLib::Polyglot::LocalizationAsyncInstaller::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::Polyglot::LocalizationAsyncInstaller*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::BGLib::Polyglot::LocalizationAsyncInstaller* BGLib::Polyglot::LocalizationAsyncInstaller::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BGLib::Polyglot::LocalizationAsyncInstaller*>());
+inline ::BGLib::Polyglot::LocalizationAsyncInstaller* BGLib::Polyglot::LocalizationAsyncInstaller::New_ctor()  {
+return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BGLib::Polyglot::LocalizationAsyncInstaller*>());
 }
 // Ctor Parameters []
-constexpr ::BGLib::Polyglot::LocalizationAsyncInstaller::LocalizationAsyncInstaller() {}
+constexpr ::BGLib::Polyglot::LocalizationAsyncInstaller::LocalizationAsyncInstaller()   {
+}

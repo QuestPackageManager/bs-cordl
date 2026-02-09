@@ -29,90 +29,90 @@ namespace GlobalNamespace {
 // CS Name: RecordingToolSettingsViewController
 class CORDL_TYPE RecordingToolSettingsViewController : public ::HMUI::ViewController {
 public:
-  // Declarations
-  /// @brief Field _continueButton, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get__continueButton, put = __cordl_internal_set__continueButton)) ::UnityW<::UnityEngine::UI::Button> _continueButton;
+// Declarations
+/// @brief Field _continueButton, offset 0x78, size 0x8 
+ __declspec(property(get=__cordl_internal_get__continueButton, put=__cordl_internal_set__continueButton)) ::UnityW<::UnityEngine::UI::Button>  _continueButton;
 
-  /// @brief Field _recordingToolManager, offset 0x88, size 0x8
-  __declspec(property(get = __cordl_internal_get__recordingToolManager, put = __cordl_internal_set__recordingToolManager)) ::GlobalNamespace::RecordingToolManager* _recordingToolManager;
+/// @brief Field _recordingToolManager, offset 0x88, size 0x8 
+ __declspec(property(get=__cordl_internal_get__recordingToolManager, put=__cordl_internal_set__recordingToolManager)) ::GlobalNamespace::RecordingToolManager*  _recordingToolManager;
 
-  /// @brief Field _textPageScrollView, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get__textPageScrollView, put = __cordl_internal_set__textPageScrollView)) ::UnityW<::HMUI::TextPageScrollView> _textPageScrollView;
+/// @brief Field _textPageScrollView, offset 0x80, size 0x8 
+ __declspec(property(get=__cordl_internal_get__textPageScrollView, put=__cordl_internal_set__textPageScrollView)) ::UnityW<::HMUI::TextPageScrollView>  _textPageScrollView;
 
-  /// @brief Field didFinishEvent, offset 0x90, size 0x8
-  __declspec(property(get = __cordl_internal_get_didFinishEvent, put = __cordl_internal_set_didFinishEvent)) ::System::Action* didFinishEvent;
+/// @brief Field didFinishEvent, offset 0x90, size 0x8 
+ __declspec(property(get=__cordl_internal_get_didFinishEvent, put=__cordl_internal_set_didFinishEvent)) ::System::Action*  didFinishEvent;
 
-  /// @brief Method DidActivate, addr 0x57356ac, size 0x164, virtual true, abstract: false, final false
-  inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
+/// @brief Method DidActivate, addr 0x5735f10, size 0x164, virtual true, abstract: false, final false
+inline void DidActivate(bool  firstActivation, bool  addedToHierarchy, bool  screenSystemEnabling) ;
 
-  static inline ::GlobalNamespace::RecordingToolSettingsViewController* New_ctor();
+static inline ::GlobalNamespace::RecordingToolSettingsViewController* New_ctor() ;
 
-  /// @brief Method <DidActivate>b__6_0, addr 0x5735814, size 0x1c, virtual false, abstract: false, final false
-  inline void _DidActivate_b__6_0();
+/// @brief Method <DidActivate>b__6_0, addr 0x5736078, size 0x1c, virtual false, abstract: false, final false
+inline void _DidActivate_b__6_0() ;
 
-  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__continueButton() const;
+constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__continueButton() const;
 
-  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__continueButton();
+constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__continueButton() ;
 
-  constexpr ::GlobalNamespace::RecordingToolManager* const& __cordl_internal_get__recordingToolManager() const;
+constexpr ::GlobalNamespace::RecordingToolManager* const& __cordl_internal_get__recordingToolManager() const;
 
-  constexpr ::GlobalNamespace::RecordingToolManager*& __cordl_internal_get__recordingToolManager();
+constexpr ::GlobalNamespace::RecordingToolManager*& __cordl_internal_get__recordingToolManager() ;
 
-  constexpr ::UnityW<::HMUI::TextPageScrollView> const& __cordl_internal_get__textPageScrollView() const;
+constexpr ::UnityW<::HMUI::TextPageScrollView> const& __cordl_internal_get__textPageScrollView() const;
 
-  constexpr ::UnityW<::HMUI::TextPageScrollView>& __cordl_internal_get__textPageScrollView();
+constexpr ::UnityW<::HMUI::TextPageScrollView>& __cordl_internal_get__textPageScrollView() ;
 
-  constexpr ::System::Action* const& __cordl_internal_get_didFinishEvent() const;
+constexpr ::System::Action* const& __cordl_internal_get_didFinishEvent() const;
 
-  constexpr ::System::Action*& __cordl_internal_get_didFinishEvent();
+constexpr ::System::Action*& __cordl_internal_get_didFinishEvent() ;
 
-  constexpr void __cordl_internal_set__continueButton(::UnityW<::UnityEngine::UI::Button> value);
+constexpr void __cordl_internal_set__continueButton(::UnityW<::UnityEngine::UI::Button>  value) ;
 
-  constexpr void __cordl_internal_set__recordingToolManager(::GlobalNamespace::RecordingToolManager* value);
+constexpr void __cordl_internal_set__recordingToolManager(::GlobalNamespace::RecordingToolManager*  value) ;
 
-  constexpr void __cordl_internal_set__textPageScrollView(::UnityW<::HMUI::TextPageScrollView> value);
+constexpr void __cordl_internal_set__textPageScrollView(::UnityW<::HMUI::TextPageScrollView>  value) ;
 
-  constexpr void __cordl_internal_set_didFinishEvent(::System::Action* value);
+constexpr void __cordl_internal_set_didFinishEvent(::System::Action*  value) ;
 
-  /// @brief Method .ctor, addr 0x5735810, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5736074, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method add_didFinishEvent, addr 0x5735554, size 0xac, virtual false, abstract: false, final false
-  inline void add_didFinishEvent(::System::Action* value);
+/// @brief Method add_didFinishEvent, addr 0x5735db8, size 0xac, virtual false, abstract: false, final false
+inline void add_didFinishEvent(::System::Action*  value) ;
 
-  /// @brief Method remove_didFinishEvent, addr 0x5735600, size 0xac, virtual false, abstract: false, final false
-  inline void remove_didFinishEvent(::System::Action* value);
+/// @brief Method remove_didFinishEvent, addr 0x5735e64, size 0xac, virtual false, abstract: false, final false
+inline void remove_didFinishEvent(::System::Action*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RecordingToolSettingsViewController();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr RecordingToolSettingsViewController() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RecordingToolSettingsViewController", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  RecordingToolSettingsViewController(RecordingToolSettingsViewController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RecordingToolSettingsViewController", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  RecordingToolSettingsViewController(RecordingToolSettingsViewController const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "RecordingToolSettingsViewController", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+RecordingToolSettingsViewController(RecordingToolSettingsViewController && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6517 };
+// Ctor Parameters [CppParam { name: "", ty: "RecordingToolSettingsViewController", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+RecordingToolSettingsViewController(RecordingToolSettingsViewController const& ) = delete;
 
-  /// @brief Field _continueButton, offset: 0x78, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::UI::Button> ____continueButton;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6520};
 
-  /// @brief Field _textPageScrollView, offset: 0x80, size: 0x8, def value: None
-  ::UnityW<::HMUI::TextPageScrollView> ____textPageScrollView;
+/// @brief Field _continueButton, offset: 0x78, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::UI::Button>  ____continueButton;
 
-  /// @brief Field _recordingToolManager, offset: 0x88, size: 0x8, def value: None
-  ::GlobalNamespace::RecordingToolManager* ____recordingToolManager;
+/// @brief Field _textPageScrollView, offset: 0x80, size: 0x8, def value: None
+ ::UnityW<::HMUI::TextPageScrollView>  ____textPageScrollView;
 
-  /// @brief Field didFinishEvent, offset: 0x90, size: 0x8, def value: None
-  ::System::Action* ___didFinishEvent;
+/// @brief Field _recordingToolManager, offset: 0x88, size: 0x8, def value: None
+ ::GlobalNamespace::RecordingToolManager*  ____recordingToolManager;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field didFinishEvent, offset: 0x90, size: 0x8, def value: None
+ ::System::Action*  ___didFinishEvent;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::RecordingToolSettingsViewController, ____continueButton) == 0x78, "Offset mismatch!");
@@ -125,6 +125,6 @@ static_assert(offsetof(::GlobalNamespace::RecordingToolSettingsViewController, _
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::RecordingToolSettingsViewController, 0x98>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::RecordingToolSettingsViewController);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::RecordingToolSettingsViewController*, "", "RecordingToolSettingsViewController");

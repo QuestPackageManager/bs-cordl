@@ -23,43 +23,43 @@ namespace UnityEngine::ProBuilder {
 // CS Name: UnityEngine.ProBuilder.TriggerBehaviour
 class CORDL_TYPE TriggerBehaviour : public ::UnityEngine::ProBuilder::EntityBehaviour {
 public:
-  // Declarations
-  /// @brief Method Initialize, addr 0x6541a6c, size 0x1b0, virtual true, abstract: false, final false
-  inline void Initialize();
+// Declarations
+/// @brief Method Initialize, addr 0x654212c, size 0x1b0, virtual true, abstract: false, final false
+inline void Initialize() ;
 
-  static inline ::UnityEngine::ProBuilder::TriggerBehaviour* New_ctor();
+static inline ::UnityEngine::ProBuilder::TriggerBehaviour* New_ctor() ;
 
-  /// @brief Method OnEnterPlayMode, addr 0x6541c1c, size 0x7c, virtual true, abstract: false, final false
-  inline void OnEnterPlayMode();
+/// @brief Method OnEnterPlayMode, addr 0x65422dc, size 0x7c, virtual true, abstract: false, final false
+inline void OnEnterPlayMode() ;
 
-  /// @brief Method OnSceneLoaded, addr 0x6541c98, size 0x7c, virtual true, abstract: false, final false
-  inline void OnSceneLoaded(::UnityEngine::SceneManagement::Scene scene, ::UnityEngine::SceneManagement::LoadSceneMode mode);
+/// @brief Method OnSceneLoaded, addr 0x6542358, size 0x7c, virtual true, abstract: false, final false
+inline void OnSceneLoaded(::UnityEngine::SceneManagement::Scene  scene, ::UnityEngine::SceneManagement::LoadSceneMode  mode) ;
 
-  /// @brief Method .ctor, addr 0x6541d14, size 0xc, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x65423d4, size 0xc, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TriggerBehaviour();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr TriggerBehaviour() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TriggerBehaviour", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  TriggerBehaviour(TriggerBehaviour&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TriggerBehaviour", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  TriggerBehaviour(TriggerBehaviour const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "TriggerBehaviour", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+TriggerBehaviour(TriggerBehaviour && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16789 };
+// Ctor Parameters [CppParam { name: "", ty: "TriggerBehaviour", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+TriggerBehaviour(TriggerBehaviour const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{16793};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::TriggerBehaviour, 0x28>, "Size mismatch!");
 
-} // namespace UnityEngine::ProBuilder
+} // namespace end def UnityEngine::ProBuilder
 NEED_NO_BOX(::UnityEngine::ProBuilder::TriggerBehaviour);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::TriggerBehaviour*, "UnityEngine.ProBuilder", "TriggerBehaviour");

@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "Org/BouncyCastle/Asn1/Cms/Attribute.hpp"
 #include "Org/BouncyCastle/Asn1/Cms/AttributeTable.hpp"
@@ -51,5 +51,6 @@ module;
 #include "Org/BouncyCastle/Asn1/Cms/TimeStampedData.hpp"
 #include "Org/BouncyCastle/Asn1/Cms/TimeStampedDataParser.hpp"
 #ifdef __cpp_modules
-export module Cms;
-#endif
+                    export module Cms;
+                    #endif
+                

@@ -21,37 +21,37 @@ namespace GlobalNamespace {
 // CS Name: System.Linq.Expressions.Interpreter.AddInstruction/AddSingle
 class CORDL_TYPE AddInstruction_AddSingle : public ::System::Linq::Expressions::Interpreter::AddInstruction {
 public:
-  // Declarations
-  static inline ::GlobalNamespace::AddInstruction_AddSingle* New_ctor();
+// Declarations
+static inline ::GlobalNamespace::AddInstruction_AddSingle* New_ctor() ;
 
-  /// @brief Method Run, addr 0x5dd6f00, size 0x10c, virtual true, abstract: false, final false
-  inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
+/// @brief Method Run, addr 0x5dd75c0, size 0x10c, virtual true, abstract: false, final false
+inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame*  frame) ;
 
-  /// @brief Method .ctor, addr 0x5dd68b8, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5dd6f78, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AddInstruction_AddSingle();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr AddInstruction_AddSingle() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AddInstruction_AddSingle", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  AddInstruction_AddSingle(AddInstruction_AddSingle&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AddInstruction_AddSingle", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  AddInstruction_AddSingle(AddInstruction_AddSingle const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "AddInstruction_AddSingle", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+AddInstruction_AddSingle(AddInstruction_AddSingle && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16210 };
+// Ctor Parameters [CppParam { name: "", ty: "AddInstruction_AddSingle", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+AddInstruction_AddSingle(AddInstruction_AddSingle const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{16214};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::AddInstruction_AddSingle, 0x10>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::AddInstruction_AddSingle);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::AddInstruction_AddSingle*, "System.Linq.Expressions.Interpreter", "AddInstruction/AddSingle");

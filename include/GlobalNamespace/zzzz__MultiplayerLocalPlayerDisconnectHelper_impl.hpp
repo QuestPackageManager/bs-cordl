@@ -8,108 +8,122 @@
 #include "GlobalNamespace/zzzz__LobbyPlayerPermissionsModel_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerLevelCompletionResults_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper.Disconnect
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper::*)(
-    ::GlobalNamespace::MultiplayerLevelCompletionResults_MultiplayerPlayerLevelEndState, ::GlobalNamespace::LevelCompletionResults*)>(
-    &::GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper::Disconnect)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper::*)(::GlobalNamespace::MultiplayerLevelCompletionResults_MultiplayerPlayerLevelEndState, ::GlobalNamespace::LevelCompletionResults*)>(&::GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper::Disconnect)> {
   constexpr static std::size_t size = 0x208;
-  constexpr static std::size_t addrs = 0x581e35c;
+  constexpr static std::size_t addrs = 0x581ec8c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper*>::get(), "Disconnect", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::MultiplayerLevelCompletionResults_MultiplayerPlayerLevelEndState>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::LevelCompletionResults*>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper*>::get(),
+                        "Disconnect",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::MultiplayerLevelCompletionResults_MultiplayerPlayerLevelEndState>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::LevelCompletionResults*>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper.ResolveDisconnectButtonString
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper::*)()>(
-    &::GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper::ResolveDisconnectButtonString)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper::*)()>(&::GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper::ResolveDisconnectButtonString)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x581e564;
+  constexpr static std::size_t addrs = 0x581ee94;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper*>::get(),
-                                                 "ResolveDisconnectButtonString", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper*>::get(),
+                        "ResolveDisconnectButtonString",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper._ctor
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper::*)()>(
-    &::GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper::*)()>(&::GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x581e5e4;
+  constexpr static std::size_t addrs = 0x581ef14;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper*>::get(), ".ctor",
-                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
-constexpr ::GlobalNamespace::IGameplayRpcManager*& GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper::__cordl_internal_get__gameplayRpcManager() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____gameplayRpcManager;
+constexpr ::GlobalNamespace::IGameplayRpcManager*& GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper::__cordl_internal_get__gameplayRpcManager()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____gameplayRpcManager;
 }
 constexpr ::GlobalNamespace::IGameplayRpcManager* const& GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper::__cordl_internal_get__gameplayRpcManager() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____gameplayRpcManager;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____gameplayRpcManager;
 }
-constexpr void GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper::__cordl_internal_set__gameplayRpcManager(::GlobalNamespace::IGameplayRpcManager* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____gameplayRpcManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper::__cordl_internal_set__gameplayRpcManager(::GlobalNamespace::IGameplayRpcManager*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____gameplayRpcManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::IMultiplayerLevelEndActionsListener*& GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper::__cordl_internal_get__multiplayerLevelEndActions() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____multiplayerLevelEndActions;
+constexpr ::GlobalNamespace::IMultiplayerLevelEndActionsListener*& GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper::__cordl_internal_get__multiplayerLevelEndActions()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____multiplayerLevelEndActions;
 }
 constexpr ::GlobalNamespace::IMultiplayerLevelEndActionsListener* const& GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper::__cordl_internal_get__multiplayerLevelEndActions() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____multiplayerLevelEndActions;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____multiplayerLevelEndActions;
 }
-constexpr void GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper::__cordl_internal_set__multiplayerLevelEndActions(::GlobalNamespace::IMultiplayerLevelEndActionsListener* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____multiplayerLevelEndActions)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper::__cordl_internal_set__multiplayerLevelEndActions(::GlobalNamespace::IMultiplayerLevelEndActionsListener*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____multiplayerLevelEndActions)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::LobbyPlayerPermissionsModel*& GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper::__cordl_internal_get__lobbyPlayerPermissionsModel() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____lobbyPlayerPermissionsModel;
+constexpr ::GlobalNamespace::LobbyPlayerPermissionsModel*& GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper::__cordl_internal_get__lobbyPlayerPermissionsModel()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____lobbyPlayerPermissionsModel;
 }
 constexpr ::GlobalNamespace::LobbyPlayerPermissionsModel* const& GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper::__cordl_internal_get__lobbyPlayerPermissionsModel() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____lobbyPlayerPermissionsModel;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____lobbyPlayerPermissionsModel;
 }
-constexpr void GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper::__cordl_internal_set__lobbyPlayerPermissionsModel(::GlobalNamespace::LobbyPlayerPermissionsModel* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____lobbyPlayerPermissionsModel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper::__cordl_internal_set__lobbyPlayerPermissionsModel(::GlobalNamespace::LobbyPlayerPermissionsModel*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____lobbyPlayerPermissionsModel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper::Disconnect(::GlobalNamespace::MultiplayerLevelCompletionResults_MultiplayerPlayerLevelEndState playerLevelEndState,
-                                                                                ::GlobalNamespace::LevelCompletionResults* levelCompletionResults) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper*>::get(), "Disconnect", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::MultiplayerLevelCompletionResults_MultiplayerPlayerLevelEndState>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::LevelCompletionResults*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, playerLevelEndState, levelCompletionResults);
+inline void GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper::Disconnect(::GlobalNamespace::MultiplayerLevelCompletionResults_MultiplayerPlayerLevelEndState  playerLevelEndState, ::GlobalNamespace::LevelCompletionResults*  levelCompletionResults)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper*>::get(),
+                        "Disconnect",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::MultiplayerLevelCompletionResults_MultiplayerPlayerLevelEndState>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::LevelCompletionResults*>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, playerLevelEndState, levelCompletionResults);
 }
-inline ::StringW GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper::ResolveDisconnectButtonString() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper*>::get(),
-                                                                             "ResolveDisconnectButtonString", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+inline ::StringW GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper::ResolveDisconnectButtonString()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper*>::get(),
+                        "ResolveDisconnectButtonString",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper*>::get(),
-                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper* GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper*>());
+inline ::GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper* GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper::New_ctor()  {
+return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper*>());
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper::MultiplayerLocalPlayerDisconnectHelper() {}
+constexpr ::GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper::MultiplayerLocalPlayerDisconnectHelper()   {
+}

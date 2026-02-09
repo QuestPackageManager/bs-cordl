@@ -33,7 +33,8 @@ namespace System::Security::Cryptography::X509Certificates {
 class X509Certificate;
 }
 namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
+template<typename TResult>
+class Task_1;
 }
 namespace System::Threading {
 struct CancellationToken;
@@ -60,160 +61,154 @@ namespace System::Net::Http {
 // CS Name: System.Net.Http.HttpClientHandler/<>c
 class CORDL_TYPE HttpClientHandler___c : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field <>9, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::System::Net::Http::HttpClientHandler___c* __9;
+// Declarations
+/// @brief Field <>9, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF___9, put=setStaticF___9)) ::System::Net::Http::HttpClientHandler___c*  __9;
 
-  /// @brief Field <>9__23_1, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9__23_1, put = setStaticF___9__23_1)) ::System::Net::Security::LocalCertificateSelectionCallback* __9__23_1;
+/// @brief Field <>9__23_1, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF___9__23_1, put=setStaticF___9__23_1)) ::System::Net::Security::LocalCertificateSelectionCallback*  __9__23_1;
 
-  static inline ::System::Net::Http::HttpClientHandler___c* New_ctor();
+static inline ::System::Net::Http::HttpClientHandler___c* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x5f2245c, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5f22b1c, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method <set_ClientCertificateOptions>b__23_1, addr 0x5f22460, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Security::Cryptography::X509Certificates::X509Certificate*
-  _set_ClientCertificateOptions_b__23_1(::System::Object* sender, ::StringW targetHost, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* localCertificates,
-                                        ::System::Security::Cryptography::X509Certificates::X509Certificate* remoteCertificate, ::ArrayW<::StringW, ::Array<::StringW>*> acceptableIssuers);
+/// @brief Method <set_ClientCertificateOptions>b__23_1, addr 0x5f22b20, size 0x8, virtual false, abstract: false, final false
+inline ::System::Security::Cryptography::X509Certificates::X509Certificate* _set_ClientCertificateOptions_b__23_1(::System::Object*  sender, ::StringW  targetHost, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection*  localCertificates, ::System::Security::Cryptography::X509Certificates::X509Certificate*  remoteCertificate, ::ArrayW<::StringW,::Array<::StringW>*>  acceptableIssuers) ;
 
-  static inline ::System::Net::Http::HttpClientHandler___c* getStaticF___9();
+static inline ::System::Net::Http::HttpClientHandler___c* getStaticF___9() ;
 
-  static inline ::System::Net::Security::LocalCertificateSelectionCallback* getStaticF___9__23_1();
+static inline ::System::Net::Security::LocalCertificateSelectionCallback* getStaticF___9__23_1() ;
 
-  static inline void setStaticF___9(::System::Net::Http::HttpClientHandler___c* value);
+static inline void setStaticF___9(::System::Net::Http::HttpClientHandler___c*  value) ;
 
-  static inline void setStaticF___9__23_1(::System::Net::Security::LocalCertificateSelectionCallback* value);
+static inline void setStaticF___9__23_1(::System::Net::Security::LocalCertificateSelectionCallback*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HttpClientHandler___c();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr HttpClientHandler___c() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HttpClientHandler___c", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  HttpClientHandler___c(HttpClientHandler___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HttpClientHandler___c", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  HttpClientHandler___c(HttpClientHandler___c const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "HttpClientHandler___c", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+HttpClientHandler___c(HttpClientHandler___c && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20031 };
+// Ctor Parameters [CppParam { name: "", ty: "HttpClientHandler___c", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+HttpClientHandler___c(HttpClientHandler___c const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20035};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::Http::HttpClientHandler___c, 0x10>, "Size mismatch!");
 
-} // namespace System::Net::Http
+} // namespace end def System::Net::Http
 // Dependencies System.Net.Http.ClientCertificateOption, System.Net.Http.HttpMessageHandler
 namespace System::Net::Http {
 // Is value type: false
 // CS Name: System.Net.Http.HttpClientHandler
 class CORDL_TYPE HttpClientHandler : public ::System::Net::Http::HttpMessageHandler {
 public:
-  // Declarations
-  using __c = ::System::Net::Http::HttpClientHandler___c;
+// Declarations
+using __c = ::System::Net::Http::HttpClientHandler___c;
 
-  __declspec(property(put = set_AllowAutoRedirect)) bool AllowAutoRedirect;
+ __declspec(property(put=set_AllowAutoRedirect)) bool  AllowAutoRedirect;
 
-  __declspec(property(get = get_ClientCertificateOptions, put = set_ClientCertificateOptions)) ::System::Net::Http::ClientCertificateOption ClientCertificateOptions;
+ __declspec(property(get=get_ClientCertificateOptions, put=set_ClientCertificateOptions)) ::System::Net::Http::ClientCertificateOption  ClientCertificateOptions;
 
-  __declspec(property(get = get_ClientCertificates)) ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* ClientCertificates;
+ __declspec(property(get=get_ClientCertificates)) ::System::Security::Cryptography::X509Certificates::X509CertificateCollection*  ClientCertificates;
 
-  __declspec(property(put = set_UseProxy)) bool UseProxy;
+ __declspec(property(put=set_UseProxy)) bool  UseProxy;
 
-  /// @brief Field _clientCertificateOptions, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get__clientCertificateOptions,
-                      put = __cordl_internal_set__clientCertificateOptions)) ::System::Net::Http::ClientCertificateOption _clientCertificateOptions;
+/// @brief Field _clientCertificateOptions, offset 0x18, size 0x4 
+ __declspec(property(get=__cordl_internal_get__clientCertificateOptions, put=__cordl_internal_set__clientCertificateOptions)) ::System::Net::Http::ClientCertificateOption  _clientCertificateOptions;
 
-  /// @brief Field _delegatingHandler, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__delegatingHandler, put = __cordl_internal_set__delegatingHandler)) ::System::Net::Http::IMonoHttpClientHandler* _delegatingHandler;
+/// @brief Field _delegatingHandler, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get__delegatingHandler, put=__cordl_internal_set__delegatingHandler)) ::System::Net::Http::IMonoHttpClientHandler*  _delegatingHandler;
 
-  /// @brief Method CreateDefaultHandler, addr 0x5f21874, size 0x54, virtual false, abstract: false, final false
-  static inline ::System::Net::Http::IMonoHttpClientHandler* CreateDefaultHandler();
+/// @brief Method CreateDefaultHandler, addr 0x5f21f34, size 0x54, virtual false, abstract: false, final false
+static inline ::System::Net::Http::IMonoHttpClientHandler* CreateDefaultHandler() ;
 
-  /// @brief Method Dispose, addr 0x5f21d5c, size 0xc4, virtual true, abstract: false, final false
-  inline void Dispose(bool disposing);
+/// @brief Method Dispose, addr 0x5f2241c, size 0xc4, virtual true, abstract: false, final false
+inline void Dispose(bool  disposing) ;
 
-  static inline ::System::Net::Http::HttpClientHandler* New_ctor();
+static inline ::System::Net::Http::HttpClientHandler* New_ctor() ;
 
-  static inline ::System::Net::Http::HttpClientHandler* New_ctor(::System::Net::Http::IMonoHttpClientHandler* handler);
+static inline ::System::Net::Http::HttpClientHandler* New_ctor(::System::Net::Http::IMonoHttpClientHandler*  handler) ;
 
-  /// @brief Method SendAsync, addr 0x5f22334, size 0xc0, virtual true, abstract: false, final false
-  inline ::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>* SendAsync(::System::Net::Http::HttpRequestMessage* request,
-                                                                                                  ::System::Threading::CancellationToken cancellationToken);
+/// @brief Method SendAsync, addr 0x5f229f4, size 0xc0, virtual true, abstract: false, final false
+inline ::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>* SendAsync(::System::Net::Http::HttpRequestMessage*  request, ::System::Threading::CancellationToken  cancellationToken) ;
 
-  /// @brief Method SetWebRequestTimeout, addr 0x5f2227c, size 0xb8, virtual false, abstract: false, final false
-  inline void SetWebRequestTimeout(::System::TimeSpan timeout);
+/// @brief Method SetWebRequestTimeout, addr 0x5f2293c, size 0xb8, virtual false, abstract: false, final false
+inline void SetWebRequestTimeout(::System::TimeSpan  timeout) ;
 
-  /// @brief Method ThrowForModifiedManagedSslOptionsIfStarted, addr 0x5f21e24, size 0x108, virtual false, abstract: false, final false
-  inline void ThrowForModifiedManagedSslOptionsIfStarted();
+/// @brief Method ThrowForModifiedManagedSslOptionsIfStarted, addr 0x5f224e4, size 0x108, virtual false, abstract: false, final false
+inline void ThrowForModifiedManagedSslOptionsIfStarted() ;
 
-  constexpr ::System::Net::Http::ClientCertificateOption const& __cordl_internal_get__clientCertificateOptions() const;
+constexpr ::System::Net::Http::ClientCertificateOption const& __cordl_internal_get__clientCertificateOptions() const;
 
-  constexpr ::System::Net::Http::ClientCertificateOption& __cordl_internal_get__clientCertificateOptions();
+constexpr ::System::Net::Http::ClientCertificateOption& __cordl_internal_get__clientCertificateOptions() ;
 
-  constexpr ::System::Net::Http::IMonoHttpClientHandler* const& __cordl_internal_get__delegatingHandler() const;
+constexpr ::System::Net::Http::IMonoHttpClientHandler* const& __cordl_internal_get__delegatingHandler() const;
 
-  constexpr ::System::Net::Http::IMonoHttpClientHandler*& __cordl_internal_get__delegatingHandler();
+constexpr ::System::Net::Http::IMonoHttpClientHandler*& __cordl_internal_get__delegatingHandler() ;
 
-  constexpr void __cordl_internal_set__clientCertificateOptions(::System::Net::Http::ClientCertificateOption value);
+constexpr void __cordl_internal_set__clientCertificateOptions(::System::Net::Http::ClientCertificateOption  value) ;
 
-  constexpr void __cordl_internal_set__delegatingHandler(::System::Net::Http::IMonoHttpClientHandler* value);
+constexpr void __cordl_internal_set__delegatingHandler(::System::Net::Http::IMonoHttpClientHandler*  value) ;
 
-  /// @brief Method .ctor, addr 0x5f21a9c, size 0x24, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5f2215c, size 0x24, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method .ctor, addr 0x5f21ac0, size 0x10, virtual false, abstract: false, final false
-  inline void _ctor(::System::Net::Http::IMonoHttpClientHandler* handler);
+/// @brief Method .ctor, addr 0x5f22180, size 0x10, virtual false, abstract: false, final false
+inline void _ctor(::System::Net::Http::IMonoHttpClientHandler*  handler) ;
 
-  /// @brief Method <set_ClientCertificateOptions>b__23_0, addr 0x5f223f4, size 0x14, virtual false, abstract: false, final false
-  inline ::System::Security::Cryptography::X509Certificates::X509Certificate*
-  _set_ClientCertificateOptions_b__23_0(::System::Object* sender, ::StringW targetHost, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* localCertificates,
-                                        ::System::Security::Cryptography::X509Certificates::X509Certificate* remoteCertificate, ::ArrayW<::StringW, ::Array<::StringW>*> acceptableIssuers);
+/// @brief Method <set_ClientCertificateOptions>b__23_0, addr 0x5f22ab4, size 0x14, virtual false, abstract: false, final false
+inline ::System::Security::Cryptography::X509Certificates::X509Certificate* _set_ClientCertificateOptions_b__23_0(::System::Object*  sender, ::StringW  targetHost, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection*  localCertificates, ::System::Security::Cryptography::X509Certificates::X509Certificate*  remoteCertificate, ::ArrayW<::StringW,::Array<::StringW>*>  acceptableIssuers) ;
 
-  /// @brief Method get_ClientCertificateOptions, addr 0x5f21f2c, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Net::Http::ClientCertificateOption get_ClientCertificateOptions();
+/// @brief Method get_ClientCertificateOptions, addr 0x5f225ec, size 0x8, virtual false, abstract: false, final false
+inline ::System::Net::Http::ClientCertificateOption get_ClientCertificateOptions() ;
 
-  /// @brief Method get_ClientCertificates, addr 0x5f21f34, size 0x1d8, virtual false, abstract: false, final false
-  inline ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* get_ClientCertificates();
+/// @brief Method get_ClientCertificates, addr 0x5f225f4, size 0x1d8, virtual false, abstract: false, final false
+inline ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* get_ClientCertificates() ;
 
-  /// @brief Method set_AllowAutoRedirect, addr 0x5f221c4, size 0xb8, virtual false, abstract: false, final false
-  inline void set_AllowAutoRedirect(bool value);
+/// @brief Method set_AllowAutoRedirect, addr 0x5f22884, size 0xb8, virtual false, abstract: false, final false
+inline void set_AllowAutoRedirect(bool  value) ;
 
-  /// @brief Method set_ClientCertificateOptions, addr 0x5f21ad4, size 0x288, virtual false, abstract: false, final false
-  inline void set_ClientCertificateOptions(::System::Net::Http::ClientCertificateOption value);
+/// @brief Method set_ClientCertificateOptions, addr 0x5f22194, size 0x288, virtual false, abstract: false, final false
+inline void set_ClientCertificateOptions(::System::Net::Http::ClientCertificateOption  value) ;
 
-  /// @brief Method set_UseProxy, addr 0x5f2210c, size 0xb8, virtual false, abstract: false, final false
-  inline void set_UseProxy(bool value);
+/// @brief Method set_UseProxy, addr 0x5f227cc, size 0xb8, virtual false, abstract: false, final false
+inline void set_UseProxy(bool  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HttpClientHandler();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr HttpClientHandler() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HttpClientHandler", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  HttpClientHandler(HttpClientHandler&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HttpClientHandler", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  HttpClientHandler(HttpClientHandler const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "HttpClientHandler", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+HttpClientHandler(HttpClientHandler && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20032 };
+// Ctor Parameters [CppParam { name: "", ty: "HttpClientHandler", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+HttpClientHandler(HttpClientHandler const& ) = delete;
 
-  /// @brief Field _delegatingHandler, offset: 0x10, size: 0x8, def value: None
-  ::System::Net::Http::IMonoHttpClientHandler* ____delegatingHandler;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20036};
 
-  /// @brief Field _clientCertificateOptions, offset: 0x18, size: 0x4, def value: None
-  ::System::Net::Http::ClientCertificateOption ____clientCertificateOptions;
+/// @brief Field _delegatingHandler, offset: 0x10, size: 0x8, def value: None
+ ::System::Net::Http::IMonoHttpClientHandler*  ____delegatingHandler;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _clientCertificateOptions, offset: 0x18, size: 0x4, def value: None
+ ::System::Net::Http::ClientCertificateOption  ____clientCertificateOptions;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Net::Http::HttpClientHandler, ____delegatingHandler) == 0x10, "Offset mismatch!");
@@ -222,7 +217,7 @@ static_assert(offsetof(::System::Net::Http::HttpClientHandler, ____clientCertifi
 
 static_assert(::cordl_internals::size_check_v<::System::Net::Http::HttpClientHandler, 0x20>, "Size mismatch!");
 
-} // namespace System::Net::Http
+} // namespace end def System::Net::Http
 NEED_NO_BOX(::System::Net::Http::HttpClientHandler);
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::Http::HttpClientHandler*, "System.Net.Http", "HttpClientHandler");
 NEED_NO_BOX(::System::Net::Http::HttpClientHandler___c);

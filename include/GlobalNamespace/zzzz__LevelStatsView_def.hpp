@@ -29,75 +29,75 @@ namespace GlobalNamespace {
 // CS Name: LevelStatsView
 class CORDL_TYPE LevelStatsView : public ::UnityEngine::MonoBehaviour {
 public:
-  // Declarations
-  /// @brief Field _highScoreText, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__highScoreText, put = __cordl_internal_set__highScoreText)) ::UnityW<::TMPro::TextMeshProUGUI> _highScoreText;
+// Declarations
+/// @brief Field _highScoreText, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get__highScoreText, put=__cordl_internal_set__highScoreText)) ::UnityW<::TMPro::TextMeshProUGUI>  _highScoreText;
 
-  /// @brief Field _maxComboText, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__maxComboText, put = __cordl_internal_set__maxComboText)) ::UnityW<::TMPro::TextMeshProUGUI> _maxComboText;
+/// @brief Field _maxComboText, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get__maxComboText, put=__cordl_internal_set__maxComboText)) ::UnityW<::TMPro::TextMeshProUGUI>  _maxComboText;
 
-  /// @brief Field _maxRankText, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__maxRankText, put = __cordl_internal_set__maxRankText)) ::UnityW<::TMPro::TextMeshProUGUI> _maxRankText;
+/// @brief Field _maxRankText, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get__maxRankText, put=__cordl_internal_set__maxRankText)) ::UnityW<::TMPro::TextMeshProUGUI>  _maxRankText;
 
-  /// @brief Method Hide, addr 0x574404c, size 0x24, virtual false, abstract: false, final false
-  inline void Hide();
+/// @brief Method Hide, addr 0x57448b0, size 0x24, virtual false, abstract: false, final false
+inline void Hide() ;
 
-  static inline ::GlobalNamespace::LevelStatsView* New_ctor();
+static inline ::GlobalNamespace::LevelStatsView* New_ctor() ;
 
-  /// @brief Method ShowStats, addr 0x5744070, size 0x2c, virtual false, abstract: false, final false
-  inline void ShowStats(::ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::PlayerData* playerData);
+/// @brief Method ShowStats, addr 0x57448d4, size 0x2c, virtual false, abstract: false, final false
+inline void ShowStats(::ByRef<::GlobalNamespace::BeatmapKey>  beatmapKey, ::GlobalNamespace::PlayerData*  playerData) ;
 
-  /// @brief Method ShowStats, addr 0x574409c, size 0x170, virtual false, abstract: false, final false
-  inline void ShowStats(::GlobalNamespace::PlayerLevelStatsData* playerLevelStats);
+/// @brief Method ShowStats, addr 0x5744900, size 0x170, virtual false, abstract: false, final false
+inline void ShowStats(::GlobalNamespace::PlayerLevelStatsData*  playerLevelStats) ;
 
-  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__highScoreText() const;
+constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__highScoreText() const;
 
-  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__highScoreText();
+constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__highScoreText() ;
 
-  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__maxComboText() const;
+constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__maxComboText() const;
 
-  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__maxComboText();
+constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__maxComboText() ;
 
-  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__maxRankText() const;
+constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__maxRankText() const;
 
-  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__maxRankText();
+constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__maxRankText() ;
 
-  constexpr void __cordl_internal_set__highScoreText(::UnityW<::TMPro::TextMeshProUGUI> value);
+constexpr void __cordl_internal_set__highScoreText(::UnityW<::TMPro::TextMeshProUGUI>  value) ;
 
-  constexpr void __cordl_internal_set__maxComboText(::UnityW<::TMPro::TextMeshProUGUI> value);
+constexpr void __cordl_internal_set__maxComboText(::UnityW<::TMPro::TextMeshProUGUI>  value) ;
 
-  constexpr void __cordl_internal_set__maxRankText(::UnityW<::TMPro::TextMeshProUGUI> value);
+constexpr void __cordl_internal_set__maxRankText(::UnityW<::TMPro::TextMeshProUGUI>  value) ;
 
-  /// @brief Method .ctor, addr 0x574420c, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5744a70, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LevelStatsView();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr LevelStatsView() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LevelStatsView", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  LevelStatsView(LevelStatsView&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LevelStatsView", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  LevelStatsView(LevelStatsView const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "LevelStatsView", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+LevelStatsView(LevelStatsView && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6564 };
+// Ctor Parameters [CppParam { name: "", ty: "LevelStatsView", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+LevelStatsView(LevelStatsView const& ) = delete;
 
-  /// @brief Field _highScoreText, offset: 0x20, size: 0x8, def value: None
-  ::UnityW<::TMPro::TextMeshProUGUI> ____highScoreText;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6567};
 
-  /// @brief Field _maxComboText, offset: 0x28, size: 0x8, def value: None
-  ::UnityW<::TMPro::TextMeshProUGUI> ____maxComboText;
+/// @brief Field _highScoreText, offset: 0x20, size: 0x8, def value: None
+ ::UnityW<::TMPro::TextMeshProUGUI>  ____highScoreText;
 
-  /// @brief Field _maxRankText, offset: 0x30, size: 0x8, def value: None
-  ::UnityW<::TMPro::TextMeshProUGUI> ____maxRankText;
+/// @brief Field _maxComboText, offset: 0x28, size: 0x8, def value: None
+ ::UnityW<::TMPro::TextMeshProUGUI>  ____maxComboText;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _maxRankText, offset: 0x30, size: 0x8, def value: None
+ ::UnityW<::TMPro::TextMeshProUGUI>  ____maxRankText;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::LevelStatsView, ____highScoreText) == 0x20, "Offset mismatch!");
@@ -108,6 +108,6 @@ static_assert(offsetof(::GlobalNamespace::LevelStatsView, ____maxRankText) == 0x
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LevelStatsView, 0x38>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::LevelStatsView);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LevelStatsView*, "", "LevelStatsView");

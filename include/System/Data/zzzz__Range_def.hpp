@@ -12,58 +12,57 @@ struct Range;
 }
 // Write type traits
 MARK_VAL_T(::System::Data::Range);
-// Dependencies
+// Dependencies 
 namespace System::Data {
 // Is value type: true
 // CS Name: System.Data.Range
 struct CORDL_TYPE Range {
 public:
-  // Declarations
-  __declspec(property(get = get_Count)) int32_t Count;
+// Declarations
+ __declspec(property(get=get_Count)) int32_t  Count;
 
-  __declspec(property(get = get_IsNull)) bool IsNull;
+ __declspec(property(get=get_IsNull)) bool  IsNull;
 
-  __declspec(property(get = get_Min)) int32_t Min;
+ __declspec(property(get=get_Min)) int32_t  Min;
 
-  /// @brief Method CheckNull, addr 0x5e96960, size 0x34, virtual false, abstract: false, final false
-  inline void CheckNull();
+/// @brief Method CheckNull, addr 0x5e97020, size 0x34, virtual false, abstract: false, final false
+inline void CheckNull() ;
 
-  /// @brief Method .ctor, addr 0x5e96918, size 0x48, virtual false, abstract: false, final false
-  inline void _ctor(int32_t min, int32_t max);
+/// @brief Method .ctor, addr 0x5e96fd8, size 0x48, virtual false, abstract: false, final false
+inline void _ctor(int32_t  min, int32_t  max) ;
 
-  /// @brief Method get_Count, addr 0x5e9156c, size 0x20, virtual false, abstract: false, final false
-  inline int32_t get_Count();
+/// @brief Method get_Count, addr 0x5e91c2c, size 0x20, virtual false, abstract: false, final false
+inline int32_t get_Count() ;
 
-  /// @brief Method get_IsNull, addr 0x5e910b8, size 0x10, virtual false, abstract: false, final false
-  inline bool get_IsNull();
+/// @brief Method get_IsNull, addr 0x5e91778, size 0x10, virtual false, abstract: false, final false
+inline bool get_IsNull() ;
 
-  /// @brief Method get_Min, addr 0x5e9158c, size 0x18, virtual false, abstract: false, final false
-  inline int32_t get_Min();
+/// @brief Method get_Min, addr 0x5e91c4c, size 0x18, virtual false, abstract: false, final false
+inline int32_t get_Min() ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Range();
+// Ctor Parameters []
+// @brief default ctor
+constexpr Range() ;
 
-  // Ctor Parameters [CppParam { name: "_min", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_max", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_isNotNull",
-  // ty: "bool", modifiers: "", def_value: None }]
-  constexpr Range(int32_t _min, int32_t _max, bool _isNotNull) noexcept;
+// Ctor Parameters [CppParam { name: "_min", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_max", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_isNotNull", ty: "bool", modifiers: "", def_value: None }]
+constexpr Range(int32_t  _min, int32_t  _max, bool  _isNotNull) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13812 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{13816};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0xc};
 
-  /// @brief Field _min, offset: 0x0, size: 0x4, def value: None
-  int32_t _min;
+/// @brief Field _min, offset: 0x0, size: 0x4, def value: None
+ int32_t  _min;
 
-  /// @brief Field _max, offset: 0x4, size: 0x4, def value: None
-  int32_t _max;
+/// @brief Field _max, offset: 0x4, size: 0x4, def value: None
+ int32_t  _max;
 
-  /// @brief Field _isNotNull, offset: 0x8, size: 0x1, def value: None
-  bool _isNotNull;
+/// @brief Field _isNotNull, offset: 0x8, size: 0x1, def value: None
+ bool  _isNotNull;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Data::Range, _min) == 0x0, "Offset mismatch!");
@@ -74,5 +73,5 @@ static_assert(offsetof(::System::Data::Range, _isNotNull) == 0x8, "Offset mismat
 
 static_assert(::cordl_internals::size_check_v<::System::Data::Range, 0xc>, "Size mismatch!");
 
-} // namespace System::Data
+} // namespace end def System::Data
 DEFINE_IL2CPP_ARG_TYPE(::System::Data::Range, "System.Data", "Range");

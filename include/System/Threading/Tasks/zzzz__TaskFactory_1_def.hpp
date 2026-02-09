@@ -16,28 +16,35 @@ namespace System::Threading::Tasks {
 struct TaskCreationOptions;
 }
 namespace System::Threading::Tasks {
-template <typename TResult, typename TInstance> class TaskFactory_1_FromAsyncTrimPromise_1;
+template<typename TResult,typename TInstance>
+class TaskFactory_1_FromAsyncTrimPromise_1;
 }
 namespace System::Threading::Tasks {
-template <typename TResult> class TaskFactory_1___c__DisplayClass32_0;
+template<typename TResult>
+class TaskFactory_1___c__DisplayClass32_0;
 }
 namespace System::Threading::Tasks {
-template <typename TResult> class TaskFactory_1___c__DisplayClass35_0;
+template<typename TResult>
+class TaskFactory_1___c__DisplayClass35_0;
 }
 namespace System::Threading::Tasks {
-template <typename TResult, typename TArg1> class TaskFactory_1___c__DisplayClass38_0_1;
+template<typename TResult,typename TArg1>
+class TaskFactory_1___c__DisplayClass38_0_1;
 }
 namespace System::Threading::Tasks {
-template <typename TResult, typename TArg1, typename TArg2> class TaskFactory_1___c__DisplayClass41_0_2;
+template<typename TResult,typename TArg1,typename TArg2>
+class TaskFactory_1___c__DisplayClass41_0_2;
 }
 namespace System::Threading::Tasks {
-template <typename TResult, typename TArg1, typename TArg2, typename TArg3> class TaskFactory_1___c__DisplayClass44_0_3;
+template<typename TResult,typename TArg1,typename TArg2,typename TArg3>
+class TaskFactory_1___c__DisplayClass44_0_3;
 }
 namespace System::Threading::Tasks {
 class TaskScheduler;
 }
 namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
+template<typename TResult>
+class Task_1;
 }
 namespace System::Threading::Tasks {
 class Task;
@@ -46,25 +53,31 @@ namespace System::Threading {
 struct CancellationToken;
 }
 namespace System {
-template <typename T> class Action_1;
+template<typename T>
+class Action_1;
 }
 namespace System {
 class AsyncCallback;
 }
 namespace System {
-template <typename T, typename TResult> class Func_2;
+template<typename T,typename TResult>
+class Func_2;
 }
 namespace System {
-template <typename T1, typename T2, typename TResult> class Func_3;
+template<typename T1,typename T2,typename TResult>
+class Func_3;
 }
 namespace System {
-template <typename T1, typename T2, typename T3, typename TResult> class Func_4;
+template<typename T1,typename T2,typename T3,typename TResult>
+class Func_4;
 }
 namespace System {
-template <typename T1, typename T2, typename T3, typename T4, typename TResult> class Func_5;
+template<typename T1,typename T2,typename T3,typename T4,typename TResult>
+class Func_5;
 }
 namespace System {
-template <typename T1, typename T2, typename T3, typename T4, typename T5, typename TResult> class Func_6;
+template<typename T1,typename T2,typename T3,typename T4,typename T5,typename TResult>
+class Func_6;
 }
 namespace System {
 class IAsyncResult;
@@ -74,25 +87,32 @@ class Object;
 }
 // Forward declare root types
 namespace System::Threading::Tasks {
-template <typename TResult> class TaskFactory_1;
+template<typename TResult>
+class TaskFactory_1;
 }
 namespace System::Threading::Tasks {
-template <typename TResult, typename TInstance> class TaskFactory_1_FromAsyncTrimPromise_1;
+template<typename TResult,typename TInstance>
+class TaskFactory_1_FromAsyncTrimPromise_1;
 }
 namespace System::Threading::Tasks {
-template <typename TResult> class TaskFactory_1___c__DisplayClass32_0;
+template<typename TResult>
+class TaskFactory_1___c__DisplayClass32_0;
 }
 namespace System::Threading::Tasks {
-template <typename TResult> class TaskFactory_1___c__DisplayClass35_0;
+template<typename TResult>
+class TaskFactory_1___c__DisplayClass35_0;
 }
 namespace System::Threading::Tasks {
-template <typename TResult, typename TArg1> class TaskFactory_1___c__DisplayClass38_0_1;
+template<typename TResult,typename TArg1>
+class TaskFactory_1___c__DisplayClass38_0_1;
 }
 namespace System::Threading::Tasks {
-template <typename TResult, typename TArg1, typename TArg2> class TaskFactory_1___c__DisplayClass41_0_2;
+template<typename TResult,typename TArg1,typename TArg2>
+class TaskFactory_1___c__DisplayClass41_0_2;
 }
 namespace System::Threading::Tasks {
-template <typename TResult, typename TArg1, typename TArg2, typename TArg3> class TaskFactory_1___c__DisplayClass44_0_3;
+template<typename TResult,typename TArg1,typename TArg2,typename TArg3>
+class TaskFactory_1___c__DisplayClass44_0_3;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::System::Threading::Tasks::TaskFactory_1);
@@ -105,648 +125,627 @@ MARK_GEN_REF_PTR_T(::System::Threading::Tasks::TaskFactory_1___c__DisplayClass44
 // Dependencies System.Threading.Tasks.Task`1<TResult>
 namespace System::Threading::Tasks {
 // cpp template
-template <typename TResult, typename TInstance>
+template<typename TResult,typename TInstance>
 // Is value type: false
 // CS Name: System.Threading.Tasks.TaskFactory`1/FromAsyncTrimPromise`1<TResult,TInstance>
 class CORDL_TYPE TaskFactory_1_FromAsyncTrimPromise_1 : public ::System::Threading::Tasks::Task_1<TResult> {
 public:
-  // Declarations
-  /// @brief Field m_endMethod, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_endMethod, put = __cordl_internal_set_m_endMethod)) ::System::Func_3<TInstance, ::System::IAsyncResult*, TResult>* m_endMethod;
+// Declarations
+/// @brief Field m_endMethod, offset 0x60, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_endMethod, put=__cordl_internal_set_m_endMethod)) ::System::Func_3<TInstance,::System::IAsyncResult*,TResult>*  m_endMethod;
 
-  /// @brief Field m_thisRef, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_thisRef, put = __cordl_internal_set_m_thisRef)) TInstance m_thisRef;
+/// @brief Field m_thisRef, offset 0x58, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_thisRef, put=__cordl_internal_set_m_thisRef)) TInstance  m_thisRef;
 
-  /// @brief Field s_completeFromAsyncResult, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_s_completeFromAsyncResult, put = setStaticF_s_completeFromAsyncResult)) ::System::AsyncCallback* s_completeFromAsyncResult;
+/// @brief Field s_completeFromAsyncResult, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_s_completeFromAsyncResult, put=setStaticF_s_completeFromAsyncResult)) ::System::AsyncCallback*  s_completeFromAsyncResult;
 
-  /// @brief Method Complete, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void Complete(TInstance thisRef, ::System::Func_3<TInstance, ::System::IAsyncResult*, TResult>* endMethod, ::System::IAsyncResult* asyncResult, bool requiresSynchronization);
+/// @brief Method Complete, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+inline void Complete(TInstance  thisRef, ::System::Func_3<TInstance,::System::IAsyncResult*,TResult>*  endMethod, ::System::IAsyncResult*  asyncResult, bool  requiresSynchronization) ;
 
-  /// @brief Method CompleteFromAsyncResult, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  static inline void CompleteFromAsyncResult(::System::IAsyncResult* asyncResult);
+/// @brief Method CompleteFromAsyncResult, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+static inline void CompleteFromAsyncResult(::System::IAsyncResult*  asyncResult) ;
 
-  static inline ::System::Threading::Tasks::TaskFactory_1_FromAsyncTrimPromise_1<TResult, TInstance>* New_ctor(TInstance thisRef,
-                                                                                                               ::System::Func_3<TInstance, ::System::IAsyncResult*, TResult>* endMethod);
+static inline ::System::Threading::Tasks::TaskFactory_1_FromAsyncTrimPromise_1<TResult,TInstance>* New_ctor(TInstance  thisRef, ::System::Func_3<TInstance,::System::IAsyncResult*,TResult>*  endMethod) ;
 
-  constexpr ::System::Func_3<TInstance, ::System::IAsyncResult*, TResult>* const& __cordl_internal_get_m_endMethod() const;
+constexpr ::System::Func_3<TInstance,::System::IAsyncResult*,TResult>* const& __cordl_internal_get_m_endMethod() const;
 
-  constexpr ::System::Func_3<TInstance, ::System::IAsyncResult*, TResult>*& __cordl_internal_get_m_endMethod();
+constexpr ::System::Func_3<TInstance,::System::IAsyncResult*,TResult>*& __cordl_internal_get_m_endMethod() ;
 
-  constexpr TInstance const& __cordl_internal_get_m_thisRef() const;
+constexpr TInstance const& __cordl_internal_get_m_thisRef() const;
 
-  constexpr TInstance& __cordl_internal_get_m_thisRef();
+constexpr TInstance& __cordl_internal_get_m_thisRef() ;
 
-  constexpr void __cordl_internal_set_m_endMethod(::System::Func_3<TInstance, ::System::IAsyncResult*, TResult>* value);
+constexpr void __cordl_internal_set_m_endMethod(::System::Func_3<TInstance,::System::IAsyncResult*,TResult>*  value) ;
 
-  constexpr void __cordl_internal_set_m_thisRef(TInstance value);
+constexpr void __cordl_internal_set_m_thisRef(TInstance  value) ;
 
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(TInstance thisRef, ::System::Func_3<TInstance, ::System::IAsyncResult*, TResult>* endMethod);
+/// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+inline void _ctor(TInstance  thisRef, ::System::Func_3<TInstance,::System::IAsyncResult*,TResult>*  endMethod) ;
 
-  static inline ::System::AsyncCallback* getStaticF_s_completeFromAsyncResult();
+static inline ::System::AsyncCallback* getStaticF_s_completeFromAsyncResult() ;
 
-  static inline void setStaticF_s_completeFromAsyncResult(::System::AsyncCallback* value);
+static inline void setStaticF_s_completeFromAsyncResult(::System::AsyncCallback*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TaskFactory_1_FromAsyncTrimPromise_1();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr TaskFactory_1_FromAsyncTrimPromise_1() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TaskFactory_1_FromAsyncTrimPromise_1", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  TaskFactory_1_FromAsyncTrimPromise_1(TaskFactory_1_FromAsyncTrimPromise_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TaskFactory_1_FromAsyncTrimPromise_1", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  TaskFactory_1_FromAsyncTrimPromise_1(TaskFactory_1_FromAsyncTrimPromise_1 const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "TaskFactory_1_FromAsyncTrimPromise_1", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+TaskFactory_1_FromAsyncTrimPromise_1(TaskFactory_1_FromAsyncTrimPromise_1 && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2789 };
+// Ctor Parameters [CppParam { name: "", ty: "TaskFactory_1_FromAsyncTrimPromise_1", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+TaskFactory_1_FromAsyncTrimPromise_1(TaskFactory_1_FromAsyncTrimPromise_1 const& ) = delete;
 
-  /// @brief Field m_thisRef, offset: 0x58, size: 0x8, def value: None
-  TInstance ___m_thisRef;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{2789};
 
-  /// @brief Field m_endMethod, offset: 0x60, size: 0x8, def value: None
-  ::System::Func_3<TInstance, ::System::IAsyncResult*, TResult>* ___m_endMethod;
+/// @brief Field m_thisRef, offset: 0x58, size: 0x8, def value: None
+ TInstance  ___m_thisRef;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field m_endMethod, offset: 0x60, size: 0x8, def value: None
+ ::System::Func_3<TInstance,::System::IAsyncResult*,TResult>*  ___m_endMethod;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-} // namespace System::Threading::Tasks
+} // namespace end def System::Threading::Tasks
 // Dependencies System.Object
 namespace System::Threading::Tasks {
 // cpp template
-template <typename TResult>
+template<typename TResult>
 // Is value type: false
 // CS Name: System.Threading.Tasks.TaskFactory`1/<>c__DisplayClass32_0<TResult>
 class CORDL_TYPE TaskFactory_1___c__DisplayClass32_0 : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field asyncResult, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_asyncResult, put = __cordl_internal_set_asyncResult)) ::System::IAsyncResult* asyncResult;
+// Declarations
+/// @brief Field asyncResult, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_asyncResult, put=__cordl_internal_set_asyncResult)) ::System::IAsyncResult*  asyncResult;
 
-  /// @brief Field endAction, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_endAction, put = __cordl_internal_set_endAction)) ::System::Action_1<::System::IAsyncResult*>* endAction;
+/// @brief Field endAction, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get_endAction, put=__cordl_internal_set_endAction)) ::System::Action_1<::System::IAsyncResult*>*  endAction;
 
-  /// @brief Field endFunction, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_endFunction, put = __cordl_internal_set_endFunction)) ::System::Func_2<::System::IAsyncResult*, TResult>* endFunction;
+/// @brief Field endFunction, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_endFunction, put=__cordl_internal_set_endFunction)) ::System::Func_2<::System::IAsyncResult*,TResult>*  endFunction;
 
-  /// @brief Field promise, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_promise, put = __cordl_internal_set_promise)) ::System::Threading::Tasks::Task_1<TResult>* promise;
+/// @brief Field promise, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get_promise, put=__cordl_internal_set_promise)) ::System::Threading::Tasks::Task_1<TResult>*  promise;
 
-  /// @brief Field scheduler, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_scheduler, put = __cordl_internal_set_scheduler)) ::System::Threading::Tasks::TaskScheduler* scheduler;
+/// @brief Field scheduler, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get_scheduler, put=__cordl_internal_set_scheduler)) ::System::Threading::Tasks::TaskScheduler*  scheduler;
 
-  /// @brief Field t, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_t, put = __cordl_internal_set_t)) ::System::Threading::Tasks::Task* t;
+/// @brief Field t, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get_t, put=__cordl_internal_set_t)) ::System::Threading::Tasks::Task*  t;
 
-  static inline ::System::Threading::Tasks::TaskFactory_1___c__DisplayClass32_0<TResult>* New_ctor();
+static inline ::System::Threading::Tasks::TaskFactory_1___c__DisplayClass32_0<TResult>* New_ctor() ;
 
-  /// @brief Method <FromAsyncImpl>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _FromAsyncImpl_b__0(::System::Object* _p0_);
+/// @brief Method <FromAsyncImpl>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+inline void _FromAsyncImpl_b__0(::System::Object*  _p0_) ;
 
-  /// @brief Method <FromAsyncImpl>b__1, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _FromAsyncImpl_b__1(::System::Object* _p0_, bool _p1_);
+/// @brief Method <FromAsyncImpl>b__1, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+inline void _FromAsyncImpl_b__1(::System::Object*  _p0_, bool  _p1_) ;
 
-  constexpr ::System::IAsyncResult* const& __cordl_internal_get_asyncResult() const;
+constexpr ::System::IAsyncResult* const& __cordl_internal_get_asyncResult() const;
 
-  constexpr ::System::IAsyncResult*& __cordl_internal_get_asyncResult();
+constexpr ::System::IAsyncResult*& __cordl_internal_get_asyncResult() ;
 
-  constexpr ::System::Action_1<::System::IAsyncResult*>* const& __cordl_internal_get_endAction() const;
+constexpr ::System::Action_1<::System::IAsyncResult*>* const& __cordl_internal_get_endAction() const;
 
-  constexpr ::System::Action_1<::System::IAsyncResult*>*& __cordl_internal_get_endAction();
+constexpr ::System::Action_1<::System::IAsyncResult*>*& __cordl_internal_get_endAction() ;
 
-  constexpr ::System::Func_2<::System::IAsyncResult*, TResult>* const& __cordl_internal_get_endFunction() const;
+constexpr ::System::Func_2<::System::IAsyncResult*,TResult>* const& __cordl_internal_get_endFunction() const;
 
-  constexpr ::System::Func_2<::System::IAsyncResult*, TResult>*& __cordl_internal_get_endFunction();
+constexpr ::System::Func_2<::System::IAsyncResult*,TResult>*& __cordl_internal_get_endFunction() ;
 
-  constexpr ::System::Threading::Tasks::Task_1<TResult>* const& __cordl_internal_get_promise() const;
+constexpr ::System::Threading::Tasks::Task_1<TResult>* const& __cordl_internal_get_promise() const;
 
-  constexpr ::System::Threading::Tasks::Task_1<TResult>*& __cordl_internal_get_promise();
+constexpr ::System::Threading::Tasks::Task_1<TResult>*& __cordl_internal_get_promise() ;
 
-  constexpr ::System::Threading::Tasks::TaskScheduler* const& __cordl_internal_get_scheduler() const;
+constexpr ::System::Threading::Tasks::TaskScheduler* const& __cordl_internal_get_scheduler() const;
 
-  constexpr ::System::Threading::Tasks::TaskScheduler*& __cordl_internal_get_scheduler();
+constexpr ::System::Threading::Tasks::TaskScheduler*& __cordl_internal_get_scheduler() ;
 
-  constexpr ::System::Threading::Tasks::Task* const& __cordl_internal_get_t() const;
+constexpr ::System::Threading::Tasks::Task* const& __cordl_internal_get_t() const;
 
-  constexpr ::System::Threading::Tasks::Task*& __cordl_internal_get_t();
+constexpr ::System::Threading::Tasks::Task*& __cordl_internal_get_t() ;
 
-  constexpr void __cordl_internal_set_asyncResult(::System::IAsyncResult* value);
+constexpr void __cordl_internal_set_asyncResult(::System::IAsyncResult*  value) ;
 
-  constexpr void __cordl_internal_set_endAction(::System::Action_1<::System::IAsyncResult*>* value);
+constexpr void __cordl_internal_set_endAction(::System::Action_1<::System::IAsyncResult*>*  value) ;
 
-  constexpr void __cordl_internal_set_endFunction(::System::Func_2<::System::IAsyncResult*, TResult>* value);
+constexpr void __cordl_internal_set_endFunction(::System::Func_2<::System::IAsyncResult*,TResult>*  value) ;
 
-  constexpr void __cordl_internal_set_promise(::System::Threading::Tasks::Task_1<TResult>* value);
+constexpr void __cordl_internal_set_promise(::System::Threading::Tasks::Task_1<TResult>*  value) ;
 
-  constexpr void __cordl_internal_set_scheduler(::System::Threading::Tasks::TaskScheduler* value);
+constexpr void __cordl_internal_set_scheduler(::System::Threading::Tasks::TaskScheduler*  value) ;
 
-  constexpr void __cordl_internal_set_t(::System::Threading::Tasks::Task* value);
+constexpr void __cordl_internal_set_t(::System::Threading::Tasks::Task*  value) ;
 
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TaskFactory_1___c__DisplayClass32_0();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr TaskFactory_1___c__DisplayClass32_0() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TaskFactory_1___c__DisplayClass32_0", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  TaskFactory_1___c__DisplayClass32_0(TaskFactory_1___c__DisplayClass32_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TaskFactory_1___c__DisplayClass32_0", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  TaskFactory_1___c__DisplayClass32_0(TaskFactory_1___c__DisplayClass32_0 const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "TaskFactory_1___c__DisplayClass32_0", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+TaskFactory_1___c__DisplayClass32_0(TaskFactory_1___c__DisplayClass32_0 && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2790 };
+// Ctor Parameters [CppParam { name: "", ty: "TaskFactory_1___c__DisplayClass32_0", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+TaskFactory_1___c__DisplayClass32_0(TaskFactory_1___c__DisplayClass32_0 const& ) = delete;
 
-  /// @brief Field asyncResult, offset: 0x10, size: 0x8, def value: None
-  ::System::IAsyncResult* ___asyncResult;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{2790};
 
-  /// @brief Field endFunction, offset: 0x18, size: 0x8, def value: None
-  ::System::Func_2<::System::IAsyncResult*, TResult>* ___endFunction;
+/// @brief Field asyncResult, offset: 0x10, size: 0x8, def value: None
+ ::System::IAsyncResult*  ___asyncResult;
 
-  /// @brief Field endAction, offset: 0x20, size: 0x8, def value: None
-  ::System::Action_1<::System::IAsyncResult*>* ___endAction;
+/// @brief Field endFunction, offset: 0x18, size: 0x8, def value: None
+ ::System::Func_2<::System::IAsyncResult*,TResult>*  ___endFunction;
 
-  /// @brief Field promise, offset: 0x28, size: 0x8, def value: None
-  ::System::Threading::Tasks::Task_1<TResult>* ___promise;
+/// @brief Field endAction, offset: 0x20, size: 0x8, def value: None
+ ::System::Action_1<::System::IAsyncResult*>*  ___endAction;
 
-  /// @brief Field t, offset: 0x30, size: 0x8, def value: None
-  ::System::Threading::Tasks::Task* ___t;
+/// @brief Field promise, offset: 0x28, size: 0x8, def value: None
+ ::System::Threading::Tasks::Task_1<TResult>*  ___promise;
 
-  /// @brief Field scheduler, offset: 0x38, size: 0x8, def value: None
-  ::System::Threading::Tasks::TaskScheduler* ___scheduler;
+/// @brief Field t, offset: 0x30, size: 0x8, def value: None
+ ::System::Threading::Tasks::Task*  ___t;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field scheduler, offset: 0x38, size: 0x8, def value: None
+ ::System::Threading::Tasks::TaskScheduler*  ___scheduler;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-} // namespace System::Threading::Tasks
+} // namespace end def System::Threading::Tasks
 // Dependencies System.Object
 namespace System::Threading::Tasks {
 // cpp template
-template <typename TResult>
+template<typename TResult>
 // Is value type: false
 // CS Name: System.Threading.Tasks.TaskFactory`1/<>c__DisplayClass35_0<TResult>
 class CORDL_TYPE TaskFactory_1___c__DisplayClass35_0 : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field endAction, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_endAction, put = __cordl_internal_set_endAction)) ::System::Action_1<::System::IAsyncResult*>* endAction;
+// Declarations
+/// @brief Field endAction, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_endAction, put=__cordl_internal_set_endAction)) ::System::Action_1<::System::IAsyncResult*>*  endAction;
 
-  /// @brief Field endFunction, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_endFunction, put = __cordl_internal_set_endFunction)) ::System::Func_2<::System::IAsyncResult*, TResult>* endFunction;
+/// @brief Field endFunction, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_endFunction, put=__cordl_internal_set_endFunction)) ::System::Func_2<::System::IAsyncResult*,TResult>*  endFunction;
 
-  /// @brief Field promise, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_promise, put = __cordl_internal_set_promise)) ::System::Threading::Tasks::Task_1<TResult>* promise;
+/// @brief Field promise, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get_promise, put=__cordl_internal_set_promise)) ::System::Threading::Tasks::Task_1<TResult>*  promise;
 
-  static inline ::System::Threading::Tasks::TaskFactory_1___c__DisplayClass35_0<TResult>* New_ctor();
+static inline ::System::Threading::Tasks::TaskFactory_1___c__DisplayClass35_0<TResult>* New_ctor() ;
 
-  /// @brief Method <FromAsyncImpl>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _FromAsyncImpl_b__0(::System::IAsyncResult* iar);
+/// @brief Method <FromAsyncImpl>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+inline void _FromAsyncImpl_b__0(::System::IAsyncResult*  iar) ;
 
-  constexpr ::System::Action_1<::System::IAsyncResult*>* const& __cordl_internal_get_endAction() const;
+constexpr ::System::Action_1<::System::IAsyncResult*>* const& __cordl_internal_get_endAction() const;
 
-  constexpr ::System::Action_1<::System::IAsyncResult*>*& __cordl_internal_get_endAction();
+constexpr ::System::Action_1<::System::IAsyncResult*>*& __cordl_internal_get_endAction() ;
 
-  constexpr ::System::Func_2<::System::IAsyncResult*, TResult>* const& __cordl_internal_get_endFunction() const;
+constexpr ::System::Func_2<::System::IAsyncResult*,TResult>* const& __cordl_internal_get_endFunction() const;
 
-  constexpr ::System::Func_2<::System::IAsyncResult*, TResult>*& __cordl_internal_get_endFunction();
+constexpr ::System::Func_2<::System::IAsyncResult*,TResult>*& __cordl_internal_get_endFunction() ;
 
-  constexpr ::System::Threading::Tasks::Task_1<TResult>* const& __cordl_internal_get_promise() const;
+constexpr ::System::Threading::Tasks::Task_1<TResult>* const& __cordl_internal_get_promise() const;
 
-  constexpr ::System::Threading::Tasks::Task_1<TResult>*& __cordl_internal_get_promise();
+constexpr ::System::Threading::Tasks::Task_1<TResult>*& __cordl_internal_get_promise() ;
 
-  constexpr void __cordl_internal_set_endAction(::System::Action_1<::System::IAsyncResult*>* value);
+constexpr void __cordl_internal_set_endAction(::System::Action_1<::System::IAsyncResult*>*  value) ;
 
-  constexpr void __cordl_internal_set_endFunction(::System::Func_2<::System::IAsyncResult*, TResult>* value);
+constexpr void __cordl_internal_set_endFunction(::System::Func_2<::System::IAsyncResult*,TResult>*  value) ;
 
-  constexpr void __cordl_internal_set_promise(::System::Threading::Tasks::Task_1<TResult>* value);
+constexpr void __cordl_internal_set_promise(::System::Threading::Tasks::Task_1<TResult>*  value) ;
 
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TaskFactory_1___c__DisplayClass35_0();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr TaskFactory_1___c__DisplayClass35_0() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TaskFactory_1___c__DisplayClass35_0", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  TaskFactory_1___c__DisplayClass35_0(TaskFactory_1___c__DisplayClass35_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TaskFactory_1___c__DisplayClass35_0", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  TaskFactory_1___c__DisplayClass35_0(TaskFactory_1___c__DisplayClass35_0 const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "TaskFactory_1___c__DisplayClass35_0", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+TaskFactory_1___c__DisplayClass35_0(TaskFactory_1___c__DisplayClass35_0 && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2791 };
+// Ctor Parameters [CppParam { name: "", ty: "TaskFactory_1___c__DisplayClass35_0", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+TaskFactory_1___c__DisplayClass35_0(TaskFactory_1___c__DisplayClass35_0 const& ) = delete;
 
-  /// @brief Field endFunction, offset: 0x10, size: 0x8, def value: None
-  ::System::Func_2<::System::IAsyncResult*, TResult>* ___endFunction;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{2791};
 
-  /// @brief Field endAction, offset: 0x18, size: 0x8, def value: None
-  ::System::Action_1<::System::IAsyncResult*>* ___endAction;
+/// @brief Field endFunction, offset: 0x10, size: 0x8, def value: None
+ ::System::Func_2<::System::IAsyncResult*,TResult>*  ___endFunction;
 
-  /// @brief Field promise, offset: 0x20, size: 0x8, def value: None
-  ::System::Threading::Tasks::Task_1<TResult>* ___promise;
+/// @brief Field endAction, offset: 0x18, size: 0x8, def value: None
+ ::System::Action_1<::System::IAsyncResult*>*  ___endAction;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field promise, offset: 0x20, size: 0x8, def value: None
+ ::System::Threading::Tasks::Task_1<TResult>*  ___promise;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-} // namespace System::Threading::Tasks
+} // namespace end def System::Threading::Tasks
 // Dependencies System.Object
 namespace System::Threading::Tasks {
 // cpp template
-template <typename TResult, typename TArg1>
+template<typename TResult,typename TArg1>
 // Is value type: false
 // CS Name: System.Threading.Tasks.TaskFactory`1/<>c__DisplayClass38_0`1<TResult,TArg1>
 class CORDL_TYPE TaskFactory_1___c__DisplayClass38_0_1 : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field endAction, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_endAction, put = __cordl_internal_set_endAction)) ::System::Action_1<::System::IAsyncResult*>* endAction;
+// Declarations
+/// @brief Field endAction, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_endAction, put=__cordl_internal_set_endAction)) ::System::Action_1<::System::IAsyncResult*>*  endAction;
 
-  /// @brief Field endFunction, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_endFunction, put = __cordl_internal_set_endFunction)) ::System::Func_2<::System::IAsyncResult*, TResult>* endFunction;
+/// @brief Field endFunction, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_endFunction, put=__cordl_internal_set_endFunction)) ::System::Func_2<::System::IAsyncResult*,TResult>*  endFunction;
 
-  /// @brief Field promise, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_promise, put = __cordl_internal_set_promise)) ::System::Threading::Tasks::Task_1<TResult>* promise;
+/// @brief Field promise, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get_promise, put=__cordl_internal_set_promise)) ::System::Threading::Tasks::Task_1<TResult>*  promise;
 
-  static inline ::System::Threading::Tasks::TaskFactory_1___c__DisplayClass38_0_1<TResult, TArg1>* New_ctor();
+static inline ::System::Threading::Tasks::TaskFactory_1___c__DisplayClass38_0_1<TResult,TArg1>* New_ctor() ;
 
-  /// @brief Method <FromAsyncImpl>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _FromAsyncImpl_b__0(::System::IAsyncResult* iar);
+/// @brief Method <FromAsyncImpl>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+inline void _FromAsyncImpl_b__0(::System::IAsyncResult*  iar) ;
 
-  constexpr ::System::Action_1<::System::IAsyncResult*>* const& __cordl_internal_get_endAction() const;
+constexpr ::System::Action_1<::System::IAsyncResult*>* const& __cordl_internal_get_endAction() const;
 
-  constexpr ::System::Action_1<::System::IAsyncResult*>*& __cordl_internal_get_endAction();
+constexpr ::System::Action_1<::System::IAsyncResult*>*& __cordl_internal_get_endAction() ;
 
-  constexpr ::System::Func_2<::System::IAsyncResult*, TResult>* const& __cordl_internal_get_endFunction() const;
+constexpr ::System::Func_2<::System::IAsyncResult*,TResult>* const& __cordl_internal_get_endFunction() const;
 
-  constexpr ::System::Func_2<::System::IAsyncResult*, TResult>*& __cordl_internal_get_endFunction();
+constexpr ::System::Func_2<::System::IAsyncResult*,TResult>*& __cordl_internal_get_endFunction() ;
 
-  constexpr ::System::Threading::Tasks::Task_1<TResult>* const& __cordl_internal_get_promise() const;
+constexpr ::System::Threading::Tasks::Task_1<TResult>* const& __cordl_internal_get_promise() const;
 
-  constexpr ::System::Threading::Tasks::Task_1<TResult>*& __cordl_internal_get_promise();
+constexpr ::System::Threading::Tasks::Task_1<TResult>*& __cordl_internal_get_promise() ;
 
-  constexpr void __cordl_internal_set_endAction(::System::Action_1<::System::IAsyncResult*>* value);
+constexpr void __cordl_internal_set_endAction(::System::Action_1<::System::IAsyncResult*>*  value) ;
 
-  constexpr void __cordl_internal_set_endFunction(::System::Func_2<::System::IAsyncResult*, TResult>* value);
+constexpr void __cordl_internal_set_endFunction(::System::Func_2<::System::IAsyncResult*,TResult>*  value) ;
 
-  constexpr void __cordl_internal_set_promise(::System::Threading::Tasks::Task_1<TResult>* value);
+constexpr void __cordl_internal_set_promise(::System::Threading::Tasks::Task_1<TResult>*  value) ;
 
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TaskFactory_1___c__DisplayClass38_0_1();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr TaskFactory_1___c__DisplayClass38_0_1() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TaskFactory_1___c__DisplayClass38_0_1", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  TaskFactory_1___c__DisplayClass38_0_1(TaskFactory_1___c__DisplayClass38_0_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TaskFactory_1___c__DisplayClass38_0_1", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  TaskFactory_1___c__DisplayClass38_0_1(TaskFactory_1___c__DisplayClass38_0_1 const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "TaskFactory_1___c__DisplayClass38_0_1", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+TaskFactory_1___c__DisplayClass38_0_1(TaskFactory_1___c__DisplayClass38_0_1 && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2792 };
+// Ctor Parameters [CppParam { name: "", ty: "TaskFactory_1___c__DisplayClass38_0_1", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+TaskFactory_1___c__DisplayClass38_0_1(TaskFactory_1___c__DisplayClass38_0_1 const& ) = delete;
 
-  /// @brief Field endFunction, offset: 0x10, size: 0x8, def value: None
-  ::System::Func_2<::System::IAsyncResult*, TResult>* ___endFunction;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{2792};
 
-  /// @brief Field endAction, offset: 0x18, size: 0x8, def value: None
-  ::System::Action_1<::System::IAsyncResult*>* ___endAction;
+/// @brief Field endFunction, offset: 0x10, size: 0x8, def value: None
+ ::System::Func_2<::System::IAsyncResult*,TResult>*  ___endFunction;
 
-  /// @brief Field promise, offset: 0x20, size: 0x8, def value: None
-  ::System::Threading::Tasks::Task_1<TResult>* ___promise;
+/// @brief Field endAction, offset: 0x18, size: 0x8, def value: None
+ ::System::Action_1<::System::IAsyncResult*>*  ___endAction;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field promise, offset: 0x20, size: 0x8, def value: None
+ ::System::Threading::Tasks::Task_1<TResult>*  ___promise;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-} // namespace System::Threading::Tasks
+} // namespace end def System::Threading::Tasks
 // Dependencies System.Object
 namespace System::Threading::Tasks {
 // cpp template
-template <typename TResult, typename TArg1, typename TArg2>
+template<typename TResult,typename TArg1,typename TArg2>
 // Is value type: false
 // CS Name: System.Threading.Tasks.TaskFactory`1/<>c__DisplayClass41_0`2<TResult,TArg1,TArg2>
 class CORDL_TYPE TaskFactory_1___c__DisplayClass41_0_2 : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field endAction, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_endAction, put = __cordl_internal_set_endAction)) ::System::Action_1<::System::IAsyncResult*>* endAction;
+// Declarations
+/// @brief Field endAction, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_endAction, put=__cordl_internal_set_endAction)) ::System::Action_1<::System::IAsyncResult*>*  endAction;
 
-  /// @brief Field endFunction, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_endFunction, put = __cordl_internal_set_endFunction)) ::System::Func_2<::System::IAsyncResult*, TResult>* endFunction;
+/// @brief Field endFunction, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_endFunction, put=__cordl_internal_set_endFunction)) ::System::Func_2<::System::IAsyncResult*,TResult>*  endFunction;
 
-  /// @brief Field promise, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_promise, put = __cordl_internal_set_promise)) ::System::Threading::Tasks::Task_1<TResult>* promise;
+/// @brief Field promise, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get_promise, put=__cordl_internal_set_promise)) ::System::Threading::Tasks::Task_1<TResult>*  promise;
 
-  static inline ::System::Threading::Tasks::TaskFactory_1___c__DisplayClass41_0_2<TResult, TArg1, TArg2>* New_ctor();
+static inline ::System::Threading::Tasks::TaskFactory_1___c__DisplayClass41_0_2<TResult,TArg1,TArg2>* New_ctor() ;
 
-  /// @brief Method <FromAsyncImpl>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _FromAsyncImpl_b__0(::System::IAsyncResult* iar);
+/// @brief Method <FromAsyncImpl>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+inline void _FromAsyncImpl_b__0(::System::IAsyncResult*  iar) ;
 
-  constexpr ::System::Action_1<::System::IAsyncResult*>* const& __cordl_internal_get_endAction() const;
+constexpr ::System::Action_1<::System::IAsyncResult*>* const& __cordl_internal_get_endAction() const;
 
-  constexpr ::System::Action_1<::System::IAsyncResult*>*& __cordl_internal_get_endAction();
+constexpr ::System::Action_1<::System::IAsyncResult*>*& __cordl_internal_get_endAction() ;
 
-  constexpr ::System::Func_2<::System::IAsyncResult*, TResult>* const& __cordl_internal_get_endFunction() const;
+constexpr ::System::Func_2<::System::IAsyncResult*,TResult>* const& __cordl_internal_get_endFunction() const;
 
-  constexpr ::System::Func_2<::System::IAsyncResult*, TResult>*& __cordl_internal_get_endFunction();
+constexpr ::System::Func_2<::System::IAsyncResult*,TResult>*& __cordl_internal_get_endFunction() ;
 
-  constexpr ::System::Threading::Tasks::Task_1<TResult>* const& __cordl_internal_get_promise() const;
+constexpr ::System::Threading::Tasks::Task_1<TResult>* const& __cordl_internal_get_promise() const;
 
-  constexpr ::System::Threading::Tasks::Task_1<TResult>*& __cordl_internal_get_promise();
+constexpr ::System::Threading::Tasks::Task_1<TResult>*& __cordl_internal_get_promise() ;
 
-  constexpr void __cordl_internal_set_endAction(::System::Action_1<::System::IAsyncResult*>* value);
+constexpr void __cordl_internal_set_endAction(::System::Action_1<::System::IAsyncResult*>*  value) ;
 
-  constexpr void __cordl_internal_set_endFunction(::System::Func_2<::System::IAsyncResult*, TResult>* value);
+constexpr void __cordl_internal_set_endFunction(::System::Func_2<::System::IAsyncResult*,TResult>*  value) ;
 
-  constexpr void __cordl_internal_set_promise(::System::Threading::Tasks::Task_1<TResult>* value);
+constexpr void __cordl_internal_set_promise(::System::Threading::Tasks::Task_1<TResult>*  value) ;
 
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TaskFactory_1___c__DisplayClass41_0_2();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr TaskFactory_1___c__DisplayClass41_0_2() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TaskFactory_1___c__DisplayClass41_0_2", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  TaskFactory_1___c__DisplayClass41_0_2(TaskFactory_1___c__DisplayClass41_0_2&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TaskFactory_1___c__DisplayClass41_0_2", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  TaskFactory_1___c__DisplayClass41_0_2(TaskFactory_1___c__DisplayClass41_0_2 const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "TaskFactory_1___c__DisplayClass41_0_2", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+TaskFactory_1___c__DisplayClass41_0_2(TaskFactory_1___c__DisplayClass41_0_2 && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2793 };
+// Ctor Parameters [CppParam { name: "", ty: "TaskFactory_1___c__DisplayClass41_0_2", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+TaskFactory_1___c__DisplayClass41_0_2(TaskFactory_1___c__DisplayClass41_0_2 const& ) = delete;
 
-  /// @brief Field endFunction, offset: 0x10, size: 0x8, def value: None
-  ::System::Func_2<::System::IAsyncResult*, TResult>* ___endFunction;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{2793};
 
-  /// @brief Field endAction, offset: 0x18, size: 0x8, def value: None
-  ::System::Action_1<::System::IAsyncResult*>* ___endAction;
+/// @brief Field endFunction, offset: 0x10, size: 0x8, def value: None
+ ::System::Func_2<::System::IAsyncResult*,TResult>*  ___endFunction;
 
-  /// @brief Field promise, offset: 0x20, size: 0x8, def value: None
-  ::System::Threading::Tasks::Task_1<TResult>* ___promise;
+/// @brief Field endAction, offset: 0x18, size: 0x8, def value: None
+ ::System::Action_1<::System::IAsyncResult*>*  ___endAction;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field promise, offset: 0x20, size: 0x8, def value: None
+ ::System::Threading::Tasks::Task_1<TResult>*  ___promise;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-} // namespace System::Threading::Tasks
+} // namespace end def System::Threading::Tasks
 // Dependencies System.Object
 namespace System::Threading::Tasks {
 // cpp template
-template <typename TResult, typename TArg1, typename TArg2, typename TArg3>
+template<typename TResult,typename TArg1,typename TArg2,typename TArg3>
 // Is value type: false
 // CS Name: System.Threading.Tasks.TaskFactory`1/<>c__DisplayClass44_0`3<TResult,TArg1,TArg2,TArg3>
 class CORDL_TYPE TaskFactory_1___c__DisplayClass44_0_3 : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field endAction, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_endAction, put = __cordl_internal_set_endAction)) ::System::Action_1<::System::IAsyncResult*>* endAction;
+// Declarations
+/// @brief Field endAction, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_endAction, put=__cordl_internal_set_endAction)) ::System::Action_1<::System::IAsyncResult*>*  endAction;
 
-  /// @brief Field endFunction, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_endFunction, put = __cordl_internal_set_endFunction)) ::System::Func_2<::System::IAsyncResult*, TResult>* endFunction;
+/// @brief Field endFunction, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_endFunction, put=__cordl_internal_set_endFunction)) ::System::Func_2<::System::IAsyncResult*,TResult>*  endFunction;
 
-  /// @brief Field promise, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_promise, put = __cordl_internal_set_promise)) ::System::Threading::Tasks::Task_1<TResult>* promise;
+/// @brief Field promise, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get_promise, put=__cordl_internal_set_promise)) ::System::Threading::Tasks::Task_1<TResult>*  promise;
 
-  static inline ::System::Threading::Tasks::TaskFactory_1___c__DisplayClass44_0_3<TResult, TArg1, TArg2, TArg3>* New_ctor();
+static inline ::System::Threading::Tasks::TaskFactory_1___c__DisplayClass44_0_3<TResult,TArg1,TArg2,TArg3>* New_ctor() ;
 
-  /// @brief Method <FromAsyncImpl>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _FromAsyncImpl_b__0(::System::IAsyncResult* iar);
+/// @brief Method <FromAsyncImpl>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+inline void _FromAsyncImpl_b__0(::System::IAsyncResult*  iar) ;
 
-  constexpr ::System::Action_1<::System::IAsyncResult*>* const& __cordl_internal_get_endAction() const;
+constexpr ::System::Action_1<::System::IAsyncResult*>* const& __cordl_internal_get_endAction() const;
 
-  constexpr ::System::Action_1<::System::IAsyncResult*>*& __cordl_internal_get_endAction();
+constexpr ::System::Action_1<::System::IAsyncResult*>*& __cordl_internal_get_endAction() ;
 
-  constexpr ::System::Func_2<::System::IAsyncResult*, TResult>* const& __cordl_internal_get_endFunction() const;
+constexpr ::System::Func_2<::System::IAsyncResult*,TResult>* const& __cordl_internal_get_endFunction() const;
 
-  constexpr ::System::Func_2<::System::IAsyncResult*, TResult>*& __cordl_internal_get_endFunction();
+constexpr ::System::Func_2<::System::IAsyncResult*,TResult>*& __cordl_internal_get_endFunction() ;
 
-  constexpr ::System::Threading::Tasks::Task_1<TResult>* const& __cordl_internal_get_promise() const;
+constexpr ::System::Threading::Tasks::Task_1<TResult>* const& __cordl_internal_get_promise() const;
 
-  constexpr ::System::Threading::Tasks::Task_1<TResult>*& __cordl_internal_get_promise();
+constexpr ::System::Threading::Tasks::Task_1<TResult>*& __cordl_internal_get_promise() ;
 
-  constexpr void __cordl_internal_set_endAction(::System::Action_1<::System::IAsyncResult*>* value);
+constexpr void __cordl_internal_set_endAction(::System::Action_1<::System::IAsyncResult*>*  value) ;
 
-  constexpr void __cordl_internal_set_endFunction(::System::Func_2<::System::IAsyncResult*, TResult>* value);
+constexpr void __cordl_internal_set_endFunction(::System::Func_2<::System::IAsyncResult*,TResult>*  value) ;
 
-  constexpr void __cordl_internal_set_promise(::System::Threading::Tasks::Task_1<TResult>* value);
+constexpr void __cordl_internal_set_promise(::System::Threading::Tasks::Task_1<TResult>*  value) ;
 
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TaskFactory_1___c__DisplayClass44_0_3();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr TaskFactory_1___c__DisplayClass44_0_3() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TaskFactory_1___c__DisplayClass44_0_3", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  TaskFactory_1___c__DisplayClass44_0_3(TaskFactory_1___c__DisplayClass44_0_3&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TaskFactory_1___c__DisplayClass44_0_3", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  TaskFactory_1___c__DisplayClass44_0_3(TaskFactory_1___c__DisplayClass44_0_3 const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "TaskFactory_1___c__DisplayClass44_0_3", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+TaskFactory_1___c__DisplayClass44_0_3(TaskFactory_1___c__DisplayClass44_0_3 && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2794 };
+// Ctor Parameters [CppParam { name: "", ty: "TaskFactory_1___c__DisplayClass44_0_3", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+TaskFactory_1___c__DisplayClass44_0_3(TaskFactory_1___c__DisplayClass44_0_3 const& ) = delete;
 
-  /// @brief Field endFunction, offset: 0x10, size: 0x8, def value: None
-  ::System::Func_2<::System::IAsyncResult*, TResult>* ___endFunction;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{2794};
 
-  /// @brief Field endAction, offset: 0x18, size: 0x8, def value: None
-  ::System::Action_1<::System::IAsyncResult*>* ___endAction;
+/// @brief Field endFunction, offset: 0x10, size: 0x8, def value: None
+ ::System::Func_2<::System::IAsyncResult*,TResult>*  ___endFunction;
 
-  /// @brief Field promise, offset: 0x20, size: 0x8, def value: None
-  ::System::Threading::Tasks::Task_1<TResult>* ___promise;
+/// @brief Field endAction, offset: 0x18, size: 0x8, def value: None
+ ::System::Action_1<::System::IAsyncResult*>*  ___endAction;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field promise, offset: 0x20, size: 0x8, def value: None
+ ::System::Threading::Tasks::Task_1<TResult>*  ___promise;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-} // namespace System::Threading::Tasks
+} // namespace end def System::Threading::Tasks
 // Dependencies System.Object, System.Threading.CancellationToken, System.Threading.Tasks.TaskContinuationOptions, System.Threading.Tasks.TaskCreationOptions
 namespace System::Threading::Tasks {
 // cpp template
-template <typename TResult>
+template<typename TResult>
 // Is value type: false
 // CS Name: System.Threading.Tasks.TaskFactory`1<TResult>
 class CORDL_TYPE TaskFactory_1 : public ::System::Object {
 public:
-  // Declarations
-  template <typename TInstance> using FromAsyncTrimPromise_1 = ::System::Threading::Tasks::TaskFactory_1_FromAsyncTrimPromise_1<TResult, TInstance>;
+// Declarations
+template<typename TInstance>
+using FromAsyncTrimPromise_1 = ::System::Threading::Tasks::TaskFactory_1_FromAsyncTrimPromise_1<TResult, TInstance>;
 
-  using __c__DisplayClass32_0 = ::System::Threading::Tasks::TaskFactory_1___c__DisplayClass32_0<TResult>;
+using __c__DisplayClass32_0 = ::System::Threading::Tasks::TaskFactory_1___c__DisplayClass32_0<TResult>;
 
-  using __c__DisplayClass35_0 = ::System::Threading::Tasks::TaskFactory_1___c__DisplayClass35_0<TResult>;
+using __c__DisplayClass35_0 = ::System::Threading::Tasks::TaskFactory_1___c__DisplayClass35_0<TResult>;
 
-  template <typename TArg1> using __c__DisplayClass38_0_1 = ::System::Threading::Tasks::TaskFactory_1___c__DisplayClass38_0_1<TResult, TArg1>;
+template<typename TArg1>
+using __c__DisplayClass38_0_1 = ::System::Threading::Tasks::TaskFactory_1___c__DisplayClass38_0_1<TResult, TArg1>;
 
-  template <typename TArg1, typename TArg2> using __c__DisplayClass41_0_2 = ::System::Threading::Tasks::TaskFactory_1___c__DisplayClass41_0_2<TResult, TArg1, TArg2>;
+template<typename TArg1,typename TArg2>
+using __c__DisplayClass41_0_2 = ::System::Threading::Tasks::TaskFactory_1___c__DisplayClass41_0_2<TResult, TArg1, TArg2>;
 
-  template <typename TArg1, typename TArg2, typename TArg3> using __c__DisplayClass44_0_3 = ::System::Threading::Tasks::TaskFactory_1___c__DisplayClass44_0_3<TResult, TArg1, TArg2, TArg3>;
+template<typename TArg1,typename TArg2,typename TArg3>
+using __c__DisplayClass44_0_3 = ::System::Threading::Tasks::TaskFactory_1___c__DisplayClass44_0_3<TResult, TArg1, TArg2, TArg3>;
 
-  /// @brief Field m_defaultCancellationToken, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_defaultCancellationToken, put = __cordl_internal_set_m_defaultCancellationToken)) ::System::Threading::CancellationToken m_defaultCancellationToken;
+/// @brief Field m_defaultCancellationToken, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_defaultCancellationToken, put=__cordl_internal_set_m_defaultCancellationToken)) ::System::Threading::CancellationToken  m_defaultCancellationToken;
 
-  /// @brief Field m_defaultContinuationOptions, offset 0x24, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_defaultContinuationOptions,
-                      put = __cordl_internal_set_m_defaultContinuationOptions)) ::System::Threading::Tasks::TaskContinuationOptions m_defaultContinuationOptions;
+/// @brief Field m_defaultContinuationOptions, offset 0x24, size 0x4 
+ __declspec(property(get=__cordl_internal_get_m_defaultContinuationOptions, put=__cordl_internal_set_m_defaultContinuationOptions)) ::System::Threading::Tasks::TaskContinuationOptions  m_defaultContinuationOptions;
 
-  /// @brief Field m_defaultCreationOptions, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_defaultCreationOptions,
-                      put = __cordl_internal_set_m_defaultCreationOptions)) ::System::Threading::Tasks::TaskCreationOptions m_defaultCreationOptions;
+/// @brief Field m_defaultCreationOptions, offset 0x20, size 0x4 
+ __declspec(property(get=__cordl_internal_get_m_defaultCreationOptions, put=__cordl_internal_set_m_defaultCreationOptions)) ::System::Threading::Tasks::TaskCreationOptions  m_defaultCreationOptions;
 
-  /// @brief Field m_defaultScheduler, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_defaultScheduler, put = __cordl_internal_set_m_defaultScheduler)) ::System::Threading::Tasks::TaskScheduler* m_defaultScheduler;
+/// @brief Field m_defaultScheduler, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_defaultScheduler, put=__cordl_internal_set_m_defaultScheduler)) ::System::Threading::Tasks::TaskScheduler*  m_defaultScheduler;
 
-  /// @brief Method FromAsync, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline ::System::Threading::Tasks::Task_1<TResult>* FromAsync(::System::Func_3<::System::AsyncCallback*, ::System::Object*, ::System::IAsyncResult*>* beginMethod,
-                                                                ::System::Func_2<::System::IAsyncResult*, TResult>* endMethod, ::System::Object* state);
+/// @brief Method FromAsync, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+inline ::System::Threading::Tasks::Task_1<TResult>* FromAsync(::System::Func_3<::System::AsyncCallback*,::System::Object*,::System::IAsyncResult*>*  beginMethod, ::System::Func_2<::System::IAsyncResult*,TResult>*  endMethod, ::System::Object*  state) ;
 
-  /// @brief Method FromAsync, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TArg1>
-  inline ::System::Threading::Tasks::Task_1<TResult>* FromAsync(::System::Func_4<TArg1, ::System::AsyncCallback*, ::System::Object*, ::System::IAsyncResult*>* beginMethod,
-                                                                ::System::Func_2<::System::IAsyncResult*, TResult>* endMethod, TArg1 arg1, ::System::Object* state);
+/// @brief Method FromAsync, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+template<typename TArg1>
+inline ::System::Threading::Tasks::Task_1<TResult>* FromAsync(::System::Func_4<TArg1,::System::AsyncCallback*,::System::Object*,::System::IAsyncResult*>*  beginMethod, ::System::Func_2<::System::IAsyncResult*,TResult>*  endMethod, TArg1  arg1, ::System::Object*  state) ;
 
-  /// @brief Method FromAsync, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TArg1, typename TArg2, typename TArg3>
-  inline ::System::Threading::Tasks::Task_1<TResult>* FromAsync(::System::Func_6<TArg1, TArg2, TArg3, ::System::AsyncCallback*, ::System::Object*, ::System::IAsyncResult*>* beginMethod,
-                                                                ::System::Func_2<::System::IAsyncResult*, TResult>* endMethod, TArg1 arg1, TArg2 arg2, TArg3 arg3, ::System::Object* state);
+/// @brief Method FromAsync, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+template<typename TArg1,typename TArg2,typename TArg3>
+inline ::System::Threading::Tasks::Task_1<TResult>* FromAsync(::System::Func_6<TArg1,TArg2,TArg3,::System::AsyncCallback*,::System::Object*,::System::IAsyncResult*>*  beginMethod, ::System::Func_2<::System::IAsyncResult*,TResult>*  endMethod, TArg1  arg1, TArg2  arg2, TArg3  arg3, ::System::Object*  state) ;
 
-  /// @brief Method FromAsyncCoreLogic, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  static inline void FromAsyncCoreLogic(::System::IAsyncResult* iar, ::System::Func_2<::System::IAsyncResult*, TResult>* endFunction, ::System::Action_1<::System::IAsyncResult*>* endAction,
-                                        ::System::Threading::Tasks::Task_1<TResult>* promise, bool requiresSynchronization);
+/// @brief Method FromAsyncCoreLogic, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+static inline void FromAsyncCoreLogic(::System::IAsyncResult*  iar, ::System::Func_2<::System::IAsyncResult*,TResult>*  endFunction, ::System::Action_1<::System::IAsyncResult*>*  endAction, ::System::Threading::Tasks::Task_1<TResult>*  promise, bool  requiresSynchronization) ;
 
-  /// @brief Method FromAsyncImpl, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  static inline ::System::Threading::Tasks::Task_1<TResult>* FromAsyncImpl(::System::IAsyncResult* asyncResult, ::System::Func_2<::System::IAsyncResult*, TResult>* endFunction,
-                                                                           ::System::Action_1<::System::IAsyncResult*>* endAction, ::System::Threading::Tasks::TaskCreationOptions creationOptions,
-                                                                           ::System::Threading::Tasks::TaskScheduler* scheduler);
+/// @brief Method FromAsyncImpl, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+static inline ::System::Threading::Tasks::Task_1<TResult>* FromAsyncImpl(::System::IAsyncResult*  asyncResult, ::System::Func_2<::System::IAsyncResult*,TResult>*  endFunction, ::System::Action_1<::System::IAsyncResult*>*  endAction, ::System::Threading::Tasks::TaskCreationOptions  creationOptions, ::System::Threading::Tasks::TaskScheduler*  scheduler) ;
 
-  /// @brief Method FromAsyncImpl, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  static inline ::System::Threading::Tasks::Task_1<TResult>* FromAsyncImpl(::System::Func_3<::System::AsyncCallback*, ::System::Object*, ::System::IAsyncResult*>* beginMethod,
-                                                                           ::System::Func_2<::System::IAsyncResult*, TResult>* endFunction, ::System::Action_1<::System::IAsyncResult*>* endAction,
-                                                                           ::System::Object* state, ::System::Threading::Tasks::TaskCreationOptions creationOptions);
+/// @brief Method FromAsyncImpl, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+static inline ::System::Threading::Tasks::Task_1<TResult>* FromAsyncImpl(::System::Func_3<::System::AsyncCallback*,::System::Object*,::System::IAsyncResult*>*  beginMethod, ::System::Func_2<::System::IAsyncResult*,TResult>*  endFunction, ::System::Action_1<::System::IAsyncResult*>*  endAction, ::System::Object*  state, ::System::Threading::Tasks::TaskCreationOptions  creationOptions) ;
 
-  /// @brief Method FromAsyncImpl, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TArg1>
-  static inline ::System::Threading::Tasks::Task_1<TResult>* FromAsyncImpl(::System::Func_4<TArg1, ::System::AsyncCallback*, ::System::Object*, ::System::IAsyncResult*>* beginMethod,
-                                                                           ::System::Func_2<::System::IAsyncResult*, TResult>* endFunction, ::System::Action_1<::System::IAsyncResult*>* endAction,
-                                                                           TArg1 arg1, ::System::Object* state, ::System::Threading::Tasks::TaskCreationOptions creationOptions);
+/// @brief Method FromAsyncImpl, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+template<typename TArg1>
+static inline ::System::Threading::Tasks::Task_1<TResult>* FromAsyncImpl(::System::Func_4<TArg1,::System::AsyncCallback*,::System::Object*,::System::IAsyncResult*>*  beginMethod, ::System::Func_2<::System::IAsyncResult*,TResult>*  endFunction, ::System::Action_1<::System::IAsyncResult*>*  endAction, TArg1  arg1, ::System::Object*  state, ::System::Threading::Tasks::TaskCreationOptions  creationOptions) ;
 
-  /// @brief Method FromAsyncImpl, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TArg1, typename TArg2>
-  static inline ::System::Threading::Tasks::Task_1<TResult>* FromAsyncImpl(::System::Func_5<TArg1, TArg2, ::System::AsyncCallback*, ::System::Object*, ::System::IAsyncResult*>* beginMethod,
-                                                                           ::System::Func_2<::System::IAsyncResult*, TResult>* endFunction, ::System::Action_1<::System::IAsyncResult*>* endAction,
-                                                                           TArg1 arg1, TArg2 arg2, ::System::Object* state, ::System::Threading::Tasks::TaskCreationOptions creationOptions);
+/// @brief Method FromAsyncImpl, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+template<typename TArg1,typename TArg2>
+static inline ::System::Threading::Tasks::Task_1<TResult>* FromAsyncImpl(::System::Func_5<TArg1,TArg2,::System::AsyncCallback*,::System::Object*,::System::IAsyncResult*>*  beginMethod, ::System::Func_2<::System::IAsyncResult*,TResult>*  endFunction, ::System::Action_1<::System::IAsyncResult*>*  endAction, TArg1  arg1, TArg2  arg2, ::System::Object*  state, ::System::Threading::Tasks::TaskCreationOptions  creationOptions) ;
 
-  /// @brief Method FromAsyncImpl, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TArg1, typename TArg2, typename TArg3>
-  static inline ::System::Threading::Tasks::Task_1<TResult>* FromAsyncImpl(::System::Func_6<TArg1, TArg2, TArg3, ::System::AsyncCallback*, ::System::Object*, ::System::IAsyncResult*>* beginMethod,
-                                                                           ::System::Func_2<::System::IAsyncResult*, TResult>* endFunction, ::System::Action_1<::System::IAsyncResult*>* endAction,
-                                                                           TArg1 arg1, TArg2 arg2, TArg3 arg3, ::System::Object* state,
-                                                                           ::System::Threading::Tasks::TaskCreationOptions creationOptions);
+/// @brief Method FromAsyncImpl, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+template<typename TArg1,typename TArg2,typename TArg3>
+static inline ::System::Threading::Tasks::Task_1<TResult>* FromAsyncImpl(::System::Func_6<TArg1,TArg2,TArg3,::System::AsyncCallback*,::System::Object*,::System::IAsyncResult*>*  beginMethod, ::System::Func_2<::System::IAsyncResult*,TResult>*  endFunction, ::System::Action_1<::System::IAsyncResult*>*  endAction, TArg1  arg1, TArg2  arg2, TArg3  arg3, ::System::Object*  state, ::System::Threading::Tasks::TaskCreationOptions  creationOptions) ;
 
-  /// @brief Method FromAsyncTrim, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TInstance, typename TArgs>
-  static inline ::System::Threading::Tasks::Task_1<TResult>* FromAsyncTrim(TInstance thisRef, TArgs args,
-                                                                           ::System::Func_5<TInstance, TArgs, ::System::AsyncCallback*, ::System::Object*, ::System::IAsyncResult*>* beginMethod,
-                                                                           ::System::Func_3<TInstance, ::System::IAsyncResult*, TResult>* endMethod);
+/// @brief Method FromAsyncTrim, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+template<typename TInstance,typename TArgs>
+static inline ::System::Threading::Tasks::Task_1<TResult>* FromAsyncTrim(TInstance  thisRef, TArgs  args, ::System::Func_5<TInstance,TArgs,::System::AsyncCallback*,::System::Object*,::System::IAsyncResult*>*  beginMethod, ::System::Func_3<TInstance,::System::IAsyncResult*,TResult>*  endMethod) ;
 
-  static inline ::System::Threading::Tasks::TaskFactory_1<TResult>* New_ctor();
+static inline ::System::Threading::Tasks::TaskFactory_1<TResult>* New_ctor() ;
 
-  static inline ::System::Threading::Tasks::TaskFactory_1<TResult>* New_ctor(::System::Threading::CancellationToken cancellationToken, ::System::Threading::Tasks::TaskCreationOptions creationOptions,
-                                                                             ::System::Threading::Tasks::TaskContinuationOptions continuationOptions,
-                                                                             ::System::Threading::Tasks::TaskScheduler* scheduler);
+static inline ::System::Threading::Tasks::TaskFactory_1<TResult>* New_ctor(::System::Threading::CancellationToken  cancellationToken, ::System::Threading::Tasks::TaskCreationOptions  creationOptions, ::System::Threading::Tasks::TaskContinuationOptions  continuationOptions, ::System::Threading::Tasks::TaskScheduler*  scheduler) ;
 
-  /// @brief Method StartNew, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline ::System::Threading::Tasks::Task_1<TResult>* StartNew(::System::Func_2<::System::Object*, TResult>* function, ::System::Object* state,
-                                                               ::System::Threading::CancellationToken cancellationToken, ::System::Threading::Tasks::TaskCreationOptions creationOptions,
-                                                               ::System::Threading::Tasks::TaskScheduler* scheduler);
+/// @brief Method StartNew, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+inline ::System::Threading::Tasks::Task_1<TResult>* StartNew(::System::Func_2<::System::Object*,TResult>*  function, ::System::Object*  state, ::System::Threading::CancellationToken  cancellationToken, ::System::Threading::Tasks::TaskCreationOptions  creationOptions, ::System::Threading::Tasks::TaskScheduler*  scheduler) ;
 
-  constexpr ::System::Threading::CancellationToken const& __cordl_internal_get_m_defaultCancellationToken() const;
+constexpr ::System::Threading::CancellationToken const& __cordl_internal_get_m_defaultCancellationToken() const;
 
-  constexpr ::System::Threading::CancellationToken& __cordl_internal_get_m_defaultCancellationToken();
+constexpr ::System::Threading::CancellationToken& __cordl_internal_get_m_defaultCancellationToken() ;
 
-  constexpr ::System::Threading::Tasks::TaskContinuationOptions const& __cordl_internal_get_m_defaultContinuationOptions() const;
+constexpr ::System::Threading::Tasks::TaskContinuationOptions const& __cordl_internal_get_m_defaultContinuationOptions() const;
 
-  constexpr ::System::Threading::Tasks::TaskContinuationOptions& __cordl_internal_get_m_defaultContinuationOptions();
+constexpr ::System::Threading::Tasks::TaskContinuationOptions& __cordl_internal_get_m_defaultContinuationOptions() ;
 
-  constexpr ::System::Threading::Tasks::TaskCreationOptions const& __cordl_internal_get_m_defaultCreationOptions() const;
+constexpr ::System::Threading::Tasks::TaskCreationOptions const& __cordl_internal_get_m_defaultCreationOptions() const;
 
-  constexpr ::System::Threading::Tasks::TaskCreationOptions& __cordl_internal_get_m_defaultCreationOptions();
+constexpr ::System::Threading::Tasks::TaskCreationOptions& __cordl_internal_get_m_defaultCreationOptions() ;
 
-  constexpr ::System::Threading::Tasks::TaskScheduler* const& __cordl_internal_get_m_defaultScheduler() const;
+constexpr ::System::Threading::Tasks::TaskScheduler* const& __cordl_internal_get_m_defaultScheduler() const;
 
-  constexpr ::System::Threading::Tasks::TaskScheduler*& __cordl_internal_get_m_defaultScheduler();
+constexpr ::System::Threading::Tasks::TaskScheduler*& __cordl_internal_get_m_defaultScheduler() ;
 
-  constexpr void __cordl_internal_set_m_defaultCancellationToken(::System::Threading::CancellationToken value);
+constexpr void __cordl_internal_set_m_defaultCancellationToken(::System::Threading::CancellationToken  value) ;
 
-  constexpr void __cordl_internal_set_m_defaultContinuationOptions(::System::Threading::Tasks::TaskContinuationOptions value);
+constexpr void __cordl_internal_set_m_defaultContinuationOptions(::System::Threading::Tasks::TaskContinuationOptions  value) ;
 
-  constexpr void __cordl_internal_set_m_defaultCreationOptions(::System::Threading::Tasks::TaskCreationOptions value);
+constexpr void __cordl_internal_set_m_defaultCreationOptions(::System::Threading::Tasks::TaskCreationOptions  value) ;
 
-  constexpr void __cordl_internal_set_m_defaultScheduler(::System::Threading::Tasks::TaskScheduler* value);
+constexpr void __cordl_internal_set_m_defaultScheduler(::System::Threading::Tasks::TaskScheduler*  value) ;
 
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(::System::Threading::CancellationToken cancellationToken, ::System::Threading::Tasks::TaskCreationOptions creationOptions,
-                    ::System::Threading::Tasks::TaskContinuationOptions continuationOptions, ::System::Threading::Tasks::TaskScheduler* scheduler);
+/// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+inline void _ctor(::System::Threading::CancellationToken  cancellationToken, ::System::Threading::Tasks::TaskCreationOptions  creationOptions, ::System::Threading::Tasks::TaskContinuationOptions  continuationOptions, ::System::Threading::Tasks::TaskScheduler*  scheduler) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TaskFactory_1();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr TaskFactory_1() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TaskFactory_1", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  TaskFactory_1(TaskFactory_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TaskFactory_1", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  TaskFactory_1(TaskFactory_1 const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "TaskFactory_1", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+TaskFactory_1(TaskFactory_1 && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2795 };
+// Ctor Parameters [CppParam { name: "", ty: "TaskFactory_1", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+TaskFactory_1(TaskFactory_1 const& ) = delete;
 
-  /// @brief Field m_defaultCancellationToken, offset: 0x10, size: 0x8, def value: None
-  ::System::Threading::CancellationToken ___m_defaultCancellationToken;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{2795};
 
-  /// @brief Field m_defaultScheduler, offset: 0x18, size: 0x8, def value: None
-  ::System::Threading::Tasks::TaskScheduler* ___m_defaultScheduler;
+/// @brief Field m_defaultCancellationToken, offset: 0x10, size: 0x8, def value: None
+ ::System::Threading::CancellationToken  ___m_defaultCancellationToken;
 
-  /// @brief Field m_defaultCreationOptions, offset: 0x20, size: 0x4, def value: None
-  ::System::Threading::Tasks::TaskCreationOptions ___m_defaultCreationOptions;
+/// @brief Field m_defaultScheduler, offset: 0x18, size: 0x8, def value: None
+ ::System::Threading::Tasks::TaskScheduler*  ___m_defaultScheduler;
 
-  /// @brief Field m_defaultContinuationOptions, offset: 0x24, size: 0x4, def value: None
-  ::System::Threading::Tasks::TaskContinuationOptions ___m_defaultContinuationOptions;
+/// @brief Field m_defaultCreationOptions, offset: 0x20, size: 0x4, def value: None
+ ::System::Threading::Tasks::TaskCreationOptions  ___m_defaultCreationOptions;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field m_defaultContinuationOptions, offset: 0x24, size: 0x4, def value: None
+ ::System::Threading::Tasks::TaskContinuationOptions  ___m_defaultContinuationOptions;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-} // namespace System::Threading::Tasks
+} // namespace end def System::Threading::Tasks
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Threading::Tasks::TaskFactory_1, "System.Threading.Tasks", "TaskFactory`1");
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Threading::Tasks::TaskFactory_1_FromAsyncTrimPromise_1, "System.Threading.Tasks", "TaskFactory`1/FromAsyncTrimPromise`1");
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Threading::Tasks::TaskFactory_1___c__DisplayClass32_0, "System.Threading.Tasks", "TaskFactory`1/<>c__DisplayClass32_0");

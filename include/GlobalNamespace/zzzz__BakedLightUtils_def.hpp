@@ -8,7 +8,8 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(BakedLightUtils)
 namespace System {
-template <typename T> struct Nullable_1;
+template<typename T>
+struct Nullable_1;
 }
 namespace UnityEngine::SceneManagement {
 struct Scene;
@@ -28,72 +29,72 @@ namespace GlobalNamespace {
 // CS Name: BakedLightUtils
 class CORDL_TYPE BakedLightUtils : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field _stencilCompPropertyId, offset 0xffffffff, size 0x4
-  __declspec(property(get = getStaticF__stencilCompPropertyId, put = setStaticF__stencilCompPropertyId)) int32_t _stencilCompPropertyId;
+// Declarations
+/// @brief Field _stencilCompPropertyId, offset 0xffffffff, size 0x4 
+ __declspec(property(get=getStaticF__stencilCompPropertyId, put=setStaticF__stencilCompPropertyId)) int32_t  _stencilCompPropertyId;
 
-  /// @brief Field _stencilPassOpPropertyId, offset 0xffffffff, size 0x4
-  __declspec(property(get = getStaticF__stencilPassOpPropertyId, put = setStaticF__stencilPassOpPropertyId)) int32_t _stencilPassOpPropertyId;
+/// @brief Field _stencilPassOpPropertyId, offset 0xffffffff, size 0x4 
+ __declspec(property(get=getStaticF__stencilPassOpPropertyId, put=setStaticF__stencilPassOpPropertyId)) int32_t  _stencilPassOpPropertyId;
 
-  /// @brief Field _stencilRefValuePropertyId, offset 0xffffffff, size 0x4
-  __declspec(property(get = getStaticF__stencilRefValuePropertyId, put = setStaticF__stencilRefValuePropertyId)) int32_t _stencilRefValuePropertyId;
+/// @brief Field _stencilRefValuePropertyId, offset 0xffffffff, size 0x4 
+ __declspec(property(get=getStaticF__stencilRefValuePropertyId, put=setStaticF__stencilRefValuePropertyId)) int32_t  _stencilRefValuePropertyId;
 
-  /// @brief Field _zWritePropertyId, offset 0xffffffff, size 0x4
-  __declspec(property(get = getStaticF__zWritePropertyId, put = setStaticF__zWritePropertyId)) int32_t _zWritePropertyId;
+/// @brief Field _zWritePropertyId, offset 0xffffffff, size 0x4 
+ __declspec(property(get=getStaticF__zWritePropertyId, put=setStaticF__zWritePropertyId)) int32_t  _zWritePropertyId;
 
-  /// @brief Method ValidateBakedLights, addr 0x574fc34, size 0x418, virtual false, abstract: false, final false
-  static inline void ValidateBakedLights(::UnityEngine::GameObject* activeSceneRootObject, ::UnityEngine::SceneManagement::Scene envScene, bool validateBakedGIEnabled);
+/// @brief Method ValidateBakedLights, addr 0x5750568, size 0x418, virtual false, abstract: false, final false
+static inline void ValidateBakedLights(::UnityEngine::GameObject*  activeSceneRootObject, ::UnityEngine::SceneManagement::Scene  envScene, bool  validateBakedGIEnabled) ;
 
-  /// @brief Method ValidateLoadedEnvironmentScene, addr 0x574f9e4, size 0x250, virtual false, abstract: false, final false
-  static inline void ValidateLoadedEnvironmentScene(bool validateBakedGIEnabled, ::System::Nullable_1<::UnityEngine::SceneManagement::Scene> optionalEnvScene);
+/// @brief Method ValidateLoadedEnvironmentScene, addr 0x5750318, size 0x250, virtual false, abstract: false, final false
+static inline void ValidateLoadedEnvironmentScene(bool  validateBakedGIEnabled, ::System::Nullable_1<::UnityEngine::SceneManagement::Scene>  optionalEnvScene) ;
 
-  /// @brief Method ValidateMirrors, addr 0x575004c, size 0x3d8, virtual false, abstract: false, final false
-  static inline void ValidateMirrors(::UnityEngine::GameObject* activeSceneRootObject, ::UnityEngine::SceneManagement::Scene envScene);
+/// @brief Method ValidateMirrors, addr 0x5750980, size 0x3d8, virtual false, abstract: false, final false
+static inline void ValidateMirrors(::UnityEngine::GameObject*  activeSceneRootObject, ::UnityEngine::SceneManagement::Scene  envScene) ;
 
-  static inline int32_t getStaticF__stencilCompPropertyId();
+static inline int32_t getStaticF__stencilCompPropertyId() ;
 
-  static inline int32_t getStaticF__stencilPassOpPropertyId();
+static inline int32_t getStaticF__stencilPassOpPropertyId() ;
 
-  static inline int32_t getStaticF__stencilRefValuePropertyId();
+static inline int32_t getStaticF__stencilRefValuePropertyId() ;
 
-  static inline int32_t getStaticF__zWritePropertyId();
+static inline int32_t getStaticF__zWritePropertyId() ;
 
-  static inline void setStaticF__stencilCompPropertyId(int32_t value);
+static inline void setStaticF__stencilCompPropertyId(int32_t  value) ;
 
-  static inline void setStaticF__stencilPassOpPropertyId(int32_t value);
+static inline void setStaticF__stencilPassOpPropertyId(int32_t  value) ;
 
-  static inline void setStaticF__stencilRefValuePropertyId(int32_t value);
+static inline void setStaticF__stencilRefValuePropertyId(int32_t  value) ;
 
-  static inline void setStaticF__zWritePropertyId(int32_t value);
+static inline void setStaticF__zWritePropertyId(int32_t  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BakedLightUtils();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr BakedLightUtils() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BakedLightUtils", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  BakedLightUtils(BakedLightUtils&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BakedLightUtils", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  BakedLightUtils(BakedLightUtils const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "BakedLightUtils", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+BakedLightUtils(BakedLightUtils && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6613 };
+// Ctor Parameters [CppParam { name: "", ty: "BakedLightUtils", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+BakedLightUtils(BakedLightUtils const& ) = delete;
 
-  /// @brief Field kDepthOnlyShaderName offset 0xffffffff size 0x8
-  static constexpr ::ConstString kDepthOnlyShaderName{ u"Custom/SetDepthOnly" };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6617};
 
-  /// @brief Field kMirrorParentNameToIgnore offset 0xffffffff size 0x8
-  static constexpr ::ConstString kMirrorParentNameToIgnore{ u"PlayersPlace" };
+/// @brief Field kDepthOnlyShaderName offset 0xffffffff size 0x8
+static constexpr ::ConstString  kDepthOnlyShaderName{u"Custom/SetDepthOnly"};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field kMirrorParentNameToIgnore offset 0xffffffff size 0x8
+static constexpr ::ConstString  kMirrorParentNameToIgnore{u"PlayersPlace"};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BakedLightUtils, 0x10>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BakedLightUtils);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BakedLightUtils*, "", "BakedLightUtils");

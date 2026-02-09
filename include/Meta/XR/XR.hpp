@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "Meta/XR/FoveationMethod.hpp"
 #include "Meta/XR/MetaXREyeTrackedFoveationFeature.hpp"
@@ -10,5 +10,6 @@ module;
 #include "Meta/XR/MetaXRSpaceWarp.hpp"
 #include "Meta/XR/MetaXRSubsampledLayout.hpp"
 #ifdef __cpp_modules
-export module XR;
-#endif
+                    export module XR;
+                    #endif
+                

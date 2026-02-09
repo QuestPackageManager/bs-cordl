@@ -24,42 +24,42 @@ namespace Org::BouncyCastle::Cms {
 // CS Name: Org.BouncyCastle.Cms.CmsCompressedDataParser
 class CORDL_TYPE CmsCompressedDataParser : public ::Org::BouncyCastle::Cms::CmsContentInfoParser {
 public:
-  // Declarations
-  /// @brief Method GetContent, addr 0x35ad9ac, size 0x30c, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Cms::CmsTypedStream* GetContent();
+// Declarations
+/// @brief Method GetContent, addr 0x35ad8fc, size 0x30c, virtual false, abstract: false, final false
+inline ::Org::BouncyCastle::Cms::CmsTypedStream* GetContent() ;
 
-  static inline ::Org::BouncyCastle::Cms::CmsCompressedDataParser* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> compressedData);
+static inline ::Org::BouncyCastle::Cms::CmsCompressedDataParser* New_ctor(::ArrayW<uint8_t,::Array<uint8_t>*>  compressedData) ;
 
-  static inline ::Org::BouncyCastle::Cms::CmsCompressedDataParser* New_ctor(::System::IO::Stream* compressedData);
+static inline ::Org::BouncyCastle::Cms::CmsCompressedDataParser* New_ctor(::System::IO::Stream*  compressedData) ;
 
-  /// @brief Method .ctor, addr 0x35ad934, size 0x74, virtual false, abstract: false, final false
-  inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> compressedData);
+/// @brief Method .ctor, addr 0x35ad884, size 0x74, virtual false, abstract: false, final false
+inline void _ctor(::ArrayW<uint8_t,::Array<uint8_t>*>  compressedData) ;
 
-  /// @brief Method .ctor, addr 0x35ad9a8, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor(::System::IO::Stream* compressedData);
+/// @brief Method .ctor, addr 0x35ad8f8, size 0x4, virtual false, abstract: false, final false
+inline void _ctor(::System::IO::Stream*  compressedData) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CmsCompressedDataParser();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr CmsCompressedDataParser() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CmsCompressedDataParser", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  CmsCompressedDataParser(CmsCompressedDataParser&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CmsCompressedDataParser", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  CmsCompressedDataParser(CmsCompressedDataParser const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "CmsCompressedDataParser", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+CmsCompressedDataParser(CmsCompressedDataParser && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 630 };
+// Ctor Parameters [CppParam { name: "", ty: "CmsCompressedDataParser", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+CmsCompressedDataParser(CmsCompressedDataParser const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{630};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Cms::CmsCompressedDataParser, 0x20>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Cms
+} // namespace end def Org::BouncyCastle::Cms
 NEED_NO_BOX(::Org::BouncyCastle::Cms::CmsCompressedDataParser);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Cms::CmsCompressedDataParser*, "Org.BouncyCastle.Cms", "CmsCompressedDataParser");

@@ -12,63 +12,63 @@ struct NetworkReachability;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::NetworkReachability);
-// Dependencies
+// Dependencies 
 namespace UnityEngine {
 // Is value type: true
 // CS Name: UnityEngine.NetworkReachability
 struct CORDL_TYPE NetworkReachability {
 public:
-  // Declarations
-  using __CORDL_BACKING_ENUM_TYPE = int32_t;
+// Declarations
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct __NetworkReachability_Unwrapped
-  enum struct __NetworkReachability_Unwrapped : int32_t {
-    __E_NotReachable = static_cast<int32_t>(0x0),
-    __E_ReachableViaCarrierDataNetwork = static_cast<int32_t>(0x1),
-    __E_ReachableViaLocalAreaNetwork = static_cast<int32_t>(0x2),
-  };
+/// @brief Nested struct __NetworkReachability_Unwrapped
+enum struct __NetworkReachability_Unwrapped : int32_t {
+__E_NotReachable = static_cast<int32_t>(0x0),
+__E_ReachableViaCarrierDataNetwork = static_cast<int32_t>(0x1),
+__E_ReachableViaLocalAreaNetwork = static_cast<int32_t>(0x2),
+};
 
-  /// @brief Conversion into unwrapped enum value
-  constexpr operator __NetworkReachability_Unwrapped() const noexcept {
-    return static_cast<__NetworkReachability_Unwrapped>(this->value__);
-  }
+/// @brief Conversion into unwrapped enum value
+constexpr operator __NetworkReachability_Unwrapped () const noexcept {
+return static_cast<__NetworkReachability_Unwrapped>(this->value__);
+}
 
-  /// @brief Conversion into unwrapped enum value
-  constexpr explicit operator int32_t() const noexcept {
-    return static_cast<int32_t>(this->value__);
-  }
+/// @brief Conversion into unwrapped enum value
+constexpr explicit operator int32_t () const noexcept {
+return static_cast<int32_t>(this->value__);
+}
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NetworkReachability();
+// Ctor Parameters []
+// @brief default ctor
+constexpr NetworkReachability() ;
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr NetworkReachability(int32_t value__) noexcept;
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr NetworkReachability(int32_t  value__) noexcept;
 
-  /// @brief Field NotReachable value: I32(0)
-  static ::UnityEngine::NetworkReachability const NotReachable;
+/// @brief Field NotReachable value: I32(0)
+static ::UnityEngine::NetworkReachability const NotReachable;
 
-  /// @brief Field ReachableViaCarrierDataNetwork value: I32(1)
-  static ::UnityEngine::NetworkReachability const ReachableViaCarrierDataNetwork;
+/// @brief Field ReachableViaCarrierDataNetwork value: I32(1)
+static ::UnityEngine::NetworkReachability const ReachableViaCarrierDataNetwork;
 
-  /// @brief Field ReachableViaLocalAreaNetwork value: I32(2)
-  static ::UnityEngine::NetworkReachability const ReachableViaLocalAreaNetwork;
+/// @brief Field ReachableViaLocalAreaNetwork value: I32(2)
+static ::UnityEngine::NetworkReachability const ReachableViaLocalAreaNetwork;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10042 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10046};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x4};
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+/// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+ int32_t  value__;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::NetworkReachability, value__) == 0x0, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::NetworkReachability, 0x4>, "Size mismatch!");
 
-} // namespace UnityEngine
+} // namespace end def UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::NetworkReachability, "UnityEngine", "NetworkReachability");

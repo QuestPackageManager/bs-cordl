@@ -34,90 +34,90 @@ namespace System::Data::Common {
 // CS Name: System.Data.Common.SqlDateTimeStorage
 class CORDL_TYPE SqlDateTimeStorage : public ::System::Data::Common::DataStorage {
 public:
-  // Declarations
-  /// @brief Field _values, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get__values, put = __cordl_internal_set__values)) ::ArrayW<::System::Data::SqlTypes::SqlDateTime, ::Array<::System::Data::SqlTypes::SqlDateTime>*> _values;
+// Declarations
+/// @brief Field _values, offset 0x50, size 0x8 
+ __declspec(property(get=__cordl_internal_get__values, put=__cordl_internal_set__values)) ::ArrayW<::System::Data::SqlTypes::SqlDateTime,::Array<::System::Data::SqlTypes::SqlDateTime>*>  _values;
 
-  /// @brief Method Aggregate, addr 0x5f0637c, size 0x5b0, virtual true, abstract: false, final false
-  inline ::System::Object* Aggregate(::ArrayW<int32_t, ::Array<int32_t>*> records, ::System::Data::AggregateType kind);
+/// @brief Method Aggregate, addr 0x5f06a3c, size 0x5b0, virtual true, abstract: false, final false
+inline ::System::Object* Aggregate(::ArrayW<int32_t,::Array<int32_t>*>  records, ::System::Data::AggregateType  kind) ;
 
-  /// @brief Method Compare, addr 0x5f0692c, size 0xb4, virtual true, abstract: false, final false
-  inline int32_t Compare(int32_t recordNo1, int32_t recordNo2);
+/// @brief Method Compare, addr 0x5f06fec, size 0xb4, virtual true, abstract: false, final false
+inline int32_t Compare(int32_t  recordNo1, int32_t  recordNo2) ;
 
-  /// @brief Method CompareValueTo, addr 0x5f069e0, size 0xc0, virtual true, abstract: false, final false
-  inline int32_t CompareValueTo(int32_t recordNo, ::System::Object* value);
+/// @brief Method CompareValueTo, addr 0x5f070a0, size 0xc0, virtual true, abstract: false, final false
+inline int32_t CompareValueTo(int32_t  recordNo, ::System::Object*  value) ;
 
-  /// @brief Method ConvertObjectToXml, addr 0x5f0705c, size 0x260, virtual true, abstract: false, final false
-  inline ::StringW ConvertObjectToXml(::System::Object* value);
+/// @brief Method ConvertObjectToXml, addr 0x5f0771c, size 0x260, virtual true, abstract: false, final false
+inline ::StringW ConvertObjectToXml(::System::Object*  value) ;
 
-  /// @brief Method ConvertValue, addr 0x5f06aa0, size 0x80, virtual true, abstract: false, final false
-  inline ::System::Object* ConvertValue(::System::Object* value);
+/// @brief Method ConvertValue, addr 0x5f07160, size 0x80, virtual true, abstract: false, final false
+inline ::System::Object* ConvertValue(::System::Object*  value) ;
 
-  /// @brief Method ConvertXmlToObject, addr 0x5f06da0, size 0x2bc, virtual true, abstract: false, final false
-  inline ::System::Object* ConvertXmlToObject(::StringW s);
+/// @brief Method ConvertXmlToObject, addr 0x5f07460, size 0x2bc, virtual true, abstract: false, final false
+inline ::System::Object* ConvertXmlToObject(::StringW  s) ;
 
-  /// @brief Method Copy, addr 0x5f06b20, size 0x50, virtual true, abstract: false, final false
-  inline void Copy(int32_t recordNo1, int32_t recordNo2);
+/// @brief Method Copy, addr 0x5f071e0, size 0x50, virtual true, abstract: false, final false
+inline void Copy(int32_t  recordNo1, int32_t  recordNo2) ;
 
-  /// @brief Method CopyValue, addr 0x5f07308, size 0x114, virtual true, abstract: false, final false
-  inline void CopyValue(int32_t record, ::System::Object* store, ::System::Collections::BitArray* nullbits, int32_t storeIndex);
+/// @brief Method CopyValue, addr 0x5f079c8, size 0x114, virtual true, abstract: false, final false
+inline void CopyValue(int32_t  record, ::System::Object*  store, ::System::Collections::BitArray*  nullbits, int32_t  storeIndex) ;
 
-  /// @brief Method Get, addr 0x5f06b70, size 0x98, virtual true, abstract: false, final false
-  inline ::System::Object* Get(int32_t record);
+/// @brief Method Get, addr 0x5f07230, size 0x98, virtual true, abstract: false, final false
+inline ::System::Object* Get(int32_t  record) ;
 
-  /// @brief Method GetEmptyStorage, addr 0x5f072bc, size 0x4c, virtual true, abstract: false, final false
-  inline ::System::Object* GetEmptyStorage(int32_t recordCount);
+/// @brief Method GetEmptyStorage, addr 0x5f0797c, size 0x4c, virtual true, abstract: false, final false
+inline ::System::Object* GetEmptyStorage(int32_t  recordCount) ;
 
-  /// @brief Method IsNull, addr 0x5f06c08, size 0x94, virtual true, abstract: false, final false
-  inline bool IsNull(int32_t record);
+/// @brief Method IsNull, addr 0x5f072c8, size 0x94, virtual true, abstract: false, final false
+inline bool IsNull(int32_t  record) ;
 
-  static inline ::System::Data::Common::SqlDateTimeStorage* New_ctor(::System::Data::DataColumn* column);
+static inline ::System::Data::Common::SqlDateTimeStorage* New_ctor(::System::Data::DataColumn*  column) ;
 
-  /// @brief Method Set, addr 0x5f06c9c, size 0x4c, virtual true, abstract: false, final false
-  inline void Set(int32_t record, ::System::Object* value);
+/// @brief Method Set, addr 0x5f0735c, size 0x4c, virtual true, abstract: false, final false
+inline void Set(int32_t  record, ::System::Object*  value) ;
 
-  /// @brief Method SetCapacity, addr 0x5f06ce8, size 0xb8, virtual true, abstract: false, final false
-  inline void SetCapacity(int32_t capacity);
+/// @brief Method SetCapacity, addr 0x5f073a8, size 0xb8, virtual true, abstract: false, final false
+inline void SetCapacity(int32_t  capacity) ;
 
-  /// @brief Method SetStorage, addr 0x5f0741c, size 0x90, virtual true, abstract: false, final false
-  inline void SetStorage(::System::Object* store, ::System::Collections::BitArray* nullbits);
+/// @brief Method SetStorage, addr 0x5f07adc, size 0x90, virtual true, abstract: false, final false
+inline void SetStorage(::System::Object*  store, ::System::Collections::BitArray*  nullbits) ;
 
-  constexpr ::ArrayW<::System::Data::SqlTypes::SqlDateTime, ::Array<::System::Data::SqlTypes::SqlDateTime>*> const& __cordl_internal_get__values() const;
+constexpr ::ArrayW<::System::Data::SqlTypes::SqlDateTime,::Array<::System::Data::SqlTypes::SqlDateTime>*> const& __cordl_internal_get__values() const;
 
-  constexpr ::ArrayW<::System::Data::SqlTypes::SqlDateTime, ::Array<::System::Data::SqlTypes::SqlDateTime>*>& __cordl_internal_get__values();
+constexpr ::ArrayW<::System::Data::SqlTypes::SqlDateTime,::Array<::System::Data::SqlTypes::SqlDateTime>*>& __cordl_internal_get__values() ;
 
-  constexpr void __cordl_internal_set__values(::ArrayW<::System::Data::SqlTypes::SqlDateTime, ::Array<::System::Data::SqlTypes::SqlDateTime>*> value);
+constexpr void __cordl_internal_set__values(::ArrayW<::System::Data::SqlTypes::SqlDateTime,::Array<::System::Data::SqlTypes::SqlDateTime>*>  value) ;
 
-  /// @brief Method .ctor, addr 0x5ef2298, size 0x140, virtual false, abstract: false, final false
-  inline void _ctor(::System::Data::DataColumn* column);
+/// @brief Method .ctor, addr 0x5ef2958, size 0x140, virtual false, abstract: false, final false
+inline void _ctor(::System::Data::DataColumn*  column) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SqlDateTimeStorage();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr SqlDateTimeStorage() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SqlDateTimeStorage", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  SqlDateTimeStorage(SqlDateTimeStorage&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SqlDateTimeStorage", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  SqlDateTimeStorage(SqlDateTimeStorage const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "SqlDateTimeStorage", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+SqlDateTimeStorage(SqlDateTimeStorage && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13906 };
+// Ctor Parameters [CppParam { name: "", ty: "SqlDateTimeStorage", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+SqlDateTimeStorage(SqlDateTimeStorage const& ) = delete;
 
-  /// @brief Field _values, offset: 0x50, size: 0x8, def value: None
-  ::ArrayW<::System::Data::SqlTypes::SqlDateTime, ::Array<::System::Data::SqlTypes::SqlDateTime>*> ____values;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{13910};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _values, offset: 0x50, size: 0x8, def value: None
+ ::ArrayW<::System::Data::SqlTypes::SqlDateTime,::Array<::System::Data::SqlTypes::SqlDateTime>*>  ____values;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Data::Common::SqlDateTimeStorage, ____values) == 0x50, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::System::Data::Common::SqlDateTimeStorage, 0x58>, "Size mismatch!");
 
-} // namespace System::Data::Common
+} // namespace end def System::Data::Common
 NEED_NO_BOX(::System::Data::Common::SqlDateTimeStorage);
 DEFINE_IL2CPP_ARG_TYPE(::System::Data::Common::SqlDateTimeStorage*, "System.Data.Common", "SqlDateTimeStorage");

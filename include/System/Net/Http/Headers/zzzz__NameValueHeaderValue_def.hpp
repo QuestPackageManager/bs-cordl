@@ -8,7 +8,8 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(NameValueHeaderValue)
 namespace System::Collections::Generic {
-template <typename T> class List_1;
+template<typename T>
+class List_1;
 }
 namespace System::Net::Http::Headers {
 class Lexer;
@@ -34,112 +35,110 @@ namespace System::Net::Http::Headers {
 // CS Name: System.Net.Http.Headers.NameValueHeaderValue
 class CORDL_TYPE NameValueHeaderValue : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(get = get_Name, put = set_Name)) ::StringW Name;
+// Declarations
+ __declspec(property(get=get_Name, put=set_Name)) ::StringW  Name;
 
-  __declspec(property(get = get_Value, put = set_Value)) ::StringW Value;
+ __declspec(property(get=get_Value, put=set_Value)) ::StringW  Value;
 
-  /// @brief Field <Name>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__Name_k__BackingField, put = __cordl_internal_set__Name_k__BackingField)) ::StringW _Name_k__BackingField;
+/// @brief Field <Name>k__BackingField, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get__Name_k__BackingField, put=__cordl_internal_set__Name_k__BackingField)) ::StringW  _Name_k__BackingField;
 
-  /// @brief Field value, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_value, put = __cordl_internal_set_value)) ::StringW value;
+/// @brief Field value, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_value, put=__cordl_internal_set_value)) ::StringW  value;
 
-  /// @brief Convert operator to "::System::ICloneable"
-  constexpr operator ::System::ICloneable*() noexcept;
+/// @brief Convert operator to "::System::ICloneable"
+constexpr operator  ::System::ICloneable*() noexcept;
 
-  /// @brief Method Create, addr 0x5f2f7d0, size 0x64, virtual false, abstract: false, final false
-  static inline ::System::Net::Http::Headers::NameValueHeaderValue* Create(::StringW name, ::StringW value);
+/// @brief Method Create, addr 0x5f2fe90, size 0x64, virtual false, abstract: false, final false
+static inline ::System::Net::Http::Headers::NameValueHeaderValue* Create(::StringW  name, ::StringW  value) ;
 
-  /// @brief Method Equals, addr 0x5f37600, size 0xe0, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* obj);
+/// @brief Method Equals, addr 0x5f37cc0, size 0xe0, virtual true, abstract: false, final false
+inline bool Equals(::System::Object*  obj) ;
 
-  /// @brief Method GetHashCode, addr 0x5f37594, size 0x6c, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
+/// @brief Method GetHashCode, addr 0x5f37c54, size 0x6c, virtual true, abstract: false, final false
+inline int32_t GetHashCode() ;
 
-  static inline ::System::Net::Http::Headers::NameValueHeaderValue* New_ctor();
+static inline ::System::Net::Http::Headers::NameValueHeaderValue* New_ctor() ;
 
-  static inline ::System::Net::Http::Headers::NameValueHeaderValue* New_ctor(::StringW name, ::StringW value);
+static inline ::System::Net::Http::Headers::NameValueHeaderValue* New_ctor(::StringW  name, ::StringW  value) ;
 
-  static inline ::System::Net::Http::Headers::NameValueHeaderValue* New_ctor(::System::Net::Http::Headers::NameValueHeaderValue* source);
+static inline ::System::Net::Http::Headers::NameValueHeaderValue* New_ctor(::System::Net::Http::Headers::NameValueHeaderValue*  source) ;
 
-  /// @brief Method System.ICloneable.Clone, addr 0x5f37538, size 0x5c, virtual true, abstract: false, final true
-  inline ::System::Object* System_ICloneable_Clone();
+/// @brief Method System.ICloneable.Clone, addr 0x5f37bf8, size 0x5c, virtual true, abstract: false, final true
+inline ::System::Object* System_ICloneable_Clone() ;
 
-  /// @brief Method ToString, addr 0x5f37794, size 0x70, virtual true, abstract: false, final false
-  inline ::StringW ToString();
+/// @brief Method ToString, addr 0x5f37e54, size 0x70, virtual true, abstract: false, final false
+inline ::StringW ToString() ;
 
-  /// @brief Method TryParseElement, addr 0x5f37804, size 0x1a4, virtual false, abstract: false, final false
-  static inline bool TryParseElement(::System::Net::Http::Headers::Lexer* lexer, ::ByRef<::System::Net::Http::Headers::NameValueHeaderValue*> parsedValue,
-                                     ::ByRef<::System::Net::Http::Headers::Token> t);
+/// @brief Method TryParseElement, addr 0x5f37ec4, size 0x1a4, virtual false, abstract: false, final false
+static inline bool TryParseElement(::System::Net::Http::Headers::Lexer*  lexer, ::ByRef<::System::Net::Http::Headers::NameValueHeaderValue*>  parsedValue, ::ByRef<::System::Net::Http::Headers::Token>  t) ;
 
-  /// @brief Method TryParseParameters, addr 0x5f31104, size 0x2d0, virtual false, abstract: false, final false
-  static inline bool TryParseParameters(::System::Net::Http::Headers::Lexer* lexer, ::ByRef<::System::Collections::Generic::List_1<::System::Net::Http::Headers::NameValueHeaderValue*>*> result,
-                                        ::ByRef<::System::Net::Http::Headers::Token> t);
+/// @brief Method TryParseParameters, addr 0x5f317c4, size 0x2d0, virtual false, abstract: false, final false
+static inline bool TryParseParameters(::System::Net::Http::Headers::Lexer*  lexer, ::ByRef<::System::Collections::Generic::List_1<::System::Net::Http::Headers::NameValueHeaderValue*>*>  result, ::ByRef<::System::Net::Http::Headers::Token>  t) ;
 
-  /// @brief Method TryParsePragma, addr 0x5f376e0, size 0xb4, virtual false, abstract: false, final false
-  static inline bool TryParsePragma(::StringW input, int32_t minimalCount, ::ByRef<::System::Collections::Generic::List_1<::System::Net::Http::Headers::NameValueHeaderValue*>*> result);
+/// @brief Method TryParsePragma, addr 0x5f37da0, size 0xb4, virtual false, abstract: false, final false
+static inline bool TryParsePragma(::StringW  input, int32_t  minimalCount, ::ByRef<::System::Collections::Generic::List_1<::System::Net::Http::Headers::NameValueHeaderValue*>*>  result) ;
 
-  constexpr ::StringW const& __cordl_internal_get__Name_k__BackingField() const;
+constexpr ::StringW const& __cordl_internal_get__Name_k__BackingField() const;
 
-  constexpr ::StringW& __cordl_internal_get__Name_k__BackingField();
+constexpr ::StringW& __cordl_internal_get__Name_k__BackingField() ;
 
-  constexpr ::StringW const& __cordl_internal_get_value() const;
+constexpr ::StringW const& __cordl_internal_get_value() const;
 
-  constexpr ::StringW& __cordl_internal_get_value();
+constexpr ::StringW& __cordl_internal_get_value() ;
 
-  constexpr void __cordl_internal_set__Name_k__BackingField(::StringW value);
+constexpr void __cordl_internal_set__Name_k__BackingField(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_value(::StringW value);
+constexpr void __cordl_internal_set_value(::StringW  value) ;
 
-  /// @brief Method .ctor, addr 0x5f3751c, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5f37bdc, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method .ctor, addr 0x5f2b5d0, size 0x34, virtual false, abstract: false, final false
-  inline void _ctor(::StringW name, ::StringW value);
+/// @brief Method .ctor, addr 0x5f2bc90, size 0x34, virtual false, abstract: false, final false
+inline void _ctor(::StringW  name, ::StringW  value) ;
 
-  /// @brief Method .ctor, addr 0x5f306c8, size 0x18, virtual false, abstract: false, final false
-  inline void _ctor(::System::Net::Http::Headers::NameValueHeaderValue* source);
+/// @brief Method .ctor, addr 0x5f30d88, size 0x18, virtual false, abstract: false, final false
+inline void _ctor(::System::Net::Http::Headers::NameValueHeaderValue*  source) ;
 
-  /// @brief Method get_Name, addr 0x5f37520, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_Name();
+/// @brief Method get_Name, addr 0x5f37be0, size 0x8, virtual false, abstract: false, final false
+inline ::StringW get_Name() ;
 
-  /// @brief Method get_Value, addr 0x5f37530, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_Value();
+/// @brief Method get_Value, addr 0x5f37bf0, size 0x8, virtual false, abstract: false, final false
+inline ::StringW get_Value() ;
 
-  /// @brief Convert to "::System::ICloneable"
-  constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
+/// @brief Convert to "::System::ICloneable"
+constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
-  /// @brief Method set_Name, addr 0x5f37528, size 0x8, virtual false, abstract: false, final false
-  inline void set_Name(::StringW value);
+/// @brief Method set_Name, addr 0x5f37be8, size 0x8, virtual false, abstract: false, final false
+inline void set_Name(::StringW  value) ;
 
-  /// @brief Method set_Value, addr 0x5f30134, size 0x144, virtual false, abstract: false, final false
-  inline void set_Value(::StringW value);
+/// @brief Method set_Value, addr 0x5f307f4, size 0x144, virtual false, abstract: false, final false
+inline void set_Value(::StringW  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NameValueHeaderValue();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr NameValueHeaderValue() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NameValueHeaderValue", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  NameValueHeaderValue(NameValueHeaderValue&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NameValueHeaderValue", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  NameValueHeaderValue(NameValueHeaderValue const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "NameValueHeaderValue", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+NameValueHeaderValue(NameValueHeaderValue && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20092 };
+// Ctor Parameters [CppParam { name: "", ty: "NameValueHeaderValue", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+NameValueHeaderValue(NameValueHeaderValue const& ) = delete;
 
-  /// @brief Field value, offset: 0x10, size: 0x8, def value: None
-  ::StringW ___value;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20096};
 
-  /// @brief Field <Name>k__BackingField, offset: 0x18, size: 0x8, def value: None
-  ::StringW ____Name_k__BackingField;
+/// @brief Field value, offset: 0x10, size: 0x8, def value: None
+ ::StringW  ___value;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field <Name>k__BackingField, offset: 0x18, size: 0x8, def value: None
+ ::StringW  ____Name_k__BackingField;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Net::Http::Headers::NameValueHeaderValue, ___value) == 0x10, "Offset mismatch!");
@@ -148,6 +147,6 @@ static_assert(offsetof(::System::Net::Http::Headers::NameValueHeaderValue, ____N
 
 static_assert(::cordl_internals::size_check_v<::System::Net::Http::Headers::NameValueHeaderValue, 0x20>, "Size mismatch!");
 
-} // namespace System::Net::Http::Headers
+} // namespace end def System::Net::Http::Headers
 NEED_NO_BOX(::System::Net::Http::Headers::NameValueHeaderValue);
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::Http::Headers::NameValueHeaderValue*, "System.Net.Http.Headers", "NameValueHeaderValue");

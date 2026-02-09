@@ -17,34 +17,34 @@ namespace Unity::Properties {
 // CS Name: Unity.Properties.DontCreatePropertyAttribute
 class CORDL_TYPE DontCreatePropertyAttribute : public ::System::Attribute {
 public:
-  // Declarations
-  static inline ::Unity::Properties::DontCreatePropertyAttribute* New_ctor();
+// Declarations
+static inline ::Unity::Properties::DontCreatePropertyAttribute* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x69d3014, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x69d36d4, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DontCreatePropertyAttribute();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr DontCreatePropertyAttribute() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DontCreatePropertyAttribute", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  DontCreatePropertyAttribute(DontCreatePropertyAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DontCreatePropertyAttribute", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  DontCreatePropertyAttribute(DontCreatePropertyAttribute const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "DontCreatePropertyAttribute", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+DontCreatePropertyAttribute(DontCreatePropertyAttribute && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19330 };
+// Ctor Parameters [CppParam { name: "", ty: "DontCreatePropertyAttribute", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+DontCreatePropertyAttribute(DontCreatePropertyAttribute const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{19334};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Unity::Properties::DontCreatePropertyAttribute, 0x10>, "Size mismatch!");
 
-} // namespace Unity::Properties
+} // namespace end def Unity::Properties
 NEED_NO_BOX(::Unity::Properties::DontCreatePropertyAttribute);
 DEFINE_IL2CPP_ARG_TYPE(::Unity::Properties::DontCreatePropertyAttribute*, "Unity.Properties", "DontCreatePropertyAttribute");

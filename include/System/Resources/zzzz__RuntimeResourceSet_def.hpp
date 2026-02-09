@@ -8,7 +8,8 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(RuntimeResourceSet)
 namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+template<typename TKey,typename TValue>
+class Dictionary_2;
 }
 namespace System::Collections {
 class IDictionaryEnumerator;
@@ -43,125 +44,122 @@ namespace System::Resources {
 // CS Name: System.Resources.RuntimeResourceSet
 class CORDL_TYPE RuntimeResourceSet : public ::System::Resources::ResourceSet {
 public:
-  // Declarations
-  /// @brief Field _caseInsensitiveTable, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__caseInsensitiveTable,
-                      put = __cordl_internal_set__caseInsensitiveTable)) ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceLocator>* _caseInsensitiveTable;
+// Declarations
+/// @brief Field _caseInsensitiveTable, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get__caseInsensitiveTable, put=__cordl_internal_set__caseInsensitiveTable)) ::System::Collections::Generic::Dictionary_2<::StringW,::System::Resources::ResourceLocator>*  _caseInsensitiveTable;
 
-  /// @brief Field _defaultReader, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__defaultReader, put = __cordl_internal_set__defaultReader)) ::System::Resources::ResourceReader* _defaultReader;
+/// @brief Field _defaultReader, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get__defaultReader, put=__cordl_internal_set__defaultReader)) ::System::Resources::ResourceReader*  _defaultReader;
 
-  /// @brief Field _haveReadFromReader, offset 0x40, size 0x1
-  __declspec(property(get = __cordl_internal_get__haveReadFromReader, put = __cordl_internal_set__haveReadFromReader)) bool _haveReadFromReader;
+/// @brief Field _haveReadFromReader, offset 0x40, size 0x1 
+ __declspec(property(get=__cordl_internal_get__haveReadFromReader, put=__cordl_internal_set__haveReadFromReader)) bool  _haveReadFromReader;
 
-  /// @brief Field _resCache, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__resCache,
-                      put = __cordl_internal_set__resCache)) ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceLocator>* _resCache;
+/// @brief Field _resCache, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get__resCache, put=__cordl_internal_set__resCache)) ::System::Collections::Generic::Dictionary_2<::StringW,::System::Resources::ResourceLocator>*  _resCache;
 
-  /// @brief Convert operator to "::System::Collections::IEnumerable"
-  constexpr operator ::System::Collections::IEnumerable*() noexcept;
+/// @brief Convert operator to "::System::Collections::IEnumerable"
+constexpr operator  ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x59c37ec, size 0x138, virtual true, abstract: false, final false
-  inline void Dispose(bool disposing);
+/// @brief Method Dispose, addr 0x59c3cf8, size 0x138, virtual true, abstract: false, final false
+inline void Dispose(bool  disposing) ;
 
-  /// @brief Method GetEnumerator, addr 0x59c3a20, size 0x4, virtual true, abstract: false, final false
-  inline ::System::Collections::IDictionaryEnumerator* GetEnumerator();
+/// @brief Method GetEnumerator, addr 0x59c3f2c, size 0x4, virtual true, abstract: false, final false
+inline ::System::Collections::IDictionaryEnumerator* GetEnumerator() ;
 
-  /// @brief Method GetEnumeratorHelper, addr 0x59c3a24, size 0x100, virtual false, abstract: false, final false
-  inline ::System::Collections::IDictionaryEnumerator* GetEnumeratorHelper();
+/// @brief Method GetEnumeratorHelper, addr 0x59c3f30, size 0x100, virtual false, abstract: false, final false
+inline ::System::Collections::IDictionaryEnumerator* GetEnumeratorHelper() ;
 
-  /// @brief Method GetObject, addr 0x59c4478, size 0xc, virtual true, abstract: false, final false
-  inline ::System::Object* GetObject(::StringW key);
+/// @brief Method GetObject, addr 0x59c4984, size 0xc, virtual true, abstract: false, final false
+inline ::System::Object* GetObject(::StringW  key) ;
 
-  /// @brief Method GetObject, addr 0x59c4484, size 0x8, virtual true, abstract: false, final false
-  inline ::System::Object* GetObject(::StringW key, bool ignoreCase);
+/// @brief Method GetObject, addr 0x59c4990, size 0x8, virtual true, abstract: false, final false
+inline ::System::Object* GetObject(::StringW  key, bool  ignoreCase) ;
 
-  /// @brief Method GetObject, addr 0x59c3b5c, size 0x8ec, virtual false, abstract: false, final false
-  inline ::System::Object* GetObject(::StringW key, bool ignoreCase, bool isString);
+/// @brief Method GetObject, addr 0x59c4068, size 0x8ec, virtual false, abstract: false, final false
+inline ::System::Object* GetObject(::StringW  key, bool  ignoreCase, bool  isString) ;
 
-  /// @brief Method GetString, addr 0x59c3b28, size 0x34, virtual true, abstract: false, final false
-  inline ::StringW GetString(::StringW key);
+/// @brief Method GetString, addr 0x59c4034, size 0x34, virtual true, abstract: false, final false
+inline ::StringW GetString(::StringW  key) ;
 
-  /// @brief Method GetString, addr 0x59c4448, size 0x30, virtual true, abstract: false, final false
-  inline ::StringW GetString(::StringW key, bool ignoreCase);
+/// @brief Method GetString, addr 0x59c4954, size 0x30, virtual true, abstract: false, final false
+inline ::StringW GetString(::StringW  key, bool  ignoreCase) ;
 
-  static inline ::System::Resources::RuntimeResourceSet* New_ctor(::StringW fileName);
+static inline ::System::Resources::RuntimeResourceSet* New_ctor(::StringW  fileName) ;
 
-  static inline ::System::Resources::RuntimeResourceSet* New_ctor(::System::IO::Stream* stream);
+static inline ::System::Resources::RuntimeResourceSet* New_ctor(::System::IO::Stream*  stream) ;
 
-  /// @brief Method ResolveResourceLocator, addr 0x59c4c80, size 0x190, virtual false, abstract: false, final false
-  inline ::System::Object* ResolveResourceLocator(::System::Resources::ResourceLocator resLocation, ::StringW key,
-                                                  ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceLocator>* copyOfCache, bool keyInWrongCase);
+/// @brief Method ResolveResourceLocator, addr 0x59c518c, size 0x190, virtual false, abstract: false, final false
+inline ::System::Object* ResolveResourceLocator(::System::Resources::ResourceLocator  resLocation, ::StringW  key, ::System::Collections::Generic::Dictionary_2<::StringW,::System::Resources::ResourceLocator>*  copyOfCache, bool  keyInWrongCase) ;
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x59c3b24, size 0x4, virtual true, abstract: false, final true
-  inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
+/// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x59c4030, size 0x4, virtual true, abstract: false, final true
+inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator() ;
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceLocator>* const& __cordl_internal_get__caseInsensitiveTable() const;
+constexpr ::System::Collections::Generic::Dictionary_2<::StringW,::System::Resources::ResourceLocator>* const& __cordl_internal_get__caseInsensitiveTable() const;
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceLocator>*& __cordl_internal_get__caseInsensitiveTable();
+constexpr ::System::Collections::Generic::Dictionary_2<::StringW,::System::Resources::ResourceLocator>*& __cordl_internal_get__caseInsensitiveTable() ;
 
-  constexpr ::System::Resources::ResourceReader* const& __cordl_internal_get__defaultReader() const;
+constexpr ::System::Resources::ResourceReader* const& __cordl_internal_get__defaultReader() const;
 
-  constexpr ::System::Resources::ResourceReader*& __cordl_internal_get__defaultReader();
+constexpr ::System::Resources::ResourceReader*& __cordl_internal_get__defaultReader() ;
 
-  constexpr bool const& __cordl_internal_get__haveReadFromReader() const;
+constexpr bool const& __cordl_internal_get__haveReadFromReader() const;
 
-  constexpr bool& __cordl_internal_get__haveReadFromReader();
+constexpr bool& __cordl_internal_get__haveReadFromReader() ;
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceLocator>* const& __cordl_internal_get__resCache() const;
+constexpr ::System::Collections::Generic::Dictionary_2<::StringW,::System::Resources::ResourceLocator>* const& __cordl_internal_get__resCache() const;
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceLocator>*& __cordl_internal_get__resCache();
+constexpr ::System::Collections::Generic::Dictionary_2<::StringW,::System::Resources::ResourceLocator>*& __cordl_internal_get__resCache() ;
 
-  constexpr void __cordl_internal_set__caseInsensitiveTable(::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceLocator>* value);
+constexpr void __cordl_internal_set__caseInsensitiveTable(::System::Collections::Generic::Dictionary_2<::StringW,::System::Resources::ResourceLocator>*  value) ;
 
-  constexpr void __cordl_internal_set__defaultReader(::System::Resources::ResourceReader* value);
+constexpr void __cordl_internal_set__defaultReader(::System::Resources::ResourceReader*  value) ;
 
-  constexpr void __cordl_internal_set__haveReadFromReader(bool value);
+constexpr void __cordl_internal_set__haveReadFromReader(bool  value) ;
 
-  constexpr void __cordl_internal_set__resCache(::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceLocator>* value);
+constexpr void __cordl_internal_set__resCache(::System::Collections::Generic::Dictionary_2<::StringW,::System::Resources::ResourceLocator>*  value) ;
 
-  /// @brief Method .ctor, addr 0x59c3490, size 0x164, virtual false, abstract: false, final false
-  inline void _ctor(::StringW fileName);
+/// @brief Method .ctor, addr 0x59c399c, size 0x164, virtual false, abstract: false, final false
+inline void _ctor(::StringW  fileName) ;
 
-  /// @brief Method .ctor, addr 0x59c36d8, size 0x114, virtual false, abstract: false, final false
-  inline void _ctor(::System::IO::Stream* stream);
+/// @brief Method .ctor, addr 0x59c3be4, size 0x114, virtual false, abstract: false, final false
+inline void _ctor(::System::IO::Stream*  stream) ;
 
-  /// @brief Convert to "::System::Collections::IEnumerable"
-  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
+/// @brief Convert to "::System::Collections::IEnumerable"
+constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RuntimeResourceSet();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr RuntimeResourceSet() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RuntimeResourceSet", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  RuntimeResourceSet(RuntimeResourceSet&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RuntimeResourceSet", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  RuntimeResourceSet(RuntimeResourceSet const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "RuntimeResourceSet", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+RuntimeResourceSet(RuntimeResourceSet && ) = delete;
 
-  /// @brief Field Version offset 0xffffffff size 0x4
-  static constexpr int32_t Version{ static_cast<int32_t>(0x2) };
+// Ctor Parameters [CppParam { name: "", ty: "RuntimeResourceSet", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+RuntimeResourceSet(RuntimeResourceSet const& ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3448 };
+/// @brief Field Version offset 0xffffffff size 0x4
+static constexpr int32_t  Version{static_cast<int32_t>(0x2)};
 
-  /// @brief Field _resCache, offset: 0x28, size: 0x8, def value: None
-  ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceLocator>* ____resCache;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{3448};
 
-  /// @brief Field _defaultReader, offset: 0x30, size: 0x8, def value: None
-  ::System::Resources::ResourceReader* ____defaultReader;
+/// @brief Field _resCache, offset: 0x28, size: 0x8, def value: None
+ ::System::Collections::Generic::Dictionary_2<::StringW,::System::Resources::ResourceLocator>*  ____resCache;
 
-  /// @brief Field _caseInsensitiveTable, offset: 0x38, size: 0x8, def value: None
-  ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceLocator>* ____caseInsensitiveTable;
+/// @brief Field _defaultReader, offset: 0x30, size: 0x8, def value: None
+ ::System::Resources::ResourceReader*  ____defaultReader;
 
-  /// @brief Field _haveReadFromReader, offset: 0x40, size: 0x1, def value: None
-  bool ____haveReadFromReader;
+/// @brief Field _caseInsensitiveTable, offset: 0x38, size: 0x8, def value: None
+ ::System::Collections::Generic::Dictionary_2<::StringW,::System::Resources::ResourceLocator>*  ____caseInsensitiveTable;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _haveReadFromReader, offset: 0x40, size: 0x1, def value: None
+ bool  ____haveReadFromReader;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Resources::RuntimeResourceSet, ____resCache) == 0x28, "Offset mismatch!");
@@ -174,6 +172,6 @@ static_assert(offsetof(::System::Resources::RuntimeResourceSet, ____haveReadFrom
 
 static_assert(::cordl_internals::size_check_v<::System::Resources::RuntimeResourceSet, 0x48>, "Size mismatch!");
 
-} // namespace System::Resources
+} // namespace end def System::Resources
 NEED_NO_BOX(::System::Resources::RuntimeResourceSet);
 DEFINE_IL2CPP_ARG_TYPE(::System::Resources::RuntimeResourceSet*, "System.Resources", "RuntimeResourceSet");

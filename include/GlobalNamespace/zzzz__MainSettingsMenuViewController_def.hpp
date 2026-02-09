@@ -16,7 +16,8 @@ namespace HMUI {
 class TextSegmentedControl;
 }
 namespace System {
-template <typename T1, typename T2> class Action_2;
+template<typename T1,typename T2>
+class Action_2;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -30,119 +31,115 @@ namespace GlobalNamespace {
 // CS Name: MainSettingsMenuViewController
 class CORDL_TYPE MainSettingsMenuViewController : public ::HMUI::ViewController {
 public:
-  // Declarations
-  /// @brief Field _selectedSubMenuInfo, offset 0x90, size 0x8
-  __declspec(property(get = __cordl_internal_get__selectedSubMenuInfo, put = __cordl_internal_set__selectedSubMenuInfo)) ::GlobalNamespace::SettingsSubMenuInfo* _selectedSubMenuInfo;
+// Declarations
+/// @brief Field _selectedSubMenuInfo, offset 0x90, size 0x8 
+ __declspec(property(get=__cordl_internal_get__selectedSubMenuInfo, put=__cordl_internal_set__selectedSubMenuInfo)) ::GlobalNamespace::SettingsSubMenuInfo*  _selectedSubMenuInfo;
 
-  /// @brief Field _selectedSubMenuInfoIdx, offset 0x98, size 0x4
-  __declspec(property(get = __cordl_internal_get__selectedSubMenuInfoIdx, put = __cordl_internal_set__selectedSubMenuInfoIdx)) int32_t _selectedSubMenuInfoIdx;
+/// @brief Field _selectedSubMenuInfoIdx, offset 0x98, size 0x4 
+ __declspec(property(get=__cordl_internal_get__selectedSubMenuInfoIdx, put=__cordl_internal_set__selectedSubMenuInfoIdx)) int32_t  _selectedSubMenuInfoIdx;
 
-  /// @brief Field _settingsMenuSegmentedControl, offset 0x88, size 0x8
-  __declspec(property(get = __cordl_internal_get__settingsMenuSegmentedControl, put = __cordl_internal_set__settingsMenuSegmentedControl)) ::UnityW<::HMUI::TextSegmentedControl>
-      _settingsMenuSegmentedControl;
+/// @brief Field _settingsMenuSegmentedControl, offset 0x88, size 0x8 
+ __declspec(property(get=__cordl_internal_get__settingsMenuSegmentedControl, put=__cordl_internal_set__settingsMenuSegmentedControl)) ::UnityW<::HMUI::TextSegmentedControl>  _settingsMenuSegmentedControl;
 
-  /// @brief Field _settingsSubMenuInfos, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get__settingsSubMenuInfos,
-                      put = __cordl_internal_set__settingsSubMenuInfos)) ::ArrayW<::GlobalNamespace::SettingsSubMenuInfo*, ::Array<::GlobalNamespace::SettingsSubMenuInfo*>*>
-      _settingsSubMenuInfos;
+/// @brief Field _settingsSubMenuInfos, offset 0x80, size 0x8 
+ __declspec(property(get=__cordl_internal_get__settingsSubMenuInfos, put=__cordl_internal_set__settingsSubMenuInfos)) ::ArrayW<::GlobalNamespace::SettingsSubMenuInfo*,::Array<::GlobalNamespace::SettingsSubMenuInfo*>*>  _settingsSubMenuInfos;
 
-  /// @brief Field didSelectSettingsSubMenuEvent, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get_didSelectSettingsSubMenuEvent,
-                      put = __cordl_internal_set_didSelectSettingsSubMenuEvent)) ::System::Action_2<::GlobalNamespace::SettingsSubMenuInfo*, int32_t>* didSelectSettingsSubMenuEvent;
+/// @brief Field didSelectSettingsSubMenuEvent, offset 0x78, size 0x8 
+ __declspec(property(get=__cordl_internal_get_didSelectSettingsSubMenuEvent, put=__cordl_internal_set_didSelectSettingsSubMenuEvent)) ::System::Action_2<::GlobalNamespace::SettingsSubMenuInfo*,int32_t>*  didSelectSettingsSubMenuEvent;
 
-  __declspec(property(get = get_numberOfSubMenus)) int32_t numberOfSubMenus;
+ __declspec(property(get=get_numberOfSubMenus)) int32_t  numberOfSubMenus;
 
-  __declspec(property(get = get_selectedSubMenuInfo)) ::GlobalNamespace::SettingsSubMenuInfo* selectedSubMenuInfo;
+ __declspec(property(get=get_selectedSubMenuInfo)) ::GlobalNamespace::SettingsSubMenuInfo*  selectedSubMenuInfo;
 
-  /// @brief Method DidActivate, addr 0x5877b44, size 0x204, virtual true, abstract: false, final false
-  inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
+/// @brief Method DidActivate, addr 0x58788f0, size 0x204, virtual true, abstract: false, final false
+inline void DidActivate(bool  firstActivation, bool  addedToHierarchy, bool  screenSystemEnabling) ;
 
-  /// @brief Method HandleSettingsMenuSegmentedControlDidSelectCell, addr 0x5877d48, size 0x54, virtual false, abstract: false, final false
-  inline void HandleSettingsMenuSegmentedControlDidSelectCell(::HMUI::SegmentedControl* segmentedControl, int32_t cellIdx);
+/// @brief Method HandleSettingsMenuSegmentedControlDidSelectCell, addr 0x5878af4, size 0x54, virtual false, abstract: false, final false
+inline void HandleSettingsMenuSegmentedControlDidSelectCell(::HMUI::SegmentedControl*  segmentedControl, int32_t  cellIdx) ;
 
-  /// @brief Method Init, addr 0x586372c, size 0x38, virtual false, abstract: false, final false
-  inline void Init(int32_t selectedSubMenuInfoIdx);
+/// @brief Method Init, addr 0x58644d8, size 0x38, virtual false, abstract: false, final false
+inline void Init(int32_t  selectedSubMenuInfoIdx) ;
 
-  static inline ::GlobalNamespace::MainSettingsMenuViewController* New_ctor();
+static inline ::GlobalNamespace::MainSettingsMenuViewController* New_ctor() ;
 
-  constexpr ::GlobalNamespace::SettingsSubMenuInfo* const& __cordl_internal_get__selectedSubMenuInfo() const;
+constexpr ::GlobalNamespace::SettingsSubMenuInfo* const& __cordl_internal_get__selectedSubMenuInfo() const;
 
-  constexpr ::GlobalNamespace::SettingsSubMenuInfo*& __cordl_internal_get__selectedSubMenuInfo();
+constexpr ::GlobalNamespace::SettingsSubMenuInfo*& __cordl_internal_get__selectedSubMenuInfo() ;
 
-  constexpr int32_t const& __cordl_internal_get__selectedSubMenuInfoIdx() const;
+constexpr int32_t const& __cordl_internal_get__selectedSubMenuInfoIdx() const;
 
-  constexpr int32_t& __cordl_internal_get__selectedSubMenuInfoIdx();
+constexpr int32_t& __cordl_internal_get__selectedSubMenuInfoIdx() ;
 
-  constexpr ::UnityW<::HMUI::TextSegmentedControl> const& __cordl_internal_get__settingsMenuSegmentedControl() const;
+constexpr ::UnityW<::HMUI::TextSegmentedControl> const& __cordl_internal_get__settingsMenuSegmentedControl() const;
 
-  constexpr ::UnityW<::HMUI::TextSegmentedControl>& __cordl_internal_get__settingsMenuSegmentedControl();
+constexpr ::UnityW<::HMUI::TextSegmentedControl>& __cordl_internal_get__settingsMenuSegmentedControl() ;
 
-  constexpr ::ArrayW<::GlobalNamespace::SettingsSubMenuInfo*, ::Array<::GlobalNamespace::SettingsSubMenuInfo*>*> const& __cordl_internal_get__settingsSubMenuInfos() const;
+constexpr ::ArrayW<::GlobalNamespace::SettingsSubMenuInfo*,::Array<::GlobalNamespace::SettingsSubMenuInfo*>*> const& __cordl_internal_get__settingsSubMenuInfos() const;
 
-  constexpr ::ArrayW<::GlobalNamespace::SettingsSubMenuInfo*, ::Array<::GlobalNamespace::SettingsSubMenuInfo*>*>& __cordl_internal_get__settingsSubMenuInfos();
+constexpr ::ArrayW<::GlobalNamespace::SettingsSubMenuInfo*,::Array<::GlobalNamespace::SettingsSubMenuInfo*>*>& __cordl_internal_get__settingsSubMenuInfos() ;
 
-  constexpr ::System::Action_2<::GlobalNamespace::SettingsSubMenuInfo*, int32_t>* const& __cordl_internal_get_didSelectSettingsSubMenuEvent() const;
+constexpr ::System::Action_2<::GlobalNamespace::SettingsSubMenuInfo*,int32_t>* const& __cordl_internal_get_didSelectSettingsSubMenuEvent() const;
 
-  constexpr ::System::Action_2<::GlobalNamespace::SettingsSubMenuInfo*, int32_t>*& __cordl_internal_get_didSelectSettingsSubMenuEvent();
+constexpr ::System::Action_2<::GlobalNamespace::SettingsSubMenuInfo*,int32_t>*& __cordl_internal_get_didSelectSettingsSubMenuEvent() ;
 
-  constexpr void __cordl_internal_set__selectedSubMenuInfo(::GlobalNamespace::SettingsSubMenuInfo* value);
+constexpr void __cordl_internal_set__selectedSubMenuInfo(::GlobalNamespace::SettingsSubMenuInfo*  value) ;
 
-  constexpr void __cordl_internal_set__selectedSubMenuInfoIdx(int32_t value);
+constexpr void __cordl_internal_set__selectedSubMenuInfoIdx(int32_t  value) ;
 
-  constexpr void __cordl_internal_set__settingsMenuSegmentedControl(::UnityW<::HMUI::TextSegmentedControl> value);
+constexpr void __cordl_internal_set__settingsMenuSegmentedControl(::UnityW<::HMUI::TextSegmentedControl>  value) ;
 
-  constexpr void __cordl_internal_set__settingsSubMenuInfos(::ArrayW<::GlobalNamespace::SettingsSubMenuInfo*, ::Array<::GlobalNamespace::SettingsSubMenuInfo*>*> value);
+constexpr void __cordl_internal_set__settingsSubMenuInfos(::ArrayW<::GlobalNamespace::SettingsSubMenuInfo*,::Array<::GlobalNamespace::SettingsSubMenuInfo*>*>  value) ;
 
-  constexpr void __cordl_internal_set_didSelectSettingsSubMenuEvent(::System::Action_2<::GlobalNamespace::SettingsSubMenuInfo*, int32_t>* value);
+constexpr void __cordl_internal_set_didSelectSettingsSubMenuEvent(::System::Action_2<::GlobalNamespace::SettingsSubMenuInfo*,int32_t>*  value) ;
 
-  /// @brief Method .ctor, addr 0x5877d9c, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5878b48, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method add_didSelectSettingsSubMenuEvent, addr 0x586366c, size 0xc0, virtual false, abstract: false, final false
-  inline void add_didSelectSettingsSubMenuEvent(::System::Action_2<::GlobalNamespace::SettingsSubMenuInfo*, int32_t>* value);
+/// @brief Method add_didSelectSettingsSubMenuEvent, addr 0x5864418, size 0xc0, virtual false, abstract: false, final false
+inline void add_didSelectSettingsSubMenuEvent(::System::Action_2<::GlobalNamespace::SettingsSubMenuInfo*,int32_t>*  value) ;
 
-  /// @brief Method get_numberOfSubMenus, addr 0x5863764, size 0x18, virtual false, abstract: false, final false
-  inline int32_t get_numberOfSubMenus();
+/// @brief Method get_numberOfSubMenus, addr 0x5864510, size 0x18, virtual false, abstract: false, final false
+inline int32_t get_numberOfSubMenus() ;
 
-  /// @brief Method get_selectedSubMenuInfo, addr 0x5877b3c, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::SettingsSubMenuInfo* get_selectedSubMenuInfo();
+/// @brief Method get_selectedSubMenuInfo, addr 0x58788e8, size 0x8, virtual false, abstract: false, final false
+inline ::GlobalNamespace::SettingsSubMenuInfo* get_selectedSubMenuInfo() ;
 
-  /// @brief Method remove_didSelectSettingsSubMenuEvent, addr 0x5863930, size 0xc0, virtual false, abstract: false, final false
-  inline void remove_didSelectSettingsSubMenuEvent(::System::Action_2<::GlobalNamespace::SettingsSubMenuInfo*, int32_t>* value);
+/// @brief Method remove_didSelectSettingsSubMenuEvent, addr 0x58646dc, size 0xc0, virtual false, abstract: false, final false
+inline void remove_didSelectSettingsSubMenuEvent(::System::Action_2<::GlobalNamespace::SettingsSubMenuInfo*,int32_t>*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MainSettingsMenuViewController();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr MainSettingsMenuViewController() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MainSettingsMenuViewController", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  MainSettingsMenuViewController(MainSettingsMenuViewController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MainSettingsMenuViewController", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  MainSettingsMenuViewController(MainSettingsMenuViewController const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "MainSettingsMenuViewController", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+MainSettingsMenuViewController(MainSettingsMenuViewController && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6492 };
+// Ctor Parameters [CppParam { name: "", ty: "MainSettingsMenuViewController", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+MainSettingsMenuViewController(MainSettingsMenuViewController const& ) = delete;
 
-  /// @brief Field didSelectSettingsSubMenuEvent, offset: 0x78, size: 0x8, def value: None
-  ::System::Action_2<::GlobalNamespace::SettingsSubMenuInfo*, int32_t>* ___didSelectSettingsSubMenuEvent;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6493};
 
-  /// @brief Field _settingsSubMenuInfos, offset: 0x80, size: 0x8, def value: None
-  ::ArrayW<::GlobalNamespace::SettingsSubMenuInfo*, ::Array<::GlobalNamespace::SettingsSubMenuInfo*>*> ____settingsSubMenuInfos;
+/// @brief Field didSelectSettingsSubMenuEvent, offset: 0x78, size: 0x8, def value: None
+ ::System::Action_2<::GlobalNamespace::SettingsSubMenuInfo*,int32_t>*  ___didSelectSettingsSubMenuEvent;
 
-  /// @brief Field _settingsMenuSegmentedControl, offset: 0x88, size: 0x8, def value: None
-  ::UnityW<::HMUI::TextSegmentedControl> ____settingsMenuSegmentedControl;
+/// @brief Field _settingsSubMenuInfos, offset: 0x80, size: 0x8, def value: None
+ ::ArrayW<::GlobalNamespace::SettingsSubMenuInfo*,::Array<::GlobalNamespace::SettingsSubMenuInfo*>*>  ____settingsSubMenuInfos;
 
-  /// @brief Field _selectedSubMenuInfo, offset: 0x90, size: 0x8, def value: None
-  ::GlobalNamespace::SettingsSubMenuInfo* ____selectedSubMenuInfo;
+/// @brief Field _settingsMenuSegmentedControl, offset: 0x88, size: 0x8, def value: None
+ ::UnityW<::HMUI::TextSegmentedControl>  ____settingsMenuSegmentedControl;
 
-  /// @brief Field _selectedSubMenuInfoIdx, offset: 0x98, size: 0x4, def value: None
-  int32_t ____selectedSubMenuInfoIdx;
+/// @brief Field _selectedSubMenuInfo, offset: 0x90, size: 0x8, def value: None
+ ::GlobalNamespace::SettingsSubMenuInfo*  ____selectedSubMenuInfo;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _selectedSubMenuInfoIdx, offset: 0x98, size: 0x4, def value: None
+ int32_t  ____selectedSubMenuInfoIdx;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::MainSettingsMenuViewController, ___didSelectSettingsSubMenuEvent) == 0x78, "Offset mismatch!");
@@ -157,6 +154,6 @@ static_assert(offsetof(::GlobalNamespace::MainSettingsMenuViewController, ____se
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MainSettingsMenuViewController, 0xa0>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MainSettingsMenuViewController);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MainSettingsMenuViewController*, "", "MainSettingsMenuViewController");

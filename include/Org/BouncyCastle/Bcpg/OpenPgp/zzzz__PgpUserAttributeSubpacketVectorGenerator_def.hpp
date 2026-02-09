@@ -27,54 +27,54 @@ namespace Org::BouncyCastle::Bcpg::OpenPgp {
 // CS Name: Org.BouncyCastle.Bcpg.OpenPgp.PgpUserAttributeSubpacketVectorGenerator
 class CORDL_TYPE PgpUserAttributeSubpacketVectorGenerator : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field list, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_list, put = __cordl_internal_set_list)) ::System::Collections::IList* list;
+// Declarations
+/// @brief Field list, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_list, put=__cordl_internal_set_list)) ::System::Collections::IList*  list;
 
-  /// @brief Method Generate, addr 0x34a7550, size 0x2c0, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpUserAttributeSubpacketVector* Generate();
+/// @brief Method Generate, addr 0x34a74a0, size 0x2c0, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpUserAttributeSubpacketVector* Generate() ;
 
-  static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpUserAttributeSubpacketVectorGenerator* New_ctor();
+static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpUserAttributeSubpacketVectorGenerator* New_ctor() ;
 
-  /// @brief Method SetImageAttribute, addr 0x34a7400, size 0x150, virtual true, abstract: false, final false
-  inline void SetImageAttribute(::Org::BouncyCastle::Bcpg::Attr::ImageAttrib_Format imageType, ::ArrayW<uint8_t, ::Array<uint8_t>*> imageData);
+/// @brief Method SetImageAttribute, addr 0x34a7350, size 0x150, virtual true, abstract: false, final false
+inline void SetImageAttribute(::Org::BouncyCastle::Bcpg::Attr::ImageAttrib_Format  imageType, ::ArrayW<uint8_t,::Array<uint8_t>*>  imageData) ;
 
-  constexpr ::System::Collections::IList* const& __cordl_internal_get_list() const;
+constexpr ::System::Collections::IList* const& __cordl_internal_get_list() const;
 
-  constexpr ::System::Collections::IList*& __cordl_internal_get_list();
+constexpr ::System::Collections::IList*& __cordl_internal_get_list() ;
 
-  constexpr void __cordl_internal_set_list(::System::Collections::IList* value);
+constexpr void __cordl_internal_set_list(::System::Collections::IList*  value) ;
 
-  /// @brief Method .ctor, addr 0x34a7810, size 0x60, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x34a7760, size 0x60, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PgpUserAttributeSubpacketVectorGenerator();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr PgpUserAttributeSubpacketVectorGenerator() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PgpUserAttributeSubpacketVectorGenerator", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  PgpUserAttributeSubpacketVectorGenerator(PgpUserAttributeSubpacketVectorGenerator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PgpUserAttributeSubpacketVectorGenerator", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  PgpUserAttributeSubpacketVectorGenerator(PgpUserAttributeSubpacketVectorGenerator const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "PgpUserAttributeSubpacketVectorGenerator", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+PgpUserAttributeSubpacketVectorGenerator(PgpUserAttributeSubpacketVectorGenerator && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1672 };
+// Ctor Parameters [CppParam { name: "", ty: "PgpUserAttributeSubpacketVectorGenerator", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+PgpUserAttributeSubpacketVectorGenerator(PgpUserAttributeSubpacketVectorGenerator const& ) = delete;
 
-  /// @brief Field list, offset: 0x10, size: 0x8, def value: None
-  ::System::Collections::IList* ___list;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{1672};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field list, offset: 0x10, size: 0x8, def value: None
+ ::System::Collections::IList*  ___list;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Org::BouncyCastle::Bcpg::OpenPgp::PgpUserAttributeSubpacketVectorGenerator, ___list) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Bcpg::OpenPgp::PgpUserAttributeSubpacketVectorGenerator, 0x18>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Bcpg::OpenPgp
+} // namespace end def Org::BouncyCastle::Bcpg::OpenPgp
 NEED_NO_BOX(::Org::BouncyCastle::Bcpg::OpenPgp::PgpUserAttributeSubpacketVectorGenerator);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Bcpg::OpenPgp::PgpUserAttributeSubpacketVectorGenerator*, "Org.BouncyCastle.Bcpg.OpenPgp", "PgpUserAttributeSubpacketVectorGenerator");

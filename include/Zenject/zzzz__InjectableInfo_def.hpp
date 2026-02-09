@@ -28,103 +28,102 @@ namespace Zenject {
 // CS Name: Zenject.InjectableInfo
 class CORDL_TYPE InjectableInfo : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field DefaultValue, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_DefaultValue, put = __cordl_internal_set_DefaultValue)) ::System::Object* DefaultValue;
+// Declarations
+/// @brief Field DefaultValue, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get_DefaultValue, put=__cordl_internal_set_DefaultValue)) ::System::Object*  DefaultValue;
 
-  /// @brief Field Identifier, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_Identifier, put = __cordl_internal_set_Identifier)) ::System::Object* Identifier;
+/// @brief Field Identifier, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_Identifier, put=__cordl_internal_set_Identifier)) ::System::Object*  Identifier;
 
-  /// @brief Field MemberName, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_MemberName, put = __cordl_internal_set_MemberName)) ::StringW MemberName;
+/// @brief Field MemberName, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get_MemberName, put=__cordl_internal_set_MemberName)) ::StringW  MemberName;
 
-  /// @brief Field MemberType, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_MemberType, put = __cordl_internal_set_MemberType)) ::System::Type* MemberType;
+/// @brief Field MemberType, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get_MemberType, put=__cordl_internal_set_MemberType)) ::System::Type*  MemberType;
 
-  /// @brief Field Optional, offset 0x10, size 0x1
-  __declspec(property(get = __cordl_internal_get_Optional, put = __cordl_internal_set_Optional)) bool Optional;
+/// @brief Field Optional, offset 0x10, size 0x1 
+ __declspec(property(get=__cordl_internal_get_Optional, put=__cordl_internal_set_Optional)) bool  Optional;
 
-  /// @brief Field SourceType, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get_SourceType, put = __cordl_internal_set_SourceType)) ::Zenject::InjectSources SourceType;
+/// @brief Field SourceType, offset 0x20, size 0x4 
+ __declspec(property(get=__cordl_internal_get_SourceType, put=__cordl_internal_set_SourceType)) ::Zenject::InjectSources  SourceType;
 
-  static inline ::Zenject::InjectableInfo* New_ctor(bool optional, ::System::Object* identifier, ::StringW memberName, ::System::Type* memberType, ::System::Object* defaultValue,
-                                                    ::Zenject::InjectSources sourceType);
+static inline ::Zenject::InjectableInfo* New_ctor(bool  optional, ::System::Object*  identifier, ::StringW  memberName, ::System::Type*  memberType, ::System::Object*  defaultValue, ::Zenject::InjectSources  sourceType) ;
 
-  constexpr ::System::Object* const& __cordl_internal_get_DefaultValue() const;
+constexpr ::System::Object* const& __cordl_internal_get_DefaultValue() const;
 
-  constexpr ::System::Object*& __cordl_internal_get_DefaultValue();
+constexpr ::System::Object*& __cordl_internal_get_DefaultValue() ;
 
-  constexpr ::System::Object* const& __cordl_internal_get_Identifier() const;
+constexpr ::System::Object* const& __cordl_internal_get_Identifier() const;
 
-  constexpr ::System::Object*& __cordl_internal_get_Identifier();
+constexpr ::System::Object*& __cordl_internal_get_Identifier() ;
 
-  constexpr ::StringW const& __cordl_internal_get_MemberName() const;
+constexpr ::StringW const& __cordl_internal_get_MemberName() const;
 
-  constexpr ::StringW& __cordl_internal_get_MemberName();
+constexpr ::StringW& __cordl_internal_get_MemberName() ;
 
-  constexpr ::System::Type* const& __cordl_internal_get_MemberType() const;
+constexpr ::System::Type* const& __cordl_internal_get_MemberType() const;
 
-  constexpr ::System::Type*& __cordl_internal_get_MemberType();
+constexpr ::System::Type*& __cordl_internal_get_MemberType() ;
 
-  constexpr bool const& __cordl_internal_get_Optional() const;
+constexpr bool const& __cordl_internal_get_Optional() const;
 
-  constexpr bool& __cordl_internal_get_Optional();
+constexpr bool& __cordl_internal_get_Optional() ;
 
-  constexpr ::Zenject::InjectSources const& __cordl_internal_get_SourceType() const;
+constexpr ::Zenject::InjectSources const& __cordl_internal_get_SourceType() const;
 
-  constexpr ::Zenject::InjectSources& __cordl_internal_get_SourceType();
+constexpr ::Zenject::InjectSources& __cordl_internal_get_SourceType() ;
 
-  constexpr void __cordl_internal_set_DefaultValue(::System::Object* value);
+constexpr void __cordl_internal_set_DefaultValue(::System::Object*  value) ;
 
-  constexpr void __cordl_internal_set_Identifier(::System::Object* value);
+constexpr void __cordl_internal_set_Identifier(::System::Object*  value) ;
 
-  constexpr void __cordl_internal_set_MemberName(::StringW value);
+constexpr void __cordl_internal_set_MemberName(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_MemberType(::System::Type* value);
+constexpr void __cordl_internal_set_MemberType(::System::Type*  value) ;
 
-  constexpr void __cordl_internal_set_Optional(bool value);
+constexpr void __cordl_internal_set_Optional(bool  value) ;
 
-  constexpr void __cordl_internal_set_SourceType(::Zenject::InjectSources value);
+constexpr void __cordl_internal_set_SourceType(::Zenject::InjectSources  value) ;
 
-  /// @brief Method .ctor, addr 0x6c71a1c, size 0x18, virtual false, abstract: false, final false
-  inline void _ctor(bool optional, ::System::Object* identifier, ::StringW memberName, ::System::Type* memberType, ::System::Object* defaultValue, ::Zenject::InjectSources sourceType);
+/// @brief Method .ctor, addr 0x6c720dc, size 0x18, virtual false, abstract: false, final false
+inline void _ctor(bool  optional, ::System::Object*  identifier, ::StringW  memberName, ::System::Type*  memberType, ::System::Object*  defaultValue, ::Zenject::InjectSources  sourceType) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr InjectableInfo();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr InjectableInfo() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InjectableInfo", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  InjectableInfo(InjectableInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InjectableInfo", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  InjectableInfo(InjectableInfo const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "InjectableInfo", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+InjectableInfo(InjectableInfo && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22237 };
+// Ctor Parameters [CppParam { name: "", ty: "InjectableInfo", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+InjectableInfo(InjectableInfo const& ) = delete;
 
-  /// @brief Field Optional, offset: 0x10, size: 0x1, def value: None
-  bool ___Optional;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{22241};
 
-  /// @brief Field Identifier, offset: 0x18, size: 0x8, def value: None
-  ::System::Object* ___Identifier;
+/// @brief Field Optional, offset: 0x10, size: 0x1, def value: None
+ bool  ___Optional;
 
-  /// @brief Field SourceType, offset: 0x20, size: 0x4, def value: None
-  ::Zenject::InjectSources ___SourceType;
+/// @brief Field Identifier, offset: 0x18, size: 0x8, def value: None
+ ::System::Object*  ___Identifier;
 
-  /// @brief Field MemberName, offset: 0x28, size: 0x8, def value: None
-  ::StringW ___MemberName;
+/// @brief Field SourceType, offset: 0x20, size: 0x4, def value: None
+ ::Zenject::InjectSources  ___SourceType;
 
-  /// @brief Field MemberType, offset: 0x30, size: 0x8, def value: None
-  ::System::Type* ___MemberType;
+/// @brief Field MemberName, offset: 0x28, size: 0x8, def value: None
+ ::StringW  ___MemberName;
 
-  /// @brief Field DefaultValue, offset: 0x38, size: 0x8, def value: None
-  ::System::Object* ___DefaultValue;
+/// @brief Field MemberType, offset: 0x30, size: 0x8, def value: None
+ ::System::Type*  ___MemberType;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field DefaultValue, offset: 0x38, size: 0x8, def value: None
+ ::System::Object*  ___DefaultValue;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Zenject::InjectableInfo, ___Optional) == 0x10, "Offset mismatch!");
@@ -141,6 +140,6 @@ static_assert(offsetof(::Zenject::InjectableInfo, ___DefaultValue) == 0x38, "Off
 
 static_assert(::cordl_internals::size_check_v<::Zenject::InjectableInfo, 0x40>, "Size mismatch!");
 
-} // namespace Zenject
+} // namespace end def Zenject
 NEED_NO_BOX(::Zenject::InjectableInfo);
 DEFINE_IL2CPP_ARG_TYPE(::Zenject::InjectableInfo*, "Zenject", "InjectableInfo");

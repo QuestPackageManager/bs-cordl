@@ -25,105 +25,105 @@ namespace OculusStudios::GraphQL::ClientInterface {
 // CS Name: OculusStudios.GraphQL.ClientInterface.AttemptData
 class CORDL_TYPE AttemptData : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field _ended, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__ended, put = __cordl_internal_set__ended)) ::System::DateTime _ended;
+// Declarations
+/// @brief Field _ended, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get__ended, put=__cordl_internal_set__ended)) ::System::DateTime  _ended;
 
-  /// @brief Field _exception, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__exception, put = __cordl_internal_set__exception)) ::System::Exception* _exception;
+/// @brief Field _exception, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get__exception, put=__cordl_internal_set__exception)) ::System::Exception*  _exception;
 
-  /// @brief Field _rawResponseData, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__rawResponseData, put = __cordl_internal_set__rawResponseData)) ::StringW _rawResponseData;
+/// @brief Field _rawResponseData, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get__rawResponseData, put=__cordl_internal_set__rawResponseData)) ::StringW  _rawResponseData;
 
-  __declspec(property(get = get_ended)) ::System::DateTime ended;
+ __declspec(property(get=get_ended)) ::System::DateTime  ended;
 
-  __declspec(property(get = get_exception)) ::System::Exception* exception;
+ __declspec(property(get=get_exception)) ::System::Exception*  exception;
 
-  __declspec(property(get = get_rawResponseData)) ::StringW rawResponseData;
+ __declspec(property(get=get_rawResponseData)) ::StringW  rawResponseData;
 
-  /// @brief Field started, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_started, put = __cordl_internal_set_started)) ::System::DateTime started;
+/// @brief Field started, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_started, put=__cordl_internal_set_started)) ::System::DateTime  started;
 
-  /// @brief Method FinishAttempt, addr 0x5d7e430, size 0x6c, virtual false, abstract: false, final false
-  inline void FinishAttempt();
+/// @brief Method FinishAttempt, addr 0x5d7e93c, size 0x6c, virtual false, abstract: false, final false
+inline void FinishAttempt() ;
 
-  /// @brief Method IsFinished, addr 0x5d7e49c, size 0x6c, virtual false, abstract: false, final false
-  inline bool IsFinished();
+/// @brief Method IsFinished, addr 0x5d7e9a8, size 0x6c, virtual false, abstract: false, final false
+inline bool IsFinished() ;
 
-  static inline ::OculusStudios::GraphQL::ClientInterface::AttemptData* New_ctor();
+static inline ::OculusStudios::GraphQL::ClientInterface::AttemptData* New_ctor() ;
 
-  /// @brief Method RegisterException, addr 0x5d7e564, size 0x5c, virtual false, abstract: false, final false
-  inline void RegisterException(::System::Exception* e);
+/// @brief Method RegisterException, addr 0x5d7ea70, size 0x5c, virtual false, abstract: false, final false
+inline void RegisterException(::System::Exception*  e) ;
 
-  /// @brief Method RegisterRawResponseData, addr 0x5d7e508, size 0x5c, virtual false, abstract: false, final false
-  inline void RegisterRawResponseData(::StringW json);
+/// @brief Method RegisterRawResponseData, addr 0x5d7ea14, size 0x5c, virtual false, abstract: false, final false
+inline void RegisterRawResponseData(::StringW  json) ;
 
-  constexpr ::System::DateTime const& __cordl_internal_get__ended() const;
+constexpr ::System::DateTime const& __cordl_internal_get__ended() const;
 
-  constexpr ::System::DateTime& __cordl_internal_get__ended();
+constexpr ::System::DateTime& __cordl_internal_get__ended() ;
 
-  constexpr ::System::Exception* const& __cordl_internal_get__exception() const;
+constexpr ::System::Exception* const& __cordl_internal_get__exception() const;
 
-  constexpr ::System::Exception*& __cordl_internal_get__exception();
+constexpr ::System::Exception*& __cordl_internal_get__exception() ;
 
-  constexpr ::StringW const& __cordl_internal_get__rawResponseData() const;
+constexpr ::StringW const& __cordl_internal_get__rawResponseData() const;
 
-  constexpr ::StringW& __cordl_internal_get__rawResponseData();
+constexpr ::StringW& __cordl_internal_get__rawResponseData() ;
 
-  constexpr ::System::DateTime const& __cordl_internal_get_started() const;
+constexpr ::System::DateTime const& __cordl_internal_get_started() const;
 
-  constexpr ::System::DateTime& __cordl_internal_get_started();
+constexpr ::System::DateTime& __cordl_internal_get_started() ;
 
-  constexpr void __cordl_internal_set__ended(::System::DateTime value);
+constexpr void __cordl_internal_set__ended(::System::DateTime  value) ;
 
-  constexpr void __cordl_internal_set__exception(::System::Exception* value);
+constexpr void __cordl_internal_set__exception(::System::Exception*  value) ;
 
-  constexpr void __cordl_internal_set__rawResponseData(::StringW value);
+constexpr void __cordl_internal_set__rawResponseData(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_started(::System::DateTime value);
+constexpr void __cordl_internal_set_started(::System::DateTime  value) ;
 
-  /// @brief Method .ctor, addr 0x5d7e3c0, size 0x70, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5d7e8cc, size 0x70, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_ended, addr 0x5d7e3a8, size 0x8, virtual false, abstract: false, final false
-  inline ::System::DateTime get_ended();
+/// @brief Method get_ended, addr 0x5d7e8b4, size 0x8, virtual false, abstract: false, final false
+inline ::System::DateTime get_ended() ;
 
-  /// @brief Method get_exception, addr 0x5d7e3b8, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Exception* get_exception();
+/// @brief Method get_exception, addr 0x5d7e8c4, size 0x8, virtual false, abstract: false, final false
+inline ::System::Exception* get_exception() ;
 
-  /// @brief Method get_rawResponseData, addr 0x5d7e3b0, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_rawResponseData();
+/// @brief Method get_rawResponseData, addr 0x5d7e8bc, size 0x8, virtual false, abstract: false, final false
+inline ::StringW get_rawResponseData() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AttemptData();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr AttemptData() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AttemptData", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  AttemptData(AttemptData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AttemptData", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  AttemptData(AttemptData const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "AttemptData", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+AttemptData(AttemptData && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22474 };
+// Ctor Parameters [CppParam { name: "", ty: "AttemptData", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+AttemptData(AttemptData const& ) = delete;
 
-  /// @brief Field started, offset: 0x10, size: 0x8, def value: None
-  ::System::DateTime ___started;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{22478};
 
-  /// @brief Field _ended, offset: 0x18, size: 0x8, def value: None
-  ::System::DateTime ____ended;
+/// @brief Field started, offset: 0x10, size: 0x8, def value: None
+ ::System::DateTime  ___started;
 
-  /// @brief Field _rawResponseData, offset: 0x20, size: 0x8, def value: None
-  ::StringW ____rawResponseData;
+/// @brief Field _ended, offset: 0x18, size: 0x8, def value: None
+ ::System::DateTime  ____ended;
 
-  /// @brief Field _exception, offset: 0x28, size: 0x8, def value: None
-  ::System::Exception* ____exception;
+/// @brief Field _rawResponseData, offset: 0x20, size: 0x8, def value: None
+ ::StringW  ____rawResponseData;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _exception, offset: 0x28, size: 0x8, def value: None
+ ::System::Exception*  ____exception;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::OculusStudios::GraphQL::ClientInterface::AttemptData, ___started) == 0x10, "Offset mismatch!");
@@ -136,6 +136,6 @@ static_assert(offsetof(::OculusStudios::GraphQL::ClientInterface::AttemptData, _
 
 static_assert(::cordl_internals::size_check_v<::OculusStudios::GraphQL::ClientInterface::AttemptData, 0x30>, "Size mismatch!");
 
-} // namespace OculusStudios::GraphQL::ClientInterface
+} // namespace end def OculusStudios::GraphQL::ClientInterface
 NEED_NO_BOX(::OculusStudios::GraphQL::ClientInterface::AttemptData);
 DEFINE_IL2CPP_ARG_TYPE(::OculusStudios::GraphQL::ClientInterface::AttemptData*, "OculusStudios.GraphQL.ClientInterface", "AttemptData");

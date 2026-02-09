@@ -21,91 +21,91 @@ namespace Meta::XR::MultiplayerBlocks::Colocation {
 // CS Name: Meta.XR.MultiplayerBlocks.Colocation.Logger
 class CORDL_TYPE Logger : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field _isErrorLogVisible, offset 0xffffffff, size 0x1
-  __declspec(property(get = getStaticF__isErrorLogVisible, put = setStaticF__isErrorLogVisible)) bool _isErrorLogVisible;
+// Declarations
+/// @brief Field _isErrorLogVisible, offset 0xffffffff, size 0x1 
+ __declspec(property(get=getStaticF__isErrorLogVisible, put=setStaticF__isErrorLogVisible)) bool  _isErrorLogVisible;
 
-  /// @brief Field _isInfoLogVisible, offset 0xffffffff, size 0x1
-  __declspec(property(get = getStaticF__isInfoLogVisible, put = setStaticF__isInfoLogVisible)) bool _isInfoLogVisible;
+/// @brief Field _isInfoLogVisible, offset 0xffffffff, size 0x1 
+ __declspec(property(get=getStaticF__isInfoLogVisible, put=setStaticF__isInfoLogVisible)) bool  _isInfoLogVisible;
 
-  /// @brief Field _isSharedSpatialAnchorsErrorVisible, offset 0xffffffff, size 0x1
-  __declspec(property(get = getStaticF__isSharedSpatialAnchorsErrorVisible, put = setStaticF__isSharedSpatialAnchorsErrorVisible)) bool _isSharedSpatialAnchorsErrorVisible;
+/// @brief Field _isSharedSpatialAnchorsErrorVisible, offset 0xffffffff, size 0x1 
+ __declspec(property(get=getStaticF__isSharedSpatialAnchorsErrorVisible, put=setStaticF__isSharedSpatialAnchorsErrorVisible)) bool  _isSharedSpatialAnchorsErrorVisible;
 
-  /// @brief Field _isVerboseLogVisible, offset 0xffffffff, size 0x1
-  __declspec(property(get = getStaticF__isVerboseLogVisible, put = setStaticF__isVerboseLogVisible)) bool _isVerboseLogVisible;
+/// @brief Field _isVerboseLogVisible, offset 0xffffffff, size 0x1 
+ __declspec(property(get=getStaticF__isVerboseLogVisible, put=setStaticF__isVerboseLogVisible)) bool  _isVerboseLogVisible;
 
-  /// @brief Field _isWarningLogVisible, offset 0xffffffff, size 0x1
-  __declspec(property(get = getStaticF__isWarningLogVisible, put = setStaticF__isWarningLogVisible)) bool _isWarningLogVisible;
+/// @brief Field _isWarningLogVisible, offset 0xffffffff, size 0x1 
+ __declspec(property(get=getStaticF__isWarningLogVisible, put=setStaticF__isWarningLogVisible)) bool  _isWarningLogVisible;
 
-  /// @brief Method GetPrefixMessage, addr 0x58d2b78, size 0xa8, virtual false, abstract: false, final false
-  static inline ::StringW GetPrefixMessage(::Meta::XR::MultiplayerBlocks::Colocation::LogLevel logLevel);
+/// @brief Method GetPrefixMessage, addr 0x58d3084, size 0xa8, virtual false, abstract: false, final false
+static inline ::StringW GetPrefixMessage(::Meta::XR::MultiplayerBlocks::Colocation::LogLevel  logLevel) ;
 
-  /// @brief Method Log, addr 0x58c2790, size 0xf4, virtual false, abstract: false, final false
-  static inline void Log(::StringW message, ::Meta::XR::MultiplayerBlocks::Colocation::LogLevel logLevel);
+/// @brief Method Log, addr 0x58c2c9c, size 0xf4, virtual false, abstract: false, final false
+static inline void Log(::StringW  message, ::Meta::XR::MultiplayerBlocks::Colocation::LogLevel  logLevel) ;
 
-  /// @brief Method LogError, addr 0x58d2a20, size 0xac, virtual false, abstract: false, final false
-  static inline void LogError(::StringW message);
+/// @brief Method LogError, addr 0x58d2f2c, size 0xac, virtual false, abstract: false, final false
+static inline void LogError(::StringW  message) ;
 
-  /// @brief Method LogInfo, addr 0x58d28c8, size 0xac, virtual false, abstract: false, final false
-  static inline void LogInfo(::StringW message);
+/// @brief Method LogInfo, addr 0x58d2dd4, size 0xac, virtual false, abstract: false, final false
+static inline void LogInfo(::StringW  message) ;
 
-  /// @brief Method LogSharedSpatialAnchorsError, addr 0x58d2acc, size 0xac, virtual false, abstract: false, final false
-  static inline void LogSharedSpatialAnchorsError(::StringW message);
+/// @brief Method LogSharedSpatialAnchorsError, addr 0x58d2fd8, size 0xac, virtual false, abstract: false, final false
+static inline void LogSharedSpatialAnchorsError(::StringW  message) ;
 
-  /// @brief Method LogVerbose, addr 0x58d281c, size 0xac, virtual false, abstract: false, final false
-  static inline void LogVerbose(::StringW message);
+/// @brief Method LogVerbose, addr 0x58d2d28, size 0xac, virtual false, abstract: false, final false
+static inline void LogVerbose(::StringW  message) ;
 
-  /// @brief Method LogWarning, addr 0x58d2974, size 0xac, virtual false, abstract: false, final false
-  static inline void LogWarning(::StringW message);
+/// @brief Method LogWarning, addr 0x58d2e80, size 0xac, virtual false, abstract: false, final false
+static inline void LogWarning(::StringW  message) ;
 
-  /// @brief Method SetAllLogsVisibility, addr 0x58c19e0, size 0x60, virtual false, abstract: false, final false
-  static inline void SetAllLogsVisibility(bool value);
+/// @brief Method SetAllLogsVisibility, addr 0x58c1eec, size 0x60, virtual false, abstract: false, final false
+static inline void SetAllLogsVisibility(bool  value) ;
 
-  /// @brief Method SetLogLevelVisibility, addr 0x58c1a40, size 0x180, virtual false, abstract: false, final false
-  static inline void SetLogLevelVisibility(::Meta::XR::MultiplayerBlocks::Colocation::LogLevel logLevel, bool value);
+/// @brief Method SetLogLevelVisibility, addr 0x58c1f4c, size 0x180, virtual false, abstract: false, final false
+static inline void SetLogLevelVisibility(::Meta::XR::MultiplayerBlocks::Colocation::LogLevel  logLevel, bool  value) ;
 
-  static inline bool getStaticF__isErrorLogVisible();
+static inline bool getStaticF__isErrorLogVisible() ;
 
-  static inline bool getStaticF__isInfoLogVisible();
+static inline bool getStaticF__isInfoLogVisible() ;
 
-  static inline bool getStaticF__isSharedSpatialAnchorsErrorVisible();
+static inline bool getStaticF__isSharedSpatialAnchorsErrorVisible() ;
 
-  static inline bool getStaticF__isVerboseLogVisible();
+static inline bool getStaticF__isVerboseLogVisible() ;
 
-  static inline bool getStaticF__isWarningLogVisible();
+static inline bool getStaticF__isWarningLogVisible() ;
 
-  static inline void setStaticF__isErrorLogVisible(bool value);
+static inline void setStaticF__isErrorLogVisible(bool  value) ;
 
-  static inline void setStaticF__isInfoLogVisible(bool value);
+static inline void setStaticF__isInfoLogVisible(bool  value) ;
 
-  static inline void setStaticF__isSharedSpatialAnchorsErrorVisible(bool value);
+static inline void setStaticF__isSharedSpatialAnchorsErrorVisible(bool  value) ;
 
-  static inline void setStaticF__isVerboseLogVisible(bool value);
+static inline void setStaticF__isVerboseLogVisible(bool  value) ;
 
-  static inline void setStaticF__isWarningLogVisible(bool value);
+static inline void setStaticF__isWarningLogVisible(bool  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Logger();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr Logger() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Logger", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  Logger(Logger&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Logger", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  Logger(Logger const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "Logger", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+Logger(Logger && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20417 };
+// Ctor Parameters [CppParam { name: "", ty: "Logger", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+Logger(Logger const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20421};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Meta::XR::MultiplayerBlocks::Colocation::Logger, 0x10>, "Size mismatch!");
 
-} // namespace Meta::XR::MultiplayerBlocks::Colocation
+} // namespace end def Meta::XR::MultiplayerBlocks::Colocation
 NEED_NO_BOX(::Meta::XR::MultiplayerBlocks::Colocation::Logger);
 DEFINE_IL2CPP_ARG_TYPE(::Meta::XR::MultiplayerBlocks::Colocation::Logger*, "Meta.XR.MultiplayerBlocks.Colocation", "Logger");

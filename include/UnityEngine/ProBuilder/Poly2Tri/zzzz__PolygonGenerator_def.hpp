@@ -25,54 +25,54 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
 // CS Name: UnityEngine.ProBuilder.Poly2Tri.PolygonGenerator
 class CORDL_TYPE PolygonGenerator : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field PI_2, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_PI_2, put = setStaticF_PI_2)) double_t PI_2;
+// Declarations
+/// @brief Field PI_2, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_PI_2, put=setStaticF_PI_2)) double_t  PI_2;
 
-  /// @brief Field RNG, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_RNG, put = setStaticF_RNG)) ::System::Random* RNG;
+/// @brief Field RNG, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_RNG, put=setStaticF_RNG)) ::System::Random*  RNG;
 
-  static inline ::UnityEngine::ProBuilder::Poly2Tri::PolygonGenerator* New_ctor();
+static inline ::UnityEngine::ProBuilder::Poly2Tri::PolygonGenerator* New_ctor() ;
 
-  /// @brief Method RandomCircleSweep, addr 0x64fb424, size 0x2ec, virtual false, abstract: false, final false
-  static inline ::UnityEngine::ProBuilder::Poly2Tri::Polygon* RandomCircleSweep(double_t scale, int32_t vertexCount);
+/// @brief Method RandomCircleSweep, addr 0x64fbae4, size 0x2ec, virtual false, abstract: false, final false
+static inline ::UnityEngine::ProBuilder::Poly2Tri::Polygon* RandomCircleSweep(double_t  scale, int32_t  vertexCount) ;
 
-  /// @brief Method RandomCircleSweep2, addr 0x64fb710, size 0x25c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::ProBuilder::Poly2Tri::Polygon* RandomCircleSweep2(double_t scale, int32_t vertexCount);
+/// @brief Method RandomCircleSweep2, addr 0x64fbdd0, size 0x25c, virtual false, abstract: false, final false
+static inline ::UnityEngine::ProBuilder::Poly2Tri::Polygon* RandomCircleSweep2(double_t  scale, int32_t  vertexCount) ;
 
-  /// @brief Method .ctor, addr 0x64fb96c, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x64fc02c, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  static inline double_t getStaticF_PI_2();
+static inline double_t getStaticF_PI_2() ;
 
-  static inline ::System::Random* getStaticF_RNG();
+static inline ::System::Random* getStaticF_RNG() ;
 
-  static inline void setStaticF_PI_2(double_t value);
+static inline void setStaticF_PI_2(double_t  value) ;
 
-  static inline void setStaticF_RNG(::System::Random* value);
+static inline void setStaticF_RNG(::System::Random*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PolygonGenerator();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr PolygonGenerator() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PolygonGenerator", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  PolygonGenerator(PolygonGenerator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PolygonGenerator", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  PolygonGenerator(PolygonGenerator const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "PolygonGenerator", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+PolygonGenerator(PolygonGenerator && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21594 };
+// Ctor Parameters [CppParam { name: "", ty: "PolygonGenerator", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+PolygonGenerator(PolygonGenerator const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{21598};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::Poly2Tri::PolygonGenerator, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine::ProBuilder::Poly2Tri
+} // namespace end def UnityEngine::ProBuilder::Poly2Tri
 NEED_NO_BOX(::UnityEngine::ProBuilder::Poly2Tri::PolygonGenerator);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::Poly2Tri::PolygonGenerator*, "UnityEngine.ProBuilder.Poly2Tri", "PolygonGenerator");

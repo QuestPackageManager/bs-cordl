@@ -18,53 +18,53 @@ namespace System::Runtime::CompilerServices {
 // CS Name: System.Runtime.CompilerServices.TypeForwardedFromAttribute
 class CORDL_TYPE TypeForwardedFromAttribute : public ::System::Attribute {
 public:
-  // Declarations
-  __declspec(property(get = get_AssemblyFullName)) ::StringW AssemblyFullName;
+// Declarations
+ __declspec(property(get=get_AssemblyFullName)) ::StringW  AssemblyFullName;
 
-  /// @brief Field <AssemblyFullName>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__AssemblyFullName_k__BackingField, put = __cordl_internal_set__AssemblyFullName_k__BackingField)) ::StringW _AssemblyFullName_k__BackingField;
+/// @brief Field <AssemblyFullName>k__BackingField, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get__AssemblyFullName_k__BackingField, put=__cordl_internal_set__AssemblyFullName_k__BackingField)) ::StringW  _AssemblyFullName_k__BackingField;
 
-  static inline ::System::Runtime::CompilerServices::TypeForwardedFromAttribute* New_ctor(::StringW assemblyFullName);
+static inline ::System::Runtime::CompilerServices::TypeForwardedFromAttribute* New_ctor(::StringW  assemblyFullName) ;
 
-  constexpr ::StringW const& __cordl_internal_get__AssemblyFullName_k__BackingField() const;
+constexpr ::StringW const& __cordl_internal_get__AssemblyFullName_k__BackingField() const;
 
-  constexpr ::StringW& __cordl_internal_get__AssemblyFullName_k__BackingField();
+constexpr ::StringW& __cordl_internal_get__AssemblyFullName_k__BackingField() ;
 
-  constexpr void __cordl_internal_set__AssemblyFullName_k__BackingField(::StringW value);
+constexpr void __cordl_internal_set__AssemblyFullName_k__BackingField(::StringW  value) ;
 
-  /// @brief Method .ctor, addr 0x59c0898, size 0x60, virtual false, abstract: false, final false
-  inline void _ctor(::StringW assemblyFullName);
+/// @brief Method .ctor, addr 0x59c0da4, size 0x60, virtual false, abstract: false, final false
+inline void _ctor(::StringW  assemblyFullName) ;
 
-  /// @brief Method get_AssemblyFullName, addr 0x59c08f8, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_AssemblyFullName();
+/// @brief Method get_AssemblyFullName, addr 0x59c0e04, size 0x8, virtual false, abstract: false, final false
+inline ::StringW get_AssemblyFullName() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TypeForwardedFromAttribute();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr TypeForwardedFromAttribute() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TypeForwardedFromAttribute", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  TypeForwardedFromAttribute(TypeForwardedFromAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TypeForwardedFromAttribute", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  TypeForwardedFromAttribute(TypeForwardedFromAttribute const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "TypeForwardedFromAttribute", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+TypeForwardedFromAttribute(TypeForwardedFromAttribute && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3402 };
+// Ctor Parameters [CppParam { name: "", ty: "TypeForwardedFromAttribute", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+TypeForwardedFromAttribute(TypeForwardedFromAttribute const& ) = delete;
 
-  /// @brief Field <AssemblyFullName>k__BackingField, offset: 0x10, size: 0x8, def value: None
-  ::StringW ____AssemblyFullName_k__BackingField;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{3402};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field <AssemblyFullName>k__BackingField, offset: 0x10, size: 0x8, def value: None
+ ::StringW  ____AssemblyFullName_k__BackingField;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Runtime::CompilerServices::TypeForwardedFromAttribute, ____AssemblyFullName_k__BackingField) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::System::Runtime::CompilerServices::TypeForwardedFromAttribute, 0x18>, "Size mismatch!");
 
-} // namespace System::Runtime::CompilerServices
+} // namespace end def System::Runtime::CompilerServices
 NEED_NO_BOX(::System::Runtime::CompilerServices::TypeForwardedFromAttribute);
 DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::CompilerServices::TypeForwardedFromAttribute*, "System.Runtime.CompilerServices", "TypeForwardedFromAttribute");

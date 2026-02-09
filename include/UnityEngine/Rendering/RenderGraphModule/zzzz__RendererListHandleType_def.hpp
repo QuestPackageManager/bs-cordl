@@ -12,59 +12,59 @@ struct RendererListHandleType;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::RenderGraphModule::RendererListHandleType);
-// Dependencies
+// Dependencies 
 namespace UnityEngine::Rendering::RenderGraphModule {
 // Is value type: true
 // CS Name: UnityEngine.Rendering.RenderGraphModule.RendererListHandleType
 struct CORDL_TYPE RendererListHandleType {
 public:
-  // Declarations
-  using __CORDL_BACKING_ENUM_TYPE = int32_t;
+// Declarations
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct __RendererListHandleType_Unwrapped
-  enum struct __RendererListHandleType_Unwrapped : int32_t {
-    __E_Renderers = static_cast<int32_t>(0x0),
-    __E_Legacy = static_cast<int32_t>(0x1),
-  };
+/// @brief Nested struct __RendererListHandleType_Unwrapped
+enum struct __RendererListHandleType_Unwrapped : int32_t {
+__E_Renderers = static_cast<int32_t>(0x0),
+__E_Legacy = static_cast<int32_t>(0x1),
+};
 
-  /// @brief Conversion into unwrapped enum value
-  constexpr operator __RendererListHandleType_Unwrapped() const noexcept {
-    return static_cast<__RendererListHandleType_Unwrapped>(this->value__);
-  }
+/// @brief Conversion into unwrapped enum value
+constexpr operator __RendererListHandleType_Unwrapped () const noexcept {
+return static_cast<__RendererListHandleType_Unwrapped>(this->value__);
+}
 
-  /// @brief Conversion into unwrapped enum value
-  constexpr explicit operator int32_t() const noexcept {
-    return static_cast<int32_t>(this->value__);
-  }
+/// @brief Conversion into unwrapped enum value
+constexpr explicit operator int32_t () const noexcept {
+return static_cast<int32_t>(this->value__);
+}
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RendererListHandleType();
+// Ctor Parameters []
+// @brief default ctor
+constexpr RendererListHandleType() ;
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr RendererListHandleType(int32_t value__) noexcept;
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr RendererListHandleType(int32_t  value__) noexcept;
 
-  /// @brief Field Legacy value: I32(1)
-  static ::UnityEngine::Rendering::RenderGraphModule::RendererListHandleType const Legacy;
+/// @brief Field Legacy value: I32(1)
+static ::UnityEngine::Rendering::RenderGraphModule::RendererListHandleType const Legacy;
 
-  /// @brief Field Renderers value: I32(0)
-  static ::UnityEngine::Rendering::RenderGraphModule::RendererListHandleType const Renderers;
+/// @brief Field Renderers value: I32(0)
+static ::UnityEngine::Rendering::RenderGraphModule::RendererListHandleType const Renderers;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12428 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12432};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x4};
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+/// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+ int32_t  value__;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Rendering::RenderGraphModule::RendererListHandleType, value__) == 0x0, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::RenderGraphModule::RendererListHandleType, 0x4>, "Size mismatch!");
 
-} // namespace UnityEngine::Rendering::RenderGraphModule
+} // namespace end def UnityEngine::Rendering::RenderGraphModule
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::RenderGraphModule::RendererListHandleType, "UnityEngine.Rendering.RenderGraphModule", "RendererListHandleType");

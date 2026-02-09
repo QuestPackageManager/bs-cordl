@@ -9,7 +9,8 @@ namespace Oculus::Platform::Models {
 class DestinationList;
 }
 namespace Oculus::Platform {
-template <typename T> class Request_1;
+template<typename T>
+class Request_1;
 }
 namespace Oculus::Platform {
 class Request;
@@ -29,41 +30,41 @@ namespace Oculus::Platform {
 // CS Name: Oculus.Platform.RichPresence
 class CORDL_TYPE RichPresence : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method Clear, addr 0x5c3c6b4, size 0x144, virtual false, abstract: false, final false
-  static inline ::Oculus::Platform::Request* Clear();
+// Declarations
+/// @brief Method Clear, addr 0x5c3cbc0, size 0x144, virtual false, abstract: false, final false
+static inline ::Oculus::Platform::Request* Clear() ;
 
-  /// @brief Method GetDestinations, addr 0x5c3c7f8, size 0x158, virtual false, abstract: false, final false
-  static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::DestinationList*>* GetDestinations();
+/// @brief Method GetDestinations, addr 0x5c3cd04, size 0x158, virtual false, abstract: false, final false
+static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::DestinationList*>* GetDestinations() ;
 
-  /// @brief Method GetNextDestinationListPage, addr 0x5c3cab8, size 0x1f0, virtual false, abstract: false, final false
-  static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::DestinationList*>* GetNextDestinationListPage(::Oculus::Platform::Models::DestinationList* list);
+/// @brief Method GetNextDestinationListPage, addr 0x5c3cfc4, size 0x1f0, virtual false, abstract: false, final false
+static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::DestinationList*>* GetNextDestinationListPage(::Oculus::Platform::Models::DestinationList*  list) ;
 
-  /// @brief Method Set, addr 0x5c3c950, size 0x15c, virtual false, abstract: false, final false
-  static inline ::Oculus::Platform::Request* Set(::Oculus::Platform::RichPresenceOptions* richPresenceOptions);
+/// @brief Method Set, addr 0x5c3ce5c, size 0x15c, virtual false, abstract: false, final false
+static inline ::Oculus::Platform::Request* Set(::Oculus::Platform::RichPresenceOptions*  richPresenceOptions) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RichPresence();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr RichPresence() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RichPresence", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  RichPresence(RichPresence&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RichPresence", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  RichPresence(RichPresence const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "RichPresence", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+RichPresence(RichPresence && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17935 };
+// Ctor Parameters [CppParam { name: "", ty: "RichPresence", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+RichPresence(RichPresence const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{17939};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Oculus::Platform::RichPresence, 0x10>, "Size mismatch!");
 
-} // namespace Oculus::Platform
+} // namespace end def Oculus::Platform
 NEED_NO_BOX(::Oculus::Platform::RichPresence);
 DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::RichPresence*, "Oculus.Platform", "RichPresence");

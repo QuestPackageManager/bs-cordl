@@ -17,43 +17,43 @@ namespace GlobalNamespace {
 // CS Name: LightmappingSongController
 class CORDL_TYPE LightmappingSongController : public ::GlobalNamespace::SongController {
 public:
-  // Declarations
-  static inline ::GlobalNamespace::LightmappingSongController* New_ctor();
+// Declarations
+static inline ::GlobalNamespace::LightmappingSongController* New_ctor() ;
 
-  /// @brief Method PauseSong, addr 0x584989c, size 0x4, virtual true, abstract: false, final false
-  inline void PauseSong();
+/// @brief Method PauseSong, addr 0x584a1cc, size 0x4, virtual true, abstract: false, final false
+inline void PauseSong() ;
 
-  /// @brief Method ResumeSong, addr 0x58498a0, size 0x4, virtual true, abstract: false, final false
-  inline void ResumeSong();
+/// @brief Method ResumeSong, addr 0x584a1d0, size 0x4, virtual true, abstract: false, final false
+inline void ResumeSong() ;
 
-  /// @brief Method StopSong, addr 0x5849898, size 0x4, virtual true, abstract: false, final false
-  inline void StopSong();
+/// @brief Method StopSong, addr 0x584a1c8, size 0x4, virtual true, abstract: false, final false
+inline void StopSong() ;
 
-  /// @brief Method .ctor, addr 0x58498a4, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x584a1d4, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LightmappingSongController();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr LightmappingSongController() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LightmappingSongController", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  LightmappingSongController(LightmappingSongController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LightmappingSongController", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  LightmappingSongController(LightmappingSongController const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "LightmappingSongController", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+LightmappingSongController(LightmappingSongController && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6275 };
+// Ctor Parameters [CppParam { name: "", ty: "LightmappingSongController", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+LightmappingSongController(LightmappingSongController const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6275};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LightmappingSongController, 0x30>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::LightmappingSongController);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LightmappingSongController*, "", "LightmappingSongController");

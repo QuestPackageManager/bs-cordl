@@ -33,164 +33,163 @@ namespace GlobalNamespace {
 // CS Name: VertexDisplacementFloatFxGroupEffectTarget
 class CORDL_TYPE VertexDisplacementFloatFxGroupEffectTarget : public ::GlobalNamespace::FloatFxGroupEffectTarget {
 public:
-  // Declarations
-  /// @brief Field _bounds, offset 0x60, size 0x18
-  __declspec(property(get = __cordl_internal_get__bounds, put = __cordl_internal_set__bounds)) ::UnityEngine::Bounds _bounds;
+// Declarations
+/// @brief Field _bounds, offset 0x60, size 0x18 
+ __declspec(property(get=__cordl_internal_get__bounds, put=__cordl_internal_set__bounds)) ::UnityEngine::Bounds  _bounds;
 
-  /// @brief Field _displacementController, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__displacementController, put = __cordl_internal_set__displacementController)) ::UnityW<::GlobalNamespace::MaterialPropertyBlockController>
-      _displacementController;
+/// @brief Field _displacementController, offset 0x48, size 0x8 
+ __declspec(property(get=__cordl_internal_get__displacementController, put=__cordl_internal_set__displacementController)) ::UnityW<::GlobalNamespace::MaterialPropertyBlockController>  _displacementController;
 
-  /// @brief Field _displacementRanges, offset 0x20, size 0xc
-  __declspec(property(get = __cordl_internal_get__displacementRanges, put = __cordl_internal_set__displacementRanges)) ::UnityEngine::Vector3 _displacementRanges;
+/// @brief Field _displacementRanges, offset 0x20, size 0xc 
+ __declspec(property(get=__cordl_internal_get__displacementRanges, put=__cordl_internal_set__displacementRanges)) ::UnityEngine::Vector3  _displacementRanges;
 
-  /// @brief Field _renderer, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get__renderer, put = __cordl_internal_set__renderer)) ::UnityW<::UnityEngine::Renderer> _renderer;
+/// @brief Field _renderer, offset 0x50, size 0x8 
+ __declspec(property(get=__cordl_internal_get__renderer, put=__cordl_internal_set__renderer)) ::UnityW<::UnityEngine::Renderer>  _renderer;
 
-  /// @brief Field _testFloatValue, offset 0x5c, size 0x4
-  __declspec(property(get = __cordl_internal_get__testFloatValue, put = __cordl_internal_set__testFloatValue)) float_t _testFloatValue;
+/// @brief Field _testFloatValue, offset 0x5c, size 0x4 
+ __declspec(property(get=__cordl_internal_get__testFloatValue, put=__cordl_internal_set__testFloatValue)) float_t  _testFloatValue;
 
-  /// @brief Field _useTestValue, offset 0x58, size 0x1
-  __declspec(property(get = __cordl_internal_get__useTestValue, put = __cordl_internal_set__useTestValue)) bool _useTestValue;
+/// @brief Field _useTestValue, offset 0x58, size 0x1 
+ __declspec(property(get=__cordl_internal_get__useTestValue, put=__cordl_internal_set__useTestValue)) bool  _useTestValue;
 
-  /// @brief Field _vertexDisplacementRangeVectorPropertyID, offset 0xffffffff, size 0x4
-  __declspec(property(get = getStaticF__vertexDisplacementRangeVectorPropertyID, put = setStaticF__vertexDisplacementRangeVectorPropertyID)) int32_t _vertexDisplacementRangeVectorPropertyID;
+/// @brief Field _vertexDisplacementRangeVectorPropertyID, offset 0xffffffff, size 0x4 
+ __declspec(property(get=getStaticF__vertexDisplacementRangeVectorPropertyID, put=setStaticF__vertexDisplacementRangeVectorPropertyID)) int32_t  _vertexDisplacementRangeVectorPropertyID;
 
-  /// @brief Field _xAnimationCurve, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__xAnimationCurve, put = __cordl_internal_set__xAnimationCurve)) ::UnityEngine::AnimationCurve* _xAnimationCurve;
+/// @brief Field _xAnimationCurve, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get__xAnimationCurve, put=__cordl_internal_set__xAnimationCurve)) ::UnityEngine::AnimationCurve*  _xAnimationCurve;
 
-  /// @brief Field _yAnimationCurve, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__yAnimationCurve, put = __cordl_internal_set__yAnimationCurve)) ::UnityEngine::AnimationCurve* _yAnimationCurve;
+/// @brief Field _yAnimationCurve, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get__yAnimationCurve, put=__cordl_internal_set__yAnimationCurve)) ::UnityEngine::AnimationCurve*  _yAnimationCurve;
 
-  /// @brief Field _zAnimationCurve, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__zAnimationCurve, put = __cordl_internal_set__zAnimationCurve)) ::UnityEngine::AnimationCurve* _zAnimationCurve;
+/// @brief Field _zAnimationCurve, offset 0x40, size 0x8 
+ __declspec(property(get=__cordl_internal_get__zAnimationCurve, put=__cordl_internal_set__zAnimationCurve)) ::UnityEngine::AnimationCurve*  _zAnimationCurve;
 
-  /// @brief Method CalculateDisplacementVector, addr 0x57e413c, size 0x84, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector4 CalculateDisplacementVector(float_t value);
+/// @brief Method CalculateDisplacementVector, addr 0x57e4a6c, size 0x84, virtual false, abstract: false, final false
+inline ::UnityEngine::Vector4 CalculateDisplacementVector(float_t  value) ;
 
-  static inline ::GlobalNamespace::VertexDisplacementFloatFxGroupEffectTarget* New_ctor();
+static inline ::GlobalNamespace::VertexDisplacementFloatFxGroupEffectTarget* New_ctor() ;
 
-  /// @brief Method OnEnable, addr 0x57e4074, size 0xc8, virtual false, abstract: false, final false
-  inline void OnEnable();
+/// @brief Method OnEnable, addr 0x57e49a4, size 0xc8, virtual false, abstract: false, final false
+inline void OnEnable() ;
 
-  /// @brief Method OnValidate, addr 0x57e41c0, size 0x24, virtual false, abstract: false, final false
-  inline void OnValidate();
+/// @brief Method OnValidate, addr 0x57e4af0, size 0x24, virtual false, abstract: false, final false
+inline void OnValidate() ;
 
-  /// @brief Method SetValue, addr 0x57e41e4, size 0x4, virtual true, abstract: false, final false
-  inline void SetValue(int32_t groupId, int32_t elementId, float_t value);
+/// @brief Method SetValue, addr 0x57e4b14, size 0x4, virtual true, abstract: false, final false
+inline void SetValue(int32_t  groupId, int32_t  elementId, float_t  value) ;
 
-  /// @brief Method SetValue, addr 0x57e41e8, size 0xd0, virtual false, abstract: false, final false
-  inline void SetValue(float_t value);
+/// @brief Method SetValue, addr 0x57e4b18, size 0xd0, virtual false, abstract: false, final false
+inline void SetValue(float_t  value) ;
 
-  /// @brief Method TriggerValue, addr 0x57e42b8, size 0x4, virtual true, abstract: false, final false
-  inline void TriggerValue(int32_t groupId, int32_t elementId, float_t value);
+/// @brief Method TriggerValue, addr 0x57e4be8, size 0x4, virtual true, abstract: false, final false
+inline void TriggerValue(int32_t  groupId, int32_t  elementId, float_t  value) ;
 
-  constexpr ::UnityEngine::Bounds const& __cordl_internal_get__bounds() const;
+constexpr ::UnityEngine::Bounds const& __cordl_internal_get__bounds() const;
 
-  constexpr ::UnityEngine::Bounds& __cordl_internal_get__bounds();
+constexpr ::UnityEngine::Bounds& __cordl_internal_get__bounds() ;
 
-  constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> const& __cordl_internal_get__displacementController() const;
+constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> const& __cordl_internal_get__displacementController() const;
 
-  constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController>& __cordl_internal_get__displacementController();
+constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController>& __cordl_internal_get__displacementController() ;
 
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__displacementRanges() const;
+constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__displacementRanges() const;
 
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get__displacementRanges();
+constexpr ::UnityEngine::Vector3& __cordl_internal_get__displacementRanges() ;
 
-  constexpr ::UnityW<::UnityEngine::Renderer> const& __cordl_internal_get__renderer() const;
+constexpr ::UnityW<::UnityEngine::Renderer> const& __cordl_internal_get__renderer() const;
 
-  constexpr ::UnityW<::UnityEngine::Renderer>& __cordl_internal_get__renderer();
+constexpr ::UnityW<::UnityEngine::Renderer>& __cordl_internal_get__renderer() ;
 
-  constexpr float_t const& __cordl_internal_get__testFloatValue() const;
+constexpr float_t const& __cordl_internal_get__testFloatValue() const;
 
-  constexpr float_t& __cordl_internal_get__testFloatValue();
+constexpr float_t& __cordl_internal_get__testFloatValue() ;
 
-  constexpr bool const& __cordl_internal_get__useTestValue() const;
+constexpr bool const& __cordl_internal_get__useTestValue() const;
 
-  constexpr bool& __cordl_internal_get__useTestValue();
+constexpr bool& __cordl_internal_get__useTestValue() ;
 
-  constexpr ::UnityEngine::AnimationCurve* const& __cordl_internal_get__xAnimationCurve() const;
+constexpr ::UnityEngine::AnimationCurve* const& __cordl_internal_get__xAnimationCurve() const;
 
-  constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get__xAnimationCurve();
+constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get__xAnimationCurve() ;
 
-  constexpr ::UnityEngine::AnimationCurve* const& __cordl_internal_get__yAnimationCurve() const;
+constexpr ::UnityEngine::AnimationCurve* const& __cordl_internal_get__yAnimationCurve() const;
 
-  constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get__yAnimationCurve();
+constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get__yAnimationCurve() ;
 
-  constexpr ::UnityEngine::AnimationCurve* const& __cordl_internal_get__zAnimationCurve() const;
+constexpr ::UnityEngine::AnimationCurve* const& __cordl_internal_get__zAnimationCurve() const;
 
-  constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get__zAnimationCurve();
+constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get__zAnimationCurve() ;
 
-  constexpr void __cordl_internal_set__bounds(::UnityEngine::Bounds value);
+constexpr void __cordl_internal_set__bounds(::UnityEngine::Bounds  value) ;
 
-  constexpr void __cordl_internal_set__displacementController(::UnityW<::GlobalNamespace::MaterialPropertyBlockController> value);
+constexpr void __cordl_internal_set__displacementController(::UnityW<::GlobalNamespace::MaterialPropertyBlockController>  value) ;
 
-  constexpr void __cordl_internal_set__displacementRanges(::UnityEngine::Vector3 value);
+constexpr void __cordl_internal_set__displacementRanges(::UnityEngine::Vector3  value) ;
 
-  constexpr void __cordl_internal_set__renderer(::UnityW<::UnityEngine::Renderer> value);
+constexpr void __cordl_internal_set__renderer(::UnityW<::UnityEngine::Renderer>  value) ;
 
-  constexpr void __cordl_internal_set__testFloatValue(float_t value);
+constexpr void __cordl_internal_set__testFloatValue(float_t  value) ;
 
-  constexpr void __cordl_internal_set__useTestValue(bool value);
+constexpr void __cordl_internal_set__useTestValue(bool  value) ;
 
-  constexpr void __cordl_internal_set__xAnimationCurve(::UnityEngine::AnimationCurve* value);
+constexpr void __cordl_internal_set__xAnimationCurve(::UnityEngine::AnimationCurve*  value) ;
 
-  constexpr void __cordl_internal_set__yAnimationCurve(::UnityEngine::AnimationCurve* value);
+constexpr void __cordl_internal_set__yAnimationCurve(::UnityEngine::AnimationCurve*  value) ;
 
-  constexpr void __cordl_internal_set__zAnimationCurve(::UnityEngine::AnimationCurve* value);
+constexpr void __cordl_internal_set__zAnimationCurve(::UnityEngine::AnimationCurve*  value) ;
 
-  /// @brief Method .ctor, addr 0x57e42bc, size 0xd8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x57e4bec, size 0xd8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  static inline int32_t getStaticF__vertexDisplacementRangeVectorPropertyID();
+static inline int32_t getStaticF__vertexDisplacementRangeVectorPropertyID() ;
 
-  static inline void setStaticF__vertexDisplacementRangeVectorPropertyID(int32_t value);
+static inline void setStaticF__vertexDisplacementRangeVectorPropertyID(int32_t  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr VertexDisplacementFloatFxGroupEffectTarget();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr VertexDisplacementFloatFxGroupEffectTarget() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VertexDisplacementFloatFxGroupEffectTarget", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  VertexDisplacementFloatFxGroupEffectTarget(VertexDisplacementFloatFxGroupEffectTarget&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VertexDisplacementFloatFxGroupEffectTarget", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  VertexDisplacementFloatFxGroupEffectTarget(VertexDisplacementFloatFxGroupEffectTarget const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "VertexDisplacementFloatFxGroupEffectTarget", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+VertexDisplacementFloatFxGroupEffectTarget(VertexDisplacementFloatFxGroupEffectTarget && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5865 };
+// Ctor Parameters [CppParam { name: "", ty: "VertexDisplacementFloatFxGroupEffectTarget", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+VertexDisplacementFloatFxGroupEffectTarget(VertexDisplacementFloatFxGroupEffectTarget const& ) = delete;
 
-  /// @brief Field _displacementRanges, offset: 0x20, size: 0xc, def value: None
-  ::UnityEngine::Vector3 ____displacementRanges;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{5865};
 
-  /// @brief Field _xAnimationCurve, offset: 0x30, size: 0x8, def value: None
-  ::UnityEngine::AnimationCurve* ____xAnimationCurve;
+/// @brief Field _displacementRanges, offset: 0x20, size: 0xc, def value: None
+ ::UnityEngine::Vector3  ____displacementRanges;
 
-  /// @brief Field _yAnimationCurve, offset: 0x38, size: 0x8, def value: None
-  ::UnityEngine::AnimationCurve* ____yAnimationCurve;
+/// @brief Field _xAnimationCurve, offset: 0x30, size: 0x8, def value: None
+ ::UnityEngine::AnimationCurve*  ____xAnimationCurve;
 
-  /// @brief Field _zAnimationCurve, offset: 0x40, size: 0x8, def value: None
-  ::UnityEngine::AnimationCurve* ____zAnimationCurve;
+/// @brief Field _yAnimationCurve, offset: 0x38, size: 0x8, def value: None
+ ::UnityEngine::AnimationCurve*  ____yAnimationCurve;
 
-  /// @brief Field _displacementController, offset: 0x48, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> ____displacementController;
+/// @brief Field _zAnimationCurve, offset: 0x40, size: 0x8, def value: None
+ ::UnityEngine::AnimationCurve*  ____zAnimationCurve;
 
-  /// @brief Field _renderer, offset: 0x50, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::Renderer> ____renderer;
+/// @brief Field _displacementController, offset: 0x48, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::MaterialPropertyBlockController>  ____displacementController;
 
-  /// @brief Field _useTestValue, offset: 0x58, size: 0x1, def value: None
-  bool ____useTestValue;
+/// @brief Field _renderer, offset: 0x50, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::Renderer>  ____renderer;
 
-  /// @brief Field _testFloatValue, offset: 0x5c, size: 0x4, def value: None
-  float_t ____testFloatValue;
+/// @brief Field _useTestValue, offset: 0x58, size: 0x1, def value: None
+ bool  ____useTestValue;
 
-  /// @brief Field _bounds, offset: 0x60, size: 0x18, def value: None
-  ::UnityEngine::Bounds ____bounds;
+/// @brief Field _testFloatValue, offset: 0x5c, size: 0x4, def value: None
+ float_t  ____testFloatValue;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _bounds, offset: 0x60, size: 0x18, def value: None
+ ::UnityEngine::Bounds  ____bounds;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::VertexDisplacementFloatFxGroupEffectTarget, ____displacementRanges) == 0x20, "Offset mismatch!");
@@ -213,6 +212,6 @@ static_assert(offsetof(::GlobalNamespace::VertexDisplacementFloatFxGroupEffectTa
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::VertexDisplacementFloatFxGroupEffectTarget, 0x78>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::VertexDisplacementFloatFxGroupEffectTarget);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::VertexDisplacementFloatFxGroupEffectTarget*, "", "VertexDisplacementFloatFxGroupEffectTarget");

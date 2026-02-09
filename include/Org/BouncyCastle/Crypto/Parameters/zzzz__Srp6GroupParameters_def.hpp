@@ -20,64 +20,64 @@ namespace Org::BouncyCastle::Crypto::Parameters {
 // CS Name: Org.BouncyCastle.Crypto.Parameters.Srp6GroupParameters
 class CORDL_TYPE Srp6GroupParameters : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(get = get_G)) ::Org::BouncyCastle::Math::BigInteger* G;
+// Declarations
+ __declspec(property(get=get_G)) ::Org::BouncyCastle::Math::BigInteger*  G;
 
-  __declspec(property(get = get_N)) ::Org::BouncyCastle::Math::BigInteger* N;
+ __declspec(property(get=get_N)) ::Org::BouncyCastle::Math::BigInteger*  N;
 
-  /// @brief Field g, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_g, put = __cordl_internal_set_g)) ::Org::BouncyCastle::Math::BigInteger* g;
+/// @brief Field g, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_g, put=__cordl_internal_set_g)) ::Org::BouncyCastle::Math::BigInteger*  g;
 
-  /// @brief Field n, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_n, put = __cordl_internal_set_n)) ::Org::BouncyCastle::Math::BigInteger* n;
+/// @brief Field n, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_n, put=__cordl_internal_set_n)) ::Org::BouncyCastle::Math::BigInteger*  n;
 
-  static inline ::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters* New_ctor(::Org::BouncyCastle::Math::BigInteger* N, ::Org::BouncyCastle::Math::BigInteger* g);
+static inline ::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters* New_ctor(::Org::BouncyCastle::Math::BigInteger*  N, ::Org::BouncyCastle::Math::BigInteger*  g) ;
 
-  constexpr ::Org::BouncyCastle::Math::BigInteger* const& __cordl_internal_get_g() const;
+constexpr ::Org::BouncyCastle::Math::BigInteger* const& __cordl_internal_get_g() const;
 
-  constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_g();
+constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_g() ;
 
-  constexpr ::Org::BouncyCastle::Math::BigInteger* const& __cordl_internal_get_n() const;
+constexpr ::Org::BouncyCastle::Math::BigInteger* const& __cordl_internal_get_n() const;
 
-  constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_n();
+constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_n() ;
 
-  constexpr void __cordl_internal_set_g(::Org::BouncyCastle::Math::BigInteger* value);
+constexpr void __cordl_internal_set_g(::Org::BouncyCastle::Math::BigInteger*  value) ;
 
-  constexpr void __cordl_internal_set_n(::Org::BouncyCastle::Math::BigInteger* value);
+constexpr void __cordl_internal_set_n(::Org::BouncyCastle::Math::BigInteger*  value) ;
 
-  /// @brief Method .ctor, addr 0x331bc44, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Math::BigInteger* N, ::Org::BouncyCastle::Math::BigInteger* g);
+/// @brief Method .ctor, addr 0x331bb94, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(::Org::BouncyCastle::Math::BigInteger*  N, ::Org::BouncyCastle::Math::BigInteger*  g) ;
 
-  /// @brief Method get_G, addr 0x331bc4c, size 0x8, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Math::BigInteger* get_G();
+/// @brief Method get_G, addr 0x331bb9c, size 0x8, virtual false, abstract: false, final false
+inline ::Org::BouncyCastle::Math::BigInteger* get_G() ;
 
-  /// @brief Method get_N, addr 0x331bc54, size 0x8, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Math::BigInteger* get_N();
+/// @brief Method get_N, addr 0x331bba4, size 0x8, virtual false, abstract: false, final false
+inline ::Org::BouncyCastle::Math::BigInteger* get_N() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Srp6GroupParameters();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr Srp6GroupParameters() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Srp6GroupParameters", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  Srp6GroupParameters(Srp6GroupParameters&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Srp6GroupParameters", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  Srp6GroupParameters(Srp6GroupParameters const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "Srp6GroupParameters", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+Srp6GroupParameters(Srp6GroupParameters && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1086 };
+// Ctor Parameters [CppParam { name: "", ty: "Srp6GroupParameters", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+Srp6GroupParameters(Srp6GroupParameters const& ) = delete;
 
-  /// @brief Field n, offset: 0x10, size: 0x8, def value: None
-  ::Org::BouncyCastle::Math::BigInteger* ___n;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{1086};
 
-  /// @brief Field g, offset: 0x18, size: 0x8, def value: None
-  ::Org::BouncyCastle::Math::BigInteger* ___g;
+/// @brief Field n, offset: 0x10, size: 0x8, def value: None
+ ::Org::BouncyCastle::Math::BigInteger*  ___n;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field g, offset: 0x18, size: 0x8, def value: None
+ ::Org::BouncyCastle::Math::BigInteger*  ___g;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters, ___n) == 0x10, "Offset mismatch!");
@@ -86,6 +86,6 @@ static_assert(offsetof(::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParamet
 
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters, 0x20>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Crypto::Parameters
+} // namespace end def Org::BouncyCastle::Crypto::Parameters
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters*, "Org.BouncyCastle.Crypto.Parameters", "Srp6GroupParameters");

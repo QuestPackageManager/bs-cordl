@@ -19,40 +19,40 @@ namespace GlobalNamespace {
 // CS Name: System.IO.TextReader/NullTextReader
 class CORDL_TYPE TextReader_NullTextReader : public ::System::IO::TextReader {
 public:
-  // Declarations
-  static inline ::GlobalNamespace::TextReader_NullTextReader* New_ctor();
+// Declarations
+static inline ::GlobalNamespace::TextReader_NullTextReader* New_ctor() ;
 
-  /// @brief Method Read, addr 0x5a536f4, size 0x8, virtual true, abstract: false, final false
-  inline int32_t Read(::ArrayW<char16_t, ::Array<char16_t>*> buffer, int32_t index, int32_t count);
+/// @brief Method Read, addr 0x5a53c00, size 0x8, virtual true, abstract: false, final false
+inline int32_t Read(::ArrayW<char16_t,::Array<char16_t>*>  buffer, int32_t  index, int32_t  count) ;
 
-  /// @brief Method ReadLine, addr 0x5a536fc, size 0x8, virtual true, abstract: false, final false
-  inline ::StringW ReadLine();
+/// @brief Method ReadLine, addr 0x5a53c08, size 0x8, virtual true, abstract: false, final false
+inline ::StringW ReadLine() ;
 
-  /// @brief Method .ctor, addr 0x5a5369c, size 0x58, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5a53ba8, size 0x58, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TextReader_NullTextReader();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr TextReader_NullTextReader() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TextReader_NullTextReader", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  TextReader_NullTextReader(TextReader_NullTextReader&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TextReader_NullTextReader", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  TextReader_NullTextReader(TextReader_NullTextReader const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "TextReader_NullTextReader", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+TextReader_NullTextReader(TextReader_NullTextReader && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3864 };
+// Ctor Parameters [CppParam { name: "", ty: "TextReader_NullTextReader", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+TextReader_NullTextReader(TextReader_NullTextReader const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{3864};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::TextReader_NullTextReader, 0x18>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::TextReader_NullTextReader);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::TextReader_NullTextReader*, "System.IO", "TextReader/NullTextReader");

@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "System/Collections/ArrayList.hpp"
 #include "System/Collections/ArrayList_IListWrapper.hpp"
@@ -35,5 +35,6 @@ module;
 #include "System/Collections/SortedList_SyncSortedList.hpp"
 #include "System/Collections/Stack.hpp"
 #ifdef __cpp_modules
-export module Collections;
-#endif
+                    export module Collections;
+                    #endif
+                

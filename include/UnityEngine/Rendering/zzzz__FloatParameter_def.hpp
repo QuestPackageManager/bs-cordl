@@ -18,37 +18,37 @@ namespace UnityEngine::Rendering {
 // CS Name: UnityEngine.Rendering.FloatParameter
 class CORDL_TYPE FloatParameter : public ::UnityEngine::Rendering::VolumeParameter_1<float_t> {
 public:
-  // Declarations
-  /// @brief Method Interp, addr 0x6615b0c, size 0x14, virtual true, abstract: false, final true
-  inline void Interp(float_t from, float_t to, float_t t);
+// Declarations
+/// @brief Method Interp, addr 0x66161cc, size 0x14, virtual true, abstract: false, final true
+inline void Interp(float_t  from, float_t  to, float_t  t) ;
 
-  static inline ::UnityEngine::Rendering::FloatParameter* New_ctor(float_t value, bool overrideState);
+static inline ::UnityEngine::Rendering::FloatParameter* New_ctor(float_t  value, bool  overrideState) ;
 
-  /// @brief Method .ctor, addr 0x6615aa0, size 0x6c, virtual false, abstract: false, final false
-  inline void _ctor(float_t value, bool overrideState);
+/// @brief Method .ctor, addr 0x6616160, size 0x6c, virtual false, abstract: false, final false
+inline void _ctor(float_t  value, bool  overrideState) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr FloatParameter();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr FloatParameter() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FloatParameter", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  FloatParameter(FloatParameter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FloatParameter", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  FloatParameter(FloatParameter const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "FloatParameter", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+FloatParameter(FloatParameter && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12320 };
+// Ctor Parameters [CppParam { name: "", ty: "FloatParameter", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+FloatParameter(FloatParameter const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12324};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::FloatParameter, 0x18>, "Size mismatch!");
 
-} // namespace UnityEngine::Rendering
+} // namespace end def UnityEngine::Rendering
 NEED_NO_BOX(::UnityEngine::Rendering::FloatParameter);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::FloatParameter*, "UnityEngine.Rendering", "FloatParameter");

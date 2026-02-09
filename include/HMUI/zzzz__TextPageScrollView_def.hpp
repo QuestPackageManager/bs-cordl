@@ -21,57 +21,57 @@ namespace HMUI {
 // CS Name: HMUI.TextPageScrollView
 class CORDL_TYPE TextPageScrollView : public ::HMUI::ScrollView {
 public:
-  // Declarations
-  /// @brief Field _text, offset 0xb0, size 0x8
-  __declspec(property(get = __cordl_internal_get__text, put = __cordl_internal_set__text)) ::UnityW<::TMPro::TextMeshProUGUI> _text;
+// Declarations
+/// @brief Field _text, offset 0xb0, size 0x8 
+ __declspec(property(get=__cordl_internal_get__text, put=__cordl_internal_set__text)) ::UnityW<::TMPro::TextMeshProUGUI>  _text;
 
-  /// @brief Method AddText, addr 0x56dc4ac, size 0x64, virtual false, abstract: false, final false
-  inline void AddText(::StringW text);
+/// @brief Method AddText, addr 0x56dc234, size 0x64, virtual false, abstract: false, final false
+inline void AddText(::StringW  text) ;
 
-  static inline ::HMUI::TextPageScrollView* New_ctor();
+static inline ::HMUI::TextPageScrollView* New_ctor() ;
 
-  /// @brief Method SetText, addr 0x56dc42c, size 0x30, virtual false, abstract: false, final false
-  inline void SetText(::StringW text);
+/// @brief Method SetText, addr 0x56dc1b4, size 0x30, virtual false, abstract: false, final false
+inline void SetText(::StringW  text) ;
 
-  /// @brief Method UpdateMeshes, addr 0x56dc45c, size 0x50, virtual false, abstract: false, final false
-  inline void UpdateMeshes();
+/// @brief Method UpdateMeshes, addr 0x56dc1e4, size 0x50, virtual false, abstract: false, final false
+inline void UpdateMeshes() ;
 
-  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__text() const;
+constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__text() const;
 
-  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__text();
+constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__text() ;
 
-  constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshProUGUI> value);
+constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshProUGUI>  value) ;
 
-  /// @brief Method .ctor, addr 0x56dc510, size 0x2c, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x56dc298, size 0x2c, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TextPageScrollView();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr TextPageScrollView() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TextPageScrollView", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  TextPageScrollView(TextPageScrollView&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TextPageScrollView", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  TextPageScrollView(TextPageScrollView const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "TextPageScrollView", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+TextPageScrollView(TextPageScrollView && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19222 };
+// Ctor Parameters [CppParam { name: "", ty: "TextPageScrollView", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+TextPageScrollView(TextPageScrollView const& ) = delete;
 
-  /// @brief Field _text, offset: 0xb0, size: 0x8, def value: None
-  ::UnityW<::TMPro::TextMeshProUGUI> ____text;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{19226};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _text, offset: 0xb0, size: 0x8, def value: None
+ ::UnityW<::TMPro::TextMeshProUGUI>  ____text;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::HMUI::TextPageScrollView, ____text) == 0xb0, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::HMUI::TextPageScrollView, 0xb8>, "Size mismatch!");
 
-} // namespace HMUI
+} // namespace end def HMUI
 NEED_NO_BOX(::HMUI::TextPageScrollView);
 DEFINE_IL2CPP_ARG_TYPE(::HMUI::TextPageScrollView*, "HMUI", "TextPageScrollView");

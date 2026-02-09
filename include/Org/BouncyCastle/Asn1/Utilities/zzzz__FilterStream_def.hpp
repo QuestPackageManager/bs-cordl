@@ -24,100 +24,100 @@ namespace Org::BouncyCastle::Asn1::Utilities {
 // CS Name: Org.BouncyCastle.Asn1.Utilities.FilterStream
 class CORDL_TYPE FilterStream : public ::System::IO::Stream {
 public:
-  // Declarations
-  __declspec(property(get = get_CanRead)) bool CanRead;
+// Declarations
+ __declspec(property(get=get_CanRead)) bool  CanRead;
 
-  __declspec(property(get = get_CanSeek)) bool CanSeek;
+ __declspec(property(get=get_CanSeek)) bool  CanSeek;
 
-  __declspec(property(get = get_CanWrite)) bool CanWrite;
+ __declspec(property(get=get_CanWrite)) bool  CanWrite;
 
-  __declspec(property(get = get_Length)) int64_t Length;
+ __declspec(property(get=get_Length)) int64_t  Length;
 
-  __declspec(property(get = get_Position, put = set_Position)) int64_t Position;
+ __declspec(property(get=get_Position, put=set_Position)) int64_t  Position;
 
-  /// @brief Field s, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_s, put = __cordl_internal_set_s)) ::System::IO::Stream* s;
+/// @brief Field s, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get_s, put=__cordl_internal_set_s)) ::System::IO::Stream*  s;
 
-  /// @brief Method Close, addr 0x345a6cc, size 0x7c, virtual true, abstract: false, final false
-  inline void Close();
+/// @brief Method Close, addr 0x345a61c, size 0x7c, virtual true, abstract: false, final false
+inline void Close() ;
 
-  /// @brief Method Flush, addr 0x345a748, size 0x20, virtual true, abstract: false, final false
-  inline void Flush();
+/// @brief Method Flush, addr 0x345a698, size 0x20, virtual true, abstract: false, final false
+inline void Flush() ;
 
-  static inline ::Org::BouncyCastle::Asn1::Utilities::FilterStream* New_ctor(::System::IO::Stream* s);
+static inline ::Org::BouncyCastle::Asn1::Utilities::FilterStream* New_ctor(::System::IO::Stream*  s) ;
 
-  /// @brief Method Read, addr 0x345a7a8, size 0x20, virtual true, abstract: false, final false
-  inline int32_t Read(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
+/// @brief Method Read, addr 0x345a6f8, size 0x20, virtual true, abstract: false, final false
+inline int32_t Read(::ArrayW<uint8_t,::Array<uint8_t>*>  buffer, int32_t  offset, int32_t  count) ;
 
-  /// @brief Method ReadByte, addr 0x345a7c8, size 0x20, virtual true, abstract: false, final false
-  inline int32_t ReadByte();
+/// @brief Method ReadByte, addr 0x345a718, size 0x20, virtual true, abstract: false, final false
+inline int32_t ReadByte() ;
 
-  /// @brief Method Seek, addr 0x345a768, size 0x20, virtual true, abstract: false, final false
-  inline int64_t Seek(int64_t offset, ::System::IO::SeekOrigin origin);
+/// @brief Method Seek, addr 0x345a6b8, size 0x20, virtual true, abstract: false, final false
+inline int64_t Seek(int64_t  offset, ::System::IO::SeekOrigin  origin) ;
 
-  /// @brief Method SetLength, addr 0x345a788, size 0x20, virtual true, abstract: false, final false
-  inline void SetLength(int64_t value);
+/// @brief Method SetLength, addr 0x345a6d8, size 0x20, virtual true, abstract: false, final false
+inline void SetLength(int64_t  value) ;
 
-  /// @brief Method Write, addr 0x345a7e8, size 0x20, virtual true, abstract: false, final false
-  inline void Write(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
+/// @brief Method Write, addr 0x345a738, size 0x20, virtual true, abstract: false, final false
+inline void Write(::ArrayW<uint8_t,::Array<uint8_t>*>  buffer, int32_t  offset, int32_t  count) ;
 
-  /// @brief Method WriteByte, addr 0x345a808, size 0x20, virtual true, abstract: false, final false
-  inline void WriteByte(uint8_t value);
+/// @brief Method WriteByte, addr 0x345a758, size 0x20, virtual true, abstract: false, final false
+inline void WriteByte(uint8_t  value) ;
 
-  constexpr ::System::IO::Stream* const& __cordl_internal_get_s() const;
+constexpr ::System::IO::Stream* const& __cordl_internal_get_s() const;
 
-  constexpr ::System::IO::Stream*& __cordl_internal_get_s();
+constexpr ::System::IO::Stream*& __cordl_internal_get_s() ;
 
-  constexpr void __cordl_internal_set_s(::System::IO::Stream* value);
+constexpr void __cordl_internal_set_s(::System::IO::Stream*  value) ;
 
-  /// @brief Method .ctor, addr 0x345a5b8, size 0x64, virtual false, abstract: false, final false
-  inline void _ctor(::System::IO::Stream* s);
+/// @brief Method .ctor, addr 0x345a508, size 0x64, virtual false, abstract: false, final false
+inline void _ctor(::System::IO::Stream*  s) ;
 
-  /// @brief Method get_CanRead, addr 0x345a61c, size 0x1c, virtual true, abstract: false, final false
-  inline bool get_CanRead();
+/// @brief Method get_CanRead, addr 0x345a56c, size 0x1c, virtual true, abstract: false, final false
+inline bool get_CanRead() ;
 
-  /// @brief Method get_CanSeek, addr 0x345a638, size 0x1c, virtual true, abstract: false, final false
-  inline bool get_CanSeek();
+/// @brief Method get_CanSeek, addr 0x345a588, size 0x1c, virtual true, abstract: false, final false
+inline bool get_CanSeek() ;
 
-  /// @brief Method get_CanWrite, addr 0x345a654, size 0x1c, virtual true, abstract: false, final false
-  inline bool get_CanWrite();
+/// @brief Method get_CanWrite, addr 0x345a5a4, size 0x1c, virtual true, abstract: false, final false
+inline bool get_CanWrite() ;
 
-  /// @brief Method get_Length, addr 0x345a670, size 0x1c, virtual true, abstract: false, final false
-  inline int64_t get_Length();
+/// @brief Method get_Length, addr 0x345a5c0, size 0x1c, virtual true, abstract: false, final false
+inline int64_t get_Length() ;
 
-  /// @brief Method get_Position, addr 0x345a68c, size 0x20, virtual true, abstract: false, final false
-  inline int64_t get_Position();
+/// @brief Method get_Position, addr 0x345a5dc, size 0x20, virtual true, abstract: false, final false
+inline int64_t get_Position() ;
 
-  /// @brief Method set_Position, addr 0x345a6ac, size 0x20, virtual true, abstract: false, final false
-  inline void set_Position(int64_t value);
+/// @brief Method set_Position, addr 0x345a5fc, size 0x20, virtual true, abstract: false, final false
+inline void set_Position(int64_t  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr FilterStream();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr FilterStream() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FilterStream", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  FilterStream(FilterStream&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FilterStream", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  FilterStream(FilterStream const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "FilterStream", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+FilterStream(FilterStream && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 322 };
+// Ctor Parameters [CppParam { name: "", ty: "FilterStream", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+FilterStream(FilterStream const& ) = delete;
 
-  /// @brief Field s, offset: 0x28, size: 0x8, def value: None
-  ::System::IO::Stream* ___s;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{322};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field s, offset: 0x28, size: 0x8, def value: None
+ ::System::IO::Stream*  ___s;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Org::BouncyCastle::Asn1::Utilities::FilterStream, ___s) == 0x28, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Utilities::FilterStream, 0x30>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Asn1::Utilities
+} // namespace end def Org::BouncyCastle::Asn1::Utilities
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Utilities::FilterStream);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::Utilities::FilterStream*, "Org.BouncyCastle.Asn1.Utilities", "FilterStream");

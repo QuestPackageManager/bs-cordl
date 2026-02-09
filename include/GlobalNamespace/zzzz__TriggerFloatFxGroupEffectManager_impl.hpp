@@ -10,168 +10,192 @@
 #include "System/zzzz__Func_2_def.hpp"
 #include "Zenject/zzzz__DiContainer_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::TriggerFloatFxGroupEffectManager___c._ctor
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TriggerFloatFxGroupEffectManager___c::*)()>(
-    &::GlobalNamespace::TriggerFloatFxGroupEffectManager___c::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TriggerFloatFxGroupEffectManager___c::*)()>(&::GlobalNamespace::TriggerFloatFxGroupEffectManager___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x57e3ed4;
+  constexpr static std::size_t addrs = 0x57e4804;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TriggerFloatFxGroupEffectManager___c*>::get(),
-                                                                               ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TriggerFloatFxGroupEffectManager___c*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::TriggerFloatFxGroupEffectManager___c._Start_b__3_0
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::TriggerFloatFxGroupEffectManager___c::*)(::GlobalNamespace::FloatFxGroup*)>(
-    &::GlobalNamespace::TriggerFloatFxGroupEffectManager___c::_Start_b__3_0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::TriggerFloatFxGroupEffectManager___c::*)(::GlobalNamespace::FloatFxGroup*)>(&::GlobalNamespace::TriggerFloatFxGroupEffectManager___c::_Start_b__3_0)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x57e3ed8;
+  constexpr static std::size_t addrs = 0x57e4808;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TriggerFloatFxGroupEffectManager___c*>::get(), "<Start>b__3_0", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::FloatFxGroup*>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TriggerFloatFxGroupEffectManager___c*>::get(),
+                        "<Start>b__3_0",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::FloatFxGroup*>::get()}
+                    )));
     return ___internal_method;
   }
 };
-inline void GlobalNamespace::TriggerFloatFxGroupEffectManager___c::setStaticF___9(::GlobalNamespace::TriggerFloatFxGroupEffectManager___c* value) {
-  ::cordl_internals::setStaticField<::GlobalNamespace::TriggerFloatFxGroupEffectManager___c*, "<>9",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TriggerFloatFxGroupEffectManager___c*>::get>(
-      std::forward<::GlobalNamespace::TriggerFloatFxGroupEffectManager___c*>(value));
+inline void GlobalNamespace::TriggerFloatFxGroupEffectManager___c::setStaticF___9(::GlobalNamespace::TriggerFloatFxGroupEffectManager___c*  value)  {
+::cordl_internals::setStaticField<::GlobalNamespace::TriggerFloatFxGroupEffectManager___c*, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TriggerFloatFxGroupEffectManager___c*>::get>(std::forward<::GlobalNamespace::TriggerFloatFxGroupEffectManager___c*>(value));
 }
-inline ::GlobalNamespace::TriggerFloatFxGroupEffectManager___c* GlobalNamespace::TriggerFloatFxGroupEffectManager___c::getStaticF___9() {
-  return ::cordl_internals::getStaticField<::GlobalNamespace::TriggerFloatFxGroupEffectManager___c*, "<>9",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TriggerFloatFxGroupEffectManager___c*>::get>();
+inline ::GlobalNamespace::TriggerFloatFxGroupEffectManager___c* GlobalNamespace::TriggerFloatFxGroupEffectManager___c::getStaticF___9()  {
+return ::cordl_internals::getStaticField<::GlobalNamespace::TriggerFloatFxGroupEffectManager___c*, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TriggerFloatFxGroupEffectManager___c*>::get>();
 }
-inline void GlobalNamespace::TriggerFloatFxGroupEffectManager___c::setStaticF___9__3_0(::System::Func_2<::UnityW<::GlobalNamespace::FloatFxGroup>, bool>* value) {
-  ::cordl_internals::setStaticField<::System::Func_2<::UnityW<::GlobalNamespace::FloatFxGroup>, bool>*, "<>9__3_0",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TriggerFloatFxGroupEffectManager___c*>::get>(
-      std::forward<::System::Func_2<::UnityW<::GlobalNamespace::FloatFxGroup>, bool>*>(value));
+inline void GlobalNamespace::TriggerFloatFxGroupEffectManager___c::setStaticF___9__3_0(::System::Func_2<::UnityW<::GlobalNamespace::FloatFxGroup>,bool>*  value)  {
+::cordl_internals::setStaticField<::System::Func_2<::UnityW<::GlobalNamespace::FloatFxGroup>,bool>*, "<>9__3_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TriggerFloatFxGroupEffectManager___c*>::get>(std::forward<::System::Func_2<::UnityW<::GlobalNamespace::FloatFxGroup>,bool>*>(value));
 }
-inline ::System::Func_2<::UnityW<::GlobalNamespace::FloatFxGroup>, bool>* GlobalNamespace::TriggerFloatFxGroupEffectManager___c::getStaticF___9__3_0() {
-  return ::cordl_internals::getStaticField<::System::Func_2<::UnityW<::GlobalNamespace::FloatFxGroup>, bool>*, "<>9__3_0",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TriggerFloatFxGroupEffectManager___c*>::get>();
+inline ::System::Func_2<::UnityW<::GlobalNamespace::FloatFxGroup>,bool>* GlobalNamespace::TriggerFloatFxGroupEffectManager___c::getStaticF___9__3_0()  {
+return ::cordl_internals::getStaticField<::System::Func_2<::UnityW<::GlobalNamespace::FloatFxGroup>,bool>*, "<>9__3_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TriggerFloatFxGroupEffectManager___c*>::get>();
 }
-inline void GlobalNamespace::TriggerFloatFxGroupEffectManager___c::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TriggerFloatFxGroupEffectManager___c*>::get(),
-                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::TriggerFloatFxGroupEffectManager___c::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TriggerFloatFxGroupEffectManager___c*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline bool GlobalNamespace::TriggerFloatFxGroupEffectManager___c::_Start_b__3_0(::GlobalNamespace::FloatFxGroup* group) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TriggerFloatFxGroupEffectManager___c*>::get(), "<Start>b__3_0", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::FloatFxGroup*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, group);
+inline bool GlobalNamespace::TriggerFloatFxGroupEffectManager___c::_Start_b__3_0(::GlobalNamespace::FloatFxGroup*  group)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TriggerFloatFxGroupEffectManager___c*>::get(),
+                        "<Start>b__3_0",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::FloatFxGroup*>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, group);
 }
-inline ::GlobalNamespace::TriggerFloatFxGroupEffectManager___c* GlobalNamespace::TriggerFloatFxGroupEffectManager___c::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::TriggerFloatFxGroupEffectManager___c*>());
+inline ::GlobalNamespace::TriggerFloatFxGroupEffectManager___c* GlobalNamespace::TriggerFloatFxGroupEffectManager___c::New_ctor()  {
+return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::TriggerFloatFxGroupEffectManager___c*>());
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::TriggerFloatFxGroupEffectManager___c::TriggerFloatFxGroupEffectManager___c() {}
+constexpr ::GlobalNamespace::TriggerFloatFxGroupEffectManager___c::TriggerFloatFxGroupEffectManager___c()   {
+}
 //  Writing Method size for method: ::GlobalNamespace::TriggerFloatFxGroupEffectManager.Start
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TriggerFloatFxGroupEffectManager::*)()>(
-    &::GlobalNamespace::TriggerFloatFxGroupEffectManager::Start)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TriggerFloatFxGroupEffectManager::*)()>(&::GlobalNamespace::TriggerFloatFxGroupEffectManager::Start)> {
   constexpr static std::size_t size = 0x4e8;
-  constexpr static std::size_t addrs = 0x57e37f0;
+  constexpr static std::size_t addrs = 0x57e4120;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TriggerFloatFxGroupEffectManager*>::get(),
-                                                                               "Start", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TriggerFloatFxGroupEffectManager*>::get(),
+                        "Start",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::TriggerFloatFxGroupEffectManager.OnDestroy
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TriggerFloatFxGroupEffectManager::*)()>(
-    &::GlobalNamespace::TriggerFloatFxGroupEffectManager::OnDestroy)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TriggerFloatFxGroupEffectManager::*)()>(&::GlobalNamespace::TriggerFloatFxGroupEffectManager::OnDestroy)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x57e3cd8;
+  constexpr static std::size_t addrs = 0x57e4608;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TriggerFloatFxGroupEffectManager*>::get(),
-                                                                               "OnDestroy", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TriggerFloatFxGroupEffectManager*>::get(),
+                        "OnDestroy",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::TriggerFloatFxGroupEffectManager._ctor
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TriggerFloatFxGroupEffectManager::*)()>(
-    &::GlobalNamespace::TriggerFloatFxGroupEffectManager::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TriggerFloatFxGroupEffectManager::*)()>(&::GlobalNamespace::TriggerFloatFxGroupEffectManager::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x57e3e08;
+  constexpr static std::size_t addrs = 0x57e4738;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TriggerFloatFxGroupEffectManager*>::get(),
-                                                                               ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TriggerFloatFxGroupEffectManager*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
-constexpr ::ArrayW<::UnityW<::GlobalNamespace::FloatFxGroup>, ::Array<::UnityW<::GlobalNamespace::FloatFxGroup>>*>&
-GlobalNamespace::TriggerFloatFxGroupEffectManager::__cordl_internal_get__floatFxGroups() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____floatFxGroups;
+constexpr ::ArrayW<::UnityW<::GlobalNamespace::FloatFxGroup>,::Array<::UnityW<::GlobalNamespace::FloatFxGroup>>*>& GlobalNamespace::TriggerFloatFxGroupEffectManager::__cordl_internal_get__floatFxGroups()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____floatFxGroups;
 }
-constexpr ::ArrayW<::UnityW<::GlobalNamespace::FloatFxGroup>, ::Array<::UnityW<::GlobalNamespace::FloatFxGroup>>*> const&
-GlobalNamespace::TriggerFloatFxGroupEffectManager::__cordl_internal_get__floatFxGroups() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____floatFxGroups;
+constexpr ::ArrayW<::UnityW<::GlobalNamespace::FloatFxGroup>,::Array<::UnityW<::GlobalNamespace::FloatFxGroup>>*> const& GlobalNamespace::TriggerFloatFxGroupEffectManager::__cordl_internal_get__floatFxGroups() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____floatFxGroups;
 }
-constexpr void
-GlobalNamespace::TriggerFloatFxGroupEffectManager::__cordl_internal_set__floatFxGroups(::ArrayW<::UnityW<::GlobalNamespace::FloatFxGroup>, ::Array<::UnityW<::GlobalNamespace::FloatFxGroup>>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____floatFxGroups)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::TriggerFloatFxGroupEffectManager::__cordl_internal_set__floatFxGroups(::ArrayW<::UnityW<::GlobalNamespace::FloatFxGroup>,::Array<::UnityW<::GlobalNamespace::FloatFxGroup>>*>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____floatFxGroups)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::Zenject::DiContainer*& GlobalNamespace::TriggerFloatFxGroupEffectManager::__cordl_internal_get__container() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____container;
+constexpr ::Zenject::DiContainer*& GlobalNamespace::TriggerFloatFxGroupEffectManager::__cordl_internal_get__container()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____container;
 }
 constexpr ::Zenject::DiContainer* const& GlobalNamespace::TriggerFloatFxGroupEffectManager::__cordl_internal_get__container() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____container;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____container;
 }
-constexpr void GlobalNamespace::TriggerFloatFxGroupEffectManager::__cordl_internal_set__container(::Zenject::DiContainer* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____container)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::TriggerFloatFxGroupEffectManager::__cordl_internal_set__container(::Zenject::DiContainer*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____container)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::TriggerFloatFxGroupEffect*>*& GlobalNamespace::TriggerFloatFxGroupEffectManager::__cordl_internal_get__floatFxGroupEffects() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____floatFxGroupEffects;
+constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::TriggerFloatFxGroupEffect*>*& GlobalNamespace::TriggerFloatFxGroupEffectManager::__cordl_internal_get__floatFxGroupEffects()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____floatFxGroupEffects;
 }
-constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::TriggerFloatFxGroupEffect*>* const&
-GlobalNamespace::TriggerFloatFxGroupEffectManager::__cordl_internal_get__floatFxGroupEffects() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____floatFxGroupEffects;
+constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::TriggerFloatFxGroupEffect*>* const& GlobalNamespace::TriggerFloatFxGroupEffectManager::__cordl_internal_get__floatFxGroupEffects() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____floatFxGroupEffects;
 }
-constexpr void
-GlobalNamespace::TriggerFloatFxGroupEffectManager::__cordl_internal_set__floatFxGroupEffects(::System::Collections::Generic::List_1<::GlobalNamespace::TriggerFloatFxGroupEffect*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____floatFxGroupEffects)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::TriggerFloatFxGroupEffectManager::__cordl_internal_set__floatFxGroupEffects(::System::Collections::Generic::List_1<::GlobalNamespace::TriggerFloatFxGroupEffect*>*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____floatFxGroupEffects)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void GlobalNamespace::TriggerFloatFxGroupEffectManager::Start() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TriggerFloatFxGroupEffectManager*>::get(),
-                                                                             "Start", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::TriggerFloatFxGroupEffectManager::Start()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TriggerFloatFxGroupEffectManager*>::get(),
+                        "Start",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::TriggerFloatFxGroupEffectManager::OnDestroy() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TriggerFloatFxGroupEffectManager*>::get(),
-                                                                             "OnDestroy", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::TriggerFloatFxGroupEffectManager::OnDestroy()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TriggerFloatFxGroupEffectManager*>::get(),
+                        "OnDestroy",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::TriggerFloatFxGroupEffectManager::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TriggerFloatFxGroupEffectManager*>::get(),
-                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::TriggerFloatFxGroupEffectManager::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TriggerFloatFxGroupEffectManager*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::TriggerFloatFxGroupEffectManager* GlobalNamespace::TriggerFloatFxGroupEffectManager::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::TriggerFloatFxGroupEffectManager*>());
+inline ::GlobalNamespace::TriggerFloatFxGroupEffectManager* GlobalNamespace::TriggerFloatFxGroupEffectManager::New_ctor()  {
+return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::TriggerFloatFxGroupEffectManager*>());
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::TriggerFloatFxGroupEffectManager::TriggerFloatFxGroupEffectManager() {}
+constexpr ::GlobalNamespace::TriggerFloatFxGroupEffectManager::TriggerFloatFxGroupEffectManager()   {
+}

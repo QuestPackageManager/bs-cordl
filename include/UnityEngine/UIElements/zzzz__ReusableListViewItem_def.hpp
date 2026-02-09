@@ -21,99 +21,99 @@ namespace UnityEngine::UIElements {
 // CS Name: UnityEngine.UIElements.ReusableListViewItem
 class CORDL_TYPE ReusableListViewItem : public ::UnityEngine::UIElements::ReusableCollectionItem {
 public:
-  // Declarations
-  /// @brief Field k_SortingDisablesReorderingTooltip, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_k_SortingDisablesReorderingTooltip, put = setStaticF_k_SortingDisablesReorderingTooltip)) ::StringW k_SortingDisablesReorderingTooltip;
+// Declarations
+/// @brief Field k_SortingDisablesReorderingTooltip, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_k_SortingDisablesReorderingTooltip, put=setStaticF_k_SortingDisablesReorderingTooltip)) ::StringW  k_SortingDisablesReorderingTooltip;
 
-  /// @brief Field m_Container, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Container, put = __cordl_internal_set_m_Container)) ::UnityEngine::UIElements::VisualElement* m_Container;
+/// @brief Field m_Container, offset 0x48, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_Container, put=__cordl_internal_set_m_Container)) ::UnityEngine::UIElements::VisualElement*  m_Container;
 
-  /// @brief Field m_DragHandle, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_DragHandle, put = __cordl_internal_set_m_DragHandle)) ::UnityEngine::UIElements::VisualElement* m_DragHandle;
+/// @brief Field m_DragHandle, offset 0x50, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_DragHandle, put=__cordl_internal_set_m_DragHandle)) ::UnityEngine::UIElements::VisualElement*  m_DragHandle;
 
-  /// @brief Field m_ItemContainer, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_ItemContainer, put = __cordl_internal_set_m_ItemContainer)) ::UnityEngine::UIElements::VisualElement* m_ItemContainer;
+/// @brief Field m_ItemContainer, offset 0x58, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_ItemContainer, put=__cordl_internal_set_m_ItemContainer)) ::UnityEngine::UIElements::VisualElement*  m_ItemContainer;
 
-  __declspec(property(get = get_rootElement)) ::UnityEngine::UIElements::VisualElement* rootElement;
+ __declspec(property(get=get_rootElement)) ::UnityEngine::UIElements::VisualElement*  rootElement;
 
-  /// @brief Method DetachElement, addr 0x6a8a4bc, size 0x90, virtual true, abstract: false, final false
-  inline void DetachElement();
+/// @brief Method DetachElement, addr 0x6a8ab7c, size 0x90, virtual true, abstract: false, final false
+inline void DetachElement() ;
 
-  /// @brief Method Init, addr 0x6a8039c, size 0xc4, virtual false, abstract: false, final false
-  inline void Init(::UnityEngine::UIElements::VisualElement* item, bool usesAnimatedDragger);
+/// @brief Method Init, addr 0x6a80a5c, size 0xc4, virtual false, abstract: false, final false
+inline void Init(::UnityEngine::UIElements::VisualElement*  item, bool  usesAnimatedDragger) ;
 
-  static inline ::UnityEngine::UIElements::ReusableListViewItem* New_ctor();
+static inline ::UnityEngine::UIElements::ReusableListViewItem* New_ctor() ;
 
-  /// @brief Method PreAttachElement, addr 0x6a8a42c, size 0x90, virtual true, abstract: false, final false
-  inline void PreAttachElement();
+/// @brief Method PreAttachElement, addr 0x6a8aaec, size 0x90, virtual true, abstract: false, final false
+inline void PreAttachElement() ;
 
-  /// @brief Method SetDragGhost, addr 0x6a8a54c, size 0x90, virtual true, abstract: false, final false
-  inline void SetDragGhost(bool dragGhost);
+/// @brief Method SetDragGhost, addr 0x6a8ac0c, size 0x90, virtual true, abstract: false, final false
+inline void SetDragGhost(bool  dragGhost) ;
 
-  /// @brief Method SetDragHandleEnabled, addr 0x6a888ec, size 0xac, virtual false, abstract: false, final false
-  inline void SetDragHandleEnabled(bool enabled);
+/// @brief Method SetDragHandleEnabled, addr 0x6a88fac, size 0xac, virtual false, abstract: false, final false
+inline void SetDragHandleEnabled(bool  enabled) ;
 
-  /// @brief Method UpdateDragHandle, addr 0x6a80a24, size 0x144, virtual false, abstract: false, final false
-  inline void UpdateDragHandle(bool needsDragHandle);
+/// @brief Method UpdateDragHandle, addr 0x6a810e4, size 0x144, virtual false, abstract: false, final false
+inline void UpdateDragHandle(bool  needsDragHandle) ;
 
-  /// @brief Method UpdateHierarchy, addr 0x6a8a1c8, size 0x264, virtual false, abstract: false, final false
-  inline void UpdateHierarchy(::UnityEngine::UIElements::VisualElement* root, ::UnityEngine::UIElements::VisualElement* item, bool usesAnimatedDragger);
+/// @brief Method UpdateHierarchy, addr 0x6a8a888, size 0x264, virtual false, abstract: false, final false
+inline void UpdateHierarchy(::UnityEngine::UIElements::VisualElement*  root, ::UnityEngine::UIElements::VisualElement*  item, bool  usesAnimatedDragger) ;
 
-  constexpr ::UnityEngine::UIElements::VisualElement* const& __cordl_internal_get_m_Container() const;
+constexpr ::UnityEngine::UIElements::VisualElement* const& __cordl_internal_get_m_Container() const;
 
-  constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get_m_Container();
+constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get_m_Container() ;
 
-  constexpr ::UnityEngine::UIElements::VisualElement* const& __cordl_internal_get_m_DragHandle() const;
+constexpr ::UnityEngine::UIElements::VisualElement* const& __cordl_internal_get_m_DragHandle() const;
 
-  constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get_m_DragHandle();
+constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get_m_DragHandle() ;
 
-  constexpr ::UnityEngine::UIElements::VisualElement* const& __cordl_internal_get_m_ItemContainer() const;
+constexpr ::UnityEngine::UIElements::VisualElement* const& __cordl_internal_get_m_ItemContainer() const;
 
-  constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get_m_ItemContainer();
+constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get_m_ItemContainer() ;
 
-  constexpr void __cordl_internal_set_m_Container(::UnityEngine::UIElements::VisualElement* value);
+constexpr void __cordl_internal_set_m_Container(::UnityEngine::UIElements::VisualElement*  value) ;
 
-  constexpr void __cordl_internal_set_m_DragHandle(::UnityEngine::UIElements::VisualElement* value);
+constexpr void __cordl_internal_set_m_DragHandle(::UnityEngine::UIElements::VisualElement*  value) ;
 
-  constexpr void __cordl_internal_set_m_ItemContainer(::UnityEngine::UIElements::VisualElement* value);
+constexpr void __cordl_internal_set_m_ItemContainer(::UnityEngine::UIElements::VisualElement*  value) ;
 
-  /// @brief Method .ctor, addr 0x6a8a5dc, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6a8ac9c, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  static inline ::StringW getStaticF_k_SortingDisablesReorderingTooltip();
+static inline ::StringW getStaticF_k_SortingDisablesReorderingTooltip() ;
 
-  /// @brief Method get_rootElement, addr 0x6a8a1b0, size 0x18, virtual true, abstract: false, final false
-  inline ::UnityEngine::UIElements::VisualElement* get_rootElement();
+/// @brief Method get_rootElement, addr 0x6a8a870, size 0x18, virtual true, abstract: false, final false
+inline ::UnityEngine::UIElements::VisualElement* get_rootElement() ;
 
-  static inline void setStaticF_k_SortingDisablesReorderingTooltip(::StringW value);
+static inline void setStaticF_k_SortingDisablesReorderingTooltip(::StringW  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ReusableListViewItem();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ReusableListViewItem() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ReusableListViewItem", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ReusableListViewItem(ReusableListViewItem&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ReusableListViewItem", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ReusableListViewItem(ReusableListViewItem const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ReusableListViewItem", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ReusableListViewItem(ReusableListViewItem && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4095 };
+// Ctor Parameters [CppParam { name: "", ty: "ReusableListViewItem", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ReusableListViewItem(ReusableListViewItem const& ) = delete;
 
-  /// @brief Field m_Container, offset: 0x48, size: 0x8, def value: None
-  ::UnityEngine::UIElements::VisualElement* ___m_Container;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4095};
 
-  /// @brief Field m_DragHandle, offset: 0x50, size: 0x8, def value: None
-  ::UnityEngine::UIElements::VisualElement* ___m_DragHandle;
+/// @brief Field m_Container, offset: 0x48, size: 0x8, def value: None
+ ::UnityEngine::UIElements::VisualElement*  ___m_Container;
 
-  /// @brief Field m_ItemContainer, offset: 0x58, size: 0x8, def value: None
-  ::UnityEngine::UIElements::VisualElement* ___m_ItemContainer;
+/// @brief Field m_DragHandle, offset: 0x50, size: 0x8, def value: None
+ ::UnityEngine::UIElements::VisualElement*  ___m_DragHandle;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field m_ItemContainer, offset: 0x58, size: 0x8, def value: None
+ ::UnityEngine::UIElements::VisualElement*  ___m_ItemContainer;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::UIElements::ReusableListViewItem, ___m_Container) == 0x48, "Offset mismatch!");
@@ -124,6 +124,6 @@ static_assert(offsetof(::UnityEngine::UIElements::ReusableListViewItem, ___m_Ite
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::ReusableListViewItem, 0x60>, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements
+} // namespace end def UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::ReusableListViewItem);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::ReusableListViewItem*, "UnityEngine.UIElements", "ReusableListViewItem");

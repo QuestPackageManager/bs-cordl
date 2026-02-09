@@ -21,42 +21,42 @@ namespace Org::BouncyCastle::Asn1::X509 {
 // CS Name: Org.BouncyCastle.Asn1.X509.CrlNumber
 class CORDL_TYPE CrlNumber : public ::Org::BouncyCastle::Asn1::DerInteger {
 public:
-  // Declarations
-  __declspec(property(get = get_Number)) ::Org::BouncyCastle::Math::BigInteger* Number;
+// Declarations
+ __declspec(property(get=get_Number)) ::Org::BouncyCastle::Math::BigInteger*  Number;
 
-  static inline ::Org::BouncyCastle::Asn1::X509::CrlNumber* New_ctor(::Org::BouncyCastle::Math::BigInteger* number);
+static inline ::Org::BouncyCastle::Asn1::X509::CrlNumber* New_ctor(::Org::BouncyCastle::Math::BigInteger*  number) ;
 
-  /// @brief Method ToString, addr 0x355e700, size 0x60, virtual true, abstract: false, final false
-  inline ::StringW ToString();
+/// @brief Method ToString, addr 0x355e650, size 0x60, virtual true, abstract: false, final false
+inline ::StringW ToString() ;
 
-  /// @brief Method .ctor, addr 0x355e6f0, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Math::BigInteger* number);
+/// @brief Method .ctor, addr 0x355e640, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(::Org::BouncyCastle::Math::BigInteger*  number) ;
 
-  /// @brief Method get_Number, addr 0x355e6f8, size 0x8, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Math::BigInteger* get_Number();
+/// @brief Method get_Number, addr 0x355e648, size 0x8, virtual false, abstract: false, final false
+inline ::Org::BouncyCastle::Math::BigInteger* get_Number() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CrlNumber();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr CrlNumber() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CrlNumber", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  CrlNumber(CrlNumber&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CrlNumber", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  CrlNumber(CrlNumber const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "CrlNumber", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+CrlNumber(CrlNumber && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 353 };
+// Ctor Parameters [CppParam { name: "", ty: "CrlNumber", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+CrlNumber(CrlNumber const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{353};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::X509::CrlNumber, 0x20>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Asn1::X509
+} // namespace end def Org::BouncyCastle::Asn1::X509
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::X509::CrlNumber);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::X509::CrlNumber*, "Org.BouncyCastle.Asn1.X509", "CrlNumber");

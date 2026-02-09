@@ -10,7 +10,8 @@ namespace Meta::XR::BuildingBlocks {
 class VariantCheckpoint;
 }
 namespace System::Collections::Generic {
-template <typename T> class List_1;
+template<typename T>
+class List_1;
 }
 // Forward declare root types
 namespace Meta::XR::BuildingBlocks {
@@ -24,66 +25,64 @@ namespace Meta::XR::BuildingBlocks {
 // CS Name: Meta.XR.BuildingBlocks.InstallationRoutineCheckpoint
 class CORDL_TYPE InstallationRoutineCheckpoint : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(get = get_InstallationRoutineId)) ::StringW InstallationRoutineId;
+// Declarations
+ __declspec(property(get=get_InstallationRoutineId)) ::StringW  InstallationRoutineId;
 
-  __declspec(property(get = get_InstallationVariants)) ::System::Collections::Generic::List_1<::Meta::XR::BuildingBlocks::VariantCheckpoint*>* InstallationVariants;
+ __declspec(property(get=get_InstallationVariants)) ::System::Collections::Generic::List_1<::Meta::XR::BuildingBlocks::VariantCheckpoint*>*  InstallationVariants;
 
-  /// @brief Field _installationRoutineId, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__installationRoutineId, put = __cordl_internal_set__installationRoutineId)) ::StringW _installationRoutineId;
+/// @brief Field _installationRoutineId, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get__installationRoutineId, put=__cordl_internal_set__installationRoutineId)) ::StringW  _installationRoutineId;
 
-  /// @brief Field _installationVariants, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__installationVariants,
-                      put = __cordl_internal_set__installationVariants)) ::System::Collections::Generic::List_1<::Meta::XR::BuildingBlocks::VariantCheckpoint*>* _installationVariants;
+/// @brief Field _installationVariants, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get__installationVariants, put=__cordl_internal_set__installationVariants)) ::System::Collections::Generic::List_1<::Meta::XR::BuildingBlocks::VariantCheckpoint*>*  _installationVariants;
 
-  static inline ::Meta::XR::BuildingBlocks::InstallationRoutineCheckpoint* New_ctor(::StringW installationRoutineId,
-                                                                                    ::System::Collections::Generic::List_1<::Meta::XR::BuildingBlocks::VariantCheckpoint*>* installationVariants);
+static inline ::Meta::XR::BuildingBlocks::InstallationRoutineCheckpoint* New_ctor(::StringW  installationRoutineId, ::System::Collections::Generic::List_1<::Meta::XR::BuildingBlocks::VariantCheckpoint*>*  installationVariants) ;
 
-  constexpr ::StringW const& __cordl_internal_get__installationRoutineId() const;
+constexpr ::StringW const& __cordl_internal_get__installationRoutineId() const;
 
-  constexpr ::StringW& __cordl_internal_get__installationRoutineId();
+constexpr ::StringW& __cordl_internal_get__installationRoutineId() ;
 
-  constexpr ::System::Collections::Generic::List_1<::Meta::XR::BuildingBlocks::VariantCheckpoint*>* const& __cordl_internal_get__installationVariants() const;
+constexpr ::System::Collections::Generic::List_1<::Meta::XR::BuildingBlocks::VariantCheckpoint*>* const& __cordl_internal_get__installationVariants() const;
 
-  constexpr ::System::Collections::Generic::List_1<::Meta::XR::BuildingBlocks::VariantCheckpoint*>*& __cordl_internal_get__installationVariants();
+constexpr ::System::Collections::Generic::List_1<::Meta::XR::BuildingBlocks::VariantCheckpoint*>*& __cordl_internal_get__installationVariants() ;
 
-  constexpr void __cordl_internal_set__installationRoutineId(::StringW value);
+constexpr void __cordl_internal_set__installationRoutineId(::StringW  value) ;
 
-  constexpr void __cordl_internal_set__installationVariants(::System::Collections::Generic::List_1<::Meta::XR::BuildingBlocks::VariantCheckpoint*>* value);
+constexpr void __cordl_internal_set__installationVariants(::System::Collections::Generic::List_1<::Meta::XR::BuildingBlocks::VariantCheckpoint*>*  value) ;
 
-  /// @brief Method .ctor, addr 0x588cc00, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::StringW installationRoutineId, ::System::Collections::Generic::List_1<::Meta::XR::BuildingBlocks::VariantCheckpoint*>* installationVariants);
+/// @brief Method .ctor, addr 0x588d10c, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(::StringW  installationRoutineId, ::System::Collections::Generic::List_1<::Meta::XR::BuildingBlocks::VariantCheckpoint*>*  installationVariants) ;
 
-  /// @brief Method get_InstallationRoutineId, addr 0x588cbf0, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_InstallationRoutineId();
+/// @brief Method get_InstallationRoutineId, addr 0x588d0fc, size 0x8, virtual false, abstract: false, final false
+inline ::StringW get_InstallationRoutineId() ;
 
-  /// @brief Method get_InstallationVariants, addr 0x588cbf8, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::List_1<::Meta::XR::BuildingBlocks::VariantCheckpoint*>* get_InstallationVariants();
+/// @brief Method get_InstallationVariants, addr 0x588d104, size 0x8, virtual false, abstract: false, final false
+inline ::System::Collections::Generic::List_1<::Meta::XR::BuildingBlocks::VariantCheckpoint*>* get_InstallationVariants() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr InstallationRoutineCheckpoint();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr InstallationRoutineCheckpoint() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InstallationRoutineCheckpoint", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  InstallationRoutineCheckpoint(InstallationRoutineCheckpoint&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InstallationRoutineCheckpoint", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  InstallationRoutineCheckpoint(InstallationRoutineCheckpoint const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "InstallationRoutineCheckpoint", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+InstallationRoutineCheckpoint(InstallationRoutineCheckpoint && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21188 };
+// Ctor Parameters [CppParam { name: "", ty: "InstallationRoutineCheckpoint", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+InstallationRoutineCheckpoint(InstallationRoutineCheckpoint const& ) = delete;
 
-  /// @brief Field _installationRoutineId, offset: 0x10, size: 0x8, def value: None
-  ::StringW ____installationRoutineId;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{21192};
 
-  /// @brief Field _installationVariants, offset: 0x18, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::Meta::XR::BuildingBlocks::VariantCheckpoint*>* ____installationVariants;
+/// @brief Field _installationRoutineId, offset: 0x10, size: 0x8, def value: None
+ ::StringW  ____installationRoutineId;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _installationVariants, offset: 0x18, size: 0x8, def value: None
+ ::System::Collections::Generic::List_1<::Meta::XR::BuildingBlocks::VariantCheckpoint*>*  ____installationVariants;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Meta::XR::BuildingBlocks::InstallationRoutineCheckpoint, ____installationRoutineId) == 0x10, "Offset mismatch!");
@@ -92,6 +91,6 @@ static_assert(offsetof(::Meta::XR::BuildingBlocks::InstallationRoutineCheckpoint
 
 static_assert(::cordl_internals::size_check_v<::Meta::XR::BuildingBlocks::InstallationRoutineCheckpoint, 0x20>, "Size mismatch!");
 
-} // namespace Meta::XR::BuildingBlocks
+} // namespace end def Meta::XR::BuildingBlocks
 NEED_NO_BOX(::Meta::XR::BuildingBlocks::InstallationRoutineCheckpoint);
 DEFINE_IL2CPP_ARG_TYPE(::Meta::XR::BuildingBlocks::InstallationRoutineCheckpoint*, "Meta.XR.BuildingBlocks", "InstallationRoutineCheckpoint");

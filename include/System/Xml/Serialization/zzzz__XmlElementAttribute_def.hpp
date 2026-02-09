@@ -29,157 +29,157 @@ namespace System::Xml::Serialization {
 // CS Name: System.Xml.Serialization.XmlElementAttribute
 class CORDL_TYPE XmlElementAttribute : public ::System::Attribute {
 public:
-  // Declarations
-  __declspec(property(get = get_DataType)) ::StringW DataType;
+// Declarations
+ __declspec(property(get=get_DataType)) ::StringW  DataType;
 
-  __declspec(property(get = get_ElementName)) ::StringW ElementName;
+ __declspec(property(get=get_ElementName)) ::StringW  ElementName;
 
-  __declspec(property(get = get_Form)) ::System::Xml::Schema::XmlSchemaForm Form;
+ __declspec(property(get=get_Form)) ::System::Xml::Schema::XmlSchemaForm  Form;
 
-  __declspec(property(get = get_IsNullable)) bool IsNullable;
+ __declspec(property(get=get_IsNullable)) bool  IsNullable;
 
-  __declspec(property(get = get_Namespace)) ::StringW Namespace;
+ __declspec(property(get=get_Namespace)) ::StringW  Namespace;
 
-  __declspec(property(get = get_Order)) int32_t Order;
+ __declspec(property(get=get_Order)) int32_t  Order;
 
-  __declspec(property(get = get_Type)) ::System::Type* Type;
+ __declspec(property(get=get_Type)) ::System::Type*  Type;
 
-  /// @brief Field dataType, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_dataType, put = __cordl_internal_set_dataType)) ::StringW dataType;
+/// @brief Field dataType, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_dataType, put=__cordl_internal_set_dataType)) ::StringW  dataType;
 
-  /// @brief Field elementName, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_elementName, put = __cordl_internal_set_elementName)) ::StringW elementName;
+/// @brief Field elementName, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_elementName, put=__cordl_internal_set_elementName)) ::StringW  elementName;
 
-  /// @brief Field form, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get_form, put = __cordl_internal_set_form)) ::System::Xml::Schema::XmlSchemaForm form;
+/// @brief Field form, offset 0x20, size 0x4 
+ __declspec(property(get=__cordl_internal_get_form, put=__cordl_internal_set_form)) ::System::Xml::Schema::XmlSchemaForm  form;
 
-  /// @brief Field isNullable, offset 0x30, size 0x1
-  __declspec(property(get = __cordl_internal_get_isNullable, put = __cordl_internal_set_isNullable)) bool isNullable;
+/// @brief Field isNullable, offset 0x30, size 0x1 
+ __declspec(property(get=__cordl_internal_get_isNullable, put=__cordl_internal_set_isNullable)) bool  isNullable;
 
-  /// @brief Field ns, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_ns, put = __cordl_internal_set_ns)) ::StringW ns;
+/// @brief Field ns, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get_ns, put=__cordl_internal_set_ns)) ::StringW  ns;
 
-  /// @brief Field order, offset 0x40, size 0x4
-  __declspec(property(get = __cordl_internal_get_order, put = __cordl_internal_set_order)) int32_t order;
+/// @brief Field order, offset 0x40, size 0x4 
+ __declspec(property(get=__cordl_internal_get_order, put=__cordl_internal_set_order)) int32_t  order;
 
-  /// @brief Field type, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type)) ::System::Type* type;
+/// @brief Field type, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get_type, put=__cordl_internal_set_type)) ::System::Type*  type;
 
-  /// @brief Method AddKeyHash, addr 0x61411d8, size 0x14c, virtual false, abstract: false, final false
-  inline void AddKeyHash(::System::Text::StringBuilder* sb);
+/// @brief Method AddKeyHash, addr 0x6141898, size 0x14c, virtual false, abstract: false, final false
+inline void AddKeyHash(::System::Text::StringBuilder*  sb) ;
 
-  static inline ::System::Xml::Serialization::XmlElementAttribute* New_ctor(::StringW elementName);
+static inline ::System::Xml::Serialization::XmlElementAttribute* New_ctor(::StringW  elementName) ;
 
-  static inline ::System::Xml::Serialization::XmlElementAttribute* New_ctor(::StringW elementName, ::System::Type* type);
+static inline ::System::Xml::Serialization::XmlElementAttribute* New_ctor(::StringW  elementName, ::System::Type*  type) ;
 
-  constexpr ::StringW const& __cordl_internal_get_dataType() const;
+constexpr ::StringW const& __cordl_internal_get_dataType() const;
 
-  constexpr ::StringW& __cordl_internal_get_dataType();
+constexpr ::StringW& __cordl_internal_get_dataType() ;
 
-  constexpr ::StringW const& __cordl_internal_get_elementName() const;
+constexpr ::StringW const& __cordl_internal_get_elementName() const;
 
-  constexpr ::StringW& __cordl_internal_get_elementName();
+constexpr ::StringW& __cordl_internal_get_elementName() ;
 
-  constexpr ::System::Xml::Schema::XmlSchemaForm const& __cordl_internal_get_form() const;
+constexpr ::System::Xml::Schema::XmlSchemaForm const& __cordl_internal_get_form() const;
 
-  constexpr ::System::Xml::Schema::XmlSchemaForm& __cordl_internal_get_form();
+constexpr ::System::Xml::Schema::XmlSchemaForm& __cordl_internal_get_form() ;
 
-  constexpr bool const& __cordl_internal_get_isNullable() const;
+constexpr bool const& __cordl_internal_get_isNullable() const;
 
-  constexpr bool& __cordl_internal_get_isNullable();
+constexpr bool& __cordl_internal_get_isNullable() ;
 
-  constexpr ::StringW const& __cordl_internal_get_ns() const;
+constexpr ::StringW const& __cordl_internal_get_ns() const;
 
-  constexpr ::StringW& __cordl_internal_get_ns();
+constexpr ::StringW& __cordl_internal_get_ns() ;
 
-  constexpr int32_t const& __cordl_internal_get_order() const;
+constexpr int32_t const& __cordl_internal_get_order() const;
 
-  constexpr int32_t& __cordl_internal_get_order();
+constexpr int32_t& __cordl_internal_get_order() ;
 
-  constexpr ::System::Type* const& __cordl_internal_get_type() const;
+constexpr ::System::Type* const& __cordl_internal_get_type() const;
 
-  constexpr ::System::Type*& __cordl_internal_get_type();
+constexpr ::System::Type*& __cordl_internal_get_type() ;
 
-  constexpr void __cordl_internal_set_dataType(::StringW value);
+constexpr void __cordl_internal_set_dataType(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_elementName(::StringW value);
+constexpr void __cordl_internal_set_elementName(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_form(::System::Xml::Schema::XmlSchemaForm value);
+constexpr void __cordl_internal_set_form(::System::Xml::Schema::XmlSchemaForm  value) ;
 
-  constexpr void __cordl_internal_set_isNullable(bool value);
+constexpr void __cordl_internal_set_isNullable(bool  value) ;
 
-  constexpr void __cordl_internal_set_ns(::StringW value);
+constexpr void __cordl_internal_set_ns(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_order(int32_t value);
+constexpr void __cordl_internal_set_order(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_type(::System::Type* value);
+constexpr void __cordl_internal_set_type(::System::Type*  value) ;
 
-  /// @brief Method .ctor, addr 0x614114c, size 0x10, virtual false, abstract: false, final false
-  inline void _ctor(::StringW elementName);
+/// @brief Method .ctor, addr 0x614180c, size 0x10, virtual false, abstract: false, final false
+inline void _ctor(::StringW  elementName) ;
 
-  /// @brief Method .ctor, addr 0x614115c, size 0x14, virtual false, abstract: false, final false
-  inline void _ctor(::StringW elementName, ::System::Type* type);
+/// @brief Method .ctor, addr 0x614181c, size 0x14, virtual false, abstract: false, final false
+inline void _ctor(::StringW  elementName, ::System::Type*  type) ;
 
-  /// @brief Method get_DataType, addr 0x6141170, size 0x20, virtual false, abstract: false, final false
-  inline ::StringW get_DataType();
+/// @brief Method get_DataType, addr 0x6141830, size 0x20, virtual false, abstract: false, final false
+inline ::StringW get_DataType() ;
 
-  /// @brief Method get_ElementName, addr 0x6141190, size 0x20, virtual false, abstract: false, final false
-  inline ::StringW get_ElementName();
+/// @brief Method get_ElementName, addr 0x6141850, size 0x20, virtual false, abstract: false, final false
+inline ::StringW get_ElementName() ;
 
-  /// @brief Method get_Form, addr 0x61411b0, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Xml::Schema::XmlSchemaForm get_Form();
+/// @brief Method get_Form, addr 0x6141870, size 0x8, virtual false, abstract: false, final false
+inline ::System::Xml::Schema::XmlSchemaForm get_Form() ;
 
-  /// @brief Method get_IsNullable, addr 0x61411c0, size 0x8, virtual false, abstract: false, final false
-  inline bool get_IsNullable();
+/// @brief Method get_IsNullable, addr 0x6141880, size 0x8, virtual false, abstract: false, final false
+inline bool get_IsNullable() ;
 
-  /// @brief Method get_Namespace, addr 0x61411b8, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_Namespace();
+/// @brief Method get_Namespace, addr 0x6141878, size 0x8, virtual false, abstract: false, final false
+inline ::StringW get_Namespace() ;
 
-  /// @brief Method get_Order, addr 0x61411c8, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_Order();
+/// @brief Method get_Order, addr 0x6141888, size 0x8, virtual false, abstract: false, final false
+inline int32_t get_Order() ;
 
-  /// @brief Method get_Type, addr 0x61411d0, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Type* get_Type();
+/// @brief Method get_Type, addr 0x6141890, size 0x8, virtual false, abstract: false, final false
+inline ::System::Type* get_Type() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr XmlElementAttribute();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr XmlElementAttribute() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlElementAttribute", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  XmlElementAttribute(XmlElementAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlElementAttribute", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  XmlElementAttribute(XmlElementAttribute const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "XmlElementAttribute", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+XmlElementAttribute(XmlElementAttribute && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9485 };
+// Ctor Parameters [CppParam { name: "", ty: "XmlElementAttribute", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+XmlElementAttribute(XmlElementAttribute const& ) = delete;
 
-  /// @brief Field dataType, offset: 0x10, size: 0x8, def value: None
-  ::StringW ___dataType;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{9489};
 
-  /// @brief Field elementName, offset: 0x18, size: 0x8, def value: None
-  ::StringW ___elementName;
+/// @brief Field dataType, offset: 0x10, size: 0x8, def value: None
+ ::StringW  ___dataType;
 
-  /// @brief Field form, offset: 0x20, size: 0x4, def value: None
-  ::System::Xml::Schema::XmlSchemaForm ___form;
+/// @brief Field elementName, offset: 0x18, size: 0x8, def value: None
+ ::StringW  ___elementName;
 
-  /// @brief Field ns, offset: 0x28, size: 0x8, def value: None
-  ::StringW ___ns;
+/// @brief Field form, offset: 0x20, size: 0x4, def value: None
+ ::System::Xml::Schema::XmlSchemaForm  ___form;
 
-  /// @brief Field isNullable, offset: 0x30, size: 0x1, def value: None
-  bool ___isNullable;
+/// @brief Field ns, offset: 0x28, size: 0x8, def value: None
+ ::StringW  ___ns;
 
-  /// @brief Field type, offset: 0x38, size: 0x8, def value: None
-  ::System::Type* ___type;
+/// @brief Field isNullable, offset: 0x30, size: 0x1, def value: None
+ bool  ___isNullable;
 
-  /// @brief Field order, offset: 0x40, size: 0x4, def value: None
-  int32_t ___order;
+/// @brief Field type, offset: 0x38, size: 0x8, def value: None
+ ::System::Type*  ___type;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field order, offset: 0x40, size: 0x4, def value: None
+ int32_t  ___order;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Xml::Serialization::XmlElementAttribute, ___dataType) == 0x10, "Offset mismatch!");
@@ -198,6 +198,6 @@ static_assert(offsetof(::System::Xml::Serialization::XmlElementAttribute, ___ord
 
 static_assert(::cordl_internals::size_check_v<::System::Xml::Serialization::XmlElementAttribute, 0x48>, "Size mismatch!");
 
-} // namespace System::Xml::Serialization
+} // namespace end def System::Xml::Serialization
 NEED_NO_BOX(::System::Xml::Serialization::XmlElementAttribute);
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Serialization::XmlElementAttribute*, "System.Xml.Serialization", "XmlElementAttribute");

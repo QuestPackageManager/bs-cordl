@@ -11,13 +11,15 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TransformData)
 namespace System {
-template <typename T> class IEquatable_1;
+template<typename T>
+class IEquatable_1;
 }
 namespace System {
 class Object;
 }
 namespace UnityEngine::UIElements {
-template <typename T> class IStyleDataGroup_1;
+template<typename T>
+class IStyleDataGroup_1;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -31,66 +33,63 @@ namespace UnityEngine::UIElements {
 // CS Name: UnityEngine.UIElements.TransformData
 struct CORDL_TYPE TransformData {
 public:
-  // Declarations
-  /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::TransformData>"
-  constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::TransformData>*();
+// Declarations
+/// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::TransformData>"
+constexpr operator  ::System::IEquatable_1<::UnityEngine::UIElements::TransformData>*() ;
 
-  /// @brief Convert operator to "::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::TransformData>"
-  constexpr operator ::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::TransformData>*();
+/// @brief Convert operator to "::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::TransformData>"
+constexpr operator  ::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::TransformData>*() ;
 
-  /// @brief Method Copy, addr 0x6ac399c, size 0x10, virtual true, abstract: false, final true
-  inline ::UnityEngine::UIElements::TransformData Copy();
+/// @brief Method Copy, addr 0x6ac405c, size 0x10, virtual true, abstract: false, final true
+inline ::UnityEngine::UIElements::TransformData Copy() ;
 
-  /// @brief Method CopyFrom, addr 0x6ac39ac, size 0x8, virtual true, abstract: false, final true
-  inline void CopyFrom(::ByRef<::UnityEngine::UIElements::TransformData> other);
+/// @brief Method CopyFrom, addr 0x6ac406c, size 0x8, virtual true, abstract: false, final true
+inline void CopyFrom(::ByRef<::UnityEngine::UIElements::TransformData>  other) ;
 
-  /// @brief Method Equals, addr 0x6ac3d48, size 0xa4, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* obj);
+/// @brief Method Equals, addr 0x6ac4408, size 0xa4, virtual true, abstract: false, final false
+inline bool Equals(::System::Object*  obj) ;
 
-  /// @brief Method Equals, addr 0x6ac3d04, size 0x44, virtual true, abstract: false, final true
-  inline bool Equals(::UnityEngine::UIElements::TransformData other);
+/// @brief Method Equals, addr 0x6ac43c4, size 0x44, virtual true, abstract: false, final true
+inline bool Equals(::UnityEngine::UIElements::TransformData  other) ;
 
-  /// @brief Method GetHashCode, addr 0x6ac3dec, size 0x54, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
+/// @brief Method GetHashCode, addr 0x6ac44ac, size 0x54, virtual true, abstract: false, final false
+inline int32_t GetHashCode() ;
 
-  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::TransformData>"
-  constexpr ::System::IEquatable_1<::UnityEngine::UIElements::TransformData>* i___System__IEquatable_1___UnityEngine__UIElements__TransformData_();
+/// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::TransformData>"
+constexpr ::System::IEquatable_1<::UnityEngine::UIElements::TransformData>* i___System__IEquatable_1___UnityEngine__UIElements__TransformData_() ;
 
-  /// @brief Convert to "::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::TransformData>"
-  constexpr ::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::TransformData>* i___UnityEngine__UIElements__IStyleDataGroup_1___UnityEngine__UIElements__TransformData_();
+/// @brief Convert to "::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::TransformData>"
+constexpr ::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::TransformData>* i___UnityEngine__UIElements__IStyleDataGroup_1___UnityEngine__UIElements__TransformData_() ;
 
-  /// @brief Method op_Equality, addr 0x6ac39b4, size 0x194, virtual false, abstract: false, final false
-  static inline bool op_Equality(::UnityEngine::UIElements::TransformData lhs, ::UnityEngine::UIElements::TransformData rhs);
+/// @brief Method op_Equality, addr 0x6ac4074, size 0x194, virtual false, abstract: false, final false
+static inline bool op_Equality(::UnityEngine::UIElements::TransformData  lhs, ::UnityEngine::UIElements::TransformData  rhs) ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TransformData();
+// Ctor Parameters []
+// @brief default ctor
+constexpr TransformData() ;
 
-  // Ctor Parameters [CppParam { name: "rotate", ty: "::UnityEngine::UIElements::Rotate", modifiers: "", def_value: None }, CppParam { name: "scale", ty: "::UnityEngine::UIElements::Scale", modifiers:
-  // "", def_value: None }, CppParam { name: "transformOrigin", ty: "::UnityEngine::UIElements::TransformOrigin", modifiers: "", def_value: None }, CppParam { name: "translate", ty:
-  // "::UnityEngine::UIElements::Translate", modifiers: "", def_value: None }]
-  constexpr TransformData(::UnityEngine::UIElements::Rotate rotate, ::UnityEngine::UIElements::Scale scale, ::UnityEngine::UIElements::TransformOrigin transformOrigin,
-                          ::UnityEngine::UIElements::Translate translate) noexcept;
+// Ctor Parameters [CppParam { name: "rotate", ty: "::UnityEngine::UIElements::Rotate", modifiers: "", def_value: None }, CppParam { name: "scale", ty: "::UnityEngine::UIElements::Scale", modifiers: "", def_value: None }, CppParam { name: "transformOrigin", ty: "::UnityEngine::UIElements::TransformOrigin", modifiers: "", def_value: None }, CppParam { name: "translate", ty: "::UnityEngine::UIElements::Translate", modifiers: "", def_value: None }]
+constexpr TransformData(::UnityEngine::UIElements::Rotate  rotate, ::UnityEngine::UIElements::Scale  scale, ::UnityEngine::UIElements::TransformOrigin  transformOrigin, ::UnityEngine::UIElements::Translate  translate) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4945 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4945};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x54 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x54};
 
-  /// @brief Field rotate, offset: 0x0, size: 0x18, def value: None
-  ::UnityEngine::UIElements::Rotate rotate;
+/// @brief Field rotate, offset: 0x0, size: 0x18, def value: None
+ ::UnityEngine::UIElements::Rotate  rotate;
 
-  /// @brief Field scale, offset: 0x18, size: 0x10, def value: None
-  ::UnityEngine::UIElements::Scale scale;
+/// @brief Field scale, offset: 0x18, size: 0x10, def value: None
+ ::UnityEngine::UIElements::Scale  scale;
 
-  /// @brief Field transformOrigin, offset: 0x28, size: 0x14, def value: None
-  ::UnityEngine::UIElements::TransformOrigin transformOrigin;
+/// @brief Field transformOrigin, offset: 0x28, size: 0x14, def value: None
+ ::UnityEngine::UIElements::TransformOrigin  transformOrigin;
 
-  /// @brief Field translate, offset: 0x3c, size: 0x18, def value: None
-  ::UnityEngine::UIElements::Translate translate;
+/// @brief Field translate, offset: 0x3c, size: 0x18, def value: None
+ ::UnityEngine::UIElements::Translate  translate;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::UIElements::TransformData, rotate) == 0x0, "Offset mismatch!");
@@ -103,5 +102,5 @@ static_assert(offsetof(::UnityEngine::UIElements::TransformData, translate) == 0
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::TransformData, 0x54>, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements
+} // namespace end def UnityEngine::UIElements
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::TransformData, "UnityEngine.UIElements", "TransformData");

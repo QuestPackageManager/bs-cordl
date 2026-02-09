@@ -21,77 +21,71 @@ namespace System::Dynamic {
 // CS Name: System.Dynamic.InvokeMemberBinder
 class CORDL_TYPE InvokeMemberBinder : public ::System::Dynamic::DynamicMetaObjectBinder {
 public:
-  // Declarations
-  __declspec(property(get = get_IgnoreCase)) bool IgnoreCase;
+// Declarations
+ __declspec(property(get=get_IgnoreCase)) bool  IgnoreCase;
 
-  __declspec(property(get = get_Name)) ::StringW Name;
+ __declspec(property(get=get_Name)) ::StringW  Name;
 
-  /// @brief Field <IgnoreCase>k__BackingField, offset 0x20, size 0x1
-  __declspec(property(get = __cordl_internal_get__IgnoreCase_k__BackingField, put = __cordl_internal_set__IgnoreCase_k__BackingField)) bool _IgnoreCase_k__BackingField;
+/// @brief Field <IgnoreCase>k__BackingField, offset 0x20, size 0x1 
+ __declspec(property(get=__cordl_internal_get__IgnoreCase_k__BackingField, put=__cordl_internal_set__IgnoreCase_k__BackingField)) bool  _IgnoreCase_k__BackingField;
 
-  /// @brief Field <Name>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__Name_k__BackingField, put = __cordl_internal_set__Name_k__BackingField)) ::StringW _Name_k__BackingField;
+/// @brief Field <Name>k__BackingField, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get__Name_k__BackingField, put=__cordl_internal_set__Name_k__BackingField)) ::StringW  _Name_k__BackingField;
 
-  /// @brief Method Bind, addr 0x5e13f4c, size 0xbc, virtual true, abstract: false, final true
-  inline ::System::Dynamic::DynamicMetaObject* Bind(::System::Dynamic::DynamicMetaObject* target,
-                                                    ::ArrayW<::System::Dynamic::DynamicMetaObject*, ::Array<::System::Dynamic::DynamicMetaObject*>*> args);
+/// @brief Method Bind, addr 0x5e1460c, size 0xbc, virtual true, abstract: false, final true
+inline ::System::Dynamic::DynamicMetaObject* Bind(::System::Dynamic::DynamicMetaObject*  target, ::ArrayW<::System::Dynamic::DynamicMetaObject*,::Array<::System::Dynamic::DynamicMetaObject*>*>  args) ;
 
-  /// @brief Method FallbackInvoke, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline ::System::Dynamic::DynamicMetaObject* FallbackInvoke(::System::Dynamic::DynamicMetaObject* target,
-                                                              ::ArrayW<::System::Dynamic::DynamicMetaObject*, ::Array<::System::Dynamic::DynamicMetaObject*>*> args,
-                                                              ::System::Dynamic::DynamicMetaObject* errorSuggestion);
+/// @brief Method FallbackInvoke, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline ::System::Dynamic::DynamicMetaObject* FallbackInvoke(::System::Dynamic::DynamicMetaObject*  target, ::ArrayW<::System::Dynamic::DynamicMetaObject*,::Array<::System::Dynamic::DynamicMetaObject*>*>  args, ::System::Dynamic::DynamicMetaObject*  errorSuggestion) ;
 
-  /// @brief Method FallbackInvokeMember, addr 0x5e12b78, size 0x10, virtual false, abstract: false, final false
-  inline ::System::Dynamic::DynamicMetaObject* FallbackInvokeMember(::System::Dynamic::DynamicMetaObject* target,
-                                                                    ::ArrayW<::System::Dynamic::DynamicMetaObject*, ::Array<::System::Dynamic::DynamicMetaObject*>*> args);
+/// @brief Method FallbackInvokeMember, addr 0x5e13238, size 0x10, virtual false, abstract: false, final false
+inline ::System::Dynamic::DynamicMetaObject* FallbackInvokeMember(::System::Dynamic::DynamicMetaObject*  target, ::ArrayW<::System::Dynamic::DynamicMetaObject*,::Array<::System::Dynamic::DynamicMetaObject*>*>  args) ;
 
-  /// @brief Method FallbackInvokeMember, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline ::System::Dynamic::DynamicMetaObject* FallbackInvokeMember(::System::Dynamic::DynamicMetaObject* target,
-                                                                    ::ArrayW<::System::Dynamic::DynamicMetaObject*, ::Array<::System::Dynamic::DynamicMetaObject*>*> args,
-                                                                    ::System::Dynamic::DynamicMetaObject* errorSuggestion);
+/// @brief Method FallbackInvokeMember, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline ::System::Dynamic::DynamicMetaObject* FallbackInvokeMember(::System::Dynamic::DynamicMetaObject*  target, ::ArrayW<::System::Dynamic::DynamicMetaObject*,::Array<::System::Dynamic::DynamicMetaObject*>*>  args, ::System::Dynamic::DynamicMetaObject*  errorSuggestion) ;
 
-  constexpr bool const& __cordl_internal_get__IgnoreCase_k__BackingField() const;
+constexpr bool const& __cordl_internal_get__IgnoreCase_k__BackingField() const;
 
-  constexpr bool& __cordl_internal_get__IgnoreCase_k__BackingField();
+constexpr bool& __cordl_internal_get__IgnoreCase_k__BackingField() ;
 
-  constexpr ::StringW const& __cordl_internal_get__Name_k__BackingField() const;
+constexpr ::StringW const& __cordl_internal_get__Name_k__BackingField() const;
 
-  constexpr ::StringW& __cordl_internal_get__Name_k__BackingField();
+constexpr ::StringW& __cordl_internal_get__Name_k__BackingField() ;
 
-  constexpr void __cordl_internal_set__IgnoreCase_k__BackingField(bool value);
+constexpr void __cordl_internal_set__IgnoreCase_k__BackingField(bool  value) ;
 
-  constexpr void __cordl_internal_set__Name_k__BackingField(::StringW value);
+constexpr void __cordl_internal_set__Name_k__BackingField(::StringW  value) ;
 
-  /// @brief Method get_IgnoreCase, addr 0x5e13f44, size 0x8, virtual false, abstract: false, final false
-  inline bool get_IgnoreCase();
+/// @brief Method get_IgnoreCase, addr 0x5e14604, size 0x8, virtual false, abstract: false, final false
+inline bool get_IgnoreCase() ;
 
-  /// @brief Method get_Name, addr 0x5e13f3c, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_Name();
+/// @brief Method get_Name, addr 0x5e145fc, size 0x8, virtual false, abstract: false, final false
+inline ::StringW get_Name() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr InvokeMemberBinder();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr InvokeMemberBinder() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InvokeMemberBinder", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  InvokeMemberBinder(InvokeMemberBinder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InvokeMemberBinder", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  InvokeMemberBinder(InvokeMemberBinder const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "InvokeMemberBinder", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+InvokeMemberBinder(InvokeMemberBinder && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16638 };
+// Ctor Parameters [CppParam { name: "", ty: "InvokeMemberBinder", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+InvokeMemberBinder(InvokeMemberBinder const& ) = delete;
 
-  /// @brief Field <Name>k__BackingField, offset: 0x18, size: 0x8, def value: None
-  ::StringW ____Name_k__BackingField;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{16642};
 
-  /// @brief Field <IgnoreCase>k__BackingField, offset: 0x20, size: 0x1, def value: None
-  bool ____IgnoreCase_k__BackingField;
+/// @brief Field <Name>k__BackingField, offset: 0x18, size: 0x8, def value: None
+ ::StringW  ____Name_k__BackingField;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field <IgnoreCase>k__BackingField, offset: 0x20, size: 0x1, def value: None
+ bool  ____IgnoreCase_k__BackingField;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Dynamic::InvokeMemberBinder, ____Name_k__BackingField) == 0x18, "Offset mismatch!");
@@ -100,6 +94,6 @@ static_assert(offsetof(::System::Dynamic::InvokeMemberBinder, ____IgnoreCase_k__
 
 static_assert(::cordl_internals::size_check_v<::System::Dynamic::InvokeMemberBinder, 0x28>, "Size mismatch!");
 
-} // namespace System::Dynamic
+} // namespace end def System::Dynamic
 NEED_NO_BOX(::System::Dynamic::InvokeMemberBinder);
 DEFINE_IL2CPP_ARG_TYPE(::System::Dynamic::InvokeMemberBinder*, "System.Dynamic", "InvokeMemberBinder");

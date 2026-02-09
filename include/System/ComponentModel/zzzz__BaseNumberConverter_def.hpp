@@ -34,66 +34,65 @@ namespace System::ComponentModel {
 // CS Name: System.ComponentModel.BaseNumberConverter
 class CORDL_TYPE BaseNumberConverter : public ::System::ComponentModel::TypeConverter {
 public:
-  // Declarations
-  __declspec(property(get = get_AllowHex)) bool AllowHex;
+// Declarations
+ __declspec(property(get=get_AllowHex)) bool  AllowHex;
 
-  __declspec(property(get = get_TargetType)) ::System::Type* TargetType;
+ __declspec(property(get=get_TargetType)) ::System::Type*  TargetType;
 
-  /// @brief Method CanConvertFrom, addr 0x62009d0, size 0x80, virtual true, abstract: false, final false
-  inline bool CanConvertFrom(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Type* sourceType);
+/// @brief Method CanConvertFrom, addr 0x6201090, size 0x80, virtual true, abstract: false, final false
+inline bool CanConvertFrom(::System::ComponentModel::ITypeDescriptorContext*  context, ::System::Type*  sourceType) ;
 
-  /// @brief Method CanConvertTo, addr 0x62010d0, size 0x40, virtual true, abstract: false, final false
-  inline bool CanConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Type* destinationType);
+/// @brief Method CanConvertTo, addr 0x6201790, size 0x40, virtual true, abstract: false, final false
+inline bool CanConvertTo(::System::ComponentModel::ITypeDescriptorContext*  context, ::System::Type*  destinationType) ;
 
-  /// @brief Method ConvertFrom, addr 0x6200a50, size 0x404, virtual true, abstract: false, final false
-  inline ::System::Object* ConvertFrom(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::System::Object* value);
+/// @brief Method ConvertFrom, addr 0x6201110, size 0x404, virtual true, abstract: false, final false
+inline ::System::Object* ConvertFrom(::System::ComponentModel::ITypeDescriptorContext*  context, ::System::Globalization::CultureInfo*  culture, ::System::Object*  value) ;
 
-  /// @brief Method ConvertTo, addr 0x6200e54, size 0x27c, virtual true, abstract: false, final false
-  inline ::System::Object* ConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::System::Object* value,
-                                     ::System::Type* destinationType);
+/// @brief Method ConvertTo, addr 0x6201514, size 0x27c, virtual true, abstract: false, final false
+inline ::System::Object* ConvertTo(::System::ComponentModel::ITypeDescriptorContext*  context, ::System::Globalization::CultureInfo*  culture, ::System::Object*  value, ::System::Type*  destinationType) ;
 
-  /// @brief Method FromString, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline ::System::Object* FromString(::StringW value, ::System::Globalization::NumberFormatInfo* formatInfo);
+/// @brief Method FromString, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline ::System::Object* FromString(::StringW  value, ::System::Globalization::NumberFormatInfo*  formatInfo) ;
 
-  /// @brief Method FromString, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline ::System::Object* FromString(::StringW value, int32_t radix);
+/// @brief Method FromString, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline ::System::Object* FromString(::StringW  value, int32_t  radix) ;
 
-  static inline ::System::ComponentModel::BaseNumberConverter* New_ctor();
+static inline ::System::ComponentModel::BaseNumberConverter* New_ctor() ;
 
-  /// @brief Method ToString, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline ::StringW ToString(::System::Object* value, ::System::Globalization::NumberFormatInfo* formatInfo);
+/// @brief Method ToString, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline ::StringW ToString(::System::Object*  value, ::System::Globalization::NumberFormatInfo*  formatInfo) ;
 
-  /// @brief Method .ctor, addr 0x62009c4, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6201084, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_AllowHex, addr 0x62009c8, size 0x8, virtual true, abstract: false, final false
-  inline bool get_AllowHex();
+/// @brief Method get_AllowHex, addr 0x6201088, size 0x8, virtual true, abstract: false, final false
+inline bool get_AllowHex() ;
 
-  /// @brief Method get_TargetType, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline ::System::Type* get_TargetType();
+/// @brief Method get_TargetType, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline ::System::Type* get_TargetType() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BaseNumberConverter();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr BaseNumberConverter() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BaseNumberConverter", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  BaseNumberConverter(BaseNumberConverter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BaseNumberConverter", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  BaseNumberConverter(BaseNumberConverter const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "BaseNumberConverter", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+BaseNumberConverter(BaseNumberConverter && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11217 };
+// Ctor Parameters [CppParam { name: "", ty: "BaseNumberConverter", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+BaseNumberConverter(BaseNumberConverter const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11221};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::ComponentModel::BaseNumberConverter, 0x10>, "Size mismatch!");
 
-} // namespace System::ComponentModel
+} // namespace end def System::ComponentModel
 NEED_NO_BOX(::System::ComponentModel::BaseNumberConverter);
 DEFINE_IL2CPP_ARG_TYPE(::System::ComponentModel::BaseNumberConverter*, "System.ComponentModel", "BaseNumberConverter");

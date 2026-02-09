@@ -47,65 +47,61 @@ namespace Org::BouncyCastle::Pkix {
 // CS Name: Org.BouncyCastle.Pkix.Rfc3281CertPathUtilities
 class CORDL_TYPE Rfc3281CertPathUtilities : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method AdditionalChecks, addr 0x34f1964, size 0x75c, virtual false, abstract: false, final false
-  static inline void AdditionalChecks(::Org::BouncyCastle::X509::IX509AttributeCertificate* attrCert, ::Org::BouncyCastle::Pkix::PkixParameters* pkixParams);
+// Declarations
+/// @brief Method AdditionalChecks, addr 0x34f18b4, size 0x75c, virtual false, abstract: false, final false
+static inline void AdditionalChecks(::Org::BouncyCastle::X509::IX509AttributeCertificate*  attrCert, ::Org::BouncyCastle::Pkix::PkixParameters*  pkixParams) ;
 
-  /// @brief Method CheckCrl, addr 0x34f1134, size 0x830, virtual false, abstract: false, final false
-  static inline void CheckCrl(::Org::BouncyCastle::Asn1::X509::DistributionPoint* dp, ::Org::BouncyCastle::X509::IX509AttributeCertificate* attrCert,
-                              ::Org::BouncyCastle::Pkix::PkixParameters* paramsPKIX, ::System::DateTime validDate, ::Org::BouncyCastle::X509::X509Certificate* issuerCert,
-                              ::Org::BouncyCastle::Pkix::CertStatus* certStatus, ::Org::BouncyCastle::Pkix::ReasonsMask* reasonMask, ::System::Collections::IList* certPathCerts);
+/// @brief Method CheckCrl, addr 0x34f1084, size 0x830, virtual false, abstract: false, final false
+static inline void CheckCrl(::Org::BouncyCastle::Asn1::X509::DistributionPoint*  dp, ::Org::BouncyCastle::X509::IX509AttributeCertificate*  attrCert, ::Org::BouncyCastle::Pkix::PkixParameters*  paramsPKIX, ::System::DateTime  validDate, ::Org::BouncyCastle::X509::X509Certificate*  issuerCert, ::Org::BouncyCastle::Pkix::CertStatus*  certStatus, ::Org::BouncyCastle::Pkix::ReasonsMask*  reasonMask, ::System::Collections::IList*  certPathCerts) ;
 
-  /// @brief Method CheckCrls, addr 0x34f04b0, size 0xc84, virtual false, abstract: false, final false
-  static inline void CheckCrls(::Org::BouncyCastle::X509::IX509AttributeCertificate* attrCert, ::Org::BouncyCastle::Pkix::PkixParameters* paramsPKIX,
-                               ::Org::BouncyCastle::X509::X509Certificate* issuerCert, ::System::DateTime validDate, ::System::Collections::IList* certPathCerts);
+/// @brief Method CheckCrls, addr 0x34f0400, size 0xc84, virtual false, abstract: false, final false
+static inline void CheckCrls(::Org::BouncyCastle::X509::IX509AttributeCertificate*  attrCert, ::Org::BouncyCastle::Pkix::PkixParameters*  paramsPKIX, ::Org::BouncyCastle::X509::X509Certificate*  issuerCert, ::System::DateTime  validDate, ::System::Collections::IList*  certPathCerts) ;
 
-  static inline ::Org::BouncyCastle::Pkix::Rfc3281CertPathUtilities* New_ctor();
+static inline ::Org::BouncyCastle::Pkix::Rfc3281CertPathUtilities* New_ctor() ;
 
-  /// @brief Method ProcessAttrCert1, addr 0x34f292c, size 0xc2c, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Pkix::PkixCertPath* ProcessAttrCert1(::Org::BouncyCastle::X509::IX509AttributeCertificate* attrCert, ::Org::BouncyCastle::Pkix::PkixParameters* pkixParams);
+/// @brief Method ProcessAttrCert1, addr 0x34f287c, size 0xc2c, virtual false, abstract: false, final false
+static inline ::Org::BouncyCastle::Pkix::PkixCertPath* ProcessAttrCert1(::Org::BouncyCastle::X509::IX509AttributeCertificate*  attrCert, ::Org::BouncyCastle::Pkix::PkixParameters*  pkixParams) ;
 
-  /// @brief Method ProcessAttrCert2, addr 0x34f27f4, size 0x138, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Pkix::PkixCertPathValidatorResult* ProcessAttrCert2(::Org::BouncyCastle::Pkix::PkixCertPath* certPath, ::Org::BouncyCastle::Pkix::PkixParameters* pkixParams);
+/// @brief Method ProcessAttrCert2, addr 0x34f2744, size 0x138, virtual false, abstract: false, final false
+static inline ::Org::BouncyCastle::Pkix::PkixCertPathValidatorResult* ProcessAttrCert2(::Org::BouncyCastle::Pkix::PkixCertPath*  certPath, ::Org::BouncyCastle::Pkix::PkixParameters*  pkixParams) ;
 
-  /// @brief Method ProcessAttrCert3, addr 0x34f26ec, size 0x108, virtual false, abstract: false, final false
-  static inline void ProcessAttrCert3(::Org::BouncyCastle::X509::X509Certificate* acIssuerCert, ::Org::BouncyCastle::Pkix::PkixParameters* pkixParams);
+/// @brief Method ProcessAttrCert3, addr 0x34f263c, size 0x108, virtual false, abstract: false, final false
+static inline void ProcessAttrCert3(::Org::BouncyCastle::X509::X509Certificate*  acIssuerCert, ::Org::BouncyCastle::Pkix::PkixParameters*  pkixParams) ;
 
-  /// @brief Method ProcessAttrCert4, addr 0x34f2298, size 0x454, virtual false, abstract: false, final false
-  static inline void ProcessAttrCert4(::Org::BouncyCastle::X509::X509Certificate* acIssuerCert, ::Org::BouncyCastle::Pkix::PkixParameters* pkixParams);
+/// @brief Method ProcessAttrCert4, addr 0x34f21e8, size 0x454, virtual false, abstract: false, final false
+static inline void ProcessAttrCert4(::Org::BouncyCastle::X509::X509Certificate*  acIssuerCert, ::Org::BouncyCastle::Pkix::PkixParameters*  pkixParams) ;
 
-  /// @brief Method ProcessAttrCert5, addr 0x34f20c0, size 0x1d8, virtual false, abstract: false, final false
-  static inline void ProcessAttrCert5(::Org::BouncyCastle::X509::IX509AttributeCertificate* attrCert, ::Org::BouncyCastle::Pkix::PkixParameters* pkixParams);
+/// @brief Method ProcessAttrCert5, addr 0x34f2010, size 0x1d8, virtual false, abstract: false, final false
+static inline void ProcessAttrCert5(::Org::BouncyCastle::X509::IX509AttributeCertificate*  attrCert, ::Org::BouncyCastle::Pkix::PkixParameters*  pkixParams) ;
 
-  /// @brief Method ProcessAttrCert7, addr 0x34efddc, size 0x6d4, virtual false, abstract: false, final false
-  static inline void ProcessAttrCert7(::Org::BouncyCastle::X509::IX509AttributeCertificate* attrCert, ::Org::BouncyCastle::Pkix::PkixCertPath* certPath,
-                                      ::Org::BouncyCastle::Pkix::PkixCertPath* holderCertPath, ::Org::BouncyCastle::Pkix::PkixParameters* pkixParams);
+/// @brief Method ProcessAttrCert7, addr 0x34efd2c, size 0x6d4, virtual false, abstract: false, final false
+static inline void ProcessAttrCert7(::Org::BouncyCastle::X509::IX509AttributeCertificate*  attrCert, ::Org::BouncyCastle::Pkix::PkixCertPath*  certPath, ::Org::BouncyCastle::Pkix::PkixCertPath*  holderCertPath, ::Org::BouncyCastle::Pkix::PkixParameters*  pkixParams) ;
 
-  /// @brief Method .ctor, addr 0x34f3558, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x34f34a8, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Rfc3281CertPathUtilities();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr Rfc3281CertPathUtilities() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Rfc3281CertPathUtilities", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  Rfc3281CertPathUtilities(Rfc3281CertPathUtilities&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Rfc3281CertPathUtilities", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  Rfc3281CertPathUtilities(Rfc3281CertPathUtilities const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "Rfc3281CertPathUtilities", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+Rfc3281CertPathUtilities(Rfc3281CertPathUtilities && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1731 };
+// Ctor Parameters [CppParam { name: "", ty: "Rfc3281CertPathUtilities", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+Rfc3281CertPathUtilities(Rfc3281CertPathUtilities const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{1731};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Pkix::Rfc3281CertPathUtilities, 0x10>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Pkix
+} // namespace end def Org::BouncyCastle::Pkix
 NEED_NO_BOX(::Org::BouncyCastle::Pkix::Rfc3281CertPathUtilities);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Pkix::Rfc3281CertPathUtilities*, "Org.BouncyCastle.Pkix", "Rfc3281CertPathUtilities");

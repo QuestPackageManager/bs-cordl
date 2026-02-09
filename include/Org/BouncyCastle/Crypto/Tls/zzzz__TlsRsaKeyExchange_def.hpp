@@ -42,105 +42,105 @@ namespace Org::BouncyCastle::Crypto::Tls {
 // CS Name: Org.BouncyCastle.Crypto.Tls.TlsRsaKeyExchange
 class CORDL_TYPE TlsRsaKeyExchange : public ::Org::BouncyCastle::Crypto::Tls::AbstractTlsKeyExchange {
 public:
-  // Declarations
-  /// @brief Field mPremasterSecret, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_mPremasterSecret, put = __cordl_internal_set_mPremasterSecret)) ::ArrayW<uint8_t, ::Array<uint8_t>*> mPremasterSecret;
+// Declarations
+/// @brief Field mPremasterSecret, offset 0x40, size 0x8 
+ __declspec(property(get=__cordl_internal_get_mPremasterSecret, put=__cordl_internal_set_mPremasterSecret)) ::ArrayW<uint8_t,::Array<uint8_t>*>  mPremasterSecret;
 
-  /// @brief Field mRsaServerPublicKey, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_mRsaServerPublicKey, put = __cordl_internal_set_mRsaServerPublicKey)) ::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters* mRsaServerPublicKey;
+/// @brief Field mRsaServerPublicKey, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get_mRsaServerPublicKey, put=__cordl_internal_set_mRsaServerPublicKey)) ::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters*  mRsaServerPublicKey;
 
-  /// @brief Field mServerCredentials, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_mServerCredentials, put = __cordl_internal_set_mServerCredentials)) ::Org::BouncyCastle::Crypto::Tls::TlsEncryptionCredentials* mServerCredentials;
+/// @brief Field mServerCredentials, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get_mServerCredentials, put=__cordl_internal_set_mServerCredentials)) ::Org::BouncyCastle::Crypto::Tls::TlsEncryptionCredentials*  mServerCredentials;
 
-  /// @brief Field mServerPublicKey, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_mServerPublicKey, put = __cordl_internal_set_mServerPublicKey)) ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* mServerPublicKey;
+/// @brief Field mServerPublicKey, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get_mServerPublicKey, put=__cordl_internal_set_mServerPublicKey)) ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*  mServerPublicKey;
 
-  /// @brief Method GenerateClientKeyExchange, addr 0x338f2dc, size 0x28, virtual true, abstract: false, final false
-  inline void GenerateClientKeyExchange(::System::IO::Stream* output);
+/// @brief Method GenerateClientKeyExchange, addr 0x338f22c, size 0x28, virtual true, abstract: false, final false
+inline void GenerateClientKeyExchange(::System::IO::Stream*  output) ;
 
-  /// @brief Method GeneratePremasterSecret, addr 0x338f424, size 0x4c, virtual true, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GeneratePremasterSecret();
+/// @brief Method GeneratePremasterSecret, addr 0x338f374, size 0x4c, virtual true, abstract: false, final false
+inline ::ArrayW<uint8_t,::Array<uint8_t>*> GeneratePremasterSecret() ;
 
-  static inline ::Org::BouncyCastle::Crypto::Tls::TlsRsaKeyExchange* New_ctor(::System::Collections::IList* supportedSignatureAlgorithms);
+static inline ::Org::BouncyCastle::Crypto::Tls::TlsRsaKeyExchange* New_ctor(::System::Collections::IList*  supportedSignatureAlgorithms) ;
 
-  /// @brief Method ProcessClientCredentials, addr 0x338f254, size 0x88, virtual true, abstract: false, final false
-  inline void ProcessClientCredentials(::Org::BouncyCastle::Crypto::Tls::TlsCredentials* clientCredentials);
+/// @brief Method ProcessClientCredentials, addr 0x338f1a4, size 0x88, virtual true, abstract: false, final false
+inline void ProcessClientCredentials(::Org::BouncyCastle::Crypto::Tls::TlsCredentials*  clientCredentials) ;
 
-  /// @brief Method ProcessClientKeyExchange, addr 0x338f304, size 0x120, virtual true, abstract: false, final false
-  inline void ProcessClientKeyExchange(::System::IO::Stream* input);
+/// @brief Method ProcessClientKeyExchange, addr 0x338f254, size 0x120, virtual true, abstract: false, final false
+inline void ProcessClientKeyExchange(::System::IO::Stream*  input) ;
 
-  /// @brief Method ProcessServerCertificate, addr 0x338ef88, size 0x230, virtual true, abstract: false, final false
-  inline void ProcessServerCertificate(::Org::BouncyCastle::Crypto::Tls::Certificate* serverCertificate);
+/// @brief Method ProcessServerCertificate, addr 0x338eed8, size 0x230, virtual true, abstract: false, final false
+inline void ProcessServerCertificate(::Org::BouncyCastle::Crypto::Tls::Certificate*  serverCertificate) ;
 
-  /// @brief Method ProcessServerCredentials, addr 0x338ee2c, size 0x15c, virtual true, abstract: false, final false
-  inline void ProcessServerCredentials(::Org::BouncyCastle::Crypto::Tls::TlsCredentials* serverCredentials);
+/// @brief Method ProcessServerCredentials, addr 0x338ed7c, size 0x15c, virtual true, abstract: false, final false
+inline void ProcessServerCredentials(::Org::BouncyCastle::Crypto::Tls::TlsCredentials*  serverCredentials) ;
 
-  /// @brief Method SkipServerCredentials, addr 0x338edf4, size 0x38, virtual true, abstract: false, final false
-  inline void SkipServerCredentials();
+/// @brief Method SkipServerCredentials, addr 0x338ed44, size 0x38, virtual true, abstract: false, final false
+inline void SkipServerCredentials() ;
 
-  /// @brief Method ValidateCertificateRequest, addr 0x338f1b8, size 0x9c, virtual true, abstract: false, final false
-  inline void ValidateCertificateRequest(::Org::BouncyCastle::Crypto::Tls::CertificateRequest* certificateRequest);
+/// @brief Method ValidateCertificateRequest, addr 0x338f108, size 0x9c, virtual true, abstract: false, final false
+inline void ValidateCertificateRequest(::Org::BouncyCastle::Crypto::Tls::CertificateRequest*  certificateRequest) ;
 
-  /// @brief Method ValidateRsaPublicKey, addr 0x338f470, size 0x68, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters* ValidateRsaPublicKey(::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters* key);
+/// @brief Method ValidateRsaPublicKey, addr 0x338f3c0, size 0x68, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters* ValidateRsaPublicKey(::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters*  key) ;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_mPremasterSecret() const;
+constexpr ::ArrayW<uint8_t,::Array<uint8_t>*> const& __cordl_internal_get_mPremasterSecret() const;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_mPremasterSecret();
+constexpr ::ArrayW<uint8_t,::Array<uint8_t>*>& __cordl_internal_get_mPremasterSecret() ;
 
-  constexpr ::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters* const& __cordl_internal_get_mRsaServerPublicKey() const;
+constexpr ::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters* const& __cordl_internal_get_mRsaServerPublicKey() const;
 
-  constexpr ::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters*& __cordl_internal_get_mRsaServerPublicKey();
+constexpr ::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters*& __cordl_internal_get_mRsaServerPublicKey() ;
 
-  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsEncryptionCredentials* const& __cordl_internal_get_mServerCredentials() const;
+constexpr ::Org::BouncyCastle::Crypto::Tls::TlsEncryptionCredentials* const& __cordl_internal_get_mServerCredentials() const;
 
-  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsEncryptionCredentials*& __cordl_internal_get_mServerCredentials();
+constexpr ::Org::BouncyCastle::Crypto::Tls::TlsEncryptionCredentials*& __cordl_internal_get_mServerCredentials() ;
 
-  constexpr ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* const& __cordl_internal_get_mServerPublicKey() const;
+constexpr ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* const& __cordl_internal_get_mServerPublicKey() const;
 
-  constexpr ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*& __cordl_internal_get_mServerPublicKey();
+constexpr ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*& __cordl_internal_get_mServerPublicKey() ;
 
-  constexpr void __cordl_internal_set_mPremasterSecret(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+constexpr void __cordl_internal_set_mPremasterSecret(::ArrayW<uint8_t,::Array<uint8_t>*>  value) ;
 
-  constexpr void __cordl_internal_set_mRsaServerPublicKey(::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters* value);
+constexpr void __cordl_internal_set_mRsaServerPublicKey(::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters*  value) ;
 
-  constexpr void __cordl_internal_set_mServerCredentials(::Org::BouncyCastle::Crypto::Tls::TlsEncryptionCredentials* value);
+constexpr void __cordl_internal_set_mServerCredentials(::Org::BouncyCastle::Crypto::Tls::TlsEncryptionCredentials*  value) ;
 
-  constexpr void __cordl_internal_set_mServerPublicKey(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* value);
+constexpr void __cordl_internal_set_mServerPublicKey(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*  value) ;
 
-  /// @brief Method .ctor, addr 0x338eddc, size 0x18, virtual false, abstract: false, final false
-  inline void _ctor(::System::Collections::IList* supportedSignatureAlgorithms);
+/// @brief Method .ctor, addr 0x338ed2c, size 0x18, virtual false, abstract: false, final false
+inline void _ctor(::System::Collections::IList*  supportedSignatureAlgorithms) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TlsRsaKeyExchange();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr TlsRsaKeyExchange() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TlsRsaKeyExchange", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  TlsRsaKeyExchange(TlsRsaKeyExchange&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TlsRsaKeyExchange", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  TlsRsaKeyExchange(TlsRsaKeyExchange const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "TlsRsaKeyExchange", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+TlsRsaKeyExchange(TlsRsaKeyExchange && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1318 };
+// Ctor Parameters [CppParam { name: "", ty: "TlsRsaKeyExchange", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+TlsRsaKeyExchange(TlsRsaKeyExchange const& ) = delete;
 
-  /// @brief Field mServerPublicKey, offset: 0x28, size: 0x8, def value: None
-  ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* ___mServerPublicKey;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{1318};
 
-  /// @brief Field mRsaServerPublicKey, offset: 0x30, size: 0x8, def value: None
-  ::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters* ___mRsaServerPublicKey;
+/// @brief Field mServerPublicKey, offset: 0x28, size: 0x8, def value: None
+ ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*  ___mServerPublicKey;
 
-  /// @brief Field mServerCredentials, offset: 0x38, size: 0x8, def value: None
-  ::Org::BouncyCastle::Crypto::Tls::TlsEncryptionCredentials* ___mServerCredentials;
+/// @brief Field mRsaServerPublicKey, offset: 0x30, size: 0x8, def value: None
+ ::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters*  ___mRsaServerPublicKey;
 
-  /// @brief Field mPremasterSecret, offset: 0x40, size: 0x8, def value: None
-  ::ArrayW<uint8_t, ::Array<uint8_t>*> ___mPremasterSecret;
+/// @brief Field mServerCredentials, offset: 0x38, size: 0x8, def value: None
+ ::Org::BouncyCastle::Crypto::Tls::TlsEncryptionCredentials*  ___mServerCredentials;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field mPremasterSecret, offset: 0x40, size: 0x8, def value: None
+ ::ArrayW<uint8_t,::Array<uint8_t>*>  ___mPremasterSecret;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::TlsRsaKeyExchange, ___mServerPublicKey) == 0x28, "Offset mismatch!");
@@ -153,6 +153,6 @@ static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::TlsRsaKeyExchange, ___m
 
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Tls::TlsRsaKeyExchange, 0x48>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Crypto::Tls
+} // namespace end def Org::BouncyCastle::Crypto::Tls
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Tls::TlsRsaKeyExchange);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Tls::TlsRsaKeyExchange*, "Org.BouncyCastle.Crypto.Tls", "TlsRsaKeyExchange");

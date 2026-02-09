@@ -29,47 +29,46 @@ namespace System::ComponentModel {
 // CS Name: System.ComponentModel.DateTimeConverter
 class CORDL_TYPE DateTimeConverter : public ::System::ComponentModel::TypeConverter {
 public:
-  // Declarations
-  /// @brief Method CanConvertFrom, addr 0x62091e8, size 0x80, virtual true, abstract: false, final false
-  inline bool CanConvertFrom(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Type* sourceType);
+// Declarations
+/// @brief Method CanConvertFrom, addr 0x62098a8, size 0x80, virtual true, abstract: false, final false
+inline bool CanConvertFrom(::System::ComponentModel::ITypeDescriptorContext*  context, ::System::Type*  sourceType) ;
 
-  /// @brief Method CanConvertTo, addr 0x6209268, size 0xa4, virtual true, abstract: false, final false
-  inline bool CanConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Type* destinationType);
+/// @brief Method CanConvertTo, addr 0x6209928, size 0xa4, virtual true, abstract: false, final false
+inline bool CanConvertTo(::System::ComponentModel::ITypeDescriptorContext*  context, ::System::Type*  destinationType) ;
 
-  /// @brief Method ConvertFrom, addr 0x620930c, size 0x304, virtual true, abstract: false, final false
-  inline ::System::Object* ConvertFrom(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::System::Object* value);
+/// @brief Method ConvertFrom, addr 0x62099cc, size 0x304, virtual true, abstract: false, final false
+inline ::System::Object* ConvertFrom(::System::ComponentModel::ITypeDescriptorContext*  context, ::System::Globalization::CultureInfo*  culture, ::System::Object*  value) ;
 
-  /// @brief Method ConvertTo, addr 0x6209610, size 0x3bc, virtual true, abstract: false, final false
-  inline ::System::Object* ConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::System::Object* value,
-                                     ::System::Type* destinationType);
+/// @brief Method ConvertTo, addr 0x6209cd0, size 0x3bc, virtual true, abstract: false, final false
+inline ::System::Object* ConvertTo(::System::ComponentModel::ITypeDescriptorContext*  context, ::System::Globalization::CultureInfo*  culture, ::System::Object*  value, ::System::Type*  destinationType) ;
 
-  static inline ::System::ComponentModel::DateTimeConverter* New_ctor();
+static inline ::System::ComponentModel::DateTimeConverter* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x62099cc, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x620a08c, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DateTimeConverter();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr DateTimeConverter() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DateTimeConverter", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  DateTimeConverter(DateTimeConverter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DateTimeConverter", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  DateTimeConverter(DateTimeConverter const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "DateTimeConverter", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+DateTimeConverter(DateTimeConverter && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11228 };
+// Ctor Parameters [CppParam { name: "", ty: "DateTimeConverter", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+DateTimeConverter(DateTimeConverter const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11232};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::ComponentModel::DateTimeConverter, 0x10>, "Size mismatch!");
 
-} // namespace System::ComponentModel
+} // namespace end def System::ComponentModel
 NEED_NO_BOX(::System::ComponentModel::DateTimeConverter);
 DEFINE_IL2CPP_ARG_TYPE(::System::ComponentModel::DateTimeConverter*, "System.ComponentModel", "DateTimeConverter");

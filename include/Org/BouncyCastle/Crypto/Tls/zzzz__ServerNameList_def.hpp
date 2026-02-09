@@ -24,62 +24,62 @@ namespace Org::BouncyCastle::Crypto::Tls {
 // CS Name: Org.BouncyCastle.Crypto.Tls.ServerNameList
 class CORDL_TYPE ServerNameList : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(get = get_ServerNames)) ::System::Collections::IList* ServerNames;
+// Declarations
+ __declspec(property(get=get_ServerNames)) ::System::Collections::IList*  ServerNames;
 
-  /// @brief Field mServerNameList, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_mServerNameList, put = __cordl_internal_set_mServerNameList)) ::System::Collections::IList* mServerNameList;
+/// @brief Field mServerNameList, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_mServerNameList, put=__cordl_internal_set_mServerNameList)) ::System::Collections::IList*  mServerNameList;
 
-  /// @brief Method CheckNameType, addr 0x33739bc, size 0xac, virtual false, abstract: false, final false
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> CheckNameType(::ArrayW<uint8_t, ::Array<uint8_t>*> nameTypesSeen, uint8_t nameType);
+/// @brief Method CheckNameType, addr 0x337390c, size 0xac, virtual false, abstract: false, final false
+static inline ::ArrayW<uint8_t,::Array<uint8_t>*> CheckNameType(::ArrayW<uint8_t,::Array<uint8_t>*>  nameTypesSeen, uint8_t  nameType) ;
 
-  /// @brief Method Encode, addr 0x3373528, size 0x494, virtual true, abstract: false, final false
-  inline void Encode(::System::IO::Stream* output);
+/// @brief Method Encode, addr 0x3373478, size 0x494, virtual true, abstract: false, final false
+inline void Encode(::System::IO::Stream*  output) ;
 
-  static inline ::Org::BouncyCastle::Crypto::Tls::ServerNameList* New_ctor(::System::Collections::IList* serverNameList);
+static inline ::Org::BouncyCastle::Crypto::Tls::ServerNameList* New_ctor(::System::Collections::IList*  serverNameList) ;
 
-  /// @brief Method Parse, addr 0x3373a68, size 0x2a8, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Crypto::Tls::ServerNameList* Parse(::System::IO::Stream* input);
+/// @brief Method Parse, addr 0x33739b8, size 0x2a8, virtual false, abstract: false, final false
+static inline ::Org::BouncyCastle::Crypto::Tls::ServerNameList* Parse(::System::IO::Stream*  input) ;
 
-  constexpr ::System::Collections::IList* const& __cordl_internal_get_mServerNameList() const;
+constexpr ::System::Collections::IList* const& __cordl_internal_get_mServerNameList() const;
 
-  constexpr ::System::Collections::IList*& __cordl_internal_get_mServerNameList();
+constexpr ::System::Collections::IList*& __cordl_internal_get_mServerNameList() ;
 
-  constexpr void __cordl_internal_set_mServerNameList(::System::Collections::IList* value);
+constexpr void __cordl_internal_set_mServerNameList(::System::Collections::IList*  value) ;
 
-  /// @brief Method .ctor, addr 0x33734c8, size 0x58, virtual false, abstract: false, final false
-  inline void _ctor(::System::Collections::IList* serverNameList);
+/// @brief Method .ctor, addr 0x3373418, size 0x58, virtual false, abstract: false, final false
+inline void _ctor(::System::Collections::IList*  serverNameList) ;
 
-  /// @brief Method get_ServerNames, addr 0x3373520, size 0x8, virtual true, abstract: false, final false
-  inline ::System::Collections::IList* get_ServerNames();
+/// @brief Method get_ServerNames, addr 0x3373470, size 0x8, virtual true, abstract: false, final false
+inline ::System::Collections::IList* get_ServerNames() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ServerNameList();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ServerNameList() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ServerNameList", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ServerNameList(ServerNameList&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ServerNameList", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ServerNameList(ServerNameList const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ServerNameList", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ServerNameList(ServerNameList && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1268 };
+// Ctor Parameters [CppParam { name: "", ty: "ServerNameList", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ServerNameList(ServerNameList const& ) = delete;
 
-  /// @brief Field mServerNameList, offset: 0x10, size: 0x8, def value: None
-  ::System::Collections::IList* ___mServerNameList;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{1268};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field mServerNameList, offset: 0x10, size: 0x8, def value: None
+ ::System::Collections::IList*  ___mServerNameList;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::ServerNameList, ___mServerNameList) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Tls::ServerNameList, 0x18>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Crypto::Tls
+} // namespace end def Org::BouncyCastle::Crypto::Tls
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Tls::ServerNameList);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Tls::ServerNameList*, "Org.BouncyCastle.Crypto.Tls", "ServerNameList");

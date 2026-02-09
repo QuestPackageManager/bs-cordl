@@ -41,131 +41,131 @@ namespace System::Net {
 // CS Name: System.Net.PathList/PathListComparer
 class CORDL_TYPE PathList_PathListComparer : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field StaticInstance, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_StaticInstance, put = setStaticF_StaticInstance)) ::System::Net::PathList_PathListComparer* StaticInstance;
+// Declarations
+/// @brief Field StaticInstance, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_StaticInstance, put=setStaticF_StaticInstance)) ::System::Net::PathList_PathListComparer*  StaticInstance;
 
-  /// @brief Convert operator to "::System::Collections::IComparer"
-  constexpr operator ::System::Collections::IComparer*() noexcept;
+/// @brief Convert operator to "::System::Collections::IComparer"
+constexpr operator  ::System::Collections::IComparer*() noexcept;
 
-  static inline ::System::Net::PathList_PathListComparer* New_ctor();
+static inline ::System::Net::PathList_PathListComparer* New_ctor() ;
 
-  /// @brief Method System.Collections.IComparer.Compare, addr 0x626b938, size 0x128, virtual true, abstract: false, final true
-  inline int32_t System_Collections_IComparer_Compare(::System::Object* ol, ::System::Object* _cordl_or);
+/// @brief Method System.Collections.IComparer.Compare, addr 0x626bff8, size 0x128, virtual true, abstract: false, final true
+inline int32_t System_Collections_IComparer_Compare(::System::Object*  ol, ::System::Object*  _cordl_or) ;
 
-  /// @brief Method .ctor, addr 0x626ba60, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x626c120, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  static inline ::System::Net::PathList_PathListComparer* getStaticF_StaticInstance();
+static inline ::System::Net::PathList_PathListComparer* getStaticF_StaticInstance() ;
 
-  /// @brief Convert to "::System::Collections::IComparer"
-  constexpr ::System::Collections::IComparer* i___System__Collections__IComparer() noexcept;
+/// @brief Convert to "::System::Collections::IComparer"
+constexpr ::System::Collections::IComparer* i___System__Collections__IComparer() noexcept;
 
-  static inline void setStaticF_StaticInstance(::System::Net::PathList_PathListComparer* value);
+static inline void setStaticF_StaticInstance(::System::Net::PathList_PathListComparer*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PathList_PathListComparer();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr PathList_PathListComparer() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PathList_PathListComparer", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  PathList_PathListComparer(PathList_PathListComparer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PathList_PathListComparer", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  PathList_PathListComparer(PathList_PathListComparer const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "PathList_PathListComparer", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+PathList_PathListComparer(PathList_PathListComparer && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11530 };
+// Ctor Parameters [CppParam { name: "", ty: "PathList_PathListComparer", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+PathList_PathListComparer(PathList_PathListComparer const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11534};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::PathList_PathListComparer, 0x10>, "Size mismatch!");
 
-} // namespace System::Net
+} // namespace end def System::Net
 // Dependencies System.Object
 namespace System::Net {
 // Is value type: false
 // CS Name: System.Net.PathList
 class CORDL_TYPE PathList : public ::System::Object {
 public:
-  // Declarations
-  using PathListComparer = ::System::Net::PathList_PathListComparer;
+// Declarations
+using PathListComparer = ::System::Net::PathList_PathListComparer;
 
-  __declspec(property(get = get_Count)) int32_t Count;
+ __declspec(property(get=get_Count)) int32_t  Count;
 
-  __declspec(property(get = get_Item, put = set_Item)) ::System::Object* Item[];
+ __declspec(property(get=get_Item, put=set_Item)) ::System::Object*  Item[];
 
-  __declspec(property(get = get_SyncRoot)) ::System::Object* SyncRoot;
+ __declspec(property(get=get_SyncRoot)) ::System::Object*  SyncRoot;
 
-  __declspec(property(get = get_Values)) ::System::Collections::ICollection* Values;
+ __declspec(property(get=get_Values)) ::System::Collections::ICollection*  Values;
 
-  /// @brief Field m_list, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_list, put = __cordl_internal_set_m_list)) ::System::Collections::SortedList* m_list;
+/// @brief Field m_list, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_list, put=__cordl_internal_set_m_list)) ::System::Collections::SortedList*  m_list;
 
-  /// @brief Method GetCookiesCount, addr 0x626823c, size 0x414, virtual false, abstract: false, final false
-  inline int32_t GetCookiesCount();
+/// @brief Method GetCookiesCount, addr 0x62688fc, size 0x414, virtual false, abstract: false, final false
+inline int32_t GetCookiesCount() ;
 
-  /// @brief Method GetEnumerator, addr 0x626b1fc, size 0x20, virtual false, abstract: false, final false
-  inline ::System::Collections::IEnumerator* GetEnumerator();
+/// @brief Method GetEnumerator, addr 0x626b8bc, size 0x20, virtual false, abstract: false, final false
+inline ::System::Collections::IEnumerator* GetEnumerator() ;
 
-  static inline ::System::Net::PathList* New_ctor();
+static inline ::System::Net::PathList* New_ctor() ;
 
-  constexpr ::System::Collections::SortedList* const& __cordl_internal_get_m_list() const;
+constexpr ::System::Collections::SortedList* const& __cordl_internal_get_m_list() const;
 
-  constexpr ::System::Collections::SortedList*& __cordl_internal_get_m_list();
+constexpr ::System::Collections::SortedList*& __cordl_internal_get_m_list() ;
 
-  constexpr void __cordl_internal_set_m_list(::System::Collections::SortedList* value);
+constexpr void __cordl_internal_set_m_list(::System::Collections::SortedList*  value) ;
 
-  /// @brief Method .ctor, addr 0x626819c, size 0xa0, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x626885c, size 0xa0, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_Count, addr 0x6269cc8, size 0x20, virtual false, abstract: false, final false
-  inline int32_t get_Count();
+/// @brief Method get_Count, addr 0x626a388, size 0x20, virtual false, abstract: false, final false
+inline int32_t get_Count() ;
 
-  /// @brief Method get_Item, addr 0x6268670, size 0x20, virtual false, abstract: false, final false
-  inline ::System::Object* get_Item(::StringW s);
+/// @brief Method get_Item, addr 0x6268d30, size 0x20, virtual false, abstract: false, final false
+inline ::System::Object* get_Item(::StringW  s) ;
 
-  /// @brief Method get_SyncRoot, addr 0x6268650, size 0x20, virtual false, abstract: false, final false
-  inline ::System::Object* get_SyncRoot();
+/// @brief Method get_SyncRoot, addr 0x6268d10, size 0x20, virtual false, abstract: false, final false
+inline ::System::Object* get_SyncRoot() ;
 
-  /// @brief Method get_Values, addr 0x6269b30, size 0x20, virtual false, abstract: false, final false
-  inline ::System::Collections::ICollection* get_Values();
+/// @brief Method get_Values, addr 0x626a1f0, size 0x20, virtual false, abstract: false, final false
+inline ::System::Collections::ICollection* get_Values() ;
 
-  /// @brief Method set_Item, addr 0x6268690, size 0xf8, virtual false, abstract: false, final false
-  inline void set_Item(::StringW s, ::System::Object* value);
+/// @brief Method set_Item, addr 0x6268d50, size 0xf8, virtual false, abstract: false, final false
+inline void set_Item(::StringW  s, ::System::Object*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PathList();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr PathList() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PathList", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  PathList(PathList&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PathList", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  PathList(PathList const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "PathList", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+PathList(PathList && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11531 };
+// Ctor Parameters [CppParam { name: "", ty: "PathList", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+PathList(PathList const& ) = delete;
 
-  /// @brief Field m_list, offset: 0x10, size: 0x8, def value: None
-  ::System::Collections::SortedList* ___m_list;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11535};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field m_list, offset: 0x10, size: 0x8, def value: None
+ ::System::Collections::SortedList*  ___m_list;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Net::PathList, ___m_list) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::System::Net::PathList, 0x18>, "Size mismatch!");
 
-} // namespace System::Net
+} // namespace end def System::Net
 NEED_NO_BOX(::System::Net::PathList);
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::PathList*, "System.Net", "PathList");
 NEED_NO_BOX(::System::Net::PathList_PathListComparer);

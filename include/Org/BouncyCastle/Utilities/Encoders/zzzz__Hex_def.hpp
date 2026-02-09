@@ -25,74 +25,74 @@ namespace Org::BouncyCastle::Utilities::Encoders {
 // CS Name: Org.BouncyCastle.Utilities.Encoders.Hex
 class CORDL_TYPE Hex : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field encoder, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_encoder, put = setStaticF_encoder)) ::Org::BouncyCastle::Utilities::Encoders::HexEncoder* encoder;
+// Declarations
+/// @brief Field encoder, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_encoder, put=setStaticF_encoder)) ::Org::BouncyCastle::Utilities::Encoders::HexEncoder*  encoder;
 
-  /// @brief Method Decode, addr 0x353204c, size 0xd8, virtual false, abstract: false, final false
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Decode(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
+/// @brief Method Decode, addr 0x3531f9c, size 0xd8, virtual false, abstract: false, final false
+static inline ::ArrayW<uint8_t,::Array<uint8_t>*> Decode(::ArrayW<uint8_t,::Array<uint8_t>*>  data) ;
 
-  /// @brief Method Decode, addr 0x353243c, size 0xd0, virtual false, abstract: false, final false
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Decode(::StringW data);
+/// @brief Method Decode, addr 0x353238c, size 0xd0, virtual false, abstract: false, final false
+static inline ::ArrayW<uint8_t,::Array<uint8_t>*> Decode(::StringW  data) ;
 
-  /// @brief Method Decode, addr 0x3532800, size 0x7c, virtual false, abstract: false, final false
-  static inline int32_t Decode(::StringW data, ::System::IO::Stream* outStream);
+/// @brief Method Decode, addr 0x3532750, size 0x7c, virtual false, abstract: false, final false
+static inline int32_t Decode(::StringW  data, ::System::IO::Stream*  outStream) ;
 
-  /// @brief Method DecodeStrict, addr 0x353287c, size 0x78, virtual false, abstract: false, final false
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> DecodeStrict(::StringW str);
+/// @brief Method DecodeStrict, addr 0x35327cc, size 0x78, virtual false, abstract: false, final false
+static inline ::ArrayW<uint8_t,::Array<uint8_t>*> DecodeStrict(::StringW  str) ;
 
-  /// @brief Method DecodeStrict, addr 0x3532b24, size 0x84, virtual false, abstract: false, final false
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> DecodeStrict(::StringW str, int32_t off, int32_t len);
+/// @brief Method DecodeStrict, addr 0x3532a74, size 0x84, virtual false, abstract: false, final false
+static inline ::ArrayW<uint8_t,::Array<uint8_t>*> DecodeStrict(::StringW  str, int32_t  off, int32_t  len) ;
 
-  /// @brief Method Encode, addr 0x3531db8, size 0x68, virtual false, abstract: false, final false
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Encode(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
+/// @brief Method Encode, addr 0x3531d08, size 0x68, virtual false, abstract: false, final false
+static inline ::ArrayW<uint8_t,::Array<uint8_t>*> Encode(::ArrayW<uint8_t,::Array<uint8_t>*>  data) ;
 
-  /// @brief Method Encode, addr 0x3531ce8, size 0xd0, virtual false, abstract: false, final false
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Encode(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t off, int32_t length);
+/// @brief Method Encode, addr 0x3531c38, size 0xd0, virtual false, abstract: false, final false
+static inline ::ArrayW<uint8_t,::Array<uint8_t>*> Encode(::ArrayW<uint8_t,::Array<uint8_t>*>  data, int32_t  off, int32_t  length) ;
 
-  /// @brief Method Encode, addr 0x3531fb8, size 0x94, virtual false, abstract: false, final false
-  static inline int32_t Encode(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t off, int32_t length, ::System::IO::Stream* outStream);
+/// @brief Method Encode, addr 0x3531f08, size 0x94, virtual false, abstract: false, final false
+static inline int32_t Encode(::ArrayW<uint8_t,::Array<uint8_t>*>  data, int32_t  off, int32_t  length, ::System::IO::Stream*  outStream) ;
 
-  /// @brief Method Encode, addr 0x3531f30, size 0x88, virtual false, abstract: false, final false
-  static inline int32_t Encode(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ::System::IO::Stream* outStream);
+/// @brief Method Encode, addr 0x3531e80, size 0x88, virtual false, abstract: false, final false
+static inline int32_t Encode(::ArrayW<uint8_t,::Array<uint8_t>*>  data, ::System::IO::Stream*  outStream) ;
 
-  static inline ::Org::BouncyCastle::Utilities::Encoders::Hex* New_ctor();
+static inline ::Org::BouncyCastle::Utilities::Encoders::Hex* New_ctor() ;
 
-  /// @brief Method ToHexString, addr 0x3531c08, size 0x68, virtual false, abstract: false, final false
-  static inline ::StringW ToHexString(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
+/// @brief Method ToHexString, addr 0x3531b58, size 0x68, virtual false, abstract: false, final false
+static inline ::StringW ToHexString(::ArrayW<uint8_t,::Array<uint8_t>*>  data) ;
 
-  /// @brief Method ToHexString, addr 0x3531c70, size 0x78, virtual false, abstract: false, final false
-  static inline ::StringW ToHexString(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t off, int32_t length);
+/// @brief Method ToHexString, addr 0x3531bc0, size 0x78, virtual false, abstract: false, final false
+static inline ::StringW ToHexString(::ArrayW<uint8_t,::Array<uint8_t>*>  data, int32_t  off, int32_t  length) ;
 
-  /// @brief Method .ctor, addr 0x3531c04, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x3531b54, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  static inline ::Org::BouncyCastle::Utilities::Encoders::HexEncoder* getStaticF_encoder();
+static inline ::Org::BouncyCastle::Utilities::Encoders::HexEncoder* getStaticF_encoder() ;
 
-  static inline void setStaticF_encoder(::Org::BouncyCastle::Utilities::Encoders::HexEncoder* value);
+static inline void setStaticF_encoder(::Org::BouncyCastle::Utilities::Encoders::HexEncoder*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Hex();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr Hex() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Hex", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  Hex(Hex&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Hex", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  Hex(Hex const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "Hex", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+Hex(Hex && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1798 };
+// Ctor Parameters [CppParam { name: "", ty: "Hex", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+Hex(Hex const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{1798};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Utilities::Encoders::Hex, 0x10>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Utilities::Encoders
+} // namespace end def Org::BouncyCastle::Utilities::Encoders
 NEED_NO_BOX(::Org::BouncyCastle::Utilities::Encoders::Hex);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Utilities::Encoders::Hex*, "Org.BouncyCastle.Utilities.Encoders", "Hex");

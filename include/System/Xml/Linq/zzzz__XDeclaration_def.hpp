@@ -18,95 +18,95 @@ namespace System::Xml::Linq {
 // CS Name: System.Xml.Linq.XDeclaration
 class CORDL_TYPE XDeclaration : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(get = get_Encoding, put = set_Encoding)) ::StringW Encoding;
+// Declarations
+ __declspec(property(get=get_Encoding, put=set_Encoding)) ::StringW  Encoding;
 
-  __declspec(property(get = get_Standalone, put = set_Standalone)) ::StringW Standalone;
+ __declspec(property(get=get_Standalone, put=set_Standalone)) ::StringW  Standalone;
 
-  __declspec(property(get = get_Version)) ::StringW Version;
+ __declspec(property(get=get_Version)) ::StringW  Version;
 
-  /// @brief Field _encoding, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__encoding, put = __cordl_internal_set__encoding)) ::StringW _encoding;
+/// @brief Field _encoding, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get__encoding, put=__cordl_internal_set__encoding)) ::StringW  _encoding;
 
-  /// @brief Field _standalone, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__standalone, put = __cordl_internal_set__standalone)) ::StringW _standalone;
+/// @brief Field _standalone, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get__standalone, put=__cordl_internal_set__standalone)) ::StringW  _standalone;
 
-  /// @brief Field _version, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__version, put = __cordl_internal_set__version)) ::StringW _version;
+/// @brief Field _version, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get__version, put=__cordl_internal_set__version)) ::StringW  _version;
 
-  static inline ::System::Xml::Linq::XDeclaration* New_ctor(::System::Xml::Linq::XDeclaration* other);
+static inline ::System::Xml::Linq::XDeclaration* New_ctor(::System::Xml::Linq::XDeclaration*  other) ;
 
-  static inline ::System::Xml::Linq::XDeclaration* New_ctor(::StringW version, ::StringW encoding, ::StringW standalone);
+static inline ::System::Xml::Linq::XDeclaration* New_ctor(::StringW  version, ::StringW  encoding, ::StringW  standalone) ;
 
-  /// @brief Method ToString, addr 0x5ff32e0, size 0x180, virtual true, abstract: false, final false
-  inline ::StringW ToString();
+/// @brief Method ToString, addr 0x5ff39a0, size 0x180, virtual true, abstract: false, final false
+inline ::StringW ToString() ;
 
-  constexpr ::StringW const& __cordl_internal_get__encoding() const;
+constexpr ::StringW const& __cordl_internal_get__encoding() const;
 
-  constexpr ::StringW& __cordl_internal_get__encoding();
+constexpr ::StringW& __cordl_internal_get__encoding() ;
 
-  constexpr ::StringW const& __cordl_internal_get__standalone() const;
+constexpr ::StringW const& __cordl_internal_get__standalone() const;
 
-  constexpr ::StringW& __cordl_internal_get__standalone();
+constexpr ::StringW& __cordl_internal_get__standalone() ;
 
-  constexpr ::StringW const& __cordl_internal_get__version() const;
+constexpr ::StringW const& __cordl_internal_get__version() const;
 
-  constexpr ::StringW& __cordl_internal_get__version();
+constexpr ::StringW& __cordl_internal_get__version() ;
 
-  constexpr void __cordl_internal_set__encoding(::StringW value);
+constexpr void __cordl_internal_set__encoding(::StringW  value) ;
 
-  constexpr void __cordl_internal_set__standalone(::StringW value);
+constexpr void __cordl_internal_set__standalone(::StringW  value) ;
 
-  constexpr void __cordl_internal_set__version(::StringW value);
+constexpr void __cordl_internal_set__version(::StringW  value) ;
 
-  /// @brief Method .ctor, addr 0x5ff3254, size 0x64, virtual false, abstract: false, final false
-  inline void _ctor(::System::Xml::Linq::XDeclaration* other);
+/// @brief Method .ctor, addr 0x5ff3914, size 0x64, virtual false, abstract: false, final false
+inline void _ctor(::System::Xml::Linq::XDeclaration*  other) ;
 
-  /// @brief Method .ctor, addr 0x5ff3248, size 0xc, virtual false, abstract: false, final false
-  inline void _ctor(::StringW version, ::StringW encoding, ::StringW standalone);
+/// @brief Method .ctor, addr 0x5ff3908, size 0xc, virtual false, abstract: false, final false
+inline void _ctor(::StringW  version, ::StringW  encoding, ::StringW  standalone) ;
 
-  /// @brief Method get_Encoding, addr 0x5ff32b8, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_Encoding();
+/// @brief Method get_Encoding, addr 0x5ff3978, size 0x8, virtual false, abstract: false, final false
+inline ::StringW get_Encoding() ;
 
-  /// @brief Method get_Standalone, addr 0x5ff32c8, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_Standalone();
+/// @brief Method get_Standalone, addr 0x5ff3988, size 0x8, virtual false, abstract: false, final false
+inline ::StringW get_Standalone() ;
 
-  /// @brief Method get_Version, addr 0x5ff32d8, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_Version();
+/// @brief Method get_Version, addr 0x5ff3998, size 0x8, virtual false, abstract: false, final false
+inline ::StringW get_Version() ;
 
-  /// @brief Method set_Encoding, addr 0x5ff32c0, size 0x8, virtual false, abstract: false, final false
-  inline void set_Encoding(::StringW value);
+/// @brief Method set_Encoding, addr 0x5ff3980, size 0x8, virtual false, abstract: false, final false
+inline void set_Encoding(::StringW  value) ;
 
-  /// @brief Method set_Standalone, addr 0x5ff32d0, size 0x8, virtual false, abstract: false, final false
-  inline void set_Standalone(::StringW value);
+/// @brief Method set_Standalone, addr 0x5ff3990, size 0x8, virtual false, abstract: false, final false
+inline void set_Standalone(::StringW  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr XDeclaration();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr XDeclaration() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XDeclaration", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  XDeclaration(XDeclaration&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XDeclaration", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  XDeclaration(XDeclaration const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "XDeclaration", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+XDeclaration(XDeclaration && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21782 };
+// Ctor Parameters [CppParam { name: "", ty: "XDeclaration", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+XDeclaration(XDeclaration const& ) = delete;
 
-  /// @brief Field _version, offset: 0x10, size: 0x8, def value: None
-  ::StringW ____version;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{21786};
 
-  /// @brief Field _encoding, offset: 0x18, size: 0x8, def value: None
-  ::StringW ____encoding;
+/// @brief Field _version, offset: 0x10, size: 0x8, def value: None
+ ::StringW  ____version;
 
-  /// @brief Field _standalone, offset: 0x20, size: 0x8, def value: None
-  ::StringW ____standalone;
+/// @brief Field _encoding, offset: 0x18, size: 0x8, def value: None
+ ::StringW  ____encoding;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _standalone, offset: 0x20, size: 0x8, def value: None
+ ::StringW  ____standalone;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Xml::Linq::XDeclaration, ____version) == 0x10, "Offset mismatch!");
@@ -117,6 +117,6 @@ static_assert(offsetof(::System::Xml::Linq::XDeclaration, ____standalone) == 0x2
 
 static_assert(::cordl_internals::size_check_v<::System::Xml::Linq::XDeclaration, 0x28>, "Size mismatch!");
 
-} // namespace System::Xml::Linq
+} // namespace end def System::Xml::Linq
 NEED_NO_BOX(::System::Xml::Linq::XDeclaration);
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Linq::XDeclaration*, "System.Xml.Linq", "XDeclaration");

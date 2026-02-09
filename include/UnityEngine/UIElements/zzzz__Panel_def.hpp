@@ -12,10 +12,12 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Panel)
 namespace System::Collections::Generic {
-template <typename T> class List_1;
+template<typename T>
+class List_1;
 }
 namespace System {
-template <typename T> class Action_1;
+template<typename T>
+class Action_1;
 }
 namespace System {
 class Type;
@@ -107,621 +109,606 @@ namespace UnityEngine::UIElements {
 // CS Name: UnityEngine.UIElements.Panel
 class CORDL_TYPE Panel : public ::UnityEngine::UIElements::BaseVisualElementPanel {
 public:
-  // Declarations
-  __declspec(property(get = get_HyperlinkColor)) ::UnityEngine::Color HyperlinkColor;
+// Declarations
+ __declspec(property(get=get_HyperlinkColor)) ::UnityEngine::Color  HyperlinkColor;
 
-  __declspec(property(get = get_IMGUIContainersCount, put = set_IMGUIContainersCount)) int32_t IMGUIContainersCount;
+ __declspec(property(get=get_IMGUIContainersCount, put=set_IMGUIContainersCount)) int32_t  IMGUIContainersCount;
 
-  __declspec(property(get = get_IMGUIEventInterests, put = set_IMGUIEventInterests)) ::UnityEngine::EventInterests IMGUIEventInterests;
+ __declspec(property(get=get_IMGUIEventInterests, put=set_IMGUIEventInterests)) ::UnityEngine::EventInterests  IMGUIEventInterests;
 
-  /// @brief Field <IMGUIContainersCount>k__BackingField, offset 0x198, size 0x4
-  __declspec(property(get = __cordl_internal_get__IMGUIContainersCount_k__BackingField,
-                      put = __cordl_internal_set__IMGUIContainersCount_k__BackingField)) int32_t _IMGUIContainersCount_k__BackingField;
+/// @brief Field <IMGUIContainersCount>k__BackingField, offset 0x198, size 0x4 
+ __declspec(property(get=__cordl_internal_get__IMGUIContainersCount_k__BackingField, put=__cordl_internal_set__IMGUIContainersCount_k__BackingField)) int32_t  _IMGUIContainersCount_k__BackingField;
 
-  /// @brief Field <IMGUIEventInterests>k__BackingField, offset 0x188, size 0x3
-  __declspec(property(get = __cordl_internal_get__IMGUIEventInterests_k__BackingField,
-                      put = __cordl_internal_set__IMGUIEventInterests_k__BackingField)) ::UnityEngine::EventInterests _IMGUIEventInterests_k__BackingField;
+/// @brief Field <IMGUIEventInterests>k__BackingField, offset 0x188, size 0x3 
+ __declspec(property(get=__cordl_internal_get__IMGUIEventInterests_k__BackingField, put=__cordl_internal_set__IMGUIEventInterests_k__BackingField)) ::UnityEngine::EventInterests  _IMGUIEventInterests_k__BackingField;
 
-  /// @brief Field <TimeSinceStartup>k__BackingField, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF__TimeSinceStartup_k__BackingField,
-                      put = setStaticF__TimeSinceStartup_k__BackingField)) ::UnityEngine::UIElements::TimeMsFunction* _TimeSinceStartup_k__BackingField;
+/// @brief Field <TimeSinceStartup>k__BackingField, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF__TimeSinceStartup_k__BackingField, put=setStaticF__TimeSinceStartup_k__BackingField)) ::UnityEngine::UIElements::TimeMsFunction*  _TimeSinceStartup_k__BackingField;
 
-  /// @brief Field <contextType>k__BackingField, offset 0x168, size 0x4
-  __declspec(property(get = __cordl_internal_get__contextType_k__BackingField,
-                      put = __cordl_internal_set__contextType_k__BackingField)) ::UnityEngine::UIElements::ContextType _contextType_k__BackingField;
+/// @brief Field <contextType>k__BackingField, offset 0x168, size 0x4 
+ __declspec(property(get=__cordl_internal_get__contextType_k__BackingField, put=__cordl_internal_set__contextType_k__BackingField)) ::UnityEngine::UIElements::ContextType  _contextType_k__BackingField;
 
-  /// @brief Field <dispatcher>k__BackingField, offset 0x150, size 0x8
-  __declspec(property(get = __cordl_internal_get__dispatcher_k__BackingField,
-                      put = __cordl_internal_set__dispatcher_k__BackingField)) ::UnityEngine::UIElements::EventDispatcher* _dispatcher_k__BackingField;
+/// @brief Field <dispatcher>k__BackingField, offset 0x150, size 0x8 
+ __declspec(property(get=__cordl_internal_get__dispatcher_k__BackingField, put=__cordl_internal_set__dispatcher_k__BackingField)) ::UnityEngine::UIElements::EventDispatcher*  _dispatcher_k__BackingField;
 
-  /// @brief Field <focusController>k__BackingField, offset 0x180, size 0x8
-  __declspec(property(get = __cordl_internal_get__focusController_k__BackingField,
-                      put = __cordl_internal_set__focusController_k__BackingField)) ::UnityEngine::UIElements::FocusController* _focusController_k__BackingField;
+/// @brief Field <focusController>k__BackingField, offset 0x180, size 0x8 
+ __declspec(property(get=__cordl_internal_get__focusController_k__BackingField, put=__cordl_internal_set__focusController_k__BackingField)) ::UnityEngine::UIElements::FocusController*  _focusController_k__BackingField;
 
-  /// @brief Field <getViewDataDictionary>k__BackingField, offset 0x178, size 0x8
-  __declspec(property(get = __cordl_internal_get__getViewDataDictionary_k__BackingField,
-                      put = __cordl_internal_set__getViewDataDictionary_k__BackingField)) ::UnityEngine::UIElements::GetViewDataDictionary* _getViewDataDictionary_k__BackingField;
+/// @brief Field <getViewDataDictionary>k__BackingField, offset 0x178, size 0x8 
+ __declspec(property(get=__cordl_internal_get__getViewDataDictionary_k__BackingField, put=__cordl_internal_set__getViewDataDictionary_k__BackingField)) ::UnityEngine::UIElements::GetViewDataDictionary*  _getViewDataDictionary_k__BackingField;
 
-  /// @brief Field <loadResourceFunc>k__BackingField, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF__loadResourceFunc_k__BackingField,
-                      put = setStaticF__loadResourceFunc_k__BackingField)) ::UnityEngine::UIElements::LoadResourceFunction* _loadResourceFunc_k__BackingField;
+/// @brief Field <loadResourceFunc>k__BackingField, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF__loadResourceFunc_k__BackingField, put=setStaticF__loadResourceFunc_k__BackingField)) ::UnityEngine::UIElements::LoadResourceFunction*  _loadResourceFunc_k__BackingField;
 
-  /// @brief Field <ownerObject>k__BackingField, offset 0x160, size 0x8
-  __declspec(property(get = __cordl_internal_get__ownerObject_k__BackingField, put = __cordl_internal_set__ownerObject_k__BackingField)) ::UnityW<::UnityEngine::ScriptableObject>
-      _ownerObject_k__BackingField;
+/// @brief Field <ownerObject>k__BackingField, offset 0x160, size 0x8 
+ __declspec(property(get=__cordl_internal_get__ownerObject_k__BackingField, put=__cordl_internal_set__ownerObject_k__BackingField)) ::UnityW<::UnityEngine::ScriptableObject>  _ownerObject_k__BackingField;
 
-  /// @brief Field <rootIMGUIContainer>k__BackingField, offset 0x1a0, size 0x8
-  __declspec(property(get = __cordl_internal_get__rootIMGUIContainer_k__BackingField,
-                      put = __cordl_internal_set__rootIMGUIContainer_k__BackingField)) ::UnityEngine::UIElements::IMGUIContainer* _rootIMGUIContainer_k__BackingField;
+/// @brief Field <rootIMGUIContainer>k__BackingField, offset 0x1a0, size 0x8 
+ __declspec(property(get=__cordl_internal_get__rootIMGUIContainer_k__BackingField, put=__cordl_internal_set__rootIMGUIContainer_k__BackingField)) ::UnityEngine::UIElements::IMGUIContainer*  _rootIMGUIContainer_k__BackingField;
 
-  /// @brief Field <saveViewData>k__BackingField, offset 0x170, size 0x8
-  __declspec(property(get = __cordl_internal_get__saveViewData_k__BackingField,
-                      put = __cordl_internal_set__saveViewData_k__BackingField)) ::UnityEngine::UIElements::SavePersistentViewData* _saveViewData_k__BackingField;
+/// @brief Field <saveViewData>k__BackingField, offset 0x170, size 0x8 
+ __declspec(property(get=__cordl_internal_get__saveViewData_k__BackingField, put=__cordl_internal_set__saveViewData_k__BackingField)) ::UnityEngine::UIElements::SavePersistentViewData*  _saveViewData_k__BackingField;
 
-  __declspec(property(get = get_atlas, put = set_atlas)) ::UnityEngine::UIElements::AtlasBase* atlas;
+ __declspec(property(get=get_atlas, put=set_atlas)) ::UnityEngine::UIElements::AtlasBase*  atlas;
 
-  /// @brief Field beforeAnyRepaint, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_beforeAnyRepaint, put = setStaticF_beforeAnyRepaint)) ::System::Action_1<::UnityEngine::UIElements::Panel*>* beforeAnyRepaint;
+/// @brief Field beforeAnyRepaint, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_beforeAnyRepaint, put=setStaticF_beforeAnyRepaint)) ::System::Action_1<::UnityEngine::UIElements::Panel*>*  beforeAnyRepaint;
 
-  __declspec(property(get = get_contextType)) ::UnityEngine::UIElements::ContextType contextType;
+ __declspec(property(get=get_contextType)) ::UnityEngine::UIElements::ContextType  contextType;
 
-  __declspec(property(get = get_dispatcher, put = set_dispatcher)) ::UnityEngine::UIElements::EventDispatcher* dispatcher;
+ __declspec(property(get=get_dispatcher, put=set_dispatcher)) ::UnityEngine::UIElements::EventDispatcher*  dispatcher;
 
-  __declspec(property(get = get_focusController, put = set_focusController)) ::UnityEngine::UIElements::FocusController* focusController;
+ __declspec(property(get=get_focusController, put=set_focusController)) ::UnityEngine::UIElements::FocusController*  focusController;
 
-  __declspec(property(get = get_getViewDataDictionary)) ::UnityEngine::UIElements::GetViewDataDictionary* getViewDataDictionary;
+ __declspec(property(get=get_getViewDataDictionary)) ::UnityEngine::UIElements::GetViewDataDictionary*  getViewDataDictionary;
 
-  __declspec(property(get = get_hierarchyVersion)) uint32_t hierarchyVersion;
+ __declspec(property(get=get_hierarchyVersion)) uint32_t  hierarchyVersion;
 
-  /// @brief Field m_Atlas, offset 0x1a8, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Atlas, put = __cordl_internal_set_m_Atlas)) ::UnityEngine::UIElements::AtlasBase* m_Atlas;
+/// @brief Field m_Atlas, offset 0x1a8, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_Atlas, put=__cordl_internal_set_m_Atlas)) ::UnityEngine::UIElements::AtlasBase*  m_Atlas;
 
-  /// @brief Field m_HierarchyVersion, offset 0x108, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_HierarchyVersion, put = __cordl_internal_set_m_HierarchyVersion)) uint32_t m_HierarchyVersion;
+/// @brief Field m_HierarchyVersion, offset 0x108, size 0x4 
+ __declspec(property(get=__cordl_internal_get_m_HierarchyVersion, put=__cordl_internal_set_m_HierarchyVersion)) uint32_t  m_HierarchyVersion;
 
-  /// @brief Field m_JustReceivedFocus, offset 0x18b, size 0x1
-  __declspec(property(get = __cordl_internal_get_m_JustReceivedFocus, put = __cordl_internal_set_m_JustReceivedFocus)) bool m_JustReceivedFocus;
+/// @brief Field m_JustReceivedFocus, offset 0x18b, size 0x1 
+ __declspec(property(get=__cordl_internal_get_m_JustReceivedFocus, put=__cordl_internal_set_m_JustReceivedFocus)) bool  m_JustReceivedFocus;
 
-  /// @brief Field m_MarkerAnimations, offset 0x140, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_MarkerAnimations, put = __cordl_internal_set_m_MarkerAnimations)) ::Unity::Profiling::ProfilerMarker m_MarkerAnimations;
+/// @brief Field m_MarkerAnimations, offset 0x140, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_MarkerAnimations, put=__cordl_internal_set_m_MarkerAnimations)) ::Unity::Profiling::ProfilerMarker  m_MarkerAnimations;
 
-  /// @brief Field m_MarkerBeforeUpdate, offset 0x110, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_MarkerBeforeUpdate, put = __cordl_internal_set_m_MarkerBeforeUpdate)) ::Unity::Profiling::ProfilerMarker m_MarkerBeforeUpdate;
+/// @brief Field m_MarkerBeforeUpdate, offset 0x110, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_MarkerBeforeUpdate, put=__cordl_internal_set_m_MarkerBeforeUpdate)) ::Unity::Profiling::ProfilerMarker  m_MarkerBeforeUpdate;
 
-  /// @brief Field m_MarkerBindings, offset 0x130, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_MarkerBindings, put = __cordl_internal_set_m_MarkerBindings)) ::Unity::Profiling::ProfilerMarker m_MarkerBindings;
+/// @brief Field m_MarkerBindings, offset 0x130, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_MarkerBindings, put=__cordl_internal_set_m_MarkerBindings)) ::Unity::Profiling::ProfilerMarker  m_MarkerBindings;
 
-  /// @brief Field m_MarkerDataBinding, offset 0x138, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_MarkerDataBinding, put = __cordl_internal_set_m_MarkerDataBinding)) ::Unity::Profiling::ProfilerMarker m_MarkerDataBinding;
+/// @brief Field m_MarkerDataBinding, offset 0x138, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_MarkerDataBinding, put=__cordl_internal_set_m_MarkerDataBinding)) ::Unity::Profiling::ProfilerMarker  m_MarkerDataBinding;
 
-  /// @brief Field m_MarkerLayout, offset 0x128, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_MarkerLayout, put = __cordl_internal_set_m_MarkerLayout)) ::Unity::Profiling::ProfilerMarker m_MarkerLayout;
+/// @brief Field m_MarkerLayout, offset 0x128, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_MarkerLayout, put=__cordl_internal_set_m_MarkerLayout)) ::Unity::Profiling::ProfilerMarker  m_MarkerLayout;
 
-  /// @brief Field m_MarkerPanelChangeReceiver, offset 0x148, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_MarkerPanelChangeReceiver, put = __cordl_internal_set_m_MarkerPanelChangeReceiver)) ::Unity::Profiling::ProfilerMarker m_MarkerPanelChangeReceiver;
+/// @brief Field m_MarkerPanelChangeReceiver, offset 0x148, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_MarkerPanelChangeReceiver, put=__cordl_internal_set_m_MarkerPanelChangeReceiver)) ::Unity::Profiling::ProfilerMarker  m_MarkerPanelChangeReceiver;
 
-  /// @brief Field m_MarkerRender, offset 0x120, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_MarkerRender, put = __cordl_internal_set_m_MarkerRender)) ::Unity::Profiling::ProfilerMarker m_MarkerRender;
+/// @brief Field m_MarkerRender, offset 0x120, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_MarkerRender, put=__cordl_internal_set_m_MarkerRender)) ::Unity::Profiling::ProfilerMarker  m_MarkerRender;
 
-  /// @brief Field m_MarkerUpdate, offset 0x118, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_MarkerUpdate, put = __cordl_internal_set_m_MarkerUpdate)) ::Unity::Profiling::ProfilerMarker m_MarkerUpdate;
+/// @brief Field m_MarkerUpdate, offset 0x118, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_MarkerUpdate, put=__cordl_internal_set_m_MarkerUpdate)) ::Unity::Profiling::ProfilerMarker  m_MarkerUpdate;
 
-  /// @brief Field m_PanelChangeReceiver, offset 0x190, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_PanelChangeReceiver, put = __cordl_internal_set_m_PanelChangeReceiver)) ::UnityEngine::UIElements::IDebugPanelChangeReceiver* m_PanelChangeReceiver;
+/// @brief Field m_PanelChangeReceiver, offset 0x190, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_PanelChangeReceiver, put=__cordl_internal_set_m_PanelChangeReceiver)) ::UnityEngine::UIElements::IDebugPanelChangeReceiver*  m_PanelChangeReceiver;
 
-  /// @brief Field m_PanelName, offset 0xf8, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_PanelName, put = __cordl_internal_set_m_PanelName)) ::StringW m_PanelName;
+/// @brief Field m_PanelName, offset 0xf8, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_PanelName, put=__cordl_internal_set_m_PanelName)) ::StringW  m_PanelName;
 
-  /// @brief Field m_RepaintVersion, offset 0x104, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_RepaintVersion, put = __cordl_internal_set_m_RepaintVersion)) uint32_t m_RepaintVersion;
+/// @brief Field m_RepaintVersion, offset 0x104, size 0x4 
+ __declspec(property(get=__cordl_internal_get_m_RepaintVersion, put=__cordl_internal_set_m_RepaintVersion)) uint32_t  m_RepaintVersion;
 
-  /// @brief Field m_RootContainer, offset 0xe0, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_RootContainer, put = __cordl_internal_set_m_RootContainer)) ::UnityEngine::UIElements::VisualElement* m_RootContainer;
+/// @brief Field m_RootContainer, offset 0xe0, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_RootContainer, put=__cordl_internal_set_m_RootContainer)) ::UnityEngine::UIElements::VisualElement*  m_RootContainer;
 
-  /// @brief Field m_Scheduler, offset 0x158, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Scheduler, put = __cordl_internal_set_m_Scheduler)) ::UnityEngine::UIElements::TimerEventScheduler* m_Scheduler;
+/// @brief Field m_Scheduler, offset 0x158, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_Scheduler, put=__cordl_internal_set_m_Scheduler)) ::UnityEngine::UIElements::TimerEventScheduler*  m_Scheduler;
 
-  /// @brief Field m_StylePropertyAnimationSystem, offset 0xf0, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_StylePropertyAnimationSystem,
-                      put = __cordl_internal_set_m_StylePropertyAnimationSystem)) ::UnityEngine::UIElements::IStylePropertyAnimationSystem* m_StylePropertyAnimationSystem;
+/// @brief Field m_StylePropertyAnimationSystem, offset 0xf0, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_StylePropertyAnimationSystem, put=__cordl_internal_set_m_StylePropertyAnimationSystem)) ::UnityEngine::UIElements::IStylePropertyAnimationSystem*  m_StylePropertyAnimationSystem;
 
-  /// @brief Field m_ValidatingLayout, offset 0x1b0, size 0x1
-  __declspec(property(get = __cordl_internal_get_m_ValidatingLayout, put = __cordl_internal_set_m_ValidatingLayout)) bool m_ValidatingLayout;
+/// @brief Field m_ValidatingLayout, offset 0x1b0, size 0x1 
+ __declspec(property(get=__cordl_internal_get_m_ValidatingLayout, put=__cordl_internal_set_m_ValidatingLayout)) bool  m_ValidatingLayout;
 
-  /// @brief Field m_Version, offset 0x100, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_Version, put = __cordl_internal_set_m_Version)) uint32_t m_Version;
+/// @brief Field m_Version, offset 0x100, size 0x4 
+ __declspec(property(get=__cordl_internal_get_m_Version, put=__cordl_internal_set_m_Version)) uint32_t  m_Version;
 
-  /// @brief Field m_VisualTreeUpdater, offset 0xe8, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_VisualTreeUpdater, put = __cordl_internal_set_m_VisualTreeUpdater)) ::UnityEngine::UIElements::VisualTreeUpdater* m_VisualTreeUpdater;
+/// @brief Field m_VisualTreeUpdater, offset 0xe8, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_VisualTreeUpdater, put=__cordl_internal_set_m_VisualTreeUpdater)) ::UnityEngine::UIElements::VisualTreeUpdater*  m_VisualTreeUpdater;
 
-  __declspec(property(get = get_name, put = set_name)) ::StringW name;
+ __declspec(property(get=get_name, put=set_name)) ::StringW  name;
 
-  __declspec(property(get = get_ownerObject, put = set_ownerObject)) ::UnityW<::UnityEngine::ScriptableObject> ownerObject;
+ __declspec(property(get=get_ownerObject, put=set_ownerObject)) ::UnityW<::UnityEngine::ScriptableObject>  ownerObject;
 
-  __declspec(property(get = get_panelChangeReceiver, put = set_panelChangeReceiver)) ::UnityEngine::UIElements::IDebugPanelChangeReceiver* panelChangeReceiver;
+ __declspec(property(get=get_panelChangeReceiver, put=set_panelChangeReceiver)) ::UnityEngine::UIElements::IDebugPanelChangeReceiver*  panelChangeReceiver;
 
-  __declspec(property(get = get_rootIMGUIContainer)) ::UnityEngine::UIElements::IMGUIContainer* rootIMGUIContainer;
+ __declspec(property(get=get_rootIMGUIContainer)) ::UnityEngine::UIElements::IMGUIContainer*  rootIMGUIContainer;
 
-  /// @brief Field s_MarkerPickAll, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_s_MarkerPickAll, put = setStaticF_s_MarkerPickAll)) ::Unity::Profiling::ProfilerMarker s_MarkerPickAll;
+/// @brief Field s_MarkerPickAll, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_s_MarkerPickAll, put=setStaticF_s_MarkerPickAll)) ::Unity::Profiling::ProfilerMarker  s_MarkerPickAll;
 
-  __declspec(property(get = get_saveViewData)) ::UnityEngine::UIElements::SavePersistentViewData* saveViewData;
+ __declspec(property(get=get_saveViewData)) ::UnityEngine::UIElements::SavePersistentViewData*  saveViewData;
 
-  __declspec(property(get = get_scheduler)) ::UnityEngine::UIElements::IScheduler* scheduler;
+ __declspec(property(get=get_scheduler)) ::UnityEngine::UIElements::IScheduler*  scheduler;
 
-  __declspec(property(get = get_styleAnimationSystem, put = set_styleAnimationSystem)) ::UnityEngine::UIElements::IStylePropertyAnimationSystem* styleAnimationSystem;
+ __declspec(property(get=get_styleAnimationSystem, put=set_styleAnimationSystem)) ::UnityEngine::UIElements::IStylePropertyAnimationSystem*  styleAnimationSystem;
 
-  __declspec(property(get = get_timerEventScheduler)) ::UnityEngine::UIElements::TimerEventScheduler* timerEventScheduler;
+ __declspec(property(get=get_timerEventScheduler)) ::UnityEngine::UIElements::TimerEventScheduler*  timerEventScheduler;
 
-  __declspec(property(get = get_version)) uint32_t version;
+ __declspec(property(get=get_version)) uint32_t  version;
 
-  __declspec(property(get = get_visualTree)) ::UnityEngine::UIElements::VisualElement* visualTree;
+ __declspec(property(get=get_visualTree)) ::UnityEngine::UIElements::VisualElement*  visualTree;
 
-  /// @brief Method ApplyStyles, addr 0x6bee9bc, size 0x1c, virtual true, abstract: false, final false
-  inline void ApplyStyles();
+/// @brief Method ApplyStyles, addr 0x6bef07c, size 0x1c, virtual true, abstract: false, final false
+inline void ApplyStyles() ;
 
-  /// @brief Method Blur, addr 0x6bed58c, size 0x2c, virtual false, abstract: false, final false
-  inline void Blur();
+/// @brief Method Blur, addr 0x6bedc4c, size 0x2c, virtual false, abstract: false, final false
+inline void Blur() ;
 
-  /// @brief Method CreateMarkers, addr 0x6bed5f4, size 0x2a0, virtual false, abstract: false, final false
-  inline void CreateMarkers();
+/// @brief Method CreateMarkers, addr 0x6bedcb4, size 0x2a0, virtual false, abstract: false, final false
+inline void CreateMarkers() ;
 
-  /// @brief Method DefaultTimeSinceStartupMs, addr 0x6bee248, size 0x50, virtual false, abstract: false, final false
-  static inline int64_t DefaultTimeSinceStartupMs();
+/// @brief Method DefaultTimeSinceStartupMs, addr 0x6bee908, size 0x50, virtual false, abstract: false, final false
+static inline int64_t DefaultTimeSinceStartupMs() ;
 
-  /// @brief Method Dispose, addr 0x6bee0c0, size 0x88, virtual true, abstract: false, final false
-  inline void Dispose(bool disposing);
+/// @brief Method Dispose, addr 0x6bee780, size 0x88, virtual true, abstract: false, final false
+inline void Dispose(bool  disposing) ;
 
-  /// @brief Method Focus, addr 0x6bed580, size 0xc, virtual false, abstract: false, final false
-  inline void Focus();
+/// @brief Method Focus, addr 0x6bedc40, size 0xc, virtual false, abstract: false, final false
+inline void Focus() ;
 
-  /// @brief Method GetUpdater, addr 0x6beee9c, size 0x20, virtual true, abstract: false, final false
-  inline ::UnityEngine::UIElements::IVisualTreeUpdater* GetUpdater(::UnityEngine::UIElements::VisualTreeUpdatePhase phase);
+/// @brief Method GetUpdater, addr 0x6bef55c, size 0x20, virtual true, abstract: false, final false
+inline ::UnityEngine::UIElements::IVisualTreeUpdater* GetUpdater(::UnityEngine::UIElements::VisualTreeUpdatePhase  phase) ;
 
-  /// @brief Method LoadResource, addr 0x6bed440, size 0x140, virtual false, abstract: false, final false
-  static inline ::UnityW<::UnityEngine::Object> LoadResource(::StringW pathName, ::System::Type* type, float_t dpiScaling);
+/// @brief Method LoadResource, addr 0x6bedb00, size 0x140, virtual false, abstract: false, final false
+static inline ::UnityW<::UnityEngine::Object> LoadResource(::StringW  pathName, ::System::Type*  type, float_t  dpiScaling) ;
 
-  static inline ::UnityEngine::UIElements::Panel* New_ctor(::UnityEngine::ScriptableObject* ownerObject, ::UnityEngine::UIElements::ContextType contextType,
-                                                           ::UnityEngine::UIElements::EventDispatcher* dispatcher);
+static inline ::UnityEngine::UIElements::Panel* New_ctor(::UnityEngine::ScriptableObject*  ownerObject, ::UnityEngine::UIElements::ContextType  contextType, ::UnityEngine::UIElements::EventDispatcher*  dispatcher) ;
 
-  /// @brief Method OnVersionChanged, addr 0x6beecb0, size 0x1d4, virtual true, abstract: false, final false
-  inline void OnVersionChanged(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::VersionChangeType versionChangeType);
+/// @brief Method OnVersionChanged, addr 0x6bef370, size 0x1d4, virtual true, abstract: false, final false
+inline void OnVersionChanged(::UnityEngine::UIElements::VisualElement*  ve, ::UnityEngine::UIElements::VersionChangeType  versionChangeType) ;
 
-  /// @brief Method PerformPick, addr 0x6bee320, size 0x2c4, virtual false, abstract: false, final false
-  static inline ::UnityEngine::UIElements::VisualElement* PerformPick(::UnityEngine::UIElements::VisualElement* root, ::UnityEngine::Vector2 point,
-                                                                      ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* picked, bool includeIgnoredElement);
+/// @brief Method PerformPick, addr 0x6bee9e0, size 0x2c4, virtual false, abstract: false, final false
+static inline ::UnityEngine::UIElements::VisualElement* PerformPick(::UnityEngine::UIElements::VisualElement*  root, ::UnityEngine::Vector2  point, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>*  picked, bool  includeIgnoredElement) ;
 
-  /// @brief Method Pick, addr 0x6bee6d4, size 0x180, virtual true, abstract: false, final false
-  inline ::UnityEngine::UIElements::VisualElement* Pick(::UnityEngine::Vector2 point);
+/// @brief Method Pick, addr 0x6beed94, size 0x180, virtual true, abstract: false, final false
+inline ::UnityEngine::UIElements::VisualElement* Pick(::UnityEngine::Vector2  point) ;
 
-  /// @brief Method PickAll, addr 0x6bee5e4, size 0xf0, virtual true, abstract: false, final false
-  inline ::UnityEngine::UIElements::VisualElement* PickAll(::UnityEngine::Vector2 point, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* picked);
+/// @brief Method PickAll, addr 0x6beeca4, size 0xf0, virtual true, abstract: false, final false
+inline ::UnityEngine::UIElements::VisualElement* PickAll(::UnityEngine::Vector2  point, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>*  picked) ;
 
-  /// @brief Method PickAll, addr 0x6bee298, size 0x88, virtual false, abstract: false, final false
-  static inline ::UnityEngine::UIElements::VisualElement* PickAll(::UnityEngine::UIElements::VisualElement* root, ::UnityEngine::Vector2 point,
-                                                                  ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* picked, bool includeIgnoredElement);
+/// @brief Method PickAll, addr 0x6bee958, size 0x88, virtual false, abstract: false, final false
+static inline ::UnityEngine::UIElements::VisualElement* PickAll(::UnityEngine::UIElements::VisualElement*  root, ::UnityEngine::Vector2  point, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>*  picked, bool  includeIgnoredElement) ;
 
-  /// @brief Method Render, addr 0x6beecac, size 0x4, virtual true, abstract: false, final false
-  inline void Render();
+/// @brief Method Render, addr 0x6bef36c, size 0x4, virtual true, abstract: false, final false
+inline void Render() ;
 
-  /// @brief Method Repaint, addr 0x6beea4c, size 0x260, virtual true, abstract: false, final false
-  inline void Repaint(::UnityEngine::Event* e);
+/// @brief Method Repaint, addr 0x6bef10c, size 0x260, virtual true, abstract: false, final false
+inline void Repaint(::UnityEngine::Event*  e) ;
 
-  /// @brief Method SetUpdater, addr 0x6beee84, size 0x18, virtual true, abstract: false, final false
-  inline void SetUpdater(::UnityEngine::UIElements::IVisualTreeUpdater* updater, ::UnityEngine::UIElements::VisualTreeUpdatePhase phase);
+/// @brief Method SetUpdater, addr 0x6bef544, size 0x18, virtual true, abstract: false, final false
+inline void SetUpdater(::UnityEngine::UIElements::IVisualTreeUpdater*  updater, ::UnityEngine::UIElements::VisualTreeUpdatePhase  phase) ;
 
-  /// @brief Method TimeSinceStartupMs, addr 0x6bee148, size 0x100, virtual false, abstract: false, final false
-  static inline int64_t TimeSinceStartupMs();
+/// @brief Method TimeSinceStartupMs, addr 0x6bee808, size 0x100, virtual false, abstract: false, final false
+static inline int64_t TimeSinceStartupMs() ;
 
-  /// @brief Method UpdateAnimations, addr 0x6bee984, size 0x1c, virtual true, abstract: false, final false
-  inline void UpdateAnimations();
+/// @brief Method UpdateAnimations, addr 0x6bef044, size 0x1c, virtual true, abstract: false, final false
+inline void UpdateAnimations() ;
 
-  /// @brief Method UpdateBindings, addr 0x6bee9a0, size 0x1c, virtual true, abstract: false, final false
-  inline void UpdateBindings();
+/// @brief Method UpdateBindings, addr 0x6bef060, size 0x1c, virtual true, abstract: false, final false
+inline void UpdateBindings() ;
 
-  /// @brief Method UpdateForRepaint, addr 0x6bee9d8, size 0x74, virtual false, abstract: false, final false
-  inline void UpdateForRepaint();
+/// @brief Method UpdateForRepaint, addr 0x6bef098, size 0x74, virtual false, abstract: false, final false
+inline void UpdateForRepaint() ;
 
-  /// @brief Method ValidateFocus, addr 0x6bed5b8, size 0x34, virtual true, abstract: false, final false
-  inline void ValidateFocus();
+/// @brief Method ValidateFocus, addr 0x6bedc78, size 0x34, virtual true, abstract: false, final false
+inline void ValidateFocus() ;
 
-  /// @brief Method ValidateLayout, addr 0x6bee920, size 0x64, virtual true, abstract: false, final false
-  inline void ValidateLayout();
+/// @brief Method ValidateLayout, addr 0x6beefe0, size 0x64, virtual true, abstract: false, final false
+inline void ValidateLayout() ;
 
-  /// @brief Method <Pick>g__PixelOf|105_0, addr 0x6bee854, size 0xcc, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Vector2Int _Pick_g__PixelOf_105_0(::UnityEngine::Vector2 p);
+/// @brief Method <Pick>g__PixelOf|105_0, addr 0x6beef14, size 0xcc, virtual false, abstract: false, final false
+static inline ::UnityEngine::Vector2Int _Pick_g__PixelOf_105_0(::UnityEngine::Vector2  p) ;
 
-  constexpr int32_t const& __cordl_internal_get__IMGUIContainersCount_k__BackingField() const;
+constexpr int32_t const& __cordl_internal_get__IMGUIContainersCount_k__BackingField() const;
 
-  constexpr int32_t& __cordl_internal_get__IMGUIContainersCount_k__BackingField();
+constexpr int32_t& __cordl_internal_get__IMGUIContainersCount_k__BackingField() ;
 
-  constexpr ::UnityEngine::EventInterests const& __cordl_internal_get__IMGUIEventInterests_k__BackingField() const;
+constexpr ::UnityEngine::EventInterests const& __cordl_internal_get__IMGUIEventInterests_k__BackingField() const;
 
-  constexpr ::UnityEngine::EventInterests& __cordl_internal_get__IMGUIEventInterests_k__BackingField();
+constexpr ::UnityEngine::EventInterests& __cordl_internal_get__IMGUIEventInterests_k__BackingField() ;
 
-  constexpr ::UnityEngine::UIElements::ContextType const& __cordl_internal_get__contextType_k__BackingField() const;
+constexpr ::UnityEngine::UIElements::ContextType const& __cordl_internal_get__contextType_k__BackingField() const;
 
-  constexpr ::UnityEngine::UIElements::ContextType& __cordl_internal_get__contextType_k__BackingField();
+constexpr ::UnityEngine::UIElements::ContextType& __cordl_internal_get__contextType_k__BackingField() ;
 
-  constexpr ::UnityEngine::UIElements::EventDispatcher* const& __cordl_internal_get__dispatcher_k__BackingField() const;
+constexpr ::UnityEngine::UIElements::EventDispatcher* const& __cordl_internal_get__dispatcher_k__BackingField() const;
 
-  constexpr ::UnityEngine::UIElements::EventDispatcher*& __cordl_internal_get__dispatcher_k__BackingField();
+constexpr ::UnityEngine::UIElements::EventDispatcher*& __cordl_internal_get__dispatcher_k__BackingField() ;
 
-  constexpr ::UnityEngine::UIElements::FocusController* const& __cordl_internal_get__focusController_k__BackingField() const;
+constexpr ::UnityEngine::UIElements::FocusController* const& __cordl_internal_get__focusController_k__BackingField() const;
 
-  constexpr ::UnityEngine::UIElements::FocusController*& __cordl_internal_get__focusController_k__BackingField();
+constexpr ::UnityEngine::UIElements::FocusController*& __cordl_internal_get__focusController_k__BackingField() ;
 
-  constexpr ::UnityEngine::UIElements::GetViewDataDictionary* const& __cordl_internal_get__getViewDataDictionary_k__BackingField() const;
+constexpr ::UnityEngine::UIElements::GetViewDataDictionary* const& __cordl_internal_get__getViewDataDictionary_k__BackingField() const;
 
-  constexpr ::UnityEngine::UIElements::GetViewDataDictionary*& __cordl_internal_get__getViewDataDictionary_k__BackingField();
+constexpr ::UnityEngine::UIElements::GetViewDataDictionary*& __cordl_internal_get__getViewDataDictionary_k__BackingField() ;
 
-  constexpr ::UnityW<::UnityEngine::ScriptableObject> const& __cordl_internal_get__ownerObject_k__BackingField() const;
+constexpr ::UnityW<::UnityEngine::ScriptableObject> const& __cordl_internal_get__ownerObject_k__BackingField() const;
 
-  constexpr ::UnityW<::UnityEngine::ScriptableObject>& __cordl_internal_get__ownerObject_k__BackingField();
+constexpr ::UnityW<::UnityEngine::ScriptableObject>& __cordl_internal_get__ownerObject_k__BackingField() ;
 
-  constexpr ::UnityEngine::UIElements::IMGUIContainer* const& __cordl_internal_get__rootIMGUIContainer_k__BackingField() const;
+constexpr ::UnityEngine::UIElements::IMGUIContainer* const& __cordl_internal_get__rootIMGUIContainer_k__BackingField() const;
 
-  constexpr ::UnityEngine::UIElements::IMGUIContainer*& __cordl_internal_get__rootIMGUIContainer_k__BackingField();
+constexpr ::UnityEngine::UIElements::IMGUIContainer*& __cordl_internal_get__rootIMGUIContainer_k__BackingField() ;
 
-  constexpr ::UnityEngine::UIElements::SavePersistentViewData* const& __cordl_internal_get__saveViewData_k__BackingField() const;
+constexpr ::UnityEngine::UIElements::SavePersistentViewData* const& __cordl_internal_get__saveViewData_k__BackingField() const;
 
-  constexpr ::UnityEngine::UIElements::SavePersistentViewData*& __cordl_internal_get__saveViewData_k__BackingField();
+constexpr ::UnityEngine::UIElements::SavePersistentViewData*& __cordl_internal_get__saveViewData_k__BackingField() ;
 
-  constexpr ::UnityEngine::UIElements::AtlasBase* const& __cordl_internal_get_m_Atlas() const;
+constexpr ::UnityEngine::UIElements::AtlasBase* const& __cordl_internal_get_m_Atlas() const;
 
-  constexpr ::UnityEngine::UIElements::AtlasBase*& __cordl_internal_get_m_Atlas();
+constexpr ::UnityEngine::UIElements::AtlasBase*& __cordl_internal_get_m_Atlas() ;
 
-  constexpr uint32_t const& __cordl_internal_get_m_HierarchyVersion() const;
+constexpr uint32_t const& __cordl_internal_get_m_HierarchyVersion() const;
 
-  constexpr uint32_t& __cordl_internal_get_m_HierarchyVersion();
+constexpr uint32_t& __cordl_internal_get_m_HierarchyVersion() ;
 
-  constexpr bool const& __cordl_internal_get_m_JustReceivedFocus() const;
+constexpr bool const& __cordl_internal_get_m_JustReceivedFocus() const;
 
-  constexpr bool& __cordl_internal_get_m_JustReceivedFocus();
+constexpr bool& __cordl_internal_get_m_JustReceivedFocus() ;
 
-  constexpr ::Unity::Profiling::ProfilerMarker const& __cordl_internal_get_m_MarkerAnimations() const;
+constexpr ::Unity::Profiling::ProfilerMarker const& __cordl_internal_get_m_MarkerAnimations() const;
 
-  constexpr ::Unity::Profiling::ProfilerMarker& __cordl_internal_get_m_MarkerAnimations();
+constexpr ::Unity::Profiling::ProfilerMarker& __cordl_internal_get_m_MarkerAnimations() ;
 
-  constexpr ::Unity::Profiling::ProfilerMarker const& __cordl_internal_get_m_MarkerBeforeUpdate() const;
+constexpr ::Unity::Profiling::ProfilerMarker const& __cordl_internal_get_m_MarkerBeforeUpdate() const;
 
-  constexpr ::Unity::Profiling::ProfilerMarker& __cordl_internal_get_m_MarkerBeforeUpdate();
+constexpr ::Unity::Profiling::ProfilerMarker& __cordl_internal_get_m_MarkerBeforeUpdate() ;
 
-  constexpr ::Unity::Profiling::ProfilerMarker const& __cordl_internal_get_m_MarkerBindings() const;
+constexpr ::Unity::Profiling::ProfilerMarker const& __cordl_internal_get_m_MarkerBindings() const;
 
-  constexpr ::Unity::Profiling::ProfilerMarker& __cordl_internal_get_m_MarkerBindings();
+constexpr ::Unity::Profiling::ProfilerMarker& __cordl_internal_get_m_MarkerBindings() ;
 
-  constexpr ::Unity::Profiling::ProfilerMarker const& __cordl_internal_get_m_MarkerDataBinding() const;
+constexpr ::Unity::Profiling::ProfilerMarker const& __cordl_internal_get_m_MarkerDataBinding() const;
 
-  constexpr ::Unity::Profiling::ProfilerMarker& __cordl_internal_get_m_MarkerDataBinding();
+constexpr ::Unity::Profiling::ProfilerMarker& __cordl_internal_get_m_MarkerDataBinding() ;
 
-  constexpr ::Unity::Profiling::ProfilerMarker const& __cordl_internal_get_m_MarkerLayout() const;
+constexpr ::Unity::Profiling::ProfilerMarker const& __cordl_internal_get_m_MarkerLayout() const;
 
-  constexpr ::Unity::Profiling::ProfilerMarker& __cordl_internal_get_m_MarkerLayout();
+constexpr ::Unity::Profiling::ProfilerMarker& __cordl_internal_get_m_MarkerLayout() ;
 
-  constexpr ::Unity::Profiling::ProfilerMarker const& __cordl_internal_get_m_MarkerPanelChangeReceiver() const;
+constexpr ::Unity::Profiling::ProfilerMarker const& __cordl_internal_get_m_MarkerPanelChangeReceiver() const;
 
-  constexpr ::Unity::Profiling::ProfilerMarker& __cordl_internal_get_m_MarkerPanelChangeReceiver();
+constexpr ::Unity::Profiling::ProfilerMarker& __cordl_internal_get_m_MarkerPanelChangeReceiver() ;
 
-  constexpr ::Unity::Profiling::ProfilerMarker const& __cordl_internal_get_m_MarkerRender() const;
+constexpr ::Unity::Profiling::ProfilerMarker const& __cordl_internal_get_m_MarkerRender() const;
 
-  constexpr ::Unity::Profiling::ProfilerMarker& __cordl_internal_get_m_MarkerRender();
+constexpr ::Unity::Profiling::ProfilerMarker& __cordl_internal_get_m_MarkerRender() ;
 
-  constexpr ::Unity::Profiling::ProfilerMarker const& __cordl_internal_get_m_MarkerUpdate() const;
+constexpr ::Unity::Profiling::ProfilerMarker const& __cordl_internal_get_m_MarkerUpdate() const;
 
-  constexpr ::Unity::Profiling::ProfilerMarker& __cordl_internal_get_m_MarkerUpdate();
+constexpr ::Unity::Profiling::ProfilerMarker& __cordl_internal_get_m_MarkerUpdate() ;
 
-  constexpr ::UnityEngine::UIElements::IDebugPanelChangeReceiver* const& __cordl_internal_get_m_PanelChangeReceiver() const;
+constexpr ::UnityEngine::UIElements::IDebugPanelChangeReceiver* const& __cordl_internal_get_m_PanelChangeReceiver() const;
 
-  constexpr ::UnityEngine::UIElements::IDebugPanelChangeReceiver*& __cordl_internal_get_m_PanelChangeReceiver();
+constexpr ::UnityEngine::UIElements::IDebugPanelChangeReceiver*& __cordl_internal_get_m_PanelChangeReceiver() ;
 
-  constexpr ::StringW const& __cordl_internal_get_m_PanelName() const;
+constexpr ::StringW const& __cordl_internal_get_m_PanelName() const;
 
-  constexpr ::StringW& __cordl_internal_get_m_PanelName();
+constexpr ::StringW& __cordl_internal_get_m_PanelName() ;
 
-  constexpr uint32_t const& __cordl_internal_get_m_RepaintVersion() const;
+constexpr uint32_t const& __cordl_internal_get_m_RepaintVersion() const;
 
-  constexpr uint32_t& __cordl_internal_get_m_RepaintVersion();
+constexpr uint32_t& __cordl_internal_get_m_RepaintVersion() ;
 
-  constexpr ::UnityEngine::UIElements::VisualElement* const& __cordl_internal_get_m_RootContainer() const;
+constexpr ::UnityEngine::UIElements::VisualElement* const& __cordl_internal_get_m_RootContainer() const;
 
-  constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get_m_RootContainer();
+constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get_m_RootContainer() ;
 
-  constexpr ::UnityEngine::UIElements::TimerEventScheduler* const& __cordl_internal_get_m_Scheduler() const;
+constexpr ::UnityEngine::UIElements::TimerEventScheduler* const& __cordl_internal_get_m_Scheduler() const;
 
-  constexpr ::UnityEngine::UIElements::TimerEventScheduler*& __cordl_internal_get_m_Scheduler();
+constexpr ::UnityEngine::UIElements::TimerEventScheduler*& __cordl_internal_get_m_Scheduler() ;
 
-  constexpr ::UnityEngine::UIElements::IStylePropertyAnimationSystem* const& __cordl_internal_get_m_StylePropertyAnimationSystem() const;
+constexpr ::UnityEngine::UIElements::IStylePropertyAnimationSystem* const& __cordl_internal_get_m_StylePropertyAnimationSystem() const;
 
-  constexpr ::UnityEngine::UIElements::IStylePropertyAnimationSystem*& __cordl_internal_get_m_StylePropertyAnimationSystem();
+constexpr ::UnityEngine::UIElements::IStylePropertyAnimationSystem*& __cordl_internal_get_m_StylePropertyAnimationSystem() ;
 
-  constexpr bool const& __cordl_internal_get_m_ValidatingLayout() const;
+constexpr bool const& __cordl_internal_get_m_ValidatingLayout() const;
 
-  constexpr bool& __cordl_internal_get_m_ValidatingLayout();
+constexpr bool& __cordl_internal_get_m_ValidatingLayout() ;
 
-  constexpr uint32_t const& __cordl_internal_get_m_Version() const;
+constexpr uint32_t const& __cordl_internal_get_m_Version() const;
 
-  constexpr uint32_t& __cordl_internal_get_m_Version();
+constexpr uint32_t& __cordl_internal_get_m_Version() ;
 
-  constexpr ::UnityEngine::UIElements::VisualTreeUpdater* const& __cordl_internal_get_m_VisualTreeUpdater() const;
+constexpr ::UnityEngine::UIElements::VisualTreeUpdater* const& __cordl_internal_get_m_VisualTreeUpdater() const;
 
-  constexpr ::UnityEngine::UIElements::VisualTreeUpdater*& __cordl_internal_get_m_VisualTreeUpdater();
+constexpr ::UnityEngine::UIElements::VisualTreeUpdater*& __cordl_internal_get_m_VisualTreeUpdater() ;
 
-  constexpr void __cordl_internal_set__IMGUIContainersCount_k__BackingField(int32_t value);
+constexpr void __cordl_internal_set__IMGUIContainersCount_k__BackingField(int32_t  value) ;
 
-  constexpr void __cordl_internal_set__IMGUIEventInterests_k__BackingField(::UnityEngine::EventInterests value);
+constexpr void __cordl_internal_set__IMGUIEventInterests_k__BackingField(::UnityEngine::EventInterests  value) ;
 
-  constexpr void __cordl_internal_set__contextType_k__BackingField(::UnityEngine::UIElements::ContextType value);
+constexpr void __cordl_internal_set__contextType_k__BackingField(::UnityEngine::UIElements::ContextType  value) ;
 
-  constexpr void __cordl_internal_set__dispatcher_k__BackingField(::UnityEngine::UIElements::EventDispatcher* value);
+constexpr void __cordl_internal_set__dispatcher_k__BackingField(::UnityEngine::UIElements::EventDispatcher*  value) ;
 
-  constexpr void __cordl_internal_set__focusController_k__BackingField(::UnityEngine::UIElements::FocusController* value);
+constexpr void __cordl_internal_set__focusController_k__BackingField(::UnityEngine::UIElements::FocusController*  value) ;
 
-  constexpr void __cordl_internal_set__getViewDataDictionary_k__BackingField(::UnityEngine::UIElements::GetViewDataDictionary* value);
+constexpr void __cordl_internal_set__getViewDataDictionary_k__BackingField(::UnityEngine::UIElements::GetViewDataDictionary*  value) ;
 
-  constexpr void __cordl_internal_set__ownerObject_k__BackingField(::UnityW<::UnityEngine::ScriptableObject> value);
+constexpr void __cordl_internal_set__ownerObject_k__BackingField(::UnityW<::UnityEngine::ScriptableObject>  value) ;
 
-  constexpr void __cordl_internal_set__rootIMGUIContainer_k__BackingField(::UnityEngine::UIElements::IMGUIContainer* value);
+constexpr void __cordl_internal_set__rootIMGUIContainer_k__BackingField(::UnityEngine::UIElements::IMGUIContainer*  value) ;
 
-  constexpr void __cordl_internal_set__saveViewData_k__BackingField(::UnityEngine::UIElements::SavePersistentViewData* value);
+constexpr void __cordl_internal_set__saveViewData_k__BackingField(::UnityEngine::UIElements::SavePersistentViewData*  value) ;
 
-  constexpr void __cordl_internal_set_m_Atlas(::UnityEngine::UIElements::AtlasBase* value);
+constexpr void __cordl_internal_set_m_Atlas(::UnityEngine::UIElements::AtlasBase*  value) ;
 
-  constexpr void __cordl_internal_set_m_HierarchyVersion(uint32_t value);
+constexpr void __cordl_internal_set_m_HierarchyVersion(uint32_t  value) ;
 
-  constexpr void __cordl_internal_set_m_JustReceivedFocus(bool value);
+constexpr void __cordl_internal_set_m_JustReceivedFocus(bool  value) ;
 
-  constexpr void __cordl_internal_set_m_MarkerAnimations(::Unity::Profiling::ProfilerMarker value);
+constexpr void __cordl_internal_set_m_MarkerAnimations(::Unity::Profiling::ProfilerMarker  value) ;
 
-  constexpr void __cordl_internal_set_m_MarkerBeforeUpdate(::Unity::Profiling::ProfilerMarker value);
+constexpr void __cordl_internal_set_m_MarkerBeforeUpdate(::Unity::Profiling::ProfilerMarker  value) ;
 
-  constexpr void __cordl_internal_set_m_MarkerBindings(::Unity::Profiling::ProfilerMarker value);
+constexpr void __cordl_internal_set_m_MarkerBindings(::Unity::Profiling::ProfilerMarker  value) ;
 
-  constexpr void __cordl_internal_set_m_MarkerDataBinding(::Unity::Profiling::ProfilerMarker value);
+constexpr void __cordl_internal_set_m_MarkerDataBinding(::Unity::Profiling::ProfilerMarker  value) ;
 
-  constexpr void __cordl_internal_set_m_MarkerLayout(::Unity::Profiling::ProfilerMarker value);
+constexpr void __cordl_internal_set_m_MarkerLayout(::Unity::Profiling::ProfilerMarker  value) ;
 
-  constexpr void __cordl_internal_set_m_MarkerPanelChangeReceiver(::Unity::Profiling::ProfilerMarker value);
+constexpr void __cordl_internal_set_m_MarkerPanelChangeReceiver(::Unity::Profiling::ProfilerMarker  value) ;
 
-  constexpr void __cordl_internal_set_m_MarkerRender(::Unity::Profiling::ProfilerMarker value);
+constexpr void __cordl_internal_set_m_MarkerRender(::Unity::Profiling::ProfilerMarker  value) ;
 
-  constexpr void __cordl_internal_set_m_MarkerUpdate(::Unity::Profiling::ProfilerMarker value);
+constexpr void __cordl_internal_set_m_MarkerUpdate(::Unity::Profiling::ProfilerMarker  value) ;
 
-  constexpr void __cordl_internal_set_m_PanelChangeReceiver(::UnityEngine::UIElements::IDebugPanelChangeReceiver* value);
+constexpr void __cordl_internal_set_m_PanelChangeReceiver(::UnityEngine::UIElements::IDebugPanelChangeReceiver*  value) ;
 
-  constexpr void __cordl_internal_set_m_PanelName(::StringW value);
+constexpr void __cordl_internal_set_m_PanelName(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_m_RepaintVersion(uint32_t value);
+constexpr void __cordl_internal_set_m_RepaintVersion(uint32_t  value) ;
 
-  constexpr void __cordl_internal_set_m_RootContainer(::UnityEngine::UIElements::VisualElement* value);
+constexpr void __cordl_internal_set_m_RootContainer(::UnityEngine::UIElements::VisualElement*  value) ;
 
-  constexpr void __cordl_internal_set_m_Scheduler(::UnityEngine::UIElements::TimerEventScheduler* value);
+constexpr void __cordl_internal_set_m_Scheduler(::UnityEngine::UIElements::TimerEventScheduler*  value) ;
 
-  constexpr void __cordl_internal_set_m_StylePropertyAnimationSystem(::UnityEngine::UIElements::IStylePropertyAnimationSystem* value);
+constexpr void __cordl_internal_set_m_StylePropertyAnimationSystem(::UnityEngine::UIElements::IStylePropertyAnimationSystem*  value) ;
 
-  constexpr void __cordl_internal_set_m_ValidatingLayout(bool value);
+constexpr void __cordl_internal_set_m_ValidatingLayout(bool  value) ;
 
-  constexpr void __cordl_internal_set_m_Version(uint32_t value);
+constexpr void __cordl_internal_set_m_Version(uint32_t  value) ;
 
-  constexpr void __cordl_internal_set_m_VisualTreeUpdater(::UnityEngine::UIElements::VisualTreeUpdater* value);
+constexpr void __cordl_internal_set_m_VisualTreeUpdater(::UnityEngine::UIElements::VisualTreeUpdater*  value) ;
 
-  /// @brief Method .ctor, addr 0x6bed9a4, size 0x3e8, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::ScriptableObject* ownerObject, ::UnityEngine::UIElements::ContextType contextType, ::UnityEngine::UIElements::EventDispatcher* dispatcher);
+/// @brief Method .ctor, addr 0x6bee064, size 0x3e8, virtual false, abstract: false, final false
+inline void _ctor(::UnityEngine::ScriptableObject*  ownerObject, ::UnityEngine::UIElements::ContextType  contextType, ::UnityEngine::UIElements::EventDispatcher*  dispatcher) ;
 
-  static inline ::UnityEngine::UIElements::TimeMsFunction* getStaticF__TimeSinceStartup_k__BackingField();
+static inline ::UnityEngine::UIElements::TimeMsFunction* getStaticF__TimeSinceStartup_k__BackingField() ;
 
-  static inline ::UnityEngine::UIElements::LoadResourceFunction* getStaticF__loadResourceFunc_k__BackingField();
+static inline ::UnityEngine::UIElements::LoadResourceFunction* getStaticF__loadResourceFunc_k__BackingField() ;
 
-  static inline ::System::Action_1<::UnityEngine::UIElements::Panel*>* getStaticF_beforeAnyRepaint();
+static inline ::System::Action_1<::UnityEngine::UIElements::Panel*>* getStaticF_beforeAnyRepaint() ;
 
-  static inline ::Unity::Profiling::ProfilerMarker getStaticF_s_MarkerPickAll();
+static inline ::Unity::Profiling::ProfilerMarker getStaticF_s_MarkerPickAll() ;
 
-  /// @brief Method get_HyperlinkColor, addr 0x6beeebc, size 0x14, virtual true, abstract: false, final false
-  inline ::UnityEngine::Color get_HyperlinkColor();
+/// @brief Method get_HyperlinkColor, addr 0x6bef57c, size 0x14, virtual true, abstract: false, final false
+inline ::UnityEngine::Color get_HyperlinkColor() ;
 
-  /// @brief Method get_IMGUIContainersCount, addr 0x6bed8f8, size 0x8, virtual true, abstract: false, final false
-  inline int32_t get_IMGUIContainersCount();
+/// @brief Method get_IMGUIContainersCount, addr 0x6bedfb8, size 0x8, virtual true, abstract: false, final false
+inline int32_t get_IMGUIContainersCount() ;
 
-  /// @brief Method get_IMGUIEventInterests, addr 0x6bed3c4, size 0x10, virtual true, abstract: false, final false
-  inline ::UnityEngine::EventInterests get_IMGUIEventInterests();
+/// @brief Method get_IMGUIEventInterests, addr 0x6beda84, size 0x10, virtual true, abstract: false, final false
+inline ::UnityEngine::EventInterests get_IMGUIEventInterests() ;
 
-  /// @brief Method get_TimeSinceStartup, addr 0x6bed89c, size 0x5c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::UIElements::TimeMsFunction* get_TimeSinceStartup();
+/// @brief Method get_TimeSinceStartup, addr 0x6bedf5c, size 0x5c, virtual false, abstract: false, final false
+static inline ::UnityEngine::UIElements::TimeMsFunction* get_TimeSinceStartup() ;
 
-  /// @brief Method get_atlas, addr 0x6bed920, size 0x8, virtual true, abstract: false, final false
-  inline ::UnityEngine::UIElements::AtlasBase* get_atlas();
+/// @brief Method get_atlas, addr 0x6bedfe0, size 0x8, virtual true, abstract: false, final false
+inline ::UnityEngine::UIElements::AtlasBase* get_atlas() ;
 
-  /// @brief Method get_contextType, addr 0x6bed39c, size 0x8, virtual true, abstract: false, final false
-  inline ::UnityEngine::UIElements::ContextType get_contextType();
+/// @brief Method get_contextType, addr 0x6beda5c, size 0x8, virtual true, abstract: false, final false
+inline ::UnityEngine::UIElements::ContextType get_contextType() ;
 
-  /// @brief Method get_dispatcher, addr 0x6bed248, size 0x8, virtual true, abstract: false, final true
-  inline ::UnityEngine::UIElements::EventDispatcher* get_dispatcher();
+/// @brief Method get_dispatcher, addr 0x6bed908, size 0x8, virtual true, abstract: false, final true
+inline ::UnityEngine::UIElements::EventDispatcher* get_dispatcher() ;
 
-  /// @brief Method get_focusController, addr 0x6bed3b4, size 0x8, virtual true, abstract: false, final true
-  inline ::UnityEngine::UIElements::FocusController* get_focusController();
+/// @brief Method get_focusController, addr 0x6beda74, size 0x8, virtual true, abstract: false, final true
+inline ::UnityEngine::UIElements::FocusController* get_focusController() ;
 
-  /// @brief Method get_getViewDataDictionary, addr 0x6bed3ac, size 0x8, virtual true, abstract: false, final false
-  inline ::UnityEngine::UIElements::GetViewDataDictionary* get_getViewDataDictionary();
+/// @brief Method get_getViewDataDictionary, addr 0x6beda6c, size 0x8, virtual true, abstract: false, final false
+inline ::UnityEngine::UIElements::GetViewDataDictionary* get_getViewDataDictionary() ;
 
-  /// @brief Method get_hierarchyVersion, addr 0x6bed918, size 0x8, virtual true, abstract: false, final false
-  inline uint32_t get_hierarchyVersion();
+/// @brief Method get_hierarchyVersion, addr 0x6bedfd8, size 0x8, virtual true, abstract: false, final false
+inline uint32_t get_hierarchyVersion() ;
 
-  /// @brief Method get_loadResourceFunc, addr 0x6bed3e4, size 0x5c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::UIElements::LoadResourceFunction* get_loadResourceFunc();
+/// @brief Method get_loadResourceFunc, addr 0x6bedaa4, size 0x5c, virtual false, abstract: false, final false
+static inline ::UnityEngine::UIElements::LoadResourceFunction* get_loadResourceFunc() ;
 
-  /// @brief Method get_name, addr 0x6bed5ec, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_name();
+/// @brief Method get_name, addr 0x6bedcac, size 0x8, virtual false, abstract: false, final false
+inline ::StringW get_name() ;
 
-  /// @brief Method get_ownerObject, addr 0x6bed38c, size 0x8, virtual true, abstract: false, final false
-  inline ::UnityW<::UnityEngine::ScriptableObject> get_ownerObject();
+/// @brief Method get_ownerObject, addr 0x6beda4c, size 0x8, virtual true, abstract: false, final false
+inline ::UnityW<::UnityEngine::ScriptableObject> get_ownerObject() ;
 
-  /// @brief Method get_panelChangeReceiver, addr 0x6bed894, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::IDebugPanelChangeReceiver* get_panelChangeReceiver();
+/// @brief Method get_panelChangeReceiver, addr 0x6bedf54, size 0x8, virtual false, abstract: false, final false
+inline ::UnityEngine::UIElements::IDebugPanelChangeReceiver* get_panelChangeReceiver() ;
 
-  /// @brief Method get_rootIMGUIContainer, addr 0x6bed908, size 0x8, virtual true, abstract: false, final false
-  inline ::UnityEngine::UIElements::IMGUIContainer* get_rootIMGUIContainer();
+/// @brief Method get_rootIMGUIContainer, addr 0x6bedfc8, size 0x8, virtual true, abstract: false, final false
+inline ::UnityEngine::UIElements::IMGUIContainer* get_rootIMGUIContainer() ;
 
-  /// @brief Method get_saveViewData, addr 0x6bed3a4, size 0x8, virtual true, abstract: false, final false
-  inline ::UnityEngine::UIElements::SavePersistentViewData* get_saveViewData();
+/// @brief Method get_saveViewData, addr 0x6beda64, size 0x8, virtual true, abstract: false, final false
+inline ::UnityEngine::UIElements::SavePersistentViewData* get_saveViewData() ;
 
-  /// @brief Method get_scheduler, addr 0x6bed2c0, size 0x4, virtual true, abstract: false, final false
-  inline ::UnityEngine::UIElements::IScheduler* get_scheduler();
+/// @brief Method get_scheduler, addr 0x6bed980, size 0x4, virtual true, abstract: false, final false
+inline ::UnityEngine::UIElements::IScheduler* get_scheduler() ;
 
-  /// @brief Method get_styleAnimationSystem, addr 0x6bed2c4, size 0x8, virtual true, abstract: false, final false
-  inline ::UnityEngine::UIElements::IStylePropertyAnimationSystem* get_styleAnimationSystem();
+/// @brief Method get_styleAnimationSystem, addr 0x6bed984, size 0x8, virtual true, abstract: false, final false
+inline ::UnityEngine::UIElements::IStylePropertyAnimationSystem* get_styleAnimationSystem() ;
 
-  /// @brief Method get_timerEventScheduler, addr 0x6bed258, size 0x68, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::TimerEventScheduler* get_timerEventScheduler();
+/// @brief Method get_timerEventScheduler, addr 0x6bed918, size 0x68, virtual false, abstract: false, final false
+inline ::UnityEngine::UIElements::TimerEventScheduler* get_timerEventScheduler() ;
 
-  /// @brief Method get_version, addr 0x6bed910, size 0x8, virtual true, abstract: false, final false
-  inline uint32_t get_version();
+/// @brief Method get_version, addr 0x6bedfd0, size 0x8, virtual true, abstract: false, final false
+inline uint32_t get_version() ;
 
-  /// @brief Method get_visualTree, addr 0x6bed240, size 0x8, virtual true, abstract: false, final true
-  inline ::UnityEngine::UIElements::VisualElement* get_visualTree();
+/// @brief Method get_visualTree, addr 0x6bed900, size 0x8, virtual true, abstract: false, final true
+inline ::UnityEngine::UIElements::VisualElement* get_visualTree() ;
 
-  static inline void setStaticF__TimeSinceStartup_k__BackingField(::UnityEngine::UIElements::TimeMsFunction* value);
+static inline void setStaticF__TimeSinceStartup_k__BackingField(::UnityEngine::UIElements::TimeMsFunction*  value) ;
 
-  static inline void setStaticF__loadResourceFunc_k__BackingField(::UnityEngine::UIElements::LoadResourceFunction* value);
+static inline void setStaticF__loadResourceFunc_k__BackingField(::UnityEngine::UIElements::LoadResourceFunction*  value) ;
 
-  static inline void setStaticF_beforeAnyRepaint(::System::Action_1<::UnityEngine::UIElements::Panel*>* value);
+static inline void setStaticF_beforeAnyRepaint(::System::Action_1<::UnityEngine::UIElements::Panel*>*  value) ;
 
-  static inline void setStaticF_s_MarkerPickAll(::Unity::Profiling::ProfilerMarker value);
+static inline void setStaticF_s_MarkerPickAll(::Unity::Profiling::ProfilerMarker  value) ;
 
-  /// @brief Method set_IMGUIContainersCount, addr 0x6bed900, size 0x8, virtual true, abstract: false, final false
-  inline void set_IMGUIContainersCount(int32_t value);
+/// @brief Method set_IMGUIContainersCount, addr 0x6bedfc0, size 0x8, virtual true, abstract: false, final false
+inline void set_IMGUIContainersCount(int32_t  value) ;
 
-  /// @brief Method set_IMGUIEventInterests, addr 0x6bed3d4, size 0x10, virtual true, abstract: false, final false
-  inline void set_IMGUIEventInterests(::UnityEngine::EventInterests value);
+/// @brief Method set_IMGUIEventInterests, addr 0x6beda94, size 0x10, virtual true, abstract: false, final false
+inline void set_IMGUIEventInterests(::UnityEngine::EventInterests  value) ;
 
-  /// @brief Method set_atlas, addr 0x6bed928, size 0x7c, virtual true, abstract: false, final false
-  inline void set_atlas(::UnityEngine::UIElements::AtlasBase* value);
+/// @brief Method set_atlas, addr 0x6bedfe8, size 0x7c, virtual true, abstract: false, final false
+inline void set_atlas(::UnityEngine::UIElements::AtlasBase*  value) ;
 
-  /// @brief Method set_dispatcher, addr 0x6bed250, size 0x8, virtual true, abstract: false, final true
-  inline void set_dispatcher(::UnityEngine::UIElements::EventDispatcher* value);
+/// @brief Method set_dispatcher, addr 0x6bed910, size 0x8, virtual true, abstract: false, final true
+inline void set_dispatcher(::UnityEngine::UIElements::EventDispatcher*  value) ;
 
-  /// @brief Method set_focusController, addr 0x6bed3bc, size 0x8, virtual true, abstract: false, final true
-  inline void set_focusController(::UnityEngine::UIElements::FocusController* value);
+/// @brief Method set_focusController, addr 0x6beda7c, size 0x8, virtual true, abstract: false, final true
+inline void set_focusController(::UnityEngine::UIElements::FocusController*  value) ;
 
-  /// @brief Method set_name, addr 0x6be27b8, size 0x8, virtual false, abstract: false, final false
-  inline void set_name(::StringW value);
+/// @brief Method set_name, addr 0x6be2e78, size 0x8, virtual false, abstract: false, final false
+inline void set_name(::StringW  value) ;
 
-  /// @brief Method set_ownerObject, addr 0x6bed394, size 0x8, virtual true, abstract: false, final false
-  inline void set_ownerObject(::UnityEngine::ScriptableObject* value);
+/// @brief Method set_ownerObject, addr 0x6beda54, size 0x8, virtual true, abstract: false, final false
+inline void set_ownerObject(::UnityEngine::ScriptableObject*  value) ;
 
-  /// @brief Method set_panelChangeReceiver, addr 0x6be21e8, size 0xcc, virtual false, abstract: false, final false
-  inline void set_panelChangeReceiver(::UnityEngine::UIElements::IDebugPanelChangeReceiver* value);
+/// @brief Method set_panelChangeReceiver, addr 0x6be28a8, size 0xcc, virtual false, abstract: false, final false
+inline void set_panelChangeReceiver(::UnityEngine::UIElements::IDebugPanelChangeReceiver*  value) ;
 
-  /// @brief Method set_styleAnimationSystem, addr 0x6bed2cc, size 0xc0, virtual true, abstract: false, final false
-  inline void set_styleAnimationSystem(::UnityEngine::UIElements::IStylePropertyAnimationSystem* value);
+/// @brief Method set_styleAnimationSystem, addr 0x6bed98c, size 0xc0, virtual true, abstract: false, final false
+inline void set_styleAnimationSystem(::UnityEngine::UIElements::IStylePropertyAnimationSystem*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Panel();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr Panel() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Panel", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  Panel(Panel&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Panel", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  Panel(Panel const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "Panel", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+Panel(Panel && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4648 };
+// Ctor Parameters [CppParam { name: "", ty: "Panel", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+Panel(Panel const& ) = delete;
 
-  /// @brief Field k_DefaultPixelsPerUnit offset 0xffffffff size 0x4
-  static constexpr int32_t k_DefaultPixelsPerUnit{ static_cast<int32_t>(0x64) };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4648};
 
-  /// @brief Field m_RootContainer, offset: 0xe0, size: 0x8, def value: None
-  ::UnityEngine::UIElements::VisualElement* ___m_RootContainer;
+/// @brief Field k_DefaultPixelsPerUnit offset 0xffffffff size 0x4
+static constexpr int32_t  k_DefaultPixelsPerUnit{static_cast<int32_t>(0x64)};
 
-  /// @brief Field m_VisualTreeUpdater, offset: 0xe8, size: 0x8, def value: None
-  ::UnityEngine::UIElements::VisualTreeUpdater* ___m_VisualTreeUpdater;
+/// @brief Field m_RootContainer, offset: 0xe0, size: 0x8, def value: None
+ ::UnityEngine::UIElements::VisualElement*  ___m_RootContainer;
 
-  /// @brief Field m_StylePropertyAnimationSystem, offset: 0xf0, size: 0x8, def value: None
-  ::UnityEngine::UIElements::IStylePropertyAnimationSystem* ___m_StylePropertyAnimationSystem;
+/// @brief Field m_VisualTreeUpdater, offset: 0xe8, size: 0x8, def value: None
+ ::UnityEngine::UIElements::VisualTreeUpdater*  ___m_VisualTreeUpdater;
 
-  /// @brief Field m_PanelName, offset: 0xf8, size: 0x8, def value: None
-  ::StringW ___m_PanelName;
+/// @brief Field m_StylePropertyAnimationSystem, offset: 0xf0, size: 0x8, def value: None
+ ::UnityEngine::UIElements::IStylePropertyAnimationSystem*  ___m_StylePropertyAnimationSystem;
 
-  /// @brief Field m_Version, offset: 0x100, size: 0x4, def value: None
-  uint32_t ___m_Version;
+/// @brief Field m_PanelName, offset: 0xf8, size: 0x8, def value: None
+ ::StringW  ___m_PanelName;
 
-  /// @brief Field m_RepaintVersion, offset: 0x104, size: 0x4, def value: None
-  uint32_t ___m_RepaintVersion;
+/// @brief Field m_Version, offset: 0x100, size: 0x4, def value: None
+ uint32_t  ___m_Version;
 
-  /// @brief Field m_HierarchyVersion, offset: 0x108, size: 0x4, def value: None
-  uint32_t ___m_HierarchyVersion;
+/// @brief Field m_RepaintVersion, offset: 0x104, size: 0x4, def value: None
+ uint32_t  ___m_RepaintVersion;
 
-  /// @brief Field m_MarkerBeforeUpdate, offset: 0x110, size: 0x8, def value: None
-  ::Unity::Profiling::ProfilerMarker ___m_MarkerBeforeUpdate;
+/// @brief Field m_HierarchyVersion, offset: 0x108, size: 0x4, def value: None
+ uint32_t  ___m_HierarchyVersion;
 
-  /// @brief Field m_MarkerUpdate, offset: 0x118, size: 0x8, def value: None
-  ::Unity::Profiling::ProfilerMarker ___m_MarkerUpdate;
+/// @brief Field m_MarkerBeforeUpdate, offset: 0x110, size: 0x8, def value: None
+ ::Unity::Profiling::ProfilerMarker  ___m_MarkerBeforeUpdate;
 
-  /// @brief Field m_MarkerRender, offset: 0x120, size: 0x8, def value: None
-  ::Unity::Profiling::ProfilerMarker ___m_MarkerRender;
+/// @brief Field m_MarkerUpdate, offset: 0x118, size: 0x8, def value: None
+ ::Unity::Profiling::ProfilerMarker  ___m_MarkerUpdate;
 
-  /// @brief Field m_MarkerLayout, offset: 0x128, size: 0x8, def value: None
-  ::Unity::Profiling::ProfilerMarker ___m_MarkerLayout;
+/// @brief Field m_MarkerRender, offset: 0x120, size: 0x8, def value: None
+ ::Unity::Profiling::ProfilerMarker  ___m_MarkerRender;
 
-  /// @brief Field m_MarkerBindings, offset: 0x130, size: 0x8, def value: None
-  ::Unity::Profiling::ProfilerMarker ___m_MarkerBindings;
+/// @brief Field m_MarkerLayout, offset: 0x128, size: 0x8, def value: None
+ ::Unity::Profiling::ProfilerMarker  ___m_MarkerLayout;
 
-  /// @brief Field m_MarkerDataBinding, offset: 0x138, size: 0x8, def value: None
-  ::Unity::Profiling::ProfilerMarker ___m_MarkerDataBinding;
+/// @brief Field m_MarkerBindings, offset: 0x130, size: 0x8, def value: None
+ ::Unity::Profiling::ProfilerMarker  ___m_MarkerBindings;
 
-  /// @brief Field m_MarkerAnimations, offset: 0x140, size: 0x8, def value: None
-  ::Unity::Profiling::ProfilerMarker ___m_MarkerAnimations;
+/// @brief Field m_MarkerDataBinding, offset: 0x138, size: 0x8, def value: None
+ ::Unity::Profiling::ProfilerMarker  ___m_MarkerDataBinding;
 
-  /// @brief Field m_MarkerPanelChangeReceiver, offset: 0x148, size: 0x8, def value: None
-  ::Unity::Profiling::ProfilerMarker ___m_MarkerPanelChangeReceiver;
+/// @brief Field m_MarkerAnimations, offset: 0x140, size: 0x8, def value: None
+ ::Unity::Profiling::ProfilerMarker  ___m_MarkerAnimations;
 
-  /// @brief Field <dispatcher>k__BackingField, offset: 0x150, size: 0x8, def value: None
-  ::UnityEngine::UIElements::EventDispatcher* ____dispatcher_k__BackingField;
+/// @brief Field m_MarkerPanelChangeReceiver, offset: 0x148, size: 0x8, def value: None
+ ::Unity::Profiling::ProfilerMarker  ___m_MarkerPanelChangeReceiver;
 
-  /// @brief Field m_Scheduler, offset: 0x158, size: 0x8, def value: None
-  ::UnityEngine::UIElements::TimerEventScheduler* ___m_Scheduler;
+/// @brief Field <dispatcher>k__BackingField, offset: 0x150, size: 0x8, def value: None
+ ::UnityEngine::UIElements::EventDispatcher*  ____dispatcher_k__BackingField;
 
-  /// @brief Field <ownerObject>k__BackingField, offset: 0x160, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::ScriptableObject> ____ownerObject_k__BackingField;
+/// @brief Field m_Scheduler, offset: 0x158, size: 0x8, def value: None
+ ::UnityEngine::UIElements::TimerEventScheduler*  ___m_Scheduler;
 
-  /// @brief Field <contextType>k__BackingField, offset: 0x168, size: 0x4, def value: None
-  ::UnityEngine::UIElements::ContextType ____contextType_k__BackingField;
+/// @brief Field <ownerObject>k__BackingField, offset: 0x160, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::ScriptableObject>  ____ownerObject_k__BackingField;
 
-  /// @brief Field <saveViewData>k__BackingField, offset: 0x170, size: 0x8, def value: None
-  ::UnityEngine::UIElements::SavePersistentViewData* ____saveViewData_k__BackingField;
+/// @brief Field <contextType>k__BackingField, offset: 0x168, size: 0x4, def value: None
+ ::UnityEngine::UIElements::ContextType  ____contextType_k__BackingField;
 
-  /// @brief Field <getViewDataDictionary>k__BackingField, offset: 0x178, size: 0x8, def value: None
-  ::UnityEngine::UIElements::GetViewDataDictionary* ____getViewDataDictionary_k__BackingField;
+/// @brief Field <saveViewData>k__BackingField, offset: 0x170, size: 0x8, def value: None
+ ::UnityEngine::UIElements::SavePersistentViewData*  ____saveViewData_k__BackingField;
 
-  /// @brief Field <focusController>k__BackingField, offset: 0x180, size: 0x8, def value: None
-  ::UnityEngine::UIElements::FocusController* ____focusController_k__BackingField;
+/// @brief Field <getViewDataDictionary>k__BackingField, offset: 0x178, size: 0x8, def value: None
+ ::UnityEngine::UIElements::GetViewDataDictionary*  ____getViewDataDictionary_k__BackingField;
 
-  /// @brief Field <IMGUIEventInterests>k__BackingField, offset: 0x188, size: 0x3, def value: None
-  ::UnityEngine::EventInterests ____IMGUIEventInterests_k__BackingField;
+/// @brief Field <focusController>k__BackingField, offset: 0x180, size: 0x8, def value: None
+ ::UnityEngine::UIElements::FocusController*  ____focusController_k__BackingField;
 
-  /// @brief Field m_JustReceivedFocus, offset: 0x18b, size: 0x1, def value: None
-  bool ___m_JustReceivedFocus;
+/// @brief Field <IMGUIEventInterests>k__BackingField, offset: 0x188, size: 0x3, def value: None
+ ::UnityEngine::EventInterests  ____IMGUIEventInterests_k__BackingField;
 
-  /// @brief Field m_PanelChangeReceiver, offset: 0x190, size: 0x8, def value: None
-  ::UnityEngine::UIElements::IDebugPanelChangeReceiver* ___m_PanelChangeReceiver;
+/// @brief Field m_JustReceivedFocus, offset: 0x18b, size: 0x1, def value: None
+ bool  ___m_JustReceivedFocus;
 
-  /// @brief Field <IMGUIContainersCount>k__BackingField, offset: 0x198, size: 0x4, def value: None
-  int32_t ____IMGUIContainersCount_k__BackingField;
+/// @brief Field m_PanelChangeReceiver, offset: 0x190, size: 0x8, def value: None
+ ::UnityEngine::UIElements::IDebugPanelChangeReceiver*  ___m_PanelChangeReceiver;
 
-  /// @brief Field <rootIMGUIContainer>k__BackingField, offset: 0x1a0, size: 0x8, def value: None
-  ::UnityEngine::UIElements::IMGUIContainer* ____rootIMGUIContainer_k__BackingField;
+/// @brief Field <IMGUIContainersCount>k__BackingField, offset: 0x198, size: 0x4, def value: None
+ int32_t  ____IMGUIContainersCount_k__BackingField;
 
-  /// @brief Field m_Atlas, offset: 0x1a8, size: 0x8, def value: None
-  ::UnityEngine::UIElements::AtlasBase* ___m_Atlas;
+/// @brief Field <rootIMGUIContainer>k__BackingField, offset: 0x1a0, size: 0x8, def value: None
+ ::UnityEngine::UIElements::IMGUIContainer*  ____rootIMGUIContainer_k__BackingField;
 
-  /// @brief Field m_ValidatingLayout, offset: 0x1b0, size: 0x1, def value: None
-  bool ___m_ValidatingLayout;
+/// @brief Field m_Atlas, offset: 0x1a8, size: 0x8, def value: None
+ ::UnityEngine::UIElements::AtlasBase*  ___m_Atlas;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field m_ValidatingLayout, offset: 0x1b0, size: 0x1, def value: None
+ bool  ___m_ValidatingLayout;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::UIElements::Panel, ___m_RootContainer) == 0xe0, "Offset mismatch!");
@@ -784,6 +771,6 @@ static_assert(offsetof(::UnityEngine::UIElements::Panel, ___m_ValidatingLayout) 
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::Panel, 0x1b8>, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements
+} // namespace end def UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::Panel);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::Panel*, "UnityEngine.UIElements", "Panel");

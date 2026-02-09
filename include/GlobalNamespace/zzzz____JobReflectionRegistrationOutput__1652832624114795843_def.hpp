@@ -17,35 +17,35 @@ namespace GlobalNamespace {
 // CS Name: __JobReflectionRegistrationOutput__1652832624114795843
 class CORDL_TYPE __JobReflectionRegistrationOutput__1652832624114795843 : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method CreateJobReflectionData, addr 0x6319a04, size 0x30c, virtual false, abstract: false, final false
-  static inline void CreateJobReflectionData();
+// Declarations
+/// @brief Method CreateJobReflectionData, addr 0x631a0c4, size 0x30c, virtual false, abstract: false, final false
+static inline void CreateJobReflectionData() ;
 
-  /// @brief Method EarlyInit, addr 0x6319d10, size 0x4, virtual false, abstract: false, final false
-  static inline void EarlyInit();
+/// @brief Method EarlyInit, addr 0x631a3d0, size 0x4, virtual false, abstract: false, final false
+static inline void EarlyInit() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __JobReflectionRegistrationOutput__1652832624114795843();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __JobReflectionRegistrationOutput__1652832624114795843() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__JobReflectionRegistrationOutput__1652832624114795843", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __JobReflectionRegistrationOutput__1652832624114795843(__JobReflectionRegistrationOutput__1652832624114795843&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__JobReflectionRegistrationOutput__1652832624114795843", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __JobReflectionRegistrationOutput__1652832624114795843(__JobReflectionRegistrationOutput__1652832624114795843 const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__JobReflectionRegistrationOutput__1652832624114795843", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__JobReflectionRegistrationOutput__1652832624114795843(__JobReflectionRegistrationOutput__1652832624114795843 && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15808 };
+// Ctor Parameters [CppParam { name: "", ty: "__JobReflectionRegistrationOutput__1652832624114795843", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__JobReflectionRegistrationOutput__1652832624114795843(__JobReflectionRegistrationOutput__1652832624114795843 const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{15812};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__JobReflectionRegistrationOutput__1652832624114795843, 0x10>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::__JobReflectionRegistrationOutput__1652832624114795843);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__JobReflectionRegistrationOutput__1652832624114795843*, "", "__JobReflectionRegistrationOutput__1652832624114795843");

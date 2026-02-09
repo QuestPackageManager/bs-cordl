@@ -36,92 +36,92 @@ namespace Org::BouncyCastle::Asn1::X509::Qualified {
 // CS Name: Org.BouncyCastle.Asn1.X509.Qualified.MonetaryValue
 class CORDL_TYPE MonetaryValue : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
-  // Declarations
-  __declspec(property(get = get_Amount)) ::Org::BouncyCastle::Math::BigInteger* Amount;
+// Declarations
+ __declspec(property(get=get_Amount)) ::Org::BouncyCastle::Math::BigInteger*  Amount;
 
-  __declspec(property(get = get_Currency)) ::Org::BouncyCastle::Asn1::X509::Qualified::Iso4217CurrencyCode* Currency;
+ __declspec(property(get=get_Currency)) ::Org::BouncyCastle::Asn1::X509::Qualified::Iso4217CurrencyCode*  Currency;
 
-  __declspec(property(get = get_Exponent)) ::Org::BouncyCastle::Math::BigInteger* Exponent;
+ __declspec(property(get=get_Exponent)) ::Org::BouncyCastle::Math::BigInteger*  Exponent;
 
-  /// @brief Field amount, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_amount, put = __cordl_internal_set_amount)) ::Org::BouncyCastle::Asn1::DerInteger* amount;
+/// @brief Field amount, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_amount, put=__cordl_internal_set_amount)) ::Org::BouncyCastle::Asn1::DerInteger*  amount;
 
-  /// @brief Field currency, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_currency, put = __cordl_internal_set_currency)) ::Org::BouncyCastle::Asn1::X509::Qualified::Iso4217CurrencyCode* currency;
+/// @brief Field currency, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_currency, put=__cordl_internal_set_currency)) ::Org::BouncyCastle::Asn1::X509::Qualified::Iso4217CurrencyCode*  currency;
 
-  /// @brief Field exponent, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_exponent, put = __cordl_internal_set_exponent)) ::Org::BouncyCastle::Asn1::DerInteger* exponent;
+/// @brief Field exponent, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get_exponent, put=__cordl_internal_set_exponent)) ::Org::BouncyCastle::Asn1::DerInteger*  exponent;
 
-  /// @brief Method GetInstance, addr 0x345ccdc, size 0x164, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Asn1::X509::Qualified::MonetaryValue* GetInstance(::System::Object* obj);
+/// @brief Method GetInstance, addr 0x345cc2c, size 0x164, virtual false, abstract: false, final false
+static inline ::Org::BouncyCastle::Asn1::X509::Qualified::MonetaryValue* GetInstance(::System::Object*  obj) ;
 
-  static inline ::Org::BouncyCastle::Asn1::X509::Qualified::MonetaryValue* New_ctor(::Org::BouncyCastle::Asn1::X509::Qualified::Iso4217CurrencyCode* currency, int32_t amount, int32_t exponent);
+static inline ::Org::BouncyCastle::Asn1::X509::Qualified::MonetaryValue* New_ctor(::Org::BouncyCastle::Asn1::X509::Qualified::Iso4217CurrencyCode*  currency, int32_t  amount, int32_t  exponent) ;
 
-  static inline ::Org::BouncyCastle::Asn1::X509::Qualified::MonetaryValue* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
+static inline ::Org::BouncyCastle::Asn1::X509::Qualified::MonetaryValue* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence*  seq) ;
 
-  /// @brief Method ToAsn1Object, addr 0x345d044, size 0x11c, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
+/// @brief Method ToAsn1Object, addr 0x345cf94, size 0x11c, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object() ;
 
-  constexpr ::Org::BouncyCastle::Asn1::DerInteger* const& __cordl_internal_get_amount() const;
+constexpr ::Org::BouncyCastle::Asn1::DerInteger* const& __cordl_internal_get_amount() const;
 
-  constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __cordl_internal_get_amount();
+constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __cordl_internal_get_amount() ;
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::Qualified::Iso4217CurrencyCode* const& __cordl_internal_get_currency() const;
+constexpr ::Org::BouncyCastle::Asn1::X509::Qualified::Iso4217CurrencyCode* const& __cordl_internal_get_currency() const;
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::Qualified::Iso4217CurrencyCode*& __cordl_internal_get_currency();
+constexpr ::Org::BouncyCastle::Asn1::X509::Qualified::Iso4217CurrencyCode*& __cordl_internal_get_currency() ;
 
-  constexpr ::Org::BouncyCastle::Asn1::DerInteger* const& __cordl_internal_get_exponent() const;
+constexpr ::Org::BouncyCastle::Asn1::DerInteger* const& __cordl_internal_get_exponent() const;
 
-  constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __cordl_internal_get_exponent();
+constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __cordl_internal_get_exponent() ;
 
-  constexpr void __cordl_internal_set_amount(::Org::BouncyCastle::Asn1::DerInteger* value);
+constexpr void __cordl_internal_set_amount(::Org::BouncyCastle::Asn1::DerInteger*  value) ;
 
-  constexpr void __cordl_internal_set_currency(::Org::BouncyCastle::Asn1::X509::Qualified::Iso4217CurrencyCode* value);
+constexpr void __cordl_internal_set_currency(::Org::BouncyCastle::Asn1::X509::Qualified::Iso4217CurrencyCode*  value) ;
 
-  constexpr void __cordl_internal_set_exponent(::Org::BouncyCastle::Asn1::DerInteger* value);
+constexpr void __cordl_internal_set_exponent(::Org::BouncyCastle::Asn1::DerInteger*  value) ;
 
-  /// @brief Method .ctor, addr 0x345cf70, size 0x9c, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Asn1::X509::Qualified::Iso4217CurrencyCode* currency, int32_t amount, int32_t exponent);
+/// @brief Method .ctor, addr 0x345cec0, size 0x9c, virtual false, abstract: false, final false
+inline void _ctor(::Org::BouncyCastle::Asn1::X509::Qualified::Iso4217CurrencyCode*  currency, int32_t  amount, int32_t  exponent) ;
 
-  /// @brief Method .ctor, addr 0x345ce40, size 0x130, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
+/// @brief Method .ctor, addr 0x345cd90, size 0x130, virtual false, abstract: false, final false
+inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence*  seq) ;
 
-  /// @brief Method get_Amount, addr 0x345d014, size 0x18, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Math::BigInteger* get_Amount();
+/// @brief Method get_Amount, addr 0x345cf64, size 0x18, virtual false, abstract: false, final false
+inline ::Org::BouncyCastle::Math::BigInteger* get_Amount() ;
 
-  /// @brief Method get_Currency, addr 0x345d00c, size 0x8, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::X509::Qualified::Iso4217CurrencyCode* get_Currency();
+/// @brief Method get_Currency, addr 0x345cf5c, size 0x8, virtual false, abstract: false, final false
+inline ::Org::BouncyCastle::Asn1::X509::Qualified::Iso4217CurrencyCode* get_Currency() ;
 
-  /// @brief Method get_Exponent, addr 0x345d02c, size 0x18, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Math::BigInteger* get_Exponent();
+/// @brief Method get_Exponent, addr 0x345cf7c, size 0x18, virtual false, abstract: false, final false
+inline ::Org::BouncyCastle::Math::BigInteger* get_Exponent() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MonetaryValue();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr MonetaryValue() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MonetaryValue", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  MonetaryValue(MonetaryValue&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MonetaryValue", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  MonetaryValue(MonetaryValue const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "MonetaryValue", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+MonetaryValue(MonetaryValue && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 330 };
+// Ctor Parameters [CppParam { name: "", ty: "MonetaryValue", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+MonetaryValue(MonetaryValue const& ) = delete;
 
-  /// @brief Field currency, offset: 0x10, size: 0x8, def value: None
-  ::Org::BouncyCastle::Asn1::X509::Qualified::Iso4217CurrencyCode* ___currency;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{330};
 
-  /// @brief Field amount, offset: 0x18, size: 0x8, def value: None
-  ::Org::BouncyCastle::Asn1::DerInteger* ___amount;
+/// @brief Field currency, offset: 0x10, size: 0x8, def value: None
+ ::Org::BouncyCastle::Asn1::X509::Qualified::Iso4217CurrencyCode*  ___currency;
 
-  /// @brief Field exponent, offset: 0x20, size: 0x8, def value: None
-  ::Org::BouncyCastle::Asn1::DerInteger* ___exponent;
+/// @brief Field amount, offset: 0x18, size: 0x8, def value: None
+ ::Org::BouncyCastle::Asn1::DerInteger*  ___amount;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field exponent, offset: 0x20, size: 0x8, def value: None
+ ::Org::BouncyCastle::Asn1::DerInteger*  ___exponent;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Org::BouncyCastle::Asn1::X509::Qualified::MonetaryValue, ___currency) == 0x10, "Offset mismatch!");
@@ -132,6 +132,6 @@ static_assert(offsetof(::Org::BouncyCastle::Asn1::X509::Qualified::MonetaryValue
 
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::X509::Qualified::MonetaryValue, 0x28>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Asn1::X509::Qualified
+} // namespace end def Org::BouncyCastle::Asn1::X509::Qualified
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::X509::Qualified::MonetaryValue);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::X509::Qualified::MonetaryValue*, "Org.BouncyCastle.Asn1.X509.Qualified", "MonetaryValue");

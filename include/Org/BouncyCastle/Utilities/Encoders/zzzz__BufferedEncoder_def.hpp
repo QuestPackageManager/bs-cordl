@@ -21,72 +21,72 @@ namespace Org::BouncyCastle::Utilities::Encoders {
 // CS Name: Org.BouncyCastle.Utilities.Encoders.BufferedEncoder
 class CORDL_TYPE BufferedEncoder : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field Buffer, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_Buffer, put = __cordl_internal_set_Buffer)) ::ArrayW<uint8_t, ::Array<uint8_t>*> Buffer;
+// Declarations
+/// @brief Field Buffer, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_Buffer, put=__cordl_internal_set_Buffer)) ::ArrayW<uint8_t,::Array<uint8_t>*>  Buffer;
 
-  /// @brief Field bufOff, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get_bufOff, put = __cordl_internal_set_bufOff)) int32_t bufOff;
+/// @brief Field bufOff, offset 0x18, size 0x4 
+ __declspec(property(get=__cordl_internal_get_bufOff, put=__cordl_internal_set_bufOff)) int32_t  bufOff;
 
-  /// @brief Field translator, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_translator, put = __cordl_internal_set_translator)) ::Org::BouncyCastle::Utilities::Encoders::ITranslator* translator;
+/// @brief Field translator, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get_translator, put=__cordl_internal_set_translator)) ::Org::BouncyCastle::Utilities::Encoders::ITranslator*  translator;
 
-  static inline ::Org::BouncyCastle::Utilities::Encoders::BufferedEncoder* New_ctor(::Org::BouncyCastle::Utilities::Encoders::ITranslator* translator, int32_t bufferSize);
+static inline ::Org::BouncyCastle::Utilities::Encoders::BufferedEncoder* New_ctor(::Org::BouncyCastle::Utilities::Encoders::ITranslator*  translator, int32_t  bufferSize) ;
 
-  /// @brief Method ProcessByte, addr 0x3531878, size 0x12c, virtual false, abstract: false, final false
-  inline int32_t ProcessByte(uint8_t input, ::ArrayW<uint8_t, ::Array<uint8_t>*> outBytes, int32_t outOff);
+/// @brief Method ProcessByte, addr 0x35317c8, size 0x12c, virtual false, abstract: false, final false
+inline int32_t ProcessByte(uint8_t  input, ::ArrayW<uint8_t,::Array<uint8_t>*>  outBytes, int32_t  outOff) ;
 
-  /// @brief Method ProcessBytes, addr 0x35319a4, size 0x260, virtual false, abstract: false, final false
-  inline int32_t ProcessBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t len, ::ArrayW<uint8_t, ::Array<uint8_t>*> outBytes, int32_t outOff);
+/// @brief Method ProcessBytes, addr 0x35318f4, size 0x260, virtual false, abstract: false, final false
+inline int32_t ProcessBytes(::ArrayW<uint8_t,::Array<uint8_t>*>  input, int32_t  inOff, int32_t  len, ::ArrayW<uint8_t,::Array<uint8_t>*>  outBytes, int32_t  outOff) ;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_Buffer() const;
+constexpr ::ArrayW<uint8_t,::Array<uint8_t>*> const& __cordl_internal_get_Buffer() const;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_Buffer();
+constexpr ::ArrayW<uint8_t,::Array<uint8_t>*>& __cordl_internal_get_Buffer() ;
 
-  constexpr int32_t const& __cordl_internal_get_bufOff() const;
+constexpr int32_t const& __cordl_internal_get_bufOff() const;
 
-  constexpr int32_t& __cordl_internal_get_bufOff();
+constexpr int32_t& __cordl_internal_get_bufOff() ;
 
-  constexpr ::Org::BouncyCastle::Utilities::Encoders::ITranslator* const& __cordl_internal_get_translator() const;
+constexpr ::Org::BouncyCastle::Utilities::Encoders::ITranslator* const& __cordl_internal_get_translator() const;
 
-  constexpr ::Org::BouncyCastle::Utilities::Encoders::ITranslator*& __cordl_internal_get_translator();
+constexpr ::Org::BouncyCastle::Utilities::Encoders::ITranslator*& __cordl_internal_get_translator() ;
 
-  constexpr void __cordl_internal_set_Buffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+constexpr void __cordl_internal_set_Buffer(::ArrayW<uint8_t,::Array<uint8_t>*>  value) ;
 
-  constexpr void __cordl_internal_set_bufOff(int32_t value);
+constexpr void __cordl_internal_set_bufOff(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_translator(::Org::BouncyCastle::Utilities::Encoders::ITranslator* value);
+constexpr void __cordl_internal_set_translator(::Org::BouncyCastle::Utilities::Encoders::ITranslator*  value) ;
 
-  /// @brief Method .ctor, addr 0x3531744, size 0x134, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Utilities::Encoders::ITranslator* translator, int32_t bufferSize);
+/// @brief Method .ctor, addr 0x3531694, size 0x134, virtual false, abstract: false, final false
+inline void _ctor(::Org::BouncyCastle::Utilities::Encoders::ITranslator*  translator, int32_t  bufferSize) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BufferedEncoder();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr BufferedEncoder() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BufferedEncoder", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  BufferedEncoder(BufferedEncoder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BufferedEncoder", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  BufferedEncoder(BufferedEncoder const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "BufferedEncoder", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+BufferedEncoder(BufferedEncoder && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1797 };
+// Ctor Parameters [CppParam { name: "", ty: "BufferedEncoder", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+BufferedEncoder(BufferedEncoder const& ) = delete;
 
-  /// @brief Field Buffer, offset: 0x10, size: 0x8, def value: None
-  ::ArrayW<uint8_t, ::Array<uint8_t>*> ___Buffer;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{1797};
 
-  /// @brief Field bufOff, offset: 0x18, size: 0x4, def value: None
-  int32_t ___bufOff;
+/// @brief Field Buffer, offset: 0x10, size: 0x8, def value: None
+ ::ArrayW<uint8_t,::Array<uint8_t>*>  ___Buffer;
 
-  /// @brief Field translator, offset: 0x20, size: 0x8, def value: None
-  ::Org::BouncyCastle::Utilities::Encoders::ITranslator* ___translator;
+/// @brief Field bufOff, offset: 0x18, size: 0x4, def value: None
+ int32_t  ___bufOff;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field translator, offset: 0x20, size: 0x8, def value: None
+ ::Org::BouncyCastle::Utilities::Encoders::ITranslator*  ___translator;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Org::BouncyCastle::Utilities::Encoders::BufferedEncoder, ___Buffer) == 0x10, "Offset mismatch!");
@@ -97,6 +97,6 @@ static_assert(offsetof(::Org::BouncyCastle::Utilities::Encoders::BufferedEncoder
 
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Utilities::Encoders::BufferedEncoder, 0x28>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Utilities::Encoders
+} // namespace end def Org::BouncyCastle::Utilities::Encoders
 NEED_NO_BOX(::Org::BouncyCastle::Utilities::Encoders::BufferedEncoder);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Utilities::Encoders::BufferedEncoder*, "Org.BouncyCastle.Utilities.Encoders", "BufferedEncoder");

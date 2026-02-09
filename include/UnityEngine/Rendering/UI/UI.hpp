@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "UnityEngine/Rendering/UI/DebugUIHandlerBitField.hpp"
 #include "UnityEngine/Rendering/UI/DebugUIHandlerButton.hpp"
@@ -39,5 +39,6 @@ module;
 #include "UnityEngine/Rendering/UI/DebugUIPrefabBundle.hpp"
 #include "UnityEngine/Rendering/UI/UIFoldout.hpp"
 #ifdef __cpp_modules
-export module UI;
-#endif
+                    export module UI;
+                    #endif
+                

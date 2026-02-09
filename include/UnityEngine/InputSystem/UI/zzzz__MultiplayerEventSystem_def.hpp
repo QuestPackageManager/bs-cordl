@@ -20,68 +20,68 @@ namespace UnityEngine::InputSystem::UI {
 // CS Name: UnityEngine.InputSystem.UI.MultiplayerEventSystem
 class CORDL_TYPE MultiplayerEventSystem : public ::UnityEngine::EventSystems::EventSystem {
 public:
-  // Declarations
-  /// @brief Field m_PlayerRoot, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_PlayerRoot, put = __cordl_internal_set_m_PlayerRoot)) ::UnityW<::UnityEngine::GameObject> m_PlayerRoot;
+// Declarations
+/// @brief Field m_PlayerRoot, offset 0x60, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_PlayerRoot, put=__cordl_internal_set_m_PlayerRoot)) ::UnityW<::UnityEngine::GameObject>  m_PlayerRoot;
 
-  __declspec(property(get = get_playerRoot, put = set_playerRoot)) ::UnityW<::UnityEngine::GameObject> playerRoot;
+ __declspec(property(get=get_playerRoot, put=set_playerRoot)) ::UnityW<::UnityEngine::GameObject>  playerRoot;
 
-  /// @brief Method InitializePlayerRoot, addr 0x63e3998, size 0xcc, virtual false, abstract: false, final false
-  inline void InitializePlayerRoot();
+/// @brief Method InitializePlayerRoot, addr 0x63e4058, size 0xcc, virtual false, abstract: false, final false
+inline void InitializePlayerRoot() ;
 
-  static inline ::UnityEngine::InputSystem::UI::MultiplayerEventSystem* New_ctor();
+static inline ::UnityEngine::InputSystem::UI::MultiplayerEventSystem* New_ctor() ;
 
-  /// @brief Method OnDisable, addr 0x63e3a80, size 0x8, virtual true, abstract: false, final false
-  inline void OnDisable();
+/// @brief Method OnDisable, addr 0x63e4140, size 0x8, virtual true, abstract: false, final false
+inline void OnDisable() ;
 
-  /// @brief Method OnEnable, addr 0x63e3a64, size 0x1c, virtual true, abstract: false, final false
-  inline void OnEnable();
+/// @brief Method OnEnable, addr 0x63e4124, size 0x1c, virtual true, abstract: false, final false
+inline void OnEnable() ;
 
-  /// @brief Method Update, addr 0x63e3a88, size 0xf8, virtual true, abstract: false, final false
-  inline void Update();
+/// @brief Method Update, addr 0x63e4148, size 0xf8, virtual true, abstract: false, final false
+inline void Update() ;
 
-  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_m_PlayerRoot() const;
+constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_m_PlayerRoot() const;
 
-  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get_m_PlayerRoot();
+constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get_m_PlayerRoot() ;
 
-  constexpr void __cordl_internal_set_m_PlayerRoot(::UnityW<::UnityEngine::GameObject> value);
+constexpr void __cordl_internal_set_m_PlayerRoot(::UnityW<::UnityEngine::GameObject>  value) ;
 
-  /// @brief Method .ctor, addr 0x63e3b80, size 0x5c, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x63e4240, size 0x5c, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_playerRoot, addr 0x63e3988, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::GameObject> get_playerRoot();
+/// @brief Method get_playerRoot, addr 0x63e4048, size 0x8, virtual false, abstract: false, final false
+inline ::UnityW<::UnityEngine::GameObject> get_playerRoot() ;
 
-  /// @brief Method set_playerRoot, addr 0x63e3990, size 0x8, virtual false, abstract: false, final false
-  inline void set_playerRoot(::UnityEngine::GameObject* value);
+/// @brief Method set_playerRoot, addr 0x63e4050, size 0x8, virtual false, abstract: false, final false
+inline void set_playerRoot(::UnityEngine::GameObject*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MultiplayerEventSystem();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr MultiplayerEventSystem() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerEventSystem", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  MultiplayerEventSystem(MultiplayerEventSystem&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerEventSystem", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerEventSystem(MultiplayerEventSystem const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "MultiplayerEventSystem", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+MultiplayerEventSystem(MultiplayerEventSystem && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8846 };
+// Ctor Parameters [CppParam { name: "", ty: "MultiplayerEventSystem", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+MultiplayerEventSystem(MultiplayerEventSystem const& ) = delete;
 
-  /// @brief Field m_PlayerRoot, offset: 0x60, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::GameObject> ___m_PlayerRoot;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8850};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field m_PlayerRoot, offset: 0x60, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::GameObject>  ___m_PlayerRoot;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::InputSystem::UI::MultiplayerEventSystem, ___m_PlayerRoot) == 0x60, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::UI::MultiplayerEventSystem, 0x68>, "Size mismatch!");
 
-} // namespace UnityEngine::InputSystem::UI
+} // namespace end def UnityEngine::InputSystem::UI
 NEED_NO_BOX(::UnityEngine::InputSystem::UI::MultiplayerEventSystem);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::UI::MultiplayerEventSystem*, "UnityEngine.InputSystem.UI", "MultiplayerEventSystem");

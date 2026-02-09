@@ -11,7 +11,8 @@ namespace Oculus::Platform::Models {
 class PlatformInitialize;
 }
 namespace Oculus::Platform {
-template <typename T> class Request_1;
+template<typename T>
+class Request_1;
 }
 namespace Oculus::Platform {
 class WindowsPlatform_UnityLogDelegate;
@@ -44,93 +45,93 @@ namespace Oculus::Platform {
 // CS Name: Oculus.Platform.WindowsPlatform/UnityLogDelegate
 class CORDL_TYPE WindowsPlatform_UnityLogDelegate : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x5c3efd4, size 0x70, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::System::IntPtr tag, ::System::IntPtr msg, ::System::AsyncCallback* callback, ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x5c3f4e0, size 0x70, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(::System::IntPtr  tag, ::System::IntPtr  msg, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x5c3f044, size 0xc, virtual true, abstract: false, final false
-  inline void EndInvoke(::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x5c3f550, size 0xc, virtual true, abstract: false, final false
+inline void EndInvoke(::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x5c3efc0, size 0x14, virtual true, abstract: false, final false
-  inline void Invoke(::System::IntPtr tag, ::System::IntPtr msg);
+/// @brief Method Invoke, addr 0x5c3f4cc, size 0x14, virtual true, abstract: false, final false
+inline void Invoke(::System::IntPtr  tag, ::System::IntPtr  msg) ;
 
-  static inline ::Oculus::Platform::WindowsPlatform_UnityLogDelegate* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::Oculus::Platform::WindowsPlatform_UnityLogDelegate* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x5c3ef54, size 0x6c, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x5c3f460, size 0x6c, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr WindowsPlatform_UnityLogDelegate();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr WindowsPlatform_UnityLogDelegate() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "WindowsPlatform_UnityLogDelegate", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  WindowsPlatform_UnityLogDelegate(WindowsPlatform_UnityLogDelegate&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "WindowsPlatform_UnityLogDelegate", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  WindowsPlatform_UnityLogDelegate(WindowsPlatform_UnityLogDelegate const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "WindowsPlatform_UnityLogDelegate", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+WindowsPlatform_UnityLogDelegate(WindowsPlatform_UnityLogDelegate && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17970 };
+// Ctor Parameters [CppParam { name: "", ty: "WindowsPlatform_UnityLogDelegate", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+WindowsPlatform_UnityLogDelegate(WindowsPlatform_UnityLogDelegate const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{17974};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Oculus::Platform::WindowsPlatform_UnityLogDelegate, 0x80>, "Size mismatch!");
 
-} // namespace Oculus::Platform
+} // namespace end def Oculus::Platform
 // Dependencies System.Object
 namespace Oculus::Platform {
 // Is value type: false
 // CS Name: Oculus.Platform.WindowsPlatform
 class CORDL_TYPE WindowsPlatform : public ::System::Object {
 public:
-  // Declarations
-  using UnityLogDelegate = ::Oculus::Platform::WindowsPlatform_UnityLogDelegate;
+// Declarations
+using UnityLogDelegate = ::Oculus::Platform::WindowsPlatform_UnityLogDelegate;
 
-  /// @brief Method AsyncInitialize, addr 0x5c30278, size 0x194, virtual false, abstract: false, final false
-  inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::PlatformInitialize*>* AsyncInitialize(::StringW appId);
+/// @brief Method AsyncInitialize, addr 0x5c30784, size 0x194, virtual false, abstract: false, final false
+inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::PlatformInitialize*>* AsyncInitialize(::StringW  appId) ;
 
-  /// @brief Method CPPLogCallback, addr 0x5c3ee48, size 0x104, virtual false, abstract: false, final false
-  inline void CPPLogCallback(::System::IntPtr tag, ::System::IntPtr message);
+/// @brief Method CPPLogCallback, addr 0x5c3f354, size 0x104, virtual false, abstract: false, final false
+inline void CPPLogCallback(::System::IntPtr  tag, ::System::IntPtr  message) ;
 
-  /// @brief Method Initialize, addr 0x5c30b20, size 0x158, virtual false, abstract: false, final false
-  inline bool Initialize(::StringW appId);
+/// @brief Method Initialize, addr 0x5c3102c, size 0x158, virtual false, abstract: false, final false
+inline bool Initialize(::StringW  appId) ;
 
-  static inline ::Oculus::Platform::WindowsPlatform* New_ctor();
+static inline ::Oculus::Platform::WindowsPlatform* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x5c30274, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5c30780, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method getCallbackPointer, addr 0x5c3ef4c, size 0x8, virtual false, abstract: false, final false
-  inline ::System::IntPtr getCallbackPointer();
+/// @brief Method getCallbackPointer, addr 0x5c3f458, size 0x8, virtual false, abstract: false, final false
+inline ::System::IntPtr getCallbackPointer() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr WindowsPlatform();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr WindowsPlatform() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "WindowsPlatform", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  WindowsPlatform(WindowsPlatform&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "WindowsPlatform", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  WindowsPlatform(WindowsPlatform const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "WindowsPlatform", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+WindowsPlatform(WindowsPlatform && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17971 };
+// Ctor Parameters [CppParam { name: "", ty: "WindowsPlatform", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+WindowsPlatform(WindowsPlatform const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{17975};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Oculus::Platform::WindowsPlatform, 0x10>, "Size mismatch!");
 
-} // namespace Oculus::Platform
+} // namespace end def Oculus::Platform
 NEED_NO_BOX(::Oculus::Platform::WindowsPlatform);
 DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::WindowsPlatform*, "Oculus.Platform", "WindowsPlatform");
 NEED_NO_BOX(::Oculus::Platform::WindowsPlatform_UnityLogDelegate);

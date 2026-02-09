@@ -23,37 +23,37 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
 // CS Name: Org.BouncyCastle.Math.EC.Multiplier.DoubleAddMultiplier
 class CORDL_TYPE DoubleAddMultiplier : public ::Org::BouncyCastle::Math::EC::Multiplier::AbstractECMultiplier {
 public:
-  // Declarations
-  /// @brief Method MultiplyPositive, addr 0x341182c, size 0x1c4, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Math::EC::ECPoint* MultiplyPositive(::Org::BouncyCastle::Math::EC::ECPoint* p, ::Org::BouncyCastle::Math::BigInteger* k);
+// Declarations
+/// @brief Method MultiplyPositive, addr 0x341177c, size 0x1c4, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Math::EC::ECPoint* MultiplyPositive(::Org::BouncyCastle::Math::EC::ECPoint*  p, ::Org::BouncyCastle::Math::BigInteger*  k) ;
 
-  static inline ::Org::BouncyCastle::Math::EC::Multiplier::DoubleAddMultiplier* New_ctor();
+static inline ::Org::BouncyCastle::Math::EC::Multiplier::DoubleAddMultiplier* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x34119f0, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x3411940, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DoubleAddMultiplier();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr DoubleAddMultiplier() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DoubleAddMultiplier", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  DoubleAddMultiplier(DoubleAddMultiplier&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DoubleAddMultiplier", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  DoubleAddMultiplier(DoubleAddMultiplier const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "DoubleAddMultiplier", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+DoubleAddMultiplier(DoubleAddMultiplier && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1528 };
+// Ctor Parameters [CppParam { name: "", ty: "DoubleAddMultiplier", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+DoubleAddMultiplier(DoubleAddMultiplier const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{1528};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Math::EC::Multiplier::DoubleAddMultiplier, 0x10>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Math::EC::Multiplier
+} // namespace end def Org::BouncyCastle::Math::EC::Multiplier
 NEED_NO_BOX(::Org::BouncyCastle::Math::EC::Multiplier::DoubleAddMultiplier);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Math::EC::Multiplier::DoubleAddMultiplier*, "Org.BouncyCastle.Math.EC.Multiplier", "DoubleAddMultiplier");

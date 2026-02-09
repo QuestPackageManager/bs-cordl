@@ -20,40 +20,40 @@ namespace OculusStudios::GraphQL::ClientInterface {
 // CS Name: OculusStudios.GraphQL.ClientInterface.EmptyResponseObject
 class CORDL_TYPE EmptyResponseObject : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Convert operator to "::OculusStudios::GraphQL::ClientInterface::IGraphQLModel"
-  constexpr operator ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*() noexcept;
+// Declarations
+/// @brief Convert operator to "::OculusStudios::GraphQL::ClientInterface::IGraphQLModel"
+constexpr operator  ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel*() noexcept;
 
-  static inline ::OculusStudios::GraphQL::ClientInterface::EmptyResponseObject* New_ctor();
+static inline ::OculusStudios::GraphQL::ClientInterface::EmptyResponseObject* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x5d7dd10, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5d7e21c, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Convert to "::OculusStudios::GraphQL::ClientInterface::IGraphQLModel"
-  constexpr ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel* i___OculusStudios__GraphQL__ClientInterface__IGraphQLModel() noexcept;
+/// @brief Convert to "::OculusStudios::GraphQL::ClientInterface::IGraphQLModel"
+constexpr ::OculusStudios::GraphQL::ClientInterface::IGraphQLModel* i___OculusStudios__GraphQL__ClientInterface__IGraphQLModel() noexcept;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr EmptyResponseObject();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr EmptyResponseObject() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EmptyResponseObject", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  EmptyResponseObject(EmptyResponseObject&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EmptyResponseObject", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  EmptyResponseObject(EmptyResponseObject const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "EmptyResponseObject", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+EmptyResponseObject(EmptyResponseObject && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22460 };
+// Ctor Parameters [CppParam { name: "", ty: "EmptyResponseObject", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+EmptyResponseObject(EmptyResponseObject const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{22464};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OculusStudios::GraphQL::ClientInterface::EmptyResponseObject, 0x10>, "Size mismatch!");
 
-} // namespace OculusStudios::GraphQL::ClientInterface
+} // namespace end def OculusStudios::GraphQL::ClientInterface
 NEED_NO_BOX(::OculusStudios::GraphQL::ClientInterface::EmptyResponseObject);
 DEFINE_IL2CPP_ARG_TYPE(::OculusStudios::GraphQL::ClientInterface::EmptyResponseObject*, "OculusStudios.GraphQL.ClientInterface", "EmptyResponseObject");

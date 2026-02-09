@@ -27,76 +27,76 @@ namespace Org::BouncyCastle::Crypto::Tls {
 // CS Name: Org.BouncyCastle.Crypto.Tls.CertificateStatus
 class CORDL_TYPE CertificateStatus : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(get = get_Response)) ::System::Object* Response;
+// Declarations
+ __declspec(property(get=get_Response)) ::System::Object*  Response;
 
-  __declspec(property(get = get_StatusType)) uint8_t StatusType;
+ __declspec(property(get=get_StatusType)) uint8_t  StatusType;
 
-  /// @brief Field mResponse, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_mResponse, put = __cordl_internal_set_mResponse)) ::System::Object* mResponse;
+/// @brief Field mResponse, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_mResponse, put=__cordl_internal_set_mResponse)) ::System::Object*  mResponse;
 
-  /// @brief Field mStatusType, offset 0x10, size 0x1
-  __declspec(property(get = __cordl_internal_get_mStatusType, put = __cordl_internal_set_mStatusType)) uint8_t mStatusType;
+/// @brief Field mStatusType, offset 0x10, size 0x1 
+ __declspec(property(get=__cordl_internal_get_mStatusType, put=__cordl_internal_set_mStatusType)) uint8_t  mStatusType;
 
-  /// @brief Method Encode, addr 0x333f0e4, size 0x160, virtual true, abstract: false, final false
-  inline void Encode(::System::IO::Stream* output);
+/// @brief Method Encode, addr 0x333f034, size 0x160, virtual true, abstract: false, final false
+inline void Encode(::System::IO::Stream*  output) ;
 
-  /// @brief Method GetOcspResponse, addr 0x333f010, size 0xd4, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Ocsp::OcspResponse* GetOcspResponse();
+/// @brief Method GetOcspResponse, addr 0x333ef60, size 0xd4, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Asn1::Ocsp::OcspResponse* GetOcspResponse() ;
 
-  /// @brief Method IsCorrectType, addr 0x333ef10, size 0xf0, virtual false, abstract: false, final false
-  static inline bool IsCorrectType(uint8_t statusType, ::System::Object* response);
+/// @brief Method IsCorrectType, addr 0x333ee60, size 0xf0, virtual false, abstract: false, final false
+static inline bool IsCorrectType(uint8_t  statusType, ::System::Object*  response) ;
 
-  static inline ::Org::BouncyCastle::Crypto::Tls::CertificateStatus* New_ctor(uint8_t statusType, ::System::Object* response);
+static inline ::Org::BouncyCastle::Crypto::Tls::CertificateStatus* New_ctor(uint8_t  statusType, ::System::Object*  response) ;
 
-  /// @brief Method Parse, addr 0x333f244, size 0x10c, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Crypto::Tls::CertificateStatus* Parse(::System::IO::Stream* input);
+/// @brief Method Parse, addr 0x333f194, size 0x10c, virtual false, abstract: false, final false
+static inline ::Org::BouncyCastle::Crypto::Tls::CertificateStatus* Parse(::System::IO::Stream*  input) ;
 
-  constexpr ::System::Object* const& __cordl_internal_get_mResponse() const;
+constexpr ::System::Object* const& __cordl_internal_get_mResponse() const;
 
-  constexpr ::System::Object*& __cordl_internal_get_mResponse();
+constexpr ::System::Object*& __cordl_internal_get_mResponse() ;
 
-  constexpr uint8_t const& __cordl_internal_get_mStatusType() const;
+constexpr uint8_t const& __cordl_internal_get_mStatusType() const;
 
-  constexpr uint8_t& __cordl_internal_get_mStatusType();
+constexpr uint8_t& __cordl_internal_get_mStatusType() ;
 
-  constexpr void __cordl_internal_set_mResponse(::System::Object* value);
+constexpr void __cordl_internal_set_mResponse(::System::Object*  value) ;
 
-  constexpr void __cordl_internal_set_mStatusType(uint8_t value);
+constexpr void __cordl_internal_set_mStatusType(uint8_t  value) ;
 
-  /// @brief Method .ctor, addr 0x333ee7c, size 0x94, virtual false, abstract: false, final false
-  inline void _ctor(uint8_t statusType, ::System::Object* response);
+/// @brief Method .ctor, addr 0x333edcc, size 0x94, virtual false, abstract: false, final false
+inline void _ctor(uint8_t  statusType, ::System::Object*  response) ;
 
-  /// @brief Method get_Response, addr 0x333f008, size 0x8, virtual true, abstract: false, final false
-  inline ::System::Object* get_Response();
+/// @brief Method get_Response, addr 0x333ef58, size 0x8, virtual true, abstract: false, final false
+inline ::System::Object* get_Response() ;
 
-  /// @brief Method get_StatusType, addr 0x333f000, size 0x8, virtual true, abstract: false, final false
-  inline uint8_t get_StatusType();
+/// @brief Method get_StatusType, addr 0x333ef50, size 0x8, virtual true, abstract: false, final false
+inline uint8_t get_StatusType() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CertificateStatus();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr CertificateStatus() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CertificateStatus", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  CertificateStatus(CertificateStatus&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CertificateStatus", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  CertificateStatus(CertificateStatus const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "CertificateStatus", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+CertificateStatus(CertificateStatus && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1188 };
+// Ctor Parameters [CppParam { name: "", ty: "CertificateStatus", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+CertificateStatus(CertificateStatus const& ) = delete;
 
-  /// @brief Field mStatusType, offset: 0x10, size: 0x1, def value: None
-  uint8_t ___mStatusType;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{1188};
 
-  /// @brief Field mResponse, offset: 0x18, size: 0x8, def value: None
-  ::System::Object* ___mResponse;
+/// @brief Field mStatusType, offset: 0x10, size: 0x1, def value: None
+ uint8_t  ___mStatusType;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field mResponse, offset: 0x18, size: 0x8, def value: None
+ ::System::Object*  ___mResponse;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::CertificateStatus, ___mStatusType) == 0x10, "Offset mismatch!");
@@ -105,6 +105,6 @@ static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::CertificateStatus, ___m
 
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Tls::CertificateStatus, 0x20>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Crypto::Tls
+} // namespace end def Org::BouncyCastle::Crypto::Tls
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Tls::CertificateStatus);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Tls::CertificateStatus*, "Org.BouncyCastle.Crypto.Tls", "CertificateStatus");

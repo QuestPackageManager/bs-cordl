@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "Org/BouncyCastle/Math/EC/Multiplier/AbstractECMultiplier.hpp"
 #include "Org/BouncyCastle/Math/EC/Multiplier/DoubleAddMultiplier.hpp"
@@ -26,5 +26,6 @@ module;
 #include "Org/BouncyCastle/Math/EC/Multiplier/ZSignedDigitL2RMultiplier.hpp"
 #include "Org/BouncyCastle/Math/EC/Multiplier/ZSignedDigitR2LMultiplier.hpp"
 #ifdef __cpp_modules
-export module Multiplier;
-#endif
+                    export module Multiplier;
+                    #endif
+                

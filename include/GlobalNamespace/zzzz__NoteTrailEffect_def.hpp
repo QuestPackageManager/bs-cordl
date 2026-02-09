@@ -25,94 +25,93 @@ namespace GlobalNamespace {
 // CS Name: NoteTrailEffect
 class CORDL_TYPE NoteTrailEffect : public ::UnityEngine::MonoBehaviour {
 public:
-  // Declarations
-  /// @brief Field _maxSpawnDistance, offset 0x24, size 0x4
-  __declspec(property(get = __cordl_internal_get__maxSpawnDistance, put = __cordl_internal_set__maxSpawnDistance)) float_t _maxSpawnDistance;
+// Declarations
+/// @brief Field _maxSpawnDistance, offset 0x24, size 0x4 
+ __declspec(property(get=__cordl_internal_get__maxSpawnDistance, put=__cordl_internal_set__maxSpawnDistance)) float_t  _maxSpawnDistance;
 
-  /// @brief Field _noteMovement, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__noteMovement, put = __cordl_internal_set__noteMovement)) ::UnityW<::GlobalNamespace::NoteMovement> _noteMovement;
+/// @brief Field _noteMovement, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get__noteMovement, put=__cordl_internal_set__noteMovement)) ::UnityW<::GlobalNamespace::NoteMovement>  _noteMovement;
 
-  /// @brief Field _noteTrailParticleSystem, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__noteTrailParticleSystem, put = __cordl_internal_set__noteTrailParticleSystem)) ::UnityW<::GlobalNamespace::NoteTrailParticleSystem>
-      _noteTrailParticleSystem;
+/// @brief Field _noteTrailParticleSystem, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get__noteTrailParticleSystem, put=__cordl_internal_set__noteTrailParticleSystem)) ::UnityW<::GlobalNamespace::NoteTrailParticleSystem>  _noteTrailParticleSystem;
 
-  /// @brief Field _particlesPerFrame, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get__particlesPerFrame, put = __cordl_internal_set__particlesPerFrame)) int32_t _particlesPerFrame;
+/// @brief Field _particlesPerFrame, offset 0x20, size 0x4 
+ __declspec(property(get=__cordl_internal_get__particlesPerFrame, put=__cordl_internal_set__particlesPerFrame)) int32_t  _particlesPerFrame;
 
-  /// @brief Method Awake, addr 0x57eb69c, size 0x13c, virtual false, abstract: false, final false
-  inline void Awake();
+/// @brief Method Awake, addr 0x57ebfcc, size 0x13c, virtual false, abstract: false, final false
+inline void Awake() ;
 
-  /// @brief Method HandleNoteDidStartJump, addr 0x57eb9dc, size 0xc, virtual false, abstract: false, final false
-  inline void HandleNoteDidStartJump();
+/// @brief Method HandleNoteDidStartJump, addr 0x57ec30c, size 0xc, virtual false, abstract: false, final false
+inline void HandleNoteDidStartJump() ;
 
-  /// @brief Method HandleNoteMovementDidInit, addr 0x57eb9d0, size 0xc, virtual false, abstract: false, final false
-  inline void HandleNoteMovementDidInit();
+/// @brief Method HandleNoteMovementDidInit, addr 0x57ec300, size 0xc, virtual false, abstract: false, final false
+inline void HandleNoteMovementDidInit() ;
 
-  static inline ::GlobalNamespace::NoteTrailEffect* New_ctor();
+static inline ::GlobalNamespace::NoteTrailEffect* New_ctor() ;
 
-  /// @brief Method OnDestroy, addr 0x57eb7d8, size 0x194, virtual false, abstract: false, final false
-  inline void OnDestroy();
+/// @brief Method OnDestroy, addr 0x57ec108, size 0x194, virtual false, abstract: false, final false
+inline void OnDestroy() ;
 
-  /// @brief Method Update, addr 0x57eb96c, size 0x64, virtual false, abstract: false, final false
-  inline void Update();
+/// @brief Method Update, addr 0x57ec29c, size 0x64, virtual false, abstract: false, final false
+inline void Update() ;
 
-  constexpr float_t const& __cordl_internal_get__maxSpawnDistance() const;
+constexpr float_t const& __cordl_internal_get__maxSpawnDistance() const;
 
-  constexpr float_t& __cordl_internal_get__maxSpawnDistance();
+constexpr float_t& __cordl_internal_get__maxSpawnDistance() ;
 
-  constexpr ::UnityW<::GlobalNamespace::NoteMovement> const& __cordl_internal_get__noteMovement() const;
+constexpr ::UnityW<::GlobalNamespace::NoteMovement> const& __cordl_internal_get__noteMovement() const;
 
-  constexpr ::UnityW<::GlobalNamespace::NoteMovement>& __cordl_internal_get__noteMovement();
+constexpr ::UnityW<::GlobalNamespace::NoteMovement>& __cordl_internal_get__noteMovement() ;
 
-  constexpr ::UnityW<::GlobalNamespace::NoteTrailParticleSystem> const& __cordl_internal_get__noteTrailParticleSystem() const;
+constexpr ::UnityW<::GlobalNamespace::NoteTrailParticleSystem> const& __cordl_internal_get__noteTrailParticleSystem() const;
 
-  constexpr ::UnityW<::GlobalNamespace::NoteTrailParticleSystem>& __cordl_internal_get__noteTrailParticleSystem();
+constexpr ::UnityW<::GlobalNamespace::NoteTrailParticleSystem>& __cordl_internal_get__noteTrailParticleSystem() ;
 
-  constexpr int32_t const& __cordl_internal_get__particlesPerFrame() const;
+constexpr int32_t const& __cordl_internal_get__particlesPerFrame() const;
 
-  constexpr int32_t& __cordl_internal_get__particlesPerFrame();
+constexpr int32_t& __cordl_internal_get__particlesPerFrame() ;
 
-  constexpr void __cordl_internal_set__maxSpawnDistance(float_t value);
+constexpr void __cordl_internal_set__maxSpawnDistance(float_t  value) ;
 
-  constexpr void __cordl_internal_set__noteMovement(::UnityW<::GlobalNamespace::NoteMovement> value);
+constexpr void __cordl_internal_set__noteMovement(::UnityW<::GlobalNamespace::NoteMovement>  value) ;
 
-  constexpr void __cordl_internal_set__noteTrailParticleSystem(::UnityW<::GlobalNamespace::NoteTrailParticleSystem> value);
+constexpr void __cordl_internal_set__noteTrailParticleSystem(::UnityW<::GlobalNamespace::NoteTrailParticleSystem>  value) ;
 
-  constexpr void __cordl_internal_set__particlesPerFrame(int32_t value);
+constexpr void __cordl_internal_set__particlesPerFrame(int32_t  value) ;
 
-  /// @brief Method .ctor, addr 0x57eb9e8, size 0x10, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x57ec318, size 0x10, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NoteTrailEffect();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr NoteTrailEffect() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NoteTrailEffect", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  NoteTrailEffect(NoteTrailEffect&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NoteTrailEffect", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  NoteTrailEffect(NoteTrailEffect const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "NoteTrailEffect", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+NoteTrailEffect(NoteTrailEffect && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5908 };
+// Ctor Parameters [CppParam { name: "", ty: "NoteTrailEffect", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+NoteTrailEffect(NoteTrailEffect const& ) = delete;
 
-  /// @brief Field _particlesPerFrame, offset: 0x20, size: 0x4, def value: None
-  int32_t ____particlesPerFrame;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{5908};
 
-  /// @brief Field _maxSpawnDistance, offset: 0x24, size: 0x4, def value: None
-  float_t ____maxSpawnDistance;
+/// @brief Field _particlesPerFrame, offset: 0x20, size: 0x4, def value: None
+ int32_t  ____particlesPerFrame;
 
-  /// @brief Field _noteMovement, offset: 0x28, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::NoteMovement> ____noteMovement;
+/// @brief Field _maxSpawnDistance, offset: 0x24, size: 0x4, def value: None
+ float_t  ____maxSpawnDistance;
 
-  /// @brief Field _noteTrailParticleSystem, offset: 0x30, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::NoteTrailParticleSystem> ____noteTrailParticleSystem;
+/// @brief Field _noteMovement, offset: 0x28, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::NoteMovement>  ____noteMovement;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _noteTrailParticleSystem, offset: 0x30, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::NoteTrailParticleSystem>  ____noteTrailParticleSystem;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::NoteTrailEffect, ____particlesPerFrame) == 0x20, "Offset mismatch!");
@@ -125,6 +124,6 @@ static_assert(offsetof(::GlobalNamespace::NoteTrailEffect, ____noteTrailParticle
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::NoteTrailEffect, 0x38>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::NoteTrailEffect);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::NoteTrailEffect*, "", "NoteTrailEffect");

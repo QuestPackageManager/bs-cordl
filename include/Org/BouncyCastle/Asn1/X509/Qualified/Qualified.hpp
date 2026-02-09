@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "Org/BouncyCastle/Asn1/X509/Qualified/BiometricData.hpp"
 #include "Org/BouncyCastle/Asn1/X509/Qualified/EtsiQCObjectIdentifiers.hpp"
@@ -12,5 +12,6 @@ module;
 #include "Org/BouncyCastle/Asn1/X509/Qualified/SemanticsInformation.hpp"
 #include "Org/BouncyCastle/Asn1/X509/Qualified/TypeOfBiometricData.hpp"
 #ifdef __cpp_modules
-export module Qualified;
-#endif
+                    export module Qualified;
+                    #endif
+                

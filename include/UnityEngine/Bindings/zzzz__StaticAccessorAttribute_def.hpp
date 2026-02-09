@@ -22,69 +22,69 @@ namespace UnityEngine::Bindings {
 // CS Name: UnityEngine.Bindings.StaticAccessorAttribute
 class CORDL_TYPE StaticAccessorAttribute : public ::System::Attribute {
 public:
-  // Declarations
-  __declspec(property(put = set_Name)) ::StringW Name;
+// Declarations
+ __declspec(property(put=set_Name)) ::StringW  Name;
 
-  __declspec(property(put = set_Type)) ::UnityEngine::Bindings::StaticAccessorType Type;
+ __declspec(property(put=set_Type)) ::UnityEngine::Bindings::StaticAccessorType  Type;
 
-  /// @brief Field <Name>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__Name_k__BackingField, put = __cordl_internal_set__Name_k__BackingField)) ::StringW _Name_k__BackingField;
+/// @brief Field <Name>k__BackingField, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get__Name_k__BackingField, put=__cordl_internal_set__Name_k__BackingField)) ::StringW  _Name_k__BackingField;
 
-  /// @brief Field <Type>k__BackingField, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get__Type_k__BackingField, put = __cordl_internal_set__Type_k__BackingField)) ::UnityEngine::Bindings::StaticAccessorType _Type_k__BackingField;
+/// @brief Field <Type>k__BackingField, offset 0x18, size 0x4 
+ __declspec(property(get=__cordl_internal_get__Type_k__BackingField, put=__cordl_internal_set__Type_k__BackingField)) ::UnityEngine::Bindings::StaticAccessorType  _Type_k__BackingField;
 
-  static inline ::UnityEngine::Bindings::StaticAccessorAttribute* New_ctor(::StringW name);
+static inline ::UnityEngine::Bindings::StaticAccessorAttribute* New_ctor(::StringW  name) ;
 
-  static inline ::UnityEngine::Bindings::StaticAccessorAttribute* New_ctor(::StringW name, ::UnityEngine::Bindings::StaticAccessorType type);
+static inline ::UnityEngine::Bindings::StaticAccessorAttribute* New_ctor(::StringW  name, ::UnityEngine::Bindings::StaticAccessorType  type) ;
 
-  constexpr ::StringW const& __cordl_internal_get__Name_k__BackingField() const;
+constexpr ::StringW const& __cordl_internal_get__Name_k__BackingField() const;
 
-  constexpr ::StringW& __cordl_internal_get__Name_k__BackingField();
+constexpr ::StringW& __cordl_internal_get__Name_k__BackingField() ;
 
-  constexpr ::UnityEngine::Bindings::StaticAccessorType const& __cordl_internal_get__Type_k__BackingField() const;
+constexpr ::UnityEngine::Bindings::StaticAccessorType const& __cordl_internal_get__Type_k__BackingField() const;
 
-  constexpr ::UnityEngine::Bindings::StaticAccessorType& __cordl_internal_get__Type_k__BackingField();
+constexpr ::UnityEngine::Bindings::StaticAccessorType& __cordl_internal_get__Type_k__BackingField() ;
 
-  constexpr void __cordl_internal_set__Name_k__BackingField(::StringW value);
+constexpr void __cordl_internal_set__Name_k__BackingField(::StringW  value) ;
 
-  constexpr void __cordl_internal_set__Type_k__BackingField(::UnityEngine::Bindings::StaticAccessorType value);
+constexpr void __cordl_internal_set__Type_k__BackingField(::UnityEngine::Bindings::StaticAccessorType  value) ;
 
-  /// @brief Method .ctor, addr 0x69eb060, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::StringW name);
+/// @brief Method .ctor, addr 0x69eb720, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(::StringW  name) ;
 
-  /// @brief Method .ctor, addr 0x69eb068, size 0xc, virtual false, abstract: false, final false
-  inline void _ctor(::StringW name, ::UnityEngine::Bindings::StaticAccessorType type);
+/// @brief Method .ctor, addr 0x69eb728, size 0xc, virtual false, abstract: false, final false
+inline void _ctor(::StringW  name, ::UnityEngine::Bindings::StaticAccessorType  type) ;
 
-  /// @brief Method set_Name, addr 0x69eb050, size 0x8, virtual false, abstract: false, final false
-  inline void set_Name(::StringW value);
+/// @brief Method set_Name, addr 0x69eb710, size 0x8, virtual false, abstract: false, final false
+inline void set_Name(::StringW  value) ;
 
-  /// @brief Method set_Type, addr 0x69eb058, size 0x8, virtual false, abstract: false, final false
-  inline void set_Type(::UnityEngine::Bindings::StaticAccessorType value);
+/// @brief Method set_Type, addr 0x69eb718, size 0x8, virtual false, abstract: false, final false
+inline void set_Type(::UnityEngine::Bindings::StaticAccessorType  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr StaticAccessorAttribute();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr StaticAccessorAttribute() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StaticAccessorAttribute", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  StaticAccessorAttribute(StaticAccessorAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StaticAccessorAttribute", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  StaticAccessorAttribute(StaticAccessorAttribute const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "StaticAccessorAttribute", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+StaticAccessorAttribute(StaticAccessorAttribute && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22708 };
+// Ctor Parameters [CppParam { name: "", ty: "StaticAccessorAttribute", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+StaticAccessorAttribute(StaticAccessorAttribute const& ) = delete;
 
-  /// @brief Field <Name>k__BackingField, offset: 0x10, size: 0x8, def value: None
-  ::StringW ____Name_k__BackingField;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{22712};
 
-  /// @brief Field <Type>k__BackingField, offset: 0x18, size: 0x4, def value: None
-  ::UnityEngine::Bindings::StaticAccessorType ____Type_k__BackingField;
+/// @brief Field <Name>k__BackingField, offset: 0x10, size: 0x8, def value: None
+ ::StringW  ____Name_k__BackingField;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field <Type>k__BackingField, offset: 0x18, size: 0x4, def value: None
+ ::UnityEngine::Bindings::StaticAccessorType  ____Type_k__BackingField;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Bindings::StaticAccessorAttribute, ____Name_k__BackingField) == 0x10, "Offset mismatch!");
@@ -93,6 +93,6 @@ static_assert(offsetof(::UnityEngine::Bindings::StaticAccessorAttribute, ____Typ
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Bindings::StaticAccessorAttribute, 0x20>, "Size mismatch!");
 
-} // namespace UnityEngine::Bindings
+} // namespace end def UnityEngine::Bindings
 NEED_NO_BOX(::UnityEngine::Bindings::StaticAccessorAttribute);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Bindings::StaticAccessorAttribute*, "UnityEngine.Bindings", "StaticAccessorAttribute");

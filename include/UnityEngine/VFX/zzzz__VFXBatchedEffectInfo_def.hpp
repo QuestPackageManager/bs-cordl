@@ -15,60 +15,54 @@ struct VFXBatchedEffectInfo;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::VFX::VFXBatchedEffectInfo);
-// Dependencies
+// Dependencies 
 namespace UnityEngine::VFX {
 // Is value type: true
 // CS Name: UnityEngine.VFX.VFXBatchedEffectInfo
 struct CORDL_TYPE VFXBatchedEffectInfo {
 public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr VFXBatchedEffectInfo();
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr VFXBatchedEffectInfo() ;
 
-  // Ctor Parameters [CppParam { name: "vfxAsset", ty: "::UnityW<::UnityEngine::VFX::VisualEffectAsset>", modifiers: "", def_value: None }, CppParam { name: "activeBatchCount", ty: "uint32_t",
-  // modifiers: "", def_value: None }, CppParam { name: "inactiveBatchCount", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "activeInstanceCount", ty: "uint32_t", modifiers: "",
-  // def_value: None }, CppParam { name: "unbatchedInstanceCount", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "totalInstanceCapacity", ty: "uint32_t", modifiers: "", def_value:
-  // None }, CppParam { name: "maxInstancePerBatchCapacity", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "totalGPUSizeInBytes", ty: "uint64_t", modifiers: "", def_value: None },
-  // CppParam { name: "totalCPUSizeInBytes", ty: "uint64_t", modifiers: "", def_value: None }]
-  constexpr VFXBatchedEffectInfo(::UnityW<::UnityEngine::VFX::VisualEffectAsset> vfxAsset, uint32_t activeBatchCount, uint32_t inactiveBatchCount, uint32_t activeInstanceCount,
-                                 uint32_t unbatchedInstanceCount, uint32_t totalInstanceCapacity, uint32_t maxInstancePerBatchCapacity, uint64_t totalGPUSizeInBytes,
-                                 uint64_t totalCPUSizeInBytes) noexcept;
+// Ctor Parameters [CppParam { name: "vfxAsset", ty: "::UnityW<::UnityEngine::VFX::VisualEffectAsset>", modifiers: "", def_value: None }, CppParam { name: "activeBatchCount", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "inactiveBatchCount", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "activeInstanceCount", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "unbatchedInstanceCount", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "totalInstanceCapacity", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "maxInstancePerBatchCapacity", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "totalGPUSizeInBytes", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "totalCPUSizeInBytes", ty: "uint64_t", modifiers: "", def_value: None }]
+constexpr VFXBatchedEffectInfo(::UnityW<::UnityEngine::VFX::VisualEffectAsset>  vfxAsset, uint32_t  activeBatchCount, uint32_t  inactiveBatchCount, uint32_t  activeInstanceCount, uint32_t  unbatchedInstanceCount, uint32_t  totalInstanceCapacity, uint32_t  maxInstancePerBatchCapacity, uint64_t  totalGPUSizeInBytes, uint64_t  totalCPUSizeInBytes) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22610 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{22614};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x30};
 
-  /// @brief Field vfxAsset, offset: 0x0, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::VFX::VisualEffectAsset> vfxAsset;
+/// @brief Field vfxAsset, offset: 0x0, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::VFX::VisualEffectAsset>  vfxAsset;
 
-  /// @brief Field activeBatchCount, offset: 0x8, size: 0x4, def value: None
-  uint32_t activeBatchCount;
+/// @brief Field activeBatchCount, offset: 0x8, size: 0x4, def value: None
+ uint32_t  activeBatchCount;
 
-  /// @brief Field inactiveBatchCount, offset: 0xc, size: 0x4, def value: None
-  uint32_t inactiveBatchCount;
+/// @brief Field inactiveBatchCount, offset: 0xc, size: 0x4, def value: None
+ uint32_t  inactiveBatchCount;
 
-  /// @brief Field activeInstanceCount, offset: 0x10, size: 0x4, def value: None
-  uint32_t activeInstanceCount;
+/// @brief Field activeInstanceCount, offset: 0x10, size: 0x4, def value: None
+ uint32_t  activeInstanceCount;
 
-  /// @brief Field unbatchedInstanceCount, offset: 0x14, size: 0x4, def value: None
-  uint32_t unbatchedInstanceCount;
+/// @brief Field unbatchedInstanceCount, offset: 0x14, size: 0x4, def value: None
+ uint32_t  unbatchedInstanceCount;
 
-  /// @brief Field totalInstanceCapacity, offset: 0x18, size: 0x4, def value: None
-  uint32_t totalInstanceCapacity;
+/// @brief Field totalInstanceCapacity, offset: 0x18, size: 0x4, def value: None
+ uint32_t  totalInstanceCapacity;
 
-  /// @brief Field maxInstancePerBatchCapacity, offset: 0x1c, size: 0x4, def value: None
-  uint32_t maxInstancePerBatchCapacity;
+/// @brief Field maxInstancePerBatchCapacity, offset: 0x1c, size: 0x4, def value: None
+ uint32_t  maxInstancePerBatchCapacity;
 
-  /// @brief Field totalGPUSizeInBytes, offset: 0x20, size: 0x8, def value: None
-  uint64_t totalGPUSizeInBytes;
+/// @brief Field totalGPUSizeInBytes, offset: 0x20, size: 0x8, def value: None
+ uint64_t  totalGPUSizeInBytes;
 
-  /// @brief Field totalCPUSizeInBytes, offset: 0x28, size: 0x8, def value: None
-  uint64_t totalCPUSizeInBytes;
+/// @brief Field totalCPUSizeInBytes, offset: 0x28, size: 0x8, def value: None
+ uint64_t  totalCPUSizeInBytes;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::VFX::VFXBatchedEffectInfo, vfxAsset) == 0x0, "Offset mismatch!");
@@ -91,5 +85,5 @@ static_assert(offsetof(::UnityEngine::VFX::VFXBatchedEffectInfo, totalCPUSizeInB
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::VFX::VFXBatchedEffectInfo, 0x30>, "Size mismatch!");
 
-} // namespace UnityEngine::VFX
+} // namespace end def UnityEngine::VFX
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::VFX::VFXBatchedEffectInfo, "UnityEngine.VFX", "VFXBatchedEffectInfo");

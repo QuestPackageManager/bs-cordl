@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "UnityEngine/UIElements/StyleSheets/BaseStyleMatcher.hpp"
 #include "UnityEngine/UIElements/StyleSheets/Dimension.hpp"
@@ -28,5 +28,6 @@ module;
 #include "UnityEngine/UIElements/StyleSheets/StyleValue.hpp"
 #include "UnityEngine/UIElements/StyleSheets/StyleValueManaged.hpp"
 #ifdef __cpp_modules
-export module StyleSheets;
-#endif
+                    export module StyleSheets;
+                    #endif
+                

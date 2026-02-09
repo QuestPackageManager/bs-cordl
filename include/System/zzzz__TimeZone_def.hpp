@@ -30,66 +30,66 @@ namespace System {
 // CS Name: System.TimeZone
 class CORDL_TYPE TimeZone : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field currentTimeZone, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_currentTimeZone, put = setStaticF_currentTimeZone)) ::System::TimeZone* currentTimeZone;
+// Declarations
+/// @brief Field currentTimeZone, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_currentTimeZone, put=setStaticF_currentTimeZone)) ::System::TimeZone*  currentTimeZone;
 
-  /// @brief Field s_InternalSyncObject, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_s_InternalSyncObject, put = setStaticF_s_InternalSyncObject)) ::System::Object* s_InternalSyncObject;
+/// @brief Field s_InternalSyncObject, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_s_InternalSyncObject, put=setStaticF_s_InternalSyncObject)) ::System::Object*  s_InternalSyncObject;
 
-  /// @brief Method CalculateUtcOffset, addr 0x5aafe78, size 0x25c, virtual false, abstract: false, final false
-  static inline ::System::TimeSpan CalculateUtcOffset(::System::DateTime time, ::System::Globalization::DaylightTime* daylightTimes);
+/// @brief Method CalculateUtcOffset, addr 0x5ab0384, size 0x25c, virtual false, abstract: false, final false
+static inline ::System::TimeSpan CalculateUtcOffset(::System::DateTime  time, ::System::Globalization::DaylightTime*  daylightTimes) ;
 
-  /// @brief Method GetDaylightChanges, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline ::System::Globalization::DaylightTime* GetDaylightChanges(int32_t year);
+/// @brief Method GetDaylightChanges, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline ::System::Globalization::DaylightTime* GetDaylightChanges(int32_t  year) ;
 
-  /// @brief Method GetUtcOffset, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline ::System::TimeSpan GetUtcOffset(::System::DateTime time);
+/// @brief Method GetUtcOffset, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline ::System::TimeSpan GetUtcOffset(::System::DateTime  time) ;
 
-  static inline ::System::TimeZone* New_ctor();
+static inline ::System::TimeZone* New_ctor() ;
 
-  /// @brief Method ToLocalTime, addr 0x5aafd54, size 0x124, virtual true, abstract: false, final false
-  inline ::System::DateTime ToLocalTime(::System::DateTime time);
+/// @brief Method ToLocalTime, addr 0x5ab0260, size 0x124, virtual true, abstract: false, final false
+inline ::System::DateTime ToLocalTime(::System::DateTime  time) ;
 
-  /// @brief Method .ctor, addr 0x5aafbf0, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5ab00fc, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  static inline ::System::TimeZone* getStaticF_currentTimeZone();
+static inline ::System::TimeZone* getStaticF_currentTimeZone() ;
 
-  static inline ::System::Object* getStaticF_s_InternalSyncObject();
+static inline ::System::Object* getStaticF_s_InternalSyncObject() ;
 
-  /// @brief Method get_CurrentTimeZone, addr 0x5aafbf4, size 0x160, virtual false, abstract: false, final false
-  static inline ::System::TimeZone* get_CurrentTimeZone();
+/// @brief Method get_CurrentTimeZone, addr 0x5ab0100, size 0x160, virtual false, abstract: false, final false
+static inline ::System::TimeZone* get_CurrentTimeZone() ;
 
-  /// @brief Method get_InternalSyncObject, addr 0x5aafb58, size 0x98, virtual false, abstract: false, final false
-  static inline ::System::Object* get_InternalSyncObject();
+/// @brief Method get_InternalSyncObject, addr 0x5ab0064, size 0x98, virtual false, abstract: false, final false
+static inline ::System::Object* get_InternalSyncObject() ;
 
-  static inline void setStaticF_currentTimeZone(::System::TimeZone* value);
+static inline void setStaticF_currentTimeZone(::System::TimeZone*  value) ;
 
-  static inline void setStaticF_s_InternalSyncObject(::System::Object* value);
+static inline void setStaticF_s_InternalSyncObject(::System::Object*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TimeZone();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr TimeZone() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TimeZone", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  TimeZone(TimeZone&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TimeZone", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  TimeZone(TimeZone const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "TimeZone", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+TimeZone(TimeZone && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2490 };
+// Ctor Parameters [CppParam { name: "", ty: "TimeZone", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+TimeZone(TimeZone const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{2490};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::TimeZone, 0x10>, "Size mismatch!");
 
-} // namespace System
+} // namespace end def System
 NEED_NO_BOX(::System::TimeZone);
 DEFINE_IL2CPP_ARG_TYPE(::System::TimeZone*, "System", "TimeZone");

@@ -17,29 +17,29 @@ namespace UnityEngine::Rendering {
 // CS Name: UnityEngine.Rendering.RayTracingShader
 class CORDL_TYPE RayTracingShader : public ::UnityEngine::Object {
 public:
-  // Declarations
+// Declarations
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RayTracingShader();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr RayTracingShader() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RayTracingShader", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  RayTracingShader(RayTracingShader&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RayTracingShader", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  RayTracingShader(RayTracingShader const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "RayTracingShader", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+RayTracingShader(RayTracingShader && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10869 };
+// Ctor Parameters [CppParam { name: "", ty: "RayTracingShader", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+RayTracingShader(RayTracingShader const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10873};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::RayTracingShader, 0x18>, "Size mismatch!");
 
-} // namespace UnityEngine::Rendering
+} // namespace end def UnityEngine::Rendering
 NEED_NO_BOX(::UnityEngine::Rendering::RayTracingShader);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::RayTracingShader*, "UnityEngine.Rendering", "RayTracingShader");

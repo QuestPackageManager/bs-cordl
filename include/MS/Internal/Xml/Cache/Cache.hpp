@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "MS/Internal/Xml/Cache/XPathDocumentNavigator.hpp"
 #include "MS/Internal/Xml/Cache/XPathNode.hpp"
@@ -10,5 +10,6 @@ module;
 #include "MS/Internal/Xml/Cache/XPathNodePageInfo.hpp"
 #include "MS/Internal/Xml/Cache/XPathNodeRef.hpp"
 #ifdef __cpp_modules
-export module Cache;
-#endif
+                    export module Cache;
+                    #endif
+                

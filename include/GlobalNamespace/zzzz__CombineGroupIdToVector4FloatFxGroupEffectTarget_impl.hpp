@@ -10,385 +10,407 @@
 #include "GlobalNamespace/zzzz__MaterialPropertyBlockController_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
-// Ctor Parameters [CppParam { name: "lightGroup", ty: "::UnityW<::GlobalNamespace::LightGroupSO>", modifiers: "", def_value: Some("{}") }, CppParam { name: "index", ty: "int32_t", modifiers: "",
-// def_value: Some("{}") }]
-constexpr ::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget_LightGroupSOToIndex::CombineGroupIdToVector4FloatFxGroupEffectTarget_LightGroupSOToIndex(
-    ::UnityW<::GlobalNamespace::LightGroupSO> lightGroup, int32_t index) noexcept {
-  this->lightGroup = lightGroup;
-  this->index = index;
+// Ctor Parameters [CppParam { name: "lightGroup", ty: "::UnityW<::GlobalNamespace::LightGroupSO>", modifiers: "", def_value: Some("{}") }, CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+constexpr ::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget_LightGroupSOToIndex::CombineGroupIdToVector4FloatFxGroupEffectTarget_LightGroupSOToIndex(::UnityW<::GlobalNamespace::LightGroupSO>  lightGroup, int32_t  index) noexcept  {
+this->lightGroup = lightGroup;
+this->index = index;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget_LightGroupSOToIndex::CombineGroupIdToVector4FloatFxGroupEffectTarget_LightGroupSOToIndex() {}
+constexpr ::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget_LightGroupSOToIndex::CombineGroupIdToVector4FloatFxGroupEffectTarget_LightGroupSOToIndex()   {
+}
 //  Writing Method size for method: ::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget___c._ctor
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget___c::*)()>(
-    &::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget___c::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget___c::*)()>(&::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget___c::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x57e0870;
+  constexpr static std::size_t addrs = 0x57e11a0;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget___c*>::get(), ".ctor",
-                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget___c*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget___c._Awake_b__10_0
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget___c::*)(
-    ::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget_LightGroupSOToIndex)>(&::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget___c::_Awake_b__10_0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget___c::*)(::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget_LightGroupSOToIndex)>(&::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget___c::_Awake_b__10_0)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x57e0874;
+  constexpr static std::size_t addrs = 0x57e11a4;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget___c*>::get(), "<Awake>b__10_0",
-        std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget_LightGroupSOToIndex>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget___c*>::get(),
+                        "<Awake>b__10_0",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget_LightGroupSOToIndex>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget___c._Awake_b__10_1
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget___c::*)(
-    ::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget_LightGroupSOToIndex)>(&::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget___c::_Awake_b__10_1)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget___c::*)(::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget_LightGroupSOToIndex)>(&::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget___c::_Awake_b__10_1)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x57e0888;
+  constexpr static std::size_t addrs = 0x57e11b8;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget___c*>::get(), "<Awake>b__10_1",
-        std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget_LightGroupSOToIndex>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget___c*>::get(),
+                        "<Awake>b__10_1",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget_LightGroupSOToIndex>::get()}
+                    )));
     return ___internal_method;
   }
 };
-inline void GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget___c::setStaticF___9(::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget___c* value) {
-  ::cordl_internals::setStaticField<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget___c*, "<>9",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget___c*>::get>(
-      std::forward<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget___c*>(value));
+inline void GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget___c::setStaticF___9(::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget___c*  value)  {
+::cordl_internals::setStaticField<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget___c*, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget___c*>::get>(std::forward<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget___c*>(value));
 }
-inline ::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget___c* GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget___c::getStaticF___9() {
-  return ::cordl_internals::getStaticField<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget___c*, "<>9",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget___c*>::get>();
+inline ::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget___c* GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget___c::getStaticF___9()  {
+return ::cordl_internals::getStaticField<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget___c*, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget___c*>::get>();
 }
-inline void GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget___c::setStaticF___9__10_0(
-    ::System::Func_2<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget_LightGroupSOToIndex, int32_t>* value) {
-  ::cordl_internals::setStaticField<::System::Func_2<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget_LightGroupSOToIndex, int32_t>*, "<>9__10_0",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget___c*>::get>(
-      std::forward<::System::Func_2<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget_LightGroupSOToIndex, int32_t>*>(value));
+inline void GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget___c::setStaticF___9__10_0(::System::Func_2<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget_LightGroupSOToIndex,int32_t>*  value)  {
+::cordl_internals::setStaticField<::System::Func_2<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget_LightGroupSOToIndex,int32_t>*, "<>9__10_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget___c*>::get>(std::forward<::System::Func_2<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget_LightGroupSOToIndex,int32_t>*>(value));
 }
-inline ::System::Func_2<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget_LightGroupSOToIndex, int32_t>*
-GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget___c::getStaticF___9__10_0() {
-  return ::cordl_internals::getStaticField<::System::Func_2<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget_LightGroupSOToIndex, int32_t>*, "<>9__10_0",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget___c*>::get>();
+inline ::System::Func_2<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget_LightGroupSOToIndex,int32_t>* GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget___c::getStaticF___9__10_0()  {
+return ::cordl_internals::getStaticField<::System::Func_2<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget_LightGroupSOToIndex,int32_t>*, "<>9__10_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget___c*>::get>();
 }
-inline void GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget___c::setStaticF___9__10_1(
-    ::System::Func_2<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget_LightGroupSOToIndex, int32_t>* value) {
-  ::cordl_internals::setStaticField<::System::Func_2<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget_LightGroupSOToIndex, int32_t>*, "<>9__10_1",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget___c*>::get>(
-      std::forward<::System::Func_2<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget_LightGroupSOToIndex, int32_t>*>(value));
+inline void GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget___c::setStaticF___9__10_1(::System::Func_2<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget_LightGroupSOToIndex,int32_t>*  value)  {
+::cordl_internals::setStaticField<::System::Func_2<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget_LightGroupSOToIndex,int32_t>*, "<>9__10_1", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget___c*>::get>(std::forward<::System::Func_2<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget_LightGroupSOToIndex,int32_t>*>(value));
 }
-inline ::System::Func_2<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget_LightGroupSOToIndex, int32_t>*
-GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget___c::getStaticF___9__10_1() {
-  return ::cordl_internals::getStaticField<::System::Func_2<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget_LightGroupSOToIndex, int32_t>*, "<>9__10_1",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget___c*>::get>();
+inline ::System::Func_2<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget_LightGroupSOToIndex,int32_t>* GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget___c::getStaticF___9__10_1()  {
+return ::cordl_internals::getStaticField<::System::Func_2<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget_LightGroupSOToIndex,int32_t>*, "<>9__10_1", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget___c*>::get>();
 }
-inline void GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget___c::_ctor() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget___c*>::get(), ".ctor",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget___c::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget___c*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline int32_t GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget___c::_Awake_b__10_0(::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget_LightGroupSOToIndex item) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget___c*>::get(), "<Awake>b__10_0",
-      std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget_LightGroupSOToIndex>::get() })));
-  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, item);
+inline int32_t GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget___c::_Awake_b__10_0(::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget_LightGroupSOToIndex  item)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget___c*>::get(),
+                        "<Awake>b__10_0",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget_LightGroupSOToIndex>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, item);
 }
-inline int32_t GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget___c::_Awake_b__10_1(::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget_LightGroupSOToIndex item) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget___c*>::get(), "<Awake>b__10_1",
-      std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget_LightGroupSOToIndex>::get() })));
-  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, item);
+inline int32_t GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget___c::_Awake_b__10_1(::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget_LightGroupSOToIndex  item)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget___c*>::get(),
+                        "<Awake>b__10_1",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget_LightGroupSOToIndex>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, item);
 }
-inline ::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget___c* GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget___c::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget___c*>());
+inline ::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget___c* GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget___c::New_ctor()  {
+return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget___c*>());
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget___c::CombineGroupIdToVector4FloatFxGroupEffectTarget___c() {}
+constexpr ::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget___c::CombineGroupIdToVector4FloatFxGroupEffectTarget___c()   {
+}
 //  Writing Method size for method: ::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget.Awake
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::*)()>(
-    &::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::Awake)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::*)()>(&::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::Awake)> {
   constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x57e0278;
+  constexpr static std::size_t addrs = 0x57e0ba8;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget*>::get(), "Awake",
-                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget*>::get(),
+                        "Awake",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget.Start
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::*)()>(
-    &::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::Start)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::*)()>(&::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::Start)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x57e0424;
+  constexpr static std::size_t addrs = 0x57e0d54;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget*>::get(), "Start",
-                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget*>::get(),
+                        "Start",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget.OnDestroy
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::*)()>(
-    &::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::OnDestroy)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::*)()>(&::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::OnDestroy)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x57e04b4;
+  constexpr static std::size_t addrs = 0x57e0de4;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget*>::get(), "OnDestroy",
-                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget*>::get(),
+                        "OnDestroy",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget.SetValue
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::*)(int32_t, int32_t, float_t)>(
-    &::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::SetValue)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::*)(int32_t, int32_t, float_t)>(&::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::SetValue)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x57e0580;
+  constexpr static std::size_t addrs = 0x57e0eb0;
 
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget*>::get(), 4));
+  inline static const ::MethodInfo* methodInfo() {
+    
+                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget*>::get(),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget*>::get(),
+                                  4
+                                ));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget.TriggerValue
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::*)(int32_t, int32_t, float_t)>(
-    &::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::TriggerValue)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::*)(int32_t, int32_t, float_t)>(&::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::TriggerValue)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x57e06a0;
+  constexpr static std::size_t addrs = 0x57e0fd0;
 
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget*>::get(), 5));
+  inline static const ::MethodInfo* methodInfo() {
+    
+                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget*>::get(),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget*>::get(),
+                                  5
+                                ));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget.HandleBeatmapCallbacksControllerDidProcessAllCallbacksThisFrame
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::*)()>(
-    &::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::HandleBeatmapCallbacksControllerDidProcessAllCallbacksThisFrame)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::*)()>(&::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::HandleBeatmapCallbacksControllerDidProcessAllCallbacksThisFrame)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x57e07c0;
+  constexpr static std::size_t addrs = 0x57e10f0;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget*>::get(),
-                                    "HandleBeatmapCallbacksControllerDidProcessAllCallbacksThisFrame", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget*>::get(),
+                        "HandleBeatmapCallbacksControllerDidProcessAllCallbacksThisFrame",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget._ctor
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::*)()>(
-    &::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::*)()>(&::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x57e0818;
+  constexpr static std::size_t addrs = 0x57e1148;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget*>::get(), ".ctor",
-                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
-constexpr ::StringW& GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::__cordl_internal_get__propertyName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____propertyName;
+constexpr ::StringW& GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::__cordl_internal_get__propertyName()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____propertyName;
 }
 constexpr ::StringW const& GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::__cordl_internal_get__propertyName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____propertyName;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____propertyName;
 }
-constexpr void GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::__cordl_internal_set__propertyName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____propertyName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::__cordl_internal_set__propertyName(::StringW  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____propertyName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController>& GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::__cordl_internal_get__materialPropertyBlockController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____materialPropertyBlockController;
+constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController>& GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::__cordl_internal_get__materialPropertyBlockController()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____materialPropertyBlockController;
 }
-constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> const&
-GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::__cordl_internal_get__materialPropertyBlockController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____materialPropertyBlockController;
+constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> const& GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::__cordl_internal_get__materialPropertyBlockController() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____materialPropertyBlockController;
 }
-constexpr void
-GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::__cordl_internal_set__materialPropertyBlockController(::UnityW<::GlobalNamespace::MaterialPropertyBlockController> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____materialPropertyBlockController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::__cordl_internal_set__materialPropertyBlockController(::UnityW<::GlobalNamespace::MaterialPropertyBlockController>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____materialPropertyBlockController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::Vector4& GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::__cordl_internal_get__defaultValue() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____defaultValue;
+constexpr ::UnityEngine::Vector4& GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::__cordl_internal_get__defaultValue()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____defaultValue;
 }
 constexpr ::UnityEngine::Vector4 const& GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::__cordl_internal_get__defaultValue() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____defaultValue;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____defaultValue;
 }
-constexpr void GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::__cordl_internal_set__defaultValue(::UnityEngine::Vector4 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____defaultValue = value;
+constexpr void GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::__cordl_internal_set__defaultValue(::UnityEngine::Vector4  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____defaultValue = value;
 }
-constexpr ::ArrayW<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget_LightGroupSOToIndex,
-                   ::Array<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget_LightGroupSOToIndex>*>&
-GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::__cordl_internal_get__lightGroupsToIndices() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____lightGroupsToIndices;
+constexpr ::ArrayW<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget_LightGroupSOToIndex,::Array<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget_LightGroupSOToIndex>*>& GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::__cordl_internal_get__lightGroupsToIndices()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____lightGroupsToIndices;
 }
-constexpr ::ArrayW<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget_LightGroupSOToIndex,
-                   ::Array<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget_LightGroupSOToIndex>*> const&
-GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::__cordl_internal_get__lightGroupsToIndices() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____lightGroupsToIndices;
+constexpr ::ArrayW<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget_LightGroupSOToIndex,::Array<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget_LightGroupSOToIndex>*> const& GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::__cordl_internal_get__lightGroupsToIndices() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____lightGroupsToIndices;
 }
-constexpr void GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::__cordl_internal_set__lightGroupsToIndices(
-    ::ArrayW<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget_LightGroupSOToIndex, ::Array<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget_LightGroupSOToIndex>*>
-        value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____lightGroupsToIndices)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::__cordl_internal_set__lightGroupsToIndices(::ArrayW<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget_LightGroupSOToIndex,::Array<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget_LightGroupSOToIndex>*>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____lightGroupsToIndices)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::BeatmapCallbacksController*& GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::__cordl_internal_get__beatmapCallbacksController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____beatmapCallbacksController;
+constexpr ::GlobalNamespace::BeatmapCallbacksController*& GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::__cordl_internal_get__beatmapCallbacksController()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____beatmapCallbacksController;
 }
 constexpr ::GlobalNamespace::BeatmapCallbacksController* const& GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::__cordl_internal_get__beatmapCallbacksController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____beatmapCallbacksController;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____beatmapCallbacksController;
 }
-constexpr void GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::__cordl_internal_set__beatmapCallbacksController(::GlobalNamespace::BeatmapCallbacksController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____beatmapCallbacksController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::__cordl_internal_set__beatmapCallbacksController(::GlobalNamespace::BeatmapCallbacksController*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____beatmapCallbacksController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr bool& GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::__cordl_internal_get__didReceiveEventThisFrame() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____didReceiveEventThisFrame;
+constexpr bool& GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::__cordl_internal_get__didReceiveEventThisFrame()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____didReceiveEventThisFrame;
 }
 constexpr bool const& GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::__cordl_internal_get__didReceiveEventThisFrame() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____didReceiveEventThisFrame;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____didReceiveEventThisFrame;
 }
-constexpr void GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::__cordl_internal_set__didReceiveEventThisFrame(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____didReceiveEventThisFrame = value;
+constexpr void GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::__cordl_internal_set__didReceiveEventThisFrame(bool  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____didReceiveEventThisFrame = value;
 }
-constexpr ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>*& GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::__cordl_internal_get__groupIdToIndex() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____groupIdToIndex;
+constexpr ::System::Collections::Generic::Dictionary_2<int32_t,int32_t>*& GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::__cordl_internal_get__groupIdToIndex()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____groupIdToIndex;
 }
-constexpr ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* const& GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::__cordl_internal_get__groupIdToIndex() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____groupIdToIndex;
+constexpr ::System::Collections::Generic::Dictionary_2<int32_t,int32_t>* const& GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::__cordl_internal_get__groupIdToIndex() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____groupIdToIndex;
 }
-constexpr void GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::__cordl_internal_set__groupIdToIndex(::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____groupIdToIndex)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::__cordl_internal_set__groupIdToIndex(::System::Collections::Generic::Dictionary_2<int32_t,int32_t>*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____groupIdToIndex)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr int32_t& GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::__cordl_internal_get__propertyId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____propertyId;
+constexpr int32_t& GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::__cordl_internal_get__propertyId()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____propertyId;
 }
 constexpr int32_t const& GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::__cordl_internal_get__propertyId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____propertyId;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____propertyId;
 }
-constexpr void GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::__cordl_internal_set__propertyId(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____propertyId = value;
+constexpr void GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::__cordl_internal_set__propertyId(int32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____propertyId = value;
 }
-constexpr ::UnityEngine::Vector4& GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::__cordl_internal_get__data() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____data;
+constexpr ::UnityEngine::Vector4& GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::__cordl_internal_get__data()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____data;
 }
 constexpr ::UnityEngine::Vector4 const& GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::__cordl_internal_get__data() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____data;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____data;
 }
-constexpr void GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::__cordl_internal_set__data(::UnityEngine::Vector4 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____data = value;
+constexpr void GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::__cordl_internal_set__data(::UnityEngine::Vector4  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____data = value;
 }
-inline void GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::Awake() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget*>::get(), "Awake",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::Awake()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget*>::get(),
+                        "Awake",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::Start() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget*>::get(), "Start",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::Start()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget*>::get(),
+                        "Start",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::OnDestroy() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget*>::get(), "OnDestroy",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::OnDestroy()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget*>::get(),
+                        "OnDestroy",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::SetValue(int32_t groupId, int32_t elementId, float_t value) {
-  auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget*>::get(), 4)));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, groupId, elementId, value);
+inline void GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::SetValue(int32_t  groupId, int32_t  elementId, float_t  value)  {
+auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget*>::get(),
+                            4
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, groupId, elementId, value);
 }
-inline void GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::TriggerValue(int32_t groupId, int32_t elementId, float_t value) {
-  auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget*>::get(), 5)));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, groupId, elementId, value);
+inline void GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::TriggerValue(int32_t  groupId, int32_t  elementId, float_t  value)  {
+auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget*>::get(),
+                            5
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, groupId, elementId, value);
 }
-inline void GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::HandleBeatmapCallbacksControllerDidProcessAllCallbacksThisFrame() {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget*>::get(),
-                                  "HandleBeatmapCallbacksControllerDidProcessAllCallbacksThisFrame", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::HandleBeatmapCallbacksControllerDidProcessAllCallbacksThisFrame()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget*>::get(),
+                        "HandleBeatmapCallbacksControllerDidProcessAllCallbacksThisFrame",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::_ctor() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget*>::get(), ".ctor",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget* GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget*>());
+inline ::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget* GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::New_ctor()  {
+return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget*>());
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::CombineGroupIdToVector4FloatFxGroupEffectTarget() {}
+constexpr ::GlobalNamespace::CombineGroupIdToVector4FloatFxGroupEffectTarget::CombineGroupIdToVector4FloatFxGroupEffectTarget()   {
+}

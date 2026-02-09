@@ -30,111 +30,111 @@ namespace GlobalNamespace {
 // CS Name: DelayedMenuButtonTrigger
 class CORDL_TYPE DelayedMenuButtonTrigger : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field _pressDuration, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get__pressDuration, put = __cordl_internal_set__pressDuration)) float_t _pressDuration;
+// Declarations
+/// @brief Field _pressDuration, offset 0x18, size 0x4 
+ __declspec(property(get=__cordl_internal_get__pressDuration, put=__cordl_internal_set__pressDuration)) float_t  _pressDuration;
 
-  /// @brief Field _timer, offset 0x1c, size 0x4
-  __declspec(property(get = __cordl_internal_get__timer, put = __cordl_internal_set__timer)) float_t _timer;
+/// @brief Field _timer, offset 0x1c, size 0x4 
+ __declspec(property(get=__cordl_internal_get__timer, put=__cordl_internal_set__timer)) float_t  _timer;
 
-  /// @brief Field _vrPlatformHelper, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__vrPlatformHelper, put = __cordl_internal_set__vrPlatformHelper)) ::GlobalNamespace::IVRPlatformHelper* _vrPlatformHelper;
+/// @brief Field _vrPlatformHelper, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get__vrPlatformHelper, put=__cordl_internal_set__vrPlatformHelper)) ::GlobalNamespace::IVRPlatformHelper*  _vrPlatformHelper;
 
-  /// @brief Field _waitingForButtonRelease, offset 0x20, size 0x1
-  __declspec(property(get = __cordl_internal_get__waitingForButtonRelease, put = __cordl_internal_set__waitingForButtonRelease)) bool _waitingForButtonRelease;
+/// @brief Field _waitingForButtonRelease, offset 0x20, size 0x1 
+ __declspec(property(get=__cordl_internal_get__waitingForButtonRelease, put=__cordl_internal_set__waitingForButtonRelease)) bool  _waitingForButtonRelease;
 
-  /// @brief Field menuButtonTriggeredEvent, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_menuButtonTriggeredEvent, put = __cordl_internal_set_menuButtonTriggeredEvent)) ::System::Action* menuButtonTriggeredEvent;
+/// @brief Field menuButtonTriggeredEvent, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_menuButtonTriggeredEvent, put=__cordl_internal_set_menuButtonTriggeredEvent)) ::System::Action*  menuButtonTriggeredEvent;
 
-  /// @brief Convert operator to "::GlobalNamespace::IMenuButtonTrigger"
-  constexpr operator ::GlobalNamespace::IMenuButtonTrigger*() noexcept;
+/// @brief Convert operator to "::GlobalNamespace::IMenuButtonTrigger"
+constexpr operator  ::GlobalNamespace::IMenuButtonTrigger*() noexcept;
 
-  /// @brief Convert operator to "::Zenject::ITickable"
-  constexpr operator ::Zenject::ITickable*() noexcept;
+/// @brief Convert operator to "::Zenject::ITickable"
+constexpr operator  ::Zenject::ITickable*() noexcept;
 
-  static inline ::GlobalNamespace::DelayedMenuButtonTrigger* New_ctor();
+static inline ::GlobalNamespace::DelayedMenuButtonTrigger* New_ctor() ;
 
-  /// @brief Method Tick, addr 0x5800c98, size 0x12c, virtual true, abstract: false, final true
-  inline void Tick();
+/// @brief Method Tick, addr 0x58015c8, size 0x12c, virtual true, abstract: false, final true
+inline void Tick() ;
 
-  constexpr float_t const& __cordl_internal_get__pressDuration() const;
+constexpr float_t const& __cordl_internal_get__pressDuration() const;
 
-  constexpr float_t& __cordl_internal_get__pressDuration();
+constexpr float_t& __cordl_internal_get__pressDuration() ;
 
-  constexpr float_t const& __cordl_internal_get__timer() const;
+constexpr float_t const& __cordl_internal_get__timer() const;
 
-  constexpr float_t& __cordl_internal_get__timer();
+constexpr float_t& __cordl_internal_get__timer() ;
 
-  constexpr ::GlobalNamespace::IVRPlatformHelper* const& __cordl_internal_get__vrPlatformHelper() const;
+constexpr ::GlobalNamespace::IVRPlatformHelper* const& __cordl_internal_get__vrPlatformHelper() const;
 
-  constexpr ::GlobalNamespace::IVRPlatformHelper*& __cordl_internal_get__vrPlatformHelper();
+constexpr ::GlobalNamespace::IVRPlatformHelper*& __cordl_internal_get__vrPlatformHelper() ;
 
-  constexpr bool const& __cordl_internal_get__waitingForButtonRelease() const;
+constexpr bool const& __cordl_internal_get__waitingForButtonRelease() const;
 
-  constexpr bool& __cordl_internal_get__waitingForButtonRelease();
+constexpr bool& __cordl_internal_get__waitingForButtonRelease() ;
 
-  constexpr ::System::Action* const& __cordl_internal_get_menuButtonTriggeredEvent() const;
+constexpr ::System::Action* const& __cordl_internal_get_menuButtonTriggeredEvent() const;
 
-  constexpr ::System::Action*& __cordl_internal_get_menuButtonTriggeredEvent();
+constexpr ::System::Action*& __cordl_internal_get_menuButtonTriggeredEvent() ;
 
-  constexpr void __cordl_internal_set__pressDuration(float_t value);
+constexpr void __cordl_internal_set__pressDuration(float_t  value) ;
 
-  constexpr void __cordl_internal_set__timer(float_t value);
+constexpr void __cordl_internal_set__timer(float_t  value) ;
 
-  constexpr void __cordl_internal_set__vrPlatformHelper(::GlobalNamespace::IVRPlatformHelper* value);
+constexpr void __cordl_internal_set__vrPlatformHelper(::GlobalNamespace::IVRPlatformHelper*  value) ;
 
-  constexpr void __cordl_internal_set__waitingForButtonRelease(bool value);
+constexpr void __cordl_internal_set__waitingForButtonRelease(bool  value) ;
 
-  constexpr void __cordl_internal_set_menuButtonTriggeredEvent(::System::Action* value);
+constexpr void __cordl_internal_set_menuButtonTriggeredEvent(::System::Action*  value) ;
 
-  /// @brief Method .ctor, addr 0x5800dc4, size 0x10, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x58016f4, size 0x10, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method add_menuButtonTriggeredEvent, addr 0x5800b40, size 0xac, virtual true, abstract: false, final true
-  inline void add_menuButtonTriggeredEvent(::System::Action* value);
+/// @brief Method add_menuButtonTriggeredEvent, addr 0x5801470, size 0xac, virtual true, abstract: false, final true
+inline void add_menuButtonTriggeredEvent(::System::Action*  value) ;
 
-  /// @brief Convert to "::GlobalNamespace::IMenuButtonTrigger"
-  constexpr ::GlobalNamespace::IMenuButtonTrigger* i___GlobalNamespace__IMenuButtonTrigger() noexcept;
+/// @brief Convert to "::GlobalNamespace::IMenuButtonTrigger"
+constexpr ::GlobalNamespace::IMenuButtonTrigger* i___GlobalNamespace__IMenuButtonTrigger() noexcept;
 
-  /// @brief Convert to "::Zenject::ITickable"
-  constexpr ::Zenject::ITickable* i___Zenject__ITickable() noexcept;
+/// @brief Convert to "::Zenject::ITickable"
+constexpr ::Zenject::ITickable* i___Zenject__ITickable() noexcept;
 
-  /// @brief Method remove_menuButtonTriggeredEvent, addr 0x5800bec, size 0xac, virtual true, abstract: false, final true
-  inline void remove_menuButtonTriggeredEvent(::System::Action* value);
+/// @brief Method remove_menuButtonTriggeredEvent, addr 0x580151c, size 0xac, virtual true, abstract: false, final true
+inline void remove_menuButtonTriggeredEvent(::System::Action*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DelayedMenuButtonTrigger();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr DelayedMenuButtonTrigger() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DelayedMenuButtonTrigger", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  DelayedMenuButtonTrigger(DelayedMenuButtonTrigger&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DelayedMenuButtonTrigger", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  DelayedMenuButtonTrigger(DelayedMenuButtonTrigger const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "DelayedMenuButtonTrigger", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+DelayedMenuButtonTrigger(DelayedMenuButtonTrigger && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6012 };
+// Ctor Parameters [CppParam { name: "", ty: "DelayedMenuButtonTrigger", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+DelayedMenuButtonTrigger(DelayedMenuButtonTrigger const& ) = delete;
 
-  /// @brief Field menuButtonTriggeredEvent, offset: 0x10, size: 0x8, def value: None
-  ::System::Action* ___menuButtonTriggeredEvent;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6012};
 
-  /// @brief Field _pressDuration, offset: 0x18, size: 0x4, def value: None
-  float_t ____pressDuration;
+/// @brief Field menuButtonTriggeredEvent, offset: 0x10, size: 0x8, def value: None
+ ::System::Action*  ___menuButtonTriggeredEvent;
 
-  /// @brief Field _timer, offset: 0x1c, size: 0x4, def value: None
-  float_t ____timer;
+/// @brief Field _pressDuration, offset: 0x18, size: 0x4, def value: None
+ float_t  ____pressDuration;
 
-  /// @brief Field _waitingForButtonRelease, offset: 0x20, size: 0x1, def value: None
-  bool ____waitingForButtonRelease;
+/// @brief Field _timer, offset: 0x1c, size: 0x4, def value: None
+ float_t  ____timer;
 
-  /// @brief Field _vrPlatformHelper, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::IVRPlatformHelper* ____vrPlatformHelper;
+/// @brief Field _waitingForButtonRelease, offset: 0x20, size: 0x1, def value: None
+ bool  ____waitingForButtonRelease;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _vrPlatformHelper, offset: 0x28, size: 0x8, def value: None
+ ::GlobalNamespace::IVRPlatformHelper*  ____vrPlatformHelper;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::DelayedMenuButtonTrigger, ___menuButtonTriggeredEvent) == 0x10, "Offset mismatch!");
@@ -149,6 +149,6 @@ static_assert(offsetof(::GlobalNamespace::DelayedMenuButtonTrigger, ____vrPlatfo
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::DelayedMenuButtonTrigger, 0x30>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::DelayedMenuButtonTrigger);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::DelayedMenuButtonTrigger*, "", "DelayedMenuButtonTrigger");

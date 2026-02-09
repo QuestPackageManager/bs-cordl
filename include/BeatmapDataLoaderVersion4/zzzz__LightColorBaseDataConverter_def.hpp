@@ -24,32 +24,32 @@ namespace BeatmapDataLoaderVersion4 {
 // CS Name: BeatmapDataLoaderVersion4.LightColorBaseDataConverter
 class CORDL_TYPE LightColorBaseDataConverter : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method Convert, addr 0x3666510, size 0xc8, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::LightColorBaseData* Convert(float_t beat, ::BeatmapSaveDataVersion4::LightColorEvent lightColorEvent);
+// Declarations
+/// @brief Method Convert, addr 0x3666578, size 0xc8, virtual false, abstract: false, final false
+static inline ::GlobalNamespace::LightColorBaseData* Convert(float_t  beat, ::BeatmapSaveDataVersion4::LightColorEvent  lightColorEvent) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LightColorBaseDataConverter();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr LightColorBaseDataConverter() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LightColorBaseDataConverter", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  LightColorBaseDataConverter(LightColorBaseDataConverter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LightColorBaseDataConverter", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  LightColorBaseDataConverter(LightColorBaseDataConverter const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "LightColorBaseDataConverter", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+LightColorBaseDataConverter(LightColorBaseDataConverter && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15412 };
+// Ctor Parameters [CppParam { name: "", ty: "LightColorBaseDataConverter", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+LightColorBaseDataConverter(LightColorBaseDataConverter const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{15416};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::BeatmapDataLoaderVersion4::LightColorBaseDataConverter, 0x10>, "Size mismatch!");
 
-} // namespace BeatmapDataLoaderVersion4
+} // namespace end def BeatmapDataLoaderVersion4
 NEED_NO_BOX(::BeatmapDataLoaderVersion4::LightColorBaseDataConverter);
 DEFINE_IL2CPP_ARG_TYPE(::BeatmapDataLoaderVersion4::LightColorBaseDataConverter*, "BeatmapDataLoaderVersion4", "LightColorBaseDataConverter");

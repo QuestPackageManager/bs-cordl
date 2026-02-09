@@ -11,7 +11,8 @@ namespace GlobalNamespace {
 class AudioClipQueue_AudioClipWithDelay;
 }
 namespace System::Collections::Generic {
-template <typename T> class List_1;
+template<typename T>
+class List_1;
 }
 namespace UnityEngine {
 class AudioClip;
@@ -35,54 +36,54 @@ namespace GlobalNamespace {
 // CS Name: AudioClipQueue/AudioClipWithDelay
 class CORDL_TYPE AudioClipQueue_AudioClipWithDelay : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field audioClip, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_audioClip, put = __cordl_internal_set_audioClip)) ::UnityW<::UnityEngine::AudioClip> audioClip;
+// Declarations
+/// @brief Field audioClip, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_audioClip, put=__cordl_internal_set_audioClip)) ::UnityW<::UnityEngine::AudioClip>  audioClip;
 
-  /// @brief Field delay, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get_delay, put = __cordl_internal_set_delay)) float_t delay;
+/// @brief Field delay, offset 0x18, size 0x4 
+ __declspec(property(get=__cordl_internal_get_delay, put=__cordl_internal_set_delay)) float_t  delay;
 
-  static inline ::GlobalNamespace::AudioClipQueue_AudioClipWithDelay* New_ctor(::UnityEngine::AudioClip* audioClip, float_t delay);
+static inline ::GlobalNamespace::AudioClipQueue_AudioClipWithDelay* New_ctor(::UnityEngine::AudioClip*  audioClip, float_t  delay) ;
 
-  constexpr ::UnityW<::UnityEngine::AudioClip> const& __cordl_internal_get_audioClip() const;
+constexpr ::UnityW<::UnityEngine::AudioClip> const& __cordl_internal_get_audioClip() const;
 
-  constexpr ::UnityW<::UnityEngine::AudioClip>& __cordl_internal_get_audioClip();
+constexpr ::UnityW<::UnityEngine::AudioClip>& __cordl_internal_get_audioClip() ;
 
-  constexpr float_t const& __cordl_internal_get_delay() const;
+constexpr float_t const& __cordl_internal_get_delay() const;
 
-  constexpr float_t& __cordl_internal_get_delay();
+constexpr float_t& __cordl_internal_get_delay() ;
 
-  constexpr void __cordl_internal_set_audioClip(::UnityW<::UnityEngine::AudioClip> value);
+constexpr void __cordl_internal_set_audioClip(::UnityW<::UnityEngine::AudioClip>  value) ;
 
-  constexpr void __cordl_internal_set_delay(float_t value);
+constexpr void __cordl_internal_set_delay(float_t  value) ;
 
-  /// @brief Method .ctor, addr 0x57089ac, size 0xc, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::AudioClip* audioClip, float_t delay);
+/// @brief Method .ctor, addr 0x5708734, size 0xc, virtual false, abstract: false, final false
+inline void _ctor(::UnityEngine::AudioClip*  audioClip, float_t  delay) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AudioClipQueue_AudioClipWithDelay();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr AudioClipQueue_AudioClipWithDelay() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AudioClipQueue_AudioClipWithDelay", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  AudioClipQueue_AudioClipWithDelay(AudioClipQueue_AudioClipWithDelay&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AudioClipQueue_AudioClipWithDelay", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  AudioClipQueue_AudioClipWithDelay(AudioClipQueue_AudioClipWithDelay const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "AudioClipQueue_AudioClipWithDelay", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+AudioClipQueue_AudioClipWithDelay(AudioClipQueue_AudioClipWithDelay && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5549 };
+// Ctor Parameters [CppParam { name: "", ty: "AudioClipQueue_AudioClipWithDelay", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+AudioClipQueue_AudioClipWithDelay(AudioClipQueue_AudioClipWithDelay const& ) = delete;
 
-  /// @brief Field audioClip, offset: 0x10, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::AudioClip> ___audioClip;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{5549};
 
-  /// @brief Field delay, offset: 0x18, size: 0x4, def value: None
-  float_t ___delay;
+/// @brief Field audioClip, offset: 0x10, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::AudioClip>  ___audioClip;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field delay, offset: 0x18, size: 0x4, def value: None
+ float_t  ___delay;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::AudioClipQueue_AudioClipWithDelay, ___audioClip) == 0x10, "Offset mismatch!");
@@ -91,72 +92,72 @@ static_assert(offsetof(::GlobalNamespace::AudioClipQueue_AudioClipWithDelay, ___
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::AudioClipQueue_AudioClipWithDelay, 0x20>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 // Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: AudioClipQueue
 class CORDL_TYPE AudioClipQueue : public ::UnityEngine::MonoBehaviour {
 public:
-  // Declarations
-  using AudioClipWithDelay = ::GlobalNamespace::AudioClipQueue_AudioClipWithDelay;
+// Declarations
+using AudioClipWithDelay = ::GlobalNamespace::AudioClipQueue_AudioClipWithDelay;
 
-  /// @brief Field _audioSource, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__audioSource, put = __cordl_internal_set__audioSource)) ::UnityW<::UnityEngine::AudioSource> _audioSource;
+/// @brief Field _audioSource, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get__audioSource, put=__cordl_internal_set__audioSource)) ::UnityW<::UnityEngine::AudioSource>  _audioSource;
 
-  /// @brief Field _queue, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__queue, put = __cordl_internal_set__queue)) ::System::Collections::Generic::List_1<::GlobalNamespace::AudioClipQueue_AudioClipWithDelay*>* _queue;
+/// @brief Field _queue, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get__queue, put=__cordl_internal_set__queue)) ::System::Collections::Generic::List_1<::GlobalNamespace::AudioClipQueue_AudioClipWithDelay*>*  _queue;
 
-  /// @brief Method Awake, addr 0x5708668, size 0x1c, virtual false, abstract: false, final false
-  inline void Awake();
+/// @brief Method Awake, addr 0x57083f0, size 0x1c, virtual false, abstract: false, final false
+inline void Awake() ;
 
-  static inline ::GlobalNamespace::AudioClipQueue* New_ctor();
+static inline ::GlobalNamespace::AudioClipQueue* New_ctor() ;
 
-  /// @brief Method PlayAudioClipWithDelay, addr 0x57088bc, size 0xf0, virtual false, abstract: false, final false
-  inline void PlayAudioClipWithDelay(::UnityEngine::AudioClip* audioClip, float_t delay);
+/// @brief Method PlayAudioClipWithDelay, addr 0x5708644, size 0xf0, virtual false, abstract: false, final false
+inline void PlayAudioClipWithDelay(::UnityEngine::AudioClip*  audioClip, float_t  delay) ;
 
-  /// @brief Method Update, addr 0x5708684, size 0x238, virtual false, abstract: false, final false
-  inline void Update();
+/// @brief Method Update, addr 0x570840c, size 0x238, virtual false, abstract: false, final false
+inline void Update() ;
 
-  constexpr ::UnityW<::UnityEngine::AudioSource> const& __cordl_internal_get__audioSource() const;
+constexpr ::UnityW<::UnityEngine::AudioSource> const& __cordl_internal_get__audioSource() const;
 
-  constexpr ::UnityW<::UnityEngine::AudioSource>& __cordl_internal_get__audioSource();
+constexpr ::UnityW<::UnityEngine::AudioSource>& __cordl_internal_get__audioSource() ;
 
-  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::AudioClipQueue_AudioClipWithDelay*>* const& __cordl_internal_get__queue() const;
+constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::AudioClipQueue_AudioClipWithDelay*>* const& __cordl_internal_get__queue() const;
 
-  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::AudioClipQueue_AudioClipWithDelay*>*& __cordl_internal_get__queue();
+constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::AudioClipQueue_AudioClipWithDelay*>*& __cordl_internal_get__queue() ;
 
-  constexpr void __cordl_internal_set__audioSource(::UnityW<::UnityEngine::AudioSource> value);
+constexpr void __cordl_internal_set__audioSource(::UnityW<::UnityEngine::AudioSource>  value) ;
 
-  constexpr void __cordl_internal_set__queue(::System::Collections::Generic::List_1<::GlobalNamespace::AudioClipQueue_AudioClipWithDelay*>* value);
+constexpr void __cordl_internal_set__queue(::System::Collections::Generic::List_1<::GlobalNamespace::AudioClipQueue_AudioClipWithDelay*>*  value) ;
 
-  /// @brief Method .ctor, addr 0x57089b8, size 0x78, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5708740, size 0x78, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AudioClipQueue();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr AudioClipQueue() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AudioClipQueue", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  AudioClipQueue(AudioClipQueue&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AudioClipQueue", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  AudioClipQueue(AudioClipQueue const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "AudioClipQueue", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+AudioClipQueue(AudioClipQueue && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5550 };
+// Ctor Parameters [CppParam { name: "", ty: "AudioClipQueue", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+AudioClipQueue(AudioClipQueue const& ) = delete;
 
-  /// @brief Field _audioSource, offset: 0x20, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::AudioSource> ____audioSource;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{5550};
 
-  /// @brief Field _queue, offset: 0x28, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::GlobalNamespace::AudioClipQueue_AudioClipWithDelay*>* ____queue;
+/// @brief Field _audioSource, offset: 0x20, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::AudioSource>  ____audioSource;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _queue, offset: 0x28, size: 0x8, def value: None
+ ::System::Collections::Generic::List_1<::GlobalNamespace::AudioClipQueue_AudioClipWithDelay*>*  ____queue;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::AudioClipQueue, ____audioSource) == 0x20, "Offset mismatch!");
@@ -165,7 +166,7 @@ static_assert(offsetof(::GlobalNamespace::AudioClipQueue, ____queue) == 0x28, "O
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::AudioClipQueue, 0x30>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::AudioClipQueue);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::AudioClipQueue*, "", "AudioClipQueue");
 NEED_NO_BOX(::GlobalNamespace::AudioClipQueue_AudioClipWithDelay);

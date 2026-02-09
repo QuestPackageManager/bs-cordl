@@ -26,126 +26,126 @@ namespace UnityEngine::Rendering::Universal {
 // CS Name: UnityEngine.Rendering.Universal.ShadowsMidtonesHighlights
 class CORDL_TYPE ShadowsMidtonesHighlights : public ::UnityEngine::Rendering::VolumeComponent {
 public:
-  // Declarations
-  /// @brief Field highlights, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_highlights, put = __cordl_internal_set_highlights)) ::UnityEngine::Rendering::Vector4Parameter* highlights;
+// Declarations
+/// @brief Field highlights, offset 0x48, size 0x8 
+ __declspec(property(get=__cordl_internal_get_highlights, put=__cordl_internal_set_highlights)) ::UnityEngine::Rendering::Vector4Parameter*  highlights;
 
-  /// @brief Field highlightsEnd, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get_highlightsEnd, put = __cordl_internal_set_highlightsEnd)) ::UnityEngine::Rendering::MinFloatParameter* highlightsEnd;
+/// @brief Field highlightsEnd, offset 0x68, size 0x8 
+ __declspec(property(get=__cordl_internal_get_highlightsEnd, put=__cordl_internal_set_highlightsEnd)) ::UnityEngine::Rendering::MinFloatParameter*  highlightsEnd;
 
-  /// @brief Field highlightsStart, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get_highlightsStart, put = __cordl_internal_set_highlightsStart)) ::UnityEngine::Rendering::MinFloatParameter* highlightsStart;
+/// @brief Field highlightsStart, offset 0x60, size 0x8 
+ __declspec(property(get=__cordl_internal_get_highlightsStart, put=__cordl_internal_set_highlightsStart)) ::UnityEngine::Rendering::MinFloatParameter*  highlightsStart;
 
-  /// @brief Field midtones, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_midtones, put = __cordl_internal_set_midtones)) ::UnityEngine::Rendering::Vector4Parameter* midtones;
+/// @brief Field midtones, offset 0x40, size 0x8 
+ __declspec(property(get=__cordl_internal_get_midtones, put=__cordl_internal_set_midtones)) ::UnityEngine::Rendering::Vector4Parameter*  midtones;
 
-  /// @brief Field shadows, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_shadows, put = __cordl_internal_set_shadows)) ::UnityEngine::Rendering::Vector4Parameter* shadows;
+/// @brief Field shadows, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get_shadows, put=__cordl_internal_set_shadows)) ::UnityEngine::Rendering::Vector4Parameter*  shadows;
 
-  /// @brief Field shadowsEnd, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get_shadowsEnd, put = __cordl_internal_set_shadowsEnd)) ::UnityEngine::Rendering::MinFloatParameter* shadowsEnd;
+/// @brief Field shadowsEnd, offset 0x58, size 0x8 
+ __declspec(property(get=__cordl_internal_get_shadowsEnd, put=__cordl_internal_set_shadowsEnd)) ::UnityEngine::Rendering::MinFloatParameter*  shadowsEnd;
 
-  /// @brief Field shadowsStart, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_shadowsStart, put = __cordl_internal_set_shadowsStart)) ::UnityEngine::Rendering::MinFloatParameter* shadowsStart;
+/// @brief Field shadowsStart, offset 0x50, size 0x8 
+ __declspec(property(get=__cordl_internal_get_shadowsStart, put=__cordl_internal_set_shadowsStart)) ::UnityEngine::Rendering::MinFloatParameter*  shadowsStart;
 
-  /// @brief Convert operator to "::UnityEngine::Rendering::IPostProcessComponent"
-  constexpr operator ::UnityEngine::Rendering::IPostProcessComponent*() noexcept;
+/// @brief Convert operator to "::UnityEngine::Rendering::IPostProcessComponent"
+constexpr operator  ::UnityEngine::Rendering::IPostProcessComponent*() noexcept;
 
-  /// @brief Method IsActive, addr 0x66c73a8, size 0xac, virtual true, abstract: false, final true
-  inline bool IsActive();
+/// @brief Method IsActive, addr 0x66c7a68, size 0xac, virtual true, abstract: false, final true
+inline bool IsActive() ;
 
-  /// @brief Method IsTileCompatible, addr 0x66c7454, size 0x8, virtual true, abstract: false, final true
-  inline bool IsTileCompatible();
+/// @brief Method IsTileCompatible, addr 0x66c7b14, size 0x8, virtual true, abstract: false, final true
+inline bool IsTileCompatible() ;
 
-  static inline ::UnityEngine::Rendering::Universal::ShadowsMidtonesHighlights* New_ctor();
+static inline ::UnityEngine::Rendering::Universal::ShadowsMidtonesHighlights* New_ctor() ;
 
-  constexpr ::UnityEngine::Rendering::Vector4Parameter* const& __cordl_internal_get_highlights() const;
+constexpr ::UnityEngine::Rendering::Vector4Parameter* const& __cordl_internal_get_highlights() const;
 
-  constexpr ::UnityEngine::Rendering::Vector4Parameter*& __cordl_internal_get_highlights();
+constexpr ::UnityEngine::Rendering::Vector4Parameter*& __cordl_internal_get_highlights() ;
 
-  constexpr ::UnityEngine::Rendering::MinFloatParameter* const& __cordl_internal_get_highlightsEnd() const;
+constexpr ::UnityEngine::Rendering::MinFloatParameter* const& __cordl_internal_get_highlightsEnd() const;
 
-  constexpr ::UnityEngine::Rendering::MinFloatParameter*& __cordl_internal_get_highlightsEnd();
+constexpr ::UnityEngine::Rendering::MinFloatParameter*& __cordl_internal_get_highlightsEnd() ;
 
-  constexpr ::UnityEngine::Rendering::MinFloatParameter* const& __cordl_internal_get_highlightsStart() const;
+constexpr ::UnityEngine::Rendering::MinFloatParameter* const& __cordl_internal_get_highlightsStart() const;
 
-  constexpr ::UnityEngine::Rendering::MinFloatParameter*& __cordl_internal_get_highlightsStart();
+constexpr ::UnityEngine::Rendering::MinFloatParameter*& __cordl_internal_get_highlightsStart() ;
 
-  constexpr ::UnityEngine::Rendering::Vector4Parameter* const& __cordl_internal_get_midtones() const;
+constexpr ::UnityEngine::Rendering::Vector4Parameter* const& __cordl_internal_get_midtones() const;
 
-  constexpr ::UnityEngine::Rendering::Vector4Parameter*& __cordl_internal_get_midtones();
+constexpr ::UnityEngine::Rendering::Vector4Parameter*& __cordl_internal_get_midtones() ;
 
-  constexpr ::UnityEngine::Rendering::Vector4Parameter* const& __cordl_internal_get_shadows() const;
+constexpr ::UnityEngine::Rendering::Vector4Parameter* const& __cordl_internal_get_shadows() const;
 
-  constexpr ::UnityEngine::Rendering::Vector4Parameter*& __cordl_internal_get_shadows();
+constexpr ::UnityEngine::Rendering::Vector4Parameter*& __cordl_internal_get_shadows() ;
 
-  constexpr ::UnityEngine::Rendering::MinFloatParameter* const& __cordl_internal_get_shadowsEnd() const;
+constexpr ::UnityEngine::Rendering::MinFloatParameter* const& __cordl_internal_get_shadowsEnd() const;
 
-  constexpr ::UnityEngine::Rendering::MinFloatParameter*& __cordl_internal_get_shadowsEnd();
+constexpr ::UnityEngine::Rendering::MinFloatParameter*& __cordl_internal_get_shadowsEnd() ;
 
-  constexpr ::UnityEngine::Rendering::MinFloatParameter* const& __cordl_internal_get_shadowsStart() const;
+constexpr ::UnityEngine::Rendering::MinFloatParameter* const& __cordl_internal_get_shadowsStart() const;
 
-  constexpr ::UnityEngine::Rendering::MinFloatParameter*& __cordl_internal_get_shadowsStart();
+constexpr ::UnityEngine::Rendering::MinFloatParameter*& __cordl_internal_get_shadowsStart() ;
 
-  constexpr void __cordl_internal_set_highlights(::UnityEngine::Rendering::Vector4Parameter* value);
+constexpr void __cordl_internal_set_highlights(::UnityEngine::Rendering::Vector4Parameter*  value) ;
 
-  constexpr void __cordl_internal_set_highlightsEnd(::UnityEngine::Rendering::MinFloatParameter* value);
+constexpr void __cordl_internal_set_highlightsEnd(::UnityEngine::Rendering::MinFloatParameter*  value) ;
 
-  constexpr void __cordl_internal_set_highlightsStart(::UnityEngine::Rendering::MinFloatParameter* value);
+constexpr void __cordl_internal_set_highlightsStart(::UnityEngine::Rendering::MinFloatParameter*  value) ;
 
-  constexpr void __cordl_internal_set_midtones(::UnityEngine::Rendering::Vector4Parameter* value);
+constexpr void __cordl_internal_set_midtones(::UnityEngine::Rendering::Vector4Parameter*  value) ;
 
-  constexpr void __cordl_internal_set_shadows(::UnityEngine::Rendering::Vector4Parameter* value);
+constexpr void __cordl_internal_set_shadows(::UnityEngine::Rendering::Vector4Parameter*  value) ;
 
-  constexpr void __cordl_internal_set_shadowsEnd(::UnityEngine::Rendering::MinFloatParameter* value);
+constexpr void __cordl_internal_set_shadowsEnd(::UnityEngine::Rendering::MinFloatParameter*  value) ;
 
-  constexpr void __cordl_internal_set_shadowsStart(::UnityEngine::Rendering::MinFloatParameter* value);
+constexpr void __cordl_internal_set_shadowsStart(::UnityEngine::Rendering::MinFloatParameter*  value) ;
 
-  /// @brief Method .ctor, addr 0x66c745c, size 0x170, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x66c7b1c, size 0x170, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Convert to "::UnityEngine::Rendering::IPostProcessComponent"
-  constexpr ::UnityEngine::Rendering::IPostProcessComponent* i___UnityEngine__Rendering__IPostProcessComponent() noexcept;
+/// @brief Convert to "::UnityEngine::Rendering::IPostProcessComponent"
+constexpr ::UnityEngine::Rendering::IPostProcessComponent* i___UnityEngine__Rendering__IPostProcessComponent() noexcept;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ShadowsMidtonesHighlights();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ShadowsMidtonesHighlights() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ShadowsMidtonesHighlights", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ShadowsMidtonesHighlights(ShadowsMidtonesHighlights&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ShadowsMidtonesHighlights", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ShadowsMidtonesHighlights(ShadowsMidtonesHighlights const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ShadowsMidtonesHighlights", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ShadowsMidtonesHighlights(ShadowsMidtonesHighlights && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12783 };
+// Ctor Parameters [CppParam { name: "", ty: "ShadowsMidtonesHighlights", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ShadowsMidtonesHighlights(ShadowsMidtonesHighlights const& ) = delete;
 
-  /// @brief Field shadows, offset: 0x38, size: 0x8, def value: None
-  ::UnityEngine::Rendering::Vector4Parameter* ___shadows;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12787};
 
-  /// @brief Field midtones, offset: 0x40, size: 0x8, def value: None
-  ::UnityEngine::Rendering::Vector4Parameter* ___midtones;
+/// @brief Field shadows, offset: 0x38, size: 0x8, def value: None
+ ::UnityEngine::Rendering::Vector4Parameter*  ___shadows;
 
-  /// @brief Field highlights, offset: 0x48, size: 0x8, def value: None
-  ::UnityEngine::Rendering::Vector4Parameter* ___highlights;
+/// @brief Field midtones, offset: 0x40, size: 0x8, def value: None
+ ::UnityEngine::Rendering::Vector4Parameter*  ___midtones;
 
-  /// @brief Field shadowsStart, offset: 0x50, size: 0x8, def value: None
-  ::UnityEngine::Rendering::MinFloatParameter* ___shadowsStart;
+/// @brief Field highlights, offset: 0x48, size: 0x8, def value: None
+ ::UnityEngine::Rendering::Vector4Parameter*  ___highlights;
 
-  /// @brief Field shadowsEnd, offset: 0x58, size: 0x8, def value: None
-  ::UnityEngine::Rendering::MinFloatParameter* ___shadowsEnd;
+/// @brief Field shadowsStart, offset: 0x50, size: 0x8, def value: None
+ ::UnityEngine::Rendering::MinFloatParameter*  ___shadowsStart;
 
-  /// @brief Field highlightsStart, offset: 0x60, size: 0x8, def value: None
-  ::UnityEngine::Rendering::MinFloatParameter* ___highlightsStart;
+/// @brief Field shadowsEnd, offset: 0x58, size: 0x8, def value: None
+ ::UnityEngine::Rendering::MinFloatParameter*  ___shadowsEnd;
 
-  /// @brief Field highlightsEnd, offset: 0x68, size: 0x8, def value: None
-  ::UnityEngine::Rendering::MinFloatParameter* ___highlightsEnd;
+/// @brief Field highlightsStart, offset: 0x60, size: 0x8, def value: None
+ ::UnityEngine::Rendering::MinFloatParameter*  ___highlightsStart;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field highlightsEnd, offset: 0x68, size: 0x8, def value: None
+ ::UnityEngine::Rendering::MinFloatParameter*  ___highlightsEnd;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Rendering::Universal::ShadowsMidtonesHighlights, ___shadows) == 0x38, "Offset mismatch!");
@@ -164,6 +164,6 @@ static_assert(offsetof(::UnityEngine::Rendering::Universal::ShadowsMidtonesHighl
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::Universal::ShadowsMidtonesHighlights, 0x70>, "Size mismatch!");
 
-} // namespace UnityEngine::Rendering::Universal
+} // namespace end def UnityEngine::Rendering::Universal
 NEED_NO_BOX(::UnityEngine::Rendering::Universal::ShadowsMidtonesHighlights);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::Universal::ShadowsMidtonesHighlights*, "UnityEngine.Rendering.Universal", "ShadowsMidtonesHighlights");

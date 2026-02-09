@@ -36,78 +36,78 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
 // CS Name: Org.BouncyCastle.Asn1.Pkcs.RC2CbcParameter
 class CORDL_TYPE RC2CbcParameter : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
-  // Declarations
-  __declspec(property(get = get_RC2ParameterVersion)) ::Org::BouncyCastle::Math::BigInteger* RC2ParameterVersion;
+// Declarations
+ __declspec(property(get=get_RC2ParameterVersion)) ::Org::BouncyCastle::Math::BigInteger*  RC2ParameterVersion;
 
-  /// @brief Field iv, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_iv, put = __cordl_internal_set_iv)) ::Org::BouncyCastle::Asn1::Asn1OctetString* iv;
+/// @brief Field iv, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_iv, put=__cordl_internal_set_iv)) ::Org::BouncyCastle::Asn1::Asn1OctetString*  iv;
 
-  /// @brief Field version, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version)) ::Org::BouncyCastle::Asn1::DerInteger* version;
+/// @brief Field version, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_version, put=__cordl_internal_set_version)) ::Org::BouncyCastle::Asn1::DerInteger*  version;
 
-  /// @brief Method GetIV, addr 0x336bf14, size 0x7c, virtual false, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetIV();
+/// @brief Method GetIV, addr 0x336be64, size 0x7c, virtual false, abstract: false, final false
+inline ::ArrayW<uint8_t,::Array<uint8_t>*> GetIV() ;
 
-  /// @brief Method GetInstance, addr 0x336bb1c, size 0x160, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Asn1::Pkcs::RC2CbcParameter* GetInstance(::System::Object* obj);
+/// @brief Method GetInstance, addr 0x336ba6c, size 0x160, virtual false, abstract: false, final false
+static inline ::Org::BouncyCastle::Asn1::Pkcs::RC2CbcParameter* GetInstance(::System::Object*  obj) ;
 
-  static inline ::Org::BouncyCastle::Asn1::Pkcs::RC2CbcParameter* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> iv);
+static inline ::Org::BouncyCastle::Asn1::Pkcs::RC2CbcParameter* New_ctor(::ArrayW<uint8_t,::Array<uint8_t>*>  iv) ;
 
-  static inline ::Org::BouncyCastle::Asn1::Pkcs::RC2CbcParameter* New_ctor(int32_t parameterVersion, ::ArrayW<uint8_t, ::Array<uint8_t>*> iv);
+static inline ::Org::BouncyCastle::Asn1::Pkcs::RC2CbcParameter* New_ctor(int32_t  parameterVersion, ::ArrayW<uint8_t,::Array<uint8_t>*>  iv) ;
 
-  static inline ::Org::BouncyCastle::Asn1::Pkcs::RC2CbcParameter* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
+static inline ::Org::BouncyCastle::Asn1::Pkcs::RC2CbcParameter* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence*  seq) ;
 
-  /// @brief Method ToAsn1Object, addr 0x336bf90, size 0x11c, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
+/// @brief Method ToAsn1Object, addr 0x336bee0, size 0x11c, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object() ;
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString* const& __cordl_internal_get_iv() const;
+constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString* const& __cordl_internal_get_iv() const;
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString*& __cordl_internal_get_iv();
+constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString*& __cordl_internal_get_iv() ;
 
-  constexpr ::Org::BouncyCastle::Asn1::DerInteger* const& __cordl_internal_get_version() const;
+constexpr ::Org::BouncyCastle::Asn1::DerInteger* const& __cordl_internal_get_version() const;
 
-  constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __cordl_internal_get_version();
+constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __cordl_internal_get_version() ;
 
-  constexpr void __cordl_internal_set_iv(::Org::BouncyCastle::Asn1::Asn1OctetString* value);
+constexpr void __cordl_internal_set_iv(::Org::BouncyCastle::Asn1::Asn1OctetString*  value) ;
 
-  constexpr void __cordl_internal_set_version(::Org::BouncyCastle::Asn1::DerInteger* value);
+constexpr void __cordl_internal_set_version(::Org::BouncyCastle::Asn1::DerInteger*  value) ;
 
-  /// @brief Method .ctor, addr 0x336bdf8, size 0x68, virtual false, abstract: false, final false
-  inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> iv);
+/// @brief Method .ctor, addr 0x336bd48, size 0x68, virtual false, abstract: false, final false
+inline void _ctor(::ArrayW<uint8_t,::Array<uint8_t>*>  iv) ;
 
-  /// @brief Method .ctor, addr 0x336be60, size 0xa0, virtual false, abstract: false, final false
-  inline void _ctor(int32_t parameterVersion, ::ArrayW<uint8_t, ::Array<uint8_t>*> iv);
+/// @brief Method .ctor, addr 0x336bdb0, size 0xa0, virtual false, abstract: false, final false
+inline void _ctor(int32_t  parameterVersion, ::ArrayW<uint8_t,::Array<uint8_t>*>  iv) ;
 
-  /// @brief Method .ctor, addr 0x336bc7c, size 0x17c, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
+/// @brief Method .ctor, addr 0x336bbcc, size 0x17c, virtual false, abstract: false, final false
+inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence*  seq) ;
 
-  /// @brief Method get_RC2ParameterVersion, addr 0x336bf00, size 0x14, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Math::BigInteger* get_RC2ParameterVersion();
+/// @brief Method get_RC2ParameterVersion, addr 0x336be50, size 0x14, virtual false, abstract: false, final false
+inline ::Org::BouncyCastle::Math::BigInteger* get_RC2ParameterVersion() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RC2CbcParameter();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr RC2CbcParameter() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RC2CbcParameter", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  RC2CbcParameter(RC2CbcParameter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RC2CbcParameter", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  RC2CbcParameter(RC2CbcParameter const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "RC2CbcParameter", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+RC2CbcParameter(RC2CbcParameter && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 247 };
+// Ctor Parameters [CppParam { name: "", ty: "RC2CbcParameter", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+RC2CbcParameter(RC2CbcParameter const& ) = delete;
 
-  /// @brief Field version, offset: 0x10, size: 0x8, def value: None
-  ::Org::BouncyCastle::Asn1::DerInteger* ___version;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{247};
 
-  /// @brief Field iv, offset: 0x18, size: 0x8, def value: None
-  ::Org::BouncyCastle::Asn1::Asn1OctetString* ___iv;
+/// @brief Field version, offset: 0x10, size: 0x8, def value: None
+ ::Org::BouncyCastle::Asn1::DerInteger*  ___version;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field iv, offset: 0x18, size: 0x8, def value: None
+ ::Org::BouncyCastle::Asn1::Asn1OctetString*  ___iv;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Org::BouncyCastle::Asn1::Pkcs::RC2CbcParameter, ___version) == 0x10, "Offset mismatch!");
@@ -116,6 +116,6 @@ static_assert(offsetof(::Org::BouncyCastle::Asn1::Pkcs::RC2CbcParameter, ___iv) 
 
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Pkcs::RC2CbcParameter, 0x20>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Asn1::Pkcs
+} // namespace end def Org::BouncyCastle::Asn1::Pkcs
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Pkcs::RC2CbcParameter);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::Pkcs::RC2CbcParameter*, "Org.BouncyCastle.Asn1.Pkcs", "RC2CbcParameter");

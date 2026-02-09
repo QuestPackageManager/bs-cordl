@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "GlobalNamespace/$BurstDirectCallInitializer.hpp"
 #include "GlobalNamespace/AOTEnforcer.hpp"
@@ -1830,6 +1830,9 @@ module;
 #include "GlobalNamespace/PresetsSettingsController.hpp"
 #include "GlobalNamespace/PreviousColorPanelController.hpp"
 #include "GlobalNamespace/PrivacyPolicyDisplayViewController.hpp"
+#include "GlobalNamespace/PrivacyPolicyNoticeDisplayViewController.hpp"
+#include "GlobalNamespace/PrivacyPolicyNoticeView.hpp"
+#include "GlobalNamespace/PrivacyPolicyNoticeViewController.hpp"
 #include "GlobalNamespace/PrivacyPolicyViewController.hpp"
 #include "GlobalNamespace/ProModeTrailingCollidersController.hpp"
 #include "GlobalNamespace/ProcessPort.hpp"
@@ -2305,5 +2308,6 @@ module;
 #include "GlobalNamespace/ZenjectExtensions.hpp"
 #include "GlobalNamespace/ZenjectSafeBehaviour.hpp"
 #ifdef __cpp_modules
-export module GlobalNamespace;
-#endif
+                    export module GlobalNamespace;
+                    #endif
+                

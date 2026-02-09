@@ -21,65 +21,65 @@ namespace GlobalNamespace {
 // CS Name: BlueNoiseDithering
 class CORDL_TYPE BlueNoiseDithering : public ::GlobalNamespace::PersistentScriptableObject {
 public:
-  // Declarations
-  /// @brief Field _globalNoiseTextureID, offset 0xffffffff, size 0x4
-  __declspec(property(get = getStaticF__globalNoiseTextureID, put = setStaticF__globalNoiseTextureID)) int32_t _globalNoiseTextureID;
+// Declarations
+/// @brief Field _globalNoiseTextureID, offset 0xffffffff, size 0x4 
+ __declspec(property(get=getStaticF__globalNoiseTextureID, put=setStaticF__globalNoiseTextureID)) int32_t  _globalNoiseTextureID;
 
-  /// @brief Field _noiseParamsID, offset 0xffffffff, size 0x4
-  __declspec(property(get = getStaticF__noiseParamsID, put = setStaticF__noiseParamsID)) int32_t _noiseParamsID;
+/// @brief Field _noiseParamsID, offset 0xffffffff, size 0x4 
+ __declspec(property(get=getStaticF__noiseParamsID, put=setStaticF__noiseParamsID)) int32_t  _noiseParamsID;
 
-  /// @brief Field _noiseTexture, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__noiseTexture, put = __cordl_internal_set__noiseTexture)) ::UnityW<::UnityEngine::Texture2D> _noiseTexture;
+/// @brief Field _noiseTexture, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get__noiseTexture, put=__cordl_internal_set__noiseTexture)) ::UnityW<::UnityEngine::Texture2D>  _noiseTexture;
 
-  static inline ::GlobalNamespace::BlueNoiseDithering* New_ctor();
+static inline ::GlobalNamespace::BlueNoiseDithering* New_ctor() ;
 
-  /// @brief Method SetBlueNoiseShaderParams, addr 0x56b4bec, size 0xe8, virtual false, abstract: false, final false
-  inline void SetBlueNoiseShaderParams(int32_t cameraPixelWidth, int32_t cameraPixelHeight);
+/// @brief Method SetBlueNoiseShaderParams, addr 0x56b4974, size 0xe8, virtual false, abstract: false, final false
+inline void SetBlueNoiseShaderParams(int32_t  cameraPixelWidth, int32_t  cameraPixelHeight) ;
 
-  constexpr ::UnityW<::UnityEngine::Texture2D> const& __cordl_internal_get__noiseTexture() const;
+constexpr ::UnityW<::UnityEngine::Texture2D> const& __cordl_internal_get__noiseTexture() const;
 
-  constexpr ::UnityW<::UnityEngine::Texture2D>& __cordl_internal_get__noiseTexture();
+constexpr ::UnityW<::UnityEngine::Texture2D>& __cordl_internal_get__noiseTexture() ;
 
-  constexpr void __cordl_internal_set__noiseTexture(::UnityW<::UnityEngine::Texture2D> value);
+constexpr void __cordl_internal_set__noiseTexture(::UnityW<::UnityEngine::Texture2D>  value) ;
 
-  /// @brief Method .ctor, addr 0x56b4cd4, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x56b4a5c, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  static inline int32_t getStaticF__globalNoiseTextureID();
+static inline int32_t getStaticF__globalNoiseTextureID() ;
 
-  static inline int32_t getStaticF__noiseParamsID();
+static inline int32_t getStaticF__noiseParamsID() ;
 
-  static inline void setStaticF__globalNoiseTextureID(int32_t value);
+static inline void setStaticF__globalNoiseTextureID(int32_t  value) ;
 
-  static inline void setStaticF__noiseParamsID(int32_t value);
+static inline void setStaticF__noiseParamsID(int32_t  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BlueNoiseDithering();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr BlueNoiseDithering() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BlueNoiseDithering", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  BlueNoiseDithering(BlueNoiseDithering&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BlueNoiseDithering", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  BlueNoiseDithering(BlueNoiseDithering const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "BlueNoiseDithering", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+BlueNoiseDithering(BlueNoiseDithering && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19681 };
+// Ctor Parameters [CppParam { name: "", ty: "BlueNoiseDithering", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+BlueNoiseDithering(BlueNoiseDithering const& ) = delete;
 
-  /// @brief Field _noiseTexture, offset: 0x18, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::Texture2D> ____noiseTexture;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{19685};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _noiseTexture, offset: 0x18, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::Texture2D>  ____noiseTexture;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::BlueNoiseDithering, ____noiseTexture) == 0x18, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BlueNoiseDithering, 0x20>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BlueNoiseDithering);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BlueNoiseDithering*, "", "BlueNoiseDithering");

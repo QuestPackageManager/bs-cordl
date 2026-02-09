@@ -17,37 +17,37 @@ namespace GlobalNamespace {
 // CS Name: AbstractPoolContainer
 class CORDL_TYPE AbstractPoolContainer : public ::UnityEngine::MonoBehaviour {
 public:
-  // Declarations
-  /// @brief Method DespawnAll, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void DespawnAll();
+// Declarations
+/// @brief Method DespawnAll, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline void DespawnAll() ;
 
-  static inline ::GlobalNamespace::AbstractPoolContainer* New_ctor();
+static inline ::GlobalNamespace::AbstractPoolContainer* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x574634c, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5746c80, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AbstractPoolContainer();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr AbstractPoolContainer() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AbstractPoolContainer", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  AbstractPoolContainer(AbstractPoolContainer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AbstractPoolContainer", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  AbstractPoolContainer(AbstractPoolContainer const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "AbstractPoolContainer", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+AbstractPoolContainer(AbstractPoolContainer && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6582 };
+// Ctor Parameters [CppParam { name: "", ty: "AbstractPoolContainer", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+AbstractPoolContainer(AbstractPoolContainer const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6586};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::AbstractPoolContainer, 0x20>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::AbstractPoolContainer);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::AbstractPoolContainer*, "", "AbstractPoolContainer");

@@ -23,40 +23,40 @@ namespace Oculus::Platform {
 // CS Name: Oculus.Platform.MessageWithSdkAccountList
 class CORDL_TYPE MessageWithSdkAccountList : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::SdkAccountList*> {
 public:
-  // Declarations
-  /// @brief Method GetDataFromMessage, addr 0x5c2e8d4, size 0x9c, virtual true, abstract: false, final false
-  inline ::Oculus::Platform::Models::SdkAccountList* GetDataFromMessage(::System::IntPtr c_message);
+// Declarations
+/// @brief Method GetDataFromMessage, addr 0x5c2ede0, size 0x9c, virtual true, abstract: false, final false
+inline ::Oculus::Platform::Models::SdkAccountList* GetDataFromMessage(::System::IntPtr  c_message) ;
 
-  /// @brief Method GetSdkAccountList, addr 0x5c2e890, size 0x44, virtual true, abstract: false, final false
-  inline ::Oculus::Platform::Models::SdkAccountList* GetSdkAccountList();
+/// @brief Method GetSdkAccountList, addr 0x5c2ed9c, size 0x44, virtual true, abstract: false, final false
+inline ::Oculus::Platform::Models::SdkAccountList* GetSdkAccountList() ;
 
-  static inline ::Oculus::Platform::MessageWithSdkAccountList* New_ctor(::System::IntPtr c_message);
+static inline ::Oculus::Platform::MessageWithSdkAccountList* New_ctor(::System::IntPtr  c_message) ;
 
-  /// @brief Method .ctor, addr 0x5c29a54, size 0x5c, virtual false, abstract: false, final false
-  inline void _ctor(::System::IntPtr c_message);
+/// @brief Method .ctor, addr 0x5c29f60, size 0x5c, virtual false, abstract: false, final false
+inline void _ctor(::System::IntPtr  c_message) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MessageWithSdkAccountList();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr MessageWithSdkAccountList() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MessageWithSdkAccountList", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  MessageWithSdkAccountList(MessageWithSdkAccountList&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MessageWithSdkAccountList", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  MessageWithSdkAccountList(MessageWithSdkAccountList const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "MessageWithSdkAccountList", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+MessageWithSdkAccountList(MessageWithSdkAccountList && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17884 };
+// Ctor Parameters [CppParam { name: "", ty: "MessageWithSdkAccountList", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+MessageWithSdkAccountList(MessageWithSdkAccountList const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{17888};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Oculus::Platform::MessageWithSdkAccountList, 0x30>, "Size mismatch!");
 
-} // namespace Oculus::Platform
+} // namespace end def Oculus::Platform
 NEED_NO_BOX(::Oculus::Platform::MessageWithSdkAccountList);
 DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::MessageWithSdkAccountList*, "Oculus.Platform", "MessageWithSdkAccountList");

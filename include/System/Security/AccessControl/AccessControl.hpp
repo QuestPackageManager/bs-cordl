@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "System/Security/AccessControl/AccessControlSections.hpp"
 #include "System/Security/AccessControl/AccessControlType.hpp"
@@ -40,5 +40,6 @@ module;
 #include "System/Security/AccessControl/ResourceType.hpp"
 #include "System/Security/AccessControl/SystemAcl.hpp"
 #ifdef __cpp_modules
-export module AccessControl;
-#endif
+                    export module AccessControl;
+                    #endif
+                

@@ -22,66 +22,62 @@ namespace System::Linq::Expressions::Interpreter {
 // CS Name: System.Linq.Expressions.Interpreter.EnterFinallyInstruction
 class CORDL_TYPE EnterFinallyInstruction : public ::System::Linq::Expressions::Interpreter::IndexedBranchInstruction {
 public:
-  // Declarations
-  __declspec(property(get = get_ConsumedContinuations)) int32_t ConsumedContinuations;
+// Declarations
+ __declspec(property(get=get_ConsumedContinuations)) int32_t  ConsumedContinuations;
 
-  __declspec(property(get = get_InstructionName)) ::StringW InstructionName;
+ __declspec(property(get=get_InstructionName)) ::StringW  InstructionName;
 
-  __declspec(property(get = get_ProducedStack)) int32_t ProducedStack;
+ __declspec(property(get=get_ProducedStack)) int32_t  ProducedStack;
 
-  /// @brief Field s_cache, offset 0xffffffff, size 0x8
-  __declspec(property(
-      get = getStaticF_s_cache,
-      put = setStaticF_s_cache)) ::ArrayW<::System::Linq::Expressions::Interpreter::EnterFinallyInstruction*, ::Array<::System::Linq::Expressions::Interpreter::EnterFinallyInstruction*>*>
-      s_cache;
+/// @brief Field s_cache, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_s_cache, put=setStaticF_s_cache)) ::ArrayW<::System::Linq::Expressions::Interpreter::EnterFinallyInstruction*,::Array<::System::Linq::Expressions::Interpreter::EnterFinallyInstruction*>*>  s_cache;
 
-  /// @brief Method Create, addr 0x5ddbd64, size 0xf8, virtual false, abstract: false, final false
-  static inline ::System::Linq::Expressions::Interpreter::EnterFinallyInstruction* Create(int32_t labelIndex);
+/// @brief Method Create, addr 0x5ddc424, size 0xf8, virtual false, abstract: false, final false
+static inline ::System::Linq::Expressions::Interpreter::EnterFinallyInstruction* Create(int32_t  labelIndex) ;
 
-  static inline ::System::Linq::Expressions::Interpreter::EnterFinallyInstruction* New_ctor(int32_t labelIndex);
+static inline ::System::Linq::Expressions::Interpreter::EnterFinallyInstruction* New_ctor(int32_t  labelIndex) ;
 
-  /// @brief Method Run, addr 0x5ddbe5c, size 0x5c, virtual true, abstract: false, final false
-  inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
+/// @brief Method Run, addr 0x5ddc51c, size 0x5c, virtual true, abstract: false, final false
+inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame*  frame) ;
 
-  /// @brief Method .ctor, addr 0x5ddbd08, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(int32_t labelIndex);
+/// @brief Method .ctor, addr 0x5ddc3c8, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(int32_t  labelIndex) ;
 
-  static inline ::ArrayW<::System::Linq::Expressions::Interpreter::EnterFinallyInstruction*, ::Array<::System::Linq::Expressions::Interpreter::EnterFinallyInstruction*>*> getStaticF_s_cache();
+static inline ::ArrayW<::System::Linq::Expressions::Interpreter::EnterFinallyInstruction*,::Array<::System::Linq::Expressions::Interpreter::EnterFinallyInstruction*>*> getStaticF_s_cache() ;
 
-  /// @brief Method get_ConsumedContinuations, addr 0x5ddbd5c, size 0x8, virtual true, abstract: false, final false
-  inline int32_t get_ConsumedContinuations();
+/// @brief Method get_ConsumedContinuations, addr 0x5ddc41c, size 0x8, virtual true, abstract: false, final false
+inline int32_t get_ConsumedContinuations() ;
 
-  /// @brief Method get_InstructionName, addr 0x5ddbd10, size 0x44, virtual true, abstract: false, final false
-  inline ::StringW get_InstructionName();
+/// @brief Method get_InstructionName, addr 0x5ddc3d0, size 0x44, virtual true, abstract: false, final false
+inline ::StringW get_InstructionName() ;
 
-  /// @brief Method get_ProducedStack, addr 0x5ddbd54, size 0x8, virtual true, abstract: false, final false
-  inline int32_t get_ProducedStack();
+/// @brief Method get_ProducedStack, addr 0x5ddc414, size 0x8, virtual true, abstract: false, final false
+inline int32_t get_ProducedStack() ;
 
-  static inline void
-  setStaticF_s_cache(::ArrayW<::System::Linq::Expressions::Interpreter::EnterFinallyInstruction*, ::Array<::System::Linq::Expressions::Interpreter::EnterFinallyInstruction*>*> value);
+static inline void setStaticF_s_cache(::ArrayW<::System::Linq::Expressions::Interpreter::EnterFinallyInstruction*,::Array<::System::Linq::Expressions::Interpreter::EnterFinallyInstruction*>*>  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr EnterFinallyInstruction();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr EnterFinallyInstruction() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EnterFinallyInstruction", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  EnterFinallyInstruction(EnterFinallyInstruction&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EnterFinallyInstruction", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  EnterFinallyInstruction(EnterFinallyInstruction const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "EnterFinallyInstruction", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+EnterFinallyInstruction(EnterFinallyInstruction && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16251 };
+// Ctor Parameters [CppParam { name: "", ty: "EnterFinallyInstruction", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+EnterFinallyInstruction(EnterFinallyInstruction const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{16255};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Interpreter::EnterFinallyInstruction, 0x18>, "Size mismatch!");
 
-} // namespace System::Linq::Expressions::Interpreter
+} // namespace end def System::Linq::Expressions::Interpreter
 NEED_NO_BOX(::System::Linq::Expressions::Interpreter::EnterFinallyInstruction);
 DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::Interpreter::EnterFinallyInstruction*, "System.Linq.Expressions.Interpreter", "EnterFinallyInstruction");

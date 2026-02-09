@@ -20,39 +20,39 @@ namespace System::Net::NetworkInformation {
 // CS Name: System.Net.NetworkInformation.IPAddressInformation
 class CORDL_TYPE IPAddressInformation : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(get = get_Address)) ::System::Net::IPAddress* Address;
+// Declarations
+ __declspec(property(get=get_Address)) ::System::Net::IPAddress*  Address;
 
-  static inline ::System::Net::NetworkInformation::IPAddressInformation* New_ctor();
+static inline ::System::Net::NetworkInformation::IPAddressInformation* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x619d73c, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x619ddfc, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_Address, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline ::System::Net::IPAddress* get_Address();
+/// @brief Method get_Address, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline ::System::Net::IPAddress* get_Address() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr IPAddressInformation();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr IPAddressInformation() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IPAddressInformation", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IPAddressInformation(IPAddressInformation&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IPAddressInformation", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  IPAddressInformation(IPAddressInformation const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "IPAddressInformation", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+IPAddressInformation(IPAddressInformation && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11647 };
+// Ctor Parameters [CppParam { name: "", ty: "IPAddressInformation", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+IPAddressInformation(IPAddressInformation const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11651};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::NetworkInformation::IPAddressInformation, 0x10>, "Size mismatch!");
 
-} // namespace System::Net::NetworkInformation
+} // namespace end def System::Net::NetworkInformation
 NEED_NO_BOX(::System::Net::NetworkInformation::IPAddressInformation);
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::NetworkInformation::IPAddressInformation*, "System.Net.NetworkInformation", "IPAddressInformation");

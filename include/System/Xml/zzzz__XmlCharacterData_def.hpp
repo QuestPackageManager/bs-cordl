@@ -27,78 +27,78 @@ namespace System::Xml {
 // CS Name: System.Xml.XmlCharacterData
 class CORDL_TYPE XmlCharacterData : public ::System::Xml::XmlLinkedNode {
 public:
-  // Declarations
-  __declspec(property(get = get_Data, put = set_Data)) ::StringW Data;
+// Declarations
+ __declspec(property(get=get_Data, put=set_Data)) ::StringW  Data;
 
-  __declspec(property(get = get_InnerText, put = set_InnerText)) ::StringW InnerText;
+ __declspec(property(get=get_InnerText, put=set_InnerText)) ::StringW  InnerText;
 
-  __declspec(property(get = get_Value, put = set_Value)) ::StringW Value;
+ __declspec(property(get=get_Value, put=set_Value)) ::StringW  Value;
 
-  /// @brief Field data, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_data, put = __cordl_internal_set_data)) ::StringW data;
+/// @brief Field data, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get_data, put=__cordl_internal_set_data)) ::StringW  data;
 
-  /// @brief Method CheckOnData, addr 0x6105c90, size 0x38, virtual false, abstract: false, final false
-  inline bool CheckOnData(::StringW data);
+/// @brief Method CheckOnData, addr 0x6106350, size 0x38, virtual false, abstract: false, final false
+inline bool CheckOnData(::StringW  data) ;
 
-  /// @brief Method DecideXPNodeTypeForTextNodes, addr 0x6105cc8, size 0xd8, virtual false, abstract: false, final false
-  inline bool DecideXPNodeTypeForTextNodes(::System::Xml::XmlNode* node, ::ByRef<::System::Xml::XPath::XPathNodeType> xnt);
+/// @brief Method DecideXPNodeTypeForTextNodes, addr 0x6106388, size 0xd8, virtual false, abstract: false, final false
+inline bool DecideXPNodeTypeForTextNodes(::System::Xml::XmlNode*  node, ::ByRef<::System::Xml::XPath::XPathNodeType>  xnt) ;
 
-  static inline ::System::Xml::XmlCharacterData* New_ctor(::StringW data, ::System::Xml::XmlDocument* doc);
+static inline ::System::Xml::XmlCharacterData* New_ctor(::StringW  data, ::System::Xml::XmlDocument*  doc) ;
 
-  constexpr ::StringW const& __cordl_internal_get_data() const;
+constexpr ::StringW const& __cordl_internal_get_data() const;
 
-  constexpr ::StringW& __cordl_internal_get_data();
+constexpr ::StringW& __cordl_internal_get_data() ;
 
-  constexpr void __cordl_internal_set_data(::StringW value);
+constexpr void __cordl_internal_set_data(::StringW  value) ;
 
-  /// @brief Method .ctor, addr 0x6105990, size 0x28, virtual false, abstract: false, final false
-  inline void _ctor(::StringW data, ::System::Xml::XmlDocument* doc);
+/// @brief Method .ctor, addr 0x6106050, size 0x28, virtual false, abstract: false, final false
+inline void _ctor(::StringW  data, ::System::Xml::XmlDocument*  doc) ;
 
-  /// @brief Method get_Data, addr 0x6105bd0, size 0x20, virtual true, abstract: false, final false
-  inline ::StringW get_Data();
+/// @brief Method get_Data, addr 0x6106290, size 0x20, virtual true, abstract: false, final false
+inline ::StringW get_Data() ;
 
-  /// @brief Method get_InnerText, addr 0x6105bb8, size 0xc, virtual true, abstract: false, final false
-  inline ::StringW get_InnerText();
+/// @brief Method get_InnerText, addr 0x6106278, size 0xc, virtual true, abstract: false, final false
+inline ::StringW get_InnerText() ;
 
-  /// @brief Method get_Value, addr 0x6105b98, size 0x10, virtual true, abstract: false, final false
-  inline ::StringW get_Value();
+/// @brief Method get_Value, addr 0x6106258, size 0x10, virtual true, abstract: false, final false
+inline ::StringW get_Value() ;
 
-  /// @brief Method set_Data, addr 0x6105bf0, size 0xa0, virtual true, abstract: false, final false
-  inline void set_Data(::StringW value);
+/// @brief Method set_Data, addr 0x61062b0, size 0xa0, virtual true, abstract: false, final false
+inline void set_Data(::StringW  value) ;
 
-  /// @brief Method set_InnerText, addr 0x6105bc4, size 0xc, virtual true, abstract: false, final false
-  inline void set_InnerText(::StringW value);
+/// @brief Method set_InnerText, addr 0x6106284, size 0xc, virtual true, abstract: false, final false
+inline void set_InnerText(::StringW  value) ;
 
-  /// @brief Method set_Value, addr 0x6105ba8, size 0x10, virtual true, abstract: false, final false
-  inline void set_Value(::StringW value);
+/// @brief Method set_Value, addr 0x6106268, size 0x10, virtual true, abstract: false, final false
+inline void set_Value(::StringW  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr XmlCharacterData();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr XmlCharacterData() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlCharacterData", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  XmlCharacterData(XmlCharacterData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlCharacterData", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  XmlCharacterData(XmlCharacterData const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "XmlCharacterData", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+XmlCharacterData(XmlCharacterData && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9358 };
+// Ctor Parameters [CppParam { name: "", ty: "XmlCharacterData", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+XmlCharacterData(XmlCharacterData const& ) = delete;
 
-  /// @brief Field data, offset: 0x20, size: 0x8, def value: None
-  ::StringW ___data;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{9362};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field data, offset: 0x20, size: 0x8, def value: None
+ ::StringW  ___data;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Xml::XmlCharacterData, ___data) == 0x20, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::System::Xml::XmlCharacterData, 0x28>, "Size mismatch!");
 
-} // namespace System::Xml
+} // namespace end def System::Xml
 NEED_NO_BOX(::System::Xml::XmlCharacterData);
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::XmlCharacterData*, "System.Xml", "XmlCharacterData");

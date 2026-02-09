@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "Org/BouncyCastle/Crypto/Generators/BCrypt.hpp"
 #include "Org/BouncyCastle/Crypto/Generators/BaseKdfBytesGenerator.hpp"
@@ -41,5 +41,6 @@ module;
 #include "Org/BouncyCastle/Crypto/Generators/X25519KeyPairGenerator.hpp"
 #include "Org/BouncyCastle/Crypto/Generators/X448KeyPairGenerator.hpp"
 #ifdef __cpp_modules
-export module Generators;
-#endif
+                    export module Generators;
+                    #endif
+                

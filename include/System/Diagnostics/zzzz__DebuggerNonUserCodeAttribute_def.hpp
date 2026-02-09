@@ -17,34 +17,34 @@ namespace System::Diagnostics {
 // CS Name: System.Diagnostics.DebuggerNonUserCodeAttribute
 class CORDL_TYPE DebuggerNonUserCodeAttribute : public ::System::Attribute {
 public:
-  // Declarations
-  static inline ::System::Diagnostics::DebuggerNonUserCodeAttribute* New_ctor();
+// Declarations
+static inline ::System::Diagnostics::DebuggerNonUserCodeAttribute* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x5a30a74, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5a30f80, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DebuggerNonUserCodeAttribute();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr DebuggerNonUserCodeAttribute() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebuggerNonUserCodeAttribute", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  DebuggerNonUserCodeAttribute(DebuggerNonUserCodeAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebuggerNonUserCodeAttribute", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  DebuggerNonUserCodeAttribute(DebuggerNonUserCodeAttribute const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "DebuggerNonUserCodeAttribute", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+DebuggerNonUserCodeAttribute(DebuggerNonUserCodeAttribute && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3658 };
+// Ctor Parameters [CppParam { name: "", ty: "DebuggerNonUserCodeAttribute", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+DebuggerNonUserCodeAttribute(DebuggerNonUserCodeAttribute const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{3658};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Diagnostics::DebuggerNonUserCodeAttribute, 0x10>, "Size mismatch!");
 
-} // namespace System::Diagnostics
+} // namespace end def System::Diagnostics
 NEED_NO_BOX(::System::Diagnostics::DebuggerNonUserCodeAttribute);
 DEFINE_IL2CPP_ARG_TYPE(::System::Diagnostics::DebuggerNonUserCodeAttribute*, "System.Diagnostics", "DebuggerNonUserCodeAttribute");

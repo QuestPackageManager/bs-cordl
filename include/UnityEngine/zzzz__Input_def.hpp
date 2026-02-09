@@ -41,156 +41,156 @@ namespace UnityEngine {
 // CS Name: UnityEngine.Input
 class CORDL_TYPE Input : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field <simulateTouchEnabled>k__BackingField, offset 0xffffffff, size 0x1
-  __declspec(property(get = getStaticF__simulateTouchEnabled_k__BackingField, put = setStaticF__simulateTouchEnabled_k__BackingField)) bool _simulateTouchEnabled_k__BackingField;
+// Declarations
+/// @brief Field <simulateTouchEnabled>k__BackingField, offset 0xffffffff, size 0x1 
+ __declspec(property(get=getStaticF__simulateTouchEnabled_k__BackingField, put=setStaticF__simulateTouchEnabled_k__BackingField)) bool  _simulateTouchEnabled_k__BackingField;
 
-  /// @brief Method CheckDisabled, addr 0x6996f50, size 0x28, virtual false, abstract: false, final false
-  static inline bool CheckDisabled();
+/// @brief Method CheckDisabled, addr 0x6997610, size 0x28, virtual false, abstract: false, final false
+static inline bool CheckDisabled() ;
 
-  /// @brief Method ClearLastPenContactEvent, addr 0x6996828, size 0x28, virtual false, abstract: false, final false
-  static inline void ClearLastPenContactEvent();
+/// @brief Method ClearLastPenContactEvent, addr 0x6996ee8, size 0x28, virtual false, abstract: false, final false
+static inline void ClearLastPenContactEvent() ;
 
-  /// @brief Method GetAxis, addr 0x69960ac, size 0x4, virtual false, abstract: false, final false
-  static inline float_t GetAxis(::StringW axisName);
+/// @brief Method GetAxis, addr 0x699676c, size 0x4, virtual false, abstract: false, final false
+static inline float_t GetAxis(::StringW  axisName) ;
 
-  /// @brief Method GetAxisRaw, addr 0x69961d8, size 0x4, virtual false, abstract: false, final false
-  static inline float_t GetAxisRaw(::StringW axisName);
+/// @brief Method GetAxisRaw, addr 0x6996898, size 0x4, virtual false, abstract: false, final false
+static inline float_t GetAxisRaw(::StringW  axisName) ;
 
-  /// @brief Method GetButton, addr 0x6996304, size 0x4, virtual false, abstract: false, final false
-  static inline bool GetButton(::StringW buttonName);
+/// @brief Method GetButton, addr 0x69969c4, size 0x4, virtual false, abstract: false, final false
+static inline bool GetButton(::StringW  buttonName) ;
 
-  /// @brief Method GetButtonDown, addr 0x6996438, size 0x4, virtual false, abstract: false, final false
-  static inline bool GetButtonDown(::StringW buttonName);
+/// @brief Method GetButtonDown, addr 0x6996af8, size 0x4, virtual false, abstract: false, final false
+static inline bool GetButtonDown(::StringW  buttonName) ;
 
-  /// @brief Method GetKey, addr 0x6996850, size 0x3c, virtual false, abstract: false, final false
-  static inline bool GetKey(::UnityEngine::KeyCode key);
+/// @brief Method GetKey, addr 0x6996f10, size 0x3c, virtual false, abstract: false, final false
+static inline bool GetKey(::UnityEngine::KeyCode  key) ;
 
-  /// @brief Method GetKeyDown, addr 0x69968c8, size 0x3c, virtual false, abstract: false, final false
-  static inline bool GetKeyDown(::UnityEngine::KeyCode key);
+/// @brief Method GetKeyDown, addr 0x6996f88, size 0x3c, virtual false, abstract: false, final false
+static inline bool GetKeyDown(::UnityEngine::KeyCode  key) ;
 
-  /// @brief Method GetKeyDownInt, addr 0x69965e4, size 0x3c, virtual false, abstract: false, final false
-  static inline bool GetKeyDownInt(::UnityEngine::KeyCode key);
+/// @brief Method GetKeyDownInt, addr 0x6996ca4, size 0x3c, virtual false, abstract: false, final false
+static inline bool GetKeyDownInt(::UnityEngine::KeyCode  key) ;
 
-  /// @brief Method GetKeyInt, addr 0x699656c, size 0x3c, virtual false, abstract: false, final false
-  static inline bool GetKeyInt(::UnityEngine::KeyCode key);
+/// @brief Method GetKeyInt, addr 0x6996c2c, size 0x3c, virtual false, abstract: false, final false
+static inline bool GetKeyInt(::UnityEngine::KeyCode  key) ;
 
-  /// @brief Method GetKeyUp, addr 0x699688c, size 0x3c, virtual false, abstract: false, final false
-  static inline bool GetKeyUp(::UnityEngine::KeyCode key);
+/// @brief Method GetKeyUp, addr 0x6996f4c, size 0x3c, virtual false, abstract: false, final false
+static inline bool GetKeyUp(::UnityEngine::KeyCode  key) ;
 
-  /// @brief Method GetKeyUpInt, addr 0x69965a8, size 0x3c, virtual false, abstract: false, final false
-  static inline bool GetKeyUpInt(::UnityEngine::KeyCode key);
+/// @brief Method GetKeyUpInt, addr 0x6996c68, size 0x3c, virtual false, abstract: false, final false
+static inline bool GetKeyUpInt(::UnityEngine::KeyCode  key) ;
 
-  /// @brief Method GetLastPenContactEvent, addr 0x6996788, size 0x64, virtual false, abstract: false, final false
-  static inline ::UnityEngine::PenData GetLastPenContactEvent();
+/// @brief Method GetLastPenContactEvent, addr 0x6996e48, size 0x64, virtual false, abstract: false, final false
+static inline ::UnityEngine::PenData GetLastPenContactEvent() ;
 
-  /// @brief Method GetLastPenContactEvent_Injected, addr 0x69967ec, size 0x3c, virtual false, abstract: false, final false
-  static inline void GetLastPenContactEvent_Injected(::ByRef<::UnityEngine::PenData> ret);
+/// @brief Method GetLastPenContactEvent_Injected, addr 0x6996eac, size 0x3c, virtual false, abstract: false, final false
+static inline void GetLastPenContactEvent_Injected(::ByRef<::UnityEngine::PenData>  ret) ;
 
-  /// @brief Method GetMouseButton, addr 0x6996620, size 0x3c, virtual false, abstract: false, final false
-  static inline bool GetMouseButton(int32_t button);
+/// @brief Method GetMouseButton, addr 0x6996ce0, size 0x3c, virtual false, abstract: false, final false
+static inline bool GetMouseButton(int32_t  button) ;
 
-  /// @brief Method GetMouseButtonDown, addr 0x699665c, size 0x3c, virtual false, abstract: false, final false
-  static inline bool GetMouseButtonDown(int32_t button);
+/// @brief Method GetMouseButtonDown, addr 0x6996d1c, size 0x3c, virtual false, abstract: false, final false
+static inline bool GetMouseButtonDown(int32_t  button) ;
 
-  /// @brief Method GetMouseButtonUp, addr 0x6996698, size 0x3c, virtual false, abstract: false, final false
-  static inline bool GetMouseButtonUp(int32_t button);
+/// @brief Method GetMouseButtonUp, addr 0x6996d58, size 0x3c, virtual false, abstract: false, final false
+static inline bool GetMouseButtonUp(int32_t  button) ;
 
-  /// @brief Method GetMousePresentInternal, addr 0x6996de0, size 0x28, virtual false, abstract: false, final false
-  static inline bool GetMousePresentInternal();
+/// @brief Method GetMousePresentInternal, addr 0x69974a0, size 0x28, virtual false, abstract: false, final false
+static inline bool GetMousePresentInternal() ;
 
-  /// @brief Method GetTouch, addr 0x69966d4, size 0x70, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Touch GetTouch(int32_t index);
+/// @brief Method GetTouch, addr 0x6996d94, size 0x70, virtual false, abstract: false, final false
+static inline ::UnityEngine::Touch GetTouch(int32_t  index) ;
 
-  /// @brief Method GetTouchSupportedInternal, addr 0x6996e08, size 0x28, virtual false, abstract: false, final false
-  static inline bool GetTouchSupportedInternal();
+/// @brief Method GetTouchSupportedInternal, addr 0x69974c8, size 0x28, virtual false, abstract: false, final false
+static inline bool GetTouchSupportedInternal() ;
 
-  /// @brief Method GetTouch_Injected, addr 0x6996744, size 0x44, virtual false, abstract: false, final false
-  static inline void GetTouch_Injected(int32_t index, ::ByRef<::UnityEngine::Touch> ret);
+/// @brief Method GetTouch_Injected, addr 0x6996e04, size 0x44, virtual false, abstract: false, final false
+static inline void GetTouch_Injected(int32_t  index, ::ByRef<::UnityEngine::Touch>  ret) ;
 
-  static inline bool getStaticF__simulateTouchEnabled_k__BackingField();
+static inline bool getStaticF__simulateTouchEnabled_k__BackingField() ;
 
-  /// @brief Method get_anyKey, addr 0x6996904, size 0x28, virtual false, abstract: false, final false
-  static inline bool get_anyKey();
+/// @brief Method get_anyKey, addr 0x6996fc4, size 0x28, virtual false, abstract: false, final false
+static inline bool get_anyKey() ;
 
-  /// @brief Method get_compositionCursorPos, addr 0x6996c98, size 0x44, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Vector2 get_compositionCursorPos();
+/// @brief Method get_compositionCursorPos, addr 0x6997358, size 0x44, virtual false, abstract: false, final false
+static inline ::UnityEngine::Vector2 get_compositionCursorPos() ;
 
-  /// @brief Method get_compositionCursorPos_Injected, addr 0x6996cdc, size 0x3c, virtual false, abstract: false, final false
-  static inline void get_compositionCursorPos_Injected(::ByRef<::UnityEngine::Vector2> ret);
+/// @brief Method get_compositionCursorPos_Injected, addr 0x699739c, size 0x3c, virtual false, abstract: false, final false
+static inline void get_compositionCursorPos_Injected(::ByRef<::UnityEngine::Vector2>  ret) ;
 
-  /// @brief Method get_compositionString, addr 0x6996b98, size 0xc4, virtual false, abstract: false, final false
-  static inline ::StringW get_compositionString();
+/// @brief Method get_compositionString, addr 0x6997258, size 0xc4, virtual false, abstract: false, final false
+static inline ::StringW get_compositionString() ;
 
-  /// @brief Method get_compositionString_Injected, addr 0x6996c5c, size 0x3c, virtual false, abstract: false, final false
-  static inline void get_compositionString_Injected(::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> ret);
+/// @brief Method get_compositionString_Injected, addr 0x699731c, size 0x3c, virtual false, abstract: false, final false
+static inline void get_compositionString_Injected(::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>  ret) ;
 
-  /// @brief Method get_imeCompositionMode, addr 0x6996b34, size 0x28, virtual false, abstract: false, final false
-  static inline ::UnityEngine::IMECompositionMode get_imeCompositionMode();
+/// @brief Method get_imeCompositionMode, addr 0x69971f4, size 0x28, virtual false, abstract: false, final false
+static inline ::UnityEngine::IMECompositionMode get_imeCompositionMode() ;
 
-  /// @brief Method get_inputString, addr 0x699692c, size 0xc4, virtual false, abstract: false, final false
-  static inline ::StringW get_inputString();
+/// @brief Method get_inputString, addr 0x6996fec, size 0xc4, virtual false, abstract: false, final false
+static inline ::StringW get_inputString() ;
 
-  /// @brief Method get_inputString_Injected, addr 0x69969f0, size 0x3c, virtual false, abstract: false, final false
-  static inline void get_inputString_Injected(::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> ret);
+/// @brief Method get_inputString_Injected, addr 0x69970b0, size 0x3c, virtual false, abstract: false, final false
+static inline void get_inputString_Injected(::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>  ret) ;
 
-  /// @brief Method get_mousePosition, addr 0x6996a2c, size 0x4c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Vector3 get_mousePosition();
+/// @brief Method get_mousePosition, addr 0x69970ec, size 0x4c, virtual false, abstract: false, final false
+static inline ::UnityEngine::Vector3 get_mousePosition() ;
 
-  /// @brief Method get_mousePosition_Injected, addr 0x6996a78, size 0x3c, virtual false, abstract: false, final false
-  static inline void get_mousePosition_Injected(::ByRef<::UnityEngine::Vector3> ret);
+/// @brief Method get_mousePosition_Injected, addr 0x6997138, size 0x3c, virtual false, abstract: false, final false
+static inline void get_mousePosition_Injected(::ByRef<::UnityEngine::Vector3>  ret) ;
 
-  /// @brief Method get_mousePresent, addr 0x6996e30, size 0x7c, virtual false, abstract: false, final false
-  static inline bool get_mousePresent();
+/// @brief Method get_mousePresent, addr 0x69974f0, size 0x7c, virtual false, abstract: false, final false
+static inline bool get_mousePresent() ;
 
-  /// @brief Method get_mouseScrollDelta, addr 0x6996ab4, size 0x44, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Vector2 get_mouseScrollDelta();
+/// @brief Method get_mouseScrollDelta, addr 0x6997174, size 0x44, virtual false, abstract: false, final false
+static inline ::UnityEngine::Vector2 get_mouseScrollDelta() ;
 
-  /// @brief Method get_mouseScrollDelta_Injected, addr 0x6996af8, size 0x3c, virtual false, abstract: false, final false
-  static inline void get_mouseScrollDelta_Injected(::ByRef<::UnityEngine::Vector2> ret);
+/// @brief Method get_mouseScrollDelta_Injected, addr 0x69971b8, size 0x3c, virtual false, abstract: false, final false
+static inline void get_mouseScrollDelta_Injected(::ByRef<::UnityEngine::Vector2>  ret) ;
 
-  /// @brief Method get_simulateTouchEnabled, addr 0x6996d94, size 0x4c, virtual false, abstract: false, final false
-  static inline bool get_simulateTouchEnabled();
+/// @brief Method get_simulateTouchEnabled, addr 0x6997454, size 0x4c, virtual false, abstract: false, final false
+static inline bool get_simulateTouchEnabled() ;
 
-  /// @brief Method get_touchCount, addr 0x6996f28, size 0x28, virtual false, abstract: false, final false
-  static inline int32_t get_touchCount();
+/// @brief Method get_touchCount, addr 0x69975e8, size 0x28, virtual false, abstract: false, final false
+static inline int32_t get_touchCount() ;
 
-  /// @brief Method get_touchSupported, addr 0x6996eac, size 0x7c, virtual false, abstract: false, final false
-  static inline bool get_touchSupported();
+/// @brief Method get_touchSupported, addr 0x699756c, size 0x7c, virtual false, abstract: false, final false
+static inline bool get_touchSupported() ;
 
-  static inline void setStaticF__simulateTouchEnabled_k__BackingField(bool value);
+static inline void setStaticF__simulateTouchEnabled_k__BackingField(bool  value) ;
 
-  /// @brief Method set_compositionCursorPos, addr 0x6996d18, size 0x40, virtual false, abstract: false, final false
-  static inline void set_compositionCursorPos(::UnityEngine::Vector2 value);
+/// @brief Method set_compositionCursorPos, addr 0x69973d8, size 0x40, virtual false, abstract: false, final false
+static inline void set_compositionCursorPos(::UnityEngine::Vector2  value) ;
 
-  /// @brief Method set_compositionCursorPos_Injected, addr 0x6996d58, size 0x3c, virtual false, abstract: false, final false
-  static inline void set_compositionCursorPos_Injected(::ByRef<::UnityEngine::Vector2> value);
+/// @brief Method set_compositionCursorPos_Injected, addr 0x6997418, size 0x3c, virtual false, abstract: false, final false
+static inline void set_compositionCursorPos_Injected(::ByRef<::UnityEngine::Vector2>  value) ;
 
-  /// @brief Method set_imeCompositionMode, addr 0x6996b5c, size 0x3c, virtual false, abstract: false, final false
-  static inline void set_imeCompositionMode(::UnityEngine::IMECompositionMode value);
+/// @brief Method set_imeCompositionMode, addr 0x699721c, size 0x3c, virtual false, abstract: false, final false
+static inline void set_imeCompositionMode(::UnityEngine::IMECompositionMode  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Input();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr Input() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Input", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  Input(Input&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Input", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  Input(Input const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "Input", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+Input(Input && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22411 };
+// Ctor Parameters [CppParam { name: "", ty: "Input", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+Input(Input const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{22415};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Input, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine
+} // namespace end def UnityEngine
 NEED_NO_BOX(::UnityEngine::Input);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Input*, "UnityEngine", "Input");

@@ -27,81 +27,81 @@ namespace System {
 // CS Name: System.ArgumentException
 class CORDL_TYPE ArgumentException : public ::System::SystemException {
 public:
-  // Declarations
-  __declspec(property(get = get_Message)) ::StringW Message;
+// Declarations
+ __declspec(property(get=get_Message)) ::StringW  Message;
 
-  /// @brief Field _paramName, offset 0x90, size 0x8
-  __declspec(property(get = __cordl_internal_get__paramName, put = __cordl_internal_set__paramName)) ::StringW _paramName;
+/// @brief Field _paramName, offset 0x90, size 0x8 
+ __declspec(property(get=__cordl_internal_get__paramName, put=__cordl_internal_set__paramName)) ::StringW  _paramName;
 
-  /// @brief Method GetObjectData, addr 0x59fe8b8, size 0xc0, virtual true, abstract: false, final false
-  inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
+/// @brief Method GetObjectData, addr 0x59fedc4, size 0xc0, virtual true, abstract: false, final false
+inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context) ;
 
-  static inline ::System::ArgumentException* New_ctor();
+static inline ::System::ArgumentException* New_ctor() ;
 
-  static inline ::System::ArgumentException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
+static inline ::System::ArgumentException* New_ctor(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context) ;
 
-  static inline ::System::ArgumentException* New_ctor(::StringW message);
+static inline ::System::ArgumentException* New_ctor(::StringW  message) ;
 
-  static inline ::System::ArgumentException* New_ctor(::StringW message, ::System::Exception* innerException);
+static inline ::System::ArgumentException* New_ctor(::StringW  message, ::System::Exception*  innerException) ;
 
-  static inline ::System::ArgumentException* New_ctor(::StringW message, ::StringW paramName);
+static inline ::System::ArgumentException* New_ctor(::StringW  message, ::StringW  paramName) ;
 
-  static inline ::System::ArgumentException* New_ctor(::StringW message, ::StringW paramName, ::System::Exception* innerException);
+static inline ::System::ArgumentException* New_ctor(::StringW  message, ::StringW  paramName, ::System::Exception*  innerException) ;
 
-  constexpr ::StringW const& __cordl_internal_get__paramName() const;
+constexpr ::StringW const& __cordl_internal_get__paramName() const;
 
-  constexpr ::StringW& __cordl_internal_get__paramName();
+constexpr ::StringW& __cordl_internal_get__paramName() ;
 
-  constexpr void __cordl_internal_set__paramName(::StringW value);
+constexpr void __cordl_internal_set__paramName(::StringW  value) ;
 
-  /// @brief Method .ctor, addr 0x59fe768, size 0x60, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x59fec74, size 0x60, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method .ctor, addr 0x59fe824, size 0x94, virtual false, abstract: false, final false
-  inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
+/// @brief Method .ctor, addr 0x59fed30, size 0x94, virtual false, abstract: false, final false
+inline void _ctor(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context) ;
 
-  /// @brief Method .ctor, addr 0x59fd4cc, size 0x24, virtual false, abstract: false, final false
-  inline void _ctor(::StringW message);
+/// @brief Method .ctor, addr 0x59fd9d8, size 0x24, virtual false, abstract: false, final false
+inline void _ctor(::StringW  message) ;
 
-  /// @brief Method .ctor, addr 0x59fe7c8, size 0x24, virtual false, abstract: false, final false
-  inline void _ctor(::StringW message, ::System::Exception* innerException);
+/// @brief Method .ctor, addr 0x59fecd4, size 0x24, virtual false, abstract: false, final false
+inline void _ctor(::StringW  message, ::System::Exception*  innerException) ;
 
-  /// @brief Method .ctor, addr 0x59f6dc0, size 0x34, virtual false, abstract: false, final false
-  inline void _ctor(::StringW message, ::StringW paramName);
+/// @brief Method .ctor, addr 0x59f72cc, size 0x34, virtual false, abstract: false, final false
+inline void _ctor(::StringW  message, ::StringW  paramName) ;
 
-  /// @brief Method .ctor, addr 0x59fe7ec, size 0x38, virtual false, abstract: false, final false
-  inline void _ctor(::StringW message, ::StringW paramName, ::System::Exception* innerException);
+/// @brief Method .ctor, addr 0x59fecf8, size 0x38, virtual false, abstract: false, final false
+inline void _ctor(::StringW  message, ::StringW  paramName, ::System::Exception*  innerException) ;
 
-  /// @brief Method get_Message, addr 0x59fe978, size 0x9c, virtual true, abstract: false, final false
-  inline ::StringW get_Message();
+/// @brief Method get_Message, addr 0x59fee84, size 0x9c, virtual true, abstract: false, final false
+inline ::StringW get_Message() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ArgumentException();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ArgumentException() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ArgumentException", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ArgumentException(ArgumentException&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ArgumentException", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ArgumentException(ArgumentException const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ArgumentException", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ArgumentException(ArgumentException && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2346 };
+// Ctor Parameters [CppParam { name: "", ty: "ArgumentException", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ArgumentException(ArgumentException const& ) = delete;
 
-  /// @brief Field _paramName, offset: 0x90, size: 0x8, def value: None
-  ::StringW ____paramName;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{2346};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _paramName, offset: 0x90, size: 0x8, def value: None
+ ::StringW  ____paramName;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::ArgumentException, ____paramName) == 0x90, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::System::ArgumentException, 0x98>, "Size mismatch!");
 
-} // namespace System
+} // namespace end def System
 NEED_NO_BOX(::System::ArgumentException);
 DEFINE_IL2CPP_ARG_TYPE(::System::ArgumentException*, "System", "ArgumentException");

@@ -26,123 +26,121 @@ namespace System::Data {
 // CS Name: System.Data.Function
 class CORDL_TYPE Function : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field _argumentCount, offset 0x2c, size 0x4
-  __declspec(property(get = __cordl_internal_get__argumentCount, put = __cordl_internal_set__argumentCount)) int32_t _argumentCount;
+// Declarations
+/// @brief Field _argumentCount, offset 0x2c, size 0x4 
+ __declspec(property(get=__cordl_internal_get__argumentCount, put=__cordl_internal_set__argumentCount)) int32_t  _argumentCount;
 
-  /// @brief Field _id, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get__id, put = __cordl_internal_set__id)) ::System::Data::FunctionId _id;
+/// @brief Field _id, offset 0x18, size 0x4 
+ __declspec(property(get=__cordl_internal_get__id, put=__cordl_internal_set__id)) ::System::Data::FunctionId  _id;
 
-  /// @brief Field _isValidateArguments, offset 0x28, size 0x1
-  __declspec(property(get = __cordl_internal_get__isValidateArguments, put = __cordl_internal_set__isValidateArguments)) bool _isValidateArguments;
+/// @brief Field _isValidateArguments, offset 0x28, size 0x1 
+ __declspec(property(get=__cordl_internal_get__isValidateArguments, put=__cordl_internal_set__isValidateArguments)) bool  _isValidateArguments;
 
-  /// @brief Field _isVariantArgumentList, offset 0x29, size 0x1
-  __declspec(property(get = __cordl_internal_get__isVariantArgumentList, put = __cordl_internal_set__isVariantArgumentList)) bool _isVariantArgumentList;
+/// @brief Field _isVariantArgumentList, offset 0x29, size 0x1 
+ __declspec(property(get=__cordl_internal_get__isVariantArgumentList, put=__cordl_internal_set__isVariantArgumentList)) bool  _isVariantArgumentList;
 
-  /// @brief Field _name, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__name, put = __cordl_internal_set__name)) ::StringW _name;
+/// @brief Field _name, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get__name, put=__cordl_internal_set__name)) ::StringW  _name;
 
-  /// @brief Field _parameters, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__parameters, put = __cordl_internal_set__parameters)) ::ArrayW<::System::Type*, ::Array<::System::Type*>*> _parameters;
+/// @brief Field _parameters, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get__parameters, put=__cordl_internal_set__parameters)) ::ArrayW<::System::Type*,::Array<::System::Type*>*>  _parameters;
 
-  /// @brief Field _result, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__result, put = __cordl_internal_set__result)) ::System::Type* _result;
+/// @brief Field _result, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get__result, put=__cordl_internal_set__result)) ::System::Type*  _result;
 
-  /// @brief Field s_functionName, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_s_functionName, put = setStaticF_s_functionName)) ::ArrayW<::StringW, ::Array<::StringW>*> s_functionName;
+/// @brief Field s_functionName, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_s_functionName, put=setStaticF_s_functionName)) ::ArrayW<::StringW,::Array<::StringW>*>  s_functionName;
 
-  static inline ::System::Data::Function* New_ctor(::StringW name, ::System::Data::FunctionId id, ::System::Type* result, bool IsValidateArguments, bool IsVariantArgumentList, int32_t argumentCount,
-                                                   ::System::Type* a1, ::System::Type* a2, ::System::Type* a3);
+static inline ::System::Data::Function* New_ctor(::StringW  name, ::System::Data::FunctionId  id, ::System::Type*  result, bool  IsValidateArguments, bool  IsVariantArgumentList, int32_t  argumentCount, ::System::Type*  a1, ::System::Type*  a2, ::System::Type*  a3) ;
 
-  constexpr int32_t const& __cordl_internal_get__argumentCount() const;
+constexpr int32_t const& __cordl_internal_get__argumentCount() const;
 
-  constexpr int32_t& __cordl_internal_get__argumentCount();
+constexpr int32_t& __cordl_internal_get__argumentCount() ;
 
-  constexpr ::System::Data::FunctionId const& __cordl_internal_get__id() const;
+constexpr ::System::Data::FunctionId const& __cordl_internal_get__id() const;
 
-  constexpr ::System::Data::FunctionId& __cordl_internal_get__id();
+constexpr ::System::Data::FunctionId& __cordl_internal_get__id() ;
 
-  constexpr bool const& __cordl_internal_get__isValidateArguments() const;
+constexpr bool const& __cordl_internal_get__isValidateArguments() const;
 
-  constexpr bool& __cordl_internal_get__isValidateArguments();
+constexpr bool& __cordl_internal_get__isValidateArguments() ;
 
-  constexpr bool const& __cordl_internal_get__isVariantArgumentList() const;
+constexpr bool const& __cordl_internal_get__isVariantArgumentList() const;
 
-  constexpr bool& __cordl_internal_get__isVariantArgumentList();
+constexpr bool& __cordl_internal_get__isVariantArgumentList() ;
 
-  constexpr ::StringW const& __cordl_internal_get__name() const;
+constexpr ::StringW const& __cordl_internal_get__name() const;
 
-  constexpr ::StringW& __cordl_internal_get__name();
+constexpr ::StringW& __cordl_internal_get__name() ;
 
-  constexpr ::ArrayW<::System::Type*, ::Array<::System::Type*>*> const& __cordl_internal_get__parameters() const;
+constexpr ::ArrayW<::System::Type*,::Array<::System::Type*>*> const& __cordl_internal_get__parameters() const;
 
-  constexpr ::ArrayW<::System::Type*, ::Array<::System::Type*>*>& __cordl_internal_get__parameters();
+constexpr ::ArrayW<::System::Type*,::Array<::System::Type*>*>& __cordl_internal_get__parameters() ;
 
-  constexpr ::System::Type* const& __cordl_internal_get__result() const;
+constexpr ::System::Type* const& __cordl_internal_get__result() const;
 
-  constexpr ::System::Type*& __cordl_internal_get__result();
+constexpr ::System::Type*& __cordl_internal_get__result() ;
 
-  constexpr void __cordl_internal_set__argumentCount(int32_t value);
+constexpr void __cordl_internal_set__argumentCount(int32_t  value) ;
 
-  constexpr void __cordl_internal_set__id(::System::Data::FunctionId value);
+constexpr void __cordl_internal_set__id(::System::Data::FunctionId  value) ;
 
-  constexpr void __cordl_internal_set__isValidateArguments(bool value);
+constexpr void __cordl_internal_set__isValidateArguments(bool  value) ;
 
-  constexpr void __cordl_internal_set__isVariantArgumentList(bool value);
+constexpr void __cordl_internal_set__isVariantArgumentList(bool  value) ;
 
-  constexpr void __cordl_internal_set__name(::StringW value);
+constexpr void __cordl_internal_set__name(::StringW  value) ;
 
-  constexpr void __cordl_internal_set__parameters(::ArrayW<::System::Type*, ::Array<::System::Type*>*> value);
+constexpr void __cordl_internal_set__parameters(::ArrayW<::System::Type*,::Array<::System::Type*>*>  value) ;
 
-  constexpr void __cordl_internal_set__result(::System::Type* value);
+constexpr void __cordl_internal_set__result(::System::Type*  value) ;
 
-  /// @brief Method .ctor, addr 0x5e64fc0, size 0x19c, virtual false, abstract: false, final false
-  inline void _ctor(::StringW name, ::System::Data::FunctionId id, ::System::Type* result, bool IsValidateArguments, bool IsVariantArgumentList, int32_t argumentCount, ::System::Type* a1,
-                    ::System::Type* a2, ::System::Type* a3);
+/// @brief Method .ctor, addr 0x5e65680, size 0x19c, virtual false, abstract: false, final false
+inline void _ctor(::StringW  name, ::System::Data::FunctionId  id, ::System::Type*  result, bool  IsValidateArguments, bool  IsVariantArgumentList, int32_t  argumentCount, ::System::Type*  a1, ::System::Type*  a2, ::System::Type*  a3) ;
 
-  static inline ::ArrayW<::StringW, ::Array<::StringW>*> getStaticF_s_functionName();
+static inline ::ArrayW<::StringW,::Array<::StringW>*> getStaticF_s_functionName() ;
 
-  static inline void setStaticF_s_functionName(::ArrayW<::StringW, ::Array<::StringW>*> value);
+static inline void setStaticF_s_functionName(::ArrayW<::StringW,::Array<::StringW>*>  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Function();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr Function() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Function", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  Function(Function&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Function", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  Function(Function const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "Function", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+Function(Function && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13721 };
+// Ctor Parameters [CppParam { name: "", ty: "Function", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+Function(Function const& ) = delete;
 
-  /// @brief Field _name, offset: 0x10, size: 0x8, def value: None
-  ::StringW ____name;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{13725};
 
-  /// @brief Field _id, offset: 0x18, size: 0x4, def value: None
-  ::System::Data::FunctionId ____id;
+/// @brief Field _name, offset: 0x10, size: 0x8, def value: None
+ ::StringW  ____name;
 
-  /// @brief Field _result, offset: 0x20, size: 0x8, def value: None
-  ::System::Type* ____result;
+/// @brief Field _id, offset: 0x18, size: 0x4, def value: None
+ ::System::Data::FunctionId  ____id;
 
-  /// @brief Field _isValidateArguments, offset: 0x28, size: 0x1, def value: None
-  bool ____isValidateArguments;
+/// @brief Field _result, offset: 0x20, size: 0x8, def value: None
+ ::System::Type*  ____result;
 
-  /// @brief Field _isVariantArgumentList, offset: 0x29, size: 0x1, def value: None
-  bool ____isVariantArgumentList;
+/// @brief Field _isValidateArguments, offset: 0x28, size: 0x1, def value: None
+ bool  ____isValidateArguments;
 
-  /// @brief Field _argumentCount, offset: 0x2c, size: 0x4, def value: None
-  int32_t ____argumentCount;
+/// @brief Field _isVariantArgumentList, offset: 0x29, size: 0x1, def value: None
+ bool  ____isVariantArgumentList;
 
-  /// @brief Field _parameters, offset: 0x30, size: 0x8, def value: None
-  ::ArrayW<::System::Type*, ::Array<::System::Type*>*> ____parameters;
+/// @brief Field _argumentCount, offset: 0x2c, size: 0x4, def value: None
+ int32_t  ____argumentCount;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _parameters, offset: 0x30, size: 0x8, def value: None
+ ::ArrayW<::System::Type*,::Array<::System::Type*>*>  ____parameters;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Data::Function, ____name) == 0x10, "Offset mismatch!");
@@ -161,6 +159,6 @@ static_assert(offsetof(::System::Data::Function, ____parameters) == 0x30, "Offse
 
 static_assert(::cordl_internals::size_check_v<::System::Data::Function, 0x38>, "Size mismatch!");
 
-} // namespace System::Data
+} // namespace end def System::Data
 NEED_NO_BOX(::System::Data::Function);
 DEFINE_IL2CPP_ARG_TYPE(::System::Data::Function*, "System.Data", "Function");

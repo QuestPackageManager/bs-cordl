@@ -30,75 +30,75 @@ namespace Org::BouncyCastle::Asn1::IsisMtt::Ocsp {
 // CS Name: Org.BouncyCastle.Asn1.IsisMtt.Ocsp.CertHash
 class CORDL_TYPE CertHash : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
-  // Declarations
-  __declspec(property(get = get_CertificateHash)) ::ArrayW<uint8_t, ::Array<uint8_t>*> CertificateHash;
+// Declarations
+ __declspec(property(get=get_CertificateHash)) ::ArrayW<uint8_t,::Array<uint8_t>*>  CertificateHash;
 
-  __declspec(property(get = get_HashAlgorithm)) ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* HashAlgorithm;
+ __declspec(property(get=get_HashAlgorithm)) ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*  HashAlgorithm;
 
-  /// @brief Field certificateHash, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_certificateHash, put = __cordl_internal_set_certificateHash)) ::ArrayW<uint8_t, ::Array<uint8_t>*> certificateHash;
+/// @brief Field certificateHash, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_certificateHash, put=__cordl_internal_set_certificateHash)) ::ArrayW<uint8_t,::Array<uint8_t>*>  certificateHash;
 
-  /// @brief Field hashAlgorithm, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_hashAlgorithm, put = __cordl_internal_set_hashAlgorithm)) ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* hashAlgorithm;
+/// @brief Field hashAlgorithm, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_hashAlgorithm, put=__cordl_internal_set_hashAlgorithm)) ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*  hashAlgorithm;
 
-  /// @brief Method GetInstance, addr 0x3354800, size 0x184, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::CertHash* GetInstance(::System::Object* obj);
+/// @brief Method GetInstance, addr 0x3354750, size 0x184, virtual false, abstract: false, final false
+static inline ::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::CertHash* GetInstance(::System::Object*  obj) ;
 
-  static inline ::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::CertHash* New_ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* hashAlgorithm, ::ArrayW<uint8_t, ::Array<uint8_t>*> certificateHash);
+static inline ::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::CertHash* New_ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*  hashAlgorithm, ::ArrayW<uint8_t,::Array<uint8_t>*>  certificateHash) ;
 
-  static inline ::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::CertHash* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
+static inline ::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::CertHash* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence*  seq) ;
 
-  /// @brief Method ToAsn1Object, addr 0x3354c20, size 0x11c, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
+/// @brief Method ToAsn1Object, addr 0x3354b70, size 0x11c, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object() ;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_certificateHash() const;
+constexpr ::ArrayW<uint8_t,::Array<uint8_t>*> const& __cordl_internal_get_certificateHash() const;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_certificateHash();
+constexpr ::ArrayW<uint8_t,::Array<uint8_t>*>& __cordl_internal_get_certificateHash() ;
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* const& __cordl_internal_get_hashAlgorithm() const;
+constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* const& __cordl_internal_get_hashAlgorithm() const;
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __cordl_internal_get_hashAlgorithm();
+constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __cordl_internal_get_hashAlgorithm() ;
 
-  constexpr void __cordl_internal_set_certificateHash(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+constexpr void __cordl_internal_set_certificateHash(::ArrayW<uint8_t,::Array<uint8_t>*>  value) ;
 
-  constexpr void __cordl_internal_set_hashAlgorithm(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
+constexpr void __cordl_internal_set_hashAlgorithm(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*  value) ;
 
-  /// @brief Method .ctor, addr 0x3354a90, size 0x110, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* hashAlgorithm, ::ArrayW<uint8_t, ::Array<uint8_t>*> certificateHash);
+/// @brief Method .ctor, addr 0x33549e0, size 0x110, virtual false, abstract: false, final false
+inline void _ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*  hashAlgorithm, ::ArrayW<uint8_t,::Array<uint8_t>*>  certificateHash) ;
 
-  /// @brief Method .ctor, addr 0x3354984, size 0x10c, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
+/// @brief Method .ctor, addr 0x33548d4, size 0x10c, virtual false, abstract: false, final false
+inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence*  seq) ;
 
-  /// @brief Method get_CertificateHash, addr 0x3354ba8, size 0x78, virtual false, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_CertificateHash();
+/// @brief Method get_CertificateHash, addr 0x3354af8, size 0x78, virtual false, abstract: false, final false
+inline ::ArrayW<uint8_t,::Array<uint8_t>*> get_CertificateHash() ;
 
-  /// @brief Method get_HashAlgorithm, addr 0x3354ba0, size 0x8, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_HashAlgorithm();
+/// @brief Method get_HashAlgorithm, addr 0x3354af0, size 0x8, virtual false, abstract: false, final false
+inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_HashAlgorithm() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CertHash();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr CertHash() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CertHash", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  CertHash(CertHash&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CertHash", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  CertHash(CertHash const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "CertHash", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+CertHash(CertHash && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 179 };
+// Ctor Parameters [CppParam { name: "", ty: "CertHash", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+CertHash(CertHash const& ) = delete;
 
-  /// @brief Field hashAlgorithm, offset: 0x10, size: 0x8, def value: None
-  ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* ___hashAlgorithm;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{179};
 
-  /// @brief Field certificateHash, offset: 0x18, size: 0x8, def value: None
-  ::ArrayW<uint8_t, ::Array<uint8_t>*> ___certificateHash;
+/// @brief Field hashAlgorithm, offset: 0x10, size: 0x8, def value: None
+ ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*  ___hashAlgorithm;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field certificateHash, offset: 0x18, size: 0x8, def value: None
+ ::ArrayW<uint8_t,::Array<uint8_t>*>  ___certificateHash;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::CertHash, ___hashAlgorithm) == 0x10, "Offset mismatch!");
@@ -107,6 +107,6 @@ static_assert(offsetof(::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::CertHash, ___ce
 
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::CertHash, 0x20>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Asn1::IsisMtt::Ocsp
+} // namespace end def Org::BouncyCastle::Asn1::IsisMtt::Ocsp
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::CertHash);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::IsisMtt::Ocsp::CertHash*, "Org.BouncyCastle.Asn1.IsisMtt.Ocsp", "CertHash");

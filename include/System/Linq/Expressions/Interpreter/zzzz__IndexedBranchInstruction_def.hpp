@@ -8,7 +8,8 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(IndexedBranchInstruction)
 namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
+template<typename T>
+class IReadOnlyList_1;
 }
 namespace System::Linq::Expressions::Interpreter {
 class InterpretedFrame;
@@ -17,7 +18,8 @@ namespace System::Linq::Expressions::Interpreter {
 struct RuntimeLabel;
 }
 namespace System {
-template <typename T, typename TResult> class Func_2;
+template<typename T,typename TResult>
+class Func_2;
 }
 namespace System {
 class Object;
@@ -34,58 +36,57 @@ namespace System::Linq::Expressions::Interpreter {
 // CS Name: System.Linq.Expressions.Interpreter.IndexedBranchInstruction
 class CORDL_TYPE IndexedBranchInstruction : public ::System::Linq::Expressions::Interpreter::Instruction {
 public:
-  // Declarations
-  /// @brief Field _labelIndex, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get__labelIndex, put = __cordl_internal_set__labelIndex)) int32_t _labelIndex;
+// Declarations
+/// @brief Field _labelIndex, offset 0x10, size 0x4 
+ __declspec(property(get=__cordl_internal_get__labelIndex, put=__cordl_internal_set__labelIndex)) int32_t  _labelIndex;
 
-  /// @brief Method GetLabel, addr 0x5ddaf0c, size 0x48, virtual false, abstract: false, final false
-  inline ::System::Linq::Expressions::Interpreter::RuntimeLabel GetLabel(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
+/// @brief Method GetLabel, addr 0x5ddb5cc, size 0x48, virtual false, abstract: false, final false
+inline ::System::Linq::Expressions::Interpreter::RuntimeLabel GetLabel(::System::Linq::Expressions::Interpreter::InterpretedFrame*  frame) ;
 
-  static inline ::System::Linq::Expressions::Interpreter::IndexedBranchInstruction* New_ctor(int32_t labelIndex);
+static inline ::System::Linq::Expressions::Interpreter::IndexedBranchInstruction* New_ctor(int32_t  labelIndex) ;
 
-  /// @brief Method ToDebugString, addr 0x5ddaf54, size 0xe0, virtual true, abstract: false, final false
-  inline ::StringW ToDebugString(int32_t instructionIndex, ::System::Object* cookie, ::System::Func_2<int32_t, int32_t>* labelIndexer,
-                                 ::System::Collections::Generic::IReadOnlyList_1<::System::Object*>* objects);
+/// @brief Method ToDebugString, addr 0x5ddb614, size 0xe0, virtual true, abstract: false, final false
+inline ::StringW ToDebugString(int32_t  instructionIndex, ::System::Object*  cookie, ::System::Func_2<int32_t,int32_t>*  labelIndexer, ::System::Collections::Generic::IReadOnlyList_1<::System::Object*>*  objects) ;
 
-  /// @brief Method ToString, addr 0x5ddb034, size 0x94, virtual true, abstract: false, final false
-  inline ::StringW ToString();
+/// @brief Method ToString, addr 0x5ddb6f4, size 0x94, virtual true, abstract: false, final false
+inline ::StringW ToString() ;
 
-  constexpr int32_t const& __cordl_internal_get__labelIndex() const;
+constexpr int32_t const& __cordl_internal_get__labelIndex() const;
 
-  constexpr int32_t& __cordl_internal_get__labelIndex();
+constexpr int32_t& __cordl_internal_get__labelIndex() ;
 
-  constexpr void __cordl_internal_set__labelIndex(int32_t value);
+constexpr void __cordl_internal_set__labelIndex(int32_t  value) ;
 
-  /// @brief Method .ctor, addr 0x5ddaf04, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(int32_t labelIndex);
+/// @brief Method .ctor, addr 0x5ddb5c4, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(int32_t  labelIndex) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr IndexedBranchInstruction();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr IndexedBranchInstruction() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IndexedBranchInstruction", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IndexedBranchInstruction(IndexedBranchInstruction&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IndexedBranchInstruction", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  IndexedBranchInstruction(IndexedBranchInstruction const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "IndexedBranchInstruction", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+IndexedBranchInstruction(IndexedBranchInstruction && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16247 };
+// Ctor Parameters [CppParam { name: "", ty: "IndexedBranchInstruction", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+IndexedBranchInstruction(IndexedBranchInstruction const& ) = delete;
 
-  /// @brief Field _labelIndex, offset: 0x10, size: 0x4, def value: None
-  int32_t ____labelIndex;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{16251};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _labelIndex, offset: 0x10, size: 0x4, def value: None
+ int32_t  ____labelIndex;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Linq::Expressions::Interpreter::IndexedBranchInstruction, ____labelIndex) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Interpreter::IndexedBranchInstruction, 0x18>, "Size mismatch!");
 
-} // namespace System::Linq::Expressions::Interpreter
+} // namespace end def System::Linq::Expressions::Interpreter
 NEED_NO_BOX(::System::Linq::Expressions::Interpreter::IndexedBranchInstruction);
 DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::Interpreter::IndexedBranchInstruction*, "System.Linq.Expressions.Interpreter", "IndexedBranchInstruction");

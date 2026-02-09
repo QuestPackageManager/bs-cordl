@@ -18,70 +18,70 @@ namespace JetBrains::Annotations {
 // CS Name: JetBrains.Annotations.RazorInjectionAttribute
 class CORDL_TYPE RazorInjectionAttribute : public ::System::Attribute {
 public:
-  // Declarations
-  __declspec(property(get = get_FieldName, put = set_FieldName)) ::StringW FieldName;
+// Declarations
+ __declspec(property(get=get_FieldName, put=set_FieldName)) ::StringW  FieldName;
 
-  __declspec(property(get = get_Type, put = set_Type)) ::StringW Type;
+ __declspec(property(get=get_Type, put=set_Type)) ::StringW  Type;
 
-  /// @brief Field <FieldName>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__FieldName_k__BackingField, put = __cordl_internal_set__FieldName_k__BackingField)) ::StringW _FieldName_k__BackingField;
+/// @brief Field <FieldName>k__BackingField, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get__FieldName_k__BackingField, put=__cordl_internal_set__FieldName_k__BackingField)) ::StringW  _FieldName_k__BackingField;
 
-  /// @brief Field <Type>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__Type_k__BackingField, put = __cordl_internal_set__Type_k__BackingField)) ::StringW _Type_k__BackingField;
+/// @brief Field <Type>k__BackingField, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get__Type_k__BackingField, put=__cordl_internal_set__Type_k__BackingField)) ::StringW  _Type_k__BackingField;
 
-  static inline ::JetBrains::Annotations::RazorInjectionAttribute* New_ctor(::StringW type, ::StringW fieldName);
+static inline ::JetBrains::Annotations::RazorInjectionAttribute* New_ctor(::StringW  type, ::StringW  fieldName) ;
 
-  constexpr ::StringW const& __cordl_internal_get__FieldName_k__BackingField() const;
+constexpr ::StringW const& __cordl_internal_get__FieldName_k__BackingField() const;
 
-  constexpr ::StringW& __cordl_internal_get__FieldName_k__BackingField();
+constexpr ::StringW& __cordl_internal_get__FieldName_k__BackingField() ;
 
-  constexpr ::StringW const& __cordl_internal_get__Type_k__BackingField() const;
+constexpr ::StringW const& __cordl_internal_get__Type_k__BackingField() const;
 
-  constexpr ::StringW& __cordl_internal_get__Type_k__BackingField();
+constexpr ::StringW& __cordl_internal_get__Type_k__BackingField() ;
 
-  constexpr void __cordl_internal_set__FieldName_k__BackingField(::StringW value);
+constexpr void __cordl_internal_set__FieldName_k__BackingField(::StringW  value) ;
 
-  constexpr void __cordl_internal_set__Type_k__BackingField(::StringW value);
+constexpr void __cordl_internal_set__Type_k__BackingField(::StringW  value) ;
 
-  /// @brief Method .ctor, addr 0x6c72574, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::StringW type, ::StringW fieldName);
+/// @brief Method .ctor, addr 0x6c72c34, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(::StringW  type, ::StringW  fieldName) ;
 
-  /// @brief Method get_FieldName, addr 0x6c7258c, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_FieldName();
+/// @brief Method get_FieldName, addr 0x6c72c4c, size 0x8, virtual false, abstract: false, final false
+inline ::StringW get_FieldName() ;
 
-  /// @brief Method get_Type, addr 0x6c7257c, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_Type();
+/// @brief Method get_Type, addr 0x6c72c3c, size 0x8, virtual false, abstract: false, final false
+inline ::StringW get_Type() ;
 
-  /// @brief Method set_FieldName, addr 0x6c72594, size 0x8, virtual false, abstract: false, final false
-  inline void set_FieldName(::StringW value);
+/// @brief Method set_FieldName, addr 0x6c72c54, size 0x8, virtual false, abstract: false, final false
+inline void set_FieldName(::StringW  value) ;
 
-  /// @brief Method set_Type, addr 0x6c72584, size 0x8, virtual false, abstract: false, final false
-  inline void set_Type(::StringW value);
+/// @brief Method set_Type, addr 0x6c72c44, size 0x8, virtual false, abstract: false, final false
+inline void set_Type(::StringW  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RazorInjectionAttribute();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr RazorInjectionAttribute() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RazorInjectionAttribute", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  RazorInjectionAttribute(RazorInjectionAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RazorInjectionAttribute", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  RazorInjectionAttribute(RazorInjectionAttribute const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "RazorInjectionAttribute", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+RazorInjectionAttribute(RazorInjectionAttribute && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22333 };
+// Ctor Parameters [CppParam { name: "", ty: "RazorInjectionAttribute", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+RazorInjectionAttribute(RazorInjectionAttribute const& ) = delete;
 
-  /// @brief Field <Type>k__BackingField, offset: 0x10, size: 0x8, def value: None
-  ::StringW ____Type_k__BackingField;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{22337};
 
-  /// @brief Field <FieldName>k__BackingField, offset: 0x18, size: 0x8, def value: None
-  ::StringW ____FieldName_k__BackingField;
+/// @brief Field <Type>k__BackingField, offset: 0x10, size: 0x8, def value: None
+ ::StringW  ____Type_k__BackingField;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field <FieldName>k__BackingField, offset: 0x18, size: 0x8, def value: None
+ ::StringW  ____FieldName_k__BackingField;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::JetBrains::Annotations::RazorInjectionAttribute, ____Type_k__BackingField) == 0x10, "Offset mismatch!");
@@ -90,6 +90,6 @@ static_assert(offsetof(::JetBrains::Annotations::RazorInjectionAttribute, ____Fi
 
 static_assert(::cordl_internals::size_check_v<::JetBrains::Annotations::RazorInjectionAttribute, 0x20>, "Size mismatch!");
 
-} // namespace JetBrains::Annotations
+} // namespace end def JetBrains::Annotations
 NEED_NO_BOX(::JetBrains::Annotations::RazorInjectionAttribute);
 DEFINE_IL2CPP_ARG_TYPE(::JetBrains::Annotations::RazorInjectionAttribute*, "JetBrains.Annotations", "RazorInjectionAttribute");

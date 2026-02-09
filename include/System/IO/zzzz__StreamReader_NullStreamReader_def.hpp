@@ -25,65 +25,65 @@ namespace GlobalNamespace {
 // CS Name: System.IO.StreamReader/NullStreamReader
 class CORDL_TYPE StreamReader_NullStreamReader : public ::System::IO::StreamReader {
 public:
-  // Declarations
-  __declspec(property(get = get_BaseStream)) ::System::IO::Stream* BaseStream;
+// Declarations
+ __declspec(property(get=get_BaseStream)) ::System::IO::Stream*  BaseStream;
 
-  __declspec(property(get = get_CurrentEncoding)) ::System::Text::Encoding* CurrentEncoding;
+ __declspec(property(get=get_CurrentEncoding)) ::System::Text::Encoding*  CurrentEncoding;
 
-  /// @brief Method Dispose, addr 0x5a4d62c, size 0x4, virtual true, abstract: false, final false
-  inline void Dispose(bool disposing);
+/// @brief Method Dispose, addr 0x5a4db38, size 0x4, virtual true, abstract: false, final false
+inline void Dispose(bool  disposing) ;
 
-  static inline ::GlobalNamespace::StreamReader_NullStreamReader* New_ctor();
+static inline ::GlobalNamespace::StreamReader_NullStreamReader* New_ctor() ;
 
-  /// @brief Method Peek, addr 0x5a4d630, size 0x8, virtual true, abstract: false, final false
-  inline int32_t Peek();
+/// @brief Method Peek, addr 0x5a4db3c, size 0x8, virtual true, abstract: false, final false
+inline int32_t Peek() ;
 
-  /// @brief Method Read, addr 0x5a4d638, size 0x8, virtual true, abstract: false, final false
-  inline int32_t Read();
+/// @brief Method Read, addr 0x5a4db44, size 0x8, virtual true, abstract: false, final false
+inline int32_t Read() ;
 
-  /// @brief Method Read, addr 0x5a4d640, size 0x8, virtual true, abstract: false, final false
-  inline int32_t Read(::ArrayW<char16_t, ::Array<char16_t>*> buffer, int32_t index, int32_t count);
+/// @brief Method Read, addr 0x5a4db4c, size 0x8, virtual true, abstract: false, final false
+inline int32_t Read(::ArrayW<char16_t,::Array<char16_t>*>  buffer, int32_t  index, int32_t  count) ;
 
-  /// @brief Method ReadBuffer, addr 0x5a4d664, size 0x8, virtual true, abstract: false, final false
-  inline int32_t ReadBuffer();
+/// @brief Method ReadBuffer, addr 0x5a4db70, size 0x8, virtual true, abstract: false, final false
+inline int32_t ReadBuffer() ;
 
-  /// @brief Method ReadLine, addr 0x5a4d648, size 0x8, virtual true, abstract: false, final false
-  inline ::StringW ReadLine();
+/// @brief Method ReadLine, addr 0x5a4db54, size 0x8, virtual true, abstract: false, final false
+inline ::StringW ReadLine() ;
 
-  /// @brief Method ReadToEnd, addr 0x5a4d650, size 0x14, virtual true, abstract: false, final false
-  inline ::StringW ReadToEnd();
+/// @brief Method ReadToEnd, addr 0x5a4db5c, size 0x14, virtual true, abstract: false, final false
+inline ::StringW ReadToEnd() ;
 
-  /// @brief Method .ctor, addr 0x5a4d52c, size 0x9c, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5a4da38, size 0x9c, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_BaseStream, addr 0x5a4d5c8, size 0x5c, virtual true, abstract: false, final false
-  inline ::System::IO::Stream* get_BaseStream();
+/// @brief Method get_BaseStream, addr 0x5a4dad4, size 0x5c, virtual true, abstract: false, final false
+inline ::System::IO::Stream* get_BaseStream() ;
 
-  /// @brief Method get_CurrentEncoding, addr 0x5a4d624, size 0x8, virtual true, abstract: false, final false
-  inline ::System::Text::Encoding* get_CurrentEncoding();
+/// @brief Method get_CurrentEncoding, addr 0x5a4db30, size 0x8, virtual true, abstract: false, final false
+inline ::System::Text::Encoding* get_CurrentEncoding() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr StreamReader_NullStreamReader();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr StreamReader_NullStreamReader() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StreamReader_NullStreamReader", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  StreamReader_NullStreamReader(StreamReader_NullStreamReader&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StreamReader_NullStreamReader", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  StreamReader_NullStreamReader(StreamReader_NullStreamReader const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "StreamReader_NullStreamReader", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+StreamReader_NullStreamReader(StreamReader_NullStreamReader && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3854 };
+// Ctor Parameters [CppParam { name: "", ty: "StreamReader_NullStreamReader", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+StreamReader_NullStreamReader(StreamReader_NullStreamReader const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{3854};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::StreamReader_NullStreamReader, 0x60>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::StreamReader_NullStreamReader);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::StreamReader_NullStreamReader*, "System.IO", "StreamReader/NullStreamReader");

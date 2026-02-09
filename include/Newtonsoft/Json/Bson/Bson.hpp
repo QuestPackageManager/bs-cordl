@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "Newtonsoft/Json/Bson/BsonArray.hpp"
 #include "Newtonsoft/Json/Bson/BsonBinary.hpp"
@@ -20,5 +20,6 @@ module;
 #include "Newtonsoft/Json/Bson/BsonValue.hpp"
 #include "Newtonsoft/Json/Bson/BsonWriter.hpp"
 #ifdef __cpp_modules
-export module Bson;
-#endif
+                    export module Bson;
+                    #endif
+                

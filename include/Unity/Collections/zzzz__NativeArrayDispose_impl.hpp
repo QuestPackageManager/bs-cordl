@@ -3,28 +3,36 @@
 #include "Unity/Collections/zzzz__Allocator_impl.hpp"
 #include "Unity/Collections/zzzz__NativeArrayDispose_def.hpp"
 //  Writing Method size for method: ::Unity::Collections::NativeArrayDispose.Dispose
-template <>
+template<>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Collections::NativeArrayDispose::*)()>(&::Unity::Collections::NativeArrayDispose::Dispose)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x6892e28;
+  constexpr static std::size_t addrs = 0x68934e8;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::NativeArrayDispose>::get(), "Dispose",
-                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::NativeArrayDispose>::get(),
+                        "Dispose",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
-inline void Unity::Collections::NativeArrayDispose::Dispose() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::NativeArrayDispose>::get(), "Dispose",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void Unity::Collections::NativeArrayDispose::Dispose()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::NativeArrayDispose>::get(),
+                        "Dispose",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "m_Buffer", ty: "void*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_AllocatorLabel", ty: "::Unity::Collections::Allocator", modifiers: "",
-// def_value: Some("{}") }]
-constexpr ::Unity::Collections::NativeArrayDispose::NativeArrayDispose(void* m_Buffer, ::Unity::Collections::Allocator m_AllocatorLabel) noexcept {
-  this->m_Buffer = m_Buffer;
-  this->m_AllocatorLabel = m_AllocatorLabel;
+// Ctor Parameters [CppParam { name: "m_Buffer", ty: "void*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_AllocatorLabel", ty: "::Unity::Collections::Allocator", modifiers: "", def_value: Some("{}") }]
+constexpr ::Unity::Collections::NativeArrayDispose::NativeArrayDispose(void*  m_Buffer, ::Unity::Collections::Allocator  m_AllocatorLabel) noexcept  {
+this->m_Buffer = m_Buffer;
+this->m_AllocatorLabel = m_AllocatorLabel;
 }
 // Ctor Parameters []
-constexpr ::Unity::Collections::NativeArrayDispose::NativeArrayDispose() {}
+constexpr ::Unity::Collections::NativeArrayDispose::NativeArrayDispose()   {
+}

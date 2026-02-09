@@ -27,72 +27,72 @@ namespace System::Xml::Linq {
 // CS Name: System.Xml.Linq.XComment
 class CORDL_TYPE XComment : public ::System::Xml::Linq::XNode {
 public:
-  // Declarations
-  __declspec(property(get = get_NodeType)) ::System::Xml::XmlNodeType NodeType;
+// Declarations
+ __declspec(property(get=get_NodeType)) ::System::Xml::XmlNodeType  NodeType;
 
-  __declspec(property(get = get_Value, put = set_Value)) ::StringW Value;
+ __declspec(property(get=get_Value, put=set_Value)) ::StringW  Value;
 
-  /// @brief Field value, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_value, put = __cordl_internal_set_value)) ::StringW value;
+/// @brief Field value, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get_value, put=__cordl_internal_set_value)) ::StringW  value;
 
-  /// @brief Method CloneNode, addr 0x5fefb1c, size 0x5c, virtual true, abstract: false, final false
-  inline ::System::Xml::Linq::XNode* CloneNode();
+/// @brief Method CloneNode, addr 0x5ff01dc, size 0x5c, virtual true, abstract: false, final false
+inline ::System::Xml::Linq::XNode* CloneNode() ;
 
-  static inline ::System::Xml::Linq::XComment* New_ctor(::System::Xml::Linq::XComment* other);
+static inline ::System::Xml::Linq::XComment* New_ctor(::System::Xml::Linq::XComment*  other) ;
 
-  static inline ::System::Xml::Linq::XComment* New_ctor(::StringW value);
+static inline ::System::Xml::Linq::XComment* New_ctor(::StringW  value) ;
 
-  /// @brief Method WriteTo, addr 0x5fefab0, size 0x6c, virtual true, abstract: false, final false
-  inline void WriteTo(::System::Xml::XmlWriter* writer);
+/// @brief Method WriteTo, addr 0x5ff0170, size 0x6c, virtual true, abstract: false, final false
+inline void WriteTo(::System::Xml::XmlWriter*  writer) ;
 
-  constexpr ::StringW const& __cordl_internal_get_value() const;
+constexpr ::StringW const& __cordl_internal_get_value() const;
 
-  constexpr ::StringW& __cordl_internal_get_value();
+constexpr ::StringW& __cordl_internal_get_value() ;
 
-  constexpr void __cordl_internal_set_value(::StringW value);
+constexpr void __cordl_internal_set_value(::StringW  value) ;
 
-  /// @brief Method .ctor, addr 0x5fef944, size 0x5c, virtual false, abstract: false, final false
-  inline void _ctor(::System::Xml::Linq::XComment* other);
+/// @brief Method .ctor, addr 0x5ff0004, size 0x5c, virtual false, abstract: false, final false
+inline void _ctor(::System::Xml::Linq::XComment*  other) ;
 
-  /// @brief Method .ctor, addr 0x5fef8e8, size 0x58, virtual false, abstract: false, final false
-  inline void _ctor(::StringW value);
+/// @brief Method .ctor, addr 0x5feffa8, size 0x58, virtual false, abstract: false, final false
+inline void _ctor(::StringW  value) ;
 
-  /// @brief Method get_NodeType, addr 0x5fef9a0, size 0x8, virtual true, abstract: false, final false
-  inline ::System::Xml::XmlNodeType get_NodeType();
+/// @brief Method get_NodeType, addr 0x5ff0060, size 0x8, virtual true, abstract: false, final false
+inline ::System::Xml::XmlNodeType get_NodeType() ;
 
-  /// @brief Method get_Value, addr 0x5fef9a8, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_Value();
+/// @brief Method get_Value, addr 0x5ff0068, size 0x8, virtual false, abstract: false, final false
+inline ::StringW get_Value() ;
 
-  /// @brief Method set_Value, addr 0x5fef9b0, size 0x100, virtual false, abstract: false, final false
-  inline void set_Value(::StringW value);
+/// @brief Method set_Value, addr 0x5ff0070, size 0x100, virtual false, abstract: false, final false
+inline void set_Value(::StringW  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr XComment();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr XComment() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XComment", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  XComment(XComment&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XComment", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  XComment(XComment const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "XComment", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+XComment(XComment && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21778 };
+// Ctor Parameters [CppParam { name: "", ty: "XComment", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+XComment(XComment const& ) = delete;
 
-  /// @brief Field value, offset: 0x28, size: 0x8, def value: None
-  ::StringW ___value;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{21782};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field value, offset: 0x28, size: 0x8, def value: None
+ ::StringW  ___value;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Xml::Linq::XComment, ___value) == 0x28, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::System::Xml::Linq::XComment, 0x30>, "Size mismatch!");
 
-} // namespace System::Xml::Linq
+} // namespace end def System::Xml::Linq
 NEED_NO_BOX(::System::Xml::Linq::XComment);
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Linq::XComment*, "System.Xml.Linq", "XComment");

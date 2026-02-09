@@ -24,10 +24,12 @@ namespace HMUI {
 class SimpleTextDropdown;
 }
 namespace System {
-template <typename T> class Action_1;
+template<typename T>
+class Action_1;
 }
 namespace System {
-template <typename T, typename TResult> class Func_2;
+template<typename T,typename TResult>
+class Func_2;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -45,146 +47,144 @@ namespace GlobalNamespace {
 // CS Name: BeatmapCharacteristicsDropdown/<>c
 class CORDL_TYPE BeatmapCharacteristicsDropdown___c : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field <>9, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::GlobalNamespace::BeatmapCharacteristicsDropdown___c* __9;
+// Declarations
+/// @brief Field <>9, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF___9, put=setStaticF___9)) ::GlobalNamespace::BeatmapCharacteristicsDropdown___c*  __9;
 
-  /// @brief Field <>9__5_0, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9__5_0, put = setStaticF___9__5_0)) ::System::Func_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>, ::StringW>* __9__5_0;
+/// @brief Field <>9__5_0, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF___9__5_0, put=setStaticF___9__5_0)) ::System::Func_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>,::StringW>*  __9__5_0;
 
-  static inline ::GlobalNamespace::BeatmapCharacteristicsDropdown___c* New_ctor();
+static inline ::GlobalNamespace::BeatmapCharacteristicsDropdown___c* New_ctor() ;
 
-  /// @brief Method <Start>b__5_0, addr 0x57a3e7c, size 0x18, virtual false, abstract: false, final false
-  inline ::StringW _Start_b__5_0(::GlobalNamespace::BeatmapCharacteristicSO* x);
+/// @brief Method <Start>b__5_0, addr 0x57a47ac, size 0x18, virtual false, abstract: false, final false
+inline ::StringW _Start_b__5_0(::GlobalNamespace::BeatmapCharacteristicSO*  x) ;
 
-  /// @brief Method .ctor, addr 0x57a3e78, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x57a47a8, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  static inline ::GlobalNamespace::BeatmapCharacteristicsDropdown___c* getStaticF___9();
+static inline ::GlobalNamespace::BeatmapCharacteristicsDropdown___c* getStaticF___9() ;
 
-  static inline ::System::Func_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>, ::StringW>* getStaticF___9__5_0();
+static inline ::System::Func_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>,::StringW>* getStaticF___9__5_0() ;
 
-  static inline void setStaticF___9(::GlobalNamespace::BeatmapCharacteristicsDropdown___c* value);
+static inline void setStaticF___9(::GlobalNamespace::BeatmapCharacteristicsDropdown___c*  value) ;
 
-  static inline void setStaticF___9__5_0(::System::Func_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>, ::StringW>* value);
+static inline void setStaticF___9__5_0(::System::Func_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>,::StringW>*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BeatmapCharacteristicsDropdown___c();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr BeatmapCharacteristicsDropdown___c() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapCharacteristicsDropdown___c", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  BeatmapCharacteristicsDropdown___c(BeatmapCharacteristicsDropdown___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapCharacteristicsDropdown___c", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapCharacteristicsDropdown___c(BeatmapCharacteristicsDropdown___c const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "BeatmapCharacteristicsDropdown___c", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+BeatmapCharacteristicsDropdown___c(BeatmapCharacteristicsDropdown___c && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6912 };
+// Ctor Parameters [CppParam { name: "", ty: "BeatmapCharacteristicsDropdown___c", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+BeatmapCharacteristicsDropdown___c(BeatmapCharacteristicsDropdown___c const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6916};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatmapCharacteristicsDropdown___c, 0x10>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 // Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: BeatmapCharacteristicsDropdown
 class CORDL_TYPE BeatmapCharacteristicsDropdown : public ::UnityEngine::MonoBehaviour {
 public:
-  // Declarations
-  using __c = ::GlobalNamespace::BeatmapCharacteristicsDropdown___c;
+// Declarations
+using __c = ::GlobalNamespace::BeatmapCharacteristicsDropdown___c;
 
-  /// @brief Field _beatmapCharacteristicCollection, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__beatmapCharacteristicCollection,
-                      put = __cordl_internal_set__beatmapCharacteristicCollection)) ::GlobalNamespace::BeatmapCharacteristicCollection* _beatmapCharacteristicCollection;
+/// @brief Field _beatmapCharacteristicCollection, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get__beatmapCharacteristicCollection, put=__cordl_internal_set__beatmapCharacteristicCollection)) ::GlobalNamespace::BeatmapCharacteristicCollection*  _beatmapCharacteristicCollection;
 
-  /// @brief Field _simpleTextDropdown, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__simpleTextDropdown, put = __cordl_internal_set__simpleTextDropdown)) ::UnityW<::HMUI::SimpleTextDropdown> _simpleTextDropdown;
+/// @brief Field _simpleTextDropdown, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get__simpleTextDropdown, put=__cordl_internal_set__simpleTextDropdown)) ::UnityW<::HMUI::SimpleTextDropdown>  _simpleTextDropdown;
 
-  /// @brief Field didSelectCellWithIdxEvent, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_didSelectCellWithIdxEvent,
-                      put = __cordl_internal_set_didSelectCellWithIdxEvent)) ::System::Action_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* didSelectCellWithIdxEvent;
+/// @brief Field didSelectCellWithIdxEvent, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get_didSelectCellWithIdxEvent, put=__cordl_internal_set_didSelectCellWithIdxEvent)) ::System::Action_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>*  didSelectCellWithIdxEvent;
 
-  /// @brief Method GetSelectedBeatmapCharacteristic, addr 0x57a3a70, size 0xbc, virtual false, abstract: false, final false
-  inline ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> GetSelectedBeatmapCharacteristic();
+/// @brief Method GetSelectedBeatmapCharacteristic, addr 0x57a43a0, size 0xbc, virtual false, abstract: false, final false
+inline ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> GetSelectedBeatmapCharacteristic() ;
 
-  /// @brief Method HandleSimpleTextDropdownDidSelectCellWithIdx, addr 0x57a3d38, size 0xe8, virtual false, abstract: false, final false
-  inline void HandleSimpleTextDropdownDidSelectCellWithIdx(::HMUI::DropdownWithTableView* dropdownWithTableView, int32_t idx);
+/// @brief Method HandleSimpleTextDropdownDidSelectCellWithIdx, addr 0x57a4668, size 0xe8, virtual false, abstract: false, final false
+inline void HandleSimpleTextDropdownDidSelectCellWithIdx(::HMUI::DropdownWithTableView*  dropdownWithTableView, int32_t  idx) ;
 
-  static inline ::GlobalNamespace::BeatmapCharacteristicsDropdown* New_ctor();
+static inline ::GlobalNamespace::BeatmapCharacteristicsDropdown* New_ctor() ;
 
-  /// @brief Method OnDestroy, addr 0x57a3994, size 0xdc, virtual false, abstract: false, final false
-  inline void OnDestroy();
+/// @brief Method OnDestroy, addr 0x57a42c4, size 0xdc, virtual false, abstract: false, final false
+inline void OnDestroy() ;
 
-  /// @brief Method SelectCellWithBeatmapCharacteristic, addr 0x57a3b2c, size 0x84, virtual false, abstract: false, final false
-  inline void SelectCellWithBeatmapCharacteristic(::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic);
+/// @brief Method SelectCellWithBeatmapCharacteristic, addr 0x57a445c, size 0x84, virtual false, abstract: false, final false
+inline void SelectCellWithBeatmapCharacteristic(::GlobalNamespace::BeatmapCharacteristicSO*  beatmapCharacteristic) ;
 
-  /// @brief Method SelectCellWithBeatmapCharacteristic, addr 0x57a3bb0, size 0x188, virtual false, abstract: false, final false
-  inline void SelectCellWithBeatmapCharacteristic(::StringW serializedName);
+/// @brief Method SelectCellWithBeatmapCharacteristic, addr 0x57a44e0, size 0x188, virtual false, abstract: false, final false
+inline void SelectCellWithBeatmapCharacteristic(::StringW  serializedName) ;
 
-  /// @brief Method Start, addr 0x57a37d0, size 0x1c4, virtual false, abstract: false, final false
-  inline void Start();
+/// @brief Method Start, addr 0x57a4100, size 0x1c4, virtual false, abstract: false, final false
+inline void Start() ;
 
-  constexpr ::GlobalNamespace::BeatmapCharacteristicCollection* const& __cordl_internal_get__beatmapCharacteristicCollection() const;
+constexpr ::GlobalNamespace::BeatmapCharacteristicCollection* const& __cordl_internal_get__beatmapCharacteristicCollection() const;
 
-  constexpr ::GlobalNamespace::BeatmapCharacteristicCollection*& __cordl_internal_get__beatmapCharacteristicCollection();
+constexpr ::GlobalNamespace::BeatmapCharacteristicCollection*& __cordl_internal_get__beatmapCharacteristicCollection() ;
 
-  constexpr ::UnityW<::HMUI::SimpleTextDropdown> const& __cordl_internal_get__simpleTextDropdown() const;
+constexpr ::UnityW<::HMUI::SimpleTextDropdown> const& __cordl_internal_get__simpleTextDropdown() const;
 
-  constexpr ::UnityW<::HMUI::SimpleTextDropdown>& __cordl_internal_get__simpleTextDropdown();
+constexpr ::UnityW<::HMUI::SimpleTextDropdown>& __cordl_internal_get__simpleTextDropdown() ;
 
-  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* const& __cordl_internal_get_didSelectCellWithIdxEvent() const;
+constexpr ::System::Action_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* const& __cordl_internal_get_didSelectCellWithIdxEvent() const;
 
-  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>*& __cordl_internal_get_didSelectCellWithIdxEvent();
+constexpr ::System::Action_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>*& __cordl_internal_get_didSelectCellWithIdxEvent() ;
 
-  constexpr void __cordl_internal_set__beatmapCharacteristicCollection(::GlobalNamespace::BeatmapCharacteristicCollection* value);
+constexpr void __cordl_internal_set__beatmapCharacteristicCollection(::GlobalNamespace::BeatmapCharacteristicCollection*  value) ;
 
-  constexpr void __cordl_internal_set__simpleTextDropdown(::UnityW<::HMUI::SimpleTextDropdown> value);
+constexpr void __cordl_internal_set__simpleTextDropdown(::UnityW<::HMUI::SimpleTextDropdown>  value) ;
 
-  constexpr void __cordl_internal_set_didSelectCellWithIdxEvent(::System::Action_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* value);
+constexpr void __cordl_internal_set_didSelectCellWithIdxEvent(::System::Action_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>*  value) ;
 
-  /// @brief Method .ctor, addr 0x57a3e20, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x57a4750, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method add_didSelectCellWithIdxEvent, addr 0x57a3650, size 0xc0, virtual false, abstract: false, final false
-  inline void add_didSelectCellWithIdxEvent(::System::Action_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* value);
+/// @brief Method add_didSelectCellWithIdxEvent, addr 0x57a3f80, size 0xc0, virtual false, abstract: false, final false
+inline void add_didSelectCellWithIdxEvent(::System::Action_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>*  value) ;
 
-  /// @brief Method remove_didSelectCellWithIdxEvent, addr 0x57a3710, size 0xc0, virtual false, abstract: false, final false
-  inline void remove_didSelectCellWithIdxEvent(::System::Action_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* value);
+/// @brief Method remove_didSelectCellWithIdxEvent, addr 0x57a4040, size 0xc0, virtual false, abstract: false, final false
+inline void remove_didSelectCellWithIdxEvent(::System::Action_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BeatmapCharacteristicsDropdown();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr BeatmapCharacteristicsDropdown() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapCharacteristicsDropdown", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  BeatmapCharacteristicsDropdown(BeatmapCharacteristicsDropdown&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapCharacteristicsDropdown", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapCharacteristicsDropdown(BeatmapCharacteristicsDropdown const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "BeatmapCharacteristicsDropdown", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+BeatmapCharacteristicsDropdown(BeatmapCharacteristicsDropdown && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6913 };
+// Ctor Parameters [CppParam { name: "", ty: "BeatmapCharacteristicsDropdown", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+BeatmapCharacteristicsDropdown(BeatmapCharacteristicsDropdown const& ) = delete;
 
-  /// @brief Field _simpleTextDropdown, offset: 0x20, size: 0x8, def value: None
-  ::UnityW<::HMUI::SimpleTextDropdown> ____simpleTextDropdown;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6917};
 
-  /// @brief Field _beatmapCharacteristicCollection, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::BeatmapCharacteristicCollection* ____beatmapCharacteristicCollection;
+/// @brief Field _simpleTextDropdown, offset: 0x20, size: 0x8, def value: None
+ ::UnityW<::HMUI::SimpleTextDropdown>  ____simpleTextDropdown;
 
-  /// @brief Field didSelectCellWithIdxEvent, offset: 0x30, size: 0x8, def value: None
-  ::System::Action_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* ___didSelectCellWithIdxEvent;
+/// @brief Field _beatmapCharacteristicCollection, offset: 0x28, size: 0x8, def value: None
+ ::GlobalNamespace::BeatmapCharacteristicCollection*  ____beatmapCharacteristicCollection;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field didSelectCellWithIdxEvent, offset: 0x30, size: 0x8, def value: None
+ ::System::Action_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>*  ___didSelectCellWithIdxEvent;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::BeatmapCharacteristicsDropdown, ____simpleTextDropdown) == 0x20, "Offset mismatch!");
@@ -195,7 +195,7 @@ static_assert(offsetof(::GlobalNamespace::BeatmapCharacteristicsDropdown, ___did
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatmapCharacteristicsDropdown, 0x38>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BeatmapCharacteristicsDropdown);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BeatmapCharacteristicsDropdown*, "", "BeatmapCharacteristicsDropdown");
 NEED_NO_BOX(::GlobalNamespace::BeatmapCharacteristicsDropdown___c);

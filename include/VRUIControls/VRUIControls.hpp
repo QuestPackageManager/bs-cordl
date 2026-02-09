@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "VRUIControls/ButtonState.hpp"
 #include "VRUIControls/MouseButtonEventData.hpp"
@@ -12,5 +12,6 @@ module;
 #include "VRUIControls/VRLaserPointer.hpp"
 #include "VRUIControls/VRPointer.hpp"
 #ifdef __cpp_modules
-export module VRUIControls;
-#endif
+                    export module VRUIControls;
+                    #endif
+                

@@ -31,89 +31,89 @@ namespace HMUI {
 // CS Name: HMUI.IconSegmentedControlCell
 class CORDL_TYPE IconSegmentedControlCell : public ::HMUI::SegmentedControlCell {
 public:
-  // Declarations
-  /// @brief Field _backgroundGameObject, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get__backgroundGameObject, put = __cordl_internal_set__backgroundGameObject)) ::UnityW<::UnityEngine::GameObject> _backgroundGameObject;
+// Declarations
+/// @brief Field _backgroundGameObject, offset 0x80, size 0x8 
+ __declspec(property(get=__cordl_internal_get__backgroundGameObject, put=__cordl_internal_set__backgroundGameObject)) ::UnityW<::UnityEngine::GameObject>  _backgroundGameObject;
 
-  /// @brief Field _hoverHint, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get__hoverHint, put = __cordl_internal_set__hoverHint)) ::UnityW<::HMUI::HoverHint> _hoverHint;
+/// @brief Field _hoverHint, offset 0x78, size 0x8 
+ __declspec(property(get=__cordl_internal_get__hoverHint, put=__cordl_internal_set__hoverHint)) ::UnityW<::HMUI::HoverHint>  _hoverHint;
 
-  /// @brief Field _icon, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get__icon, put = __cordl_internal_set__icon)) ::UnityW<::UnityEngine::UI::Image> _icon;
+/// @brief Field _icon, offset 0x70, size 0x8 
+ __declspec(property(get=__cordl_internal_get__icon, put=__cordl_internal_set__icon)) ::UnityW<::UnityEngine::UI::Image>  _icon;
 
-  __declspec(property(put = set_hideBackgroundImage)) bool hideBackgroundImage;
+ __declspec(property(put=set_hideBackgroundImage)) bool  hideBackgroundImage;
 
-  __declspec(property(put = set_hintText)) ::StringW hintText;
+ __declspec(property(put=set_hintText)) ::StringW  hintText;
 
-  __declspec(property(put = set_iconSize)) float_t iconSize;
+ __declspec(property(put=set_iconSize)) float_t  iconSize;
 
-  __declspec(property(get = get_sprite, put = set_sprite)) ::UnityW<::UnityEngine::Sprite> sprite;
+ __declspec(property(get=get_sprite, put=set_sprite)) ::UnityW<::UnityEngine::Sprite>  sprite;
 
-  static inline ::HMUI::IconSegmentedControlCell* New_ctor();
+static inline ::HMUI::IconSegmentedControlCell* New_ctor() ;
 
-  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__backgroundGameObject() const;
+constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__backgroundGameObject() const;
 
-  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__backgroundGameObject();
+constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__backgroundGameObject() ;
 
-  constexpr ::UnityW<::HMUI::HoverHint> const& __cordl_internal_get__hoverHint() const;
+constexpr ::UnityW<::HMUI::HoverHint> const& __cordl_internal_get__hoverHint() const;
 
-  constexpr ::UnityW<::HMUI::HoverHint>& __cordl_internal_get__hoverHint();
+constexpr ::UnityW<::HMUI::HoverHint>& __cordl_internal_get__hoverHint() ;
 
-  constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__icon() const;
+constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__icon() const;
 
-  constexpr ::UnityW<::UnityEngine::UI::Image>& __cordl_internal_get__icon();
+constexpr ::UnityW<::UnityEngine::UI::Image>& __cordl_internal_get__icon() ;
 
-  constexpr void __cordl_internal_set__backgroundGameObject(::UnityW<::UnityEngine::GameObject> value);
+constexpr void __cordl_internal_set__backgroundGameObject(::UnityW<::UnityEngine::GameObject>  value) ;
 
-  constexpr void __cordl_internal_set__hoverHint(::UnityW<::HMUI::HoverHint> value);
+constexpr void __cordl_internal_set__hoverHint(::UnityW<::HMUI::HoverHint>  value) ;
 
-  constexpr void __cordl_internal_set__icon(::UnityW<::UnityEngine::UI::Image> value);
+constexpr void __cordl_internal_set__icon(::UnityW<::UnityEngine::UI::Image>  value) ;
 
-  /// @brief Method .ctor, addr 0x5da1970, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5da2030, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_sprite, addr 0x5da1958, size 0x18, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::Sprite> get_sprite();
+/// @brief Method get_sprite, addr 0x5da2018, size 0x18, virtual false, abstract: false, final false
+inline ::UnityW<::UnityEngine::Sprite> get_sprite() ;
 
-  /// @brief Method set_hideBackgroundImage, addr 0x5da1830, size 0xa0, virtual false, abstract: false, final false
-  inline void set_hideBackgroundImage(bool value);
+/// @brief Method set_hideBackgroundImage, addr 0x5da1ef0, size 0xa0, virtual false, abstract: false, final false
+inline void set_hideBackgroundImage(bool  value) ;
 
-  /// @brief Method set_hintText, addr 0x5da1818, size 0x18, virtual false, abstract: false, final false
-  inline void set_hintText(::StringW value);
+/// @brief Method set_hintText, addr 0x5da1ed8, size 0x18, virtual false, abstract: false, final false
+inline void set_hintText(::StringW  value) ;
 
-  /// @brief Method set_iconSize, addr 0x5da18d0, size 0x3c, virtual false, abstract: false, final false
-  inline void set_iconSize(float_t value);
+/// @brief Method set_iconSize, addr 0x5da1f90, size 0x3c, virtual false, abstract: false, final false
+inline void set_iconSize(float_t  value) ;
 
-  /// @brief Method set_sprite, addr 0x5da1800, size 0x18, virtual false, abstract: false, final false
-  inline void set_sprite(::UnityEngine::Sprite* value);
+/// @brief Method set_sprite, addr 0x5da1ec0, size 0x18, virtual false, abstract: false, final false
+inline void set_sprite(::UnityEngine::Sprite*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr IconSegmentedControlCell();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr IconSegmentedControlCell() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IconSegmentedControlCell", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IconSegmentedControlCell(IconSegmentedControlCell&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IconSegmentedControlCell", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  IconSegmentedControlCell(IconSegmentedControlCell const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "IconSegmentedControlCell", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+IconSegmentedControlCell(IconSegmentedControlCell && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22722 };
+// Ctor Parameters [CppParam { name: "", ty: "IconSegmentedControlCell", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+IconSegmentedControlCell(IconSegmentedControlCell const& ) = delete;
 
-  /// @brief Field _icon, offset: 0x70, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::UI::Image> ____icon;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{22726};
 
-  /// @brief Field _hoverHint, offset: 0x78, size: 0x8, def value: None
-  ::UnityW<::HMUI::HoverHint> ____hoverHint;
+/// @brief Field _icon, offset: 0x70, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::UI::Image>  ____icon;
 
-  /// @brief Field _backgroundGameObject, offset: 0x80, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::GameObject> ____backgroundGameObject;
+/// @brief Field _hoverHint, offset: 0x78, size: 0x8, def value: None
+ ::UnityW<::HMUI::HoverHint>  ____hoverHint;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _backgroundGameObject, offset: 0x80, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::GameObject>  ____backgroundGameObject;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::HMUI::IconSegmentedControlCell, ____icon) == 0x70, "Offset mismatch!");
@@ -124,6 +124,6 @@ static_assert(offsetof(::HMUI::IconSegmentedControlCell, ____backgroundGameObjec
 
 static_assert(::cordl_internals::size_check_v<::HMUI::IconSegmentedControlCell, 0x88>, "Size mismatch!");
 
-} // namespace HMUI
+} // namespace end def HMUI
 NEED_NO_BOX(::HMUI::IconSegmentedControlCell);
 DEFINE_IL2CPP_ARG_TYPE(::HMUI::IconSegmentedControlCell*, "HMUI", "IconSegmentedControlCell");

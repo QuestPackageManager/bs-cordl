@@ -8,13 +8,15 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ZenjectSceneLoader)
 namespace System {
-template <typename T> class Action_1;
+template<typename T>
+class Action_1;
 }
 namespace System {
 class Object;
 }
 namespace UnityEngine::ResourceManagement::AsyncOperations {
-template <typename TObject> struct AsyncOperationHandle_1;
+template<typename TObject>
+struct AsyncOperationHandle_1;
 }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 struct SceneInstance;
@@ -52,140 +54,126 @@ namespace Zenject {
 // CS Name: Zenject.ZenjectSceneLoader
 class CORDL_TYPE ZenjectSceneLoader : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field _projectKernel, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__projectKernel, put = __cordl_internal_set__projectKernel)) ::UnityW<::Zenject::ProjectKernel> _projectKernel;
+// Declarations
+/// @brief Field _projectKernel, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get__projectKernel, put=__cordl_internal_set__projectKernel)) ::UnityW<::Zenject::ProjectKernel>  _projectKernel;
 
-  /// @brief Field _sceneContainer, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__sceneContainer, put = __cordl_internal_set__sceneContainer)) ::Zenject::DiContainer* _sceneContainer;
+/// @brief Field _sceneContainer, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get__sceneContainer, put=__cordl_internal_set__sceneContainer)) ::Zenject::DiContainer*  _sceneContainer;
 
-  /// @brief Method LoadScene, addr 0x6cd275c, size 0x14, virtual false, abstract: false, final false
-  inline void LoadScene(int32_t sceneIndex);
+/// @brief Method LoadScene, addr 0x6cd2e1c, size 0x14, virtual false, abstract: false, final false
+inline void LoadScene(int32_t  sceneIndex) ;
 
-  /// @brief Method LoadScene, addr 0x6cd2770, size 0x10, virtual false, abstract: false, final false
-  inline void LoadScene(int32_t sceneIndex, ::UnityEngine::SceneManagement::LoadSceneMode loadMode);
+/// @brief Method LoadScene, addr 0x6cd2e30, size 0x10, virtual false, abstract: false, final false
+inline void LoadScene(int32_t  sceneIndex, ::UnityEngine::SceneManagement::LoadSceneMode  loadMode) ;
 
-  /// @brief Method LoadScene, addr 0x6cd2780, size 0xc, virtual false, abstract: false, final false
-  inline void LoadScene(int32_t sceneIndex, ::UnityEngine::SceneManagement::LoadSceneMode loadMode, ::System::Action_1<::Zenject::DiContainer*>* extraBindings);
+/// @brief Method LoadScene, addr 0x6cd2e40, size 0xc, virtual false, abstract: false, final false
+inline void LoadScene(int32_t  sceneIndex, ::UnityEngine::SceneManagement::LoadSceneMode  loadMode, ::System::Action_1<::Zenject::DiContainer*>*  extraBindings) ;
 
-  /// @brief Method LoadScene, addr 0x6cd278c, size 0x8, virtual false, abstract: false, final false
-  inline void LoadScene(int32_t sceneIndex, ::UnityEngine::SceneManagement::LoadSceneMode loadMode, ::System::Action_1<::Zenject::DiContainer*>* extraBindings,
-                        ::Zenject::LoadSceneRelationship containerMode);
+/// @brief Method LoadScene, addr 0x6cd2e4c, size 0x8, virtual false, abstract: false, final false
+inline void LoadScene(int32_t  sceneIndex, ::UnityEngine::SceneManagement::LoadSceneMode  loadMode, ::System::Action_1<::Zenject::DiContainer*>*  extraBindings, ::Zenject::LoadSceneRelationship  containerMode) ;
 
-  /// @brief Method LoadScene, addr 0x6cd2794, size 0x120, virtual false, abstract: false, final false
-  inline void LoadScene(int32_t sceneIndex, ::UnityEngine::SceneManagement::LoadSceneMode loadMode, ::System::Action_1<::Zenject::DiContainer*>* extraBindings,
-                        ::Zenject::LoadSceneRelationship containerMode, ::System::Action_1<::Zenject::DiContainer*>* extraBindingsLate);
+/// @brief Method LoadScene, addr 0x6cd2e54, size 0x120, virtual false, abstract: false, final false
+inline void LoadScene(int32_t  sceneIndex, ::UnityEngine::SceneManagement::LoadSceneMode  loadMode, ::System::Action_1<::Zenject::DiContainer*>*  extraBindings, ::Zenject::LoadSceneRelationship  containerMode, ::System::Action_1<::Zenject::DiContainer*>*  extraBindingsLate) ;
 
-  /// @brief Method LoadScene, addr 0x6cd216c, size 0x14, virtual false, abstract: false, final false
-  inline void LoadScene(::StringW sceneName);
+/// @brief Method LoadScene, addr 0x6cd282c, size 0x14, virtual false, abstract: false, final false
+inline void LoadScene(::StringW  sceneName) ;
 
-  /// @brief Method LoadScene, addr 0x6cd2180, size 0x10, virtual false, abstract: false, final false
-  inline void LoadScene(::StringW sceneName, ::UnityEngine::SceneManagement::LoadSceneMode loadMode);
+/// @brief Method LoadScene, addr 0x6cd2840, size 0x10, virtual false, abstract: false, final false
+inline void LoadScene(::StringW  sceneName, ::UnityEngine::SceneManagement::LoadSceneMode  loadMode) ;
 
-  /// @brief Method LoadScene, addr 0x6cd2190, size 0xc, virtual false, abstract: false, final false
-  inline void LoadScene(::StringW sceneName, ::UnityEngine::SceneManagement::LoadSceneMode loadMode, ::System::Action_1<::Zenject::DiContainer*>* extraBindings);
+/// @brief Method LoadScene, addr 0x6cd2850, size 0xc, virtual false, abstract: false, final false
+inline void LoadScene(::StringW  sceneName, ::UnityEngine::SceneManagement::LoadSceneMode  loadMode, ::System::Action_1<::Zenject::DiContainer*>*  extraBindings) ;
 
-  /// @brief Method LoadScene, addr 0x6cd219c, size 0x8, virtual false, abstract: false, final false
-  inline void LoadScene(::StringW sceneName, ::UnityEngine::SceneManagement::LoadSceneMode loadMode, ::System::Action_1<::Zenject::DiContainer*>* extraBindings,
-                        ::Zenject::LoadSceneRelationship containerMode);
+/// @brief Method LoadScene, addr 0x6cd285c, size 0x8, virtual false, abstract: false, final false
+inline void LoadScene(::StringW  sceneName, ::UnityEngine::SceneManagement::LoadSceneMode  loadMode, ::System::Action_1<::Zenject::DiContainer*>*  extraBindings, ::Zenject::LoadSceneRelationship  containerMode) ;
 
-  /// @brief Method LoadScene, addr 0x6cd21a4, size 0x108, virtual false, abstract: false, final false
-  inline void LoadScene(::StringW sceneName, ::UnityEngine::SceneManagement::LoadSceneMode loadMode, ::System::Action_1<::Zenject::DiContainer*>* extraBindings,
-                        ::Zenject::LoadSceneRelationship containerMode, ::System::Action_1<::Zenject::DiContainer*>* extraBindingsLate);
+/// @brief Method LoadScene, addr 0x6cd2864, size 0x108, virtual false, abstract: false, final false
+inline void LoadScene(::StringW  sceneName, ::UnityEngine::SceneManagement::LoadSceneMode  loadMode, ::System::Action_1<::Zenject::DiContainer*>*  extraBindings, ::Zenject::LoadSceneRelationship  containerMode, ::System::Action_1<::Zenject::DiContainer*>*  extraBindingsLate) ;
 
-  /// @brief Method LoadSceneAsync, addr 0x6cd28b4, size 0x14, virtual false, abstract: false, final false
-  inline ::UnityEngine::AsyncOperation* LoadSceneAsync(int32_t sceneIndex);
+/// @brief Method LoadSceneAsync, addr 0x6cd2f74, size 0x14, virtual false, abstract: false, final false
+inline ::UnityEngine::AsyncOperation* LoadSceneAsync(int32_t  sceneIndex) ;
 
-  /// @brief Method LoadSceneAsync, addr 0x6cd28c8, size 0x10, virtual false, abstract: false, final false
-  inline ::UnityEngine::AsyncOperation* LoadSceneAsync(int32_t sceneIndex, ::UnityEngine::SceneManagement::LoadSceneMode loadMode);
+/// @brief Method LoadSceneAsync, addr 0x6cd2f88, size 0x10, virtual false, abstract: false, final false
+inline ::UnityEngine::AsyncOperation* LoadSceneAsync(int32_t  sceneIndex, ::UnityEngine::SceneManagement::LoadSceneMode  loadMode) ;
 
-  /// @brief Method LoadSceneAsync, addr 0x6cd28d8, size 0xc, virtual false, abstract: false, final false
-  inline ::UnityEngine::AsyncOperation* LoadSceneAsync(int32_t sceneIndex, ::UnityEngine::SceneManagement::LoadSceneMode loadMode, ::System::Action_1<::Zenject::DiContainer*>* extraBindings);
+/// @brief Method LoadSceneAsync, addr 0x6cd2f98, size 0xc, virtual false, abstract: false, final false
+inline ::UnityEngine::AsyncOperation* LoadSceneAsync(int32_t  sceneIndex, ::UnityEngine::SceneManagement::LoadSceneMode  loadMode, ::System::Action_1<::Zenject::DiContainer*>*  extraBindings) ;
 
-  /// @brief Method LoadSceneAsync, addr 0x6cd28e4, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::AsyncOperation* LoadSceneAsync(int32_t sceneIndex, ::UnityEngine::SceneManagement::LoadSceneMode loadMode, ::System::Action_1<::Zenject::DiContainer*>* extraBindings,
-                                                       ::Zenject::LoadSceneRelationship containerMode);
+/// @brief Method LoadSceneAsync, addr 0x6cd2fa4, size 0x8, virtual false, abstract: false, final false
+inline ::UnityEngine::AsyncOperation* LoadSceneAsync(int32_t  sceneIndex, ::UnityEngine::SceneManagement::LoadSceneMode  loadMode, ::System::Action_1<::Zenject::DiContainer*>*  extraBindings, ::Zenject::LoadSceneRelationship  containerMode) ;
 
-  /// @brief Method LoadSceneAsync, addr 0x6cd28ec, size 0x120, virtual false, abstract: false, final false
-  inline ::UnityEngine::AsyncOperation* LoadSceneAsync(int32_t sceneIndex, ::UnityEngine::SceneManagement::LoadSceneMode loadMode, ::System::Action_1<::Zenject::DiContainer*>* extraBindings,
-                                                       ::Zenject::LoadSceneRelationship containerMode, ::System::Action_1<::Zenject::DiContainer*>* extraBindingsLate);
+/// @brief Method LoadSceneAsync, addr 0x6cd2fac, size 0x120, virtual false, abstract: false, final false
+inline ::UnityEngine::AsyncOperation* LoadSceneAsync(int32_t  sceneIndex, ::UnityEngine::SceneManagement::LoadSceneMode  loadMode, ::System::Action_1<::Zenject::DiContainer*>*  extraBindings, ::Zenject::LoadSceneRelationship  containerMode, ::System::Action_1<::Zenject::DiContainer*>*  extraBindingsLate) ;
 
-  /// @brief Method LoadSceneAsync, addr 0x6cd24a8, size 0x18, virtual false, abstract: false, final false
-  inline ::UnityEngine::AsyncOperation* LoadSceneAsync(::StringW sceneName);
+/// @brief Method LoadSceneAsync, addr 0x6cd2b68, size 0x18, virtual false, abstract: false, final false
+inline ::UnityEngine::AsyncOperation* LoadSceneAsync(::StringW  sceneName) ;
 
-  /// @brief Method LoadSceneAsync, addr 0x6cd24c0, size 0x14, virtual false, abstract: false, final false
-  inline ::UnityEngine::AsyncOperation* LoadSceneAsync(::StringW sceneName, ::UnityEngine::SceneManagement::LoadSceneMode loadMode);
+/// @brief Method LoadSceneAsync, addr 0x6cd2b80, size 0x14, virtual false, abstract: false, final false
+inline ::UnityEngine::AsyncOperation* LoadSceneAsync(::StringW  sceneName, ::UnityEngine::SceneManagement::LoadSceneMode  loadMode) ;
 
-  /// @brief Method LoadSceneAsync, addr 0x6cd24d4, size 0x14, virtual false, abstract: false, final false
-  inline ::UnityEngine::AsyncOperation* LoadSceneAsync(::StringW sceneName, ::UnityEngine::SceneManagement::LoadSceneMode loadMode, ::System::Action_1<::Zenject::DiContainer*>* extraBindings);
+/// @brief Method LoadSceneAsync, addr 0x6cd2b94, size 0x14, virtual false, abstract: false, final false
+inline ::UnityEngine::AsyncOperation* LoadSceneAsync(::StringW  sceneName, ::UnityEngine::SceneManagement::LoadSceneMode  loadMode, ::System::Action_1<::Zenject::DiContainer*>*  extraBindings) ;
 
-  /// @brief Method LoadSceneAsync, addr 0x6cd24e8, size 0x14, virtual false, abstract: false, final false
-  inline ::UnityEngine::AsyncOperation* LoadSceneAsync(::StringW sceneName, ::UnityEngine::SceneManagement::LoadSceneMode loadMode, ::System::Action_1<::Zenject::DiContainer*>* extraBindings,
-                                                       ::Zenject::LoadSceneRelationship containerMode);
+/// @brief Method LoadSceneAsync, addr 0x6cd2ba8, size 0x14, virtual false, abstract: false, final false
+inline ::UnityEngine::AsyncOperation* LoadSceneAsync(::StringW  sceneName, ::UnityEngine::SceneManagement::LoadSceneMode  loadMode, ::System::Action_1<::Zenject::DiContainer*>*  extraBindings, ::Zenject::LoadSceneRelationship  containerMode) ;
 
-  /// @brief Method LoadSceneAsync, addr 0x6cd24fc, size 0x10c, virtual false, abstract: false, final false
-  inline ::UnityEngine::AsyncOperation* LoadSceneAsync(::StringW sceneName, ::UnityEngine::SceneManagement::LoadSceneMode loadMode, ::System::Action_1<::Zenject::DiContainer*>* extraBindingsEarly,
-                                                       ::System::Action_1<::Zenject::DiContainer*>* extraBindings, ::Zenject::LoadSceneRelationship containerMode,
-                                                       ::System::Action_1<::Zenject::DiContainer*>* extraBindingsLate);
+/// @brief Method LoadSceneAsync, addr 0x6cd2bbc, size 0x10c, virtual false, abstract: false, final false
+inline ::UnityEngine::AsyncOperation* LoadSceneAsync(::StringW  sceneName, ::UnityEngine::SceneManagement::LoadSceneMode  loadMode, ::System::Action_1<::Zenject::DiContainer*>*  extraBindingsEarly, ::System::Action_1<::Zenject::DiContainer*>*  extraBindings, ::Zenject::LoadSceneRelationship  containerMode, ::System::Action_1<::Zenject::DiContainer*>*  extraBindingsLate) ;
 
-  /// @brief Method LoadSceneFromAddressablesAsync, addr 0x6cd2608, size 0x154, virtual false, abstract: false, final false
-  inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>
-  LoadSceneFromAddressablesAsync(::StringW sceneName, ::UnityEngine::SceneManagement::LoadSceneMode loadMode, bool activateOnLoad, int32_t priority,
-                                 ::System::Action_1<::Zenject::DiContainer*>* extraBindingsEarly, ::System::Action_1<::Zenject::DiContainer*>* extraBindings,
-                                 ::Zenject::LoadSceneRelationship containerMode, ::System::Action_1<::Zenject::DiContainer*>* extraBindingsLate);
+/// @brief Method LoadSceneFromAddressablesAsync, addr 0x6cd2cc8, size 0x154, virtual false, abstract: false, final false
+inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> LoadSceneFromAddressablesAsync(::StringW  sceneName, ::UnityEngine::SceneManagement::LoadSceneMode  loadMode, bool  activateOnLoad, int32_t  priority, ::System::Action_1<::Zenject::DiContainer*>*  extraBindingsEarly, ::System::Action_1<::Zenject::DiContainer*>*  extraBindings, ::Zenject::LoadSceneRelationship  containerMode, ::System::Action_1<::Zenject::DiContainer*>*  extraBindingsLate) ;
 
-  static inline ::Zenject::ZenjectSceneLoader* New_ctor(::Zenject::SceneContext* sceneRoot, ::Zenject::ProjectKernel* projectKernel);
+static inline ::Zenject::ZenjectSceneLoader* New_ctor(::Zenject::SceneContext*  sceneRoot, ::Zenject::ProjectKernel*  projectKernel) ;
 
-  /// @brief Method PrepareForLoadScene, addr 0x6cd22ac, size 0x1fc, virtual false, abstract: false, final false
-  inline void PrepareForLoadScene(::UnityEngine::SceneManagement::LoadSceneMode loadMode, ::System::Action_1<::Zenject::DiContainer*>* extraBindingsEarly,
-                                  ::System::Action_1<::Zenject::DiContainer*>* extraBindings, ::System::Action_1<::Zenject::DiContainer*>* extraBindingsLate,
-                                  ::Zenject::LoadSceneRelationship containerMode);
+/// @brief Method PrepareForLoadScene, addr 0x6cd296c, size 0x1fc, virtual false, abstract: false, final false
+inline void PrepareForLoadScene(::UnityEngine::SceneManagement::LoadSceneMode  loadMode, ::System::Action_1<::Zenject::DiContainer*>*  extraBindingsEarly, ::System::Action_1<::Zenject::DiContainer*>*  extraBindings, ::System::Action_1<::Zenject::DiContainer*>*  extraBindingsLate, ::Zenject::LoadSceneRelationship  containerMode) ;
 
-  constexpr ::UnityW<::Zenject::ProjectKernel> const& __cordl_internal_get__projectKernel() const;
+constexpr ::UnityW<::Zenject::ProjectKernel> const& __cordl_internal_get__projectKernel() const;
 
-  constexpr ::UnityW<::Zenject::ProjectKernel>& __cordl_internal_get__projectKernel();
+constexpr ::UnityW<::Zenject::ProjectKernel>& __cordl_internal_get__projectKernel() ;
 
-  constexpr ::Zenject::DiContainer* const& __cordl_internal_get__sceneContainer() const;
+constexpr ::Zenject::DiContainer* const& __cordl_internal_get__sceneContainer() const;
 
-  constexpr ::Zenject::DiContainer*& __cordl_internal_get__sceneContainer();
+constexpr ::Zenject::DiContainer*& __cordl_internal_get__sceneContainer() ;
 
-  constexpr void __cordl_internal_set__projectKernel(::UnityW<::Zenject::ProjectKernel> value);
+constexpr void __cordl_internal_set__projectKernel(::UnityW<::Zenject::ProjectKernel>  value) ;
 
-  constexpr void __cordl_internal_set__sceneContainer(::Zenject::DiContainer* value);
+constexpr void __cordl_internal_set__sceneContainer(::Zenject::DiContainer*  value) ;
 
-  /// @brief Method __zenCreate, addr 0x6cd2a0c, size 0x124, virtual false, abstract: false, final false
-  static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
+/// @brief Method __zenCreate, addr 0x6cd30cc, size 0x124, virtual false, abstract: false, final false
+static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*,::Array<::System::Object*>*>  P_0) ;
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x6cd2b30, size 0x2dc, virtual false, abstract: false, final false
-  static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
+/// @brief Method __zenCreateInjectTypeInfo, addr 0x6cd31f0, size 0x2dc, virtual false, abstract: false, final false
+static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo() ;
 
-  /// @brief Method .ctor, addr 0x6cd20cc, size 0xa0, virtual false, abstract: false, final false
-  inline void _ctor(::Zenject::SceneContext* sceneRoot, ::Zenject::ProjectKernel* projectKernel);
+/// @brief Method .ctor, addr 0x6cd278c, size 0xa0, virtual false, abstract: false, final false
+inline void _ctor(::Zenject::SceneContext*  sceneRoot, ::Zenject::ProjectKernel*  projectKernel) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ZenjectSceneLoader();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ZenjectSceneLoader() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ZenjectSceneLoader", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ZenjectSceneLoader(ZenjectSceneLoader&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ZenjectSceneLoader", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ZenjectSceneLoader(ZenjectSceneLoader const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ZenjectSceneLoader", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ZenjectSceneLoader(ZenjectSceneLoader && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14690 };
+// Ctor Parameters [CppParam { name: "", ty: "ZenjectSceneLoader", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ZenjectSceneLoader(ZenjectSceneLoader const& ) = delete;
 
-  /// @brief Field _projectKernel, offset: 0x10, size: 0x8, def value: None
-  ::UnityW<::Zenject::ProjectKernel> ____projectKernel;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{14694};
 
-  /// @brief Field _sceneContainer, offset: 0x18, size: 0x8, def value: None
-  ::Zenject::DiContainer* ____sceneContainer;
+/// @brief Field _projectKernel, offset: 0x10, size: 0x8, def value: None
+ ::UnityW<::Zenject::ProjectKernel>  ____projectKernel;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _sceneContainer, offset: 0x18, size: 0x8, def value: None
+ ::Zenject::DiContainer*  ____sceneContainer;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Zenject::ZenjectSceneLoader, ____projectKernel) == 0x10, "Offset mismatch!");
@@ -194,6 +182,6 @@ static_assert(offsetof(::Zenject::ZenjectSceneLoader, ____sceneContainer) == 0x1
 
 static_assert(::cordl_internals::size_check_v<::Zenject::ZenjectSceneLoader, 0x20>, "Size mismatch!");
 
-} // namespace Zenject
+} // namespace end def Zenject
 NEED_NO_BOX(::Zenject::ZenjectSceneLoader);
 DEFINE_IL2CPP_ARG_TYPE(::Zenject::ZenjectSceneLoader*, "Zenject", "ZenjectSceneLoader");

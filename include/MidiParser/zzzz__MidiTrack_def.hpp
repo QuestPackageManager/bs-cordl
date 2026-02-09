@@ -10,7 +10,8 @@ namespace MidiParser {
 struct MidiEvent;
 }
 namespace System::Collections::Generic {
-template <typename T> class List_1;
+template<typename T>
+class List_1;
 }
 // Forward declare root types
 namespace MidiParser {
@@ -24,54 +25,54 @@ namespace MidiParser {
 // CS Name: MidiParser.MidiTrack
 class CORDL_TYPE MidiTrack : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field Index, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_Index, put = __cordl_internal_set_Index)) int32_t Index;
+// Declarations
+/// @brief Field Index, offset 0x10, size 0x4 
+ __declspec(property(get=__cordl_internal_get_Index, put=__cordl_internal_set_Index)) int32_t  Index;
 
-  /// @brief Field MidiEvents, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_MidiEvents, put = __cordl_internal_set_MidiEvents)) ::System::Collections::Generic::List_1<::MidiParser::MidiEvent>* MidiEvents;
+/// @brief Field MidiEvents, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_MidiEvents, put=__cordl_internal_set_MidiEvents)) ::System::Collections::Generic::List_1<::MidiParser::MidiEvent>*  MidiEvents;
 
-  static inline ::MidiParser::MidiTrack* New_ctor();
+static inline ::MidiParser::MidiTrack* New_ctor() ;
 
-  constexpr int32_t const& __cordl_internal_get_Index() const;
+constexpr int32_t const& __cordl_internal_get_Index() const;
 
-  constexpr int32_t& __cordl_internal_get_Index();
+constexpr int32_t& __cordl_internal_get_Index() ;
 
-  constexpr ::System::Collections::Generic::List_1<::MidiParser::MidiEvent>* const& __cordl_internal_get_MidiEvents() const;
+constexpr ::System::Collections::Generic::List_1<::MidiParser::MidiEvent>* const& __cordl_internal_get_MidiEvents() const;
 
-  constexpr ::System::Collections::Generic::List_1<::MidiParser::MidiEvent>*& __cordl_internal_get_MidiEvents();
+constexpr ::System::Collections::Generic::List_1<::MidiParser::MidiEvent>*& __cordl_internal_get_MidiEvents() ;
 
-  constexpr void __cordl_internal_set_Index(int32_t value);
+constexpr void __cordl_internal_set_Index(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_MidiEvents(::System::Collections::Generic::List_1<::MidiParser::MidiEvent>* value);
+constexpr void __cordl_internal_set_MidiEvents(::System::Collections::Generic::List_1<::MidiParser::MidiEvent>*  value) ;
 
-  /// @brief Method .ctor, addr 0x58d3634, size 0x74, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x58d3b40, size 0x74, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MidiTrack();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr MidiTrack() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MidiTrack", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  MidiTrack(MidiTrack&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MidiTrack", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  MidiTrack(MidiTrack const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "MidiTrack", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+MidiTrack(MidiTrack && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23225 };
+// Ctor Parameters [CppParam { name: "", ty: "MidiTrack", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+MidiTrack(MidiTrack const& ) = delete;
 
-  /// @brief Field Index, offset: 0x10, size: 0x4, def value: None
-  int32_t ___Index;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{23229};
 
-  /// @brief Field MidiEvents, offset: 0x18, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::MidiParser::MidiEvent>* ___MidiEvents;
+/// @brief Field Index, offset: 0x10, size: 0x4, def value: None
+ int32_t  ___Index;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field MidiEvents, offset: 0x18, size: 0x8, def value: None
+ ::System::Collections::Generic::List_1<::MidiParser::MidiEvent>*  ___MidiEvents;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::MidiParser::MidiTrack, ___Index) == 0x10, "Offset mismatch!");
@@ -80,6 +81,6 @@ static_assert(offsetof(::MidiParser::MidiTrack, ___MidiEvents) == 0x18, "Offset 
 
 static_assert(::cordl_internals::size_check_v<::MidiParser::MidiTrack, 0x20>, "Size mismatch!");
 
-} // namespace MidiParser
+} // namespace end def MidiParser
 NEED_NO_BOX(::MidiParser::MidiTrack);
 DEFINE_IL2CPP_ARG_TYPE(::MidiParser::MidiTrack*, "MidiParser", "MidiTrack");

@@ -5,25 +5,31 @@
 #include "GlobalNamespace/zzzz__ColorSchemeNetSerializable_def.hpp"
 #include "GlobalNamespace/zzzz__ColorScheme_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::ColorSchemeConverter.FromNetSerializable
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::ColorScheme* (*)(::GlobalNamespace::ColorSchemeNetSerializable)>(
-    &::GlobalNamespace::ColorSchemeConverter::FromNetSerializable)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::ColorScheme* (*)(::GlobalNamespace::ColorSchemeNetSerializable)>(&::GlobalNamespace::ColorSchemeConverter::FromNetSerializable)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x5747060;
+  constexpr static std::size_t addrs = 0x5747994;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorSchemeConverter*>::get(), "FromNetSerializable", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ColorSchemeNetSerializable>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorSchemeConverter*>::get(),
+                        "FromNetSerializable",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ColorSchemeNetSerializable>::get()}
+                    )));
     return ___internal_method;
   }
 };
-inline ::GlobalNamespace::ColorScheme* GlobalNamespace::ColorSchemeConverter::FromNetSerializable(::GlobalNamespace::ColorSchemeNetSerializable serialized) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorSchemeConverter*>::get(), "FromNetSerializable", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ColorSchemeNetSerializable>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::ColorScheme*, false>(nullptr, ___internal_method, serialized);
+inline ::GlobalNamespace::ColorScheme* GlobalNamespace::ColorSchemeConverter::FromNetSerializable(::GlobalNamespace::ColorSchemeNetSerializable  serialized)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorSchemeConverter*>::get(),
+                        "FromNetSerializable",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ColorSchemeNetSerializable>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::ColorScheme*, false>(nullptr, ___internal_method, serialized);
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::ColorSchemeConverter::ColorSchemeConverter() {}
+constexpr ::GlobalNamespace::ColorSchemeConverter::ColorSchemeConverter()   {
+}

@@ -18,81 +18,81 @@ namespace System::Runtime::Serialization::Formatters::Binary {
 // CS Name: System.Runtime.Serialization.Formatters.Binary.TypeInformation
 class CORDL_TYPE TypeInformation : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(get = get_AssemblyString)) ::StringW AssemblyString;
+// Declarations
+ __declspec(property(get=get_AssemblyString)) ::StringW  AssemblyString;
 
-  __declspec(property(get = get_FullTypeName)) ::StringW FullTypeName;
+ __declspec(property(get=get_FullTypeName)) ::StringW  FullTypeName;
 
-  __declspec(property(get = get_HasTypeForwardedFrom)) bool HasTypeForwardedFrom;
+ __declspec(property(get=get_HasTypeForwardedFrom)) bool  HasTypeForwardedFrom;
 
-  /// @brief Field assemblyString, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_assemblyString, put = __cordl_internal_set_assemblyString)) ::StringW assemblyString;
+/// @brief Field assemblyString, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_assemblyString, put=__cordl_internal_set_assemblyString)) ::StringW  assemblyString;
 
-  /// @brief Field fullTypeName, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_fullTypeName, put = __cordl_internal_set_fullTypeName)) ::StringW fullTypeName;
+/// @brief Field fullTypeName, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_fullTypeName, put=__cordl_internal_set_fullTypeName)) ::StringW  fullTypeName;
 
-  /// @brief Field hasTypeForwardedFrom, offset 0x20, size 0x1
-  __declspec(property(get = __cordl_internal_get_hasTypeForwardedFrom, put = __cordl_internal_set_hasTypeForwardedFrom)) bool hasTypeForwardedFrom;
+/// @brief Field hasTypeForwardedFrom, offset 0x20, size 0x1 
+ __declspec(property(get=__cordl_internal_get_hasTypeForwardedFrom, put=__cordl_internal_set_hasTypeForwardedFrom)) bool  hasTypeForwardedFrom;
 
-  static inline ::System::Runtime::Serialization::Formatters::Binary::TypeInformation* New_ctor(::StringW fullTypeName, ::StringW assemblyString, bool hasTypeForwardedFrom);
+static inline ::System::Runtime::Serialization::Formatters::Binary::TypeInformation* New_ctor(::StringW  fullTypeName, ::StringW  assemblyString, bool  hasTypeForwardedFrom) ;
 
-  constexpr ::StringW const& __cordl_internal_get_assemblyString() const;
+constexpr ::StringW const& __cordl_internal_get_assemblyString() const;
 
-  constexpr ::StringW& __cordl_internal_get_assemblyString();
+constexpr ::StringW& __cordl_internal_get_assemblyString() ;
 
-  constexpr ::StringW const& __cordl_internal_get_fullTypeName() const;
+constexpr ::StringW const& __cordl_internal_get_fullTypeName() const;
 
-  constexpr ::StringW& __cordl_internal_get_fullTypeName();
+constexpr ::StringW& __cordl_internal_get_fullTypeName() ;
 
-  constexpr bool const& __cordl_internal_get_hasTypeForwardedFrom() const;
+constexpr bool const& __cordl_internal_get_hasTypeForwardedFrom() const;
 
-  constexpr bool& __cordl_internal_get_hasTypeForwardedFrom();
+constexpr bool& __cordl_internal_get_hasTypeForwardedFrom() ;
 
-  constexpr void __cordl_internal_set_assemblyString(::StringW value);
+constexpr void __cordl_internal_set_assemblyString(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_fullTypeName(::StringW value);
+constexpr void __cordl_internal_set_fullTypeName(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_hasTypeForwardedFrom(bool value);
+constexpr void __cordl_internal_set_hasTypeForwardedFrom(bool  value) ;
 
-  /// @brief Method .ctor, addr 0x59b09d8, size 0xc, virtual false, abstract: false, final false
-  inline void _ctor(::StringW fullTypeName, ::StringW assemblyString, bool hasTypeForwardedFrom);
+/// @brief Method .ctor, addr 0x59b0ee4, size 0xc, virtual false, abstract: false, final false
+inline void _ctor(::StringW  fullTypeName, ::StringW  assemblyString, bool  hasTypeForwardedFrom) ;
 
-  /// @brief Method get_AssemblyString, addr 0x59b09c8, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_AssemblyString();
+/// @brief Method get_AssemblyString, addr 0x59b0ed4, size 0x8, virtual false, abstract: false, final false
+inline ::StringW get_AssemblyString() ;
 
-  /// @brief Method get_FullTypeName, addr 0x59b09c0, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_FullTypeName();
+/// @brief Method get_FullTypeName, addr 0x59b0ecc, size 0x8, virtual false, abstract: false, final false
+inline ::StringW get_FullTypeName() ;
 
-  /// @brief Method get_HasTypeForwardedFrom, addr 0x59b09d0, size 0x8, virtual false, abstract: false, final false
-  inline bool get_HasTypeForwardedFrom();
+/// @brief Method get_HasTypeForwardedFrom, addr 0x59b0edc, size 0x8, virtual false, abstract: false, final false
+inline bool get_HasTypeForwardedFrom() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TypeInformation();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr TypeInformation() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TypeInformation", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  TypeInformation(TypeInformation&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TypeInformation", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  TypeInformation(TypeInformation const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "TypeInformation", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+TypeInformation(TypeInformation && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3298 };
+// Ctor Parameters [CppParam { name: "", ty: "TypeInformation", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+TypeInformation(TypeInformation const& ) = delete;
 
-  /// @brief Field fullTypeName, offset: 0x10, size: 0x8, def value: None
-  ::StringW ___fullTypeName;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{3298};
 
-  /// @brief Field assemblyString, offset: 0x18, size: 0x8, def value: None
-  ::StringW ___assemblyString;
+/// @brief Field fullTypeName, offset: 0x10, size: 0x8, def value: None
+ ::StringW  ___fullTypeName;
 
-  /// @brief Field hasTypeForwardedFrom, offset: 0x20, size: 0x1, def value: None
-  bool ___hasTypeForwardedFrom;
+/// @brief Field assemblyString, offset: 0x18, size: 0x8, def value: None
+ ::StringW  ___assemblyString;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field hasTypeForwardedFrom, offset: 0x20, size: 0x1, def value: None
+ bool  ___hasTypeForwardedFrom;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::TypeInformation, ___fullTypeName) == 0x10, "Offset mismatch!");
@@ -103,6 +103,6 @@ static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::Typ
 
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::Formatters::Binary::TypeInformation, 0x28>, "Size mismatch!");
 
-} // namespace System::Runtime::Serialization::Formatters::Binary
+} // namespace end def System::Runtime::Serialization::Formatters::Binary
 NEED_NO_BOX(::System::Runtime::Serialization::Formatters::Binary::TypeInformation);
 DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::Formatters::Binary::TypeInformation*, "System.Runtime.Serialization.Formatters.Binary", "TypeInformation");

@@ -27,70 +27,69 @@ namespace System::Threading::Tasks {
 // CS Name: System.Threading.Tasks.StandardTaskContinuation
 class CORDL_TYPE StandardTaskContinuation : public ::System::Threading::Tasks::TaskContinuation {
 public:
-  // Declarations
-  /// @brief Field m_options, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_options, put = __cordl_internal_set_m_options)) ::System::Threading::Tasks::TaskContinuationOptions m_options;
+// Declarations
+/// @brief Field m_options, offset 0x18, size 0x4 
+ __declspec(property(get=__cordl_internal_get_m_options, put=__cordl_internal_set_m_options)) ::System::Threading::Tasks::TaskContinuationOptions  m_options;
 
-  /// @brief Field m_task, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_task, put = __cordl_internal_set_m_task)) ::System::Threading::Tasks::Task* m_task;
+/// @brief Field m_task, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_task, put=__cordl_internal_set_m_task)) ::System::Threading::Tasks::Task*  m_task;
 
-  /// @brief Field m_taskScheduler, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_taskScheduler, put = __cordl_internal_set_m_taskScheduler)) ::System::Threading::Tasks::TaskScheduler* m_taskScheduler;
+/// @brief Field m_taskScheduler, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_taskScheduler, put=__cordl_internal_set_m_taskScheduler)) ::System::Threading::Tasks::TaskScheduler*  m_taskScheduler;
 
-  static inline ::System::Threading::Tasks::StandardTaskContinuation* New_ctor(::System::Threading::Tasks::Task* task, ::System::Threading::Tasks::TaskContinuationOptions options,
-                                                                               ::System::Threading::Tasks::TaskScheduler* scheduler);
+static inline ::System::Threading::Tasks::StandardTaskContinuation* New_ctor(::System::Threading::Tasks::Task*  task, ::System::Threading::Tasks::TaskContinuationOptions  options, ::System::Threading::Tasks::TaskScheduler*  scheduler) ;
 
-  /// @brief Method Run, addr 0x5b15da0, size 0x19c, virtual true, abstract: false, final false
-  inline void Run(::System::Threading::Tasks::Task* completedTask, bool bCanInlineContinuationTask);
+/// @brief Method Run, addr 0x5b162ac, size 0x19c, virtual true, abstract: false, final false
+inline void Run(::System::Threading::Tasks::Task*  completedTask, bool  bCanInlineContinuationTask) ;
 
-  constexpr ::System::Threading::Tasks::TaskContinuationOptions const& __cordl_internal_get_m_options() const;
+constexpr ::System::Threading::Tasks::TaskContinuationOptions const& __cordl_internal_get_m_options() const;
 
-  constexpr ::System::Threading::Tasks::TaskContinuationOptions& __cordl_internal_get_m_options();
+constexpr ::System::Threading::Tasks::TaskContinuationOptions& __cordl_internal_get_m_options() ;
 
-  constexpr ::System::Threading::Tasks::Task* const& __cordl_internal_get_m_task() const;
+constexpr ::System::Threading::Tasks::Task* const& __cordl_internal_get_m_task() const;
 
-  constexpr ::System::Threading::Tasks::Task*& __cordl_internal_get_m_task();
+constexpr ::System::Threading::Tasks::Task*& __cordl_internal_get_m_task() ;
 
-  constexpr ::System::Threading::Tasks::TaskScheduler* const& __cordl_internal_get_m_taskScheduler() const;
+constexpr ::System::Threading::Tasks::TaskScheduler* const& __cordl_internal_get_m_taskScheduler() const;
 
-  constexpr ::System::Threading::Tasks::TaskScheduler*& __cordl_internal_get_m_taskScheduler();
+constexpr ::System::Threading::Tasks::TaskScheduler*& __cordl_internal_get_m_taskScheduler() ;
 
-  constexpr void __cordl_internal_set_m_options(::System::Threading::Tasks::TaskContinuationOptions value);
+constexpr void __cordl_internal_set_m_options(::System::Threading::Tasks::TaskContinuationOptions  value) ;
 
-  constexpr void __cordl_internal_set_m_task(::System::Threading::Tasks::Task* value);
+constexpr void __cordl_internal_set_m_task(::System::Threading::Tasks::Task*  value) ;
 
-  constexpr void __cordl_internal_set_m_taskScheduler(::System::Threading::Tasks::TaskScheduler* value);
+constexpr void __cordl_internal_set_m_taskScheduler(::System::Threading::Tasks::TaskScheduler*  value) ;
 
-  /// @brief Method .ctor, addr 0x5b1285c, size 0x12c, virtual false, abstract: false, final false
-  inline void _ctor(::System::Threading::Tasks::Task* task, ::System::Threading::Tasks::TaskContinuationOptions options, ::System::Threading::Tasks::TaskScheduler* scheduler);
+/// @brief Method .ctor, addr 0x5b12d68, size 0x12c, virtual false, abstract: false, final false
+inline void _ctor(::System::Threading::Tasks::Task*  task, ::System::Threading::Tasks::TaskContinuationOptions  options, ::System::Threading::Tasks::TaskScheduler*  scheduler) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr StandardTaskContinuation();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr StandardTaskContinuation() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StandardTaskContinuation", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  StandardTaskContinuation(StandardTaskContinuation&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StandardTaskContinuation", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  StandardTaskContinuation(StandardTaskContinuation const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "StandardTaskContinuation", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+StandardTaskContinuation(StandardTaskContinuation && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2818 };
+// Ctor Parameters [CppParam { name: "", ty: "StandardTaskContinuation", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+StandardTaskContinuation(StandardTaskContinuation const& ) = delete;
 
-  /// @brief Field m_task, offset: 0x10, size: 0x8, def value: None
-  ::System::Threading::Tasks::Task* ___m_task;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{2818};
 
-  /// @brief Field m_options, offset: 0x18, size: 0x4, def value: None
-  ::System::Threading::Tasks::TaskContinuationOptions ___m_options;
+/// @brief Field m_task, offset: 0x10, size: 0x8, def value: None
+ ::System::Threading::Tasks::Task*  ___m_task;
 
-  /// @brief Field m_taskScheduler, offset: 0x20, size: 0x8, def value: None
-  ::System::Threading::Tasks::TaskScheduler* ___m_taskScheduler;
+/// @brief Field m_options, offset: 0x18, size: 0x4, def value: None
+ ::System::Threading::Tasks::TaskContinuationOptions  ___m_options;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field m_taskScheduler, offset: 0x20, size: 0x8, def value: None
+ ::System::Threading::Tasks::TaskScheduler*  ___m_taskScheduler;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Threading::Tasks::StandardTaskContinuation, ___m_task) == 0x10, "Offset mismatch!");
@@ -101,6 +100,6 @@ static_assert(offsetof(::System::Threading::Tasks::StandardTaskContinuation, ___
 
 static_assert(::cordl_internals::size_check_v<::System::Threading::Tasks::StandardTaskContinuation, 0x28>, "Size mismatch!");
 
-} // namespace System::Threading::Tasks
+} // namespace end def System::Threading::Tasks
 NEED_NO_BOX(::System::Threading::Tasks::StandardTaskContinuation);
 DEFINE_IL2CPP_ARG_TYPE(::System::Threading::Tasks::StandardTaskContinuation*, "System.Threading.Tasks", "StandardTaskContinuation");

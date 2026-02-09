@@ -32,64 +32,64 @@ namespace System::Security {
 // CS Name: System.Security.SecurityElement/SecurityAttribute
 class CORDL_TYPE SecurityElement_SecurityAttribute : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(get = get_Name)) ::StringW Name;
+// Declarations
+ __declspec(property(get=get_Name)) ::StringW  Name;
 
-  __declspec(property(get = get_Value)) ::StringW Value;
+ __declspec(property(get=get_Value)) ::StringW  Value;
 
-  /// @brief Field _name, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__name, put = __cordl_internal_set__name)) ::StringW _name;
+/// @brief Field _name, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get__name, put=__cordl_internal_set__name)) ::StringW  _name;
 
-  /// @brief Field _value, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__value, put = __cordl_internal_set__value)) ::StringW _value;
+/// @brief Field _value, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get__value, put=__cordl_internal_set__value)) ::StringW  _value;
 
-  static inline ::System::Security::SecurityElement_SecurityAttribute* New_ctor(::StringW name, ::StringW value);
+static inline ::System::Security::SecurityElement_SecurityAttribute* New_ctor(::StringW  name, ::StringW  value) ;
 
-  constexpr ::StringW const& __cordl_internal_get__name() const;
+constexpr ::StringW const& __cordl_internal_get__name() const;
 
-  constexpr ::StringW& __cordl_internal_get__name();
+constexpr ::StringW& __cordl_internal_get__name() ;
 
-  constexpr ::StringW const& __cordl_internal_get__value() const;
+constexpr ::StringW const& __cordl_internal_get__value() const;
 
-  constexpr ::StringW& __cordl_internal_get__value();
+constexpr ::StringW& __cordl_internal_get__value() ;
 
-  constexpr void __cordl_internal_set__name(::StringW value);
+constexpr void __cordl_internal_set__name(::StringW  value) ;
 
-  constexpr void __cordl_internal_set__value(::StringW value);
+constexpr void __cordl_internal_set__value(::StringW  value) ;
 
-  /// @brief Method .ctor, addr 0x59410f4, size 0x144, virtual false, abstract: false, final false
-  inline void _ctor(::StringW name, ::StringW value);
+/// @brief Method .ctor, addr 0x5941600, size 0x144, virtual false, abstract: false, final false
+inline void _ctor(::StringW  name, ::StringW  value) ;
 
-  /// @brief Method get_Name, addr 0x594216c, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_Name();
+/// @brief Method get_Name, addr 0x5942678, size 0x8, virtual false, abstract: false, final false
+inline ::StringW get_Name() ;
 
-  /// @brief Method get_Value, addr 0x5942174, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_Value();
+/// @brief Method get_Value, addr 0x5942680, size 0x8, virtual false, abstract: false, final false
+inline ::StringW get_Value() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SecurityElement_SecurityAttribute();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr SecurityElement_SecurityAttribute() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SecurityElement_SecurityAttribute", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  SecurityElement_SecurityAttribute(SecurityElement_SecurityAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SecurityElement_SecurityAttribute", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  SecurityElement_SecurityAttribute(SecurityElement_SecurityAttribute const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "SecurityElement_SecurityAttribute", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+SecurityElement_SecurityAttribute(SecurityElement_SecurityAttribute && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2907 };
+// Ctor Parameters [CppParam { name: "", ty: "SecurityElement_SecurityAttribute", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+SecurityElement_SecurityAttribute(SecurityElement_SecurityAttribute const& ) = delete;
 
-  /// @brief Field _name, offset: 0x10, size: 0x8, def value: None
-  ::StringW ____name;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{2907};
 
-  /// @brief Field _value, offset: 0x18, size: 0x8, def value: None
-  ::StringW ____value;
+/// @brief Field _name, offset: 0x10, size: 0x8, def value: None
+ ::StringW  ____name;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _value, offset: 0x18, size: 0x8, def value: None
+ ::StringW  ____value;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Security::SecurityElement_SecurityAttribute, ____name) == 0x10, "Offset mismatch!");
@@ -98,186 +98,186 @@ static_assert(offsetof(::System::Security::SecurityElement_SecurityAttribute, __
 
 static_assert(::cordl_internals::size_check_v<::System::Security::SecurityElement_SecurityAttribute, 0x20>, "Size mismatch!");
 
-} // namespace System::Security
+} // namespace end def System::Security
 // Dependencies System.Object
 namespace System::Security {
 // Is value type: false
 // CS Name: System.Security.SecurityElement
 class CORDL_TYPE SecurityElement : public ::System::Object {
 public:
-  // Declarations
-  using SecurityAttribute = ::System::Security::SecurityElement_SecurityAttribute;
+// Declarations
+using SecurityAttribute = ::System::Security::SecurityElement_SecurityAttribute;
 
-  __declspec(property(get = get_Children)) ::System::Collections::ArrayList* Children;
+ __declspec(property(get=get_Children)) ::System::Collections::ArrayList*  Children;
 
-  __declspec(property(get = get_Tag)) ::StringW Tag;
+ __declspec(property(get=get_Tag)) ::StringW  Tag;
 
-  __declspec(property(put = set_Text)) ::StringW Text;
+ __declspec(property(put=set_Text)) ::StringW  Text;
 
-  /// @brief Field attributes, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_attributes, put = __cordl_internal_set_attributes)) ::System::Collections::ArrayList* attributes;
+/// @brief Field attributes, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get_attributes, put=__cordl_internal_set_attributes)) ::System::Collections::ArrayList*  attributes;
 
-  /// @brief Field children, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_children, put = __cordl_internal_set_children)) ::System::Collections::ArrayList* children;
+/// @brief Field children, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get_children, put=__cordl_internal_set_children)) ::System::Collections::ArrayList*  children;
 
-  /// @brief Field invalid_attr_name_chars, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_invalid_attr_name_chars, put = setStaticF_invalid_attr_name_chars)) ::ArrayW<char16_t, ::Array<char16_t>*> invalid_attr_name_chars;
+/// @brief Field invalid_attr_name_chars, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_invalid_attr_name_chars, put=setStaticF_invalid_attr_name_chars)) ::ArrayW<char16_t,::Array<char16_t>*>  invalid_attr_name_chars;
 
-  /// @brief Field invalid_attr_value_chars, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_invalid_attr_value_chars, put = setStaticF_invalid_attr_value_chars)) ::ArrayW<char16_t, ::Array<char16_t>*> invalid_attr_value_chars;
+/// @brief Field invalid_attr_value_chars, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_invalid_attr_value_chars, put=setStaticF_invalid_attr_value_chars)) ::ArrayW<char16_t,::Array<char16_t>*>  invalid_attr_value_chars;
 
-  /// @brief Field invalid_chars, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_invalid_chars, put = setStaticF_invalid_chars)) ::ArrayW<char16_t, ::Array<char16_t>*> invalid_chars;
+/// @brief Field invalid_chars, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_invalid_chars, put=setStaticF_invalid_chars)) ::ArrayW<char16_t,::Array<char16_t>*>  invalid_chars;
 
-  /// @brief Field invalid_tag_chars, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_invalid_tag_chars, put = setStaticF_invalid_tag_chars)) ::ArrayW<char16_t, ::Array<char16_t>*> invalid_tag_chars;
+/// @brief Field invalid_tag_chars, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_invalid_tag_chars, put=setStaticF_invalid_tag_chars)) ::ArrayW<char16_t,::Array<char16_t>*>  invalid_tag_chars;
 
-  /// @brief Field invalid_text_chars, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_invalid_text_chars, put = setStaticF_invalid_text_chars)) ::ArrayW<char16_t, ::Array<char16_t>*> invalid_text_chars;
+/// @brief Field invalid_text_chars, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_invalid_text_chars, put=setStaticF_invalid_text_chars)) ::ArrayW<char16_t,::Array<char16_t>*>  invalid_text_chars;
 
-  __declspec(property(put = set_m_strText)) ::StringW m_strText;
+ __declspec(property(put=set_m_strText)) ::StringW  m_strText;
 
-  /// @brief Field tag, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_tag, put = __cordl_internal_set_tag)) ::StringW tag;
+/// @brief Field tag, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_tag, put=__cordl_internal_set_tag)) ::StringW  tag;
 
-  /// @brief Field text, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_text, put = __cordl_internal_set_text)) ::StringW text;
+/// @brief Field text, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_text, put=__cordl_internal_set_text)) ::StringW  text;
 
-  /// @brief Method AddAttribute, addr 0x593ed00, size 0x194, virtual false, abstract: false, final false
-  inline void AddAttribute(::StringW name, ::StringW value);
+/// @brief Method AddAttribute, addr 0x593f20c, size 0x194, virtual false, abstract: false, final false
+inline void AddAttribute(::StringW  name, ::StringW  value) ;
 
-  /// @brief Method AddChild, addr 0x593ee94, size 0xd8, virtual false, abstract: false, final false
-  inline void AddChild(::System::Security::SecurityElement* child);
+/// @brief Method AddChild, addr 0x593f3a0, size 0xd8, virtual false, abstract: false, final false
+inline void AddChild(::System::Security::SecurityElement*  child) ;
 
-  /// @brief Method Escape, addr 0x5941238, size 0x238, virtual false, abstract: false, final false
-  static inline ::StringW Escape(::StringW str);
+/// @brief Method Escape, addr 0x5941744, size 0x238, virtual false, abstract: false, final false
+static inline ::StringW Escape(::StringW  str) ;
 
-  /// @brief Method GetAttribute, addr 0x5940e20, size 0x2d4, virtual false, abstract: false, final false
-  inline ::System::Security::SecurityElement_SecurityAttribute* GetAttribute(::StringW name);
+/// @brief Method GetAttribute, addr 0x594132c, size 0x2d4, virtual false, abstract: false, final false
+inline ::System::Security::SecurityElement_SecurityAttribute* GetAttribute(::StringW  name) ;
 
-  /// @brief Method IsValidAttributeName, addr 0x5941470, size 0x84, virtual false, abstract: false, final false
-  static inline bool IsValidAttributeName(::StringW name);
+/// @brief Method IsValidAttributeName, addr 0x594197c, size 0x84, virtual false, abstract: false, final false
+static inline bool IsValidAttributeName(::StringW  name) ;
 
-  /// @brief Method IsValidAttributeValue, addr 0x59414f4, size 0x84, virtual false, abstract: false, final false
-  static inline bool IsValidAttributeValue(::StringW value);
+/// @brief Method IsValidAttributeValue, addr 0x5941a00, size 0x84, virtual false, abstract: false, final false
+static inline bool IsValidAttributeValue(::StringW  value) ;
 
-  /// @brief Method IsValidTag, addr 0x5940a1c, size 0x84, virtual false, abstract: false, final false
-  static inline bool IsValidTag(::StringW tag);
+/// @brief Method IsValidTag, addr 0x5940f28, size 0x84, virtual false, abstract: false, final false
+static inline bool IsValidTag(::StringW  tag) ;
 
-  /// @brief Method IsValidText, addr 0x5940ba8, size 0x84, virtual false, abstract: false, final false
-  static inline bool IsValidText(::StringW text);
+/// @brief Method IsValidText, addr 0x59410b4, size 0x84, virtual false, abstract: false, final false
+static inline bool IsValidText(::StringW  text) ;
 
-  static inline ::System::Security::SecurityElement* New_ctor(::StringW tag);
+static inline ::System::Security::SecurityElement* New_ctor(::StringW  tag) ;
 
-  static inline ::System::Security::SecurityElement* New_ctor(::StringW tag, ::StringW text);
+static inline ::System::Security::SecurityElement* New_ctor(::StringW  tag, ::StringW  text) ;
 
-  /// @brief Method SearchForChildByTag, addr 0x5941578, size 0x124, virtual false, abstract: false, final false
-  inline ::System::Security::SecurityElement* SearchForChildByTag(::StringW tag);
+/// @brief Method SearchForChildByTag, addr 0x5941a84, size 0x124, virtual false, abstract: false, final false
+inline ::System::Security::SecurityElement* SearchForChildByTag(::StringW  tag) ;
 
-  /// @brief Method SearchForTextOfLocalName, addr 0x5941d5c, size 0x280, virtual false, abstract: false, final false
-  inline ::StringW SearchForTextOfLocalName(::StringW strLocalName);
+/// @brief Method SearchForTextOfLocalName, addr 0x5942268, size 0x280, virtual false, abstract: false, final false
+inline ::StringW SearchForTextOfLocalName(::StringW  strLocalName) ;
 
-  /// @brief Method ToString, addr 0x594169c, size 0x88, virtual true, abstract: false, final false
-  inline ::StringW ToString();
+/// @brief Method ToString, addr 0x5941ba8, size 0x88, virtual true, abstract: false, final false
+inline ::StringW ToString() ;
 
-  /// @brief Method ToXml, addr 0x5941724, size 0x630, virtual false, abstract: false, final false
-  inline void ToXml(::ByRef<::System::Text::StringBuilder*> s, int32_t level);
+/// @brief Method ToXml, addr 0x5941c30, size 0x630, virtual false, abstract: false, final false
+inline void ToXml(::ByRef<::System::Text::StringBuilder*>  s, int32_t  level) ;
 
-  /// @brief Method Unescape, addr 0x5940c2c, size 0x1f4, virtual false, abstract: false, final false
-  static inline ::StringW Unescape(::StringW str);
+/// @brief Method Unescape, addr 0x5941138, size 0x1f4, virtual false, abstract: false, final false
+static inline ::StringW Unescape(::StringW  str) ;
 
-  constexpr ::System::Collections::ArrayList* const& __cordl_internal_get_attributes() const;
+constexpr ::System::Collections::ArrayList* const& __cordl_internal_get_attributes() const;
 
-  constexpr ::System::Collections::ArrayList*& __cordl_internal_get_attributes();
+constexpr ::System::Collections::ArrayList*& __cordl_internal_get_attributes() ;
 
-  constexpr ::System::Collections::ArrayList* const& __cordl_internal_get_children() const;
+constexpr ::System::Collections::ArrayList* const& __cordl_internal_get_children() const;
 
-  constexpr ::System::Collections::ArrayList*& __cordl_internal_get_children();
+constexpr ::System::Collections::ArrayList*& __cordl_internal_get_children() ;
 
-  constexpr ::StringW const& __cordl_internal_get_tag() const;
+constexpr ::StringW const& __cordl_internal_get_tag() const;
 
-  constexpr ::StringW& __cordl_internal_get_tag();
+constexpr ::StringW& __cordl_internal_get_tag() ;
 
-  constexpr ::StringW const& __cordl_internal_get_text() const;
+constexpr ::StringW const& __cordl_internal_get_text() const;
 
-  constexpr ::StringW& __cordl_internal_get_text();
+constexpr ::StringW& __cordl_internal_get_text() ;
 
-  constexpr void __cordl_internal_set_attributes(::System::Collections::ArrayList* value);
+constexpr void __cordl_internal_set_attributes(::System::Collections::ArrayList*  value) ;
 
-  constexpr void __cordl_internal_set_children(::System::Collections::ArrayList* value);
+constexpr void __cordl_internal_set_children(::System::Collections::ArrayList*  value) ;
 
-  constexpr void __cordl_internal_set_tag(::StringW value);
+constexpr void __cordl_internal_set_tag(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_text(::StringW value);
+constexpr void __cordl_internal_set_text(::StringW  value) ;
 
-  /// @brief Method .ctor, addr 0x593ecf8, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::StringW tag);
+/// @brief Method .ctor, addr 0x593f204, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(::StringW  tag) ;
 
-  /// @brief Method .ctor, addr 0x59408e8, size 0x134, virtual false, abstract: false, final false
-  inline void _ctor(::StringW tag, ::StringW text);
+/// @brief Method .ctor, addr 0x5940df4, size 0x134, virtual false, abstract: false, final false
+inline void _ctor(::StringW  tag, ::StringW  text) ;
 
-  static inline ::ArrayW<char16_t, ::Array<char16_t>*> getStaticF_invalid_attr_name_chars();
+static inline ::ArrayW<char16_t,::Array<char16_t>*> getStaticF_invalid_attr_name_chars() ;
 
-  static inline ::ArrayW<char16_t, ::Array<char16_t>*> getStaticF_invalid_attr_value_chars();
+static inline ::ArrayW<char16_t,::Array<char16_t>*> getStaticF_invalid_attr_value_chars() ;
 
-  static inline ::ArrayW<char16_t, ::Array<char16_t>*> getStaticF_invalid_chars();
+static inline ::ArrayW<char16_t,::Array<char16_t>*> getStaticF_invalid_chars() ;
 
-  static inline ::ArrayW<char16_t, ::Array<char16_t>*> getStaticF_invalid_tag_chars();
+static inline ::ArrayW<char16_t,::Array<char16_t>*> getStaticF_invalid_tag_chars() ;
 
-  static inline ::ArrayW<char16_t, ::Array<char16_t>*> getStaticF_invalid_text_chars();
+static inline ::ArrayW<char16_t,::Array<char16_t>*> getStaticF_invalid_text_chars() ;
 
-  /// @brief Method get_Children, addr 0x5940b98, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Collections::ArrayList* get_Children();
+/// @brief Method get_Children, addr 0x59410a4, size 0x8, virtual false, abstract: false, final false
+inline ::System::Collections::ArrayList* get_Children() ;
 
-  /// @brief Method get_Tag, addr 0x5940ba0, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_Tag();
+/// @brief Method get_Tag, addr 0x59410ac, size 0x8, virtual false, abstract: false, final false
+inline ::StringW get_Tag() ;
 
-  static inline void setStaticF_invalid_attr_name_chars(::ArrayW<char16_t, ::Array<char16_t>*> value);
+static inline void setStaticF_invalid_attr_name_chars(::ArrayW<char16_t,::Array<char16_t>*>  value) ;
 
-  static inline void setStaticF_invalid_attr_value_chars(::ArrayW<char16_t, ::Array<char16_t>*> value);
+static inline void setStaticF_invalid_attr_value_chars(::ArrayW<char16_t,::Array<char16_t>*>  value) ;
 
-  static inline void setStaticF_invalid_chars(::ArrayW<char16_t, ::Array<char16_t>*> value);
+static inline void setStaticF_invalid_chars(::ArrayW<char16_t,::Array<char16_t>*>  value) ;
 
-  static inline void setStaticF_invalid_tag_chars(::ArrayW<char16_t, ::Array<char16_t>*> value);
+static inline void setStaticF_invalid_tag_chars(::ArrayW<char16_t,::Array<char16_t>*>  value) ;
 
-  static inline void setStaticF_invalid_text_chars(::ArrayW<char16_t, ::Array<char16_t>*> value);
+static inline void setStaticF_invalid_text_chars(::ArrayW<char16_t,::Array<char16_t>*>  value) ;
 
-  /// @brief Method set_Text, addr 0x5940aa0, size 0xf8, virtual false, abstract: false, final false
-  inline void set_Text(::StringW value);
+/// @brief Method set_Text, addr 0x5940fac, size 0xf8, virtual false, abstract: false, final false
+inline void set_Text(::StringW  value) ;
 
-  /// @brief Method set_m_strText, addr 0x5941d54, size 0x8, virtual false, abstract: false, final false
-  inline void set_m_strText(::StringW value);
+/// @brief Method set_m_strText, addr 0x5942260, size 0x8, virtual false, abstract: false, final false
+inline void set_m_strText(::StringW  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SecurityElement();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr SecurityElement() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SecurityElement", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  SecurityElement(SecurityElement&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SecurityElement", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  SecurityElement(SecurityElement const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "SecurityElement", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+SecurityElement(SecurityElement && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2908 };
+// Ctor Parameters [CppParam { name: "", ty: "SecurityElement", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+SecurityElement(SecurityElement const& ) = delete;
 
-  /// @brief Field text, offset: 0x10, size: 0x8, def value: None
-  ::StringW ___text;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{2908};
 
-  /// @brief Field tag, offset: 0x18, size: 0x8, def value: None
-  ::StringW ___tag;
+/// @brief Field text, offset: 0x10, size: 0x8, def value: None
+ ::StringW  ___text;
 
-  /// @brief Field attributes, offset: 0x20, size: 0x8, def value: None
-  ::System::Collections::ArrayList* ___attributes;
+/// @brief Field tag, offset: 0x18, size: 0x8, def value: None
+ ::StringW  ___tag;
 
-  /// @brief Field children, offset: 0x28, size: 0x8, def value: None
-  ::System::Collections::ArrayList* ___children;
+/// @brief Field attributes, offset: 0x20, size: 0x8, def value: None
+ ::System::Collections::ArrayList*  ___attributes;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field children, offset: 0x28, size: 0x8, def value: None
+ ::System::Collections::ArrayList*  ___children;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Security::SecurityElement, ___text) == 0x10, "Offset mismatch!");
@@ -290,7 +290,7 @@ static_assert(offsetof(::System::Security::SecurityElement, ___children) == 0x28
 
 static_assert(::cordl_internals::size_check_v<::System::Security::SecurityElement, 0x30>, "Size mismatch!");
 
-} // namespace System::Security
+} // namespace end def System::Security
 NEED_NO_BOX(::System::Security::SecurityElement);
 DEFINE_IL2CPP_ARG_TYPE(::System::Security::SecurityElement*, "System.Security", "SecurityElement");
 NEED_NO_BOX(::System::Security::SecurityElement_SecurityAttribute);

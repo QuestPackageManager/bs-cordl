@@ -21,40 +21,40 @@ namespace Org::BouncyCastle::Bcpg {
 // CS Name: Org.BouncyCastle.Bcpg.ContainedPacket
 class CORDL_TYPE ContainedPacket : public ::Org::BouncyCastle::Bcpg::Packet {
 public:
-  // Declarations
-  /// @brief Method Encode, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void Encode(::Org::BouncyCastle::Bcpg::BcpgOutputStream* bcpgOut);
+// Declarations
+/// @brief Method Encode, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline void Encode(::Org::BouncyCastle::Bcpg::BcpgOutputStream*  bcpgOut) ;
 
-  /// @brief Method GetEncoded, addr 0x35a14bc, size 0xb8, virtual false, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncoded();
+/// @brief Method GetEncoded, addr 0x35a140c, size 0xb8, virtual false, abstract: false, final false
+inline ::ArrayW<uint8_t,::Array<uint8_t>*> GetEncoded() ;
 
-  static inline ::Org::BouncyCastle::Bcpg::ContainedPacket* New_ctor();
+static inline ::Org::BouncyCastle::Bcpg::ContainedPacket* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x35a1574, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x35a14c4, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ContainedPacket();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ContainedPacket() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ContainedPacket", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ContainedPacket(ContainedPacket&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ContainedPacket", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ContainedPacket(ContainedPacket const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ContainedPacket", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ContainedPacket(ContainedPacket && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 560 };
+// Ctor Parameters [CppParam { name: "", ty: "ContainedPacket", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ContainedPacket(ContainedPacket const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{560};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Bcpg::ContainedPacket, 0x10>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Bcpg
+} // namespace end def Org::BouncyCastle::Bcpg
 NEED_NO_BOX(::Org::BouncyCastle::Bcpg::ContainedPacket);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Bcpg::ContainedPacket*, "Org.BouncyCastle.Bcpg", "ContainedPacket");

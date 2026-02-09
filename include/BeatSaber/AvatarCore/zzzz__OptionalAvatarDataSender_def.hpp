@@ -37,112 +37,108 @@ namespace BeatSaber::AvatarCore {
 // CS Name: BeatSaber.AvatarCore.OptionalAvatarDataSender
 class CORDL_TYPE OptionalAvatarDataSender : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field _avatarSystemCollection, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__avatarSystemCollection, put = __cordl_internal_set__avatarSystemCollection)) ::BeatSaber::AvatarCore::AvatarSystemCollection* _avatarSystemCollection;
+// Declarations
+/// @brief Field _avatarSystemCollection, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get__avatarSystemCollection, put=__cordl_internal_set__avatarSystemCollection)) ::BeatSaber::AvatarCore::AvatarSystemCollection*  _avatarSystemCollection;
 
-  /// @brief Field _currentAvatarDisplayContext, offset 0x28, size 0x4
-  __declspec(property(get = __cordl_internal_get__currentAvatarDisplayContext,
-                      put = __cordl_internal_set__currentAvatarDisplayContext)) ::BeatSaber::AvatarCore::AvatarDisplayContext _currentAvatarDisplayContext;
+/// @brief Field _currentAvatarDisplayContext, offset 0x28, size 0x4 
+ __declspec(property(get=__cordl_internal_get__currentAvatarDisplayContext, put=__cordl_internal_set__currentAvatarDisplayContext)) ::BeatSaber::AvatarCore::AvatarDisplayContext  _currentAvatarDisplayContext;
 
-  /// @brief Field _optionalAvatarDataProvider, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__optionalAvatarDataProvider,
-                      put = __cordl_internal_set__optionalAvatarDataProvider)) ::BeatSaber::AvatarCore::IOptionalAvatarDataProvider* _optionalAvatarDataProvider;
+/// @brief Field _optionalAvatarDataProvider, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get__optionalAvatarDataProvider, put=__cordl_internal_set__optionalAvatarDataProvider)) ::BeatSaber::AvatarCore::IOptionalAvatarDataProvider*  _optionalAvatarDataProvider;
 
-  /// @brief Field _optionalAvatarDataSyncHandler, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__optionalAvatarDataSyncHandler,
-                      put = __cordl_internal_set__optionalAvatarDataSyncHandler)) ::BeatSaber::AvatarCore::OptionalAvatarDataSyncHandler* _optionalAvatarDataSyncHandler;
+/// @brief Field _optionalAvatarDataSyncHandler, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get__optionalAvatarDataSyncHandler, put=__cordl_internal_set__optionalAvatarDataSyncHandler)) ::BeatSaber::AvatarCore::OptionalAvatarDataSyncHandler*  _optionalAvatarDataSyncHandler;
 
-  /// @brief Field _selectedAvatarTypeId, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__selectedAvatarTypeId, put = __cordl_internal_set__selectedAvatarTypeId)) ::StringW _selectedAvatarTypeId;
+/// @brief Field _selectedAvatarTypeId, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get__selectedAvatarTypeId, put=__cordl_internal_set__selectedAvatarTypeId)) ::StringW  _selectedAvatarTypeId;
 
-  /// @brief Convert operator to "::System::IDisposable"
-  constexpr operator ::System::IDisposable*() noexcept;
+/// @brief Convert operator to "::System::IDisposable"
+constexpr operator  ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x31a19c8, size 0x13c, virtual true, abstract: false, final true
-  inline void Dispose();
+/// @brief Method Dispose, addr 0x31a1918, size 0x13c, virtual true, abstract: false, final true
+inline void Dispose() ;
 
-  /// @brief Method HandleOptionalAvatarDataProviderDataDidChange, addr 0x31a18e0, size 0x14, virtual false, abstract: false, final false
-  inline void HandleOptionalAvatarDataProviderDataDidChange(::BeatSaber::AvatarCore::OptionalAvatarData data);
+/// @brief Method HandleOptionalAvatarDataProviderDataDidChange, addr 0x31a1830, size 0x14, virtual false, abstract: false, final false
+inline void HandleOptionalAvatarDataProviderDataDidChange(::BeatSaber::AvatarCore::OptionalAvatarData  data) ;
 
-  static inline ::BeatSaber::AvatarCore::OptionalAvatarDataSender* New_ctor(::BeatSaber::AvatarCore::AvatarSystemCollection* avatarSystemCollection,
-                                                                            ::BeatSaber::AvatarCore::OptionalAvatarDataSyncHandler* optionalAvatarDataSyncHandler);
+static inline ::BeatSaber::AvatarCore::OptionalAvatarDataSender* New_ctor(::BeatSaber::AvatarCore::AvatarSystemCollection*  avatarSystemCollection, ::BeatSaber::AvatarCore::OptionalAvatarDataSyncHandler*  optionalAvatarDataSyncHandler) ;
 
-  /// @brief Method SetCurrentLocalAvatarDisplayContext, addr 0x31a18f4, size 0xd4, virtual false, abstract: false, final false
-  inline void SetCurrentLocalAvatarDisplayContext(::BeatSaber::AvatarCore::AvatarDisplayContext avatarDisplayContext);
+/// @brief Method SetCurrentLocalAvatarDisplayContext, addr 0x31a1844, size 0xd4, virtual false, abstract: false, final false
+inline void SetCurrentLocalAvatarDisplayContext(::BeatSaber::AvatarCore::AvatarDisplayContext  avatarDisplayContext) ;
 
-  /// @brief Method SetSelectedAvatarTypeId, addr 0x31a14a8, size 0x438, virtual false, abstract: false, final false
-  inline void SetSelectedAvatarTypeId(::StringW selectedAvatarTypeId);
+/// @brief Method SetSelectedAvatarTypeId, addr 0x31a13f8, size 0x438, virtual false, abstract: false, final false
+inline void SetSelectedAvatarTypeId(::StringW  selectedAvatarTypeId) ;
 
-  constexpr ::BeatSaber::AvatarCore::AvatarSystemCollection* const& __cordl_internal_get__avatarSystemCollection() const;
+constexpr ::BeatSaber::AvatarCore::AvatarSystemCollection* const& __cordl_internal_get__avatarSystemCollection() const;
 
-  constexpr ::BeatSaber::AvatarCore::AvatarSystemCollection*& __cordl_internal_get__avatarSystemCollection();
+constexpr ::BeatSaber::AvatarCore::AvatarSystemCollection*& __cordl_internal_get__avatarSystemCollection() ;
 
-  constexpr ::BeatSaber::AvatarCore::AvatarDisplayContext const& __cordl_internal_get__currentAvatarDisplayContext() const;
+constexpr ::BeatSaber::AvatarCore::AvatarDisplayContext const& __cordl_internal_get__currentAvatarDisplayContext() const;
 
-  constexpr ::BeatSaber::AvatarCore::AvatarDisplayContext& __cordl_internal_get__currentAvatarDisplayContext();
+constexpr ::BeatSaber::AvatarCore::AvatarDisplayContext& __cordl_internal_get__currentAvatarDisplayContext() ;
 
-  constexpr ::BeatSaber::AvatarCore::IOptionalAvatarDataProvider* const& __cordl_internal_get__optionalAvatarDataProvider() const;
+constexpr ::BeatSaber::AvatarCore::IOptionalAvatarDataProvider* const& __cordl_internal_get__optionalAvatarDataProvider() const;
 
-  constexpr ::BeatSaber::AvatarCore::IOptionalAvatarDataProvider*& __cordl_internal_get__optionalAvatarDataProvider();
+constexpr ::BeatSaber::AvatarCore::IOptionalAvatarDataProvider*& __cordl_internal_get__optionalAvatarDataProvider() ;
 
-  constexpr ::BeatSaber::AvatarCore::OptionalAvatarDataSyncHandler* const& __cordl_internal_get__optionalAvatarDataSyncHandler() const;
+constexpr ::BeatSaber::AvatarCore::OptionalAvatarDataSyncHandler* const& __cordl_internal_get__optionalAvatarDataSyncHandler() const;
 
-  constexpr ::BeatSaber::AvatarCore::OptionalAvatarDataSyncHandler*& __cordl_internal_get__optionalAvatarDataSyncHandler();
+constexpr ::BeatSaber::AvatarCore::OptionalAvatarDataSyncHandler*& __cordl_internal_get__optionalAvatarDataSyncHandler() ;
 
-  constexpr ::StringW const& __cordl_internal_get__selectedAvatarTypeId() const;
+constexpr ::StringW const& __cordl_internal_get__selectedAvatarTypeId() const;
 
-  constexpr ::StringW& __cordl_internal_get__selectedAvatarTypeId();
+constexpr ::StringW& __cordl_internal_get__selectedAvatarTypeId() ;
 
-  constexpr void __cordl_internal_set__avatarSystemCollection(::BeatSaber::AvatarCore::AvatarSystemCollection* value);
+constexpr void __cordl_internal_set__avatarSystemCollection(::BeatSaber::AvatarCore::AvatarSystemCollection*  value) ;
 
-  constexpr void __cordl_internal_set__currentAvatarDisplayContext(::BeatSaber::AvatarCore::AvatarDisplayContext value);
+constexpr void __cordl_internal_set__currentAvatarDisplayContext(::BeatSaber::AvatarCore::AvatarDisplayContext  value) ;
 
-  constexpr void __cordl_internal_set__optionalAvatarDataProvider(::BeatSaber::AvatarCore::IOptionalAvatarDataProvider* value);
+constexpr void __cordl_internal_set__optionalAvatarDataProvider(::BeatSaber::AvatarCore::IOptionalAvatarDataProvider*  value) ;
 
-  constexpr void __cordl_internal_set__optionalAvatarDataSyncHandler(::BeatSaber::AvatarCore::OptionalAvatarDataSyncHandler* value);
+constexpr void __cordl_internal_set__optionalAvatarDataSyncHandler(::BeatSaber::AvatarCore::OptionalAvatarDataSyncHandler*  value) ;
 
-  constexpr void __cordl_internal_set__selectedAvatarTypeId(::StringW value);
+constexpr void __cordl_internal_set__selectedAvatarTypeId(::StringW  value) ;
 
-  /// @brief Method .ctor, addr 0x31a14a0, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::BeatSaber::AvatarCore::AvatarSystemCollection* avatarSystemCollection, ::BeatSaber::AvatarCore::OptionalAvatarDataSyncHandler* optionalAvatarDataSyncHandler);
+/// @brief Method .ctor, addr 0x31a13f0, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(::BeatSaber::AvatarCore::AvatarSystemCollection*  avatarSystemCollection, ::BeatSaber::AvatarCore::OptionalAvatarDataSyncHandler*  optionalAvatarDataSyncHandler) ;
 
-  /// @brief Convert to "::System::IDisposable"
-  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+/// @brief Convert to "::System::IDisposable"
+constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr OptionalAvatarDataSender();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr OptionalAvatarDataSender() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OptionalAvatarDataSender", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  OptionalAvatarDataSender(OptionalAvatarDataSender&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OptionalAvatarDataSender", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  OptionalAvatarDataSender(OptionalAvatarDataSender const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "OptionalAvatarDataSender", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+OptionalAvatarDataSender(OptionalAvatarDataSender && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21446 };
+// Ctor Parameters [CppParam { name: "", ty: "OptionalAvatarDataSender", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+OptionalAvatarDataSender(OptionalAvatarDataSender const& ) = delete;
 
-  /// @brief Field _avatarSystemCollection, offset: 0x10, size: 0x8, def value: None
-  ::BeatSaber::AvatarCore::AvatarSystemCollection* ____avatarSystemCollection;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{21450};
 
-  /// @brief Field _optionalAvatarDataSyncHandler, offset: 0x18, size: 0x8, def value: None
-  ::BeatSaber::AvatarCore::OptionalAvatarDataSyncHandler* ____optionalAvatarDataSyncHandler;
+/// @brief Field _avatarSystemCollection, offset: 0x10, size: 0x8, def value: None
+ ::BeatSaber::AvatarCore::AvatarSystemCollection*  ____avatarSystemCollection;
 
-  /// @brief Field _optionalAvatarDataProvider, offset: 0x20, size: 0x8, def value: None
-  ::BeatSaber::AvatarCore::IOptionalAvatarDataProvider* ____optionalAvatarDataProvider;
+/// @brief Field _optionalAvatarDataSyncHandler, offset: 0x18, size: 0x8, def value: None
+ ::BeatSaber::AvatarCore::OptionalAvatarDataSyncHandler*  ____optionalAvatarDataSyncHandler;
 
-  /// @brief Field _currentAvatarDisplayContext, offset: 0x28, size: 0x4, def value: None
-  ::BeatSaber::AvatarCore::AvatarDisplayContext ____currentAvatarDisplayContext;
+/// @brief Field _optionalAvatarDataProvider, offset: 0x20, size: 0x8, def value: None
+ ::BeatSaber::AvatarCore::IOptionalAvatarDataProvider*  ____optionalAvatarDataProvider;
 
-  /// @brief Field _selectedAvatarTypeId, offset: 0x30, size: 0x8, def value: None
-  ::StringW ____selectedAvatarTypeId;
+/// @brief Field _currentAvatarDisplayContext, offset: 0x28, size: 0x4, def value: None
+ ::BeatSaber::AvatarCore::AvatarDisplayContext  ____currentAvatarDisplayContext;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _selectedAvatarTypeId, offset: 0x30, size: 0x8, def value: None
+ ::StringW  ____selectedAvatarTypeId;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::BeatSaber::AvatarCore::OptionalAvatarDataSender, ____avatarSystemCollection) == 0x10, "Offset mismatch!");
@@ -157,6 +153,6 @@ static_assert(offsetof(::BeatSaber::AvatarCore::OptionalAvatarDataSender, ____se
 
 static_assert(::cordl_internals::size_check_v<::BeatSaber::AvatarCore::OptionalAvatarDataSender, 0x38>, "Size mismatch!");
 
-} // namespace BeatSaber::AvatarCore
+} // namespace end def BeatSaber::AvatarCore
 NEED_NO_BOX(::BeatSaber::AvatarCore::OptionalAvatarDataSender);
 DEFINE_IL2CPP_ARG_TYPE(::BeatSaber::AvatarCore::OptionalAvatarDataSender*, "BeatSaber.AvatarCore", "OptionalAvatarDataSender");

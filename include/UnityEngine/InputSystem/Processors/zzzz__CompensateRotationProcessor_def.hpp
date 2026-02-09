@@ -28,45 +28,45 @@ namespace UnityEngine::InputSystem::Processors {
 // CS Name: UnityEngine.InputSystem.Processors.CompensateRotationProcessor
 class CORDL_TYPE CompensateRotationProcessor : public ::UnityEngine::InputSystem::InputProcessor_1<::UnityEngine::Quaternion> {
 public:
-  // Declarations
-  __declspec(property(get = get_cachingPolicy)) ::UnityEngine::InputSystem::InputProcessor_CachingPolicy cachingPolicy;
+// Declarations
+ __declspec(property(get=get_cachingPolicy)) ::UnityEngine::InputSystem::InputProcessor_CachingPolicy  cachingPolicy;
 
-  static inline ::UnityEngine::InputSystem::Processors::CompensateRotationProcessor* New_ctor();
+static inline ::UnityEngine::InputSystem::Processors::CompensateRotationProcessor* New_ctor() ;
 
-  /// @brief Method Process, addr 0x6407e0c, size 0x220, virtual true, abstract: false, final false
-  inline ::UnityEngine::Quaternion Process(::UnityEngine::Quaternion value, ::UnityEngine::InputSystem::InputControl* control);
+/// @brief Method Process, addr 0x64084cc, size 0x220, virtual true, abstract: false, final false
+inline ::UnityEngine::Quaternion Process(::UnityEngine::Quaternion  value, ::UnityEngine::InputSystem::InputControl*  control) ;
 
-  /// @brief Method ToString, addr 0x640802c, size 0x44, virtual true, abstract: false, final false
-  inline ::StringW ToString();
+/// @brief Method ToString, addr 0x64086ec, size 0x44, virtual true, abstract: false, final false
+inline ::StringW ToString() ;
 
-  /// @brief Method .ctor, addr 0x6408078, size 0x3c, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6408738, size 0x3c, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_cachingPolicy, addr 0x6408070, size 0x8, virtual true, abstract: false, final false
-  inline ::UnityEngine::InputSystem::InputProcessor_CachingPolicy get_cachingPolicy();
+/// @brief Method get_cachingPolicy, addr 0x6408730, size 0x8, virtual true, abstract: false, final false
+inline ::UnityEngine::InputSystem::InputProcessor_CachingPolicy get_cachingPolicy() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CompensateRotationProcessor();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr CompensateRotationProcessor() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CompensateRotationProcessor", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  CompensateRotationProcessor(CompensateRotationProcessor&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CompensateRotationProcessor", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  CompensateRotationProcessor(CompensateRotationProcessor const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "CompensateRotationProcessor", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+CompensateRotationProcessor(CompensateRotationProcessor && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9055 };
+// Ctor Parameters [CppParam { name: "", ty: "CompensateRotationProcessor", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+CompensateRotationProcessor(CompensateRotationProcessor const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{9059};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Processors::CompensateRotationProcessor, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine::InputSystem::Processors
+} // namespace end def UnityEngine::InputSystem::Processors
 NEED_NO_BOX(::UnityEngine::InputSystem::Processors::CompensateRotationProcessor);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Processors::CompensateRotationProcessor*, "UnityEngine.InputSystem.Processors", "CompensateRotationProcessor");

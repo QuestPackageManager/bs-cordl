@@ -13,7 +13,8 @@ namespace Unity::Properties::Internal {
 class IPropertyBagRegister;
 }
 namespace Unity::Properties {
-template <typename T> class IConstructor_1;
+template<typename T>
+class IConstructor_1;
 }
 namespace Unity::Properties {
 class IConstructor;
@@ -22,7 +23,8 @@ namespace Unity::Properties {
 class IPropertyBagVisitor;
 }
 namespace Unity::Properties {
-template <typename TContainer> class IPropertyBag_1;
+template<typename TContainer>
+class IPropertyBag_1;
 }
 namespace Unity::Properties {
 class IPropertyBag;
@@ -34,130 +36,131 @@ namespace Unity::Properties {
 struct InstantiationKind;
 }
 namespace Unity::Properties {
-template <typename TContainer> struct PropertyCollection_1;
+template<typename TContainer>
+struct PropertyCollection_1;
 }
 // Forward declare root types
 namespace Unity::Properties {
-template <typename TContainer> class PropertyBag_1;
+template<typename TContainer>
+class PropertyBag_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::Unity::Properties::PropertyBag_1);
 // Dependencies System.Object, Unity.Properties.InstantiationKind
 namespace Unity::Properties {
 // cpp template
-template <typename TContainer>
+template<typename TContainer>
 // Is value type: false
 // CS Name: Unity.Properties.PropertyBag`1<TContainer>
 class CORDL_TYPE PropertyBag_1 : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(get = get_InstantiationKind)) ::Unity::Properties::InstantiationKind InstantiationKind;
+// Declarations
+ __declspec(property(get=get_InstantiationKind)) ::Unity::Properties::InstantiationKind  InstantiationKind;
 
-  __declspec(property(get = Unity_Properties_IConstructor_get_InstantiationKind)) ::Unity::Properties::InstantiationKind Unity_Properties_IConstructor_InstantiationKind;
+ __declspec(property(get=Unity_Properties_IConstructor_get_InstantiationKind)) ::Unity::Properties::InstantiationKind  Unity_Properties_IConstructor_InstantiationKind;
 
-  /// @brief Field <InstantiationKind>k__BackingField, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get__InstantiationKind_k__BackingField,
-                      put = __cordl_internal_set__InstantiationKind_k__BackingField)) ::Unity::Properties::InstantiationKind _InstantiationKind_k__BackingField;
+/// @brief Field <InstantiationKind>k__BackingField, offset 0x10, size 0x4 
+ __declspec(property(get=__cordl_internal_get__InstantiationKind_k__BackingField, put=__cordl_internal_set__InstantiationKind_k__BackingField)) ::Unity::Properties::InstantiationKind  _InstantiationKind_k__BackingField;
 
-  /// @brief Convert operator to "::Unity::Properties::IConstructor"
-  constexpr operator ::Unity::Properties::IConstructor*() noexcept;
+/// @brief Convert operator to "::Unity::Properties::IConstructor"
+constexpr operator  ::Unity::Properties::IConstructor*() noexcept;
 
-  /// @brief Convert operator to "::Unity::Properties::IConstructor_1<TContainer>"
-  constexpr operator ::Unity::Properties::IConstructor_1<TContainer>*() noexcept;
+/// @brief Convert operator to "::Unity::Properties::IConstructor_1<TContainer>"
+constexpr operator  ::Unity::Properties::IConstructor_1<TContainer>*() noexcept;
 
-  /// @brief Convert operator to "::Unity::Properties::IPropertyBag"
-  constexpr operator ::Unity::Properties::IPropertyBag*() noexcept;
+/// @brief Convert operator to "::Unity::Properties::IPropertyBag"
+constexpr operator  ::Unity::Properties::IPropertyBag*() noexcept;
 
-  /// @brief Convert operator to "::Unity::Properties::IPropertyBag_1<TContainer>"
-  constexpr operator ::Unity::Properties::IPropertyBag_1<TContainer>*() noexcept;
+/// @brief Convert operator to "::Unity::Properties::IPropertyBag_1<TContainer>"
+constexpr operator  ::Unity::Properties::IPropertyBag_1<TContainer>*() noexcept;
 
-  /// @brief Convert operator to "::Unity::Properties::Internal::IPropertyBagRegister"
-  constexpr operator ::Unity::Properties::Internal::IPropertyBagRegister*() noexcept;
+/// @brief Convert operator to "::Unity::Properties::Internal::IPropertyBagRegister"
+constexpr operator  ::Unity::Properties::Internal::IPropertyBagRegister*() noexcept;
 
-  /// @brief Method Accept, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline void Accept(::Unity::Properties::ITypeVisitor* visitor);
+/// @brief Method Accept, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+inline void Accept(::Unity::Properties::ITypeVisitor*  visitor) ;
 
-  /// @brief Method GetProperties, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline ::Unity::Properties::PropertyCollection_1<TContainer> GetProperties();
+/// @brief Method GetProperties, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline ::Unity::Properties::PropertyCollection_1<TContainer> GetProperties() ;
 
-  /// @brief Method GetProperties, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline ::Unity::Properties::PropertyCollection_1<TContainer> GetProperties(::ByRef<TContainer> container);
+/// @brief Method GetProperties, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline ::Unity::Properties::PropertyCollection_1<TContainer> GetProperties(::ByRef<TContainer>  container) ;
 
-  /// @brief Method Instantiate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline TContainer Instantiate();
+/// @brief Method Instantiate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline TContainer Instantiate() ;
 
-  static inline ::Unity::Properties::PropertyBag_1<TContainer>* New_ctor();
+static inline ::Unity::Properties::PropertyBag_1<TContainer>* New_ctor() ;
 
-  /// @brief Method Unity.Properties.IConstructor<TContainer>.Instantiate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline TContainer Unity_Properties_IConstructor_TContainer__Instantiate();
+/// @brief Method Unity.Properties.IConstructor<TContainer>.Instantiate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+inline TContainer Unity_Properties_IConstructor_TContainer__Instantiate() ;
 
-  /// @brief Method Unity.Properties.IConstructor.get_InstantiationKind, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline ::Unity::Properties::InstantiationKind Unity_Properties_IConstructor_get_InstantiationKind();
+/// @brief Method Unity.Properties.IConstructor.get_InstantiationKind, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+inline ::Unity::Properties::InstantiationKind Unity_Properties_IConstructor_get_InstantiationKind() ;
 
-  /// @brief Method Unity.Properties.IPropertyBag.Accept, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline void Unity_Properties_IPropertyBag_Accept(::Unity::Properties::IPropertyBagVisitor* visitor, ::ByRef<::System::Object*> container);
+/// @brief Method Unity.Properties.IPropertyBag.Accept, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+inline void Unity_Properties_IPropertyBag_Accept(::Unity::Properties::IPropertyBagVisitor*  visitor, ::ByRef<::System::Object*>  container) ;
 
-  /// @brief Method Unity.Properties.IPropertyBag<TContainer>.Accept, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline void Unity_Properties_IPropertyBag_TContainer__Accept(::Unity::Properties::IPropertyBagVisitor* visitor, ::ByRef<TContainer> container);
+/// @brief Method Unity.Properties.IPropertyBag<TContainer>.Accept, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+inline void Unity_Properties_IPropertyBag_TContainer__Accept(::Unity::Properties::IPropertyBagVisitor*  visitor, ::ByRef<TContainer>  container) ;
 
-  /// @brief Method Unity.Properties.IPropertyBag<TContainer>.GetProperties, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline ::Unity::Properties::PropertyCollection_1<TContainer> Unity_Properties_IPropertyBag_TContainer__GetProperties();
+/// @brief Method Unity.Properties.IPropertyBag<TContainer>.GetProperties, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+inline ::Unity::Properties::PropertyCollection_1<TContainer> Unity_Properties_IPropertyBag_TContainer__GetProperties() ;
 
-  /// @brief Method Unity.Properties.IPropertyBag<TContainer>.GetProperties, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline ::Unity::Properties::PropertyCollection_1<TContainer> Unity_Properties_IPropertyBag_TContainer__GetProperties(::ByRef<TContainer> container);
+/// @brief Method Unity.Properties.IPropertyBag<TContainer>.GetProperties, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+inline ::Unity::Properties::PropertyCollection_1<TContainer> Unity_Properties_IPropertyBag_TContainer__GetProperties(::ByRef<TContainer>  container) ;
 
-  /// @brief Method Unity.Properties.Internal.IPropertyBagRegister.Register, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline void Unity_Properties_Internal_IPropertyBagRegister_Register();
+/// @brief Method Unity.Properties.Internal.IPropertyBagRegister.Register, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+inline void Unity_Properties_Internal_IPropertyBagRegister_Register() ;
 
-  constexpr ::Unity::Properties::InstantiationKind const& __cordl_internal_get__InstantiationKind_k__BackingField() const;
+constexpr ::Unity::Properties::InstantiationKind const& __cordl_internal_get__InstantiationKind_k__BackingField() const;
 
-  constexpr ::Unity::Properties::InstantiationKind& __cordl_internal_get__InstantiationKind_k__BackingField();
+constexpr ::Unity::Properties::InstantiationKind& __cordl_internal_get__InstantiationKind_k__BackingField() ;
 
-  constexpr void __cordl_internal_set__InstantiationKind_k__BackingField(::Unity::Properties::InstantiationKind value);
+constexpr void __cordl_internal_set__InstantiationKind_k__BackingField(::Unity::Properties::InstantiationKind  value) ;
 
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_InstantiationKind, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline ::Unity::Properties::InstantiationKind get_InstantiationKind();
+/// @brief Method get_InstantiationKind, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline ::Unity::Properties::InstantiationKind get_InstantiationKind() ;
 
-  /// @brief Convert to "::Unity::Properties::IConstructor"
-  constexpr ::Unity::Properties::IConstructor* i___Unity__Properties__IConstructor() noexcept;
+/// @brief Convert to "::Unity::Properties::IConstructor"
+constexpr ::Unity::Properties::IConstructor* i___Unity__Properties__IConstructor() noexcept;
 
-  /// @brief Convert to "::Unity::Properties::IConstructor_1<TContainer>"
-  constexpr ::Unity::Properties::IConstructor_1<TContainer>* i___Unity__Properties__IConstructor_1_TContainer_() noexcept;
+/// @brief Convert to "::Unity::Properties::IConstructor_1<TContainer>"
+constexpr ::Unity::Properties::IConstructor_1<TContainer>* i___Unity__Properties__IConstructor_1_TContainer_() noexcept;
 
-  /// @brief Convert to "::Unity::Properties::IPropertyBag"
-  constexpr ::Unity::Properties::IPropertyBag* i___Unity__Properties__IPropertyBag() noexcept;
+/// @brief Convert to "::Unity::Properties::IPropertyBag"
+constexpr ::Unity::Properties::IPropertyBag* i___Unity__Properties__IPropertyBag() noexcept;
 
-  /// @brief Convert to "::Unity::Properties::IPropertyBag_1<TContainer>"
-  constexpr ::Unity::Properties::IPropertyBag_1<TContainer>* i___Unity__Properties__IPropertyBag_1_TContainer_() noexcept;
+/// @brief Convert to "::Unity::Properties::IPropertyBag_1<TContainer>"
+constexpr ::Unity::Properties::IPropertyBag_1<TContainer>* i___Unity__Properties__IPropertyBag_1_TContainer_() noexcept;
 
-  /// @brief Convert to "::Unity::Properties::Internal::IPropertyBagRegister"
-  constexpr ::Unity::Properties::Internal::IPropertyBagRegister* i___Unity__Properties__Internal__IPropertyBagRegister() noexcept;
+/// @brief Convert to "::Unity::Properties::Internal::IPropertyBagRegister"
+constexpr ::Unity::Properties::Internal::IPropertyBagRegister* i___Unity__Properties__Internal__IPropertyBagRegister() noexcept;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PropertyBag_1();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr PropertyBag_1() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_1", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  PropertyBag_1(PropertyBag_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PropertyBag_1", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  PropertyBag_1(PropertyBag_1 const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "PropertyBag_1", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+PropertyBag_1(PropertyBag_1 && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19384 };
+// Ctor Parameters [CppParam { name: "", ty: "PropertyBag_1", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+PropertyBag_1(PropertyBag_1 const& ) = delete;
 
-  /// @brief Field <InstantiationKind>k__BackingField, offset: 0x10, size: 0x4, def value: None
-  ::Unity::Properties::InstantiationKind ____InstantiationKind_k__BackingField;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{19388};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field <InstantiationKind>k__BackingField, offset: 0x10, size: 0x4, def value: None
+ ::Unity::Properties::InstantiationKind  ____InstantiationKind_k__BackingField;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-} // namespace Unity::Properties
+} // namespace end def Unity::Properties
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::Unity::Properties::PropertyBag_1, "Unity.Properties", "PropertyBag`1");

@@ -22,49 +22,49 @@ namespace UnityEngine::Rendering::RenderGraphModule {
 // CS Name: UnityEngine.Rendering.RenderGraphModule.TexturePool
 class CORDL_TYPE TexturePool : public ::UnityEngine::Rendering::RenderGraphModule::RenderGraphResourcePool_1<::UnityEngine::Rendering::RTHandle*> {
 public:
-  // Declarations
-  /// @brief Method GetResourceName, addr 0x6634500, size 0x20, virtual true, abstract: false, final false
-  inline ::StringW GetResourceName(::ByRef<::UnityEngine::Rendering::RTHandle*> res);
+// Declarations
+/// @brief Method GetResourceName, addr 0x6634bc0, size 0x20, virtual true, abstract: false, final false
+inline ::StringW GetResourceName(::ByRef<::UnityEngine::Rendering::RTHandle*>  res) ;
 
-  /// @brief Method GetResourceSize, addr 0x6634520, size 0x1c, virtual true, abstract: false, final false
-  inline int64_t GetResourceSize(::ByRef<::UnityEngine::Rendering::RTHandle*> res);
+/// @brief Method GetResourceSize, addr 0x6634be0, size 0x1c, virtual true, abstract: false, final false
+inline int64_t GetResourceSize(::ByRef<::UnityEngine::Rendering::RTHandle*>  res) ;
 
-  /// @brief Method GetResourceTypeName, addr 0x663453c, size 0x44, virtual true, abstract: false, final false
-  inline ::StringW GetResourceTypeName();
+/// @brief Method GetResourceTypeName, addr 0x6634bfc, size 0x44, virtual true, abstract: false, final false
+inline ::StringW GetResourceTypeName() ;
 
-  /// @brief Method GetSortIndex, addr 0x6634580, size 0x18, virtual true, abstract: false, final false
-  inline int32_t GetSortIndex(::UnityEngine::Rendering::RTHandle* res);
+/// @brief Method GetSortIndex, addr 0x6634c40, size 0x18, virtual true, abstract: false, final false
+inline int32_t GetSortIndex(::UnityEngine::Rendering::RTHandle*  res) ;
 
-  static inline ::UnityEngine::Rendering::RenderGraphModule::TexturePool* New_ctor();
+static inline ::UnityEngine::Rendering::RenderGraphModule::TexturePool* New_ctor() ;
 
-  /// @brief Method ReleaseInternalResource, addr 0x66344e8, size 0x18, virtual true, abstract: false, final false
-  inline void ReleaseInternalResource(::UnityEngine::Rendering::RTHandle* res);
+/// @brief Method ReleaseInternalResource, addr 0x6634ba8, size 0x18, virtual true, abstract: false, final false
+inline void ReleaseInternalResource(::UnityEngine::Rendering::RTHandle*  res) ;
 
-  /// @brief Method .ctor, addr 0x662ec10, size 0x74, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x662f2d0, size 0x74, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TexturePool();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr TexturePool() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TexturePool", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  TexturePool(TexturePool&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TexturePool", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  TexturePool(TexturePool const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "TexturePool", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+TexturePool(TexturePool && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12442 };
+// Ctor Parameters [CppParam { name: "", ty: "TexturePool", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+TexturePool(TexturePool const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12446};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::RenderGraphModule::TexturePool, 0x20>, "Size mismatch!");
 
-} // namespace UnityEngine::Rendering::RenderGraphModule
+} // namespace end def UnityEngine::Rendering::RenderGraphModule
 NEED_NO_BOX(::UnityEngine::Rendering::RenderGraphModule::TexturePool);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::RenderGraphModule::TexturePool*, "UnityEngine.Rendering.RenderGraphModule", "TexturePool");

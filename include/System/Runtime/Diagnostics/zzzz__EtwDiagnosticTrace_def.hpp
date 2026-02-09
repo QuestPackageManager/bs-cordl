@@ -11,7 +11,8 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(EtwDiagnosticTrace)
 namespace System::Collections::Concurrent {
-template <typename T> class ConcurrentQueue_1;
+template<typename T>
+class ConcurrentQueue_1;
 }
 namespace System::Collections {
 class Hashtable;
@@ -53,7 +54,8 @@ namespace System {
 class Exception;
 }
 namespace System {
-template <typename TResult> class Func_1;
+template<typename TResult>
+class Func_1;
 }
 namespace System {
 struct Guid;
@@ -77,244 +79,242 @@ namespace System::Runtime::Diagnostics {
 // CS Name: System.Runtime.Diagnostics.EtwDiagnosticTrace/StringBuilderPool
 class CORDL_TYPE EtwDiagnosticTrace_StringBuilderPool : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field freeStringBuilders, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_freeStringBuilders,
-                      put = setStaticF_freeStringBuilders)) ::System::Collections::Concurrent::ConcurrentQueue_1<::System::Text::StringBuilder*>* freeStringBuilders;
+// Declarations
+/// @brief Field freeStringBuilders, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_freeStringBuilders, put=setStaticF_freeStringBuilders)) ::System::Collections::Concurrent::ConcurrentQueue_1<::System::Text::StringBuilder*>*  freeStringBuilders;
 
-  /// @brief Method Return, addr 0x5fdc534, size 0xec, virtual false, abstract: false, final false
-  static inline void Return(::System::Text::StringBuilder* sb);
+/// @brief Method Return, addr 0x5fdcbf4, size 0xec, virtual false, abstract: false, final false
+static inline void Return(::System::Text::StringBuilder*  sb) ;
 
-  /// @brief Method Take, addr 0x5fd9818, size 0xc8, virtual false, abstract: false, final false
-  static inline ::System::Text::StringBuilder* Take();
+/// @brief Method Take, addr 0x5fd9ed8, size 0xc8, virtual false, abstract: false, final false
+static inline ::System::Text::StringBuilder* Take() ;
 
-  static inline ::System::Collections::Concurrent::ConcurrentQueue_1<::System::Text::StringBuilder*>* getStaticF_freeStringBuilders();
+static inline ::System::Collections::Concurrent::ConcurrentQueue_1<::System::Text::StringBuilder*>* getStaticF_freeStringBuilders() ;
 
-  static inline void setStaticF_freeStringBuilders(::System::Collections::Concurrent::ConcurrentQueue_1<::System::Text::StringBuilder*>* value);
+static inline void setStaticF_freeStringBuilders(::System::Collections::Concurrent::ConcurrentQueue_1<::System::Text::StringBuilder*>*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr EtwDiagnosticTrace_StringBuilderPool();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr EtwDiagnosticTrace_StringBuilderPool() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EtwDiagnosticTrace_StringBuilderPool", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  EtwDiagnosticTrace_StringBuilderPool(EtwDiagnosticTrace_StringBuilderPool&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EtwDiagnosticTrace_StringBuilderPool", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  EtwDiagnosticTrace_StringBuilderPool(EtwDiagnosticTrace_StringBuilderPool const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "EtwDiagnosticTrace_StringBuilderPool", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+EtwDiagnosticTrace_StringBuilderPool(EtwDiagnosticTrace_StringBuilderPool && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21130 };
+// Ctor Parameters [CppParam { name: "", ty: "EtwDiagnosticTrace_StringBuilderPool", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+EtwDiagnosticTrace_StringBuilderPool(EtwDiagnosticTrace_StringBuilderPool const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{21134};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Diagnostics::EtwDiagnosticTrace_StringBuilderPool, 0x10>, "Size mismatch!");
 
-} // namespace System::Runtime::Diagnostics
+} // namespace end def System::Runtime::Diagnostics
 // Dependencies System.Guid, System.Runtime.Diagnostics.DiagnosticTraceBase, System.Runtime.Diagnostics.EventDescriptor
 namespace System::Runtime::Diagnostics {
 // Is value type: false
 // CS Name: System.Runtime.Diagnostics.EtwDiagnosticTrace
 class CORDL_TYPE EtwDiagnosticTrace : public ::System::Runtime::Diagnostics::DiagnosticTraceBase {
 public:
-  // Declarations
-  using StringBuilderPool = ::System::Runtime::Diagnostics::EtwDiagnosticTrace_StringBuilderPool;
+// Declarations
+using StringBuilderPool = ::System::Runtime::Diagnostics::EtwDiagnosticTrace_StringBuilderPool;
 
-  __declspec(property(get = get_EtwProvider)) ::System::Runtime::Diagnostics::EtwProvider* EtwProvider;
+ __declspec(property(get=get_EtwProvider)) ::System::Runtime::Diagnostics::EtwProvider*  EtwProvider;
 
-  __declspec(property(get = get_EtwTracingEnabled)) bool EtwTracingEnabled;
+ __declspec(property(get=get_EtwTracingEnabled)) bool  EtwTracingEnabled;
 
-  /// @brief Field ImmutableDefaultEtwProviderId, offset 0xffffffff, size 0x10
-  __declspec(property(get = getStaticF_ImmutableDefaultEtwProviderId, put = setStaticF_ImmutableDefaultEtwProviderId)) ::System::Guid ImmutableDefaultEtwProviderId;
+/// @brief Field ImmutableDefaultEtwProviderId, offset 0xffffffff, size 0x10 
+ __declspec(property(get=getStaticF_ImmutableDefaultEtwProviderId, put=setStaticF_ImmutableDefaultEtwProviderId)) ::System::Guid  ImmutableDefaultEtwProviderId;
 
-  __declspec(property(get = get_IsEtwProviderEnabled)) bool IsEtwProviderEnabled;
+ __declspec(property(get=get_IsEtwProviderEnabled)) bool  IsEtwProviderEnabled;
 
-  __declspec(property(get = get_RefreshState, put = set_RefreshState)) ::System::Action* RefreshState;
+ __declspec(property(get=get_RefreshState, put=set_RefreshState)) ::System::Action*  RefreshState;
 
-  /// @brief Field defaultEtwProviderId, offset 0xffffffff, size 0x10
-  __declspec(property(get = getStaticF_defaultEtwProviderId, put = setStaticF_defaultEtwProviderId)) ::System::Guid defaultEtwProviderId;
+/// @brief Field defaultEtwProviderId, offset 0xffffffff, size 0x10 
+ __declspec(property(get=getStaticF_defaultEtwProviderId, put=setStaticF_defaultEtwProviderId)) ::System::Guid  defaultEtwProviderId;
 
-  /// @brief Field etwProvider, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_etwProvider, put = __cordl_internal_set_etwProvider)) ::System::Runtime::Diagnostics::EtwProvider* etwProvider;
+/// @brief Field etwProvider, offset 0x40, size 0x8 
+ __declspec(property(get=__cordl_internal_get_etwProvider, put=__cordl_internal_set_etwProvider)) ::System::Runtime::Diagnostics::EtwProvider*  etwProvider;
 
-  /// @brief Field etwProviderCache, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_etwProviderCache, put = setStaticF_etwProviderCache)) ::System::Collections::Hashtable* etwProviderCache;
+/// @brief Field etwProviderCache, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_etwProviderCache, put=setStaticF_etwProviderCache)) ::System::Collections::Hashtable*  etwProviderCache;
 
-  /// @brief Field etwProviderId, offset 0x48, size 0x10
-  __declspec(property(get = __cordl_internal_get_etwProviderId, put = __cordl_internal_set_etwProviderId)) ::System::Guid etwProviderId;
+/// @brief Field etwProviderId, offset 0x48, size 0x10 
+ __declspec(property(get=__cordl_internal_get_etwProviderId, put=__cordl_internal_set_etwProviderId)) ::System::Guid  etwProviderId;
 
-  /// @brief Field isVistaOrGreater, offset 0xffffffff, size 0x1
-  __declspec(property(get = getStaticF_isVistaOrGreater, put = setStaticF_isVistaOrGreater)) bool isVistaOrGreater;
+/// @brief Field isVistaOrGreater, offset 0xffffffff, size 0x1 
+ __declspec(property(get=getStaticF_isVistaOrGreater, put=setStaticF_isVistaOrGreater)) bool  isVistaOrGreater;
 
-  /// @brief Field traceAnnotation, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_traceAnnotation, put = setStaticF_traceAnnotation)) ::System::Func_1<::StringW>* traceAnnotation;
+/// @brief Field traceAnnotation, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_traceAnnotation, put=setStaticF_traceAnnotation)) ::System::Func_1<::StringW>*  traceAnnotation;
 
-  /// @brief Field transferEventDescriptor, offset 0xffffffff, size 0x10
-  __declspec(property(get = getStaticF_transferEventDescriptor, put = setStaticF_transferEventDescriptor)) ::System::Runtime::Diagnostics::EventDescriptor transferEventDescriptor;
+/// @brief Field transferEventDescriptor, offset 0xffffffff, size 0x10 
+ __declspec(property(get=getStaticF_transferEventDescriptor, put=setStaticF_transferEventDescriptor)) ::System::Runtime::Diagnostics::EventDescriptor  transferEventDescriptor;
 
-  /// @brief Method BuildTrace, addr 0x5fd90c8, size 0x750, virtual false, abstract: false, final false
-  static inline ::StringW BuildTrace(::ByRef<::System::Runtime::Diagnostics::EventDescriptor> eventDescriptor, ::StringW description, ::System::Runtime::TracePayload payload, ::StringW msdnTraceCode);
+/// @brief Method BuildTrace, addr 0x5fd9788, size 0x750, virtual false, abstract: false, final false
+static inline ::StringW BuildTrace(::ByRef<::System::Runtime::Diagnostics::EventDescriptor>  eventDescriptor, ::StringW  description, ::System::Runtime::TracePayload  payload, ::StringW  msdnTraceCode) ;
 
-  /// @brief Method CreateEtwProvider, addr 0x5fd8a84, size 0x310, virtual false, abstract: false, final false
-  inline void CreateEtwProvider(::System::Guid etwProviderId);
+/// @brief Method CreateEtwProvider, addr 0x5fd9144, size 0x310, virtual false, abstract: false, final false
+inline void CreateEtwProvider(::System::Guid  etwProviderId) ;
 
-  /// @brief Method CreateTraceSource, addr 0x5fd8790, size 0x7c, virtual false, abstract: false, final false
-  inline void CreateTraceSource();
+/// @brief Method CreateTraceSource, addr 0x5fd8e50, size 0x7c, virtual false, abstract: false, final false
+inline void CreateTraceSource() ;
 
-  /// @brief Method ExceptionToTraceString, addr 0x5fda0a8, size 0x3ec, virtual false, abstract: false, final false
-  static inline ::StringW ExceptionToTraceString(::System::Exception* exception, int32_t maxTraceStringLength);
+/// @brief Method ExceptionToTraceString, addr 0x5fda768, size 0x3ec, virtual false, abstract: false, final false
+static inline ::StringW ExceptionToTraceString(::System::Exception*  exception, int32_t  maxTraceStringLength) ;
 
-  /// @brief Method GenerateLegacyTraceCode, addr 0x5fd8e88, size 0x240, virtual false, abstract: false, final false
-  static inline void GenerateLegacyTraceCode(::ByRef<::System::Runtime::Diagnostics::EventDescriptor> eventDescriptor, ::ByRef<::StringW> msdnTraceCode, ::ByRef<int32_t> legacyEventId);
+/// @brief Method GenerateLegacyTraceCode, addr 0x5fd9548, size 0x240, virtual false, abstract: false, final false
+static inline void GenerateLegacyTraceCode(::ByRef<::System::Runtime::Diagnostics::EventDescriptor>  eventDescriptor, ::ByRef<::StringW>  msdnTraceCode, ::ByRef<int32_t>  legacyEventId) ;
 
-  /// @brief Method GenerateMsdnTraceCode, addr 0x5fd9a40, size 0xe4, virtual false, abstract: false, final false
-  static inline ::StringW GenerateMsdnTraceCode(::StringW traceSource, ::StringW traceCodeString);
+/// @brief Method GenerateMsdnTraceCode, addr 0x5fda100, size 0xe4, virtual false, abstract: false, final false
+static inline ::StringW GenerateMsdnTraceCode(::StringW  traceSource, ::StringW  traceCodeString) ;
 
-  /// @brief Method GetExceptionData, addr 0x5fdb6d4, size 0x9dc, virtual false, abstract: false, final false
-  static inline ::StringW GetExceptionData(::System::Exception* exception);
+/// @brief Method GetExceptionData, addr 0x5fdbd94, size 0x9dc, virtual false, abstract: false, final false
+static inline ::StringW GetExceptionData(::System::Exception*  exception) ;
 
-  /// @brief Method GetInnerException, addr 0x5fdc0b0, size 0x484, virtual false, abstract: false, final false
-  static inline ::StringW GetInnerException(::System::Exception* exception, int32_t remainingLength, int32_t remainingAllowedRecursionDepth);
+/// @brief Method GetInnerException, addr 0x5fdc770, size 0x484, virtual false, abstract: false, final false
+static inline ::StringW GetInnerException(::System::Exception*  exception, int32_t  remainingLength, int32_t  remainingAllowedRecursionDepth) ;
 
-  /// @brief Method GetSerializedPayload, addr 0x5fd36c8, size 0x38, virtual false, abstract: false, final false
-  inline ::System::Runtime::TracePayload GetSerializedPayload(::System::Object* source, ::System::Runtime::Diagnostics::TraceRecord* traceRecord, ::System::Exception* exception);
+/// @brief Method GetSerializedPayload, addr 0x5fd3d88, size 0x38, virtual false, abstract: false, final false
+inline ::System::Runtime::TracePayload GetSerializedPayload(::System::Object*  source, ::System::Runtime::Diagnostics::TraceRecord*  traceRecord, ::System::Exception*  exception) ;
 
-  /// @brief Method GetSerializedPayload, addr 0x5fd9b24, size 0x584, virtual false, abstract: false, final false
-  inline ::System::Runtime::TracePayload GetSerializedPayload(::System::Object* source, ::System::Runtime::Diagnostics::TraceRecord* traceRecord, ::System::Exception* exception,
-                                                              bool getServiceReference);
+/// @brief Method GetSerializedPayload, addr 0x5fda1e4, size 0x584, virtual false, abstract: false, final false
+inline ::System::Runtime::TracePayload GetSerializedPayload(::System::Object*  source, ::System::Runtime::Diagnostics::TraceRecord*  traceRecord, ::System::Exception*  exception, bool  getServiceReference) ;
 
-  /// @brief Method IsEnabled, addr 0x5fda790, size 0xd8, virtual true, abstract: false, final false
-  inline bool IsEnabled();
+/// @brief Method IsEnabled, addr 0x5fdae50, size 0xd8, virtual true, abstract: false, final false
+inline bool IsEnabled() ;
 
-  /// @brief Method IsEtwEventEnabled, addr 0x5fd5418, size 0x60, virtual false, abstract: false, final false
-  inline bool IsEtwEventEnabled(::ByRef<::System::Runtime::Diagnostics::EventDescriptor> eventDescriptor, bool fullCheck);
+/// @brief Method IsEtwEventEnabled, addr 0x5fd5ad8, size 0x60, virtual false, abstract: false, final false
+inline bool IsEtwEventEnabled(::ByRef<::System::Runtime::Diagnostics::EventDescriptor>  eventDescriptor, bool  fullCheck) ;
 
-  /// @brief Method LookupChannel, addr 0x5fd98e0, size 0x160, virtual false, abstract: false, final false
-  static inline ::StringW LookupChannel(::System::Runtime::TraceChannel traceChannel);
+/// @brief Method LookupChannel, addr 0x5fd9fa0, size 0x160, virtual false, abstract: false, final false
+static inline ::StringW LookupChannel(::System::Runtime::TraceChannel  traceChannel) ;
 
-  static inline ::System::Runtime::Diagnostics::EtwDiagnosticTrace* New_ctor(::StringW traceSourceName, ::System::Guid etwProviderId);
+static inline ::System::Runtime::Diagnostics::EtwDiagnosticTrace* New_ctor(::StringW  traceSourceName, ::System::Guid  etwProviderId) ;
 
-  /// @brief Method OnShutdownTracing, addr 0x5fda498, size 0x18, virtual true, abstract: false, final false
-  inline void OnShutdownTracing();
+/// @brief Method OnShutdownTracing, addr 0x5fdab58, size 0x18, virtual true, abstract: false, final false
+inline void OnShutdownTracing() ;
 
-  /// @brief Method OnUnhandledException, addr 0x5fdaa50, size 0xc4, virtual true, abstract: false, final false
-  inline void OnUnhandledException(::System::Exception* exception);
+/// @brief Method OnUnhandledException, addr 0x5fdb110, size 0xc4, virtual true, abstract: false, final false
+inline void OnUnhandledException(::System::Exception*  exception) ;
 
-  /// @brief Method SetEnd2EndActivityTracingEnabled, addr 0x5fd2884, size 0x1c, virtual false, abstract: false, final false
-  inline void SetEnd2EndActivityTracingEnabled(bool isEnd2EndTracingEnabled);
+/// @brief Method SetEnd2EndActivityTracingEnabled, addr 0x5fd2f44, size 0x1c, virtual false, abstract: false, final false
+inline void SetEnd2EndActivityTracingEnabled(bool  isEnd2EndTracingEnabled) ;
 
-  /// @brief Method ShouldTrace, addr 0x5fd8e08, size 0x54, virtual true, abstract: false, final false
-  inline bool ShouldTrace(::System::Runtime::TraceEventLevel level);
+/// @brief Method ShouldTrace, addr 0x5fd94c8, size 0x54, virtual true, abstract: false, final false
+inline bool ShouldTrace(::System::Runtime::TraceEventLevel  level) ;
 
-  /// @brief Method ShouldTraceToEtw, addr 0x5fd8e5c, size 0x2c, virtual false, abstract: false, final false
-  inline bool ShouldTraceToEtw(::System::Runtime::TraceEventLevel level);
+/// @brief Method ShouldTraceToEtw, addr 0x5fd951c, size 0x2c, virtual false, abstract: false, final false
+inline bool ShouldTraceToEtw(::System::Runtime::TraceEventLevel  level) ;
 
-  /// @brief Method ShutdownEtwProvider, addr 0x5fda6cc, size 0xc4, virtual false, abstract: false, final false
-  inline void ShutdownEtwProvider();
+/// @brief Method ShutdownEtwProvider, addr 0x5fdad8c, size 0xc4, virtual false, abstract: false, final false
+inline void ShutdownEtwProvider() ;
 
-  /// @brief Method ShutdownTraceSource, addr 0x5fda4b0, size 0x21c, virtual false, abstract: false, final false
-  inline void ShutdownTraceSource();
+/// @brief Method ShutdownTraceSource, addr 0x5fdab70, size 0x21c, virtual false, abstract: false, final false
+inline void ShutdownTraceSource() ;
 
-  /// @brief Method TraceEventLogEvent, addr 0x5fda868, size 0x1e8, virtual true, abstract: false, final false
-  inline void TraceEventLogEvent(::System::Diagnostics::TraceEventType type, ::System::Runtime::Diagnostics::TraceRecord* traceRecord);
+/// @brief Method TraceEventLogEvent, addr 0x5fdaf28, size 0x1e8, virtual true, abstract: false, final false
+inline void TraceEventLogEvent(::System::Diagnostics::TraceEventType  type, ::System::Runtime::Diagnostics::TraceRecord*  traceRecord) ;
 
-  /// @brief Method WriteExceptionToTraceString, addr 0x5fdab14, size 0xa70, virtual false, abstract: false, final false
-  static inline void WriteExceptionToTraceString(::System::Xml::XmlTextWriter* xml, ::System::Exception* exception, int32_t remainingLength, int32_t remainingAllowedRecursionDepth);
+/// @brief Method WriteExceptionToTraceString, addr 0x5fdb1d4, size 0xa70, virtual false, abstract: false, final false
+static inline void WriteExceptionToTraceString(::System::Xml::XmlTextWriter*  xml, ::System::Exception*  exception, int32_t  remainingLength, int32_t  remainingAllowedRecursionDepth) ;
 
-  /// @brief Method WriteStartElement, addr 0x5fdb584, size 0x68, virtual false, abstract: false, final false
-  static inline bool WriteStartElement(::System::Xml::XmlTextWriter* xml, ::StringW localName, ::ByRef<int32_t> remainingLength);
+/// @brief Method WriteStartElement, addr 0x5fdbc44, size 0x68, virtual false, abstract: false, final false
+static inline bool WriteStartElement(::System::Xml::XmlTextWriter*  xml, ::StringW  localName, ::ByRef<int32_t>  remainingLength) ;
 
-  /// @brief Method WriteTraceSource, addr 0x5fd5834, size 0x230, virtual false, abstract: false, final false
-  inline void WriteTraceSource(::ByRef<::System::Runtime::Diagnostics::EventDescriptor> eventDescriptor, ::StringW description, ::System::Runtime::TracePayload payload);
+/// @brief Method WriteTraceSource, addr 0x5fd5ef4, size 0x230, virtual false, abstract: false, final false
+inline void WriteTraceSource(::ByRef<::System::Runtime::Diagnostics::EventDescriptor>  eventDescriptor, ::StringW  description, ::System::Runtime::TracePayload  payload) ;
 
-  /// @brief Method WriteXmlElementString, addr 0x5fdb5ec, size 0xe8, virtual false, abstract: false, final false
-  static inline bool WriteXmlElementString(::System::Xml::XmlTextWriter* xml, ::StringW localName, ::StringW value, ::ByRef<int32_t> remainingLength);
+/// @brief Method WriteXmlElementString, addr 0x5fdbcac, size 0xe8, virtual false, abstract: false, final false
+static inline bool WriteXmlElementString(::System::Xml::XmlTextWriter*  xml, ::StringW  localName, ::StringW  value, ::ByRef<int32_t>  remainingLength) ;
 
-  constexpr ::System::Runtime::Diagnostics::EtwProvider* const& __cordl_internal_get_etwProvider() const;
+constexpr ::System::Runtime::Diagnostics::EtwProvider* const& __cordl_internal_get_etwProvider() const;
 
-  constexpr ::System::Runtime::Diagnostics::EtwProvider*& __cordl_internal_get_etwProvider();
+constexpr ::System::Runtime::Diagnostics::EtwProvider*& __cordl_internal_get_etwProvider() ;
 
-  constexpr ::System::Guid const& __cordl_internal_get_etwProviderId() const;
+constexpr ::System::Guid const& __cordl_internal_get_etwProviderId() const;
 
-  constexpr ::System::Guid& __cordl_internal_get_etwProviderId();
+constexpr ::System::Guid& __cordl_internal_get_etwProviderId() ;
 
-  constexpr void __cordl_internal_set_etwProvider(::System::Runtime::Diagnostics::EtwProvider* value);
+constexpr void __cordl_internal_set_etwProvider(::System::Runtime::Diagnostics::EtwProvider*  value) ;
 
-  constexpr void __cordl_internal_set_etwProviderId(::System::Guid value);
+constexpr void __cordl_internal_set_etwProviderId(::System::Guid  value) ;
 
-  /// @brief Method .ctor, addr 0x5fd1f00, size 0x398, virtual false, abstract: false, final false
-  inline void _ctor(::StringW traceSourceName, ::System::Guid etwProviderId);
+/// @brief Method .ctor, addr 0x5fd25c0, size 0x398, virtual false, abstract: false, final false
+inline void _ctor(::StringW  traceSourceName, ::System::Guid  etwProviderId) ;
 
-  static inline ::System::Guid getStaticF_ImmutableDefaultEtwProviderId();
+static inline ::System::Guid getStaticF_ImmutableDefaultEtwProviderId() ;
 
-  static inline ::System::Guid getStaticF_defaultEtwProviderId();
+static inline ::System::Guid getStaticF_defaultEtwProviderId() ;
 
-  static inline ::System::Collections::Hashtable* getStaticF_etwProviderCache();
+static inline ::System::Collections::Hashtable* getStaticF_etwProviderCache() ;
 
-  static inline bool getStaticF_isVistaOrGreater();
+static inline bool getStaticF_isVistaOrGreater() ;
 
-  static inline ::System::Func_1<::StringW>* getStaticF_traceAnnotation();
+static inline ::System::Func_1<::StringW>* getStaticF_traceAnnotation() ;
 
-  static inline ::System::Runtime::Diagnostics::EventDescriptor getStaticF_transferEventDescriptor();
+static inline ::System::Runtime::Diagnostics::EventDescriptor getStaticF_transferEventDescriptor() ;
 
-  /// @brief Method get_DefaultEtwProviderId, addr 0x5fd8da4, size 0x5c, virtual false, abstract: false, final false
-  static inline ::System::Guid get_DefaultEtwProviderId();
+/// @brief Method get_DefaultEtwProviderId, addr 0x5fd9464, size 0x5c, virtual false, abstract: false, final false
+static inline ::System::Guid get_DefaultEtwProviderId() ;
 
-  /// @brief Method get_EtwProvider, addr 0x5fd8e00, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Runtime::Diagnostics::EtwProvider* get_EtwProvider();
+/// @brief Method get_EtwProvider, addr 0x5fd94c0, size 0x8, virtual false, abstract: false, final false
+inline ::System::Runtime::Diagnostics::EtwProvider* get_EtwProvider() ;
 
-  /// @brief Method get_EtwTracingEnabled, addr 0x5fd8d94, size 0x10, virtual false, abstract: false, final false
-  inline bool get_EtwTracingEnabled();
+/// @brief Method get_EtwTracingEnabled, addr 0x5fd9454, size 0x10, virtual false, abstract: false, final false
+inline bool get_EtwTracingEnabled() ;
 
-  /// @brief Method get_IsEtwProviderEnabled, addr 0x5fd53f8, size 0x20, virtual false, abstract: false, final false
-  inline bool get_IsEtwProviderEnabled();
+/// @brief Method get_IsEtwProviderEnabled, addr 0x5fd5ab8, size 0x20, virtual false, abstract: false, final false
+inline bool get_IsEtwProviderEnabled() ;
 
-  /// @brief Method get_RefreshState, addr 0x5fd2298, size 0x18, virtual false, abstract: false, final false
-  inline ::System::Action* get_RefreshState();
+/// @brief Method get_RefreshState, addr 0x5fd2958, size 0x18, virtual false, abstract: false, final false
+inline ::System::Action* get_RefreshState() ;
 
-  static inline void setStaticF_ImmutableDefaultEtwProviderId(::System::Guid value);
+static inline void setStaticF_ImmutableDefaultEtwProviderId(::System::Guid  value) ;
 
-  static inline void setStaticF_defaultEtwProviderId(::System::Guid value);
+static inline void setStaticF_defaultEtwProviderId(::System::Guid  value) ;
 
-  static inline void setStaticF_etwProviderCache(::System::Collections::Hashtable* value);
+static inline void setStaticF_etwProviderCache(::System::Collections::Hashtable*  value) ;
 
-  static inline void setStaticF_isVistaOrGreater(bool value);
+static inline void setStaticF_isVistaOrGreater(bool  value) ;
 
-  static inline void setStaticF_traceAnnotation(::System::Func_1<::StringW>* value);
+static inline void setStaticF_traceAnnotation(::System::Func_1<::StringW>*  value) ;
 
-  static inline void setStaticF_transferEventDescriptor(::System::Runtime::Diagnostics::EventDescriptor value);
+static inline void setStaticF_transferEventDescriptor(::System::Runtime::Diagnostics::EventDescriptor  value) ;
 
-  /// @brief Method set_RefreshState, addr 0x5fd22b0, size 0x18, virtual false, abstract: false, final false
-  inline void set_RefreshState(::System::Action* value);
+/// @brief Method set_RefreshState, addr 0x5fd2970, size 0x18, virtual false, abstract: false, final false
+inline void set_RefreshState(::System::Action*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr EtwDiagnosticTrace();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr EtwDiagnosticTrace() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EtwDiagnosticTrace", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  EtwDiagnosticTrace(EtwDiagnosticTrace&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EtwDiagnosticTrace", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  EtwDiagnosticTrace(EtwDiagnosticTrace const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "EtwDiagnosticTrace", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+EtwDiagnosticTrace(EtwDiagnosticTrace && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21131 };
+// Ctor Parameters [CppParam { name: "", ty: "EtwDiagnosticTrace", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+EtwDiagnosticTrace(EtwDiagnosticTrace const& ) = delete;
 
-  /// @brief Field etwProvider, offset: 0x40, size: 0x8, def value: None
-  ::System::Runtime::Diagnostics::EtwProvider* ___etwProvider;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{21135};
 
-  /// @brief Field etwProviderId, offset: 0x48, size: 0x10, def value: None
-  ::System::Guid ___etwProviderId;
+/// @brief Field etwProvider, offset: 0x40, size: 0x8, def value: None
+ ::System::Runtime::Diagnostics::EtwProvider*  ___etwProvider;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field etwProviderId, offset: 0x48, size: 0x10, def value: None
+ ::System::Guid  ___etwProviderId;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Runtime::Diagnostics::EtwDiagnosticTrace, ___etwProvider) == 0x40, "Offset mismatch!");
@@ -323,7 +323,7 @@ static_assert(offsetof(::System::Runtime::Diagnostics::EtwDiagnosticTrace, ___et
 
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Diagnostics::EtwDiagnosticTrace, 0x58>, "Size mismatch!");
 
-} // namespace System::Runtime::Diagnostics
+} // namespace end def System::Runtime::Diagnostics
 NEED_NO_BOX(::System::Runtime::Diagnostics::EtwDiagnosticTrace);
 DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Diagnostics::EtwDiagnosticTrace*, "System.Runtime.Diagnostics", "EtwDiagnosticTrace");
 NEED_NO_BOX(::System::Runtime::Diagnostics::EtwDiagnosticTrace_StringBuilderPool);

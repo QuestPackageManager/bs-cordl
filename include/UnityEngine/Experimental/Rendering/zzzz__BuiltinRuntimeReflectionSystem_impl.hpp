@@ -5,149 +5,180 @@
 #include "System/zzzz__IDisposable_def.hpp"
 #include "UnityEngine/Experimental/Rendering/zzzz__IScriptableRuntimeReflectionSystem_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem.TickRealtimeProbes
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem::*)()>(
-    &::UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem::TickRealtimeProbes)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem::*)()>(&::UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem::TickRealtimeProbes)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x696555c;
+  constexpr static std::size_t addrs = 0x6965c1c;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem*>::get(),
-                                                 "TickRealtimeProbes", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem*>::get(),
+                        "TickRealtimeProbes",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem.Dispose
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem::*)()>(
-    &::UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem::Dispose)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem::*)()>(&::UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem::Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x69655ac;
+  constexpr static std::size_t addrs = 0x6965c6c;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem*>::get(), "Dispose",
-                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem*>::get(),
+                        "Dispose",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem.Dispose
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem::*)(bool)>(
-    &::UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem::Dispose)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem::*)(bool)>(&::UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem::Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x69655b0;
+  constexpr static std::size_t addrs = 0x6965c70;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem*>::get(), "Dispose",
-                                                 std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem*>::get(),
+                        "Dispose",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem.BuiltinUpdate
-template <>
+template<>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem::BuiltinUpdate)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x6965584;
+  constexpr static std::size_t addrs = 0x6965c44;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem*>::get(),
-                                                 "BuiltinUpdate", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem*>::get(),
+                        "BuiltinUpdate",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem.Internal_BuiltinRuntimeReflectionSystem_New
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem* (*)()>(
-    &::UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem::Internal_BuiltinRuntimeReflectionSystem_New)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem* (*)()>(&::UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem::Internal_BuiltinRuntimeReflectionSystem_New)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x69655b4;
+  constexpr static std::size_t addrs = 0x6965c74;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem*>::get(),
-                                                 "Internal_BuiltinRuntimeReflectionSystem_New", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem*>::get(),
+                        "Internal_BuiltinRuntimeReflectionSystem_New",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem._ctor
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem::*)()>(
-    &::UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem::*)()>(&::UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x69655f8;
+  constexpr static std::size_t addrs = 0x6965cb8;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem*>::get(), ".ctor",
-                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
-inline bool UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem::TickRealtimeProbes() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem*>::get(),
-                                               "TickRealtimeProbes", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem::TickRealtimeProbes()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem*>::get(),
+                        "TickRealtimeProbes",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline void UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem::Dispose() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem*>::get(), "Dispose",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem::Dispose()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem*>::get(),
+                        "Dispose",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem::Dispose(bool disposing) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem*>::get(), "Dispose",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, disposing);
+inline void UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem::Dispose(bool  disposing)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem*>::get(),
+                        "Dispose",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, disposing);
 }
-inline bool UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem::BuiltinUpdate() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem*>::get(), "BuiltinUpdate",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method);
+inline bool UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem::BuiltinUpdate()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem*>::get(),
+                        "BuiltinUpdate",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method);
 }
-inline ::UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem* UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem::Internal_BuiltinRuntimeReflectionSystem_New() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem*>::get(),
-                                               "Internal_BuiltinRuntimeReflectionSystem_New", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem*, false>(nullptr, ___internal_method);
+inline ::UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem* UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem::Internal_BuiltinRuntimeReflectionSystem_New()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem*>::get(),
+                        "Internal_BuiltinRuntimeReflectionSystem_New",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem*, false>(nullptr, ___internal_method);
 }
-inline void UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem::_ctor() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem*>::get(), ".ctor",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem* UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem*>());
+inline ::UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem* UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem::New_ctor()  {
+return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem*>());
 }
 /// @brief Convert operator to "::UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem"
-constexpr UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem::operator ::UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem*() noexcept {
-  return static_cast<::UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem*>(static_cast<void*>(this));
+constexpr  UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem::operator ::UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem*() noexcept {
+return static_cast<::UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem"
-constexpr ::UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem*
-UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem::i___UnityEngine__Experimental__Rendering__IScriptableRuntimeReflectionSystem() noexcept {
-  return static_cast<::UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem*>(static_cast<void*>(this));
+constexpr ::UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem* UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem::i___UnityEngine__Experimental__Rendering__IScriptableRuntimeReflectionSystem() noexcept {
+return static_cast<::UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::IDisposable"
-constexpr UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem::operator ::System::IDisposable*() noexcept {
-  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+constexpr  UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem::operator ::System::IDisposable*() noexcept {
+return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::IDisposable"
 constexpr ::System::IDisposable* UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem::i___System__IDisposable() noexcept {
-  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem::BuiltinRuntimeReflectionSystem() {}
+constexpr ::UnityEngine::Experimental::Rendering::BuiltinRuntimeReflectionSystem::BuiltinRuntimeReflectionSystem()   {
+}

@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "Org/BouncyCastle/Cms/BaseDigestCalculator.hpp"
 #include "Org/BouncyCastle/Cms/CmsAttributeTableGenerationException.hpp"
@@ -74,5 +74,6 @@ module;
 #include "Org/BouncyCastle/Cms/SignerInformationStore.hpp"
 #include "Org/BouncyCastle/Cms/SimpleAttributeTableGenerator.hpp"
 #ifdef __cpp_modules
-export module Cms;
-#endif
+                    export module Cms;
+                    #endif
+                

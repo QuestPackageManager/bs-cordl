@@ -12,40 +12,39 @@ struct HmdQuaternionf_t;
 }
 // Write type traits
 MARK_VAL_T(::OVR::OpenVR::HmdQuaternionf_t);
-// Dependencies
+// Dependencies 
 namespace OVR::OpenVR {
 // Is value type: true
 // CS Name: OVR.OpenVR.HmdQuaternionf_t
 struct CORDL_TYPE HmdQuaternionf_t {
 public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HmdQuaternionf_t();
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr HmdQuaternionf_t() ;
 
-  // Ctor Parameters [CppParam { name: "w", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "x", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "y", ty: "float_t",
-  // modifiers: "", def_value: None }, CppParam { name: "z", ty: "float_t", modifiers: "", def_value: None }]
-  constexpr HmdQuaternionf_t(float_t w, float_t x, float_t y, float_t z) noexcept;
+// Ctor Parameters [CppParam { name: "w", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "x", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "y", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "z", ty: "float_t", modifiers: "", def_value: None }]
+constexpr HmdQuaternionf_t(float_t  w, float_t  x, float_t  y, float_t  z) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8451 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8455};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x10};
 
-  /// @brief Field w, offset: 0x0, size: 0x4, def value: None
-  float_t w;
+/// @brief Field w, offset: 0x0, size: 0x4, def value: None
+ float_t  w;
 
-  /// @brief Field x, offset: 0x4, size: 0x4, def value: None
-  float_t x;
+/// @brief Field x, offset: 0x4, size: 0x4, def value: None
+ float_t  x;
 
-  /// @brief Field y, offset: 0x8, size: 0x4, def value: None
-  float_t y;
+/// @brief Field y, offset: 0x8, size: 0x4, def value: None
+ float_t  y;
 
-  /// @brief Field z, offset: 0xc, size: 0x4, def value: None
-  float_t z;
+/// @brief Field z, offset: 0xc, size: 0x4, def value: None
+ float_t  z;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::OVR::OpenVR::HmdQuaternionf_t, w) == 0x0, "Offset mismatch!");
@@ -58,5 +57,5 @@ static_assert(offsetof(::OVR::OpenVR::HmdQuaternionf_t, z) == 0xc, "Offset misma
 
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::HmdQuaternionf_t, 0x10>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::HmdQuaternionf_t, "OVR.OpenVR", "HmdQuaternionf_t");

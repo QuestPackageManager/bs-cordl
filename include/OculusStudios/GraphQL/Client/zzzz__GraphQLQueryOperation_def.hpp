@@ -21,43 +21,43 @@ namespace OculusStudios::GraphQL::Client {
 // CS Name: OculusStudios.GraphQL.Client.GraphQLQueryOperation
 class CORDL_TYPE GraphQLQueryOperation : public ::OculusStudios::GraphQL::Client::GraphQLOperationBase {
 public:
-  // Declarations
-  /// @brief Convert operator to "::OculusStudios::GraphQL::ClientInterface::IGraphQLOperation"
-  constexpr operator ::OculusStudios::GraphQL::ClientInterface::IGraphQLOperation*() noexcept;
+// Declarations
+/// @brief Convert operator to "::OculusStudios::GraphQL::ClientInterface::IGraphQLOperation"
+constexpr operator  ::OculusStudios::GraphQL::ClientInterface::IGraphQLOperation*() noexcept;
 
-  /// @brief Method GetPersistedQueryID, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline uint64_t GetPersistedQueryID();
+/// @brief Method GetPersistedQueryID, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline uint64_t GetPersistedQueryID() ;
 
-  static inline ::OculusStudios::GraphQL::Client::GraphQLQueryOperation* New_ctor();
+static inline ::OculusStudios::GraphQL::Client::GraphQLQueryOperation* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x5d74058, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5d74564, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Convert to "::OculusStudios::GraphQL::ClientInterface::IGraphQLOperation"
-  constexpr ::OculusStudios::GraphQL::ClientInterface::IGraphQLOperation* i___OculusStudios__GraphQL__ClientInterface__IGraphQLOperation() noexcept;
+/// @brief Convert to "::OculusStudios::GraphQL::ClientInterface::IGraphQLOperation"
+constexpr ::OculusStudios::GraphQL::ClientInterface::IGraphQLOperation* i___OculusStudios__GraphQL__ClientInterface__IGraphQLOperation() noexcept;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr GraphQLQueryOperation();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr GraphQLQueryOperation() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GraphQLQueryOperation", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  GraphQLQueryOperation(GraphQLQueryOperation&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GraphQLQueryOperation", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  GraphQLQueryOperation(GraphQLQueryOperation const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "GraphQLQueryOperation", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+GraphQLQueryOperation(GraphQLQueryOperation && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20160 };
+// Ctor Parameters [CppParam { name: "", ty: "GraphQLQueryOperation", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+GraphQLQueryOperation(GraphQLQueryOperation const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20164};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OculusStudios::GraphQL::Client::GraphQLQueryOperation, 0x18>, "Size mismatch!");
 
-} // namespace OculusStudios::GraphQL::Client
+} // namespace end def OculusStudios::GraphQL::Client
 NEED_NO_BOX(::OculusStudios::GraphQL::Client::GraphQLQueryOperation);
 DEFINE_IL2CPP_ARG_TYPE(::OculusStudios::GraphQL::Client::GraphQLQueryOperation*, "OculusStudios.GraphQL.Client", "GraphQLQueryOperation");

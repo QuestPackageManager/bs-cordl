@@ -25,82 +25,82 @@ namespace UnityEngine::UIElements {
 // CS Name: UnityEngine.UIElements.TransitionCancelEvent/<>c
 class CORDL_TYPE TransitionCancelEvent___c : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field <>9, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::UIElements::TransitionCancelEvent___c* __9;
+// Declarations
+/// @brief Field <>9, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF___9, put=setStaticF___9)) ::UnityEngine::UIElements::TransitionCancelEvent___c*  __9;
 
-  static inline ::UnityEngine::UIElements::TransitionCancelEvent___c* New_ctor();
+static inline ::UnityEngine::UIElements::TransitionCancelEvent___c* New_ctor() ;
 
-  /// @brief Method <.cctor>b__0_0, addr 0x6bdb904, size 0x54, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::TransitionCancelEvent* __cctor_b__0_0();
+/// @brief Method <.cctor>b__0_0, addr 0x6bdbfc4, size 0x54, virtual false, abstract: false, final false
+inline ::UnityEngine::UIElements::TransitionCancelEvent* __cctor_b__0_0() ;
 
-  /// @brief Method .ctor, addr 0x6bdb900, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6bdbfc0, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  static inline ::UnityEngine::UIElements::TransitionCancelEvent___c* getStaticF___9();
+static inline ::UnityEngine::UIElements::TransitionCancelEvent___c* getStaticF___9() ;
 
-  static inline void setStaticF___9(::UnityEngine::UIElements::TransitionCancelEvent___c* value);
+static inline void setStaticF___9(::UnityEngine::UIElements::TransitionCancelEvent___c*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TransitionCancelEvent___c();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr TransitionCancelEvent___c() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TransitionCancelEvent___c", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  TransitionCancelEvent___c(TransitionCancelEvent___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TransitionCancelEvent___c", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  TransitionCancelEvent___c(TransitionCancelEvent___c const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "TransitionCancelEvent___c", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+TransitionCancelEvent___c(TransitionCancelEvent___c && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4573 };
+// Ctor Parameters [CppParam { name: "", ty: "TransitionCancelEvent___c", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+TransitionCancelEvent___c(TransitionCancelEvent___c const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4573};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::TransitionCancelEvent___c, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements
+} // namespace end def UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.TransitionEventBase`1<T>
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.TransitionCancelEvent
 class CORDL_TYPE TransitionCancelEvent : public ::UnityEngine::UIElements::TransitionEventBase_1<::UnityEngine::UIElements::TransitionCancelEvent*> {
 public:
-  // Declarations
-  using __c = ::UnityEngine::UIElements::TransitionCancelEvent___c;
+// Declarations
+using __c = ::UnityEngine::UIElements::TransitionCancelEvent___c;
 
-  static inline ::UnityEngine::UIElements::TransitionCancelEvent* New_ctor();
+static inline ::UnityEngine::UIElements::TransitionCancelEvent* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x6bdb860, size 0x4c, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6bdbf20, size 0x4c, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TransitionCancelEvent();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr TransitionCancelEvent() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TransitionCancelEvent", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  TransitionCancelEvent(TransitionCancelEvent&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TransitionCancelEvent", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  TransitionCancelEvent(TransitionCancelEvent const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "TransitionCancelEvent", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+TransitionCancelEvent(TransitionCancelEvent && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4574 };
+// Ctor Parameters [CppParam { name: "", ty: "TransitionCancelEvent", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+TransitionCancelEvent(TransitionCancelEvent const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4574};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::TransitionCancelEvent, 0x78>, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements
+} // namespace end def UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::TransitionCancelEvent);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::TransitionCancelEvent*, "UnityEngine.UIElements", "TransitionCancelEvent");
 NEED_NO_BOX(::UnityEngine::UIElements::TransitionCancelEvent___c);

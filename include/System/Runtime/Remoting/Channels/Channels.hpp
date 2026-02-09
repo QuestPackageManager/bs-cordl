@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "System/Runtime/Remoting/Channels/AsyncRequest.hpp"
 #include "System/Runtime/Remoting/Channels/CADSerializer.hpp"
@@ -18,5 +18,6 @@ module;
 #include "System/Runtime/Remoting/Channels/IServerChannelSinkProvider.hpp"
 #include "System/Runtime/Remoting/Channels/SinkProviderData.hpp"
 #ifdef __cpp_modules
-export module Channels;
-#endif
+                    export module Channels;
+                    #endif
+                

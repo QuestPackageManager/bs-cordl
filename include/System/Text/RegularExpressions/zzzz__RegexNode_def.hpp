@@ -9,7 +9,8 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(RegexNode)
 namespace System::Collections::Generic {
-template <typename T> class List_1;
+template<typename T>
+class List_1;
 }
 namespace System::Text::RegularExpressions {
 struct RegexOptions;
@@ -26,191 +27,191 @@ namespace System::Text::RegularExpressions {
 // CS Name: System.Text.RegularExpressions.RegexNode
 class CORDL_TYPE RegexNode : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field Ch, offset 0x28, size 0x2
-  __declspec(property(get = __cordl_internal_get_Ch, put = __cordl_internal_set_Ch)) char16_t Ch;
+// Declarations
+/// @brief Field Ch, offset 0x28, size 0x2 
+ __declspec(property(get=__cordl_internal_get_Ch, put=__cordl_internal_set_Ch)) char16_t  Ch;
 
-  /// @brief Field Children, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_Children, put = __cordl_internal_set_Children)) ::System::Collections::Generic::List_1<::System::Text::RegularExpressions::RegexNode*>* Children;
+/// @brief Field Children, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_Children, put=__cordl_internal_set_Children)) ::System::Collections::Generic::List_1<::System::Text::RegularExpressions::RegexNode*>*  Children;
 
-  /// @brief Field M, offset 0x2c, size 0x4
-  __declspec(property(get = __cordl_internal_get_M, put = __cordl_internal_set_M)) int32_t M;
+/// @brief Field M, offset 0x2c, size 0x4 
+ __declspec(property(get=__cordl_internal_get_M, put=__cordl_internal_set_M)) int32_t  M;
 
-  /// @brief Field N, offset 0x30, size 0x4
-  __declspec(property(get = __cordl_internal_get_N, put = __cordl_internal_set_N)) int32_t N;
+/// @brief Field N, offset 0x30, size 0x4 
+ __declspec(property(get=__cordl_internal_get_N, put=__cordl_internal_set_N)) int32_t  N;
 
-  /// @brief Field NType, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_NType, put = __cordl_internal_set_NType)) int32_t NType;
+/// @brief Field NType, offset 0x10, size 0x4 
+ __declspec(property(get=__cordl_internal_get_NType, put=__cordl_internal_set_NType)) int32_t  NType;
 
-  /// @brief Field Next, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_Next, put = __cordl_internal_set_Next)) ::System::Text::RegularExpressions::RegexNode* Next;
+/// @brief Field Next, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get_Next, put=__cordl_internal_set_Next)) ::System::Text::RegularExpressions::RegexNode*  Next;
 
-  /// @brief Field Options, offset 0x34, size 0x4
-  __declspec(property(get = __cordl_internal_get_Options, put = __cordl_internal_set_Options)) ::System::Text::RegularExpressions::RegexOptions Options;
+/// @brief Field Options, offset 0x34, size 0x4 
+ __declspec(property(get=__cordl_internal_get_Options, put=__cordl_internal_set_Options)) ::System::Text::RegularExpressions::RegexOptions  Options;
 
-  /// @brief Field Str, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_Str, put = __cordl_internal_set_Str)) ::StringW Str;
+/// @brief Field Str, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get_Str, put=__cordl_internal_set_Str)) ::StringW  Str;
 
-  /// @brief Method AddChild, addr 0x61d8d74, size 0x11c, virtual false, abstract: false, final false
-  inline void AddChild(::System::Text::RegularExpressions::RegexNode* newChild);
+/// @brief Method AddChild, addr 0x61d9434, size 0x11c, virtual false, abstract: false, final false
+inline void AddChild(::System::Text::RegularExpressions::RegexNode*  newChild) ;
 
-  /// @brief Method Child, addr 0x61d4a38, size 0x64, virtual false, abstract: false, final false
-  inline ::System::Text::RegularExpressions::RegexNode* Child(int32_t i);
+/// @brief Method Child, addr 0x61d50f8, size 0x64, virtual false, abstract: false, final false
+inline ::System::Text::RegularExpressions::RegexNode* Child(int32_t  i) ;
 
-  /// @brief Method ChildCount, addr 0x61d49e4, size 0x54, virtual false, abstract: false, final false
-  inline int32_t ChildCount();
+/// @brief Method ChildCount, addr 0x61d50a4, size 0x54, virtual false, abstract: false, final false
+inline int32_t ChildCount() ;
 
-  /// @brief Method MakeQuantifier, addr 0x61d8c70, size 0x104, virtual false, abstract: false, final false
-  inline ::System::Text::RegularExpressions::RegexNode* MakeQuantifier(bool lazy, int32_t min, int32_t max);
+/// @brief Method MakeQuantifier, addr 0x61d9330, size 0x104, virtual false, abstract: false, final false
+inline ::System::Text::RegularExpressions::RegexNode* MakeQuantifier(bool  lazy, int32_t  min, int32_t  max) ;
 
-  /// @brief Method MakeRep, addr 0x61d80d4, size 0x18, virtual false, abstract: false, final false
-  inline void MakeRep(int32_t type, int32_t min, int32_t max);
+/// @brief Method MakeRep, addr 0x61d8794, size 0x18, virtual false, abstract: false, final false
+inline void MakeRep(int32_t  type, int32_t  min, int32_t  max) ;
 
-  static inline ::System::Text::RegularExpressions::RegexNode* New_ctor(int32_t type, ::System::Text::RegularExpressions::RegexOptions options);
+static inline ::System::Text::RegularExpressions::RegexNode* New_ctor(int32_t  type, ::System::Text::RegularExpressions::RegexOptions  options) ;
 
-  static inline ::System::Text::RegularExpressions::RegexNode* New_ctor(int32_t type, ::System::Text::RegularExpressions::RegexOptions options, char16_t ch);
+static inline ::System::Text::RegularExpressions::RegexNode* New_ctor(int32_t  type, ::System::Text::RegularExpressions::RegexOptions  options, char16_t  ch) ;
 
-  static inline ::System::Text::RegularExpressions::RegexNode* New_ctor(int32_t type, ::System::Text::RegularExpressions::RegexOptions options, int32_t m);
+static inline ::System::Text::RegularExpressions::RegexNode* New_ctor(int32_t  type, ::System::Text::RegularExpressions::RegexOptions  options, int32_t  m) ;
 
-  static inline ::System::Text::RegularExpressions::RegexNode* New_ctor(int32_t type, ::System::Text::RegularExpressions::RegexOptions options, int32_t m, int32_t n);
+static inline ::System::Text::RegularExpressions::RegexNode* New_ctor(int32_t  type, ::System::Text::RegularExpressions::RegexOptions  options, int32_t  m, int32_t  n) ;
 
-  static inline ::System::Text::RegularExpressions::RegexNode* New_ctor(int32_t type, ::System::Text::RegularExpressions::RegexOptions options, ::StringW str);
+static inline ::System::Text::RegularExpressions::RegexNode* New_ctor(int32_t  type, ::System::Text::RegularExpressions::RegexOptions  options, ::StringW  str) ;
 
-  /// @brief Method Reduce, addr 0x61d80ec, size 0x60, virtual false, abstract: false, final false
-  inline ::System::Text::RegularExpressions::RegexNode* Reduce();
+/// @brief Method Reduce, addr 0x61d87ac, size 0x60, virtual false, abstract: false, final false
+inline ::System::Text::RegularExpressions::RegexNode* Reduce() ;
 
-  /// @brief Method ReduceAlternation, addr 0x61d814c, size 0x3e8, virtual false, abstract: false, final false
-  inline ::System::Text::RegularExpressions::RegexNode* ReduceAlternation();
+/// @brief Method ReduceAlternation, addr 0x61d880c, size 0x3e8, virtual false, abstract: false, final false
+inline ::System::Text::RegularExpressions::RegexNode* ReduceAlternation() ;
 
-  /// @brief Method ReduceConcatenation, addr 0x61d8534, size 0x3a0, virtual false, abstract: false, final false
-  inline ::System::Text::RegularExpressions::RegexNode* ReduceConcatenation();
+/// @brief Method ReduceConcatenation, addr 0x61d8bf4, size 0x3a0, virtual false, abstract: false, final false
+inline ::System::Text::RegularExpressions::RegexNode* ReduceConcatenation() ;
 
-  /// @brief Method ReduceGroup, addr 0x61d8a60, size 0x2c, virtual false, abstract: false, final false
-  inline ::System::Text::RegularExpressions::RegexNode* ReduceGroup();
+/// @brief Method ReduceGroup, addr 0x61d9120, size 0x2c, virtual false, abstract: false, final false
+inline ::System::Text::RegularExpressions::RegexNode* ReduceGroup() ;
 
-  /// @brief Method ReduceRep, addr 0x61d88d4, size 0x18c, virtual false, abstract: false, final false
-  inline ::System::Text::RegularExpressions::RegexNode* ReduceRep();
+/// @brief Method ReduceRep, addr 0x61d8f94, size 0x18c, virtual false, abstract: false, final false
+inline ::System::Text::RegularExpressions::RegexNode* ReduceRep() ;
 
-  /// @brief Method ReduceSet, addr 0x61d8a8c, size 0x120, virtual false, abstract: false, final false
-  inline ::System::Text::RegularExpressions::RegexNode* ReduceSet();
+/// @brief Method ReduceSet, addr 0x61d914c, size 0x120, virtual false, abstract: false, final false
+inline ::System::Text::RegularExpressions::RegexNode* ReduceSet() ;
 
-  /// @brief Method ReverseLeft, addr 0x61d804c, size 0x88, virtual false, abstract: false, final false
-  inline ::System::Text::RegularExpressions::RegexNode* ReverseLeft();
+/// @brief Method ReverseLeft, addr 0x61d870c, size 0x88, virtual false, abstract: false, final false
+inline ::System::Text::RegularExpressions::RegexNode* ReverseLeft() ;
 
-  /// @brief Method StripEnation, addr 0x61d8bac, size 0xc4, virtual false, abstract: false, final false
-  inline ::System::Text::RegularExpressions::RegexNode* StripEnation(int32_t emptyType);
+/// @brief Method StripEnation, addr 0x61d926c, size 0xc4, virtual false, abstract: false, final false
+inline ::System::Text::RegularExpressions::RegexNode* StripEnation(int32_t  emptyType) ;
 
-  /// @brief Method Type, addr 0x61d8e90, size 0x8, virtual false, abstract: false, final false
-  inline int32_t Type();
+/// @brief Method Type, addr 0x61d9550, size 0x8, virtual false, abstract: false, final false
+inline int32_t Type() ;
 
-  /// @brief Method UseOptionR, addr 0x61d8040, size 0xc, virtual false, abstract: false, final false
-  inline bool UseOptionR();
+/// @brief Method UseOptionR, addr 0x61d8700, size 0xc, virtual false, abstract: false, final false
+inline bool UseOptionR() ;
 
-  constexpr char16_t const& __cordl_internal_get_Ch() const;
+constexpr char16_t const& __cordl_internal_get_Ch() const;
 
-  constexpr char16_t& __cordl_internal_get_Ch();
+constexpr char16_t& __cordl_internal_get_Ch() ;
 
-  constexpr ::System::Collections::Generic::List_1<::System::Text::RegularExpressions::RegexNode*>* const& __cordl_internal_get_Children() const;
+constexpr ::System::Collections::Generic::List_1<::System::Text::RegularExpressions::RegexNode*>* const& __cordl_internal_get_Children() const;
 
-  constexpr ::System::Collections::Generic::List_1<::System::Text::RegularExpressions::RegexNode*>*& __cordl_internal_get_Children();
+constexpr ::System::Collections::Generic::List_1<::System::Text::RegularExpressions::RegexNode*>*& __cordl_internal_get_Children() ;
 
-  constexpr int32_t const& __cordl_internal_get_M() const;
+constexpr int32_t const& __cordl_internal_get_M() const;
 
-  constexpr int32_t& __cordl_internal_get_M();
+constexpr int32_t& __cordl_internal_get_M() ;
 
-  constexpr int32_t const& __cordl_internal_get_N() const;
+constexpr int32_t const& __cordl_internal_get_N() const;
 
-  constexpr int32_t& __cordl_internal_get_N();
+constexpr int32_t& __cordl_internal_get_N() ;
 
-  constexpr int32_t const& __cordl_internal_get_NType() const;
+constexpr int32_t const& __cordl_internal_get_NType() const;
 
-  constexpr int32_t& __cordl_internal_get_NType();
+constexpr int32_t& __cordl_internal_get_NType() ;
 
-  constexpr ::System::Text::RegularExpressions::RegexNode* const& __cordl_internal_get_Next() const;
+constexpr ::System::Text::RegularExpressions::RegexNode* const& __cordl_internal_get_Next() const;
 
-  constexpr ::System::Text::RegularExpressions::RegexNode*& __cordl_internal_get_Next();
+constexpr ::System::Text::RegularExpressions::RegexNode*& __cordl_internal_get_Next() ;
 
-  constexpr ::System::Text::RegularExpressions::RegexOptions const& __cordl_internal_get_Options() const;
+constexpr ::System::Text::RegularExpressions::RegexOptions const& __cordl_internal_get_Options() const;
 
-  constexpr ::System::Text::RegularExpressions::RegexOptions& __cordl_internal_get_Options();
+constexpr ::System::Text::RegularExpressions::RegexOptions& __cordl_internal_get_Options() ;
 
-  constexpr ::StringW const& __cordl_internal_get_Str() const;
+constexpr ::StringW const& __cordl_internal_get_Str() const;
 
-  constexpr ::StringW& __cordl_internal_get_Str();
+constexpr ::StringW& __cordl_internal_get_Str() ;
 
-  constexpr void __cordl_internal_set_Ch(char16_t value);
+constexpr void __cordl_internal_set_Ch(char16_t  value) ;
 
-  constexpr void __cordl_internal_set_Children(::System::Collections::Generic::List_1<::System::Text::RegularExpressions::RegexNode*>* value);
+constexpr void __cordl_internal_set_Children(::System::Collections::Generic::List_1<::System::Text::RegularExpressions::RegexNode*>*  value) ;
 
-  constexpr void __cordl_internal_set_M(int32_t value);
+constexpr void __cordl_internal_set_M(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_N(int32_t value);
+constexpr void __cordl_internal_set_N(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_NType(int32_t value);
+constexpr void __cordl_internal_set_NType(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_Next(::System::Text::RegularExpressions::RegexNode* value);
+constexpr void __cordl_internal_set_Next(::System::Text::RegularExpressions::RegexNode*  value) ;
 
-  constexpr void __cordl_internal_set_Options(::System::Text::RegularExpressions::RegexOptions value);
+constexpr void __cordl_internal_set_Options(::System::Text::RegularExpressions::RegexOptions  value) ;
 
-  constexpr void __cordl_internal_set_Str(::StringW value);
+constexpr void __cordl_internal_set_Str(::StringW  value) ;
 
-  /// @brief Method .ctor, addr 0x61d7ff4, size 0xc, virtual false, abstract: false, final false
-  inline void _ctor(int32_t type, ::System::Text::RegularExpressions::RegexOptions options);
+/// @brief Method .ctor, addr 0x61d86b4, size 0xc, virtual false, abstract: false, final false
+inline void _ctor(int32_t  type, ::System::Text::RegularExpressions::RegexOptions  options) ;
 
-  /// @brief Method .ctor, addr 0x61d8000, size 0x10, virtual false, abstract: false, final false
-  inline void _ctor(int32_t type, ::System::Text::RegularExpressions::RegexOptions options, char16_t ch);
+/// @brief Method .ctor, addr 0x61d86c0, size 0x10, virtual false, abstract: false, final false
+inline void _ctor(int32_t  type, ::System::Text::RegularExpressions::RegexOptions  options, char16_t  ch) ;
 
-  /// @brief Method .ctor, addr 0x61d8020, size 0x10, virtual false, abstract: false, final false
-  inline void _ctor(int32_t type, ::System::Text::RegularExpressions::RegexOptions options, int32_t m);
+/// @brief Method .ctor, addr 0x61d86e0, size 0x10, virtual false, abstract: false, final false
+inline void _ctor(int32_t  type, ::System::Text::RegularExpressions::RegexOptions  options, int32_t  m) ;
 
-  /// @brief Method .ctor, addr 0x61d8030, size 0x10, virtual false, abstract: false, final false
-  inline void _ctor(int32_t type, ::System::Text::RegularExpressions::RegexOptions options, int32_t m, int32_t n);
+/// @brief Method .ctor, addr 0x61d86f0, size 0x10, virtual false, abstract: false, final false
+inline void _ctor(int32_t  type, ::System::Text::RegularExpressions::RegexOptions  options, int32_t  m, int32_t  n) ;
 
-  /// @brief Method .ctor, addr 0x61d8010, size 0x10, virtual false, abstract: false, final false
-  inline void _ctor(int32_t type, ::System::Text::RegularExpressions::RegexOptions options, ::StringW str);
+/// @brief Method .ctor, addr 0x61d86d0, size 0x10, virtual false, abstract: false, final false
+inline void _ctor(int32_t  type, ::System::Text::RegularExpressions::RegexOptions  options, ::StringW  str) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RegexNode();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr RegexNode() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RegexNode", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  RegexNode(RegexNode&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RegexNode", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  RegexNode(RegexNode const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "RegexNode", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+RegexNode(RegexNode && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11093 };
+// Ctor Parameters [CppParam { name: "", ty: "RegexNode", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+RegexNode(RegexNode const& ) = delete;
 
-  /// @brief Field NType, offset: 0x10, size: 0x4, def value: None
-  int32_t ___NType;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11097};
 
-  /// @brief Field Children, offset: 0x18, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::System::Text::RegularExpressions::RegexNode*>* ___Children;
+/// @brief Field NType, offset: 0x10, size: 0x4, def value: None
+ int32_t  ___NType;
 
-  /// @brief Field Str, offset: 0x20, size: 0x8, def value: None
-  ::StringW ___Str;
+/// @brief Field Children, offset: 0x18, size: 0x8, def value: None
+ ::System::Collections::Generic::List_1<::System::Text::RegularExpressions::RegexNode*>*  ___Children;
 
-  /// @brief Field Ch, offset: 0x28, size: 0x2, def value: None
-  char16_t ___Ch;
+/// @brief Field Str, offset: 0x20, size: 0x8, def value: None
+ ::StringW  ___Str;
 
-  /// @brief Field M, offset: 0x2c, size: 0x4, def value: None
-  int32_t ___M;
+/// @brief Field Ch, offset: 0x28, size: 0x2, def value: None
+ char16_t  ___Ch;
 
-  /// @brief Field N, offset: 0x30, size: 0x4, def value: None
-  int32_t ___N;
+/// @brief Field M, offset: 0x2c, size: 0x4, def value: None
+ int32_t  ___M;
 
-  /// @brief Field Options, offset: 0x34, size: 0x4, def value: None
-  ::System::Text::RegularExpressions::RegexOptions ___Options;
+/// @brief Field N, offset: 0x30, size: 0x4, def value: None
+ int32_t  ___N;
 
-  /// @brief Field Next, offset: 0x38, size: 0x8, def value: None
-  ::System::Text::RegularExpressions::RegexNode* ___Next;
+/// @brief Field Options, offset: 0x34, size: 0x4, def value: None
+ ::System::Text::RegularExpressions::RegexOptions  ___Options;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field Next, offset: 0x38, size: 0x8, def value: None
+ ::System::Text::RegularExpressions::RegexNode*  ___Next;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Text::RegularExpressions::RegexNode, ___NType) == 0x10, "Offset mismatch!");
@@ -231,6 +232,6 @@ static_assert(offsetof(::System::Text::RegularExpressions::RegexNode, ___Next) =
 
 static_assert(::cordl_internals::size_check_v<::System::Text::RegularExpressions::RegexNode, 0x40>, "Size mismatch!");
 
-} // namespace System::Text::RegularExpressions
+} // namespace end def System::Text::RegularExpressions
 NEED_NO_BOX(::System::Text::RegularExpressions::RegexNode);
 DEFINE_IL2CPP_ARG_TYPE(::System::Text::RegularExpressions::RegexNode*, "System.Text.RegularExpressions", "RegexNode");

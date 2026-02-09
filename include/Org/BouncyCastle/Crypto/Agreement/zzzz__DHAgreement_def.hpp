@@ -35,87 +35,87 @@ namespace Org::BouncyCastle::Crypto::Agreement {
 // CS Name: Org.BouncyCastle.Crypto.Agreement.DHAgreement
 class CORDL_TYPE DHAgreement : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field dhParams, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_dhParams, put = __cordl_internal_set_dhParams)) ::Org::BouncyCastle::Crypto::Parameters::DHParameters* dhParams;
+// Declarations
+/// @brief Field dhParams, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_dhParams, put=__cordl_internal_set_dhParams)) ::Org::BouncyCastle::Crypto::Parameters::DHParameters*  dhParams;
 
-  /// @brief Field key, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_key, put = __cordl_internal_set_key)) ::Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters* key;
+/// @brief Field key, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_key, put=__cordl_internal_set_key)) ::Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters*  key;
 
-  /// @brief Field privateValue, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_privateValue, put = __cordl_internal_set_privateValue)) ::Org::BouncyCastle::Math::BigInteger* privateValue;
+/// @brief Field privateValue, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get_privateValue, put=__cordl_internal_set_privateValue)) ::Org::BouncyCastle::Math::BigInteger*  privateValue;
 
-  /// @brief Field random, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_random, put = __cordl_internal_set_random)) ::Org::BouncyCastle::Security::SecureRandom* random;
+/// @brief Field random, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get_random, put=__cordl_internal_set_random)) ::Org::BouncyCastle::Security::SecureRandom*  random;
 
-  /// @brief Method CalculateAgreement, addr 0x35e7658, size 0x288, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Math::BigInteger* CalculateAgreement(::Org::BouncyCastle::Crypto::Parameters::DHPublicKeyParameters* pub, ::Org::BouncyCastle::Math::BigInteger* message);
+/// @brief Method CalculateAgreement, addr 0x35e75a8, size 0x288, virtual false, abstract: false, final false
+inline ::Org::BouncyCastle::Math::BigInteger* CalculateAgreement(::Org::BouncyCastle::Crypto::Parameters::DHPublicKeyParameters*  pub, ::Org::BouncyCastle::Math::BigInteger*  message) ;
 
-  /// @brief Method CalculateMessage, addr 0x35e74d8, size 0x180, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Math::BigInteger* CalculateMessage();
+/// @brief Method CalculateMessage, addr 0x35e7428, size 0x180, virtual false, abstract: false, final false
+inline ::Org::BouncyCastle::Math::BigInteger* CalculateMessage() ;
 
-  /// @brief Method Init, addr 0x35e731c, size 0x1bc, virtual false, abstract: false, final false
-  inline void Init(::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
+/// @brief Method Init, addr 0x35e726c, size 0x1bc, virtual false, abstract: false, final false
+inline void Init(::Org::BouncyCastle::Crypto::ICipherParameters*  parameters) ;
 
-  static inline ::Org::BouncyCastle::Crypto::Agreement::DHAgreement* New_ctor();
+static inline ::Org::BouncyCastle::Crypto::Agreement::DHAgreement* New_ctor() ;
 
-  constexpr ::Org::BouncyCastle::Crypto::Parameters::DHParameters* const& __cordl_internal_get_dhParams() const;
+constexpr ::Org::BouncyCastle::Crypto::Parameters::DHParameters* const& __cordl_internal_get_dhParams() const;
 
-  constexpr ::Org::BouncyCastle::Crypto::Parameters::DHParameters*& __cordl_internal_get_dhParams();
+constexpr ::Org::BouncyCastle::Crypto::Parameters::DHParameters*& __cordl_internal_get_dhParams() ;
 
-  constexpr ::Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters* const& __cordl_internal_get_key() const;
+constexpr ::Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters* const& __cordl_internal_get_key() const;
 
-  constexpr ::Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters*& __cordl_internal_get_key();
+constexpr ::Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters*& __cordl_internal_get_key() ;
 
-  constexpr ::Org::BouncyCastle::Math::BigInteger* const& __cordl_internal_get_privateValue() const;
+constexpr ::Org::BouncyCastle::Math::BigInteger* const& __cordl_internal_get_privateValue() const;
 
-  constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_privateValue();
+constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_privateValue() ;
 
-  constexpr ::Org::BouncyCastle::Security::SecureRandom* const& __cordl_internal_get_random() const;
+constexpr ::Org::BouncyCastle::Security::SecureRandom* const& __cordl_internal_get_random() const;
 
-  constexpr ::Org::BouncyCastle::Security::SecureRandom*& __cordl_internal_get_random();
+constexpr ::Org::BouncyCastle::Security::SecureRandom*& __cordl_internal_get_random() ;
 
-  constexpr void __cordl_internal_set_dhParams(::Org::BouncyCastle::Crypto::Parameters::DHParameters* value);
+constexpr void __cordl_internal_set_dhParams(::Org::BouncyCastle::Crypto::Parameters::DHParameters*  value) ;
 
-  constexpr void __cordl_internal_set_key(::Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters* value);
+constexpr void __cordl_internal_set_key(::Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters*  value) ;
 
-  constexpr void __cordl_internal_set_privateValue(::Org::BouncyCastle::Math::BigInteger* value);
+constexpr void __cordl_internal_set_privateValue(::Org::BouncyCastle::Math::BigInteger*  value) ;
 
-  constexpr void __cordl_internal_set_random(::Org::BouncyCastle::Security::SecureRandom* value);
+constexpr void __cordl_internal_set_random(::Org::BouncyCastle::Security::SecureRandom*  value) ;
 
-  /// @brief Method .ctor, addr 0x35e78e0, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x35e7830, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DHAgreement();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr DHAgreement() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DHAgreement", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  DHAgreement(DHAgreement&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DHAgreement", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  DHAgreement(DHAgreement const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "DHAgreement", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+DHAgreement(DHAgreement && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 732 };
+// Ctor Parameters [CppParam { name: "", ty: "DHAgreement", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+DHAgreement(DHAgreement const& ) = delete;
 
-  /// @brief Field key, offset: 0x10, size: 0x8, def value: None
-  ::Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters* ___key;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{732};
 
-  /// @brief Field dhParams, offset: 0x18, size: 0x8, def value: None
-  ::Org::BouncyCastle::Crypto::Parameters::DHParameters* ___dhParams;
+/// @brief Field key, offset: 0x10, size: 0x8, def value: None
+ ::Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters*  ___key;
 
-  /// @brief Field privateValue, offset: 0x20, size: 0x8, def value: None
-  ::Org::BouncyCastle::Math::BigInteger* ___privateValue;
+/// @brief Field dhParams, offset: 0x18, size: 0x8, def value: None
+ ::Org::BouncyCastle::Crypto::Parameters::DHParameters*  ___dhParams;
 
-  /// @brief Field random, offset: 0x28, size: 0x8, def value: None
-  ::Org::BouncyCastle::Security::SecureRandom* ___random;
+/// @brief Field privateValue, offset: 0x20, size: 0x8, def value: None
+ ::Org::BouncyCastle::Math::BigInteger*  ___privateValue;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field random, offset: 0x28, size: 0x8, def value: None
+ ::Org::BouncyCastle::Security::SecureRandom*  ___random;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Agreement::DHAgreement, ___key) == 0x10, "Offset mismatch!");
@@ -128,6 +128,6 @@ static_assert(offsetof(::Org::BouncyCastle::Crypto::Agreement::DHAgreement, ___r
 
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Agreement::DHAgreement, 0x30>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Crypto::Agreement
+} // namespace end def Org::BouncyCastle::Crypto::Agreement
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Agreement::DHAgreement);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Agreement::DHAgreement*, "Org.BouncyCastle.Crypto.Agreement", "DHAgreement");

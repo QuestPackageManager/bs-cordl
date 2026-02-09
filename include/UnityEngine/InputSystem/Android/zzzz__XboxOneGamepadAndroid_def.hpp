@@ -17,34 +17,34 @@ namespace UnityEngine::InputSystem::Android {
 // CS Name: UnityEngine.InputSystem.Android.XboxOneGamepadAndroid
 class CORDL_TYPE XboxOneGamepadAndroid : public ::UnityEngine::InputSystem::XInput::XInputController {
 public:
-  // Declarations
-  static inline ::UnityEngine::InputSystem::Android::XboxOneGamepadAndroid* New_ctor();
+// Declarations
+static inline ::UnityEngine::InputSystem::Android::XboxOneGamepadAndroid* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x63f52a8, size 0x20, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x63f5968, size 0x20, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr XboxOneGamepadAndroid();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr XboxOneGamepadAndroid() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XboxOneGamepadAndroid", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  XboxOneGamepadAndroid(XboxOneGamepadAndroid&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XboxOneGamepadAndroid", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  XboxOneGamepadAndroid(XboxOneGamepadAndroid const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "XboxOneGamepadAndroid", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+XboxOneGamepadAndroid(XboxOneGamepadAndroid && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8902 };
+// Ctor Parameters [CppParam { name: "", ty: "XboxOneGamepadAndroid", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+XboxOneGamepadAndroid(XboxOneGamepadAndroid const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8906};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Android::XboxOneGamepadAndroid, 0x228>, "Size mismatch!");
 
-} // namespace UnityEngine::InputSystem::Android
+} // namespace end def UnityEngine::InputSystem::Android
 NEED_NO_BOX(::UnityEngine::InputSystem::Android::XboxOneGamepadAndroid);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Android::XboxOneGamepadAndroid*, "UnityEngine.InputSystem.Android", "XboxOneGamepadAndroid");

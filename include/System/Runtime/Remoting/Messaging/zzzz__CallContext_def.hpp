@@ -24,46 +24,46 @@ namespace System::Runtime::Remoting::Messaging {
 // CS Name: System.Runtime.Remoting.Messaging.CallContext
 class CORDL_TYPE CallContext : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method LogicalGetData, addr 0x598e788, size 0x40, virtual false, abstract: false, final false
-  static inline ::System::Object* LogicalGetData(::StringW name);
+// Declarations
+/// @brief Method LogicalGetData, addr 0x598ec94, size 0x40, virtual false, abstract: false, final false
+static inline ::System::Object* LogicalGetData(::StringW  name) ;
 
-  /// @brief Method LogicalSetData, addr 0x598e7d8, size 0x68, virtual false, abstract: false, final false
-  static inline void LogicalSetData(::StringW name, ::System::Object* data);
+/// @brief Method LogicalSetData, addr 0x598ece4, size 0x68, virtual false, abstract: false, final false
+static inline void LogicalSetData(::StringW  name, ::System::Object*  data) ;
 
-  static inline ::System::Runtime::Remoting::Messaging::CallContext* New_ctor();
+static inline ::System::Runtime::Remoting::Messaging::CallContext* New_ctor() ;
 
-  /// @brief Method SetCurrentCallContext, addr 0x598e780, size 0x8, virtual false, abstract: false, final false
-  static inline ::System::Object* SetCurrentCallContext(::System::Runtime::Remoting::Messaging::LogicalCallContext* ctx);
+/// @brief Method SetCurrentCallContext, addr 0x598ec8c, size 0x8, virtual false, abstract: false, final false
+static inline ::System::Object* SetCurrentCallContext(::System::Runtime::Remoting::Messaging::LogicalCallContext*  ctx) ;
 
-  /// @brief Method SetLogicalCallContext, addr 0x5979d24, size 0x44, virtual false, abstract: false, final false
-  static inline ::System::Runtime::Remoting::Messaging::LogicalCallContext* SetLogicalCallContext(::System::Runtime::Remoting::Messaging::LogicalCallContext* callCtx);
+/// @brief Method SetLogicalCallContext, addr 0x597a230, size 0x44, virtual false, abstract: false, final false
+static inline ::System::Runtime::Remoting::Messaging::LogicalCallContext* SetLogicalCallContext(::System::Runtime::Remoting::Messaging::LogicalCallContext*  callCtx) ;
 
-  /// @brief Method .ctor, addr 0x598e77c, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x598ec88, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CallContext();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr CallContext() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CallContext", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  CallContext(CallContext&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CallContext", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  CallContext(CallContext const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "CallContext", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+CallContext(CallContext && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3159 };
+// Ctor Parameters [CppParam { name: "", ty: "CallContext", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+CallContext(CallContext const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{3159};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Remoting::Messaging::CallContext, 0x10>, "Size mismatch!");
 
-} // namespace System::Runtime::Remoting::Messaging
+} // namespace end def System::Runtime::Remoting::Messaging
 NEED_NO_BOX(::System::Runtime::Remoting::Messaging::CallContext);
 DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::Messaging::CallContext*, "System.Runtime.Remoting.Messaging", "CallContext");

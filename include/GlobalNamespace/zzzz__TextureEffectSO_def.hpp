@@ -20,37 +20,37 @@ namespace GlobalNamespace {
 // CS Name: TextureEffectSO
 class CORDL_TYPE TextureEffectSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
-  // Declarations
-  static inline ::GlobalNamespace::TextureEffectSO* New_ctor();
+// Declarations
+static inline ::GlobalNamespace::TextureEffectSO* New_ctor() ;
 
-  /// @brief Method Render, addr 0x56bf4c4, size 0x6c, virtual true, abstract: false, final false
-  inline void Render(::UnityEngine::RenderTexture* src, ::UnityEngine::RenderTexture* dest);
+/// @brief Method Render, addr 0x56bf24c, size 0x6c, virtual true, abstract: false, final false
+inline void Render(::UnityEngine::RenderTexture*  src, ::UnityEngine::RenderTexture*  dest) ;
 
-  /// @brief Method .ctor, addr 0x56bf530, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x56bf2b8, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TextureEffectSO();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr TextureEffectSO() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TextureEffectSO", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  TextureEffectSO(TextureEffectSO&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TextureEffectSO", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  TextureEffectSO(TextureEffectSO const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "TextureEffectSO", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+TextureEffectSO(TextureEffectSO && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19778 };
+// Ctor Parameters [CppParam { name: "", ty: "TextureEffectSO", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+TextureEffectSO(TextureEffectSO const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{19782};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::TextureEffectSO, 0x18>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::TextureEffectSO);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::TextureEffectSO*, "", "TextureEffectSO");

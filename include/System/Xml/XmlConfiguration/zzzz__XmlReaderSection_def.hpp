@@ -20,38 +20,38 @@ namespace System::Xml::XmlConfiguration {
 // CS Name: System.Xml.XmlConfiguration.XmlReaderSection
 class CORDL_TYPE XmlReaderSection : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method CreateDefaultResolver, addr 0x6161bc8, size 0x44, virtual false, abstract: false, final false
-  static inline ::System::Xml::XmlResolver* CreateDefaultResolver();
+// Declarations
+/// @brief Method CreateDefaultResolver, addr 0x6162288, size 0x44, virtual false, abstract: false, final false
+static inline ::System::Xml::XmlResolver* CreateDefaultResolver() ;
 
-  /// @brief Method get_CollapseWhiteSpaceIntoEmptyString, addr 0x6161c0c, size 0x8, virtual false, abstract: false, final false
-  static inline bool get_CollapseWhiteSpaceIntoEmptyString();
+/// @brief Method get_CollapseWhiteSpaceIntoEmptyString, addr 0x61622cc, size 0x8, virtual false, abstract: false, final false
+static inline bool get_CollapseWhiteSpaceIntoEmptyString() ;
 
-  /// @brief Method get_ProhibitDefaultUrlResolver, addr 0x6161bc0, size 0x8, virtual false, abstract: false, final false
-  static inline bool get_ProhibitDefaultUrlResolver();
+/// @brief Method get_ProhibitDefaultUrlResolver, addr 0x6162280, size 0x8, virtual false, abstract: false, final false
+static inline bool get_ProhibitDefaultUrlResolver() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr XmlReaderSection();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr XmlReaderSection() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlReaderSection", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  XmlReaderSection(XmlReaderSection&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlReaderSection", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  XmlReaderSection(XmlReaderSection const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "XmlReaderSection", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+XmlReaderSection(XmlReaderSection && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9541 };
+// Ctor Parameters [CppParam { name: "", ty: "XmlReaderSection", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+XmlReaderSection(XmlReaderSection const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{9545};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Xml::XmlConfiguration::XmlReaderSection, 0x10>, "Size mismatch!");
 
-} // namespace System::Xml::XmlConfiguration
+} // namespace end def System::Xml::XmlConfiguration
 NEED_NO_BOX(::System::Xml::XmlConfiguration::XmlReaderSection);
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::XmlConfiguration::XmlReaderSection*, "System.Xml.XmlConfiguration", "XmlReaderSection");

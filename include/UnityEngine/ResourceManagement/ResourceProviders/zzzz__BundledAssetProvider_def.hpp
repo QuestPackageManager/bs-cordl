@@ -10,7 +10,8 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(BundledAssetProvider)
 namespace System::Collections::Generic {
-template <typename T> class IList_1;
+template<typename T>
+class IList_1;
 }
 namespace System {
 class Object;
@@ -49,141 +50,142 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
 // CS Name: UnityEngine.ResourceManagement.ResourceProviders.BundledAssetProvider/InternalOp
 class CORDL_TYPE BundledAssetProvider_InternalOp : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field m_AssetBundle, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_AssetBundle, put = __cordl_internal_set_m_AssetBundle)) ::UnityW<::UnityEngine::AssetBundle> m_AssetBundle;
+// Declarations
+/// @brief Field m_AssetBundle, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_AssetBundle, put=__cordl_internal_set_m_AssetBundle)) ::UnityW<::UnityEngine::AssetBundle>  m_AssetBundle;
 
-  /// @brief Field m_PreloadRequest, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_PreloadRequest, put = __cordl_internal_set_m_PreloadRequest)) ::UnityEngine::AssetBundleRequest* m_PreloadRequest;
+/// @brief Field m_PreloadRequest, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_PreloadRequest, put=__cordl_internal_set_m_PreloadRequest)) ::UnityEngine::AssetBundleRequest*  m_PreloadRequest;
 
-  /// @brief Field m_ProvideHandle, offset 0x30, size 0x18
-  __declspec(property(get = __cordl_internal_get_m_ProvideHandle, put = __cordl_internal_set_m_ProvideHandle)) ::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle m_ProvideHandle;
+/// @brief Field m_ProvideHandle, offset 0x30, size 0x18 
+ __declspec(property(get=__cordl_internal_get_m_ProvideHandle, put=__cordl_internal_set_m_ProvideHandle)) ::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle  m_ProvideHandle;
 
-  /// @brief Field m_RequestOperation, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_RequestOperation, put = __cordl_internal_set_m_RequestOperation)) ::UnityEngine::AssetBundleRequest* m_RequestOperation;
+/// @brief Field m_RequestOperation, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_RequestOperation, put=__cordl_internal_set_m_RequestOperation)) ::UnityEngine::AssetBundleRequest*  m_RequestOperation;
 
-  /// @brief Field m_Result, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Result, put = __cordl_internal_set_m_Result)) ::System::Object* m_Result;
+/// @brief Field m_Result, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_Result, put=__cordl_internal_set_m_Result)) ::System::Object*  m_Result;
 
-  /// @brief Field subObjectName, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_subObjectName, put = __cordl_internal_set_subObjectName)) ::StringW subObjectName;
+/// @brief Field subObjectName, offset 0x48, size 0x8 
+ __declspec(property(get=__cordl_internal_get_subObjectName, put=__cordl_internal_set_subObjectName)) ::StringW  subObjectName;
 
-  /// @brief Method ActionComplete, addr 0x6766688, size 0x184, virtual false, abstract: false, final false
-  inline void ActionComplete(::UnityEngine::AsyncOperation* obj);
+/// @brief Method ActionComplete, addr 0x6766d48, size 0x184, virtual false, abstract: false, final false
+inline void ActionComplete(::UnityEngine::AsyncOperation*  obj) ;
 
-  /// @brief Method BeginAssetLoad, addr 0x67662a8, size 0x3e0, virtual false, abstract: false, final false
-  inline void BeginAssetLoad();
+/// @brief Method BeginAssetLoad, addr 0x6766968, size 0x3e0, virtual false, abstract: false, final false
+inline void BeginAssetLoad() ;
 
-  /// @brief Method CompleteOperation, addr 0x67671d8, size 0x188, virtual false, abstract: false, final false
-  inline void CompleteOperation();
+/// @brief Method CompleteOperation, addr 0x6767898, size 0x188, virtual false, abstract: false, final false
+inline void CompleteOperation() ;
 
-  /// @brief Method GetArrayResult, addr 0x6766ff4, size 0x30, virtual false, abstract: false, final false
-  inline void GetArrayResult(::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*> allAssets);
+/// @brief Method GetArrayResult, addr 0x67676b4, size 0x30, virtual false, abstract: false, final false
+inline void GetArrayResult(::ArrayW<::UnityEngine::Object*,::Array<::UnityEngine::Object*>*>  allAssets) ;
 
-  /// @brief Method GetAssetResult, addr 0x6767054, size 0xc4, virtual false, abstract: false, final false
-  inline void GetAssetResult(::UnityEngine::Object* asset);
+/// @brief Method GetAssetResult, addr 0x6767714, size 0xc4, virtual false, abstract: false, final false
+inline void GetAssetResult(::UnityEngine::Object*  asset) ;
 
-  /// @brief Method GetAssetSubObjectResult, addr 0x6767118, size 0xc0, virtual false, abstract: false, final false
-  inline void GetAssetSubObjectResult(::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*> allAssets);
+/// @brief Method GetAssetSubObjectResult, addr 0x67677d8, size 0xc0, virtual false, abstract: false, final false
+inline void GetAssetSubObjectResult(::ArrayW<::UnityEngine::Object*,::Array<::UnityEngine::Object*>*>  allAssets) ;
 
-  /// @brief Method GetListResult, addr 0x6767024, size 0x30, virtual false, abstract: false, final false
-  inline void GetListResult(::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*> allAssets);
+/// @brief Method GetListResult, addr 0x67676e4, size 0x30, virtual false, abstract: false, final false
+inline void GetListResult(::ArrayW<::UnityEngine::Object*,::Array<::UnityEngine::Object*>*>  allAssets) ;
 
-  /// @brief Method IsDownloadOnly, addr 0x6765ee4, size 0x304, virtual false, abstract: false, final false
-  static inline bool IsDownloadOnly(::System::Collections::Generic::IList_1<::System::Object*>* results);
+/// @brief Method IsDownloadOnly, addr 0x67665a4, size 0x304, virtual false, abstract: false, final false
+static inline bool IsDownloadOnly(::System::Collections::Generic::IList_1<::System::Object*>*  results) ;
 
-  /// @brief Method LoadBundleFromDependecies, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline T LoadBundleFromDependecies(::System::Collections::Generic::IList_1<::System::Object*>* results);
+/// @brief Method LoadBundleFromDependecies, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+template<typename T>
+static inline T LoadBundleFromDependecies(::System::Collections::Generic::IList_1<::System::Object*>*  results) ;
 
-  static inline ::UnityEngine::ResourceManagement::ResourceProviders::BundledAssetProvider_InternalOp* New_ctor();
+static inline ::UnityEngine::ResourceManagement::ResourceProviders::BundledAssetProvider_InternalOp* New_ctor() ;
 
-  /// @brief Method ProgressCallback, addr 0x6767360, size 0x18, virtual false, abstract: false, final false
-  inline float_t ProgressCallback();
+/// @brief Method ProgressCallback, addr 0x6767a20, size 0x18, virtual false, abstract: false, final false
+inline float_t ProgressCallback() ;
 
-  /// @brief Method Start, addr 0x6765b14, size 0x3cc, virtual false, abstract: false, final false
-  inline void Start(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle provideHandle);
+/// @brief Method Start, addr 0x67661d4, size 0x3cc, virtual false, abstract: false, final false
+inline void Start(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle  provideHandle) ;
 
-  /// @brief Method WaitForCompletionHandler, addr 0x6766eec, size 0x108, virtual false, abstract: false, final false
-  inline bool WaitForCompletionHandler();
+/// @brief Method WaitForCompletionHandler, addr 0x67675ac, size 0x108, virtual false, abstract: false, final false
+inline bool WaitForCompletionHandler() ;
 
-  /// @brief Method <Start>b__8_0, addr 0x6767378, size 0x4, virtual false, abstract: false, final false
-  inline void _Start_b__8_0(::UnityEngine::AsyncOperation* operation);
+/// @brief Method <Start>b__8_0, addr 0x6767a38, size 0x4, virtual false, abstract: false, final false
+inline void _Start_b__8_0(::UnityEngine::AsyncOperation*  operation) ;
 
-  constexpr ::UnityW<::UnityEngine::AssetBundle> const& __cordl_internal_get_m_AssetBundle() const;
+constexpr ::UnityW<::UnityEngine::AssetBundle> const& __cordl_internal_get_m_AssetBundle() const;
 
-  constexpr ::UnityW<::UnityEngine::AssetBundle>& __cordl_internal_get_m_AssetBundle();
+constexpr ::UnityW<::UnityEngine::AssetBundle>& __cordl_internal_get_m_AssetBundle() ;
 
-  constexpr ::UnityEngine::AssetBundleRequest* const& __cordl_internal_get_m_PreloadRequest() const;
+constexpr ::UnityEngine::AssetBundleRequest* const& __cordl_internal_get_m_PreloadRequest() const;
 
-  constexpr ::UnityEngine::AssetBundleRequest*& __cordl_internal_get_m_PreloadRequest();
+constexpr ::UnityEngine::AssetBundleRequest*& __cordl_internal_get_m_PreloadRequest() ;
 
-  constexpr ::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle const& __cordl_internal_get_m_ProvideHandle() const;
+constexpr ::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle const& __cordl_internal_get_m_ProvideHandle() const;
 
-  constexpr ::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle& __cordl_internal_get_m_ProvideHandle();
+constexpr ::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle& __cordl_internal_get_m_ProvideHandle() ;
 
-  constexpr ::UnityEngine::AssetBundleRequest* const& __cordl_internal_get_m_RequestOperation() const;
+constexpr ::UnityEngine::AssetBundleRequest* const& __cordl_internal_get_m_RequestOperation() const;
 
-  constexpr ::UnityEngine::AssetBundleRequest*& __cordl_internal_get_m_RequestOperation();
+constexpr ::UnityEngine::AssetBundleRequest*& __cordl_internal_get_m_RequestOperation() ;
 
-  constexpr ::System::Object* const& __cordl_internal_get_m_Result() const;
+constexpr ::System::Object* const& __cordl_internal_get_m_Result() const;
 
-  constexpr ::System::Object*& __cordl_internal_get_m_Result();
+constexpr ::System::Object*& __cordl_internal_get_m_Result() ;
 
-  constexpr ::StringW const& __cordl_internal_get_subObjectName() const;
+constexpr ::StringW const& __cordl_internal_get_subObjectName() const;
 
-  constexpr ::StringW& __cordl_internal_get_subObjectName();
+constexpr ::StringW& __cordl_internal_get_subObjectName() ;
 
-  constexpr void __cordl_internal_set_m_AssetBundle(::UnityW<::UnityEngine::AssetBundle> value);
+constexpr void __cordl_internal_set_m_AssetBundle(::UnityW<::UnityEngine::AssetBundle>  value) ;
 
-  constexpr void __cordl_internal_set_m_PreloadRequest(::UnityEngine::AssetBundleRequest* value);
+constexpr void __cordl_internal_set_m_PreloadRequest(::UnityEngine::AssetBundleRequest*  value) ;
 
-  constexpr void __cordl_internal_set_m_ProvideHandle(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle value);
+constexpr void __cordl_internal_set_m_ProvideHandle(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle  value) ;
 
-  constexpr void __cordl_internal_set_m_RequestOperation(::UnityEngine::AssetBundleRequest* value);
+constexpr void __cordl_internal_set_m_RequestOperation(::UnityEngine::AssetBundleRequest*  value) ;
 
-  constexpr void __cordl_internal_set_m_Result(::System::Object* value);
+constexpr void __cordl_internal_set_m_Result(::System::Object*  value) ;
 
-  constexpr void __cordl_internal_set_subObjectName(::StringW value);
+constexpr void __cordl_internal_set_subObjectName(::StringW  value) ;
 
-  /// @brief Method .ctor, addr 0x6765b10, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x67661d0, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BundledAssetProvider_InternalOp();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr BundledAssetProvider_InternalOp() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BundledAssetProvider_InternalOp", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  BundledAssetProvider_InternalOp(BundledAssetProvider_InternalOp&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BundledAssetProvider_InternalOp", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  BundledAssetProvider_InternalOp(BundledAssetProvider_InternalOp const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "BundledAssetProvider_InternalOp", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+BundledAssetProvider_InternalOp(BundledAssetProvider_InternalOp && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18740 };
+// Ctor Parameters [CppParam { name: "", ty: "BundledAssetProvider_InternalOp", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+BundledAssetProvider_InternalOp(BundledAssetProvider_InternalOp const& ) = delete;
 
-  /// @brief Field m_AssetBundle, offset: 0x10, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::AssetBundle> ___m_AssetBundle;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{18744};
 
-  /// @brief Field m_PreloadRequest, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::AssetBundleRequest* ___m_PreloadRequest;
+/// @brief Field m_AssetBundle, offset: 0x10, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::AssetBundle>  ___m_AssetBundle;
 
-  /// @brief Field m_RequestOperation, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::AssetBundleRequest* ___m_RequestOperation;
+/// @brief Field m_PreloadRequest, offset: 0x18, size: 0x8, def value: None
+ ::UnityEngine::AssetBundleRequest*  ___m_PreloadRequest;
 
-  /// @brief Field m_Result, offset: 0x28, size: 0x8, def value: None
-  ::System::Object* ___m_Result;
+/// @brief Field m_RequestOperation, offset: 0x20, size: 0x8, def value: None
+ ::UnityEngine::AssetBundleRequest*  ___m_RequestOperation;
 
-  /// @brief Field m_ProvideHandle, offset: 0x30, size: 0x18, def value: None
-  ::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle ___m_ProvideHandle;
+/// @brief Field m_Result, offset: 0x28, size: 0x8, def value: None
+ ::System::Object*  ___m_Result;
 
-  /// @brief Field subObjectName, offset: 0x48, size: 0x8, def value: None
-  ::StringW ___subObjectName;
+/// @brief Field m_ProvideHandle, offset: 0x30, size: 0x18, def value: None
+ ::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle  ___m_ProvideHandle;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field subObjectName, offset: 0x48, size: 0x8, def value: None
+ ::StringW  ___subObjectName;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceProviders::BundledAssetProvider_InternalOp, ___m_AssetBundle) == 0x10, "Offset mismatch!");
@@ -200,47 +202,47 @@ static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceProviders::Bun
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ResourceManagement::ResourceProviders::BundledAssetProvider_InternalOp, 0x50>, "Size mismatch!");
 
-} // namespace UnityEngine::ResourceManagement::ResourceProviders
+} // namespace end def UnityEngine::ResourceManagement::ResourceProviders
 // Dependencies UnityEngine.ResourceManagement.ResourceProviders.ResourceProviderBase
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Is value type: false
 // CS Name: UnityEngine.ResourceManagement.ResourceProviders.BundledAssetProvider
 class CORDL_TYPE BundledAssetProvider : public ::UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase {
 public:
-  // Declarations
-  using InternalOp = ::UnityEngine::ResourceManagement::ResourceProviders::BundledAssetProvider_InternalOp;
+// Declarations
+using InternalOp = ::UnityEngine::ResourceManagement::ResourceProviders::BundledAssetProvider_InternalOp;
 
-  static inline ::UnityEngine::ResourceManagement::ResourceProviders::BundledAssetProvider* New_ctor();
+static inline ::UnityEngine::ResourceManagement::ResourceProviders::BundledAssetProvider* New_ctor() ;
 
-  /// @brief Method Provide, addr 0x6765a9c, size 0x74, virtual true, abstract: false, final false
-  inline void Provide(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle provideHandle);
+/// @brief Method Provide, addr 0x676615c, size 0x74, virtual true, abstract: false, final false
+inline void Provide(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle  provideHandle) ;
 
-  /// @brief Method .ctor, addr 0x6765ee0, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x67665a0, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BundledAssetProvider();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr BundledAssetProvider() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BundledAssetProvider", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  BundledAssetProvider(BundledAssetProvider&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BundledAssetProvider", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  BundledAssetProvider(BundledAssetProvider const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "BundledAssetProvider", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+BundledAssetProvider(BundledAssetProvider && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18741 };
+// Ctor Parameters [CppParam { name: "", ty: "BundledAssetProvider", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+BundledAssetProvider(BundledAssetProvider const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{18745};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ResourceManagement::ResourceProviders::BundledAssetProvider, 0x20>, "Size mismatch!");
 
-} // namespace UnityEngine::ResourceManagement::ResourceProviders
+} // namespace end def UnityEngine::ResourceManagement::ResourceProviders
 NEED_NO_BOX(::UnityEngine::ResourceManagement::ResourceProviders::BundledAssetProvider);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ResourceManagement::ResourceProviders::BundledAssetProvider*, "UnityEngine.ResourceManagement.ResourceProviders", "BundledAssetProvider");
 NEED_NO_BOX(::UnityEngine::ResourceManagement::ResourceProviders::BundledAssetProvider_InternalOp);

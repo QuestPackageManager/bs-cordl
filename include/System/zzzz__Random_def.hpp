@@ -19,115 +19,115 @@ namespace System {
 // CS Name: System.Random
 class CORDL_TYPE Random : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field _inext, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get__inext, put = __cordl_internal_set__inext)) int32_t _inext;
+// Declarations
+/// @brief Field _inext, offset 0x10, size 0x4 
+ __declspec(property(get=__cordl_internal_get__inext, put=__cordl_internal_set__inext)) int32_t  _inext;
 
-  /// @brief Field _inextp, offset 0x14, size 0x4
-  __declspec(property(get = __cordl_internal_get__inextp, put = __cordl_internal_set__inextp)) int32_t _inextp;
+/// @brief Field _inextp, offset 0x14, size 0x4 
+ __declspec(property(get=__cordl_internal_get__inextp, put=__cordl_internal_set__inextp)) int32_t  _inextp;
 
-  /// @brief Field _seedArray, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__seedArray, put = __cordl_internal_set__seedArray)) ::ArrayW<int32_t, ::Array<int32_t>*> _seedArray;
+/// @brief Field _seedArray, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get__seedArray, put=__cordl_internal_set__seedArray)) ::ArrayW<int32_t,::Array<int32_t>*>  _seedArray;
 
-  /// @brief Field s_globalRandom, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_s_globalRandom, put = setStaticF_s_globalRandom)) ::System::Random* s_globalRandom;
+/// @brief Field s_globalRandom, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_s_globalRandom, put=setStaticF_s_globalRandom)) ::System::Random*  s_globalRandom;
 
-  /// @brief Field t_threadRandom, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_t_threadRandom, put = setStaticF_t_threadRandom)) ::System::Random* t_threadRandom;
+/// @brief Field t_threadRandom, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_t_threadRandom, put=setStaticF_t_threadRandom)) ::System::Random*  t_threadRandom;
 
-  /// @brief Method GenerateGlobalSeed, addr 0x5aa9a1c, size 0x24, virtual false, abstract: false, final false
-  static inline int32_t GenerateGlobalSeed();
+/// @brief Method GenerateGlobalSeed, addr 0x5aa9f28, size 0x24, virtual false, abstract: false, final false
+static inline int32_t GenerateGlobalSeed() ;
 
-  /// @brief Method GenerateSeed, addr 0x5aa95c4, size 0x20c, virtual false, abstract: false, final false
-  static inline int32_t GenerateSeed();
+/// @brief Method GenerateSeed, addr 0x5aa9ad0, size 0x20c, virtual false, abstract: false, final false
+static inline int32_t GenerateSeed() ;
 
-  /// @brief Method GetSampleForLargeRange, addr 0x5aa9a44, size 0x4c, virtual false, abstract: false, final false
-  inline double_t GetSampleForLargeRange();
+/// @brief Method GetSampleForLargeRange, addr 0x5aa9f50, size 0x4c, virtual false, abstract: false, final false
+inline double_t GetSampleForLargeRange() ;
 
-  /// @brief Method InternalSample, addr 0x5aa998c, size 0x90, virtual false, abstract: false, final false
-  inline int32_t InternalSample();
+/// @brief Method InternalSample, addr 0x5aa9e98, size 0x90, virtual false, abstract: false, final false
+inline int32_t InternalSample() ;
 
-  static inline ::System::Random* New_ctor();
+static inline ::System::Random* New_ctor() ;
 
-  static inline ::System::Random* New_ctor(int32_t Seed);
+static inline ::System::Random* New_ctor(int32_t  Seed) ;
 
-  /// @brief Method Next, addr 0x5aa9a40, size 0x4, virtual true, abstract: false, final false
-  inline int32_t Next();
+/// @brief Method Next, addr 0x5aa9f4c, size 0x4, virtual true, abstract: false, final false
+inline int32_t Next() ;
 
-  /// @brief Method Next, addr 0x5aa9ba8, size 0xc4, virtual true, abstract: false, final false
-  inline int32_t Next(int32_t maxValue);
+/// @brief Method Next, addr 0x5aaa0b4, size 0xc4, virtual true, abstract: false, final false
+inline int32_t Next(int32_t  maxValue) ;
 
-  /// @brief Method Next, addr 0x5aa9a90, size 0x118, virtual true, abstract: false, final false
-  inline int32_t Next(int32_t minValue, int32_t maxValue);
+/// @brief Method Next, addr 0x5aa9f9c, size 0x118, virtual true, abstract: false, final false
+inline int32_t Next(int32_t  minValue, int32_t  maxValue) ;
 
-  /// @brief Method NextBytes, addr 0x5aa9c78, size 0xac, virtual true, abstract: false, final false
-  inline void NextBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer);
+/// @brief Method NextBytes, addr 0x5aaa184, size 0xac, virtual true, abstract: false, final false
+inline void NextBytes(::ArrayW<uint8_t,::Array<uint8_t>*>  buffer) ;
 
-  /// @brief Method NextDouble, addr 0x5aa9c6c, size 0xc, virtual true, abstract: false, final false
-  inline double_t NextDouble();
+/// @brief Method NextDouble, addr 0x5aaa178, size 0xc, virtual true, abstract: false, final false
+inline double_t NextDouble() ;
 
-  /// @brief Method Sample, addr 0x5aa996c, size 0x20, virtual true, abstract: false, final false
-  inline double_t Sample();
+/// @brief Method Sample, addr 0x5aa9e78, size 0x20, virtual true, abstract: false, final false
+inline double_t Sample() ;
 
-  constexpr int32_t const& __cordl_internal_get__inext() const;
+constexpr int32_t const& __cordl_internal_get__inext() const;
 
-  constexpr int32_t& __cordl_internal_get__inext();
+constexpr int32_t& __cordl_internal_get__inext() ;
 
-  constexpr int32_t const& __cordl_internal_get__inextp() const;
+constexpr int32_t const& __cordl_internal_get__inextp() const;
 
-  constexpr int32_t& __cordl_internal_get__inextp();
+constexpr int32_t& __cordl_internal_get__inextp() ;
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get__seedArray() const;
+constexpr ::ArrayW<int32_t,::Array<int32_t>*> const& __cordl_internal_get__seedArray() const;
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get__seedArray();
+constexpr ::ArrayW<int32_t,::Array<int32_t>*>& __cordl_internal_get__seedArray() ;
 
-  constexpr void __cordl_internal_set__inext(int32_t value);
+constexpr void __cordl_internal_set__inext(int32_t  value) ;
 
-  constexpr void __cordl_internal_set__inextp(int32_t value);
+constexpr void __cordl_internal_set__inextp(int32_t  value) ;
 
-  constexpr void __cordl_internal_set__seedArray(::ArrayW<int32_t, ::Array<int32_t>*> value);
+constexpr void __cordl_internal_set__seedArray(::ArrayW<int32_t,::Array<int32_t>*>  value) ;
 
-  /// @brief Method .ctor, addr 0x5aa9564, size 0x60, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5aa9a70, size 0x60, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method .ctor, addr 0x5aa97d0, size 0x19c, virtual false, abstract: false, final false
-  inline void _ctor(int32_t Seed);
+/// @brief Method .ctor, addr 0x5aa9cdc, size 0x19c, virtual false, abstract: false, final false
+inline void _ctor(int32_t  Seed) ;
 
-  static inline ::System::Random* getStaticF_s_globalRandom();
+static inline ::System::Random* getStaticF_s_globalRandom() ;
 
-  static inline ::System::Random* getStaticF_t_threadRandom();
+static inline ::System::Random* getStaticF_t_threadRandom() ;
 
-  static inline void setStaticF_s_globalRandom(::System::Random* value);
+static inline void setStaticF_s_globalRandom(::System::Random*  value) ;
 
-  static inline void setStaticF_t_threadRandom(::System::Random* value);
+static inline void setStaticF_t_threadRandom(::System::Random*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Random();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr Random() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Random", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  Random(Random&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Random", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  Random(Random const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "Random", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+Random(Random && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2465 };
+// Ctor Parameters [CppParam { name: "", ty: "Random", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+Random(Random const& ) = delete;
 
-  /// @brief Field _inext, offset: 0x10, size: 0x4, def value: None
-  int32_t ____inext;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{2465};
 
-  /// @brief Field _inextp, offset: 0x14, size: 0x4, def value: None
-  int32_t ____inextp;
+/// @brief Field _inext, offset: 0x10, size: 0x4, def value: None
+ int32_t  ____inext;
 
-  /// @brief Field _seedArray, offset: 0x18, size: 0x8, def value: None
-  ::ArrayW<int32_t, ::Array<int32_t>*> ____seedArray;
+/// @brief Field _inextp, offset: 0x14, size: 0x4, def value: None
+ int32_t  ____inextp;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _seedArray, offset: 0x18, size: 0x8, def value: None
+ ::ArrayW<int32_t,::Array<int32_t>*>  ____seedArray;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Random, ____inext) == 0x10, "Offset mismatch!");
@@ -138,6 +138,6 @@ static_assert(offsetof(::System::Random, ____seedArray) == 0x18, "Offset mismatc
 
 static_assert(::cordl_internals::size_check_v<::System::Random, 0x20>, "Size mismatch!");
 
-} // namespace System
+} // namespace end def System
 NEED_NO_BOX(::System::Random);
 DEFINE_IL2CPP_ARG_TYPE(::System::Random*, "System", "Random");

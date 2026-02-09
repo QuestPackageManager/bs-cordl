@@ -18,75 +18,75 @@ namespace JetBrains::Annotations {
 // CS Name: JetBrains.Annotations.RazorPageBaseTypeAttribute
 class CORDL_TYPE RazorPageBaseTypeAttribute : public ::System::Attribute {
 public:
-  // Declarations
-  __declspec(property(get = get_BaseType, put = set_BaseType)) ::StringW BaseType;
+// Declarations
+ __declspec(property(get=get_BaseType, put=set_BaseType)) ::StringW  BaseType;
 
-  __declspec(property(get = get_PageName, put = set_PageName)) ::StringW PageName;
+ __declspec(property(get=get_PageName, put=set_PageName)) ::StringW  PageName;
 
-  /// @brief Field <BaseType>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__BaseType_k__BackingField, put = __cordl_internal_set__BaseType_k__BackingField)) ::StringW _BaseType_k__BackingField;
+/// @brief Field <BaseType>k__BackingField, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get__BaseType_k__BackingField, put=__cordl_internal_set__BaseType_k__BackingField)) ::StringW  _BaseType_k__BackingField;
 
-  /// @brief Field <PageName>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__PageName_k__BackingField, put = __cordl_internal_set__PageName_k__BackingField)) ::StringW _PageName_k__BackingField;
+/// @brief Field <PageName>k__BackingField, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get__PageName_k__BackingField, put=__cordl_internal_set__PageName_k__BackingField)) ::StringW  _PageName_k__BackingField;
 
-  static inline ::JetBrains::Annotations::RazorPageBaseTypeAttribute* New_ctor(::StringW baseType);
+static inline ::JetBrains::Annotations::RazorPageBaseTypeAttribute* New_ctor(::StringW  baseType) ;
 
-  static inline ::JetBrains::Annotations::RazorPageBaseTypeAttribute* New_ctor(::StringW baseType, ::StringW pageName);
+static inline ::JetBrains::Annotations::RazorPageBaseTypeAttribute* New_ctor(::StringW  baseType, ::StringW  pageName) ;
 
-  constexpr ::StringW const& __cordl_internal_get__BaseType_k__BackingField() const;
+constexpr ::StringW const& __cordl_internal_get__BaseType_k__BackingField() const;
 
-  constexpr ::StringW& __cordl_internal_get__BaseType_k__BackingField();
+constexpr ::StringW& __cordl_internal_get__BaseType_k__BackingField() ;
 
-  constexpr ::StringW const& __cordl_internal_get__PageName_k__BackingField() const;
+constexpr ::StringW const& __cordl_internal_get__PageName_k__BackingField() const;
 
-  constexpr ::StringW& __cordl_internal_get__PageName_k__BackingField();
+constexpr ::StringW& __cordl_internal_get__PageName_k__BackingField() ;
 
-  constexpr void __cordl_internal_set__BaseType_k__BackingField(::StringW value);
+constexpr void __cordl_internal_set__BaseType_k__BackingField(::StringW  value) ;
 
-  constexpr void __cordl_internal_set__PageName_k__BackingField(::StringW value);
+constexpr void __cordl_internal_set__PageName_k__BackingField(::StringW  value) ;
 
-  /// @brief Method .ctor, addr 0x6c725b4, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::StringW baseType);
+/// @brief Method .ctor, addr 0x6c72c74, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(::StringW  baseType) ;
 
-  /// @brief Method .ctor, addr 0x6c725bc, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::StringW baseType, ::StringW pageName);
+/// @brief Method .ctor, addr 0x6c72c7c, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(::StringW  baseType, ::StringW  pageName) ;
 
-  /// @brief Method get_BaseType, addr 0x6c725c4, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_BaseType();
+/// @brief Method get_BaseType, addr 0x6c72c84, size 0x8, virtual false, abstract: false, final false
+inline ::StringW get_BaseType() ;
 
-  /// @brief Method get_PageName, addr 0x6c725d4, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_PageName();
+/// @brief Method get_PageName, addr 0x6c72c94, size 0x8, virtual false, abstract: false, final false
+inline ::StringW get_PageName() ;
 
-  /// @brief Method set_BaseType, addr 0x6c725cc, size 0x8, virtual false, abstract: false, final false
-  inline void set_BaseType(::StringW value);
+/// @brief Method set_BaseType, addr 0x6c72c8c, size 0x8, virtual false, abstract: false, final false
+inline void set_BaseType(::StringW  value) ;
 
-  /// @brief Method set_PageName, addr 0x6c725dc, size 0x8, virtual false, abstract: false, final false
-  inline void set_PageName(::StringW value);
+/// @brief Method set_PageName, addr 0x6c72c9c, size 0x8, virtual false, abstract: false, final false
+inline void set_PageName(::StringW  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RazorPageBaseTypeAttribute();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr RazorPageBaseTypeAttribute() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RazorPageBaseTypeAttribute", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  RazorPageBaseTypeAttribute(RazorPageBaseTypeAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RazorPageBaseTypeAttribute", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  RazorPageBaseTypeAttribute(RazorPageBaseTypeAttribute const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "RazorPageBaseTypeAttribute", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+RazorPageBaseTypeAttribute(RazorPageBaseTypeAttribute && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22335 };
+// Ctor Parameters [CppParam { name: "", ty: "RazorPageBaseTypeAttribute", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+RazorPageBaseTypeAttribute(RazorPageBaseTypeAttribute const& ) = delete;
 
-  /// @brief Field <BaseType>k__BackingField, offset: 0x10, size: 0x8, def value: None
-  ::StringW ____BaseType_k__BackingField;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{22339};
 
-  /// @brief Field <PageName>k__BackingField, offset: 0x18, size: 0x8, def value: None
-  ::StringW ____PageName_k__BackingField;
+/// @brief Field <BaseType>k__BackingField, offset: 0x10, size: 0x8, def value: None
+ ::StringW  ____BaseType_k__BackingField;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field <PageName>k__BackingField, offset: 0x18, size: 0x8, def value: None
+ ::StringW  ____PageName_k__BackingField;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::JetBrains::Annotations::RazorPageBaseTypeAttribute, ____BaseType_k__BackingField) == 0x10, "Offset mismatch!");
@@ -95,6 +95,6 @@ static_assert(offsetof(::JetBrains::Annotations::RazorPageBaseTypeAttribute, ___
 
 static_assert(::cordl_internals::size_check_v<::JetBrains::Annotations::RazorPageBaseTypeAttribute, 0x20>, "Size mismatch!");
 
-} // namespace JetBrains::Annotations
+} // namespace end def JetBrains::Annotations
 NEED_NO_BOX(::JetBrains::Annotations::RazorPageBaseTypeAttribute);
 DEFINE_IL2CPP_ARG_TYPE(::JetBrains::Annotations::RazorPageBaseTypeAttribute*, "JetBrains.Annotations", "RazorPageBaseTypeAttribute");

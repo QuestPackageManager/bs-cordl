@@ -24,60 +24,60 @@ namespace Org::BouncyCastle::Crypto::Operators {
 // CS Name: Org.BouncyCastle.Crypto.Operators.DefaultVerifierResult
 class CORDL_TYPE DefaultVerifierResult : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field mSigner, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_mSigner, put = __cordl_internal_set_mSigner)) ::Org::BouncyCastle::Crypto::ISigner* mSigner;
+// Declarations
+/// @brief Field mSigner, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_mSigner, put=__cordl_internal_set_mSigner)) ::Org::BouncyCastle::Crypto::ISigner*  mSigner;
 
-  /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IVerifier"
-  constexpr operator ::Org::BouncyCastle::Crypto::IVerifier*() noexcept;
+/// @brief Convert operator to "::Org::BouncyCastle::Crypto::IVerifier"
+constexpr operator  ::Org::BouncyCastle::Crypto::IVerifier*() noexcept;
 
-  /// @brief Method IsVerified, addr 0x330f98c, size 0x8c, virtual true, abstract: false, final true
-  inline bool IsVerified(::ArrayW<uint8_t, ::Array<uint8_t>*> sig, int32_t sigOff, int32_t sigLen);
+/// @brief Method IsVerified, addr 0x330f8dc, size 0x8c, virtual true, abstract: false, final true
+inline bool IsVerified(::ArrayW<uint8_t,::Array<uint8_t>*>  sig, int32_t  sigOff, int32_t  sigLen) ;
 
-  /// @brief Method IsVerified, addr 0x330f8d4, size 0xb8, virtual true, abstract: false, final true
-  inline bool IsVerified(::ArrayW<uint8_t, ::Array<uint8_t>*> signature);
+/// @brief Method IsVerified, addr 0x330f824, size 0xb8, virtual true, abstract: false, final true
+inline bool IsVerified(::ArrayW<uint8_t,::Array<uint8_t>*>  signature) ;
 
-  static inline ::Org::BouncyCastle::Crypto::Operators::DefaultVerifierResult* New_ctor(::Org::BouncyCastle::Crypto::ISigner* signer);
+static inline ::Org::BouncyCastle::Crypto::Operators::DefaultVerifierResult* New_ctor(::Org::BouncyCastle::Crypto::ISigner*  signer) ;
 
-  constexpr ::Org::BouncyCastle::Crypto::ISigner* const& __cordl_internal_get_mSigner() const;
+constexpr ::Org::BouncyCastle::Crypto::ISigner* const& __cordl_internal_get_mSigner() const;
 
-  constexpr ::Org::BouncyCastle::Crypto::ISigner*& __cordl_internal_get_mSigner();
+constexpr ::Org::BouncyCastle::Crypto::ISigner*& __cordl_internal_get_mSigner() ;
 
-  constexpr void __cordl_internal_set_mSigner(::Org::BouncyCastle::Crypto::ISigner* value);
+constexpr void __cordl_internal_set_mSigner(::Org::BouncyCastle::Crypto::ISigner*  value) ;
 
-  /// @brief Method .ctor, addr 0x330f8cc, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Crypto::ISigner* signer);
+/// @brief Method .ctor, addr 0x330f81c, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(::Org::BouncyCastle::Crypto::ISigner*  signer) ;
 
-  /// @brief Convert to "::Org::BouncyCastle::Crypto::IVerifier"
-  constexpr ::Org::BouncyCastle::Crypto::IVerifier* i___Org__BouncyCastle__Crypto__IVerifier() noexcept;
+/// @brief Convert to "::Org::BouncyCastle::Crypto::IVerifier"
+constexpr ::Org::BouncyCastle::Crypto::IVerifier* i___Org__BouncyCastle__Crypto__IVerifier() noexcept;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DefaultVerifierResult();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr DefaultVerifierResult() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DefaultVerifierResult", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  DefaultVerifierResult(DefaultVerifierResult&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DefaultVerifierResult", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  DefaultVerifierResult(DefaultVerifierResult const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "DefaultVerifierResult", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+DefaultVerifierResult(DefaultVerifierResult && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1003 };
+// Ctor Parameters [CppParam { name: "", ty: "DefaultVerifierResult", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+DefaultVerifierResult(DefaultVerifierResult const& ) = delete;
 
-  /// @brief Field mSigner, offset: 0x10, size: 0x8, def value: None
-  ::Org::BouncyCastle::Crypto::ISigner* ___mSigner;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{1003};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field mSigner, offset: 0x10, size: 0x8, def value: None
+ ::Org::BouncyCastle::Crypto::ISigner*  ___mSigner;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Operators::DefaultVerifierResult, ___mSigner) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Operators::DefaultVerifierResult, 0x18>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Crypto::Operators
+} // namespace end def Org::BouncyCastle::Crypto::Operators
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Operators::DefaultVerifierResult);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Operators::DefaultVerifierResult*, "Org.BouncyCastle.Crypto.Operators", "DefaultVerifierResult");

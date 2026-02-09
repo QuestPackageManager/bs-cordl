@@ -21,37 +21,37 @@ namespace UnityEngine::Rendering {
 // CS Name: UnityEngine.Rendering.Texture3DParameter
 class CORDL_TYPE Texture3DParameter : public ::UnityEngine::Rendering::VolumeParameter_1<::UnityW<::UnityEngine::Texture>> {
 public:
-  // Declarations
-  /// @brief Method GetHashCode, addr 0x6616ad0, size 0x108, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
+// Declarations
+/// @brief Method GetHashCode, addr 0x6617190, size 0x108, virtual true, abstract: false, final false
+inline int32_t GetHashCode() ;
 
-  static inline ::UnityEngine::Rendering::Texture3DParameter* New_ctor(::UnityEngine::Texture* value, bool overrideState);
+static inline ::UnityEngine::Rendering::Texture3DParameter* New_ctor(::UnityEngine::Texture*  value, bool  overrideState) ;
 
-  /// @brief Method .ctor, addr 0x6616a6c, size 0x64, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::Texture* value, bool overrideState);
+/// @brief Method .ctor, addr 0x661712c, size 0x64, virtual false, abstract: false, final false
+inline void _ctor(::UnityEngine::Texture*  value, bool  overrideState) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Texture3DParameter();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr Texture3DParameter() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Texture3DParameter", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  Texture3DParameter(Texture3DParameter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Texture3DParameter", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  Texture3DParameter(Texture3DParameter const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "Texture3DParameter", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+Texture3DParameter(Texture3DParameter && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12341 };
+// Ctor Parameters [CppParam { name: "", ty: "Texture3DParameter", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+Texture3DParameter(Texture3DParameter const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12345};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::Texture3DParameter, 0x20>, "Size mismatch!");
 
-} // namespace UnityEngine::Rendering
+} // namespace end def UnityEngine::Rendering
 NEED_NO_BOX(::UnityEngine::Rendering::Texture3DParameter);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::Texture3DParameter*, "UnityEngine.Rendering", "Texture3DParameter");

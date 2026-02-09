@@ -20,32 +20,32 @@ namespace System::Net::NetworkInformation {
 // CS Name: System.Net.NetworkInformation.IPGlobalPropertiesFactoryPal
 class CORDL_TYPE IPGlobalPropertiesFactoryPal : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method Create, addr 0x619d744, size 0x48, virtual false, abstract: false, final false
-  static inline ::System::Net::NetworkInformation::IPGlobalProperties* Create();
+// Declarations
+/// @brief Method Create, addr 0x619de04, size 0x48, virtual false, abstract: false, final false
+static inline ::System::Net::NetworkInformation::IPGlobalProperties* Create() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr IPGlobalPropertiesFactoryPal();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr IPGlobalPropertiesFactoryPal() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IPGlobalPropertiesFactoryPal", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IPGlobalPropertiesFactoryPal(IPGlobalPropertiesFactoryPal&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IPGlobalPropertiesFactoryPal", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  IPGlobalPropertiesFactoryPal(IPGlobalPropertiesFactoryPal const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "IPGlobalPropertiesFactoryPal", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+IPGlobalPropertiesFactoryPal(IPGlobalPropertiesFactoryPal && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11665 };
+// Ctor Parameters [CppParam { name: "", ty: "IPGlobalPropertiesFactoryPal", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+IPGlobalPropertiesFactoryPal(IPGlobalPropertiesFactoryPal const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11669};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::NetworkInformation::IPGlobalPropertiesFactoryPal, 0x10>, "Size mismatch!");
 
-} // namespace System::Net::NetworkInformation
+} // namespace end def System::Net::NetworkInformation
 NEED_NO_BOX(::System::Net::NetworkInformation::IPGlobalPropertiesFactoryPal);
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::NetworkInformation::IPGlobalPropertiesFactoryPal*, "System.Net.NetworkInformation", "IPGlobalPropertiesFactoryPal");

@@ -19,46 +19,46 @@ namespace System::Xml {
 // CS Name: System.Xml.XmlNameTable
 class CORDL_TYPE XmlNameTable : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method Add, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline ::StringW Add(::ArrayW<char16_t, ::Array<char16_t>*> array, int32_t offset, int32_t length);
+// Declarations
+/// @brief Method Add, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline ::StringW Add(::ArrayW<char16_t,::Array<char16_t>*>  array, int32_t  offset, int32_t  length) ;
 
-  /// @brief Method Add, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline ::StringW Add(::StringW array);
+/// @brief Method Add, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline ::StringW Add(::StringW  array) ;
 
-  /// @brief Method Get, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline ::StringW Get(::ArrayW<char16_t, ::Array<char16_t>*> array, int32_t offset, int32_t length);
+/// @brief Method Get, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline ::StringW Get(::ArrayW<char16_t,::Array<char16_t>*>  array, int32_t  offset, int32_t  length) ;
 
-  /// @brief Method Get, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline ::StringW Get(::StringW array);
+/// @brief Method Get, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline ::StringW Get(::StringW  array) ;
 
-  static inline ::System::Xml::XmlNameTable* New_ctor();
+static inline ::System::Xml::XmlNameTable* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x6130e78, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6131538, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr XmlNameTable();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr XmlNameTable() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlNameTable", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  XmlNameTable(XmlNameTable&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlNameTable", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  XmlNameTable(XmlNameTable const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "XmlNameTable", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+XmlNameTable(XmlNameTable && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9433 };
+// Ctor Parameters [CppParam { name: "", ty: "XmlNameTable", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+XmlNameTable(XmlNameTable const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{9437};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Xml::XmlNameTable, 0x10>, "Size mismatch!");
 
-} // namespace System::Xml
+} // namespace end def System::Xml
 NEED_NO_BOX(::System::Xml::XmlNameTable);
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::XmlNameTable*, "System.Xml", "XmlNameTable");

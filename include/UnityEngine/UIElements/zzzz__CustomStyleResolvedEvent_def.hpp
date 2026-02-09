@@ -28,87 +28,87 @@ namespace UnityEngine::UIElements {
 // CS Name: UnityEngine.UIElements.CustomStyleResolvedEvent/<>c
 class CORDL_TYPE CustomStyleResolvedEvent___c : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field <>9, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::UIElements::CustomStyleResolvedEvent___c* __9;
+// Declarations
+/// @brief Field <>9, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF___9, put=setStaticF___9)) ::UnityEngine::UIElements::CustomStyleResolvedEvent___c*  __9;
 
-  static inline ::UnityEngine::UIElements::CustomStyleResolvedEvent___c* New_ctor();
+static inline ::UnityEngine::UIElements::CustomStyleResolvedEvent___c* New_ctor() ;
 
-  /// @brief Method <.cctor>b__0_0, addr 0x6bdabec, size 0x54, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::CustomStyleResolvedEvent* __cctor_b__0_0();
+/// @brief Method <.cctor>b__0_0, addr 0x6bdb2ac, size 0x54, virtual false, abstract: false, final false
+inline ::UnityEngine::UIElements::CustomStyleResolvedEvent* __cctor_b__0_0() ;
 
-  /// @brief Method .ctor, addr 0x6bdabe8, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6bdb2a8, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  static inline ::UnityEngine::UIElements::CustomStyleResolvedEvent___c* getStaticF___9();
+static inline ::UnityEngine::UIElements::CustomStyleResolvedEvent___c* getStaticF___9() ;
 
-  static inline void setStaticF___9(::UnityEngine::UIElements::CustomStyleResolvedEvent___c* value);
+static inline void setStaticF___9(::UnityEngine::UIElements::CustomStyleResolvedEvent___c*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CustomStyleResolvedEvent___c();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr CustomStyleResolvedEvent___c() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CustomStyleResolvedEvent___c", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  CustomStyleResolvedEvent___c(CustomStyleResolvedEvent___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CustomStyleResolvedEvent___c", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  CustomStyleResolvedEvent___c(CustomStyleResolvedEvent___c const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "CustomStyleResolvedEvent___c", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+CustomStyleResolvedEvent___c(CustomStyleResolvedEvent___c && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4560 };
+// Ctor Parameters [CppParam { name: "", ty: "CustomStyleResolvedEvent___c", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+CustomStyleResolvedEvent___c(CustomStyleResolvedEvent___c const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4560};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::CustomStyleResolvedEvent___c, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements
+} // namespace end def UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.EventBase`1<T>
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.CustomStyleResolvedEvent
 class CORDL_TYPE CustomStyleResolvedEvent : public ::UnityEngine::UIElements::EventBase_1<::UnityEngine::UIElements::CustomStyleResolvedEvent*> {
 public:
-  // Declarations
-  using __c = ::UnityEngine::UIElements::CustomStyleResolvedEvent___c;
+// Declarations
+using __c = ::UnityEngine::UIElements::CustomStyleResolvedEvent___c;
 
-  __declspec(property(get = get_customStyle)) ::UnityEngine::UIElements::ICustomStyle* customStyle;
+ __declspec(property(get=get_customStyle)) ::UnityEngine::UIElements::ICustomStyle*  customStyle;
 
-  static inline ::UnityEngine::UIElements::CustomStyleResolvedEvent* New_ctor();
+static inline ::UnityEngine::UIElements::CustomStyleResolvedEvent* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x6bdab20, size 0x74, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6bdb1e0, size 0x74, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_customStyle, addr 0x6bdab0c, size 0x14, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::ICustomStyle* get_customStyle();
+/// @brief Method get_customStyle, addr 0x6bdb1cc, size 0x14, virtual false, abstract: false, final false
+inline ::UnityEngine::UIElements::ICustomStyle* get_customStyle() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CustomStyleResolvedEvent();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr CustomStyleResolvedEvent() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CustomStyleResolvedEvent", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  CustomStyleResolvedEvent(CustomStyleResolvedEvent&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CustomStyleResolvedEvent", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  CustomStyleResolvedEvent(CustomStyleResolvedEvent const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "CustomStyleResolvedEvent", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+CustomStyleResolvedEvent(CustomStyleResolvedEvent && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4561 };
+// Ctor Parameters [CppParam { name: "", ty: "CustomStyleResolvedEvent", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+CustomStyleResolvedEvent(CustomStyleResolvedEvent const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4561};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::CustomStyleResolvedEvent, 0x68>, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements
+} // namespace end def UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::CustomStyleResolvedEvent);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::CustomStyleResolvedEvent*, "UnityEngine.UIElements", "CustomStyleResolvedEvent");
 NEED_NO_BOX(::UnityEngine::UIElements::CustomStyleResolvedEvent___c);

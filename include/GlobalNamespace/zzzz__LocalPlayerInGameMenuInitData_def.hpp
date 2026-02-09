@@ -21,54 +21,54 @@ namespace GlobalNamespace {
 // CS Name: LocalPlayerInGameMenuInitData
 class CORDL_TYPE LocalPlayerInGameMenuInitData : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field beatmapKey, offset 0x10, size 0x20
-  __declspec(property(get = __cordl_internal_get_beatmapKey, put = __cordl_internal_set_beatmapKey)) ::GlobalNamespace::BeatmapKey beatmapKey;
+// Declarations
+/// @brief Field beatmapKey, offset 0x10, size 0x20 
+ __declspec(property(get=__cordl_internal_get_beatmapKey, put=__cordl_internal_set_beatmapKey)) ::GlobalNamespace::BeatmapKey  beatmapKey;
 
-  /// @brief Field hasSong, offset 0x30, size 0x1
-  __declspec(property(get = __cordl_internal_get_hasSong, put = __cordl_internal_set_hasSong)) bool hasSong;
+/// @brief Field hasSong, offset 0x30, size 0x1 
+ __declspec(property(get=__cordl_internal_get_hasSong, put=__cordl_internal_set_hasSong)) bool  hasSong;
 
-  static inline ::GlobalNamespace::LocalPlayerInGameMenuInitData* New_ctor(::ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, bool hasSong);
+static inline ::GlobalNamespace::LocalPlayerInGameMenuInitData* New_ctor(::ByRef<::GlobalNamespace::BeatmapKey>  beatmapKey, bool  hasSong) ;
 
-  constexpr ::GlobalNamespace::BeatmapKey const& __cordl_internal_get_beatmapKey() const;
+constexpr ::GlobalNamespace::BeatmapKey const& __cordl_internal_get_beatmapKey() const;
 
-  constexpr ::GlobalNamespace::BeatmapKey& __cordl_internal_get_beatmapKey();
+constexpr ::GlobalNamespace::BeatmapKey& __cordl_internal_get_beatmapKey() ;
 
-  constexpr bool const& __cordl_internal_get_hasSong() const;
+constexpr bool const& __cordl_internal_get_hasSong() const;
 
-  constexpr bool& __cordl_internal_get_hasSong();
+constexpr bool& __cordl_internal_get_hasSong() ;
 
-  constexpr void __cordl_internal_set_beatmapKey(::GlobalNamespace::BeatmapKey value);
+constexpr void __cordl_internal_set_beatmapKey(::GlobalNamespace::BeatmapKey  value) ;
 
-  constexpr void __cordl_internal_set_hasSong(bool value);
+constexpr void __cordl_internal_set_hasSong(bool  value) ;
 
-  /// @brief Method .ctor, addr 0x5800b30, size 0x10, virtual false, abstract: false, final false
-  inline void _ctor(::ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, bool hasSong);
+/// @brief Method .ctor, addr 0x5801460, size 0x10, virtual false, abstract: false, final false
+inline void _ctor(::ByRef<::GlobalNamespace::BeatmapKey>  beatmapKey, bool  hasSong) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LocalPlayerInGameMenuInitData();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr LocalPlayerInGameMenuInitData() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LocalPlayerInGameMenuInitData", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  LocalPlayerInGameMenuInitData(LocalPlayerInGameMenuInitData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LocalPlayerInGameMenuInitData", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  LocalPlayerInGameMenuInitData(LocalPlayerInGameMenuInitData const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "LocalPlayerInGameMenuInitData", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+LocalPlayerInGameMenuInitData(LocalPlayerInGameMenuInitData && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6011 };
+// Ctor Parameters [CppParam { name: "", ty: "LocalPlayerInGameMenuInitData", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+LocalPlayerInGameMenuInitData(LocalPlayerInGameMenuInitData const& ) = delete;
 
-  /// @brief Field beatmapKey, offset: 0x10, size: 0x20, def value: None
-  ::GlobalNamespace::BeatmapKey ___beatmapKey;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6011};
 
-  /// @brief Field hasSong, offset: 0x30, size: 0x1, def value: None
-  bool ___hasSong;
+/// @brief Field beatmapKey, offset: 0x10, size: 0x20, def value: None
+ ::GlobalNamespace::BeatmapKey  ___beatmapKey;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field hasSong, offset: 0x30, size: 0x1, def value: None
+ bool  ___hasSong;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::LocalPlayerInGameMenuInitData, ___beatmapKey) == 0x10, "Offset mismatch!");
@@ -77,6 +77,6 @@ static_assert(offsetof(::GlobalNamespace::LocalPlayerInGameMenuInitData, ___hasS
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LocalPlayerInGameMenuInitData, 0x38>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::LocalPlayerInGameMenuInitData);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LocalPlayerInGameMenuInitData*, "", "LocalPlayerInGameMenuInitData");

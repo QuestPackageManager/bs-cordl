@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "Org/BouncyCastle/X509/AttributeCertificateHolder.hpp"
 #include "Org/BouncyCastle/X509/AttributeCertificateIssuer.hpp"
@@ -29,5 +29,6 @@ module;
 #include "Org/BouncyCastle/X509/X509V2CrlGenerator.hpp"
 #include "Org/BouncyCastle/X509/X509V3CertificateGenerator.hpp"
 #ifdef __cpp_modules
-export module X509;
-#endif
+                    export module X509;
+                    #endif
+                

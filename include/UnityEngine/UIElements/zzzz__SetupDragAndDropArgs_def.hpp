@@ -8,7 +8,8 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SetupDragAndDropArgs)
 namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+template<typename T>
+class IEnumerable_1;
 }
 namespace UnityEngine::UIElements {
 struct StartDragArgs;
@@ -28,37 +29,33 @@ namespace UnityEngine::UIElements {
 // CS Name: UnityEngine.UIElements.SetupDragAndDropArgs
 struct CORDL_TYPE SetupDragAndDropArgs {
 public:
-  // Declarations
-  /// @brief Method .ctor, addr 0x6bc01f8, size 0x18, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::UIElements::VisualElement* draggedElement, ::System::Collections::Generic::IEnumerable_1<int32_t>* selectedIds,
-                    ::UnityEngine::UIElements::StartDragArgs startDragArgs);
+// Declarations
+/// @brief Method .ctor, addr 0x6bc08b8, size 0x18, virtual false, abstract: false, final false
+inline void _ctor(::UnityEngine::UIElements::VisualElement*  draggedElement, ::System::Collections::Generic::IEnumerable_1<int32_t>*  selectedIds, ::UnityEngine::UIElements::StartDragArgs  startDragArgs) ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SetupDragAndDropArgs();
+// Ctor Parameters []
+// @brief default ctor
+constexpr SetupDragAndDropArgs() ;
 
-  // Ctor Parameters [CppParam { name: "draggedElement", ty: "::UnityEngine::UIElements::VisualElement*", modifiers: "", def_value: None }, CppParam { name: "selectedIds", ty:
-  // "::System::Collections::Generic::IEnumerable_1<int32_t>*", modifiers: "", def_value: None }, CppParam { name: "startDragArgs", ty: "::UnityEngine::UIElements::StartDragArgs", modifiers: "",
-  // def_value: None }]
-  constexpr SetupDragAndDropArgs(::UnityEngine::UIElements::VisualElement* draggedElement, ::System::Collections::Generic::IEnumerable_1<int32_t>* selectedIds,
-                                 ::UnityEngine::UIElements::StartDragArgs startDragArgs) noexcept;
+// Ctor Parameters [CppParam { name: "draggedElement", ty: "::UnityEngine::UIElements::VisualElement*", modifiers: "", def_value: None }, CppParam { name: "selectedIds", ty: "::System::Collections::Generic::IEnumerable_1<int32_t>*", modifiers: "", def_value: None }, CppParam { name: "startDragArgs", ty: "::UnityEngine::UIElements::StartDragArgs", modifiers: "", def_value: None }]
+constexpr SetupDragAndDropArgs(::UnityEngine::UIElements::VisualElement*  draggedElement, ::System::Collections::Generic::IEnumerable_1<int32_t>*  selectedIds, ::UnityEngine::UIElements::StartDragArgs  startDragArgs) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4402 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4402};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x38};
 
-  /// @brief Field draggedElement, offset: 0x0, size: 0x8, def value: None
-  ::UnityEngine::UIElements::VisualElement* draggedElement;
+/// @brief Field draggedElement, offset: 0x0, size: 0x8, def value: None
+ ::UnityEngine::UIElements::VisualElement*  draggedElement;
 
-  /// @brief Field selectedIds, offset: 0x8, size: 0x8, def value: None
-  ::System::Collections::Generic::IEnumerable_1<int32_t>* selectedIds;
+/// @brief Field selectedIds, offset: 0x8, size: 0x8, def value: None
+ ::System::Collections::Generic::IEnumerable_1<int32_t>*  selectedIds;
 
-  /// @brief Field startDragArgs, offset: 0x10, size: 0x28, def value: None
-  ::UnityEngine::UIElements::StartDragArgs startDragArgs;
+/// @brief Field startDragArgs, offset: 0x10, size: 0x28, def value: None
+ ::UnityEngine::UIElements::StartDragArgs  startDragArgs;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::UIElements::SetupDragAndDropArgs, draggedElement) == 0x0, "Offset mismatch!");
@@ -69,5 +66,5 @@ static_assert(offsetof(::UnityEngine::UIElements::SetupDragAndDropArgs, startDra
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::SetupDragAndDropArgs, 0x38>, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements
+} // namespace end def UnityEngine::UIElements
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::SetupDragAndDropArgs, "UnityEngine.UIElements", "SetupDragAndDropArgs");

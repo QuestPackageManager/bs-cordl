@@ -21,48 +21,48 @@ namespace System::Runtime::InteropServices {
 // CS Name: System.Runtime.InteropServices.InterfaceTypeAttribute
 class CORDL_TYPE InterfaceTypeAttribute : public ::System::Attribute {
 public:
-  // Declarations
-  /// @brief Field _val, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get__val, put = __cordl_internal_set__val)) ::System::Runtime::InteropServices::ComInterfaceType _val;
+// Declarations
+/// @brief Field _val, offset 0x10, size 0x4 
+ __declspec(property(get=__cordl_internal_get__val, put=__cordl_internal_set__val)) ::System::Runtime::InteropServices::ComInterfaceType  _val;
 
-  static inline ::System::Runtime::InteropServices::InterfaceTypeAttribute* New_ctor(::System::Runtime::InteropServices::ComInterfaceType interfaceType);
+static inline ::System::Runtime::InteropServices::InterfaceTypeAttribute* New_ctor(::System::Runtime::InteropServices::ComInterfaceType  interfaceType) ;
 
-  constexpr ::System::Runtime::InteropServices::ComInterfaceType const& __cordl_internal_get__val() const;
+constexpr ::System::Runtime::InteropServices::ComInterfaceType const& __cordl_internal_get__val() const;
 
-  constexpr ::System::Runtime::InteropServices::ComInterfaceType& __cordl_internal_get__val();
+constexpr ::System::Runtime::InteropServices::ComInterfaceType& __cordl_internal_get__val() ;
 
-  constexpr void __cordl_internal_set__val(::System::Runtime::InteropServices::ComInterfaceType value);
+constexpr void __cordl_internal_set__val(::System::Runtime::InteropServices::ComInterfaceType  value) ;
 
-  /// @brief Method .ctor, addr 0x59bc4a8, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::System::Runtime::InteropServices::ComInterfaceType interfaceType);
+/// @brief Method .ctor, addr 0x59bc9b4, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(::System::Runtime::InteropServices::ComInterfaceType  interfaceType) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr InterfaceTypeAttribute();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr InterfaceTypeAttribute() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InterfaceTypeAttribute", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  InterfaceTypeAttribute(InterfaceTypeAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InterfaceTypeAttribute", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  InterfaceTypeAttribute(InterfaceTypeAttribute const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "InterfaceTypeAttribute", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+InterfaceTypeAttribute(InterfaceTypeAttribute && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3328 };
+// Ctor Parameters [CppParam { name: "", ty: "InterfaceTypeAttribute", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+InterfaceTypeAttribute(InterfaceTypeAttribute const& ) = delete;
 
-  /// @brief Field _val, offset: 0x10, size: 0x4, def value: None
-  ::System::Runtime::InteropServices::ComInterfaceType ____val;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{3328};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _val, offset: 0x10, size: 0x4, def value: None
+ ::System::Runtime::InteropServices::ComInterfaceType  ____val;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Runtime::InteropServices::InterfaceTypeAttribute, ____val) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::System::Runtime::InteropServices::InterfaceTypeAttribute, 0x18>, "Size mismatch!");
 
-} // namespace System::Runtime::InteropServices
+} // namespace end def System::Runtime::InteropServices
 NEED_NO_BOX(::System::Runtime::InteropServices::InterfaceTypeAttribute);
 DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::InteropServices::InterfaceTypeAttribute*, "System.Runtime.InteropServices", "InterfaceTypeAttribute");

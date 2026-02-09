@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "System/Data/Common/ADP.hpp"
 #include "System/Data/Common/BigIntegerStorage.hpp"
@@ -43,5 +43,6 @@ module;
 #include "System/Data/Common/UInt32Storage.hpp"
 #include "System/Data/Common/UInt64Storage.hpp"
 #ifdef __cpp_modules
-export module Common;
-#endif
+                    export module Common;
+                    #endif
+                

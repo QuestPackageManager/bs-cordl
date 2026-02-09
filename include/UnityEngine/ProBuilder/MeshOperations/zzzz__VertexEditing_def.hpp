@@ -8,16 +8,20 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(VertexEditing)
 namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+template<typename TKey,typename TValue>
+class Dictionary_2;
 }
 namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+template<typename T>
+class IEnumerable_1;
 }
 namespace System::Collections::Generic {
-template <typename T> class IList_1;
+template<typename T>
+class IList_1;
 }
 namespace System::Collections::Generic {
-template <typename T> class List_1;
+template<typename T>
+class List_1;
 }
 namespace UnityEngine::ProBuilder {
 struct EdgeLookup;
@@ -32,7 +36,8 @@ namespace UnityEngine::ProBuilder {
 class ProBuilderMesh;
 }
 namespace UnityEngine::ProBuilder {
-template <typename T1, typename T2> struct SimpleTuple_2;
+template<typename T1,typename T2>
+struct SimpleTuple_2;
 }
 namespace UnityEngine::ProBuilder {
 class Vertex;
@@ -52,51 +57,47 @@ namespace UnityEngine::ProBuilder::MeshOperations {
 // CS Name: UnityEngine.ProBuilder.MeshOperations.VertexEditing
 class CORDL_TYPE VertexEditing : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method AlignEdgeWithDirection, addr 0x658bc00, size 0x18, virtual false, abstract: false, final false
-  static inline ::UnityEngine::ProBuilder::Edge AlignEdgeWithDirection(::UnityEngine::ProBuilder::EdgeLookup edge, int32_t commonIndex);
+// Declarations
+/// @brief Method AlignEdgeWithDirection, addr 0x658c2c0, size 0x18, virtual false, abstract: false, final false
+static inline ::UnityEngine::ProBuilder::Edge AlignEdgeWithDirection(::UnityEngine::ProBuilder::EdgeLookup  edge, int32_t  commonIndex) ;
 
-  /// @brief Method ExplodeVertex, addr 0x658afec, size 0xc14, virtual false, abstract: false, final false
-  static inline ::UnityEngine::ProBuilder::FaceRebuildData*
-  ExplodeVertex(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Vertex*>* vertices,
-                ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::SimpleTuple_2<::UnityEngine::ProBuilder::WingedEdge*, int32_t>>* edgeAndCommonIndex, float_t distance,
-                ::ByRef<::System::Collections::Generic::Dictionary_2<int32_t, ::System::Collections::Generic::List_1<int32_t>*>*> appendedVertices);
+/// @brief Method ExplodeVertex, addr 0x658b6ac, size 0xc14, virtual false, abstract: false, final false
+static inline ::UnityEngine::ProBuilder::FaceRebuildData* ExplodeVertex(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Vertex*>*  vertices, ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::SimpleTuple_2<::UnityEngine::ProBuilder::WingedEdge*,int32_t>>*  edgeAndCommonIndex, float_t  distance, ::ByRef<::System::Collections::Generic::Dictionary_2<int32_t,::System::Collections::Generic::List_1<int32_t>*>*>  appendedVertices) ;
 
-  /// @brief Method MergeVertices, addr 0x6589b70, size 0x31c, virtual false, abstract: false, final false
-  static inline int32_t MergeVertices(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::ArrayW<int32_t, ::Array<int32_t>*> indexes, bool collapseToFirst);
+/// @brief Method MergeVertices, addr 0x658a230, size 0x31c, virtual false, abstract: false, final false
+static inline int32_t MergeVertices(::UnityEngine::ProBuilder::ProBuilderMesh*  mesh, ::ArrayW<int32_t,::Array<int32_t>*>  indexes, bool  collapseToFirst) ;
 
-  /// @brief Method SplitVertices, addr 0x6589e8c, size 0x8c, virtual false, abstract: false, final false
-  static inline void SplitVertices(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::ProBuilder::Edge edge);
+/// @brief Method SplitVertices, addr 0x658a54c, size 0x8c, virtual false, abstract: false, final false
+static inline void SplitVertices(::UnityEngine::ProBuilder::ProBuilderMesh*  mesh, ::UnityEngine::ProBuilder::Edge  edge) ;
 
-  /// @brief Method SplitVertices, addr 0x6589f18, size 0x3f0, virtual false, abstract: false, final false
-  static inline void SplitVertices(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IEnumerable_1<int32_t>* vertices);
+/// @brief Method SplitVertices, addr 0x658a5d8, size 0x3f0, virtual false, abstract: false, final false
+static inline void SplitVertices(::UnityEngine::ProBuilder::ProBuilderMesh*  mesh, ::System::Collections::Generic::IEnumerable_1<int32_t>*  vertices) ;
 
-  /// @brief Method WeldVertices, addr 0x658a308, size 0xce4, virtual false, abstract: false, final false
-  static inline ::ArrayW<int32_t, ::Array<int32_t>*> WeldVertices(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::System::Collections::Generic::IEnumerable_1<int32_t>* indexes,
-                                                                  float_t neighborRadius);
+/// @brief Method WeldVertices, addr 0x658a9c8, size 0xce4, virtual false, abstract: false, final false
+static inline ::ArrayW<int32_t,::Array<int32_t>*> WeldVertices(::UnityEngine::ProBuilder::ProBuilderMesh*  mesh, ::System::Collections::Generic::IEnumerable_1<int32_t>*  indexes, float_t  neighborRadius) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr VertexEditing();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr VertexEditing() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VertexEditing", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  VertexEditing(VertexEditing&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VertexEditing", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  VertexEditing(VertexEditing const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "VertexEditing", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+VertexEditing(VertexEditing && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16869 };
+// Ctor Parameters [CppParam { name: "", ty: "VertexEditing", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+VertexEditing(VertexEditing const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{16873};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::MeshOperations::VertexEditing, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine::ProBuilder::MeshOperations
+} // namespace end def UnityEngine::ProBuilder::MeshOperations
 NEED_NO_BOX(::UnityEngine::ProBuilder::MeshOperations::VertexEditing);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::MeshOperations::VertexEditing*, "UnityEngine.ProBuilder.MeshOperations", "VertexEditing");

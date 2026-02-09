@@ -29,84 +29,81 @@ namespace GlobalNamespace {
 // CS Name: MultiplayerCoreInstaller
 class CORDL_TYPE MultiplayerCoreInstaller : public ::Zenject::MonoInstaller {
 public:
-  // Declarations
-  /// @brief Field _multiplayerBadgesModel, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__multiplayerBadgesModel, put = __cordl_internal_set__multiplayerBadgesModel)) ::UnityW<::GlobalNamespace::MultiplayerBadgesModelSO>
-      _multiplayerBadgesModel;
+// Declarations
+/// @brief Field _multiplayerBadgesModel, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get__multiplayerBadgesModel, put=__cordl_internal_set__multiplayerBadgesModel)) ::UnityW<::GlobalNamespace::MultiplayerBadgesModelSO>  _multiplayerBadgesModel;
 
-  /// @brief Field _multiplayerSessionManager, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__multiplayerSessionManager,
-                      put = __cordl_internal_set__multiplayerSessionManager)) ::GlobalNamespace::IBeatSaberMultiplayerSessionManager* _multiplayerSessionManager;
+/// @brief Field _multiplayerSessionManager, offset 0x40, size 0x8 
+ __declspec(property(get=__cordl_internal_get__multiplayerSessionManager, put=__cordl_internal_set__multiplayerSessionManager)) ::GlobalNamespace::IBeatSaberMultiplayerSessionManager*  _multiplayerSessionManager;
 
-  /// @brief Field _sceneSetupData, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__sceneSetupData, put = __cordl_internal_set__sceneSetupData)) ::GlobalNamespace::GameplayCoreSceneSetupData* _sceneSetupData;
+/// @brief Field _sceneSetupData, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get__sceneSetupData, put=__cordl_internal_set__sceneSetupData)) ::GlobalNamespace::GameplayCoreSceneSetupData*  _sceneSetupData;
 
-  /// @brief Field _scoreSyncStateManagerPrefab, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__scoreSyncStateManagerPrefab, put = __cordl_internal_set__scoreSyncStateManagerPrefab)) ::UnityW<::GlobalNamespace::ScoreSyncStateManager>
-      _scoreSyncStateManagerPrefab;
+/// @brief Field _scoreSyncStateManagerPrefab, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get__scoreSyncStateManagerPrefab, put=__cordl_internal_set__scoreSyncStateManagerPrefab)) ::UnityW<::GlobalNamespace::ScoreSyncStateManager>  _scoreSyncStateManagerPrefab;
 
-  /// @brief Method InstallBindings, addr 0x5850380, size 0x8f8, virtual true, abstract: false, final false
-  inline void InstallBindings();
+/// @brief Method InstallBindings, addr 0x5850cb0, size 0x8f8, virtual true, abstract: false, final false
+inline void InstallBindings() ;
 
-  static inline ::GlobalNamespace::MultiplayerCoreInstaller* New_ctor();
+static inline ::GlobalNamespace::MultiplayerCoreInstaller* New_ctor() ;
 
-  constexpr ::UnityW<::GlobalNamespace::MultiplayerBadgesModelSO> const& __cordl_internal_get__multiplayerBadgesModel() const;
+constexpr ::UnityW<::GlobalNamespace::MultiplayerBadgesModelSO> const& __cordl_internal_get__multiplayerBadgesModel() const;
 
-  constexpr ::UnityW<::GlobalNamespace::MultiplayerBadgesModelSO>& __cordl_internal_get__multiplayerBadgesModel();
+constexpr ::UnityW<::GlobalNamespace::MultiplayerBadgesModelSO>& __cordl_internal_get__multiplayerBadgesModel() ;
 
-  constexpr ::GlobalNamespace::IBeatSaberMultiplayerSessionManager* const& __cordl_internal_get__multiplayerSessionManager() const;
+constexpr ::GlobalNamespace::IBeatSaberMultiplayerSessionManager* const& __cordl_internal_get__multiplayerSessionManager() const;
 
-  constexpr ::GlobalNamespace::IBeatSaberMultiplayerSessionManager*& __cordl_internal_get__multiplayerSessionManager();
+constexpr ::GlobalNamespace::IBeatSaberMultiplayerSessionManager*& __cordl_internal_get__multiplayerSessionManager() ;
 
-  constexpr ::GlobalNamespace::GameplayCoreSceneSetupData* const& __cordl_internal_get__sceneSetupData() const;
+constexpr ::GlobalNamespace::GameplayCoreSceneSetupData* const& __cordl_internal_get__sceneSetupData() const;
 
-  constexpr ::GlobalNamespace::GameplayCoreSceneSetupData*& __cordl_internal_get__sceneSetupData();
+constexpr ::GlobalNamespace::GameplayCoreSceneSetupData*& __cordl_internal_get__sceneSetupData() ;
 
-  constexpr ::UnityW<::GlobalNamespace::ScoreSyncStateManager> const& __cordl_internal_get__scoreSyncStateManagerPrefab() const;
+constexpr ::UnityW<::GlobalNamespace::ScoreSyncStateManager> const& __cordl_internal_get__scoreSyncStateManagerPrefab() const;
 
-  constexpr ::UnityW<::GlobalNamespace::ScoreSyncStateManager>& __cordl_internal_get__scoreSyncStateManagerPrefab();
+constexpr ::UnityW<::GlobalNamespace::ScoreSyncStateManager>& __cordl_internal_get__scoreSyncStateManagerPrefab() ;
 
-  constexpr void __cordl_internal_set__multiplayerBadgesModel(::UnityW<::GlobalNamespace::MultiplayerBadgesModelSO> value);
+constexpr void __cordl_internal_set__multiplayerBadgesModel(::UnityW<::GlobalNamespace::MultiplayerBadgesModelSO>  value) ;
 
-  constexpr void __cordl_internal_set__multiplayerSessionManager(::GlobalNamespace::IBeatSaberMultiplayerSessionManager* value);
+constexpr void __cordl_internal_set__multiplayerSessionManager(::GlobalNamespace::IBeatSaberMultiplayerSessionManager*  value) ;
 
-  constexpr void __cordl_internal_set__sceneSetupData(::GlobalNamespace::GameplayCoreSceneSetupData* value);
+constexpr void __cordl_internal_set__sceneSetupData(::GlobalNamespace::GameplayCoreSceneSetupData*  value) ;
 
-  constexpr void __cordl_internal_set__scoreSyncStateManagerPrefab(::UnityW<::GlobalNamespace::ScoreSyncStateManager> value);
+constexpr void __cordl_internal_set__scoreSyncStateManagerPrefab(::UnityW<::GlobalNamespace::ScoreSyncStateManager>  value) ;
 
-  /// @brief Method .ctor, addr 0x5850c78, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x58515a8, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MultiplayerCoreInstaller();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr MultiplayerCoreInstaller() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerCoreInstaller", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  MultiplayerCoreInstaller(MultiplayerCoreInstaller&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerCoreInstaller", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerCoreInstaller(MultiplayerCoreInstaller const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "MultiplayerCoreInstaller", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+MultiplayerCoreInstaller(MultiplayerCoreInstaller && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6308 };
+// Ctor Parameters [CppParam { name: "", ty: "MultiplayerCoreInstaller", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+MultiplayerCoreInstaller(MultiplayerCoreInstaller const& ) = delete;
 
-  /// @brief Field _scoreSyncStateManagerPrefab, offset: 0x28, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::ScoreSyncStateManager> ____scoreSyncStateManagerPrefab;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6308};
 
-  /// @brief Field _multiplayerBadgesModel, offset: 0x30, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::MultiplayerBadgesModelSO> ____multiplayerBadgesModel;
+/// @brief Field _scoreSyncStateManagerPrefab, offset: 0x28, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::ScoreSyncStateManager>  ____scoreSyncStateManagerPrefab;
 
-  /// @brief Field _sceneSetupData, offset: 0x38, size: 0x8, def value: None
-  ::GlobalNamespace::GameplayCoreSceneSetupData* ____sceneSetupData;
+/// @brief Field _multiplayerBadgesModel, offset: 0x30, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::MultiplayerBadgesModelSO>  ____multiplayerBadgesModel;
 
-  /// @brief Field _multiplayerSessionManager, offset: 0x40, size: 0x8, def value: None
-  ::GlobalNamespace::IBeatSaberMultiplayerSessionManager* ____multiplayerSessionManager;
+/// @brief Field _sceneSetupData, offset: 0x38, size: 0x8, def value: None
+ ::GlobalNamespace::GameplayCoreSceneSetupData*  ____sceneSetupData;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _multiplayerSessionManager, offset: 0x40, size: 0x8, def value: None
+ ::GlobalNamespace::IBeatSaberMultiplayerSessionManager*  ____multiplayerSessionManager;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::MultiplayerCoreInstaller, ____scoreSyncStateManagerPrefab) == 0x28, "Offset mismatch!");
@@ -119,6 +116,6 @@ static_assert(offsetof(::GlobalNamespace::MultiplayerCoreInstaller, ____multipla
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerCoreInstaller, 0x48>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MultiplayerCoreInstaller);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerCoreInstaller*, "", "MultiplayerCoreInstaller");

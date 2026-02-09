@@ -3,157 +3,188 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__ProviderLoadRequestOptions_def.hpp"
 //  Writing Method size for method: ::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions.Copy
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions* (
-    ::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions::*)()>(&::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions::Copy)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions* (::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions::*)()>(&::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions::Copy)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6768230;
+  constexpr static std::size_t addrs = 0x67688f0;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions*>::get(),
-                                                 "Copy", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions*>::get(),
+                        "Copy",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions.get_IgnoreFailures
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions::*)()>(
-    &::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions::get_IgnoreFailures)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions::*)()>(&::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions::get_IgnoreFailures)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67682b0;
+  constexpr static std::size_t addrs = 0x6768970;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions*>::get(),
-                                                 "get_IgnoreFailures", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions*>::get(),
+                        "get_IgnoreFailures",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions.set_IgnoreFailures
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions::*)(bool)>(
-    &::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions::set_IgnoreFailures)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions::*)(bool)>(&::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions::set_IgnoreFailures)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67682b8;
+  constexpr static std::size_t addrs = 0x6768978;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions*>::get(), "set_IgnoreFailures",
-        std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions*>::get(),
+                        "set_IgnoreFailures",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions.get_WebRequestTimeout
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions::*)()>(
-    &::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions::get_WebRequestTimeout)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions::*)()>(&::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions::get_WebRequestTimeout)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67682c0;
+  constexpr static std::size_t addrs = 0x6768980;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions*>::get(),
-                                                 "get_WebRequestTimeout", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions*>::get(),
+                        "get_WebRequestTimeout",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions.set_WebRequestTimeout
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions::*)(int32_t)>(
-    &::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions::set_WebRequestTimeout)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions::*)(int32_t)>(&::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions::set_WebRequestTimeout)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x67682c8;
+  constexpr static std::size_t addrs = 0x6768988;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions*>::get(), "set_WebRequestTimeout",
-        std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions*>::get(),
+                        "set_WebRequestTimeout",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions._ctor
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions::*)()>(
-    &::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions::*)()>(&::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x67682d0;
+  constexpr static std::size_t addrs = 0x6768990;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions*>::get(),
-                                                 ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
-constexpr bool& UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions::__cordl_internal_get_m_IgnoreFailures() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_IgnoreFailures;
+constexpr bool& UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions::__cordl_internal_get_m_IgnoreFailures()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_IgnoreFailures;
 }
 constexpr bool const& UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions::__cordl_internal_get_m_IgnoreFailures() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_IgnoreFailures;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_IgnoreFailures;
 }
-constexpr void UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions::__cordl_internal_set_m_IgnoreFailures(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___m_IgnoreFailures = value;
+constexpr void UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions::__cordl_internal_set_m_IgnoreFailures(bool  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_IgnoreFailures = value;
 }
-constexpr int32_t& UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions::__cordl_internal_get_m_WebRequestTimeout() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_WebRequestTimeout;
+constexpr int32_t& UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions::__cordl_internal_get_m_WebRequestTimeout()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_WebRequestTimeout;
 }
 constexpr int32_t const& UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions::__cordl_internal_get_m_WebRequestTimeout() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_WebRequestTimeout;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___m_WebRequestTimeout;
 }
-constexpr void UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions::__cordl_internal_set_m_WebRequestTimeout(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___m_WebRequestTimeout = value;
+constexpr void UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions::__cordl_internal_set_m_WebRequestTimeout(int32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___m_WebRequestTimeout = value;
 }
-inline ::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions* UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions::Copy() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions*>::get(), "Copy",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions*, false>(this, ___internal_method);
+inline ::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions* UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions::Copy()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions*>::get(),
+                        "Copy",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions*, false>(this, ___internal_method);
 }
-inline bool UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions::get_IgnoreFailures() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions*>::get(),
-                                               "get_IgnoreFailures", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions::get_IgnoreFailures()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions*>::get(),
+                        "get_IgnoreFailures",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline void UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions::set_IgnoreFailures(bool value) {
-  static auto* ___internal_method = THROW_UNLESS((
-      ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions*>::get(), "set_IgnoreFailures",
-                                 std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions::set_IgnoreFailures(bool  value)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions*>::get(),
+                        "set_IgnoreFailures",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline int32_t UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions::get_WebRequestTimeout() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions*>::get(),
-                                               "get_WebRequestTimeout", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+inline int32_t UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions::get_WebRequestTimeout()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions*>::get(),
+                        "get_WebRequestTimeout",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
-inline void UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions::set_WebRequestTimeout(int32_t value) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions*>::get(), "set_WebRequestTimeout",
-      std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions::set_WebRequestTimeout(int32_t  value)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions*>::get(),
+                        "set_WebRequestTimeout",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions::_ctor() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions*>::get(),
-                                               ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions* UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions*>());
+inline ::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions* UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions::New_ctor()  {
+return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions*>());
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions::ProviderLoadRequestOptions() {}
+constexpr ::UnityEngine::ResourceManagement::ResourceProviders::ProviderLoadRequestOptions::ProviderLoadRequestOptions()   {
+}

@@ -23,43 +23,42 @@ namespace UnityEngine {
 // CS Name: UnityEngine.AssemblyFullName
 struct CORDL_TYPE AssemblyFullName {
 public:
-  // Declarations
-  /// @brief Method Equals, addr 0x691239c, size 0xb0, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* other);
+// Declarations
+/// @brief Method Equals, addr 0x6912a5c, size 0xb0, virtual true, abstract: false, final false
+inline bool Equals(::System::Object*  other) ;
 
-  /// @brief Method GetHashCode, addr 0x691244c, size 0x90, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
+/// @brief Method GetHashCode, addr 0x6912b0c, size 0x90, virtual true, abstract: false, final false
+inline int32_t GetHashCode() ;
 
-  /// @brief Method ToString, addr 0x69124dc, size 0x1a8, virtual true, abstract: false, final false
-  inline ::StringW ToString();
+/// @brief Method ToString, addr 0x6912b9c, size 0x1a8, virtual true, abstract: false, final false
+inline ::StringW ToString() ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AssemblyFullName();
+// Ctor Parameters []
+// @brief default ctor
+constexpr AssemblyFullName() ;
 
-  // Ctor Parameters [CppParam { name: "Name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "Version", ty: "::UnityEngine::AssemblyVersion", modifiers: "", def_value: None },
-  // CppParam { name: "PublicKeyToken", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "Culture", ty: "::StringW", modifiers: "", def_value: None }]
-  constexpr AssemblyFullName(::StringW Name, ::UnityEngine::AssemblyVersion Version, ::StringW PublicKeyToken, ::StringW Culture) noexcept;
+// Ctor Parameters [CppParam { name: "Name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "Version", ty: "::UnityEngine::AssemblyVersion", modifiers: "", def_value: None }, CppParam { name: "PublicKeyToken", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "Culture", ty: "::StringW", modifiers: "", def_value: None }]
+constexpr AssemblyFullName(::StringW  Name, ::UnityEngine::AssemblyVersion  Version, ::StringW  PublicKeyToken, ::StringW  Culture) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10311 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10315};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x20};
 
-  /// @brief Field Name, offset: 0x0, size: 0x8, def value: None
-  ::StringW Name;
+/// @brief Field Name, offset: 0x0, size: 0x8, def value: None
+ ::StringW  Name;
 
-  /// @brief Field Version, offset: 0x8, size: 0x8, def value: None
-  ::UnityEngine::AssemblyVersion Version;
+/// @brief Field Version, offset: 0x8, size: 0x8, def value: None
+ ::UnityEngine::AssemblyVersion  Version;
 
-  /// @brief Field PublicKeyToken, offset: 0x10, size: 0x8, def value: None
-  ::StringW PublicKeyToken;
+/// @brief Field PublicKeyToken, offset: 0x10, size: 0x8, def value: None
+ ::StringW  PublicKeyToken;
 
-  /// @brief Field Culture, offset: 0x18, size: 0x8, def value: None
-  ::StringW Culture;
+/// @brief Field Culture, offset: 0x18, size: 0x8, def value: None
+ ::StringW  Culture;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::AssemblyFullName, Name) == 0x0, "Offset mismatch!");
@@ -72,5 +71,5 @@ static_assert(offsetof(::UnityEngine::AssemblyFullName, Culture) == 0x18, "Offse
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::AssemblyFullName, 0x20>, "Size mismatch!");
 
-} // namespace UnityEngine
+} // namespace end def UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AssemblyFullName, "UnityEngine", "AssemblyFullName");

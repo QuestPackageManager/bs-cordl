@@ -17,34 +17,33 @@ struct RangePositionInfo;
 }
 // Write type traits
 MARK_VAL_T(::System::Xml::Schema::RangePositionInfo);
-// Dependencies
+// Dependencies 
 namespace System::Xml::Schema {
 // Is value type: true
 // CS Name: System.Xml.Schema.RangePositionInfo
 struct CORDL_TYPE RangePositionInfo {
 public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RangePositionInfo();
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr RangePositionInfo() ;
 
-  // Ctor Parameters [CppParam { name: "curpos", ty: "::System::Xml::Schema::BitSet*", modifiers: "", def_value: None }, CppParam { name: "rangeCounters", ty:
-  // "::ArrayW<::System::Decimal,::Array<::System::Decimal>*>", modifiers: "", def_value: None }]
-  constexpr RangePositionInfo(::System::Xml::Schema::BitSet* curpos, ::ArrayW<::System::Decimal, ::Array<::System::Decimal>*> rangeCounters) noexcept;
+// Ctor Parameters [CppParam { name: "curpos", ty: "::System::Xml::Schema::BitSet*", modifiers: "", def_value: None }, CppParam { name: "rangeCounters", ty: "::ArrayW<::System::Decimal,::Array<::System::Decimal>*>", modifiers: "", def_value: None }]
+constexpr RangePositionInfo(::System::Xml::Schema::BitSet*  curpos, ::ArrayW<::System::Decimal,::Array<::System::Decimal>*>  rangeCounters) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9582 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{9586};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x10};
 
-  /// @brief Field curpos, offset: 0x0, size: 0x8, def value: None
-  ::System::Xml::Schema::BitSet* curpos;
+/// @brief Field curpos, offset: 0x0, size: 0x8, def value: None
+ ::System::Xml::Schema::BitSet*  curpos;
 
-  /// @brief Field rangeCounters, offset: 0x8, size: 0x8, def value: None
-  ::ArrayW<::System::Decimal, ::Array<::System::Decimal>*> rangeCounters;
+/// @brief Field rangeCounters, offset: 0x8, size: 0x8, def value: None
+ ::ArrayW<::System::Decimal,::Array<::System::Decimal>*>  rangeCounters;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Xml::Schema::RangePositionInfo, curpos) == 0x0, "Offset mismatch!");
@@ -53,5 +52,5 @@ static_assert(offsetof(::System::Xml::Schema::RangePositionInfo, rangeCounters) 
 
 static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::RangePositionInfo, 0x10>, "Size mismatch!");
 
-} // namespace System::Xml::Schema
+} // namespace end def System::Xml::Schema
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::RangePositionInfo, "System.Xml.Schema", "RangePositionInfo");

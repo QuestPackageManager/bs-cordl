@@ -10,69 +10,71 @@ namespace GlobalNamespace {
 class IBeatSaberConnectedPlayer;
 }
 namespace GlobalNamespace {
-template <typename TStateTable, typename TType, typename TState> class StateBuffer_3;
+template<typename TStateTable,typename TType,typename TState>
+class StateBuffer_3;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-template <typename TStateTable, typename TType, typename TState> class MultiplayerSyncState_3;
+template<typename TStateTable,typename TType,typename TState>
+class MultiplayerSyncState_3;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::GlobalNamespace::MultiplayerSyncState_3);
 // Dependencies System.Object
 namespace GlobalNamespace {
 // cpp template
-template <typename TStateTable, typename TType, typename TState>
+template<typename TStateTable,typename TType,typename TState>
 // Is value type: false
 // CS Name: MultiplayerSyncState`3<TStateTable,TType,TState>
 class CORDL_TYPE MultiplayerSyncState_3 : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(get = get_player)) ::GlobalNamespace::IBeatSaberConnectedPlayer* player;
+// Declarations
+ __declspec(property(get=get_player)) ::GlobalNamespace::IBeatSaberConnectedPlayer*  player;
 
-  __declspec(property(get = get_stateBuffer)) ::GlobalNamespace::StateBuffer_3<TStateTable, TType, TState>* stateBuffer;
+ __declspec(property(get=get_stateBuffer)) ::GlobalNamespace::StateBuffer_3<TStateTable,TType,TState>*  stateBuffer;
 
-  /// @brief Method ClearBufferedStates, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void ClearBufferedStates();
+/// @brief Method ClearBufferedStates, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+inline void ClearBufferedStates() ;
 
-  /// @brief Method GetLatestState, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline TState GetLatestState(TType type);
+/// @brief Method GetLatestState, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+inline TState GetLatestState(TType  type) ;
 
-  /// @brief Method GetLatestTime, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline int64_t GetLatestTime();
+/// @brief Method GetLatestTime, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+inline int64_t GetLatestTime() ;
 
-  /// @brief Method GetState, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline TState GetState(TType type, int64_t time);
+/// @brief Method GetState, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline TState GetState(TType  type, int64_t  time) ;
 
-  static inline ::GlobalNamespace::MultiplayerSyncState_3<TStateTable, TType, TState>* New_ctor();
+static inline ::GlobalNamespace::MultiplayerSyncState_3<TStateTable,TType,TState>* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_player, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline ::GlobalNamespace::IBeatSaberConnectedPlayer* get_player();
+/// @brief Method get_player, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline ::GlobalNamespace::IBeatSaberConnectedPlayer* get_player() ;
 
-  /// @brief Method get_stateBuffer, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline ::GlobalNamespace::StateBuffer_3<TStateTable, TType, TState>* get_stateBuffer();
+/// @brief Method get_stateBuffer, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline ::GlobalNamespace::StateBuffer_3<TStateTable,TType,TState>* get_stateBuffer() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MultiplayerSyncState_3();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr MultiplayerSyncState_3() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerSyncState_3", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  MultiplayerSyncState_3(MultiplayerSyncState_3&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerSyncState_3", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerSyncState_3(MultiplayerSyncState_3 const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "MultiplayerSyncState_3", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+MultiplayerSyncState_3(MultiplayerSyncState_3 && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21252 };
+// Ctor Parameters [CppParam { name: "", ty: "MultiplayerSyncState_3", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+MultiplayerSyncState_3(MultiplayerSyncState_3 const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{21256};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::MultiplayerSyncState_3, "", "MultiplayerSyncState`3");

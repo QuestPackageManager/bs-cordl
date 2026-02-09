@@ -29,41 +29,40 @@ namespace System::Data {
 // CS Name: System.Data.ConstraintConverter
 class CORDL_TYPE ConstraintConverter : public ::System::ComponentModel::ExpandableObjectConverter {
 public:
-  // Declarations
-  /// @brief Method CanConvertTo, addr 0x5e6aaa8, size 0xa4, virtual true, abstract: false, final false
-  inline bool CanConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Type* destinationType);
+// Declarations
+/// @brief Method CanConvertTo, addr 0x5e6b168, size 0xa4, virtual true, abstract: false, final false
+inline bool CanConvertTo(::System::ComponentModel::ITypeDescriptorContext*  context, ::System::Type*  destinationType) ;
 
-  /// @brief Method ConvertTo, addr 0x5e6ab4c, size 0x964, virtual true, abstract: false, final false
-  inline ::System::Object* ConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::System::Object* value,
-                                     ::System::Type* destinationType);
+/// @brief Method ConvertTo, addr 0x5e6b20c, size 0x964, virtual true, abstract: false, final false
+inline ::System::Object* ConvertTo(::System::ComponentModel::ITypeDescriptorContext*  context, ::System::Globalization::CultureInfo*  culture, ::System::Object*  value, ::System::Type*  destinationType) ;
 
-  static inline ::System::Data::ConstraintConverter* New_ctor();
+static inline ::System::Data::ConstraintConverter* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x5e6aaa4, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5e6b164, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ConstraintConverter();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ConstraintConverter() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ConstraintConverter", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ConstraintConverter(ConstraintConverter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ConstraintConverter", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ConstraintConverter(ConstraintConverter const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ConstraintConverter", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ConstraintConverter(ConstraintConverter && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13733 };
+// Ctor Parameters [CppParam { name: "", ty: "ConstraintConverter", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ConstraintConverter(ConstraintConverter const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{13737};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Data::ConstraintConverter, 0x10>, "Size mismatch!");
 
-} // namespace System::Data
+} // namespace end def System::Data
 NEED_NO_BOX(::System::Data::ConstraintConverter);
 DEFINE_IL2CPP_ARG_TYPE(::System::Data::ConstraintConverter*, "System.Data", "ConstraintConverter");

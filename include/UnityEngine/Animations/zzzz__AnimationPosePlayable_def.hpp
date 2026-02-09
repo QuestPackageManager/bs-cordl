@@ -7,7 +7,8 @@ CORDL_MODULE_INIT
 #include <cstddef>
 CORDL_MODULE_EXPORT(AnimationPosePlayable)
 namespace System {
-template <typename T> class IEquatable_1;
+template<typename T>
+class IEquatable_1;
 }
 namespace UnityEngine::Playables {
 class IPlayable;
@@ -27,57 +28,57 @@ namespace UnityEngine::Animations {
 // CS Name: UnityEngine.Animations.AnimationPosePlayable
 struct CORDL_TYPE AnimationPosePlayable {
 public:
-  // Declarations
-  /// @brief Field m_NullPlayable, offset 0xffffffff, size 0x10
-  __declspec(property(get = getStaticF_m_NullPlayable, put = setStaticF_m_NullPlayable)) ::UnityEngine::Animations::AnimationPosePlayable m_NullPlayable;
+// Declarations
+/// @brief Field m_NullPlayable, offset 0xffffffff, size 0x10 
+ __declspec(property(get=getStaticF_m_NullPlayable, put=setStaticF_m_NullPlayable)) ::UnityEngine::Animations::AnimationPosePlayable  m_NullPlayable;
 
-  /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Animations::AnimationPosePlayable>"
-  constexpr operator ::System::IEquatable_1<::UnityEngine::Animations::AnimationPosePlayable>*();
+/// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Animations::AnimationPosePlayable>"
+constexpr operator  ::System::IEquatable_1<::UnityEngine::Animations::AnimationPosePlayable>*() ;
 
-  /// @brief Convert operator to "::UnityEngine::Playables::IPlayable"
-  constexpr operator ::UnityEngine::Playables::IPlayable*();
+/// @brief Convert operator to "::UnityEngine::Playables::IPlayable"
+constexpr operator  ::UnityEngine::Playables::IPlayable*() ;
 
-  /// @brief Method Equals, addr 0x6879234, size 0xb8, virtual true, abstract: false, final true
-  inline bool Equals(::UnityEngine::Animations::AnimationPosePlayable other);
+/// @brief Method Equals, addr 0x68798f4, size 0xb8, virtual true, abstract: false, final true
+inline bool Equals(::UnityEngine::Animations::AnimationPosePlayable  other) ;
 
-  /// @brief Method GetHandle, addr 0x6879228, size 0xc, virtual true, abstract: false, final true
-  inline ::UnityEngine::Playables::PlayableHandle GetHandle();
+/// @brief Method GetHandle, addr 0x68798e8, size 0xc, virtual true, abstract: false, final true
+inline ::UnityEngine::Playables::PlayableHandle GetHandle() ;
 
-  /// @brief Method .ctor, addr 0x6879114, size 0x114, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::Playables::PlayableHandle handle);
+/// @brief Method .ctor, addr 0x68797d4, size 0x114, virtual false, abstract: false, final false
+inline void _ctor(::UnityEngine::Playables::PlayableHandle  handle) ;
 
-  static inline ::UnityEngine::Animations::AnimationPosePlayable getStaticF_m_NullPlayable();
+static inline ::UnityEngine::Animations::AnimationPosePlayable getStaticF_m_NullPlayable() ;
 
-  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Animations::AnimationPosePlayable>"
-  constexpr ::System::IEquatable_1<::UnityEngine::Animations::AnimationPosePlayable>* i___System__IEquatable_1___UnityEngine__Animations__AnimationPosePlayable_();
+/// @brief Convert to "::System::IEquatable_1<::UnityEngine::Animations::AnimationPosePlayable>"
+constexpr ::System::IEquatable_1<::UnityEngine::Animations::AnimationPosePlayable>* i___System__IEquatable_1___UnityEngine__Animations__AnimationPosePlayable_() ;
 
-  /// @brief Convert to "::UnityEngine::Playables::IPlayable"
-  constexpr ::UnityEngine::Playables::IPlayable* i___UnityEngine__Playables__IPlayable();
+/// @brief Convert to "::UnityEngine::Playables::IPlayable"
+constexpr ::UnityEngine::Playables::IPlayable* i___UnityEngine__Playables__IPlayable() ;
 
-  static inline void setStaticF_m_NullPlayable(::UnityEngine::Animations::AnimationPosePlayable value);
+static inline void setStaticF_m_NullPlayable(::UnityEngine::Animations::AnimationPosePlayable  value) ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AnimationPosePlayable();
+// Ctor Parameters []
+// @brief default ctor
+constexpr AnimationPosePlayable() ;
 
-  // Ctor Parameters [CppParam { name: "m_Handle", ty: "::UnityEngine::Playables::PlayableHandle", modifiers: "", def_value: None }]
-  constexpr AnimationPosePlayable(::UnityEngine::Playables::PlayableHandle m_Handle) noexcept;
+// Ctor Parameters [CppParam { name: "m_Handle", ty: "::UnityEngine::Playables::PlayableHandle", modifiers: "", def_value: None }]
+constexpr AnimationPosePlayable(::UnityEngine::Playables::PlayableHandle  m_Handle) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20024 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20028};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x10};
 
-  /// @brief Field m_Handle, offset: 0x0, size: 0x10, def value: None
-  ::UnityEngine::Playables::PlayableHandle m_Handle;
+/// @brief Field m_Handle, offset: 0x0, size: 0x10, def value: None
+ ::UnityEngine::Playables::PlayableHandle  m_Handle;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Animations::AnimationPosePlayable, m_Handle) == 0x0, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Animations::AnimationPosePlayable, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine::Animations
+} // namespace end def UnityEngine::Animations
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Animations::AnimationPosePlayable, "UnityEngine.Animations", "AnimationPosePlayable");

@@ -18,44 +18,44 @@ namespace GlobalNamespace {
 // CS Name: BeatSaberNetworkConstants
 class CORDL_TYPE BeatSaberNetworkConstants : public ::System::Object {
 public:
-  // Declarations
+// Declarations
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BeatSaberNetworkConstants();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr BeatSaberNetworkConstants() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatSaberNetworkConstants", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  BeatSaberNetworkConstants(BeatSaberNetworkConstants&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatSaberNetworkConstants", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  BeatSaberNetworkConstants(BeatSaberNetworkConstants const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "BeatSaberNetworkConstants", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+BeatSaberNetworkConstants(BeatSaberNetworkConstants && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18809 };
+// Ctor Parameters [CppParam { name: "", ty: "BeatSaberNetworkConstants", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+BeatSaberNetworkConstants(BeatSaberNetworkConstants const& ) = delete;
 
-  /// @brief Field dedicatedServerState offset 0xffffffff size 0x8
-  static constexpr ::ConstString dedicatedServerState{ u"dedicated_server" };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{18813};
 
-  /// @brief Field finishedLevel offset 0xffffffff size 0x8
-  static constexpr ::ConstString finishedLevel{ u"finished_level" };
+/// @brief Field dedicatedServerState offset 0xffffffff size 0x8
+static constexpr ::ConstString  dedicatedServerState{u"dedicated_server"};
 
-  /// @brief Field isActive offset 0xffffffff size 0x8
-  static constexpr ::ConstString isActive{ u"is_active" };
+/// @brief Field finishedLevel offset 0xffffffff size 0x8
+static constexpr ::ConstString  finishedLevel{u"finished_level"};
 
-  /// @brief Field wantsToPlayNextLevel offset 0xffffffff size 0x8
-  static constexpr ::ConstString wantsToPlayNextLevel{ u"wants_to_play_next_level" };
+/// @brief Field isActive offset 0xffffffff size 0x8
+static constexpr ::ConstString  isActive{u"is_active"};
 
-  /// @brief Field wasActiveAtLevelStart offset 0xffffffff size 0x8
-  static constexpr ::ConstString wasActiveAtLevelStart{ u"was_active_at_level_start" };
+/// @brief Field wantsToPlayNextLevel offset 0xffffffff size 0x8
+static constexpr ::ConstString  wantsToPlayNextLevel{u"wants_to_play_next_level"};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field wasActiveAtLevelStart offset 0xffffffff size 0x8
+static constexpr ::ConstString  wasActiveAtLevelStart{u"was_active_at_level_start"};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatSaberNetworkConstants, 0x10>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BeatSaberNetworkConstants);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BeatSaberNetworkConstants*, "", "BeatSaberNetworkConstants");

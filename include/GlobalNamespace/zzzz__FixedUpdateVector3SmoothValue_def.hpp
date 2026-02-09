@@ -22,37 +22,37 @@ namespace GlobalNamespace {
 // CS Name: FixedUpdateVector3SmoothValue
 class CORDL_TYPE FixedUpdateVector3SmoothValue : public ::GlobalNamespace::FixedUpdateSmoothValue_1<::UnityEngine::Vector3> {
 public:
-  // Declarations
-  /// @brief Method Interpolate, addr 0x569e374, size 0x28, virtual true, abstract: false, final false
-  inline ::UnityEngine::Vector3 Interpolate(::UnityEngine::Vector3 value0, ::UnityEngine::Vector3 value1, float_t t);
+// Declarations
+/// @brief Method Interpolate, addr 0x569e0f8, size 0x28, virtual true, abstract: false, final false
+inline ::UnityEngine::Vector3 Interpolate(::UnityEngine::Vector3  value0, ::UnityEngine::Vector3  value1, float_t  t) ;
 
-  static inline ::GlobalNamespace::FixedUpdateVector3SmoothValue* New_ctor(float_t smooth);
+static inline ::GlobalNamespace::FixedUpdateVector3SmoothValue* New_ctor(float_t  smooth) ;
 
-  /// @brief Method .ctor, addr 0x569e324, size 0x50, virtual false, abstract: false, final false
-  inline void _ctor(float_t smooth);
+/// @brief Method .ctor, addr 0x569e0a8, size 0x50, virtual false, abstract: false, final false
+inline void _ctor(float_t  smooth) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr FixedUpdateVector3SmoothValue();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr FixedUpdateVector3SmoothValue() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FixedUpdateVector3SmoothValue", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  FixedUpdateVector3SmoothValue(FixedUpdateVector3SmoothValue&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FixedUpdateVector3SmoothValue", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  FixedUpdateVector3SmoothValue(FixedUpdateVector3SmoothValue const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "FixedUpdateVector3SmoothValue", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+FixedUpdateVector3SmoothValue(FixedUpdateVector3SmoothValue && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20229 };
+// Ctor Parameters [CppParam { name: "", ty: "FixedUpdateVector3SmoothValue", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+FixedUpdateVector3SmoothValue(FixedUpdateVector3SmoothValue const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20233};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::FixedUpdateVector3SmoothValue, 0x30>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::FixedUpdateVector3SmoothValue);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::FixedUpdateVector3SmoothValue*, "", "FixedUpdateVector3SmoothValue");

@@ -24,37 +24,37 @@ namespace GlobalNamespace {
 // CS Name: System.Linq.Expressions.Interpreter.GreaterThanInstruction/GreaterThanByte
 class CORDL_TYPE GreaterThanInstruction_GreaterThanByte : public ::System::Linq::Expressions::Interpreter::GreaterThanInstruction {
 public:
-  // Declarations
-  static inline ::GlobalNamespace::GreaterThanInstruction_GreaterThanByte* New_ctor(::System::Object* nullValue);
+// Declarations
+static inline ::GlobalNamespace::GreaterThanInstruction_GreaterThanByte* New_ctor(::System::Object*  nullValue) ;
 
-  /// @brief Method Run, addr 0x5de1490, size 0xa4, virtual true, abstract: false, final false
-  inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
+/// @brief Method Run, addr 0x5de1b50, size 0xa4, virtual true, abstract: false, final false
+inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame*  frame) ;
 
-  /// @brief Method .ctor, addr 0x5de112c, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* nullValue);
+/// @brief Method .ctor, addr 0x5de17ec, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  nullValue) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr GreaterThanInstruction_GreaterThanByte();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr GreaterThanInstruction_GreaterThanByte() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GreaterThanInstruction_GreaterThanByte", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  GreaterThanInstruction_GreaterThanByte(GreaterThanInstruction_GreaterThanByte&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GreaterThanInstruction_GreaterThanByte", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  GreaterThanInstruction_GreaterThanByte(GreaterThanInstruction_GreaterThanByte const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "GreaterThanInstruction_GreaterThanByte", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+GreaterThanInstruction_GreaterThanByte(GreaterThanInstruction_GreaterThanByte && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16327 };
+// Ctor Parameters [CppParam { name: "", ty: "GreaterThanInstruction_GreaterThanByte", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+GreaterThanInstruction_GreaterThanByte(GreaterThanInstruction_GreaterThanByte const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{16331};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::GreaterThanInstruction_GreaterThanByte, 0x18>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::GreaterThanInstruction_GreaterThanByte);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::GreaterThanInstruction_GreaterThanByte*, "System.Linq.Expressions.Interpreter", "GreaterThanInstruction/GreaterThanByte");

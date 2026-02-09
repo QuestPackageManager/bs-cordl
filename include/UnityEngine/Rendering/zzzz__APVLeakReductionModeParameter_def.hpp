@@ -21,34 +21,34 @@ namespace UnityEngine::Rendering {
 // CS Name: UnityEngine.Rendering.APVLeakReductionModeParameter
 class CORDL_TYPE APVLeakReductionModeParameter : public ::UnityEngine::Rendering::VolumeParameter_1<::UnityEngine::Rendering::APVLeakReductionMode> {
 public:
-  // Declarations
-  static inline ::UnityEngine::Rendering::APVLeakReductionModeParameter* New_ctor(::UnityEngine::Rendering::APVLeakReductionMode value, bool overrideState);
+// Declarations
+static inline ::UnityEngine::Rendering::APVLeakReductionModeParameter* New_ctor(::UnityEngine::Rendering::APVLeakReductionMode  value, bool  overrideState) ;
 
-  /// @brief Method .ctor, addr 0x65e1abc, size 0x64, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::Rendering::APVLeakReductionMode value, bool overrideState);
+/// @brief Method .ctor, addr 0x65e217c, size 0x64, virtual false, abstract: false, final false
+inline void _ctor(::UnityEngine::Rendering::APVLeakReductionMode  value, bool  overrideState) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr APVLeakReductionModeParameter();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr APVLeakReductionModeParameter() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "APVLeakReductionModeParameter", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  APVLeakReductionModeParameter(APVLeakReductionModeParameter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "APVLeakReductionModeParameter", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  APVLeakReductionModeParameter(APVLeakReductionModeParameter const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "APVLeakReductionModeParameter", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+APVLeakReductionModeParameter(APVLeakReductionModeParameter && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12128 };
+// Ctor Parameters [CppParam { name: "", ty: "APVLeakReductionModeParameter", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+APVLeakReductionModeParameter(APVLeakReductionModeParameter const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12132};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::APVLeakReductionModeParameter, 0x18>, "Size mismatch!");
 
-} // namespace UnityEngine::Rendering
+} // namespace end def UnityEngine::Rendering
 NEED_NO_BOX(::UnityEngine::Rendering::APVLeakReductionModeParameter);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::APVLeakReductionModeParameter*, "UnityEngine.Rendering", "APVLeakReductionModeParameter");

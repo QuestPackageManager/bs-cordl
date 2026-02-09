@@ -23,66 +23,66 @@ namespace GlobalNamespace {
 // CS Name: MissionObjectiveStyleSO
 class CORDL_TYPE MissionObjectiveStyleSO : public ::UnityEngine::ScriptableObject {
 public:
-  // Declarations
-  /// @brief Field backgroundColorStyle, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_backgroundColorStyle, put = __cordl_internal_set_backgroundColorStyle)) ::UnityW<::GlobalNamespace::ColorStyleSO> backgroundColorStyle;
+// Declarations
+/// @brief Field backgroundColorStyle, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get_backgroundColorStyle, put=__cordl_internal_set_backgroundColorStyle)) ::UnityW<::GlobalNamespace::ColorStyleSO>  backgroundColorStyle;
 
-  /// @brief Field titleColorStyle, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_titleColorStyle, put = __cordl_internal_set_titleColorStyle)) ::UnityW<::GlobalNamespace::ColorStyleSO> titleColorStyle;
+/// @brief Field titleColorStyle, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get_titleColorStyle, put=__cordl_internal_set_titleColorStyle)) ::UnityW<::GlobalNamespace::ColorStyleSO>  titleColorStyle;
 
-  /// @brief Field titleTextStyle, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_titleTextStyle, put = __cordl_internal_set_titleTextStyle)) ::UnityW<::GlobalNamespace::TextStyleSO> titleTextStyle;
+/// @brief Field titleTextStyle, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_titleTextStyle, put=__cordl_internal_set_titleTextStyle)) ::UnityW<::GlobalNamespace::TextStyleSO>  titleTextStyle;
 
-  static inline ::GlobalNamespace::MissionObjectiveStyleSO* New_ctor();
+static inline ::GlobalNamespace::MissionObjectiveStyleSO* New_ctor() ;
 
-  constexpr ::UnityW<::GlobalNamespace::ColorStyleSO> const& __cordl_internal_get_backgroundColorStyle() const;
+constexpr ::UnityW<::GlobalNamespace::ColorStyleSO> const& __cordl_internal_get_backgroundColorStyle() const;
 
-  constexpr ::UnityW<::GlobalNamespace::ColorStyleSO>& __cordl_internal_get_backgroundColorStyle();
+constexpr ::UnityW<::GlobalNamespace::ColorStyleSO>& __cordl_internal_get_backgroundColorStyle() ;
 
-  constexpr ::UnityW<::GlobalNamespace::ColorStyleSO> const& __cordl_internal_get_titleColorStyle() const;
+constexpr ::UnityW<::GlobalNamespace::ColorStyleSO> const& __cordl_internal_get_titleColorStyle() const;
 
-  constexpr ::UnityW<::GlobalNamespace::ColorStyleSO>& __cordl_internal_get_titleColorStyle();
+constexpr ::UnityW<::GlobalNamespace::ColorStyleSO>& __cordl_internal_get_titleColorStyle() ;
 
-  constexpr ::UnityW<::GlobalNamespace::TextStyleSO> const& __cordl_internal_get_titleTextStyle() const;
+constexpr ::UnityW<::GlobalNamespace::TextStyleSO> const& __cordl_internal_get_titleTextStyle() const;
 
-  constexpr ::UnityW<::GlobalNamespace::TextStyleSO>& __cordl_internal_get_titleTextStyle();
+constexpr ::UnityW<::GlobalNamespace::TextStyleSO>& __cordl_internal_get_titleTextStyle() ;
 
-  constexpr void __cordl_internal_set_backgroundColorStyle(::UnityW<::GlobalNamespace::ColorStyleSO> value);
+constexpr void __cordl_internal_set_backgroundColorStyle(::UnityW<::GlobalNamespace::ColorStyleSO>  value) ;
 
-  constexpr void __cordl_internal_set_titleColorStyle(::UnityW<::GlobalNamespace::ColorStyleSO> value);
+constexpr void __cordl_internal_set_titleColorStyle(::UnityW<::GlobalNamespace::ColorStyleSO>  value) ;
 
-  constexpr void __cordl_internal_set_titleTextStyle(::UnityW<::GlobalNamespace::TextStyleSO> value);
+constexpr void __cordl_internal_set_titleTextStyle(::UnityW<::GlobalNamespace::TextStyleSO>  value) ;
 
-  /// @brief Method .ctor, addr 0x31f6170, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x31f60c0, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MissionObjectiveStyleSO();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr MissionObjectiveStyleSO() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MissionObjectiveStyleSO", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  MissionObjectiveStyleSO(MissionObjectiveStyleSO&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MissionObjectiveStyleSO", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  MissionObjectiveStyleSO(MissionObjectiveStyleSO const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "MissionObjectiveStyleSO", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+MissionObjectiveStyleSO(MissionObjectiveStyleSO && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23263 };
+// Ctor Parameters [CppParam { name: "", ty: "MissionObjectiveStyleSO", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+MissionObjectiveStyleSO(MissionObjectiveStyleSO const& ) = delete;
 
-  /// @brief Field titleTextStyle, offset: 0x18, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::TextStyleSO> ___titleTextStyle;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{23267};
 
-  /// @brief Field titleColorStyle, offset: 0x20, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::ColorStyleSO> ___titleColorStyle;
+/// @brief Field titleTextStyle, offset: 0x18, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::TextStyleSO>  ___titleTextStyle;
 
-  /// @brief Field backgroundColorStyle, offset: 0x28, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::ColorStyleSO> ___backgroundColorStyle;
+/// @brief Field titleColorStyle, offset: 0x20, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::ColorStyleSO>  ___titleColorStyle;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field backgroundColorStyle, offset: 0x28, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::ColorStyleSO>  ___backgroundColorStyle;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::MissionObjectiveStyleSO, ___titleTextStyle) == 0x18, "Offset mismatch!");
@@ -93,6 +93,6 @@ static_assert(offsetof(::GlobalNamespace::MissionObjectiveStyleSO, ___background
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MissionObjectiveStyleSO, 0x30>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MissionObjectiveStyleSO);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MissionObjectiveStyleSO*, "", "MissionObjectiveStyleSO");

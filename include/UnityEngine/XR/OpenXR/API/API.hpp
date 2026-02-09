@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "UnityEngine/XR/OpenXR/API/UnityXRDepthTextureFormat.hpp"
 #include "UnityEngine/XR/OpenXR/API/UnityXRDisplay.hpp"
@@ -11,5 +11,6 @@ module;
 #include "UnityEngine/XR/OpenXR/API/UnityXRShadingRateFormat.hpp"
 #include "UnityEngine/XR/OpenXR/API/UnityXRTextureData.hpp"
 #ifdef __cpp_modules
-export module API;
-#endif
+                    export module API;
+                    #endif
+                

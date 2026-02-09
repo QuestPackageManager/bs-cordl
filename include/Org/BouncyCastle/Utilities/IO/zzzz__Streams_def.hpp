@@ -24,67 +24,67 @@ namespace Org::BouncyCastle::Utilities::IO {
 // CS Name: Org.BouncyCastle.Utilities.IO.Streams
 class CORDL_TYPE Streams : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method Drain, addr 0x353418c, size 0x88, virtual false, abstract: false, final false
-  static inline void Drain(::System::IO::Stream* inStr);
+// Declarations
+/// @brief Method Drain, addr 0x35340dc, size 0x88, virtual false, abstract: false, final false
+static inline void Drain(::System::IO::Stream*  inStr) ;
 
-  static inline ::Org::BouncyCastle::Utilities::IO::Streams* New_ctor();
+static inline ::Org::BouncyCastle::Utilities::IO::Streams* New_ctor() ;
 
-  /// @brief Method PipeAll, addr 0x3534290, size 0xe4, virtual false, abstract: false, final false
-  static inline void PipeAll(::System::IO::Stream* inStr, ::System::IO::Stream* outStr);
+/// @brief Method PipeAll, addr 0x35341e0, size 0xe4, virtual false, abstract: false, final false
+static inline void PipeAll(::System::IO::Stream*  inStr, ::System::IO::Stream*  outStr) ;
 
-  /// @brief Method PipeAllLimited, addr 0x3534400, size 0x148, virtual false, abstract: false, final false
-  static inline int64_t PipeAllLimited(::System::IO::Stream* inStr, int64_t limit, ::System::IO::Stream* outStr);
+/// @brief Method PipeAllLimited, addr 0x3534350, size 0x148, virtual false, abstract: false, final false
+static inline int64_t PipeAllLimited(::System::IO::Stream*  inStr, int64_t  limit, ::System::IO::Stream*  outStr) ;
 
-  /// @brief Method ReadAll, addr 0x3534214, size 0x7c, virtual false, abstract: false, final false
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ReadAll(::System::IO::Stream* inStr);
+/// @brief Method ReadAll, addr 0x3534164, size 0x7c, virtual false, abstract: false, final false
+static inline ::ArrayW<uint8_t,::Array<uint8_t>*> ReadAll(::System::IO::Stream*  inStr) ;
 
-  /// @brief Method ReadAllLimited, addr 0x3534374, size 0x8c, virtual false, abstract: false, final false
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ReadAllLimited(::System::IO::Stream* inStr, int32_t limit);
+/// @brief Method ReadAllLimited, addr 0x35342c4, size 0x8c, virtual false, abstract: false, final false
+static inline ::ArrayW<uint8_t,::Array<uint8_t>*> ReadAllLimited(::System::IO::Stream*  inStr, int32_t  limit) ;
 
-  /// @brief Method ReadFully, addr 0x3534548, size 0x18, virtual false, abstract: false, final false
-  static inline int32_t ReadFully(::System::IO::Stream* inStr, ::ArrayW<uint8_t, ::Array<uint8_t>*> buf);
+/// @brief Method ReadFully, addr 0x3534498, size 0x18, virtual false, abstract: false, final false
+static inline int32_t ReadFully(::System::IO::Stream*  inStr, ::ArrayW<uint8_t,::Array<uint8_t>*>  buf) ;
 
-  /// @brief Method ReadFully, addr 0x3534560, size 0x80, virtual false, abstract: false, final false
-  static inline int32_t ReadFully(::System::IO::Stream* inStr, ::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t len);
+/// @brief Method ReadFully, addr 0x35344b0, size 0x80, virtual false, abstract: false, final false
+static inline int32_t ReadFully(::System::IO::Stream*  inStr, ::ArrayW<uint8_t,::Array<uint8_t>*>  buf, int32_t  off, int32_t  len) ;
 
-  /// @brief Method WriteBufTo, addr 0x35345fc, size 0xb4, virtual false, abstract: false, final false
-  static inline int32_t WriteBufTo(::System::IO::MemoryStream* buf, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t offset);
+/// @brief Method WriteBufTo, addr 0x353454c, size 0xb4, virtual false, abstract: false, final false
+static inline int32_t WriteBufTo(::System::IO::MemoryStream*  buf, ::ArrayW<uint8_t,::Array<uint8_t>*>  output, int32_t  offset) ;
 
-  /// @brief Method WriteBufTo, addr 0x35345e0, size 0x1c, virtual false, abstract: false, final false
-  static inline void WriteBufTo(::System::IO::MemoryStream* buf, ::System::IO::Stream* output);
+/// @brief Method WriteBufTo, addr 0x3534530, size 0x1c, virtual false, abstract: false, final false
+static inline void WriteBufTo(::System::IO::MemoryStream*  buf, ::System::IO::Stream*  output) ;
 
-  /// @brief Method WriteZeroes, addr 0x35346b0, size 0xc8, virtual false, abstract: false, final false
-  static inline void WriteZeroes(::System::IO::Stream* outStr, int64_t count);
+/// @brief Method WriteZeroes, addr 0x3534600, size 0xc8, virtual false, abstract: false, final false
+static inline void WriteZeroes(::System::IO::Stream*  outStr, int64_t  count) ;
 
-  /// @brief Method .ctor, addr 0x3534188, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x35340d8, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Streams();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr Streams() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Streams", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  Streams(Streams&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Streams", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  Streams(Streams const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "Streams", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+Streams(Streams && ) = delete;
 
-  /// @brief Field BufferSize offset 0xffffffff size 0x4
-  static constexpr int32_t BufferSize{ static_cast<int32_t>(0x200) };
+// Ctor Parameters [CppParam { name: "", ty: "Streams", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+Streams(Streams const& ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1813 };
+/// @brief Field BufferSize offset 0xffffffff size 0x4
+static constexpr int32_t  BufferSize{static_cast<int32_t>(0x200)};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{1813};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Utilities::IO::Streams, 0x10>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Utilities::IO
+} // namespace end def Org::BouncyCastle::Utilities::IO
 NEED_NO_BOX(::Org::BouncyCastle::Utilities::IO::Streams);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Utilities::IO::Streams*, "Org.BouncyCastle.Utilities.IO", "Streams");

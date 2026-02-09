@@ -18,65 +18,65 @@ namespace UnityEngine::Rendering {
 // CS Name: UnityEngine.Rendering.BitArrayUtilities
 class CORDL_TYPE BitArrayUtilities : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method Get128, addr 0x66012a0, size 0x14, virtual false, abstract: false, final false
-  static inline bool Get128(uint32_t index, uint64_t data1, uint64_t data2);
+// Declarations
+/// @brief Method Get128, addr 0x6601960, size 0x14, virtual false, abstract: false, final false
+static inline bool Get128(uint32_t  index, uint64_t  data1, uint64_t  data2) ;
 
-  /// @brief Method Get16, addr 0x65ff308, size 0x10, virtual false, abstract: false, final false
-  static inline bool Get16(uint32_t index, uint16_t data);
+/// @brief Method Get16, addr 0x65ff9c8, size 0x10, virtual false, abstract: false, final false
+static inline bool Get16(uint32_t  index, uint16_t  data) ;
 
-  /// @brief Method Get256, addr 0x6600cf0, size 0x3c, virtual false, abstract: false, final false
-  static inline bool Get256(uint32_t index, uint64_t data1, uint64_t data2, uint64_t data3, uint64_t data4);
+/// @brief Method Get256, addr 0x66013b0, size 0x3c, virtual false, abstract: false, final false
+static inline bool Get256(uint32_t  index, uint64_t  data1, uint64_t  data2, uint64_t  data3, uint64_t  data4) ;
 
-  /// @brief Method Get32, addr 0x65ff8e4, size 0xc, virtual false, abstract: false, final false
-  static inline bool Get32(uint32_t index, uint32_t data);
+/// @brief Method Get32, addr 0x65fffa4, size 0xc, virtual false, abstract: false, final false
+static inline bool Get32(uint32_t  index, uint32_t  data) ;
 
-  /// @brief Method Get64, addr 0x65ffe44, size 0xc, virtual false, abstract: false, final false
-  static inline bool Get64(uint32_t index, uint64_t data);
+/// @brief Method Get64, addr 0x6600504, size 0xc, virtual false, abstract: false, final false
+static inline bool Get64(uint32_t  index, uint64_t  data) ;
 
-  /// @brief Method Get8, addr 0x65fed9c, size 0x10, virtual false, abstract: false, final false
-  static inline bool Get8(uint32_t index, uint8_t data);
+/// @brief Method Get8, addr 0x65ff45c, size 0x10, virtual false, abstract: false, final false
+static inline bool Get8(uint32_t  index, uint8_t  data) ;
 
-  /// @brief Method Set128, addr 0x66012b4, size 0x3c, virtual false, abstract: false, final false
-  static inline void Set128(uint32_t index, ::ByRef<uint64_t> data1, ::ByRef<uint64_t> data2, bool value);
+/// @brief Method Set128, addr 0x6601974, size 0x3c, virtual false, abstract: false, final false
+static inline void Set128(uint32_t  index, ::ByRef<uint64_t>  data1, ::ByRef<uint64_t>  data2, bool  value) ;
 
-  /// @brief Method Set16, addr 0x65ff33c, size 0x24, virtual false, abstract: false, final false
-  static inline void Set16(uint32_t index, ::ByRef<uint16_t> data, bool value);
+/// @brief Method Set16, addr 0x65ff9fc, size 0x24, virtual false, abstract: false, final false
+static inline void Set16(uint32_t  index, ::ByRef<uint16_t>  data, bool  value) ;
 
-  /// @brief Method Set256, addr 0x6600d4c, size 0xa8, virtual false, abstract: false, final false
-  static inline void Set256(uint32_t index, ::ByRef<uint64_t> data1, ::ByRef<uint64_t> data2, ::ByRef<uint64_t> data3, ::ByRef<uint64_t> data4, bool value);
+/// @brief Method Set256, addr 0x660140c, size 0xa8, virtual false, abstract: false, final false
+static inline void Set256(uint32_t  index, ::ByRef<uint64_t>  data1, ::ByRef<uint64_t>  data2, ::ByRef<uint64_t>  data3, ::ByRef<uint64_t>  data4, bool  value) ;
 
-  /// @brief Method Set32, addr 0x65ff914, size 0x24, virtual false, abstract: false, final false
-  static inline void Set32(uint32_t index, ::ByRef<uint32_t> data, bool value);
+/// @brief Method Set32, addr 0x65fffd4, size 0x24, virtual false, abstract: false, final false
+static inline void Set32(uint32_t  index, ::ByRef<uint32_t>  data, bool  value) ;
 
-  /// @brief Method Set64, addr 0x65ffe74, size 0x24, virtual false, abstract: false, final false
-  static inline void Set64(uint32_t index, ::ByRef<uint64_t> data, bool value);
+/// @brief Method Set64, addr 0x6600534, size 0x24, virtual false, abstract: false, final false
+static inline void Set64(uint32_t  index, ::ByRef<uint64_t>  data, bool  value) ;
 
-  /// @brief Method Set8, addr 0x65fedd0, size 0x24, virtual false, abstract: false, final false
-  static inline void Set8(uint32_t index, ::ByRef<uint8_t> data, bool value);
+/// @brief Method Set8, addr 0x65ff490, size 0x24, virtual false, abstract: false, final false
+static inline void Set8(uint32_t  index, ::ByRef<uint8_t>  data, bool  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BitArrayUtilities();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr BitArrayUtilities() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BitArrayUtilities", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  BitArrayUtilities(BitArrayUtilities&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BitArrayUtilities", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  BitArrayUtilities(BitArrayUtilities const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "BitArrayUtilities", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+BitArrayUtilities(BitArrayUtilities && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12239 };
+// Ctor Parameters [CppParam { name: "", ty: "BitArrayUtilities", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+BitArrayUtilities(BitArrayUtilities const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12243};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::BitArrayUtilities, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine::Rendering
+} // namespace end def UnityEngine::Rendering
 NEED_NO_BOX(::UnityEngine::Rendering::BitArrayUtilities);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::BitArrayUtilities*, "UnityEngine.Rendering", "BitArrayUtilities");

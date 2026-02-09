@@ -6,7 +6,8 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(TupleExtensions)
 namespace System {
-template <typename T1, typename T2> class Tuple_2;
+template<typename T1,typename T2>
+class Tuple_2;
 }
 // Forward declare root types
 namespace System {
@@ -20,32 +21,33 @@ namespace System {
 // CS Name: System.TupleExtensions
 class CORDL_TYPE TupleExtensions : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method Deconstruct, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T1, typename T2> static inline void Deconstruct(::System::Tuple_2<T1, T2>* value, ::ByRef<T1> item1, ::ByRef<T2> item2);
+// Declarations
+/// @brief Method Deconstruct, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+template<typename T1,typename T2>
+static inline void Deconstruct(::System::Tuple_2<T1,T2>*  value, ::ByRef<T1>  item1, ::ByRef<T2>  item2) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TupleExtensions();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr TupleExtensions() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TupleExtensions", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  TupleExtensions(TupleExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TupleExtensions", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  TupleExtensions(TupleExtensions const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "TupleExtensions", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+TupleExtensions(TupleExtensions && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2498 };
+// Ctor Parameters [CppParam { name: "", ty: "TupleExtensions", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+TupleExtensions(TupleExtensions const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{2498};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::TupleExtensions, 0x10>, "Size mismatch!");
 
-} // namespace System
+} // namespace end def System
 NEED_NO_BOX(::System::TupleExtensions);
 DEFINE_IL2CPP_ARG_TYPE(::System::TupleExtensions*, "System", "TupleExtensions");

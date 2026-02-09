@@ -28,103 +28,103 @@ namespace System::Linq::Expressions::Interpreter {
 // CS Name: System.Linq.Expressions.Interpreter.ThrowInstruction
 class CORDL_TYPE ThrowInstruction : public ::System::Linq::Expressions::Interpreter::Instruction {
 public:
-  // Declarations
-  __declspec(property(get = get_ConsumedStack)) int32_t ConsumedStack;
+// Declarations
+ __declspec(property(get=get_ConsumedStack)) int32_t  ConsumedStack;
 
-  __declspec(property(get = get_InstructionName)) ::StringW InstructionName;
+ __declspec(property(get=get_InstructionName)) ::StringW  InstructionName;
 
-  __declspec(property(get = get_ProducedStack)) int32_t ProducedStack;
+ __declspec(property(get=get_ProducedStack)) int32_t  ProducedStack;
 
-  /// @brief Field Rethrow, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_Rethrow, put = setStaticF_Rethrow)) ::System::Linq::Expressions::Interpreter::ThrowInstruction* Rethrow;
+/// @brief Field Rethrow, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_Rethrow, put=setStaticF_Rethrow)) ::System::Linq::Expressions::Interpreter::ThrowInstruction*  Rethrow;
 
-  /// @brief Field Throw, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_Throw, put = setStaticF_Throw)) ::System::Linq::Expressions::Interpreter::ThrowInstruction* Throw;
+/// @brief Field Throw, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_Throw, put=setStaticF_Throw)) ::System::Linq::Expressions::Interpreter::ThrowInstruction*  Throw;
 
-  /// @brief Field VoidRethrow, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_VoidRethrow, put = setStaticF_VoidRethrow)) ::System::Linq::Expressions::Interpreter::ThrowInstruction* VoidRethrow;
+/// @brief Field VoidRethrow, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_VoidRethrow, put=setStaticF_VoidRethrow)) ::System::Linq::Expressions::Interpreter::ThrowInstruction*  VoidRethrow;
 
-  /// @brief Field VoidThrow, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_VoidThrow, put = setStaticF_VoidThrow)) ::System::Linq::Expressions::Interpreter::ThrowInstruction* VoidThrow;
+/// @brief Field VoidThrow, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_VoidThrow, put=setStaticF_VoidThrow)) ::System::Linq::Expressions::Interpreter::ThrowInstruction*  VoidThrow;
 
-  /// @brief Field _hasResult, offset 0x10, size 0x1
-  __declspec(property(get = __cordl_internal_get__hasResult, put = __cordl_internal_set__hasResult)) bool _hasResult;
+/// @brief Field _hasResult, offset 0x10, size 0x1 
+ __declspec(property(get=__cordl_internal_get__hasResult, put=__cordl_internal_set__hasResult)) bool  _hasResult;
 
-  /// @brief Field _rethrow, offset 0x11, size 0x1
-  __declspec(property(get = __cordl_internal_get__rethrow, put = __cordl_internal_set__rethrow)) bool _rethrow;
+/// @brief Field _rethrow, offset 0x11, size 0x1 
+ __declspec(property(get=__cordl_internal_get__rethrow, put=__cordl_internal_set__rethrow)) bool  _rethrow;
 
-  static inline ::System::Linq::Expressions::Interpreter::ThrowInstruction* New_ctor(bool hasResult, bool isRethrow);
+static inline ::System::Linq::Expressions::Interpreter::ThrowInstruction* New_ctor(bool  hasResult, bool  isRethrow) ;
 
-  /// @brief Method Run, addr 0x5ddc784, size 0x8c, virtual true, abstract: false, final false
-  inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
+/// @brief Method Run, addr 0x5ddce44, size 0x8c, virtual true, abstract: false, final false
+inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame*  frame) ;
 
-  /// @brief Method WrapThrownObject, addr 0x5ddc810, size 0xac, virtual false, abstract: false, final false
-  static inline ::System::Exception* WrapThrownObject(::System::Object* thrown);
+/// @brief Method WrapThrownObject, addr 0x5ddced0, size 0xac, virtual false, abstract: false, final false
+static inline ::System::Exception* WrapThrownObject(::System::Object*  thrown) ;
 
-  constexpr bool const& __cordl_internal_get__hasResult() const;
+constexpr bool const& __cordl_internal_get__hasResult() const;
 
-  constexpr bool& __cordl_internal_get__hasResult();
+constexpr bool& __cordl_internal_get__hasResult() ;
 
-  constexpr bool const& __cordl_internal_get__rethrow() const;
+constexpr bool const& __cordl_internal_get__rethrow() const;
 
-  constexpr bool& __cordl_internal_get__rethrow();
+constexpr bool& __cordl_internal_get__rethrow() ;
 
-  constexpr void __cordl_internal_set__hasResult(bool value);
+constexpr void __cordl_internal_set__hasResult(bool  value) ;
 
-  constexpr void __cordl_internal_set__rethrow(bool value);
+constexpr void __cordl_internal_set__rethrow(bool  value) ;
 
-  /// @brief Method .ctor, addr 0x5ddc724, size 0xc, virtual false, abstract: false, final false
-  inline void _ctor(bool hasResult, bool isRethrow);
+/// @brief Method .ctor, addr 0x5ddcde4, size 0xc, virtual false, abstract: false, final false
+inline void _ctor(bool  hasResult, bool  isRethrow) ;
 
-  static inline ::System::Linq::Expressions::Interpreter::ThrowInstruction* getStaticF_Rethrow();
+static inline ::System::Linq::Expressions::Interpreter::ThrowInstruction* getStaticF_Rethrow() ;
 
-  static inline ::System::Linq::Expressions::Interpreter::ThrowInstruction* getStaticF_Throw();
+static inline ::System::Linq::Expressions::Interpreter::ThrowInstruction* getStaticF_Throw() ;
 
-  static inline ::System::Linq::Expressions::Interpreter::ThrowInstruction* getStaticF_VoidRethrow();
+static inline ::System::Linq::Expressions::Interpreter::ThrowInstruction* getStaticF_VoidRethrow() ;
 
-  static inline ::System::Linq::Expressions::Interpreter::ThrowInstruction* getStaticF_VoidThrow();
+static inline ::System::Linq::Expressions::Interpreter::ThrowInstruction* getStaticF_VoidThrow() ;
 
-  /// @brief Method get_ConsumedStack, addr 0x5ddc77c, size 0x8, virtual true, abstract: false, final false
-  inline int32_t get_ConsumedStack();
+/// @brief Method get_ConsumedStack, addr 0x5ddce3c, size 0x8, virtual true, abstract: false, final false
+inline int32_t get_ConsumedStack() ;
 
-  /// @brief Method get_InstructionName, addr 0x5ddc730, size 0x44, virtual true, abstract: false, final false
-  inline ::StringW get_InstructionName();
+/// @brief Method get_InstructionName, addr 0x5ddcdf0, size 0x44, virtual true, abstract: false, final false
+inline ::StringW get_InstructionName() ;
 
-  /// @brief Method get_ProducedStack, addr 0x5ddc774, size 0x8, virtual true, abstract: false, final false
-  inline int32_t get_ProducedStack();
+/// @brief Method get_ProducedStack, addr 0x5ddce34, size 0x8, virtual true, abstract: false, final false
+inline int32_t get_ProducedStack() ;
 
-  static inline void setStaticF_Rethrow(::System::Linq::Expressions::Interpreter::ThrowInstruction* value);
+static inline void setStaticF_Rethrow(::System::Linq::Expressions::Interpreter::ThrowInstruction*  value) ;
 
-  static inline void setStaticF_Throw(::System::Linq::Expressions::Interpreter::ThrowInstruction* value);
+static inline void setStaticF_Throw(::System::Linq::Expressions::Interpreter::ThrowInstruction*  value) ;
 
-  static inline void setStaticF_VoidRethrow(::System::Linq::Expressions::Interpreter::ThrowInstruction* value);
+static inline void setStaticF_VoidRethrow(::System::Linq::Expressions::Interpreter::ThrowInstruction*  value) ;
 
-  static inline void setStaticF_VoidThrow(::System::Linq::Expressions::Interpreter::ThrowInstruction* value);
+static inline void setStaticF_VoidThrow(::System::Linq::Expressions::Interpreter::ThrowInstruction*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ThrowInstruction();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ThrowInstruction() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ThrowInstruction", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ThrowInstruction(ThrowInstruction&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ThrowInstruction", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ThrowInstruction(ThrowInstruction const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ThrowInstruction", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ThrowInstruction(ThrowInstruction && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16259 };
+// Ctor Parameters [CppParam { name: "", ty: "ThrowInstruction", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ThrowInstruction(ThrowInstruction const& ) = delete;
 
-  /// @brief Field _hasResult, offset: 0x10, size: 0x1, def value: None
-  bool ____hasResult;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{16263};
 
-  /// @brief Field _rethrow, offset: 0x11, size: 0x1, def value: None
-  bool ____rethrow;
+/// @brief Field _hasResult, offset: 0x10, size: 0x1, def value: None
+ bool  ____hasResult;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _rethrow, offset: 0x11, size: 0x1, def value: None
+ bool  ____rethrow;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Linq::Expressions::Interpreter::ThrowInstruction, ____hasResult) == 0x10, "Offset mismatch!");
@@ -133,6 +133,6 @@ static_assert(offsetof(::System::Linq::Expressions::Interpreter::ThrowInstructio
 
 static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Interpreter::ThrowInstruction, 0x18>, "Size mismatch!");
 
-} // namespace System::Linq::Expressions::Interpreter
+} // namespace end def System::Linq::Expressions::Interpreter
 NEED_NO_BOX(::System::Linq::Expressions::Interpreter::ThrowInstruction);
 DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::Interpreter::ThrowInstruction*, "System.Linq.Expressions.Interpreter", "ThrowInstruction");

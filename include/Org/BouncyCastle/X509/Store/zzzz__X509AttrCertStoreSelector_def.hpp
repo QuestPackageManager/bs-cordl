@@ -51,213 +51,212 @@ namespace Org::BouncyCastle::X509::Store {
 // CS Name: Org.BouncyCastle.X509.Store.X509AttrCertStoreSelector
 class CORDL_TYPE X509AttrCertStoreSelector : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(get = get_AttribueCertificateValid, put = set_AttribueCertificateValid)) ::Org::BouncyCastle::Utilities::Date::DateTimeObject* AttribueCertificateValid;
+// Declarations
+ __declspec(property(get=get_AttribueCertificateValid, put=set_AttribueCertificateValid)) ::Org::BouncyCastle::Utilities::Date::DateTimeObject*  AttribueCertificateValid;
 
-  __declspec(property(get = get_AttributeCert, put = set_AttributeCert)) ::Org::BouncyCastle::X509::IX509AttributeCertificate* AttributeCert;
+ __declspec(property(get=get_AttributeCert, put=set_AttributeCert)) ::Org::BouncyCastle::X509::IX509AttributeCertificate*  AttributeCert;
 
-  __declspec(property(get = get_AttributeCertificateValid, put = set_AttributeCertificateValid)) ::Org::BouncyCastle::Utilities::Date::DateTimeObject* AttributeCertificateValid;
+ __declspec(property(get=get_AttributeCertificateValid, put=set_AttributeCertificateValid)) ::Org::BouncyCastle::Utilities::Date::DateTimeObject*  AttributeCertificateValid;
 
-  __declspec(property(get = get_Holder, put = set_Holder)) ::Org::BouncyCastle::X509::AttributeCertificateHolder* Holder;
+ __declspec(property(get=get_Holder, put=set_Holder)) ::Org::BouncyCastle::X509::AttributeCertificateHolder*  Holder;
 
-  __declspec(property(get = get_Issuer, put = set_Issuer)) ::Org::BouncyCastle::X509::AttributeCertificateIssuer* Issuer;
+ __declspec(property(get=get_Issuer, put=set_Issuer)) ::Org::BouncyCastle::X509::AttributeCertificateIssuer*  Issuer;
 
-  __declspec(property(get = get_SerialNumber, put = set_SerialNumber)) ::Org::BouncyCastle::Math::BigInteger* SerialNumber;
+ __declspec(property(get=get_SerialNumber, put=set_SerialNumber)) ::Org::BouncyCastle::Math::BigInteger*  SerialNumber;
 
-  /// @brief Field attributeCert, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_attributeCert, put = __cordl_internal_set_attributeCert)) ::Org::BouncyCastle::X509::IX509AttributeCertificate* attributeCert;
+/// @brief Field attributeCert, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_attributeCert, put=__cordl_internal_set_attributeCert)) ::Org::BouncyCastle::X509::IX509AttributeCertificate*  attributeCert;
 
-  /// @brief Field attributeCertificateValid, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_attributeCertificateValid,
-                      put = __cordl_internal_set_attributeCertificateValid)) ::Org::BouncyCastle::Utilities::Date::DateTimeObject* attributeCertificateValid;
+/// @brief Field attributeCertificateValid, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_attributeCertificateValid, put=__cordl_internal_set_attributeCertificateValid)) ::Org::BouncyCastle::Utilities::Date::DateTimeObject*  attributeCertificateValid;
 
-  /// @brief Field holder, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_holder, put = __cordl_internal_set_holder)) ::Org::BouncyCastle::X509::AttributeCertificateHolder* holder;
+/// @brief Field holder, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get_holder, put=__cordl_internal_set_holder)) ::Org::BouncyCastle::X509::AttributeCertificateHolder*  holder;
 
-  /// @brief Field issuer, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_issuer, put = __cordl_internal_set_issuer)) ::Org::BouncyCastle::X509::AttributeCertificateIssuer* issuer;
+/// @brief Field issuer, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get_issuer, put=__cordl_internal_set_issuer)) ::Org::BouncyCastle::X509::AttributeCertificateIssuer*  issuer;
 
-  /// @brief Field serialNumber, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_serialNumber, put = __cordl_internal_set_serialNumber)) ::Org::BouncyCastle::Math::BigInteger* serialNumber;
+/// @brief Field serialNumber, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get_serialNumber, put=__cordl_internal_set_serialNumber)) ::Org::BouncyCastle::Math::BigInteger*  serialNumber;
 
-  /// @brief Field targetGroups, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_targetGroups, put = __cordl_internal_set_targetGroups)) ::Org::BouncyCastle::Utilities::Collections::ISet* targetGroups;
+/// @brief Field targetGroups, offset 0x40, size 0x8 
+ __declspec(property(get=__cordl_internal_get_targetGroups, put=__cordl_internal_set_targetGroups)) ::Org::BouncyCastle::Utilities::Collections::ISet*  targetGroups;
 
-  /// @brief Field targetNames, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_targetNames, put = __cordl_internal_set_targetNames)) ::Org::BouncyCastle::Utilities::Collections::ISet* targetNames;
+/// @brief Field targetNames, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get_targetNames, put=__cordl_internal_set_targetNames)) ::Org::BouncyCastle::Utilities::Collections::ISet*  targetNames;
 
-  /// @brief Convert operator to "::Org::BouncyCastle::X509::Store::IX509Selector"
-  constexpr operator ::Org::BouncyCastle::X509::Store::IX509Selector*() noexcept;
+/// @brief Convert operator to "::Org::BouncyCastle::X509::Store::IX509Selector"
+constexpr operator  ::Org::BouncyCastle::X509::Store::IX509Selector*() noexcept;
 
-  /// @brief Convert operator to "::System::ICloneable"
-  constexpr operator ::System::ICloneable*() noexcept;
+/// @brief Convert operator to "::System::ICloneable"
+constexpr operator  ::System::ICloneable*() noexcept;
 
-  /// @brief Method AddTargetGroup, addr 0x35458d0, size 0xb4, virtual false, abstract: false, final false
-  inline void AddTargetGroup(::Org::BouncyCastle::Asn1::X509::GeneralName* group);
+/// @brief Method AddTargetGroup, addr 0x3545820, size 0xb4, virtual false, abstract: false, final false
+inline void AddTargetGroup(::Org::BouncyCastle::Asn1::X509::GeneralName*  group) ;
 
-  /// @brief Method AddTargetGroup, addr 0x3545984, size 0x2c, virtual false, abstract: false, final false
-  inline void AddTargetGroup(::ArrayW<uint8_t, ::Array<uint8_t>*> name);
+/// @brief Method AddTargetGroup, addr 0x35458d4, size 0x2c, virtual false, abstract: false, final false
+inline void AddTargetGroup(::ArrayW<uint8_t,::Array<uint8_t>*>  name) ;
 
-  /// @brief Method AddTargetName, addr 0x35453ac, size 0x2c, virtual false, abstract: false, final false
-  inline void AddTargetName(::ArrayW<uint8_t, ::Array<uint8_t>*> name);
+/// @brief Method AddTargetName, addr 0x35452fc, size 0x2c, virtual false, abstract: false, final false
+inline void AddTargetName(::ArrayW<uint8_t,::Array<uint8_t>*>  name) ;
 
-  /// @brief Method AddTargetName, addr 0x35452f8, size 0xb4, virtual false, abstract: false, final false
-  inline void AddTargetName(::Org::BouncyCastle::Asn1::X509::GeneralName* name);
+/// @brief Method AddTargetName, addr 0x3545248, size 0xb4, virtual false, abstract: false, final false
+inline void AddTargetName(::Org::BouncyCastle::Asn1::X509::GeneralName*  name) ;
 
-  /// @brief Method Clone, addr 0x354523c, size 0x5c, virtual true, abstract: false, final true
-  inline ::System::Object* Clone();
+/// @brief Method Clone, addr 0x354518c, size 0x5c, virtual true, abstract: false, final true
+inline ::System::Object* Clone() ;
 
-  /// @brief Method ExtractGeneralNames, addr 0x35453f0, size 0x47c, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Utilities::Collections::ISet* ExtractGeneralNames(::System::Collections::IEnumerable* names);
+/// @brief Method ExtractGeneralNames, addr 0x3545340, size 0x47c, virtual false, abstract: false, final false
+inline ::Org::BouncyCastle::Utilities::Collections::ISet* ExtractGeneralNames(::System::Collections::IEnumerable*  names) ;
 
-  /// @brief Method GetTargetGroups, addr 0x35459c8, size 0x64, virtual false, abstract: false, final false
-  inline ::System::Collections::IEnumerable* GetTargetGroups();
+/// @brief Method GetTargetGroups, addr 0x3545918, size 0x64, virtual false, abstract: false, final false
+inline ::System::Collections::IEnumerable* GetTargetGroups() ;
 
-  /// @brief Method GetTargetNames, addr 0x354586c, size 0x64, virtual false, abstract: false, final false
-  inline ::System::Collections::IEnumerable* GetTargetNames();
+/// @brief Method GetTargetNames, addr 0x35457bc, size 0x64, virtual false, abstract: false, final false
+inline ::System::Collections::IEnumerable* GetTargetNames() ;
 
-  /// @brief Method Match, addr 0x3544a20, size 0x81c, virtual true, abstract: false, final true
-  inline bool Match(::System::Object* obj);
+/// @brief Method Match, addr 0x3544970, size 0x81c, virtual true, abstract: false, final true
+inline bool Match(::System::Object*  obj) ;
 
-  static inline ::Org::BouncyCastle::X509::Store::X509AttrCertStoreSelector* New_ctor();
+static inline ::Org::BouncyCastle::X509::Store::X509AttrCertStoreSelector* New_ctor() ;
 
-  static inline ::Org::BouncyCastle::X509::Store::X509AttrCertStoreSelector* New_ctor(::Org::BouncyCastle::X509::Store::X509AttrCertStoreSelector* o);
+static inline ::Org::BouncyCastle::X509::Store::X509AttrCertStoreSelector* New_ctor(::Org::BouncyCastle::X509::Store::X509AttrCertStoreSelector*  o) ;
 
-  /// @brief Method SetTargetGroups, addr 0x35459b0, size 0x18, virtual false, abstract: false, final false
-  inline void SetTargetGroups(::System::Collections::IEnumerable* names);
+/// @brief Method SetTargetGroups, addr 0x3545900, size 0x18, virtual false, abstract: false, final false
+inline void SetTargetGroups(::System::Collections::IEnumerable*  names) ;
 
-  /// @brief Method SetTargetNames, addr 0x35453d8, size 0x18, virtual false, abstract: false, final false
-  inline void SetTargetNames(::System::Collections::IEnumerable* names);
+/// @brief Method SetTargetNames, addr 0x3545328, size 0x18, virtual false, abstract: false, final false
+inline void SetTargetNames(::System::Collections::IEnumerable*  names) ;
 
-  constexpr ::Org::BouncyCastle::X509::IX509AttributeCertificate* const& __cordl_internal_get_attributeCert() const;
+constexpr ::Org::BouncyCastle::X509::IX509AttributeCertificate* const& __cordl_internal_get_attributeCert() const;
 
-  constexpr ::Org::BouncyCastle::X509::IX509AttributeCertificate*& __cordl_internal_get_attributeCert();
+constexpr ::Org::BouncyCastle::X509::IX509AttributeCertificate*& __cordl_internal_get_attributeCert() ;
 
-  constexpr ::Org::BouncyCastle::Utilities::Date::DateTimeObject* const& __cordl_internal_get_attributeCertificateValid() const;
+constexpr ::Org::BouncyCastle::Utilities::Date::DateTimeObject* const& __cordl_internal_get_attributeCertificateValid() const;
 
-  constexpr ::Org::BouncyCastle::Utilities::Date::DateTimeObject*& __cordl_internal_get_attributeCertificateValid();
+constexpr ::Org::BouncyCastle::Utilities::Date::DateTimeObject*& __cordl_internal_get_attributeCertificateValid() ;
 
-  constexpr ::Org::BouncyCastle::X509::AttributeCertificateHolder* const& __cordl_internal_get_holder() const;
+constexpr ::Org::BouncyCastle::X509::AttributeCertificateHolder* const& __cordl_internal_get_holder() const;
 
-  constexpr ::Org::BouncyCastle::X509::AttributeCertificateHolder*& __cordl_internal_get_holder();
+constexpr ::Org::BouncyCastle::X509::AttributeCertificateHolder*& __cordl_internal_get_holder() ;
 
-  constexpr ::Org::BouncyCastle::X509::AttributeCertificateIssuer* const& __cordl_internal_get_issuer() const;
+constexpr ::Org::BouncyCastle::X509::AttributeCertificateIssuer* const& __cordl_internal_get_issuer() const;
 
-  constexpr ::Org::BouncyCastle::X509::AttributeCertificateIssuer*& __cordl_internal_get_issuer();
+constexpr ::Org::BouncyCastle::X509::AttributeCertificateIssuer*& __cordl_internal_get_issuer() ;
 
-  constexpr ::Org::BouncyCastle::Math::BigInteger* const& __cordl_internal_get_serialNumber() const;
+constexpr ::Org::BouncyCastle::Math::BigInteger* const& __cordl_internal_get_serialNumber() const;
 
-  constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_serialNumber();
+constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_serialNumber() ;
 
-  constexpr ::Org::BouncyCastle::Utilities::Collections::ISet* const& __cordl_internal_get_targetGroups() const;
+constexpr ::Org::BouncyCastle::Utilities::Collections::ISet* const& __cordl_internal_get_targetGroups() const;
 
-  constexpr ::Org::BouncyCastle::Utilities::Collections::ISet*& __cordl_internal_get_targetGroups();
+constexpr ::Org::BouncyCastle::Utilities::Collections::ISet*& __cordl_internal_get_targetGroups() ;
 
-  constexpr ::Org::BouncyCastle::Utilities::Collections::ISet* const& __cordl_internal_get_targetNames() const;
+constexpr ::Org::BouncyCastle::Utilities::Collections::ISet* const& __cordl_internal_get_targetNames() const;
 
-  constexpr ::Org::BouncyCastle::Utilities::Collections::ISet*& __cordl_internal_get_targetNames();
+constexpr ::Org::BouncyCastle::Utilities::Collections::ISet*& __cordl_internal_get_targetNames() ;
 
-  constexpr void __cordl_internal_set_attributeCert(::Org::BouncyCastle::X509::IX509AttributeCertificate* value);
+constexpr void __cordl_internal_set_attributeCert(::Org::BouncyCastle::X509::IX509AttributeCertificate*  value) ;
 
-  constexpr void __cordl_internal_set_attributeCertificateValid(::Org::BouncyCastle::Utilities::Date::DateTimeObject* value);
+constexpr void __cordl_internal_set_attributeCertificateValid(::Org::BouncyCastle::Utilities::Date::DateTimeObject*  value) ;
 
-  constexpr void __cordl_internal_set_holder(::Org::BouncyCastle::X509::AttributeCertificateHolder* value);
+constexpr void __cordl_internal_set_holder(::Org::BouncyCastle::X509::AttributeCertificateHolder*  value) ;
 
-  constexpr void __cordl_internal_set_issuer(::Org::BouncyCastle::X509::AttributeCertificateIssuer* value);
+constexpr void __cordl_internal_set_issuer(::Org::BouncyCastle::X509::AttributeCertificateIssuer*  value) ;
 
-  constexpr void __cordl_internal_set_serialNumber(::Org::BouncyCastle::Math::BigInteger* value);
+constexpr void __cordl_internal_set_serialNumber(::Org::BouncyCastle::Math::BigInteger*  value) ;
 
-  constexpr void __cordl_internal_set_targetGroups(::Org::BouncyCastle::Utilities::Collections::ISet* value);
+constexpr void __cordl_internal_set_targetGroups(::Org::BouncyCastle::Utilities::Collections::ISet*  value) ;
 
-  constexpr void __cordl_internal_set_targetNames(::Org::BouncyCastle::Utilities::Collections::ISet* value);
+constexpr void __cordl_internal_set_targetNames(::Org::BouncyCastle::Utilities::Collections::ISet*  value) ;
 
-  /// @brief Method .ctor, addr 0x35448cc, size 0x74, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x354481c, size 0x74, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method .ctor, addr 0x3544940, size 0xe0, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::X509::Store::X509AttrCertStoreSelector* o);
+/// @brief Method .ctor, addr 0x3544890, size 0xe0, virtual false, abstract: false, final false
+inline void _ctor(::Org::BouncyCastle::X509::Store::X509AttrCertStoreSelector*  o) ;
 
-  /// @brief Method get_AttribueCertificateValid, addr 0x35452a8, size 0x8, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Utilities::Date::DateTimeObject* get_AttribueCertificateValid();
+/// @brief Method get_AttribueCertificateValid, addr 0x35451f8, size 0x8, virtual false, abstract: false, final false
+inline ::Org::BouncyCastle::Utilities::Date::DateTimeObject* get_AttribueCertificateValid() ;
 
-  /// @brief Method get_AttributeCert, addr 0x3545298, size 0x8, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::X509::IX509AttributeCertificate* get_AttributeCert();
+/// @brief Method get_AttributeCert, addr 0x35451e8, size 0x8, virtual false, abstract: false, final false
+inline ::Org::BouncyCastle::X509::IX509AttributeCertificate* get_AttributeCert() ;
 
-  /// @brief Method get_AttributeCertificateValid, addr 0x35452b8, size 0x8, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Utilities::Date::DateTimeObject* get_AttributeCertificateValid();
+/// @brief Method get_AttributeCertificateValid, addr 0x3545208, size 0x8, virtual false, abstract: false, final false
+inline ::Org::BouncyCastle::Utilities::Date::DateTimeObject* get_AttributeCertificateValid() ;
 
-  /// @brief Method get_Holder, addr 0x35452c8, size 0x8, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::X509::AttributeCertificateHolder* get_Holder();
+/// @brief Method get_Holder, addr 0x3545218, size 0x8, virtual false, abstract: false, final false
+inline ::Org::BouncyCastle::X509::AttributeCertificateHolder* get_Holder() ;
 
-  /// @brief Method get_Issuer, addr 0x35452d8, size 0x8, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::X509::AttributeCertificateIssuer* get_Issuer();
+/// @brief Method get_Issuer, addr 0x3545228, size 0x8, virtual false, abstract: false, final false
+inline ::Org::BouncyCastle::X509::AttributeCertificateIssuer* get_Issuer() ;
 
-  /// @brief Method get_SerialNumber, addr 0x35452e8, size 0x8, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Math::BigInteger* get_SerialNumber();
+/// @brief Method get_SerialNumber, addr 0x3545238, size 0x8, virtual false, abstract: false, final false
+inline ::Org::BouncyCastle::Math::BigInteger* get_SerialNumber() ;
 
-  /// @brief Convert to "::Org::BouncyCastle::X509::Store::IX509Selector"
-  constexpr ::Org::BouncyCastle::X509::Store::IX509Selector* i___Org__BouncyCastle__X509__Store__IX509Selector() noexcept;
+/// @brief Convert to "::Org::BouncyCastle::X509::Store::IX509Selector"
+constexpr ::Org::BouncyCastle::X509::Store::IX509Selector* i___Org__BouncyCastle__X509__Store__IX509Selector() noexcept;
 
-  /// @brief Convert to "::System::ICloneable"
-  constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
+/// @brief Convert to "::System::ICloneable"
+constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
-  /// @brief Method set_AttribueCertificateValid, addr 0x35452b0, size 0x8, virtual false, abstract: false, final false
-  inline void set_AttribueCertificateValid(::Org::BouncyCastle::Utilities::Date::DateTimeObject* value);
+/// @brief Method set_AttribueCertificateValid, addr 0x3545200, size 0x8, virtual false, abstract: false, final false
+inline void set_AttribueCertificateValid(::Org::BouncyCastle::Utilities::Date::DateTimeObject*  value) ;
 
-  /// @brief Method set_AttributeCert, addr 0x35452a0, size 0x8, virtual false, abstract: false, final false
-  inline void set_AttributeCert(::Org::BouncyCastle::X509::IX509AttributeCertificate* value);
+/// @brief Method set_AttributeCert, addr 0x35451f0, size 0x8, virtual false, abstract: false, final false
+inline void set_AttributeCert(::Org::BouncyCastle::X509::IX509AttributeCertificate*  value) ;
 
-  /// @brief Method set_AttributeCertificateValid, addr 0x35452c0, size 0x8, virtual false, abstract: false, final false
-  inline void set_AttributeCertificateValid(::Org::BouncyCastle::Utilities::Date::DateTimeObject* value);
+/// @brief Method set_AttributeCertificateValid, addr 0x3545210, size 0x8, virtual false, abstract: false, final false
+inline void set_AttributeCertificateValid(::Org::BouncyCastle::Utilities::Date::DateTimeObject*  value) ;
 
-  /// @brief Method set_Holder, addr 0x35452d0, size 0x8, virtual false, abstract: false, final false
-  inline void set_Holder(::Org::BouncyCastle::X509::AttributeCertificateHolder* value);
+/// @brief Method set_Holder, addr 0x3545220, size 0x8, virtual false, abstract: false, final false
+inline void set_Holder(::Org::BouncyCastle::X509::AttributeCertificateHolder*  value) ;
 
-  /// @brief Method set_Issuer, addr 0x35452e0, size 0x8, virtual false, abstract: false, final false
-  inline void set_Issuer(::Org::BouncyCastle::X509::AttributeCertificateIssuer* value);
+/// @brief Method set_Issuer, addr 0x3545230, size 0x8, virtual false, abstract: false, final false
+inline void set_Issuer(::Org::BouncyCastle::X509::AttributeCertificateIssuer*  value) ;
 
-  /// @brief Method set_SerialNumber, addr 0x35452f0, size 0x8, virtual false, abstract: false, final false
-  inline void set_SerialNumber(::Org::BouncyCastle::Math::BigInteger* value);
+/// @brief Method set_SerialNumber, addr 0x3545240, size 0x8, virtual false, abstract: false, final false
+inline void set_SerialNumber(::Org::BouncyCastle::Math::BigInteger*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr X509AttrCertStoreSelector();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr X509AttrCertStoreSelector() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "X509AttrCertStoreSelector", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  X509AttrCertStoreSelector(X509AttrCertStoreSelector&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "X509AttrCertStoreSelector", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  X509AttrCertStoreSelector(X509AttrCertStoreSelector const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "X509AttrCertStoreSelector", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+X509AttrCertStoreSelector(X509AttrCertStoreSelector && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1846 };
+// Ctor Parameters [CppParam { name: "", ty: "X509AttrCertStoreSelector", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+X509AttrCertStoreSelector(X509AttrCertStoreSelector const& ) = delete;
 
-  /// @brief Field attributeCert, offset: 0x10, size: 0x8, def value: None
-  ::Org::BouncyCastle::X509::IX509AttributeCertificate* ___attributeCert;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{1846};
 
-  /// @brief Field attributeCertificateValid, offset: 0x18, size: 0x8, def value: None
-  ::Org::BouncyCastle::Utilities::Date::DateTimeObject* ___attributeCertificateValid;
+/// @brief Field attributeCert, offset: 0x10, size: 0x8, def value: None
+ ::Org::BouncyCastle::X509::IX509AttributeCertificate*  ___attributeCert;
 
-  /// @brief Field holder, offset: 0x20, size: 0x8, def value: None
-  ::Org::BouncyCastle::X509::AttributeCertificateHolder* ___holder;
+/// @brief Field attributeCertificateValid, offset: 0x18, size: 0x8, def value: None
+ ::Org::BouncyCastle::Utilities::Date::DateTimeObject*  ___attributeCertificateValid;
 
-  /// @brief Field issuer, offset: 0x28, size: 0x8, def value: None
-  ::Org::BouncyCastle::X509::AttributeCertificateIssuer* ___issuer;
+/// @brief Field holder, offset: 0x20, size: 0x8, def value: None
+ ::Org::BouncyCastle::X509::AttributeCertificateHolder*  ___holder;
 
-  /// @brief Field serialNumber, offset: 0x30, size: 0x8, def value: None
-  ::Org::BouncyCastle::Math::BigInteger* ___serialNumber;
+/// @brief Field issuer, offset: 0x28, size: 0x8, def value: None
+ ::Org::BouncyCastle::X509::AttributeCertificateIssuer*  ___issuer;
 
-  /// @brief Field targetNames, offset: 0x38, size: 0x8, def value: None
-  ::Org::BouncyCastle::Utilities::Collections::ISet* ___targetNames;
+/// @brief Field serialNumber, offset: 0x30, size: 0x8, def value: None
+ ::Org::BouncyCastle::Math::BigInteger*  ___serialNumber;
 
-  /// @brief Field targetGroups, offset: 0x40, size: 0x8, def value: None
-  ::Org::BouncyCastle::Utilities::Collections::ISet* ___targetGroups;
+/// @brief Field targetNames, offset: 0x38, size: 0x8, def value: None
+ ::Org::BouncyCastle::Utilities::Collections::ISet*  ___targetNames;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field targetGroups, offset: 0x40, size: 0x8, def value: None
+ ::Org::BouncyCastle::Utilities::Collections::ISet*  ___targetGroups;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Org::BouncyCastle::X509::Store::X509AttrCertStoreSelector, ___attributeCert) == 0x10, "Offset mismatch!");
@@ -276,6 +275,6 @@ static_assert(offsetof(::Org::BouncyCastle::X509::Store::X509AttrCertStoreSelect
 
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::X509::Store::X509AttrCertStoreSelector, 0x48>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::X509::Store
+} // namespace end def Org::BouncyCastle::X509::Store
 NEED_NO_BOX(::Org::BouncyCastle::X509::Store::X509AttrCertStoreSelector);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::X509::Store::X509AttrCertStoreSelector*, "Org.BouncyCastle.X509.Store", "X509AttrCertStoreSelector");

@@ -9,7 +9,8 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(CultureInfoConverter)
 namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+template<typename TKey,typename TValue>
+class Dictionary_2;
 }
 namespace System::Collections {
 class IComparer;
@@ -55,187 +56,186 @@ namespace System::ComponentModel {
 // CS Name: System.ComponentModel.CultureInfoConverter/CultureComparer
 class CORDL_TYPE CultureInfoConverter_CultureComparer : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field _converter, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__converter, put = __cordl_internal_set__converter)) ::System::ComponentModel::CultureInfoConverter* _converter;
+// Declarations
+/// @brief Field _converter, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get__converter, put=__cordl_internal_set__converter)) ::System::ComponentModel::CultureInfoConverter*  _converter;
 
-  /// @brief Convert operator to "::System::Collections::IComparer"
-  constexpr operator ::System::Collections::IComparer*() noexcept;
+/// @brief Convert operator to "::System::Collections::IComparer"
+constexpr operator  ::System::Collections::IComparer*() noexcept;
 
-  /// @brief Method Compare, addr 0x6202bd4, size 0x170, virtual true, abstract: false, final true
-  inline int32_t Compare(::System::Object* item1, ::System::Object* item2);
+/// @brief Method Compare, addr 0x6203294, size 0x170, virtual true, abstract: false, final true
+inline int32_t Compare(::System::Object*  item1, ::System::Object*  item2) ;
 
-  static inline ::System::ComponentModel::CultureInfoConverter_CultureComparer* New_ctor(::System::ComponentModel::CultureInfoConverter* cultureConverter);
+static inline ::System::ComponentModel::CultureInfoConverter_CultureComparer* New_ctor(::System::ComponentModel::CultureInfoConverter*  cultureConverter) ;
 
-  constexpr ::System::ComponentModel::CultureInfoConverter* const& __cordl_internal_get__converter() const;
+constexpr ::System::ComponentModel::CultureInfoConverter* const& __cordl_internal_get__converter() const;
 
-  constexpr ::System::ComponentModel::CultureInfoConverter*& __cordl_internal_get__converter();
+constexpr ::System::ComponentModel::CultureInfoConverter*& __cordl_internal_get__converter() ;
 
-  constexpr void __cordl_internal_set__converter(::System::ComponentModel::CultureInfoConverter* value);
+constexpr void __cordl_internal_set__converter(::System::ComponentModel::CultureInfoConverter*  value) ;
 
-  /// @brief Method .ctor, addr 0x6202bb8, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::System::ComponentModel::CultureInfoConverter* cultureConverter);
+/// @brief Method .ctor, addr 0x6203278, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(::System::ComponentModel::CultureInfoConverter*  cultureConverter) ;
 
-  /// @brief Convert to "::System::Collections::IComparer"
-  constexpr ::System::Collections::IComparer* i___System__Collections__IComparer() noexcept;
+/// @brief Convert to "::System::Collections::IComparer"
+constexpr ::System::Collections::IComparer* i___System__Collections__IComparer() noexcept;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CultureInfoConverter_CultureComparer();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr CultureInfoConverter_CultureComparer() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CultureInfoConverter_CultureComparer", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  CultureInfoConverter_CultureComparer(CultureInfoConverter_CultureComparer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CultureInfoConverter_CultureComparer", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  CultureInfoConverter_CultureComparer(CultureInfoConverter_CultureComparer const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "CultureInfoConverter_CultureComparer", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+CultureInfoConverter_CultureComparer(CultureInfoConverter_CultureComparer && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11224 };
+// Ctor Parameters [CppParam { name: "", ty: "CultureInfoConverter_CultureComparer", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+CultureInfoConverter_CultureComparer(CultureInfoConverter_CultureComparer const& ) = delete;
 
-  /// @brief Field _converter, offset: 0x10, size: 0x8, def value: None
-  ::System::ComponentModel::CultureInfoConverter* ____converter;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11228};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _converter, offset: 0x10, size: 0x8, def value: None
+ ::System::ComponentModel::CultureInfoConverter*  ____converter;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::ComponentModel::CultureInfoConverter_CultureComparer, ____converter) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::System::ComponentModel::CultureInfoConverter_CultureComparer, 0x18>, "Size mismatch!");
 
-} // namespace System::ComponentModel
+} // namespace end def System::ComponentModel
 // Dependencies System.Object
 namespace System::ComponentModel {
 // Is value type: false
 // CS Name: System.ComponentModel.CultureInfoConverter/CultureInfoMapper
 class CORDL_TYPE CultureInfoConverter_CultureInfoMapper : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field s_cultureInfoNameMap, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_s_cultureInfoNameMap, put = setStaticF_s_cultureInfoNameMap)) ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* s_cultureInfoNameMap;
+// Declarations
+/// @brief Field s_cultureInfoNameMap, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_s_cultureInfoNameMap, put=setStaticF_s_cultureInfoNameMap)) ::System::Collections::Generic::Dictionary_2<::StringW,::StringW>*  s_cultureInfoNameMap;
 
-  /// @brief Method CreateMap, addr 0x6202d44, size 0x5a8c, virtual false, abstract: false, final false
-  static inline ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* CreateMap();
+/// @brief Method CreateMap, addr 0x6203404, size 0x5a8c, virtual false, abstract: false, final false
+static inline ::System::Collections::Generic::Dictionary_2<::StringW,::StringW>* CreateMap() ;
 
-  /// @brief Method GetCultureInfoName, addr 0x62024c4, size 0xa8, virtual false, abstract: false, final false
-  static inline ::StringW GetCultureInfoName(::StringW cultureInfoDisplayName);
+/// @brief Method GetCultureInfoName, addr 0x6202b84, size 0xa8, virtual false, abstract: false, final false
+static inline ::StringW GetCultureInfoName(::StringW  cultureInfoDisplayName) ;
 
-  static inline ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* getStaticF_s_cultureInfoNameMap();
+static inline ::System::Collections::Generic::Dictionary_2<::StringW,::StringW>* getStaticF_s_cultureInfoNameMap() ;
 
-  static inline void setStaticF_s_cultureInfoNameMap(::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* value);
+static inline void setStaticF_s_cultureInfoNameMap(::System::Collections::Generic::Dictionary_2<::StringW,::StringW>*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CultureInfoConverter_CultureInfoMapper();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr CultureInfoConverter_CultureInfoMapper() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CultureInfoConverter_CultureInfoMapper", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  CultureInfoConverter_CultureInfoMapper(CultureInfoConverter_CultureInfoMapper&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CultureInfoConverter_CultureInfoMapper", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  CultureInfoConverter_CultureInfoMapper(CultureInfoConverter_CultureInfoMapper const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "CultureInfoConverter_CultureInfoMapper", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+CultureInfoConverter_CultureInfoMapper(CultureInfoConverter_CultureInfoMapper && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11225 };
+// Ctor Parameters [CppParam { name: "", ty: "CultureInfoConverter_CultureInfoMapper", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+CultureInfoConverter_CultureInfoMapper(CultureInfoConverter_CultureInfoMapper const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11229};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::ComponentModel::CultureInfoConverter_CultureInfoMapper, 0x10>, "Size mismatch!");
 
-} // namespace System::ComponentModel
+} // namespace end def System::ComponentModel
 // Dependencies System.ComponentModel.TypeConverter
 namespace System::ComponentModel {
 // Is value type: false
 // CS Name: System.ComponentModel.CultureInfoConverter
 class CORDL_TYPE CultureInfoConverter : public ::System::ComponentModel::TypeConverter {
 public:
-  // Declarations
-  using CultureComparer = ::System::ComponentModel::CultureInfoConverter_CultureComparer;
+// Declarations
+using CultureComparer = ::System::ComponentModel::CultureInfoConverter_CultureComparer;
 
-  using CultureInfoMapper = ::System::ComponentModel::CultureInfoConverter_CultureInfoMapper;
+using CultureInfoMapper = ::System::ComponentModel::CultureInfoConverter_CultureInfoMapper;
 
-  __declspec(property(get = get_DefaultCultureString)) ::StringW DefaultCultureString;
+ __declspec(property(get=get_DefaultCultureString)) ::StringW  DefaultCultureString;
 
-  /// @brief Field _values, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__values, put = __cordl_internal_set__values)) ::System::ComponentModel::TypeConverter_StandardValuesCollection* _values;
+/// @brief Field _values, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get__values, put=__cordl_internal_set__values)) ::System::ComponentModel::TypeConverter_StandardValuesCollection*  _values;
 
-  /// @brief Method CanConvertFrom, addr 0x6201acc, size 0x80, virtual true, abstract: false, final false
-  inline bool CanConvertFrom(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Type* sourceType);
+/// @brief Method CanConvertFrom, addr 0x620218c, size 0x80, virtual true, abstract: false, final false
+inline bool CanConvertFrom(::System::ComponentModel::ITypeDescriptorContext*  context, ::System::Type*  sourceType) ;
 
-  /// @brief Method CanConvertTo, addr 0x6201b4c, size 0xa4, virtual true, abstract: false, final false
-  inline bool CanConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Type* destinationType);
+/// @brief Method CanConvertTo, addr 0x620220c, size 0xa4, virtual true, abstract: false, final false
+inline bool CanConvertTo(::System::ComponentModel::ITypeDescriptorContext*  context, ::System::Type*  destinationType) ;
 
-  /// @brief Method ConvertFrom, addr 0x6201bf0, size 0x8d4, virtual true, abstract: false, final false
-  inline ::System::Object* ConvertFrom(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::System::Object* value);
+/// @brief Method ConvertFrom, addr 0x62022b0, size 0x8d4, virtual true, abstract: false, final false
+inline ::System::Object* ConvertFrom(::System::ComponentModel::ITypeDescriptorContext*  context, ::System::Globalization::CultureInfo*  culture, ::System::Object*  value) ;
 
-  /// @brief Method ConvertTo, addr 0x620256c, size 0x464, virtual true, abstract: false, final false
-  inline ::System::Object* ConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::System::Object* value,
-                                     ::System::Type* destinationType);
+/// @brief Method ConvertTo, addr 0x6202c2c, size 0x464, virtual true, abstract: false, final false
+inline ::System::Object* ConvertTo(::System::ComponentModel::ITypeDescriptorContext*  context, ::System::Globalization::CultureInfo*  culture, ::System::Object*  value, ::System::Type*  destinationType) ;
 
-  /// @brief Method GetCultureName, addr 0x6201aac, size 0x20, virtual true, abstract: false, final false
-  inline ::StringW GetCultureName(::System::Globalization::CultureInfo* culture);
+/// @brief Method GetCultureName, addr 0x620216c, size 0x20, virtual true, abstract: false, final false
+inline ::StringW GetCultureName(::System::Globalization::CultureInfo*  culture) ;
 
-  /// @brief Method GetStandardValues, addr 0x62029d0, size 0x1e8, virtual true, abstract: false, final false
-  inline ::System::ComponentModel::TypeConverter_StandardValuesCollection* GetStandardValues(::System::ComponentModel::ITypeDescriptorContext* context);
+/// @brief Method GetStandardValues, addr 0x6203090, size 0x1e8, virtual true, abstract: false, final false
+inline ::System::ComponentModel::TypeConverter_StandardValuesCollection* GetStandardValues(::System::ComponentModel::ITypeDescriptorContext*  context) ;
 
-  /// @brief Method GetStandardValuesExclusive, addr 0x6202bc0, size 0x8, virtual true, abstract: false, final false
-  inline bool GetStandardValuesExclusive(::System::ComponentModel::ITypeDescriptorContext* context);
+/// @brief Method GetStandardValuesExclusive, addr 0x6203280, size 0x8, virtual true, abstract: false, final false
+inline bool GetStandardValuesExclusive(::System::ComponentModel::ITypeDescriptorContext*  context) ;
 
-  /// @brief Method GetStandardValuesSupported, addr 0x6202bc8, size 0x8, virtual true, abstract: false, final false
-  inline bool GetStandardValuesSupported(::System::ComponentModel::ITypeDescriptorContext* context);
+/// @brief Method GetStandardValuesSupported, addr 0x6203288, size 0x8, virtual true, abstract: false, final false
+inline bool GetStandardValuesSupported(::System::ComponentModel::ITypeDescriptorContext*  context) ;
 
-  static inline ::System::ComponentModel::CultureInfoConverter* New_ctor();
+static inline ::System::ComponentModel::CultureInfoConverter* New_ctor() ;
 
-  constexpr ::System::ComponentModel::TypeConverter_StandardValuesCollection* const& __cordl_internal_get__values() const;
+constexpr ::System::ComponentModel::TypeConverter_StandardValuesCollection* const& __cordl_internal_get__values() const;
 
-  constexpr ::System::ComponentModel::TypeConverter_StandardValuesCollection*& __cordl_internal_get__values();
+constexpr ::System::ComponentModel::TypeConverter_StandardValuesCollection*& __cordl_internal_get__values() ;
 
-  constexpr void __cordl_internal_set__values(::System::ComponentModel::TypeConverter_StandardValuesCollection* value);
+constexpr void __cordl_internal_set__values(::System::ComponentModel::TypeConverter_StandardValuesCollection*  value) ;
 
-  /// @brief Method .ctor, addr 0x6202bd0, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6203290, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_DefaultCultureString, addr 0x6201a68, size 0x44, virtual false, abstract: false, final false
-  inline ::StringW get_DefaultCultureString();
+/// @brief Method get_DefaultCultureString, addr 0x6202128, size 0x44, virtual false, abstract: false, final false
+inline ::StringW get_DefaultCultureString() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CultureInfoConverter();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr CultureInfoConverter() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CultureInfoConverter", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  CultureInfoConverter(CultureInfoConverter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CultureInfoConverter", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  CultureInfoConverter(CultureInfoConverter const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "CultureInfoConverter", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+CultureInfoConverter(CultureInfoConverter && ) = delete;
 
-  /// @brief Field DefaultInvariantCultureString offset 0xffffffff size 0x8
-  static constexpr ::ConstString DefaultInvariantCultureString{ u"(Default)" };
+// Ctor Parameters [CppParam { name: "", ty: "CultureInfoConverter", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+CultureInfoConverter(CultureInfoConverter const& ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11226 };
+/// @brief Field DefaultInvariantCultureString offset 0xffffffff size 0x8
+static constexpr ::ConstString  DefaultInvariantCultureString{u"(Default)"};
 
-  /// @brief Field _values, offset: 0x10, size: 0x8, def value: None
-  ::System::ComponentModel::TypeConverter_StandardValuesCollection* ____values;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11230};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _values, offset: 0x10, size: 0x8, def value: None
+ ::System::ComponentModel::TypeConverter_StandardValuesCollection*  ____values;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::ComponentModel::CultureInfoConverter, ____values) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::System::ComponentModel::CultureInfoConverter, 0x18>, "Size mismatch!");
 
-} // namespace System::ComponentModel
+} // namespace end def System::ComponentModel
 NEED_NO_BOX(::System::ComponentModel::CultureInfoConverter);
 DEFINE_IL2CPP_ARG_TYPE(::System::ComponentModel::CultureInfoConverter*, "System.ComponentModel", "CultureInfoConverter");
 NEED_NO_BOX(::System::ComponentModel::CultureInfoConverter_CultureComparer);

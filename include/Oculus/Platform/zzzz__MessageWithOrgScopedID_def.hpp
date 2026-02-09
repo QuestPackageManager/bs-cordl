@@ -23,40 +23,40 @@ namespace Oculus::Platform {
 // CS Name: Oculus.Platform.MessageWithOrgScopedID
 class CORDL_TYPE MessageWithOrgScopedID : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::OrgScopedID*> {
 public:
-  // Declarations
-  /// @brief Method GetDataFromMessage, addr 0x5c2de7c, size 0x9c, virtual true, abstract: false, final false
-  inline ::Oculus::Platform::Models::OrgScopedID* GetDataFromMessage(::System::IntPtr c_message);
+// Declarations
+/// @brief Method GetDataFromMessage, addr 0x5c2e388, size 0x9c, virtual true, abstract: false, final false
+inline ::Oculus::Platform::Models::OrgScopedID* GetDataFromMessage(::System::IntPtr  c_message) ;
 
-  /// @brief Method GetOrgScopedID, addr 0x5c2de38, size 0x44, virtual true, abstract: false, final false
-  inline ::Oculus::Platform::Models::OrgScopedID* GetOrgScopedID();
+/// @brief Method GetOrgScopedID, addr 0x5c2e344, size 0x44, virtual true, abstract: false, final false
+inline ::Oculus::Platform::Models::OrgScopedID* GetOrgScopedID() ;
 
-  static inline ::Oculus::Platform::MessageWithOrgScopedID* New_ctor(::System::IntPtr c_message);
+static inline ::Oculus::Platform::MessageWithOrgScopedID* New_ctor(::System::IntPtr  c_message) ;
 
-  /// @brief Method .ctor, addr 0x5c29718, size 0x5c, virtual false, abstract: false, final false
-  inline void _ctor(::System::IntPtr c_message);
+/// @brief Method .ctor, addr 0x5c29c24, size 0x5c, virtual false, abstract: false, final false
+inline void _ctor(::System::IntPtr  c_message) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MessageWithOrgScopedID();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr MessageWithOrgScopedID() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MessageWithOrgScopedID", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  MessageWithOrgScopedID(MessageWithOrgScopedID&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MessageWithOrgScopedID", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  MessageWithOrgScopedID(MessageWithOrgScopedID const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "MessageWithOrgScopedID", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+MessageWithOrgScopedID(MessageWithOrgScopedID && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17873 };
+// Ctor Parameters [CppParam { name: "", ty: "MessageWithOrgScopedID", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+MessageWithOrgScopedID(MessageWithOrgScopedID const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{17877};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Oculus::Platform::MessageWithOrgScopedID, 0x30>, "Size mismatch!");
 
-} // namespace Oculus::Platform
+} // namespace end def Oculus::Platform
 NEED_NO_BOX(::Oculus::Platform::MessageWithOrgScopedID);
 DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::MessageWithOrgScopedID*, "Oculus.Platform", "MessageWithOrgScopedID");

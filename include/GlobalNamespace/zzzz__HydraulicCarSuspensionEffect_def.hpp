@@ -18,7 +18,8 @@ namespace GlobalNamespace {
 class BeatmapDataCallbackWrapper;
 }
 namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
+template<typename T>
+class HashSet_1;
 }
 namespace UnityEngine {
 class Rigidbody;
@@ -38,218 +39,213 @@ namespace GlobalNamespace {
 // CS Name: HydraulicCarSuspensionEffect
 class CORDL_TYPE HydraulicCarSuspensionEffect : public ::UnityEngine::MonoBehaviour {
 public:
-  // Declarations
-  /// @brief Field _beatmapCallbacksController, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get__beatmapCallbacksController,
-                      put = __cordl_internal_set__beatmapCallbacksController)) ::GlobalNamespace::BeatmapCallbacksController* _beatmapCallbacksController;
+// Declarations
+/// @brief Field _beatmapCallbacksController, offset 0x58, size 0x8 
+ __declspec(property(get=__cordl_internal_get__beatmapCallbacksController, put=__cordl_internal_set__beatmapCallbacksController)) ::GlobalNamespace::BeatmapCallbacksController*  _beatmapCallbacksController;
 
-  /// @brief Field _contractBeatmapDataCallbackWrapper, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get__contractBeatmapDataCallbackWrapper,
-                      put = __cordl_internal_set__contractBeatmapDataCallbackWrapper)) ::GlobalNamespace::BeatmapDataCallbackWrapper* _contractBeatmapDataCallbackWrapper;
+/// @brief Field _contractBeatmapDataCallbackWrapper, offset 0x70, size 0x8 
+ __declspec(property(get=__cordl_internal_get__contractBeatmapDataCallbackWrapper, put=__cordl_internal_set__contractBeatmapDataCallbackWrapper)) ::GlobalNamespace::BeatmapDataCallbackWrapper*  _contractBeatmapDataCallbackWrapper;
 
-  /// @brief Field _contractDistance, offset 0x48, size 0x4
-  __declspec(property(get = __cordl_internal_get__contractDistance, put = __cordl_internal_set__contractDistance)) float_t _contractDistance;
+/// @brief Field _contractDistance, offset 0x48, size 0x4 
+ __declspec(property(get=__cordl_internal_get__contractDistance, put=__cordl_internal_set__contractDistance)) float_t  _contractDistance;
 
-  /// @brief Field _contractEvent, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get__contractEvent, put = __cordl_internal_set__contractEvent)) ::GlobalNamespace::BasicBeatmapEventType _contractEvent;
+/// @brief Field _contractEvent, offset 0x20, size 0x4 
+ __declspec(property(get=__cordl_internal_get__contractEvent, put=__cordl_internal_set__contractEvent)) ::GlobalNamespace::BasicBeatmapEventType  _contractEvent;
 
-  /// @brief Field _contractEventValues, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__contractEventValues, put = __cordl_internal_set__contractEventValues)) ::ArrayW<int32_t, ::Array<int32_t>*> _contractEventValues;
+/// @brief Field _contractEventValues, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get__contractEventValues, put=__cordl_internal_set__contractEventValues)) ::ArrayW<int32_t,::Array<int32_t>*>  _contractEventValues;
 
-  /// @brief Field _contractEventValuesHashSet, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get__contractEventValuesHashSet,
-                      put = __cordl_internal_set__contractEventValuesHashSet)) ::System::Collections::Generic::HashSet_1<int32_t>* _contractEventValuesHashSet;
+/// @brief Field _contractEventValuesHashSet, offset 0x60, size 0x8 
+ __declspec(property(get=__cordl_internal_get__contractEventValuesHashSet, put=__cordl_internal_set__contractEventValuesHashSet)) ::System::Collections::Generic::HashSet_1<int32_t>*  _contractEventValuesHashSet;
 
-  /// @brief Field _expandBeatmapDataCallbackWrapper, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get__expandBeatmapDataCallbackWrapper,
-                      put = __cordl_internal_set__expandBeatmapDataCallbackWrapper)) ::GlobalNamespace::BeatmapDataCallbackWrapper* _expandBeatmapDataCallbackWrapper;
+/// @brief Field _expandBeatmapDataCallbackWrapper, offset 0x78, size 0x8 
+ __declspec(property(get=__cordl_internal_get__expandBeatmapDataCallbackWrapper, put=__cordl_internal_set__expandBeatmapDataCallbackWrapper)) ::GlobalNamespace::BeatmapDataCallbackWrapper*  _expandBeatmapDataCallbackWrapper;
 
-  /// @brief Field _expandDistance, offset 0x4c, size 0x4
-  __declspec(property(get = __cordl_internal_get__expandDistance, put = __cordl_internal_set__expandDistance)) float_t _expandDistance;
+/// @brief Field _expandDistance, offset 0x4c, size 0x4 
+ __declspec(property(get=__cordl_internal_get__expandDistance, put=__cordl_internal_set__expandDistance)) float_t  _expandDistance;
 
-  /// @brief Field _expandEvent, offset 0x30, size 0x4
-  __declspec(property(get = __cordl_internal_get__expandEvent, put = __cordl_internal_set__expandEvent)) ::GlobalNamespace::BasicBeatmapEventType _expandEvent;
+/// @brief Field _expandEvent, offset 0x30, size 0x4 
+ __declspec(property(get=__cordl_internal_get__expandEvent, put=__cordl_internal_set__expandEvent)) ::GlobalNamespace::BasicBeatmapEventType  _expandEvent;
 
-  /// @brief Field _expandEventValues, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__expandEventValues, put = __cordl_internal_set__expandEventValues)) ::ArrayW<int32_t, ::Array<int32_t>*> _expandEventValues;
+/// @brief Field _expandEventValues, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get__expandEventValues, put=__cordl_internal_set__expandEventValues)) ::ArrayW<int32_t,::Array<int32_t>*>  _expandEventValues;
 
-  /// @brief Field _expandEventValuesHashSet, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get__expandEventValuesHashSet,
-                      put = __cordl_internal_set__expandEventValuesHashSet)) ::System::Collections::Generic::HashSet_1<int32_t>* _expandEventValuesHashSet;
+/// @brief Field _expandEventValuesHashSet, offset 0x68, size 0x8 
+ __declspec(property(get=__cordl_internal_get__expandEventValuesHashSet, put=__cordl_internal_set__expandEventValuesHashSet)) ::System::Collections::Generic::HashSet_1<int32_t>*  _expandEventValuesHashSet;
 
-  /// @brief Field _rigidbody, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get__rigidbody, put = __cordl_internal_set__rigidbody)) ::UnityW<::UnityEngine::Rigidbody> _rigidbody;
+/// @brief Field _rigidbody, offset 0x50, size 0x8 
+ __declspec(property(get=__cordl_internal_get__rigidbody, put=__cordl_internal_set__rigidbody)) ::UnityW<::UnityEngine::Rigidbody>  _rigidbody;
 
-  /// @brief Field _springJoint, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__springJoint, put = __cordl_internal_set__springJoint)) ::UnityW<::UnityEngine::SpringJoint> _springJoint;
+/// @brief Field _springJoint, offset 0x40, size 0x8 
+ __declspec(property(get=__cordl_internal_get__springJoint, put=__cordl_internal_set__springJoint)) ::UnityW<::UnityEngine::SpringJoint>  _springJoint;
 
-  /// @brief Method Awake, addr 0x31bb9a8, size 0xfc, virtual false, abstract: false, final false
-  inline void Awake();
+/// @brief Method Awake, addr 0x31bb8f8, size 0xfc, virtual false, abstract: false, final false
+inline void Awake() ;
 
-  /// @brief Method HandleContractBeatmapEvent, addr 0x31bbcec, size 0xb4, virtual false, abstract: false, final false
-  inline void HandleContractBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
+/// @brief Method HandleContractBeatmapEvent, addr 0x31bbc3c, size 0xb4, virtual false, abstract: false, final false
+inline void HandleContractBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData*  basicBeatmapEventData) ;
 
-  /// @brief Method HandleExpandBeatmapEvent, addr 0x31bbda0, size 0xb4, virtual false, abstract: false, final false
-  inline void HandleExpandBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
+/// @brief Method HandleExpandBeatmapEvent, addr 0x31bbcf0, size 0xb4, virtual false, abstract: false, final false
+inline void HandleExpandBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData*  basicBeatmapEventData) ;
 
-  static inline ::GlobalNamespace::HydraulicCarSuspensionEffect* New_ctor();
+static inline ::GlobalNamespace::HydraulicCarSuspensionEffect* New_ctor() ;
 
-  /// @brief Method OnDestroy, addr 0x31bbce8, size 0x4, virtual false, abstract: false, final false
-  inline void OnDestroy();
+/// @brief Method OnDestroy, addr 0x31bbc38, size 0x4, virtual false, abstract: false, final false
+inline void OnDestroy() ;
 
-  /// @brief Method OnDisable, addr 0x31bbc98, size 0x4, virtual false, abstract: false, final false
-  inline void OnDisable();
+/// @brief Method OnDisable, addr 0x31bbbe8, size 0x4, virtual false, abstract: false, final false
+inline void OnDisable() ;
 
-  /// @brief Method OnEnable, addr 0x31bbc94, size 0x4, virtual false, abstract: false, final false
-  inline void OnEnable();
+/// @brief Method OnEnable, addr 0x31bbbe4, size 0x4, virtual false, abstract: false, final false
+inline void OnEnable() ;
 
-  /// @brief Method OnInject, addr 0x31bbaa4, size 0x4, virtual false, abstract: false, final false
-  inline void OnInject();
+/// @brief Method OnInject, addr 0x31bb9f4, size 0x4, virtual false, abstract: false, final false
+inline void OnInject() ;
 
-  /// @brief Method TrySubscribe, addr 0x31bbaa8, size 0x1ec, virtual false, abstract: false, final false
-  inline void TrySubscribe();
+/// @brief Method TrySubscribe, addr 0x31bb9f8, size 0x1ec, virtual false, abstract: false, final false
+inline void TrySubscribe() ;
 
-  /// @brief Method TryUnsubscribe, addr 0x31bbc9c, size 0x4c, virtual false, abstract: false, final false
-  inline void TryUnsubscribe();
+/// @brief Method TryUnsubscribe, addr 0x31bbbec, size 0x4c, virtual false, abstract: false, final false
+inline void TryUnsubscribe() ;
 
-  constexpr ::GlobalNamespace::BeatmapCallbacksController* const& __cordl_internal_get__beatmapCallbacksController() const;
+constexpr ::GlobalNamespace::BeatmapCallbacksController* const& __cordl_internal_get__beatmapCallbacksController() const;
 
-  constexpr ::GlobalNamespace::BeatmapCallbacksController*& __cordl_internal_get__beatmapCallbacksController();
+constexpr ::GlobalNamespace::BeatmapCallbacksController*& __cordl_internal_get__beatmapCallbacksController() ;
 
-  constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper* const& __cordl_internal_get__contractBeatmapDataCallbackWrapper() const;
+constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper* const& __cordl_internal_get__contractBeatmapDataCallbackWrapper() const;
 
-  constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper*& __cordl_internal_get__contractBeatmapDataCallbackWrapper();
+constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper*& __cordl_internal_get__contractBeatmapDataCallbackWrapper() ;
 
-  constexpr float_t const& __cordl_internal_get__contractDistance() const;
+constexpr float_t const& __cordl_internal_get__contractDistance() const;
 
-  constexpr float_t& __cordl_internal_get__contractDistance();
+constexpr float_t& __cordl_internal_get__contractDistance() ;
 
-  constexpr ::GlobalNamespace::BasicBeatmapEventType const& __cordl_internal_get__contractEvent() const;
+constexpr ::GlobalNamespace::BasicBeatmapEventType const& __cordl_internal_get__contractEvent() const;
 
-  constexpr ::GlobalNamespace::BasicBeatmapEventType& __cordl_internal_get__contractEvent();
+constexpr ::GlobalNamespace::BasicBeatmapEventType& __cordl_internal_get__contractEvent() ;
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get__contractEventValues() const;
+constexpr ::ArrayW<int32_t,::Array<int32_t>*> const& __cordl_internal_get__contractEventValues() const;
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get__contractEventValues();
+constexpr ::ArrayW<int32_t,::Array<int32_t>*>& __cordl_internal_get__contractEventValues() ;
 
-  constexpr ::System::Collections::Generic::HashSet_1<int32_t>* const& __cordl_internal_get__contractEventValuesHashSet() const;
+constexpr ::System::Collections::Generic::HashSet_1<int32_t>* const& __cordl_internal_get__contractEventValuesHashSet() const;
 
-  constexpr ::System::Collections::Generic::HashSet_1<int32_t>*& __cordl_internal_get__contractEventValuesHashSet();
+constexpr ::System::Collections::Generic::HashSet_1<int32_t>*& __cordl_internal_get__contractEventValuesHashSet() ;
 
-  constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper* const& __cordl_internal_get__expandBeatmapDataCallbackWrapper() const;
+constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper* const& __cordl_internal_get__expandBeatmapDataCallbackWrapper() const;
 
-  constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper*& __cordl_internal_get__expandBeatmapDataCallbackWrapper();
+constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper*& __cordl_internal_get__expandBeatmapDataCallbackWrapper() ;
 
-  constexpr float_t const& __cordl_internal_get__expandDistance() const;
+constexpr float_t const& __cordl_internal_get__expandDistance() const;
 
-  constexpr float_t& __cordl_internal_get__expandDistance();
+constexpr float_t& __cordl_internal_get__expandDistance() ;
 
-  constexpr ::GlobalNamespace::BasicBeatmapEventType const& __cordl_internal_get__expandEvent() const;
+constexpr ::GlobalNamespace::BasicBeatmapEventType const& __cordl_internal_get__expandEvent() const;
 
-  constexpr ::GlobalNamespace::BasicBeatmapEventType& __cordl_internal_get__expandEvent();
+constexpr ::GlobalNamespace::BasicBeatmapEventType& __cordl_internal_get__expandEvent() ;
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get__expandEventValues() const;
+constexpr ::ArrayW<int32_t,::Array<int32_t>*> const& __cordl_internal_get__expandEventValues() const;
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get__expandEventValues();
+constexpr ::ArrayW<int32_t,::Array<int32_t>*>& __cordl_internal_get__expandEventValues() ;
 
-  constexpr ::System::Collections::Generic::HashSet_1<int32_t>* const& __cordl_internal_get__expandEventValuesHashSet() const;
+constexpr ::System::Collections::Generic::HashSet_1<int32_t>* const& __cordl_internal_get__expandEventValuesHashSet() const;
 
-  constexpr ::System::Collections::Generic::HashSet_1<int32_t>*& __cordl_internal_get__expandEventValuesHashSet();
+constexpr ::System::Collections::Generic::HashSet_1<int32_t>*& __cordl_internal_get__expandEventValuesHashSet() ;
 
-  constexpr ::UnityW<::UnityEngine::Rigidbody> const& __cordl_internal_get__rigidbody() const;
+constexpr ::UnityW<::UnityEngine::Rigidbody> const& __cordl_internal_get__rigidbody() const;
 
-  constexpr ::UnityW<::UnityEngine::Rigidbody>& __cordl_internal_get__rigidbody();
+constexpr ::UnityW<::UnityEngine::Rigidbody>& __cordl_internal_get__rigidbody() ;
 
-  constexpr ::UnityW<::UnityEngine::SpringJoint> const& __cordl_internal_get__springJoint() const;
+constexpr ::UnityW<::UnityEngine::SpringJoint> const& __cordl_internal_get__springJoint() const;
 
-  constexpr ::UnityW<::UnityEngine::SpringJoint>& __cordl_internal_get__springJoint();
+constexpr ::UnityW<::UnityEngine::SpringJoint>& __cordl_internal_get__springJoint() ;
 
-  constexpr void __cordl_internal_set__beatmapCallbacksController(::GlobalNamespace::BeatmapCallbacksController* value);
+constexpr void __cordl_internal_set__beatmapCallbacksController(::GlobalNamespace::BeatmapCallbacksController*  value) ;
 
-  constexpr void __cordl_internal_set__contractBeatmapDataCallbackWrapper(::GlobalNamespace::BeatmapDataCallbackWrapper* value);
+constexpr void __cordl_internal_set__contractBeatmapDataCallbackWrapper(::GlobalNamespace::BeatmapDataCallbackWrapper*  value) ;
 
-  constexpr void __cordl_internal_set__contractDistance(float_t value);
+constexpr void __cordl_internal_set__contractDistance(float_t  value) ;
 
-  constexpr void __cordl_internal_set__contractEvent(::GlobalNamespace::BasicBeatmapEventType value);
+constexpr void __cordl_internal_set__contractEvent(::GlobalNamespace::BasicBeatmapEventType  value) ;
 
-  constexpr void __cordl_internal_set__contractEventValues(::ArrayW<int32_t, ::Array<int32_t>*> value);
+constexpr void __cordl_internal_set__contractEventValues(::ArrayW<int32_t,::Array<int32_t>*>  value) ;
 
-  constexpr void __cordl_internal_set__contractEventValuesHashSet(::System::Collections::Generic::HashSet_1<int32_t>* value);
+constexpr void __cordl_internal_set__contractEventValuesHashSet(::System::Collections::Generic::HashSet_1<int32_t>*  value) ;
 
-  constexpr void __cordl_internal_set__expandBeatmapDataCallbackWrapper(::GlobalNamespace::BeatmapDataCallbackWrapper* value);
+constexpr void __cordl_internal_set__expandBeatmapDataCallbackWrapper(::GlobalNamespace::BeatmapDataCallbackWrapper*  value) ;
 
-  constexpr void __cordl_internal_set__expandDistance(float_t value);
+constexpr void __cordl_internal_set__expandDistance(float_t  value) ;
 
-  constexpr void __cordl_internal_set__expandEvent(::GlobalNamespace::BasicBeatmapEventType value);
+constexpr void __cordl_internal_set__expandEvent(::GlobalNamespace::BasicBeatmapEventType  value) ;
 
-  constexpr void __cordl_internal_set__expandEventValues(::ArrayW<int32_t, ::Array<int32_t>*> value);
+constexpr void __cordl_internal_set__expandEventValues(::ArrayW<int32_t,::Array<int32_t>*>  value) ;
 
-  constexpr void __cordl_internal_set__expandEventValuesHashSet(::System::Collections::Generic::HashSet_1<int32_t>* value);
+constexpr void __cordl_internal_set__expandEventValuesHashSet(::System::Collections::Generic::HashSet_1<int32_t>*  value) ;
 
-  constexpr void __cordl_internal_set__rigidbody(::UnityW<::UnityEngine::Rigidbody> value);
+constexpr void __cordl_internal_set__rigidbody(::UnityW<::UnityEngine::Rigidbody>  value) ;
 
-  constexpr void __cordl_internal_set__springJoint(::UnityW<::UnityEngine::SpringJoint> value);
+constexpr void __cordl_internal_set__springJoint(::UnityW<::UnityEngine::SpringJoint>  value) ;
 
-  /// @brief Method .ctor, addr 0x31bbe54, size 0x10, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x31bbda4, size 0x10, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HydraulicCarSuspensionEffect();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr HydraulicCarSuspensionEffect() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HydraulicCarSuspensionEffect", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  HydraulicCarSuspensionEffect(HydraulicCarSuspensionEffect&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HydraulicCarSuspensionEffect", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  HydraulicCarSuspensionEffect(HydraulicCarSuspensionEffect const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "HydraulicCarSuspensionEffect", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+HydraulicCarSuspensionEffect(HydraulicCarSuspensionEffect && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23162 };
+// Ctor Parameters [CppParam { name: "", ty: "HydraulicCarSuspensionEffect", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+HydraulicCarSuspensionEffect(HydraulicCarSuspensionEffect const& ) = delete;
 
-  /// @brief Field _contractEvent, offset: 0x20, size: 0x4, def value: None
-  ::GlobalNamespace::BasicBeatmapEventType ____contractEvent;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{23166};
 
-  /// @brief Field _contractEventValues, offset: 0x28, size: 0x8, def value: None
-  ::ArrayW<int32_t, ::Array<int32_t>*> ____contractEventValues;
+/// @brief Field _contractEvent, offset: 0x20, size: 0x4, def value: None
+ ::GlobalNamespace::BasicBeatmapEventType  ____contractEvent;
 
-  /// @brief Field _expandEvent, offset: 0x30, size: 0x4, def value: None
-  ::GlobalNamespace::BasicBeatmapEventType ____expandEvent;
+/// @brief Field _contractEventValues, offset: 0x28, size: 0x8, def value: None
+ ::ArrayW<int32_t,::Array<int32_t>*>  ____contractEventValues;
 
-  /// @brief Field _expandEventValues, offset: 0x38, size: 0x8, def value: None
-  ::ArrayW<int32_t, ::Array<int32_t>*> ____expandEventValues;
+/// @brief Field _expandEvent, offset: 0x30, size: 0x4, def value: None
+ ::GlobalNamespace::BasicBeatmapEventType  ____expandEvent;
 
-  /// @brief Field _springJoint, offset: 0x40, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::SpringJoint> ____springJoint;
+/// @brief Field _expandEventValues, offset: 0x38, size: 0x8, def value: None
+ ::ArrayW<int32_t,::Array<int32_t>*>  ____expandEventValues;
 
-  /// @brief Field _contractDistance, offset: 0x48, size: 0x4, def value: None
-  float_t ____contractDistance;
+/// @brief Field _springJoint, offset: 0x40, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::SpringJoint>  ____springJoint;
 
-  /// @brief Field _expandDistance, offset: 0x4c, size: 0x4, def value: None
-  float_t ____expandDistance;
+/// @brief Field _contractDistance, offset: 0x48, size: 0x4, def value: None
+ float_t  ____contractDistance;
 
-  /// @brief Field _rigidbody, offset: 0x50, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::Rigidbody> ____rigidbody;
+/// @brief Field _expandDistance, offset: 0x4c, size: 0x4, def value: None
+ float_t  ____expandDistance;
 
-  /// @brief Field _beatmapCallbacksController, offset: 0x58, size: 0x8, def value: None
-  ::GlobalNamespace::BeatmapCallbacksController* ____beatmapCallbacksController;
+/// @brief Field _rigidbody, offset: 0x50, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::Rigidbody>  ____rigidbody;
 
-  /// @brief Field _contractEventValuesHashSet, offset: 0x60, size: 0x8, def value: None
-  ::System::Collections::Generic::HashSet_1<int32_t>* ____contractEventValuesHashSet;
+/// @brief Field _beatmapCallbacksController, offset: 0x58, size: 0x8, def value: None
+ ::GlobalNamespace::BeatmapCallbacksController*  ____beatmapCallbacksController;
 
-  /// @brief Field _expandEventValuesHashSet, offset: 0x68, size: 0x8, def value: None
-  ::System::Collections::Generic::HashSet_1<int32_t>* ____expandEventValuesHashSet;
+/// @brief Field _contractEventValuesHashSet, offset: 0x60, size: 0x8, def value: None
+ ::System::Collections::Generic::HashSet_1<int32_t>*  ____contractEventValuesHashSet;
 
-  /// @brief Field _contractBeatmapDataCallbackWrapper, offset: 0x70, size: 0x8, def value: None
-  ::GlobalNamespace::BeatmapDataCallbackWrapper* ____contractBeatmapDataCallbackWrapper;
+/// @brief Field _expandEventValuesHashSet, offset: 0x68, size: 0x8, def value: None
+ ::System::Collections::Generic::HashSet_1<int32_t>*  ____expandEventValuesHashSet;
 
-  /// @brief Field _expandBeatmapDataCallbackWrapper, offset: 0x78, size: 0x8, def value: None
-  ::GlobalNamespace::BeatmapDataCallbackWrapper* ____expandBeatmapDataCallbackWrapper;
+/// @brief Field _contractBeatmapDataCallbackWrapper, offset: 0x70, size: 0x8, def value: None
+ ::GlobalNamespace::BeatmapDataCallbackWrapper*  ____contractBeatmapDataCallbackWrapper;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _expandBeatmapDataCallbackWrapper, offset: 0x78, size: 0x8, def value: None
+ ::GlobalNamespace::BeatmapDataCallbackWrapper*  ____expandBeatmapDataCallbackWrapper;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::HydraulicCarSuspensionEffect, ____contractEvent) == 0x20, "Offset mismatch!");
@@ -280,6 +276,6 @@ static_assert(offsetof(::GlobalNamespace::HydraulicCarSuspensionEffect, ____expa
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::HydraulicCarSuspensionEffect, 0x80>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::HydraulicCarSuspensionEffect);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::HydraulicCarSuspensionEffect*, "", "HydraulicCarSuspensionEffect");

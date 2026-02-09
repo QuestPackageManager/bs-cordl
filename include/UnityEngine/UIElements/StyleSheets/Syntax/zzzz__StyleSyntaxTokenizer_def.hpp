@@ -8,7 +8,8 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(StyleSyntaxTokenizer)
 namespace System::Collections::Generic {
-template <typename T> class List_1;
+template<typename T>
+class List_1;
 }
 namespace UnityEngine::UIElements::StyleSheets::Syntax {
 struct StyleSyntaxToken;
@@ -25,81 +26,80 @@ namespace UnityEngine::UIElements::StyleSheets::Syntax {
 // CS Name: UnityEngine.UIElements.StyleSheets.Syntax.StyleSyntaxTokenizer
 class CORDL_TYPE StyleSyntaxTokenizer : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(get = get_current)) ::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxToken current;
+// Declarations
+ __declspec(property(get=get_current)) ::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxToken  current;
 
-  /// @brief Field m_CurrentTokenIndex, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_CurrentTokenIndex, put = __cordl_internal_set_m_CurrentTokenIndex)) int32_t m_CurrentTokenIndex;
+/// @brief Field m_CurrentTokenIndex, offset 0x18, size 0x4 
+ __declspec(property(get=__cordl_internal_get_m_CurrentTokenIndex, put=__cordl_internal_set_m_CurrentTokenIndex)) int32_t  m_CurrentTokenIndex;
 
-  /// @brief Field m_Tokens, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Tokens,
-                      put = __cordl_internal_set_m_Tokens)) ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxToken>* m_Tokens;
+/// @brief Field m_Tokens, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_Tokens, put=__cordl_internal_set_m_Tokens)) ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxToken>*  m_Tokens;
 
-  /// @brief Method GlobCharacter, addr 0x6b52a40, size 0x3c, virtual false, abstract: false, final false
-  static inline int32_t GlobCharacter(::StringW s, int32_t index, char16_t c);
+/// @brief Method GlobCharacter, addr 0x6b53100, size 0x3c, virtual false, abstract: false, final false
+static inline int32_t GlobCharacter(::StringW  s, int32_t  index, char16_t  c) ;
 
-  /// @brief Method IsNextCharacter, addr 0x6b52a7c, size 0x4c, virtual false, abstract: false, final false
-  static inline bool IsNextCharacter(::StringW s, int32_t index, char16_t c);
+/// @brief Method IsNextCharacter, addr 0x6b5313c, size 0x4c, virtual false, abstract: false, final false
+static inline bool IsNextCharacter(::StringW  s, int32_t  index, char16_t  c) ;
 
-  /// @brief Method IsNextLetterOrDash, addr 0x6b52b30, size 0x9c, virtual false, abstract: false, final false
-  static inline bool IsNextLetterOrDash(::StringW s, int32_t index);
+/// @brief Method IsNextLetterOrDash, addr 0x6b531f0, size 0x9c, virtual false, abstract: false, final false
+static inline bool IsNextLetterOrDash(::StringW  s, int32_t  index) ;
 
-  /// @brief Method IsNextNumber, addr 0x6b52ac8, size 0x68, virtual false, abstract: false, final false
-  static inline bool IsNextNumber(::StringW s, int32_t index);
+/// @brief Method IsNextNumber, addr 0x6b53188, size 0x68, virtual false, abstract: false, final false
+static inline bool IsNextNumber(::StringW  s, int32_t  index) ;
 
-  /// @brief Method MoveNext, addr 0x6b51fdc, size 0x10c, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxToken MoveNext();
+/// @brief Method MoveNext, addr 0x6b5269c, size 0x10c, virtual false, abstract: false, final false
+inline ::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxToken MoveNext() ;
 
-  static inline ::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenizer* New_ctor();
+static inline ::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenizer* New_ctor() ;
 
-  /// @brief Method PeekNext, addr 0x6b521f0, size 0xc4, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxToken PeekNext();
+/// @brief Method PeekNext, addr 0x6b528b0, size 0xc4, virtual false, abstract: false, final false
+inline ::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxToken PeekNext() ;
 
-  /// @brief Method Tokenize, addr 0x6b50440, size 0xcc4, virtual false, abstract: false, final false
-  inline void Tokenize(::StringW syntax);
+/// @brief Method Tokenize, addr 0x6b50b00, size 0xcc4, virtual false, abstract: false, final false
+inline void Tokenize(::StringW  syntax) ;
 
-  constexpr int32_t const& __cordl_internal_get_m_CurrentTokenIndex() const;
+constexpr int32_t const& __cordl_internal_get_m_CurrentTokenIndex() const;
 
-  constexpr int32_t& __cordl_internal_get_m_CurrentTokenIndex();
+constexpr int32_t& __cordl_internal_get_m_CurrentTokenIndex() ;
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxToken>* const& __cordl_internal_get_m_Tokens() const;
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxToken>* const& __cordl_internal_get_m_Tokens() const;
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxToken>*& __cordl_internal_get_m_Tokens();
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxToken>*& __cordl_internal_get_m_Tokens() ;
 
-  constexpr void __cordl_internal_set_m_CurrentTokenIndex(int32_t value);
+constexpr void __cordl_internal_set_m_CurrentTokenIndex(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_m_Tokens(::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxToken>* value);
+constexpr void __cordl_internal_set_m_Tokens(::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxToken>*  value) ;
 
-  /// @brief Method .ctor, addr 0x6b503c4, size 0x7c, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6b50a84, size 0x7c, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_current, addr 0x6b5137c, size 0xc0, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxToken get_current();
+/// @brief Method get_current, addr 0x6b51a3c, size 0xc0, virtual false, abstract: false, final false
+inline ::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxToken get_current() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr StyleSyntaxTokenizer();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr StyleSyntaxTokenizer() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StyleSyntaxTokenizer", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  StyleSyntaxTokenizer(StyleSyntaxTokenizer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StyleSyntaxTokenizer", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  StyleSyntaxTokenizer(StyleSyntaxTokenizer const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "StyleSyntaxTokenizer", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+StyleSyntaxTokenizer(StyleSyntaxTokenizer && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5484 };
+// Ctor Parameters [CppParam { name: "", ty: "StyleSyntaxTokenizer", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+StyleSyntaxTokenizer(StyleSyntaxTokenizer const& ) = delete;
 
-  /// @brief Field m_Tokens, offset: 0x10, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxToken>* ___m_Tokens;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{5484};
 
-  /// @brief Field m_CurrentTokenIndex, offset: 0x18, size: 0x4, def value: None
-  int32_t ___m_CurrentTokenIndex;
+/// @brief Field m_Tokens, offset: 0x10, size: 0x8, def value: None
+ ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxToken>*  ___m_Tokens;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field m_CurrentTokenIndex, offset: 0x18, size: 0x4, def value: None
+ int32_t  ___m_CurrentTokenIndex;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenizer, ___m_Tokens) == 0x10, "Offset mismatch!");
@@ -108,6 +108,6 @@ static_assert(offsetof(::UnityEngine::UIElements::StyleSheets::Syntax::StyleSynt
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenizer, 0x20>, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements::StyleSheets::Syntax
+} // namespace end def UnityEngine::UIElements::StyleSheets::Syntax
 NEED_NO_BOX(::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenizer);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokenizer*, "UnityEngine.UIElements.StyleSheets.Syntax", "StyleSyntaxTokenizer");

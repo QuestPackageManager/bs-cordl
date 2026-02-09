@@ -27,56 +27,56 @@ namespace Org::BouncyCastle::Pkcs {
 // CS Name: Org.BouncyCastle.Pkcs.Pkcs8EncryptedPrivateKeyInfoBuilder
 class CORDL_TYPE Pkcs8EncryptedPrivateKeyInfoBuilder : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field privateKeyInfo, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_privateKeyInfo, put = __cordl_internal_set_privateKeyInfo)) ::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo* privateKeyInfo;
+// Declarations
+/// @brief Field privateKeyInfo, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_privateKeyInfo, put=__cordl_internal_set_privateKeyInfo)) ::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo*  privateKeyInfo;
 
-  /// @brief Method Build, addr 0x34bf2cc, size 0x3fc, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Pkcs::Pkcs8EncryptedPrivateKeyInfo* Build(::Org::BouncyCastle::Crypto::ICipherBuilder* encryptor);
+/// @brief Method Build, addr 0x34bf21c, size 0x3fc, virtual false, abstract: false, final false
+inline ::Org::BouncyCastle::Pkcs::Pkcs8EncryptedPrivateKeyInfo* Build(::Org::BouncyCastle::Crypto::ICipherBuilder*  encryptor) ;
 
-  static inline ::Org::BouncyCastle::Pkcs::Pkcs8EncryptedPrivateKeyInfoBuilder* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> privateKeyInfo);
+static inline ::Org::BouncyCastle::Pkcs::Pkcs8EncryptedPrivateKeyInfoBuilder* New_ctor(::ArrayW<uint8_t,::Array<uint8_t>*>  privateKeyInfo) ;
 
-  static inline ::Org::BouncyCastle::Pkcs::Pkcs8EncryptedPrivateKeyInfoBuilder* New_ctor(::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo* privateKeyInfo);
+static inline ::Org::BouncyCastle::Pkcs::Pkcs8EncryptedPrivateKeyInfoBuilder* New_ctor(::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo*  privateKeyInfo) ;
 
-  constexpr ::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo* const& __cordl_internal_get_privateKeyInfo() const;
+constexpr ::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo* const& __cordl_internal_get_privateKeyInfo() const;
 
-  constexpr ::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo*& __cordl_internal_get_privateKeyInfo();
+constexpr ::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo*& __cordl_internal_get_privateKeyInfo() ;
 
-  constexpr void __cordl_internal_set_privateKeyInfo(::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo* value);
+constexpr void __cordl_internal_set_privateKeyInfo(::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo*  value) ;
 
-  /// @brief Method .ctor, addr 0x34bf2a4, size 0x20, virtual false, abstract: false, final false
-  inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> privateKeyInfo);
+/// @brief Method .ctor, addr 0x34bf1f4, size 0x20, virtual false, abstract: false, final false
+inline void _ctor(::ArrayW<uint8_t,::Array<uint8_t>*>  privateKeyInfo) ;
 
-  /// @brief Method .ctor, addr 0x34bf2c4, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo* privateKeyInfo);
+/// @brief Method .ctor, addr 0x34bf214, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo*  privateKeyInfo) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Pkcs8EncryptedPrivateKeyInfoBuilder();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr Pkcs8EncryptedPrivateKeyInfoBuilder() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Pkcs8EncryptedPrivateKeyInfoBuilder", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  Pkcs8EncryptedPrivateKeyInfoBuilder(Pkcs8EncryptedPrivateKeyInfoBuilder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Pkcs8EncryptedPrivateKeyInfoBuilder", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  Pkcs8EncryptedPrivateKeyInfoBuilder(Pkcs8EncryptedPrivateKeyInfoBuilder const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "Pkcs8EncryptedPrivateKeyInfoBuilder", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+Pkcs8EncryptedPrivateKeyInfoBuilder(Pkcs8EncryptedPrivateKeyInfoBuilder && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1704 };
+// Ctor Parameters [CppParam { name: "", ty: "Pkcs8EncryptedPrivateKeyInfoBuilder", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+Pkcs8EncryptedPrivateKeyInfoBuilder(Pkcs8EncryptedPrivateKeyInfoBuilder const& ) = delete;
 
-  /// @brief Field privateKeyInfo, offset: 0x10, size: 0x8, def value: None
-  ::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo* ___privateKeyInfo;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{1704};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field privateKeyInfo, offset: 0x10, size: 0x8, def value: None
+ ::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo*  ___privateKeyInfo;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Org::BouncyCastle::Pkcs::Pkcs8EncryptedPrivateKeyInfoBuilder, ___privateKeyInfo) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Pkcs::Pkcs8EncryptedPrivateKeyInfoBuilder, 0x18>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Pkcs
+} // namespace end def Org::BouncyCastle::Pkcs
 NEED_NO_BOX(::Org::BouncyCastle::Pkcs::Pkcs8EncryptedPrivateKeyInfoBuilder);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Pkcs::Pkcs8EncryptedPrivateKeyInfoBuilder*, "Org.BouncyCastle.Pkcs", "Pkcs8EncryptedPrivateKeyInfoBuilder");

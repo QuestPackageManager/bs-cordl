@@ -3,4 +3,5 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "BGLib/MetaRemoteAssets/Platform/zzzz__SupportedPlatforms_def.hpp"
 // Ctor Parameters []
-constexpr ::BGLib::MetaRemoteAssets::Platform::SupportedPlatforms::SupportedPlatforms() {}
+constexpr ::BGLib::MetaRemoteAssets::Platform::SupportedPlatforms::SupportedPlatforms()   {
+}

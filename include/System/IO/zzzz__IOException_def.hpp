@@ -28,54 +28,54 @@ namespace System::IO {
 // CS Name: System.IO.IOException
 class CORDL_TYPE IOException : public ::System::SystemException {
 public:
-  // Declarations
-  static inline ::System::IO::IOException* New_ctor();
+// Declarations
+static inline ::System::IO::IOException* New_ctor() ;
 
-  static inline ::System::IO::IOException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
+static inline ::System::IO::IOException* New_ctor(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context) ;
 
-  static inline ::System::IO::IOException* New_ctor(::StringW message);
+static inline ::System::IO::IOException* New_ctor(::StringW  message) ;
 
-  static inline ::System::IO::IOException* New_ctor(::StringW message, int32_t hresult);
+static inline ::System::IO::IOException* New_ctor(::StringW  message, int32_t  hresult) ;
 
-  static inline ::System::IO::IOException* New_ctor(::StringW message, ::System::Exception* innerException);
+static inline ::System::IO::IOException* New_ctor(::StringW  message, ::System::Exception*  innerException) ;
 
-  /// @brief Method .ctor, addr 0x5a471c4, size 0x60, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5a476d0, size 0x60, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method .ctor, addr 0x5a46528, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
+/// @brief Method .ctor, addr 0x5a46a34, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context) ;
 
-  /// @brief Method .ctor, addr 0x5a456e8, size 0x24, virtual false, abstract: false, final false
-  inline void _ctor(::StringW message);
+/// @brief Method .ctor, addr 0x5a45bf4, size 0x24, virtual false, abstract: false, final false
+inline void _ctor(::StringW  message) ;
 
-  /// @brief Method .ctor, addr 0x5a47224, size 0x28, virtual false, abstract: false, final false
-  inline void _ctor(::StringW message, int32_t hresult);
+/// @brief Method .ctor, addr 0x5a47730, size 0x28, virtual false, abstract: false, final false
+inline void _ctor(::StringW  message, int32_t  hresult) ;
 
-  /// @brief Method .ctor, addr 0x5a4724c, size 0x24, virtual false, abstract: false, final false
-  inline void _ctor(::StringW message, ::System::Exception* innerException);
+/// @brief Method .ctor, addr 0x5a47758, size 0x24, virtual false, abstract: false, final false
+inline void _ctor(::StringW  message, ::System::Exception*  innerException) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr IOException();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr IOException() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IOException", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IOException(IOException&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IOException", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  IOException(IOException const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "IOException", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+IOException(IOException && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3847 };
+// Ctor Parameters [CppParam { name: "", ty: "IOException", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+IOException(IOException const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{3847};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::IO::IOException, 0x90>, "Size mismatch!");
 
-} // namespace System::IO
+} // namespace end def System::IO
 NEED_NO_BOX(::System::IO::IOException);
 DEFINE_IL2CPP_ARG_TYPE(::System::IO::IOException*, "System.IO", "IOException");

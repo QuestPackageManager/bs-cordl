@@ -21,43 +21,43 @@ namespace UnityEngine::InputSystem::Controls {
 // CS Name: UnityEngine.InputSystem.Controls.IntegerControl
 class CORDL_TYPE IntegerControl : public ::UnityEngine::InputSystem::InputControl_1<int32_t> {
 public:
-  // Declarations
-  /// @brief Method CalculateOptimizedControlDataType, addr 0x6345898, size 0xd4, virtual true, abstract: false, final false
-  inline ::UnityEngine::InputSystem::Utilities::FourCC CalculateOptimizedControlDataType();
+// Declarations
+/// @brief Method CalculateOptimizedControlDataType, addr 0x6345f58, size 0xd4, virtual true, abstract: false, final false
+inline ::UnityEngine::InputSystem::Utilities::FourCC CalculateOptimizedControlDataType() ;
 
-  static inline ::UnityEngine::InputSystem::Controls::IntegerControl* New_ctor();
+static inline ::UnityEngine::InputSystem::Controls::IntegerControl* New_ctor() ;
 
-  /// @brief Method ReadUnprocessedValueFromState, addr 0x6345738, size 0xac, virtual true, abstract: false, final false
-  inline int32_t ReadUnprocessedValueFromState(void* statePtr);
+/// @brief Method ReadUnprocessedValueFromState, addr 0x6345df8, size 0xac, virtual true, abstract: false, final false
+inline int32_t ReadUnprocessedValueFromState(void*  statePtr) ;
 
-  /// @brief Method WriteValueIntoState, addr 0x63457e4, size 0xb4, virtual true, abstract: false, final false
-  inline void WriteValueIntoState(int32_t value, void* statePtr);
+/// @brief Method WriteValueIntoState, addr 0x6345ea4, size 0xb4, virtual true, abstract: false, final false
+inline void WriteValueIntoState(int32_t  value, void*  statePtr) ;
 
-  /// @brief Method .ctor, addr 0x63456b4, size 0x84, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6345d74, size 0x84, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr IntegerControl();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr IntegerControl() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IntegerControl", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IntegerControl(IntegerControl&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IntegerControl", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  IntegerControl(IntegerControl const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "IntegerControl", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+IntegerControl(IntegerControl && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9109 };
+// Ctor Parameters [CppParam { name: "", ty: "IntegerControl", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+IntegerControl(IntegerControl const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{9113};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Controls::IntegerControl, 0x108>, "Size mismatch!");
 
-} // namespace UnityEngine::InputSystem::Controls
+} // namespace end def UnityEngine::InputSystem::Controls
 NEED_NO_BOX(::UnityEngine::InputSystem::Controls::IntegerControl);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Controls::IntegerControl*, "UnityEngine.InputSystem.Controls", "IntegerControl");

@@ -9,7 +9,8 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(Range)
 namespace System {
-template <typename T> class IEquatable_1;
+template<typename T>
+class IEquatable_1;
 }
 namespace System {
 struct Index;
@@ -29,59 +30,58 @@ namespace System {
 // CS Name: System.Range
 struct CORDL_TYPE Range {
 public:
-  // Declarations
-  __declspec(property(get = get_End)) ::System::Index End;
+// Declarations
+ __declspec(property(get=get_End)) ::System::Index  End;
 
-  __declspec(property(get = get_Start)) ::System::Index Start;
+ __declspec(property(get=get_Start)) ::System::Index  Start;
 
-  /// @brief Convert operator to "::System::IEquatable_1<::System::Range>"
-  constexpr operator ::System::IEquatable_1<::System::Range>*();
+/// @brief Convert operator to "::System::IEquatable_1<::System::Range>"
+constexpr operator  ::System::IEquatable_1<::System::Range>*() ;
 
-  /// @brief Method Equals, addr 0x5aa9e48, size 0x28, virtual true, abstract: false, final true
-  inline bool Equals(::System::Range other);
+/// @brief Method Equals, addr 0x5aaa354, size 0x28, virtual true, abstract: false, final true
+inline bool Equals(::System::Range  other) ;
 
-  /// @brief Method Equals, addr 0x5aa9dbc, size 0x8c, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* value);
+/// @brief Method Equals, addr 0x5aaa2c8, size 0x8c, virtual true, abstract: false, final false
+inline bool Equals(::System::Object*  value) ;
 
-  /// @brief Method GetHashCode, addr 0x5aa9e70, size 0x7c, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
+/// @brief Method GetHashCode, addr 0x5aaa37c, size 0x7c, virtual true, abstract: false, final false
+inline int32_t GetHashCode() ;
 
-  /// @brief Method ToString, addr 0x5aa9eec, size 0x240, virtual true, abstract: false, final false
-  inline ::StringW ToString();
+/// @brief Method ToString, addr 0x5aaa3f8, size 0x240, virtual true, abstract: false, final false
+inline ::StringW ToString() ;
 
-  /// @brief Method .ctor, addr 0x5aa9db4, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::System::Index start, ::System::Index end);
+/// @brief Method .ctor, addr 0x5aaa2c0, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(::System::Index  start, ::System::Index  end) ;
 
-  /// @brief Method get_End, addr 0x5aa9dac, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Index get_End();
+/// @brief Method get_End, addr 0x5aaa2b8, size 0x8, virtual false, abstract: false, final false
+inline ::System::Index get_End() ;
 
-  /// @brief Method get_Start, addr 0x5aa9da4, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Index get_Start();
+/// @brief Method get_Start, addr 0x5aaa2b0, size 0x8, virtual false, abstract: false, final false
+inline ::System::Index get_Start() ;
 
-  /// @brief Convert to "::System::IEquatable_1<::System::Range>"
-  constexpr ::System::IEquatable_1<::System::Range>* i___System__IEquatable_1___System__Range_();
+/// @brief Convert to "::System::IEquatable_1<::System::Range>"
+constexpr ::System::IEquatable_1<::System::Range>* i___System__IEquatable_1___System__Range_() ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Range();
+// Ctor Parameters []
+// @brief default ctor
+constexpr Range() ;
 
-  // Ctor Parameters [CppParam { name: "_Start_k__BackingField", ty: "::System::Index", modifiers: "", def_value: None }, CppParam { name: "_End_k__BackingField", ty: "::System::Index", modifiers: "",
-  // def_value: None }]
-  constexpr Range(::System::Index _Start_k__BackingField, ::System::Index _End_k__BackingField) noexcept;
+// Ctor Parameters [CppParam { name: "_Start_k__BackingField", ty: "::System::Index", modifiers: "", def_value: None }, CppParam { name: "_End_k__BackingField", ty: "::System::Index", modifiers: "", def_value: None }]
+constexpr Range(::System::Index  _Start_k__BackingField, ::System::Index  _End_k__BackingField) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2466 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{2466};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x8};
 
-  /// @brief Field <Start>k__BackingField, offset: 0x0, size: 0x4, def value: None
-  ::System::Index _Start_k__BackingField;
+/// @brief Field <Start>k__BackingField, offset: 0x0, size: 0x4, def value: None
+ ::System::Index  _Start_k__BackingField;
 
-  /// @brief Field <End>k__BackingField, offset: 0x4, size: 0x4, def value: None
-  ::System::Index _End_k__BackingField;
+/// @brief Field <End>k__BackingField, offset: 0x4, size: 0x4, def value: None
+ ::System::Index  _End_k__BackingField;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Range, _Start_k__BackingField) == 0x0, "Offset mismatch!");
@@ -90,5 +90,5 @@ static_assert(offsetof(::System::Range, _End_k__BackingField) == 0x4, "Offset mi
 
 static_assert(::cordl_internals::size_check_v<::System::Range, 0x8>, "Size mismatch!");
 
-} // namespace System
+} // namespace end def System
 DEFINE_IL2CPP_ARG_TYPE(::System::Range, "System", "Range");

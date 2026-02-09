@@ -29,155 +29,153 @@ namespace GlobalNamespace {
 // CS Name: SpectrogramRowPropertyAnimator
 class CORDL_TYPE SpectrogramRowPropertyAnimator : public ::UnityEngine::MonoBehaviour {
 public:
-  // Declarations
-  /// @brief Field _animationCurve, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__animationCurve, put = __cordl_internal_set__animationCurve)) ::UnityEngine::AnimationCurve* _animationCurve;
+// Declarations
+/// @brief Field _animationCurve, offset 0x40, size 0x8 
+ __declspec(property(get=__cordl_internal_get__animationCurve, put=__cordl_internal_set__animationCurve)) ::UnityEngine::AnimationCurve*  _animationCurve;
 
-  /// @brief Field _dataIndex, offset 0x28, size 0x4
-  __declspec(property(get = __cordl_internal_get__dataIndex, put = __cordl_internal_set__dataIndex)) int32_t _dataIndex;
+/// @brief Field _dataIndex, offset 0x28, size 0x4 
+ __declspec(property(get=__cordl_internal_get__dataIndex, put=__cordl_internal_set__dataIndex)) int32_t  _dataIndex;
 
-  /// @brief Field _isInitialized, offset 0x4c, size 0x1
-  __declspec(property(get = __cordl_internal_get__isInitialized, put = __cordl_internal_set__isInitialized)) bool _isInitialized;
+/// @brief Field _isInitialized, offset 0x4c, size 0x1 
+ __declspec(property(get=__cordl_internal_get__isInitialized, put=__cordl_internal_set__isInitialized)) bool  _isInitialized;
 
-  /// @brief Field _materialPropertyBlockController, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__materialPropertyBlockController,
-                      put = __cordl_internal_set__materialPropertyBlockController)) ::UnityW<::GlobalNamespace::MaterialPropertyBlockController>
-      _materialPropertyBlockController;
+/// @brief Field _materialPropertyBlockController, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get__materialPropertyBlockController, put=__cordl_internal_set__materialPropertyBlockController)) ::UnityW<::GlobalNamespace::MaterialPropertyBlockController>  _materialPropertyBlockController;
 
-  /// @brief Field _multiplier, offset 0x38, size 0x4
-  __declspec(property(get = __cordl_internal_get__multiplier, put = __cordl_internal_set__multiplier)) float_t _multiplier;
+/// @brief Field _multiplier, offset 0x38, size 0x4 
+ __declspec(property(get=__cordl_internal_get__multiplier, put=__cordl_internal_set__multiplier)) float_t  _multiplier;
 
-  /// @brief Field _propertyName, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__propertyName, put = __cordl_internal_set__propertyName)) ::StringW _propertyName;
+/// @brief Field _propertyName, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get__propertyName, put=__cordl_internal_set__propertyName)) ::StringW  _propertyName;
 
-  /// @brief Field _spectrogramData, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get__spectrogramData, put = __cordl_internal_set__spectrogramData)) ::UnityW<::GlobalNamespace::BasicSpectrogramData> _spectrogramData;
+/// @brief Field _spectrogramData, offset 0x58, size 0x8 
+ __declspec(property(get=__cordl_internal_get__spectrogramData, put=__cordl_internal_set__spectrogramData)) ::UnityW<::GlobalNamespace::BasicSpectrogramData>  _spectrogramData;
 
-  /// @brief Field _spectrogramValue, offset 0x50, size 0x4
-  __declspec(property(get = __cordl_internal_get__spectrogramValue, put = __cordl_internal_set__spectrogramValue)) float_t _spectrogramValue;
+/// @brief Field _spectrogramValue, offset 0x50, size 0x4 
+ __declspec(property(get=__cordl_internal_get__spectrogramValue, put=__cordl_internal_set__spectrogramValue)) float_t  _spectrogramValue;
 
-  /// @brief Field propertyId, offset 0x48, size 0x4
-  __declspec(property(get = __cordl_internal_get_propertyId, put = __cordl_internal_set_propertyId)) int32_t propertyId;
+/// @brief Field propertyId, offset 0x48, size 0x4 
+ __declspec(property(get=__cordl_internal_get_propertyId, put=__cordl_internal_set_propertyId)) int32_t  propertyId;
 
-  /// @brief Method Awake, addr 0x57f43f0, size 0x98, virtual false, abstract: false, final false
-  inline void Awake();
+/// @brief Method Awake, addr 0x57f4d20, size 0x98, virtual false, abstract: false, final false
+inline void Awake() ;
 
-  /// @brief Method LazyInit, addr 0x57f4488, size 0x34, virtual false, abstract: false, final false
-  inline void LazyInit();
+/// @brief Method LazyInit, addr 0x57f4db8, size 0x34, virtual false, abstract: false, final false
+inline void LazyInit() ;
 
-  static inline ::GlobalNamespace::SpectrogramRowPropertyAnimator* New_ctor();
+static inline ::GlobalNamespace::SpectrogramRowPropertyAnimator* New_ctor() ;
 
-  /// @brief Method SetMultiplier, addr 0x57f4564, size 0x8, virtual false, abstract: false, final false
-  inline void SetMultiplier(float_t value);
+/// @brief Method SetMultiplier, addr 0x57f4e94, size 0x8, virtual false, abstract: false, final false
+inline void SetMultiplier(float_t  value) ;
 
-  /// @brief Method SetProperty, addr 0x57f43c0, size 0x30, virtual true, abstract: false, final false
-  inline void SetProperty();
+/// @brief Method SetProperty, addr 0x57f4cf0, size 0x30, virtual true, abstract: false, final false
+inline void SetProperty() ;
 
-  /// @brief Method Update, addr 0x57f44bc, size 0xa8, virtual false, abstract: false, final false
-  inline void Update();
+/// @brief Method Update, addr 0x57f4dec, size 0xa8, virtual false, abstract: false, final false
+inline void Update() ;
 
-  constexpr ::UnityEngine::AnimationCurve* const& __cordl_internal_get__animationCurve() const;
+constexpr ::UnityEngine::AnimationCurve* const& __cordl_internal_get__animationCurve() const;
 
-  constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get__animationCurve();
+constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get__animationCurve() ;
 
-  constexpr int32_t const& __cordl_internal_get__dataIndex() const;
+constexpr int32_t const& __cordl_internal_get__dataIndex() const;
 
-  constexpr int32_t& __cordl_internal_get__dataIndex();
+constexpr int32_t& __cordl_internal_get__dataIndex() ;
 
-  constexpr bool const& __cordl_internal_get__isInitialized() const;
+constexpr bool const& __cordl_internal_get__isInitialized() const;
 
-  constexpr bool& __cordl_internal_get__isInitialized();
+constexpr bool& __cordl_internal_get__isInitialized() ;
 
-  constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> const& __cordl_internal_get__materialPropertyBlockController() const;
+constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> const& __cordl_internal_get__materialPropertyBlockController() const;
 
-  constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController>& __cordl_internal_get__materialPropertyBlockController();
+constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController>& __cordl_internal_get__materialPropertyBlockController() ;
 
-  constexpr float_t const& __cordl_internal_get__multiplier() const;
+constexpr float_t const& __cordl_internal_get__multiplier() const;
 
-  constexpr float_t& __cordl_internal_get__multiplier();
+constexpr float_t& __cordl_internal_get__multiplier() ;
 
-  constexpr ::StringW const& __cordl_internal_get__propertyName() const;
+constexpr ::StringW const& __cordl_internal_get__propertyName() const;
 
-  constexpr ::StringW& __cordl_internal_get__propertyName();
+constexpr ::StringW& __cordl_internal_get__propertyName() ;
 
-  constexpr ::UnityW<::GlobalNamespace::BasicSpectrogramData> const& __cordl_internal_get__spectrogramData() const;
+constexpr ::UnityW<::GlobalNamespace::BasicSpectrogramData> const& __cordl_internal_get__spectrogramData() const;
 
-  constexpr ::UnityW<::GlobalNamespace::BasicSpectrogramData>& __cordl_internal_get__spectrogramData();
+constexpr ::UnityW<::GlobalNamespace::BasicSpectrogramData>& __cordl_internal_get__spectrogramData() ;
 
-  constexpr float_t const& __cordl_internal_get__spectrogramValue() const;
+constexpr float_t const& __cordl_internal_get__spectrogramValue() const;
 
-  constexpr float_t& __cordl_internal_get__spectrogramValue();
+constexpr float_t& __cordl_internal_get__spectrogramValue() ;
 
-  constexpr int32_t const& __cordl_internal_get_propertyId() const;
+constexpr int32_t const& __cordl_internal_get_propertyId() const;
 
-  constexpr int32_t& __cordl_internal_get_propertyId();
+constexpr int32_t& __cordl_internal_get_propertyId() ;
 
-  constexpr void __cordl_internal_set__animationCurve(::UnityEngine::AnimationCurve* value);
+constexpr void __cordl_internal_set__animationCurve(::UnityEngine::AnimationCurve*  value) ;
 
-  constexpr void __cordl_internal_set__dataIndex(int32_t value);
+constexpr void __cordl_internal_set__dataIndex(int32_t  value) ;
 
-  constexpr void __cordl_internal_set__isInitialized(bool value);
+constexpr void __cordl_internal_set__isInitialized(bool  value) ;
 
-  constexpr void __cordl_internal_set__materialPropertyBlockController(::UnityW<::GlobalNamespace::MaterialPropertyBlockController> value);
+constexpr void __cordl_internal_set__materialPropertyBlockController(::UnityW<::GlobalNamespace::MaterialPropertyBlockController>  value) ;
 
-  constexpr void __cordl_internal_set__multiplier(float_t value);
+constexpr void __cordl_internal_set__multiplier(float_t  value) ;
 
-  constexpr void __cordl_internal_set__propertyName(::StringW value);
+constexpr void __cordl_internal_set__propertyName(::StringW  value) ;
 
-  constexpr void __cordl_internal_set__spectrogramData(::UnityW<::GlobalNamespace::BasicSpectrogramData> value);
+constexpr void __cordl_internal_set__spectrogramData(::UnityW<::GlobalNamespace::BasicSpectrogramData>  value) ;
 
-  constexpr void __cordl_internal_set__spectrogramValue(float_t value);
+constexpr void __cordl_internal_set__spectrogramValue(float_t  value) ;
 
-  constexpr void __cordl_internal_set_propertyId(int32_t value);
+constexpr void __cordl_internal_set_propertyId(int32_t  value) ;
 
-  /// @brief Method .ctor, addr 0x57f456c, size 0x3c, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x57f4e9c, size 0x3c, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SpectrogramRowPropertyAnimator();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr SpectrogramRowPropertyAnimator() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SpectrogramRowPropertyAnimator", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  SpectrogramRowPropertyAnimator(SpectrogramRowPropertyAnimator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SpectrogramRowPropertyAnimator", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  SpectrogramRowPropertyAnimator(SpectrogramRowPropertyAnimator const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "SpectrogramRowPropertyAnimator", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+SpectrogramRowPropertyAnimator(SpectrogramRowPropertyAnimator && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5960 };
+// Ctor Parameters [CppParam { name: "", ty: "SpectrogramRowPropertyAnimator", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+SpectrogramRowPropertyAnimator(SpectrogramRowPropertyAnimator const& ) = delete;
 
-  /// @brief Field _materialPropertyBlockController, offset: 0x20, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> ____materialPropertyBlockController;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{5960};
 
-  /// @brief Field _dataIndex, offset: 0x28, size: 0x4, def value: None
-  int32_t ____dataIndex;
+/// @brief Field _materialPropertyBlockController, offset: 0x20, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::MaterialPropertyBlockController>  ____materialPropertyBlockController;
 
-  /// @brief Field _propertyName, offset: 0x30, size: 0x8, def value: None
-  ::StringW ____propertyName;
+/// @brief Field _dataIndex, offset: 0x28, size: 0x4, def value: None
+ int32_t  ____dataIndex;
 
-  /// @brief Field _multiplier, offset: 0x38, size: 0x4, def value: None
-  float_t ____multiplier;
+/// @brief Field _propertyName, offset: 0x30, size: 0x8, def value: None
+ ::StringW  ____propertyName;
 
-  /// @brief Field _animationCurve, offset: 0x40, size: 0x8, def value: None
-  ::UnityEngine::AnimationCurve* ____animationCurve;
+/// @brief Field _multiplier, offset: 0x38, size: 0x4, def value: None
+ float_t  ____multiplier;
 
-  /// @brief Field propertyId, offset: 0x48, size: 0x4, def value: None
-  int32_t ___propertyId;
+/// @brief Field _animationCurve, offset: 0x40, size: 0x8, def value: None
+ ::UnityEngine::AnimationCurve*  ____animationCurve;
 
-  /// @brief Field _isInitialized, offset: 0x4c, size: 0x1, def value: None
-  bool ____isInitialized;
+/// @brief Field propertyId, offset: 0x48, size: 0x4, def value: None
+ int32_t  ___propertyId;
 
-  /// @brief Field _spectrogramValue, offset: 0x50, size: 0x4, def value: None
-  float_t ____spectrogramValue;
+/// @brief Field _isInitialized, offset: 0x4c, size: 0x1, def value: None
+ bool  ____isInitialized;
 
-  /// @brief Field _spectrogramData, offset: 0x58, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::BasicSpectrogramData> ____spectrogramData;
+/// @brief Field _spectrogramValue, offset: 0x50, size: 0x4, def value: None
+ float_t  ____spectrogramValue;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _spectrogramData, offset: 0x58, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::BasicSpectrogramData>  ____spectrogramData;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::SpectrogramRowPropertyAnimator, ____materialPropertyBlockController) == 0x20, "Offset mismatch!");
@@ -200,6 +198,6 @@ static_assert(offsetof(::GlobalNamespace::SpectrogramRowPropertyAnimator, ____sp
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SpectrogramRowPropertyAnimator, 0x60>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SpectrogramRowPropertyAnimator);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SpectrogramRowPropertyAnimator*, "", "SpectrogramRowPropertyAnimator");

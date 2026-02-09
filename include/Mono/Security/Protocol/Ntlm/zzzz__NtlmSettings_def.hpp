@@ -21,39 +21,39 @@ namespace Mono::Security::Protocol::Ntlm {
 // CS Name: Mono.Security.Protocol.Ntlm.NtlmSettings
 class CORDL_TYPE NtlmSettings : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field defaultAuthLevel, offset 0xffffffff, size 0x4
-  __declspec(property(get = getStaticF_defaultAuthLevel, put = setStaticF_defaultAuthLevel)) ::Mono::Security::Protocol::Ntlm::NtlmAuthLevel defaultAuthLevel;
+// Declarations
+/// @brief Field defaultAuthLevel, offset 0xffffffff, size 0x4 
+ __declspec(property(get=getStaticF_defaultAuthLevel, put=setStaticF_defaultAuthLevel)) ::Mono::Security::Protocol::Ntlm::NtlmAuthLevel  defaultAuthLevel;
 
-  static inline ::Mono::Security::Protocol::Ntlm::NtlmAuthLevel getStaticF_defaultAuthLevel();
+static inline ::Mono::Security::Protocol::Ntlm::NtlmAuthLevel getStaticF_defaultAuthLevel() ;
 
-  /// @brief Method get_DefaultAuthLevel, addr 0x58edc4c, size 0x5c, virtual false, abstract: false, final false
-  static inline ::Mono::Security::Protocol::Ntlm::NtlmAuthLevel get_DefaultAuthLevel();
+/// @brief Method get_DefaultAuthLevel, addr 0x58ee158, size 0x5c, virtual false, abstract: false, final false
+static inline ::Mono::Security::Protocol::Ntlm::NtlmAuthLevel get_DefaultAuthLevel() ;
 
-  static inline void setStaticF_defaultAuthLevel(::Mono::Security::Protocol::Ntlm::NtlmAuthLevel value);
+static inline void setStaticF_defaultAuthLevel(::Mono::Security::Protocol::Ntlm::NtlmAuthLevel  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NtlmSettings();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr NtlmSettings() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NtlmSettings", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  NtlmSettings(NtlmSettings&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NtlmSettings", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  NtlmSettings(NtlmSettings const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "NtlmSettings", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+NtlmSettings(NtlmSettings && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19264 };
+// Ctor Parameters [CppParam { name: "", ty: "NtlmSettings", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+NtlmSettings(NtlmSettings const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{19268};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Mono::Security::Protocol::Ntlm::NtlmSettings, 0x10>, "Size mismatch!");
 
-} // namespace Mono::Security::Protocol::Ntlm
+} // namespace end def Mono::Security::Protocol::Ntlm
 NEED_NO_BOX(::Mono::Security::Protocol::Ntlm::NtlmSettings);
 DEFINE_IL2CPP_ARG_TYPE(::Mono::Security::Protocol::Ntlm::NtlmSettings*, "Mono.Security.Protocol.Ntlm", "NtlmSettings");

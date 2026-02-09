@@ -31,50 +31,50 @@ namespace UnityEngine::Playables {
 // CS Name: UnityEngine.Playables.ScriptPlayableOutput
 struct CORDL_TYPE ScriptPlayableOutput {
 public:
-  // Declarations
-  /// @brief Convert operator to "::UnityEngine::Playables::IPlayableOutput"
-  constexpr operator ::UnityEngine::Playables::IPlayableOutput*();
+// Declarations
+/// @brief Convert operator to "::UnityEngine::Playables::IPlayableOutput"
+constexpr operator  ::UnityEngine::Playables::IPlayableOutput*() ;
 
-  /// @brief Method Create, addr 0x693b7d8, size 0x50, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Playables::ScriptPlayableOutput Create(::UnityEngine::Playables::PlayableGraph graph, ::StringW name);
+/// @brief Method Create, addr 0x693be98, size 0x50, virtual false, abstract: false, final false
+static inline ::UnityEngine::Playables::ScriptPlayableOutput Create(::UnityEngine::Playables::PlayableGraph  graph, ::StringW  name) ;
 
-  /// @brief Method GetHandle, addr 0x693b9bc, size 0xc, virtual true, abstract: false, final true
-  inline ::UnityEngine::Playables::PlayableOutputHandle GetHandle();
+/// @brief Method GetHandle, addr 0x693c07c, size 0xc, virtual true, abstract: false, final true
+inline ::UnityEngine::Playables::PlayableOutputHandle GetHandle() ;
 
-  /// @brief Method .ctor, addr 0x693b8a8, size 0x114, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::Playables::PlayableOutputHandle handle);
+/// @brief Method .ctor, addr 0x693bf68, size 0x114, virtual false, abstract: false, final false
+inline void _ctor(::UnityEngine::Playables::PlayableOutputHandle  handle) ;
 
-  /// @brief Method get_Null, addr 0x693b82c, size 0x7c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Playables::ScriptPlayableOutput get_Null();
+/// @brief Method get_Null, addr 0x693beec, size 0x7c, virtual false, abstract: false, final false
+static inline ::UnityEngine::Playables::ScriptPlayableOutput get_Null() ;
 
-  /// @brief Convert to "::UnityEngine::Playables::IPlayableOutput"
-  constexpr ::UnityEngine::Playables::IPlayableOutput* i___UnityEngine__Playables__IPlayableOutput();
+/// @brief Convert to "::UnityEngine::Playables::IPlayableOutput"
+constexpr ::UnityEngine::Playables::IPlayableOutput* i___UnityEngine__Playables__IPlayableOutput() ;
 
-  /// @brief Method op_Implicit, addr 0x693b828, size 0x4, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Playables::PlayableOutput op_Implicit___UnityEngine__Playables__PlayableOutput(::UnityEngine::Playables::ScriptPlayableOutput output);
+/// @brief Method op_Implicit, addr 0x693bee8, size 0x4, virtual false, abstract: false, final false
+static inline ::UnityEngine::Playables::PlayableOutput op_Implicit___UnityEngine__Playables__PlayableOutput(::UnityEngine::Playables::ScriptPlayableOutput  output) ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ScriptPlayableOutput();
+// Ctor Parameters []
+// @brief default ctor
+constexpr ScriptPlayableOutput() ;
 
-  // Ctor Parameters [CppParam { name: "m_Handle", ty: "::UnityEngine::Playables::PlayableOutputHandle", modifiers: "", def_value: None }]
-  constexpr ScriptPlayableOutput(::UnityEngine::Playables::PlayableOutputHandle m_Handle) noexcept;
+// Ctor Parameters [CppParam { name: "m_Handle", ty: "::UnityEngine::Playables::PlayableOutputHandle", modifiers: "", def_value: None }]
+constexpr ScriptPlayableOutput(::UnityEngine::Playables::PlayableOutputHandle  m_Handle) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10666 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10670};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x10};
 
-  /// @brief Field m_Handle, offset: 0x0, size: 0x10, def value: None
-  ::UnityEngine::Playables::PlayableOutputHandle m_Handle;
+/// @brief Field m_Handle, offset: 0x0, size: 0x10, def value: None
+ ::UnityEngine::Playables::PlayableOutputHandle  m_Handle;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Playables::ScriptPlayableOutput, m_Handle) == 0x0, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Playables::ScriptPlayableOutput, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine::Playables
+} // namespace end def UnityEngine::Playables
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Playables::ScriptPlayableOutput, "UnityEngine.Playables", "ScriptPlayableOutput");

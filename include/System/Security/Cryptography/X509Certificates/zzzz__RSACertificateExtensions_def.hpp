@@ -23,32 +23,32 @@ namespace System::Security::Cryptography::X509Certificates {
 // CS Name: System.Security.Cryptography.X509Certificates.RSACertificateExtensions
 class CORDL_TYPE RSACertificateExtensions : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method GetRSAPublicKey, addr 0x5da8468, size 0xe4, virtual false, abstract: false, final false
-  static inline ::System::Security::Cryptography::RSA* GetRSAPublicKey(::System::Security::Cryptography::X509Certificates::X509Certificate2* certificate);
+// Declarations
+/// @brief Method GetRSAPublicKey, addr 0x5da8b28, size 0xe4, virtual false, abstract: false, final false
+static inline ::System::Security::Cryptography::RSA* GetRSAPublicKey(::System::Security::Cryptography::X509Certificates::X509Certificate2*  certificate) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RSACertificateExtensions();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr RSACertificateExtensions() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RSACertificateExtensions", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  RSACertificateExtensions(RSACertificateExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RSACertificateExtensions", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  RSACertificateExtensions(RSACertificateExtensions const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "RSACertificateExtensions", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+RSACertificateExtensions(RSACertificateExtensions && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16028 };
+// Ctor Parameters [CppParam { name: "", ty: "RSACertificateExtensions", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+RSACertificateExtensions(RSACertificateExtensions const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{16032};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Security::Cryptography::X509Certificates::RSACertificateExtensions, 0x10>, "Size mismatch!");
 
-} // namespace System::Security::Cryptography::X509Certificates
+} // namespace end def System::Security::Cryptography::X509Certificates
 NEED_NO_BOX(::System::Security::Cryptography::X509Certificates::RSACertificateExtensions);
 DEFINE_IL2CPP_ARG_TYPE(::System::Security::Cryptography::X509Certificates::RSACertificateExtensions*, "System.Security.Cryptography.X509Certificates", "RSACertificateExtensions");

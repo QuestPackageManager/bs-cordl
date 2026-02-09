@@ -30,62 +30,61 @@ namespace Org::BouncyCastle::Operators {
 // CS Name: Org.BouncyCastle.Operators.CmsKeyTransRecipientInfoGenerator
 class CORDL_TYPE CmsKeyTransRecipientInfoGenerator : public ::Org::BouncyCastle::Cms::KeyTransRecipientInfoGenerator {
 public:
-  // Declarations
-  __declspec(property(get = get_AlgorithmDetails)) ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* AlgorithmDetails;
+// Declarations
+ __declspec(property(get=get_AlgorithmDetails)) ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*  AlgorithmDetails;
 
-  /// @brief Field keyWrapper, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_keyWrapper, put = __cordl_internal_set_keyWrapper)) ::Org::BouncyCastle::Crypto::IKeyWrapper* keyWrapper;
+/// @brief Field keyWrapper, offset 0x40, size 0x8 
+ __declspec(property(get=__cordl_internal_get_keyWrapper, put=__cordl_internal_set_keyWrapper)) ::Org::BouncyCastle::Crypto::IKeyWrapper*  keyWrapper;
 
-  /// @brief Method GenerateWrappedKey, addr 0x330f5a4, size 0x140, virtual true, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenerateWrappedKey(::Org::BouncyCastle::Crypto::Parameters::KeyParameter* contentKey);
+/// @brief Method GenerateWrappedKey, addr 0x330f4f4, size 0x140, virtual true, abstract: false, final false
+inline ::ArrayW<uint8_t,::Array<uint8_t>*> GenerateWrappedKey(::Org::BouncyCastle::Crypto::Parameters::KeyParameter*  contentKey) ;
 
-  static inline ::Org::BouncyCastle::Operators::CmsKeyTransRecipientInfoGenerator* New_ctor(::Org::BouncyCastle::X509::X509Certificate* recipCert,
-                                                                                            ::Org::BouncyCastle::Crypto::IKeyWrapper* keyWrapper);
+static inline ::Org::BouncyCastle::Operators::CmsKeyTransRecipientInfoGenerator* New_ctor(::Org::BouncyCastle::X509::X509Certificate*  recipCert, ::Org::BouncyCastle::Crypto::IKeyWrapper*  keyWrapper) ;
 
-  static inline ::Org::BouncyCastle::Operators::CmsKeyTransRecipientInfoGenerator* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> subjectKeyID, ::Org::BouncyCastle::Crypto::IKeyWrapper* keyWrapper);
+static inline ::Org::BouncyCastle::Operators::CmsKeyTransRecipientInfoGenerator* New_ctor(::ArrayW<uint8_t,::Array<uint8_t>*>  subjectKeyID, ::Org::BouncyCastle::Crypto::IKeyWrapper*  keyWrapper) ;
 
-  constexpr ::Org::BouncyCastle::Crypto::IKeyWrapper* const& __cordl_internal_get_keyWrapper() const;
+constexpr ::Org::BouncyCastle::Crypto::IKeyWrapper* const& __cordl_internal_get_keyWrapper() const;
 
-  constexpr ::Org::BouncyCastle::Crypto::IKeyWrapper*& __cordl_internal_get_keyWrapper();
+constexpr ::Org::BouncyCastle::Crypto::IKeyWrapper*& __cordl_internal_get_keyWrapper() ;
 
-  constexpr void __cordl_internal_set_keyWrapper(::Org::BouncyCastle::Crypto::IKeyWrapper* value);
+constexpr void __cordl_internal_set_keyWrapper(::Org::BouncyCastle::Crypto::IKeyWrapper*  value) ;
 
-  /// @brief Method .ctor, addr 0x330f300, size 0x138, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::X509::X509Certificate* recipCert, ::Org::BouncyCastle::Crypto::IKeyWrapper* keyWrapper);
+/// @brief Method .ctor, addr 0x330f250, size 0x138, virtual false, abstract: false, final false
+inline void _ctor(::Org::BouncyCastle::X509::X509Certificate*  recipCert, ::Org::BouncyCastle::Crypto::IKeyWrapper*  keyWrapper) ;
 
-  /// @brief Method .ctor, addr 0x330f438, size 0x78, virtual false, abstract: false, final false
-  inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> subjectKeyID, ::Org::BouncyCastle::Crypto::IKeyWrapper* keyWrapper);
+/// @brief Method .ctor, addr 0x330f388, size 0x78, virtual false, abstract: false, final false
+inline void _ctor(::ArrayW<uint8_t,::Array<uint8_t>*>  subjectKeyID, ::Org::BouncyCastle::Crypto::IKeyWrapper*  keyWrapper) ;
 
-  /// @brief Method get_AlgorithmDetails, addr 0x330f4b0, size 0xf4, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_AlgorithmDetails();
+/// @brief Method get_AlgorithmDetails, addr 0x330f400, size 0xf4, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_AlgorithmDetails() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CmsKeyTransRecipientInfoGenerator();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr CmsKeyTransRecipientInfoGenerator() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CmsKeyTransRecipientInfoGenerator", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  CmsKeyTransRecipientInfoGenerator(CmsKeyTransRecipientInfoGenerator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CmsKeyTransRecipientInfoGenerator", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  CmsKeyTransRecipientInfoGenerator(CmsKeyTransRecipientInfoGenerator const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "CmsKeyTransRecipientInfoGenerator", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+CmsKeyTransRecipientInfoGenerator(CmsKeyTransRecipientInfoGenerator && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 998 };
+// Ctor Parameters [CppParam { name: "", ty: "CmsKeyTransRecipientInfoGenerator", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+CmsKeyTransRecipientInfoGenerator(CmsKeyTransRecipientInfoGenerator const& ) = delete;
 
-  /// @brief Field keyWrapper, offset: 0x40, size: 0x8, def value: None
-  ::Org::BouncyCastle::Crypto::IKeyWrapper* ___keyWrapper;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{998};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field keyWrapper, offset: 0x40, size: 0x8, def value: None
+ ::Org::BouncyCastle::Crypto::IKeyWrapper*  ___keyWrapper;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Org::BouncyCastle::Operators::CmsKeyTransRecipientInfoGenerator, ___keyWrapper) == 0x40, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Operators::CmsKeyTransRecipientInfoGenerator, 0x48>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Operators
+} // namespace end def Org::BouncyCastle::Operators
 NEED_NO_BOX(::Org::BouncyCastle::Operators::CmsKeyTransRecipientInfoGenerator);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Operators::CmsKeyTransRecipientInfoGenerator*, "Org.BouncyCastle.Operators", "CmsKeyTransRecipientInfoGenerator");

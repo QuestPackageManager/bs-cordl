@@ -27,7 +27,8 @@ namespace GlobalNamespace {
 class ISaberSwingRatingCounter;
 }
 namespace GlobalNamespace {
-template <typename T> class LazyCopyHashSet_1;
+template<typename T>
+class LazyCopyHashSet_1;
 }
 namespace GlobalNamespace {
 struct NoteCutInfo;
@@ -50,249 +51,247 @@ namespace GlobalNamespace {
 // CS Name: CutScoreBuffer
 class CORDL_TYPE CutScoreBuffer : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field _afterCutScore, offset 0xb0, size 0x4
-  __declspec(property(get = __cordl_internal_get__afterCutScore, put = __cordl_internal_set__afterCutScore)) int32_t _afterCutScore;
+// Declarations
+/// @brief Field _afterCutScore, offset 0xb0, size 0x4 
+ __declspec(property(get=__cordl_internal_get__afterCutScore, put=__cordl_internal_set__afterCutScore)) int32_t  _afterCutScore;
 
-  /// @brief Field _beforeCutScore, offset 0xb4, size 0x4
-  __declspec(property(get = __cordl_internal_get__beforeCutScore, put = __cordl_internal_set__beforeCutScore)) int32_t _beforeCutScore;
+/// @brief Field _beforeCutScore, offset 0xb4, size 0x4 
+ __declspec(property(get=__cordl_internal_get__beforeCutScore, put=__cordl_internal_set__beforeCutScore)) int32_t  _beforeCutScore;
 
-  /// @brief Field _centerDistanceCutScore, offset 0xb8, size 0x4
-  __declspec(property(get = __cordl_internal_get__centerDistanceCutScore, put = __cordl_internal_set__centerDistanceCutScore)) int32_t _centerDistanceCutScore;
+/// @brief Field _centerDistanceCutScore, offset 0xb8, size 0x4 
+ __declspec(property(get=__cordl_internal_get__centerDistanceCutScore, put=__cordl_internal_set__centerDistanceCutScore)) int32_t  _centerDistanceCutScore;
 
-  /// @brief Field _didChangeEvent, offset 0xc8, size 0x8
-  __declspec(property(get = __cordl_internal_get__didChangeEvent,
-                      put = __cordl_internal_set__didChangeEvent)) ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ICutScoreBufferDidChangeReceiver*>* _didChangeEvent;
+/// @brief Field _didChangeEvent, offset 0xc8, size 0x8 
+ __declspec(property(get=__cordl_internal_get__didChangeEvent, put=__cordl_internal_set__didChangeEvent)) ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ICutScoreBufferDidChangeReceiver*>*  _didChangeEvent;
 
-  /// @brief Field _didFinishEvent, offset 0xc0, size 0x8
-  __declspec(property(get = __cordl_internal_get__didFinishEvent,
-                      put = __cordl_internal_set__didFinishEvent)) ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ICutScoreBufferDidFinishReceiver*>* _didFinishEvent;
+/// @brief Field _didFinishEvent, offset 0xc0, size 0x8 
+ __declspec(property(get=__cordl_internal_get__didFinishEvent, put=__cordl_internal_set__didFinishEvent)) ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ICutScoreBufferDidFinishReceiver*>*  _didFinishEvent;
 
-  /// @brief Field _initialized, offset 0xbc, size 0x1
-  __declspec(property(get = __cordl_internal_get__initialized, put = __cordl_internal_set__initialized)) bool _initialized;
+/// @brief Field _initialized, offset 0xbc, size 0x1 
+ __declspec(property(get=__cordl_internal_get__initialized, put=__cordl_internal_set__initialized)) bool  _initialized;
 
-  /// @brief Field _isFinished, offset 0xbd, size 0x1
-  __declspec(property(get = __cordl_internal_get__isFinished, put = __cordl_internal_set__isFinished)) bool _isFinished;
+/// @brief Field _isFinished, offset 0xbd, size 0x1 
+ __declspec(property(get=__cordl_internal_get__isFinished, put=__cordl_internal_set__isFinished)) bool  _isFinished;
 
-  /// @brief Field _noteCutInfo, offset 0x18, size 0x90
-  __declspec(property(get = __cordl_internal_get__noteCutInfo, put = __cordl_internal_set__noteCutInfo)) ::GlobalNamespace::NoteCutInfo _noteCutInfo;
+/// @brief Field _noteCutInfo, offset 0x18, size 0x90 
+ __declspec(property(get=__cordl_internal_get__noteCutInfo, put=__cordl_internal_set__noteCutInfo)) ::GlobalNamespace::NoteCutInfo  _noteCutInfo;
 
-  /// @brief Field _noteScoreDefinition, offset 0xa8, size 0x8
-  __declspec(property(get = __cordl_internal_get__noteScoreDefinition, put = __cordl_internal_set__noteScoreDefinition)) ::GlobalNamespace::ScoreModel_NoteScoreDefinition* _noteScoreDefinition;
+/// @brief Field _noteScoreDefinition, offset 0xa8, size 0x8 
+ __declspec(property(get=__cordl_internal_get__noteScoreDefinition, put=__cordl_internal_set__noteScoreDefinition)) ::GlobalNamespace::ScoreModel_NoteScoreDefinition*  _noteScoreDefinition;
 
-  /// @brief Field _saberSwingRatingCounter, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__saberSwingRatingCounter, put = __cordl_internal_set__saberSwingRatingCounter)) ::GlobalNamespace::SaberSwingRatingCounter* _saberSwingRatingCounter;
+/// @brief Field _saberSwingRatingCounter, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get__saberSwingRatingCounter, put=__cordl_internal_set__saberSwingRatingCounter)) ::GlobalNamespace::SaberSwingRatingCounter*  _saberSwingRatingCounter;
 
-  __declspec(property(get = get_afterCutScore)) int32_t afterCutScore;
+ __declspec(property(get=get_afterCutScore)) int32_t  afterCutScore;
 
-  __declspec(property(get = get_afterCutSwingRating)) float_t afterCutSwingRating;
+ __declspec(property(get=get_afterCutSwingRating)) float_t  afterCutSwingRating;
 
-  __declspec(property(get = get_beforeCutScore)) int32_t beforeCutScore;
+ __declspec(property(get=get_beforeCutScore)) int32_t  beforeCutScore;
 
-  __declspec(property(get = get_beforeCutSwingRating)) float_t beforeCutSwingRating;
+ __declspec(property(get=get_beforeCutSwingRating)) float_t  beforeCutSwingRating;
 
-  __declspec(property(get = get_centerDistanceCutScore)) int32_t centerDistanceCutScore;
+ __declspec(property(get=get_centerDistanceCutScore)) int32_t  centerDistanceCutScore;
 
-  __declspec(property(get = get_cutScore)) int32_t cutScore;
+ __declspec(property(get=get_cutScore)) int32_t  cutScore;
 
-  __declspec(property(get = get_executionOrder)) int32_t executionOrder;
+ __declspec(property(get=get_executionOrder)) int32_t  executionOrder;
 
-  __declspec(property(get = get_isFinished)) bool isFinished;
+ __declspec(property(get=get_isFinished)) bool  isFinished;
 
-  __declspec(property(get = get_maxPossibleCutScore)) int32_t maxPossibleCutScore;
+ __declspec(property(get=get_maxPossibleCutScore)) int32_t  maxPossibleCutScore;
 
-  __declspec(property(get = get_noteCutInfo)) ::GlobalNamespace::NoteCutInfo noteCutInfo;
+ __declspec(property(get=get_noteCutInfo)) ::GlobalNamespace::NoteCutInfo  noteCutInfo;
 
-  __declspec(property(get = get_noteScoreDefinition)) ::GlobalNamespace::ScoreModel_NoteScoreDefinition* noteScoreDefinition;
+ __declspec(property(get=get_noteScoreDefinition)) ::GlobalNamespace::ScoreModel_NoteScoreDefinition*  noteScoreDefinition;
 
-  /// @brief Convert operator to "::GlobalNamespace::IReadonlyCutScoreBuffer"
-  constexpr operator ::GlobalNamespace::IReadonlyCutScoreBuffer*() noexcept;
+/// @brief Convert operator to "::GlobalNamespace::IReadonlyCutScoreBuffer"
+constexpr operator  ::GlobalNamespace::IReadonlyCutScoreBuffer*() noexcept;
 
-  /// @brief Convert operator to "::GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver"
-  constexpr operator ::GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver*() noexcept;
+/// @brief Convert operator to "::GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver"
+constexpr operator  ::GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver*() noexcept;
 
-  /// @brief Convert operator to "::GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver"
-  constexpr operator ::GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver*() noexcept;
+/// @brief Convert operator to "::GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver"
+constexpr operator  ::GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver*() noexcept;
 
-  /// @brief Method HandleSaberSwingRatingCounterDidChange, addr 0x5846a34, size 0x1a8, virtual true, abstract: false, final true
-  inline void HandleSaberSwingRatingCounterDidChange(::GlobalNamespace::ISaberSwingRatingCounter* swingRatingCounter, float_t rating);
+/// @brief Method HandleSaberSwingRatingCounterDidChange, addr 0x5847364, size 0x1a8, virtual true, abstract: false, final true
+inline void HandleSaberSwingRatingCounterDidChange(::GlobalNamespace::ISaberSwingRatingCounter*  swingRatingCounter, float_t  rating) ;
 
-  /// @brief Method HandleSaberSwingRatingCounterDidFinish, addr 0x5846bdc, size 0x290, virtual true, abstract: false, final true
-  inline void HandleSaberSwingRatingCounterDidFinish(::GlobalNamespace::ISaberSwingRatingCounter* swingRatingCounter);
+/// @brief Method HandleSaberSwingRatingCounterDidFinish, addr 0x584750c, size 0x290, virtual true, abstract: false, final true
+inline void HandleSaberSwingRatingCounterDidFinish(::GlobalNamespace::ISaberSwingRatingCounter*  swingRatingCounter) ;
 
-  /// @brief Method Init, addr 0x58465c4, size 0x26c, virtual false, abstract: false, final false
-  inline bool Init(::ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo);
+/// @brief Method Init, addr 0x5846ef4, size 0x26c, virtual false, abstract: false, final false
+inline bool Init(::ByRef<::GlobalNamespace::NoteCutInfo>  noteCutInfo) ;
 
-  static inline ::GlobalNamespace::CutScoreBuffer* New_ctor();
+static inline ::GlobalNamespace::CutScoreBuffer* New_ctor() ;
 
-  /// @brief Method RefreshScores, addr 0x5846830, size 0x204, virtual false, abstract: false, final false
-  inline void RefreshScores();
+/// @brief Method RefreshScores, addr 0x5847160, size 0x204, virtual false, abstract: false, final false
+inline void RefreshScores() ;
 
-  /// @brief Method RegisterDidChangeReceiver, addr 0x5846434, size 0x64, virtual true, abstract: false, final true
-  inline void RegisterDidChangeReceiver(::GlobalNamespace::ICutScoreBufferDidChangeReceiver* receiver);
+/// @brief Method RegisterDidChangeReceiver, addr 0x5846d64, size 0x64, virtual true, abstract: false, final true
+inline void RegisterDidChangeReceiver(::GlobalNamespace::ICutScoreBufferDidChangeReceiver*  receiver) ;
 
-  /// @brief Method RegisterDidFinishReceiver, addr 0x5846498, size 0x64, virtual true, abstract: false, final true
-  inline void RegisterDidFinishReceiver(::GlobalNamespace::ICutScoreBufferDidFinishReceiver* receiver);
+/// @brief Method RegisterDidFinishReceiver, addr 0x5846dc8, size 0x64, virtual true, abstract: false, final true
+inline void RegisterDidFinishReceiver(::GlobalNamespace::ICutScoreBufferDidFinishReceiver*  receiver) ;
 
-  /// @brief Method UnregisterDidChangeReceiver, addr 0x58464fc, size 0x64, virtual true, abstract: false, final true
-  inline void UnregisterDidChangeReceiver(::GlobalNamespace::ICutScoreBufferDidChangeReceiver* receiver);
+/// @brief Method UnregisterDidChangeReceiver, addr 0x5846e2c, size 0x64, virtual true, abstract: false, final true
+inline void UnregisterDidChangeReceiver(::GlobalNamespace::ICutScoreBufferDidChangeReceiver*  receiver) ;
 
-  /// @brief Method UnregisterDidFinishReceiver, addr 0x5846560, size 0x64, virtual true, abstract: false, final true
-  inline void UnregisterDidFinishReceiver(::GlobalNamespace::ICutScoreBufferDidFinishReceiver* receiver);
+/// @brief Method UnregisterDidFinishReceiver, addr 0x5846e90, size 0x64, virtual true, abstract: false, final true
+inline void UnregisterDidFinishReceiver(::GlobalNamespace::ICutScoreBufferDidFinishReceiver*  receiver) ;
 
-  constexpr int32_t const& __cordl_internal_get__afterCutScore() const;
+constexpr int32_t const& __cordl_internal_get__afterCutScore() const;
 
-  constexpr int32_t& __cordl_internal_get__afterCutScore();
+constexpr int32_t& __cordl_internal_get__afterCutScore() ;
 
-  constexpr int32_t const& __cordl_internal_get__beforeCutScore() const;
+constexpr int32_t const& __cordl_internal_get__beforeCutScore() const;
 
-  constexpr int32_t& __cordl_internal_get__beforeCutScore();
+constexpr int32_t& __cordl_internal_get__beforeCutScore() ;
 
-  constexpr int32_t const& __cordl_internal_get__centerDistanceCutScore() const;
+constexpr int32_t const& __cordl_internal_get__centerDistanceCutScore() const;
 
-  constexpr int32_t& __cordl_internal_get__centerDistanceCutScore();
+constexpr int32_t& __cordl_internal_get__centerDistanceCutScore() ;
 
-  constexpr ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ICutScoreBufferDidChangeReceiver*>* const& __cordl_internal_get__didChangeEvent() const;
+constexpr ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ICutScoreBufferDidChangeReceiver*>* const& __cordl_internal_get__didChangeEvent() const;
 
-  constexpr ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ICutScoreBufferDidChangeReceiver*>*& __cordl_internal_get__didChangeEvent();
+constexpr ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ICutScoreBufferDidChangeReceiver*>*& __cordl_internal_get__didChangeEvent() ;
 
-  constexpr ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ICutScoreBufferDidFinishReceiver*>* const& __cordl_internal_get__didFinishEvent() const;
+constexpr ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ICutScoreBufferDidFinishReceiver*>* const& __cordl_internal_get__didFinishEvent() const;
 
-  constexpr ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ICutScoreBufferDidFinishReceiver*>*& __cordl_internal_get__didFinishEvent();
+constexpr ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ICutScoreBufferDidFinishReceiver*>*& __cordl_internal_get__didFinishEvent() ;
 
-  constexpr bool const& __cordl_internal_get__initialized() const;
+constexpr bool const& __cordl_internal_get__initialized() const;
 
-  constexpr bool& __cordl_internal_get__initialized();
+constexpr bool& __cordl_internal_get__initialized() ;
 
-  constexpr bool const& __cordl_internal_get__isFinished() const;
+constexpr bool const& __cordl_internal_get__isFinished() const;
 
-  constexpr bool& __cordl_internal_get__isFinished();
+constexpr bool& __cordl_internal_get__isFinished() ;
 
-  constexpr ::GlobalNamespace::NoteCutInfo const& __cordl_internal_get__noteCutInfo() const;
+constexpr ::GlobalNamespace::NoteCutInfo const& __cordl_internal_get__noteCutInfo() const;
 
-  constexpr ::GlobalNamespace::NoteCutInfo& __cordl_internal_get__noteCutInfo();
+constexpr ::GlobalNamespace::NoteCutInfo& __cordl_internal_get__noteCutInfo() ;
 
-  constexpr ::GlobalNamespace::ScoreModel_NoteScoreDefinition* const& __cordl_internal_get__noteScoreDefinition() const;
+constexpr ::GlobalNamespace::ScoreModel_NoteScoreDefinition* const& __cordl_internal_get__noteScoreDefinition() const;
 
-  constexpr ::GlobalNamespace::ScoreModel_NoteScoreDefinition*& __cordl_internal_get__noteScoreDefinition();
+constexpr ::GlobalNamespace::ScoreModel_NoteScoreDefinition*& __cordl_internal_get__noteScoreDefinition() ;
 
-  constexpr ::GlobalNamespace::SaberSwingRatingCounter* const& __cordl_internal_get__saberSwingRatingCounter() const;
+constexpr ::GlobalNamespace::SaberSwingRatingCounter* const& __cordl_internal_get__saberSwingRatingCounter() const;
 
-  constexpr ::GlobalNamespace::SaberSwingRatingCounter*& __cordl_internal_get__saberSwingRatingCounter();
+constexpr ::GlobalNamespace::SaberSwingRatingCounter*& __cordl_internal_get__saberSwingRatingCounter() ;
 
-  constexpr void __cordl_internal_set__afterCutScore(int32_t value);
+constexpr void __cordl_internal_set__afterCutScore(int32_t  value) ;
 
-  constexpr void __cordl_internal_set__beforeCutScore(int32_t value);
+constexpr void __cordl_internal_set__beforeCutScore(int32_t  value) ;
 
-  constexpr void __cordl_internal_set__centerDistanceCutScore(int32_t value);
+constexpr void __cordl_internal_set__centerDistanceCutScore(int32_t  value) ;
 
-  constexpr void __cordl_internal_set__didChangeEvent(::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ICutScoreBufferDidChangeReceiver*>* value);
+constexpr void __cordl_internal_set__didChangeEvent(::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ICutScoreBufferDidChangeReceiver*>*  value) ;
 
-  constexpr void __cordl_internal_set__didFinishEvent(::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ICutScoreBufferDidFinishReceiver*>* value);
+constexpr void __cordl_internal_set__didFinishEvent(::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ICutScoreBufferDidFinishReceiver*>*  value) ;
 
-  constexpr void __cordl_internal_set__initialized(bool value);
+constexpr void __cordl_internal_set__initialized(bool  value) ;
 
-  constexpr void __cordl_internal_set__isFinished(bool value);
+constexpr void __cordl_internal_set__isFinished(bool  value) ;
 
-  constexpr void __cordl_internal_set__noteCutInfo(::GlobalNamespace::NoteCutInfo value);
+constexpr void __cordl_internal_set__noteCutInfo(::GlobalNamespace::NoteCutInfo  value) ;
 
-  constexpr void __cordl_internal_set__noteScoreDefinition(::GlobalNamespace::ScoreModel_NoteScoreDefinition* value);
+constexpr void __cordl_internal_set__noteScoreDefinition(::GlobalNamespace::ScoreModel_NoteScoreDefinition*  value) ;
 
-  constexpr void __cordl_internal_set__saberSwingRatingCounter(::GlobalNamespace::SaberSwingRatingCounter* value);
+constexpr void __cordl_internal_set__saberSwingRatingCounter(::GlobalNamespace::SaberSwingRatingCounter*  value) ;
 
-  /// @brief Method .ctor, addr 0x5846e6c, size 0x10c, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x584779c, size 0x10c, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_afterCutScore, addr 0x58463e4, size 0x8, virtual true, abstract: false, final true
-  inline int32_t get_afterCutScore();
+/// @brief Method get_afterCutScore, addr 0x5846d14, size 0x8, virtual true, abstract: false, final true
+inline int32_t get_afterCutScore() ;
 
-  /// @brief Method get_afterCutSwingRating, addr 0x584641c, size 0x18, virtual true, abstract: false, final true
-  inline float_t get_afterCutSwingRating();
+/// @brief Method get_afterCutSwingRating, addr 0x5846d4c, size 0x18, virtual true, abstract: false, final true
+inline float_t get_afterCutSwingRating() ;
 
-  /// @brief Method get_beforeCutScore, addr 0x58463d4, size 0x8, virtual true, abstract: false, final true
-  inline int32_t get_beforeCutScore();
+/// @brief Method get_beforeCutScore, addr 0x5846d04, size 0x8, virtual true, abstract: false, final true
+inline int32_t get_beforeCutScore() ;
 
-  /// @brief Method get_beforeCutSwingRating, addr 0x5846404, size 0x18, virtual true, abstract: false, final true
-  inline float_t get_beforeCutSwingRating();
+/// @brief Method get_beforeCutSwingRating, addr 0x5846d34, size 0x18, virtual true, abstract: false, final true
+inline float_t get_beforeCutSwingRating() ;
 
-  /// @brief Method get_centerDistanceCutScore, addr 0x58463dc, size 0x8, virtual true, abstract: false, final true
-  inline int32_t get_centerDistanceCutScore();
+/// @brief Method get_centerDistanceCutScore, addr 0x5846d0c, size 0x8, virtual true, abstract: false, final true
+inline int32_t get_centerDistanceCutScore() ;
 
-  /// @brief Method get_cutScore, addr 0x58463a8, size 0x2c, virtual true, abstract: false, final true
-  inline int32_t get_cutScore();
+/// @brief Method get_cutScore, addr 0x5846cd8, size 0x2c, virtual true, abstract: false, final true
+inline int32_t get_cutScore() ;
 
-  /// @brief Method get_executionOrder, addr 0x5846348, size 0x2c, virtual false, abstract: false, final false
-  inline int32_t get_executionOrder();
+/// @brief Method get_executionOrder, addr 0x5846c78, size 0x2c, virtual false, abstract: false, final false
+inline int32_t get_executionOrder() ;
 
-  /// @brief Method get_isFinished, addr 0x58463a0, size 0x8, virtual true, abstract: false, final true
-  inline bool get_isFinished();
+/// @brief Method get_isFinished, addr 0x5846cd0, size 0x8, virtual true, abstract: false, final true
+inline bool get_isFinished() ;
 
-  /// @brief Method get_maxPossibleCutScore, addr 0x5846374, size 0x2c, virtual true, abstract: false, final true
-  inline int32_t get_maxPossibleCutScore();
+/// @brief Method get_maxPossibleCutScore, addr 0x5846ca4, size 0x2c, virtual true, abstract: false, final true
+inline int32_t get_maxPossibleCutScore() ;
 
-  /// @brief Method get_noteCutInfo, addr 0x58463f4, size 0x10, virtual true, abstract: false, final true
-  inline ::GlobalNamespace::NoteCutInfo get_noteCutInfo();
+/// @brief Method get_noteCutInfo, addr 0x5846d24, size 0x10, virtual true, abstract: false, final true
+inline ::GlobalNamespace::NoteCutInfo get_noteCutInfo() ;
 
-  /// @brief Method get_noteScoreDefinition, addr 0x58463ec, size 0x8, virtual true, abstract: false, final true
-  inline ::GlobalNamespace::ScoreModel_NoteScoreDefinition* get_noteScoreDefinition();
+/// @brief Method get_noteScoreDefinition, addr 0x5846d1c, size 0x8, virtual true, abstract: false, final true
+inline ::GlobalNamespace::ScoreModel_NoteScoreDefinition* get_noteScoreDefinition() ;
 
-  /// @brief Convert to "::GlobalNamespace::IReadonlyCutScoreBuffer"
-  constexpr ::GlobalNamespace::IReadonlyCutScoreBuffer* i___GlobalNamespace__IReadonlyCutScoreBuffer() noexcept;
+/// @brief Convert to "::GlobalNamespace::IReadonlyCutScoreBuffer"
+constexpr ::GlobalNamespace::IReadonlyCutScoreBuffer* i___GlobalNamespace__IReadonlyCutScoreBuffer() noexcept;
 
-  /// @brief Convert to "::GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver"
-  constexpr ::GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver* i___GlobalNamespace__ISaberSwingRatingCounterDidChangeReceiver() noexcept;
+/// @brief Convert to "::GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver"
+constexpr ::GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver* i___GlobalNamespace__ISaberSwingRatingCounterDidChangeReceiver() noexcept;
 
-  /// @brief Convert to "::GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver"
-  constexpr ::GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver* i___GlobalNamespace__ISaberSwingRatingCounterDidFinishReceiver() noexcept;
+/// @brief Convert to "::GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver"
+constexpr ::GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver* i___GlobalNamespace__ISaberSwingRatingCounterDidFinishReceiver() noexcept;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CutScoreBuffer();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr CutScoreBuffer() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CutScoreBuffer", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  CutScoreBuffer(CutScoreBuffer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CutScoreBuffer", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  CutScoreBuffer(CutScoreBuffer const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "CutScoreBuffer", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+CutScoreBuffer(CutScoreBuffer && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6258 };
+// Ctor Parameters [CppParam { name: "", ty: "CutScoreBuffer", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+CutScoreBuffer(CutScoreBuffer const& ) = delete;
 
-  /// @brief Field _saberSwingRatingCounter, offset: 0x10, size: 0x8, def value: None
-  ::GlobalNamespace::SaberSwingRatingCounter* ____saberSwingRatingCounter;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6258};
 
-  /// @brief Field _noteCutInfo, offset: 0x18, size: 0x90, def value: None
-  ::GlobalNamespace::NoteCutInfo ____noteCutInfo;
+/// @brief Field _saberSwingRatingCounter, offset: 0x10, size: 0x8, def value: None
+ ::GlobalNamespace::SaberSwingRatingCounter*  ____saberSwingRatingCounter;
 
-  /// @brief Field _noteScoreDefinition, offset: 0xa8, size: 0x8, def value: None
-  ::GlobalNamespace::ScoreModel_NoteScoreDefinition* ____noteScoreDefinition;
+/// @brief Field _noteCutInfo, offset: 0x18, size: 0x90, def value: None
+ ::GlobalNamespace::NoteCutInfo  ____noteCutInfo;
 
-  /// @brief Field _afterCutScore, offset: 0xb0, size: 0x4, def value: None
-  int32_t ____afterCutScore;
+/// @brief Field _noteScoreDefinition, offset: 0xa8, size: 0x8, def value: None
+ ::GlobalNamespace::ScoreModel_NoteScoreDefinition*  ____noteScoreDefinition;
 
-  /// @brief Field _beforeCutScore, offset: 0xb4, size: 0x4, def value: None
-  int32_t ____beforeCutScore;
+/// @brief Field _afterCutScore, offset: 0xb0, size: 0x4, def value: None
+ int32_t  ____afterCutScore;
 
-  /// @brief Field _centerDistanceCutScore, offset: 0xb8, size: 0x4, def value: None
-  int32_t ____centerDistanceCutScore;
+/// @brief Field _beforeCutScore, offset: 0xb4, size: 0x4, def value: None
+ int32_t  ____beforeCutScore;
 
-  /// @brief Field _initialized, offset: 0xbc, size: 0x1, def value: None
-  bool ____initialized;
+/// @brief Field _centerDistanceCutScore, offset: 0xb8, size: 0x4, def value: None
+ int32_t  ____centerDistanceCutScore;
 
-  /// @brief Field _isFinished, offset: 0xbd, size: 0x1, def value: None
-  bool ____isFinished;
+/// @brief Field _initialized, offset: 0xbc, size: 0x1, def value: None
+ bool  ____initialized;
 
-  /// @brief Field _didFinishEvent, offset: 0xc0, size: 0x8, def value: None
-  ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ICutScoreBufferDidFinishReceiver*>* ____didFinishEvent;
+/// @brief Field _isFinished, offset: 0xbd, size: 0x1, def value: None
+ bool  ____isFinished;
 
-  /// @brief Field _didChangeEvent, offset: 0xc8, size: 0x8, def value: None
-  ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ICutScoreBufferDidChangeReceiver*>* ____didChangeEvent;
+/// @brief Field _didFinishEvent, offset: 0xc0, size: 0x8, def value: None
+ ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ICutScoreBufferDidFinishReceiver*>*  ____didFinishEvent;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _didChangeEvent, offset: 0xc8, size: 0x8, def value: None
+ ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ICutScoreBufferDidChangeReceiver*>*  ____didChangeEvent;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::CutScoreBuffer, ____saberSwingRatingCounter) == 0x10, "Offset mismatch!");
@@ -317,6 +316,6 @@ static_assert(offsetof(::GlobalNamespace::CutScoreBuffer, ____didChangeEvent) ==
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::CutScoreBuffer, 0xd0>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::CutScoreBuffer);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::CutScoreBuffer*, "", "CutScoreBuffer");

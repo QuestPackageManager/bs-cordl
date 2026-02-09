@@ -27,116 +27,115 @@ namespace GlobalNamespace {
 // CS Name: CubemapTest
 class CORDL_TYPE CubemapTest : public ::UnityEngine::MonoBehaviour {
 public:
-  // Declarations
-  /// @brief Field _camera, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__camera, put = __cordl_internal_set__camera)) ::UnityW<::UnityEngine::Camera> _camera;
+// Declarations
+/// @brief Field _camera, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get__camera, put=__cordl_internal_set__camera)) ::UnityW<::UnityEngine::Camera>  _camera;
 
-  /// @brief Field _cubePropertyId, offset 0xffffffff, size 0x4
-  __declspec(property(get = getStaticF__cubePropertyId, put = setStaticF__cubePropertyId)) int32_t _cubePropertyId;
+/// @brief Field _cubePropertyId, offset 0xffffffff, size 0x4 
+ __declspec(property(get=getStaticF__cubePropertyId, put=setStaticF__cubePropertyId)) int32_t  _cubePropertyId;
 
-  /// @brief Field _cubemapFlatTexture, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__cubemapFlatTexture, put = __cordl_internal_set__cubemapFlatTexture)) ::UnityW<::UnityEngine::RenderTexture> _cubemapFlatTexture;
+/// @brief Field _cubemapFlatTexture, offset 0x48, size 0x8 
+ __declspec(property(get=__cordl_internal_get__cubemapFlatTexture, put=__cordl_internal_set__cubemapFlatTexture)) ::UnityW<::UnityEngine::RenderTexture>  _cubemapFlatTexture;
 
-  /// @brief Field _cubemapMaterial, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__cubemapMaterial, put = __cordl_internal_set__cubemapMaterial)) ::UnityW<::UnityEngine::Material> _cubemapMaterial;
+/// @brief Field _cubemapMaterial, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get__cubemapMaterial, put=__cordl_internal_set__cubemapMaterial)) ::UnityW<::UnityEngine::Material>  _cubemapMaterial;
 
-  /// @brief Field _cubemapRenderTexture, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__cubemapRenderTexture, put = __cordl_internal_set__cubemapRenderTexture)) ::UnityW<::UnityEngine::RenderTexture> _cubemapRenderTexture;
+/// @brief Field _cubemapRenderTexture, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get__cubemapRenderTexture, put=__cordl_internal_set__cubemapRenderTexture)) ::UnityW<::UnityEngine::RenderTexture>  _cubemapRenderTexture;
 
-  /// @brief Field _downsampledCubemapRenderTexture, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__downsampledCubemapRenderTexture, put = __cordl_internal_set__downsampledCubemapRenderTexture)) ::UnityW<::UnityEngine::RenderTexture>
-      _downsampledCubemapRenderTexture;
+/// @brief Field _downsampledCubemapRenderTexture, offset 0x40, size 0x8 
+ __declspec(property(get=__cordl_internal_get__downsampledCubemapRenderTexture, put=__cordl_internal_set__downsampledCubemapRenderTexture)) ::UnityW<::UnityEngine::RenderTexture>  _downsampledCubemapRenderTexture;
 
-  /// @brief Field _flatMaterial, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__flatMaterial, put = __cordl_internal_set__flatMaterial)) ::UnityW<::UnityEngine::Material> _flatMaterial;
+/// @brief Field _flatMaterial, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get__flatMaterial, put=__cordl_internal_set__flatMaterial)) ::UnityW<::UnityEngine::Material>  _flatMaterial;
 
-  static inline ::GlobalNamespace::CubemapTest* New_ctor();
+static inline ::GlobalNamespace::CubemapTest* New_ctor() ;
 
-  /// @brief Method Start, addr 0x5751504, size 0x80, virtual false, abstract: false, final false
-  inline void Start();
+/// @brief Method Start, addr 0x5751e38, size 0x80, virtual false, abstract: false, final false
+inline void Start() ;
 
-  /// @brief Method Update, addr 0x5751584, size 0x25c, virtual false, abstract: false, final false
-  inline void Update();
+/// @brief Method Update, addr 0x5751eb8, size 0x25c, virtual false, abstract: false, final false
+inline void Update() ;
 
-  constexpr ::UnityW<::UnityEngine::Camera> const& __cordl_internal_get__camera() const;
+constexpr ::UnityW<::UnityEngine::Camera> const& __cordl_internal_get__camera() const;
 
-  constexpr ::UnityW<::UnityEngine::Camera>& __cordl_internal_get__camera();
+constexpr ::UnityW<::UnityEngine::Camera>& __cordl_internal_get__camera() ;
 
-  constexpr ::UnityW<::UnityEngine::RenderTexture> const& __cordl_internal_get__cubemapFlatTexture() const;
+constexpr ::UnityW<::UnityEngine::RenderTexture> const& __cordl_internal_get__cubemapFlatTexture() const;
 
-  constexpr ::UnityW<::UnityEngine::RenderTexture>& __cordl_internal_get__cubemapFlatTexture();
+constexpr ::UnityW<::UnityEngine::RenderTexture>& __cordl_internal_get__cubemapFlatTexture() ;
 
-  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get__cubemapMaterial() const;
+constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get__cubemapMaterial() const;
 
-  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get__cubemapMaterial();
+constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get__cubemapMaterial() ;
 
-  constexpr ::UnityW<::UnityEngine::RenderTexture> const& __cordl_internal_get__cubemapRenderTexture() const;
+constexpr ::UnityW<::UnityEngine::RenderTexture> const& __cordl_internal_get__cubemapRenderTexture() const;
 
-  constexpr ::UnityW<::UnityEngine::RenderTexture>& __cordl_internal_get__cubemapRenderTexture();
+constexpr ::UnityW<::UnityEngine::RenderTexture>& __cordl_internal_get__cubemapRenderTexture() ;
 
-  constexpr ::UnityW<::UnityEngine::RenderTexture> const& __cordl_internal_get__downsampledCubemapRenderTexture() const;
+constexpr ::UnityW<::UnityEngine::RenderTexture> const& __cordl_internal_get__downsampledCubemapRenderTexture() const;
 
-  constexpr ::UnityW<::UnityEngine::RenderTexture>& __cordl_internal_get__downsampledCubemapRenderTexture();
+constexpr ::UnityW<::UnityEngine::RenderTexture>& __cordl_internal_get__downsampledCubemapRenderTexture() ;
 
-  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get__flatMaterial() const;
+constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get__flatMaterial() const;
 
-  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get__flatMaterial();
+constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get__flatMaterial() ;
 
-  constexpr void __cordl_internal_set__camera(::UnityW<::UnityEngine::Camera> value);
+constexpr void __cordl_internal_set__camera(::UnityW<::UnityEngine::Camera>  value) ;
 
-  constexpr void __cordl_internal_set__cubemapFlatTexture(::UnityW<::UnityEngine::RenderTexture> value);
+constexpr void __cordl_internal_set__cubemapFlatTexture(::UnityW<::UnityEngine::RenderTexture>  value) ;
 
-  constexpr void __cordl_internal_set__cubemapMaterial(::UnityW<::UnityEngine::Material> value);
+constexpr void __cordl_internal_set__cubemapMaterial(::UnityW<::UnityEngine::Material>  value) ;
 
-  constexpr void __cordl_internal_set__cubemapRenderTexture(::UnityW<::UnityEngine::RenderTexture> value);
+constexpr void __cordl_internal_set__cubemapRenderTexture(::UnityW<::UnityEngine::RenderTexture>  value) ;
 
-  constexpr void __cordl_internal_set__downsampledCubemapRenderTexture(::UnityW<::UnityEngine::RenderTexture> value);
+constexpr void __cordl_internal_set__downsampledCubemapRenderTexture(::UnityW<::UnityEngine::RenderTexture>  value) ;
 
-  constexpr void __cordl_internal_set__flatMaterial(::UnityW<::UnityEngine::Material> value);
+constexpr void __cordl_internal_set__flatMaterial(::UnityW<::UnityEngine::Material>  value) ;
 
-  /// @brief Method .ctor, addr 0x57517e0, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5752114, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  static inline int32_t getStaticF__cubePropertyId();
+static inline int32_t getStaticF__cubePropertyId() ;
 
-  static inline void setStaticF__cubePropertyId(int32_t value);
+static inline void setStaticF__cubePropertyId(int32_t  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CubemapTest();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr CubemapTest() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CubemapTest", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  CubemapTest(CubemapTest&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CubemapTest", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  CubemapTest(CubemapTest const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "CubemapTest", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+CubemapTest(CubemapTest && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6617 };
+// Ctor Parameters [CppParam { name: "", ty: "CubemapTest", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+CubemapTest(CubemapTest const& ) = delete;
 
-  /// @brief Field _camera, offset: 0x20, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::Camera> ____camera;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6621};
 
-  /// @brief Field _cubemapMaterial, offset: 0x28, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::Material> ____cubemapMaterial;
+/// @brief Field _camera, offset: 0x20, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::Camera>  ____camera;
 
-  /// @brief Field _flatMaterial, offset: 0x30, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::Material> ____flatMaterial;
+/// @brief Field _cubemapMaterial, offset: 0x28, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::Material>  ____cubemapMaterial;
 
-  /// @brief Field _cubemapRenderTexture, offset: 0x38, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::RenderTexture> ____cubemapRenderTexture;
+/// @brief Field _flatMaterial, offset: 0x30, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::Material>  ____flatMaterial;
 
-  /// @brief Field _downsampledCubemapRenderTexture, offset: 0x40, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::RenderTexture> ____downsampledCubemapRenderTexture;
+/// @brief Field _cubemapRenderTexture, offset: 0x38, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::RenderTexture>  ____cubemapRenderTexture;
 
-  /// @brief Field _cubemapFlatTexture, offset: 0x48, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::RenderTexture> ____cubemapFlatTexture;
+/// @brief Field _downsampledCubemapRenderTexture, offset: 0x40, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::RenderTexture>  ____downsampledCubemapRenderTexture;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _cubemapFlatTexture, offset: 0x48, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::RenderTexture>  ____cubemapFlatTexture;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::CubemapTest, ____camera) == 0x20, "Offset mismatch!");
@@ -153,6 +152,6 @@ static_assert(offsetof(::GlobalNamespace::CubemapTest, ____cubemapFlatTexture) =
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::CubemapTest, 0x50>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::CubemapTest);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::CubemapTest*, "", "CubemapTest");

@@ -28,56 +28,55 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
 // CS Name: UnityEngine.ResourceManagement.ResourceProviders.SceneInstance
 struct CORDL_TYPE SceneInstance {
 public:
-  // Declarations
-  __declspec(property(get = get_ReleaseSceneOnSceneUnloaded, put = set_ReleaseSceneOnSceneUnloaded)) bool ReleaseSceneOnSceneUnloaded;
+// Declarations
+ __declspec(property(get=get_ReleaseSceneOnSceneUnloaded, put=set_ReleaseSceneOnSceneUnloaded)) bool  ReleaseSceneOnSceneUnloaded;
 
-  __declspec(property(get = get_Scene, put = set_Scene)) ::UnityEngine::SceneManagement::Scene Scene;
+ __declspec(property(get=get_Scene, put=set_Scene)) ::UnityEngine::SceneManagement::Scene  Scene;
 
-  /// @brief Method ActivateAsync, addr 0x6767b08, size 0x2c, virtual false, abstract: false, final false
-  inline ::UnityEngine::AsyncOperation* ActivateAsync();
+/// @brief Method ActivateAsync, addr 0x67681c8, size 0x2c, virtual false, abstract: false, final false
+inline ::UnityEngine::AsyncOperation* ActivateAsync() ;
 
-  /// @brief Method Equals, addr 0x6767b3c, size 0xb0, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* obj);
+/// @brief Method Equals, addr 0x67681fc, size 0xb0, virtual true, abstract: false, final false
+inline bool Equals(::System::Object*  obj) ;
 
-  /// @brief Method GetHashCode, addr 0x6767b34, size 0x8, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
+/// @brief Method GetHashCode, addr 0x67681f4, size 0x8, virtual true, abstract: false, final false
+inline int32_t GetHashCode() ;
 
-  /// @brief Method get_ReleaseSceneOnSceneUnloaded, addr 0x6767af8, size 0x8, virtual false, abstract: false, final false
-  inline bool get_ReleaseSceneOnSceneUnloaded();
+/// @brief Method get_ReleaseSceneOnSceneUnloaded, addr 0x67681b8, size 0x8, virtual false, abstract: false, final false
+inline bool get_ReleaseSceneOnSceneUnloaded() ;
 
-  /// @brief Method get_Scene, addr 0x6767ae8, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::SceneManagement::Scene get_Scene();
+/// @brief Method get_Scene, addr 0x67681a8, size 0x8, virtual false, abstract: false, final false
+inline ::UnityEngine::SceneManagement::Scene get_Scene() ;
 
-  /// @brief Method set_ReleaseSceneOnSceneUnloaded, addr 0x6767b00, size 0x8, virtual false, abstract: false, final false
-  inline void set_ReleaseSceneOnSceneUnloaded(bool value);
+/// @brief Method set_ReleaseSceneOnSceneUnloaded, addr 0x67681c0, size 0x8, virtual false, abstract: false, final false
+inline void set_ReleaseSceneOnSceneUnloaded(bool  value) ;
 
-  /// @brief Method set_Scene, addr 0x6767af0, size 0x8, virtual false, abstract: false, final false
-  inline void set_Scene(::UnityEngine::SceneManagement::Scene value);
+/// @brief Method set_Scene, addr 0x67681b0, size 0x8, virtual false, abstract: false, final false
+inline void set_Scene(::UnityEngine::SceneManagement::Scene  value) ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SceneInstance();
+// Ctor Parameters []
+// @brief default ctor
+constexpr SceneInstance() ;
 
-  // Ctor Parameters [CppParam { name: "m_Scene", ty: "::UnityEngine::SceneManagement::Scene", modifiers: "", def_value: None }, CppParam { name: "m_ReleaseOnSceneUnloaded", ty: "bool", modifiers: "",
-  // def_value: None }, CppParam { name: "m_Operation", ty: "::UnityEngine::AsyncOperation*", modifiers: "", def_value: None }]
-  constexpr SceneInstance(::UnityEngine::SceneManagement::Scene m_Scene, bool m_ReleaseOnSceneUnloaded, ::UnityEngine::AsyncOperation* m_Operation) noexcept;
+// Ctor Parameters [CppParam { name: "m_Scene", ty: "::UnityEngine::SceneManagement::Scene", modifiers: "", def_value: None }, CppParam { name: "m_ReleaseOnSceneUnloaded", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "m_Operation", ty: "::UnityEngine::AsyncOperation*", modifiers: "", def_value: None }]
+constexpr SceneInstance(::UnityEngine::SceneManagement::Scene  m_Scene, bool  m_ReleaseOnSceneUnloaded, ::UnityEngine::AsyncOperation*  m_Operation) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18749 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{18753};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x10};
 
-  /// @brief Field m_Scene, offset: 0x0, size: 0x4, def value: None
-  ::UnityEngine::SceneManagement::Scene m_Scene;
+/// @brief Field m_Scene, offset: 0x0, size: 0x4, def value: None
+ ::UnityEngine::SceneManagement::Scene  m_Scene;
 
-  /// @brief Field m_ReleaseOnSceneUnloaded, offset: 0x4, size: 0x1, def value: None
-  bool m_ReleaseOnSceneUnloaded;
+/// @brief Field m_ReleaseOnSceneUnloaded, offset: 0x4, size: 0x1, def value: None
+ bool  m_ReleaseOnSceneUnloaded;
 
-  /// @brief Field m_Operation, offset: 0x8, size: 0x8, def value: None
-  ::UnityEngine::AsyncOperation* m_Operation;
+/// @brief Field m_Operation, offset: 0x8, size: 0x8, def value: None
+ ::UnityEngine::AsyncOperation*  m_Operation;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance, m_Scene) == 0x0, "Offset mismatch!");
@@ -88,5 +87,5 @@ static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceProviders::Sce
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine::ResourceManagement::ResourceProviders
+} // namespace end def UnityEngine::ResourceManagement::ResourceProviders
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance, "UnityEngine.ResourceManagement.ResourceProviders", "SceneInstance");

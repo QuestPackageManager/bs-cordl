@@ -22,81 +22,81 @@ namespace GlobalNamespace {
 // CS Name: PromoBannerInfoSO
 class CORDL_TYPE PromoBannerInfoSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
-  // Declarations
-  /// @brief Field _bannerImage, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__bannerImage, put = __cordl_internal_set__bannerImage)) ::UnityW<::UnityEngine::Sprite> _bannerImage;
+// Declarations
+/// @brief Field _bannerImage, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get__bannerImage, put=__cordl_internal_set__bannerImage)) ::UnityW<::UnityEngine::Sprite>  _bannerImage;
 
-  /// @brief Field _bannerPromoText, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__bannerPromoText, put = __cordl_internal_set__bannerPromoText)) ::StringW _bannerPromoText;
+/// @brief Field _bannerPromoText, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get__bannerPromoText, put=__cordl_internal_set__bannerPromoText)) ::StringW  _bannerPromoText;
 
-  /// @brief Field _bannerPromoTextPosition, offset 0x28, size 0x4
-  __declspec(property(get = __cordl_internal_get__bannerPromoTextPosition, put = __cordl_internal_set__bannerPromoTextPosition)) float_t _bannerPromoTextPosition;
+/// @brief Field _bannerPromoTextPosition, offset 0x28, size 0x4 
+ __declspec(property(get=__cordl_internal_get__bannerPromoTextPosition, put=__cordl_internal_set__bannerPromoTextPosition)) float_t  _bannerPromoTextPosition;
 
-  __declspec(property(get = get_bannerImage)) ::UnityW<::UnityEngine::Sprite> bannerImage;
+ __declspec(property(get=get_bannerImage)) ::UnityW<::UnityEngine::Sprite>  bannerImage;
 
-  __declspec(property(get = get_bannerPromoText)) ::StringW bannerPromoText;
+ __declspec(property(get=get_bannerPromoText)) ::StringW  bannerPromoText;
 
-  __declspec(property(get = get_bannerPromoTextPosition)) float_t bannerPromoTextPosition;
+ __declspec(property(get=get_bannerPromoTextPosition)) float_t  bannerPromoTextPosition;
 
-  static inline ::GlobalNamespace::PromoBannerInfoSO* New_ctor();
+static inline ::GlobalNamespace::PromoBannerInfoSO* New_ctor() ;
 
-  constexpr ::UnityW<::UnityEngine::Sprite> const& __cordl_internal_get__bannerImage() const;
+constexpr ::UnityW<::UnityEngine::Sprite> const& __cordl_internal_get__bannerImage() const;
 
-  constexpr ::UnityW<::UnityEngine::Sprite>& __cordl_internal_get__bannerImage();
+constexpr ::UnityW<::UnityEngine::Sprite>& __cordl_internal_get__bannerImage() ;
 
-  constexpr ::StringW const& __cordl_internal_get__bannerPromoText() const;
+constexpr ::StringW const& __cordl_internal_get__bannerPromoText() const;
 
-  constexpr ::StringW& __cordl_internal_get__bannerPromoText();
+constexpr ::StringW& __cordl_internal_get__bannerPromoText() ;
 
-  constexpr float_t const& __cordl_internal_get__bannerPromoTextPosition() const;
+constexpr float_t const& __cordl_internal_get__bannerPromoTextPosition() const;
 
-  constexpr float_t& __cordl_internal_get__bannerPromoTextPosition();
+constexpr float_t& __cordl_internal_get__bannerPromoTextPosition() ;
 
-  constexpr void __cordl_internal_set__bannerImage(::UnityW<::UnityEngine::Sprite> value);
+constexpr void __cordl_internal_set__bannerImage(::UnityW<::UnityEngine::Sprite>  value) ;
 
-  constexpr void __cordl_internal_set__bannerPromoText(::StringW value);
+constexpr void __cordl_internal_set__bannerPromoText(::StringW  value) ;
 
-  constexpr void __cordl_internal_set__bannerPromoTextPosition(float_t value);
+constexpr void __cordl_internal_set__bannerPromoTextPosition(float_t  value) ;
 
-  /// @brief Method .ctor, addr 0x36301b8, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x36301f4, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_bannerImage, addr 0x36301a0, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::Sprite> get_bannerImage();
+/// @brief Method get_bannerImage, addr 0x36301dc, size 0x8, virtual false, abstract: false, final false
+inline ::UnityW<::UnityEngine::Sprite> get_bannerImage() ;
 
-  /// @brief Method get_bannerPromoText, addr 0x36301a8, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_bannerPromoText();
+/// @brief Method get_bannerPromoText, addr 0x36301e4, size 0x8, virtual false, abstract: false, final false
+inline ::StringW get_bannerPromoText() ;
 
-  /// @brief Method get_bannerPromoTextPosition, addr 0x36301b0, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_bannerPromoTextPosition();
+/// @brief Method get_bannerPromoTextPosition, addr 0x36301ec, size 0x8, virtual false, abstract: false, final false
+inline float_t get_bannerPromoTextPosition() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PromoBannerInfoSO();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr PromoBannerInfoSO() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PromoBannerInfoSO", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  PromoBannerInfoSO(PromoBannerInfoSO&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PromoBannerInfoSO", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  PromoBannerInfoSO(PromoBannerInfoSO const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "PromoBannerInfoSO", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+PromoBannerInfoSO(PromoBannerInfoSO && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14989 };
+// Ctor Parameters [CppParam { name: "", ty: "PromoBannerInfoSO", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+PromoBannerInfoSO(PromoBannerInfoSO const& ) = delete;
 
-  /// @brief Field _bannerImage, offset: 0x18, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::Sprite> ____bannerImage;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{14993};
 
-  /// @brief Field _bannerPromoText, offset: 0x20, size: 0x8, def value: None
-  ::StringW ____bannerPromoText;
+/// @brief Field _bannerImage, offset: 0x18, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::Sprite>  ____bannerImage;
 
-  /// @brief Field _bannerPromoTextPosition, offset: 0x28, size: 0x4, def value: None
-  float_t ____bannerPromoTextPosition;
+/// @brief Field _bannerPromoText, offset: 0x20, size: 0x8, def value: None
+ ::StringW  ____bannerPromoText;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _bannerPromoTextPosition, offset: 0x28, size: 0x4, def value: None
+ float_t  ____bannerPromoTextPosition;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::PromoBannerInfoSO, ____bannerImage) == 0x18, "Offset mismatch!");
@@ -107,6 +107,6 @@ static_assert(offsetof(::GlobalNamespace::PromoBannerInfoSO, ____bannerPromoText
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PromoBannerInfoSO, 0x30>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::PromoBannerInfoSO);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PromoBannerInfoSO*, "", "PromoBannerInfoSO");

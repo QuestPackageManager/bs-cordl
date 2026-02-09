@@ -28,10 +28,12 @@ namespace GlobalNamespace {
 struct LightRotationDirection;
 }
 namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+template<typename T>
+class IEnumerable_1;
 }
 namespace System {
-template <typename T> struct Nullable_1;
+template<typename T>
+struct Nullable_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -39,67 +41,58 @@ class IBeatmapLightEventConverter;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::IBeatmapLightEventConverter);
-// Dependencies
+// Dependencies 
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: IBeatmapLightEventConverter
 class CORDL_TYPE IBeatmapLightEventConverter {
 public:
-  // Declarations
-  __declspec(property(get = get_convertBoxGroups)) bool convertBoxGroups;
+// Declarations
+ __declspec(property(get=get_convertBoxGroups)) bool  convertBoxGroups;
 
-  __declspec(property(get = get_convertBoxGroupsEvents)) bool convertBoxGroupsEvents;
+ __declspec(property(get=get_convertBoxGroupsEvents)) bool  convertBoxGroupsEvents;
 
-  __declspec(property(get = get_hasConversions)) bool hasConversions;
+ __declspec(property(get=get_hasConversions)) bool  hasConversions;
 
-  __declspec(property(get = get_useRotationDirection)) bool useRotationDirection;
+ __declspec(property(get=get_useRotationDirection)) bool  useRotationDirection;
 
-  /// @brief Method ConvertBasicBeatmapEvent, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::BeatmapEventData*>*
-  ConvertBasicBeatmapEvent(int32_t subtypeIdentifier, float_t time, ::GlobalNamespace::BasicBeatmapEventType basicBeatmapEventType, int32_t value, float_t floatValue);
+/// @brief Method ConvertBasicBeatmapEvent, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::BeatmapEventData*>* ConvertBasicBeatmapEvent(int32_t  subtypeIdentifier, float_t  time, ::GlobalNamespace::BasicBeatmapEventType  basicBeatmapEventType, int32_t  value, float_t  floatValue) ;
 
-  /// @brief Method ConvertLightColorBeatmapEvent, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::BeatmapEventData*>* ConvertLightColorBeatmapEvent(int32_t subtypeIdentifier, float_t time, int32_t groupId, int32_t elementId,
-                                                                                                                            bool usePreviousValue, ::GlobalNamespace::EaseType easeType,
-                                                                                                                            ::GlobalNamespace::EnvironmentColorType colorType, float_t brightness,
-                                                                                                                            int32_t strobeBeatFrequency, float_t strobeBrightness, bool strobeFade,
-                                                                                                                            ::System::Nullable_1<float_t> nextEventBrightness);
+/// @brief Method ConvertLightColorBeatmapEvent, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::BeatmapEventData*>* ConvertLightColorBeatmapEvent(int32_t  subtypeIdentifier, float_t  time, int32_t  groupId, int32_t  elementId, bool  usePreviousValue, ::GlobalNamespace::EaseType  easeType, ::GlobalNamespace::EnvironmentColorType  colorType, float_t  brightness, int32_t  strobeBeatFrequency, float_t  strobeBrightness, bool  strobeFade, ::System::Nullable_1<float_t>  nextEventBrightness) ;
 
-  /// @brief Method ConvertLightRotationBeatmapEvent, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::BeatmapEventData*>*
-  ConvertLightRotationBeatmapEvent(int32_t subtypeIdentifier, float_t time, int32_t groupId, int32_t elementId, bool usePreviousEventValue, ::GlobalNamespace::EaseType easeType,
-                                   ::GlobalNamespace::LightAxis axis, float_t rotation, int32_t loopCount, ::GlobalNamespace::LightRotationDirection rotationDirection);
+/// @brief Method ConvertLightRotationBeatmapEvent, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::BeatmapEventData*>* ConvertLightRotationBeatmapEvent(int32_t  subtypeIdentifier, float_t  time, int32_t  groupId, int32_t  elementId, bool  usePreviousEventValue, ::GlobalNamespace::EaseType  easeType, ::GlobalNamespace::LightAxis  axis, float_t  rotation, int32_t  loopCount, ::GlobalNamespace::LightRotationDirection  rotationDirection) ;
 
-  /// @brief Method ConvertLightTranslationBeatmapEvent, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::BeatmapEventData*>*
-  ConvertLightTranslationBeatmapEvent(int32_t subtypeIdentifier, float_t time, int32_t groupId, int32_t elementId, bool usePreviousEventValue, ::GlobalNamespace::EaseType easeType,
-                                      ::GlobalNamespace::LightAxis axis, float_t translation, float_t distribution);
+/// @brief Method ConvertLightTranslationBeatmapEvent, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::BeatmapEventData*>* ConvertLightTranslationBeatmapEvent(int32_t  subtypeIdentifier, float_t  time, int32_t  groupId, int32_t  elementId, bool  usePreviousEventValue, ::GlobalNamespace::EaseType  easeType, ::GlobalNamespace::LightAxis  axis, float_t  translation, float_t  distribution) ;
 
-  /// @brief Method InsertActivateOnStartEvents, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void InsertActivateOnStartEvents(::GlobalNamespace::BeatmapData* beatmapData);
+/// @brief Method InsertActivateOnStartEvents, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline void InsertActivateOnStartEvents(::GlobalNamespace::BeatmapData*  beatmapData) ;
 
-  /// @brief Method get_convertBoxGroups, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline bool get_convertBoxGroups();
+/// @brief Method get_convertBoxGroups, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline bool get_convertBoxGroups() ;
 
-  /// @brief Method get_convertBoxGroupsEvents, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline bool get_convertBoxGroupsEvents();
+/// @brief Method get_convertBoxGroupsEvents, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline bool get_convertBoxGroupsEvents() ;
 
-  /// @brief Method get_hasConversions, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline bool get_hasConversions();
+/// @brief Method get_hasConversions, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline bool get_hasConversions() ;
 
-  /// @brief Method get_useRotationDirection, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline bool get_useRotationDirection();
+/// @brief Method get_useRotationDirection, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline bool get_useRotationDirection() ;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IBeatmapLightEventConverter", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  IBeatmapLightEventConverter(IBeatmapLightEventConverter const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "IBeatmapLightEventConverter", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+IBeatmapLightEventConverter(IBeatmapLightEventConverter const& ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15009 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{15013};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::IBeatmapLightEventConverter);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::IBeatmapLightEventConverter*, "", "IBeatmapLightEventConverter");

@@ -13,90 +13,90 @@ struct ProfilerCategory;
 }
 // Write type traits
 MARK_VAL_T(::Unity::Profiling::ProfilerCategory);
-// Dependencies
+// Dependencies 
 namespace Unity::Profiling {
 // Is value type: true
 // CS Name: Unity.Profiling.ProfilerCategory
 #pragma pack(push, 0)
 struct CORDL_TYPE ProfilerCategory {
 public:
-  // Declarations
-  __declspec(property(get = get_Name)) ::StringW Name;
+// Declarations
+ __declspec(property(get=get_Name)) ::StringW  Name;
 
-  /// @brief Field m_CategoryId, offset 0x0, size 0x2
-  __declspec(property(get = __cordl_internal_get_m_CategoryId, put = __cordl_internal_set_m_CategoryId)) uint16_t m_CategoryId;
+/// @brief Field m_CategoryId, offset 0x0, size 0x2 
+ __declspec(property(get=__cordl_internal_get_m_CategoryId, put=__cordl_internal_set_m_CategoryId)) uint16_t  m_CategoryId;
 
-  /// @brief Method ToString, addr 0x6890760, size 0x4, virtual true, abstract: false, final false
-  inline ::StringW ToString();
+/// @brief Method ToString, addr 0x6890e20, size 0x4, virtual true, abstract: false, final false
+inline ::StringW ToString() ;
 
-  constexpr uint16_t const& __cordl_internal_get_m_CategoryId() const;
+constexpr uint16_t const& __cordl_internal_get_m_CategoryId() const;
 
-  constexpr uint16_t& __cordl_internal_get_m_CategoryId();
+constexpr uint16_t& __cordl_internal_get_m_CategoryId() ;
 
-  constexpr void __cordl_internal_set_m_CategoryId(uint16_t value);
+constexpr void __cordl_internal_set_m_CategoryId(uint16_t  value) ;
 
-  /// @brief Method .ctor, addr 0x6890564, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(uint16_t category);
+/// @brief Method .ctor, addr 0x6890c24, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(uint16_t  category) ;
 
-  /// @brief Method get_Internal, addr 0x6890784, size 0x8, virtual false, abstract: false, final false
-  static inline ::Unity::Profiling::ProfilerCategory get_Internal();
+/// @brief Method get_Internal, addr 0x6890e44, size 0x8, virtual false, abstract: false, final false
+static inline ::Unity::Profiling::ProfilerCategory get_Internal() ;
 
-  /// @brief Method get_Loading, addr 0x6890774, size 0x8, virtual false, abstract: false, final false
-  static inline ::Unity::Profiling::ProfilerCategory get_Loading();
+/// @brief Method get_Loading, addr 0x6890e34, size 0x8, virtual false, abstract: false, final false
+static inline ::Unity::Profiling::ProfilerCategory get_Loading() ;
 
-  /// @brief Method get_Memory, addr 0x689077c, size 0x8, virtual false, abstract: false, final false
-  static inline ::Unity::Profiling::ProfilerCategory get_Memory();
+/// @brief Method get_Memory, addr 0x6890e3c, size 0x8, virtual false, abstract: false, final false
+static inline ::Unity::Profiling::ProfilerCategory get_Memory() ;
 
-  /// @brief Method get_Name, addr 0x689056c, size 0x80, virtual false, abstract: false, final false
-  inline ::StringW get_Name();
+/// @brief Method get_Name, addr 0x6890c2c, size 0x80, virtual false, abstract: false, final false
+inline ::StringW get_Name() ;
 
-  /// @brief Method get_Render, addr 0x6890764, size 0x8, virtual false, abstract: false, final false
-  static inline ::Unity::Profiling::ProfilerCategory get_Render();
+/// @brief Method get_Render, addr 0x6890e24, size 0x8, virtual false, abstract: false, final false
+static inline ::Unity::Profiling::ProfilerCategory get_Render() ;
 
-  /// @brief Method get_Scripts, addr 0x689076c, size 0x8, virtual false, abstract: false, final false
-  static inline ::Unity::Profiling::ProfilerCategory get_Scripts();
+/// @brief Method get_Scripts, addr 0x6890e2c, size 0x8, virtual false, abstract: false, final false
+static inline ::Unity::Profiling::ProfilerCategory get_Scripts() ;
 
-  /// @brief Method op_Implicit, addr 0x689078c, size 0x4, virtual false, abstract: false, final false
-  static inline uint16_t op_Implicit_uint16_t(::Unity::Profiling::ProfilerCategory category);
+/// @brief Method op_Implicit, addr 0x6890e4c, size 0x4, virtual false, abstract: false, final false
+static inline uint16_t op_Implicit_uint16_t(::Unity::Profiling::ProfilerCategory  category) ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ProfilerCategory();
+// Ctor Parameters []
+// @brief default ctor
+constexpr ProfilerCategory() ;
 
-  // Ctor Parameters [CppParam { name: "m_CategoryId", ty: "uint16_t", modifiers: "", def_value: None }]
-  constexpr ProfilerCategory(uint16_t m_CategoryId) noexcept;
+// Ctor Parameters [CppParam { name: "m_CategoryId", ty: "uint16_t", modifiers: "", def_value: None }]
+constexpr ProfilerCategory(uint16_t  m_CategoryId) noexcept;
 
 private:
-  /// @brief Explicitly laid out type with union based offsets
-  union {
+/// @brief Explicitly laid out type with union based offsets
+union {
 #pragma pack(push, tp, 1)
-    struct {
-      /// @brief Padding field 0x0
-      uint8_t ___m_CategoryId_padding[0x0];
-      /// @brief Field m_CategoryId, offset: 0x0, size: 0x2, def value: None
-      uint16_t ___m_CategoryId;
-    };
+struct  {
+/// @brief Padding field 0x0
+ uint8_t  ___m_CategoryId_padding[0x0];
+/// @brief Field m_CategoryId, offset: 0x0, size: 0x2, def value: None
+ uint16_t  ___m_CategoryId;
+};
 #pragma pack(pop, tp)
-    struct {
-      /// @brief Padding field 0x0 for alignment
-      uint8_t ___m_CategoryId_padding_forAlignment[0x0];
-      /// @brief Field m_CategoryId, offset: 0x0, size: 0x2, def value: None
-      uint16_t ___m_CategoryId_forAlignment;
-    };
-  };
-
+struct  {
+/// @brief Padding field 0x0 for alignment
+ uint8_t  ___m_CategoryId_padding_forAlignment[0x0];
+/// @brief Field m_CategoryId, offset: 0x0, size: 0x2, def value: None
+ uint16_t  ___m_CategoryId_forAlignment;
+};
+};
 public:
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9920 };
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x2 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{9924};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x2};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Unity::Profiling::ProfilerCategory, 0x2>, "Size mismatch!");
 
-} // namespace Unity::Profiling
+} // namespace end def Unity::Profiling
 DEFINE_IL2CPP_ARG_TYPE(::Unity::Profiling::ProfilerCategory, "Unity.Profiling", "ProfilerCategory");

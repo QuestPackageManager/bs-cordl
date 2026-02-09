@@ -27,158 +27,158 @@ namespace Org::BouncyCastle::Utilities::Zlib {
 // CS Name: Org.BouncyCastle.Utilities.Zlib.ZDeflaterOutputStream
 class CORDL_TYPE ZDeflaterOutputStream : public ::System::IO::Stream {
 public:
-  // Declarations
-  __declspec(property(get = get_CanRead)) bool CanRead;
+// Declarations
+ __declspec(property(get=get_CanRead)) bool  CanRead;
 
-  __declspec(property(get = get_CanSeek)) bool CanSeek;
+ __declspec(property(get=get_CanSeek)) bool  CanSeek;
 
-  __declspec(property(get = get_CanWrite)) bool CanWrite;
+ __declspec(property(get=get_CanWrite)) bool  CanWrite;
 
-  __declspec(property(get = get_Length)) int64_t Length;
+ __declspec(property(get=get_Length)) int64_t  Length;
 
-  __declspec(property(get = get_Position, put = set_Position)) int64_t Position;
+ __declspec(property(get=get_Position, put=set_Position)) int64_t  Position;
 
-  /// @brief Field buf, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_buf, put = __cordl_internal_set_buf)) ::ArrayW<uint8_t, ::Array<uint8_t>*> buf;
+/// @brief Field buf, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get_buf, put=__cordl_internal_set_buf)) ::ArrayW<uint8_t,::Array<uint8_t>*>  buf;
 
-  /// @brief Field buf1, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_buf1, put = __cordl_internal_set_buf1)) ::ArrayW<uint8_t, ::Array<uint8_t>*> buf1;
+/// @brief Field buf1, offset 0x40, size 0x8 
+ __declspec(property(get=__cordl_internal_get_buf1, put=__cordl_internal_set_buf1)) ::ArrayW<uint8_t,::Array<uint8_t>*>  buf1;
 
-  /// @brief Field flushLevel, offset 0x30, size 0x4
-  __declspec(property(get = __cordl_internal_get_flushLevel, put = __cordl_internal_set_flushLevel)) int32_t flushLevel;
+/// @brief Field flushLevel, offset 0x30, size 0x4 
+ __declspec(property(get=__cordl_internal_get_flushLevel, put=__cordl_internal_set_flushLevel)) int32_t  flushLevel;
 
-  /// @brief Field outp, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_outp, put = __cordl_internal_set_outp)) ::System::IO::Stream* outp;
+/// @brief Field outp, offset 0x48, size 0x8 
+ __declspec(property(get=__cordl_internal_get_outp, put=__cordl_internal_set_outp)) ::System::IO::Stream*  outp;
 
-  /// @brief Field z, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_z, put = __cordl_internal_set_z)) ::Org::BouncyCastle::Utilities::Zlib::ZStream* z;
+/// @brief Field z, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get_z, put=__cordl_internal_set_z)) ::Org::BouncyCastle::Utilities::Zlib::ZStream*  z;
 
-  /// @brief Method Close, addr 0x353e168, size 0x190, virtual true, abstract: false, final false
-  inline void Close();
+/// @brief Method Close, addr 0x353e0b8, size 0x190, virtual true, abstract: false, final false
+inline void Close() ;
 
-  /// @brief Method End, addr 0x353e090, size 0x6c, virtual false, abstract: false, final false
-  inline void End();
+/// @brief Method End, addr 0x353dfe0, size 0x6c, virtual false, abstract: false, final false
+inline void End() ;
 
-  /// @brief Method Finish, addr 0x353df54, size 0x13c, virtual false, abstract: false, final false
-  inline void Finish();
+/// @brief Method Finish, addr 0x353dea4, size 0x13c, virtual false, abstract: false, final false
+inline void Finish() ;
 
-  /// @brief Method Flush, addr 0x353def4, size 0x20, virtual true, abstract: false, final false
-  inline void Flush();
+/// @brief Method Flush, addr 0x353de44, size 0x20, virtual true, abstract: false, final false
+inline void Flush() ;
 
-  static inline ::Org::BouncyCastle::Utilities::Zlib::ZDeflaterOutputStream* New_ctor(::System::IO::Stream* outp);
+static inline ::Org::BouncyCastle::Utilities::Zlib::ZDeflaterOutputStream* New_ctor(::System::IO::Stream*  outp) ;
 
-  static inline ::Org::BouncyCastle::Utilities::Zlib::ZDeflaterOutputStream* New_ctor(::System::IO::Stream* outp, int32_t level);
+static inline ::Org::BouncyCastle::Utilities::Zlib::ZDeflaterOutputStream* New_ctor(::System::IO::Stream*  outp, int32_t  level) ;
 
-  static inline ::Org::BouncyCastle::Utilities::Zlib::ZDeflaterOutputStream* New_ctor(::System::IO::Stream* outp, int32_t level, bool nowrap);
+static inline ::Org::BouncyCastle::Utilities::Zlib::ZDeflaterOutputStream* New_ctor(::System::IO::Stream*  outp, int32_t  level, bool  nowrap) ;
 
-  /// @brief Method Read, addr 0x353deec, size 0x8, virtual true, abstract: false, final false
-  inline int32_t Read(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
+/// @brief Method Read, addr 0x353de3c, size 0x8, virtual true, abstract: false, final false
+inline int32_t Read(::ArrayW<uint8_t,::Array<uint8_t>*>  buffer, int32_t  offset, int32_t  count) ;
 
-  /// @brief Method Seek, addr 0x353dee0, size 0x8, virtual true, abstract: false, final false
-  inline int64_t Seek(int64_t offset, ::System::IO::SeekOrigin origin);
+/// @brief Method Seek, addr 0x353de30, size 0x8, virtual true, abstract: false, final false
+inline int64_t Seek(int64_t  offset, ::System::IO::SeekOrigin  origin) ;
 
-  /// @brief Method SetLength, addr 0x353dee8, size 0x4, virtual true, abstract: false, final false
-  inline void SetLength(int64_t value);
+/// @brief Method SetLength, addr 0x353de38, size 0x4, virtual true, abstract: false, final false
+inline void SetLength(int64_t  value) ;
 
-  /// @brief Method Write, addr 0x353dd80, size 0x13c, virtual true, abstract: false, final false
-  inline void Write(::ArrayW<uint8_t, ::Array<uint8_t>*> b, int32_t off, int32_t len);
+/// @brief Method Write, addr 0x353dcd0, size 0x13c, virtual true, abstract: false, final false
+inline void Write(::ArrayW<uint8_t,::Array<uint8_t>*>  b, int32_t  off, int32_t  len) ;
 
-  /// @brief Method WriteByte, addr 0x353df14, size 0x40, virtual true, abstract: false, final false
-  inline void WriteByte(uint8_t b);
+/// @brief Method WriteByte, addr 0x353de64, size 0x40, virtual true, abstract: false, final false
+inline void WriteByte(uint8_t  b) ;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_buf() const;
+constexpr ::ArrayW<uint8_t,::Array<uint8_t>*> const& __cordl_internal_get_buf() const;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_buf();
+constexpr ::ArrayW<uint8_t,::Array<uint8_t>*>& __cordl_internal_get_buf() ;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_buf1() const;
+constexpr ::ArrayW<uint8_t,::Array<uint8_t>*> const& __cordl_internal_get_buf1() const;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_buf1();
+constexpr ::ArrayW<uint8_t,::Array<uint8_t>*>& __cordl_internal_get_buf1() ;
 
-  constexpr int32_t const& __cordl_internal_get_flushLevel() const;
+constexpr int32_t const& __cordl_internal_get_flushLevel() const;
 
-  constexpr int32_t& __cordl_internal_get_flushLevel();
+constexpr int32_t& __cordl_internal_get_flushLevel() ;
 
-  constexpr ::System::IO::Stream* const& __cordl_internal_get_outp() const;
+constexpr ::System::IO::Stream* const& __cordl_internal_get_outp() const;
 
-  constexpr ::System::IO::Stream*& __cordl_internal_get_outp();
+constexpr ::System::IO::Stream*& __cordl_internal_get_outp() ;
 
-  constexpr ::Org::BouncyCastle::Utilities::Zlib::ZStream* const& __cordl_internal_get_z() const;
+constexpr ::Org::BouncyCastle::Utilities::Zlib::ZStream* const& __cordl_internal_get_z() const;
 
-  constexpr ::Org::BouncyCastle::Utilities::Zlib::ZStream*& __cordl_internal_get_z();
+constexpr ::Org::BouncyCastle::Utilities::Zlib::ZStream*& __cordl_internal_get_z() ;
 
-  constexpr void __cordl_internal_set_buf(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+constexpr void __cordl_internal_set_buf(::ArrayW<uint8_t,::Array<uint8_t>*>  value) ;
 
-  constexpr void __cordl_internal_set_buf1(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+constexpr void __cordl_internal_set_buf1(::ArrayW<uint8_t,::Array<uint8_t>*>  value) ;
 
-  constexpr void __cordl_internal_set_flushLevel(int32_t value);
+constexpr void __cordl_internal_set_flushLevel(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_outp(::System::IO::Stream* value);
+constexpr void __cordl_internal_set_outp(::System::IO::Stream*  value) ;
 
-  constexpr void __cordl_internal_set_z(::Org::BouncyCastle::Utilities::Zlib::ZStream* value);
+constexpr void __cordl_internal_set_z(::Org::BouncyCastle::Utilities::Zlib::ZStream*  value) ;
 
-  /// @brief Method .ctor, addr 0x353dbe8, size 0xc, virtual false, abstract: false, final false
-  inline void _ctor(::System::IO::Stream* outp);
+/// @brief Method .ctor, addr 0x353db38, size 0xc, virtual false, abstract: false, final false
+inline void _ctor(::System::IO::Stream*  outp) ;
 
-  /// @brief Method .ctor, addr 0x353dcf0, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::System::IO::Stream* outp, int32_t level);
+/// @brief Method .ctor, addr 0x353dc40, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(::System::IO::Stream*  outp, int32_t  level) ;
 
-  /// @brief Method .ctor, addr 0x353dbf4, size 0xfc, virtual false, abstract: false, final false
-  inline void _ctor(::System::IO::Stream* outp, int32_t level, bool nowrap);
+/// @brief Method .ctor, addr 0x353db44, size 0xfc, virtual false, abstract: false, final false
+inline void _ctor(::System::IO::Stream*  outp, int32_t  level, bool  nowrap) ;
 
-  /// @brief Method get_CanRead, addr 0x353dd54, size 0x8, virtual true, abstract: false, final false
-  inline bool get_CanRead();
+/// @brief Method get_CanRead, addr 0x353dca4, size 0x8, virtual true, abstract: false, final false
+inline bool get_CanRead() ;
 
-  /// @brief Method get_CanSeek, addr 0x353dd5c, size 0x8, virtual true, abstract: false, final false
-  inline bool get_CanSeek();
+/// @brief Method get_CanSeek, addr 0x353dcac, size 0x8, virtual true, abstract: false, final false
+inline bool get_CanSeek() ;
 
-  /// @brief Method get_CanWrite, addr 0x353dd64, size 0x8, virtual true, abstract: false, final false
-  inline bool get_CanWrite();
+/// @brief Method get_CanWrite, addr 0x353dcb4, size 0x8, virtual true, abstract: false, final false
+inline bool get_CanWrite() ;
 
-  /// @brief Method get_Length, addr 0x353dd6c, size 0x8, virtual true, abstract: false, final false
-  inline int64_t get_Length();
+/// @brief Method get_Length, addr 0x353dcbc, size 0x8, virtual true, abstract: false, final false
+inline int64_t get_Length() ;
 
-  /// @brief Method get_Position, addr 0x353dd74, size 0x8, virtual true, abstract: false, final false
-  inline int64_t get_Position();
+/// @brief Method get_Position, addr 0x353dcc4, size 0x8, virtual true, abstract: false, final false
+inline int64_t get_Position() ;
 
-  /// @brief Method set_Position, addr 0x353dd7c, size 0x4, virtual true, abstract: false, final false
-  inline void set_Position(int64_t value);
+/// @brief Method set_Position, addr 0x353dccc, size 0x4, virtual true, abstract: false, final false
+inline void set_Position(int64_t  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ZDeflaterOutputStream();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ZDeflaterOutputStream() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ZDeflaterOutputStream", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ZDeflaterOutputStream(ZDeflaterOutputStream&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ZDeflaterOutputStream", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ZDeflaterOutputStream(ZDeflaterOutputStream const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ZDeflaterOutputStream", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ZDeflaterOutputStream(ZDeflaterOutputStream && ) = delete;
 
-  /// @brief Field BUFSIZE offset 0xffffffff size 0x4
-  static constexpr int32_t BUFSIZE{ static_cast<int32_t>(0x1060) };
+// Ctor Parameters [CppParam { name: "", ty: "ZDeflaterOutputStream", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ZDeflaterOutputStream(ZDeflaterOutputStream const& ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1827 };
+/// @brief Field BUFSIZE offset 0xffffffff size 0x4
+static constexpr int32_t  BUFSIZE{static_cast<int32_t>(0x1060)};
 
-  /// @brief Field z, offset: 0x28, size: 0x8, def value: None
-  ::Org::BouncyCastle::Utilities::Zlib::ZStream* ___z;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{1827};
 
-  /// @brief Field flushLevel, offset: 0x30, size: 0x4, def value: None
-  int32_t ___flushLevel;
+/// @brief Field z, offset: 0x28, size: 0x8, def value: None
+ ::Org::BouncyCastle::Utilities::Zlib::ZStream*  ___z;
 
-  /// @brief Field buf, offset: 0x38, size: 0x8, def value: None
-  ::ArrayW<uint8_t, ::Array<uint8_t>*> ___buf;
+/// @brief Field flushLevel, offset: 0x30, size: 0x4, def value: None
+ int32_t  ___flushLevel;
 
-  /// @brief Field buf1, offset: 0x40, size: 0x8, def value: None
-  ::ArrayW<uint8_t, ::Array<uint8_t>*> ___buf1;
+/// @brief Field buf, offset: 0x38, size: 0x8, def value: None
+ ::ArrayW<uint8_t,::Array<uint8_t>*>  ___buf;
 
-  /// @brief Field outp, offset: 0x48, size: 0x8, def value: None
-  ::System::IO::Stream* ___outp;
+/// @brief Field buf1, offset: 0x40, size: 0x8, def value: None
+ ::ArrayW<uint8_t,::Array<uint8_t>*>  ___buf1;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field outp, offset: 0x48, size: 0x8, def value: None
+ ::System::IO::Stream*  ___outp;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::ZDeflaterOutputStream, ___z) == 0x28, "Offset mismatch!");
@@ -193,6 +193,6 @@ static_assert(offsetof(::Org::BouncyCastle::Utilities::Zlib::ZDeflaterOutputStre
 
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Utilities::Zlib::ZDeflaterOutputStream, 0x50>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Utilities::Zlib
+} // namespace end def Org::BouncyCastle::Utilities::Zlib
 NEED_NO_BOX(::Org::BouncyCastle::Utilities::Zlib::ZDeflaterOutputStream);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Utilities::Zlib::ZDeflaterOutputStream*, "Org.BouncyCastle.Utilities.Zlib", "ZDeflaterOutputStream");

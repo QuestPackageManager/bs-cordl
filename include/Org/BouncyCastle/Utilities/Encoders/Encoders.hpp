@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "Org/BouncyCastle/Utilities/Encoders/Base64.hpp"
 #include "Org/BouncyCastle/Utilities/Encoders/Base64Encoder.hpp"
@@ -15,5 +15,6 @@ module;
 #include "Org/BouncyCastle/Utilities/Encoders/UrlBase64.hpp"
 #include "Org/BouncyCastle/Utilities/Encoders/UrlBase64Encoder.hpp"
 #ifdef __cpp_modules
-export module Encoders;
-#endif
+                    export module Encoders;
+                    #endif
+                

@@ -7,7 +7,8 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(AudioReferenceCountingCache)
 namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
+template<typename TResult>
+class Task_1;
 }
 namespace UnityEngine {
 class AudioClip;
@@ -22,36 +23,36 @@ MARK_REF_PTR_T(::GlobalNamespace::AudioReferenceCountingCache);
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: AudioReferenceCountingCache
-class CORDL_TYPE AudioReferenceCountingCache : public ::GlobalNamespace::ReferenceCountingCache_2<int32_t, ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::AudioClip>>*> {
+class CORDL_TYPE AudioReferenceCountingCache : public ::GlobalNamespace::ReferenceCountingCache_2<int32_t,::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::AudioClip>>*> {
 public:
-  // Declarations
-  static inline ::GlobalNamespace::AudioReferenceCountingCache* New_ctor();
+// Declarations
+static inline ::GlobalNamespace::AudioReferenceCountingCache* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x5879a38, size 0x4c, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5879f44, size 0x4c, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AudioReferenceCountingCache();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr AudioReferenceCountingCache() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AudioReferenceCountingCache", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  AudioReferenceCountingCache(AudioReferenceCountingCache&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AudioReferenceCountingCache", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  AudioReferenceCountingCache(AudioReferenceCountingCache const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "AudioReferenceCountingCache", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+AudioReferenceCountingCache(AudioReferenceCountingCache && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22501 };
+// Ctor Parameters [CppParam { name: "", ty: "AudioReferenceCountingCache", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+AudioReferenceCountingCache(AudioReferenceCountingCache const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{22505};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::AudioReferenceCountingCache, 0x20>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::AudioReferenceCountingCache);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::AudioReferenceCountingCache*, "", "AudioReferenceCountingCache");

@@ -20,7 +20,8 @@ namespace Oculus::Platform {
 class ApplicationOptions;
 }
 namespace Oculus::Platform {
-template <typename T> class Request_1;
+template<typename T>
+class Request_1;
 }
 // Forward declare root types
 namespace Oculus::Platform {
@@ -34,47 +35,47 @@ namespace Oculus::Platform {
 // CS Name: Oculus.Platform.Application
 class CORDL_TYPE Application : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method CancelAppDownload, addr 0x5c368fc, size 0x158, virtual false, abstract: false, final false
-  static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AppDownloadResult*>* CancelAppDownload();
+// Declarations
+/// @brief Method CancelAppDownload, addr 0x5c36e08, size 0x158, virtual false, abstract: false, final false
+static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AppDownloadResult*>* CancelAppDownload() ;
 
-  /// @brief Method CheckAppDownloadProgress, addr 0x5c36a54, size 0x158, virtual false, abstract: false, final false
-  static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AppDownloadProgressResult*>* CheckAppDownloadProgress();
+/// @brief Method CheckAppDownloadProgress, addr 0x5c36f60, size 0x158, virtual false, abstract: false, final false
+static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AppDownloadProgressResult*>* CheckAppDownloadProgress() ;
 
-  /// @brief Method GetVersion, addr 0x5c36bac, size 0x158, virtual false, abstract: false, final false
-  static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::ApplicationVersion*>* GetVersion();
+/// @brief Method GetVersion, addr 0x5c370b8, size 0x158, virtual false, abstract: false, final false
+static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::ApplicationVersion*>* GetVersion() ;
 
-  /// @brief Method InstallAppUpdateAndRelaunch, addr 0x5c36d04, size 0x170, virtual false, abstract: false, final false
-  static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AppDownloadResult*>* InstallAppUpdateAndRelaunch(::Oculus::Platform::ApplicationOptions* deeplink_options);
+/// @brief Method InstallAppUpdateAndRelaunch, addr 0x5c37210, size 0x170, virtual false, abstract: false, final false
+static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AppDownloadResult*>* InstallAppUpdateAndRelaunch(::Oculus::Platform::ApplicationOptions*  deeplink_options) ;
 
-  /// @brief Method LaunchOtherApp, addr 0x5c36e74, size 0x178, virtual false, abstract: false, final false
-  static inline ::Oculus::Platform::Request_1<::StringW>* LaunchOtherApp(uint64_t appID, ::Oculus::Platform::ApplicationOptions* deeplink_options);
+/// @brief Method LaunchOtherApp, addr 0x5c37380, size 0x178, virtual false, abstract: false, final false
+static inline ::Oculus::Platform::Request_1<::StringW>* LaunchOtherApp(uint64_t  appID, ::Oculus::Platform::ApplicationOptions*  deeplink_options) ;
 
-  /// @brief Method StartAppDownload, addr 0x5c36fec, size 0x158, virtual false, abstract: false, final false
-  static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AppDownloadResult*>* StartAppDownload();
+/// @brief Method StartAppDownload, addr 0x5c374f8, size 0x158, virtual false, abstract: false, final false
+static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AppDownloadResult*>* StartAppDownload() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Application();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr Application() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Application", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  Application(Application&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Application", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  Application(Application const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "Application", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+Application(Application && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17920 };
+// Ctor Parameters [CppParam { name: "", ty: "Application", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+Application(Application const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{17924};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Oculus::Platform::Application, 0x10>, "Size mismatch!");
 
-} // namespace Oculus::Platform
+} // namespace end def Oculus::Platform
 NEED_NO_BOX(::Oculus::Platform::Application);
 DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Application*, "Oculus.Platform", "Application");

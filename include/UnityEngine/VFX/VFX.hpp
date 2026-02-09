@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "UnityEngine/VFX/VFXBatchInfo.hpp"
 #include "UnityEngine/VFX/VFXBatchedEffectInfo.hpp"
@@ -17,5 +17,6 @@ module;
 #include "UnityEngine/VFX/VisualEffectAsset.hpp"
 #include "UnityEngine/VFX/VisualEffectObject.hpp"
 #ifdef __cpp_modules
-export module VFX;
-#endif
+                    export module VFX;
+                    #endif
+                

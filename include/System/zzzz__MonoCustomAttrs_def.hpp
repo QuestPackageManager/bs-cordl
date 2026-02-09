@@ -7,10 +7,12 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MonoCustomAttrs)
 namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+template<typename TKey,typename TValue>
+class Dictionary_2;
 }
 namespace System::Collections::Generic {
-template <typename T> class IList_1;
+template<typename T>
+class IList_1;
 }
 namespace System::Reflection {
 class Assembly;
@@ -64,64 +66,64 @@ namespace System {
 // CS Name: System.MonoCustomAttrs/AttributeInfo
 class CORDL_TYPE MonoCustomAttrs_AttributeInfo : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(get = get_InheritanceLevel)) int32_t InheritanceLevel;
+// Declarations
+ __declspec(property(get=get_InheritanceLevel)) int32_t  InheritanceLevel;
 
-  __declspec(property(get = get_Usage)) ::System::AttributeUsageAttribute* Usage;
+ __declspec(property(get=get_Usage)) ::System::AttributeUsageAttribute*  Usage;
 
-  /// @brief Field _inheritanceLevel, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get__inheritanceLevel, put = __cordl_internal_set__inheritanceLevel)) int32_t _inheritanceLevel;
+/// @brief Field _inheritanceLevel, offset 0x18, size 0x4 
+ __declspec(property(get=__cordl_internal_get__inheritanceLevel, put=__cordl_internal_set__inheritanceLevel)) int32_t  _inheritanceLevel;
 
-  /// @brief Field _usage, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__usage, put = __cordl_internal_set__usage)) ::System::AttributeUsageAttribute* _usage;
+/// @brief Field _usage, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get__usage, put=__cordl_internal_set__usage)) ::System::AttributeUsageAttribute*  _usage;
 
-  static inline ::System::MonoCustomAttrs_AttributeInfo* New_ctor(::System::AttributeUsageAttribute* usage, int32_t inheritanceLevel);
+static inline ::System::MonoCustomAttrs_AttributeInfo* New_ctor(::System::AttributeUsageAttribute*  usage, int32_t  inheritanceLevel) ;
 
-  constexpr int32_t const& __cordl_internal_get__inheritanceLevel() const;
+constexpr int32_t const& __cordl_internal_get__inheritanceLevel() const;
 
-  constexpr int32_t& __cordl_internal_get__inheritanceLevel();
+constexpr int32_t& __cordl_internal_get__inheritanceLevel() ;
 
-  constexpr ::System::AttributeUsageAttribute* const& __cordl_internal_get__usage() const;
+constexpr ::System::AttributeUsageAttribute* const& __cordl_internal_get__usage() const;
 
-  constexpr ::System::AttributeUsageAttribute*& __cordl_internal_get__usage();
+constexpr ::System::AttributeUsageAttribute*& __cordl_internal_get__usage() ;
 
-  constexpr void __cordl_internal_set__inheritanceLevel(int32_t value);
+constexpr void __cordl_internal_set__inheritanceLevel(int32_t  value) ;
 
-  constexpr void __cordl_internal_set__usage(::System::AttributeUsageAttribute* value);
+constexpr void __cordl_internal_set__usage(::System::AttributeUsageAttribute*  value) ;
 
-  /// @brief Method .ctor, addr 0x5ae4780, size 0xc, virtual false, abstract: false, final false
-  inline void _ctor(::System::AttributeUsageAttribute* usage, int32_t inheritanceLevel);
+/// @brief Method .ctor, addr 0x5ae4c8c, size 0xc, virtual false, abstract: false, final false
+inline void _ctor(::System::AttributeUsageAttribute*  usage, int32_t  inheritanceLevel) ;
 
-  /// @brief Method get_InheritanceLevel, addr 0x5ae6e54, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_InheritanceLevel();
+/// @brief Method get_InheritanceLevel, addr 0x5ae7360, size 0x8, virtual false, abstract: false, final false
+inline int32_t get_InheritanceLevel() ;
 
-  /// @brief Method get_Usage, addr 0x5ae6e4c, size 0x8, virtual false, abstract: false, final false
-  inline ::System::AttributeUsageAttribute* get_Usage();
+/// @brief Method get_Usage, addr 0x5ae7358, size 0x8, virtual false, abstract: false, final false
+inline ::System::AttributeUsageAttribute* get_Usage() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MonoCustomAttrs_AttributeInfo();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr MonoCustomAttrs_AttributeInfo() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MonoCustomAttrs_AttributeInfo", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  MonoCustomAttrs_AttributeInfo(MonoCustomAttrs_AttributeInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MonoCustomAttrs_AttributeInfo", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  MonoCustomAttrs_AttributeInfo(MonoCustomAttrs_AttributeInfo const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "MonoCustomAttrs_AttributeInfo", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+MonoCustomAttrs_AttributeInfo(MonoCustomAttrs_AttributeInfo && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2617 };
+// Ctor Parameters [CppParam { name: "", ty: "MonoCustomAttrs_AttributeInfo", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+MonoCustomAttrs_AttributeInfo(MonoCustomAttrs_AttributeInfo const& ) = delete;
 
-  /// @brief Field _usage, offset: 0x10, size: 0x8, def value: None
-  ::System::AttributeUsageAttribute* ____usage;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{2617};
 
-  /// @brief Field _inheritanceLevel, offset: 0x18, size: 0x4, def value: None
-  int32_t ____inheritanceLevel;
+/// @brief Field _usage, offset: 0x10, size: 0x8, def value: None
+ ::System::AttributeUsageAttribute*  ____usage;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _inheritanceLevel, offset: 0x18, size: 0x4, def value: None
+ int32_t  ____inheritanceLevel;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::MonoCustomAttrs_AttributeInfo, ____usage) == 0x10, "Offset mismatch!");
@@ -130,126 +132,120 @@ static_assert(offsetof(::System::MonoCustomAttrs_AttributeInfo, ____inheritanceL
 
 static_assert(::cordl_internals::size_check_v<::System::MonoCustomAttrs_AttributeInfo, 0x20>, "Size mismatch!");
 
-} // namespace System
+} // namespace end def System
 // Dependencies System.Object
 namespace System {
 // Is value type: false
 // CS Name: System.MonoCustomAttrs
 class CORDL_TYPE MonoCustomAttrs : public ::System::Object {
 public:
-  // Declarations
-  using AttributeInfo = ::System::MonoCustomAttrs_AttributeInfo;
+// Declarations
+using AttributeInfo = ::System::MonoCustomAttrs_AttributeInfo;
 
-  /// @brief Field DefaultAttributeUsage, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_DefaultAttributeUsage, put = setStaticF_DefaultAttributeUsage)) ::System::AttributeUsageAttribute* DefaultAttributeUsage;
+/// @brief Field DefaultAttributeUsage, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_DefaultAttributeUsage, put=setStaticF_DefaultAttributeUsage)) ::System::AttributeUsageAttribute*  DefaultAttributeUsage;
 
-  /// @brief Field corlib, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_corlib, put = setStaticF_corlib)) ::System::Reflection::Assembly* corlib;
+/// @brief Field corlib, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_corlib, put=setStaticF_corlib)) ::System::Reflection::Assembly*  corlib;
 
-  /// @brief Field usage_cache, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_usage_cache, put = setStaticF_usage_cache)) ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::AttributeUsageAttribute*>* usage_cache;
+/// @brief Field usage_cache, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_usage_cache, put=setStaticF_usage_cache)) ::System::Collections::Generic::Dictionary_2<::System::Type*,::System::AttributeUsageAttribute*>*  usage_cache;
 
-  /// @brief Method GetBase, addr 0x5ae4190, size 0x3a4, virtual false, abstract: false, final false
-  static inline ::System::Reflection::ICustomAttributeProvider* GetBase(::System::Reflection::ICustomAttributeProvider* obj);
+/// @brief Method GetBase, addr 0x5ae469c, size 0x3a4, virtual false, abstract: false, final false
+static inline ::System::Reflection::ICustomAttributeProvider* GetBase(::System::Reflection::ICustomAttributeProvider*  obj) ;
 
-  /// @brief Method GetBaseEventDefinition, addr 0x5ae69a4, size 0x208, virtual false, abstract: false, final false
-  static inline ::System::Reflection::EventInfo* GetBaseEventDefinition(::System::Reflection::RuntimeEventInfo* evt);
+/// @brief Method GetBaseEventDefinition, addr 0x5ae6eb0, size 0x208, virtual false, abstract: false, final false
+static inline ::System::Reflection::EventInfo* GetBaseEventDefinition(::System::Reflection::RuntimeEventInfo*  evt) ;
 
-  /// @brief Method GetBasePropertyDefinition, addr 0x5ae66cc, size 0x2d8, virtual false, abstract: false, final false
-  static inline ::System::Reflection::PropertyInfo* GetBasePropertyDefinition(::System::Reflection::RuntimePropertyInfo* property);
+/// @brief Method GetBasePropertyDefinition, addr 0x5ae6bd8, size 0x2d8, virtual false, abstract: false, final false
+static inline ::System::Reflection::PropertyInfo* GetBasePropertyDefinition(::System::Reflection::RuntimePropertyInfo*  property) ;
 
-  /// @brief Method GetCustomAttributes, addr 0x5ae37e8, size 0x9a8, virtual false, abstract: false, final false
-  static inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> GetCustomAttributes(::System::Reflection::ICustomAttributeProvider* obj, ::System::Type* attributeType, bool inherit);
+/// @brief Method GetCustomAttributes, addr 0x5ae3cf4, size 0x9a8, virtual false, abstract: false, final false
+static inline ::ArrayW<::System::Object*,::Array<::System::Object*>*> GetCustomAttributes(::System::Reflection::ICustomAttributeProvider*  obj, ::System::Type*  attributeType, bool  inherit) ;
 
-  /// @brief Method GetCustomAttributes, addr 0x5ae478c, size 0x17c, virtual false, abstract: false, final false
-  static inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> GetCustomAttributes(::System::Reflection::ICustomAttributeProvider* obj, bool inherit);
+/// @brief Method GetCustomAttributes, addr 0x5ae4c98, size 0x17c, virtual false, abstract: false, final false
+static inline ::ArrayW<::System::Object*,::Array<::System::Object*>*> GetCustomAttributes(::System::Reflection::ICustomAttributeProvider*  obj, bool  inherit) ;
 
-  /// @brief Method GetCustomAttributesBase, addr 0x5ae3638, size 0x1b0, virtual false, abstract: false, final false
-  static inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> GetCustomAttributesBase(::System::Reflection::ICustomAttributeProvider* obj, ::System::Type* attributeType,
-                                                                                                 bool inheritedOnly);
+/// @brief Method GetCustomAttributesBase, addr 0x5ae3b44, size 0x1b0, virtual false, abstract: false, final false
+static inline ::ArrayW<::System::Object*,::Array<::System::Object*>*> GetCustomAttributesBase(::System::Reflection::ICustomAttributeProvider*  obj, ::System::Type*  attributeType, bool  inheritedOnly) ;
 
-  /// @brief Method GetCustomAttributesData, addr 0x5ae4c0c, size 0x12ec, virtual false, abstract: false, final false
-  static inline ::System::Collections::Generic::IList_1<::System::Reflection::CustomAttributeData*>* GetCustomAttributesData(::System::Reflection::ICustomAttributeProvider* obj,
-                                                                                                                             ::System::Type* attributeType, bool inherit);
+/// @brief Method GetCustomAttributesData, addr 0x5ae5118, size 0x12ec, virtual false, abstract: false, final false
+static inline ::System::Collections::Generic::IList_1<::System::Reflection::CustomAttributeData*>* GetCustomAttributesData(::System::Reflection::ICustomAttributeProvider*  obj, ::System::Type*  attributeType, bool  inherit) ;
 
-  /// @brief Method GetCustomAttributesData, addr 0x5ae490c, size 0x130, virtual false, abstract: false, final false
-  static inline ::System::Collections::Generic::IList_1<::System::Reflection::CustomAttributeData*>* GetCustomAttributesData(::System::Reflection::ICustomAttributeProvider* obj, bool inherit);
+/// @brief Method GetCustomAttributesData, addr 0x5ae4e18, size 0x130, virtual false, abstract: false, final false
+static inline ::System::Collections::Generic::IList_1<::System::Reflection::CustomAttributeData*>* GetCustomAttributesData(::System::Reflection::ICustomAttributeProvider*  obj, bool  inherit) ;
 
-  /// @brief Method GetCustomAttributesDataBase, addr 0x5ae4a3c, size 0x1d0, virtual false, abstract: false, final false
-  static inline ::System::Collections::Generic::IList_1<::System::Reflection::CustomAttributeData*>* GetCustomAttributesDataBase(::System::Reflection::ICustomAttributeProvider* obj,
-                                                                                                                                 ::System::Type* attributeType, bool inheritedOnly);
+/// @brief Method GetCustomAttributesDataBase, addr 0x5ae4f48, size 0x1d0, virtual false, abstract: false, final false
+static inline ::System::Collections::Generic::IList_1<::System::Reflection::CustomAttributeData*>* GetCustomAttributesDataBase(::System::Reflection::ICustomAttributeProvider*  obj, ::System::Type*  attributeType, bool  inheritedOnly) ;
 
-  /// @brief Method GetCustomAttributesDataInternal, addr 0x5ae4908, size 0x4, virtual false, abstract: false, final false
-  static inline ::ArrayW<::System::Reflection::CustomAttributeData*, ::Array<::System::Reflection::CustomAttributeData*>*>
-  GetCustomAttributesDataInternal(::System::Reflection::ICustomAttributeProvider* obj);
+/// @brief Method GetCustomAttributesDataInternal, addr 0x5ae4e14, size 0x4, virtual false, abstract: false, final false
+static inline ::ArrayW<::System::Reflection::CustomAttributeData*,::Array<::System::Reflection::CustomAttributeData*>*> GetCustomAttributesDataInternal(::System::Reflection::ICustomAttributeProvider*  obj) ;
 
-  /// @brief Method GetCustomAttributesInternal, addr 0x5ae31b8, size 0x4, virtual false, abstract: false, final false
-  static inline ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> GetCustomAttributesInternal(::System::Reflection::ICustomAttributeProvider* obj, ::System::Type* attributeType,
-                                                                                                           bool pseudoAttrs);
+/// @brief Method GetCustomAttributesInternal, addr 0x5ae36c4, size 0x4, virtual false, abstract: false, final false
+static inline ::ArrayW<::System::Attribute*,::Array<::System::Attribute*>*> GetCustomAttributesInternal(::System::Reflection::ICustomAttributeProvider*  obj, ::System::Type*  attributeType, bool  pseudoAttrs) ;
 
-  /// @brief Method GetPseudoCustomAttributes, addr 0x5ae31bc, size 0x304, virtual false, abstract: false, final false
-  static inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> GetPseudoCustomAttributes(::System::Reflection::ICustomAttributeProvider* obj, ::System::Type* attributeType);
+/// @brief Method GetPseudoCustomAttributes, addr 0x5ae36c8, size 0x304, virtual false, abstract: false, final false
+static inline ::ArrayW<::System::Object*,::Array<::System::Object*>*> GetPseudoCustomAttributes(::System::Reflection::ICustomAttributeProvider*  obj, ::System::Type*  attributeType) ;
 
-  /// @brief Method GetPseudoCustomAttributes, addr 0x5ae34c0, size 0x178, virtual false, abstract: false, final false
-  static inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> GetPseudoCustomAttributes(::System::Type* type);
+/// @brief Method GetPseudoCustomAttributes, addr 0x5ae39cc, size 0x178, virtual false, abstract: false, final false
+static inline ::ArrayW<::System::Object*,::Array<::System::Object*>*> GetPseudoCustomAttributes(::System::Type*  type) ;
 
-  /// @brief Method GetPseudoCustomAttributesData, addr 0x5ae5ef8, size 0x30c, virtual false, abstract: false, final false
-  static inline ::ArrayW<::System::Reflection::CustomAttributeData*, ::Array<::System::Reflection::CustomAttributeData*>*>
-  GetPseudoCustomAttributesData(::System::Reflection::ICustomAttributeProvider* obj, ::System::Type* attributeType);
+/// @brief Method GetPseudoCustomAttributesData, addr 0x5ae6404, size 0x30c, virtual false, abstract: false, final false
+static inline ::ArrayW<::System::Reflection::CustomAttributeData*,::Array<::System::Reflection::CustomAttributeData*>*> GetPseudoCustomAttributesData(::System::Reflection::ICustomAttributeProvider*  obj, ::System::Type*  attributeType) ;
 
-  /// @brief Method GetPseudoCustomAttributesData, addr 0x5ae6204, size 0x240, virtual false, abstract: false, final false
-  static inline ::ArrayW<::System::Reflection::CustomAttributeData*, ::Array<::System::Reflection::CustomAttributeData*>*> GetPseudoCustomAttributesData(::System::Type* type);
+/// @brief Method GetPseudoCustomAttributesData, addr 0x5ae6710, size 0x240, virtual false, abstract: false, final false
+static inline ::ArrayW<::System::Reflection::CustomAttributeData*,::Array<::System::Reflection::CustomAttributeData*>*> GetPseudoCustomAttributesData(::System::Type*  type) ;
 
-  /// @brief Method IsDefined, addr 0x5ae6444, size 0x284, virtual false, abstract: false, final false
-  static inline bool IsDefined(::System::Reflection::ICustomAttributeProvider* obj, ::System::Type* attributeType, bool inherit);
+/// @brief Method IsDefined, addr 0x5ae6950, size 0x284, virtual false, abstract: false, final false
+static inline bool IsDefined(::System::Reflection::ICustomAttributeProvider*  obj, ::System::Type*  attributeType, bool  inherit) ;
 
-  /// @brief Method IsDefinedInternal, addr 0x5ae66c8, size 0x4, virtual false, abstract: false, final false
-  static inline bool IsDefinedInternal(::System::Reflection::ICustomAttributeProvider* obj, ::System::Type* AttributeType);
+/// @brief Method IsDefinedInternal, addr 0x5ae6bd4, size 0x4, virtual false, abstract: false, final false
+static inline bool IsDefinedInternal(::System::Reflection::ICustomAttributeProvider*  obj, ::System::Type*  AttributeType) ;
 
-  /// @brief Method IsUserCattrProvider, addr 0x5ae3010, size 0x1a8, virtual false, abstract: false, final false
-  static inline bool IsUserCattrProvider(::System::Object* obj);
+/// @brief Method IsUserCattrProvider, addr 0x5ae351c, size 0x1a8, virtual false, abstract: false, final false
+static inline bool IsUserCattrProvider(::System::Object*  obj) ;
 
-  /// @brief Method RetrieveAttributeUsage, addr 0x5ae4534, size 0x24c, virtual false, abstract: false, final false
-  static inline ::System::AttributeUsageAttribute* RetrieveAttributeUsage(::System::Type* attributeType);
+/// @brief Method RetrieveAttributeUsage, addr 0x5ae4a40, size 0x24c, virtual false, abstract: false, final false
+static inline ::System::AttributeUsageAttribute* RetrieveAttributeUsage(::System::Type*  attributeType) ;
 
-  /// @brief Method RetrieveAttributeUsageNoCache, addr 0x5ae6bac, size 0x224, virtual false, abstract: false, final false
-  static inline ::System::AttributeUsageAttribute* RetrieveAttributeUsageNoCache(::System::Type* attributeType);
+/// @brief Method RetrieveAttributeUsageNoCache, addr 0x5ae70b8, size 0x224, virtual false, abstract: false, final false
+static inline ::System::AttributeUsageAttribute* RetrieveAttributeUsageNoCache(::System::Type*  attributeType) ;
 
-  static inline ::System::AttributeUsageAttribute* getStaticF_DefaultAttributeUsage();
+static inline ::System::AttributeUsageAttribute* getStaticF_DefaultAttributeUsage() ;
 
-  static inline ::System::Reflection::Assembly* getStaticF_corlib();
+static inline ::System::Reflection::Assembly* getStaticF_corlib() ;
 
-  static inline ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::AttributeUsageAttribute*>* getStaticF_usage_cache();
+static inline ::System::Collections::Generic::Dictionary_2<::System::Type*,::System::AttributeUsageAttribute*>* getStaticF_usage_cache() ;
 
-  static inline void setStaticF_DefaultAttributeUsage(::System::AttributeUsageAttribute* value);
+static inline void setStaticF_DefaultAttributeUsage(::System::AttributeUsageAttribute*  value) ;
 
-  static inline void setStaticF_corlib(::System::Reflection::Assembly* value);
+static inline void setStaticF_corlib(::System::Reflection::Assembly*  value) ;
 
-  static inline void setStaticF_usage_cache(::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::AttributeUsageAttribute*>* value);
+static inline void setStaticF_usage_cache(::System::Collections::Generic::Dictionary_2<::System::Type*,::System::AttributeUsageAttribute*>*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MonoCustomAttrs();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr MonoCustomAttrs() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MonoCustomAttrs", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  MonoCustomAttrs(MonoCustomAttrs&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MonoCustomAttrs", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  MonoCustomAttrs(MonoCustomAttrs const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "MonoCustomAttrs", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+MonoCustomAttrs(MonoCustomAttrs && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2618 };
+// Ctor Parameters [CppParam { name: "", ty: "MonoCustomAttrs", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+MonoCustomAttrs(MonoCustomAttrs const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{2618};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::MonoCustomAttrs, 0x10>, "Size mismatch!");
 
-} // namespace System
+} // namespace end def System
 NEED_NO_BOX(::System::MonoCustomAttrs);
 DEFINE_IL2CPP_ARG_TYPE(::System::MonoCustomAttrs*, "System", "MonoCustomAttrs");
 NEED_NO_BOX(::System::MonoCustomAttrs_AttributeInfo);

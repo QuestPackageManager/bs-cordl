@@ -24,38 +24,38 @@ namespace GlobalNamespace {
 // CS Name: Vector2Extensions
 class CORDL_TYPE Vector2Extensions : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method Clamp, addr 0x322def4, size 0x24, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Vector2 Clamp(::UnityEngine::Vector2 value, ::UnityEngine::Vector2 min, ::UnityEngine::Vector2 max);
+// Declarations
+/// @brief Method Clamp, addr 0x322de44, size 0x24, virtual false, abstract: false, final false
+static inline ::UnityEngine::Vector2 Clamp(::UnityEngine::Vector2  value, ::UnityEngine::Vector2  min, ::UnityEngine::Vector2  max) ;
 
-  /// @brief Method Clamp, addr 0x322df18, size 0x2c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Vector2 Clamp(::UnityEngine::Vector2 value, ::UnityEngine::Rect within);
+/// @brief Method Clamp, addr 0x322de68, size 0x2c, virtual false, abstract: false, final false
+static inline ::UnityEngine::Vector2 Clamp(::UnityEngine::Vector2  value, ::UnityEngine::Rect  within) ;
 
-  /// @brief Method SignedAngleToLine, addr 0x322dd20, size 0x1d4, virtual false, abstract: false, final false
-  static inline float_t SignedAngleToLine(::UnityEngine::Vector2 vec, ::UnityEngine::Vector2 line);
+/// @brief Method SignedAngleToLine, addr 0x322dc70, size 0x1d4, virtual false, abstract: false, final false
+static inline float_t SignedAngleToLine(::UnityEngine::Vector2  vec, ::UnityEngine::Vector2  line) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Vector2Extensions();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr Vector2Extensions() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Vector2Extensions", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  Vector2Extensions(Vector2Extensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Vector2Extensions", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  Vector2Extensions(Vector2Extensions const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "Vector2Extensions", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+Vector2Extensions(Vector2Extensions && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20716 };
+// Ctor Parameters [CppParam { name: "", ty: "Vector2Extensions", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+Vector2Extensions(Vector2Extensions const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20720};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::Vector2Extensions, 0x10>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::Vector2Extensions);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::Vector2Extensions*, "", "Vector2Extensions");

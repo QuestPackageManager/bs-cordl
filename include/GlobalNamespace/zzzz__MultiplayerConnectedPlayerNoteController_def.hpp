@@ -20,54 +20,54 @@ namespace GlobalNamespace {
 // CS Name: MultiplayerConnectedPlayerNoteController
 class CORDL_TYPE MultiplayerConnectedPlayerNoteController : public ::GlobalNamespace::NoteController {
 public:
-  // Declarations
-  /// @brief Field _visualsWrapperGo, offset 0x88, size 0x8
-  __declspec(property(get = __cordl_internal_get__visualsWrapperGo, put = __cordl_internal_set__visualsWrapperGo)) ::UnityW<::UnityEngine::GameObject> _visualsWrapperGo;
+// Declarations
+/// @brief Field _visualsWrapperGo, offset 0x88, size 0x8 
+ __declspec(property(get=__cordl_internal_get__visualsWrapperGo, put=__cordl_internal_set__visualsWrapperGo)) ::UnityW<::UnityEngine::GameObject>  _visualsWrapperGo;
 
-  /// @brief Method HiddenStateDidChange, addr 0x5812810, size 0x20, virtual true, abstract: false, final false
-  inline void HiddenStateDidChange(bool hide);
+/// @brief Method HiddenStateDidChange, addr 0x5813140, size 0x20, virtual true, abstract: false, final false
+inline void HiddenStateDidChange(bool  hide) ;
 
-  static inline ::GlobalNamespace::MultiplayerConnectedPlayerNoteController* New_ctor();
+static inline ::GlobalNamespace::MultiplayerConnectedPlayerNoteController* New_ctor() ;
 
-  /// @brief Method Pause, addr 0x5812830, size 0x10, virtual true, abstract: false, final false
-  inline void Pause(bool pause);
+/// @brief Method Pause, addr 0x5813160, size 0x10, virtual true, abstract: false, final false
+inline void Pause(bool  pause) ;
 
-  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__visualsWrapperGo() const;
+constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__visualsWrapperGo() const;
 
-  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__visualsWrapperGo();
+constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__visualsWrapperGo() ;
 
-  constexpr void __cordl_internal_set__visualsWrapperGo(::UnityW<::UnityEngine::GameObject> value);
+constexpr void __cordl_internal_set__visualsWrapperGo(::UnityW<::UnityEngine::GameObject>  value) ;
 
-  /// @brief Method .ctor, addr 0x5812570, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5812ea0, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MultiplayerConnectedPlayerNoteController();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr MultiplayerConnectedPlayerNoteController() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerConnectedPlayerNoteController", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  MultiplayerConnectedPlayerNoteController(MultiplayerConnectedPlayerNoteController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerConnectedPlayerNoteController", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerConnectedPlayerNoteController(MultiplayerConnectedPlayerNoteController const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "MultiplayerConnectedPlayerNoteController", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+MultiplayerConnectedPlayerNoteController(MultiplayerConnectedPlayerNoteController && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6081 };
+// Ctor Parameters [CppParam { name: "", ty: "MultiplayerConnectedPlayerNoteController", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+MultiplayerConnectedPlayerNoteController(MultiplayerConnectedPlayerNoteController const& ) = delete;
 
-  /// @brief Field _visualsWrapperGo, offset: 0x88, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::GameObject> ____visualsWrapperGo;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6081};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _visualsWrapperGo, offset: 0x88, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::GameObject>  ____visualsWrapperGo;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::MultiplayerConnectedPlayerNoteController, ____visualsWrapperGo) == 0x88, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerConnectedPlayerNoteController, 0x90>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MultiplayerConnectedPlayerNoteController);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerConnectedPlayerNoteController*, "", "MultiplayerConnectedPlayerNoteController");

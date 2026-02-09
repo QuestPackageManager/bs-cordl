@@ -21,32 +21,32 @@ namespace Unity::Properties::Internal {
 // CS Name: Unity.Properties.Internal.ReflectionUtilities
 class CORDL_TYPE ReflectionUtilities : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method SanitizeMemberName, addr 0x69d6664, size 0x108, virtual false, abstract: false, final false
-  static inline ::StringW SanitizeMemberName(::System::Reflection::MemberInfo* info);
+// Declarations
+/// @brief Method SanitizeMemberName, addr 0x69d6d24, size 0x108, virtual false, abstract: false, final false
+static inline ::StringW SanitizeMemberName(::System::Reflection::MemberInfo*  info) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ReflectionUtilities();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ReflectionUtilities() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ReflectionUtilities", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ReflectionUtilities(ReflectionUtilities&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ReflectionUtilities", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ReflectionUtilities(ReflectionUtilities const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ReflectionUtilities", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ReflectionUtilities(ReflectionUtilities && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19484 };
+// Ctor Parameters [CppParam { name: "", ty: "ReflectionUtilities", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ReflectionUtilities(ReflectionUtilities const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{19488};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Unity::Properties::Internal::ReflectionUtilities, 0x10>, "Size mismatch!");
 
-} // namespace Unity::Properties::Internal
+} // namespace end def Unity::Properties::Internal
 NEED_NO_BOX(::Unity::Properties::Internal::ReflectionUtilities);
 DEFINE_IL2CPP_ARG_TYPE(::Unity::Properties::Internal::ReflectionUtilities*, "Unity.Properties.Internal", "ReflectionUtilities");

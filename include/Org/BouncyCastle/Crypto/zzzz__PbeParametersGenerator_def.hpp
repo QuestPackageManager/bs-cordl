@@ -22,123 +22,123 @@ namespace Org::BouncyCastle::Crypto {
 // CS Name: Org.BouncyCastle.Crypto.PbeParametersGenerator
 class CORDL_TYPE PbeParametersGenerator : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(get = get_IterationCount)) int32_t IterationCount;
+// Declarations
+ __declspec(property(get=get_IterationCount)) int32_t  IterationCount;
 
-  __declspec(property(get = get_Password)) ::ArrayW<uint8_t, ::Array<uint8_t>*> Password;
+ __declspec(property(get=get_Password)) ::ArrayW<uint8_t,::Array<uint8_t>*>  Password;
 
-  __declspec(property(get = get_Salt)) ::ArrayW<uint8_t, ::Array<uint8_t>*> Salt;
+ __declspec(property(get=get_Salt)) ::ArrayW<uint8_t,::Array<uint8_t>*>  Salt;
 
-  /// @brief Field mIterationCount, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get_mIterationCount, put = __cordl_internal_set_mIterationCount)) int32_t mIterationCount;
+/// @brief Field mIterationCount, offset 0x20, size 0x4 
+ __declspec(property(get=__cordl_internal_get_mIterationCount, put=__cordl_internal_set_mIterationCount)) int32_t  mIterationCount;
 
-  /// @brief Field mPassword, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_mPassword, put = __cordl_internal_set_mPassword)) ::ArrayW<uint8_t, ::Array<uint8_t>*> mPassword;
+/// @brief Field mPassword, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_mPassword, put=__cordl_internal_set_mPassword)) ::ArrayW<uint8_t,::Array<uint8_t>*>  mPassword;
 
-  /// @brief Field mSalt, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_mSalt, put = __cordl_internal_set_mSalt)) ::ArrayW<uint8_t, ::Array<uint8_t>*> mSalt;
+/// @brief Field mSalt, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_mSalt, put=__cordl_internal_set_mSalt)) ::ArrayW<uint8_t,::Array<uint8_t>*>  mSalt;
 
-  /// @brief Method GenerateDerivedMacParameters, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Crypto::ICipherParameters* GenerateDerivedMacParameters(int32_t keySize);
+/// @brief Method GenerateDerivedMacParameters, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Crypto::ICipherParameters* GenerateDerivedMacParameters(int32_t  keySize) ;
 
-  /// @brief Method GenerateDerivedParameters, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Crypto::ICipherParameters* GenerateDerivedParameters(::StringW algorithm, int32_t keySize);
+/// @brief Method GenerateDerivedParameters, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Crypto::ICipherParameters* GenerateDerivedParameters(::StringW  algorithm, int32_t  keySize) ;
 
-  /// @brief Method GenerateDerivedParameters, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Crypto::ICipherParameters* GenerateDerivedParameters(::StringW algorithm, int32_t keySize, int32_t ivSize);
+/// @brief Method GenerateDerivedParameters, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Crypto::ICipherParameters* GenerateDerivedParameters(::StringW  algorithm, int32_t  keySize, int32_t  ivSize) ;
 
-  /// @brief Method GenerateDerivedParameters, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Crypto::ICipherParameters* GenerateDerivedParameters(int32_t keySize);
+/// @brief Method GenerateDerivedParameters, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Crypto::ICipherParameters* GenerateDerivedParameters(int32_t  keySize) ;
 
-  /// @brief Method GenerateDerivedParameters, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Crypto::ICipherParameters* GenerateDerivedParameters(int32_t keySize, int32_t ivSize);
+/// @brief Method GenerateDerivedParameters, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Crypto::ICipherParameters* GenerateDerivedParameters(int32_t  keySize, int32_t  ivSize) ;
 
-  /// @brief Method GetPassword, addr 0x32e52fc, size 0xc, virtual false, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetPassword();
+/// @brief Method GetPassword, addr 0x32e524c, size 0xc, virtual false, abstract: false, final false
+inline ::ArrayW<uint8_t,::Array<uint8_t>*> GetPassword() ;
 
-  /// @brief Method GetSalt, addr 0x32e5368, size 0xc, virtual false, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetSalt();
+/// @brief Method GetSalt, addr 0x32e52b8, size 0xc, virtual false, abstract: false, final false
+inline ::ArrayW<uint8_t,::Array<uint8_t>*> GetSalt() ;
 
-  /// @brief Method Init, addr 0x32e5198, size 0x104, virtual true, abstract: false, final false
-  inline void Init(::ArrayW<uint8_t, ::Array<uint8_t>*> password, ::ArrayW<uint8_t, ::Array<uint8_t>*> salt, int32_t iterationCount);
+/// @brief Method Init, addr 0x32e50e8, size 0x104, virtual true, abstract: false, final false
+inline void Init(::ArrayW<uint8_t,::Array<uint8_t>*>  password, ::ArrayW<uint8_t,::Array<uint8_t>*>  salt, int32_t  iterationCount) ;
 
-  static inline ::Org::BouncyCastle::Crypto::PbeParametersGenerator* New_ctor();
+static inline ::Org::BouncyCastle::Crypto::PbeParametersGenerator* New_ctor() ;
 
-  /// @brief Method Pkcs12PasswordToBytes, addr 0x32e553c, size 0x8, virtual false, abstract: false, final false
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Pkcs12PasswordToBytes(::ArrayW<char16_t, ::Array<char16_t>*> password);
+/// @brief Method Pkcs12PasswordToBytes, addr 0x32e548c, size 0x8, virtual false, abstract: false, final false
+static inline ::ArrayW<uint8_t,::Array<uint8_t>*> Pkcs12PasswordToBytes(::ArrayW<char16_t,::Array<char16_t>*>  password) ;
 
-  /// @brief Method Pkcs12PasswordToBytes, addr 0x32e5544, size 0xd0, virtual false, abstract: false, final false
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Pkcs12PasswordToBytes(::ArrayW<char16_t, ::Array<char16_t>*> password, bool wrongPkcs12Zero);
+/// @brief Method Pkcs12PasswordToBytes, addr 0x32e5494, size 0xd0, virtual false, abstract: false, final false
+static inline ::ArrayW<uint8_t,::Array<uint8_t>*> Pkcs12PasswordToBytes(::ArrayW<char16_t,::Array<char16_t>*>  password, bool  wrongPkcs12Zero) ;
 
-  /// @brief Method Pkcs5PasswordToBytes, addr 0x32e537c, size 0x64, virtual false, abstract: false, final false
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Pkcs5PasswordToBytes(::ArrayW<char16_t, ::Array<char16_t>*> password);
+/// @brief Method Pkcs5PasswordToBytes, addr 0x32e52cc, size 0x64, virtual false, abstract: false, final false
+static inline ::ArrayW<uint8_t,::Array<uint8_t>*> Pkcs5PasswordToBytes(::ArrayW<char16_t,::Array<char16_t>*>  password) ;
 
-  /// @brief Method Pkcs5PasswordToBytes, addr 0x32e53e0, size 0x64, virtual false, abstract: false, final false
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Pkcs5PasswordToBytes(::StringW password);
+/// @brief Method Pkcs5PasswordToBytes, addr 0x32e5330, size 0x64, virtual false, abstract: false, final false
+static inline ::ArrayW<uint8_t,::Array<uint8_t>*> Pkcs5PasswordToBytes(::StringW  password) ;
 
-  /// @brief Method Pkcs5PasswordToUtf8Bytes, addr 0x32e5444, size 0x7c, virtual false, abstract: false, final false
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Pkcs5PasswordToUtf8Bytes(::ArrayW<char16_t, ::Array<char16_t>*> password);
+/// @brief Method Pkcs5PasswordToUtf8Bytes, addr 0x32e5394, size 0x7c, virtual false, abstract: false, final false
+static inline ::ArrayW<uint8_t,::Array<uint8_t>*> Pkcs5PasswordToUtf8Bytes(::ArrayW<char16_t,::Array<char16_t>*>  password) ;
 
-  /// @brief Method Pkcs5PasswordToUtf8Bytes, addr 0x32e54c0, size 0x7c, virtual false, abstract: false, final false
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Pkcs5PasswordToUtf8Bytes(::StringW password);
+/// @brief Method Pkcs5PasswordToUtf8Bytes, addr 0x32e5410, size 0x7c, virtual false, abstract: false, final false
+static inline ::ArrayW<uint8_t,::Array<uint8_t>*> Pkcs5PasswordToUtf8Bytes(::StringW  password) ;
 
-  constexpr int32_t const& __cordl_internal_get_mIterationCount() const;
+constexpr int32_t const& __cordl_internal_get_mIterationCount() const;
 
-  constexpr int32_t& __cordl_internal_get_mIterationCount();
+constexpr int32_t& __cordl_internal_get_mIterationCount() ;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_mPassword() const;
+constexpr ::ArrayW<uint8_t,::Array<uint8_t>*> const& __cordl_internal_get_mPassword() const;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_mPassword();
+constexpr ::ArrayW<uint8_t,::Array<uint8_t>*>& __cordl_internal_get_mPassword() ;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_mSalt() const;
+constexpr ::ArrayW<uint8_t,::Array<uint8_t>*> const& __cordl_internal_get_mSalt() const;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_mSalt();
+constexpr ::ArrayW<uint8_t,::Array<uint8_t>*>& __cordl_internal_get_mSalt() ;
 
-  constexpr void __cordl_internal_set_mIterationCount(int32_t value);
+constexpr void __cordl_internal_set_mIterationCount(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_mPassword(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+constexpr void __cordl_internal_set_mPassword(::ArrayW<uint8_t,::Array<uint8_t>*>  value) ;
 
-  constexpr void __cordl_internal_set_mSalt(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+constexpr void __cordl_internal_set_mSalt(::ArrayW<uint8_t,::Array<uint8_t>*>  value) ;
 
-  /// @brief Method .ctor, addr 0x32e5194, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x32e50e4, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_IterationCount, addr 0x32e5374, size 0x8, virtual true, abstract: false, final false
-  inline int32_t get_IterationCount();
+/// @brief Method get_IterationCount, addr 0x32e52c4, size 0x8, virtual true, abstract: false, final false
+inline int32_t get_IterationCount() ;
 
-  /// @brief Method get_Password, addr 0x32e529c, size 0x60, virtual true, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_Password();
+/// @brief Method get_Password, addr 0x32e51ec, size 0x60, virtual true, abstract: false, final false
+inline ::ArrayW<uint8_t,::Array<uint8_t>*> get_Password() ;
 
-  /// @brief Method get_Salt, addr 0x32e5308, size 0x60, virtual true, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_Salt();
+/// @brief Method get_Salt, addr 0x32e5258, size 0x60, virtual true, abstract: false, final false
+inline ::ArrayW<uint8_t,::Array<uint8_t>*> get_Salt() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PbeParametersGenerator();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr PbeParametersGenerator() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PbeParametersGenerator", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  PbeParametersGenerator(PbeParametersGenerator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PbeParametersGenerator", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  PbeParametersGenerator(PbeParametersGenerator const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "PbeParametersGenerator", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+PbeParametersGenerator(PbeParametersGenerator && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 916 };
+// Ctor Parameters [CppParam { name: "", ty: "PbeParametersGenerator", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+PbeParametersGenerator(PbeParametersGenerator const& ) = delete;
 
-  /// @brief Field mPassword, offset: 0x10, size: 0x8, def value: None
-  ::ArrayW<uint8_t, ::Array<uint8_t>*> ___mPassword;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{916};
 
-  /// @brief Field mSalt, offset: 0x18, size: 0x8, def value: None
-  ::ArrayW<uint8_t, ::Array<uint8_t>*> ___mSalt;
+/// @brief Field mPassword, offset: 0x10, size: 0x8, def value: None
+ ::ArrayW<uint8_t,::Array<uint8_t>*>  ___mPassword;
 
-  /// @brief Field mIterationCount, offset: 0x20, size: 0x4, def value: None
-  int32_t ___mIterationCount;
+/// @brief Field mSalt, offset: 0x18, size: 0x8, def value: None
+ ::ArrayW<uint8_t,::Array<uint8_t>*>  ___mSalt;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field mIterationCount, offset: 0x20, size: 0x4, def value: None
+ int32_t  ___mIterationCount;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Org::BouncyCastle::Crypto::PbeParametersGenerator, ___mPassword) == 0x10, "Offset mismatch!");
@@ -149,6 +149,6 @@ static_assert(offsetof(::Org::BouncyCastle::Crypto::PbeParametersGenerator, ___m
 
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::PbeParametersGenerator, 0x28>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Crypto
+} // namespace end def Org::BouncyCastle::Crypto
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::PbeParametersGenerator);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::PbeParametersGenerator*, "Org.BouncyCastle.Crypto", "PbeParametersGenerator");

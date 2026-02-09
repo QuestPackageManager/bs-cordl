@@ -28,126 +28,125 @@ namespace GlobalNamespace {
 // CS Name: ParticleSystemLightWithId
 class CORDL_TYPE ParticleSystemLightWithId : public ::GlobalNamespace::LightWithIdMonoBehaviour {
 public:
-  // Declarations
-  /// @brief Field _intensity, offset 0x44, size 0x4
-  __declspec(property(get = __cordl_internal_get__intensity, put = __cordl_internal_set__intensity)) float_t _intensity;
+// Declarations
+/// @brief Field _intensity, offset 0x44, size 0x4 
+ __declspec(property(get=__cordl_internal_get__intensity, put=__cordl_internal_set__intensity)) float_t  _intensity;
 
-  /// @brief Field _mainModule, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get__mainModule, put = __cordl_internal_set__mainModule)) ::UnityEngine::ParticleSystem_MainModule _mainModule;
+/// @brief Field _mainModule, offset 0x50, size 0x8 
+ __declspec(property(get=__cordl_internal_get__mainModule, put=__cordl_internal_set__mainModule)) ::UnityEngine::ParticleSystem_MainModule  _mainModule;
 
-  /// @brief Field _minAlpha, offset 0x48, size 0x4
-  __declspec(property(get = __cordl_internal_get__minAlpha, put = __cordl_internal_set__minAlpha)) float_t _minAlpha;
+/// @brief Field _minAlpha, offset 0x48, size 0x4 
+ __declspec(property(get=__cordl_internal_get__minAlpha, put=__cordl_internal_set__minAlpha)) float_t  _minAlpha;
 
-  /// @brief Field _particleSystem, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__particleSystem, put = __cordl_internal_set__particleSystem)) ::UnityW<::UnityEngine::ParticleSystem> _particleSystem;
+/// @brief Field _particleSystem, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get__particleSystem, put=__cordl_internal_set__particleSystem)) ::UnityW<::UnityEngine::ParticleSystem>  _particleSystem;
 
-  /// @brief Field _particles, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get__particles, put = __cordl_internal_set__particles)) ::ArrayW<::UnityEngine::ParticleSystem_Particle, ::Array<::UnityEngine::ParticleSystem_Particle>*>
-      _particles;
+/// @brief Field _particles, offset 0x58, size 0x8 
+ __declspec(property(get=__cordl_internal_get__particles, put=__cordl_internal_set__particles)) ::ArrayW<::UnityEngine::ParticleSystem_Particle,::Array<::UnityEngine::ParticleSystem_Particle>*>  _particles;
 
-  /// @brief Field _setColorOnly, offset 0x41, size 0x1
-  __declspec(property(get = __cordl_internal_get__setColorOnly, put = __cordl_internal_set__setColorOnly)) bool _setColorOnly;
+/// @brief Field _setColorOnly, offset 0x41, size 0x1 
+ __declspec(property(get=__cordl_internal_get__setColorOnly, put=__cordl_internal_set__setColorOnly)) bool  _setColorOnly;
 
-  __declspec(property(get = get_color)) ::UnityEngine::Color color;
+ __declspec(property(get=get_color)) ::UnityEngine::Color  color;
 
-  /// @brief Field setOnlyOnce, offset 0x40, size 0x1
-  __declspec(property(get = __cordl_internal_get_setOnlyOnce, put = __cordl_internal_set_setOnlyOnce)) bool setOnlyOnce;
+/// @brief Field setOnlyOnce, offset 0x40, size 0x1 
+ __declspec(property(get=__cordl_internal_get_setOnlyOnce, put=__cordl_internal_set_setOnlyOnce)) bool  setOnlyOnce;
 
-  /// @brief Method Awake, addr 0x56bc410, size 0x94, virtual false, abstract: false, final false
-  inline void Awake();
+/// @brief Method Awake, addr 0x56bc198, size 0x94, virtual false, abstract: false, final false
+inline void Awake() ;
 
-  /// @brief Method ColorWasSet, addr 0x56bc4a4, size 0x180, virtual true, abstract: false, final false
-  inline void ColorWasSet(::UnityEngine::Color color);
+/// @brief Method ColorWasSet, addr 0x56bc22c, size 0x180, virtual true, abstract: false, final false
+inline void ColorWasSet(::UnityEngine::Color  color) ;
 
-  static inline ::GlobalNamespace::ParticleSystemLightWithId* New_ctor();
+static inline ::GlobalNamespace::ParticleSystemLightWithId* New_ctor() ;
 
-  constexpr float_t const& __cordl_internal_get__intensity() const;
+constexpr float_t const& __cordl_internal_get__intensity() const;
 
-  constexpr float_t& __cordl_internal_get__intensity();
+constexpr float_t& __cordl_internal_get__intensity() ;
 
-  constexpr ::UnityEngine::ParticleSystem_MainModule const& __cordl_internal_get__mainModule() const;
+constexpr ::UnityEngine::ParticleSystem_MainModule const& __cordl_internal_get__mainModule() const;
 
-  constexpr ::UnityEngine::ParticleSystem_MainModule& __cordl_internal_get__mainModule();
+constexpr ::UnityEngine::ParticleSystem_MainModule& __cordl_internal_get__mainModule() ;
 
-  constexpr float_t const& __cordl_internal_get__minAlpha() const;
+constexpr float_t const& __cordl_internal_get__minAlpha() const;
 
-  constexpr float_t& __cordl_internal_get__minAlpha();
+constexpr float_t& __cordl_internal_get__minAlpha() ;
 
-  constexpr ::UnityW<::UnityEngine::ParticleSystem> const& __cordl_internal_get__particleSystem() const;
+constexpr ::UnityW<::UnityEngine::ParticleSystem> const& __cordl_internal_get__particleSystem() const;
 
-  constexpr ::UnityW<::UnityEngine::ParticleSystem>& __cordl_internal_get__particleSystem();
+constexpr ::UnityW<::UnityEngine::ParticleSystem>& __cordl_internal_get__particleSystem() ;
 
-  constexpr ::ArrayW<::UnityEngine::ParticleSystem_Particle, ::Array<::UnityEngine::ParticleSystem_Particle>*> const& __cordl_internal_get__particles() const;
+constexpr ::ArrayW<::UnityEngine::ParticleSystem_Particle,::Array<::UnityEngine::ParticleSystem_Particle>*> const& __cordl_internal_get__particles() const;
 
-  constexpr ::ArrayW<::UnityEngine::ParticleSystem_Particle, ::Array<::UnityEngine::ParticleSystem_Particle>*>& __cordl_internal_get__particles();
+constexpr ::ArrayW<::UnityEngine::ParticleSystem_Particle,::Array<::UnityEngine::ParticleSystem_Particle>*>& __cordl_internal_get__particles() ;
 
-  constexpr bool const& __cordl_internal_get__setColorOnly() const;
+constexpr bool const& __cordl_internal_get__setColorOnly() const;
 
-  constexpr bool& __cordl_internal_get__setColorOnly();
+constexpr bool& __cordl_internal_get__setColorOnly() ;
 
-  constexpr bool const& __cordl_internal_get_setOnlyOnce() const;
+constexpr bool const& __cordl_internal_get_setOnlyOnce() const;
 
-  constexpr bool& __cordl_internal_get_setOnlyOnce();
+constexpr bool& __cordl_internal_get_setOnlyOnce() ;
 
-  constexpr void __cordl_internal_set__intensity(float_t value);
+constexpr void __cordl_internal_set__intensity(float_t  value) ;
 
-  constexpr void __cordl_internal_set__mainModule(::UnityEngine::ParticleSystem_MainModule value);
+constexpr void __cordl_internal_set__mainModule(::UnityEngine::ParticleSystem_MainModule  value) ;
 
-  constexpr void __cordl_internal_set__minAlpha(float_t value);
+constexpr void __cordl_internal_set__minAlpha(float_t  value) ;
 
-  constexpr void __cordl_internal_set__particleSystem(::UnityW<::UnityEngine::ParticleSystem> value);
+constexpr void __cordl_internal_set__particleSystem(::UnityW<::UnityEngine::ParticleSystem>  value) ;
 
-  constexpr void __cordl_internal_set__particles(::ArrayW<::UnityEngine::ParticleSystem_Particle, ::Array<::UnityEngine::ParticleSystem_Particle>*> value);
+constexpr void __cordl_internal_set__particles(::ArrayW<::UnityEngine::ParticleSystem_Particle,::Array<::UnityEngine::ParticleSystem_Particle>*>  value) ;
 
-  constexpr void __cordl_internal_set__setColorOnly(bool value);
+constexpr void __cordl_internal_set__setColorOnly(bool  value) ;
 
-  constexpr void __cordl_internal_set_setOnlyOnce(bool value);
+constexpr void __cordl_internal_set_setOnlyOnce(bool  value) ;
 
-  /// @brief Method .ctor, addr 0x56bc624, size 0x14, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x56bc3ac, size 0x14, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_color, addr 0x56bc3e4, size 0x2c, virtual false, abstract: false, final false
-  inline ::UnityEngine::Color get_color();
+/// @brief Method get_color, addr 0x56bc16c, size 0x2c, virtual false, abstract: false, final false
+inline ::UnityEngine::Color get_color() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ParticleSystemLightWithId();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ParticleSystemLightWithId() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ParticleSystemLightWithId", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ParticleSystemLightWithId(ParticleSystemLightWithId&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ParticleSystemLightWithId", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ParticleSystemLightWithId(ParticleSystemLightWithId const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ParticleSystemLightWithId", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ParticleSystemLightWithId(ParticleSystemLightWithId && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19739 };
+// Ctor Parameters [CppParam { name: "", ty: "ParticleSystemLightWithId", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ParticleSystemLightWithId(ParticleSystemLightWithId const& ) = delete;
 
-  /// @brief Field _particleSystem, offset: 0x38, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::ParticleSystem> ____particleSystem;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{19743};
 
-  /// @brief Field setOnlyOnce, offset: 0x40, size: 0x1, def value: None
-  bool ___setOnlyOnce;
+/// @brief Field _particleSystem, offset: 0x38, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::ParticleSystem>  ____particleSystem;
 
-  /// @brief Field _setColorOnly, offset: 0x41, size: 0x1, def value: None
-  bool ____setColorOnly;
+/// @brief Field setOnlyOnce, offset: 0x40, size: 0x1, def value: None
+ bool  ___setOnlyOnce;
 
-  /// @brief Field _intensity, offset: 0x44, size: 0x4, def value: None
-  float_t ____intensity;
+/// @brief Field _setColorOnly, offset: 0x41, size: 0x1, def value: None
+ bool  ____setColorOnly;
 
-  /// @brief Field _minAlpha, offset: 0x48, size: 0x4, def value: None
-  float_t ____minAlpha;
+/// @brief Field _intensity, offset: 0x44, size: 0x4, def value: None
+ float_t  ____intensity;
 
-  /// @brief Field _mainModule, offset: 0x50, size: 0x8, def value: None
-  ::UnityEngine::ParticleSystem_MainModule ____mainModule;
+/// @brief Field _minAlpha, offset: 0x48, size: 0x4, def value: None
+ float_t  ____minAlpha;
 
-  /// @brief Field _particles, offset: 0x58, size: 0x8, def value: None
-  ::ArrayW<::UnityEngine::ParticleSystem_Particle, ::Array<::UnityEngine::ParticleSystem_Particle>*> ____particles;
+/// @brief Field _mainModule, offset: 0x50, size: 0x8, def value: None
+ ::UnityEngine::ParticleSystem_MainModule  ____mainModule;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _particles, offset: 0x58, size: 0x8, def value: None
+ ::ArrayW<::UnityEngine::ParticleSystem_Particle,::Array<::UnityEngine::ParticleSystem_Particle>*>  ____particles;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::ParticleSystemLightWithId, ____particleSystem) == 0x38, "Offset mismatch!");
@@ -166,6 +165,6 @@ static_assert(offsetof(::GlobalNamespace::ParticleSystemLightWithId, ____particl
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ParticleSystemLightWithId, 0x60>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ParticleSystemLightWithId);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ParticleSystemLightWithId*, "", "ParticleSystemLightWithId");

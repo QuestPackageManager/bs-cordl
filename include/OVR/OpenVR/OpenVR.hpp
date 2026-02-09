@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "OVR/OpenVR/AppOverrideKeys_t.hpp"
 #include "OVR/OpenVR/COpenVRContext.hpp"
@@ -188,5 +188,6 @@ module;
 #include "OVR/OpenVR/VRTextureWithPose_t.hpp"
 #include "OVR/OpenVR/VRVulkanTextureData_t.hpp"
 #ifdef __cpp_modules
-export module OpenVR;
-#endif
+                    export module OpenVR;
+                    #endif
+                

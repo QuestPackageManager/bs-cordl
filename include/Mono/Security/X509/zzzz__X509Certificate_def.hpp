@@ -47,425 +47,425 @@ namespace Mono::Security::X509 {
 // CS Name: Mono.Security.X509.X509Certificate
 class CORDL_TYPE X509Certificate : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(get = get_DSA, put = set_DSA)) ::System::Security::Cryptography::DSA* DSA;
+// Declarations
+ __declspec(property(get=get_DSA, put=set_DSA)) ::System::Security::Cryptography::DSA*  DSA;
 
-  __declspec(property(get = get_Extensions)) ::Mono::Security::X509::X509ExtensionCollection* Extensions;
+ __declspec(property(get=get_Extensions)) ::Mono::Security::X509::X509ExtensionCollection*  Extensions;
 
-  __declspec(property(get = get_Hash)) ::ArrayW<uint8_t, ::Array<uint8_t>*> Hash;
+ __declspec(property(get=get_Hash)) ::ArrayW<uint8_t,::Array<uint8_t>*>  Hash;
 
-  __declspec(property(get = get_IsCurrent)) bool IsCurrent;
+ __declspec(property(get=get_IsCurrent)) bool  IsCurrent;
 
-  __declspec(property(get = get_IsSelfSigned)) bool IsSelfSigned;
+ __declspec(property(get=get_IsSelfSigned)) bool  IsSelfSigned;
 
-  __declspec(property(get = get_IssuerName)) ::StringW IssuerName;
+ __declspec(property(get=get_IssuerName)) ::StringW  IssuerName;
 
-  __declspec(property(get = get_KeyAlgorithm)) ::StringW KeyAlgorithm;
+ __declspec(property(get=get_KeyAlgorithm)) ::StringW  KeyAlgorithm;
 
-  __declspec(property(get = get_KeyAlgorithmParameters, put = set_KeyAlgorithmParameters)) ::ArrayW<uint8_t, ::Array<uint8_t>*> KeyAlgorithmParameters;
+ __declspec(property(get=get_KeyAlgorithmParameters, put=set_KeyAlgorithmParameters)) ::ArrayW<uint8_t,::Array<uint8_t>*>  KeyAlgorithmParameters;
 
-  __declspec(property(get = get_PublicKey)) ::ArrayW<uint8_t, ::Array<uint8_t>*> PublicKey;
+ __declspec(property(get=get_PublicKey)) ::ArrayW<uint8_t,::Array<uint8_t>*>  PublicKey;
 
-  __declspec(property(get = get_RSA, put = set_RSA)) ::System::Security::Cryptography::RSA* RSA;
+ __declspec(property(get=get_RSA, put=set_RSA)) ::System::Security::Cryptography::RSA*  RSA;
 
-  __declspec(property(get = get_RawData)) ::ArrayW<uint8_t, ::Array<uint8_t>*> RawData;
+ __declspec(property(get=get_RawData)) ::ArrayW<uint8_t,::Array<uint8_t>*>  RawData;
 
-  __declspec(property(get = get_SerialNumber)) ::ArrayW<uint8_t, ::Array<uint8_t>*> SerialNumber;
+ __declspec(property(get=get_SerialNumber)) ::ArrayW<uint8_t,::Array<uint8_t>*>  SerialNumber;
 
-  __declspec(property(get = get_Signature)) ::ArrayW<uint8_t, ::Array<uint8_t>*> Signature;
+ __declspec(property(get=get_Signature)) ::ArrayW<uint8_t,::Array<uint8_t>*>  Signature;
 
-  __declspec(property(get = get_SubjectName)) ::StringW SubjectName;
+ __declspec(property(get=get_SubjectName)) ::StringW  SubjectName;
 
-  __declspec(property(get = get_ValidFrom)) ::System::DateTime ValidFrom;
+ __declspec(property(get=get_ValidFrom)) ::System::DateTime  ValidFrom;
 
-  __declspec(property(get = get_ValidUntil)) ::System::DateTime ValidUntil;
+ __declspec(property(get=get_ValidUntil)) ::System::DateTime  ValidUntil;
 
-  __declspec(property(get = get_Version)) int32_t Version;
+ __declspec(property(get=get_Version)) int32_t  Version;
 
-  /// @brief Field _dsa, offset 0x90, size 0x8
-  __declspec(property(get = __cordl_internal_get__dsa, put = __cordl_internal_set__dsa)) ::System::Security::Cryptography::DSA* _dsa;
+/// @brief Field _dsa, offset 0x90, size 0x8 
+ __declspec(property(get=__cordl_internal_get__dsa, put=__cordl_internal_set__dsa)) ::System::Security::Cryptography::DSA*  _dsa;
 
-  /// @brief Field _rsa, offset 0x88, size 0x8
-  __declspec(property(get = __cordl_internal_get__rsa, put = __cordl_internal_set__rsa)) ::System::Security::Cryptography::RSA* _rsa;
+/// @brief Field _rsa, offset 0x88, size 0x8 
+ __declspec(property(get=__cordl_internal_get__rsa, put=__cordl_internal_set__rsa)) ::System::Security::Cryptography::RSA*  _rsa;
 
-  /// @brief Field certhash, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get_certhash, put = __cordl_internal_set_certhash)) ::ArrayW<uint8_t, ::Array<uint8_t>*> certhash;
+/// @brief Field certhash, offset 0x80, size 0x8 
+ __declspec(property(get=__cordl_internal_get_certhash, put=__cordl_internal_set_certhash)) ::ArrayW<uint8_t,::Array<uint8_t>*>  certhash;
 
-  /// @brief Field decoder, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_decoder, put = __cordl_internal_set_decoder)) ::Mono::Security::ASN1* decoder;
+/// @brief Field decoder, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_decoder, put=__cordl_internal_set_decoder)) ::Mono::Security::ASN1*  decoder;
 
-  /// @brief Field encoding_error, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_encoding_error, put = setStaticF_encoding_error)) ::StringW encoding_error;
+/// @brief Field encoding_error, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_encoding_error, put=setStaticF_encoding_error)) ::StringW  encoding_error;
 
-  /// @brief Field extensions, offset 0xb8, size 0x8
-  __declspec(property(get = __cordl_internal_get_extensions, put = __cordl_internal_set_extensions)) ::Mono::Security::X509::X509ExtensionCollection* extensions;
+/// @brief Field extensions, offset 0xb8, size 0x8 
+ __declspec(property(get=__cordl_internal_get_extensions, put=__cordl_internal_set_extensions)) ::Mono::Security::X509::X509ExtensionCollection*  extensions;
 
-  /// @brief Field issuer, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_issuer, put = __cordl_internal_set_issuer)) ::Mono::Security::ASN1* issuer;
+/// @brief Field issuer, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get_issuer, put=__cordl_internal_set_issuer)) ::Mono::Security::ASN1*  issuer;
 
-  /// @brief Field issuerUniqueID, offset 0xa8, size 0x8
-  __declspec(property(get = __cordl_internal_get_issuerUniqueID, put = __cordl_internal_set_issuerUniqueID)) ::ArrayW<uint8_t, ::Array<uint8_t>*> issuerUniqueID;
+/// @brief Field issuerUniqueID, offset 0xa8, size 0x8 
+ __declspec(property(get=__cordl_internal_get_issuerUniqueID, put=__cordl_internal_set_issuerUniqueID)) ::ArrayW<uint8_t,::Array<uint8_t>*>  issuerUniqueID;
 
-  /// @brief Field m_encodedcert, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_encodedcert, put = __cordl_internal_set_m_encodedcert)) ::ArrayW<uint8_t, ::Array<uint8_t>*> m_encodedcert;
+/// @brief Field m_encodedcert, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_encodedcert, put=__cordl_internal_set_m_encodedcert)) ::ArrayW<uint8_t,::Array<uint8_t>*>  m_encodedcert;
 
-  /// @brief Field m_from, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_from, put = __cordl_internal_set_m_from)) ::System::DateTime m_from;
+/// @brief Field m_from, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_from, put=__cordl_internal_set_m_from)) ::System::DateTime  m_from;
 
-  /// @brief Field m_issuername, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_issuername, put = __cordl_internal_set_m_issuername)) ::StringW m_issuername;
+/// @brief Field m_issuername, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_issuername, put=__cordl_internal_set_m_issuername)) ::StringW  m_issuername;
 
-  /// @brief Field m_keyalgo, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_keyalgo, put = __cordl_internal_set_m_keyalgo)) ::StringW m_keyalgo;
+/// @brief Field m_keyalgo, offset 0x40, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_keyalgo, put=__cordl_internal_set_m_keyalgo)) ::StringW  m_keyalgo;
 
-  /// @brief Field m_keyalgoparams, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_keyalgoparams, put = __cordl_internal_set_m_keyalgoparams)) ::ArrayW<uint8_t, ::Array<uint8_t>*> m_keyalgoparams;
+/// @brief Field m_keyalgoparams, offset 0x48, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_keyalgoparams, put=__cordl_internal_set_m_keyalgoparams)) ::ArrayW<uint8_t,::Array<uint8_t>*>  m_keyalgoparams;
 
-  /// @brief Field m_publickey, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_publickey, put = __cordl_internal_set_m_publickey)) ::ArrayW<uint8_t, ::Array<uint8_t>*> m_publickey;
+/// @brief Field m_publickey, offset 0x60, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_publickey, put=__cordl_internal_set_m_publickey)) ::ArrayW<uint8_t,::Array<uint8_t>*>  m_publickey;
 
-  /// @brief Field m_signaturealgo, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_signaturealgo, put = __cordl_internal_set_m_signaturealgo)) ::StringW m_signaturealgo;
+/// @brief Field m_signaturealgo, offset 0x70, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_signaturealgo, put=__cordl_internal_set_m_signaturealgo)) ::StringW  m_signaturealgo;
 
-  /// @brief Field m_signaturealgoparams, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_signaturealgoparams, put = __cordl_internal_set_m_signaturealgoparams)) ::ArrayW<uint8_t, ::Array<uint8_t>*> m_signaturealgoparams;
+/// @brief Field m_signaturealgoparams, offset 0x78, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_signaturealgoparams, put=__cordl_internal_set_m_signaturealgoparams)) ::ArrayW<uint8_t,::Array<uint8_t>*>  m_signaturealgoparams;
 
-  /// @brief Field m_subject, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_subject, put = __cordl_internal_set_m_subject)) ::StringW m_subject;
+/// @brief Field m_subject, offset 0x58, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_subject, put=__cordl_internal_set_m_subject)) ::StringW  m_subject;
 
-  /// @brief Field m_until, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_until, put = __cordl_internal_set_m_until)) ::System::DateTime m_until;
+/// @brief Field m_until, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_until, put=__cordl_internal_set_m_until)) ::System::DateTime  m_until;
 
-  /// @brief Field serialnumber, offset 0xa0, size 0x8
-  __declspec(property(get = __cordl_internal_get_serialnumber, put = __cordl_internal_set_serialnumber)) ::ArrayW<uint8_t, ::Array<uint8_t>*> serialnumber;
+/// @brief Field serialnumber, offset 0xa0, size 0x8 
+ __declspec(property(get=__cordl_internal_get_serialnumber, put=__cordl_internal_set_serialnumber)) ::ArrayW<uint8_t,::Array<uint8_t>*>  serialnumber;
 
-  /// @brief Field signature, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get_signature, put = __cordl_internal_set_signature)) ::ArrayW<uint8_t, ::Array<uint8_t>*> signature;
+/// @brief Field signature, offset 0x68, size 0x8 
+ __declspec(property(get=__cordl_internal_get_signature, put=__cordl_internal_set_signature)) ::ArrayW<uint8_t,::Array<uint8_t>*>  signature;
 
-  /// @brief Field subject, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_subject, put = __cordl_internal_set_subject)) ::Mono::Security::ASN1* subject;
+/// @brief Field subject, offset 0x50, size 0x8 
+ __declspec(property(get=__cordl_internal_get_subject, put=__cordl_internal_set_subject)) ::Mono::Security::ASN1*  subject;
 
-  /// @brief Field subjectUniqueID, offset 0xb0, size 0x8
-  __declspec(property(get = __cordl_internal_get_subjectUniqueID, put = __cordl_internal_set_subjectUniqueID)) ::ArrayW<uint8_t, ::Array<uint8_t>*> subjectUniqueID;
+/// @brief Field subjectUniqueID, offset 0xb0, size 0x8 
+ __declspec(property(get=__cordl_internal_get_subjectUniqueID, put=__cordl_internal_set_subjectUniqueID)) ::ArrayW<uint8_t,::Array<uint8_t>*>  subjectUniqueID;
 
-  /// @brief Field version, offset 0x98, size 0x4
-  __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version)) int32_t version;
+/// @brief Field version, offset 0x98, size 0x4 
+ __declspec(property(get=__cordl_internal_get_version, put=__cordl_internal_set_version)) int32_t  version;
 
-  /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
-  constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
+/// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
+constexpr operator  ::System::Runtime::Serialization::ISerializable*() noexcept;
 
-  /// @brief Method GetObjectData, addr 0x58e8228, size 0x68, virtual true, abstract: false, final false
-  inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
+/// @brief Method GetObjectData, addr 0x58e8734, size 0x68, virtual true, abstract: false, final false
+inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context) ;
 
-  /// @brief Method GetUnsignedBigInteger, addr 0x58e716c, size 0x98, virtual false, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetUnsignedBigInteger(::ArrayW<uint8_t, ::Array<uint8_t>*> integer);
+/// @brief Method GetUnsignedBigInteger, addr 0x58e7678, size 0x98, virtual false, abstract: false, final false
+inline ::ArrayW<uint8_t,::Array<uint8_t>*> GetUnsignedBigInteger(::ArrayW<uint8_t,::Array<uint8_t>*>  integer) ;
 
-  static inline ::Mono::Security::X509::X509Certificate* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
+static inline ::Mono::Security::X509::X509Certificate* New_ctor(::ArrayW<uint8_t,::Array<uint8_t>*>  data) ;
 
-  /// @brief Method PEM, addr 0x58e6fd4, size 0x198, virtual false, abstract: false, final false
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> PEM(::StringW type, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
+/// @brief Method PEM, addr 0x58e74e0, size 0x198, virtual false, abstract: false, final false
+static inline ::ArrayW<uint8_t,::Array<uint8_t>*> PEM(::StringW  type, ::ArrayW<uint8_t,::Array<uint8_t>*>  data) ;
 
-  /// @brief Method Parse, addr 0x58e66bc, size 0x918, virtual false, abstract: false, final false
-  inline void Parse(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
+/// @brief Method Parse, addr 0x58e6bc8, size 0x918, virtual false, abstract: false, final false
+inline void Parse(::ArrayW<uint8_t,::Array<uint8_t>*>  data) ;
 
-  /// @brief Method VerifySignature, addr 0x58e7f9c, size 0x188, virtual false, abstract: false, final false
-  inline bool VerifySignature(::System::Security::Cryptography::AsymmetricAlgorithm* aa);
+/// @brief Method VerifySignature, addr 0x58e84a8, size 0x188, virtual false, abstract: false, final false
+inline bool VerifySignature(::System::Security::Cryptography::AsymmetricAlgorithm*  aa) ;
 
-  /// @brief Method VerifySignature, addr 0x58e7da0, size 0xd0, virtual false, abstract: false, final false
-  inline bool VerifySignature(::System::Security::Cryptography::DSA* dsa);
+/// @brief Method VerifySignature, addr 0x58e82ac, size 0xd0, virtual false, abstract: false, final false
+inline bool VerifySignature(::System::Security::Cryptography::DSA*  dsa) ;
 
-  /// @brief Method VerifySignature, addr 0x58e7e70, size 0x12c, virtual false, abstract: false, final false
-  inline bool VerifySignature(::System::Security::Cryptography::RSA* rsa);
+/// @brief Method VerifySignature, addr 0x58e837c, size 0x12c, virtual false, abstract: false, final false
+inline bool VerifySignature(::System::Security::Cryptography::RSA*  rsa) ;
 
-  /// @brief Method WasCurrent, addr 0x58e7cc4, size 0xdc, virtual false, abstract: false, final false
-  inline bool WasCurrent(::System::DateTime instant);
+/// @brief Method WasCurrent, addr 0x58e81d0, size 0xdc, virtual false, abstract: false, final false
+inline bool WasCurrent(::System::DateTime  instant) ;
 
-  constexpr ::System::Security::Cryptography::DSA* const& __cordl_internal_get__dsa() const;
+constexpr ::System::Security::Cryptography::DSA* const& __cordl_internal_get__dsa() const;
 
-  constexpr ::System::Security::Cryptography::DSA*& __cordl_internal_get__dsa();
+constexpr ::System::Security::Cryptography::DSA*& __cordl_internal_get__dsa() ;
 
-  constexpr ::System::Security::Cryptography::RSA* const& __cordl_internal_get__rsa() const;
+constexpr ::System::Security::Cryptography::RSA* const& __cordl_internal_get__rsa() const;
 
-  constexpr ::System::Security::Cryptography::RSA*& __cordl_internal_get__rsa();
+constexpr ::System::Security::Cryptography::RSA*& __cordl_internal_get__rsa() ;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_certhash() const;
+constexpr ::ArrayW<uint8_t,::Array<uint8_t>*> const& __cordl_internal_get_certhash() const;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_certhash();
+constexpr ::ArrayW<uint8_t,::Array<uint8_t>*>& __cordl_internal_get_certhash() ;
 
-  constexpr ::Mono::Security::ASN1* const& __cordl_internal_get_decoder() const;
+constexpr ::Mono::Security::ASN1* const& __cordl_internal_get_decoder() const;
 
-  constexpr ::Mono::Security::ASN1*& __cordl_internal_get_decoder();
+constexpr ::Mono::Security::ASN1*& __cordl_internal_get_decoder() ;
 
-  constexpr ::Mono::Security::X509::X509ExtensionCollection* const& __cordl_internal_get_extensions() const;
+constexpr ::Mono::Security::X509::X509ExtensionCollection* const& __cordl_internal_get_extensions() const;
 
-  constexpr ::Mono::Security::X509::X509ExtensionCollection*& __cordl_internal_get_extensions();
+constexpr ::Mono::Security::X509::X509ExtensionCollection*& __cordl_internal_get_extensions() ;
 
-  constexpr ::Mono::Security::ASN1* const& __cordl_internal_get_issuer() const;
+constexpr ::Mono::Security::ASN1* const& __cordl_internal_get_issuer() const;
 
-  constexpr ::Mono::Security::ASN1*& __cordl_internal_get_issuer();
+constexpr ::Mono::Security::ASN1*& __cordl_internal_get_issuer() ;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_issuerUniqueID() const;
+constexpr ::ArrayW<uint8_t,::Array<uint8_t>*> const& __cordl_internal_get_issuerUniqueID() const;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_issuerUniqueID();
+constexpr ::ArrayW<uint8_t,::Array<uint8_t>*>& __cordl_internal_get_issuerUniqueID() ;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_m_encodedcert() const;
+constexpr ::ArrayW<uint8_t,::Array<uint8_t>*> const& __cordl_internal_get_m_encodedcert() const;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_m_encodedcert();
+constexpr ::ArrayW<uint8_t,::Array<uint8_t>*>& __cordl_internal_get_m_encodedcert() ;
 
-  constexpr ::System::DateTime const& __cordl_internal_get_m_from() const;
+constexpr ::System::DateTime const& __cordl_internal_get_m_from() const;
 
-  constexpr ::System::DateTime& __cordl_internal_get_m_from();
+constexpr ::System::DateTime& __cordl_internal_get_m_from() ;
 
-  constexpr ::StringW const& __cordl_internal_get_m_issuername() const;
+constexpr ::StringW const& __cordl_internal_get_m_issuername() const;
 
-  constexpr ::StringW& __cordl_internal_get_m_issuername();
+constexpr ::StringW& __cordl_internal_get_m_issuername() ;
 
-  constexpr ::StringW const& __cordl_internal_get_m_keyalgo() const;
+constexpr ::StringW const& __cordl_internal_get_m_keyalgo() const;
 
-  constexpr ::StringW& __cordl_internal_get_m_keyalgo();
+constexpr ::StringW& __cordl_internal_get_m_keyalgo() ;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_m_keyalgoparams() const;
+constexpr ::ArrayW<uint8_t,::Array<uint8_t>*> const& __cordl_internal_get_m_keyalgoparams() const;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_m_keyalgoparams();
+constexpr ::ArrayW<uint8_t,::Array<uint8_t>*>& __cordl_internal_get_m_keyalgoparams() ;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_m_publickey() const;
+constexpr ::ArrayW<uint8_t,::Array<uint8_t>*> const& __cordl_internal_get_m_publickey() const;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_m_publickey();
+constexpr ::ArrayW<uint8_t,::Array<uint8_t>*>& __cordl_internal_get_m_publickey() ;
 
-  constexpr ::StringW const& __cordl_internal_get_m_signaturealgo() const;
+constexpr ::StringW const& __cordl_internal_get_m_signaturealgo() const;
 
-  constexpr ::StringW& __cordl_internal_get_m_signaturealgo();
+constexpr ::StringW& __cordl_internal_get_m_signaturealgo() ;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_m_signaturealgoparams() const;
+constexpr ::ArrayW<uint8_t,::Array<uint8_t>*> const& __cordl_internal_get_m_signaturealgoparams() const;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_m_signaturealgoparams();
+constexpr ::ArrayW<uint8_t,::Array<uint8_t>*>& __cordl_internal_get_m_signaturealgoparams() ;
 
-  constexpr ::StringW const& __cordl_internal_get_m_subject() const;
+constexpr ::StringW const& __cordl_internal_get_m_subject() const;
 
-  constexpr ::StringW& __cordl_internal_get_m_subject();
+constexpr ::StringW& __cordl_internal_get_m_subject() ;
 
-  constexpr ::System::DateTime const& __cordl_internal_get_m_until() const;
+constexpr ::System::DateTime const& __cordl_internal_get_m_until() const;
 
-  constexpr ::System::DateTime& __cordl_internal_get_m_until();
+constexpr ::System::DateTime& __cordl_internal_get_m_until() ;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_serialnumber() const;
+constexpr ::ArrayW<uint8_t,::Array<uint8_t>*> const& __cordl_internal_get_serialnumber() const;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_serialnumber();
+constexpr ::ArrayW<uint8_t,::Array<uint8_t>*>& __cordl_internal_get_serialnumber() ;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_signature() const;
+constexpr ::ArrayW<uint8_t,::Array<uint8_t>*> const& __cordl_internal_get_signature() const;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_signature();
+constexpr ::ArrayW<uint8_t,::Array<uint8_t>*>& __cordl_internal_get_signature() ;
 
-  constexpr ::Mono::Security::ASN1* const& __cordl_internal_get_subject() const;
+constexpr ::Mono::Security::ASN1* const& __cordl_internal_get_subject() const;
 
-  constexpr ::Mono::Security::ASN1*& __cordl_internal_get_subject();
+constexpr ::Mono::Security::ASN1*& __cordl_internal_get_subject() ;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_subjectUniqueID() const;
+constexpr ::ArrayW<uint8_t,::Array<uint8_t>*> const& __cordl_internal_get_subjectUniqueID() const;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_subjectUniqueID();
+constexpr ::ArrayW<uint8_t,::Array<uint8_t>*>& __cordl_internal_get_subjectUniqueID() ;
 
-  constexpr int32_t const& __cordl_internal_get_version() const;
+constexpr int32_t const& __cordl_internal_get_version() const;
 
-  constexpr int32_t& __cordl_internal_get_version();
+constexpr int32_t& __cordl_internal_get_version() ;
 
-  constexpr void __cordl_internal_set__dsa(::System::Security::Cryptography::DSA* value);
+constexpr void __cordl_internal_set__dsa(::System::Security::Cryptography::DSA*  value) ;
 
-  constexpr void __cordl_internal_set__rsa(::System::Security::Cryptography::RSA* value);
+constexpr void __cordl_internal_set__rsa(::System::Security::Cryptography::RSA*  value) ;
 
-  constexpr void __cordl_internal_set_certhash(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+constexpr void __cordl_internal_set_certhash(::ArrayW<uint8_t,::Array<uint8_t>*>  value) ;
 
-  constexpr void __cordl_internal_set_decoder(::Mono::Security::ASN1* value);
+constexpr void __cordl_internal_set_decoder(::Mono::Security::ASN1*  value) ;
 
-  constexpr void __cordl_internal_set_extensions(::Mono::Security::X509::X509ExtensionCollection* value);
+constexpr void __cordl_internal_set_extensions(::Mono::Security::X509::X509ExtensionCollection*  value) ;
 
-  constexpr void __cordl_internal_set_issuer(::Mono::Security::ASN1* value);
+constexpr void __cordl_internal_set_issuer(::Mono::Security::ASN1*  value) ;
 
-  constexpr void __cordl_internal_set_issuerUniqueID(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+constexpr void __cordl_internal_set_issuerUniqueID(::ArrayW<uint8_t,::Array<uint8_t>*>  value) ;
 
-  constexpr void __cordl_internal_set_m_encodedcert(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+constexpr void __cordl_internal_set_m_encodedcert(::ArrayW<uint8_t,::Array<uint8_t>*>  value) ;
 
-  constexpr void __cordl_internal_set_m_from(::System::DateTime value);
+constexpr void __cordl_internal_set_m_from(::System::DateTime  value) ;
 
-  constexpr void __cordl_internal_set_m_issuername(::StringW value);
+constexpr void __cordl_internal_set_m_issuername(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_m_keyalgo(::StringW value);
+constexpr void __cordl_internal_set_m_keyalgo(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_m_keyalgoparams(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+constexpr void __cordl_internal_set_m_keyalgoparams(::ArrayW<uint8_t,::Array<uint8_t>*>  value) ;
 
-  constexpr void __cordl_internal_set_m_publickey(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+constexpr void __cordl_internal_set_m_publickey(::ArrayW<uint8_t,::Array<uint8_t>*>  value) ;
 
-  constexpr void __cordl_internal_set_m_signaturealgo(::StringW value);
+constexpr void __cordl_internal_set_m_signaturealgo(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_m_signaturealgoparams(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+constexpr void __cordl_internal_set_m_signaturealgoparams(::ArrayW<uint8_t,::Array<uint8_t>*>  value) ;
 
-  constexpr void __cordl_internal_set_m_subject(::StringW value);
+constexpr void __cordl_internal_set_m_subject(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_m_until(::System::DateTime value);
+constexpr void __cordl_internal_set_m_until(::System::DateTime  value) ;
 
-  constexpr void __cordl_internal_set_serialnumber(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+constexpr void __cordl_internal_set_serialnumber(::ArrayW<uint8_t,::Array<uint8_t>*>  value) ;
 
-  constexpr void __cordl_internal_set_signature(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+constexpr void __cordl_internal_set_signature(::ArrayW<uint8_t,::Array<uint8_t>*>  value) ;
 
-  constexpr void __cordl_internal_set_subject(::Mono::Security::ASN1* value);
+constexpr void __cordl_internal_set_subject(::Mono::Security::ASN1*  value) ;
 
-  constexpr void __cordl_internal_set_subjectUniqueID(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+constexpr void __cordl_internal_set_subjectUniqueID(::ArrayW<uint8_t,::Array<uint8_t>*>  value) ;
 
-  constexpr void __cordl_internal_set_version(int32_t value);
+constexpr void __cordl_internal_set_version(int32_t  value) ;
 
-  /// @brief Method .ctor, addr 0x58dcc18, size 0x198, virtual false, abstract: false, final false
-  inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
+/// @brief Method .ctor, addr 0x58dd124, size 0x198, virtual false, abstract: false, final false
+inline void _ctor(::ArrayW<uint8_t,::Array<uint8_t>*>  data) ;
 
-  static inline ::StringW getStaticF_encoding_error();
+static inline ::StringW getStaticF_encoding_error() ;
 
-  /// @brief Method get_DSA, addr 0x58e0428, size 0x294, virtual false, abstract: false, final false
-  inline ::System::Security::Cryptography::DSA* get_DSA();
+/// @brief Method get_DSA, addr 0x58e0934, size 0x294, virtual false, abstract: false, final false
+inline ::System::Security::Cryptography::DSA* get_DSA() ;
 
-  /// @brief Method get_Extensions, addr 0x58e7214, size 0x8, virtual false, abstract: false, final false
-  inline ::Mono::Security::X509::X509ExtensionCollection* get_Extensions();
+/// @brief Method get_Extensions, addr 0x58e7720, size 0x8, virtual false, abstract: false, final false
+inline ::Mono::Security::X509::X509ExtensionCollection* get_Extensions() ;
 
-  /// @brief Method get_Hash, addr 0x58e721c, size 0x240, virtual false, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_Hash();
+/// @brief Method get_Hash, addr 0x58e7728, size 0x240, virtual false, abstract: false, final false
+inline ::ArrayW<uint8_t,::Array<uint8_t>*> get_Hash() ;
 
-  /// @brief Method get_IsCurrent, addr 0x58e7c60, size 0x64, virtual false, abstract: false, final false
-  inline bool get_IsCurrent();
+/// @brief Method get_IsCurrent, addr 0x58e816c, size 0x64, virtual false, abstract: false, final false
+inline bool get_IsCurrent() ;
 
-  /// @brief Method get_IsSelfSigned, addr 0x58e8124, size 0x104, virtual false, abstract: false, final false
-  inline bool get_IsSelfSigned();
+/// @brief Method get_IsSelfSigned, addr 0x58e8630, size 0x104, virtual false, abstract: false, final false
+inline bool get_IsSelfSigned() ;
 
-  /// @brief Method get_IssuerName, addr 0x58e745c, size 0x8, virtual true, abstract: false, final false
-  inline ::StringW get_IssuerName();
+/// @brief Method get_IssuerName, addr 0x58e7968, size 0x8, virtual true, abstract: false, final false
+inline ::StringW get_IssuerName() ;
 
-  /// @brief Method get_KeyAlgorithm, addr 0x58e7464, size 0x8, virtual true, abstract: false, final false
-  inline ::StringW get_KeyAlgorithm();
+/// @brief Method get_KeyAlgorithm, addr 0x58e7970, size 0x8, virtual true, abstract: false, final false
+inline ::StringW get_KeyAlgorithm() ;
 
-  /// @brief Method get_KeyAlgorithmParameters, addr 0x58e746c, size 0x74, virtual true, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_KeyAlgorithmParameters();
+/// @brief Method get_KeyAlgorithmParameters, addr 0x58e7978, size 0x74, virtual true, abstract: false, final false
+inline ::ArrayW<uint8_t,::Array<uint8_t>*> get_KeyAlgorithmParameters() ;
 
-  /// @brief Method get_PublicKey, addr 0x58e74e8, size 0x74, virtual true, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_PublicKey();
+/// @brief Method get_PublicKey, addr 0x58e79f4, size 0x74, virtual true, abstract: false, final false
+inline ::ArrayW<uint8_t,::Array<uint8_t>*> get_PublicKey() ;
 
-  /// @brief Method get_RSA, addr 0x58e755c, size 0x180, virtual true, abstract: false, final false
-  inline ::System::Security::Cryptography::RSA* get_RSA();
+/// @brief Method get_RSA, addr 0x58e7a68, size 0x180, virtual true, abstract: false, final false
+inline ::System::Security::Cryptography::RSA* get_RSA() ;
 
-  /// @brief Method get_RawData, addr 0x58e76ec, size 0x74, virtual true, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_RawData();
+/// @brief Method get_RawData, addr 0x58e7bf8, size 0x74, virtual true, abstract: false, final false
+inline ::ArrayW<uint8_t,::Array<uint8_t>*> get_RawData() ;
 
-  /// @brief Method get_SerialNumber, addr 0x58e7760, size 0x74, virtual true, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_SerialNumber();
+/// @brief Method get_SerialNumber, addr 0x58e7c6c, size 0x74, virtual true, abstract: false, final false
+inline ::ArrayW<uint8_t,::Array<uint8_t>*> get_SerialNumber() ;
 
-  /// @brief Method get_Signature, addr 0x58e77d4, size 0x46c, virtual true, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_Signature();
+/// @brief Method get_Signature, addr 0x58e7ce0, size 0x46c, virtual true, abstract: false, final false
+inline ::ArrayW<uint8_t,::Array<uint8_t>*> get_Signature() ;
 
-  /// @brief Method get_SubjectName, addr 0x58e7c40, size 0x8, virtual true, abstract: false, final false
-  inline ::StringW get_SubjectName();
+/// @brief Method get_SubjectName, addr 0x58e814c, size 0x8, virtual true, abstract: false, final false
+inline ::StringW get_SubjectName() ;
 
-  /// @brief Method get_ValidFrom, addr 0x58e7c48, size 0x8, virtual true, abstract: false, final false
-  inline ::System::DateTime get_ValidFrom();
+/// @brief Method get_ValidFrom, addr 0x58e8154, size 0x8, virtual true, abstract: false, final false
+inline ::System::DateTime get_ValidFrom() ;
 
-  /// @brief Method get_ValidUntil, addr 0x58e7c50, size 0x8, virtual true, abstract: false, final false
-  inline ::System::DateTime get_ValidUntil();
+/// @brief Method get_ValidUntil, addr 0x58e815c, size 0x8, virtual true, abstract: false, final false
+inline ::System::DateTime get_ValidUntil() ;
 
-  /// @brief Method get_Version, addr 0x58e7c58, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_Version();
+/// @brief Method get_Version, addr 0x58e8164, size 0x8, virtual false, abstract: false, final false
+inline int32_t get_Version() ;
 
-  /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
-  constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
+/// @brief Convert to "::System::Runtime::Serialization::ISerializable"
+constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
 
-  static inline void setStaticF_encoding_error(::StringW value);
+static inline void setStaticF_encoding_error(::StringW  value) ;
 
-  /// @brief Method set_DSA, addr 0x58e7204, size 0x10, virtual false, abstract: false, final false
-  inline void set_DSA(::System::Security::Cryptography::DSA* value);
+/// @brief Method set_DSA, addr 0x58e7710, size 0x10, virtual false, abstract: false, final false
+inline void set_DSA(::System::Security::Cryptography::DSA*  value) ;
 
-  /// @brief Method set_KeyAlgorithmParameters, addr 0x58e74e0, size 0x8, virtual true, abstract: false, final false
-  inline void set_KeyAlgorithmParameters(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+/// @brief Method set_KeyAlgorithmParameters, addr 0x58e79ec, size 0x8, virtual true, abstract: false, final false
+inline void set_KeyAlgorithmParameters(::ArrayW<uint8_t,::Array<uint8_t>*>  value) ;
 
-  /// @brief Method set_RSA, addr 0x58e76dc, size 0x10, virtual true, abstract: false, final false
-  inline void set_RSA(::System::Security::Cryptography::RSA* value);
+/// @brief Method set_RSA, addr 0x58e7be8, size 0x10, virtual true, abstract: false, final false
+inline void set_RSA(::System::Security::Cryptography::RSA*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr X509Certificate();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr X509Certificate() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "X509Certificate", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  X509Certificate(X509Certificate&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "X509Certificate", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  X509Certificate(X509Certificate const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "X509Certificate", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+X509Certificate(X509Certificate && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19247 };
+// Ctor Parameters [CppParam { name: "", ty: "X509Certificate", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+X509Certificate(X509Certificate const& ) = delete;
 
-  /// @brief Field decoder, offset: 0x10, size: 0x8, def value: None
-  ::Mono::Security::ASN1* ___decoder;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{19251};
 
-  /// @brief Field m_encodedcert, offset: 0x18, size: 0x8, def value: None
-  ::ArrayW<uint8_t, ::Array<uint8_t>*> ___m_encodedcert;
+/// @brief Field decoder, offset: 0x10, size: 0x8, def value: None
+ ::Mono::Security::ASN1*  ___decoder;
 
-  /// @brief Field m_from, offset: 0x20, size: 0x8, def value: None
-  ::System::DateTime ___m_from;
+/// @brief Field m_encodedcert, offset: 0x18, size: 0x8, def value: None
+ ::ArrayW<uint8_t,::Array<uint8_t>*>  ___m_encodedcert;
 
-  /// @brief Field m_until, offset: 0x28, size: 0x8, def value: None
-  ::System::DateTime ___m_until;
+/// @brief Field m_from, offset: 0x20, size: 0x8, def value: None
+ ::System::DateTime  ___m_from;
 
-  /// @brief Field issuer, offset: 0x30, size: 0x8, def value: None
-  ::Mono::Security::ASN1* ___issuer;
+/// @brief Field m_until, offset: 0x28, size: 0x8, def value: None
+ ::System::DateTime  ___m_until;
 
-  /// @brief Field m_issuername, offset: 0x38, size: 0x8, def value: None
-  ::StringW ___m_issuername;
+/// @brief Field issuer, offset: 0x30, size: 0x8, def value: None
+ ::Mono::Security::ASN1*  ___issuer;
 
-  /// @brief Field m_keyalgo, offset: 0x40, size: 0x8, def value: None
-  ::StringW ___m_keyalgo;
+/// @brief Field m_issuername, offset: 0x38, size: 0x8, def value: None
+ ::StringW  ___m_issuername;
 
-  /// @brief Field m_keyalgoparams, offset: 0x48, size: 0x8, def value: None
-  ::ArrayW<uint8_t, ::Array<uint8_t>*> ___m_keyalgoparams;
+/// @brief Field m_keyalgo, offset: 0x40, size: 0x8, def value: None
+ ::StringW  ___m_keyalgo;
 
-  /// @brief Field subject, offset: 0x50, size: 0x8, def value: None
-  ::Mono::Security::ASN1* ___subject;
+/// @brief Field m_keyalgoparams, offset: 0x48, size: 0x8, def value: None
+ ::ArrayW<uint8_t,::Array<uint8_t>*>  ___m_keyalgoparams;
 
-  /// @brief Field m_subject, offset: 0x58, size: 0x8, def value: None
-  ::StringW ___m_subject;
+/// @brief Field subject, offset: 0x50, size: 0x8, def value: None
+ ::Mono::Security::ASN1*  ___subject;
 
-  /// @brief Field m_publickey, offset: 0x60, size: 0x8, def value: None
-  ::ArrayW<uint8_t, ::Array<uint8_t>*> ___m_publickey;
+/// @brief Field m_subject, offset: 0x58, size: 0x8, def value: None
+ ::StringW  ___m_subject;
 
-  /// @brief Field signature, offset: 0x68, size: 0x8, def value: None
-  ::ArrayW<uint8_t, ::Array<uint8_t>*> ___signature;
+/// @brief Field m_publickey, offset: 0x60, size: 0x8, def value: None
+ ::ArrayW<uint8_t,::Array<uint8_t>*>  ___m_publickey;
 
-  /// @brief Field m_signaturealgo, offset: 0x70, size: 0x8, def value: None
-  ::StringW ___m_signaturealgo;
+/// @brief Field signature, offset: 0x68, size: 0x8, def value: None
+ ::ArrayW<uint8_t,::Array<uint8_t>*>  ___signature;
 
-  /// @brief Field m_signaturealgoparams, offset: 0x78, size: 0x8, def value: None
-  ::ArrayW<uint8_t, ::Array<uint8_t>*> ___m_signaturealgoparams;
+/// @brief Field m_signaturealgo, offset: 0x70, size: 0x8, def value: None
+ ::StringW  ___m_signaturealgo;
 
-  /// @brief Field certhash, offset: 0x80, size: 0x8, def value: None
-  ::ArrayW<uint8_t, ::Array<uint8_t>*> ___certhash;
+/// @brief Field m_signaturealgoparams, offset: 0x78, size: 0x8, def value: None
+ ::ArrayW<uint8_t,::Array<uint8_t>*>  ___m_signaturealgoparams;
 
-  /// @brief Field _rsa, offset: 0x88, size: 0x8, def value: None
-  ::System::Security::Cryptography::RSA* ____rsa;
+/// @brief Field certhash, offset: 0x80, size: 0x8, def value: None
+ ::ArrayW<uint8_t,::Array<uint8_t>*>  ___certhash;
 
-  /// @brief Field _dsa, offset: 0x90, size: 0x8, def value: None
-  ::System::Security::Cryptography::DSA* ____dsa;
+/// @brief Field _rsa, offset: 0x88, size: 0x8, def value: None
+ ::System::Security::Cryptography::RSA*  ____rsa;
 
-  /// @brief Field version, offset: 0x98, size: 0x4, def value: None
-  int32_t ___version;
+/// @brief Field _dsa, offset: 0x90, size: 0x8, def value: None
+ ::System::Security::Cryptography::DSA*  ____dsa;
 
-  /// @brief Field serialnumber, offset: 0xa0, size: 0x8, def value: None
-  ::ArrayW<uint8_t, ::Array<uint8_t>*> ___serialnumber;
+/// @brief Field version, offset: 0x98, size: 0x4, def value: None
+ int32_t  ___version;
 
-  /// @brief Field issuerUniqueID, offset: 0xa8, size: 0x8, def value: None
-  ::ArrayW<uint8_t, ::Array<uint8_t>*> ___issuerUniqueID;
+/// @brief Field serialnumber, offset: 0xa0, size: 0x8, def value: None
+ ::ArrayW<uint8_t,::Array<uint8_t>*>  ___serialnumber;
 
-  /// @brief Field subjectUniqueID, offset: 0xb0, size: 0x8, def value: None
-  ::ArrayW<uint8_t, ::Array<uint8_t>*> ___subjectUniqueID;
+/// @brief Field issuerUniqueID, offset: 0xa8, size: 0x8, def value: None
+ ::ArrayW<uint8_t,::Array<uint8_t>*>  ___issuerUniqueID;
 
-  /// @brief Field extensions, offset: 0xb8, size: 0x8, def value: None
-  ::Mono::Security::X509::X509ExtensionCollection* ___extensions;
+/// @brief Field subjectUniqueID, offset: 0xb0, size: 0x8, def value: None
+ ::ArrayW<uint8_t,::Array<uint8_t>*>  ___subjectUniqueID;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field extensions, offset: 0xb8, size: 0x8, def value: None
+ ::Mono::Security::X509::X509ExtensionCollection*  ___extensions;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Mono::Security::X509::X509Certificate, ___decoder) == 0x10, "Offset mismatch!");
@@ -514,6 +514,6 @@ static_assert(offsetof(::Mono::Security::X509::X509Certificate, ___extensions) =
 
 static_assert(::cordl_internals::size_check_v<::Mono::Security::X509::X509Certificate, 0xc0>, "Size mismatch!");
 
-} // namespace Mono::Security::X509
+} // namespace end def Mono::Security::X509
 NEED_NO_BOX(::Mono::Security::X509::X509Certificate);
 DEFINE_IL2CPP_ARG_TYPE(::Mono::Security::X509::X509Certificate*, "Mono.Security.X509", "X509Certificate");

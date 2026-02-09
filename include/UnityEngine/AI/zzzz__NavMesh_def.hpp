@@ -31,80 +31,80 @@ namespace UnityEngine::AI {
 // CS Name: UnityEngine.AI.NavMesh/OnNavMeshPreUpdate
 class CORDL_TYPE NavMesh_OnNavMeshPreUpdate : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method Invoke, addr 0x684e650, size 0x14, virtual true, abstract: false, final false
-  inline void Invoke();
+// Declarations
+/// @brief Method Invoke, addr 0x684ed10, size 0x14, virtual true, abstract: false, final false
+inline void Invoke() ;
 
-  static inline ::UnityEngine::AI::NavMesh_OnNavMeshPreUpdate* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::UnityEngine::AI::NavMesh_OnNavMeshPreUpdate* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x684e5e8, size 0x68, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x684eca8, size 0x68, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NavMesh_OnNavMeshPreUpdate();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr NavMesh_OnNavMeshPreUpdate() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NavMesh_OnNavMeshPreUpdate", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  NavMesh_OnNavMeshPreUpdate(NavMesh_OnNavMeshPreUpdate&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NavMesh_OnNavMeshPreUpdate", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  NavMesh_OnNavMeshPreUpdate(NavMesh_OnNavMeshPreUpdate const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "NavMesh_OnNavMeshPreUpdate", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+NavMesh_OnNavMeshPreUpdate(NavMesh_OnNavMeshPreUpdate && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23046 };
+// Ctor Parameters [CppParam { name: "", ty: "NavMesh_OnNavMeshPreUpdate", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+NavMesh_OnNavMeshPreUpdate(NavMesh_OnNavMeshPreUpdate const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{23050};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::AI::NavMesh_OnNavMeshPreUpdate, 0x80>, "Size mismatch!");
 
-} // namespace UnityEngine::AI
+} // namespace end def UnityEngine::AI
 // Dependencies System.Object
 namespace UnityEngine::AI {
 // Is value type: false
 // CS Name: UnityEngine.AI.NavMesh
 class CORDL_TYPE NavMesh : public ::System::Object {
 public:
-  // Declarations
-  using OnNavMeshPreUpdate = ::UnityEngine::AI::NavMesh_OnNavMeshPreUpdate;
+// Declarations
+using OnNavMeshPreUpdate = ::UnityEngine::AI::NavMesh_OnNavMeshPreUpdate;
 
-  /// @brief Field onPreUpdate, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_onPreUpdate, put = setStaticF_onPreUpdate)) ::UnityEngine::AI::NavMesh_OnNavMeshPreUpdate* onPreUpdate;
+/// @brief Field onPreUpdate, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_onPreUpdate, put=setStaticF_onPreUpdate)) ::UnityEngine::AI::NavMesh_OnNavMeshPreUpdate*  onPreUpdate;
 
-  /// @brief Method ClearPreUpdateListeners, addr 0x684e59c, size 0x4c, virtual false, abstract: false, final false
-  static inline void ClearPreUpdateListeners();
+/// @brief Method ClearPreUpdateListeners, addr 0x684ec5c, size 0x4c, virtual false, abstract: false, final false
+static inline void ClearPreUpdateListeners() ;
 
-  static inline ::UnityEngine::AI::NavMesh_OnNavMeshPreUpdate* getStaticF_onPreUpdate();
+static inline ::UnityEngine::AI::NavMesh_OnNavMeshPreUpdate* getStaticF_onPreUpdate() ;
 
-  static inline void setStaticF_onPreUpdate(::UnityEngine::AI::NavMesh_OnNavMeshPreUpdate* value);
+static inline void setStaticF_onPreUpdate(::UnityEngine::AI::NavMesh_OnNavMeshPreUpdate*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NavMesh();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr NavMesh() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NavMesh", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  NavMesh(NavMesh&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NavMesh", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  NavMesh(NavMesh const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "NavMesh", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+NavMesh(NavMesh && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23047 };
+// Ctor Parameters [CppParam { name: "", ty: "NavMesh", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+NavMesh(NavMesh const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{23051};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::AI::NavMesh, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine::AI
+} // namespace end def UnityEngine::AI
 NEED_NO_BOX(::UnityEngine::AI::NavMesh);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AI::NavMesh*, "UnityEngine.AI", "NavMesh");
 NEED_NO_BOX(::UnityEngine::AI::NavMesh_OnNavMeshPreUpdate);

@@ -55,120 +55,119 @@ namespace Org::BouncyCastle::X509 {
 // CS Name: Org.BouncyCastle.X509.X509V1CertificateGenerator
 class CORDL_TYPE X509V1CertificateGenerator : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(get = get_SignatureAlgNames)) ::System::Collections::IEnumerable* SignatureAlgNames;
+// Declarations
+ __declspec(property(get=get_SignatureAlgNames)) ::System::Collections::IEnumerable*  SignatureAlgNames;
 
-  /// @brief Field sigAlgId, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_sigAlgId, put = __cordl_internal_set_sigAlgId)) ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* sigAlgId;
+/// @brief Field sigAlgId, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get_sigAlgId, put=__cordl_internal_set_sigAlgId)) ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*  sigAlgId;
 
-  /// @brief Field sigOID, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_sigOID, put = __cordl_internal_set_sigOID)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* sigOID;
+/// @brief Field sigOID, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_sigOID, put=__cordl_internal_set_sigOID)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier*  sigOID;
 
-  /// @brief Field signatureAlgorithm, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_signatureAlgorithm, put = __cordl_internal_set_signatureAlgorithm)) ::StringW signatureAlgorithm;
+/// @brief Field signatureAlgorithm, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get_signatureAlgorithm, put=__cordl_internal_set_signatureAlgorithm)) ::StringW  signatureAlgorithm;
 
-  /// @brief Field tbsGen, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_tbsGen, put = __cordl_internal_set_tbsGen)) ::Org::BouncyCastle::Asn1::X509::V1TbsCertificateGenerator* tbsGen;
+/// @brief Field tbsGen, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_tbsGen, put=__cordl_internal_set_tbsGen)) ::Org::BouncyCastle::Asn1::X509::V1TbsCertificateGenerator*  tbsGen;
 
-  /// @brief Method Generate, addr 0x3556f34, size 0x8, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::X509::X509Certificate* Generate(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey);
+/// @brief Method Generate, addr 0x3556e84, size 0x8, virtual false, abstract: false, final false
+inline ::Org::BouncyCastle::X509::X509Certificate* Generate(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*  privateKey) ;
 
-  /// @brief Method Generate, addr 0x3556f3c, size 0x80, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::X509::X509Certificate* Generate(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey, ::Org::BouncyCastle::Security::SecureRandom* random);
+/// @brief Method Generate, addr 0x3556e8c, size 0x80, virtual false, abstract: false, final false
+inline ::Org::BouncyCastle::X509::X509Certificate* Generate(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*  privateKey, ::Org::BouncyCastle::Security::SecureRandom*  random) ;
 
-  /// @brief Method Generate, addr 0x3556fbc, size 0x488, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::X509::X509Certificate* Generate(::Org::BouncyCastle::Crypto::ISignatureFactory* signatureCalculatorFactory);
+/// @brief Method Generate, addr 0x3556f0c, size 0x488, virtual false, abstract: false, final false
+inline ::Org::BouncyCastle::X509::X509Certificate* Generate(::Org::BouncyCastle::Crypto::ISignatureFactory*  signatureCalculatorFactory) ;
 
-  /// @brief Method GenerateJcaObject, addr 0x3557444, size 0xd4, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::X509::X509Certificate* GenerateJcaObject(::Org::BouncyCastle::Asn1::X509::TbsCertificateStructure* tbsCert, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* sigAlg,
-                                                                       ::ArrayW<uint8_t, ::Array<uint8_t>*> signature);
+/// @brief Method GenerateJcaObject, addr 0x3557394, size 0xd4, virtual false, abstract: false, final false
+inline ::Org::BouncyCastle::X509::X509Certificate* GenerateJcaObject(::Org::BouncyCastle::Asn1::X509::TbsCertificateStructure*  tbsCert, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*  sigAlg, ::ArrayW<uint8_t,::Array<uint8_t>*>  signature) ;
 
-  static inline ::Org::BouncyCastle::X509::X509V1CertificateGenerator* New_ctor();
+static inline ::Org::BouncyCastle::X509::X509V1CertificateGenerator* New_ctor() ;
 
-  /// @brief Method Reset, addr 0x3556a48, size 0x5c, virtual false, abstract: false, final false
-  inline void Reset();
+/// @brief Method Reset, addr 0x3556998, size 0x5c, virtual false, abstract: false, final false
+inline void Reset() ;
 
-  /// @brief Method SetIssuerDN, addr 0x3556b90, size 0x18, virtual false, abstract: false, final false
-  inline void SetIssuerDN(::Org::BouncyCastle::Asn1::X509::X509Name* issuer);
+/// @brief Method SetIssuerDN, addr 0x3556ae0, size 0x18, virtual false, abstract: false, final false
+inline void SetIssuerDN(::Org::BouncyCastle::Asn1::X509::X509Name*  issuer) ;
 
-  /// @brief Method SetNotAfter, addr 0x3556c20, size 0x78, virtual false, abstract: false, final false
-  inline void SetNotAfter(::System::DateTime date);
+/// @brief Method SetNotAfter, addr 0x3556b70, size 0x78, virtual false, abstract: false, final false
+inline void SetNotAfter(::System::DateTime  date) ;
 
-  /// @brief Method SetNotBefore, addr 0x3556ba8, size 0x78, virtual false, abstract: false, final false
-  inline void SetNotBefore(::System::DateTime date);
+/// @brief Method SetNotBefore, addr 0x3556af8, size 0x78, virtual false, abstract: false, final false
+inline void SetNotBefore(::System::DateTime  date) ;
 
-  /// @brief Method SetPublicKey, addr 0x3556cb0, size 0x110, virtual false, abstract: false, final false
-  inline void SetPublicKey(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicKey);
+/// @brief Method SetPublicKey, addr 0x3556c00, size 0x110, virtual false, abstract: false, final false
+inline void SetPublicKey(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*  publicKey) ;
 
-  /// @brief Method SetSerialNumber, addr 0x3556aa4, size 0xec, virtual false, abstract: false, final false
-  inline void SetSerialNumber(::Org::BouncyCastle::Math::BigInteger* serialNumber);
+/// @brief Method SetSerialNumber, addr 0x35569f4, size 0xec, virtual false, abstract: false, final false
+inline void SetSerialNumber(::Org::BouncyCastle::Math::BigInteger*  serialNumber) ;
 
-  /// @brief Method SetSignatureAlgorithm, addr 0x3556dc0, size 0x174, virtual false, abstract: false, final false
-  inline void SetSignatureAlgorithm(::StringW signatureAlgorithm);
+/// @brief Method SetSignatureAlgorithm, addr 0x3556d10, size 0x174, virtual false, abstract: false, final false
+inline void SetSignatureAlgorithm(::StringW  signatureAlgorithm) ;
 
-  /// @brief Method SetSubjectDN, addr 0x3556c98, size 0x18, virtual false, abstract: false, final false
-  inline void SetSubjectDN(::Org::BouncyCastle::Asn1::X509::X509Name* subject);
+/// @brief Method SetSubjectDN, addr 0x3556be8, size 0x18, virtual false, abstract: false, final false
+inline void SetSubjectDN(::Org::BouncyCastle::Asn1::X509::X509Name*  subject) ;
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* const& __cordl_internal_get_sigAlgId() const;
+constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* const& __cordl_internal_get_sigAlgId() const;
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __cordl_internal_get_sigAlgId();
+constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __cordl_internal_get_sigAlgId() ;
 
-  constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier* const& __cordl_internal_get_sigOID() const;
+constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier* const& __cordl_internal_get_sigOID() const;
 
-  constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __cordl_internal_get_sigOID();
+constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __cordl_internal_get_sigOID() ;
 
-  constexpr ::StringW const& __cordl_internal_get_signatureAlgorithm() const;
+constexpr ::StringW const& __cordl_internal_get_signatureAlgorithm() const;
 
-  constexpr ::StringW& __cordl_internal_get_signatureAlgorithm();
+constexpr ::StringW& __cordl_internal_get_signatureAlgorithm() ;
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::V1TbsCertificateGenerator* const& __cordl_internal_get_tbsGen() const;
+constexpr ::Org::BouncyCastle::Asn1::X509::V1TbsCertificateGenerator* const& __cordl_internal_get_tbsGen() const;
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::V1TbsCertificateGenerator*& __cordl_internal_get_tbsGen();
+constexpr ::Org::BouncyCastle::Asn1::X509::V1TbsCertificateGenerator*& __cordl_internal_get_tbsGen() ;
 
-  constexpr void __cordl_internal_set_sigAlgId(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
+constexpr void __cordl_internal_set_sigAlgId(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*  value) ;
 
-  constexpr void __cordl_internal_set_sigOID(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+constexpr void __cordl_internal_set_sigOID(::Org::BouncyCastle::Asn1::DerObjectIdentifier*  value) ;
 
-  constexpr void __cordl_internal_set_signatureAlgorithm(::StringW value);
+constexpr void __cordl_internal_set_signatureAlgorithm(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_tbsGen(::Org::BouncyCastle::Asn1::X509::V1TbsCertificateGenerator* value);
+constexpr void __cordl_internal_set_tbsGen(::Org::BouncyCastle::Asn1::X509::V1TbsCertificateGenerator*  value) ;
 
-  /// @brief Method .ctor, addr 0x35569ec, size 0x5c, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x355693c, size 0x5c, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_SignatureAlgNames, addr 0x3557518, size 0x50, virtual false, abstract: false, final false
-  inline ::System::Collections::IEnumerable* get_SignatureAlgNames();
+/// @brief Method get_SignatureAlgNames, addr 0x3557468, size 0x50, virtual false, abstract: false, final false
+inline ::System::Collections::IEnumerable* get_SignatureAlgNames() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr X509V1CertificateGenerator();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr X509V1CertificateGenerator() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "X509V1CertificateGenerator", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  X509V1CertificateGenerator(X509V1CertificateGenerator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "X509V1CertificateGenerator", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  X509V1CertificateGenerator(X509V1CertificateGenerator const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "X509V1CertificateGenerator", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+X509V1CertificateGenerator(X509V1CertificateGenerator && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1870 };
+// Ctor Parameters [CppParam { name: "", ty: "X509V1CertificateGenerator", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+X509V1CertificateGenerator(X509V1CertificateGenerator const& ) = delete;
 
-  /// @brief Field tbsGen, offset: 0x10, size: 0x8, def value: None
-  ::Org::BouncyCastle::Asn1::X509::V1TbsCertificateGenerator* ___tbsGen;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{1870};
 
-  /// @brief Field sigOID, offset: 0x18, size: 0x8, def value: None
-  ::Org::BouncyCastle::Asn1::DerObjectIdentifier* ___sigOID;
+/// @brief Field tbsGen, offset: 0x10, size: 0x8, def value: None
+ ::Org::BouncyCastle::Asn1::X509::V1TbsCertificateGenerator*  ___tbsGen;
 
-  /// @brief Field sigAlgId, offset: 0x20, size: 0x8, def value: None
-  ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* ___sigAlgId;
+/// @brief Field sigOID, offset: 0x18, size: 0x8, def value: None
+ ::Org::BouncyCastle::Asn1::DerObjectIdentifier*  ___sigOID;
 
-  /// @brief Field signatureAlgorithm, offset: 0x28, size: 0x8, def value: None
-  ::StringW ___signatureAlgorithm;
+/// @brief Field sigAlgId, offset: 0x20, size: 0x8, def value: None
+ ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*  ___sigAlgId;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field signatureAlgorithm, offset: 0x28, size: 0x8, def value: None
+ ::StringW  ___signatureAlgorithm;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Org::BouncyCastle::X509::X509V1CertificateGenerator, ___tbsGen) == 0x10, "Offset mismatch!");
@@ -181,6 +180,6 @@ static_assert(offsetof(::Org::BouncyCastle::X509::X509V1CertificateGenerator, __
 
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::X509::X509V1CertificateGenerator, 0x30>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::X509
+} // namespace end def Org::BouncyCastle::X509
 NEED_NO_BOX(::Org::BouncyCastle::X509::X509V1CertificateGenerator);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::X509::X509V1CertificateGenerator*, "Org.BouncyCastle.X509", "X509V1CertificateGenerator");

@@ -20,48 +20,48 @@ namespace Unity::Jobs::LowLevel::Unsafe {
 // CS Name: Unity.Jobs.LowLevel.Unsafe.JobProducerTypeAttribute
 class CORDL_TYPE JobProducerTypeAttribute : public ::System::Attribute {
 public:
-  // Declarations
-  /// @brief Field <ProducerType>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__ProducerType_k__BackingField, put = __cordl_internal_set__ProducerType_k__BackingField)) ::System::Type* _ProducerType_k__BackingField;
+// Declarations
+/// @brief Field <ProducerType>k__BackingField, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get__ProducerType_k__BackingField, put=__cordl_internal_set__ProducerType_k__BackingField)) ::System::Type*  _ProducerType_k__BackingField;
 
-  static inline ::Unity::Jobs::LowLevel::Unsafe::JobProducerTypeAttribute* New_ctor(::System::Type* producerType);
+static inline ::Unity::Jobs::LowLevel::Unsafe::JobProducerTypeAttribute* New_ctor(::System::Type*  producerType) ;
 
-  constexpr ::System::Type* const& __cordl_internal_get__ProducerType_k__BackingField() const;
+constexpr ::System::Type* const& __cordl_internal_get__ProducerType_k__BackingField() const;
 
-  constexpr ::System::Type*& __cordl_internal_get__ProducerType_k__BackingField();
+constexpr ::System::Type*& __cordl_internal_get__ProducerType_k__BackingField() ;
 
-  constexpr void __cordl_internal_set__ProducerType_k__BackingField(::System::Type* value);
+constexpr void __cordl_internal_set__ProducerType_k__BackingField(::System::Type*  value) ;
 
-  /// @brief Method .ctor, addr 0x688f26c, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::System::Type* producerType);
+/// @brief Method .ctor, addr 0x688f92c, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(::System::Type*  producerType) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr JobProducerTypeAttribute();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr JobProducerTypeAttribute() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "JobProducerTypeAttribute", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  JobProducerTypeAttribute(JobProducerTypeAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "JobProducerTypeAttribute", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  JobProducerTypeAttribute(JobProducerTypeAttribute const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "JobProducerTypeAttribute", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+JobProducerTypeAttribute(JobProducerTypeAttribute && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9908 };
+// Ctor Parameters [CppParam { name: "", ty: "JobProducerTypeAttribute", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+JobProducerTypeAttribute(JobProducerTypeAttribute const& ) = delete;
 
-  /// @brief Field <ProducerType>k__BackingField, offset: 0x10, size: 0x8, def value: None
-  ::System::Type* ____ProducerType_k__BackingField;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{9912};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field <ProducerType>k__BackingField, offset: 0x10, size: 0x8, def value: None
+ ::System::Type*  ____ProducerType_k__BackingField;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Unity::Jobs::LowLevel::Unsafe::JobProducerTypeAttribute, ____ProducerType_k__BackingField) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::Unity::Jobs::LowLevel::Unsafe::JobProducerTypeAttribute, 0x18>, "Size mismatch!");
 
-} // namespace Unity::Jobs::LowLevel::Unsafe
+} // namespace end def Unity::Jobs::LowLevel::Unsafe
 NEED_NO_BOX(::Unity::Jobs::LowLevel::Unsafe::JobProducerTypeAttribute);
 DEFINE_IL2CPP_ARG_TYPE(::Unity::Jobs::LowLevel::Unsafe::JobProducerTypeAttribute*, "Unity.Jobs.LowLevel.Unsafe", "JobProducerTypeAttribute");

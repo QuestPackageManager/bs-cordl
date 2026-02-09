@@ -29,7 +29,8 @@ namespace HMUI {
 class ToggleBinder;
 }
 namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+template<typename TKey,typename TValue>
+class Dictionary_2;
 }
 namespace System {
 class Action;
@@ -56,57 +57,57 @@ namespace GlobalNamespace {
 // CS Name: GameplayModifiersPanelController/<>c__DisplayClass16_0
 class CORDL_TYPE GameplayModifiersPanelController___c__DisplayClass16_0 : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field <>4__this, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::UnityW<::GlobalNamespace::GameplayModifiersPanelController> __4__this;
+// Declarations
+/// @brief Field <>4__this, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get___4__this, put=__cordl_internal_set___4__this)) ::UnityW<::GlobalNamespace::GameplayModifiersPanelController>  __4__this;
 
-  /// @brief Field gameplayModifierToggle, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_gameplayModifierToggle, put = __cordl_internal_set_gameplayModifierToggle)) ::UnityW<::GlobalNamespace::GameplayModifierToggle> gameplayModifierToggle;
+/// @brief Field gameplayModifierToggle, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_gameplayModifierToggle, put=__cordl_internal_set_gameplayModifierToggle)) ::UnityW<::GlobalNamespace::GameplayModifierToggle>  gameplayModifierToggle;
 
-  static inline ::GlobalNamespace::GameplayModifiersPanelController___c__DisplayClass16_0* New_ctor();
+static inline ::GlobalNamespace::GameplayModifiersPanelController___c__DisplayClass16_0* New_ctor() ;
 
-  /// @brief Method <Awake>b__0, addr 0x57a6c64, size 0x21c, virtual false, abstract: false, final false
-  inline void _Awake_b__0(bool on);
+/// @brief Method <Awake>b__0, addr 0x57a7594, size 0x21c, virtual false, abstract: false, final false
+inline void _Awake_b__0(bool  on) ;
 
-  constexpr ::UnityW<::GlobalNamespace::GameplayModifiersPanelController> const& __cordl_internal_get___4__this() const;
+constexpr ::UnityW<::GlobalNamespace::GameplayModifiersPanelController> const& __cordl_internal_get___4__this() const;
 
-  constexpr ::UnityW<::GlobalNamespace::GameplayModifiersPanelController>& __cordl_internal_get___4__this();
+constexpr ::UnityW<::GlobalNamespace::GameplayModifiersPanelController>& __cordl_internal_get___4__this() ;
 
-  constexpr ::UnityW<::GlobalNamespace::GameplayModifierToggle> const& __cordl_internal_get_gameplayModifierToggle() const;
+constexpr ::UnityW<::GlobalNamespace::GameplayModifierToggle> const& __cordl_internal_get_gameplayModifierToggle() const;
 
-  constexpr ::UnityW<::GlobalNamespace::GameplayModifierToggle>& __cordl_internal_get_gameplayModifierToggle();
+constexpr ::UnityW<::GlobalNamespace::GameplayModifierToggle>& __cordl_internal_get_gameplayModifierToggle() ;
 
-  constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::GameplayModifiersPanelController> value);
+constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::GameplayModifiersPanelController>  value) ;
 
-  constexpr void __cordl_internal_set_gameplayModifierToggle(::UnityW<::GlobalNamespace::GameplayModifierToggle> value);
+constexpr void __cordl_internal_set_gameplayModifierToggle(::UnityW<::GlobalNamespace::GameplayModifierToggle>  value) ;
 
-  /// @brief Method .ctor, addr 0x57a6798, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x57a70c8, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr GameplayModifiersPanelController___c__DisplayClass16_0();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr GameplayModifiersPanelController___c__DisplayClass16_0() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GameplayModifiersPanelController___c__DisplayClass16_0", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  GameplayModifiersPanelController___c__DisplayClass16_0(GameplayModifiersPanelController___c__DisplayClass16_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GameplayModifiersPanelController___c__DisplayClass16_0", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  GameplayModifiersPanelController___c__DisplayClass16_0(GameplayModifiersPanelController___c__DisplayClass16_0 const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "GameplayModifiersPanelController___c__DisplayClass16_0", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+GameplayModifiersPanelController___c__DisplayClass16_0(GameplayModifiersPanelController___c__DisplayClass16_0 && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6922 };
+// Ctor Parameters [CppParam { name: "", ty: "GameplayModifiersPanelController___c__DisplayClass16_0", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+GameplayModifiersPanelController___c__DisplayClass16_0(GameplayModifiersPanelController___c__DisplayClass16_0 const& ) = delete;
 
-  /// @brief Field gameplayModifierToggle, offset: 0x10, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::GameplayModifierToggle> ___gameplayModifierToggle;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6926};
 
-  /// @brief Field <>4__this, offset: 0x18, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::GameplayModifiersPanelController> _____4__this;
+/// @brief Field gameplayModifierToggle, offset: 0x10, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::GameplayModifierToggle>  ___gameplayModifierToggle;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field <>4__this, offset: 0x18, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::GameplayModifiersPanelController>  _____4__this;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::GameplayModifiersPanelController___c__DisplayClass16_0, ___gameplayModifierToggle) == 0x10, "Offset mismatch!");
@@ -115,217 +116,209 @@ static_assert(offsetof(::GlobalNamespace::GameplayModifiersPanelController___c__
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::GameplayModifiersPanelController___c__DisplayClass16_0, 0x20>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 // Dependencies UnityEngine.Color, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: GameplayModifiersPanelController
 class CORDL_TYPE GameplayModifiersPanelController : public ::UnityEngine::MonoBehaviour {
 public:
-  // Declarations
-  using __c__DisplayClass16_0 = ::GlobalNamespace::GameplayModifiersPanelController___c__DisplayClass16_0;
+// Declarations
+using __c__DisplayClass16_0 = ::GlobalNamespace::GameplayModifiersPanelController___c__DisplayClass16_0;
 
-  /// @brief Field _changingGameplayModifierToggles, offset 0x78, size 0x1
-  __declspec(property(get = __cordl_internal_get__changingGameplayModifierToggles, put = __cordl_internal_set__changingGameplayModifierToggles)) bool _changingGameplayModifierToggles;
+/// @brief Field _changingGameplayModifierToggles, offset 0x78, size 0x1 
+ __declspec(property(get=__cordl_internal_get__changingGameplayModifierToggles, put=__cordl_internal_set__changingGameplayModifierToggles)) bool  _changingGameplayModifierToggles;
 
-  /// @brief Field _gameplayModifierToggles, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get__gameplayModifierToggles,
-                      put = __cordl_internal_set__gameplayModifierToggles)) ::ArrayW<::UnityW<::GlobalNamespace::GameplayModifierToggle>, ::Array<::UnityW<::GlobalNamespace::GameplayModifierToggle>>*>
-      _gameplayModifierToggles;
+/// @brief Field _gameplayModifierToggles, offset 0x70, size 0x8 
+ __declspec(property(get=__cordl_internal_get__gameplayModifierToggles, put=__cordl_internal_set__gameplayModifierToggles)) ::ArrayW<::UnityW<::GlobalNamespace::GameplayModifierToggle>,::Array<::UnityW<::GlobalNamespace::GameplayModifierToggle>>*>  _gameplayModifierToggles;
 
-  /// @brief Field _gameplayModifiers, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get__gameplayModifiers, put = __cordl_internal_set__gameplayModifiers)) ::GlobalNamespace::GameplayModifiers* _gameplayModifiers;
+/// @brief Field _gameplayModifiers, offset 0x60, size 0x8 
+ __declspec(property(get=__cordl_internal_get__gameplayModifiers, put=__cordl_internal_set__gameplayModifiers)) ::GlobalNamespace::GameplayModifiers*  _gameplayModifiers;
 
-  /// @brief Field _gameplayModifiersModel, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__gameplayModifiersModel, put = __cordl_internal_set__gameplayModifiersModel)) ::UnityW<::GlobalNamespace::GameplayModifiersModelSO>
-      _gameplayModifiersModel;
+/// @brief Field _gameplayModifiersModel, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get__gameplayModifiersModel, put=__cordl_internal_set__gameplayModifiersModel)) ::UnityW<::GlobalNamespace::GameplayModifiersModelSO>  _gameplayModifiersModel;
 
-  /// @brief Field _maxRankValueText, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__maxRankValueText, put = __cordl_internal_set__maxRankValueText)) ::UnityW<::TMPro::TextMeshProUGUI> _maxRankValueText;
+/// @brief Field _maxRankValueText, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get__maxRankValueText, put=__cordl_internal_set__maxRankValueText)) ::UnityW<::TMPro::TextMeshProUGUI>  _maxRankValueText;
 
-  /// @brief Field _negativeColor, offset 0x48, size 0x10
-  __declspec(property(get = __cordl_internal_get__negativeColor, put = __cordl_internal_set__negativeColor)) ::UnityEngine::Color _negativeColor;
+/// @brief Field _negativeColor, offset 0x48, size 0x10 
+ __declspec(property(get=__cordl_internal_get__negativeColor, put=__cordl_internal_set__negativeColor)) ::UnityEngine::Color  _negativeColor;
 
-  /// @brief Field _positiveColor, offset 0x38, size 0x10
-  __declspec(property(get = __cordl_internal_get__positiveColor, put = __cordl_internal_set__positiveColor)) ::UnityEngine::Color _positiveColor;
+/// @brief Field _positiveColor, offset 0x38, size 0x10 
+ __declspec(property(get=__cordl_internal_get__positiveColor, put=__cordl_internal_set__positiveColor)) ::UnityEngine::Color  _positiveColor;
 
-  /// @brief Field _toggleBinder, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get__toggleBinder, put = __cordl_internal_set__toggleBinder)) ::HMUI::ToggleBinder* _toggleBinder;
+/// @brief Field _toggleBinder, offset 0x68, size 0x8 
+ __declspec(property(get=__cordl_internal_get__toggleBinder, put=__cordl_internal_set__toggleBinder)) ::HMUI::ToggleBinder*  _toggleBinder;
 
-  /// @brief Field _toggleForGameplayModifierParam, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get__toggleForGameplayModifierParam,
-                      put = __cordl_internal_set__toggleForGameplayModifierParam)) ::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>,
-                                                                                                                                ::UnityW<::UnityEngine::UI::Toggle>>* _toggleForGameplayModifierParam;
+/// @brief Field _toggleForGameplayModifierParam, offset 0x80, size 0x8 
+ __declspec(property(get=__cordl_internal_get__toggleForGameplayModifierParam, put=__cordl_internal_set__toggleForGameplayModifierParam)) ::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>,::UnityW<::UnityEngine::UI::Toggle>>*  _toggleForGameplayModifierParam;
 
-  /// @brief Field _totalMultiplierValueText, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__totalMultiplierValueText, put = __cordl_internal_set__totalMultiplierValueText)) ::UnityW<::TMPro::TextMeshProUGUI> _totalMultiplierValueText;
+/// @brief Field _totalMultiplierValueText, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get__totalMultiplierValueText, put=__cordl_internal_set__totalMultiplierValueText)) ::UnityW<::TMPro::TextMeshProUGUI>  _totalMultiplierValueText;
 
-  /// @brief Field didChangeGameplayModifiersEvent, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get_didChangeGameplayModifiersEvent, put = __cordl_internal_set_didChangeGameplayModifiersEvent)) ::System::Action* didChangeGameplayModifiersEvent;
+/// @brief Field didChangeGameplayModifiersEvent, offset 0x58, size 0x8 
+ __declspec(property(get=__cordl_internal_get_didChangeGameplayModifiersEvent, put=__cordl_internal_set_didChangeGameplayModifiersEvent)) ::System::Action*  didChangeGameplayModifiersEvent;
 
-  __declspec(property(get = get_gameplayModifiers)) ::GlobalNamespace::GameplayModifiers* gameplayModifiers;
+ __declspec(property(get=get_gameplayModifiers)) ::GlobalNamespace::GameplayModifiers*  gameplayModifiers;
 
-  /// @brief Convert operator to "::GlobalNamespace::IRefreshable"
-  constexpr operator ::GlobalNamespace::IRefreshable*() noexcept;
+/// @brief Convert operator to "::GlobalNamespace::IRefreshable"
+constexpr operator  ::GlobalNamespace::IRefreshable*() noexcept;
 
-  /// @brief Method Awake, addr 0x57a65d0, size 0x1c8, virtual false, abstract: false, final false
-  inline void Awake();
+/// @brief Method Awake, addr 0x57a6f00, size 0x1c8, virtual false, abstract: false, final false
+inline void Awake() ;
 
-  /// @brief Method GetToggleValueWithGameplayModifierParams, addr 0x57a6854, size 0x90, virtual false, abstract: false, final false
-  inline bool GetToggleValueWithGameplayModifierParams(::GlobalNamespace::GameplayModifierParamsSO* gameplayModifierParams);
+/// @brief Method GetToggleValueWithGameplayModifierParams, addr 0x57a7184, size 0x90, virtual false, abstract: false, final false
+inline bool GetToggleValueWithGameplayModifierParams(::GlobalNamespace::GameplayModifierParamsSO*  gameplayModifierParams) ;
 
-  /// @brief Method IRefreshable.Refresh, addr 0x57a6acc, size 0x10c, virtual true, abstract: false, final true
-  inline void IRefreshable_Refresh();
+/// @brief Method IRefreshable.Refresh, addr 0x57a73fc, size 0x10c, virtual true, abstract: false, final true
+inline void IRefreshable_Refresh() ;
 
-  static inline ::GlobalNamespace::GameplayModifiersPanelController* New_ctor();
+static inline ::GlobalNamespace::GameplayModifiersPanelController* New_ctor() ;
 
-  /// @brief Method OnDestroy, addr 0x57a679c, size 0x14, virtual false, abstract: false, final false
-  inline void OnDestroy();
+/// @brief Method OnDestroy, addr 0x57a70cc, size 0x14, virtual false, abstract: false, final false
+inline void OnDestroy() ;
 
-  /// @brief Method RefreshTotalMultiplierAndRankUI, addr 0x57a68e4, size 0x1e8, virtual false, abstract: false, final false
-  inline void RefreshTotalMultiplierAndRankUI();
+/// @brief Method RefreshTotalMultiplierAndRankUI, addr 0x57a7214, size 0x1e8, virtual false, abstract: false, final false
+inline void RefreshTotalMultiplierAndRankUI() ;
 
-  /// @brief Method SetData, addr 0x57a65c8, size 0x8, virtual false, abstract: false, final false
-  inline void SetData(::GlobalNamespace::GameplayModifiers* newGameplayModifiers);
+/// @brief Method SetData, addr 0x57a6ef8, size 0x8, virtual false, abstract: false, final false
+inline void SetData(::GlobalNamespace::GameplayModifiers*  newGameplayModifiers) ;
 
-  /// @brief Method SetToggleValueWithGameplayModifierParams, addr 0x57a67b0, size 0xa4, virtual false, abstract: false, final false
-  inline void SetToggleValueWithGameplayModifierParams(::GlobalNamespace::GameplayModifierParamsSO* gameplayModifierParams, bool value);
+/// @brief Method SetToggleValueWithGameplayModifierParams, addr 0x57a70e0, size 0xa4, virtual false, abstract: false, final false
+inline void SetToggleValueWithGameplayModifierParams(::GlobalNamespace::GameplayModifierParamsSO*  gameplayModifierParams, bool  value) ;
 
-  constexpr bool const& __cordl_internal_get__changingGameplayModifierToggles() const;
+constexpr bool const& __cordl_internal_get__changingGameplayModifierToggles() const;
 
-  constexpr bool& __cordl_internal_get__changingGameplayModifierToggles();
+constexpr bool& __cordl_internal_get__changingGameplayModifierToggles() ;
 
-  constexpr ::ArrayW<::UnityW<::GlobalNamespace::GameplayModifierToggle>, ::Array<::UnityW<::GlobalNamespace::GameplayModifierToggle>>*> const& __cordl_internal_get__gameplayModifierToggles() const;
+constexpr ::ArrayW<::UnityW<::GlobalNamespace::GameplayModifierToggle>,::Array<::UnityW<::GlobalNamespace::GameplayModifierToggle>>*> const& __cordl_internal_get__gameplayModifierToggles() const;
 
-  constexpr ::ArrayW<::UnityW<::GlobalNamespace::GameplayModifierToggle>, ::Array<::UnityW<::GlobalNamespace::GameplayModifierToggle>>*>& __cordl_internal_get__gameplayModifierToggles();
+constexpr ::ArrayW<::UnityW<::GlobalNamespace::GameplayModifierToggle>,::Array<::UnityW<::GlobalNamespace::GameplayModifierToggle>>*>& __cordl_internal_get__gameplayModifierToggles() ;
 
-  constexpr ::GlobalNamespace::GameplayModifiers* const& __cordl_internal_get__gameplayModifiers() const;
+constexpr ::GlobalNamespace::GameplayModifiers* const& __cordl_internal_get__gameplayModifiers() const;
 
-  constexpr ::GlobalNamespace::GameplayModifiers*& __cordl_internal_get__gameplayModifiers();
+constexpr ::GlobalNamespace::GameplayModifiers*& __cordl_internal_get__gameplayModifiers() ;
 
-  constexpr ::UnityW<::GlobalNamespace::GameplayModifiersModelSO> const& __cordl_internal_get__gameplayModifiersModel() const;
+constexpr ::UnityW<::GlobalNamespace::GameplayModifiersModelSO> const& __cordl_internal_get__gameplayModifiersModel() const;
 
-  constexpr ::UnityW<::GlobalNamespace::GameplayModifiersModelSO>& __cordl_internal_get__gameplayModifiersModel();
+constexpr ::UnityW<::GlobalNamespace::GameplayModifiersModelSO>& __cordl_internal_get__gameplayModifiersModel() ;
 
-  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__maxRankValueText() const;
+constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__maxRankValueText() const;
 
-  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__maxRankValueText();
+constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__maxRankValueText() ;
 
-  constexpr ::UnityEngine::Color const& __cordl_internal_get__negativeColor() const;
+constexpr ::UnityEngine::Color const& __cordl_internal_get__negativeColor() const;
 
-  constexpr ::UnityEngine::Color& __cordl_internal_get__negativeColor();
+constexpr ::UnityEngine::Color& __cordl_internal_get__negativeColor() ;
 
-  constexpr ::UnityEngine::Color const& __cordl_internal_get__positiveColor() const;
+constexpr ::UnityEngine::Color const& __cordl_internal_get__positiveColor() const;
 
-  constexpr ::UnityEngine::Color& __cordl_internal_get__positiveColor();
+constexpr ::UnityEngine::Color& __cordl_internal_get__positiveColor() ;
 
-  constexpr ::HMUI::ToggleBinder* const& __cordl_internal_get__toggleBinder() const;
+constexpr ::HMUI::ToggleBinder* const& __cordl_internal_get__toggleBinder() const;
 
-  constexpr ::HMUI::ToggleBinder*& __cordl_internal_get__toggleBinder();
+constexpr ::HMUI::ToggleBinder*& __cordl_internal_get__toggleBinder() ;
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>, ::UnityW<::UnityEngine::UI::Toggle>>* const&
-  __cordl_internal_get__toggleForGameplayModifierParam() const;
+constexpr ::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>,::UnityW<::UnityEngine::UI::Toggle>>* const& __cordl_internal_get__toggleForGameplayModifierParam() const;
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>, ::UnityW<::UnityEngine::UI::Toggle>>*&
-  __cordl_internal_get__toggleForGameplayModifierParam();
+constexpr ::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>,::UnityW<::UnityEngine::UI::Toggle>>*& __cordl_internal_get__toggleForGameplayModifierParam() ;
 
-  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__totalMultiplierValueText() const;
+constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__totalMultiplierValueText() const;
 
-  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__totalMultiplierValueText();
+constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__totalMultiplierValueText() ;
 
-  constexpr ::System::Action* const& __cordl_internal_get_didChangeGameplayModifiersEvent() const;
+constexpr ::System::Action* const& __cordl_internal_get_didChangeGameplayModifiersEvent() const;
 
-  constexpr ::System::Action*& __cordl_internal_get_didChangeGameplayModifiersEvent();
+constexpr ::System::Action*& __cordl_internal_get_didChangeGameplayModifiersEvent() ;
 
-  constexpr void __cordl_internal_set__changingGameplayModifierToggles(bool value);
+constexpr void __cordl_internal_set__changingGameplayModifierToggles(bool  value) ;
 
-  constexpr void __cordl_internal_set__gameplayModifierToggles(::ArrayW<::UnityW<::GlobalNamespace::GameplayModifierToggle>, ::Array<::UnityW<::GlobalNamespace::GameplayModifierToggle>>*> value);
+constexpr void __cordl_internal_set__gameplayModifierToggles(::ArrayW<::UnityW<::GlobalNamespace::GameplayModifierToggle>,::Array<::UnityW<::GlobalNamespace::GameplayModifierToggle>>*>  value) ;
 
-  constexpr void __cordl_internal_set__gameplayModifiers(::GlobalNamespace::GameplayModifiers* value);
+constexpr void __cordl_internal_set__gameplayModifiers(::GlobalNamespace::GameplayModifiers*  value) ;
 
-  constexpr void __cordl_internal_set__gameplayModifiersModel(::UnityW<::GlobalNamespace::GameplayModifiersModelSO> value);
+constexpr void __cordl_internal_set__gameplayModifiersModel(::UnityW<::GlobalNamespace::GameplayModifiersModelSO>  value) ;
 
-  constexpr void __cordl_internal_set__maxRankValueText(::UnityW<::TMPro::TextMeshProUGUI> value);
+constexpr void __cordl_internal_set__maxRankValueText(::UnityW<::TMPro::TextMeshProUGUI>  value) ;
 
-  constexpr void __cordl_internal_set__negativeColor(::UnityEngine::Color value);
+constexpr void __cordl_internal_set__negativeColor(::UnityEngine::Color  value) ;
 
-  constexpr void __cordl_internal_set__positiveColor(::UnityEngine::Color value);
+constexpr void __cordl_internal_set__positiveColor(::UnityEngine::Color  value) ;
 
-  constexpr void __cordl_internal_set__toggleBinder(::HMUI::ToggleBinder* value);
+constexpr void __cordl_internal_set__toggleBinder(::HMUI::ToggleBinder*  value) ;
 
-  constexpr void
-  __cordl_internal_set__toggleForGameplayModifierParam(::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>, ::UnityW<::UnityEngine::UI::Toggle>>* value);
+constexpr void __cordl_internal_set__toggleForGameplayModifierParam(::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>,::UnityW<::UnityEngine::UI::Toggle>>*  value) ;
 
-  constexpr void __cordl_internal_set__totalMultiplierValueText(::UnityW<::TMPro::TextMeshProUGUI> value);
+constexpr void __cordl_internal_set__totalMultiplierValueText(::UnityW<::TMPro::TextMeshProUGUI>  value) ;
 
-  constexpr void __cordl_internal_set_didChangeGameplayModifiersEvent(::System::Action* value);
+constexpr void __cordl_internal_set_didChangeGameplayModifiersEvent(::System::Action*  value) ;
 
-  /// @brief Method .ctor, addr 0x57a6bd8, size 0x8c, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x57a7508, size 0x8c, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method add_didChangeGameplayModifiersEvent, addr 0x57a6468, size 0xac, virtual false, abstract: false, final false
-  inline void add_didChangeGameplayModifiersEvent(::System::Action* value);
+/// @brief Method add_didChangeGameplayModifiersEvent, addr 0x57a6d98, size 0xac, virtual false, abstract: false, final false
+inline void add_didChangeGameplayModifiersEvent(::System::Action*  value) ;
 
-  /// @brief Method get_gameplayModifiers, addr 0x57a65c0, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::GameplayModifiers* get_gameplayModifiers();
+/// @brief Method get_gameplayModifiers, addr 0x57a6ef0, size 0x8, virtual false, abstract: false, final false
+inline ::GlobalNamespace::GameplayModifiers* get_gameplayModifiers() ;
 
-  /// @brief Convert to "::GlobalNamespace::IRefreshable"
-  constexpr ::GlobalNamespace::IRefreshable* i___GlobalNamespace__IRefreshable() noexcept;
+/// @brief Convert to "::GlobalNamespace::IRefreshable"
+constexpr ::GlobalNamespace::IRefreshable* i___GlobalNamespace__IRefreshable() noexcept;
 
-  /// @brief Method remove_didChangeGameplayModifiersEvent, addr 0x57a6514, size 0xac, virtual false, abstract: false, final false
-  inline void remove_didChangeGameplayModifiersEvent(::System::Action* value);
+/// @brief Method remove_didChangeGameplayModifiersEvent, addr 0x57a6e44, size 0xac, virtual false, abstract: false, final false
+inline void remove_didChangeGameplayModifiersEvent(::System::Action*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr GameplayModifiersPanelController();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr GameplayModifiersPanelController() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GameplayModifiersPanelController", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  GameplayModifiersPanelController(GameplayModifiersPanelController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GameplayModifiersPanelController", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  GameplayModifiersPanelController(GameplayModifiersPanelController const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "GameplayModifiersPanelController", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+GameplayModifiersPanelController(GameplayModifiersPanelController && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6923 };
+// Ctor Parameters [CppParam { name: "", ty: "GameplayModifiersPanelController", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+GameplayModifiersPanelController(GameplayModifiersPanelController const& ) = delete;
 
-  /// @brief Field _gameplayModifiersModel, offset: 0x20, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::GameplayModifiersModelSO> ____gameplayModifiersModel;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6927};
 
-  /// @brief Field _totalMultiplierValueText, offset: 0x28, size: 0x8, def value: None
-  ::UnityW<::TMPro::TextMeshProUGUI> ____totalMultiplierValueText;
+/// @brief Field _gameplayModifiersModel, offset: 0x20, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::GameplayModifiersModelSO>  ____gameplayModifiersModel;
 
-  /// @brief Field _maxRankValueText, offset: 0x30, size: 0x8, def value: None
-  ::UnityW<::TMPro::TextMeshProUGUI> ____maxRankValueText;
+/// @brief Field _totalMultiplierValueText, offset: 0x28, size: 0x8, def value: None
+ ::UnityW<::TMPro::TextMeshProUGUI>  ____totalMultiplierValueText;
 
-  /// @brief Field _positiveColor, offset: 0x38, size: 0x10, def value: None
-  ::UnityEngine::Color ____positiveColor;
+/// @brief Field _maxRankValueText, offset: 0x30, size: 0x8, def value: None
+ ::UnityW<::TMPro::TextMeshProUGUI>  ____maxRankValueText;
 
-  /// @brief Field _negativeColor, offset: 0x48, size: 0x10, def value: None
-  ::UnityEngine::Color ____negativeColor;
+/// @brief Field _positiveColor, offset: 0x38, size: 0x10, def value: None
+ ::UnityEngine::Color  ____positiveColor;
 
-  /// @brief Field didChangeGameplayModifiersEvent, offset: 0x58, size: 0x8, def value: None
-  ::System::Action* ___didChangeGameplayModifiersEvent;
+/// @brief Field _negativeColor, offset: 0x48, size: 0x10, def value: None
+ ::UnityEngine::Color  ____negativeColor;
 
-  /// @brief Field _gameplayModifiers, offset: 0x60, size: 0x8, def value: None
-  ::GlobalNamespace::GameplayModifiers* ____gameplayModifiers;
+/// @brief Field didChangeGameplayModifiersEvent, offset: 0x58, size: 0x8, def value: None
+ ::System::Action*  ___didChangeGameplayModifiersEvent;
 
-  /// @brief Field _toggleBinder, offset: 0x68, size: 0x8, def value: None
-  ::HMUI::ToggleBinder* ____toggleBinder;
+/// @brief Field _gameplayModifiers, offset: 0x60, size: 0x8, def value: None
+ ::GlobalNamespace::GameplayModifiers*  ____gameplayModifiers;
 
-  /// @brief Field _gameplayModifierToggles, offset: 0x70, size: 0x8, def value: None
-  ::ArrayW<::UnityW<::GlobalNamespace::GameplayModifierToggle>, ::Array<::UnityW<::GlobalNamespace::GameplayModifierToggle>>*> ____gameplayModifierToggles;
+/// @brief Field _toggleBinder, offset: 0x68, size: 0x8, def value: None
+ ::HMUI::ToggleBinder*  ____toggleBinder;
 
-  /// @brief Field _changingGameplayModifierToggles, offset: 0x78, size: 0x1, def value: None
-  bool ____changingGameplayModifierToggles;
+/// @brief Field _gameplayModifierToggles, offset: 0x70, size: 0x8, def value: None
+ ::ArrayW<::UnityW<::GlobalNamespace::GameplayModifierToggle>,::Array<::UnityW<::GlobalNamespace::GameplayModifierToggle>>*>  ____gameplayModifierToggles;
 
-  /// @brief Field _toggleForGameplayModifierParam, offset: 0x80, size: 0x8, def value: None
-  ::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>, ::UnityW<::UnityEngine::UI::Toggle>>* ____toggleForGameplayModifierParam;
+/// @brief Field _changingGameplayModifierToggles, offset: 0x78, size: 0x1, def value: None
+ bool  ____changingGameplayModifierToggles;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _toggleForGameplayModifierParam, offset: 0x80, size: 0x8, def value: None
+ ::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>,::UnityW<::UnityEngine::UI::Toggle>>*  ____toggleForGameplayModifierParam;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::GameplayModifiersPanelController, ____gameplayModifiersModel) == 0x20, "Offset mismatch!");
@@ -352,7 +345,7 @@ static_assert(offsetof(::GlobalNamespace::GameplayModifiersPanelController, ____
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::GameplayModifiersPanelController, 0x88>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::GameplayModifiersPanelController);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::GameplayModifiersPanelController*, "", "GameplayModifiersPanelController");
 NEED_NO_BOX(::GlobalNamespace::GameplayModifiersPanelController___c__DisplayClass16_0);

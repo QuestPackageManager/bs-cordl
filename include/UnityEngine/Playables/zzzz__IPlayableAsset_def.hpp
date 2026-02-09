@@ -20,31 +20,31 @@ class IPlayableAsset;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::Playables::IPlayableAsset);
-// Dependencies
+// Dependencies 
 namespace UnityEngine::Playables {
 // Is value type: false
 // CS Name: UnityEngine.Playables.IPlayableAsset
 class CORDL_TYPE IPlayableAsset {
 public:
-  // Declarations
-  __declspec(property(get = get_duration)) double_t duration;
+// Declarations
+ __declspec(property(get=get_duration)) double_t  duration;
 
-  /// @brief Method CreatePlayable, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline ::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::GameObject* owner);
+/// @brief Method CreatePlayable, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline ::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph  graph, ::UnityEngine::GameObject*  owner) ;
 
-  /// @brief Method get_duration, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline double_t get_duration();
+/// @brief Method get_duration, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline double_t get_duration() ;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IPlayableAsset", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  IPlayableAsset(IPlayableAsset const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "IPlayableAsset", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+IPlayableAsset(IPlayableAsset const& ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10650 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10654};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-} // namespace UnityEngine::Playables
+} // namespace end def UnityEngine::Playables
 NEED_NO_BOX(::UnityEngine::Playables::IPlayableAsset);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Playables::IPlayableAsset*, "UnityEngine.Playables", "IPlayableAsset");

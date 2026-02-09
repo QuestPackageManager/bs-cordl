@@ -20,60 +20,59 @@ namespace UnityEngine::XR::OpenXR::Input {
 // CS Name: UnityEngine.XR.OpenXR.Input.OpenXRHmd
 class CORDL_TYPE OpenXRHmd : public ::UnityEngine::InputSystem::XR::XRHMD {
 public:
-  // Declarations
-  /// @brief Field <userPresence>k__BackingField, offset 0x1d8, size 0x8
-  __declspec(property(get = __cordl_internal_get__userPresence_k__BackingField,
-                      put = __cordl_internal_set__userPresence_k__BackingField)) ::UnityEngine::InputSystem::Controls::ButtonControl* _userPresence_k__BackingField;
+// Declarations
+/// @brief Field <userPresence>k__BackingField, offset 0x1d8, size 0x8 
+ __declspec(property(get=__cordl_internal_get__userPresence_k__BackingField, put=__cordl_internal_set__userPresence_k__BackingField)) ::UnityEngine::InputSystem::Controls::ButtonControl*  _userPresence_k__BackingField;
 
-  __declspec(property(get = get_userPresence, put = set_userPresence)) ::UnityEngine::InputSystem::Controls::ButtonControl* userPresence;
+ __declspec(property(get=get_userPresence, put=set_userPresence)) ::UnityEngine::InputSystem::Controls::ButtonControl*  userPresence;
 
-  /// @brief Method FinishSetup, addr 0x6826714, size 0x7c, virtual true, abstract: false, final false
-  inline void FinishSetup();
+/// @brief Method FinishSetup, addr 0x6826dd4, size 0x7c, virtual true, abstract: false, final false
+inline void FinishSetup() ;
 
-  static inline ::UnityEngine::XR::OpenXR::Input::OpenXRHmd* New_ctor();
+static inline ::UnityEngine::XR::OpenXR::Input::OpenXRHmd* New_ctor() ;
 
-  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl* const& __cordl_internal_get__userPresence_k__BackingField() const;
+constexpr ::UnityEngine::InputSystem::Controls::ButtonControl* const& __cordl_internal_get__userPresence_k__BackingField() const;
 
-  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __cordl_internal_get__userPresence_k__BackingField();
+constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __cordl_internal_get__userPresence_k__BackingField() ;
 
-  constexpr void __cordl_internal_set__userPresence_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
+constexpr void __cordl_internal_set__userPresence_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl*  value) ;
 
-  /// @brief Method .ctor, addr 0x6826790, size 0x20, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6826e50, size 0x20, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_userPresence, addr 0x6826704, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_userPresence();
+/// @brief Method get_userPresence, addr 0x6826dc4, size 0x8, virtual false, abstract: false, final false
+inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_userPresence() ;
 
-  /// @brief Method set_userPresence, addr 0x682670c, size 0x8, virtual false, abstract: false, final false
-  inline void set_userPresence(::UnityEngine::InputSystem::Controls::ButtonControl* value);
+/// @brief Method set_userPresence, addr 0x6826dcc, size 0x8, virtual false, abstract: false, final false
+inline void set_userPresence(::UnityEngine::InputSystem::Controls::ButtonControl*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr OpenXRHmd();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr OpenXRHmd() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OpenXRHmd", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  OpenXRHmd(OpenXRHmd&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OpenXRHmd", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  OpenXRHmd(OpenXRHmd const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "OpenXRHmd", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+OpenXRHmd(OpenXRHmd && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18509 };
+// Ctor Parameters [CppParam { name: "", ty: "OpenXRHmd", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+OpenXRHmd(OpenXRHmd const& ) = delete;
 
-  /// @brief Field <userPresence>k__BackingField, offset: 0x1d8, size: 0x8, def value: None
-  ::UnityEngine::InputSystem::Controls::ButtonControl* ____userPresence_k__BackingField;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{18513};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field <userPresence>k__BackingField, offset: 0x1d8, size: 0x8, def value: None
+ ::UnityEngine::InputSystem::Controls::ButtonControl*  ____userPresence_k__BackingField;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::XR::OpenXR::Input::OpenXRHmd, ____userPresence_k__BackingField) == 0x1d8, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::XR::OpenXR::Input::OpenXRHmd, 0x1e0>, "Size mismatch!");
 
-} // namespace UnityEngine::XR::OpenXR::Input
+} // namespace end def UnityEngine::XR::OpenXR::Input
 NEED_NO_BOX(::UnityEngine::XR::OpenXR::Input::OpenXRHmd);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::XR::OpenXR::Input::OpenXRHmd*, "UnityEngine.XR.OpenXR.Input", "OpenXRHmd");

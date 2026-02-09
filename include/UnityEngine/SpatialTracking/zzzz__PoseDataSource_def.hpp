@@ -6,7 +6,8 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(PoseDataSource)
 namespace System::Collections::Generic {
-template <typename T> class List_1;
+template<typename T>
+class List_1;
 }
 namespace UnityEngine::SpatialTracking {
 struct PoseDataFlags;
@@ -35,45 +36,45 @@ namespace UnityEngine::SpatialTracking {
 // CS Name: UnityEngine.SpatialTracking.PoseDataSource
 class CORDL_TYPE PoseDataSource : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field nodeStates, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_nodeStates, put = setStaticF_nodeStates)) ::System::Collections::Generic::List_1<::UnityEngine::XR::XRNodeState>* nodeStates;
+// Declarations
+/// @brief Field nodeStates, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_nodeStates, put=setStaticF_nodeStates)) ::System::Collections::Generic::List_1<::UnityEngine::XR::XRNodeState>*  nodeStates;
 
-  /// @brief Method GetDataFromSource, addr 0x69ebd58, size 0x2c4, virtual false, abstract: false, final false
-  static inline ::UnityEngine::SpatialTracking::PoseDataFlags GetDataFromSource(::UnityEngine::SpatialTracking::TrackedPoseDriver_TrackedPose poseSource, ::ByRef<::UnityEngine::Pose> resultPose);
+/// @brief Method GetDataFromSource, addr 0x69ec418, size 0x2c4, virtual false, abstract: false, final false
+static inline ::UnityEngine::SpatialTracking::PoseDataFlags GetDataFromSource(::UnityEngine::SpatialTracking::TrackedPoseDriver_TrackedPose  poseSource, ::ByRef<::UnityEngine::Pose>  resultPose) ;
 
-  /// @brief Method GetNodePoseData, addr 0x69ebadc, size 0x208, virtual false, abstract: false, final false
-  static inline ::UnityEngine::SpatialTracking::PoseDataFlags GetNodePoseData(::UnityEngine::XR::XRNode node, ::ByRef<::UnityEngine::Pose> resultPose);
+/// @brief Method GetNodePoseData, addr 0x69ec19c, size 0x208, virtual false, abstract: false, final false
+static inline ::UnityEngine::SpatialTracking::PoseDataFlags GetNodePoseData(::UnityEngine::XR::XRNode  node, ::ByRef<::UnityEngine::Pose>  resultPose) ;
 
-  /// @brief Method TryGetDataFromSource, addr 0x69ebce4, size 0x74, virtual false, abstract: false, final false
-  static inline bool TryGetDataFromSource(::UnityEngine::SpatialTracking::TrackedPoseDriver_TrackedPose poseSource, ::ByRef<::UnityEngine::Pose> resultPose);
+/// @brief Method TryGetDataFromSource, addr 0x69ec3a4, size 0x74, virtual false, abstract: false, final false
+static inline bool TryGetDataFromSource(::UnityEngine::SpatialTracking::TrackedPoseDriver_TrackedPose  poseSource, ::ByRef<::UnityEngine::Pose>  resultPose) ;
 
-  static inline ::System::Collections::Generic::List_1<::UnityEngine::XR::XRNodeState>* getStaticF_nodeStates();
+static inline ::System::Collections::Generic::List_1<::UnityEngine::XR::XRNodeState>* getStaticF_nodeStates() ;
 
-  static inline void setStaticF_nodeStates(::System::Collections::Generic::List_1<::UnityEngine::XR::XRNodeState>* value);
+static inline void setStaticF_nodeStates(::System::Collections::Generic::List_1<::UnityEngine::XR::XRNodeState>*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PoseDataSource();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr PoseDataSource() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PoseDataSource", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  PoseDataSource(PoseDataSource&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PoseDataSource", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  PoseDataSource(PoseDataSource const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "PoseDataSource", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+PoseDataSource(PoseDataSource && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22995 };
+// Ctor Parameters [CppParam { name: "", ty: "PoseDataSource", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+PoseDataSource(PoseDataSource const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{22999};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::SpatialTracking::PoseDataSource, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine::SpatialTracking
+} // namespace end def UnityEngine::SpatialTracking
 NEED_NO_BOX(::UnityEngine::SpatialTracking::PoseDataSource);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::SpatialTracking::PoseDataSource*, "UnityEngine.SpatialTracking", "PoseDataSource");

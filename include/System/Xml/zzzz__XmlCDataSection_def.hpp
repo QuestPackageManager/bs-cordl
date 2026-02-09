@@ -33,78 +33,78 @@ namespace System::Xml {
 // CS Name: System.Xml.XmlCDataSection
 class CORDL_TYPE XmlCDataSection : public ::System::Xml::XmlCharacterData {
 public:
-  // Declarations
-  __declspec(property(get = get_IsText)) bool IsText;
+// Declarations
+ __declspec(property(get=get_IsText)) bool  IsText;
 
-  __declspec(property(get = get_LocalName)) ::StringW LocalName;
+ __declspec(property(get=get_LocalName)) ::StringW  LocalName;
 
-  __declspec(property(get = get_Name)) ::StringW Name;
+ __declspec(property(get=get_Name)) ::StringW  Name;
 
-  __declspec(property(get = get_NodeType)) ::System::Xml::XmlNodeType NodeType;
+ __declspec(property(get=get_NodeType)) ::System::Xml::XmlNodeType  NodeType;
 
-  __declspec(property(get = get_ParentNode)) ::System::Xml::XmlNode* ParentNode;
+ __declspec(property(get=get_ParentNode)) ::System::Xml::XmlNode*  ParentNode;
 
-  __declspec(property(get = get_PreviousText)) ::System::Xml::XmlNode* PreviousText;
+ __declspec(property(get=get_PreviousText)) ::System::Xml::XmlNode*  PreviousText;
 
-  __declspec(property(get = get_XPNodeType)) ::System::Xml::XPath::XPathNodeType XPNodeType;
+ __declspec(property(get=get_XPNodeType)) ::System::Xml::XPath::XPathNodeType  XPNodeType;
 
-  /// @brief Method CloneNode, addr 0x6105a94, size 0x5c, virtual true, abstract: false, final false
-  inline ::System::Xml::XmlNode* CloneNode(bool deep);
+/// @brief Method CloneNode, addr 0x6106154, size 0x5c, virtual true, abstract: false, final false
+inline ::System::Xml::XmlNode* CloneNode(bool  deep) ;
 
-  static inline ::System::Xml::XmlCDataSection* New_ctor(::StringW data, ::System::Xml::XmlDocument* doc);
+static inline ::System::Xml::XmlCDataSection* New_ctor(::StringW  data, ::System::Xml::XmlDocument*  doc) ;
 
-  /// @brief Method WriteContentTo, addr 0x6105b30, size 0x4, virtual true, abstract: false, final false
-  inline void WriteContentTo(::System::Xml::XmlWriter* w);
+/// @brief Method WriteContentTo, addr 0x61061f0, size 0x4, virtual true, abstract: false, final false
+inline void WriteContentTo(::System::Xml::XmlWriter*  w) ;
 
-  /// @brief Method WriteTo, addr 0x6105af0, size 0x40, virtual true, abstract: false, final false
-  inline void WriteTo(::System::Xml::XmlWriter* w);
+/// @brief Method WriteTo, addr 0x61061b0, size 0x40, virtual true, abstract: false, final false
+inline void WriteTo(::System::Xml::XmlWriter*  w) ;
 
-  /// @brief Method .ctor, addr 0x6105968, size 0x28, virtual false, abstract: false, final false
-  inline void _ctor(::StringW data, ::System::Xml::XmlDocument* doc);
+/// @brief Method .ctor, addr 0x6106028, size 0x28, virtual false, abstract: false, final false
+inline void _ctor(::StringW  data, ::System::Xml::XmlDocument*  doc) ;
 
-  /// @brief Method get_IsText, addr 0x6105b3c, size 0x8, virtual true, abstract: false, final false
-  inline bool get_IsText();
+/// @brief Method get_IsText, addr 0x61061fc, size 0x8, virtual true, abstract: false, final false
+inline bool get_IsText() ;
 
-  /// @brief Method get_LocalName, addr 0x61059e0, size 0x28, virtual true, abstract: false, final false
-  inline ::StringW get_LocalName();
+/// @brief Method get_LocalName, addr 0x61060a0, size 0x28, virtual true, abstract: false, final false
+inline ::StringW get_LocalName() ;
 
-  /// @brief Method get_Name, addr 0x61059b8, size 0x28, virtual true, abstract: false, final false
-  inline ::StringW get_Name();
+/// @brief Method get_Name, addr 0x6106078, size 0x28, virtual true, abstract: false, final false
+inline ::StringW get_Name() ;
 
-  /// @brief Method get_NodeType, addr 0x6105a08, size 0x8, virtual true, abstract: false, final false
-  inline ::System::Xml::XmlNodeType get_NodeType();
+/// @brief Method get_NodeType, addr 0x61060c8, size 0x8, virtual true, abstract: false, final false
+inline ::System::Xml::XmlNodeType get_NodeType() ;
 
-  /// @brief Method get_ParentNode, addr 0x6105a10, size 0x84, virtual true, abstract: false, final false
-  inline ::System::Xml::XmlNode* get_ParentNode();
+/// @brief Method get_ParentNode, addr 0x61060d0, size 0x84, virtual true, abstract: false, final false
+inline ::System::Xml::XmlNode* get_ParentNode() ;
 
-  /// @brief Method get_PreviousText, addr 0x6105b44, size 0x3c, virtual true, abstract: false, final false
-  inline ::System::Xml::XmlNode* get_PreviousText();
+/// @brief Method get_PreviousText, addr 0x6106204, size 0x3c, virtual true, abstract: false, final false
+inline ::System::Xml::XmlNode* get_PreviousText() ;
 
-  /// @brief Method get_XPNodeType, addr 0x6105b34, size 0x8, virtual true, abstract: false, final false
-  inline ::System::Xml::XPath::XPathNodeType get_XPNodeType();
+/// @brief Method get_XPNodeType, addr 0x61061f4, size 0x8, virtual true, abstract: false, final false
+inline ::System::Xml::XPath::XPathNodeType get_XPNodeType() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr XmlCDataSection();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr XmlCDataSection() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlCDataSection", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  XmlCDataSection(XmlCDataSection&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlCDataSection", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  XmlCDataSection(XmlCDataSection const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "XmlCDataSection", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+XmlCDataSection(XmlCDataSection && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9357 };
+// Ctor Parameters [CppParam { name: "", ty: "XmlCDataSection", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+XmlCDataSection(XmlCDataSection const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{9361};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Xml::XmlCDataSection, 0x28>, "Size mismatch!");
 
-} // namespace System::Xml
+} // namespace end def System::Xml
 NEED_NO_BOX(::System::Xml::XmlCDataSection);
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::XmlCDataSection*, "System.Xml", "XmlCDataSection");

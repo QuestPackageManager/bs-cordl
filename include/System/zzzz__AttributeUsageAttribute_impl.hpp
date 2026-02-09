@@ -5,146 +5,180 @@
 #include "System/zzzz__AttributeUsageAttribute_def.hpp"
 #include "System/zzzz__AttributeTargets_def.hpp"
 //  Writing Method size for method: ::System::AttributeUsageAttribute._ctor
-template <>
+template<>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::AttributeUsageAttribute::*)(::System::AttributeTargets)>(&::System::AttributeUsageAttribute::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x59ff204;
+  constexpr static std::size_t addrs = 0x59ff710;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::AttributeUsageAttribute*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::AttributeTargets>::get() })));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::AttributeUsageAttribute*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::AttributeTargets>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::AttributeUsageAttribute.get_AllowMultiple
-template <>
+template<>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::AttributeUsageAttribute::*)()>(&::System::AttributeUsageAttribute::get_AllowMultiple)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59ff214;
+  constexpr static std::size_t addrs = 0x59ff720;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::AttributeUsageAttribute*>::get(), "get_AllowMultiple",
-                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::AttributeUsageAttribute*>::get(),
+                        "get_AllowMultiple",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::AttributeUsageAttribute.set_AllowMultiple
-template <>
+template<>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::AttributeUsageAttribute::*)(bool)>(&::System::AttributeUsageAttribute::set_AllowMultiple)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59ff21c;
+  constexpr static std::size_t addrs = 0x59ff728;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::AttributeUsageAttribute*>::get(), "set_AllowMultiple",
-                                                 std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::AttributeUsageAttribute*>::get(),
+                        "set_AllowMultiple",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::AttributeUsageAttribute.get_Inherited
-template <>
+template<>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::AttributeUsageAttribute::*)()>(&::System::AttributeUsageAttribute::get_Inherited)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59ff224;
+  constexpr static std::size_t addrs = 0x59ff730;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::AttributeUsageAttribute*>::get(), "get_Inherited",
-                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::AttributeUsageAttribute*>::get(),
+                        "get_Inherited",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::AttributeUsageAttribute.set_Inherited
-template <>
+template<>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::AttributeUsageAttribute::*)(bool)>(&::System::AttributeUsageAttribute::set_Inherited)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59ff22c;
+  constexpr static std::size_t addrs = 0x59ff738;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::AttributeUsageAttribute*>::get(), "set_Inherited",
-                                                 std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::AttributeUsageAttribute*>::get(),
+                        "set_Inherited",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
+                    )));
     return ___internal_method;
   }
 };
-constexpr ::System::AttributeTargets& System::AttributeUsageAttribute::__cordl_internal_get__attributeTarget() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____attributeTarget;
+constexpr ::System::AttributeTargets& System::AttributeUsageAttribute::__cordl_internal_get__attributeTarget()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____attributeTarget;
 }
 constexpr ::System::AttributeTargets const& System::AttributeUsageAttribute::__cordl_internal_get__attributeTarget() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____attributeTarget;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____attributeTarget;
 }
-constexpr void System::AttributeUsageAttribute::__cordl_internal_set__attributeTarget(::System::AttributeTargets value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____attributeTarget = value;
+constexpr void System::AttributeUsageAttribute::__cordl_internal_set__attributeTarget(::System::AttributeTargets  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____attributeTarget = value;
 }
-constexpr bool& System::AttributeUsageAttribute::__cordl_internal_get__allowMultiple() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____allowMultiple;
+constexpr bool& System::AttributeUsageAttribute::__cordl_internal_get__allowMultiple()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____allowMultiple;
 }
 constexpr bool const& System::AttributeUsageAttribute::__cordl_internal_get__allowMultiple() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____allowMultiple;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____allowMultiple;
 }
-constexpr void System::AttributeUsageAttribute::__cordl_internal_set__allowMultiple(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____allowMultiple = value;
+constexpr void System::AttributeUsageAttribute::__cordl_internal_set__allowMultiple(bool  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____allowMultiple = value;
 }
-constexpr bool& System::AttributeUsageAttribute::__cordl_internal_get__inherited() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____inherited;
+constexpr bool& System::AttributeUsageAttribute::__cordl_internal_get__inherited()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____inherited;
 }
 constexpr bool const& System::AttributeUsageAttribute::__cordl_internal_get__inherited() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____inherited;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____inherited;
 }
-constexpr void System::AttributeUsageAttribute::__cordl_internal_set__inherited(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____inherited = value;
+constexpr void System::AttributeUsageAttribute::__cordl_internal_set__inherited(bool  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____inherited = value;
 }
-inline void System::AttributeUsageAttribute::setStaticF_Default(::System::AttributeUsageAttribute* value) {
-  ::cordl_internals::setStaticField<::System::AttributeUsageAttribute*, "Default", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::AttributeUsageAttribute*>::get>(
-      std::forward<::System::AttributeUsageAttribute*>(value));
+inline void System::AttributeUsageAttribute::setStaticF_Default(::System::AttributeUsageAttribute*  value)  {
+::cordl_internals::setStaticField<::System::AttributeUsageAttribute*, "Default", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::AttributeUsageAttribute*>::get>(std::forward<::System::AttributeUsageAttribute*>(value));
 }
-inline ::System::AttributeUsageAttribute* System::AttributeUsageAttribute::getStaticF_Default() {
-  return ::cordl_internals::getStaticField<::System::AttributeUsageAttribute*, "Default", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::AttributeUsageAttribute*>::get>();
+inline ::System::AttributeUsageAttribute* System::AttributeUsageAttribute::getStaticF_Default()  {
+return ::cordl_internals::getStaticField<::System::AttributeUsageAttribute*, "Default", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::AttributeUsageAttribute*>::get>();
 }
-inline void System::AttributeUsageAttribute::_ctor(::System::AttributeTargets validOn) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::AttributeUsageAttribute*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::AttributeTargets>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, validOn);
+inline void System::AttributeUsageAttribute::_ctor(::System::AttributeTargets  validOn)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::AttributeUsageAttribute*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::AttributeTargets>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, validOn);
 }
-inline bool System::AttributeUsageAttribute::get_AllowMultiple() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::AttributeUsageAttribute*>::get(), "get_AllowMultiple",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool System::AttributeUsageAttribute::get_AllowMultiple()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::AttributeUsageAttribute*>::get(),
+                        "get_AllowMultiple",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline void System::AttributeUsageAttribute::set_AllowMultiple(bool value) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::AttributeUsageAttribute*>::get(), "set_AllowMultiple",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void System::AttributeUsageAttribute::set_AllowMultiple(bool  value)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::AttributeUsageAttribute*>::get(),
+                        "set_AllowMultiple",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline bool System::AttributeUsageAttribute::get_Inherited() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::AttributeUsageAttribute*>::get(), "get_Inherited",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool System::AttributeUsageAttribute::get_Inherited()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::AttributeUsageAttribute*>::get(),
+                        "get_Inherited",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline void System::AttributeUsageAttribute::set_Inherited(bool value) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::AttributeUsageAttribute*>::get(), "set_Inherited",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void System::AttributeUsageAttribute::set_Inherited(bool  value)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::AttributeUsageAttribute*>::get(),
+                        "set_Inherited",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::System::AttributeUsageAttribute* System::AttributeUsageAttribute::New_ctor(::System::AttributeTargets validOn) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::AttributeUsageAttribute*>(validOn));
+inline ::System::AttributeUsageAttribute* System::AttributeUsageAttribute::New_ctor(::System::AttributeTargets  validOn)  {
+return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::AttributeUsageAttribute*>(validOn));
 }
 // Ctor Parameters []
-constexpr ::System::AttributeUsageAttribute::AttributeUsageAttribute() {}
+constexpr ::System::AttributeUsageAttribute::AttributeUsageAttribute()   {
+}

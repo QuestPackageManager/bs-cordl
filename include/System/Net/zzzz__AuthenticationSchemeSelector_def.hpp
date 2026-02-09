@@ -29,37 +29,37 @@ namespace System::Net {
 // CS Name: System.Net.AuthenticationSchemeSelector
 class CORDL_TYPE AuthenticationSchemeSelector : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method Invoke, addr 0x6255d24, size 0x14, virtual true, abstract: false, final false
-  inline ::System::Net::AuthenticationSchemes Invoke(::System::Net::HttpListenerRequest* httpRequest);
+// Declarations
+/// @brief Method Invoke, addr 0x62563e4, size 0x14, virtual true, abstract: false, final false
+inline ::System::Net::AuthenticationSchemes Invoke(::System::Net::HttpListenerRequest*  httpRequest) ;
 
-  static inline ::System::Net::AuthenticationSchemeSelector* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::System::Net::AuthenticationSchemeSelector* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x6255ca8, size 0x7c, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x6256368, size 0x7c, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AuthenticationSchemeSelector();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr AuthenticationSchemeSelector() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AuthenticationSchemeSelector", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  AuthenticationSchemeSelector(AuthenticationSchemeSelector&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AuthenticationSchemeSelector", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  AuthenticationSchemeSelector(AuthenticationSchemeSelector const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "AuthenticationSchemeSelector", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+AuthenticationSchemeSelector(AuthenticationSchemeSelector && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11456 };
+// Ctor Parameters [CppParam { name: "", ty: "AuthenticationSchemeSelector", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+AuthenticationSchemeSelector(AuthenticationSchemeSelector const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11460};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::AuthenticationSchemeSelector, 0x80>, "Size mismatch!");
 
-} // namespace System::Net
+} // namespace end def System::Net
 NEED_NO_BOX(::System::Net::AuthenticationSchemeSelector);
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::AuthenticationSchemeSelector*, "System.Net", "AuthenticationSchemeSelector");

@@ -33,118 +33,118 @@ namespace UnityEngine {
 // CS Name: UnityEngine.Ping/BindingsMarshaller
 class CORDL_TYPE Ping_BindingsMarshaller : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method ConvertToNative, addr 0x690ba28, size 0x14, virtual false, abstract: false, final false
-  static inline ::System::IntPtr ConvertToNative(::UnityEngine::Ping* ping);
+// Declarations
+/// @brief Method ConvertToNative, addr 0x690c0e8, size 0x14, virtual false, abstract: false, final false
+static inline ::System::IntPtr ConvertToNative(::UnityEngine::Ping*  ping) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Ping_BindingsMarshaller();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr Ping_BindingsMarshaller() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Ping_BindingsMarshaller", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  Ping_BindingsMarshaller(Ping_BindingsMarshaller&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Ping_BindingsMarshaller", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  Ping_BindingsMarshaller(Ping_BindingsMarshaller const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "Ping_BindingsMarshaller", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+Ping_BindingsMarshaller(Ping_BindingsMarshaller && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10249 };
+// Ctor Parameters [CppParam { name: "", ty: "Ping_BindingsMarshaller", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+Ping_BindingsMarshaller(Ping_BindingsMarshaller const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10253};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Ping_BindingsMarshaller, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine
+} // namespace end def UnityEngine
 // Dependencies System.IntPtr, System.Object
 namespace UnityEngine {
 // Is value type: false
 // CS Name: UnityEngine.Ping
 class CORDL_TYPE Ping : public ::System::Object {
 public:
-  // Declarations
-  using BindingsMarshaller = ::UnityEngine::Ping_BindingsMarshaller;
+// Declarations
+using BindingsMarshaller = ::UnityEngine::Ping_BindingsMarshaller;
 
-  __declspec(property(get = get_isDone)) bool isDone;
+ __declspec(property(get=get_isDone)) bool  isDone;
 
-  /// @brief Field m_Ptr, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Ptr, put = __cordl_internal_set_m_Ptr)) ::System::IntPtr m_Ptr;
+/// @brief Field m_Ptr, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_Ptr, put=__cordl_internal_set_m_Ptr)) ::System::IntPtr  m_Ptr;
 
-  __declspec(property(get = get_time)) int32_t time;
+ __declspec(property(get=get_time)) int32_t  time;
 
-  /// @brief Method DestroyPing, addr 0x690b838, size 0x4c, virtual false, abstract: false, final false
-  inline void DestroyPing();
+/// @brief Method DestroyPing, addr 0x690bef8, size 0x4c, virtual false, abstract: false, final false
+inline void DestroyPing() ;
 
-  /// @brief Method Finalize, addr 0x690b7b8, size 0x80, virtual true, abstract: false, final false
-  inline void Finalize();
+/// @brief Method Finalize, addr 0x690be78, size 0x80, virtual true, abstract: false, final false
+inline void Finalize() ;
 
-  /// @brief Method Internal_Create, addr 0x690b68c, size 0x12c, virtual false, abstract: false, final false
-  static inline ::System::IntPtr Internal_Create(::StringW address);
+/// @brief Method Internal_Create, addr 0x690bd4c, size 0x12c, virtual false, abstract: false, final false
+static inline ::System::IntPtr Internal_Create(::StringW  address) ;
 
-  /// @brief Method Internal_Create_Injected, addr 0x690b8c0, size 0x3c, virtual false, abstract: false, final false
-  static inline ::System::IntPtr Internal_Create_Injected(::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> address);
+/// @brief Method Internal_Create_Injected, addr 0x690bf80, size 0x3c, virtual false, abstract: false, final false
+static inline ::System::IntPtr Internal_Create_Injected(::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>  address) ;
 
-  /// @brief Method Internal_Destroy, addr 0x690b884, size 0x3c, virtual false, abstract: false, final false
-  static inline void Internal_Destroy(::System::IntPtr ptr);
+/// @brief Method Internal_Destroy, addr 0x690bf44, size 0x3c, virtual false, abstract: false, final false
+static inline void Internal_Destroy(::System::IntPtr  ptr) ;
 
-  /// @brief Method Internal_IsDone, addr 0x690b910, size 0x50, virtual false, abstract: false, final false
-  inline bool Internal_IsDone();
+/// @brief Method Internal_IsDone, addr 0x690bfd0, size 0x50, virtual false, abstract: false, final false
+inline bool Internal_IsDone() ;
 
-  /// @brief Method Internal_IsDone_Injected, addr 0x690b960, size 0x3c, virtual false, abstract: false, final false
-  static inline bool Internal_IsDone_Injected(::System::IntPtr _unity_self);
+/// @brief Method Internal_IsDone_Injected, addr 0x690c020, size 0x3c, virtual false, abstract: false, final false
+static inline bool Internal_IsDone_Injected(::System::IntPtr  _unity_self) ;
 
-  static inline ::UnityEngine::Ping* New_ctor(::StringW address);
+static inline ::UnityEngine::Ping* New_ctor(::StringW  address) ;
 
-  constexpr ::System::IntPtr const& __cordl_internal_get_m_Ptr() const;
+constexpr ::System::IntPtr const& __cordl_internal_get_m_Ptr() const;
 
-  constexpr ::System::IntPtr& __cordl_internal_get_m_Ptr();
+constexpr ::System::IntPtr& __cordl_internal_get_m_Ptr() ;
 
-  constexpr void __cordl_internal_set_m_Ptr(::System::IntPtr value);
+constexpr void __cordl_internal_set_m_Ptr(::System::IntPtr  value) ;
 
-  /// @brief Method .ctor, addr 0x690b670, size 0x1c, virtual false, abstract: false, final false
-  inline void _ctor(::StringW address);
+/// @brief Method .ctor, addr 0x690bd30, size 0x1c, virtual false, abstract: false, final false
+inline void _ctor(::StringW  address) ;
 
-  /// @brief Method get_isDone, addr 0x690b8fc, size 0x14, virtual false, abstract: false, final false
-  inline bool get_isDone();
+/// @brief Method get_isDone, addr 0x690bfbc, size 0x14, virtual false, abstract: false, final false
+inline bool get_isDone() ;
 
-  /// @brief Method get_time, addr 0x690b99c, size 0x50, virtual false, abstract: false, final false
-  inline int32_t get_time();
+/// @brief Method get_time, addr 0x690c05c, size 0x50, virtual false, abstract: false, final false
+inline int32_t get_time() ;
 
-  /// @brief Method get_time_Injected, addr 0x690b9ec, size 0x3c, virtual false, abstract: false, final false
-  static inline int32_t get_time_Injected(::System::IntPtr _unity_self);
+/// @brief Method get_time_Injected, addr 0x690c0ac, size 0x3c, virtual false, abstract: false, final false
+static inline int32_t get_time_Injected(::System::IntPtr  _unity_self) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Ping();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr Ping() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Ping", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  Ping(Ping&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Ping", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  Ping(Ping const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "Ping", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+Ping(Ping && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10250 };
+// Ctor Parameters [CppParam { name: "", ty: "Ping", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+Ping(Ping const& ) = delete;
 
-  /// @brief Field m_Ptr, offset: 0x10, size: 0x8, def value: None
-  ::System::IntPtr ___m_Ptr;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10254};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field m_Ptr, offset: 0x10, size: 0x8, def value: None
+ ::System::IntPtr  ___m_Ptr;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Ping, ___m_Ptr) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Ping, 0x18>, "Size mismatch!");
 
-} // namespace UnityEngine
+} // namespace end def UnityEngine
 NEED_NO_BOX(::UnityEngine::Ping);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Ping*, "UnityEngine", "Ping");
 NEED_NO_BOX(::UnityEngine::Ping_BindingsMarshaller);

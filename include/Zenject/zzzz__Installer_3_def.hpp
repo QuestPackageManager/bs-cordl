@@ -13,49 +13,50 @@ class InjectTypeInfo;
 }
 // Forward declare root types
 namespace Zenject {
-template <typename TParam1, typename TParam2, typename TDerived> class Installer_3;
+template<typename TParam1,typename TParam2,typename TDerived>
+class Installer_3;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::Zenject::Installer_3);
 // Dependencies Zenject.InstallerBase
 namespace Zenject {
 // cpp template
-template <typename TParam1, typename TParam2, typename TDerived>
+template<typename TParam1,typename TParam2,typename TDerived>
 // Is value type: false
 // CS Name: Zenject.Installer`3<TParam1,TParam2,TDerived>
 class CORDL_TYPE Installer_3 : public ::Zenject::InstallerBase {
 public:
-  // Declarations
-  /// @brief Method Install, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  static inline void Install(::Zenject::DiContainer* container, TParam1 p1, TParam2 p2);
+// Declarations
+/// @brief Method Install, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+static inline void Install(::Zenject::DiContainer*  container, TParam1  p1, TParam2  p2) ;
 
-  static inline ::Zenject::Installer_3<TParam1, TParam2, TDerived>* New_ctor();
+static inline ::Zenject::Installer_3<TParam1,TParam2,TDerived>* New_ctor() ;
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
+/// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo() ;
 
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Installer_3();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr Installer_3() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Installer_3", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  Installer_3(Installer_3&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Installer_3", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  Installer_3(Installer_3 const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "Installer_3", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+Installer_3(Installer_3 && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14460 };
+// Ctor Parameters [CppParam { name: "", ty: "Installer_3", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+Installer_3(Installer_3 const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{14464};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-} // namespace Zenject
+} // namespace end def Zenject
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::Zenject::Installer_3, "Zenject", "Installer`3");

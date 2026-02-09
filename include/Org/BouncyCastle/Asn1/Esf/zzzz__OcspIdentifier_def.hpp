@@ -35,75 +35,75 @@ namespace Org::BouncyCastle::Asn1::Esf {
 // CS Name: Org.BouncyCastle.Asn1.Esf.OcspIdentifier
 class CORDL_TYPE OcspIdentifier : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
-  // Declarations
-  __declspec(property(get = get_OcspResponderID)) ::Org::BouncyCastle::Asn1::Ocsp::ResponderID* OcspResponderID;
+// Declarations
+ __declspec(property(get=get_OcspResponderID)) ::Org::BouncyCastle::Asn1::Ocsp::ResponderID*  OcspResponderID;
 
-  __declspec(property(get = get_ProducedAt)) ::System::DateTime ProducedAt;
+ __declspec(property(get=get_ProducedAt)) ::System::DateTime  ProducedAt;
 
-  /// @brief Field ocspResponderID, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_ocspResponderID, put = __cordl_internal_set_ocspResponderID)) ::Org::BouncyCastle::Asn1::Ocsp::ResponderID* ocspResponderID;
+/// @brief Field ocspResponderID, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_ocspResponderID, put=__cordl_internal_set_ocspResponderID)) ::Org::BouncyCastle::Asn1::Ocsp::ResponderID*  ocspResponderID;
 
-  /// @brief Field producedAt, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_producedAt, put = __cordl_internal_set_producedAt)) ::Org::BouncyCastle::Asn1::DerGeneralizedTime* producedAt;
+/// @brief Field producedAt, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_producedAt, put=__cordl_internal_set_producedAt)) ::Org::BouncyCastle::Asn1::DerGeneralizedTime*  producedAt;
 
-  /// @brief Method GetInstance, addr 0x327849c, size 0x184, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Asn1::Esf::OcspIdentifier* GetInstance(::System::Object* obj);
+/// @brief Method GetInstance, addr 0x32783ec, size 0x184, virtual false, abstract: false, final false
+static inline ::Org::BouncyCastle::Asn1::Esf::OcspIdentifier* GetInstance(::System::Object*  obj) ;
 
-  static inline ::Org::BouncyCastle::Asn1::Esf::OcspIdentifier* New_ctor(::Org::BouncyCastle::Asn1::Ocsp::ResponderID* ocspResponderID, ::System::DateTime producedAt);
+static inline ::Org::BouncyCastle::Asn1::Esf::OcspIdentifier* New_ctor(::Org::BouncyCastle::Asn1::Ocsp::ResponderID*  ocspResponderID, ::System::DateTime  producedAt) ;
 
-  static inline ::Org::BouncyCastle::Asn1::Esf::OcspIdentifier* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
+static inline ::Org::BouncyCastle::Asn1::Esf::OcspIdentifier* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence*  seq) ;
 
-  /// @brief Method ToAsn1Object, addr 0x32788f0, size 0xf0, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
+/// @brief Method ToAsn1Object, addr 0x3278840, size 0xf0, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object() ;
 
-  constexpr ::Org::BouncyCastle::Asn1::Ocsp::ResponderID* const& __cordl_internal_get_ocspResponderID() const;
+constexpr ::Org::BouncyCastle::Asn1::Ocsp::ResponderID* const& __cordl_internal_get_ocspResponderID() const;
 
-  constexpr ::Org::BouncyCastle::Asn1::Ocsp::ResponderID*& __cordl_internal_get_ocspResponderID();
+constexpr ::Org::BouncyCastle::Asn1::Ocsp::ResponderID*& __cordl_internal_get_ocspResponderID() ;
 
-  constexpr ::Org::BouncyCastle::Asn1::DerGeneralizedTime* const& __cordl_internal_get_producedAt() const;
+constexpr ::Org::BouncyCastle::Asn1::DerGeneralizedTime* const& __cordl_internal_get_producedAt() const;
 
-  constexpr ::Org::BouncyCastle::Asn1::DerGeneralizedTime*& __cordl_internal_get_producedAt();
+constexpr ::Org::BouncyCastle::Asn1::DerGeneralizedTime*& __cordl_internal_get_producedAt() ;
 
-  constexpr void __cordl_internal_set_ocspResponderID(::Org::BouncyCastle::Asn1::Ocsp::ResponderID* value);
+constexpr void __cordl_internal_set_ocspResponderID(::Org::BouncyCastle::Asn1::Ocsp::ResponderID*  value) ;
 
-  constexpr void __cordl_internal_set_producedAt(::Org::BouncyCastle::Asn1::DerGeneralizedTime* value);
+constexpr void __cordl_internal_set_producedAt(::Org::BouncyCastle::Asn1::DerGeneralizedTime*  value) ;
 
-  /// @brief Method .ctor, addr 0x3278824, size 0xac, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Asn1::Ocsp::ResponderID* ocspResponderID, ::System::DateTime producedAt);
+/// @brief Method .ctor, addr 0x3278774, size 0xac, virtual false, abstract: false, final false
+inline void _ctor(::Org::BouncyCastle::Asn1::Ocsp::ResponderID*  ocspResponderID, ::System::DateTime  producedAt) ;
 
-  /// @brief Method .ctor, addr 0x3278620, size 0x204, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
+/// @brief Method .ctor, addr 0x3278570, size 0x204, virtual false, abstract: false, final false
+inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence*  seq) ;
 
-  /// @brief Method get_OcspResponderID, addr 0x32788d0, size 0x8, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Ocsp::ResponderID* get_OcspResponderID();
+/// @brief Method get_OcspResponderID, addr 0x3278820, size 0x8, virtual false, abstract: false, final false
+inline ::Org::BouncyCastle::Asn1::Ocsp::ResponderID* get_OcspResponderID() ;
 
-  /// @brief Method get_ProducedAt, addr 0x32788d8, size 0x18, virtual false, abstract: false, final false
-  inline ::System::DateTime get_ProducedAt();
+/// @brief Method get_ProducedAt, addr 0x3278828, size 0x18, virtual false, abstract: false, final false
+inline ::System::DateTime get_ProducedAt() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr OcspIdentifier();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr OcspIdentifier() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OcspIdentifier", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  OcspIdentifier(OcspIdentifier&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OcspIdentifier", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  OcspIdentifier(OcspIdentifier const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "OcspIdentifier", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+OcspIdentifier(OcspIdentifier && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 145 };
+// Ctor Parameters [CppParam { name: "", ty: "OcspIdentifier", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+OcspIdentifier(OcspIdentifier const& ) = delete;
 
-  /// @brief Field ocspResponderID, offset: 0x10, size: 0x8, def value: None
-  ::Org::BouncyCastle::Asn1::Ocsp::ResponderID* ___ocspResponderID;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{145};
 
-  /// @brief Field producedAt, offset: 0x18, size: 0x8, def value: None
-  ::Org::BouncyCastle::Asn1::DerGeneralizedTime* ___producedAt;
+/// @brief Field ocspResponderID, offset: 0x10, size: 0x8, def value: None
+ ::Org::BouncyCastle::Asn1::Ocsp::ResponderID*  ___ocspResponderID;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field producedAt, offset: 0x18, size: 0x8, def value: None
+ ::Org::BouncyCastle::Asn1::DerGeneralizedTime*  ___producedAt;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Org::BouncyCastle::Asn1::Esf::OcspIdentifier, ___ocspResponderID) == 0x10, "Offset mismatch!");
@@ -112,6 +112,6 @@ static_assert(offsetof(::Org::BouncyCastle::Asn1::Esf::OcspIdentifier, ___produc
 
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Esf::OcspIdentifier, 0x20>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Asn1::Esf
+} // namespace end def Org::BouncyCastle::Asn1::Esf
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Esf::OcspIdentifier);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::Esf::OcspIdentifier*, "Org.BouncyCastle.Asn1.Esf", "OcspIdentifier");

@@ -35,387 +35,387 @@ class StandaloneInputModule;
 // Write type traits
 MARK_VAL_T(::UnityEngine::EventSystems::StandaloneInputModule_InputMode);
 MARK_REF_PTR_T(::UnityEngine::EventSystems::StandaloneInputModule);
-// Dependencies
+// Dependencies 
 namespace UnityEngine::EventSystems {
 // Is value type: true
 // CS Name: UnityEngine.EventSystems.StandaloneInputModule/InputMode
 struct CORDL_TYPE StandaloneInputModule_InputMode {
 public:
-  // Declarations
-  using __CORDL_BACKING_ENUM_TYPE = int32_t;
+// Declarations
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct __StandaloneInputModule_InputMode_Unwrapped
-  enum struct __StandaloneInputModule_InputMode_Unwrapped : int32_t {
-    __E_Mouse = static_cast<int32_t>(0x0),
-    __E_Buttons = static_cast<int32_t>(0x1),
-  };
+/// @brief Nested struct __StandaloneInputModule_InputMode_Unwrapped
+enum struct __StandaloneInputModule_InputMode_Unwrapped : int32_t {
+__E_Mouse = static_cast<int32_t>(0x0),
+__E_Buttons = static_cast<int32_t>(0x1),
+};
 
-  /// @brief Conversion into unwrapped enum value
-  constexpr operator __StandaloneInputModule_InputMode_Unwrapped() const noexcept {
-    return static_cast<__StandaloneInputModule_InputMode_Unwrapped>(this->value__);
-  }
+/// @brief Conversion into unwrapped enum value
+constexpr operator __StandaloneInputModule_InputMode_Unwrapped () const noexcept {
+return static_cast<__StandaloneInputModule_InputMode_Unwrapped>(this->value__);
+}
 
-  /// @brief Conversion into unwrapped enum value
-  constexpr explicit operator int32_t() const noexcept {
-    return static_cast<int32_t>(this->value__);
-  }
+/// @brief Conversion into unwrapped enum value
+constexpr explicit operator int32_t () const noexcept {
+return static_cast<int32_t>(this->value__);
+}
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr StandaloneInputModule_InputMode();
+// Ctor Parameters []
+// @brief default ctor
+constexpr StandaloneInputModule_InputMode() ;
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr StandaloneInputModule_InputMode(int32_t value__) noexcept;
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr StandaloneInputModule_InputMode(int32_t  value__) noexcept;
 
-  /// @brief Field Buttons value: I32(1)
-  static ::UnityEngine::EventSystems::StandaloneInputModule_InputMode const Buttons;
+/// @brief Field Buttons value: I32(1)
+static ::UnityEngine::EventSystems::StandaloneInputModule_InputMode const Buttons;
 
-  /// @brief Field Mouse value: I32(0)
-  static ::UnityEngine::EventSystems::StandaloneInputModule_InputMode const Mouse;
+/// @brief Field Mouse value: I32(0)
+static ::UnityEngine::EventSystems::StandaloneInputModule_InputMode const Mouse;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17541 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{17545};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x4};
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+/// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+ int32_t  value__;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::EventSystems::StandaloneInputModule_InputMode, value__) == 0x0, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::EventSystems::StandaloneInputModule_InputMode, 0x4>, "Size mismatch!");
 
-} // namespace UnityEngine::EventSystems
+} // namespace end def UnityEngine::EventSystems
 // Dependencies UnityEngine.EventSystems.PointerInputModule, UnityEngine.Vector2
 namespace UnityEngine::EventSystems {
 // Is value type: false
 // CS Name: UnityEngine.EventSystems.StandaloneInputModule
 class CORDL_TYPE StandaloneInputModule : public ::UnityEngine::EventSystems::PointerInputModule {
 public:
-  // Declarations
-  using InputMode = ::UnityEngine::EventSystems::StandaloneInputModule_InputMode;
+// Declarations
+using InputMode = ::UnityEngine::EventSystems::StandaloneInputModule_InputMode;
 
-  __declspec(property(get = get_allowActivationOnMobileDevice, put = set_allowActivationOnMobileDevice)) bool allowActivationOnMobileDevice;
+ __declspec(property(get=get_allowActivationOnMobileDevice, put=set_allowActivationOnMobileDevice)) bool  allowActivationOnMobileDevice;
 
-  __declspec(property(get = get_cancelButton, put = set_cancelButton)) ::StringW cancelButton;
+ __declspec(property(get=get_cancelButton, put=set_cancelButton)) ::StringW  cancelButton;
 
-  __declspec(property(get = get_forceModuleActive, put = set_forceModuleActive)) bool forceModuleActive;
+ __declspec(property(get=get_forceModuleActive, put=set_forceModuleActive)) bool  forceModuleActive;
 
-  __declspec(property(get = get_horizontalAxis, put = set_horizontalAxis)) ::StringW horizontalAxis;
+ __declspec(property(get=get_horizontalAxis, put=set_horizontalAxis)) ::StringW  horizontalAxis;
 
-  __declspec(property(get = get_inputActionsPerSecond, put = set_inputActionsPerSecond)) float_t inputActionsPerSecond;
+ __declspec(property(get=get_inputActionsPerSecond, put=set_inputActionsPerSecond)) float_t  inputActionsPerSecond;
 
-  __declspec(property(get = get_inputMode)) ::UnityEngine::EventSystems::StandaloneInputModule_InputMode inputMode;
+ __declspec(property(get=get_inputMode)) ::UnityEngine::EventSystems::StandaloneInputModule_InputMode  inputMode;
 
-  /// @brief Field m_CancelButton, offset 0xb0, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_CancelButton, put = __cordl_internal_set_m_CancelButton)) ::StringW m_CancelButton;
+/// @brief Field m_CancelButton, offset 0xb0, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_CancelButton, put=__cordl_internal_set_m_CancelButton)) ::StringW  m_CancelButton;
 
-  /// @brief Field m_ConsecutiveMoveCount, offset 0x74, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_ConsecutiveMoveCount, put = __cordl_internal_set_m_ConsecutiveMoveCount)) int32_t m_ConsecutiveMoveCount;
+/// @brief Field m_ConsecutiveMoveCount, offset 0x74, size 0x4 
+ __declspec(property(get=__cordl_internal_get_m_ConsecutiveMoveCount, put=__cordl_internal_set_m_ConsecutiveMoveCount)) int32_t  m_ConsecutiveMoveCount;
 
-  /// @brief Field m_CurrentFocusedGameObject, offset 0x88, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_CurrentFocusedGameObject, put = __cordl_internal_set_m_CurrentFocusedGameObject)) ::UnityW<::UnityEngine::GameObject> m_CurrentFocusedGameObject;
+/// @brief Field m_CurrentFocusedGameObject, offset 0x88, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_CurrentFocusedGameObject, put=__cordl_internal_set_m_CurrentFocusedGameObject)) ::UnityW<::UnityEngine::GameObject>  m_CurrentFocusedGameObject;
 
-  /// @brief Field m_ForceModuleActive, offset 0xc0, size 0x1
-  __declspec(property(get = __cordl_internal_get_m_ForceModuleActive, put = __cordl_internal_set_m_ForceModuleActive)) bool m_ForceModuleActive;
+/// @brief Field m_ForceModuleActive, offset 0xc0, size 0x1 
+ __declspec(property(get=__cordl_internal_get_m_ForceModuleActive, put=__cordl_internal_set_m_ForceModuleActive)) bool  m_ForceModuleActive;
 
-  /// @brief Field m_HorizontalAxis, offset 0x98, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_HorizontalAxis, put = __cordl_internal_set_m_HorizontalAxis)) ::StringW m_HorizontalAxis;
+/// @brief Field m_HorizontalAxis, offset 0x98, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_HorizontalAxis, put=__cordl_internal_set_m_HorizontalAxis)) ::StringW  m_HorizontalAxis;
 
-  /// @brief Field m_InputActionsPerSecond, offset 0xb8, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_InputActionsPerSecond, put = __cordl_internal_set_m_InputActionsPerSecond)) float_t m_InputActionsPerSecond;
+/// @brief Field m_InputActionsPerSecond, offset 0xb8, size 0x4 
+ __declspec(property(get=__cordl_internal_get_m_InputActionsPerSecond, put=__cordl_internal_set_m_InputActionsPerSecond)) float_t  m_InputActionsPerSecond;
 
-  /// @brief Field m_InputPointerEvent, offset 0x90, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_InputPointerEvent, put = __cordl_internal_set_m_InputPointerEvent)) ::UnityEngine::EventSystems::PointerEventData* m_InputPointerEvent;
+/// @brief Field m_InputPointerEvent, offset 0x90, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_InputPointerEvent, put=__cordl_internal_set_m_InputPointerEvent)) ::UnityEngine::EventSystems::PointerEventData*  m_InputPointerEvent;
 
-  /// @brief Field m_LastMousePosition, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_LastMousePosition, put = __cordl_internal_set_m_LastMousePosition)) ::UnityEngine::Vector2 m_LastMousePosition;
+/// @brief Field m_LastMousePosition, offset 0x78, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_LastMousePosition, put=__cordl_internal_set_m_LastMousePosition)) ::UnityEngine::Vector2  m_LastMousePosition;
 
-  /// @brief Field m_LastMoveVector, offset 0x6c, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_LastMoveVector, put = __cordl_internal_set_m_LastMoveVector)) ::UnityEngine::Vector2 m_LastMoveVector;
+/// @brief Field m_LastMoveVector, offset 0x6c, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_LastMoveVector, put=__cordl_internal_set_m_LastMoveVector)) ::UnityEngine::Vector2  m_LastMoveVector;
 
-  /// @brief Field m_MousePosition, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_MousePosition, put = __cordl_internal_set_m_MousePosition)) ::UnityEngine::Vector2 m_MousePosition;
+/// @brief Field m_MousePosition, offset 0x80, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_MousePosition, put=__cordl_internal_set_m_MousePosition)) ::UnityEngine::Vector2  m_MousePosition;
 
-  /// @brief Field m_PrevActionTime, offset 0x68, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_PrevActionTime, put = __cordl_internal_set_m_PrevActionTime)) float_t m_PrevActionTime;
+/// @brief Field m_PrevActionTime, offset 0x68, size 0x4 
+ __declspec(property(get=__cordl_internal_get_m_PrevActionTime, put=__cordl_internal_set_m_PrevActionTime)) float_t  m_PrevActionTime;
 
-  /// @brief Field m_RepeatDelay, offset 0xbc, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_RepeatDelay, put = __cordl_internal_set_m_RepeatDelay)) float_t m_RepeatDelay;
+/// @brief Field m_RepeatDelay, offset 0xbc, size 0x4 
+ __declspec(property(get=__cordl_internal_get_m_RepeatDelay, put=__cordl_internal_set_m_RepeatDelay)) float_t  m_RepeatDelay;
 
-  /// @brief Field m_SubmitButton, offset 0xa8, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_SubmitButton, put = __cordl_internal_set_m_SubmitButton)) ::StringW m_SubmitButton;
+/// @brief Field m_SubmitButton, offset 0xa8, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_SubmitButton, put=__cordl_internal_set_m_SubmitButton)) ::StringW  m_SubmitButton;
 
-  /// @brief Field m_VerticalAxis, offset 0xa0, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_VerticalAxis, put = __cordl_internal_set_m_VerticalAxis)) ::StringW m_VerticalAxis;
+/// @brief Field m_VerticalAxis, offset 0xa0, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_VerticalAxis, put=__cordl_internal_set_m_VerticalAxis)) ::StringW  m_VerticalAxis;
 
-  __declspec(property(get = get_repeatDelay, put = set_repeatDelay)) float_t repeatDelay;
+ __declspec(property(get=get_repeatDelay, put=set_repeatDelay)) float_t  repeatDelay;
 
-  __declspec(property(get = get_submitButton, put = set_submitButton)) ::StringW submitButton;
+ __declspec(property(get=get_submitButton, put=set_submitButton)) ::StringW  submitButton;
 
-  __declspec(property(get = get_verticalAxis, put = set_verticalAxis)) ::StringW verticalAxis;
+ __declspec(property(get=get_verticalAxis, put=set_verticalAxis)) ::StringW  verticalAxis;
 
-  /// @brief Method ActivateModule, addr 0x6c55038, size 0x104, virtual true, abstract: false, final false
-  inline void ActivateModule();
+/// @brief Method ActivateModule, addr 0x6c556f8, size 0x104, virtual true, abstract: false, final false
+inline void ActivateModule() ;
 
-  /// @brief Method DeactivateModule, addr 0x6c5513c, size 0x4, virtual true, abstract: false, final false
-  inline void DeactivateModule();
+/// @brief Method DeactivateModule, addr 0x6c557fc, size 0x4, virtual true, abstract: false, final false
+inline void DeactivateModule() ;
 
-  /// @brief Method ForceAutoSelect, addr 0x6c56488, size 0x8, virtual true, abstract: false, final false
-  inline bool ForceAutoSelect();
+/// @brief Method ForceAutoSelect, addr 0x6c56b48, size 0x8, virtual true, abstract: false, final false
+inline bool ForceAutoSelect() ;
 
-  /// @brief Method GetCurrentFocusedGameObject, addr 0x6c5686c, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::GameObject> GetCurrentFocusedGameObject();
+/// @brief Method GetCurrentFocusedGameObject, addr 0x6c56f2c, size 0x8, virtual false, abstract: false, final false
+inline ::UnityW<::UnityEngine::GameObject> GetCurrentFocusedGameObject() ;
 
-  /// @brief Method GetRawMoveVector, addr 0x6c560c8, size 0x114, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector2 GetRawMoveVector();
+/// @brief Method GetRawMoveVector, addr 0x6c56788, size 0x114, virtual false, abstract: false, final false
+inline ::UnityEngine::Vector2 GetRawMoveVector() ;
 
-  static inline ::UnityEngine::EventSystems::StandaloneInputModule* New_ctor();
+static inline ::UnityEngine::EventSystems::StandaloneInputModule* New_ctor() ;
 
-  /// @brief Method Process, addr 0x6c55140, size 0xa4, virtual true, abstract: false, final false
-  inline void Process();
+/// @brief Method Process, addr 0x6c55800, size 0xa4, virtual true, abstract: false, final false
+inline void Process() ;
 
-  /// @brief Method ProcessMouseEvent, addr 0x6c554c4, size 0x8, virtual false, abstract: false, final false
-  inline void ProcessMouseEvent();
+/// @brief Method ProcessMouseEvent, addr 0x6c55b84, size 0x8, virtual false, abstract: false, final false
+inline void ProcessMouseEvent() ;
 
-  /// @brief Method ProcessMouseEvent, addr 0x6c561dc, size 0x2ac, virtual false, abstract: false, final false
-  inline void ProcessMouseEvent(int32_t id);
+/// @brief Method ProcessMouseEvent, addr 0x6c5689c, size 0x2ac, virtual false, abstract: false, final false
+inline void ProcessMouseEvent(int32_t  id) ;
 
-  /// @brief Method ProcessMousePress, addr 0x6c56490, size 0x3dc, virtual false, abstract: false, final false
-  inline void ProcessMousePress(::UnityEngine::EventSystems::PointerInputModule_MouseButtonEventData* data);
+/// @brief Method ProcessMousePress, addr 0x6c56b50, size 0x3dc, virtual false, abstract: false, final false
+inline void ProcessMousePress(::UnityEngine::EventSystems::PointerInputModule_MouseButtonEventData*  data) ;
 
-  /// @brief Method ProcessTouchEvents, addr 0x6c55340, size 0x184, virtual false, abstract: false, final false
-  inline bool ProcessTouchEvents();
+/// @brief Method ProcessTouchEvents, addr 0x6c55a00, size 0x184, virtual false, abstract: false, final false
+inline bool ProcessTouchEvents() ;
 
-  /// @brief Method ProcessTouchPress, addr 0x6c559a0, size 0x728, virtual false, abstract: false, final false
-  inline void ProcessTouchPress(::UnityEngine::EventSystems::PointerEventData* pointerEvent, bool pressed, bool released);
+/// @brief Method ProcessTouchPress, addr 0x6c56060, size 0x728, virtual false, abstract: false, final false
+inline void ProcessTouchPress(::UnityEngine::EventSystems::PointerEventData*  pointerEvent, bool  pressed, bool  released) ;
 
-  /// @brief Method ReleaseMouse, addr 0x6c54a50, size 0x3a8, virtual false, abstract: false, final false
-  inline void ReleaseMouse(::UnityEngine::EventSystems::PointerEventData* pointerEvent, ::UnityEngine::GameObject* currentOverGo);
+/// @brief Method ReleaseMouse, addr 0x6c55110, size 0x3a8, virtual false, abstract: false, final false
+inline void ReleaseMouse(::UnityEngine::EventSystems::PointerEventData*  pointerEvent, ::UnityEngine::GameObject*  currentOverGo) ;
 
-  /// @brief Method SendMoveEventToSelectedObject, addr 0x6c554cc, size 0x298, virtual false, abstract: false, final false
-  inline bool SendMoveEventToSelectedObject();
+/// @brief Method SendMoveEventToSelectedObject, addr 0x6c55b8c, size 0x298, virtual false, abstract: false, final false
+inline bool SendMoveEventToSelectedObject() ;
 
-  /// @brief Method SendSubmitEventToSelectedObject, addr 0x6c55764, size 0x23c, virtual false, abstract: false, final false
-  inline bool SendSubmitEventToSelectedObject();
+/// @brief Method SendSubmitEventToSelectedObject, addr 0x6c55e24, size 0x23c, virtual false, abstract: false, final false
+inline bool SendSubmitEventToSelectedObject() ;
 
-  /// @brief Method SendUpdateEventToSelectedObject, addr 0x6c551e4, size 0x15c, virtual false, abstract: false, final false
-  inline bool SendUpdateEventToSelectedObject();
+/// @brief Method SendUpdateEventToSelectedObject, addr 0x6c558a4, size 0x15c, virtual false, abstract: false, final false
+inline bool SendUpdateEventToSelectedObject() ;
 
-  /// @brief Method ShouldActivateModule, addr 0x6c54df8, size 0x240, virtual true, abstract: false, final false
-  inline bool ShouldActivateModule();
+/// @brief Method ShouldActivateModule, addr 0x6c554b8, size 0x240, virtual true, abstract: false, final false
+inline bool ShouldActivateModule() ;
 
-  /// @brief Method ShouldIgnoreEventsOnNoFocus, addr 0x6c54974, size 0x8, virtual false, abstract: false, final false
-  inline bool ShouldIgnoreEventsOnNoFocus();
+/// @brief Method ShouldIgnoreEventsOnNoFocus, addr 0x6c55034, size 0x8, virtual false, abstract: false, final false
+inline bool ShouldIgnoreEventsOnNoFocus() ;
 
-  /// @brief Method UpdateModule, addr 0x6c5497c, size 0xd4, virtual true, abstract: false, final false
-  inline void UpdateModule();
+/// @brief Method UpdateModule, addr 0x6c5503c, size 0xd4, virtual true, abstract: false, final false
+inline void UpdateModule() ;
 
-  constexpr ::StringW const& __cordl_internal_get_m_CancelButton() const;
+constexpr ::StringW const& __cordl_internal_get_m_CancelButton() const;
 
-  constexpr ::StringW& __cordl_internal_get_m_CancelButton();
+constexpr ::StringW& __cordl_internal_get_m_CancelButton() ;
 
-  constexpr int32_t const& __cordl_internal_get_m_ConsecutiveMoveCount() const;
+constexpr int32_t const& __cordl_internal_get_m_ConsecutiveMoveCount() const;
 
-  constexpr int32_t& __cordl_internal_get_m_ConsecutiveMoveCount();
+constexpr int32_t& __cordl_internal_get_m_ConsecutiveMoveCount() ;
 
-  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_m_CurrentFocusedGameObject() const;
+constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_m_CurrentFocusedGameObject() const;
 
-  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get_m_CurrentFocusedGameObject();
+constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get_m_CurrentFocusedGameObject() ;
 
-  constexpr bool const& __cordl_internal_get_m_ForceModuleActive() const;
+constexpr bool const& __cordl_internal_get_m_ForceModuleActive() const;
 
-  constexpr bool& __cordl_internal_get_m_ForceModuleActive();
+constexpr bool& __cordl_internal_get_m_ForceModuleActive() ;
 
-  constexpr ::StringW const& __cordl_internal_get_m_HorizontalAxis() const;
+constexpr ::StringW const& __cordl_internal_get_m_HorizontalAxis() const;
 
-  constexpr ::StringW& __cordl_internal_get_m_HorizontalAxis();
+constexpr ::StringW& __cordl_internal_get_m_HorizontalAxis() ;
 
-  constexpr float_t const& __cordl_internal_get_m_InputActionsPerSecond() const;
+constexpr float_t const& __cordl_internal_get_m_InputActionsPerSecond() const;
 
-  constexpr float_t& __cordl_internal_get_m_InputActionsPerSecond();
+constexpr float_t& __cordl_internal_get_m_InputActionsPerSecond() ;
 
-  constexpr ::UnityEngine::EventSystems::PointerEventData* const& __cordl_internal_get_m_InputPointerEvent() const;
+constexpr ::UnityEngine::EventSystems::PointerEventData* const& __cordl_internal_get_m_InputPointerEvent() const;
 
-  constexpr ::UnityEngine::EventSystems::PointerEventData*& __cordl_internal_get_m_InputPointerEvent();
+constexpr ::UnityEngine::EventSystems::PointerEventData*& __cordl_internal_get_m_InputPointerEvent() ;
 
-  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_m_LastMousePosition() const;
+constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_m_LastMousePosition() const;
 
-  constexpr ::UnityEngine::Vector2& __cordl_internal_get_m_LastMousePosition();
+constexpr ::UnityEngine::Vector2& __cordl_internal_get_m_LastMousePosition() ;
 
-  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_m_LastMoveVector() const;
+constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_m_LastMoveVector() const;
 
-  constexpr ::UnityEngine::Vector2& __cordl_internal_get_m_LastMoveVector();
+constexpr ::UnityEngine::Vector2& __cordl_internal_get_m_LastMoveVector() ;
 
-  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_m_MousePosition() const;
+constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_m_MousePosition() const;
 
-  constexpr ::UnityEngine::Vector2& __cordl_internal_get_m_MousePosition();
+constexpr ::UnityEngine::Vector2& __cordl_internal_get_m_MousePosition() ;
 
-  constexpr float_t const& __cordl_internal_get_m_PrevActionTime() const;
+constexpr float_t const& __cordl_internal_get_m_PrevActionTime() const;
 
-  constexpr float_t& __cordl_internal_get_m_PrevActionTime();
+constexpr float_t& __cordl_internal_get_m_PrevActionTime() ;
 
-  constexpr float_t const& __cordl_internal_get_m_RepeatDelay() const;
+constexpr float_t const& __cordl_internal_get_m_RepeatDelay() const;
 
-  constexpr float_t& __cordl_internal_get_m_RepeatDelay();
+constexpr float_t& __cordl_internal_get_m_RepeatDelay() ;
 
-  constexpr ::StringW const& __cordl_internal_get_m_SubmitButton() const;
+constexpr ::StringW const& __cordl_internal_get_m_SubmitButton() const;
 
-  constexpr ::StringW& __cordl_internal_get_m_SubmitButton();
+constexpr ::StringW& __cordl_internal_get_m_SubmitButton() ;
 
-  constexpr ::StringW const& __cordl_internal_get_m_VerticalAxis() const;
+constexpr ::StringW const& __cordl_internal_get_m_VerticalAxis() const;
 
-  constexpr ::StringW& __cordl_internal_get_m_VerticalAxis();
+constexpr ::StringW& __cordl_internal_get_m_VerticalAxis() ;
 
-  constexpr void __cordl_internal_set_m_CancelButton(::StringW value);
+constexpr void __cordl_internal_set_m_CancelButton(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_m_ConsecutiveMoveCount(int32_t value);
+constexpr void __cordl_internal_set_m_ConsecutiveMoveCount(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_m_CurrentFocusedGameObject(::UnityW<::UnityEngine::GameObject> value);
+constexpr void __cordl_internal_set_m_CurrentFocusedGameObject(::UnityW<::UnityEngine::GameObject>  value) ;
 
-  constexpr void __cordl_internal_set_m_ForceModuleActive(bool value);
+constexpr void __cordl_internal_set_m_ForceModuleActive(bool  value) ;
 
-  constexpr void __cordl_internal_set_m_HorizontalAxis(::StringW value);
+constexpr void __cordl_internal_set_m_HorizontalAxis(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_m_InputActionsPerSecond(float_t value);
+constexpr void __cordl_internal_set_m_InputActionsPerSecond(float_t  value) ;
 
-  constexpr void __cordl_internal_set_m_InputPointerEvent(::UnityEngine::EventSystems::PointerEventData* value);
+constexpr void __cordl_internal_set_m_InputPointerEvent(::UnityEngine::EventSystems::PointerEventData*  value) ;
 
-  constexpr void __cordl_internal_set_m_LastMousePosition(::UnityEngine::Vector2 value);
+constexpr void __cordl_internal_set_m_LastMousePosition(::UnityEngine::Vector2  value) ;
 
-  constexpr void __cordl_internal_set_m_LastMoveVector(::UnityEngine::Vector2 value);
+constexpr void __cordl_internal_set_m_LastMoveVector(::UnityEngine::Vector2  value) ;
 
-  constexpr void __cordl_internal_set_m_MousePosition(::UnityEngine::Vector2 value);
+constexpr void __cordl_internal_set_m_MousePosition(::UnityEngine::Vector2  value) ;
 
-  constexpr void __cordl_internal_set_m_PrevActionTime(float_t value);
+constexpr void __cordl_internal_set_m_PrevActionTime(float_t  value) ;
 
-  constexpr void __cordl_internal_set_m_RepeatDelay(float_t value);
+constexpr void __cordl_internal_set_m_RepeatDelay(float_t  value) ;
 
-  constexpr void __cordl_internal_set_m_SubmitButton(::StringW value);
+constexpr void __cordl_internal_set_m_SubmitButton(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_m_VerticalAxis(::StringW value);
+constexpr void __cordl_internal_set_m_VerticalAxis(::StringW  value) ;
 
-  /// @brief Method .ctor, addr 0x6c54838, size 0xb4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6c54ef8, size 0xb4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_allowActivationOnMobileDevice, addr 0x6c548f4, size 0x8, virtual false, abstract: false, final false
-  inline bool get_allowActivationOnMobileDevice();
+/// @brief Method get_allowActivationOnMobileDevice, addr 0x6c54fb4, size 0x8, virtual false, abstract: false, final false
+inline bool get_allowActivationOnMobileDevice() ;
 
-  /// @brief Method get_cancelButton, addr 0x6c54964, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_cancelButton();
+/// @brief Method get_cancelButton, addr 0x6c55024, size 0x8, virtual false, abstract: false, final false
+inline ::StringW get_cancelButton() ;
 
-  /// @brief Method get_forceModuleActive, addr 0x6c54904, size 0x8, virtual false, abstract: false, final false
-  inline bool get_forceModuleActive();
+/// @brief Method get_forceModuleActive, addr 0x6c54fc4, size 0x8, virtual false, abstract: false, final false
+inline bool get_forceModuleActive() ;
 
-  /// @brief Method get_horizontalAxis, addr 0x6c54934, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_horizontalAxis();
+/// @brief Method get_horizontalAxis, addr 0x6c54ff4, size 0x8, virtual false, abstract: false, final false
+inline ::StringW get_horizontalAxis() ;
 
-  /// @brief Method get_inputActionsPerSecond, addr 0x6c54914, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_inputActionsPerSecond();
+/// @brief Method get_inputActionsPerSecond, addr 0x6c54fd4, size 0x8, virtual false, abstract: false, final false
+inline float_t get_inputActionsPerSecond() ;
 
-  /// @brief Method get_inputMode, addr 0x6c548ec, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::EventSystems::StandaloneInputModule_InputMode get_inputMode();
+/// @brief Method get_inputMode, addr 0x6c54fac, size 0x8, virtual false, abstract: false, final false
+inline ::UnityEngine::EventSystems::StandaloneInputModule_InputMode get_inputMode() ;
 
-  /// @brief Method get_repeatDelay, addr 0x6c54924, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_repeatDelay();
+/// @brief Method get_repeatDelay, addr 0x6c54fe4, size 0x8, virtual false, abstract: false, final false
+inline float_t get_repeatDelay() ;
 
-  /// @brief Method get_submitButton, addr 0x6c54954, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_submitButton();
+/// @brief Method get_submitButton, addr 0x6c55014, size 0x8, virtual false, abstract: false, final false
+inline ::StringW get_submitButton() ;
 
-  /// @brief Method get_verticalAxis, addr 0x6c54944, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_verticalAxis();
+/// @brief Method get_verticalAxis, addr 0x6c55004, size 0x8, virtual false, abstract: false, final false
+inline ::StringW get_verticalAxis() ;
 
-  /// @brief Method set_allowActivationOnMobileDevice, addr 0x6c548fc, size 0x8, virtual false, abstract: false, final false
-  inline void set_allowActivationOnMobileDevice(bool value);
+/// @brief Method set_allowActivationOnMobileDevice, addr 0x6c54fbc, size 0x8, virtual false, abstract: false, final false
+inline void set_allowActivationOnMobileDevice(bool  value) ;
 
-  /// @brief Method set_cancelButton, addr 0x6c5496c, size 0x8, virtual false, abstract: false, final false
-  inline void set_cancelButton(::StringW value);
+/// @brief Method set_cancelButton, addr 0x6c5502c, size 0x8, virtual false, abstract: false, final false
+inline void set_cancelButton(::StringW  value) ;
 
-  /// @brief Method set_forceModuleActive, addr 0x6c5490c, size 0x8, virtual false, abstract: false, final false
-  inline void set_forceModuleActive(bool value);
+/// @brief Method set_forceModuleActive, addr 0x6c54fcc, size 0x8, virtual false, abstract: false, final false
+inline void set_forceModuleActive(bool  value) ;
 
-  /// @brief Method set_horizontalAxis, addr 0x6c5493c, size 0x8, virtual false, abstract: false, final false
-  inline void set_horizontalAxis(::StringW value);
+/// @brief Method set_horizontalAxis, addr 0x6c54ffc, size 0x8, virtual false, abstract: false, final false
+inline void set_horizontalAxis(::StringW  value) ;
 
-  /// @brief Method set_inputActionsPerSecond, addr 0x6c5491c, size 0x8, virtual false, abstract: false, final false
-  inline void set_inputActionsPerSecond(float_t value);
+/// @brief Method set_inputActionsPerSecond, addr 0x6c54fdc, size 0x8, virtual false, abstract: false, final false
+inline void set_inputActionsPerSecond(float_t  value) ;
 
-  /// @brief Method set_repeatDelay, addr 0x6c5492c, size 0x8, virtual false, abstract: false, final false
-  inline void set_repeatDelay(float_t value);
+/// @brief Method set_repeatDelay, addr 0x6c54fec, size 0x8, virtual false, abstract: false, final false
+inline void set_repeatDelay(float_t  value) ;
 
-  /// @brief Method set_submitButton, addr 0x6c5495c, size 0x8, virtual false, abstract: false, final false
-  inline void set_submitButton(::StringW value);
+/// @brief Method set_submitButton, addr 0x6c5501c, size 0x8, virtual false, abstract: false, final false
+inline void set_submitButton(::StringW  value) ;
 
-  /// @brief Method set_verticalAxis, addr 0x6c5494c, size 0x8, virtual false, abstract: false, final false
-  inline void set_verticalAxis(::StringW value);
+/// @brief Method set_verticalAxis, addr 0x6c5500c, size 0x8, virtual false, abstract: false, final false
+inline void set_verticalAxis(::StringW  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr StandaloneInputModule();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr StandaloneInputModule() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StandaloneInputModule", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  StandaloneInputModule(StandaloneInputModule&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StandaloneInputModule", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  StandaloneInputModule(StandaloneInputModule const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "StandaloneInputModule", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+StandaloneInputModule(StandaloneInputModule && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17542 };
+// Ctor Parameters [CppParam { name: "", ty: "StandaloneInputModule", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+StandaloneInputModule(StandaloneInputModule const& ) = delete;
 
-  /// @brief Field doubleClickTime offset 0xffffffff size 0x4
-  static constexpr float_t doubleClickTime{ static_cast<float_t>(0.3f) };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{17546};
 
-  /// @brief Field m_PrevActionTime, offset: 0x68, size: 0x4, def value: None
-  float_t ___m_PrevActionTime;
+/// @brief Field doubleClickTime offset 0xffffffff size 0x4
+static constexpr float_t  doubleClickTime{static_cast<float_t>(0.3f)};
 
-  /// @brief Field m_LastMoveVector, offset: 0x6c, size: 0x8, def value: None
-  ::UnityEngine::Vector2 ___m_LastMoveVector;
+/// @brief Field m_PrevActionTime, offset: 0x68, size: 0x4, def value: None
+ float_t  ___m_PrevActionTime;
 
-  /// @brief Field m_ConsecutiveMoveCount, offset: 0x74, size: 0x4, def value: None
-  int32_t ___m_ConsecutiveMoveCount;
+/// @brief Field m_LastMoveVector, offset: 0x6c, size: 0x8, def value: None
+ ::UnityEngine::Vector2  ___m_LastMoveVector;
 
-  /// @brief Field m_LastMousePosition, offset: 0x78, size: 0x8, def value: None
-  ::UnityEngine::Vector2 ___m_LastMousePosition;
+/// @brief Field m_ConsecutiveMoveCount, offset: 0x74, size: 0x4, def value: None
+ int32_t  ___m_ConsecutiveMoveCount;
 
-  /// @brief Field m_MousePosition, offset: 0x80, size: 0x8, def value: None
-  ::UnityEngine::Vector2 ___m_MousePosition;
+/// @brief Field m_LastMousePosition, offset: 0x78, size: 0x8, def value: None
+ ::UnityEngine::Vector2  ___m_LastMousePosition;
 
-  /// @brief Field m_CurrentFocusedGameObject, offset: 0x88, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::GameObject> ___m_CurrentFocusedGameObject;
+/// @brief Field m_MousePosition, offset: 0x80, size: 0x8, def value: None
+ ::UnityEngine::Vector2  ___m_MousePosition;
 
-  /// @brief Field m_InputPointerEvent, offset: 0x90, size: 0x8, def value: None
-  ::UnityEngine::EventSystems::PointerEventData* ___m_InputPointerEvent;
+/// @brief Field m_CurrentFocusedGameObject, offset: 0x88, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::GameObject>  ___m_CurrentFocusedGameObject;
 
-  /// @brief Field m_HorizontalAxis, offset: 0x98, size: 0x8, def value: None
-  ::StringW ___m_HorizontalAxis;
+/// @brief Field m_InputPointerEvent, offset: 0x90, size: 0x8, def value: None
+ ::UnityEngine::EventSystems::PointerEventData*  ___m_InputPointerEvent;
 
-  /// @brief Field m_VerticalAxis, offset: 0xa0, size: 0x8, def value: None
-  ::StringW ___m_VerticalAxis;
+/// @brief Field m_HorizontalAxis, offset: 0x98, size: 0x8, def value: None
+ ::StringW  ___m_HorizontalAxis;
 
-  /// @brief Field m_SubmitButton, offset: 0xa8, size: 0x8, def value: None
-  ::StringW ___m_SubmitButton;
+/// @brief Field m_VerticalAxis, offset: 0xa0, size: 0x8, def value: None
+ ::StringW  ___m_VerticalAxis;
 
-  /// @brief Field m_CancelButton, offset: 0xb0, size: 0x8, def value: None
-  ::StringW ___m_CancelButton;
+/// @brief Field m_SubmitButton, offset: 0xa8, size: 0x8, def value: None
+ ::StringW  ___m_SubmitButton;
 
-  /// @brief Field m_InputActionsPerSecond, offset: 0xb8, size: 0x4, def value: None
-  float_t ___m_InputActionsPerSecond;
+/// @brief Field m_CancelButton, offset: 0xb0, size: 0x8, def value: None
+ ::StringW  ___m_CancelButton;
 
-  /// @brief Field m_RepeatDelay, offset: 0xbc, size: 0x4, def value: None
-  float_t ___m_RepeatDelay;
+/// @brief Field m_InputActionsPerSecond, offset: 0xb8, size: 0x4, def value: None
+ float_t  ___m_InputActionsPerSecond;
 
-  /// @brief Field m_ForceModuleActive, offset: 0xc0, size: 0x1, def value: None
-  bool ___m_ForceModuleActive;
+/// @brief Field m_RepeatDelay, offset: 0xbc, size: 0x4, def value: None
+ float_t  ___m_RepeatDelay;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field m_ForceModuleActive, offset: 0xc0, size: 0x1, def value: None
+ bool  ___m_ForceModuleActive;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::EventSystems::StandaloneInputModule, ___m_PrevActionTime) == 0x68, "Offset mismatch!");
@@ -448,7 +448,7 @@ static_assert(offsetof(::UnityEngine::EventSystems::StandaloneInputModule, ___m_
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::EventSystems::StandaloneInputModule, 0xc8>, "Size mismatch!");
 
-} // namespace UnityEngine::EventSystems
+} // namespace end def UnityEngine::EventSystems
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::EventSystems::StandaloneInputModule_InputMode, "UnityEngine.EventSystems", "StandaloneInputModule/InputMode");
 NEED_NO_BOX(::UnityEngine::EventSystems::StandaloneInputModule);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::EventSystems::StandaloneInputModule*, "UnityEngine.EventSystems", "StandaloneInputModule");

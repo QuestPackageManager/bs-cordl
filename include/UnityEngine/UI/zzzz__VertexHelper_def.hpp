@@ -9,7 +9,8 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(VertexHelper)
 namespace System::Collections::Generic {
-template <typename T> class List_1;
+template<typename T>
+class List_1;
 }
 namespace System {
 class IDisposable;
@@ -41,232 +42,230 @@ namespace UnityEngine::UI {
 // CS Name: UnityEngine.UI.VertexHelper
 class CORDL_TYPE VertexHelper : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(get = get_currentIndexCount)) int32_t currentIndexCount;
+// Declarations
+ __declspec(property(get=get_currentIndexCount)) int32_t  currentIndexCount;
 
-  __declspec(property(get = get_currentVertCount)) int32_t currentVertCount;
+ __declspec(property(get=get_currentVertCount)) int32_t  currentVertCount;
 
-  /// @brief Field m_Colors, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Colors, put = __cordl_internal_set_m_Colors)) ::System::Collections::Generic::List_1<::UnityEngine::Color32>* m_Colors;
+/// @brief Field m_Colors, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_Colors, put=__cordl_internal_set_m_Colors)) ::System::Collections::Generic::List_1<::UnityEngine::Color32>*  m_Colors;
 
-  /// @brief Field m_Indices, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Indices, put = __cordl_internal_set_m_Indices)) ::System::Collections::Generic::List_1<int32_t>* m_Indices;
+/// @brief Field m_Indices, offset 0x50, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_Indices, put=__cordl_internal_set_m_Indices)) ::System::Collections::Generic::List_1<int32_t>*  m_Indices;
 
-  /// @brief Field m_ListsInitalized, offset 0x58, size 0x1
-  __declspec(property(get = __cordl_internal_get_m_ListsInitalized, put = __cordl_internal_set_m_ListsInitalized)) bool m_ListsInitalized;
+/// @brief Field m_ListsInitalized, offset 0x58, size 0x1 
+ __declspec(property(get=__cordl_internal_get_m_ListsInitalized, put=__cordl_internal_set_m_ListsInitalized)) bool  m_ListsInitalized;
 
-  /// @brief Field m_Normals, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Normals, put = __cordl_internal_set_m_Normals)) ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* m_Normals;
+/// @brief Field m_Normals, offset 0x40, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_Normals, put=__cordl_internal_set_m_Normals)) ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*  m_Normals;
 
-  /// @brief Field m_Positions, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Positions, put = __cordl_internal_set_m_Positions)) ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* m_Positions;
+/// @brief Field m_Positions, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_Positions, put=__cordl_internal_set_m_Positions)) ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*  m_Positions;
 
-  /// @brief Field m_Tangents, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Tangents, put = __cordl_internal_set_m_Tangents)) ::System::Collections::Generic::List_1<::UnityEngine::Vector4>* m_Tangents;
+/// @brief Field m_Tangents, offset 0x48, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_Tangents, put=__cordl_internal_set_m_Tangents)) ::System::Collections::Generic::List_1<::UnityEngine::Vector4>*  m_Tangents;
 
-  /// @brief Field m_Uv0S, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Uv0S, put = __cordl_internal_set_m_Uv0S)) ::System::Collections::Generic::List_1<::UnityEngine::Vector4>* m_Uv0S;
+/// @brief Field m_Uv0S, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_Uv0S, put=__cordl_internal_set_m_Uv0S)) ::System::Collections::Generic::List_1<::UnityEngine::Vector4>*  m_Uv0S;
 
-  /// @brief Field m_Uv1S, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Uv1S, put = __cordl_internal_set_m_Uv1S)) ::System::Collections::Generic::List_1<::UnityEngine::Vector4>* m_Uv1S;
+/// @brief Field m_Uv1S, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_Uv1S, put=__cordl_internal_set_m_Uv1S)) ::System::Collections::Generic::List_1<::UnityEngine::Vector4>*  m_Uv1S;
 
-  /// @brief Field m_Uv2S, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Uv2S, put = __cordl_internal_set_m_Uv2S)) ::System::Collections::Generic::List_1<::UnityEngine::Vector4>* m_Uv2S;
+/// @brief Field m_Uv2S, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_Uv2S, put=__cordl_internal_set_m_Uv2S)) ::System::Collections::Generic::List_1<::UnityEngine::Vector4>*  m_Uv2S;
 
-  /// @brief Field m_Uv3S, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Uv3S, put = __cordl_internal_set_m_Uv3S)) ::System::Collections::Generic::List_1<::UnityEngine::Vector4>* m_Uv3S;
+/// @brief Field m_Uv3S, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_Uv3S, put=__cordl_internal_set_m_Uv3S)) ::System::Collections::Generic::List_1<::UnityEngine::Vector4>*  m_Uv3S;
 
-  /// @brief Field s_DefaultNormal, offset 0xffffffff, size 0xc
-  __declspec(property(get = getStaticF_s_DefaultNormal, put = setStaticF_s_DefaultNormal)) ::UnityEngine::Vector3 s_DefaultNormal;
+/// @brief Field s_DefaultNormal, offset 0xffffffff, size 0xc 
+ __declspec(property(get=getStaticF_s_DefaultNormal, put=setStaticF_s_DefaultNormal)) ::UnityEngine::Vector3  s_DefaultNormal;
 
-  /// @brief Field s_DefaultTangent, offset 0xffffffff, size 0x10
-  __declspec(property(get = getStaticF_s_DefaultTangent, put = setStaticF_s_DefaultTangent)) ::UnityEngine::Vector4 s_DefaultTangent;
+/// @brief Field s_DefaultTangent, offset 0xffffffff, size 0x10 
+ __declspec(property(get=getStaticF_s_DefaultTangent, put=setStaticF_s_DefaultTangent)) ::UnityEngine::Vector4  s_DefaultTangent;
 
-  /// @brief Convert operator to "::System::IDisposable"
-  constexpr operator ::System::IDisposable*() noexcept;
+/// @brief Convert operator to "::System::IDisposable"
+constexpr operator  ::System::IDisposable*() noexcept;
 
-  /// @brief Method AddTriangle, addr 0x6c372ec, size 0x198, virtual false, abstract: false, final false
-  inline void AddTriangle(int32_t idx0, int32_t idx1, int32_t idx2);
+/// @brief Method AddTriangle, addr 0x6c379ac, size 0x198, virtual false, abstract: false, final false
+inline void AddTriangle(int32_t  idx0, int32_t  idx1, int32_t  idx2) ;
 
-  /// @brief Method AddUIVertexQuad, addr 0x6c43d68, size 0x114, virtual false, abstract: false, final false
-  inline void AddUIVertexQuad(::ArrayW<::UnityEngine::UIVertex, ::Array<::UnityEngine::UIVertex>*> verts);
+/// @brief Method AddUIVertexQuad, addr 0x6c44428, size 0x114, virtual false, abstract: false, final false
+inline void AddUIVertexQuad(::ArrayW<::UnityEngine::UIVertex,::Array<::UnityEngine::UIVertex>*>  verts) ;
 
-  /// @brief Method AddUIVertexStream, addr 0x6c47c98, size 0x124, virtual false, abstract: false, final false
-  inline void AddUIVertexStream(::System::Collections::Generic::List_1<::UnityEngine::UIVertex>* verts, ::System::Collections::Generic::List_1<int32_t>* indices);
+/// @brief Method AddUIVertexStream, addr 0x6c48358, size 0x124, virtual false, abstract: false, final false
+inline void AddUIVertexStream(::System::Collections::Generic::List_1<::UnityEngine::UIVertex>*  verts, ::System::Collections::Generic::List_1<int32_t>*  indices) ;
 
-  /// @brief Method AddUIVertexTriangleStream, addr 0x6c47dbc, size 0x50, virtual false, abstract: false, final false
-  inline void AddUIVertexTriangleStream(::System::Collections::Generic::List_1<::UnityEngine::UIVertex>* verts);
+/// @brief Method AddUIVertexTriangleStream, addr 0x6c4847c, size 0x50, virtual false, abstract: false, final false
+inline void AddUIVertexTriangleStream(::System::Collections::Generic::List_1<::UnityEngine::UIVertex>*  verts) ;
 
-  /// @brief Method AddVert, addr 0x6c371b4, size 0x138, virtual false, abstract: false, final false
-  inline void AddVert(::UnityEngine::Vector3 position, ::UnityEngine::Color32 color, ::UnityEngine::Vector4 uv0);
+/// @brief Method AddVert, addr 0x6c37874, size 0x138, virtual false, abstract: false, final false
+inline void AddVert(::UnityEngine::Vector3  position, ::UnityEngine::Color32  color, ::UnityEngine::Vector4  uv0) ;
 
-  /// @brief Method AddVert, addr 0x6c47ae4, size 0x120, virtual false, abstract: false, final false
-  inline void AddVert(::UnityEngine::Vector3 position, ::UnityEngine::Color32 color, ::UnityEngine::Vector4 uv0, ::UnityEngine::Vector4 uv1, ::UnityEngine::Vector3 normal,
-                      ::UnityEngine::Vector4 tangent);
+/// @brief Method AddVert, addr 0x6c481a4, size 0x120, virtual false, abstract: false, final false
+inline void AddVert(::UnityEngine::Vector3  position, ::UnityEngine::Color32  color, ::UnityEngine::Vector4  uv0, ::UnityEngine::Vector4  uv1, ::UnityEngine::Vector3  normal, ::UnityEngine::Vector4  tangent) ;
 
-  /// @brief Method AddVert, addr 0x6c4765c, size 0x488, virtual false, abstract: false, final false
-  inline void AddVert(::UnityEngine::Vector3 position, ::UnityEngine::Color32 color, ::UnityEngine::Vector4 uv0, ::UnityEngine::Vector4 uv1, ::UnityEngine::Vector4 uv2, ::UnityEngine::Vector4 uv3,
-                      ::UnityEngine::Vector3 normal, ::UnityEngine::Vector4 tangent);
+/// @brief Method AddVert, addr 0x6c47d1c, size 0x488, virtual false, abstract: false, final false
+inline void AddVert(::UnityEngine::Vector3  position, ::UnityEngine::Color32  color, ::UnityEngine::Vector4  uv0, ::UnityEngine::Vector4  uv1, ::UnityEngine::Vector4  uv2, ::UnityEngine::Vector4  uv3, ::UnityEngine::Vector3  normal, ::UnityEngine::Vector4  tangent) ;
 
-  /// @brief Method AddVert, addr 0x6c47c04, size 0x94, virtual false, abstract: false, final false
-  inline void AddVert(::UnityEngine::UIVertex v);
+/// @brief Method AddVert, addr 0x6c482c4, size 0x94, virtual false, abstract: false, final false
+inline void AddVert(::UnityEngine::UIVertex  v) ;
 
-  /// @brief Method Clear, addr 0x6c37078, size 0x13c, virtual false, abstract: false, final false
-  inline void Clear();
+/// @brief Method Clear, addr 0x6c37738, size 0x13c, virtual false, abstract: false, final false
+inline void Clear() ;
 
-  /// @brief Method Dispose, addr 0x6c46fa0, size 0x1cc, virtual true, abstract: false, final true
-  inline void Dispose();
+/// @brief Method Dispose, addr 0x6c47660, size 0x1cc, virtual true, abstract: false, final true
+inline void Dispose() ;
 
-  /// @brief Method FillMesh, addr 0x6c474e8, size 0x174, virtual false, abstract: false, final false
-  inline void FillMesh(::UnityEngine::Mesh* mesh);
+/// @brief Method FillMesh, addr 0x6c47ba8, size 0x174, virtual false, abstract: false, final false
+inline void FillMesh(::UnityEngine::Mesh*  mesh) ;
 
-  /// @brief Method GetUIVertexStream, addr 0x6c47e0c, size 0xa8, virtual false, abstract: false, final false
-  inline void GetUIVertexStream(::System::Collections::Generic::List_1<::UnityEngine::UIVertex>* stream);
+/// @brief Method GetUIVertexStream, addr 0x6c484cc, size 0xa8, virtual false, abstract: false, final false
+inline void GetUIVertexStream(::System::Collections::Generic::List_1<::UnityEngine::UIVertex>*  stream) ;
 
-  /// @brief Method InitializeListIfRequired, addr 0x6c46dd8, size 0x1c8, virtual false, abstract: false, final false
-  inline void InitializeListIfRequired();
+/// @brief Method InitializeListIfRequired, addr 0x6c47498, size 0x1c8, virtual false, abstract: false, final false
+inline void InitializeListIfRequired() ;
 
-  static inline ::UnityEngine::UI::VertexHelper* New_ctor();
+static inline ::UnityEngine::UI::VertexHelper* New_ctor() ;
 
-  static inline ::UnityEngine::UI::VertexHelper* New_ctor(::UnityEngine::Mesh* m);
+static inline ::UnityEngine::UI::VertexHelper* New_ctor(::UnityEngine::Mesh*  m) ;
 
-  /// @brief Method PopulateUIVertex, addr 0x6c47214, size 0x16c, virtual false, abstract: false, final false
-  inline void PopulateUIVertex(::ByRef<::UnityEngine::UIVertex> vertex, int32_t i);
+/// @brief Method PopulateUIVertex, addr 0x6c478d4, size 0x16c, virtual false, abstract: false, final false
+inline void PopulateUIVertex(::ByRef<::UnityEngine::UIVertex>  vertex, int32_t  i) ;
 
-  /// @brief Method SetUIVertex, addr 0x6c47380, size 0x168, virtual false, abstract: false, final false
-  inline void SetUIVertex(::UnityEngine::UIVertex vertex, int32_t i);
+/// @brief Method SetUIVertex, addr 0x6c47a40, size 0x168, virtual false, abstract: false, final false
+inline void SetUIVertex(::UnityEngine::UIVertex  vertex, int32_t  i) ;
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Color32>* const& __cordl_internal_get_m_Colors() const;
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::Color32>* const& __cordl_internal_get_m_Colors() const;
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Color32>*& __cordl_internal_get_m_Colors();
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::Color32>*& __cordl_internal_get_m_Colors() ;
 
-  constexpr ::System::Collections::Generic::List_1<int32_t>* const& __cordl_internal_get_m_Indices() const;
+constexpr ::System::Collections::Generic::List_1<int32_t>* const& __cordl_internal_get_m_Indices() const;
 
-  constexpr ::System::Collections::Generic::List_1<int32_t>*& __cordl_internal_get_m_Indices();
+constexpr ::System::Collections::Generic::List_1<int32_t>*& __cordl_internal_get_m_Indices() ;
 
-  constexpr bool const& __cordl_internal_get_m_ListsInitalized() const;
+constexpr bool const& __cordl_internal_get_m_ListsInitalized() const;
 
-  constexpr bool& __cordl_internal_get_m_ListsInitalized();
+constexpr bool& __cordl_internal_get_m_ListsInitalized() ;
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* const& __cordl_internal_get_m_Normals() const;
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* const& __cordl_internal_get_m_Normals() const;
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*& __cordl_internal_get_m_Normals();
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*& __cordl_internal_get_m_Normals() ;
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* const& __cordl_internal_get_m_Positions() const;
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* const& __cordl_internal_get_m_Positions() const;
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*& __cordl_internal_get_m_Positions();
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*& __cordl_internal_get_m_Positions() ;
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector4>* const& __cordl_internal_get_m_Tangents() const;
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector4>* const& __cordl_internal_get_m_Tangents() const;
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector4>*& __cordl_internal_get_m_Tangents();
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector4>*& __cordl_internal_get_m_Tangents() ;
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector4>* const& __cordl_internal_get_m_Uv0S() const;
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector4>* const& __cordl_internal_get_m_Uv0S() const;
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector4>*& __cordl_internal_get_m_Uv0S();
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector4>*& __cordl_internal_get_m_Uv0S() ;
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector4>* const& __cordl_internal_get_m_Uv1S() const;
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector4>* const& __cordl_internal_get_m_Uv1S() const;
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector4>*& __cordl_internal_get_m_Uv1S();
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector4>*& __cordl_internal_get_m_Uv1S() ;
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector4>* const& __cordl_internal_get_m_Uv2S() const;
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector4>* const& __cordl_internal_get_m_Uv2S() const;
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector4>*& __cordl_internal_get_m_Uv2S();
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector4>*& __cordl_internal_get_m_Uv2S() ;
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector4>* const& __cordl_internal_get_m_Uv3S() const;
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector4>* const& __cordl_internal_get_m_Uv3S() const;
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector4>*& __cordl_internal_get_m_Uv3S();
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector4>*& __cordl_internal_get_m_Uv3S() ;
 
-  constexpr void __cordl_internal_set_m_Colors(::System::Collections::Generic::List_1<::UnityEngine::Color32>* value);
+constexpr void __cordl_internal_set_m_Colors(::System::Collections::Generic::List_1<::UnityEngine::Color32>*  value) ;
 
-  constexpr void __cordl_internal_set_m_Indices(::System::Collections::Generic::List_1<int32_t>* value);
+constexpr void __cordl_internal_set_m_Indices(::System::Collections::Generic::List_1<int32_t>*  value) ;
 
-  constexpr void __cordl_internal_set_m_ListsInitalized(bool value);
+constexpr void __cordl_internal_set_m_ListsInitalized(bool  value) ;
 
-  constexpr void __cordl_internal_set_m_Normals(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* value);
+constexpr void __cordl_internal_set_m_Normals(::System::Collections::Generic::List_1<::UnityEngine::Vector3>*  value) ;
 
-  constexpr void __cordl_internal_set_m_Positions(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* value);
+constexpr void __cordl_internal_set_m_Positions(::System::Collections::Generic::List_1<::UnityEngine::Vector3>*  value) ;
 
-  constexpr void __cordl_internal_set_m_Tangents(::System::Collections::Generic::List_1<::UnityEngine::Vector4>* value);
+constexpr void __cordl_internal_set_m_Tangents(::System::Collections::Generic::List_1<::UnityEngine::Vector4>*  value) ;
 
-  constexpr void __cordl_internal_set_m_Uv0S(::System::Collections::Generic::List_1<::UnityEngine::Vector4>* value);
+constexpr void __cordl_internal_set_m_Uv0S(::System::Collections::Generic::List_1<::UnityEngine::Vector4>*  value) ;
 
-  constexpr void __cordl_internal_set_m_Uv1S(::System::Collections::Generic::List_1<::UnityEngine::Vector4>* value);
+constexpr void __cordl_internal_set_m_Uv1S(::System::Collections::Generic::List_1<::UnityEngine::Vector4>*  value) ;
 
-  constexpr void __cordl_internal_set_m_Uv2S(::System::Collections::Generic::List_1<::UnityEngine::Vector4>* value);
+constexpr void __cordl_internal_set_m_Uv2S(::System::Collections::Generic::List_1<::UnityEngine::Vector4>*  value) ;
 
-  constexpr void __cordl_internal_set_m_Uv3S(::System::Collections::Generic::List_1<::UnityEngine::Vector4>* value);
+constexpr void __cordl_internal_set_m_Uv3S(::System::Collections::Generic::List_1<::UnityEngine::Vector4>*  value) ;
 
-  /// @brief Method .ctor, addr 0x6c46b04, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6c471c4, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method .ctor, addr 0x6c46b08, size 0x2d0, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::Mesh* m);
+/// @brief Method .ctor, addr 0x6c471c8, size 0x2d0, virtual false, abstract: false, final false
+inline void _ctor(::UnityEngine::Mesh*  m) ;
 
-  static inline ::UnityEngine::Vector3 getStaticF_s_DefaultNormal();
+static inline ::UnityEngine::Vector3 getStaticF_s_DefaultNormal() ;
 
-  static inline ::UnityEngine::Vector4 getStaticF_s_DefaultTangent();
+static inline ::UnityEngine::Vector4 getStaticF_s_DefaultTangent() ;
 
-  /// @brief Method get_currentIndexCount, addr 0x6c471c0, size 0x54, virtual false, abstract: false, final false
-  inline int32_t get_currentIndexCount();
+/// @brief Method get_currentIndexCount, addr 0x6c47880, size 0x54, virtual false, abstract: false, final false
+inline int32_t get_currentIndexCount() ;
 
-  /// @brief Method get_currentVertCount, addr 0x6c4716c, size 0x54, virtual false, abstract: false, final false
-  inline int32_t get_currentVertCount();
+/// @brief Method get_currentVertCount, addr 0x6c4782c, size 0x54, virtual false, abstract: false, final false
+inline int32_t get_currentVertCount() ;
 
-  /// @brief Convert to "::System::IDisposable"
-  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+/// @brief Convert to "::System::IDisposable"
+constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  static inline void setStaticF_s_DefaultNormal(::UnityEngine::Vector3 value);
+static inline void setStaticF_s_DefaultNormal(::UnityEngine::Vector3  value) ;
 
-  static inline void setStaticF_s_DefaultTangent(::UnityEngine::Vector4 value);
+static inline void setStaticF_s_DefaultTangent(::UnityEngine::Vector4  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr VertexHelper();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr VertexHelper() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VertexHelper", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  VertexHelper(VertexHelper&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VertexHelper", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  VertexHelper(VertexHelper const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "VertexHelper", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+VertexHelper(VertexHelper && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17479 };
+// Ctor Parameters [CppParam { name: "", ty: "VertexHelper", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+VertexHelper(VertexHelper const& ) = delete;
 
-  /// @brief Field m_Positions, offset: 0x10, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* ___m_Positions;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{17483};
 
-  /// @brief Field m_Colors, offset: 0x18, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::UnityEngine::Color32>* ___m_Colors;
+/// @brief Field m_Positions, offset: 0x10, size: 0x8, def value: None
+ ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*  ___m_Positions;
 
-  /// @brief Field m_Uv0S, offset: 0x20, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::UnityEngine::Vector4>* ___m_Uv0S;
+/// @brief Field m_Colors, offset: 0x18, size: 0x8, def value: None
+ ::System::Collections::Generic::List_1<::UnityEngine::Color32>*  ___m_Colors;
 
-  /// @brief Field m_Uv1S, offset: 0x28, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::UnityEngine::Vector4>* ___m_Uv1S;
+/// @brief Field m_Uv0S, offset: 0x20, size: 0x8, def value: None
+ ::System::Collections::Generic::List_1<::UnityEngine::Vector4>*  ___m_Uv0S;
 
-  /// @brief Field m_Uv2S, offset: 0x30, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::UnityEngine::Vector4>* ___m_Uv2S;
+/// @brief Field m_Uv1S, offset: 0x28, size: 0x8, def value: None
+ ::System::Collections::Generic::List_1<::UnityEngine::Vector4>*  ___m_Uv1S;
 
-  /// @brief Field m_Uv3S, offset: 0x38, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::UnityEngine::Vector4>* ___m_Uv3S;
+/// @brief Field m_Uv2S, offset: 0x30, size: 0x8, def value: None
+ ::System::Collections::Generic::List_1<::UnityEngine::Vector4>*  ___m_Uv2S;
 
-  /// @brief Field m_Normals, offset: 0x40, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* ___m_Normals;
+/// @brief Field m_Uv3S, offset: 0x38, size: 0x8, def value: None
+ ::System::Collections::Generic::List_1<::UnityEngine::Vector4>*  ___m_Uv3S;
 
-  /// @brief Field m_Tangents, offset: 0x48, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::UnityEngine::Vector4>* ___m_Tangents;
+/// @brief Field m_Normals, offset: 0x40, size: 0x8, def value: None
+ ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*  ___m_Normals;
 
-  /// @brief Field m_Indices, offset: 0x50, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<int32_t>* ___m_Indices;
+/// @brief Field m_Tangents, offset: 0x48, size: 0x8, def value: None
+ ::System::Collections::Generic::List_1<::UnityEngine::Vector4>*  ___m_Tangents;
 
-  /// @brief Field m_ListsInitalized, offset: 0x58, size: 0x1, def value: None
-  bool ___m_ListsInitalized;
+/// @brief Field m_Indices, offset: 0x50, size: 0x8, def value: None
+ ::System::Collections::Generic::List_1<int32_t>*  ___m_Indices;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field m_ListsInitalized, offset: 0x58, size: 0x1, def value: None
+ bool  ___m_ListsInitalized;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::UI::VertexHelper, ___m_Positions) == 0x10, "Offset mismatch!");
@@ -291,6 +290,6 @@ static_assert(offsetof(::UnityEngine::UI::VertexHelper, ___m_ListsInitalized) ==
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UI::VertexHelper, 0x60>, "Size mismatch!");
 
-} // namespace UnityEngine::UI
+} // namespace end def UnityEngine::UI
 NEED_NO_BOX(::UnityEngine::UI::VertexHelper);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UI::VertexHelper*, "UnityEngine.UI", "VertexHelper");

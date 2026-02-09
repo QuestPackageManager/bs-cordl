@@ -22,53 +22,53 @@ namespace GlobalNamespace {
 // CS Name: MathfExtra
 class CORDL_TYPE MathfExtra : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method Approximately, addr 0x322c8d8, size 0x10, virtual false, abstract: false, final false
-  static inline bool Approximately(float_t a, float_t b, float_t precision);
+// Declarations
+/// @brief Method Approximately, addr 0x322c828, size 0x10, virtual false, abstract: false, final false
+static inline bool Approximately(float_t  a, float_t  b, float_t  precision) ;
 
-  /// @brief Method MaxAbs, addr 0x322c8c4, size 0x14, virtual false, abstract: false, final false
-  static inline float_t MaxAbs(float_t a, float_t b);
+/// @brief Method MaxAbs, addr 0x322c814, size 0x14, virtual false, abstract: false, final false
+static inline float_t MaxAbs(float_t  a, float_t  b) ;
 
-  /// @brief Method Mod, addr 0x322c75c, size 0x14, virtual false, abstract: false, final false
-  static inline float_t Mod(float_t value, float_t mod);
+/// @brief Method Mod, addr 0x322c6ac, size 0x14, virtual false, abstract: false, final false
+static inline float_t Mod(float_t  value, float_t  mod) ;
 
-  /// @brief Method Mod, addr 0x322c770, size 0x30, virtual false, abstract: false, final false
-  static inline int32_t Mod(int32_t value, int32_t mod);
+/// @brief Method Mod, addr 0x322c6c0, size 0x30, virtual false, abstract: false, final false
+static inline int32_t Mod(int32_t  value, int32_t  mod) ;
 
-  /// @brief Method Repeat, addr 0x322cb60, size 0x9c, virtual false, abstract: false, final false
-  static inline int32_t Repeat(int32_t t, int32_t length);
+/// @brief Method Repeat, addr 0x322cab0, size 0x9c, virtual false, abstract: false, final false
+static inline int32_t Repeat(int32_t  t, int32_t  length) ;
 
-  /// @brief Method Round, addr 0x322c91c, size 0x244, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Vector4 Round(::UnityEngine::Vector4 value, int32_t digits);
+/// @brief Method Round, addr 0x322c86c, size 0x244, virtual false, abstract: false, final false
+static inline ::UnityEngine::Vector4 Round(::UnityEngine::Vector4  value, int32_t  digits) ;
 
-  /// @brief Method Round, addr 0x322c7a0, size 0x124, virtual false, abstract: false, final false
-  static inline float_t Round(float_t value, int32_t decimals);
+/// @brief Method Round, addr 0x322c6f0, size 0x124, virtual false, abstract: false, final false
+static inline float_t Round(float_t  value, int32_t  decimals) ;
 
-  /// @brief Method ShortestAngleDifference, addr 0x322c8e8, size 0x34, virtual false, abstract: false, final false
-  static inline float_t ShortestAngleDifference(float_t from, float_t to);
+/// @brief Method ShortestAngleDifference, addr 0x322c838, size 0x34, virtual false, abstract: false, final false
+static inline float_t ShortestAngleDifference(float_t  from, float_t  to) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MathfExtra();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr MathfExtra() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MathfExtra", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  MathfExtra(MathfExtra&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MathfExtra", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  MathfExtra(MathfExtra const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "MathfExtra", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+MathfExtra(MathfExtra && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20691 };
+// Ctor Parameters [CppParam { name: "", ty: "MathfExtra", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+MathfExtra(MathfExtra const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20695};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MathfExtra, 0x10>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MathfExtra);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MathfExtra*, "", "MathfExtra");

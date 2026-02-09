@@ -51,248 +51,247 @@ namespace System::IO::Compression {
 // CS Name: System.IO.Compression.DeflateStreamNative/UnmanagedReadOrWrite
 class CORDL_TYPE DeflateStreamNative_UnmanagedReadOrWrite : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method Invoke, addr 0x62410c8, size 0x14, virtual true, abstract: false, final false
-  inline int32_t Invoke(::System::IntPtr buffer, int32_t length, ::System::IntPtr data);
+// Declarations
+/// @brief Method Invoke, addr 0x6241788, size 0x14, virtual true, abstract: false, final false
+inline int32_t Invoke(::System::IntPtr  buffer, int32_t  length, ::System::IntPtr  data) ;
 
-  static inline ::System::IO::Compression::DeflateStreamNative_UnmanagedReadOrWrite* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::System::IO::Compression::DeflateStreamNative_UnmanagedReadOrWrite* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x6240934, size 0x6c, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x6240ff4, size 0x6c, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DeflateStreamNative_UnmanagedReadOrWrite();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr DeflateStreamNative_UnmanagedReadOrWrite() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DeflateStreamNative_UnmanagedReadOrWrite", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  DeflateStreamNative_UnmanagedReadOrWrite(DeflateStreamNative_UnmanagedReadOrWrite&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DeflateStreamNative_UnmanagedReadOrWrite", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  DeflateStreamNative_UnmanagedReadOrWrite(DeflateStreamNative_UnmanagedReadOrWrite const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "DeflateStreamNative_UnmanagedReadOrWrite", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+DeflateStreamNative_UnmanagedReadOrWrite(DeflateStreamNative_UnmanagedReadOrWrite && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11414 };
+// Ctor Parameters [CppParam { name: "", ty: "DeflateStreamNative_UnmanagedReadOrWrite", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+DeflateStreamNative_UnmanagedReadOrWrite(DeflateStreamNative_UnmanagedReadOrWrite const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11418};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::IO::Compression::DeflateStreamNative_UnmanagedReadOrWrite, 0x80>, "Size mismatch!");
 
-} // namespace System::IO::Compression
+} // namespace end def System::IO::Compression
 // Dependencies System.Runtime.InteropServices.SafeHandle
 namespace System::IO::Compression {
 // Is value type: false
 // CS Name: System.IO.Compression.DeflateStreamNative/SafeDeflateStreamHandle
 class CORDL_TYPE DeflateStreamNative_SafeDeflateStreamHandle : public ::System::Runtime::InteropServices::SafeHandle {
 public:
-  // Declarations
-  __declspec(property(get = get_IsInvalid)) bool IsInvalid;
+// Declarations
+ __declspec(property(get=get_IsInvalid)) bool  IsInvalid;
 
-  static inline ::System::IO::Compression::DeflateStreamNative_SafeDeflateStreamHandle* New_ctor();
+static inline ::System::IO::Compression::DeflateStreamNative_SafeDeflateStreamHandle* New_ctor() ;
 
-  /// @brief Method ReleaseHandle, addr 0x62410ec, size 0x84, virtual true, abstract: false, final false
-  inline bool ReleaseHandle();
+/// @brief Method ReleaseHandle, addr 0x62417ac, size 0x84, virtual true, abstract: false, final false
+inline bool ReleaseHandle() ;
 
-  /// @brief Method .ctor, addr 0x6241070, size 0x54, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6241730, size 0x54, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_IsInvalid, addr 0x62410dc, size 0x10, virtual true, abstract: false, final false
-  inline bool get_IsInvalid();
+/// @brief Method get_IsInvalid, addr 0x624179c, size 0x10, virtual true, abstract: false, final false
+inline bool get_IsInvalid() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DeflateStreamNative_SafeDeflateStreamHandle();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr DeflateStreamNative_SafeDeflateStreamHandle() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DeflateStreamNative_SafeDeflateStreamHandle", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  DeflateStreamNative_SafeDeflateStreamHandle(DeflateStreamNative_SafeDeflateStreamHandle&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DeflateStreamNative_SafeDeflateStreamHandle", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  DeflateStreamNative_SafeDeflateStreamHandle(DeflateStreamNative_SafeDeflateStreamHandle const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "DeflateStreamNative_SafeDeflateStreamHandle", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+DeflateStreamNative_SafeDeflateStreamHandle(DeflateStreamNative_SafeDeflateStreamHandle && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11415 };
+// Ctor Parameters [CppParam { name: "", ty: "DeflateStreamNative_SafeDeflateStreamHandle", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+DeflateStreamNative_SafeDeflateStreamHandle(DeflateStreamNative_SafeDeflateStreamHandle const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11419};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::IO::Compression::DeflateStreamNative_SafeDeflateStreamHandle, 0x20>, "Size mismatch!");
 
-} // namespace System::IO::Compression
+} // namespace end def System::IO::Compression
 // Dependencies System.Object, System.Runtime.InteropServices.GCHandle
 namespace System::IO::Compression {
 // Is value type: false
 // CS Name: System.IO.Compression.DeflateStreamNative
 class CORDL_TYPE DeflateStreamNative : public ::System::Object {
 public:
-  // Declarations
-  using SafeDeflateStreamHandle = ::System::IO::Compression::DeflateStreamNative_SafeDeflateStreamHandle;
+// Declarations
+using SafeDeflateStreamHandle = ::System::IO::Compression::DeflateStreamNative_SafeDeflateStreamHandle;
 
-  using UnmanagedReadOrWrite = ::System::IO::Compression::DeflateStreamNative_UnmanagedReadOrWrite;
+using UnmanagedReadOrWrite = ::System::IO::Compression::DeflateStreamNative_UnmanagedReadOrWrite;
 
-  /// @brief Field base_stream, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_base_stream, put = __cordl_internal_set_base_stream)) ::System::IO::Stream* base_stream;
+/// @brief Field base_stream, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_base_stream, put=__cordl_internal_set_base_stream)) ::System::IO::Stream*  base_stream;
 
-  /// @brief Field data, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_data, put = __cordl_internal_set_data)) ::System::Runtime::InteropServices::GCHandle data;
+/// @brief Field data, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get_data, put=__cordl_internal_set_data)) ::System::Runtime::InteropServices::GCHandle  data;
 
-  /// @brief Field disposed, offset 0x30, size 0x1
-  __declspec(property(get = __cordl_internal_get_disposed, put = __cordl_internal_set_disposed)) bool disposed;
+/// @brief Field disposed, offset 0x30, size 0x1 
+ __declspec(property(get=__cordl_internal_get_disposed, put=__cordl_internal_set_disposed)) bool  disposed;
 
-  /// @brief Field feeder, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_feeder, put = __cordl_internal_set_feeder)) ::System::IO::Compression::DeflateStreamNative_UnmanagedReadOrWrite* feeder;
+/// @brief Field feeder, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_feeder, put=__cordl_internal_set_feeder)) ::System::IO::Compression::DeflateStreamNative_UnmanagedReadOrWrite*  feeder;
 
-  /// @brief Field io_buffer, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_io_buffer, put = __cordl_internal_set_io_buffer)) ::ArrayW<uint8_t, ::Array<uint8_t>*> io_buffer;
+/// @brief Field io_buffer, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get_io_buffer, put=__cordl_internal_set_io_buffer)) ::ArrayW<uint8_t,::Array<uint8_t>*>  io_buffer;
 
-  /// @brief Field last_error, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_last_error, put = __cordl_internal_set_last_error)) ::System::Exception* last_error;
+/// @brief Field last_error, offset 0x40, size 0x8 
+ __declspec(property(get=__cordl_internal_get_last_error, put=__cordl_internal_set_last_error)) ::System::Exception*  last_error;
 
-  /// @brief Field z_stream, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_z_stream, put = __cordl_internal_set_z_stream)) ::System::IO::Compression::DeflateStreamNative_SafeDeflateStreamHandle* z_stream;
+/// @brief Field z_stream, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get_z_stream, put=__cordl_internal_set_z_stream)) ::System::IO::Compression::DeflateStreamNative_SafeDeflateStreamHandle*  z_stream;
 
-  /// @brief Method CheckResult, addr 0x6240b1c, size 0xd8, virtual false, abstract: false, final false
-  inline void CheckResult(int32_t result, ::StringW where);
+/// @brief Method CheckResult, addr 0x62411dc, size 0xd8, virtual false, abstract: false, final false
+inline void CheckResult(int32_t  result, ::StringW  where) ;
 
-  /// @brief Method CloseZStream, addr 0x62410c4, size 0x4, virtual false, abstract: false, final false
-  static inline int32_t CloseZStream(::System::IntPtr stream);
+/// @brief Method CloseZStream, addr 0x6241784, size 0x4, virtual false, abstract: false, final false
+static inline int32_t CloseZStream(::System::IntPtr  stream) ;
 
-  /// @brief Method Create, addr 0x623f240, size 0x140, virtual false, abstract: false, final false
-  static inline ::System::IO::Compression::DeflateStreamNative* Create(::System::IO::Stream* compressedStream, ::System::IO::Compression::CompressionMode mode, bool gzip);
+/// @brief Method Create, addr 0x623f900, size 0x140, virtual false, abstract: false, final false
+static inline ::System::IO::Compression::DeflateStreamNative* Create(::System::IO::Stream*  compressedStream, ::System::IO::Compression::CompressionMode  mode, bool  gzip) ;
 
-  /// @brief Method CreateZStream, addr 0x62409a0, size 0xd0, virtual false, abstract: false, final false
-  static inline ::System::IO::Compression::DeflateStreamNative_SafeDeflateStreamHandle*
-  CreateZStream(::System::IO::Compression::CompressionMode compress, bool gzip, ::System::IO::Compression::DeflateStreamNative_UnmanagedReadOrWrite* feeder, ::System::IntPtr data);
+/// @brief Method CreateZStream, addr 0x6241060, size 0xd0, virtual false, abstract: false, final false
+static inline ::System::IO::Compression::DeflateStreamNative_SafeDeflateStreamHandle* CreateZStream(::System::IO::Compression::CompressionMode  compress, bool  gzip, ::System::IO::Compression::DeflateStreamNative_UnmanagedReadOrWrite*  feeder, ::System::IntPtr  data) ;
 
-  /// @brief Method Dispose, addr 0x623f494, size 0x114, virtual false, abstract: false, final false
-  inline void Dispose(bool disposing);
+/// @brief Method Dispose, addr 0x623fb54, size 0x114, virtual false, abstract: false, final false
+inline void Dispose(bool  disposing) ;
 
-  /// @brief Method Finalize, addr 0x6240a70, size 0x48, virtual true, abstract: false, final false
-  inline void Finalize();
+/// @brief Method Finalize, addr 0x6241130, size 0x48, virtual true, abstract: false, final false
+inline void Finalize() ;
 
-  /// @brief Method Flush, addr 0x6240ab8, size 0x64, virtual false, abstract: false, final false
-  static inline int32_t Flush(::System::IO::Compression::DeflateStreamNative_SafeDeflateStreamHandle* stream);
+/// @brief Method Flush, addr 0x6241178, size 0x64, virtual false, abstract: false, final false
+static inline int32_t Flush(::System::IO::Compression::DeflateStreamNative_SafeDeflateStreamHandle*  stream) ;
 
-  /// @brief Method Flush, addr 0x623fb6c, size 0x58, virtual false, abstract: false, final false
-  inline void Flush();
+/// @brief Method Flush, addr 0x624022c, size 0x58, virtual false, abstract: false, final false
+inline void Flush() ;
 
-  static inline ::System::IO::Compression::DeflateStreamNative* New_ctor();
+static inline ::System::IO::Compression::DeflateStreamNative* New_ctor() ;
 
-  /// @brief Method ReadZStream, addr 0x623f5e8, size 0x7c, virtual false, abstract: false, final false
-  inline int32_t ReadZStream(::System::IntPtr buffer, int32_t length);
+/// @brief Method ReadZStream, addr 0x623fca8, size 0x7c, virtual false, abstract: false, final false
+inline int32_t ReadZStream(::System::IntPtr  buffer, int32_t  length) ;
 
-  /// @brief Method ReadZStream, addr 0x6240bf4, size 0x7c, virtual false, abstract: false, final false
-  static inline int32_t ReadZStream(::System::IO::Compression::DeflateStreamNative_SafeDeflateStreamHandle* stream, ::System::IntPtr buffer, int32_t length);
+/// @brief Method ReadZStream, addr 0x62412b4, size 0x7c, virtual false, abstract: false, final false
+static inline int32_t ReadZStream(::System::IO::Compression::DeflateStreamNative_SafeDeflateStreamHandle*  stream, ::System::IntPtr  buffer, int32_t  length) ;
 
-  /// @brief Method UnmanagedRead, addr 0x6240cec, size 0x1a8, virtual false, abstract: false, final false
-  inline int32_t UnmanagedRead(::System::IntPtr buffer, int32_t length);
+/// @brief Method UnmanagedRead, addr 0x62413ac, size 0x1a8, virtual false, abstract: false, final false
+inline int32_t UnmanagedRead(::System::IntPtr  buffer, int32_t  length) ;
 
-  /// @brief Method UnmanagedRead, addr 0x6240718, size 0x10c, virtual false, abstract: false, final false
-  static inline int32_t UnmanagedRead(::System::IntPtr buffer, int32_t length, ::System::IntPtr data);
+/// @brief Method UnmanagedRead, addr 0x6240dd8, size 0x10c, virtual false, abstract: false, final false
+static inline int32_t UnmanagedRead(::System::IntPtr  buffer, int32_t  length, ::System::IntPtr  data) ;
 
-  /// @brief Method UnmanagedWrite, addr 0x6240e94, size 0x1dc, virtual false, abstract: false, final false
-  inline int32_t UnmanagedWrite(::System::IntPtr buffer, int32_t length);
+/// @brief Method UnmanagedWrite, addr 0x6241554, size 0x1dc, virtual false, abstract: false, final false
+inline int32_t UnmanagedWrite(::System::IntPtr  buffer, int32_t  length) ;
 
-  /// @brief Method UnmanagedWrite, addr 0x6240824, size 0x10c, virtual false, abstract: false, final false
-  static inline int32_t UnmanagedWrite(::System::IntPtr buffer, int32_t length, ::System::IntPtr data);
+/// @brief Method UnmanagedWrite, addr 0x6240ee4, size 0x10c, virtual false, abstract: false, final false
+static inline int32_t UnmanagedWrite(::System::IntPtr  buffer, int32_t  length, ::System::IntPtr  data) ;
 
-  /// @brief Method WriteZStream, addr 0x6240c70, size 0x7c, virtual false, abstract: false, final false
-  static inline int32_t WriteZStream(::System::IO::Compression::DeflateStreamNative_SafeDeflateStreamHandle* stream, ::System::IntPtr buffer, int32_t length);
+/// @brief Method WriteZStream, addr 0x6241330, size 0x7c, virtual false, abstract: false, final false
+static inline int32_t WriteZStream(::System::IO::Compression::DeflateStreamNative_SafeDeflateStreamHandle*  stream, ::System::IntPtr  buffer, int32_t  length) ;
 
-  /// @brief Method WriteZStream, addr 0x623f870, size 0x70, virtual false, abstract: false, final false
-  inline void WriteZStream(::System::IntPtr buffer, int32_t length);
+/// @brief Method WriteZStream, addr 0x623ff30, size 0x70, virtual false, abstract: false, final false
+inline void WriteZStream(::System::IntPtr  buffer, int32_t  length) ;
 
-  constexpr ::System::IO::Stream* const& __cordl_internal_get_base_stream() const;
+constexpr ::System::IO::Stream* const& __cordl_internal_get_base_stream() const;
 
-  constexpr ::System::IO::Stream*& __cordl_internal_get_base_stream();
+constexpr ::System::IO::Stream*& __cordl_internal_get_base_stream() ;
 
-  constexpr ::System::Runtime::InteropServices::GCHandle const& __cordl_internal_get_data() const;
+constexpr ::System::Runtime::InteropServices::GCHandle const& __cordl_internal_get_data() const;
 
-  constexpr ::System::Runtime::InteropServices::GCHandle& __cordl_internal_get_data();
+constexpr ::System::Runtime::InteropServices::GCHandle& __cordl_internal_get_data() ;
 
-  constexpr bool const& __cordl_internal_get_disposed() const;
+constexpr bool const& __cordl_internal_get_disposed() const;
 
-  constexpr bool& __cordl_internal_get_disposed();
+constexpr bool& __cordl_internal_get_disposed() ;
 
-  constexpr ::System::IO::Compression::DeflateStreamNative_UnmanagedReadOrWrite* const& __cordl_internal_get_feeder() const;
+constexpr ::System::IO::Compression::DeflateStreamNative_UnmanagedReadOrWrite* const& __cordl_internal_get_feeder() const;
 
-  constexpr ::System::IO::Compression::DeflateStreamNative_UnmanagedReadOrWrite*& __cordl_internal_get_feeder();
+constexpr ::System::IO::Compression::DeflateStreamNative_UnmanagedReadOrWrite*& __cordl_internal_get_feeder() ;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_io_buffer() const;
+constexpr ::ArrayW<uint8_t,::Array<uint8_t>*> const& __cordl_internal_get_io_buffer() const;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_io_buffer();
+constexpr ::ArrayW<uint8_t,::Array<uint8_t>*>& __cordl_internal_get_io_buffer() ;
 
-  constexpr ::System::Exception* const& __cordl_internal_get_last_error() const;
+constexpr ::System::Exception* const& __cordl_internal_get_last_error() const;
 
-  constexpr ::System::Exception*& __cordl_internal_get_last_error();
+constexpr ::System::Exception*& __cordl_internal_get_last_error() ;
 
-  constexpr ::System::IO::Compression::DeflateStreamNative_SafeDeflateStreamHandle* const& __cordl_internal_get_z_stream() const;
+constexpr ::System::IO::Compression::DeflateStreamNative_SafeDeflateStreamHandle* const& __cordl_internal_get_z_stream() const;
 
-  constexpr ::System::IO::Compression::DeflateStreamNative_SafeDeflateStreamHandle*& __cordl_internal_get_z_stream();
+constexpr ::System::IO::Compression::DeflateStreamNative_SafeDeflateStreamHandle*& __cordl_internal_get_z_stream() ;
 
-  constexpr void __cordl_internal_set_base_stream(::System::IO::Stream* value);
+constexpr void __cordl_internal_set_base_stream(::System::IO::Stream*  value) ;
 
-  constexpr void __cordl_internal_set_data(::System::Runtime::InteropServices::GCHandle value);
+constexpr void __cordl_internal_set_data(::System::Runtime::InteropServices::GCHandle  value) ;
 
-  constexpr void __cordl_internal_set_disposed(bool value);
+constexpr void __cordl_internal_set_disposed(bool  value) ;
 
-  constexpr void __cordl_internal_set_feeder(::System::IO::Compression::DeflateStreamNative_UnmanagedReadOrWrite* value);
+constexpr void __cordl_internal_set_feeder(::System::IO::Compression::DeflateStreamNative_UnmanagedReadOrWrite*  value) ;
 
-  constexpr void __cordl_internal_set_io_buffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+constexpr void __cordl_internal_set_io_buffer(::ArrayW<uint8_t,::Array<uint8_t>*>  value) ;
 
-  constexpr void __cordl_internal_set_last_error(::System::Exception* value);
+constexpr void __cordl_internal_set_last_error(::System::Exception*  value) ;
 
-  constexpr void __cordl_internal_set_z_stream(::System::IO::Compression::DeflateStreamNative_SafeDeflateStreamHandle* value);
+constexpr void __cordl_internal_set_z_stream(::System::IO::Compression::DeflateStreamNative_SafeDeflateStreamHandle*  value) ;
 
-  /// @brief Method .ctor, addr 0x6240930, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6240ff0, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DeflateStreamNative();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr DeflateStreamNative() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DeflateStreamNative", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  DeflateStreamNative(DeflateStreamNative&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DeflateStreamNative", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  DeflateStreamNative(DeflateStreamNative const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "DeflateStreamNative", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+DeflateStreamNative(DeflateStreamNative && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11416 };
+// Ctor Parameters [CppParam { name: "", ty: "DeflateStreamNative", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+DeflateStreamNative(DeflateStreamNative const& ) = delete;
 
-  /// @brief Field feeder, offset: 0x10, size: 0x8, def value: None
-  ::System::IO::Compression::DeflateStreamNative_UnmanagedReadOrWrite* ___feeder;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11420};
 
-  /// @brief Field base_stream, offset: 0x18, size: 0x8, def value: None
-  ::System::IO::Stream* ___base_stream;
+/// @brief Field feeder, offset: 0x10, size: 0x8, def value: None
+ ::System::IO::Compression::DeflateStreamNative_UnmanagedReadOrWrite*  ___feeder;
 
-  /// @brief Field z_stream, offset: 0x20, size: 0x8, def value: None
-  ::System::IO::Compression::DeflateStreamNative_SafeDeflateStreamHandle* ___z_stream;
+/// @brief Field base_stream, offset: 0x18, size: 0x8, def value: None
+ ::System::IO::Stream*  ___base_stream;
 
-  /// @brief Field data, offset: 0x28, size: 0x8, def value: None
-  ::System::Runtime::InteropServices::GCHandle ___data;
+/// @brief Field z_stream, offset: 0x20, size: 0x8, def value: None
+ ::System::IO::Compression::DeflateStreamNative_SafeDeflateStreamHandle*  ___z_stream;
 
-  /// @brief Field disposed, offset: 0x30, size: 0x1, def value: None
-  bool ___disposed;
+/// @brief Field data, offset: 0x28, size: 0x8, def value: None
+ ::System::Runtime::InteropServices::GCHandle  ___data;
 
-  /// @brief Field io_buffer, offset: 0x38, size: 0x8, def value: None
-  ::ArrayW<uint8_t, ::Array<uint8_t>*> ___io_buffer;
+/// @brief Field disposed, offset: 0x30, size: 0x1, def value: None
+ bool  ___disposed;
 
-  /// @brief Field last_error, offset: 0x40, size: 0x8, def value: None
-  ::System::Exception* ___last_error;
+/// @brief Field io_buffer, offset: 0x38, size: 0x8, def value: None
+ ::ArrayW<uint8_t,::Array<uint8_t>*>  ___io_buffer;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field last_error, offset: 0x40, size: 0x8, def value: None
+ ::System::Exception*  ___last_error;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::IO::Compression::DeflateStreamNative, ___feeder) == 0x10, "Offset mismatch!");
@@ -311,7 +310,7 @@ static_assert(offsetof(::System::IO::Compression::DeflateStreamNative, ___last_e
 
 static_assert(::cordl_internals::size_check_v<::System::IO::Compression::DeflateStreamNative, 0x48>, "Size mismatch!");
 
-} // namespace System::IO::Compression
+} // namespace end def System::IO::Compression
 NEED_NO_BOX(::System::IO::Compression::DeflateStreamNative);
 DEFINE_IL2CPP_ARG_TYPE(::System::IO::Compression::DeflateStreamNative*, "System.IO.Compression", "DeflateStreamNative");
 NEED_NO_BOX(::System::IO::Compression::DeflateStreamNative_SafeDeflateStreamHandle);

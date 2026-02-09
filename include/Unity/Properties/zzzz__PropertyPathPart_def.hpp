@@ -9,7 +9,8 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PropertyPathPart)
 namespace System {
-template <typename T> class IEquatable_1;
+template<typename T>
+class IEquatable_1;
 }
 namespace System {
 class Object;
@@ -29,94 +30,93 @@ namespace Unity::Properties {
 // CS Name: Unity.Properties.PropertyPathPart
 struct CORDL_TYPE PropertyPathPart {
 public:
-  // Declarations
-  __declspec(property(get = get_Index)) int32_t Index;
+// Declarations
+ __declspec(property(get=get_Index)) int32_t  Index;
 
-  __declspec(property(get = get_IsIndex)) bool IsIndex;
+ __declspec(property(get=get_IsIndex)) bool  IsIndex;
 
-  __declspec(property(get = get_IsName)) bool IsName;
+ __declspec(property(get=get_IsName)) bool  IsName;
 
-  __declspec(property(get = get_Key)) ::System::Object* Key;
+ __declspec(property(get=get_Key)) ::System::Object*  Key;
 
-  __declspec(property(get = get_Kind)) ::Unity::Properties::PropertyPathPartKind Kind;
+ __declspec(property(get=get_Kind)) ::Unity::Properties::PropertyPathPartKind  Kind;
 
-  __declspec(property(get = get_Name)) ::StringW Name;
+ __declspec(property(get=get_Name)) ::StringW  Name;
 
-  /// @brief Convert operator to "::System::IEquatable_1<::Unity::Properties::PropertyPathPart>"
-  constexpr operator ::System::IEquatable_1<::Unity::Properties::PropertyPathPart>*();
+/// @brief Convert operator to "::System::IEquatable_1<::Unity::Properties::PropertyPathPart>"
+constexpr operator  ::System::IEquatable_1<::Unity::Properties::PropertyPathPart>*() ;
 
-  /// @brief Method CheckKind, addr 0x69d36f8, size 0x48, virtual false, abstract: false, final false
-  inline void CheckKind(::Unity::Properties::PropertyPathPartKind type);
+/// @brief Method CheckKind, addr 0x69d3db8, size 0x48, virtual false, abstract: false, final false
+inline void CheckKind(::Unity::Properties::PropertyPathPartKind  type) ;
 
-  /// @brief Method Equals, addr 0x69d3904, size 0x8c, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* obj);
+/// @brief Method Equals, addr 0x69d3fc4, size 0x8c, virtual true, abstract: false, final false
+inline bool Equals(::System::Object*  obj) ;
 
-  /// @brief Method Equals, addr 0x69d3878, size 0x8c, virtual true, abstract: false, final true
-  inline bool Equals(::Unity::Properties::PropertyPathPart other);
+/// @brief Method Equals, addr 0x69d3f38, size 0x8c, virtual true, abstract: false, final true
+inline bool Equals(::Unity::Properties::PropertyPathPart  other) ;
 
-  /// @brief Method GetHashCode, addr 0x69d3990, size 0xa8, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
+/// @brief Method GetHashCode, addr 0x69d4050, size 0xa8, virtual true, abstract: false, final false
+inline int32_t GetHashCode() ;
 
-  /// @brief Method ToString, addr 0x69d3740, size 0x138, virtual true, abstract: false, final false
-  inline ::StringW ToString();
+/// @brief Method ToString, addr 0x69d3e00, size 0x138, virtual true, abstract: false, final false
+inline ::StringW ToString() ;
 
-  /// @brief Method .ctor, addr 0x69d36a4, size 0x28, virtual false, abstract: false, final false
-  inline void _ctor(int32_t index);
+/// @brief Method .ctor, addr 0x69d3d64, size 0x28, virtual false, abstract: false, final false
+inline void _ctor(int32_t  index) ;
 
-  /// @brief Method .ctor, addr 0x69d36cc, size 0x2c, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* key);
+/// @brief Method .ctor, addr 0x69d3d8c, size 0x2c, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  key) ;
 
-  /// @brief Method .ctor, addr 0x69d368c, size 0x18, virtual false, abstract: false, final false
-  inline void _ctor(::StringW name);
+/// @brief Method .ctor, addr 0x69d3d4c, size 0x18, virtual false, abstract: false, final false
+inline void _ctor(::StringW  name) ;
 
-  /// @brief Method get_Index, addr 0x69d35f4, size 0x4c, virtual false, abstract: false, final false
-  inline int32_t get_Index();
+/// @brief Method get_Index, addr 0x69d3cb4, size 0x4c, virtual false, abstract: false, final false
+inline int32_t get_Index() ;
 
-  /// @brief Method get_IsIndex, addr 0x69d3594, size 0x10, virtual false, abstract: false, final false
-  inline bool get_IsIndex();
+/// @brief Method get_IsIndex, addr 0x69d3c54, size 0x10, virtual false, abstract: false, final false
+inline bool get_IsIndex() ;
 
-  /// @brief Method get_IsName, addr 0x69d3584, size 0x10, virtual false, abstract: false, final false
-  inline bool get_IsName();
+/// @brief Method get_IsName, addr 0x69d3c44, size 0x10, virtual false, abstract: false, final false
+inline bool get_IsName() ;
 
-  /// @brief Method get_Key, addr 0x69d3640, size 0x4c, virtual false, abstract: false, final false
-  inline ::System::Object* get_Key();
+/// @brief Method get_Key, addr 0x69d3d00, size 0x4c, virtual false, abstract: false, final false
+inline ::System::Object* get_Key() ;
 
-  /// @brief Method get_Kind, addr 0x69d35a4, size 0x8, virtual false, abstract: false, final false
-  inline ::Unity::Properties::PropertyPathPartKind get_Kind();
+/// @brief Method get_Kind, addr 0x69d3c64, size 0x8, virtual false, abstract: false, final false
+inline ::Unity::Properties::PropertyPathPartKind get_Kind() ;
 
-  /// @brief Method get_Name, addr 0x69d35ac, size 0x48, virtual false, abstract: false, final false
-  inline ::StringW get_Name();
+/// @brief Method get_Name, addr 0x69d3c6c, size 0x48, virtual false, abstract: false, final false
+inline ::StringW get_Name() ;
 
-  /// @brief Convert to "::System::IEquatable_1<::Unity::Properties::PropertyPathPart>"
-  constexpr ::System::IEquatable_1<::Unity::Properties::PropertyPathPart>* i___System__IEquatable_1___Unity__Properties__PropertyPathPart_();
+/// @brief Convert to "::System::IEquatable_1<::Unity::Properties::PropertyPathPart>"
+constexpr ::System::IEquatable_1<::Unity::Properties::PropertyPathPart>* i___System__IEquatable_1___Unity__Properties__PropertyPathPart_() ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PropertyPathPart();
+// Ctor Parameters []
+// @brief default ctor
+constexpr PropertyPathPart() ;
 
-  // Ctor Parameters [CppParam { name: "m_Kind", ty: "::Unity::Properties::PropertyPathPartKind", modifiers: "", def_value: None }, CppParam { name: "m_Name", ty: "::StringW", modifiers: "",
-  // def_value: None }, CppParam { name: "m_Index", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_Key", ty: "::System::Object*", modifiers: "", def_value: None }]
-  constexpr PropertyPathPart(::Unity::Properties::PropertyPathPartKind m_Kind, ::StringW m_Name, int32_t m_Index, ::System::Object* m_Key) noexcept;
+// Ctor Parameters [CppParam { name: "m_Kind", ty: "::Unity::Properties::PropertyPathPartKind", modifiers: "", def_value: None }, CppParam { name: "m_Name", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "m_Index", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_Key", ty: "::System::Object*", modifiers: "", def_value: None }]
+constexpr PropertyPathPart(::Unity::Properties::PropertyPathPartKind  m_Kind, ::StringW  m_Name, int32_t  m_Index, ::System::Object*  m_Key) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19345 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{19349};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x20};
 
-  /// @brief Field m_Kind, offset: 0x0, size: 0x4, def value: None
-  ::Unity::Properties::PropertyPathPartKind m_Kind;
+/// @brief Field m_Kind, offset: 0x0, size: 0x4, def value: None
+ ::Unity::Properties::PropertyPathPartKind  m_Kind;
 
-  /// @brief Field m_Name, offset: 0x8, size: 0x8, def value: None
-  ::StringW m_Name;
+/// @brief Field m_Name, offset: 0x8, size: 0x8, def value: None
+ ::StringW  m_Name;
 
-  /// @brief Field m_Index, offset: 0x10, size: 0x4, def value: None
-  int32_t m_Index;
+/// @brief Field m_Index, offset: 0x10, size: 0x4, def value: None
+ int32_t  m_Index;
 
-  /// @brief Field m_Key, offset: 0x18, size: 0x8, def value: None
-  ::System::Object* m_Key;
+/// @brief Field m_Key, offset: 0x18, size: 0x8, def value: None
+ ::System::Object*  m_Key;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::Unity::Properties::PropertyPathPart, m_Kind) == 0x0, "Offset mismatch!");
@@ -129,5 +129,5 @@ static_assert(offsetof(::Unity::Properties::PropertyPathPart, m_Key) == 0x18, "O
 
 static_assert(::cordl_internals::size_check_v<::Unity::Properties::PropertyPathPart, 0x20>, "Size mismatch!");
 
-} // namespace Unity::Properties
+} // namespace end def Unity::Properties
 DEFINE_IL2CPP_ARG_TYPE(::Unity::Properties::PropertyPathPart, "Unity.Properties", "PropertyPathPart");

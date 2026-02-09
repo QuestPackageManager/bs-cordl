@@ -35,312 +35,305 @@ namespace UnityEngine::Rendering::Universal {
 // CS Name: UnityEngine.Rendering.Universal.MotionVectorsPersistentData
 class CORDL_TYPE MotionVectorsPersistentData : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(get = get_deltaTime)) float_t deltaTime;
+// Declarations
+ __declspec(property(get=get_deltaTime)) float_t  deltaTime;
 
-  __declspec(property(get = get_lastDeltaTime)) float_t lastDeltaTime;
+ __declspec(property(get=get_lastDeltaTime)) float_t  lastDeltaTime;
 
-  __declspec(property(get = get_lastFrameIndex)) int32_t lastFrameIndex;
+ __declspec(property(get=get_lastFrameIndex)) int32_t  lastFrameIndex;
 
-  /// @brief Field m_LastFrameIndex, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_LastFrameIndex, put = __cordl_internal_set_m_LastFrameIndex)) ::ArrayW<int32_t, ::Array<int32_t>*> m_LastFrameIndex;
+/// @brief Field m_LastFrameIndex, offset 0x50, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_LastFrameIndex, put=__cordl_internal_set_m_LastFrameIndex)) ::ArrayW<int32_t,::Array<int32_t>*>  m_LastFrameIndex;
 
-  /// @brief Field m_PrevAspectRatio, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_PrevAspectRatio, put = __cordl_internal_set_m_PrevAspectRatio)) ::ArrayW<float_t, ::Array<float_t>*> m_PrevAspectRatio;
+/// @brief Field m_PrevAspectRatio, offset 0x58, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_PrevAspectRatio, put=__cordl_internal_set_m_PrevAspectRatio)) ::ArrayW<float_t,::Array<float_t>*>  m_PrevAspectRatio;
 
-  /// @brief Field m_PreviousPreviousProjection, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_PreviousPreviousProjection,
-                      put = __cordl_internal_set_m_PreviousPreviousProjection)) ::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*>
-      m_PreviousPreviousProjection;
+/// @brief Field m_PreviousPreviousProjection, offset 0x40, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_PreviousPreviousProjection, put=__cordl_internal_set_m_PreviousPreviousProjection)) ::ArrayW<::UnityEngine::Matrix4x4,::Array<::UnityEngine::Matrix4x4>*>  m_PreviousPreviousProjection;
 
-  /// @brief Field m_PreviousPreviousView, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_PreviousPreviousView, put = __cordl_internal_set_m_PreviousPreviousView)) ::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*>
-      m_PreviousPreviousView;
+/// @brief Field m_PreviousPreviousView, offset 0x48, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_PreviousPreviousView, put=__cordl_internal_set_m_PreviousPreviousView)) ::ArrayW<::UnityEngine::Matrix4x4,::Array<::UnityEngine::Matrix4x4>*>  m_PreviousPreviousView;
 
-  /// @brief Field m_PreviousProjection, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_PreviousProjection, put = __cordl_internal_set_m_PreviousProjection)) ::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*>
-      m_PreviousProjection;
+/// @brief Field m_PreviousProjection, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_PreviousProjection, put=__cordl_internal_set_m_PreviousProjection)) ::ArrayW<::UnityEngine::Matrix4x4,::Array<::UnityEngine::Matrix4x4>*>  m_PreviousProjection;
 
-  /// @brief Field m_PreviousView, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_PreviousView, put = __cordl_internal_set_m_PreviousView)) ::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*> m_PreviousView;
+/// @brief Field m_PreviousView, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_PreviousView, put=__cordl_internal_set_m_PreviousView)) ::ArrayW<::UnityEngine::Matrix4x4,::Array<::UnityEngine::Matrix4x4>*>  m_PreviousView;
 
-  /// @brief Field m_PreviousViewProjection, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_PreviousViewProjection, put = __cordl_internal_set_m_PreviousViewProjection)) ::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*>
-      m_PreviousViewProjection;
+/// @brief Field m_PreviousViewProjection, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_PreviousViewProjection, put=__cordl_internal_set_m_PreviousViewProjection)) ::ArrayW<::UnityEngine::Matrix4x4,::Array<::UnityEngine::Matrix4x4>*>  m_PreviousViewProjection;
 
-  /// @brief Field m_Projection, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Projection, put = __cordl_internal_set_m_Projection)) ::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*> m_Projection;
+/// @brief Field m_Projection, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_Projection, put=__cordl_internal_set_m_Projection)) ::ArrayW<::UnityEngine::Matrix4x4,::Array<::UnityEngine::Matrix4x4>*>  m_Projection;
 
-  /// @brief Field m_View, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_View, put = __cordl_internal_set_m_View)) ::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*> m_View;
+/// @brief Field m_View, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_View, put=__cordl_internal_set_m_View)) ::ArrayW<::UnityEngine::Matrix4x4,::Array<::UnityEngine::Matrix4x4>*>  m_View;
 
-  /// @brief Field m_ViewProjection, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_ViewProjection, put = __cordl_internal_set_m_ViewProjection)) ::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*>
-      m_ViewProjection;
+/// @brief Field m_ViewProjection, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_ViewProjection, put=__cordl_internal_set_m_ViewProjection)) ::ArrayW<::UnityEngine::Matrix4x4,::Array<::UnityEngine::Matrix4x4>*>  m_ViewProjection;
 
-  /// @brief Field m_deltaTime, offset 0x60, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_deltaTime, put = __cordl_internal_set_m_deltaTime)) float_t m_deltaTime;
+/// @brief Field m_deltaTime, offset 0x60, size 0x4 
+ __declspec(property(get=__cordl_internal_get_m_deltaTime, put=__cordl_internal_set_m_deltaTime)) float_t  m_deltaTime;
 
-  /// @brief Field m_lastDeltaTime, offset 0x64, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_lastDeltaTime, put = __cordl_internal_set_m_lastDeltaTime)) float_t m_lastDeltaTime;
+/// @brief Field m_lastDeltaTime, offset 0x64, size 0x4 
+ __declspec(property(get=__cordl_internal_get_m_lastDeltaTime, put=__cordl_internal_set_m_lastDeltaTime)) float_t  m_lastDeltaTime;
 
-  /// @brief Field m_previousPreviousWorldSpaceCameraPos, offset 0x80, size 0xc
-  __declspec(property(get = __cordl_internal_get_m_previousPreviousWorldSpaceCameraPos,
-                      put = __cordl_internal_set_m_previousPreviousWorldSpaceCameraPos)) ::UnityEngine::Vector3 m_previousPreviousWorldSpaceCameraPos;
+/// @brief Field m_previousPreviousWorldSpaceCameraPos, offset 0x80, size 0xc 
+ __declspec(property(get=__cordl_internal_get_m_previousPreviousWorldSpaceCameraPos, put=__cordl_internal_set_m_previousPreviousWorldSpaceCameraPos)) ::UnityEngine::Vector3  m_previousPreviousWorldSpaceCameraPos;
 
-  /// @brief Field m_previousWorldSpaceCameraPos, offset 0x74, size 0xc
-  __declspec(property(get = __cordl_internal_get_m_previousWorldSpaceCameraPos, put = __cordl_internal_set_m_previousWorldSpaceCameraPos)) ::UnityEngine::Vector3 m_previousWorldSpaceCameraPos;
+/// @brief Field m_previousWorldSpaceCameraPos, offset 0x74, size 0xc 
+ __declspec(property(get=__cordl_internal_get_m_previousWorldSpaceCameraPos, put=__cordl_internal_set_m_previousWorldSpaceCameraPos)) ::UnityEngine::Vector3  m_previousWorldSpaceCameraPos;
 
-  /// @brief Field m_worldSpaceCameraPos, offset 0x68, size 0xc
-  __declspec(property(get = __cordl_internal_get_m_worldSpaceCameraPos, put = __cordl_internal_set_m_worldSpaceCameraPos)) ::UnityEngine::Vector3 m_worldSpaceCameraPos;
+/// @brief Field m_worldSpaceCameraPos, offset 0x68, size 0xc 
+ __declspec(property(get=__cordl_internal_get_m_worldSpaceCameraPos, put=__cordl_internal_set_m_worldSpaceCameraPos)) ::UnityEngine::Vector3  m_worldSpaceCameraPos;
 
-  __declspec(property(get = get_previousPreviousProjectionStereo)) ::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*> previousPreviousProjectionStereo;
+ __declspec(property(get=get_previousPreviousProjectionStereo)) ::ArrayW<::UnityEngine::Matrix4x4,::Array<::UnityEngine::Matrix4x4>*>  previousPreviousProjectionStereo;
 
-  __declspec(property(get = get_previousPreviousViewStereo)) ::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*> previousPreviousViewStereo;
+ __declspec(property(get=get_previousPreviousViewStereo)) ::ArrayW<::UnityEngine::Matrix4x4,::Array<::UnityEngine::Matrix4x4>*>  previousPreviousViewStereo;
 
-  __declspec(property(get = get_previousPreviousWorldSpaceCameraPos)) ::UnityEngine::Vector3 previousPreviousWorldSpaceCameraPos;
+ __declspec(property(get=get_previousPreviousWorldSpaceCameraPos)) ::UnityEngine::Vector3  previousPreviousWorldSpaceCameraPos;
 
-  __declspec(property(get = get_previousProjectionStereo)) ::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*> previousProjectionStereo;
+ __declspec(property(get=get_previousProjectionStereo)) ::ArrayW<::UnityEngine::Matrix4x4,::Array<::UnityEngine::Matrix4x4>*>  previousProjectionStereo;
 
-  __declspec(property(get = get_previousViewProjection)) ::UnityEngine::Matrix4x4 previousViewProjection;
+ __declspec(property(get=get_previousViewProjection)) ::UnityEngine::Matrix4x4  previousViewProjection;
 
-  __declspec(property(get = get_previousViewProjectionStereo)) ::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*> previousViewProjectionStereo;
+ __declspec(property(get=get_previousViewProjectionStereo)) ::ArrayW<::UnityEngine::Matrix4x4,::Array<::UnityEngine::Matrix4x4>*>  previousViewProjectionStereo;
 
-  __declspec(property(get = get_previousViewStereo)) ::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*> previousViewStereo;
+ __declspec(property(get=get_previousViewStereo)) ::ArrayW<::UnityEngine::Matrix4x4,::Array<::UnityEngine::Matrix4x4>*>  previousViewStereo;
 
-  __declspec(property(get = get_previousWorldSpaceCameraPos)) ::UnityEngine::Vector3 previousWorldSpaceCameraPos;
+ __declspec(property(get=get_previousWorldSpaceCameraPos)) ::UnityEngine::Vector3  previousWorldSpaceCameraPos;
 
-  __declspec(property(get = get_projectionStereo)) ::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*> projectionStereo;
+ __declspec(property(get=get_projectionStereo)) ::ArrayW<::UnityEngine::Matrix4x4,::Array<::UnityEngine::Matrix4x4>*>  projectionStereo;
 
-  __declspec(property(get = get_viewProjection)) ::UnityEngine::Matrix4x4 viewProjection;
+ __declspec(property(get=get_viewProjection)) ::UnityEngine::Matrix4x4  viewProjection;
 
-  __declspec(property(get = get_viewProjectionStereo)) ::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*> viewProjectionStereo;
+ __declspec(property(get=get_viewProjectionStereo)) ::ArrayW<::UnityEngine::Matrix4x4,::Array<::UnityEngine::Matrix4x4>*>  viewProjectionStereo;
 
-  __declspec(property(get = get_viewStereo)) ::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*> viewStereo;
+ __declspec(property(get=get_viewStereo)) ::ArrayW<::UnityEngine::Matrix4x4,::Array<::UnityEngine::Matrix4x4>*>  viewStereo;
 
-  __declspec(property(get = get_worldSpaceCameraPos)) ::UnityEngine::Vector3 worldSpaceCameraPos;
+ __declspec(property(get=get_worldSpaceCameraPos)) ::UnityEngine::Vector3  worldSpaceCameraPos;
 
-  /// @brief Method GetXRMultiPassId, addr 0x66c4ce8, size 0x30, virtual false, abstract: false, final false
-  static inline int32_t GetXRMultiPassId(::UnityEngine::Experimental::Rendering::XRPass* xr);
+/// @brief Method GetXRMultiPassId, addr 0x66c53a8, size 0x30, virtual false, abstract: false, final false
+static inline int32_t GetXRMultiPassId(::UnityEngine::Experimental::Rendering::XRPass*  xr) ;
 
-  static inline ::UnityEngine::Rendering::Universal::MotionVectorsPersistentData* New_ctor();
+static inline ::UnityEngine::Rendering::Universal::MotionVectorsPersistentData* New_ctor() ;
 
-  /// @brief Method Reset, addr 0x66c4910, size 0x2d4, virtual false, abstract: false, final false
-  inline void Reset();
+/// @brief Method Reset, addr 0x66c4fd0, size 0x2d4, virtual false, abstract: false, final false
+inline void Reset() ;
 
-  /// @brief Method SetGlobalMotionMatrices, addr 0x66c536c, size 0x19c, virtual false, abstract: false, final false
-  inline void SetGlobalMotionMatrices(::UnityEngine::Rendering::RasterCommandBuffer* cmd, ::UnityEngine::Experimental::Rendering::XRPass* xr);
+/// @brief Method SetGlobalMotionMatrices, addr 0x66c5a2c, size 0x19c, virtual false, abstract: false, final false
+inline void SetGlobalMotionMatrices(::UnityEngine::Rendering::RasterCommandBuffer*  cmd, ::UnityEngine::Experimental::Rendering::XRPass*  xr) ;
 
-  /// @brief Method Update, addr 0x66c4d18, size 0x654, virtual false, abstract: false, final false
-  inline void Update(::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData);
+/// @brief Method Update, addr 0x66c53d8, size 0x654, virtual false, abstract: false, final false
+inline void Update(::UnityEngine::Rendering::Universal::UniversalCameraData*  cameraData) ;
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_m_LastFrameIndex() const;
+constexpr ::ArrayW<int32_t,::Array<int32_t>*> const& __cordl_internal_get_m_LastFrameIndex() const;
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_m_LastFrameIndex();
+constexpr ::ArrayW<int32_t,::Array<int32_t>*>& __cordl_internal_get_m_LastFrameIndex() ;
 
-  constexpr ::ArrayW<float_t, ::Array<float_t>*> const& __cordl_internal_get_m_PrevAspectRatio() const;
+constexpr ::ArrayW<float_t,::Array<float_t>*> const& __cordl_internal_get_m_PrevAspectRatio() const;
 
-  constexpr ::ArrayW<float_t, ::Array<float_t>*>& __cordl_internal_get_m_PrevAspectRatio();
+constexpr ::ArrayW<float_t,::Array<float_t>*>& __cordl_internal_get_m_PrevAspectRatio() ;
 
-  constexpr ::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*> const& __cordl_internal_get_m_PreviousPreviousProjection() const;
+constexpr ::ArrayW<::UnityEngine::Matrix4x4,::Array<::UnityEngine::Matrix4x4>*> const& __cordl_internal_get_m_PreviousPreviousProjection() const;
 
-  constexpr ::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*>& __cordl_internal_get_m_PreviousPreviousProjection();
+constexpr ::ArrayW<::UnityEngine::Matrix4x4,::Array<::UnityEngine::Matrix4x4>*>& __cordl_internal_get_m_PreviousPreviousProjection() ;
 
-  constexpr ::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*> const& __cordl_internal_get_m_PreviousPreviousView() const;
+constexpr ::ArrayW<::UnityEngine::Matrix4x4,::Array<::UnityEngine::Matrix4x4>*> const& __cordl_internal_get_m_PreviousPreviousView() const;
 
-  constexpr ::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*>& __cordl_internal_get_m_PreviousPreviousView();
+constexpr ::ArrayW<::UnityEngine::Matrix4x4,::Array<::UnityEngine::Matrix4x4>*>& __cordl_internal_get_m_PreviousPreviousView() ;
 
-  constexpr ::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*> const& __cordl_internal_get_m_PreviousProjection() const;
+constexpr ::ArrayW<::UnityEngine::Matrix4x4,::Array<::UnityEngine::Matrix4x4>*> const& __cordl_internal_get_m_PreviousProjection() const;
 
-  constexpr ::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*>& __cordl_internal_get_m_PreviousProjection();
+constexpr ::ArrayW<::UnityEngine::Matrix4x4,::Array<::UnityEngine::Matrix4x4>*>& __cordl_internal_get_m_PreviousProjection() ;
 
-  constexpr ::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*> const& __cordl_internal_get_m_PreviousView() const;
+constexpr ::ArrayW<::UnityEngine::Matrix4x4,::Array<::UnityEngine::Matrix4x4>*> const& __cordl_internal_get_m_PreviousView() const;
 
-  constexpr ::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*>& __cordl_internal_get_m_PreviousView();
+constexpr ::ArrayW<::UnityEngine::Matrix4x4,::Array<::UnityEngine::Matrix4x4>*>& __cordl_internal_get_m_PreviousView() ;
 
-  constexpr ::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*> const& __cordl_internal_get_m_PreviousViewProjection() const;
+constexpr ::ArrayW<::UnityEngine::Matrix4x4,::Array<::UnityEngine::Matrix4x4>*> const& __cordl_internal_get_m_PreviousViewProjection() const;
 
-  constexpr ::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*>& __cordl_internal_get_m_PreviousViewProjection();
+constexpr ::ArrayW<::UnityEngine::Matrix4x4,::Array<::UnityEngine::Matrix4x4>*>& __cordl_internal_get_m_PreviousViewProjection() ;
 
-  constexpr ::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*> const& __cordl_internal_get_m_Projection() const;
+constexpr ::ArrayW<::UnityEngine::Matrix4x4,::Array<::UnityEngine::Matrix4x4>*> const& __cordl_internal_get_m_Projection() const;
 
-  constexpr ::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*>& __cordl_internal_get_m_Projection();
+constexpr ::ArrayW<::UnityEngine::Matrix4x4,::Array<::UnityEngine::Matrix4x4>*>& __cordl_internal_get_m_Projection() ;
 
-  constexpr ::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*> const& __cordl_internal_get_m_View() const;
+constexpr ::ArrayW<::UnityEngine::Matrix4x4,::Array<::UnityEngine::Matrix4x4>*> const& __cordl_internal_get_m_View() const;
 
-  constexpr ::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*>& __cordl_internal_get_m_View();
+constexpr ::ArrayW<::UnityEngine::Matrix4x4,::Array<::UnityEngine::Matrix4x4>*>& __cordl_internal_get_m_View() ;
 
-  constexpr ::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*> const& __cordl_internal_get_m_ViewProjection() const;
+constexpr ::ArrayW<::UnityEngine::Matrix4x4,::Array<::UnityEngine::Matrix4x4>*> const& __cordl_internal_get_m_ViewProjection() const;
 
-  constexpr ::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*>& __cordl_internal_get_m_ViewProjection();
+constexpr ::ArrayW<::UnityEngine::Matrix4x4,::Array<::UnityEngine::Matrix4x4>*>& __cordl_internal_get_m_ViewProjection() ;
 
-  constexpr float_t const& __cordl_internal_get_m_deltaTime() const;
+constexpr float_t const& __cordl_internal_get_m_deltaTime() const;
 
-  constexpr float_t& __cordl_internal_get_m_deltaTime();
+constexpr float_t& __cordl_internal_get_m_deltaTime() ;
 
-  constexpr float_t const& __cordl_internal_get_m_lastDeltaTime() const;
+constexpr float_t const& __cordl_internal_get_m_lastDeltaTime() const;
 
-  constexpr float_t& __cordl_internal_get_m_lastDeltaTime();
+constexpr float_t& __cordl_internal_get_m_lastDeltaTime() ;
 
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_m_previousPreviousWorldSpaceCameraPos() const;
+constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_m_previousPreviousWorldSpaceCameraPos() const;
 
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_m_previousPreviousWorldSpaceCameraPos();
+constexpr ::UnityEngine::Vector3& __cordl_internal_get_m_previousPreviousWorldSpaceCameraPos() ;
 
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_m_previousWorldSpaceCameraPos() const;
+constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_m_previousWorldSpaceCameraPos() const;
 
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_m_previousWorldSpaceCameraPos();
+constexpr ::UnityEngine::Vector3& __cordl_internal_get_m_previousWorldSpaceCameraPos() ;
 
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_m_worldSpaceCameraPos() const;
+constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_m_worldSpaceCameraPos() const;
 
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get_m_worldSpaceCameraPos();
+constexpr ::UnityEngine::Vector3& __cordl_internal_get_m_worldSpaceCameraPos() ;
 
-  constexpr void __cordl_internal_set_m_LastFrameIndex(::ArrayW<int32_t, ::Array<int32_t>*> value);
+constexpr void __cordl_internal_set_m_LastFrameIndex(::ArrayW<int32_t,::Array<int32_t>*>  value) ;
 
-  constexpr void __cordl_internal_set_m_PrevAspectRatio(::ArrayW<float_t, ::Array<float_t>*> value);
+constexpr void __cordl_internal_set_m_PrevAspectRatio(::ArrayW<float_t,::Array<float_t>*>  value) ;
 
-  constexpr void __cordl_internal_set_m_PreviousPreviousProjection(::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*> value);
+constexpr void __cordl_internal_set_m_PreviousPreviousProjection(::ArrayW<::UnityEngine::Matrix4x4,::Array<::UnityEngine::Matrix4x4>*>  value) ;
 
-  constexpr void __cordl_internal_set_m_PreviousPreviousView(::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*> value);
+constexpr void __cordl_internal_set_m_PreviousPreviousView(::ArrayW<::UnityEngine::Matrix4x4,::Array<::UnityEngine::Matrix4x4>*>  value) ;
 
-  constexpr void __cordl_internal_set_m_PreviousProjection(::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*> value);
+constexpr void __cordl_internal_set_m_PreviousProjection(::ArrayW<::UnityEngine::Matrix4x4,::Array<::UnityEngine::Matrix4x4>*>  value) ;
 
-  constexpr void __cordl_internal_set_m_PreviousView(::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*> value);
+constexpr void __cordl_internal_set_m_PreviousView(::ArrayW<::UnityEngine::Matrix4x4,::Array<::UnityEngine::Matrix4x4>*>  value) ;
 
-  constexpr void __cordl_internal_set_m_PreviousViewProjection(::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*> value);
+constexpr void __cordl_internal_set_m_PreviousViewProjection(::ArrayW<::UnityEngine::Matrix4x4,::Array<::UnityEngine::Matrix4x4>*>  value) ;
 
-  constexpr void __cordl_internal_set_m_Projection(::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*> value);
+constexpr void __cordl_internal_set_m_Projection(::ArrayW<::UnityEngine::Matrix4x4,::Array<::UnityEngine::Matrix4x4>*>  value) ;
 
-  constexpr void __cordl_internal_set_m_View(::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*> value);
+constexpr void __cordl_internal_set_m_View(::ArrayW<::UnityEngine::Matrix4x4,::Array<::UnityEngine::Matrix4x4>*>  value) ;
 
-  constexpr void __cordl_internal_set_m_ViewProjection(::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*> value);
+constexpr void __cordl_internal_set_m_ViewProjection(::ArrayW<::UnityEngine::Matrix4x4,::Array<::UnityEngine::Matrix4x4>*>  value) ;
 
-  constexpr void __cordl_internal_set_m_deltaTime(float_t value);
+constexpr void __cordl_internal_set_m_deltaTime(float_t  value) ;
 
-  constexpr void __cordl_internal_set_m_lastDeltaTime(float_t value);
+constexpr void __cordl_internal_set_m_lastDeltaTime(float_t  value) ;
 
-  constexpr void __cordl_internal_set_m_previousPreviousWorldSpaceCameraPos(::UnityEngine::Vector3 value);
+constexpr void __cordl_internal_set_m_previousPreviousWorldSpaceCameraPos(::UnityEngine::Vector3  value) ;
 
-  constexpr void __cordl_internal_set_m_previousWorldSpaceCameraPos(::UnityEngine::Vector3 value);
+constexpr void __cordl_internal_set_m_previousWorldSpaceCameraPos(::UnityEngine::Vector3  value) ;
 
-  constexpr void __cordl_internal_set_m_worldSpaceCameraPos(::UnityEngine::Vector3 value);
+constexpr void __cordl_internal_set_m_worldSpaceCameraPos(::UnityEngine::Vector3  value) ;
 
-  /// @brief Method .ctor, addr 0x66c47d0, size 0x140, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x66c4e90, size 0x140, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_deltaTime, addr 0x66c4cb4, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_deltaTime();
+/// @brief Method get_deltaTime, addr 0x66c5374, size 0x8, virtual false, abstract: false, final false
+inline float_t get_deltaTime() ;
 
-  /// @brief Method get_lastDeltaTime, addr 0x66c4cbc, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_lastDeltaTime();
+/// @brief Method get_lastDeltaTime, addr 0x66c537c, size 0x8, virtual false, abstract: false, final false
+inline float_t get_lastDeltaTime() ;
 
-  /// @brief Method get_lastFrameIndex, addr 0x66c4be4, size 0x28, virtual false, abstract: false, final false
-  inline int32_t get_lastFrameIndex();
+/// @brief Method get_lastFrameIndex, addr 0x66c52a4, size 0x28, virtual false, abstract: false, final false
+inline int32_t get_lastFrameIndex() ;
 
-  /// @brief Method get_previousPreviousProjectionStereo, addr 0x66c4c94, size 0x8, virtual false, abstract: false, final false
-  inline ::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*> get_previousPreviousProjectionStereo();
+/// @brief Method get_previousPreviousProjectionStereo, addr 0x66c5354, size 0x8, virtual false, abstract: false, final false
+inline ::ArrayW<::UnityEngine::Matrix4x4,::Array<::UnityEngine::Matrix4x4>*> get_previousPreviousProjectionStereo() ;
 
-  /// @brief Method get_previousPreviousViewStereo, addr 0x66c4cac, size 0x8, virtual false, abstract: false, final false
-  inline ::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*> get_previousPreviousViewStereo();
+/// @brief Method get_previousPreviousViewStereo, addr 0x66c536c, size 0x8, virtual false, abstract: false, final false
+inline ::ArrayW<::UnityEngine::Matrix4x4,::Array<::UnityEngine::Matrix4x4>*> get_previousPreviousViewStereo() ;
 
-  /// @brief Method get_previousPreviousWorldSpaceCameraPos, addr 0x66c4cdc, size 0xc, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector3 get_previousPreviousWorldSpaceCameraPos();
+/// @brief Method get_previousPreviousWorldSpaceCameraPos, addr 0x66c539c, size 0xc, virtual false, abstract: false, final false
+inline ::UnityEngine::Vector3 get_previousPreviousWorldSpaceCameraPos() ;
 
-  /// @brief Method get_previousProjectionStereo, addr 0x66c4c8c, size 0x8, virtual false, abstract: false, final false
-  inline ::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*> get_previousProjectionStereo();
+/// @brief Method get_previousProjectionStereo, addr 0x66c534c, size 0x8, virtual false, abstract: false, final false
+inline ::ArrayW<::UnityEngine::Matrix4x4,::Array<::UnityEngine::Matrix4x4>*> get_previousProjectionStereo() ;
 
-  /// @brief Method get_previousViewProjection, addr 0x66c4c40, size 0x34, virtual false, abstract: false, final false
-  inline ::UnityEngine::Matrix4x4 get_previousViewProjection();
+/// @brief Method get_previousViewProjection, addr 0x66c5300, size 0x34, virtual false, abstract: false, final false
+inline ::UnityEngine::Matrix4x4 get_previousViewProjection() ;
 
-  /// @brief Method get_previousViewProjectionStereo, addr 0x66c4c7c, size 0x8, virtual false, abstract: false, final false
-  inline ::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*> get_previousViewProjectionStereo();
+/// @brief Method get_previousViewProjectionStereo, addr 0x66c533c, size 0x8, virtual false, abstract: false, final false
+inline ::ArrayW<::UnityEngine::Matrix4x4,::Array<::UnityEngine::Matrix4x4>*> get_previousViewProjectionStereo() ;
 
-  /// @brief Method get_previousViewStereo, addr 0x66c4ca4, size 0x8, virtual false, abstract: false, final false
-  inline ::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*> get_previousViewStereo();
+/// @brief Method get_previousViewStereo, addr 0x66c5364, size 0x8, virtual false, abstract: false, final false
+inline ::ArrayW<::UnityEngine::Matrix4x4,::Array<::UnityEngine::Matrix4x4>*> get_previousViewStereo() ;
 
-  /// @brief Method get_previousWorldSpaceCameraPos, addr 0x66c4cd0, size 0xc, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector3 get_previousWorldSpaceCameraPos();
+/// @brief Method get_previousWorldSpaceCameraPos, addr 0x66c5390, size 0xc, virtual false, abstract: false, final false
+inline ::UnityEngine::Vector3 get_previousWorldSpaceCameraPos() ;
 
-  /// @brief Method get_projectionStereo, addr 0x66c4c84, size 0x8, virtual false, abstract: false, final false
-  inline ::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*> get_projectionStereo();
+/// @brief Method get_projectionStereo, addr 0x66c5344, size 0x8, virtual false, abstract: false, final false
+inline ::ArrayW<::UnityEngine::Matrix4x4,::Array<::UnityEngine::Matrix4x4>*> get_projectionStereo() ;
 
-  /// @brief Method get_viewProjection, addr 0x66c4c0c, size 0x34, virtual false, abstract: false, final false
-  inline ::UnityEngine::Matrix4x4 get_viewProjection();
+/// @brief Method get_viewProjection, addr 0x66c52cc, size 0x34, virtual false, abstract: false, final false
+inline ::UnityEngine::Matrix4x4 get_viewProjection() ;
 
-  /// @brief Method get_viewProjectionStereo, addr 0x66c4c74, size 0x8, virtual false, abstract: false, final false
-  inline ::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*> get_viewProjectionStereo();
+/// @brief Method get_viewProjectionStereo, addr 0x66c5334, size 0x8, virtual false, abstract: false, final false
+inline ::ArrayW<::UnityEngine::Matrix4x4,::Array<::UnityEngine::Matrix4x4>*> get_viewProjectionStereo() ;
 
-  /// @brief Method get_viewStereo, addr 0x66c4c9c, size 0x8, virtual false, abstract: false, final false
-  inline ::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*> get_viewStereo();
+/// @brief Method get_viewStereo, addr 0x66c535c, size 0x8, virtual false, abstract: false, final false
+inline ::ArrayW<::UnityEngine::Matrix4x4,::Array<::UnityEngine::Matrix4x4>*> get_viewStereo() ;
 
-  /// @brief Method get_worldSpaceCameraPos, addr 0x66c4cc4, size 0xc, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector3 get_worldSpaceCameraPos();
+/// @brief Method get_worldSpaceCameraPos, addr 0x66c5384, size 0xc, virtual false, abstract: false, final false
+inline ::UnityEngine::Vector3 get_worldSpaceCameraPos() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MotionVectorsPersistentData();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr MotionVectorsPersistentData() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MotionVectorsPersistentData", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  MotionVectorsPersistentData(MotionVectorsPersistentData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MotionVectorsPersistentData", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  MotionVectorsPersistentData(MotionVectorsPersistentData const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "MotionVectorsPersistentData", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+MotionVectorsPersistentData(MotionVectorsPersistentData && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12756 };
+// Ctor Parameters [CppParam { name: "", ty: "MotionVectorsPersistentData", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+MotionVectorsPersistentData(MotionVectorsPersistentData const& ) = delete;
 
-  /// @brief Field k_EyeCount offset 0xffffffff size 0x4
-  static constexpr int32_t k_EyeCount{ static_cast<int32_t>(0x2) };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12760};
 
-  /// @brief Field m_Projection, offset: 0x10, size: 0x8, def value: None
-  ::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*> ___m_Projection;
+/// @brief Field k_EyeCount offset 0xffffffff size 0x4
+static constexpr int32_t  k_EyeCount{static_cast<int32_t>(0x2)};
 
-  /// @brief Field m_View, offset: 0x18, size: 0x8, def value: None
-  ::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*> ___m_View;
+/// @brief Field m_Projection, offset: 0x10, size: 0x8, def value: None
+ ::ArrayW<::UnityEngine::Matrix4x4,::Array<::UnityEngine::Matrix4x4>*>  ___m_Projection;
 
-  /// @brief Field m_ViewProjection, offset: 0x20, size: 0x8, def value: None
-  ::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*> ___m_ViewProjection;
+/// @brief Field m_View, offset: 0x18, size: 0x8, def value: None
+ ::ArrayW<::UnityEngine::Matrix4x4,::Array<::UnityEngine::Matrix4x4>*>  ___m_View;
 
-  /// @brief Field m_PreviousProjection, offset: 0x28, size: 0x8, def value: None
-  ::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*> ___m_PreviousProjection;
+/// @brief Field m_ViewProjection, offset: 0x20, size: 0x8, def value: None
+ ::ArrayW<::UnityEngine::Matrix4x4,::Array<::UnityEngine::Matrix4x4>*>  ___m_ViewProjection;
 
-  /// @brief Field m_PreviousView, offset: 0x30, size: 0x8, def value: None
-  ::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*> ___m_PreviousView;
+/// @brief Field m_PreviousProjection, offset: 0x28, size: 0x8, def value: None
+ ::ArrayW<::UnityEngine::Matrix4x4,::Array<::UnityEngine::Matrix4x4>*>  ___m_PreviousProjection;
 
-  /// @brief Field m_PreviousViewProjection, offset: 0x38, size: 0x8, def value: None
-  ::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*> ___m_PreviousViewProjection;
+/// @brief Field m_PreviousView, offset: 0x30, size: 0x8, def value: None
+ ::ArrayW<::UnityEngine::Matrix4x4,::Array<::UnityEngine::Matrix4x4>*>  ___m_PreviousView;
 
-  /// @brief Field m_PreviousPreviousProjection, offset: 0x40, size: 0x8, def value: None
-  ::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*> ___m_PreviousPreviousProjection;
+/// @brief Field m_PreviousViewProjection, offset: 0x38, size: 0x8, def value: None
+ ::ArrayW<::UnityEngine::Matrix4x4,::Array<::UnityEngine::Matrix4x4>*>  ___m_PreviousViewProjection;
 
-  /// @brief Field m_PreviousPreviousView, offset: 0x48, size: 0x8, def value: None
-  ::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*> ___m_PreviousPreviousView;
+/// @brief Field m_PreviousPreviousProjection, offset: 0x40, size: 0x8, def value: None
+ ::ArrayW<::UnityEngine::Matrix4x4,::Array<::UnityEngine::Matrix4x4>*>  ___m_PreviousPreviousProjection;
 
-  /// @brief Field m_LastFrameIndex, offset: 0x50, size: 0x8, def value: None
-  ::ArrayW<int32_t, ::Array<int32_t>*> ___m_LastFrameIndex;
+/// @brief Field m_PreviousPreviousView, offset: 0x48, size: 0x8, def value: None
+ ::ArrayW<::UnityEngine::Matrix4x4,::Array<::UnityEngine::Matrix4x4>*>  ___m_PreviousPreviousView;
 
-  /// @brief Field m_PrevAspectRatio, offset: 0x58, size: 0x8, def value: None
-  ::ArrayW<float_t, ::Array<float_t>*> ___m_PrevAspectRatio;
+/// @brief Field m_LastFrameIndex, offset: 0x50, size: 0x8, def value: None
+ ::ArrayW<int32_t,::Array<int32_t>*>  ___m_LastFrameIndex;
 
-  /// @brief Field m_deltaTime, offset: 0x60, size: 0x4, def value: None
-  float_t ___m_deltaTime;
+/// @brief Field m_PrevAspectRatio, offset: 0x58, size: 0x8, def value: None
+ ::ArrayW<float_t,::Array<float_t>*>  ___m_PrevAspectRatio;
 
-  /// @brief Field m_lastDeltaTime, offset: 0x64, size: 0x4, def value: None
-  float_t ___m_lastDeltaTime;
+/// @brief Field m_deltaTime, offset: 0x60, size: 0x4, def value: None
+ float_t  ___m_deltaTime;
 
-  /// @brief Field m_worldSpaceCameraPos, offset: 0x68, size: 0xc, def value: None
-  ::UnityEngine::Vector3 ___m_worldSpaceCameraPos;
+/// @brief Field m_lastDeltaTime, offset: 0x64, size: 0x4, def value: None
+ float_t  ___m_lastDeltaTime;
 
-  /// @brief Field m_previousWorldSpaceCameraPos, offset: 0x74, size: 0xc, def value: None
-  ::UnityEngine::Vector3 ___m_previousWorldSpaceCameraPos;
+/// @brief Field m_worldSpaceCameraPos, offset: 0x68, size: 0xc, def value: None
+ ::UnityEngine::Vector3  ___m_worldSpaceCameraPos;
 
-  /// @brief Field m_previousPreviousWorldSpaceCameraPos, offset: 0x80, size: 0xc, def value: None
-  ::UnityEngine::Vector3 ___m_previousPreviousWorldSpaceCameraPos;
+/// @brief Field m_previousWorldSpaceCameraPos, offset: 0x74, size: 0xc, def value: None
+ ::UnityEngine::Vector3  ___m_previousWorldSpaceCameraPos;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field m_previousPreviousWorldSpaceCameraPos, offset: 0x80, size: 0xc, def value: None
+ ::UnityEngine::Vector3  ___m_previousPreviousWorldSpaceCameraPos;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Rendering::Universal::MotionVectorsPersistentData, ___m_Projection) == 0x10, "Offset mismatch!");
@@ -375,6 +368,6 @@ static_assert(offsetof(::UnityEngine::Rendering::Universal::MotionVectorsPersist
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::Universal::MotionVectorsPersistentData, 0x90>, "Size mismatch!");
 
-} // namespace UnityEngine::Rendering::Universal
+} // namespace end def UnityEngine::Rendering::Universal
 NEED_NO_BOX(::UnityEngine::Rendering::Universal::MotionVectorsPersistentData);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::Universal::MotionVectorsPersistentData*, "UnityEngine.Rendering.Universal", "MotionVectorsPersistentData");

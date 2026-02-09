@@ -29,44 +29,43 @@ namespace System::Data {
 // CS Name: System.Data.PrimaryKeyTypeConverter
 class CORDL_TYPE PrimaryKeyTypeConverter : public ::System::ComponentModel::ReferenceConverter {
 public:
-  // Declarations
-  /// @brief Method CanConvertTo, addr 0x5e96410, size 0x80, virtual true, abstract: false, final false
-  inline bool CanConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Type* destinationType);
+// Declarations
+/// @brief Method CanConvertTo, addr 0x5e96ad0, size 0x80, virtual true, abstract: false, final false
+inline bool CanConvertTo(::System::ComponentModel::ITypeDescriptorContext*  context, ::System::Type*  destinationType) ;
 
-  /// @brief Method ConvertTo, addr 0x5e96490, size 0x198, virtual true, abstract: false, final false
-  inline ::System::Object* ConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::System::Object* value,
-                                     ::System::Type* destinationType);
+/// @brief Method ConvertTo, addr 0x5e96b50, size 0x198, virtual true, abstract: false, final false
+inline ::System::Object* ConvertTo(::System::ComponentModel::ITypeDescriptorContext*  context, ::System::Globalization::CultureInfo*  culture, ::System::Object*  value, ::System::Type*  destinationType) ;
 
-  /// @brief Method GetPropertiesSupported, addr 0x5e96408, size 0x8, virtual true, abstract: false, final false
-  inline bool GetPropertiesSupported(::System::ComponentModel::ITypeDescriptorContext* context);
+/// @brief Method GetPropertiesSupported, addr 0x5e96ac8, size 0x8, virtual true, abstract: false, final false
+inline bool GetPropertiesSupported(::System::ComponentModel::ITypeDescriptorContext*  context) ;
 
-  static inline ::System::Data::PrimaryKeyTypeConverter* New_ctor();
+static inline ::System::Data::PrimaryKeyTypeConverter* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x5e9636c, size 0x9c, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5e96a2c, size 0x9c, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PrimaryKeyTypeConverter();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr PrimaryKeyTypeConverter() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PrimaryKeyTypeConverter", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  PrimaryKeyTypeConverter(PrimaryKeyTypeConverter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PrimaryKeyTypeConverter", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  PrimaryKeyTypeConverter(PrimaryKeyTypeConverter const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "PrimaryKeyTypeConverter", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+PrimaryKeyTypeConverter(PrimaryKeyTypeConverter && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13810 };
+// Ctor Parameters [CppParam { name: "", ty: "PrimaryKeyTypeConverter", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+PrimaryKeyTypeConverter(PrimaryKeyTypeConverter const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{13814};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Data::PrimaryKeyTypeConverter, 0x18>, "Size mismatch!");
 
-} // namespace System::Data
+} // namespace end def System::Data
 NEED_NO_BOX(::System::Data::PrimaryKeyTypeConverter);
 DEFINE_IL2CPP_ARG_TYPE(::System::Data::PrimaryKeyTypeConverter*, "System.Data", "PrimaryKeyTypeConverter");

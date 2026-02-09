@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "StyledUITemplates/ColorOverrideOption.hpp"
 #include "StyledUITemplates/OverridableBool.hpp"
@@ -10,5 +10,6 @@ module;
 #include "StyledUITemplates/OverridableInt.hpp"
 #include "StyledUITemplates/OverridableSprite.hpp"
 #ifdef __cpp_modules
-export module StyledUITemplates;
-#endif
+                    export module StyledUITemplates;
+                    #endif
+                

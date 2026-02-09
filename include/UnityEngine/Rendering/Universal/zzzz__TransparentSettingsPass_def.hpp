@@ -29,57 +29,57 @@ namespace UnityEngine::Rendering::Universal {
 // CS Name: UnityEngine.Rendering.Universal.TransparentSettingsPass
 class CORDL_TYPE TransparentSettingsPass : public ::UnityEngine::Rendering::Universal::ScriptableRenderPass {
 public:
-  // Declarations
-  /// @brief Field m_shouldReceiveShadows, offset 0xb8, size 0x1
-  __declspec(property(get = __cordl_internal_get_m_shouldReceiveShadows, put = __cordl_internal_set_m_shouldReceiveShadows)) bool m_shouldReceiveShadows;
+// Declarations
+/// @brief Field m_shouldReceiveShadows, offset 0xb8, size 0x1 
+ __declspec(property(get=__cordl_internal_get_m_shouldReceiveShadows, put=__cordl_internal_set_m_shouldReceiveShadows)) bool  m_shouldReceiveShadows;
 
-  /// @brief Method Execute, addr 0x66f0bb4, size 0xcc, virtual true, abstract: false, final false
-  inline void Execute(::UnityEngine::Rendering::ScriptableRenderContext context, ::ByRef<::UnityEngine::Rendering::Universal::RenderingData> renderingData);
+/// @brief Method Execute, addr 0x66f1274, size 0xcc, virtual true, abstract: false, final false
+inline void Execute(::UnityEngine::Rendering::ScriptableRenderContext  context, ::ByRef<::UnityEngine::Rendering::Universal::RenderingData>  renderingData) ;
 
-  /// @brief Method ExecutePass, addr 0x66f0c80, size 0x90, virtual false, abstract: false, final false
-  static inline void ExecutePass(::UnityEngine::Rendering::RasterCommandBuffer* rasterCommandBuffer);
+/// @brief Method ExecutePass, addr 0x66f1340, size 0x90, virtual false, abstract: false, final false
+static inline void ExecutePass(::UnityEngine::Rendering::RasterCommandBuffer*  rasterCommandBuffer) ;
 
-  static inline ::UnityEngine::Rendering::Universal::TransparentSettingsPass* New_ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt, bool shadowReceiveSupported);
+static inline ::UnityEngine::Rendering::Universal::TransparentSettingsPass* New_ctor(::UnityEngine::Rendering::Universal::RenderPassEvent  evt, bool  shadowReceiveSupported) ;
 
-  /// @brief Method Setup, addr 0x66f0ba4, size 0x10, virtual false, abstract: false, final false
-  inline bool Setup();
+/// @brief Method Setup, addr 0x66f1264, size 0x10, virtual false, abstract: false, final false
+inline bool Setup() ;
 
-  constexpr bool const& __cordl_internal_get_m_shouldReceiveShadows() const;
+constexpr bool const& __cordl_internal_get_m_shouldReceiveShadows() const;
 
-  constexpr bool& __cordl_internal_get_m_shouldReceiveShadows();
+constexpr bool& __cordl_internal_get_m_shouldReceiveShadows() ;
 
-  constexpr void __cordl_internal_set_m_shouldReceiveShadows(bool value);
+constexpr void __cordl_internal_set_m_shouldReceiveShadows(bool  value) ;
 
-  /// @brief Method .ctor, addr 0x66f0ad0, size 0xd4, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::Rendering::Universal::RenderPassEvent evt, bool shadowReceiveSupported);
+/// @brief Method .ctor, addr 0x66f1190, size 0xd4, virtual false, abstract: false, final false
+inline void _ctor(::UnityEngine::Rendering::Universal::RenderPassEvent  evt, bool  shadowReceiveSupported) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TransparentSettingsPass();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr TransparentSettingsPass() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TransparentSettingsPass", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  TransparentSettingsPass(TransparentSettingsPass&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TransparentSettingsPass", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  TransparentSettingsPass(TransparentSettingsPass const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "TransparentSettingsPass", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+TransparentSettingsPass(TransparentSettingsPass && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12861 };
+// Ctor Parameters [CppParam { name: "", ty: "TransparentSettingsPass", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+TransparentSettingsPass(TransparentSettingsPass const& ) = delete;
 
-  /// @brief Field m_shouldReceiveShadows, offset: 0xb8, size: 0x1, def value: None
-  bool ___m_shouldReceiveShadows;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12865};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field m_shouldReceiveShadows, offset: 0xb8, size: 0x1, def value: None
+ bool  ___m_shouldReceiveShadows;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Rendering::Universal::TransparentSettingsPass, ___m_shouldReceiveShadows) == 0xb8, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::Universal::TransparentSettingsPass, 0xc0>, "Size mismatch!");
 
-} // namespace UnityEngine::Rendering::Universal
+} // namespace end def UnityEngine::Rendering::Universal
 NEED_NO_BOX(::UnityEngine::Rendering::Universal::TransparentSettingsPass);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::Universal::TransparentSettingsPass*, "UnityEngine.Rendering.Universal", "TransparentSettingsPass");

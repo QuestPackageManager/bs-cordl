@@ -17,34 +17,34 @@ namespace Unity::Properties::Internal {
 // CS Name: Unity.Properties.Internal.ReflectedPropertyBagAttribute
 class CORDL_TYPE ReflectedPropertyBagAttribute : public ::System::Attribute {
 public:
-  // Declarations
-  static inline ::Unity::Properties::Internal::ReflectedPropertyBagAttribute* New_ctor();
+// Declarations
+static inline ::Unity::Properties::Internal::ReflectedPropertyBagAttribute* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x69e9b0c, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x69ea1cc, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ReflectedPropertyBagAttribute();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ReflectedPropertyBagAttribute() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ReflectedPropertyBagAttribute", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ReflectedPropertyBagAttribute(ReflectedPropertyBagAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ReflectedPropertyBagAttribute", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ReflectedPropertyBagAttribute(ReflectedPropertyBagAttribute const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ReflectedPropertyBagAttribute", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ReflectedPropertyBagAttribute(ReflectedPropertyBagAttribute && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19479 };
+// Ctor Parameters [CppParam { name: "", ty: "ReflectedPropertyBagAttribute", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ReflectedPropertyBagAttribute(ReflectedPropertyBagAttribute const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{19483};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Unity::Properties::Internal::ReflectedPropertyBagAttribute, 0x10>, "Size mismatch!");
 
-} // namespace Unity::Properties::Internal
+} // namespace end def Unity::Properties::Internal
 NEED_NO_BOX(::Unity::Properties::Internal::ReflectedPropertyBagAttribute);
 DEFINE_IL2CPP_ARG_TYPE(::Unity::Properties::Internal::ReflectedPropertyBagAttribute*, "Unity.Properties.Internal", "ReflectedPropertyBagAttribute");

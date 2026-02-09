@@ -8,16 +8,19 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(IInputRuntime)
 namespace System {
-template <typename T> class Action_1;
+template<typename T>
+class Action_1;
 }
 namespace System {
-template <typename T1, typename T2> class Action_2;
+template<typename T1,typename T2>
+class Action_2;
 }
 namespace System {
 class Action;
 }
 namespace System {
-template <typename T, typename TResult> class Func_2;
+template<typename T,typename TResult>
+class Func_2;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 struct InputDeviceCommand;
@@ -43,152 +46,152 @@ class IInputRuntime;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::InputSystem::LowLevel::IInputRuntime);
-// Dependencies
+// Dependencies 
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: false
 // CS Name: UnityEngine.InputSystem.LowLevel.IInputRuntime
 class CORDL_TYPE IInputRuntime {
 public:
-  // Declarations
-  __declspec(property(get = get_currentTime)) double_t currentTime;
+// Declarations
+ __declspec(property(get=get_currentTime)) double_t  currentTime;
 
-  __declspec(property(get = get_currentTimeForFixedUpdate)) double_t currentTimeForFixedUpdate;
+ __declspec(property(get=get_currentTimeForFixedUpdate)) double_t  currentTimeForFixedUpdate;
 
-  __declspec(property(get = get_currentTimeOffsetToRealtimeSinceStartup)) double_t currentTimeOffsetToRealtimeSinceStartup;
+ __declspec(property(get=get_currentTimeOffsetToRealtimeSinceStartup)) double_t  currentTimeOffsetToRealtimeSinceStartup;
 
-  __declspec(property(get = get_isInBatchMode)) bool isInBatchMode;
+ __declspec(property(get=get_isInBatchMode)) bool  isInBatchMode;
 
-  __declspec(property(get = get_isPlayerFocused)) bool isPlayerFocused;
+ __declspec(property(get=get_isPlayerFocused)) bool  isPlayerFocused;
 
-  __declspec(property(get = get_normalizeScrollWheelDelta, put = set_normalizeScrollWheelDelta)) bool normalizeScrollWheelDelta;
+ __declspec(property(get=get_normalizeScrollWheelDelta, put=set_normalizeScrollWheelDelta)) bool  normalizeScrollWheelDelta;
 
-  __declspec(property(get = get_onBeforeUpdate, put = set_onBeforeUpdate)) ::System::Action_1<::UnityEngine::InputSystem::LowLevel::InputUpdateType>* onBeforeUpdate;
+ __declspec(property(get=get_onBeforeUpdate, put=set_onBeforeUpdate)) ::System::Action_1<::UnityEngine::InputSystem::LowLevel::InputUpdateType>*  onBeforeUpdate;
 
-  __declspec(property(get = get_onDeviceDiscovered, put = set_onDeviceDiscovered)) ::System::Action_2<int32_t, ::StringW>* onDeviceDiscovered;
+ __declspec(property(get=get_onDeviceDiscovered, put=set_onDeviceDiscovered)) ::System::Action_2<int32_t,::StringW>*  onDeviceDiscovered;
 
-  __declspec(property(get = get_onPlayerFocusChanged, put = set_onPlayerFocusChanged)) ::System::Action_1<bool>* onPlayerFocusChanged;
+ __declspec(property(get=get_onPlayerFocusChanged, put=set_onPlayerFocusChanged)) ::System::Action_1<bool>*  onPlayerFocusChanged;
 
-  __declspec(property(get = get_onShouldRunUpdate, put = set_onShouldRunUpdate)) ::System::Func_2<::UnityEngine::InputSystem::LowLevel::InputUpdateType, bool>* onShouldRunUpdate;
+ __declspec(property(get=get_onShouldRunUpdate, put=set_onShouldRunUpdate)) ::System::Func_2<::UnityEngine::InputSystem::LowLevel::InputUpdateType,bool>*  onShouldRunUpdate;
 
-  __declspec(property(get = get_onShutdown, put = set_onShutdown)) ::System::Action* onShutdown;
+ __declspec(property(get=get_onShutdown, put=set_onShutdown)) ::System::Action*  onShutdown;
 
-  __declspec(property(get = get_onUpdate, put = set_onUpdate)) ::UnityEngine::InputSystem::LowLevel::InputUpdateDelegate* onUpdate;
+ __declspec(property(get=get_onUpdate, put=set_onUpdate)) ::UnityEngine::InputSystem::LowLevel::InputUpdateDelegate*  onUpdate;
 
-  __declspec(property(get = get_pollingFrequency, put = set_pollingFrequency)) float_t pollingFrequency;
+ __declspec(property(get=get_pollingFrequency, put=set_pollingFrequency)) float_t  pollingFrequency;
 
-  __declspec(property(get = get_runInBackground, put = set_runInBackground)) bool runInBackground;
+ __declspec(property(get=get_runInBackground, put=set_runInBackground)) bool  runInBackground;
 
-  __declspec(property(get = get_screenOrientation)) ::UnityEngine::ScreenOrientation screenOrientation;
+ __declspec(property(get=get_screenOrientation)) ::UnityEngine::ScreenOrientation  screenOrientation;
 
-  __declspec(property(get = get_screenSize)) ::UnityEngine::Vector2 screenSize;
+ __declspec(property(get=get_screenSize)) ::UnityEngine::Vector2  screenSize;
 
-  __declspec(property(get = get_scrollWheelDeltaPerTick)) float_t scrollWheelDeltaPerTick;
+ __declspec(property(get=get_scrollWheelDeltaPerTick)) float_t  scrollWheelDeltaPerTick;
 
-  __declspec(property(get = get_unscaledGameTime)) float_t unscaledGameTime;
+ __declspec(property(get=get_unscaledGameTime)) float_t  unscaledGameTime;
 
-  /// @brief Method AllocateDeviceId, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline int32_t AllocateDeviceId();
+/// @brief Method AllocateDeviceId, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline int32_t AllocateDeviceId() ;
 
-  /// @brief Method DeviceCommand, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline int64_t DeviceCommand(int32_t deviceId, ::UnityEngine::InputSystem::LowLevel::InputDeviceCommand* commandPtr);
+/// @brief Method DeviceCommand, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline int64_t DeviceCommand(int32_t  deviceId, ::UnityEngine::InputSystem::LowLevel::InputDeviceCommand*  commandPtr) ;
 
-  /// @brief Method QueueEvent, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void QueueEvent(::UnityEngine::InputSystem::LowLevel::InputEvent* ptr);
+/// @brief Method QueueEvent, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline void QueueEvent(::UnityEngine::InputSystem::LowLevel::InputEvent*  ptr) ;
 
-  /// @brief Method Update, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void Update(::UnityEngine::InputSystem::LowLevel::InputUpdateType type);
+/// @brief Method Update, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline void Update(::UnityEngine::InputSystem::LowLevel::InputUpdateType  type) ;
 
-  /// @brief Method get_currentTime, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline double_t get_currentTime();
+/// @brief Method get_currentTime, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline double_t get_currentTime() ;
 
-  /// @brief Method get_currentTimeForFixedUpdate, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline double_t get_currentTimeForFixedUpdate();
+/// @brief Method get_currentTimeForFixedUpdate, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline double_t get_currentTimeForFixedUpdate() ;
 
-  /// @brief Method get_currentTimeOffsetToRealtimeSinceStartup, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline double_t get_currentTimeOffsetToRealtimeSinceStartup();
+/// @brief Method get_currentTimeOffsetToRealtimeSinceStartup, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline double_t get_currentTimeOffsetToRealtimeSinceStartup() ;
 
-  /// @brief Method get_isInBatchMode, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline bool get_isInBatchMode();
+/// @brief Method get_isInBatchMode, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline bool get_isInBatchMode() ;
 
-  /// @brief Method get_isPlayerFocused, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline bool get_isPlayerFocused();
+/// @brief Method get_isPlayerFocused, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline bool get_isPlayerFocused() ;
 
-  /// @brief Method get_normalizeScrollWheelDelta, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline bool get_normalizeScrollWheelDelta();
+/// @brief Method get_normalizeScrollWheelDelta, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline bool get_normalizeScrollWheelDelta() ;
 
-  /// @brief Method get_onBeforeUpdate, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline ::System::Action_1<::UnityEngine::InputSystem::LowLevel::InputUpdateType>* get_onBeforeUpdate();
+/// @brief Method get_onBeforeUpdate, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline ::System::Action_1<::UnityEngine::InputSystem::LowLevel::InputUpdateType>* get_onBeforeUpdate() ;
 
-  /// @brief Method get_onDeviceDiscovered, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline ::System::Action_2<int32_t, ::StringW>* get_onDeviceDiscovered();
+/// @brief Method get_onDeviceDiscovered, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline ::System::Action_2<int32_t,::StringW>* get_onDeviceDiscovered() ;
 
-  /// @brief Method get_onPlayerFocusChanged, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline ::System::Action_1<bool>* get_onPlayerFocusChanged();
+/// @brief Method get_onPlayerFocusChanged, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline ::System::Action_1<bool>* get_onPlayerFocusChanged() ;
 
-  /// @brief Method get_onShouldRunUpdate, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline ::System::Func_2<::UnityEngine::InputSystem::LowLevel::InputUpdateType, bool>* get_onShouldRunUpdate();
+/// @brief Method get_onShouldRunUpdate, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline ::System::Func_2<::UnityEngine::InputSystem::LowLevel::InputUpdateType,bool>* get_onShouldRunUpdate() ;
 
-  /// @brief Method get_onShutdown, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline ::System::Action* get_onShutdown();
+/// @brief Method get_onShutdown, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline ::System::Action* get_onShutdown() ;
 
-  /// @brief Method get_onUpdate, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline ::UnityEngine::InputSystem::LowLevel::InputUpdateDelegate* get_onUpdate();
+/// @brief Method get_onUpdate, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline ::UnityEngine::InputSystem::LowLevel::InputUpdateDelegate* get_onUpdate() ;
 
-  /// @brief Method get_pollingFrequency, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline float_t get_pollingFrequency();
+/// @brief Method get_pollingFrequency, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline float_t get_pollingFrequency() ;
 
-  /// @brief Method get_runInBackground, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline bool get_runInBackground();
+/// @brief Method get_runInBackground, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline bool get_runInBackground() ;
 
-  /// @brief Method get_screenOrientation, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline ::UnityEngine::ScreenOrientation get_screenOrientation();
+/// @brief Method get_screenOrientation, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline ::UnityEngine::ScreenOrientation get_screenOrientation() ;
 
-  /// @brief Method get_screenSize, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline ::UnityEngine::Vector2 get_screenSize();
+/// @brief Method get_screenSize, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline ::UnityEngine::Vector2 get_screenSize() ;
 
-  /// @brief Method get_scrollWheelDeltaPerTick, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline float_t get_scrollWheelDeltaPerTick();
+/// @brief Method get_scrollWheelDeltaPerTick, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline float_t get_scrollWheelDeltaPerTick() ;
 
-  /// @brief Method get_unscaledGameTime, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline float_t get_unscaledGameTime();
+/// @brief Method get_unscaledGameTime, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline float_t get_unscaledGameTime() ;
 
-  /// @brief Method set_normalizeScrollWheelDelta, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void set_normalizeScrollWheelDelta(bool value);
+/// @brief Method set_normalizeScrollWheelDelta, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline void set_normalizeScrollWheelDelta(bool  value) ;
 
-  /// @brief Method set_onBeforeUpdate, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void set_onBeforeUpdate(::System::Action_1<::UnityEngine::InputSystem::LowLevel::InputUpdateType>* value);
+/// @brief Method set_onBeforeUpdate, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline void set_onBeforeUpdate(::System::Action_1<::UnityEngine::InputSystem::LowLevel::InputUpdateType>*  value) ;
 
-  /// @brief Method set_onDeviceDiscovered, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void set_onDeviceDiscovered(::System::Action_2<int32_t, ::StringW>* value);
+/// @brief Method set_onDeviceDiscovered, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline void set_onDeviceDiscovered(::System::Action_2<int32_t,::StringW>*  value) ;
 
-  /// @brief Method set_onPlayerFocusChanged, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void set_onPlayerFocusChanged(::System::Action_1<bool>* value);
+/// @brief Method set_onPlayerFocusChanged, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline void set_onPlayerFocusChanged(::System::Action_1<bool>*  value) ;
 
-  /// @brief Method set_onShouldRunUpdate, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void set_onShouldRunUpdate(::System::Func_2<::UnityEngine::InputSystem::LowLevel::InputUpdateType, bool>* value);
+/// @brief Method set_onShouldRunUpdate, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline void set_onShouldRunUpdate(::System::Func_2<::UnityEngine::InputSystem::LowLevel::InputUpdateType,bool>*  value) ;
 
-  /// @brief Method set_onShutdown, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void set_onShutdown(::System::Action* value);
+/// @brief Method set_onShutdown, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline void set_onShutdown(::System::Action*  value) ;
 
-  /// @brief Method set_onUpdate, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void set_onUpdate(::UnityEngine::InputSystem::LowLevel::InputUpdateDelegate* value);
+/// @brief Method set_onUpdate, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline void set_onUpdate(::UnityEngine::InputSystem::LowLevel::InputUpdateDelegate*  value) ;
 
-  /// @brief Method set_pollingFrequency, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void set_pollingFrequency(float_t value);
+/// @brief Method set_pollingFrequency, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline void set_pollingFrequency(float_t  value) ;
 
-  /// @brief Method set_runInBackground, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void set_runInBackground(bool value);
+/// @brief Method set_runInBackground, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline void set_runInBackground(bool  value) ;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IInputRuntime", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  IInputRuntime(IInputRuntime const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "IInputRuntime", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+IInputRuntime(IInputRuntime const& ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9021 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{9025};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-} // namespace UnityEngine::InputSystem::LowLevel
+} // namespace end def UnityEngine::InputSystem::LowLevel
 NEED_NO_BOX(::UnityEngine::InputSystem::LowLevel::IInputRuntime);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::LowLevel::IInputRuntime*, "UnityEngine.InputSystem.LowLevel", "IInputRuntime");

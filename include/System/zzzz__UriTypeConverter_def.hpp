@@ -29,50 +29,49 @@ namespace System {
 // CS Name: System.UriTypeConverter
 class CORDL_TYPE UriTypeConverter : public ::System::ComponentModel::TypeConverter {
 public:
-  // Declarations
-  /// @brief Method CanConvert, addr 0x61c61e4, size 0xa8, virtual false, abstract: false, final false
-  inline bool CanConvert(::System::Type* type);
+// Declarations
+/// @brief Method CanConvert, addr 0x61c68a4, size 0xa8, virtual false, abstract: false, final false
+inline bool CanConvert(::System::Type*  type) ;
 
-  /// @brief Method CanConvertFrom, addr 0x61c628c, size 0x74, virtual true, abstract: false, final false
-  inline bool CanConvertFrom(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Type* sourceType);
+/// @brief Method CanConvertFrom, addr 0x61c694c, size 0x74, virtual true, abstract: false, final false
+inline bool CanConvertFrom(::System::ComponentModel::ITypeDescriptorContext*  context, ::System::Type*  sourceType) ;
 
-  /// @brief Method CanConvertTo, addr 0x61c6300, size 0x3c, virtual true, abstract: false, final false
-  inline bool CanConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Type* destinationType);
+/// @brief Method CanConvertTo, addr 0x61c69c0, size 0x3c, virtual true, abstract: false, final false
+inline bool CanConvertTo(::System::ComponentModel::ITypeDescriptorContext*  context, ::System::Type*  destinationType) ;
 
-  /// @brief Method ConvertFrom, addr 0x61c633c, size 0x18c, virtual true, abstract: false, final false
-  inline ::System::Object* ConvertFrom(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::System::Object* value);
+/// @brief Method ConvertFrom, addr 0x61c69fc, size 0x18c, virtual true, abstract: false, final false
+inline ::System::Object* ConvertFrom(::System::ComponentModel::ITypeDescriptorContext*  context, ::System::Globalization::CultureInfo*  culture, ::System::Object*  value) ;
 
-  /// @brief Method ConvertTo, addr 0x61c64c8, size 0x1a4, virtual true, abstract: false, final false
-  inline ::System::Object* ConvertTo(::System::ComponentModel::ITypeDescriptorContext* context, ::System::Globalization::CultureInfo* culture, ::System::Object* value,
-                                     ::System::Type* destinationType);
+/// @brief Method ConvertTo, addr 0x61c6b88, size 0x1a4, virtual true, abstract: false, final false
+inline ::System::Object* ConvertTo(::System::ComponentModel::ITypeDescriptorContext*  context, ::System::Globalization::CultureInfo*  culture, ::System::Object*  value, ::System::Type*  destinationType) ;
 
-  static inline ::System::UriTypeConverter* New_ctor();
+static inline ::System::UriTypeConverter* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x61c61e0, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x61c68a0, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr UriTypeConverter();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr UriTypeConverter() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UriTypeConverter", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  UriTypeConverter(UriTypeConverter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UriTypeConverter", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  UriTypeConverter(UriTypeConverter const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "UriTypeConverter", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+UriTypeConverter(UriTypeConverter && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11067 };
+// Ctor Parameters [CppParam { name: "", ty: "UriTypeConverter", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+UriTypeConverter(UriTypeConverter const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11071};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::UriTypeConverter, 0x10>, "Size mismatch!");
 
-} // namespace System
+} // namespace end def System
 NEED_NO_BOX(::System::UriTypeConverter);
 DEFINE_IL2CPP_ARG_TYPE(::System::UriTypeConverter*, "System", "UriTypeConverter");

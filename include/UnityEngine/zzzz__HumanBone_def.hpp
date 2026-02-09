@@ -19,31 +19,30 @@ namespace UnityEngine {
 // CS Name: UnityEngine.HumanBone
 struct CORDL_TYPE HumanBone {
 public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HumanBone();
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr HumanBone() ;
 
-  // Ctor Parameters [CppParam { name: "m_BoneName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "m_HumanName", ty: "::StringW", modifiers: "", def_value: None }, CppParam {
-  // name: "limit", ty: "::UnityEngine::HumanLimit", modifiers: "", def_value: None }]
-  constexpr HumanBone(::StringW m_BoneName, ::StringW m_HumanName, ::UnityEngine::HumanLimit limit) noexcept;
+// Ctor Parameters [CppParam { name: "m_BoneName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "m_HumanName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "limit", ty: "::UnityEngine::HumanLimit", modifiers: "", def_value: None }]
+constexpr HumanBone(::StringW  m_BoneName, ::StringW  m_HumanName, ::UnityEngine::HumanLimit  limit) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20004 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20008};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x40};
 
-  /// @brief Field m_BoneName, offset: 0x0, size: 0x8, def value: None
-  ::StringW m_BoneName;
+/// @brief Field m_BoneName, offset: 0x0, size: 0x8, def value: None
+ ::StringW  m_BoneName;
 
-  /// @brief Field m_HumanName, offset: 0x8, size: 0x8, def value: None
-  ::StringW m_HumanName;
+/// @brief Field m_HumanName, offset: 0x8, size: 0x8, def value: None
+ ::StringW  m_HumanName;
 
-  /// @brief Field limit, offset: 0x10, size: 0x2c, def value: None
-  ::UnityEngine::HumanLimit limit;
+/// @brief Field limit, offset: 0x10, size: 0x2c, def value: None
+ ::UnityEngine::HumanLimit  limit;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::HumanBone, m_BoneName) == 0x0, "Offset mismatch!");
@@ -54,5 +53,5 @@ static_assert(offsetof(::UnityEngine::HumanBone, limit) == 0x10, "Offset mismatc
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::HumanBone, 0x40>, "Size mismatch!");
 
-} // namespace UnityEngine
+} // namespace end def UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::HumanBone, "UnityEngine", "HumanBone");

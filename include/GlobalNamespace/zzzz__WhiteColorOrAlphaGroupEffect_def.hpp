@@ -43,56 +43,51 @@ namespace GlobalNamespace {
 // CS Name: WhiteColorOrAlphaGroupEffect
 class CORDL_TYPE WhiteColorOrAlphaGroupEffect : public ::GlobalNamespace::LightColorGroupEffect {
 public:
-  // Declarations
-  /// @brief Field _defaultColor, offset 0xa4, size 0x10
-  __declspec(property(get = __cordl_internal_get__defaultColor, put = __cordl_internal_set__defaultColor)) ::UnityEngine::Color _defaultColor;
+// Declarations
+/// @brief Field _defaultColor, offset 0xa4, size 0x10 
+ __declspec(property(get=__cordl_internal_get__defaultColor, put=__cordl_internal_set__defaultColor)) ::UnityEngine::Color  _defaultColor;
 
-  /// @brief Method GetColor, addr 0x57e6070, size 0x60, virtual true, abstract: false, final false
-  inline ::UnityEngine::Color GetColor(::GlobalNamespace::EnvironmentColorType colorType, bool colorBoost, float_t brightness);
+/// @brief Method GetColor, addr 0x57e69a0, size 0x60, virtual true, abstract: false, final false
+inline ::UnityEngine::Color GetColor(::GlobalNamespace::EnvironmentColorType  colorType, bool  colorBoost, float_t  brightness) ;
 
-  static inline ::GlobalNamespace::WhiteColorOrAlphaGroupEffect* New_ctor(::GlobalNamespace::LightColorGroupEffect_InitData* initData, ::UnityEngine::Color defaultColor,
-                                                                          ::GlobalNamespace::LightWithIdManager* lightManager, ::Tweening::SongTimeTweeningManager* tweeningManager,
-                                                                          ::GlobalNamespace::ColorManager* colorManager, ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController,
-                                                                          ::GlobalNamespace::IBpmController* bpmController);
+static inline ::GlobalNamespace::WhiteColorOrAlphaGroupEffect* New_ctor(::GlobalNamespace::LightColorGroupEffect_InitData*  initData, ::UnityEngine::Color  defaultColor, ::GlobalNamespace::LightWithIdManager*  lightManager, ::Tweening::SongTimeTweeningManager*  tweeningManager, ::GlobalNamespace::ColorManager*  colorManager, ::GlobalNamespace::BeatmapCallbacksController*  beatmapCallbacksController, ::GlobalNamespace::IBpmController*  bpmController) ;
 
-  constexpr ::UnityEngine::Color const& __cordl_internal_get__defaultColor() const;
+constexpr ::UnityEngine::Color const& __cordl_internal_get__defaultColor() const;
 
-  constexpr ::UnityEngine::Color& __cordl_internal_get__defaultColor();
+constexpr ::UnityEngine::Color& __cordl_internal_get__defaultColor() ;
 
-  constexpr void __cordl_internal_set__defaultColor(::UnityEngine::Color value);
+constexpr void __cordl_internal_set__defaultColor(::UnityEngine::Color  value) ;
 
-  /// @brief Method .ctor, addr 0x57e6034, size 0x3c, virtual false, abstract: false, final false
-  inline void _ctor(::GlobalNamespace::LightColorGroupEffect_InitData* initData, ::UnityEngine::Color defaultColor, ::GlobalNamespace::LightWithIdManager* lightManager,
-                    ::Tweening::SongTimeTweeningManager* tweeningManager, ::GlobalNamespace::ColorManager* colorManager, ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController,
-                    ::GlobalNamespace::IBpmController* bpmController);
+/// @brief Method .ctor, addr 0x57e6964, size 0x3c, virtual false, abstract: false, final false
+inline void _ctor(::GlobalNamespace::LightColorGroupEffect_InitData*  initData, ::UnityEngine::Color  defaultColor, ::GlobalNamespace::LightWithIdManager*  lightManager, ::Tweening::SongTimeTweeningManager*  tweeningManager, ::GlobalNamespace::ColorManager*  colorManager, ::GlobalNamespace::BeatmapCallbacksController*  beatmapCallbacksController, ::GlobalNamespace::IBpmController*  bpmController) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr WhiteColorOrAlphaGroupEffect();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr WhiteColorOrAlphaGroupEffect() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "WhiteColorOrAlphaGroupEffect", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  WhiteColorOrAlphaGroupEffect(WhiteColorOrAlphaGroupEffect&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "WhiteColorOrAlphaGroupEffect", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  WhiteColorOrAlphaGroupEffect(WhiteColorOrAlphaGroupEffect const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "WhiteColorOrAlphaGroupEffect", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+WhiteColorOrAlphaGroupEffect(WhiteColorOrAlphaGroupEffect && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5874 };
+// Ctor Parameters [CppParam { name: "", ty: "WhiteColorOrAlphaGroupEffect", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+WhiteColorOrAlphaGroupEffect(WhiteColorOrAlphaGroupEffect const& ) = delete;
 
-  /// @brief Field _defaultColor, offset: 0xa4, size: 0x10, def value: None
-  ::UnityEngine::Color ____defaultColor;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{5874};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _defaultColor, offset: 0xa4, size: 0x10, def value: None
+ ::UnityEngine::Color  ____defaultColor;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::WhiteColorOrAlphaGroupEffect, ____defaultColor) == 0xa4, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::WhiteColorOrAlphaGroupEffect, 0xb8>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::WhiteColorOrAlphaGroupEffect);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::WhiteColorOrAlphaGroupEffect*, "", "WhiteColorOrAlphaGroupEffect");

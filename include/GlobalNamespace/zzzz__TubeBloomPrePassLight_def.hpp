@@ -44,745 +44,740 @@ namespace GlobalNamespace {
 // CS Name: TubeBloomPrePassLight
 class CORDL_TYPE TubeBloomPrePassLight : public ::GlobalNamespace::BloomPrePassLight {
 public:
-  // Declarations
-  /// @brief Field _addWidthToLength, offset 0x74, size 0x1
-  __declspec(property(get = __cordl_internal_get__addWidthToLength, put = __cordl_internal_set__addWidthToLength)) bool _addWidthToLength;
+// Declarations
+/// @brief Field _addWidthToLength, offset 0x74, size 0x1 
+ __declspec(property(get=__cordl_internal_get__addWidthToLength, put=__cordl_internal_set__addWidthToLength)) bool  _addWidthToLength;
 
-  /// @brief Field _alphaToLengthBloomFogCurve, offset 0xa8, size 0x8
-  __declspec(property(get = __cordl_internal_get__alphaToLengthBloomFogCurve, put = __cordl_internal_set__alphaToLengthBloomFogCurve)) ::UnityEngine::AnimationCurve* _alphaToLengthBloomFogCurve;
+/// @brief Field _alphaToLengthBloomFogCurve, offset 0xa8, size 0x8 
+ __declspec(property(get=__cordl_internal_get__alphaToLengthBloomFogCurve, put=__cordl_internal_set__alphaToLengthBloomFogCurve)) ::UnityEngine::AnimationCurve*  _alphaToLengthBloomFogCurve;
 
-  /// @brief Field _alphaToLengthCurve, offset 0xa0, size 0x8
-  __declspec(property(get = __cordl_internal_get__alphaToLengthCurve, put = __cordl_internal_set__alphaToLengthCurve)) ::UnityEngine::AnimationCurve* _alphaToLengthCurve;
+/// @brief Field _alphaToLengthCurve, offset 0xa0, size 0x8 
+ __declspec(property(get=__cordl_internal_get__alphaToLengthCurve, put=__cordl_internal_set__alphaToLengthCurve)) ::UnityEngine::AnimationCurve*  _alphaToLengthCurve;
 
-  /// @brief Field _bakedGlowOnceParInitialized, offset 0xeb, size 0x1
-  __declspec(property(get = __cordl_internal_get__bakedGlowOnceParInitialized, put = __cordl_internal_set__bakedGlowOnceParInitialized)) bool _bakedGlowOnceParInitialized;
+/// @brief Field _bakedGlowOnceParInitialized, offset 0xeb, size 0x1 
+ __declspec(property(get=__cordl_internal_get__bakedGlowOnceParInitialized, put=__cordl_internal_set__bakedGlowOnceParInitialized)) bool  _bakedGlowOnceParInitialized;
 
-  /// @brief Field _bakedGlowWidthScale, offset 0x94, size 0x4
-  __declspec(property(get = __cordl_internal_get__bakedGlowWidthScale, put = __cordl_internal_set__bakedGlowWidthScale)) float_t _bakedGlowWidthScale;
+/// @brief Field _bakedGlowWidthScale, offset 0x94, size 0x4 
+ __declspec(property(get=__cordl_internal_get__bakedGlowWidthScale, put=__cordl_internal_set__bakedGlowWidthScale)) float_t  _bakedGlowWidthScale;
 
-  /// @brief Field _bloomFogIntensityMultiplier, offset 0x64, size 0x4
-  __declspec(property(get = __cordl_internal_get__bloomFogIntensityMultiplier, put = __cordl_internal_set__bloomFogIntensityMultiplier)) float_t _bloomFogIntensityMultiplier;
+/// @brief Field _bloomFogIntensityMultiplier, offset 0x64, size 0x4 
+ __declspec(property(get=__cordl_internal_get__bloomFogIntensityMultiplier, put=__cordl_internal_set__bloomFogIntensityMultiplier)) float_t  _bloomFogIntensityMultiplier;
 
-  /// @brief Field _boostToWhite, offset 0x6c, size 0x4
-  __declspec(property(get = __cordl_internal_get__boostToWhite, put = __cordl_internal_set__boostToWhite)) float_t _boostToWhite;
+/// @brief Field _boostToWhite, offset 0x6c, size 0x4 
+ __declspec(property(get=__cordl_internal_get__boostToWhite, put=__cordl_internal_set__boostToWhite)) float_t  _boostToWhite;
 
-  /// @brief Field _center, offset 0x4c, size 0x4
-  __declspec(property(get = __cordl_internal_get__center, put = __cordl_internal_set__center)) float_t _center;
+/// @brief Field _center, offset 0x4c, size 0x4 
+ __declspec(property(get=__cordl_internal_get__center, put=__cordl_internal_set__center)) float_t  _center;
 
-  /// @brief Field _collisionLength, offset 0xfc, size 0x4
-  __declspec(property(get = __cordl_internal_get__collisionLength, put = __cordl_internal_set__collisionLength)) float_t _collisionLength;
+/// @brief Field _collisionLength, offset 0xfc, size 0x4 
+ __declspec(property(get=__cordl_internal_get__collisionLength, put=__cordl_internal_set__collisionLength)) float_t  _collisionLength;
 
-  /// @brief Field _color, offset 0x50, size 0x10
-  __declspec(property(get = __cordl_internal_get__color, put = __cordl_internal_set__color)) ::UnityEngine::Color _color;
+/// @brief Field _color, offset 0x50, size 0x10 
+ __declspec(property(get=__cordl_internal_get__color, put=__cordl_internal_set__color)) ::UnityEngine::Color  _color;
 
-  /// @brief Field _colorAlphaMultiplier, offset 0x60, size 0x4
-  __declspec(property(get = __cordl_internal_get__colorAlphaMultiplier, put = __cordl_internal_set__colorAlphaMultiplier)) float_t _colorAlphaMultiplier;
+/// @brief Field _colorAlphaMultiplier, offset 0x60, size 0x4 
+ __declspec(property(get=__cordl_internal_get__colorAlphaMultiplier, put=__cordl_internal_set__colorAlphaMultiplier)) float_t  _colorAlphaMultiplier;
 
-  /// @brief Field _disableRenderersOnZeroAlpha, offset 0x90, size 0x1
-  __declspec(property(get = __cordl_internal_get__disableRenderersOnZeroAlpha, put = __cordl_internal_set__disableRenderersOnZeroAlpha)) bool _disableRenderersOnZeroAlpha;
+/// @brief Field _disableRenderersOnZeroAlpha, offset 0x90, size 0x1 
+ __declspec(property(get=__cordl_internal_get__disableRenderersOnZeroAlpha, put=__cordl_internal_set__disableRenderersOnZeroAlpha)) bool  _disableRenderersOnZeroAlpha;
 
-  /// @brief Field _dynamic3SliceSprite, offset 0xe0, size 0x8
-  __declspec(property(get = __cordl_internal_get__dynamic3SliceSprite, put = __cordl_internal_set__dynamic3SliceSprite)) ::UnityW<::GlobalNamespace::Parametric3SliceSpriteController>
-      _dynamic3SliceSprite;
+/// @brief Field _dynamic3SliceSprite, offset 0xe0, size 0x8 
+ __declspec(property(get=__cordl_internal_get__dynamic3SliceSprite, put=__cordl_internal_set__dynamic3SliceSprite)) ::UnityW<::GlobalNamespace::Parametric3SliceSpriteController>  _dynamic3SliceSprite;
 
-  /// @brief Field _enabledRenderers, offset 0xe9, size 0x1
-  __declspec(property(get = __cordl_internal_get__enabledRenderers, put = __cordl_internal_set__enabledRenderers)) bool _enabledRenderers;
+/// @brief Field _enabledRenderers, offset 0xe9, size 0x1 
+ __declspec(property(get=__cordl_internal_get__enabledRenderers, put=__cordl_internal_set__enabledRenderers)) bool  _enabledRenderers;
 
-  /// @brief Field _endAlpha, offset 0xc4, size 0x4
-  __declspec(property(get = __cordl_internal_get__endAlpha, put = __cordl_internal_set__endAlpha)) float_t _endAlpha;
+/// @brief Field _endAlpha, offset 0xc4, size 0x4 
+ __declspec(property(get=__cordl_internal_get__endAlpha, put=__cordl_internal_set__endAlpha)) float_t  _endAlpha;
 
-  /// @brief Field _endWidth, offset 0xd0, size 0x4
-  __declspec(property(get = __cordl_internal_get__endWidth, put = __cordl_internal_set__endWidth)) float_t _endWidth;
+/// @brief Field _endWidth, offset 0xd0, size 0x4 
+ __declspec(property(get=__cordl_internal_get__endWidth, put=__cordl_internal_set__endWidth)) float_t  _endWidth;
 
-  /// @brief Field _fakeBloomIntensityMultiplier, offset 0x68, size 0x4
-  __declspec(property(get = __cordl_internal_get__fakeBloomIntensityMultiplier, put = __cordl_internal_set__fakeBloomIntensityMultiplier)) float_t _fakeBloomIntensityMultiplier;
+/// @brief Field _fakeBloomIntensityMultiplier, offset 0x68, size 0x4 
+ __declspec(property(get=__cordl_internal_get__fakeBloomIntensityMultiplier, put=__cordl_internal_set__fakeBloomIntensityMultiplier)) float_t  _fakeBloomIntensityMultiplier;
 
-  /// @brief Field _forceUseBakedGlow, offset 0x98, size 0x1
-  __declspec(property(get = __cordl_internal_get__forceUseBakedGlow, put = __cordl_internal_set__forceUseBakedGlow)) bool _forceUseBakedGlow;
+/// @brief Field _forceUseBakedGlow, offset 0x98, size 0x1 
+ __declspec(property(get=__cordl_internal_get__forceUseBakedGlow, put=__cordl_internal_set__forceUseBakedGlow)) bool  _forceUseBakedGlow;
 
-  /// @brief Field _initialized, offset 0xe8, size 0x1
-  __declspec(property(get = __cordl_internal_get__initialized, put = __cordl_internal_set__initialized)) bool _initialized;
+/// @brief Field _initialized, offset 0xe8, size 0x1 
+ __declspec(property(get=__cordl_internal_get__initialized, put=__cordl_internal_set__initialized)) bool  _initialized;
 
-  /// @brief Field _isDirty, offset 0x108, size 0x1
-  __declspec(property(get = __cordl_internal_get__isDirty, put = __cordl_internal_set__isDirty)) bool _isDirty;
+/// @brief Field _isDirty, offset 0x108, size 0x1 
+ __declspec(property(get=__cordl_internal_get__isDirty, put=__cordl_internal_set__isDirty)) bool  _isDirty;
 
-  /// @brief Field _isDynamic3SliceSpriteValid, offset 0xed, size 0x1
-  __declspec(property(get = __cordl_internal_get__isDynamic3SliceSpriteValid, put = __cordl_internal_set__isDynamic3SliceSpriteValid)) bool _isDynamic3SliceSpriteValid;
+/// @brief Field _isDynamic3SliceSpriteValid, offset 0xed, size 0x1 
+ __declspec(property(get=__cordl_internal_get__isDynamic3SliceSpriteValid, put=__cordl_internal_set__isDynamic3SliceSpriteValid)) bool  _isDynamic3SliceSpriteValid;
 
-  /// @brief Field _isParametricBoxControllerValid, offset 0xec, size 0x1
-  __declspec(property(get = __cordl_internal_get__isParametricBoxControllerValid, put = __cordl_internal_set__isParametricBoxControllerValid)) bool _isParametricBoxControllerValid;
+/// @brief Field _isParametricBoxControllerValid, offset 0xec, size 0x1 
+ __declspec(property(get=__cordl_internal_get__isParametricBoxControllerValid, put=__cordl_internal_set__isParametricBoxControllerValid)) bool  _isParametricBoxControllerValid;
 
-  /// @brief Field _length, offset 0x48, size 0x4
-  __declspec(property(get = __cordl_internal_get__length, put = __cordl_internal_set__length)) float_t _length;
+/// @brief Field _length, offset 0x48, size 0x4 
+ __declspec(property(get=__cordl_internal_get__length, put=__cordl_internal_set__length)) float_t  _length;
 
-  /// @brief Field _lightWidthMultiplier, offset 0x70, size 0x4
-  __declspec(property(get = __cordl_internal_get__lightWidthMultiplier, put = __cordl_internal_set__lightWidthMultiplier)) float_t _lightWidthMultiplier;
+/// @brief Field _lightWidthMultiplier, offset 0x70, size 0x4 
+ __declspec(property(get=__cordl_internal_get__lightWidthMultiplier, put=__cordl_internal_set__lightWidthMultiplier)) float_t  _lightWidthMultiplier;
 
-  /// @brief Field _limitAlpha, offset 0xb1, size 0x1
-  __declspec(property(get = __cordl_internal_get__limitAlpha, put = __cordl_internal_set__limitAlpha)) bool _limitAlpha;
+/// @brief Field _limitAlpha, offset 0xb1, size 0x1 
+ __declspec(property(get=__cordl_internal_get__limitAlpha, put=__cordl_internal_set__limitAlpha)) bool  _limitAlpha;
 
-  /// @brief Field _mainEffectPostProcessEnabled, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__mainEffectPostProcessEnabled, put = __cordl_internal_set__mainEffectPostProcessEnabled)) ::UnityW<::GlobalNamespace::BoolSO>
-      _mainEffectPostProcessEnabled;
+/// @brief Field _mainEffectPostProcessEnabled, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get__mainEffectPostProcessEnabled, put=__cordl_internal_set__mainEffectPostProcessEnabled)) ::UnityW<::GlobalNamespace::BoolSO>  _mainEffectPostProcessEnabled;
 
-  /// @brief Field _maxAlpha, offset 0xb8, size 0x4
-  __declspec(property(get = __cordl_internal_get__maxAlpha, put = __cordl_internal_set__maxAlpha)) float_t _maxAlpha;
+/// @brief Field _maxAlpha, offset 0xb8, size 0x4 
+ __declspec(property(get=__cordl_internal_get__maxAlpha, put=__cordl_internal_set__maxAlpha)) float_t  _maxAlpha;
 
-  /// @brief Field _maxDistance, offset 0x84, size 0x4
-  __declspec(property(get = __cordl_internal_get__maxDistance, put = __cordl_internal_set__maxDistance)) float_t _maxDistance;
+/// @brief Field _maxDistance, offset 0x84, size 0x4 
+ __declspec(property(get=__cordl_internal_get__maxDistance, put=__cordl_internal_set__maxDistance)) float_t  _maxDistance;
 
-  /// @brief Field _maxWidthMultiplier, offset 0x8c, size 0x4
-  __declspec(property(get = __cordl_internal_get__maxWidthMultiplier, put = __cordl_internal_set__maxWidthMultiplier)) float_t _maxWidthMultiplier;
+/// @brief Field _maxWidthMultiplier, offset 0x8c, size 0x4 
+ __declspec(property(get=__cordl_internal_get__maxWidthMultiplier, put=__cordl_internal_set__maxWidthMultiplier)) float_t  _maxWidthMultiplier;
 
-  /// @brief Field _minAlpha, offset 0xb4, size 0x4
-  __declspec(property(get = __cordl_internal_get__minAlpha, put = __cordl_internal_set__minAlpha)) float_t _minAlpha;
+/// @brief Field _minAlpha, offset 0xb4, size 0x4 
+ __declspec(property(get=__cordl_internal_get__minAlpha, put=__cordl_internal_set__minAlpha)) float_t  _minAlpha;
 
-  /// @brief Field _minDistance, offset 0x80, size 0x4
-  __declspec(property(get = __cordl_internal_get__minDistance, put = __cordl_internal_set__minDistance)) float_t _minDistance;
+/// @brief Field _minDistance, offset 0x80, size 0x4 
+ __declspec(property(get=__cordl_internal_get__minDistance, put=__cordl_internal_set__minDistance)) float_t  _minDistance;
 
-  /// @brief Field _minWidthMultiplier, offset 0x88, size 0x4
-  __declspec(property(get = __cordl_internal_get__minWidthMultiplier, put = __cordl_internal_set__minWidthMultiplier)) float_t _minWidthMultiplier;
+/// @brief Field _minWidthMultiplier, offset 0x88, size 0x4 
+ __declspec(property(get=__cordl_internal_get__minWidthMultiplier, put=__cordl_internal_set__minWidthMultiplier)) float_t  _minWidthMultiplier;
 
-  /// @brief Field _multiplyLengthByAlpha, offset 0x99, size 0x1
-  __declspec(property(get = __cordl_internal_get__multiplyLengthByAlpha, put = __cordl_internal_set__multiplyLengthByAlpha)) bool _multiplyLengthByAlpha;
+/// @brief Field _multiplyLengthByAlpha, offset 0x99, size 0x1 
+ __declspec(property(get=__cordl_internal_get__multiplyLengthByAlpha, put=__cordl_internal_set__multiplyLengthByAlpha)) bool  _multiplyLengthByAlpha;
 
-  /// @brief Field _multiplyLengthByAlphaBloomFogMultiplier, offset 0x100, size 0x4
-  __declspec(property(get = __cordl_internal_get__multiplyLengthByAlphaBloomFogMultiplier,
-                      put = __cordl_internal_set__multiplyLengthByAlphaBloomFogMultiplier)) float_t _multiplyLengthByAlphaBloomFogMultiplier;
+/// @brief Field _multiplyLengthByAlphaBloomFogMultiplier, offset 0x100, size 0x4 
+ __declspec(property(get=__cordl_internal_get__multiplyLengthByAlphaBloomFogMultiplier, put=__cordl_internal_set__multiplyLengthByAlphaBloomFogMultiplier)) float_t  _multiplyLengthByAlphaBloomFogMultiplier;
 
-  /// @brief Field _multiplyLengthByAlphaMultiplier, offset 0x104, size 0x4
-  __declspec(property(get = __cordl_internal_get__multiplyLengthByAlphaMultiplier, put = __cordl_internal_set__multiplyLengthByAlphaMultiplier)) float_t _multiplyLengthByAlphaMultiplier;
+/// @brief Field _multiplyLengthByAlphaMultiplier, offset 0x104, size 0x4 
+ __declspec(property(get=__cordl_internal_get__multiplyLengthByAlphaMultiplier, put=__cordl_internal_set__multiplyLengthByAlphaMultiplier)) float_t  _multiplyLengthByAlphaMultiplier;
 
-  /// @brief Field _overrideChildrenAlpha, offset 0xbc, size 0x1
-  __declspec(property(get = __cordl_internal_get__overrideChildrenAlpha, put = __cordl_internal_set__overrideChildrenAlpha)) bool _overrideChildrenAlpha;
+/// @brief Field _overrideChildrenAlpha, offset 0xbc, size 0x1 
+ __declspec(property(get=__cordl_internal_get__overrideChildrenAlpha, put=__cordl_internal_set__overrideChildrenAlpha)) bool  _overrideChildrenAlpha;
 
-  /// @brief Field _overrideChildrenLength, offset 0x44, size 0x1
-  __declspec(property(get = __cordl_internal_get__overrideChildrenLength, put = __cordl_internal_set__overrideChildrenLength)) bool _overrideChildrenLength;
+/// @brief Field _overrideChildrenLength, offset 0x44, size 0x1 
+ __declspec(property(get=__cordl_internal_get__overrideChildrenLength, put=__cordl_internal_set__overrideChildrenLength)) bool  _overrideChildrenLength;
 
-  /// @brief Field _overrideChildrenWidth, offset 0xc8, size 0x1
-  __declspec(property(get = __cordl_internal_get__overrideChildrenWidth, put = __cordl_internal_set__overrideChildrenWidth)) bool _overrideChildrenWidth;
+/// @brief Field _overrideChildrenWidth, offset 0xc8, size 0x1 
+ __declspec(property(get=__cordl_internal_get__overrideChildrenWidth, put=__cordl_internal_set__overrideChildrenWidth)) bool  _overrideChildrenWidth;
 
-  /// @brief Field _parametricBoxController, offset 0xd8, size 0x8
-  __declspec(property(get = __cordl_internal_get__parametricBoxController, put = __cordl_internal_set__parametricBoxController)) ::UnityW<::GlobalNamespace::ParametricBoxController>
-      _parametricBoxController;
+/// @brief Field _parametricBoxController, offset 0xd8, size 0x8 
+ __declspec(property(get=__cordl_internal_get__parametricBoxController, put=__cordl_internal_set__parametricBoxController)) ::UnityW<::GlobalNamespace::ParametricBoxController>  _parametricBoxController;
 
-  /// @brief Field _parametricBoxControllerOnceParInitialized, offset 0xea, size 0x1
-  __declspec(property(get = __cordl_internal_get__parametricBoxControllerOnceParInitialized,
-                      put = __cordl_internal_set__parametricBoxControllerOnceParInitialized)) bool _parametricBoxControllerOnceParInitialized;
+/// @brief Field _parametricBoxControllerOnceParInitialized, offset 0xea, size 0x1 
+ __declspec(property(get=__cordl_internal_get__parametricBoxControllerOnceParInitialized, put=__cordl_internal_set__parametricBoxControllerOnceParInitialized)) bool  _parametricBoxControllerOnceParInitialized;
 
-  /// @brief Field _startAlpha, offset 0xc0, size 0x4
-  __declspec(property(get = __cordl_internal_get__startAlpha, put = __cordl_internal_set__startAlpha)) float_t _startAlpha;
+/// @brief Field _startAlpha, offset 0xc0, size 0x4 
+ __declspec(property(get=__cordl_internal_get__startAlpha, put=__cordl_internal_set__startAlpha)) float_t  _startAlpha;
 
-  /// @brief Field _startWidth, offset 0xcc, size 0x4
-  __declspec(property(get = __cordl_internal_get__startWidth, put = __cordl_internal_set__startWidth)) float_t _startWidth;
+/// @brief Field _startWidth, offset 0xcc, size 0x4 
+ __declspec(property(get=__cordl_internal_get__startWidth, put=__cordl_internal_set__startWidth)) float_t  _startWidth;
 
-  /// @brief Field _thickenCurve, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get__thickenCurve, put = __cordl_internal_set__thickenCurve)) ::UnityEngine::AnimationCurve* _thickenCurve;
+/// @brief Field _thickenCurve, offset 0x78, size 0x8 
+ __declspec(property(get=__cordl_internal_get__thickenCurve, put=__cordl_internal_set__thickenCurve)) ::UnityEngine::AnimationCurve*  _thickenCurve;
 
-  /// @brief Field _thickenWithDistance, offset 0x75, size 0x1
-  __declspec(property(get = __cordl_internal_get__thickenWithDistance, put = __cordl_internal_set__thickenWithDistance)) bool _thickenWithDistance;
+/// @brief Field _thickenWithDistance, offset 0x75, size 0x1 
+ __declspec(property(get=__cordl_internal_get__thickenWithDistance, put=__cordl_internal_set__thickenWithDistance)) bool  _thickenWithDistance;
 
-  /// @brief Field _transform, offset 0x110, size 0x8
-  __declspec(property(get = __cordl_internal_get__transform, put = __cordl_internal_set__transform)) ::UnityW<::UnityEngine::Transform> _transform;
+/// @brief Field _transform, offset 0x110, size 0x8 
+ __declspec(property(get=__cordl_internal_get__transform, put=__cordl_internal_set__transform)) ::UnityW<::UnityEngine::Transform>  _transform;
 
-  /// @brief Field _updateAlways, offset 0xb0, size 0x1
-  __declspec(property(get = __cordl_internal_get__updateAlways, put = __cordl_internal_set__updateAlways)) bool _updateAlways;
+/// @brief Field _updateAlways, offset 0xb0, size 0x1 
+ __declspec(property(get=__cordl_internal_get__updateAlways, put=__cordl_internal_set__updateAlways)) bool  _updateAlways;
 
-  /// @brief Field _useCollision, offset 0xf8, size 0x1
-  __declspec(property(get = __cordl_internal_get__useCollision, put = __cordl_internal_set__useCollision)) bool _useCollision;
+/// @brief Field _useCollision, offset 0xf8, size 0x1 
+ __declspec(property(get=__cordl_internal_get__useCollision, put=__cordl_internal_set__useCollision)) bool  _useCollision;
 
-  /// @brief Field _width, offset 0x40, size 0x4
-  __declspec(property(get = __cordl_internal_get__width, put = __cordl_internal_set__width)) float_t _width;
+/// @brief Field _width, offset 0x40, size 0x4 
+ __declspec(property(get=__cordl_internal_get__width, put=__cordl_internal_set__width)) float_t  _width;
 
-  __declspec(property(get = get_bloomFogIntensityMultiplier, put = set_bloomFogIntensityMultiplier)) float_t bloomFogIntensityMultiplier;
+ __declspec(property(get=get_bloomFogIntensityMultiplier, put=set_bloomFogIntensityMultiplier)) float_t  bloomFogIntensityMultiplier;
 
-  __declspec(property(get = get_calculatedCollisionLength)) float_t calculatedCollisionLength;
+ __declspec(property(get=get_calculatedCollisionLength)) float_t  calculatedCollisionLength;
 
-  __declspec(property(get = get_center)) float_t center;
+ __declspec(property(get=get_center)) float_t  center;
 
-  __declspec(property(get = get_collisionEndAlpha)) float_t collisionEndAlpha;
+ __declspec(property(get=get_collisionEndAlpha)) float_t  collisionEndAlpha;
 
-  __declspec(property(get = get_collisionLength, put = set_collisionLength)) float_t collisionLength;
+ __declspec(property(get=get_collisionLength, put=set_collisionLength)) float_t  collisionLength;
 
-  __declspec(property(get = get_color, put = set_color)) ::UnityEngine::Color color;
+ __declspec(property(get=get_color, put=set_color)) ::UnityEngine::Color  color;
 
-  __declspec(property(get = get_colorAlphaMultiplier)) float_t colorAlphaMultiplier;
+ __declspec(property(get=get_colorAlphaMultiplier)) float_t  colorAlphaMultiplier;
 
-  /// @brief Field didRefreshEvent, offset 0xf0, size 0x8
-  __declspec(property(get = __cordl_internal_get_didRefreshEvent, put = __cordl_internal_set_didRefreshEvent)) ::System::Action* didRefreshEvent;
+/// @brief Field didRefreshEvent, offset 0xf0, size 0x8 
+ __declspec(property(get=__cordl_internal_get_didRefreshEvent, put=__cordl_internal_set_didRefreshEvent)) ::System::Action*  didRefreshEvent;
 
-  __declspec(property(get = get_enabledRenderers)) bool enabledRenderers;
+ __declspec(property(get=get_enabledRenderers)) bool  enabledRenderers;
 
-  __declspec(property(get = get_length, put = set_length)) float_t length;
+ __declspec(property(get=get_length, put=set_length)) float_t  length;
 
-  __declspec(property(get = get_lightWidthMultiplier, put = set_lightWidthMultiplier)) float_t lightWidthMultiplier;
+ __declspec(property(get=get_lightWidthMultiplier, put=set_lightWidthMultiplier)) float_t  lightWidthMultiplier;
 
-  __declspec(property(get = get_startAlpha, put = set_startAlpha)) float_t startAlpha;
+ __declspec(property(get=get_startAlpha, put=set_startAlpha)) float_t  startAlpha;
 
-  __declspec(property(get = get_useCollision, put = set_useCollision)) bool useCollision;
+ __declspec(property(get=get_useCollision, put=set_useCollision)) bool  useCollision;
 
-  __declspec(property(get = get_width, put = set_width)) float_t width;
+ __declspec(property(get=get_width, put=set_width)) float_t  width;
 
-  /// @brief Method Awake, addr 0x56b43b0, size 0x14, virtual false, abstract: false, final false
-  inline void Awake();
+/// @brief Method Awake, addr 0x56b4138, size 0x14, virtual false, abstract: false, final false
+inline void Awake() ;
 
-  /// @brief Method DidRegisterLight, addr 0x56b43e4, size 0x1c, virtual true, abstract: false, final false
-  inline void DidRegisterLight();
+/// @brief Method DidRegisterLight, addr 0x56b416c, size 0x1c, virtual true, abstract: false, final false
+inline void DidRegisterLight() ;
 
-  /// @brief Method FillInputData, addr 0x56b4830, size 0x138, virtual true, abstract: false, final false
-  inline void FillInputData(::ByRef<int32_t> lightNum, ::ArrayW<::GlobalNamespace::BloomPrePassRendererSO_InputData, ::Array<::GlobalNamespace::BloomPrePassRendererSO_InputData>*> inputData);
+/// @brief Method FillInputData, addr 0x56b45b8, size 0x138, virtual true, abstract: false, final false
+inline void FillInputData(::ByRef<int32_t>  lightNum, ::ArrayW<::GlobalNamespace::BloomPrePassRendererSO_InputData,::Array<::GlobalNamespace::BloomPrePassRendererSO_InputData>*>  inputData) ;
 
-  /// @brief Method InitIfNeeded, addr 0x56b410c, size 0xc8, virtual false, abstract: false, final false
-  inline void InitIfNeeded();
+/// @brief Method InitIfNeeded, addr 0x56b3e94, size 0xc8, virtual false, abstract: false, final false
+inline void InitIfNeeded() ;
 
-  /// @brief Method MarkDirty, addr 0x56b4280, size 0xc, virtual false, abstract: false, final false
-  inline void MarkDirty();
+/// @brief Method MarkDirty, addr 0x56b4008, size 0xc, virtual false, abstract: false, final false
+inline void MarkDirty() ;
 
-  /// @brief Method NeedsRefresh, addr 0x56b4400, size 0x6c, virtual false, abstract: false, final false
-  inline bool NeedsRefresh();
+/// @brief Method NeedsRefresh, addr 0x56b4188, size 0x6c, virtual false, abstract: false, final false
+inline bool NeedsRefresh() ;
 
-  static inline ::GlobalNamespace::TubeBloomPrePassLight* New_ctor();
+static inline ::GlobalNamespace::TubeBloomPrePassLight* New_ctor() ;
 
-  /// @brief Method OnDrawGizmos, addr 0x56b4968, size 0x16c, virtual false, abstract: false, final false
-  inline void OnDrawGizmos();
+/// @brief Method OnDrawGizmos, addr 0x56b46f0, size 0x16c, virtual false, abstract: false, final false
+inline void OnDrawGizmos() ;
 
-  /// @brief Method OnEnable, addr 0x56b43c4, size 0x20, virtual true, abstract: false, final false
-  inline void OnEnable();
+/// @brief Method OnEnable, addr 0x56b414c, size 0x20, virtual true, abstract: false, final false
+inline void OnEnable() ;
 
-  /// @brief Method Refresh, addr 0x56b446c, size 0x3c4, virtual true, abstract: false, final false
-  inline void Refresh();
+/// @brief Method Refresh, addr 0x56b41f4, size 0x3c4, virtual true, abstract: false, final false
+inline void Refresh() ;
 
-  constexpr bool const& __cordl_internal_get__addWidthToLength() const;
+constexpr bool const& __cordl_internal_get__addWidthToLength() const;
 
-  constexpr bool& __cordl_internal_get__addWidthToLength();
+constexpr bool& __cordl_internal_get__addWidthToLength() ;
 
-  constexpr ::UnityEngine::AnimationCurve* const& __cordl_internal_get__alphaToLengthBloomFogCurve() const;
+constexpr ::UnityEngine::AnimationCurve* const& __cordl_internal_get__alphaToLengthBloomFogCurve() const;
 
-  constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get__alphaToLengthBloomFogCurve();
+constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get__alphaToLengthBloomFogCurve() ;
 
-  constexpr ::UnityEngine::AnimationCurve* const& __cordl_internal_get__alphaToLengthCurve() const;
+constexpr ::UnityEngine::AnimationCurve* const& __cordl_internal_get__alphaToLengthCurve() const;
 
-  constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get__alphaToLengthCurve();
+constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get__alphaToLengthCurve() ;
 
-  constexpr bool const& __cordl_internal_get__bakedGlowOnceParInitialized() const;
+constexpr bool const& __cordl_internal_get__bakedGlowOnceParInitialized() const;
 
-  constexpr bool& __cordl_internal_get__bakedGlowOnceParInitialized();
+constexpr bool& __cordl_internal_get__bakedGlowOnceParInitialized() ;
 
-  constexpr float_t const& __cordl_internal_get__bakedGlowWidthScale() const;
+constexpr float_t const& __cordl_internal_get__bakedGlowWidthScale() const;
 
-  constexpr float_t& __cordl_internal_get__bakedGlowWidthScale();
+constexpr float_t& __cordl_internal_get__bakedGlowWidthScale() ;
 
-  constexpr float_t const& __cordl_internal_get__bloomFogIntensityMultiplier() const;
+constexpr float_t const& __cordl_internal_get__bloomFogIntensityMultiplier() const;
 
-  constexpr float_t& __cordl_internal_get__bloomFogIntensityMultiplier();
+constexpr float_t& __cordl_internal_get__bloomFogIntensityMultiplier() ;
 
-  constexpr float_t const& __cordl_internal_get__boostToWhite() const;
+constexpr float_t const& __cordl_internal_get__boostToWhite() const;
 
-  constexpr float_t& __cordl_internal_get__boostToWhite();
+constexpr float_t& __cordl_internal_get__boostToWhite() ;
 
-  constexpr float_t const& __cordl_internal_get__center() const;
+constexpr float_t const& __cordl_internal_get__center() const;
 
-  constexpr float_t& __cordl_internal_get__center();
+constexpr float_t& __cordl_internal_get__center() ;
 
-  constexpr float_t const& __cordl_internal_get__collisionLength() const;
+constexpr float_t const& __cordl_internal_get__collisionLength() const;
 
-  constexpr float_t& __cordl_internal_get__collisionLength();
+constexpr float_t& __cordl_internal_get__collisionLength() ;
 
-  constexpr ::UnityEngine::Color const& __cordl_internal_get__color() const;
+constexpr ::UnityEngine::Color const& __cordl_internal_get__color() const;
 
-  constexpr ::UnityEngine::Color& __cordl_internal_get__color();
+constexpr ::UnityEngine::Color& __cordl_internal_get__color() ;
 
-  constexpr float_t const& __cordl_internal_get__colorAlphaMultiplier() const;
+constexpr float_t const& __cordl_internal_get__colorAlphaMultiplier() const;
 
-  constexpr float_t& __cordl_internal_get__colorAlphaMultiplier();
+constexpr float_t& __cordl_internal_get__colorAlphaMultiplier() ;
 
-  constexpr bool const& __cordl_internal_get__disableRenderersOnZeroAlpha() const;
+constexpr bool const& __cordl_internal_get__disableRenderersOnZeroAlpha() const;
 
-  constexpr bool& __cordl_internal_get__disableRenderersOnZeroAlpha();
+constexpr bool& __cordl_internal_get__disableRenderersOnZeroAlpha() ;
 
-  constexpr ::UnityW<::GlobalNamespace::Parametric3SliceSpriteController> const& __cordl_internal_get__dynamic3SliceSprite() const;
+constexpr ::UnityW<::GlobalNamespace::Parametric3SliceSpriteController> const& __cordl_internal_get__dynamic3SliceSprite() const;
 
-  constexpr ::UnityW<::GlobalNamespace::Parametric3SliceSpriteController>& __cordl_internal_get__dynamic3SliceSprite();
+constexpr ::UnityW<::GlobalNamespace::Parametric3SliceSpriteController>& __cordl_internal_get__dynamic3SliceSprite() ;
 
-  constexpr bool const& __cordl_internal_get__enabledRenderers() const;
+constexpr bool const& __cordl_internal_get__enabledRenderers() const;
 
-  constexpr bool& __cordl_internal_get__enabledRenderers();
+constexpr bool& __cordl_internal_get__enabledRenderers() ;
 
-  constexpr float_t const& __cordl_internal_get__endAlpha() const;
+constexpr float_t const& __cordl_internal_get__endAlpha() const;
 
-  constexpr float_t& __cordl_internal_get__endAlpha();
+constexpr float_t& __cordl_internal_get__endAlpha() ;
 
-  constexpr float_t const& __cordl_internal_get__endWidth() const;
+constexpr float_t const& __cordl_internal_get__endWidth() const;
 
-  constexpr float_t& __cordl_internal_get__endWidth();
+constexpr float_t& __cordl_internal_get__endWidth() ;
 
-  constexpr float_t const& __cordl_internal_get__fakeBloomIntensityMultiplier() const;
+constexpr float_t const& __cordl_internal_get__fakeBloomIntensityMultiplier() const;
 
-  constexpr float_t& __cordl_internal_get__fakeBloomIntensityMultiplier();
+constexpr float_t& __cordl_internal_get__fakeBloomIntensityMultiplier() ;
 
-  constexpr bool const& __cordl_internal_get__forceUseBakedGlow() const;
+constexpr bool const& __cordl_internal_get__forceUseBakedGlow() const;
 
-  constexpr bool& __cordl_internal_get__forceUseBakedGlow();
+constexpr bool& __cordl_internal_get__forceUseBakedGlow() ;
 
-  constexpr bool const& __cordl_internal_get__initialized() const;
+constexpr bool const& __cordl_internal_get__initialized() const;
 
-  constexpr bool& __cordl_internal_get__initialized();
+constexpr bool& __cordl_internal_get__initialized() ;
 
-  constexpr bool const& __cordl_internal_get__isDirty() const;
+constexpr bool const& __cordl_internal_get__isDirty() const;
 
-  constexpr bool& __cordl_internal_get__isDirty();
+constexpr bool& __cordl_internal_get__isDirty() ;
 
-  constexpr bool const& __cordl_internal_get__isDynamic3SliceSpriteValid() const;
+constexpr bool const& __cordl_internal_get__isDynamic3SliceSpriteValid() const;
 
-  constexpr bool& __cordl_internal_get__isDynamic3SliceSpriteValid();
+constexpr bool& __cordl_internal_get__isDynamic3SliceSpriteValid() ;
 
-  constexpr bool const& __cordl_internal_get__isParametricBoxControllerValid() const;
+constexpr bool const& __cordl_internal_get__isParametricBoxControllerValid() const;
 
-  constexpr bool& __cordl_internal_get__isParametricBoxControllerValid();
+constexpr bool& __cordl_internal_get__isParametricBoxControllerValid() ;
 
-  constexpr float_t const& __cordl_internal_get__length() const;
+constexpr float_t const& __cordl_internal_get__length() const;
 
-  constexpr float_t& __cordl_internal_get__length();
+constexpr float_t& __cordl_internal_get__length() ;
 
-  constexpr float_t const& __cordl_internal_get__lightWidthMultiplier() const;
+constexpr float_t const& __cordl_internal_get__lightWidthMultiplier() const;
 
-  constexpr float_t& __cordl_internal_get__lightWidthMultiplier();
+constexpr float_t& __cordl_internal_get__lightWidthMultiplier() ;
 
-  constexpr bool const& __cordl_internal_get__limitAlpha() const;
+constexpr bool const& __cordl_internal_get__limitAlpha() const;
 
-  constexpr bool& __cordl_internal_get__limitAlpha();
+constexpr bool& __cordl_internal_get__limitAlpha() ;
 
-  constexpr ::UnityW<::GlobalNamespace::BoolSO> const& __cordl_internal_get__mainEffectPostProcessEnabled() const;
+constexpr ::UnityW<::GlobalNamespace::BoolSO> const& __cordl_internal_get__mainEffectPostProcessEnabled() const;
 
-  constexpr ::UnityW<::GlobalNamespace::BoolSO>& __cordl_internal_get__mainEffectPostProcessEnabled();
+constexpr ::UnityW<::GlobalNamespace::BoolSO>& __cordl_internal_get__mainEffectPostProcessEnabled() ;
 
-  constexpr float_t const& __cordl_internal_get__maxAlpha() const;
+constexpr float_t const& __cordl_internal_get__maxAlpha() const;
 
-  constexpr float_t& __cordl_internal_get__maxAlpha();
+constexpr float_t& __cordl_internal_get__maxAlpha() ;
 
-  constexpr float_t const& __cordl_internal_get__maxDistance() const;
+constexpr float_t const& __cordl_internal_get__maxDistance() const;
 
-  constexpr float_t& __cordl_internal_get__maxDistance();
+constexpr float_t& __cordl_internal_get__maxDistance() ;
 
-  constexpr float_t const& __cordl_internal_get__maxWidthMultiplier() const;
+constexpr float_t const& __cordl_internal_get__maxWidthMultiplier() const;
 
-  constexpr float_t& __cordl_internal_get__maxWidthMultiplier();
+constexpr float_t& __cordl_internal_get__maxWidthMultiplier() ;
 
-  constexpr float_t const& __cordl_internal_get__minAlpha() const;
+constexpr float_t const& __cordl_internal_get__minAlpha() const;
 
-  constexpr float_t& __cordl_internal_get__minAlpha();
+constexpr float_t& __cordl_internal_get__minAlpha() ;
 
-  constexpr float_t const& __cordl_internal_get__minDistance() const;
+constexpr float_t const& __cordl_internal_get__minDistance() const;
 
-  constexpr float_t& __cordl_internal_get__minDistance();
+constexpr float_t& __cordl_internal_get__minDistance() ;
 
-  constexpr float_t const& __cordl_internal_get__minWidthMultiplier() const;
+constexpr float_t const& __cordl_internal_get__minWidthMultiplier() const;
 
-  constexpr float_t& __cordl_internal_get__minWidthMultiplier();
+constexpr float_t& __cordl_internal_get__minWidthMultiplier() ;
 
-  constexpr bool const& __cordl_internal_get__multiplyLengthByAlpha() const;
+constexpr bool const& __cordl_internal_get__multiplyLengthByAlpha() const;
 
-  constexpr bool& __cordl_internal_get__multiplyLengthByAlpha();
+constexpr bool& __cordl_internal_get__multiplyLengthByAlpha() ;
 
-  constexpr float_t const& __cordl_internal_get__multiplyLengthByAlphaBloomFogMultiplier() const;
+constexpr float_t const& __cordl_internal_get__multiplyLengthByAlphaBloomFogMultiplier() const;
 
-  constexpr float_t& __cordl_internal_get__multiplyLengthByAlphaBloomFogMultiplier();
+constexpr float_t& __cordl_internal_get__multiplyLengthByAlphaBloomFogMultiplier() ;
 
-  constexpr float_t const& __cordl_internal_get__multiplyLengthByAlphaMultiplier() const;
+constexpr float_t const& __cordl_internal_get__multiplyLengthByAlphaMultiplier() const;
 
-  constexpr float_t& __cordl_internal_get__multiplyLengthByAlphaMultiplier();
+constexpr float_t& __cordl_internal_get__multiplyLengthByAlphaMultiplier() ;
 
-  constexpr bool const& __cordl_internal_get__overrideChildrenAlpha() const;
+constexpr bool const& __cordl_internal_get__overrideChildrenAlpha() const;
 
-  constexpr bool& __cordl_internal_get__overrideChildrenAlpha();
+constexpr bool& __cordl_internal_get__overrideChildrenAlpha() ;
 
-  constexpr bool const& __cordl_internal_get__overrideChildrenLength() const;
+constexpr bool const& __cordl_internal_get__overrideChildrenLength() const;
 
-  constexpr bool& __cordl_internal_get__overrideChildrenLength();
+constexpr bool& __cordl_internal_get__overrideChildrenLength() ;
 
-  constexpr bool const& __cordl_internal_get__overrideChildrenWidth() const;
+constexpr bool const& __cordl_internal_get__overrideChildrenWidth() const;
 
-  constexpr bool& __cordl_internal_get__overrideChildrenWidth();
+constexpr bool& __cordl_internal_get__overrideChildrenWidth() ;
 
-  constexpr ::UnityW<::GlobalNamespace::ParametricBoxController> const& __cordl_internal_get__parametricBoxController() const;
+constexpr ::UnityW<::GlobalNamespace::ParametricBoxController> const& __cordl_internal_get__parametricBoxController() const;
 
-  constexpr ::UnityW<::GlobalNamespace::ParametricBoxController>& __cordl_internal_get__parametricBoxController();
+constexpr ::UnityW<::GlobalNamespace::ParametricBoxController>& __cordl_internal_get__parametricBoxController() ;
 
-  constexpr bool const& __cordl_internal_get__parametricBoxControllerOnceParInitialized() const;
+constexpr bool const& __cordl_internal_get__parametricBoxControllerOnceParInitialized() const;
 
-  constexpr bool& __cordl_internal_get__parametricBoxControllerOnceParInitialized();
+constexpr bool& __cordl_internal_get__parametricBoxControllerOnceParInitialized() ;
 
-  constexpr float_t const& __cordl_internal_get__startAlpha() const;
+constexpr float_t const& __cordl_internal_get__startAlpha() const;
 
-  constexpr float_t& __cordl_internal_get__startAlpha();
+constexpr float_t& __cordl_internal_get__startAlpha() ;
 
-  constexpr float_t const& __cordl_internal_get__startWidth() const;
+constexpr float_t const& __cordl_internal_get__startWidth() const;
 
-  constexpr float_t& __cordl_internal_get__startWidth();
+constexpr float_t& __cordl_internal_get__startWidth() ;
 
-  constexpr ::UnityEngine::AnimationCurve* const& __cordl_internal_get__thickenCurve() const;
+constexpr ::UnityEngine::AnimationCurve* const& __cordl_internal_get__thickenCurve() const;
 
-  constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get__thickenCurve();
+constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get__thickenCurve() ;
 
-  constexpr bool const& __cordl_internal_get__thickenWithDistance() const;
+constexpr bool const& __cordl_internal_get__thickenWithDistance() const;
 
-  constexpr bool& __cordl_internal_get__thickenWithDistance();
+constexpr bool& __cordl_internal_get__thickenWithDistance() ;
 
-  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__transform() const;
+constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__transform() const;
 
-  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__transform();
+constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__transform() ;
 
-  constexpr bool const& __cordl_internal_get__updateAlways() const;
+constexpr bool const& __cordl_internal_get__updateAlways() const;
 
-  constexpr bool& __cordl_internal_get__updateAlways();
+constexpr bool& __cordl_internal_get__updateAlways() ;
 
-  constexpr bool const& __cordl_internal_get__useCollision() const;
+constexpr bool const& __cordl_internal_get__useCollision() const;
 
-  constexpr bool& __cordl_internal_get__useCollision();
+constexpr bool& __cordl_internal_get__useCollision() ;
 
-  constexpr float_t const& __cordl_internal_get__width() const;
+constexpr float_t const& __cordl_internal_get__width() const;
 
-  constexpr float_t& __cordl_internal_get__width();
+constexpr float_t& __cordl_internal_get__width() ;
 
-  constexpr ::System::Action* const& __cordl_internal_get_didRefreshEvent() const;
+constexpr ::System::Action* const& __cordl_internal_get_didRefreshEvent() const;
 
-  constexpr ::System::Action*& __cordl_internal_get_didRefreshEvent();
+constexpr ::System::Action*& __cordl_internal_get_didRefreshEvent() ;
 
-  constexpr void __cordl_internal_set__addWidthToLength(bool value);
+constexpr void __cordl_internal_set__addWidthToLength(bool  value) ;
 
-  constexpr void __cordl_internal_set__alphaToLengthBloomFogCurve(::UnityEngine::AnimationCurve* value);
+constexpr void __cordl_internal_set__alphaToLengthBloomFogCurve(::UnityEngine::AnimationCurve*  value) ;
 
-  constexpr void __cordl_internal_set__alphaToLengthCurve(::UnityEngine::AnimationCurve* value);
+constexpr void __cordl_internal_set__alphaToLengthCurve(::UnityEngine::AnimationCurve*  value) ;
 
-  constexpr void __cordl_internal_set__bakedGlowOnceParInitialized(bool value);
+constexpr void __cordl_internal_set__bakedGlowOnceParInitialized(bool  value) ;
 
-  constexpr void __cordl_internal_set__bakedGlowWidthScale(float_t value);
+constexpr void __cordl_internal_set__bakedGlowWidthScale(float_t  value) ;
 
-  constexpr void __cordl_internal_set__bloomFogIntensityMultiplier(float_t value);
+constexpr void __cordl_internal_set__bloomFogIntensityMultiplier(float_t  value) ;
 
-  constexpr void __cordl_internal_set__boostToWhite(float_t value);
+constexpr void __cordl_internal_set__boostToWhite(float_t  value) ;
 
-  constexpr void __cordl_internal_set__center(float_t value);
+constexpr void __cordl_internal_set__center(float_t  value) ;
 
-  constexpr void __cordl_internal_set__collisionLength(float_t value);
+constexpr void __cordl_internal_set__collisionLength(float_t  value) ;
 
-  constexpr void __cordl_internal_set__color(::UnityEngine::Color value);
+constexpr void __cordl_internal_set__color(::UnityEngine::Color  value) ;
 
-  constexpr void __cordl_internal_set__colorAlphaMultiplier(float_t value);
+constexpr void __cordl_internal_set__colorAlphaMultiplier(float_t  value) ;
 
-  constexpr void __cordl_internal_set__disableRenderersOnZeroAlpha(bool value);
+constexpr void __cordl_internal_set__disableRenderersOnZeroAlpha(bool  value) ;
 
-  constexpr void __cordl_internal_set__dynamic3SliceSprite(::UnityW<::GlobalNamespace::Parametric3SliceSpriteController> value);
+constexpr void __cordl_internal_set__dynamic3SliceSprite(::UnityW<::GlobalNamespace::Parametric3SliceSpriteController>  value) ;
 
-  constexpr void __cordl_internal_set__enabledRenderers(bool value);
+constexpr void __cordl_internal_set__enabledRenderers(bool  value) ;
 
-  constexpr void __cordl_internal_set__endAlpha(float_t value);
+constexpr void __cordl_internal_set__endAlpha(float_t  value) ;
 
-  constexpr void __cordl_internal_set__endWidth(float_t value);
+constexpr void __cordl_internal_set__endWidth(float_t  value) ;
 
-  constexpr void __cordl_internal_set__fakeBloomIntensityMultiplier(float_t value);
+constexpr void __cordl_internal_set__fakeBloomIntensityMultiplier(float_t  value) ;
 
-  constexpr void __cordl_internal_set__forceUseBakedGlow(bool value);
+constexpr void __cordl_internal_set__forceUseBakedGlow(bool  value) ;
 
-  constexpr void __cordl_internal_set__initialized(bool value);
+constexpr void __cordl_internal_set__initialized(bool  value) ;
 
-  constexpr void __cordl_internal_set__isDirty(bool value);
+constexpr void __cordl_internal_set__isDirty(bool  value) ;
 
-  constexpr void __cordl_internal_set__isDynamic3SliceSpriteValid(bool value);
+constexpr void __cordl_internal_set__isDynamic3SliceSpriteValid(bool  value) ;
 
-  constexpr void __cordl_internal_set__isParametricBoxControllerValid(bool value);
+constexpr void __cordl_internal_set__isParametricBoxControllerValid(bool  value) ;
 
-  constexpr void __cordl_internal_set__length(float_t value);
+constexpr void __cordl_internal_set__length(float_t  value) ;
 
-  constexpr void __cordl_internal_set__lightWidthMultiplier(float_t value);
+constexpr void __cordl_internal_set__lightWidthMultiplier(float_t  value) ;
 
-  constexpr void __cordl_internal_set__limitAlpha(bool value);
+constexpr void __cordl_internal_set__limitAlpha(bool  value) ;
 
-  constexpr void __cordl_internal_set__mainEffectPostProcessEnabled(::UnityW<::GlobalNamespace::BoolSO> value);
+constexpr void __cordl_internal_set__mainEffectPostProcessEnabled(::UnityW<::GlobalNamespace::BoolSO>  value) ;
 
-  constexpr void __cordl_internal_set__maxAlpha(float_t value);
+constexpr void __cordl_internal_set__maxAlpha(float_t  value) ;
 
-  constexpr void __cordl_internal_set__maxDistance(float_t value);
+constexpr void __cordl_internal_set__maxDistance(float_t  value) ;
 
-  constexpr void __cordl_internal_set__maxWidthMultiplier(float_t value);
+constexpr void __cordl_internal_set__maxWidthMultiplier(float_t  value) ;
 
-  constexpr void __cordl_internal_set__minAlpha(float_t value);
+constexpr void __cordl_internal_set__minAlpha(float_t  value) ;
 
-  constexpr void __cordl_internal_set__minDistance(float_t value);
+constexpr void __cordl_internal_set__minDistance(float_t  value) ;
 
-  constexpr void __cordl_internal_set__minWidthMultiplier(float_t value);
+constexpr void __cordl_internal_set__minWidthMultiplier(float_t  value) ;
 
-  constexpr void __cordl_internal_set__multiplyLengthByAlpha(bool value);
+constexpr void __cordl_internal_set__multiplyLengthByAlpha(bool  value) ;
 
-  constexpr void __cordl_internal_set__multiplyLengthByAlphaBloomFogMultiplier(float_t value);
+constexpr void __cordl_internal_set__multiplyLengthByAlphaBloomFogMultiplier(float_t  value) ;
 
-  constexpr void __cordl_internal_set__multiplyLengthByAlphaMultiplier(float_t value);
+constexpr void __cordl_internal_set__multiplyLengthByAlphaMultiplier(float_t  value) ;
 
-  constexpr void __cordl_internal_set__overrideChildrenAlpha(bool value);
+constexpr void __cordl_internal_set__overrideChildrenAlpha(bool  value) ;
 
-  constexpr void __cordl_internal_set__overrideChildrenLength(bool value);
+constexpr void __cordl_internal_set__overrideChildrenLength(bool  value) ;
 
-  constexpr void __cordl_internal_set__overrideChildrenWidth(bool value);
+constexpr void __cordl_internal_set__overrideChildrenWidth(bool  value) ;
 
-  constexpr void __cordl_internal_set__parametricBoxController(::UnityW<::GlobalNamespace::ParametricBoxController> value);
+constexpr void __cordl_internal_set__parametricBoxController(::UnityW<::GlobalNamespace::ParametricBoxController>  value) ;
 
-  constexpr void __cordl_internal_set__parametricBoxControllerOnceParInitialized(bool value);
+constexpr void __cordl_internal_set__parametricBoxControllerOnceParInitialized(bool  value) ;
 
-  constexpr void __cordl_internal_set__startAlpha(float_t value);
+constexpr void __cordl_internal_set__startAlpha(float_t  value) ;
 
-  constexpr void __cordl_internal_set__startWidth(float_t value);
+constexpr void __cordl_internal_set__startWidth(float_t  value) ;
 
-  constexpr void __cordl_internal_set__thickenCurve(::UnityEngine::AnimationCurve* value);
+constexpr void __cordl_internal_set__thickenCurve(::UnityEngine::AnimationCurve*  value) ;
 
-  constexpr void __cordl_internal_set__thickenWithDistance(bool value);
+constexpr void __cordl_internal_set__thickenWithDistance(bool  value) ;
 
-  constexpr void __cordl_internal_set__transform(::UnityW<::UnityEngine::Transform> value);
+constexpr void __cordl_internal_set__transform(::UnityW<::UnityEngine::Transform>  value) ;
 
-  constexpr void __cordl_internal_set__updateAlways(bool value);
+constexpr void __cordl_internal_set__updateAlways(bool  value) ;
 
-  constexpr void __cordl_internal_set__useCollision(bool value);
+constexpr void __cordl_internal_set__useCollision(bool  value) ;
 
-  constexpr void __cordl_internal_set__width(float_t value);
+constexpr void __cordl_internal_set__width(float_t  value) ;
 
-  constexpr void __cordl_internal_set_didRefreshEvent(::System::Action* value);
+constexpr void __cordl_internal_set_didRefreshEvent(::System::Action*  value) ;
 
-  /// @brief Method .ctor, addr 0x56b4ad4, size 0x118, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x56b485c, size 0x118, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method add_didRefreshEvent, addr 0x56b3f48, size 0xac, virtual false, abstract: false, final false
-  inline void add_didRefreshEvent(::System::Action* value);
+/// @brief Method add_didRefreshEvent, addr 0x56b3cd0, size 0xac, virtual false, abstract: false, final false
+inline void add_didRefreshEvent(::System::Action*  value) ;
 
-  /// @brief Method get_bloomFogIntensityMultiplier, addr 0x56b42e4, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_bloomFogIntensityMultiplier();
+/// @brief Method get_bloomFogIntensityMultiplier, addr 0x56b406c, size 0x8, virtual false, abstract: false, final false
+inline float_t get_bloomFogIntensityMultiplier() ;
 
-  /// @brief Method get_calculatedCollisionLength, addr 0x56b425c, size 0x24, virtual false, abstract: false, final false
-  inline float_t get_calculatedCollisionLength();
+/// @brief Method get_calculatedCollisionLength, addr 0x56b3fe4, size 0x24, virtual false, abstract: false, final false
+inline float_t get_calculatedCollisionLength() ;
 
-  /// @brief Method get_center, addr 0x56b40b0, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_center();
+/// @brief Method get_center, addr 0x56b3e38, size 0x8, virtual false, abstract: false, final false
+inline float_t get_center() ;
 
-  /// @brief Method get_collisionEndAlpha, addr 0x56b41ec, size 0x70, virtual false, abstract: false, final false
-  inline float_t get_collisionEndAlpha();
+/// @brief Method get_collisionEndAlpha, addr 0x56b3f74, size 0x70, virtual false, abstract: false, final false
+inline float_t get_collisionEndAlpha() ;
 
-  /// @brief Method get_collisionLength, addr 0x56b41d4, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_collisionLength();
+/// @brief Method get_collisionLength, addr 0x56b3f5c, size 0x8, virtual false, abstract: false, final false
+inline float_t get_collisionLength() ;
 
-  /// @brief Method get_color, addr 0x56b43a4, size 0xc, virtual false, abstract: false, final false
-  inline ::UnityEngine::Color get_color();
+/// @brief Method get_color, addr 0x56b412c, size 0xc, virtual false, abstract: false, final false
+inline ::UnityEngine::Color get_color() ;
 
-  /// @brief Method get_colorAlphaMultiplier, addr 0x56b40a8, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_colorAlphaMultiplier();
+/// @brief Method get_colorAlphaMultiplier, addr 0x56b3e30, size 0x8, virtual false, abstract: false, final false
+inline float_t get_colorAlphaMultiplier() ;
 
-  /// @brief Method get_enabledRenderers, addr 0x56b40a0, size 0x8, virtual false, abstract: false, final false
-  inline bool get_enabledRenderers();
+/// @brief Method get_enabledRenderers, addr 0x56b3e28, size 0x8, virtual false, abstract: false, final false
+inline bool get_enabledRenderers() ;
 
-  /// @brief Method get_length, addr 0x56b428c, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_length();
+/// @brief Method get_length, addr 0x56b4014, size 0x8, virtual false, abstract: false, final false
+inline float_t get_length() ;
 
-  /// @brief Method get_lightWidthMultiplier, addr 0x56b42d4, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_lightWidthMultiplier();
+/// @brief Method get_lightWidthMultiplier, addr 0x56b405c, size 0x8, virtual false, abstract: false, final false
+inline float_t get_lightWidthMultiplier() ;
 
-  /// @brief Method get_startAlpha, addr 0x56b42bc, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_startAlpha();
+/// @brief Method get_startAlpha, addr 0x56b4044, size 0x8, virtual false, abstract: false, final false
+inline float_t get_startAlpha() ;
 
-  /// @brief Method get_useCollision, addr 0x56b40b8, size 0x8, virtual false, abstract: false, final false
-  inline bool get_useCollision();
+/// @brief Method get_useCollision, addr 0x56b3e40, size 0x8, virtual false, abstract: false, final false
+inline bool get_useCollision() ;
 
-  /// @brief Method get_width, addr 0x56b42a4, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_width();
+/// @brief Method get_width, addr 0x56b402c, size 0x8, virtual false, abstract: false, final false
+inline float_t get_width() ;
 
-  /// @brief Method remove_didRefreshEvent, addr 0x56b3ff4, size 0xac, virtual false, abstract: false, final false
-  inline void remove_didRefreshEvent(::System::Action* value);
+/// @brief Method remove_didRefreshEvent, addr 0x56b3d7c, size 0xac, virtual false, abstract: false, final false
+inline void remove_didRefreshEvent(::System::Action*  value) ;
 
-  /// @brief Method set_bloomFogIntensityMultiplier, addr 0x56b42ec, size 0x8, virtual false, abstract: false, final false
-  inline void set_bloomFogIntensityMultiplier(float_t value);
+/// @brief Method set_bloomFogIntensityMultiplier, addr 0x56b4074, size 0x8, virtual false, abstract: false, final false
+inline void set_bloomFogIntensityMultiplier(float_t  value) ;
 
-  /// @brief Method set_collisionLength, addr 0x56b41dc, size 0x10, virtual false, abstract: false, final false
-  inline void set_collisionLength(float_t value);
+/// @brief Method set_collisionLength, addr 0x56b3f64, size 0x10, virtual false, abstract: false, final false
+inline void set_collisionLength(float_t  value) ;
 
-  /// @brief Method set_color, addr 0x56b42f4, size 0xb0, virtual false, abstract: false, final false
-  inline void set_color(::UnityEngine::Color value);
+/// @brief Method set_color, addr 0x56b407c, size 0xb0, virtual false, abstract: false, final false
+inline void set_color(::UnityEngine::Color  value) ;
 
-  /// @brief Method set_length, addr 0x56b4294, size 0x10, virtual false, abstract: false, final false
-  inline void set_length(float_t value);
+/// @brief Method set_length, addr 0x56b401c, size 0x10, virtual false, abstract: false, final false
+inline void set_length(float_t  value) ;
 
-  /// @brief Method set_lightWidthMultiplier, addr 0x56b42dc, size 0x8, virtual false, abstract: false, final false
-  inline void set_lightWidthMultiplier(float_t value);
+/// @brief Method set_lightWidthMultiplier, addr 0x56b4064, size 0x8, virtual false, abstract: false, final false
+inline void set_lightWidthMultiplier(float_t  value) ;
 
-  /// @brief Method set_startAlpha, addr 0x56b42c4, size 0x10, virtual false, abstract: false, final false
-  inline void set_startAlpha(float_t value);
+/// @brief Method set_startAlpha, addr 0x56b404c, size 0x10, virtual false, abstract: false, final false
+inline void set_startAlpha(float_t  value) ;
 
-  /// @brief Method set_useCollision, addr 0x56b40c0, size 0x4c, virtual false, abstract: false, final false
-  inline void set_useCollision(bool value);
+/// @brief Method set_useCollision, addr 0x56b3e48, size 0x4c, virtual false, abstract: false, final false
+inline void set_useCollision(bool  value) ;
 
-  /// @brief Method set_width, addr 0x56b42ac, size 0x10, virtual false, abstract: false, final false
-  inline void set_width(float_t value);
+/// @brief Method set_width, addr 0x56b4034, size 0x10, virtual false, abstract: false, final false
+inline void set_width(float_t  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TubeBloomPrePassLight();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr TubeBloomPrePassLight() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TubeBloomPrePassLight", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  TubeBloomPrePassLight(TubeBloomPrePassLight&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TubeBloomPrePassLight", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  TubeBloomPrePassLight(TubeBloomPrePassLight const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "TubeBloomPrePassLight", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+TubeBloomPrePassLight(TubeBloomPrePassLight && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19680 };
+// Ctor Parameters [CppParam { name: "", ty: "TubeBloomPrePassLight", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+TubeBloomPrePassLight(TubeBloomPrePassLight const& ) = delete;
 
-  /// @brief Field _mainEffectPostProcessEnabled, offset: 0x38, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::BoolSO> ____mainEffectPostProcessEnabled;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{19684};
 
-  /// @brief Field _width, offset: 0x40, size: 0x4, def value: None
-  float_t ____width;
+/// @brief Field _mainEffectPostProcessEnabled, offset: 0x38, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::BoolSO>  ____mainEffectPostProcessEnabled;
 
-  /// @brief Field _overrideChildrenLength, offset: 0x44, size: 0x1, def value: None
-  bool ____overrideChildrenLength;
+/// @brief Field _width, offset: 0x40, size: 0x4, def value: None
+ float_t  ____width;
 
-  /// @brief Field _length, offset: 0x48, size: 0x4, def value: None
-  float_t ____length;
+/// @brief Field _overrideChildrenLength, offset: 0x44, size: 0x1, def value: None
+ bool  ____overrideChildrenLength;
 
-  /// @brief Field _center, offset: 0x4c, size: 0x4, def value: None
-  float_t ____center;
+/// @brief Field _length, offset: 0x48, size: 0x4, def value: None
+ float_t  ____length;
 
-  /// @brief Field _color, offset: 0x50, size: 0x10, def value: None
-  ::UnityEngine::Color ____color;
+/// @brief Field _center, offset: 0x4c, size: 0x4, def value: None
+ float_t  ____center;
 
-  /// @brief Field _colorAlphaMultiplier, offset: 0x60, size: 0x4, def value: None
-  float_t ____colorAlphaMultiplier;
+/// @brief Field _color, offset: 0x50, size: 0x10, def value: None
+ ::UnityEngine::Color  ____color;
 
-  /// @brief Field _bloomFogIntensityMultiplier, offset: 0x64, size: 0x4, def value: None
-  float_t ____bloomFogIntensityMultiplier;
+/// @brief Field _colorAlphaMultiplier, offset: 0x60, size: 0x4, def value: None
+ float_t  ____colorAlphaMultiplier;
 
-  /// @brief Field _fakeBloomIntensityMultiplier, offset: 0x68, size: 0x4, def value: None
-  float_t ____fakeBloomIntensityMultiplier;
+/// @brief Field _bloomFogIntensityMultiplier, offset: 0x64, size: 0x4, def value: None
+ float_t  ____bloomFogIntensityMultiplier;
 
-  /// @brief Field _boostToWhite, offset: 0x6c, size: 0x4, def value: None
-  float_t ____boostToWhite;
+/// @brief Field _fakeBloomIntensityMultiplier, offset: 0x68, size: 0x4, def value: None
+ float_t  ____fakeBloomIntensityMultiplier;
 
-  /// @brief Field _lightWidthMultiplier, offset: 0x70, size: 0x4, def value: None
-  float_t ____lightWidthMultiplier;
+/// @brief Field _boostToWhite, offset: 0x6c, size: 0x4, def value: None
+ float_t  ____boostToWhite;
 
-  /// @brief Field _addWidthToLength, offset: 0x74, size: 0x1, def value: None
-  bool ____addWidthToLength;
+/// @brief Field _lightWidthMultiplier, offset: 0x70, size: 0x4, def value: None
+ float_t  ____lightWidthMultiplier;
 
-  /// @brief Field _thickenWithDistance, offset: 0x75, size: 0x1, def value: None
-  bool ____thickenWithDistance;
+/// @brief Field _addWidthToLength, offset: 0x74, size: 0x1, def value: None
+ bool  ____addWidthToLength;
 
-  /// @brief Field _thickenCurve, offset: 0x78, size: 0x8, def value: None
-  ::UnityEngine::AnimationCurve* ____thickenCurve;
+/// @brief Field _thickenWithDistance, offset: 0x75, size: 0x1, def value: None
+ bool  ____thickenWithDistance;
 
-  /// @brief Field _minDistance, offset: 0x80, size: 0x4, def value: None
-  float_t ____minDistance;
+/// @brief Field _thickenCurve, offset: 0x78, size: 0x8, def value: None
+ ::UnityEngine::AnimationCurve*  ____thickenCurve;
 
-  /// @brief Field _maxDistance, offset: 0x84, size: 0x4, def value: None
-  float_t ____maxDistance;
+/// @brief Field _minDistance, offset: 0x80, size: 0x4, def value: None
+ float_t  ____minDistance;
 
-  /// @brief Field _minWidthMultiplier, offset: 0x88, size: 0x4, def value: None
-  float_t ____minWidthMultiplier;
+/// @brief Field _maxDistance, offset: 0x84, size: 0x4, def value: None
+ float_t  ____maxDistance;
 
-  /// @brief Field _maxWidthMultiplier, offset: 0x8c, size: 0x4, def value: None
-  float_t ____maxWidthMultiplier;
+/// @brief Field _minWidthMultiplier, offset: 0x88, size: 0x4, def value: None
+ float_t  ____minWidthMultiplier;
 
-  /// @brief Field _disableRenderersOnZeroAlpha, offset: 0x90, size: 0x1, def value: None
-  bool ____disableRenderersOnZeroAlpha;
+/// @brief Field _maxWidthMultiplier, offset: 0x8c, size: 0x4, def value: None
+ float_t  ____maxWidthMultiplier;
 
-  /// @brief Field _bakedGlowWidthScale, offset: 0x94, size: 0x4, def value: None
-  float_t ____bakedGlowWidthScale;
+/// @brief Field _disableRenderersOnZeroAlpha, offset: 0x90, size: 0x1, def value: None
+ bool  ____disableRenderersOnZeroAlpha;
 
-  /// @brief Field _forceUseBakedGlow, offset: 0x98, size: 0x1, def value: None
-  bool ____forceUseBakedGlow;
+/// @brief Field _bakedGlowWidthScale, offset: 0x94, size: 0x4, def value: None
+ float_t  ____bakedGlowWidthScale;
 
-  /// @brief Field _multiplyLengthByAlpha, offset: 0x99, size: 0x1, def value: None
-  bool ____multiplyLengthByAlpha;
+/// @brief Field _forceUseBakedGlow, offset: 0x98, size: 0x1, def value: None
+ bool  ____forceUseBakedGlow;
 
-  /// @brief Field _alphaToLengthCurve, offset: 0xa0, size: 0x8, def value: None
-  ::UnityEngine::AnimationCurve* ____alphaToLengthCurve;
+/// @brief Field _multiplyLengthByAlpha, offset: 0x99, size: 0x1, def value: None
+ bool  ____multiplyLengthByAlpha;
 
-  /// @brief Field _alphaToLengthBloomFogCurve, offset: 0xa8, size: 0x8, def value: None
-  ::UnityEngine::AnimationCurve* ____alphaToLengthBloomFogCurve;
+/// @brief Field _alphaToLengthCurve, offset: 0xa0, size: 0x8, def value: None
+ ::UnityEngine::AnimationCurve*  ____alphaToLengthCurve;
 
-  /// @brief Field _updateAlways, offset: 0xb0, size: 0x1, def value: None
-  bool ____updateAlways;
+/// @brief Field _alphaToLengthBloomFogCurve, offset: 0xa8, size: 0x8, def value: None
+ ::UnityEngine::AnimationCurve*  ____alphaToLengthBloomFogCurve;
 
-  /// @brief Field _limitAlpha, offset: 0xb1, size: 0x1, def value: None
-  bool ____limitAlpha;
+/// @brief Field _updateAlways, offset: 0xb0, size: 0x1, def value: None
+ bool  ____updateAlways;
 
-  /// @brief Field _minAlpha, offset: 0xb4, size: 0x4, def value: None
-  float_t ____minAlpha;
+/// @brief Field _limitAlpha, offset: 0xb1, size: 0x1, def value: None
+ bool  ____limitAlpha;
 
-  /// @brief Field _maxAlpha, offset: 0xb8, size: 0x4, def value: None
-  float_t ____maxAlpha;
+/// @brief Field _minAlpha, offset: 0xb4, size: 0x4, def value: None
+ float_t  ____minAlpha;
 
-  /// @brief Field _overrideChildrenAlpha, offset: 0xbc, size: 0x1, def value: None
-  bool ____overrideChildrenAlpha;
+/// @brief Field _maxAlpha, offset: 0xb8, size: 0x4, def value: None
+ float_t  ____maxAlpha;
 
-  /// @brief Field _startAlpha, offset: 0xc0, size: 0x4, def value: None
-  float_t ____startAlpha;
+/// @brief Field _overrideChildrenAlpha, offset: 0xbc, size: 0x1, def value: None
+ bool  ____overrideChildrenAlpha;
 
-  /// @brief Field _endAlpha, offset: 0xc4, size: 0x4, def value: None
-  float_t ____endAlpha;
+/// @brief Field _startAlpha, offset: 0xc0, size: 0x4, def value: None
+ float_t  ____startAlpha;
 
-  /// @brief Field _overrideChildrenWidth, offset: 0xc8, size: 0x1, def value: None
-  bool ____overrideChildrenWidth;
+/// @brief Field _endAlpha, offset: 0xc4, size: 0x4, def value: None
+ float_t  ____endAlpha;
 
-  /// @brief Field _startWidth, offset: 0xcc, size: 0x4, def value: None
-  float_t ____startWidth;
+/// @brief Field _overrideChildrenWidth, offset: 0xc8, size: 0x1, def value: None
+ bool  ____overrideChildrenWidth;
 
-  /// @brief Field _endWidth, offset: 0xd0, size: 0x4, def value: None
-  float_t ____endWidth;
+/// @brief Field _startWidth, offset: 0xcc, size: 0x4, def value: None
+ float_t  ____startWidth;
 
-  /// @brief Field _parametricBoxController, offset: 0xd8, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::ParametricBoxController> ____parametricBoxController;
+/// @brief Field _endWidth, offset: 0xd0, size: 0x4, def value: None
+ float_t  ____endWidth;
 
-  /// @brief Field _dynamic3SliceSprite, offset: 0xe0, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::Parametric3SliceSpriteController> ____dynamic3SliceSprite;
+/// @brief Field _parametricBoxController, offset: 0xd8, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::ParametricBoxController>  ____parametricBoxController;
 
-  /// @brief Field _initialized, offset: 0xe8, size: 0x1, def value: None
-  bool ____initialized;
+/// @brief Field _dynamic3SliceSprite, offset: 0xe0, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::Parametric3SliceSpriteController>  ____dynamic3SliceSprite;
 
-  /// @brief Field _enabledRenderers, offset: 0xe9, size: 0x1, def value: None
-  bool ____enabledRenderers;
+/// @brief Field _initialized, offset: 0xe8, size: 0x1, def value: None
+ bool  ____initialized;
 
-  /// @brief Field _parametricBoxControllerOnceParInitialized, offset: 0xea, size: 0x1, def value: None
-  bool ____parametricBoxControllerOnceParInitialized;
+/// @brief Field _enabledRenderers, offset: 0xe9, size: 0x1, def value: None
+ bool  ____enabledRenderers;
 
-  /// @brief Field _bakedGlowOnceParInitialized, offset: 0xeb, size: 0x1, def value: None
-  bool ____bakedGlowOnceParInitialized;
+/// @brief Field _parametricBoxControllerOnceParInitialized, offset: 0xea, size: 0x1, def value: None
+ bool  ____parametricBoxControllerOnceParInitialized;
 
-  /// @brief Field _isParametricBoxControllerValid, offset: 0xec, size: 0x1, def value: None
-  bool ____isParametricBoxControllerValid;
+/// @brief Field _bakedGlowOnceParInitialized, offset: 0xeb, size: 0x1, def value: None
+ bool  ____bakedGlowOnceParInitialized;
 
-  /// @brief Field _isDynamic3SliceSpriteValid, offset: 0xed, size: 0x1, def value: None
-  bool ____isDynamic3SliceSpriteValid;
+/// @brief Field _isParametricBoxControllerValid, offset: 0xec, size: 0x1, def value: None
+ bool  ____isParametricBoxControllerValid;
 
-  /// @brief Field didRefreshEvent, offset: 0xf0, size: 0x8, def value: None
-  ::System::Action* ___didRefreshEvent;
+/// @brief Field _isDynamic3SliceSpriteValid, offset: 0xed, size: 0x1, def value: None
+ bool  ____isDynamic3SliceSpriteValid;
 
-  /// @brief Field _useCollision, offset: 0xf8, size: 0x1, def value: None
-  bool ____useCollision;
+/// @brief Field didRefreshEvent, offset: 0xf0, size: 0x8, def value: None
+ ::System::Action*  ___didRefreshEvent;
 
-  /// @brief Field _collisionLength, offset: 0xfc, size: 0x4, def value: None
-  float_t ____collisionLength;
+/// @brief Field _useCollision, offset: 0xf8, size: 0x1, def value: None
+ bool  ____useCollision;
 
-  /// @brief Field _multiplyLengthByAlphaBloomFogMultiplier, offset: 0x100, size: 0x4, def value: None
-  float_t ____multiplyLengthByAlphaBloomFogMultiplier;
+/// @brief Field _collisionLength, offset: 0xfc, size: 0x4, def value: None
+ float_t  ____collisionLength;
 
-  /// @brief Field _multiplyLengthByAlphaMultiplier, offset: 0x104, size: 0x4, def value: None
-  float_t ____multiplyLengthByAlphaMultiplier;
+/// @brief Field _multiplyLengthByAlphaBloomFogMultiplier, offset: 0x100, size: 0x4, def value: None
+ float_t  ____multiplyLengthByAlphaBloomFogMultiplier;
 
-  /// @brief Field _isDirty, offset: 0x108, size: 0x1, def value: None
-  bool ____isDirty;
+/// @brief Field _multiplyLengthByAlphaMultiplier, offset: 0x104, size: 0x4, def value: None
+ float_t  ____multiplyLengthByAlphaMultiplier;
 
-  /// @brief Field _transform, offset: 0x110, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::Transform> ____transform;
+/// @brief Field _isDirty, offset: 0x108, size: 0x1, def value: None
+ bool  ____isDirty;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _transform, offset: 0x110, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::Transform>  ____transform;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::TubeBloomPrePassLight, ____mainEffectPostProcessEnabled) == 0x38, "Offset mismatch!");
@@ -885,6 +880,6 @@ static_assert(offsetof(::GlobalNamespace::TubeBloomPrePassLight, ____transform) 
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::TubeBloomPrePassLight, 0x118>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::TubeBloomPrePassLight);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::TubeBloomPrePassLight*, "", "TubeBloomPrePassLight");

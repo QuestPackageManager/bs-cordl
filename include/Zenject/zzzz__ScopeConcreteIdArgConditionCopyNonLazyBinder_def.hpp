@@ -23,43 +23,43 @@ namespace Zenject {
 // CS Name: Zenject.ScopeConcreteIdArgConditionCopyNonLazyBinder
 class CORDL_TYPE ScopeConcreteIdArgConditionCopyNonLazyBinder : public ::Zenject::ConcreteIdArgConditionCopyNonLazyBinder {
 public:
-  // Declarations
-  /// @brief Method AsCached, addr 0x6c90c98, size 0x1c, virtual false, abstract: false, final false
-  inline ::Zenject::ConcreteIdArgConditionCopyNonLazyBinder* AsCached();
+// Declarations
+/// @brief Method AsCached, addr 0x6c91358, size 0x1c, virtual false, abstract: false, final false
+inline ::Zenject::ConcreteIdArgConditionCopyNonLazyBinder* AsCached() ;
 
-  /// @brief Method AsSingle, addr 0x6c90cb4, size 0x24, virtual false, abstract: false, final false
-  inline ::Zenject::ConcreteIdArgConditionCopyNonLazyBinder* AsSingle();
+/// @brief Method AsSingle, addr 0x6c91374, size 0x24, virtual false, abstract: false, final false
+inline ::Zenject::ConcreteIdArgConditionCopyNonLazyBinder* AsSingle() ;
 
-  /// @brief Method AsTransient, addr 0x6c90cd8, size 0x1c, virtual false, abstract: false, final false
-  inline ::Zenject::ConcreteIdArgConditionCopyNonLazyBinder* AsTransient();
+/// @brief Method AsTransient, addr 0x6c91398, size 0x1c, virtual false, abstract: false, final false
+inline ::Zenject::ConcreteIdArgConditionCopyNonLazyBinder* AsTransient() ;
 
-  static inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* New_ctor(::Zenject::BindInfo* bindInfo);
+static inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* New_ctor(::Zenject::BindInfo*  bindInfo) ;
 
-  /// @brief Method .ctor, addr 0x6c90b68, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::Zenject::BindInfo* bindInfo);
+/// @brief Method .ctor, addr 0x6c91228, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(::Zenject::BindInfo*  bindInfo) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ScopeConcreteIdArgConditionCopyNonLazyBinder();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ScopeConcreteIdArgConditionCopyNonLazyBinder() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ScopeConcreteIdArgConditionCopyNonLazyBinder", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ScopeConcreteIdArgConditionCopyNonLazyBinder(ScopeConcreteIdArgConditionCopyNonLazyBinder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ScopeConcreteIdArgConditionCopyNonLazyBinder", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ScopeConcreteIdArgConditionCopyNonLazyBinder(ScopeConcreteIdArgConditionCopyNonLazyBinder const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ScopeConcreteIdArgConditionCopyNonLazyBinder", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ScopeConcreteIdArgConditionCopyNonLazyBinder(ScopeConcreteIdArgConditionCopyNonLazyBinder && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14253 };
+// Ctor Parameters [CppParam { name: "", ty: "ScopeConcreteIdArgConditionCopyNonLazyBinder", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ScopeConcreteIdArgConditionCopyNonLazyBinder(ScopeConcreteIdArgConditionCopyNonLazyBinder const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{14257};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder, 0x20>, "Size mismatch!");
 
-} // namespace Zenject
+} // namespace end def Zenject
 NEED_NO_BOX(::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder);
 DEFINE_IL2CPP_ARG_TYPE(::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder*, "Zenject", "ScopeConcreteIdArgConditionCopyNonLazyBinder");

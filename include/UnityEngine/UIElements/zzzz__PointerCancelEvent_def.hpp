@@ -28,94 +28,94 @@ namespace UnityEngine::UIElements {
 // CS Name: UnityEngine.UIElements.PointerCancelEvent/<>c
 class CORDL_TYPE PointerCancelEvent___c : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field <>9, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::UIElements::PointerCancelEvent___c* __9;
+// Declarations
+/// @brief Field <>9, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF___9, put=setStaticF___9)) ::UnityEngine::UIElements::PointerCancelEvent___c*  __9;
 
-  static inline ::UnityEngine::UIElements::PointerCancelEvent___c* New_ctor();
+static inline ::UnityEngine::UIElements::PointerCancelEvent___c* New_ctor() ;
 
-  /// @brief Method <.cctor>b__0_0, addr 0x6bd99d8, size 0x54, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::PointerCancelEvent* __cctor_b__0_0();
+/// @brief Method <.cctor>b__0_0, addr 0x6bda098, size 0x54, virtual false, abstract: false, final false
+inline ::UnityEngine::UIElements::PointerCancelEvent* __cctor_b__0_0() ;
 
-  /// @brief Method .ctor, addr 0x6bd99d4, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6bda094, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  static inline ::UnityEngine::UIElements::PointerCancelEvent___c* getStaticF___9();
+static inline ::UnityEngine::UIElements::PointerCancelEvent___c* getStaticF___9() ;
 
-  static inline void setStaticF___9(::UnityEngine::UIElements::PointerCancelEvent___c* value);
+static inline void setStaticF___9(::UnityEngine::UIElements::PointerCancelEvent___c*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PointerCancelEvent___c();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr PointerCancelEvent___c() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PointerCancelEvent___c", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  PointerCancelEvent___c(PointerCancelEvent___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PointerCancelEvent___c", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  PointerCancelEvent___c(PointerCancelEvent___c const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "PointerCancelEvent___c", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+PointerCancelEvent___c(PointerCancelEvent___c && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4546 };
+// Ctor Parameters [CppParam { name: "", ty: "PointerCancelEvent___c", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+PointerCancelEvent___c(PointerCancelEvent___c const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4546};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::PointerCancelEvent___c, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements
+} // namespace end def UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.PointerEventBase`1<T>
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.PointerCancelEvent
 class CORDL_TYPE PointerCancelEvent : public ::UnityEngine::UIElements::PointerEventBase_1<::UnityEngine::UIElements::PointerCancelEvent*> {
 public:
-  // Declarations
-  using __c = ::UnityEngine::UIElements::PointerCancelEvent___c;
+// Declarations
+using __c = ::UnityEngine::UIElements::PointerCancelEvent___c;
 
-  /// @brief Method Init, addr 0x6bd9524, size 0x54, virtual true, abstract: false, final false
-  inline void Init();
+/// @brief Method Init, addr 0x6bd9be4, size 0x54, virtual true, abstract: false, final false
+inline void Init() ;
 
-  /// @brief Method LocalInit, addr 0x6bd9578, size 0xa8, virtual false, abstract: false, final false
-  inline void LocalInit();
+/// @brief Method LocalInit, addr 0x6bd9c38, size 0xa8, virtual false, abstract: false, final false
+inline void LocalInit() ;
 
-  static inline ::UnityEngine::UIElements::PointerCancelEvent* New_ctor();
+static inline ::UnityEngine::UIElements::PointerCancelEvent* New_ctor() ;
 
-  /// @brief Method PostDispatch, addr 0x6bd97a0, size 0x1e0, virtual true, abstract: false, final false
-  inline void PostDispatch(::UnityEngine::UIElements::IPanel* panel);
+/// @brief Method PostDispatch, addr 0x6bd9e60, size 0x1e0, virtual true, abstract: false, final false
+inline void PostDispatch(::UnityEngine::UIElements::IPanel*  panel) ;
 
-  /// @brief Method PreDispatch, addr 0x6bd9674, size 0x12c, virtual true, abstract: false, final false
-  inline void PreDispatch(::UnityEngine::UIElements::IPanel* panel);
+/// @brief Method PreDispatch, addr 0x6bd9d34, size 0x12c, virtual true, abstract: false, final false
+inline void PreDispatch(::UnityEngine::UIElements::IPanel*  panel) ;
 
-  /// @brief Method .ctor, addr 0x6bd9620, size 0x54, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6bd9ce0, size 0x54, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PointerCancelEvent();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr PointerCancelEvent() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PointerCancelEvent", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  PointerCancelEvent(PointerCancelEvent&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PointerCancelEvent", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  PointerCancelEvent(PointerCancelEvent const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "PointerCancelEvent", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+PointerCancelEvent(PointerCancelEvent && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4547 };
+// Ctor Parameters [CppParam { name: "", ty: "PointerCancelEvent", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+PointerCancelEvent(PointerCancelEvent const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4547};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::PointerCancelEvent, 0xf8>, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements
+} // namespace end def UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::PointerCancelEvent);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::PointerCancelEvent*, "UnityEngine.UIElements", "PointerCancelEvent");
 NEED_NO_BOX(::UnityEngine::UIElements::PointerCancelEvent___c);

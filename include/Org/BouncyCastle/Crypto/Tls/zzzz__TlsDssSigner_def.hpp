@@ -24,45 +24,45 @@ namespace Org::BouncyCastle::Crypto::Tls {
 // CS Name: Org.BouncyCastle.Crypto.Tls.TlsDssSigner
 class CORDL_TYPE TlsDssSigner : public ::Org::BouncyCastle::Crypto::Tls::TlsDsaSigner {
 public:
-  // Declarations
-  __declspec(property(get = get_SignatureAlgorithm)) uint8_t SignatureAlgorithm;
+// Declarations
+ __declspec(property(get=get_SignatureAlgorithm)) uint8_t  SignatureAlgorithm;
 
-  /// @brief Method CreateDsaImpl, addr 0x3384e18, size 0xc0, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Crypto::IDsa* CreateDsaImpl(uint8_t hashAlgorithm);
+/// @brief Method CreateDsaImpl, addr 0x3384d68, size 0xc0, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Crypto::IDsa* CreateDsaImpl(uint8_t  hashAlgorithm) ;
 
-  /// @brief Method IsValidPublicKey, addr 0x3384d9c, size 0x7c, virtual true, abstract: false, final false
-  inline bool IsValidPublicKey(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicKey);
+/// @brief Method IsValidPublicKey, addr 0x3384cec, size 0x7c, virtual true, abstract: false, final false
+inline bool IsValidPublicKey(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*  publicKey) ;
 
-  static inline ::Org::BouncyCastle::Crypto::Tls::TlsDssSigner* New_ctor();
+static inline ::Org::BouncyCastle::Crypto::Tls::TlsDssSigner* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x3381ae8, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x3381a38, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_SignatureAlgorithm, addr 0x3384ed8, size 0x8, virtual true, abstract: false, final false
-  inline uint8_t get_SignatureAlgorithm();
+/// @brief Method get_SignatureAlgorithm, addr 0x3384e28, size 0x8, virtual true, abstract: false, final false
+inline uint8_t get_SignatureAlgorithm() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TlsDssSigner();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr TlsDssSigner() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TlsDssSigner", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  TlsDssSigner(TlsDssSigner&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TlsDssSigner", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  TlsDssSigner(TlsDssSigner const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "TlsDssSigner", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+TlsDssSigner(TlsDssSigner && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1302 };
+// Ctor Parameters [CppParam { name: "", ty: "TlsDssSigner", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+TlsDssSigner(TlsDssSigner const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{1302};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Tls::TlsDssSigner, 0x18>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Crypto::Tls
+} // namespace end def Org::BouncyCastle::Crypto::Tls
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Tls::TlsDssSigner);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Tls::TlsDssSigner*, "Org.BouncyCastle.Crypto.Tls", "TlsDssSigner");

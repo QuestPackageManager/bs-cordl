@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "Org/BouncyCastle/Crypto/Agreement/DHAgreement.hpp"
 #include "Org/BouncyCastle/Crypto/Agreement/DHBasicAgreement.hpp"
@@ -15,5 +15,6 @@ module;
 #include "Org/BouncyCastle/Crypto/Agreement/X25519Agreement.hpp"
 #include "Org/BouncyCastle/Crypto/Agreement/X448Agreement.hpp"
 #ifdef __cpp_modules
-export module Agreement;
-#endif
+                    export module Agreement;
+                    #endif
+                

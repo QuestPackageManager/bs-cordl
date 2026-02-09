@@ -7,7 +7,8 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(CachedProvider)
 namespace System::Collections::Generic {
-template <typename T> class List_1;
+template<typename T>
+class List_1;
 }
 namespace System {
 class Action;
@@ -39,97 +40,96 @@ namespace Zenject {
 // CS Name: Zenject.CachedProvider
 class CORDL_TYPE CachedProvider : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(get = get_IsCached)) bool IsCached;
+// Declarations
+ __declspec(property(get=get_IsCached)) bool  IsCached;
 
-  __declspec(property(get = get_NumInstances)) int32_t NumInstances;
+ __declspec(property(get=get_NumInstances)) int32_t  NumInstances;
 
-  __declspec(property(get = get_TypeVariesBasedOnMemberType)) bool TypeVariesBasedOnMemberType;
+ __declspec(property(get=get_TypeVariesBasedOnMemberType)) bool  TypeVariesBasedOnMemberType;
 
-  /// @brief Field _creator, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__creator, put = __cordl_internal_set__creator)) ::Zenject::IProvider* _creator;
+/// @brief Field _creator, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get__creator, put=__cordl_internal_set__creator)) ::Zenject::IProvider*  _creator;
 
-  /// @brief Field _instances, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__instances, put = __cordl_internal_set__instances)) ::System::Collections::Generic::List_1<::System::Object*>* _instances;
+/// @brief Field _instances, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get__instances, put=__cordl_internal_set__instances)) ::System::Collections::Generic::List_1<::System::Object*>*  _instances;
 
-  /// @brief Field _isCreatingInstance, offset 0x20, size 0x1
-  __declspec(property(get = __cordl_internal_get__isCreatingInstance, put = __cordl_internal_set__isCreatingInstance)) bool _isCreatingInstance;
+/// @brief Field _isCreatingInstance, offset 0x20, size 0x1 
+ __declspec(property(get=__cordl_internal_get__isCreatingInstance, put=__cordl_internal_set__isCreatingInstance)) bool  _isCreatingInstance;
 
-  /// @brief Convert operator to "::Zenject::IProvider"
-  constexpr operator ::Zenject::IProvider*() noexcept;
+/// @brief Convert operator to "::Zenject::IProvider"
+constexpr operator  ::Zenject::IProvider*() noexcept;
 
-  /// @brief Method ClearCache, addr 0x6cb88b0, size 0x8, virtual false, abstract: false, final false
-  inline void ClearCache();
+/// @brief Method ClearCache, addr 0x6cb8f70, size 0x8, virtual false, abstract: false, final false
+inline void ClearCache() ;
 
-  /// @brief Method GetAllInstancesWithInjectSplit, addr 0x6cb8334, size 0x26c, virtual true, abstract: false, final true
-  inline void GetAllInstancesWithInjectSplit(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ::ByRef<::System::Action*> injectAction,
-                                             ::System::Collections::Generic::List_1<::System::Object*>* buffer);
+/// @brief Method GetAllInstancesWithInjectSplit, addr 0x6cb89f4, size 0x26c, virtual true, abstract: false, final true
+inline void GetAllInstancesWithInjectSplit(::Zenject::InjectContext*  context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*  args, ::ByRef<::System::Action*>  injectAction, ::System::Collections::Generic::List_1<::System::Object*>*  buffer) ;
 
-  /// @brief Method GetInstanceType, addr 0x6cb88b8, size 0xb8, virtual true, abstract: false, final true
-  inline ::System::Type* GetInstanceType(::Zenject::InjectContext* context);
+/// @brief Method GetInstanceType, addr 0x6cb8f78, size 0xb8, virtual true, abstract: false, final true
+inline ::System::Type* GetInstanceType(::Zenject::InjectContext*  context) ;
 
-  static inline ::Zenject::CachedProvider* New_ctor(::Zenject::IProvider* creator);
+static inline ::Zenject::CachedProvider* New_ctor(::Zenject::IProvider*  creator) ;
 
-  constexpr ::Zenject::IProvider* const& __cordl_internal_get__creator() const;
+constexpr ::Zenject::IProvider* const& __cordl_internal_get__creator() const;
 
-  constexpr ::Zenject::IProvider*& __cordl_internal_get__creator();
+constexpr ::Zenject::IProvider*& __cordl_internal_get__creator() ;
 
-  constexpr ::System::Collections::Generic::List_1<::System::Object*>* const& __cordl_internal_get__instances() const;
+constexpr ::System::Collections::Generic::List_1<::System::Object*>* const& __cordl_internal_get__instances() const;
 
-  constexpr ::System::Collections::Generic::List_1<::System::Object*>*& __cordl_internal_get__instances();
+constexpr ::System::Collections::Generic::List_1<::System::Object*>*& __cordl_internal_get__instances() ;
 
-  constexpr bool const& __cordl_internal_get__isCreatingInstance() const;
+constexpr bool const& __cordl_internal_get__isCreatingInstance() const;
 
-  constexpr bool& __cordl_internal_get__isCreatingInstance();
+constexpr bool& __cordl_internal_get__isCreatingInstance() ;
 
-  constexpr void __cordl_internal_set__creator(::Zenject::IProvider* value);
+constexpr void __cordl_internal_set__creator(::Zenject::IProvider*  value) ;
 
-  constexpr void __cordl_internal_set__instances(::System::Collections::Generic::List_1<::System::Object*>* value);
+constexpr void __cordl_internal_set__instances(::System::Collections::Generic::List_1<::System::Object*>*  value) ;
 
-  constexpr void __cordl_internal_set__isCreatingInstance(bool value);
+constexpr void __cordl_internal_set__isCreatingInstance(bool  value) ;
 
-  /// @brief Method .ctor, addr 0x6cb832c, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::Zenject::IProvider* creator);
+/// @brief Method .ctor, addr 0x6cb89ec, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(::Zenject::IProvider*  creator) ;
 
-  /// @brief Method get_IsCached, addr 0x6cb8880, size 0x8, virtual true, abstract: false, final true
-  inline bool get_IsCached();
+/// @brief Method get_IsCached, addr 0x6cb8f40, size 0x8, virtual true, abstract: false, final true
+inline bool get_IsCached() ;
 
-  /// @brief Method get_NumInstances, addr 0x6cb8654, size 0x54, virtual false, abstract: false, final false
-  inline int32_t get_NumInstances();
+/// @brief Method get_NumInstances, addr 0x6cb8d14, size 0x54, virtual false, abstract: false, final false
+inline int32_t get_NumInstances() ;
 
-  /// @brief Method get_TypeVariesBasedOnMemberType, addr 0x6cb8888, size 0x28, virtual true, abstract: false, final true
-  inline bool get_TypeVariesBasedOnMemberType();
+/// @brief Method get_TypeVariesBasedOnMemberType, addr 0x6cb8f48, size 0x28, virtual true, abstract: false, final true
+inline bool get_TypeVariesBasedOnMemberType() ;
 
-  /// @brief Convert to "::Zenject::IProvider"
-  constexpr ::Zenject::IProvider* i___Zenject__IProvider() noexcept;
+/// @brief Convert to "::Zenject::IProvider"
+constexpr ::Zenject::IProvider* i___Zenject__IProvider() noexcept;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CachedProvider();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr CachedProvider() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CachedProvider", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  CachedProvider(CachedProvider&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CachedProvider", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  CachedProvider(CachedProvider const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "CachedProvider", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+CachedProvider(CachedProvider && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14506 };
+// Ctor Parameters [CppParam { name: "", ty: "CachedProvider", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+CachedProvider(CachedProvider const& ) = delete;
 
-  /// @brief Field _creator, offset: 0x10, size: 0x8, def value: None
-  ::Zenject::IProvider* ____creator;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{14510};
 
-  /// @brief Field _instances, offset: 0x18, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::System::Object*>* ____instances;
+/// @brief Field _creator, offset: 0x10, size: 0x8, def value: None
+ ::Zenject::IProvider*  ____creator;
 
-  /// @brief Field _isCreatingInstance, offset: 0x20, size: 0x1, def value: None
-  bool ____isCreatingInstance;
+/// @brief Field _instances, offset: 0x18, size: 0x8, def value: None
+ ::System::Collections::Generic::List_1<::System::Object*>*  ____instances;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _isCreatingInstance, offset: 0x20, size: 0x1, def value: None
+ bool  ____isCreatingInstance;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Zenject::CachedProvider, ____creator) == 0x10, "Offset mismatch!");
@@ -140,6 +140,6 @@ static_assert(offsetof(::Zenject::CachedProvider, ____isCreatingInstance) == 0x2
 
 static_assert(::cordl_internals::size_check_v<::Zenject::CachedProvider, 0x28>, "Size mismatch!");
 
-} // namespace Zenject
+} // namespace end def Zenject
 NEED_NO_BOX(::Zenject::CachedProvider);
 DEFINE_IL2CPP_ARG_TYPE(::Zenject::CachedProvider*, "Zenject", "CachedProvider");

@@ -11,107 +11,101 @@
 #include "Unity/Profiling/zzzz__ProfilerMarker_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__CallbackArray_1_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::Utilities::DelegateHelpers.InvokeCallbacksSafe
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (*)(::ByRef<::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action*>>, ::Unity::Profiling::ProfilerMarker, ::StringW, ::System::Object*)>(
-        &::UnityEngine::InputSystem::Utilities::DelegateHelpers::InvokeCallbacksSafe)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action*>>, ::Unity::Profiling::ProfilerMarker, ::StringW, ::System::Object*)>(&::UnityEngine::InputSystem::Utilities::DelegateHelpers::InvokeCallbacksSafe)> {
   constexpr static std::size_t size = 0x2d0;
-  constexpr static std::size_t addrs = 0x634ab68;
+  constexpr static std::size_t addrs = 0x634b228;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Utilities::DelegateHelpers*>::get(), "InvokeCallbacksSafe", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action*>>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Profiling::ProfilerMarker>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Utilities::DelegateHelpers*>::get(),
+                        "InvokeCallbacksSafe",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action*>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Profiling::ProfilerMarker>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get()}
+                    )));
     return ___internal_method;
   }
 };
-inline void UnityEngine::InputSystem::Utilities::DelegateHelpers::InvokeCallbacksSafe(::ByRef<::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action*>> callbacks,
-                                                                                      ::Unity::Profiling::ProfilerMarker marker, ::StringW callbackName, ::System::Object* context) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Utilities::DelegateHelpers*>::get(), "InvokeCallbacksSafe", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action*>>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Profiling::ProfilerMarker>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, callbacks, marker, callbackName, context);
+inline void UnityEngine::InputSystem::Utilities::DelegateHelpers::InvokeCallbacksSafe(::ByRef<::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action*>>  callbacks, ::Unity::Profiling::ProfilerMarker  marker, ::StringW  callbackName, ::System::Object*  context)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Utilities::DelegateHelpers*>::get(),
+                        "InvokeCallbacksSafe",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action*>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Profiling::ProfilerMarker>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, callbacks, marker, callbackName, context);
 }
-template <typename TValue>
-inline void UnityEngine::InputSystem::Utilities::DelegateHelpers::InvokeCallbacksSafe(::ByRef<::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_1<TValue>*>> callbacks,
-                                                                                      TValue argument, ::StringW callbackName, ::System::Object* context) {
-  static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Utilities::DelegateHelpers*>::get(), "InvokeCallbacksSafe",
-      std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TValue>::get() },
-      ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_1<TValue>*>>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TValue>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
-  static auto* ___internal_method =
-      THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal_method_base, std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TValue>::get() }));
-  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, callbacks, argument, callbackName, context);
+template<typename TValue>
+inline void UnityEngine::InputSystem::Utilities::DelegateHelpers::InvokeCallbacksSafe(::ByRef<::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_1<TValue>*>>  callbacks, TValue  argument, ::StringW  callbackName, ::System::Object*  context)  {
+static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Utilities::DelegateHelpers*>::get(),
+                    "InvokeCallbacksSafe",
+                    std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TValue>::get()},
+                    ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_1<TValue>*>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TValue>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get()}
+                )));
+static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(
+                    ___internal_method_base,
+                    std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TValue>::get()}
+                ));
+return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, callbacks, argument, callbackName, context);
 }
-template <typename TValue1, typename TValue2>
-inline void UnityEngine::InputSystem::Utilities::DelegateHelpers::InvokeCallbacksSafe(::ByRef<::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_2<TValue1, TValue2>*>> callbacks,
-                                                                                      TValue1 argument1, TValue2 argument2, ::Unity::Profiling::ProfilerMarker marker, ::StringW callbackName,
-                                                                                      ::System::Object* context) {
-  static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Utilities::DelegateHelpers*>::get(), "InvokeCallbacksSafe",
-      std::array<Il2CppClass const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TValue1>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TValue2>::get() },
-      ::std::array<Il2CppType const*, 6>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_2<TValue1, TValue2>*>>>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TValue1>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TValue2>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Profiling::ProfilerMarker>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
-  static auto* ___internal_method =
-      THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal_method_base, std::array<Il2CppClass const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TValue1>::get(),
-                                                                                                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TValue2>::get() }));
-  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, callbacks, argument1, argument2, marker, callbackName, context);
+template<typename TValue1,typename TValue2>
+inline void UnityEngine::InputSystem::Utilities::DelegateHelpers::InvokeCallbacksSafe(::ByRef<::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_2<TValue1,TValue2>*>>  callbacks, TValue1  argument1, TValue2  argument2, ::Unity::Profiling::ProfilerMarker  marker, ::StringW  callbackName, ::System::Object*  context)  {
+static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Utilities::DelegateHelpers*>::get(),
+                    "InvokeCallbacksSafe",
+                    std::array<const Il2CppClass*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TValue1>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TValue2>::get()},
+                    ::std::array<const Il2CppType*, 6>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_2<TValue1,TValue2>*>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TValue1>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TValue2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Profiling::ProfilerMarker>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get()}
+                )));
+static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(
+                    ___internal_method_base,
+                    std::array<const Il2CppClass*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TValue1>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TValue2>::get()}
+                ));
+return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, callbacks, argument1, argument2, marker, callbackName, context);
 }
-template <typename TValue1, typename TValue2>
-inline bool UnityEngine::InputSystem::Utilities::DelegateHelpers::InvokeCallbacksSafe_AnyCallbackReturnsTrue(
-    ::ByRef<::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Func_3<TValue1, TValue2, bool>*>> callbacks, TValue1 argument1, TValue2 argument2, ::StringW callbackName,
-    ::System::Object* context) {
-  static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Utilities::DelegateHelpers*>::get(), "InvokeCallbacksSafe_AnyCallbackReturnsTrue",
-      std::array<Il2CppClass const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TValue1>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TValue2>::get() },
-      ::std::array<Il2CppType const*, 5>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Func_3<TValue1, TValue2, bool>*>>>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TValue1>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TValue2>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
-  static auto* ___internal_method =
-      THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal_method_base, std::array<Il2CppClass const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TValue1>::get(),
-                                                                                                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TValue2>::get() }));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, callbacks, argument1, argument2, callbackName, context);
+template<typename TValue1,typename TValue2>
+inline bool UnityEngine::InputSystem::Utilities::DelegateHelpers::InvokeCallbacksSafe_AnyCallbackReturnsTrue(::ByRef<::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Func_3<TValue1,TValue2,bool>*>>  callbacks, TValue1  argument1, TValue2  argument2, ::StringW  callbackName, ::System::Object*  context)  {
+static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Utilities::DelegateHelpers*>::get(),
+                    "InvokeCallbacksSafe_AnyCallbackReturnsTrue",
+                    std::array<const Il2CppClass*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TValue1>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TValue2>::get()},
+                    ::std::array<const Il2CppType*, 5>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Func_3<TValue1,TValue2,bool>*>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TValue1>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TValue2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get()}
+                )));
+static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(
+                    ___internal_method_base,
+                    std::array<const Il2CppClass*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TValue1>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TValue2>::get()}
+                ));
+return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, callbacks, argument1, argument2, callbackName, context);
 }
-template <typename TValue>
-inline void UnityEngine::InputSystem::Utilities::DelegateHelpers::InvokeCallbacksSafe_AndInvokeReturnedActions(
-    ::ByRef<::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Func_2<TValue, ::System::Action*>*>> callbacks, TValue argument, ::StringW callbackName, ::System::Object* context) {
-  static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Utilities::DelegateHelpers*>::get(), "InvokeCallbacksSafe_AndInvokeReturnedActions",
-      std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TValue>::get() },
-      ::std::array<Il2CppType const*, 4>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Func_2<TValue, ::System::Action*>*>>>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TValue>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
-  static auto* ___internal_method =
-      THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal_method_base, std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TValue>::get() }));
-  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, callbacks, argument, callbackName, context);
+template<typename TValue>
+inline void UnityEngine::InputSystem::Utilities::DelegateHelpers::InvokeCallbacksSafe_AndInvokeReturnedActions(::ByRef<::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Func_2<TValue,::System::Action*>*>>  callbacks, TValue  argument, ::StringW  callbackName, ::System::Object*  context)  {
+static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Utilities::DelegateHelpers*>::get(),
+                    "InvokeCallbacksSafe_AndInvokeReturnedActions",
+                    std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TValue>::get()},
+                    ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Func_2<TValue,::System::Action*>*>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TValue>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get()}
+                )));
+static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(
+                    ___internal_method_base,
+                    std::array<const Il2CppClass*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TValue>::get()}
+                ));
+return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, callbacks, argument, callbackName, context);
 }
-template <typename TValue, typename TReturn>
-inline bool UnityEngine::InputSystem::Utilities::DelegateHelpers::InvokeCallbacksSafe_AnyCallbackReturnsObject(
-    ::ByRef<::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Func_2<TValue, TReturn>*>> callbacks, TValue argument, ::StringW callbackName, ::System::Object* context) {
-  static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Utilities::DelegateHelpers*>::get(), "InvokeCallbacksSafe_AnyCallbackReturnsObject",
-      std::array<Il2CppClass const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TValue>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TReturn>::get() },
-      ::std::array<Il2CppType const*, 4>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Func_2<TValue, TReturn>*>>>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TValue>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
-  static auto* ___internal_method =
-      THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal_method_base, std::array<Il2CppClass const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TValue>::get(),
-                                                                                                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TReturn>::get() }));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, callbacks, argument, callbackName, context);
+template<typename TValue,typename TReturn>
+inline bool UnityEngine::InputSystem::Utilities::DelegateHelpers::InvokeCallbacksSafe_AnyCallbackReturnsObject(::ByRef<::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Func_2<TValue,TReturn>*>>  callbacks, TValue  argument, ::StringW  callbackName, ::System::Object*  context)  {
+static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Utilities::DelegateHelpers*>::get(),
+                    "InvokeCallbacksSafe_AnyCallbackReturnsObject",
+                    std::array<const Il2CppClass*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TValue>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TReturn>::get()},
+                    ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Func_2<TValue,TReturn>*>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TValue>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get()}
+                )));
+static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(
+                    ___internal_method_base,
+                    std::array<const Il2CppClass*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TValue>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TReturn>::get()}
+                ));
+return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, callbacks, argument, callbackName, context);
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::InputSystem::Utilities::DelegateHelpers::DelegateHelpers() {}
+constexpr ::UnityEngine::InputSystem::Utilities::DelegateHelpers::DelegateHelpers()   {
+}

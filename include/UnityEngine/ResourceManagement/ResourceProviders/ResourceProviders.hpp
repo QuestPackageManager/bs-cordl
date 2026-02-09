@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "UnityEngine/ResourceManagement/ResourceProviders/AssetBundleProvider.hpp"
 #include "UnityEngine/ResourceManagement/ResourceProviders/AssetBundleRequestOptions.hpp"
@@ -29,5 +29,6 @@ module;
 #include "UnityEngine/ResourceManagement/ResourceProviders/SceneReleaseMode.hpp"
 #include "UnityEngine/ResourceManagement/ResourceProviders/TextDataProvider.hpp"
 #ifdef __cpp_modules
-export module ResourceProviders;
-#endif
+                    export module ResourceProviders;
+                    #endif
+                

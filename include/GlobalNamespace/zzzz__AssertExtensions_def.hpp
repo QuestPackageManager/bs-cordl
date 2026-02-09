@@ -19,41 +19,42 @@ namespace GlobalNamespace {
 // CS Name: AssertExtensions
 class CORDL_TYPE AssertExtensions : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method GetMessage, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ::StringW GetMessage(::StringW pattern, T value, T other, ::StringW message);
+// Declarations
+/// @brief Method GetMessage, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+template<typename T>
+static inline ::StringW GetMessage(::StringW  pattern, T  value, T  other, ::StringW  message) ;
 
-  /// @brief Method GreaterOrEqual, addr 0x32297ec, size 0x4, virtual false, abstract: false, final false
-  static inline void GreaterOrEqual(float_t value, float_t expectedLessValue, ::StringW message);
+/// @brief Method GreaterOrEqual, addr 0x322973c, size 0x4, virtual false, abstract: false, final false
+static inline void GreaterOrEqual(float_t  value, float_t  expectedLessValue, ::StringW  message) ;
 
-  /// @brief Method LessThan, addr 0x32297e8, size 0x4, virtual false, abstract: false, final false
-  static inline void LessThan(float_t value, float_t expectedGreaterValue, ::StringW message);
+/// @brief Method LessThan, addr 0x3229738, size 0x4, virtual false, abstract: false, final false
+static inline void LessThan(float_t  value, float_t  expectedGreaterValue, ::StringW  message) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AssertExtensions();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr AssertExtensions() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AssertExtensions", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  AssertExtensions(AssertExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AssertExtensions", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  AssertExtensions(AssertExtensions const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "AssertExtensions", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+AssertExtensions(AssertExtensions && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20668 };
+// Ctor Parameters [CppParam { name: "", ty: "AssertExtensions", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+AssertExtensions(AssertExtensions const& ) = delete;
 
-  /// @brief Field kUnityAssertions offset 0xffffffff size 0x8
-  static constexpr ::ConstString kUnityAssertions{ u"UNITY_ASSERTIONS" };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20672};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field kUnityAssertions offset 0xffffffff size 0x8
+static constexpr ::ConstString  kUnityAssertions{u"UNITY_ASSERTIONS"};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::AssertExtensions, 0x10>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::AssertExtensions);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::AssertExtensions*, "", "AssertExtensions");

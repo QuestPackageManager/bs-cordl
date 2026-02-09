@@ -31,81 +31,81 @@ namespace UnityEngine {
 // CS Name: UnityEngine.AssetBundleCreateRequest/BindingsMarshaller
 class CORDL_TYPE AssetBundleCreateRequest_BindingsMarshaller : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method ConvertToManaged, addr 0x687b648, size 0x84, virtual false, abstract: false, final false
-  static inline ::UnityEngine::AssetBundleCreateRequest* ConvertToManaged(::System::IntPtr ptr);
+// Declarations
+/// @brief Method ConvertToManaged, addr 0x687bd08, size 0x84, virtual false, abstract: false, final false
+static inline ::UnityEngine::AssetBundleCreateRequest* ConvertToManaged(::System::IntPtr  ptr) ;
 
-  /// @brief Method ConvertToNative, addr 0x687b6cc, size 0x14, virtual false, abstract: false, final false
-  static inline ::System::IntPtr ConvertToNative(::UnityEngine::AssetBundleCreateRequest* assetBundleCreateRequest);
+/// @brief Method ConvertToNative, addr 0x687bd8c, size 0x14, virtual false, abstract: false, final false
+static inline ::System::IntPtr ConvertToNative(::UnityEngine::AssetBundleCreateRequest*  assetBundleCreateRequest) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AssetBundleCreateRequest_BindingsMarshaller();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr AssetBundleCreateRequest_BindingsMarshaller() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AssetBundleCreateRequest_BindingsMarshaller", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  AssetBundleCreateRequest_BindingsMarshaller(AssetBundleCreateRequest_BindingsMarshaller&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AssetBundleCreateRequest_BindingsMarshaller", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  AssetBundleCreateRequest_BindingsMarshaller(AssetBundleCreateRequest_BindingsMarshaller const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "AssetBundleCreateRequest_BindingsMarshaller", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+AssetBundleCreateRequest_BindingsMarshaller(AssetBundleCreateRequest_BindingsMarshaller && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22679 };
+// Ctor Parameters [CppParam { name: "", ty: "AssetBundleCreateRequest_BindingsMarshaller", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+AssetBundleCreateRequest_BindingsMarshaller(AssetBundleCreateRequest_BindingsMarshaller const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{22683};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::AssetBundleCreateRequest_BindingsMarshaller, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine
+} // namespace end def UnityEngine
 // Dependencies UnityEngine.AsyncOperation
 namespace UnityEngine {
 // Is value type: false
 // CS Name: UnityEngine.AssetBundleCreateRequest
 class CORDL_TYPE AssetBundleCreateRequest : public ::UnityEngine::AsyncOperation {
 public:
-  // Declarations
-  using BindingsMarshaller = ::UnityEngine::AssetBundleCreateRequest_BindingsMarshaller;
+// Declarations
+using BindingsMarshaller = ::UnityEngine::AssetBundleCreateRequest_BindingsMarshaller;
 
-  __declspec(property(get = get_assetBundle)) ::UnityW<::UnityEngine::AssetBundle> assetBundle;
+ __declspec(property(get=get_assetBundle)) ::UnityW<::UnityEngine::AssetBundle>  assetBundle;
 
-  static inline ::UnityEngine::AssetBundleCreateRequest* New_ctor(::System::IntPtr ptr);
+static inline ::UnityEngine::AssetBundleCreateRequest* New_ctor(::System::IntPtr  ptr) ;
 
-  /// @brief Method .ctor, addr 0x687b5fc, size 0x4c, virtual false, abstract: false, final false
-  inline void _ctor(::System::IntPtr ptr);
+/// @brief Method .ctor, addr 0x687bcbc, size 0x4c, virtual false, abstract: false, final false
+inline void _ctor(::System::IntPtr  ptr) ;
 
-  /// @brief Method get_assetBundle, addr 0x687b484, size 0x13c, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::AssetBundle> get_assetBundle();
+/// @brief Method get_assetBundle, addr 0x687bb44, size 0x13c, virtual false, abstract: false, final false
+inline ::UnityW<::UnityEngine::AssetBundle> get_assetBundle() ;
 
-  /// @brief Method get_assetBundle_Injected, addr 0x687b5c0, size 0x3c, virtual false, abstract: false, final false
-  static inline ::System::IntPtr get_assetBundle_Injected(::System::IntPtr _unity_self);
+/// @brief Method get_assetBundle_Injected, addr 0x687bc80, size 0x3c, virtual false, abstract: false, final false
+static inline ::System::IntPtr get_assetBundle_Injected(::System::IntPtr  _unity_self) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AssetBundleCreateRequest();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr AssetBundleCreateRequest() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AssetBundleCreateRequest", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  AssetBundleCreateRequest(AssetBundleCreateRequest&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AssetBundleCreateRequest", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  AssetBundleCreateRequest(AssetBundleCreateRequest const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "AssetBundleCreateRequest", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+AssetBundleCreateRequest(AssetBundleCreateRequest && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22680 };
+// Ctor Parameters [CppParam { name: "", ty: "AssetBundleCreateRequest", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+AssetBundleCreateRequest(AssetBundleCreateRequest const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{22684};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::AssetBundleCreateRequest, 0x20>, "Size mismatch!");
 
-} // namespace UnityEngine
+} // namespace end def UnityEngine
 NEED_NO_BOX(::UnityEngine::AssetBundleCreateRequest);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AssetBundleCreateRequest*, "UnityEngine", "AssetBundleCreateRequest");
 NEED_NO_BOX(::UnityEngine::AssetBundleCreateRequest_BindingsMarshaller);

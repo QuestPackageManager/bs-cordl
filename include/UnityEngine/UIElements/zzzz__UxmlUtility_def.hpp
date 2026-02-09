@@ -7,7 +7,8 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(UxmlUtility)
 namespace System::Collections::Generic {
-template <typename T> class List_1;
+template<typename T>
+class List_1;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -21,32 +22,32 @@ namespace UnityEngine::UIElements {
 // CS Name: UnityEngine.UIElements.UxmlUtility
 class CORDL_TYPE UxmlUtility : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method ParseStringListAttribute, addr 0x6af5d60, size 0x17c, virtual false, abstract: false, final false
-  static inline ::System::Collections::Generic::List_1<::StringW>* ParseStringListAttribute(::StringW itemList);
+// Declarations
+/// @brief Method ParseStringListAttribute, addr 0x6af6420, size 0x17c, virtual false, abstract: false, final false
+static inline ::System::Collections::Generic::List_1<::StringW>* ParseStringListAttribute(::StringW  itemList) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr UxmlUtility();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr UxmlUtility() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UxmlUtility", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  UxmlUtility(UxmlUtility&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UxmlUtility", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  UxmlUtility(UxmlUtility const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "UxmlUtility", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+UxmlUtility(UxmlUtility && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5196 };
+// Ctor Parameters [CppParam { name: "", ty: "UxmlUtility", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+UxmlUtility(UxmlUtility const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{5196};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UxmlUtility, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements
+} // namespace end def UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::UxmlUtility);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::UxmlUtility*, "UnityEngine.UIElements", "UxmlUtility");

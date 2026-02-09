@@ -26,43 +26,43 @@ namespace Zenject {
 // CS Name: Zenject.TickablesTaskUpdater
 class CORDL_TYPE TickablesTaskUpdater : public ::Zenject::TaskUpdater_1<::Zenject::ITickable*> {
 public:
-  // Declarations
-  static inline ::Zenject::TickablesTaskUpdater* New_ctor();
+// Declarations
+static inline ::Zenject::TickablesTaskUpdater* New_ctor() ;
 
-  /// @brief Method UpdateItem, addr 0x6ccaf6c, size 0xa0, virtual true, abstract: false, final false
-  inline void UpdateItem(::Zenject::ITickable* task);
+/// @brief Method UpdateItem, addr 0x6ccb62c, size 0xa0, virtual true, abstract: false, final false
+inline void UpdateItem(::Zenject::ITickable*  task) ;
 
-  /// @brief Method __zenCreate, addr 0x6ccb058, size 0x54, virtual false, abstract: false, final false
-  static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
+/// @brief Method __zenCreate, addr 0x6ccb718, size 0x54, virtual false, abstract: false, final false
+static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*,::Array<::System::Object*>*>  P_0) ;
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x6ccb0ac, size 0x194, virtual false, abstract: false, final false
-  static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
+/// @brief Method __zenCreateInjectTypeInfo, addr 0x6ccb76c, size 0x194, virtual false, abstract: false, final false
+static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo() ;
 
-  /// @brief Method .ctor, addr 0x6ccb00c, size 0x4c, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6ccb6cc, size 0x4c, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TickablesTaskUpdater();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr TickablesTaskUpdater() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TickablesTaskUpdater", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  TickablesTaskUpdater(TickablesTaskUpdater&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TickablesTaskUpdater", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  TickablesTaskUpdater(TickablesTaskUpdater const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "TickablesTaskUpdater", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+TickablesTaskUpdater(TickablesTaskUpdater && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14665 };
+// Ctor Parameters [CppParam { name: "", ty: "TickablesTaskUpdater", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+TickablesTaskUpdater(TickablesTaskUpdater const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{14669};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Zenject::TickablesTaskUpdater, 0x20>, "Size mismatch!");
 
-} // namespace Zenject
+} // namespace end def Zenject
 NEED_NO_BOX(::Zenject::TickablesTaskUpdater);
 DEFINE_IL2CPP_ARG_TYPE(::Zenject::TickablesTaskUpdater*, "Zenject", "TickablesTaskUpdater");

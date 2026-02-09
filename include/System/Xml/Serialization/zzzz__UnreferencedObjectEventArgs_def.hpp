@@ -21,54 +21,54 @@ namespace System::Xml::Serialization {
 // CS Name: System.Xml.Serialization.UnreferencedObjectEventArgs
 class CORDL_TYPE UnreferencedObjectEventArgs : public ::System::EventArgs {
 public:
-  // Declarations
-  /// @brief Field id, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_id, put = __cordl_internal_set_id)) ::StringW id;
+// Declarations
+/// @brief Field id, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_id, put=__cordl_internal_set_id)) ::StringW  id;
 
-  /// @brief Field o, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_o, put = __cordl_internal_set_o)) ::System::Object* o;
+/// @brief Field o, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_o, put=__cordl_internal_set_o)) ::System::Object*  o;
 
-  static inline ::System::Xml::Serialization::UnreferencedObjectEventArgs* New_ctor(::System::Object* o, ::StringW id);
+static inline ::System::Xml::Serialization::UnreferencedObjectEventArgs* New_ctor(::System::Object*  o, ::StringW  id) ;
 
-  constexpr ::StringW const& __cordl_internal_get_id() const;
+constexpr ::StringW const& __cordl_internal_get_id() const;
 
-  constexpr ::StringW& __cordl_internal_get_id();
+constexpr ::StringW& __cordl_internal_get_id() ;
 
-  constexpr ::System::Object* const& __cordl_internal_get_o() const;
+constexpr ::System::Object* const& __cordl_internal_get_o() const;
 
-  constexpr ::System::Object*& __cordl_internal_get_o();
+constexpr ::System::Object*& __cordl_internal_get_o() ;
 
-  constexpr void __cordl_internal_set_id(::StringW value);
+constexpr void __cordl_internal_set_id(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_o(::System::Object* value);
+constexpr void __cordl_internal_set_o(::System::Object*  value) ;
 
-  /// @brief Method .ctor, addr 0x6136eec, size 0x68, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* o, ::StringW id);
+/// @brief Method .ctor, addr 0x61375ac, size 0x68, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  o, ::StringW  id) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr UnreferencedObjectEventArgs();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr UnreferencedObjectEventArgs() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UnreferencedObjectEventArgs", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  UnreferencedObjectEventArgs(UnreferencedObjectEventArgs&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UnreferencedObjectEventArgs", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  UnreferencedObjectEventArgs(UnreferencedObjectEventArgs const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "UnreferencedObjectEventArgs", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+UnreferencedObjectEventArgs(UnreferencedObjectEventArgs && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9462 };
+// Ctor Parameters [CppParam { name: "", ty: "UnreferencedObjectEventArgs", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+UnreferencedObjectEventArgs(UnreferencedObjectEventArgs const& ) = delete;
 
-  /// @brief Field o, offset: 0x10, size: 0x8, def value: None
-  ::System::Object* ___o;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{9466};
 
-  /// @brief Field id, offset: 0x18, size: 0x8, def value: None
-  ::StringW ___id;
+/// @brief Field o, offset: 0x10, size: 0x8, def value: None
+ ::System::Object*  ___o;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field id, offset: 0x18, size: 0x8, def value: None
+ ::StringW  ___id;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Xml::Serialization::UnreferencedObjectEventArgs, ___o) == 0x10, "Offset mismatch!");
@@ -77,6 +77,6 @@ static_assert(offsetof(::System::Xml::Serialization::UnreferencedObjectEventArgs
 
 static_assert(::cordl_internals::size_check_v<::System::Xml::Serialization::UnreferencedObjectEventArgs, 0x20>, "Size mismatch!");
 
-} // namespace System::Xml::Serialization
+} // namespace end def System::Xml::Serialization
 NEED_NO_BOX(::System::Xml::Serialization::UnreferencedObjectEventArgs);
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Serialization::UnreferencedObjectEventArgs*, "System.Xml.Serialization", "UnreferencedObjectEventArgs");

@@ -27,10 +27,12 @@ namespace Meta::XR::EnvironmentDepth {
 struct OcclusionShadersMode;
 }
 namespace System::Collections::Generic {
-template <typename T> class List_1;
+template<typename T>
+class List_1;
 }
 namespace System {
-template <typename T> class Action_1;
+template<typename T>
+class Action_1;
 }
 namespace UnityEngine::Rendering {
 class CommandBuffer;
@@ -69,98 +71,96 @@ namespace Meta::XR::EnvironmentDepth {
 // CS Name: Meta.XR.EnvironmentDepth.EnvironmentDepthManager/Mask
 class CORDL_TYPE EnvironmentDepthManager_Mask : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field _maskCommandBuffer, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__maskCommandBuffer, put = __cordl_internal_set__maskCommandBuffer)) ::UnityEngine::Rendering::CommandBuffer* _maskCommandBuffer;
+// Declarations
+/// @brief Field _maskCommandBuffer, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get__maskCommandBuffer, put=__cordl_internal_set__maskCommandBuffer)) ::UnityEngine::Rendering::CommandBuffer*  _maskCommandBuffer;
 
-  /// @brief Field _maskDepthRt, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__maskDepthRt, put = __cordl_internal_set__maskDepthRt)) ::UnityW<::UnityEngine::RenderTexture> _maskDepthRt;
+/// @brief Field _maskDepthRt, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get__maskDepthRt, put=__cordl_internal_set__maskDepthRt)) ::UnityW<::UnityEngine::RenderTexture>  _maskDepthRt;
 
-  /// @brief Field _maskMaterial, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__maskMaterial, put = __cordl_internal_set__maskMaterial)) ::UnityW<::UnityEngine::Material> _maskMaterial;
+/// @brief Field _maskMaterial, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get__maskMaterial, put=__cordl_internal_set__maskMaterial)) ::UnityW<::UnityEngine::Material>  _maskMaterial;
 
-  /// @brief Field _maskedDepthTexture, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__maskedDepthTexture, put = __cordl_internal_set__maskedDepthTexture)) ::UnityW<::UnityEngine::RenderTexture> _maskedDepthTexture;
+/// @brief Field _maskedDepthTexture, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get__maskedDepthTexture, put=__cordl_internal_set__maskedDepthTexture)) ::UnityW<::UnityEngine::RenderTexture>  _maskedDepthTexture;
 
-  /// @brief Field _mvpMatrices, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__mvpMatrices, put = __cordl_internal_set__mvpMatrices)) ::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*> _mvpMatrices;
+/// @brief Field _mvpMatrices, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get__mvpMatrices, put=__cordl_internal_set__mvpMatrices)) ::ArrayW<::UnityEngine::Matrix4x4,::Array<::UnityEngine::Matrix4x4>*>  _mvpMatrices;
 
-  /// @brief Method ApplyMask, addr 0x588e970, size 0x928, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::RenderTexture> ApplyMask(::UnityEngine::RenderTexture* depthTexture, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MeshFilter>>* meshFilters,
-                                                          ::UnityEngine::Matrix4x4 trackingSpaceWorldToLocal,
-                                                          ::ArrayW<::Meta::XR::EnvironmentDepth::DepthFrameDesc, ::Array<::Meta::XR::EnvironmentDepth::DepthFrameDesc>*> frameDescriptors);
+/// @brief Method ApplyMask, addr 0x588ee7c, size 0x928, virtual false, abstract: false, final false
+inline ::UnityW<::UnityEngine::RenderTexture> ApplyMask(::UnityEngine::RenderTexture*  depthTexture, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MeshFilter>>*  meshFilters, ::UnityEngine::Matrix4x4  trackingSpaceWorldToLocal, ::ArrayW<::Meta::XR::EnvironmentDepth::DepthFrameDesc,::Array<::Meta::XR::EnvironmentDepth::DepthFrameDesc>*>  frameDescriptors) ;
 
-  /// @brief Method Dispose, addr 0x588dd44, size 0x8c, virtual false, abstract: false, final false
-  inline void Dispose();
+/// @brief Method Dispose, addr 0x588e250, size 0x8c, virtual false, abstract: false, final false
+inline void Dispose() ;
 
-  static inline ::Meta::XR::EnvironmentDepth::EnvironmentDepthManager_Mask* New_ctor(int32_t width, int32_t height, float_t bias);
+static inline ::Meta::XR::EnvironmentDepth::EnvironmentDepthManager_Mask* New_ctor(int32_t  width, int32_t  height, float_t  bias) ;
 
-  constexpr ::UnityEngine::Rendering::CommandBuffer* const& __cordl_internal_get__maskCommandBuffer() const;
+constexpr ::UnityEngine::Rendering::CommandBuffer* const& __cordl_internal_get__maskCommandBuffer() const;
 
-  constexpr ::UnityEngine::Rendering::CommandBuffer*& __cordl_internal_get__maskCommandBuffer();
+constexpr ::UnityEngine::Rendering::CommandBuffer*& __cordl_internal_get__maskCommandBuffer() ;
 
-  constexpr ::UnityW<::UnityEngine::RenderTexture> const& __cordl_internal_get__maskDepthRt() const;
+constexpr ::UnityW<::UnityEngine::RenderTexture> const& __cordl_internal_get__maskDepthRt() const;
 
-  constexpr ::UnityW<::UnityEngine::RenderTexture>& __cordl_internal_get__maskDepthRt();
+constexpr ::UnityW<::UnityEngine::RenderTexture>& __cordl_internal_get__maskDepthRt() ;
 
-  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get__maskMaterial() const;
+constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get__maskMaterial() const;
 
-  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get__maskMaterial();
+constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get__maskMaterial() ;
 
-  constexpr ::UnityW<::UnityEngine::RenderTexture> const& __cordl_internal_get__maskedDepthTexture() const;
+constexpr ::UnityW<::UnityEngine::RenderTexture> const& __cordl_internal_get__maskedDepthTexture() const;
 
-  constexpr ::UnityW<::UnityEngine::RenderTexture>& __cordl_internal_get__maskedDepthTexture();
+constexpr ::UnityW<::UnityEngine::RenderTexture>& __cordl_internal_get__maskedDepthTexture() ;
 
-  constexpr ::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*> const& __cordl_internal_get__mvpMatrices() const;
+constexpr ::ArrayW<::UnityEngine::Matrix4x4,::Array<::UnityEngine::Matrix4x4>*> const& __cordl_internal_get__mvpMatrices() const;
 
-  constexpr ::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*>& __cordl_internal_get__mvpMatrices();
+constexpr ::ArrayW<::UnityEngine::Matrix4x4,::Array<::UnityEngine::Matrix4x4>*>& __cordl_internal_get__mvpMatrices() ;
 
-  constexpr void __cordl_internal_set__maskCommandBuffer(::UnityEngine::Rendering::CommandBuffer* value);
+constexpr void __cordl_internal_set__maskCommandBuffer(::UnityEngine::Rendering::CommandBuffer*  value) ;
 
-  constexpr void __cordl_internal_set__maskDepthRt(::UnityW<::UnityEngine::RenderTexture> value);
+constexpr void __cordl_internal_set__maskDepthRt(::UnityW<::UnityEngine::RenderTexture>  value) ;
 
-  constexpr void __cordl_internal_set__maskMaterial(::UnityW<::UnityEngine::Material> value);
+constexpr void __cordl_internal_set__maskMaterial(::UnityW<::UnityEngine::Material>  value) ;
 
-  constexpr void __cordl_internal_set__maskedDepthTexture(::UnityW<::UnityEngine::RenderTexture> value);
+constexpr void __cordl_internal_set__maskedDepthTexture(::UnityW<::UnityEngine::RenderTexture>  value) ;
 
-  constexpr void __cordl_internal_set__mvpMatrices(::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*> value);
+constexpr void __cordl_internal_set__mvpMatrices(::ArrayW<::UnityEngine::Matrix4x4,::Array<::UnityEngine::Matrix4x4>*>  value) ;
 
-  /// @brief Method .ctor, addr 0x588e72c, size 0x244, virtual false, abstract: false, final false
-  inline void _ctor(int32_t width, int32_t height, float_t bias);
+/// @brief Method .ctor, addr 0x588ec38, size 0x244, virtual false, abstract: false, final false
+inline void _ctor(int32_t  width, int32_t  height, float_t  bias) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr EnvironmentDepthManager_Mask();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr EnvironmentDepthManager_Mask() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentDepthManager_Mask", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  EnvironmentDepthManager_Mask(EnvironmentDepthManager_Mask&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentDepthManager_Mask", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  EnvironmentDepthManager_Mask(EnvironmentDepthManager_Mask const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "EnvironmentDepthManager_Mask", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+EnvironmentDepthManager_Mask(EnvironmentDepthManager_Mask && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22622 };
+// Ctor Parameters [CppParam { name: "", ty: "EnvironmentDepthManager_Mask", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+EnvironmentDepthManager_Mask(EnvironmentDepthManager_Mask const& ) = delete;
 
-  /// @brief Field _maskMaterial, offset: 0x10, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::Material> ____maskMaterial;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{22626};
 
-  /// @brief Field _maskDepthRt, offset: 0x18, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::RenderTexture> ____maskDepthRt;
+/// @brief Field _maskMaterial, offset: 0x10, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::Material>  ____maskMaterial;
 
-  /// @brief Field _maskedDepthTexture, offset: 0x20, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::RenderTexture> ____maskedDepthTexture;
+/// @brief Field _maskDepthRt, offset: 0x18, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::RenderTexture>  ____maskDepthRt;
 
-  /// @brief Field _maskCommandBuffer, offset: 0x28, size: 0x8, def value: None
-  ::UnityEngine::Rendering::CommandBuffer* ____maskCommandBuffer;
+/// @brief Field _maskedDepthTexture, offset: 0x20, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::RenderTexture>  ____maskedDepthTexture;
 
-  /// @brief Field _mvpMatrices, offset: 0x30, size: 0x8, def value: None
-  ::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*> ____mvpMatrices;
+/// @brief Field _maskCommandBuffer, offset: 0x28, size: 0x8, def value: None
+ ::UnityEngine::Rendering::CommandBuffer*  ____maskCommandBuffer;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _mvpMatrices, offset: 0x30, size: 0x8, def value: None
+ ::ArrayW<::UnityEngine::Matrix4x4,::Array<::UnityEngine::Matrix4x4>*>  ____mvpMatrices;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Meta::XR::EnvironmentDepth::EnvironmentDepthManager_Mask, ____maskMaterial) == 0x10, "Offset mismatch!");
@@ -175,392 +175,387 @@ static_assert(offsetof(::Meta::XR::EnvironmentDepth::EnvironmentDepthManager_Mas
 
 static_assert(::cordl_internals::size_check_v<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager_Mask, 0x38>, "Size mismatch!");
 
-} // namespace Meta::XR::EnvironmentDepth
+} // namespace end def Meta::XR::EnvironmentDepth
 // Dependencies Meta.XR.EnvironmentDepth.OcclusionShadersMode, UnityEngine.MonoBehaviour, UnityEngine.RenderTargetSetup
 namespace Meta::XR::EnvironmentDepth {
 // Is value type: false
 // CS Name: Meta.XR.EnvironmentDepth.EnvironmentDepthManager
 class CORDL_TYPE EnvironmentDepthManager : public ::UnityEngine::MonoBehaviour {
 public:
-  // Declarations
-  using Mask = ::Meta::XR::EnvironmentDepth::EnvironmentDepthManager_Mask;
+// Declarations
+using Mask = ::Meta::XR::EnvironmentDepth::EnvironmentDepthManager_Mask;
 
-  /// @brief Field CustomTrackingSpace, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_CustomTrackingSpace, put = __cordl_internal_set_CustomTrackingSpace)) ::UnityW<::UnityEngine::Transform> CustomTrackingSpace;
+/// @brief Field CustomTrackingSpace, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get_CustomTrackingSpace, put=__cordl_internal_set_CustomTrackingSpace)) ::UnityW<::UnityEngine::Transform>  CustomTrackingSpace;
 
-  /// @brief Field DepthTextureID, offset 0xffffffff, size 0x4
-  __declspec(property(get = getStaticF_DepthTextureID, put = setStaticF_DepthTextureID)) int32_t DepthTextureID;
+/// @brief Field DepthTextureID, offset 0xffffffff, size 0x4 
+ __declspec(property(get=getStaticF_DepthTextureID, put=setStaticF_DepthTextureID)) int32_t  DepthTextureID;
 
-  __declspec(property(get = get_IsDepthAvailable, put = set_IsDepthAvailable)) bool IsDepthAvailable;
+ __declspec(property(get=get_IsDepthAvailable, put=set_IsDepthAvailable)) bool  IsDepthAvailable;
 
-  __declspec(property(get = get_MaskBias, put = set_MaskBias)) float_t MaskBias;
+ __declspec(property(get=get_MaskBias, put=set_MaskBias)) float_t  MaskBias;
 
-  /// @brief Field MaskBiasID, offset 0xffffffff, size 0x4
-  __declspec(property(get = getStaticF_MaskBiasID, put = setStaticF_MaskBiasID)) int32_t MaskBiasID;
+/// @brief Field MaskBiasID, offset 0xffffffff, size 0x4 
+ __declspec(property(get=getStaticF_MaskBiasID, put=setStaticF_MaskBiasID)) int32_t  MaskBiasID;
 
-  __declspec(property(get = get_MaskMeshFilters, put = set_MaskMeshFilters)) ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MeshFilter>>* MaskMeshFilters;
+ __declspec(property(get=get_MaskMeshFilters, put=set_MaskMeshFilters)) ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MeshFilter>>*  MaskMeshFilters;
 
-  /// @brief Field MaskTextureID, offset 0xffffffff, size 0x4
-  __declspec(property(get = getStaticF_MaskTextureID, put = setStaticF_MaskTextureID)) int32_t MaskTextureID;
+/// @brief Field MaskTextureID, offset 0xffffffff, size 0x4 
+ __declspec(property(get=getStaticF_MaskTextureID, put=setStaticF_MaskTextureID)) int32_t  MaskTextureID;
 
-  /// @brief Field MvpMatricesID, offset 0xffffffff, size 0x4
-  __declspec(property(get = getStaticF_MvpMatricesID, put = setStaticF_MvpMatricesID)) int32_t MvpMatricesID;
+/// @brief Field MvpMatricesID, offset 0xffffffff, size 0x4 
+ __declspec(property(get=getStaticF_MvpMatricesID, put=setStaticF_MvpMatricesID)) int32_t  MvpMatricesID;
 
-  __declspec(property(get = get_OcclusionShadersMode, put = set_OcclusionShadersMode)) ::Meta::XR::EnvironmentDepth::OcclusionShadersMode OcclusionShadersMode;
+ __declspec(property(get=get_OcclusionShadersMode, put=set_OcclusionShadersMode)) ::Meta::XR::EnvironmentDepth::OcclusionShadersMode  OcclusionShadersMode;
 
-  /// @brief Field PreprocessedEnvironmentDepthTexture, offset 0xffffffff, size 0x4
-  __declspec(property(get = getStaticF_PreprocessedEnvironmentDepthTexture, put = setStaticF_PreprocessedEnvironmentDepthTexture)) int32_t PreprocessedEnvironmentDepthTexture;
+/// @brief Field PreprocessedEnvironmentDepthTexture, offset 0xffffffff, size 0x4 
+ __declspec(property(get=getStaticF_PreprocessedEnvironmentDepthTexture, put=setStaticF_PreprocessedEnvironmentDepthTexture)) int32_t  PreprocessedEnvironmentDepthTexture;
 
-  __declspec(property(get = get_RemoveHands, put = set_RemoveHands)) bool RemoveHands;
+ __declspec(property(get=get_RemoveHands, put=set_RemoveHands)) bool  RemoveHands;
 
-  /// @brief Field ReprojectionMatricesID, offset 0xffffffff, size 0x4
-  __declspec(property(get = getStaticF_ReprojectionMatricesID, put = setStaticF_ReprojectionMatricesID)) int32_t ReprojectionMatricesID;
+/// @brief Field ReprojectionMatricesID, offset 0xffffffff, size 0x4 
+ __declspec(property(get=getStaticF_ReprojectionMatricesID, put=setStaticF_ReprojectionMatricesID)) int32_t  ReprojectionMatricesID;
 
-  /// @brief Field ZBufferParamsID, offset 0xffffffff, size 0x4
-  __declspec(property(get = getStaticF_ZBufferParamsID, put = setStaticF_ZBufferParamsID)) int32_t ZBufferParamsID;
+/// @brief Field ZBufferParamsID, offset 0xffffffff, size 0x4 
+ __declspec(property(get=getStaticF_ZBufferParamsID, put=setStaticF_ZBufferParamsID)) int32_t  ZBufferParamsID;
 
-  /// @brief Field <IsDepthAvailable>k__BackingField, offset 0xc0, size 0x1
-  __declspec(property(get = __cordl_internal_get__IsDepthAvailable_k__BackingField, put = __cordl_internal_set__IsDepthAvailable_k__BackingField)) bool _IsDepthAvailable_k__BackingField;
+/// @brief Field <IsDepthAvailable>k__BackingField, offset 0xc0, size 0x1 
+ __declspec(property(get=__cordl_internal_get__IsDepthAvailable_k__BackingField, put=__cordl_internal_set__IsDepthAvailable_k__BackingField)) bool  _IsDepthAvailable_k__BackingField;
 
-  /// @brief Field <MaskMeshFilters>k__BackingField, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__MaskMeshFilters_k__BackingField,
-                      put = __cordl_internal_set__MaskMeshFilters_k__BackingField)) ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MeshFilter>>* _MaskMeshFilters_k__BackingField;
+/// @brief Field <MaskMeshFilters>k__BackingField, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get__MaskMeshFilters_k__BackingField, put=__cordl_internal_set__MaskMeshFilters_k__BackingField)) ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MeshFilter>>*  _MaskMeshFilters_k__BackingField;
 
-  /// @brief Field _cameraRig, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__cameraRig, put = __cordl_internal_set__cameraRig)) ::UnityW<::GlobalNamespace::OVRCameraRig> _cameraRig;
+/// @brief Field _cameraRig, offset 0x40, size 0x8 
+ __declspec(property(get=__cordl_internal_get__cameraRig, put=__cordl_internal_set__cameraRig)) ::UnityW<::GlobalNamespace::OVRCameraRig>  _cameraRig;
 
-  /// @brief Field _hasPermission, offset 0x48, size 0x1
-  __declspec(property(get = __cordl_internal_get__hasPermission, put = __cordl_internal_set__hasPermission)) bool _hasPermission;
+/// @brief Field _hasPermission, offset 0x48, size 0x1 
+ __declspec(property(get=__cordl_internal_get__hasPermission, put=__cordl_internal_set__hasPermission)) bool  _hasPermission;
 
-  /// @brief Field _isCameraRigCached, offset 0x38, size 0x1
-  __declspec(property(get = __cordl_internal_get__isCameraRigCached, put = __cordl_internal_set__isCameraRigCached)) bool _isCameraRigCached;
+/// @brief Field _isCameraRigCached, offset 0x38, size 0x1 
+ __declspec(property(get=__cordl_internal_get__isCameraRigCached, put=__cordl_internal_set__isCameraRigCached)) bool  _isCameraRigCached;
 
-  /// @brief Field _mask, offset 0xb8, size 0x8
-  __declspec(property(get = __cordl_internal_get__mask, put = __cordl_internal_set__mask)) ::Meta::XR::EnvironmentDepth::EnvironmentDepthManager_Mask* _mask;
+/// @brief Field _mask, offset 0xb8, size 0x8 
+ __declspec(property(get=__cordl_internal_get__mask, put=__cordl_internal_set__mask)) ::Meta::XR::EnvironmentDepth::EnvironmentDepthManager_Mask*  _mask;
 
-  /// @brief Field _maskBias, offset 0xb0, size 0x4
-  __declspec(property(get = __cordl_internal_get__maskBias, put = __cordl_internal_set__maskBias)) float_t _maskBias;
+/// @brief Field _maskBias, offset 0xb0, size 0x4 
+ __declspec(property(get=__cordl_internal_get__maskBias, put=__cordl_internal_set__maskBias)) float_t  _maskBias;
 
-  /// @brief Field _occlusionShadersMode, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get__occlusionShadersMode, put = __cordl_internal_set__occlusionShadersMode)) ::Meta::XR::EnvironmentDepth::OcclusionShadersMode _occlusionShadersMode;
+/// @brief Field _occlusionShadersMode, offset 0x20, size 0x4 
+ __declspec(property(get=__cordl_internal_get__occlusionShadersMode, put=__cordl_internal_set__occlusionShadersMode)) ::Meta::XR::EnvironmentDepth::OcclusionShadersMode  _occlusionShadersMode;
 
-  /// @brief Field _preprocessMaterial, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get__preprocessMaterial, put = __cordl_internal_set__preprocessMaterial)) ::UnityW<::UnityEngine::Material> _preprocessMaterial;
+/// @brief Field _preprocessMaterial, offset 0x50, size 0x8 
+ __declspec(property(get=__cordl_internal_get__preprocessMaterial, put=__cordl_internal_set__preprocessMaterial)) ::UnityW<::UnityEngine::Material>  _preprocessMaterial;
 
-  /// @brief Field _preprocessRenderTargetSetup, offset 0x60, size 0x40
-  __declspec(property(get = __cordl_internal_get__preprocessRenderTargetSetup, put = __cordl_internal_set__preprocessRenderTargetSetup)) ::UnityEngine::RenderTargetSetup _preprocessRenderTargetSetup;
+/// @brief Field _preprocessRenderTargetSetup, offset 0x60, size 0x40 
+ __declspec(property(get=__cordl_internal_get__preprocessRenderTargetSetup, put=__cordl_internal_set__preprocessRenderTargetSetup)) ::UnityEngine::RenderTargetSetup  _preprocessRenderTargetSetup;
 
-  /// @brief Field _preprocessTexture, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get__preprocessTexture, put = __cordl_internal_set__preprocessTexture)) ::UnityW<::UnityEngine::RenderTexture> _preprocessTexture;
+/// @brief Field _preprocessTexture, offset 0x58, size 0x8 
+ __declspec(property(get=__cordl_internal_get__preprocessTexture, put=__cordl_internal_set__preprocessTexture)) ::UnityW<::UnityEngine::RenderTexture>  _preprocessTexture;
 
-  /// @brief Field _provider, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF__provider, put = setStaticF__provider)) ::Meta::XR::EnvironmentDepth::IDepthProvider* _provider;
+/// @brief Field _provider, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF__provider, put=setStaticF__provider)) ::Meta::XR::EnvironmentDepth::IDepthProvider*  _provider;
 
-  /// @brief Field _removeHands, offset 0x24, size 0x1
-  __declspec(property(get = __cordl_internal_get__removeHands, put = __cordl_internal_set__removeHands)) bool _removeHands;
+/// @brief Field _removeHands, offset 0x24, size 0x1 
+ __declspec(property(get=__cordl_internal_get__removeHands, put=__cordl_internal_set__removeHands)) bool  _removeHands;
 
-  /// @brief Field _reprojectionMatrices, offset 0xc8, size 0x8
-  __declspec(property(get = __cordl_internal_get__reprojectionMatrices, put = __cordl_internal_set__reprojectionMatrices)) ::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*>
-      _reprojectionMatrices;
+/// @brief Field _reprojectionMatrices, offset 0xc8, size 0x8 
+ __declspec(property(get=__cordl_internal_get__reprojectionMatrices, put=__cordl_internal_set__reprojectionMatrices)) ::ArrayW<::UnityEngine::Matrix4x4,::Array<::UnityEngine::Matrix4x4>*>  _reprojectionMatrices;
 
-  /// @brief Field frameDescriptors, offset 0xa8, size 0x8
-  __declspec(property(get = __cordl_internal_get_frameDescriptors,
-                      put = __cordl_internal_set_frameDescriptors)) ::ArrayW<::Meta::XR::EnvironmentDepth::DepthFrameDesc, ::Array<::Meta::XR::EnvironmentDepth::DepthFrameDesc>*>
-      frameDescriptors;
+/// @brief Field frameDescriptors, offset 0xa8, size 0x8 
+ __declspec(property(get=__cordl_internal_get_frameDescriptors, put=__cordl_internal_set_frameDescriptors)) ::ArrayW<::Meta::XR::EnvironmentDepth::DepthFrameDesc,::Array<::Meta::XR::EnvironmentDepth::DepthFrameDesc>*>  frameDescriptors;
 
-  /// @brief Field onDepthTextureUpdate, offset 0xa0, size 0x8
-  __declspec(property(get = __cordl_internal_get_onDepthTextureUpdate,
-                      put = __cordl_internal_set_onDepthTextureUpdate)) ::System::Action_1<::UnityW<::UnityEngine::RenderTexture>>* onDepthTextureUpdate;
+/// @brief Field onDepthTextureUpdate, offset 0xa0, size 0x8 
+ __declspec(property(get=__cordl_internal_get_onDepthTextureUpdate, put=__cordl_internal_set_onDepthTextureUpdate)) ::System::Action_1<::UnityW<::UnityEngine::RenderTexture>>*  onDepthTextureUpdate;
 
-  /// @brief Method Awake, addr 0x588d758, size 0xbc, virtual false, abstract: false, final false
-  inline void Awake();
+/// @brief Method Awake, addr 0x588dc64, size 0xbc, virtual false, abstract: false, final false
+inline void Awake() ;
 
-  /// @brief Method CacheCameraRig, addr 0x588e68c, size 0xa0, virtual false, abstract: false, final false
-  inline void CacheCameraRig();
+/// @brief Method CacheCameraRig, addr 0x588eb98, size 0xa0, virtual false, abstract: false, final false
+inline void CacheCameraRig() ;
 
-  /// @brief Method CreateProvider, addr 0x588cf6c, size 0x2ec, virtual false, abstract: false, final false
-  static inline ::Meta::XR::EnvironmentDepth::IDepthProvider* CreateProvider();
+/// @brief Method CreateProvider, addr 0x588d478, size 0x2ec, virtual false, abstract: false, final false
+static inline ::Meta::XR::EnvironmentDepth::IDepthProvider* CreateProvider() ;
 
-  /// @brief Method GetTrackingSpaceWorldToLocalMatrix, addr 0x588e120, size 0x144, virtual false, abstract: false, final false
-  inline ::UnityEngine::Matrix4x4 GetTrackingSpaceWorldToLocalMatrix();
+/// @brief Method GetTrackingSpaceWorldToLocalMatrix, addr 0x588e62c, size 0x144, virtual false, abstract: false, final false
+inline ::UnityEngine::Matrix4x4 GetTrackingSpaceWorldToLocalMatrix() ;
 
-  /// @brief Method Log, addr 0x588f57c, size 0x124, virtual false, abstract: false, final false
-  static inline void Log(::UnityEngine::LogType type, ::StringW msg);
+/// @brief Method Log, addr 0x588fa88, size 0x124, virtual false, abstract: false, final false
+static inline void Log(::UnityEngine::LogType  type, ::StringW  msg) ;
 
-  static inline ::Meta::XR::EnvironmentDepth::EnvironmentDepthManager* New_ctor();
+static inline ::Meta::XR::EnvironmentDepth::EnvironmentDepthManager* New_ctor() ;
 
-  /// @brief Method OnBeforeRender, addr 0x588ddd0, size 0x350, virtual false, abstract: false, final false
-  inline void OnBeforeRender();
+/// @brief Method OnBeforeRender, addr 0x588e2dc, size 0x350, virtual false, abstract: false, final false
+inline void OnBeforeRender() ;
 
-  /// @brief Method OnDestroy, addr 0x588dc5c, size 0xe8, virtual false, abstract: false, final false
-  inline void OnDestroy();
+/// @brief Method OnDestroy, addr 0x588e168, size 0xe8, virtual false, abstract: false, final false
+inline void OnDestroy() ;
 
-  /// @brief Method OnDisable, addr 0x588dacc, size 0x190, virtual false, abstract: false, final false
-  inline void OnDisable();
+/// @brief Method OnDisable, addr 0x588dfd8, size 0x190, virtual false, abstract: false, final false
+inline void OnDisable() ;
 
-  /// @brief Method OnEnable, addr 0x588d814, size 0x21c, virtual false, abstract: false, final false
-  inline void OnEnable();
+/// @brief Method OnEnable, addr 0x588dd20, size 0x21c, virtual false, abstract: false, final false
+inline void OnEnable() ;
 
-  /// @brief Method PreprocessDepthTexture, addr 0x588f298, size 0x2e4, virtual false, abstract: false, final false
-  inline void PreprocessDepthTexture(::UnityEngine::RenderTexture* depthTexture);
+/// @brief Method PreprocessDepthTexture, addr 0x588f7a4, size 0x2e4, virtual false, abstract: false, final false
+inline void PreprocessDepthTexture(::UnityEngine::RenderTexture*  depthTexture) ;
 
-  /// @brief Method ResetDepthTextureIfAvailable, addr 0x588da30, size 0x9c, virtual false, abstract: false, final false
-  inline void ResetDepthTextureIfAvailable();
+/// @brief Method ResetDepthTextureIfAvailable, addr 0x588df3c, size 0x9c, virtual false, abstract: false, final false
+inline void ResetDepthTextureIfAvailable() ;
 
-  /// @brief Method SetOcclusionShaderKeywords, addr 0x588d3cc, size 0x1b0, virtual false, abstract: false, final false
-  static inline void SetOcclusionShaderKeywords(::Meta::XR::EnvironmentDepth::OcclusionShadersMode mode);
+/// @brief Method SetOcclusionShaderKeywords, addr 0x588d8d8, size 0x1b0, virtual false, abstract: false, final false
+static inline void SetOcclusionShaderKeywords(::Meta::XR::EnvironmentDepth::OcclusionShadersMode  mode) ;
 
-  /// @brief Method TryFetchDepthTexture, addr 0x588e264, size 0x2e4, virtual false, abstract: false, final false
-  inline void TryFetchDepthTexture(::UnityEngine::Matrix4x4 trackingSpaceWorldToLocal);
+/// @brief Method TryFetchDepthTexture, addr 0x588e770, size 0x2e4, virtual false, abstract: false, final false
+inline void TryFetchDepthTexture(::UnityEngine::Matrix4x4  trackingSpaceWorldToLocal) ;
 
-  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_CustomTrackingSpace() const;
+constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_CustomTrackingSpace() const;
 
-  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_CustomTrackingSpace();
+constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_CustomTrackingSpace() ;
 
-  constexpr bool const& __cordl_internal_get__IsDepthAvailable_k__BackingField() const;
+constexpr bool const& __cordl_internal_get__IsDepthAvailable_k__BackingField() const;
 
-  constexpr bool& __cordl_internal_get__IsDepthAvailable_k__BackingField();
+constexpr bool& __cordl_internal_get__IsDepthAvailable_k__BackingField() ;
 
-  constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MeshFilter>>* const& __cordl_internal_get__MaskMeshFilters_k__BackingField() const;
+constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MeshFilter>>* const& __cordl_internal_get__MaskMeshFilters_k__BackingField() const;
 
-  constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MeshFilter>>*& __cordl_internal_get__MaskMeshFilters_k__BackingField();
+constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MeshFilter>>*& __cordl_internal_get__MaskMeshFilters_k__BackingField() ;
 
-  constexpr ::UnityW<::GlobalNamespace::OVRCameraRig> const& __cordl_internal_get__cameraRig() const;
+constexpr ::UnityW<::GlobalNamespace::OVRCameraRig> const& __cordl_internal_get__cameraRig() const;
 
-  constexpr ::UnityW<::GlobalNamespace::OVRCameraRig>& __cordl_internal_get__cameraRig();
+constexpr ::UnityW<::GlobalNamespace::OVRCameraRig>& __cordl_internal_get__cameraRig() ;
 
-  constexpr bool const& __cordl_internal_get__hasPermission() const;
+constexpr bool const& __cordl_internal_get__hasPermission() const;
 
-  constexpr bool& __cordl_internal_get__hasPermission();
+constexpr bool& __cordl_internal_get__hasPermission() ;
 
-  constexpr bool const& __cordl_internal_get__isCameraRigCached() const;
+constexpr bool const& __cordl_internal_get__isCameraRigCached() const;
 
-  constexpr bool& __cordl_internal_get__isCameraRigCached();
+constexpr bool& __cordl_internal_get__isCameraRigCached() ;
 
-  constexpr ::Meta::XR::EnvironmentDepth::EnvironmentDepthManager_Mask* const& __cordl_internal_get__mask() const;
+constexpr ::Meta::XR::EnvironmentDepth::EnvironmentDepthManager_Mask* const& __cordl_internal_get__mask() const;
 
-  constexpr ::Meta::XR::EnvironmentDepth::EnvironmentDepthManager_Mask*& __cordl_internal_get__mask();
+constexpr ::Meta::XR::EnvironmentDepth::EnvironmentDepthManager_Mask*& __cordl_internal_get__mask() ;
 
-  constexpr float_t const& __cordl_internal_get__maskBias() const;
+constexpr float_t const& __cordl_internal_get__maskBias() const;
 
-  constexpr float_t& __cordl_internal_get__maskBias();
+constexpr float_t& __cordl_internal_get__maskBias() ;
 
-  constexpr ::Meta::XR::EnvironmentDepth::OcclusionShadersMode const& __cordl_internal_get__occlusionShadersMode() const;
+constexpr ::Meta::XR::EnvironmentDepth::OcclusionShadersMode const& __cordl_internal_get__occlusionShadersMode() const;
 
-  constexpr ::Meta::XR::EnvironmentDepth::OcclusionShadersMode& __cordl_internal_get__occlusionShadersMode();
+constexpr ::Meta::XR::EnvironmentDepth::OcclusionShadersMode& __cordl_internal_get__occlusionShadersMode() ;
 
-  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get__preprocessMaterial() const;
+constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get__preprocessMaterial() const;
 
-  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get__preprocessMaterial();
+constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get__preprocessMaterial() ;
 
-  constexpr ::UnityEngine::RenderTargetSetup const& __cordl_internal_get__preprocessRenderTargetSetup() const;
+constexpr ::UnityEngine::RenderTargetSetup const& __cordl_internal_get__preprocessRenderTargetSetup() const;
 
-  constexpr ::UnityEngine::RenderTargetSetup& __cordl_internal_get__preprocessRenderTargetSetup();
+constexpr ::UnityEngine::RenderTargetSetup& __cordl_internal_get__preprocessRenderTargetSetup() ;
 
-  constexpr ::UnityW<::UnityEngine::RenderTexture> const& __cordl_internal_get__preprocessTexture() const;
+constexpr ::UnityW<::UnityEngine::RenderTexture> const& __cordl_internal_get__preprocessTexture() const;
 
-  constexpr ::UnityW<::UnityEngine::RenderTexture>& __cordl_internal_get__preprocessTexture();
+constexpr ::UnityW<::UnityEngine::RenderTexture>& __cordl_internal_get__preprocessTexture() ;
 
-  constexpr bool const& __cordl_internal_get__removeHands() const;
+constexpr bool const& __cordl_internal_get__removeHands() const;
 
-  constexpr bool& __cordl_internal_get__removeHands();
+constexpr bool& __cordl_internal_get__removeHands() ;
 
-  constexpr ::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*> const& __cordl_internal_get__reprojectionMatrices() const;
+constexpr ::ArrayW<::UnityEngine::Matrix4x4,::Array<::UnityEngine::Matrix4x4>*> const& __cordl_internal_get__reprojectionMatrices() const;
 
-  constexpr ::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*>& __cordl_internal_get__reprojectionMatrices();
+constexpr ::ArrayW<::UnityEngine::Matrix4x4,::Array<::UnityEngine::Matrix4x4>*>& __cordl_internal_get__reprojectionMatrices() ;
 
-  constexpr ::ArrayW<::Meta::XR::EnvironmentDepth::DepthFrameDesc, ::Array<::Meta::XR::EnvironmentDepth::DepthFrameDesc>*> const& __cordl_internal_get_frameDescriptors() const;
+constexpr ::ArrayW<::Meta::XR::EnvironmentDepth::DepthFrameDesc,::Array<::Meta::XR::EnvironmentDepth::DepthFrameDesc>*> const& __cordl_internal_get_frameDescriptors() const;
 
-  constexpr ::ArrayW<::Meta::XR::EnvironmentDepth::DepthFrameDesc, ::Array<::Meta::XR::EnvironmentDepth::DepthFrameDesc>*>& __cordl_internal_get_frameDescriptors();
+constexpr ::ArrayW<::Meta::XR::EnvironmentDepth::DepthFrameDesc,::Array<::Meta::XR::EnvironmentDepth::DepthFrameDesc>*>& __cordl_internal_get_frameDescriptors() ;
 
-  constexpr ::System::Action_1<::UnityW<::UnityEngine::RenderTexture>>* const& __cordl_internal_get_onDepthTextureUpdate() const;
+constexpr ::System::Action_1<::UnityW<::UnityEngine::RenderTexture>>* const& __cordl_internal_get_onDepthTextureUpdate() const;
 
-  constexpr ::System::Action_1<::UnityW<::UnityEngine::RenderTexture>>*& __cordl_internal_get_onDepthTextureUpdate();
+constexpr ::System::Action_1<::UnityW<::UnityEngine::RenderTexture>>*& __cordl_internal_get_onDepthTextureUpdate() ;
 
-  constexpr void __cordl_internal_set_CustomTrackingSpace(::UnityW<::UnityEngine::Transform> value);
+constexpr void __cordl_internal_set_CustomTrackingSpace(::UnityW<::UnityEngine::Transform>  value) ;
 
-  constexpr void __cordl_internal_set__IsDepthAvailable_k__BackingField(bool value);
+constexpr void __cordl_internal_set__IsDepthAvailable_k__BackingField(bool  value) ;
 
-  constexpr void __cordl_internal_set__MaskMeshFilters_k__BackingField(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MeshFilter>>* value);
+constexpr void __cordl_internal_set__MaskMeshFilters_k__BackingField(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MeshFilter>>*  value) ;
 
-  constexpr void __cordl_internal_set__cameraRig(::UnityW<::GlobalNamespace::OVRCameraRig> value);
+constexpr void __cordl_internal_set__cameraRig(::UnityW<::GlobalNamespace::OVRCameraRig>  value) ;
 
-  constexpr void __cordl_internal_set__hasPermission(bool value);
+constexpr void __cordl_internal_set__hasPermission(bool  value) ;
 
-  constexpr void __cordl_internal_set__isCameraRigCached(bool value);
+constexpr void __cordl_internal_set__isCameraRigCached(bool  value) ;
 
-  constexpr void __cordl_internal_set__mask(::Meta::XR::EnvironmentDepth::EnvironmentDepthManager_Mask* value);
+constexpr void __cordl_internal_set__mask(::Meta::XR::EnvironmentDepth::EnvironmentDepthManager_Mask*  value) ;
 
-  constexpr void __cordl_internal_set__maskBias(float_t value);
+constexpr void __cordl_internal_set__maskBias(float_t  value) ;
 
-  constexpr void __cordl_internal_set__occlusionShadersMode(::Meta::XR::EnvironmentDepth::OcclusionShadersMode value);
+constexpr void __cordl_internal_set__occlusionShadersMode(::Meta::XR::EnvironmentDepth::OcclusionShadersMode  value) ;
 
-  constexpr void __cordl_internal_set__preprocessMaterial(::UnityW<::UnityEngine::Material> value);
+constexpr void __cordl_internal_set__preprocessMaterial(::UnityW<::UnityEngine::Material>  value) ;
 
-  constexpr void __cordl_internal_set__preprocessRenderTargetSetup(::UnityEngine::RenderTargetSetup value);
+constexpr void __cordl_internal_set__preprocessRenderTargetSetup(::UnityEngine::RenderTargetSetup  value) ;
 
-  constexpr void __cordl_internal_set__preprocessTexture(::UnityW<::UnityEngine::RenderTexture> value);
+constexpr void __cordl_internal_set__preprocessTexture(::UnityW<::UnityEngine::RenderTexture>  value) ;
 
-  constexpr void __cordl_internal_set__removeHands(bool value);
+constexpr void __cordl_internal_set__removeHands(bool  value) ;
 
-  constexpr void __cordl_internal_set__reprojectionMatrices(::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*> value);
+constexpr void __cordl_internal_set__reprojectionMatrices(::ArrayW<::UnityEngine::Matrix4x4,::Array<::UnityEngine::Matrix4x4>*>  value) ;
 
-  constexpr void __cordl_internal_set_frameDescriptors(::ArrayW<::Meta::XR::EnvironmentDepth::DepthFrameDesc, ::Array<::Meta::XR::EnvironmentDepth::DepthFrameDesc>*> value);
+constexpr void __cordl_internal_set_frameDescriptors(::ArrayW<::Meta::XR::EnvironmentDepth::DepthFrameDesc,::Array<::Meta::XR::EnvironmentDepth::DepthFrameDesc>*>  value) ;
 
-  constexpr void __cordl_internal_set_onDepthTextureUpdate(::System::Action_1<::UnityW<::UnityEngine::RenderTexture>>* value);
+constexpr void __cordl_internal_set_onDepthTextureUpdate(::System::Action_1<::UnityW<::UnityEngine::RenderTexture>>*  value) ;
 
-  /// @brief Method .ctor, addr 0x588f6a0, size 0xe0, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x588fbac, size 0xe0, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method add_onDepthTextureUpdate, addr 0x588cd68, size 0xc0, virtual false, abstract: false, final false
-  inline void add_onDepthTextureUpdate(::System::Action_1<::UnityW<::UnityEngine::RenderTexture>>* value);
+/// @brief Method add_onDepthTextureUpdate, addr 0x588d274, size 0xc0, virtual false, abstract: false, final false
+inline void add_onDepthTextureUpdate(::System::Action_1<::UnityW<::UnityEngine::RenderTexture>>*  value) ;
 
-  static inline int32_t getStaticF_DepthTextureID();
+static inline int32_t getStaticF_DepthTextureID() ;
 
-  static inline int32_t getStaticF_MaskBiasID();
+static inline int32_t getStaticF_MaskBiasID() ;
 
-  static inline int32_t getStaticF_MaskTextureID();
+static inline int32_t getStaticF_MaskTextureID() ;
 
-  static inline int32_t getStaticF_MvpMatricesID();
+static inline int32_t getStaticF_MvpMatricesID() ;
 
-  static inline int32_t getStaticF_PreprocessedEnvironmentDepthTexture();
+static inline int32_t getStaticF_PreprocessedEnvironmentDepthTexture() ;
 
-  static inline int32_t getStaticF_ReprojectionMatricesID();
+static inline int32_t getStaticF_ReprojectionMatricesID() ;
 
-  static inline int32_t getStaticF_ZBufferParamsID();
+static inline int32_t getStaticF_ZBufferParamsID() ;
 
-  static inline ::Meta::XR::EnvironmentDepth::IDepthProvider* getStaticF__provider();
+static inline ::Meta::XR::EnvironmentDepth::IDepthProvider* getStaticF__provider() ;
 
-  /// @brief Method get_IsDepthAvailable, addr 0x588d328, size 0x8, virtual false, abstract: false, final false
-  inline bool get_IsDepthAvailable();
+/// @brief Method get_IsDepthAvailable, addr 0x588d834, size 0x8, virtual false, abstract: false, final false
+inline bool get_IsDepthAvailable() ;
 
-  /// @brief Method get_IsSupported, addr 0x588d25c, size 0xcc, virtual false, abstract: false, final false
-  static inline bool get_IsSupported();
+/// @brief Method get_IsSupported, addr 0x588d768, size 0xcc, virtual false, abstract: false, final false
+static inline bool get_IsSupported() ;
 
-  /// @brief Method get_MaskBias, addr 0x588d6b4, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_MaskBias();
+/// @brief Method get_MaskBias, addr 0x588dbc0, size 0x8, virtual false, abstract: false, final false
+inline float_t get_MaskBias() ;
 
-  /// @brief Method get_MaskMeshFilters, addr 0x588cd58, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MeshFilter>>* get_MaskMeshFilters();
+/// @brief Method get_MaskMeshFilters, addr 0x588d264, size 0x8, virtual false, abstract: false, final false
+inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MeshFilter>>* get_MaskMeshFilters() ;
 
-  /// @brief Method get_OcclusionShadersMode, addr 0x588d338, size 0x8, virtual false, abstract: false, final false
-  inline ::Meta::XR::EnvironmentDepth::OcclusionShadersMode get_OcclusionShadersMode();
+/// @brief Method get_OcclusionShadersMode, addr 0x588d844, size 0x8, virtual false, abstract: false, final false
+inline ::Meta::XR::EnvironmentDepth::OcclusionShadersMode get_OcclusionShadersMode() ;
 
-  /// @brief Method get_RemoveHands, addr 0x588d57c, size 0x8, virtual false, abstract: false, final false
-  inline bool get_RemoveHands();
+/// @brief Method get_RemoveHands, addr 0x588da88, size 0x8, virtual false, abstract: false, final false
+inline bool get_RemoveHands() ;
 
-  /// @brief Method get_provider, addr 0x588cee8, size 0x84, virtual false, abstract: false, final false
-  static inline ::Meta::XR::EnvironmentDepth::IDepthProvider* get_provider();
+/// @brief Method get_provider, addr 0x588d3f4, size 0x84, virtual false, abstract: false, final false
+static inline ::Meta::XR::EnvironmentDepth::IDepthProvider* get_provider() ;
 
-  /// @brief Method remove_onDepthTextureUpdate, addr 0x588ce28, size 0xc0, virtual false, abstract: false, final false
-  inline void remove_onDepthTextureUpdate(::System::Action_1<::UnityW<::UnityEngine::RenderTexture>>* value);
+/// @brief Method remove_onDepthTextureUpdate, addr 0x588d334, size 0xc0, virtual false, abstract: false, final false
+inline void remove_onDepthTextureUpdate(::System::Action_1<::UnityW<::UnityEngine::RenderTexture>>*  value) ;
 
-  static inline void setStaticF_DepthTextureID(int32_t value);
+static inline void setStaticF_DepthTextureID(int32_t  value) ;
 
-  static inline void setStaticF_MaskBiasID(int32_t value);
+static inline void setStaticF_MaskBiasID(int32_t  value) ;
 
-  static inline void setStaticF_MaskTextureID(int32_t value);
+static inline void setStaticF_MaskTextureID(int32_t  value) ;
 
-  static inline void setStaticF_MvpMatricesID(int32_t value);
+static inline void setStaticF_MvpMatricesID(int32_t  value) ;
 
-  static inline void setStaticF_PreprocessedEnvironmentDepthTexture(int32_t value);
+static inline void setStaticF_PreprocessedEnvironmentDepthTexture(int32_t  value) ;
 
-  static inline void setStaticF_ReprojectionMatricesID(int32_t value);
+static inline void setStaticF_ReprojectionMatricesID(int32_t  value) ;
 
-  static inline void setStaticF_ZBufferParamsID(int32_t value);
+static inline void setStaticF_ZBufferParamsID(int32_t  value) ;
 
-  static inline void setStaticF__provider(::Meta::XR::EnvironmentDepth::IDepthProvider* value);
+static inline void setStaticF__provider(::Meta::XR::EnvironmentDepth::IDepthProvider*  value) ;
 
-  /// @brief Method set_IsDepthAvailable, addr 0x588d330, size 0x8, virtual false, abstract: false, final false
-  inline void set_IsDepthAvailable(bool value);
+/// @brief Method set_IsDepthAvailable, addr 0x588d83c, size 0x8, virtual false, abstract: false, final false
+inline void set_IsDepthAvailable(bool  value) ;
 
-  /// @brief Method set_MaskBias, addr 0x588d6bc, size 0x9c, virtual false, abstract: false, final false
-  inline void set_MaskBias(float_t value);
+/// @brief Method set_MaskBias, addr 0x588dbc8, size 0x9c, virtual false, abstract: false, final false
+inline void set_MaskBias(float_t  value) ;
 
-  /// @brief Method set_MaskMeshFilters, addr 0x588cd60, size 0x8, virtual false, abstract: false, final false
-  inline void set_MaskMeshFilters(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MeshFilter>>* value);
+/// @brief Method set_MaskMeshFilters, addr 0x588d26c, size 0x8, virtual false, abstract: false, final false
+inline void set_MaskMeshFilters(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MeshFilter>>*  value) ;
 
-  /// @brief Method set_OcclusionShadersMode, addr 0x588d340, size 0x8c, virtual false, abstract: false, final false
-  inline void set_OcclusionShadersMode(::Meta::XR::EnvironmentDepth::OcclusionShadersMode value);
+/// @brief Method set_OcclusionShadersMode, addr 0x588d84c, size 0x8c, virtual false, abstract: false, final false
+inline void set_OcclusionShadersMode(::Meta::XR::EnvironmentDepth::OcclusionShadersMode  value) ;
 
-  /// @brief Method set_RemoveHands, addr 0x588d584, size 0x130, virtual false, abstract: false, final false
-  inline void set_RemoveHands(bool value);
+/// @brief Method set_RemoveHands, addr 0x588da90, size 0x130, virtual false, abstract: false, final false
+inline void set_RemoveHands(bool  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr EnvironmentDepthManager();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr EnvironmentDepthManager() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentDepthManager", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  EnvironmentDepthManager(EnvironmentDepthManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EnvironmentDepthManager", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  EnvironmentDepthManager(EnvironmentDepthManager const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "EnvironmentDepthManager", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+EnvironmentDepthManager(EnvironmentDepthManager && ) = delete;
 
-  /// @brief Field HardOcclusionKeyword offset 0xffffffff size 0x8
-  static constexpr ::ConstString HardOcclusionKeyword{ u"HARD_OCCLUSION" };
+// Ctor Parameters [CppParam { name: "", ty: "EnvironmentDepthManager", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+EnvironmentDepthManager(EnvironmentDepthManager const& ) = delete;
 
-  /// @brief Field SoftOcclusionKeyword offset 0xffffffff size 0x8
-  static constexpr ::ConstString SoftOcclusionKeyword{ u"SOFT_OCCLUSION" };
+/// @brief Field HardOcclusionKeyword offset 0xffffffff size 0x8
+static constexpr ::ConstString  HardOcclusionKeyword{u"HARD_OCCLUSION"};
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22623 };
+/// @brief Field SoftOcclusionKeyword offset 0xffffffff size 0x8
+static constexpr ::ConstString  SoftOcclusionKeyword{u"SOFT_OCCLUSION"};
 
-  /// @brief Field numViews offset 0xffffffff size 0x4
-  static constexpr int32_t numViews{ static_cast<int32_t>(0x2) };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{22627};
 
-  /// @brief Field _occlusionShadersMode, offset: 0x20, size: 0x4, def value: None
-  ::Meta::XR::EnvironmentDepth::OcclusionShadersMode ____occlusionShadersMode;
+/// @brief Field numViews offset 0xffffffff size 0x4
+static constexpr int32_t  numViews{static_cast<int32_t>(0x2)};
 
-  /// @brief Field _removeHands, offset: 0x24, size: 0x1, def value: None
-  bool ____removeHands;
+/// @brief Field _occlusionShadersMode, offset: 0x20, size: 0x4, def value: None
+ ::Meta::XR::EnvironmentDepth::OcclusionShadersMode  ____occlusionShadersMode;
 
-  /// @brief Field CustomTrackingSpace, offset: 0x28, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::Transform> ___CustomTrackingSpace;
+/// @brief Field _removeHands, offset: 0x24, size: 0x1, def value: None
+ bool  ____removeHands;
 
-  /// @brief Field <MaskMeshFilters>k__BackingField, offset: 0x30, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MeshFilter>>* ____MaskMeshFilters_k__BackingField;
+/// @brief Field CustomTrackingSpace, offset: 0x28, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::Transform>  ___CustomTrackingSpace;
 
-  /// @brief Field _isCameraRigCached, offset: 0x38, size: 0x1, def value: None
-  bool ____isCameraRigCached;
+/// @brief Field <MaskMeshFilters>k__BackingField, offset: 0x30, size: 0x8, def value: None
+ ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MeshFilter>>*  ____MaskMeshFilters_k__BackingField;
 
-  /// @brief Field _cameraRig, offset: 0x40, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::OVRCameraRig> ____cameraRig;
+/// @brief Field _isCameraRigCached, offset: 0x38, size: 0x1, def value: None
+ bool  ____isCameraRigCached;
 
-  /// @brief Field _hasPermission, offset: 0x48, size: 0x1, def value: None
-  bool ____hasPermission;
+/// @brief Field _cameraRig, offset: 0x40, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::OVRCameraRig>  ____cameraRig;
 
-  /// @brief Field _preprocessMaterial, offset: 0x50, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::Material> ____preprocessMaterial;
+/// @brief Field _hasPermission, offset: 0x48, size: 0x1, def value: None
+ bool  ____hasPermission;
 
-  /// @brief Field _preprocessTexture, offset: 0x58, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::RenderTexture> ____preprocessTexture;
+/// @brief Field _preprocessMaterial, offset: 0x50, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::Material>  ____preprocessMaterial;
 
-  /// @brief Field _preprocessRenderTargetSetup, offset: 0x60, size: 0x40, def value: None
-  ::UnityEngine::RenderTargetSetup ____preprocessRenderTargetSetup;
+/// @brief Field _preprocessTexture, offset: 0x58, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::RenderTexture>  ____preprocessTexture;
 
-  /// @brief Field onDepthTextureUpdate, offset: 0xa0, size: 0x8, def value: None
-  ::System::Action_1<::UnityW<::UnityEngine::RenderTexture>>* ___onDepthTextureUpdate;
+/// @brief Field _preprocessRenderTargetSetup, offset: 0x60, size: 0x40, def value: None
+ ::UnityEngine::RenderTargetSetup  ____preprocessRenderTargetSetup;
 
-  /// @brief Field frameDescriptors, offset: 0xa8, size: 0x8, def value: None
-  ::ArrayW<::Meta::XR::EnvironmentDepth::DepthFrameDesc, ::Array<::Meta::XR::EnvironmentDepth::DepthFrameDesc>*> ___frameDescriptors;
+/// @brief Field onDepthTextureUpdate, offset: 0xa0, size: 0x8, def value: None
+ ::System::Action_1<::UnityW<::UnityEngine::RenderTexture>>*  ___onDepthTextureUpdate;
 
-  /// @brief Field _maskBias, offset: 0xb0, size: 0x4, def value: None
-  float_t ____maskBias;
+/// @brief Field frameDescriptors, offset: 0xa8, size: 0x8, def value: None
+ ::ArrayW<::Meta::XR::EnvironmentDepth::DepthFrameDesc,::Array<::Meta::XR::EnvironmentDepth::DepthFrameDesc>*>  ___frameDescriptors;
 
-  /// @brief Field _mask, offset: 0xb8, size: 0x8, def value: None
-  ::Meta::XR::EnvironmentDepth::EnvironmentDepthManager_Mask* ____mask;
+/// @brief Field _maskBias, offset: 0xb0, size: 0x4, def value: None
+ float_t  ____maskBias;
 
-  /// @brief Field <IsDepthAvailable>k__BackingField, offset: 0xc0, size: 0x1, def value: None
-  bool ____IsDepthAvailable_k__BackingField;
+/// @brief Field _mask, offset: 0xb8, size: 0x8, def value: None
+ ::Meta::XR::EnvironmentDepth::EnvironmentDepthManager_Mask*  ____mask;
 
-  /// @brief Field _reprojectionMatrices, offset: 0xc8, size: 0x8, def value: None
-  ::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*> ____reprojectionMatrices;
+/// @brief Field <IsDepthAvailable>k__BackingField, offset: 0xc0, size: 0x1, def value: None
+ bool  ____IsDepthAvailable_k__BackingField;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _reprojectionMatrices, offset: 0xc8, size: 0x8, def value: None
+ ::ArrayW<::UnityEngine::Matrix4x4,::Array<::UnityEngine::Matrix4x4>*>  ____reprojectionMatrices;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Meta::XR::EnvironmentDepth::EnvironmentDepthManager, ____occlusionShadersMode) == 0x20, "Offset mismatch!");
@@ -597,7 +592,7 @@ static_assert(offsetof(::Meta::XR::EnvironmentDepth::EnvironmentDepthManager, __
 
 static_assert(::cordl_internals::size_check_v<::Meta::XR::EnvironmentDepth::EnvironmentDepthManager, 0xd0>, "Size mismatch!");
 
-} // namespace Meta::XR::EnvironmentDepth
+} // namespace end def Meta::XR::EnvironmentDepth
 NEED_NO_BOX(::Meta::XR::EnvironmentDepth::EnvironmentDepthManager);
 DEFINE_IL2CPP_ARG_TYPE(::Meta::XR::EnvironmentDepth::EnvironmentDepthManager*, "Meta.XR.EnvironmentDepth", "EnvironmentDepthManager");
 NEED_NO_BOX(::Meta::XR::EnvironmentDepth::EnvironmentDepthManager_Mask);

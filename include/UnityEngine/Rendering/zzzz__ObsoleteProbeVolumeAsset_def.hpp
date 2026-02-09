@@ -17,34 +17,34 @@ namespace UnityEngine::Rendering {
 // CS Name: UnityEngine.Rendering.ObsoleteProbeVolumeAsset
 class CORDL_TYPE ObsoleteProbeVolumeAsset : public ::UnityEngine::ScriptableObject {
 public:
-  // Declarations
-  static inline ::UnityEngine::Rendering::ObsoleteProbeVolumeAsset* New_ctor();
+// Declarations
+static inline ::UnityEngine::Rendering::ObsoleteProbeVolumeAsset* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x65dab64, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x65db224, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ObsoleteProbeVolumeAsset();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ObsoleteProbeVolumeAsset() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ObsoleteProbeVolumeAsset", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ObsoleteProbeVolumeAsset(ObsoleteProbeVolumeAsset&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ObsoleteProbeVolumeAsset", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ObsoleteProbeVolumeAsset(ObsoleteProbeVolumeAsset const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ObsoleteProbeVolumeAsset", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ObsoleteProbeVolumeAsset(ObsoleteProbeVolumeAsset && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12102 };
+// Ctor Parameters [CppParam { name: "", ty: "ObsoleteProbeVolumeAsset", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ObsoleteProbeVolumeAsset(ObsoleteProbeVolumeAsset const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12106};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::ObsoleteProbeVolumeAsset, 0x18>, "Size mismatch!");
 
-} // namespace UnityEngine::Rendering
+} // namespace end def UnityEngine::Rendering
 NEED_NO_BOX(::UnityEngine::Rendering::ObsoleteProbeVolumeAsset);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::ObsoleteProbeVolumeAsset*, "UnityEngine.Rendering", "ObsoleteProbeVolumeAsset");

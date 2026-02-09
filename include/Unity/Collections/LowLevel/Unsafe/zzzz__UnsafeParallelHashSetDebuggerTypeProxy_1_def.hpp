@@ -7,67 +7,70 @@ CORDL_MODULE_INIT
 #include "Unity/Collections/LowLevel/Unsafe/zzzz__UnsafeParallelHashSet_1_def.hpp"
 CORDL_MODULE_EXPORT(UnsafeParallelHashSetDebuggerTypeProxy_1)
 namespace System::Collections::Generic {
-template <typename T> class List_1;
+template<typename T>
+class List_1;
 }
 namespace Unity::Collections::LowLevel::Unsafe {
-template <typename T> struct UnsafeParallelHashSet_1;
+template<typename T>
+struct UnsafeParallelHashSet_1;
 }
 // Forward declare root types
 namespace Unity::Collections::LowLevel::Unsafe {
-template <typename T> class UnsafeParallelHashSetDebuggerTypeProxy_1;
+template<typename T>
+class UnsafeParallelHashSetDebuggerTypeProxy_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashSetDebuggerTypeProxy_1);
 // Dependencies System.Object, Unity.Collections.LowLevel.Unsafe.UnsafeParallelHashSet`1<T>
 namespace Unity::Collections::LowLevel::Unsafe {
 // cpp template
-template <typename T>
+template<typename T>
 // Is value type: false
 // CS Name: Unity.Collections.LowLevel.Unsafe.UnsafeParallelHashSetDebuggerTypeProxy`1<T>
 class CORDL_TYPE UnsafeParallelHashSetDebuggerTypeProxy_1 : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field Data, offset 0x10, size 0x10
-  __declspec(property(get = __cordl_internal_get_Data, put = __cordl_internal_set_Data)) ::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashSet_1<T> Data;
+// Declarations
+/// @brief Field Data, offset 0x10, size 0x10 
+ __declspec(property(get=__cordl_internal_get_Data, put=__cordl_internal_set_Data)) ::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashSet_1<T>  Data;
 
-  __declspec(property(get = get_Items)) ::System::Collections::Generic::List_1<T>* Items;
+ __declspec(property(get=get_Items)) ::System::Collections::Generic::List_1<T>*  Items;
 
-  static inline ::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashSetDebuggerTypeProxy_1<T>* New_ctor(::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashSet_1<T> data);
+static inline ::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashSetDebuggerTypeProxy_1<T>* New_ctor(::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashSet_1<T>  data) ;
 
-  constexpr ::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashSet_1<T> const& __cordl_internal_get_Data() const;
+constexpr ::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashSet_1<T> const& __cordl_internal_get_Data() const;
 
-  constexpr ::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashSet_1<T>& __cordl_internal_get_Data();
+constexpr ::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashSet_1<T>& __cordl_internal_get_Data() ;
 
-  constexpr void __cordl_internal_set_Data(::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashSet_1<T> value);
+constexpr void __cordl_internal_set_Data(::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashSet_1<T>  value) ;
 
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashSet_1<T> data);
+/// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+inline void _ctor(::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashSet_1<T>  data) ;
 
-  /// @brief Method get_Items, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::List_1<T>* get_Items();
+/// @brief Method get_Items, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+inline ::System::Collections::Generic::List_1<T>* get_Items() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr UnsafeParallelHashSetDebuggerTypeProxy_1();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr UnsafeParallelHashSetDebuggerTypeProxy_1() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UnsafeParallelHashSetDebuggerTypeProxy_1", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  UnsafeParallelHashSetDebuggerTypeProxy_1(UnsafeParallelHashSetDebuggerTypeProxy_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UnsafeParallelHashSetDebuggerTypeProxy_1", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  UnsafeParallelHashSetDebuggerTypeProxy_1(UnsafeParallelHashSetDebuggerTypeProxy_1 const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "UnsafeParallelHashSetDebuggerTypeProxy_1", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+UnsafeParallelHashSetDebuggerTypeProxy_1(UnsafeParallelHashSetDebuggerTypeProxy_1 && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15775 };
+// Ctor Parameters [CppParam { name: "", ty: "UnsafeParallelHashSetDebuggerTypeProxy_1", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+UnsafeParallelHashSetDebuggerTypeProxy_1(UnsafeParallelHashSetDebuggerTypeProxy_1 const& ) = delete;
 
-  /// @brief Field Data, offset: 0x10, size: 0x10, def value: None
-  ::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashSet_1<T> ___Data;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{15779};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field Data, offset: 0x10, size: 0x10, def value: None
+ ::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashSet_1<T>  ___Data;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-} // namespace Unity::Collections::LowLevel::Unsafe
+} // namespace end def Unity::Collections::LowLevel::Unsafe
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::Unity::Collections::LowLevel::Unsafe::UnsafeParallelHashSetDebuggerTypeProxy_1, "Unity.Collections.LowLevel.Unsafe", "UnsafeParallelHashSetDebuggerTypeProxy`1");

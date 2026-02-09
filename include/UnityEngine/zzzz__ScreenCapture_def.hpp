@@ -24,110 +24,110 @@ class ScreenCapture;
 // Write type traits
 MARK_VAL_T(::UnityEngine::ScreenCapture_StereoScreenCaptureMode);
 MARK_REF_PTR_T(::UnityEngine::ScreenCapture);
-// Dependencies
+// Dependencies 
 namespace UnityEngine {
 // Is value type: true
 // CS Name: UnityEngine.ScreenCapture/StereoScreenCaptureMode
 struct CORDL_TYPE ScreenCapture_StereoScreenCaptureMode {
 public:
-  // Declarations
-  using __CORDL_BACKING_ENUM_TYPE = int32_t;
+// Declarations
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct __ScreenCapture_StereoScreenCaptureMode_Unwrapped
-  enum struct __ScreenCapture_StereoScreenCaptureMode_Unwrapped : int32_t {
-    __E_LeftEye = static_cast<int32_t>(0x1),
-    __E_RightEye = static_cast<int32_t>(0x2),
-    __E_BothEyes = static_cast<int32_t>(0x3),
-    __E_MotionVectors = static_cast<int32_t>(0x4),
-  };
+/// @brief Nested struct __ScreenCapture_StereoScreenCaptureMode_Unwrapped
+enum struct __ScreenCapture_StereoScreenCaptureMode_Unwrapped : int32_t {
+__E_LeftEye = static_cast<int32_t>(0x1),
+__E_RightEye = static_cast<int32_t>(0x2),
+__E_BothEyes = static_cast<int32_t>(0x3),
+__E_MotionVectors = static_cast<int32_t>(0x4),
+};
 
-  /// @brief Conversion into unwrapped enum value
-  constexpr operator __ScreenCapture_StereoScreenCaptureMode_Unwrapped() const noexcept {
-    return static_cast<__ScreenCapture_StereoScreenCaptureMode_Unwrapped>(this->value__);
-  }
+/// @brief Conversion into unwrapped enum value
+constexpr operator __ScreenCapture_StereoScreenCaptureMode_Unwrapped () const noexcept {
+return static_cast<__ScreenCapture_StereoScreenCaptureMode_Unwrapped>(this->value__);
+}
 
-  /// @brief Conversion into unwrapped enum value
-  constexpr explicit operator int32_t() const noexcept {
-    return static_cast<int32_t>(this->value__);
-  }
+/// @brief Conversion into unwrapped enum value
+constexpr explicit operator int32_t () const noexcept {
+return static_cast<int32_t>(this->value__);
+}
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ScreenCapture_StereoScreenCaptureMode();
+// Ctor Parameters []
+// @brief default ctor
+constexpr ScreenCapture_StereoScreenCaptureMode() ;
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr ScreenCapture_StereoScreenCaptureMode(int32_t value__) noexcept;
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr ScreenCapture_StereoScreenCaptureMode(int32_t  value__) noexcept;
 
-  /// @brief Field BothEyes value: I32(3)
-  static ::UnityEngine::ScreenCapture_StereoScreenCaptureMode const BothEyes;
+/// @brief Field BothEyes value: I32(3)
+static ::UnityEngine::ScreenCapture_StereoScreenCaptureMode const BothEyes;
 
-  /// @brief Field LeftEye value: I32(1)
-  static ::UnityEngine::ScreenCapture_StereoScreenCaptureMode const LeftEye;
+/// @brief Field LeftEye value: I32(1)
+static ::UnityEngine::ScreenCapture_StereoScreenCaptureMode const LeftEye;
 
-  /// @brief Field MotionVectors value: I32(4)
-  static ::UnityEngine::ScreenCapture_StereoScreenCaptureMode const MotionVectors;
+/// @brief Field MotionVectors value: I32(4)
+static ::UnityEngine::ScreenCapture_StereoScreenCaptureMode const MotionVectors;
 
-  /// @brief Field RightEye value: I32(2)
-  static ::UnityEngine::ScreenCapture_StereoScreenCaptureMode const RightEye;
+/// @brief Field RightEye value: I32(2)
+static ::UnityEngine::ScreenCapture_StereoScreenCaptureMode const RightEye;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23049 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{23053};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x4};
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+/// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+ int32_t  value__;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::ScreenCapture_StereoScreenCaptureMode, value__) == 0x0, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ScreenCapture_StereoScreenCaptureMode, 0x4>, "Size mismatch!");
 
-} // namespace UnityEngine
+} // namespace end def UnityEngine
 // Dependencies System.Object
 namespace UnityEngine {
 // Is value type: false
 // CS Name: UnityEngine.ScreenCapture
 class CORDL_TYPE ScreenCapture : public ::System::Object {
 public:
-  // Declarations
-  using StereoScreenCaptureMode = ::UnityEngine::ScreenCapture_StereoScreenCaptureMode;
+// Declarations
+using StereoScreenCaptureMode = ::UnityEngine::ScreenCapture_StereoScreenCaptureMode;
 
-  /// @brief Method CaptureScreenshot, addr 0x69ea7cc, size 0xc, virtual false, abstract: false, final false
-  static inline void CaptureScreenshot(::StringW filename);
+/// @brief Method CaptureScreenshot, addr 0x69eae8c, size 0xc, virtual false, abstract: false, final false
+static inline void CaptureScreenshot(::StringW  filename) ;
 
-  /// @brief Method CaptureScreenshot, addr 0x69ea7d8, size 0x13c, virtual false, abstract: false, final false
-  static inline void CaptureScreenshot(::StringW filename, int32_t superSize, ::UnityEngine::ScreenCapture_StereoScreenCaptureMode CaptureMode);
+/// @brief Method CaptureScreenshot, addr 0x69eae98, size 0x13c, virtual false, abstract: false, final false
+static inline void CaptureScreenshot(::StringW  filename, int32_t  superSize, ::UnityEngine::ScreenCapture_StereoScreenCaptureMode  CaptureMode) ;
 
-  /// @brief Method CaptureScreenshot_Injected, addr 0x69ea914, size 0x54, virtual false, abstract: false, final false
-  static inline void CaptureScreenshot_Injected(::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> filename, int32_t superSize, ::UnityEngine::ScreenCapture_StereoScreenCaptureMode CaptureMode);
+/// @brief Method CaptureScreenshot_Injected, addr 0x69eafd4, size 0x54, virtual false, abstract: false, final false
+static inline void CaptureScreenshot_Injected(::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>  filename, int32_t  superSize, ::UnityEngine::ScreenCapture_StereoScreenCaptureMode  CaptureMode) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ScreenCapture();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ScreenCapture() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ScreenCapture", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ScreenCapture(ScreenCapture&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ScreenCapture", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ScreenCapture(ScreenCapture const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ScreenCapture", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ScreenCapture(ScreenCapture && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23050 };
+// Ctor Parameters [CppParam { name: "", ty: "ScreenCapture", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ScreenCapture(ScreenCapture const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{23054};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ScreenCapture, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine
+} // namespace end def UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ScreenCapture_StereoScreenCaptureMode, "UnityEngine", "ScreenCapture/StereoScreenCaptureMode");
 NEED_NO_BOX(::UnityEngine::ScreenCapture);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ScreenCapture*, "UnityEngine", "ScreenCapture");

@@ -17,34 +17,34 @@ namespace UnityEngine::Rendering {
 // CS Name: UnityEngine.Rendering.ReloadGroupAttribute
 class CORDL_TYPE ReloadGroupAttribute : public ::System::Attribute {
 public:
-  // Declarations
-  static inline ::UnityEngine::Rendering::ReloadGroupAttribute* New_ctor();
+// Declarations
+static inline ::UnityEngine::Rendering::ReloadGroupAttribute* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x65a2184, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x65a2844, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ReloadGroupAttribute();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ReloadGroupAttribute() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ReloadGroupAttribute", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ReloadGroupAttribute(ReloadGroupAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ReloadGroupAttribute", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ReloadGroupAttribute(ReloadGroupAttribute const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ReloadGroupAttribute", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ReloadGroupAttribute(ReloadGroupAttribute && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11913 };
+// Ctor Parameters [CppParam { name: "", ty: "ReloadGroupAttribute", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ReloadGroupAttribute(ReloadGroupAttribute const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11917};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::ReloadGroupAttribute, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine::Rendering
+} // namespace end def UnityEngine::Rendering
 NEED_NO_BOX(::UnityEngine::Rendering::ReloadGroupAttribute);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::ReloadGroupAttribute*, "UnityEngine.Rendering", "ReloadGroupAttribute");

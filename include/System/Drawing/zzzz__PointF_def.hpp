@@ -9,7 +9,8 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PointF)
 namespace System {
-template <typename T> class IEquatable_1;
+template<typename T>
+class IEquatable_1;
 }
 namespace System {
 class Object;
@@ -20,64 +21,64 @@ struct PointF;
 }
 // Write type traits
 MARK_VAL_T(::System::Drawing::PointF);
-// Dependencies
+// Dependencies 
 namespace System::Drawing {
 // Is value type: true
 // CS Name: System.Drawing.PointF
 struct CORDL_TYPE PointF {
 public:
-  // Declarations
-  __declspec(property(get = get_X)) float_t X;
+// Declarations
+ __declspec(property(get=get_X)) float_t  X;
 
-  __declspec(property(get = get_Y)) float_t Y;
+ __declspec(property(get=get_Y)) float_t  Y;
 
-  /// @brief Convert operator to "::System::IEquatable_1<::System::Drawing::PointF>"
-  constexpr operator ::System::IEquatable_1<::System::Drawing::PointF>*();
+/// @brief Convert operator to "::System::IEquatable_1<::System::Drawing::PointF>"
+constexpr operator  ::System::IEquatable_1<::System::Drawing::PointF>*() ;
 
-  /// @brief Method Equals, addr 0x5f209a8, size 0x84, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* obj);
+/// @brief Method Equals, addr 0x5f21068, size 0x84, virtual true, abstract: false, final false
+inline bool Equals(::System::Object*  obj) ;
 
-  /// @brief Method Equals, addr 0x5f20a2c, size 0x18, virtual true, abstract: false, final true
-  inline bool Equals(::System::Drawing::PointF other);
+/// @brief Method Equals, addr 0x5f210ec, size 0x18, virtual true, abstract: false, final true
+inline bool Equals(::System::Drawing::PointF  other) ;
 
-  /// @brief Method GetHashCode, addr 0x5f20a44, size 0x84, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
+/// @brief Method GetHashCode, addr 0x5f21104, size 0x84, virtual true, abstract: false, final false
+inline int32_t GetHashCode() ;
 
-  /// @brief Method ToString, addr 0x5f20ac8, size 0x118, virtual true, abstract: false, final false
-  inline ::StringW ToString();
+/// @brief Method ToString, addr 0x5f21188, size 0x118, virtual true, abstract: false, final false
+inline ::StringW ToString() ;
 
-  /// @brief Method get_X, addr 0x5f20988, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_X();
+/// @brief Method get_X, addr 0x5f21048, size 0x8, virtual false, abstract: false, final false
+inline float_t get_X() ;
 
-  /// @brief Method get_Y, addr 0x5f20990, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_Y();
+/// @brief Method get_Y, addr 0x5f21050, size 0x8, virtual false, abstract: false, final false
+inline float_t get_Y() ;
 
-  /// @brief Convert to "::System::IEquatable_1<::System::Drawing::PointF>"
-  constexpr ::System::IEquatable_1<::System::Drawing::PointF>* i___System__IEquatable_1___System__Drawing__PointF_();
+/// @brief Convert to "::System::IEquatable_1<::System::Drawing::PointF>"
+constexpr ::System::IEquatable_1<::System::Drawing::PointF>* i___System__IEquatable_1___System__Drawing__PointF_() ;
 
-  /// @brief Method op_Equality, addr 0x5f20998, size 0x10, virtual false, abstract: false, final false
-  static inline bool op_Equality(::System::Drawing::PointF left, ::System::Drawing::PointF right);
+/// @brief Method op_Equality, addr 0x5f21058, size 0x10, virtual false, abstract: false, final false
+static inline bool op_Equality(::System::Drawing::PointF  left, ::System::Drawing::PointF  right) ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PointF();
+// Ctor Parameters []
+// @brief default ctor
+constexpr PointF() ;
 
-  // Ctor Parameters [CppParam { name: "x", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "y", ty: "float_t", modifiers: "", def_value: None }]
-  constexpr PointF(float_t x, float_t y) noexcept;
+// Ctor Parameters [CppParam { name: "x", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "y", ty: "float_t", modifiers: "", def_value: None }]
+constexpr PointF(float_t  x, float_t  y) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21330 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{21334};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x8};
 
-  /// @brief Field x, offset: 0x0, size: 0x4, def value: None
-  float_t x;
+/// @brief Field x, offset: 0x0, size: 0x4, def value: None
+ float_t  x;
 
-  /// @brief Field y, offset: 0x4, size: 0x4, def value: None
-  float_t y;
+/// @brief Field y, offset: 0x4, size: 0x4, def value: None
+ float_t  y;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Drawing::PointF, x) == 0x0, "Offset mismatch!");
@@ -86,5 +87,5 @@ static_assert(offsetof(::System::Drawing::PointF, y) == 0x4, "Offset mismatch!")
 
 static_assert(::cordl_internals::size_check_v<::System::Drawing::PointF, 0x8>, "Size mismatch!");
 
-} // namespace System::Drawing
+} // namespace end def System::Drawing
 DEFINE_IL2CPP_ARG_TYPE(::System::Drawing::PointF, "System.Drawing", "PointF");

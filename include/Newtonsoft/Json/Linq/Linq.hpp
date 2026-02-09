@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "Newtonsoft/Json/Linq/CommentHandling.hpp"
 #include "Newtonsoft/Json/Linq/DuplicatePropertyNameHandling.hpp"
@@ -30,5 +30,6 @@ module;
 #include "Newtonsoft/Json/Linq/MergeArrayHandling.hpp"
 #include "Newtonsoft/Json/Linq/MergeNullValueHandling.hpp"
 #ifdef __cpp_modules
-export module Linq;
-#endif
+                    export module Linq;
+                    #endif
+                

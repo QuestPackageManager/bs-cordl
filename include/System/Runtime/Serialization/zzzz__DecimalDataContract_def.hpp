@@ -33,50 +33,50 @@ namespace System::Runtime::Serialization {
 // CS Name: System.Runtime.Serialization.DecimalDataContract
 class CORDL_TYPE DecimalDataContract : public ::System::Runtime::Serialization::PrimitiveDataContract {
 public:
-  // Declarations
-  __declspec(property(get = get_ReadMethodName)) ::StringW ReadMethodName;
+// Declarations
+ __declspec(property(get=get_ReadMethodName)) ::StringW  ReadMethodName;
 
-  __declspec(property(get = get_WriteMethodName)) ::StringW WriteMethodName;
+ __declspec(property(get=get_WriteMethodName)) ::StringW  WriteMethodName;
 
-  static inline ::System::Runtime::Serialization::DecimalDataContract* New_ctor();
+static inline ::System::Runtime::Serialization::DecimalDataContract* New_ctor() ;
 
-  /// @brief Method ReadXmlValue, addr 0x5fa87a4, size 0xf8, virtual true, abstract: false, final false
-  inline ::System::Object* ReadXmlValue(::System::Runtime::Serialization::XmlReaderDelegator* reader, ::System::Runtime::Serialization::XmlObjectSerializerReadContext* context);
+/// @brief Method ReadXmlValue, addr 0x5fa8e64, size 0xf8, virtual true, abstract: false, final false
+inline ::System::Object* ReadXmlValue(::System::Runtime::Serialization::XmlReaderDelegator*  reader, ::System::Runtime::Serialization::XmlObjectSerializerReadContext*  context) ;
 
-  /// @brief Method WriteXmlValue, addr 0x5fa8718, size 0x8c, virtual true, abstract: false, final false
-  inline void WriteXmlValue(::System::Runtime::Serialization::XmlWriterDelegator* writer, ::System::Object* obj, ::System::Runtime::Serialization::XmlObjectSerializerWriteContext* context);
+/// @brief Method WriteXmlValue, addr 0x5fa8dd8, size 0x8c, virtual true, abstract: false, final false
+inline void WriteXmlValue(::System::Runtime::Serialization::XmlWriterDelegator*  writer, ::System::Object*  obj, ::System::Runtime::Serialization::XmlObjectSerializerWriteContext*  context) ;
 
-  /// @brief Method .ctor, addr 0x5fa85e0, size 0xb0, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5fa8ca0, size 0xb0, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_ReadMethodName, addr 0x5fa86d4, size 0x44, virtual true, abstract: false, final false
-  inline ::StringW get_ReadMethodName();
+/// @brief Method get_ReadMethodName, addr 0x5fa8d94, size 0x44, virtual true, abstract: false, final false
+inline ::StringW get_ReadMethodName() ;
 
-  /// @brief Method get_WriteMethodName, addr 0x5fa8690, size 0x44, virtual true, abstract: false, final false
-  inline ::StringW get_WriteMethodName();
+/// @brief Method get_WriteMethodName, addr 0x5fa8d50, size 0x44, virtual true, abstract: false, final false
+inline ::StringW get_WriteMethodName() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DecimalDataContract();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr DecimalDataContract() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DecimalDataContract", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  DecimalDataContract(DecimalDataContract&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DecimalDataContract", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  DecimalDataContract(DecimalDataContract const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "DecimalDataContract", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+DecimalDataContract(DecimalDataContract && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17048 };
+// Ctor Parameters [CppParam { name: "", ty: "DecimalDataContract", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+DecimalDataContract(DecimalDataContract const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{17052};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::DecimalDataContract, 0x30>, "Size mismatch!");
 
-} // namespace System::Runtime::Serialization
+} // namespace end def System::Runtime::Serialization
 NEED_NO_BOX(::System::Runtime::Serialization::DecimalDataContract);
 DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::DecimalDataContract*, "System.Runtime.Serialization", "DecimalDataContract");

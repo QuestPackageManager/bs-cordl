@@ -34,111 +34,111 @@ namespace System::IO {
 // CS Name: System.IO.StringWriter
 class CORDL_TYPE StringWriter : public ::System::IO::TextWriter {
 public:
-  // Declarations
-  __declspec(property(get = get_Encoding)) ::System::Text::Encoding* Encoding;
+// Declarations
+ __declspec(property(get=get_Encoding)) ::System::Text::Encoding*  Encoding;
 
-  /// @brief Field _isOpen, offset 0x38, size 0x1
-  __declspec(property(get = __cordl_internal_get__isOpen, put = __cordl_internal_set__isOpen)) bool _isOpen;
+/// @brief Field _isOpen, offset 0x38, size 0x1 
+ __declspec(property(get=__cordl_internal_get__isOpen, put=__cordl_internal_set__isOpen)) bool  _isOpen;
 
-  /// @brief Field _sb, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__sb, put = __cordl_internal_set__sb)) ::System::Text::StringBuilder* _sb;
+/// @brief Field _sb, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get__sb, put=__cordl_internal_set__sb)) ::System::Text::StringBuilder*  _sb;
 
-  /// @brief Field m_encoding, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_m_encoding, put = setStaticF_m_encoding)) ::System::Text::UnicodeEncoding* m_encoding;
+/// @brief Field m_encoding, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_m_encoding, put=setStaticF_m_encoding)) ::System::Text::UnicodeEncoding*  m_encoding;
 
-  /// @brief Method Close, addr 0x5a69108, size 0x10, virtual true, abstract: false, final false
-  inline void Close();
+/// @brief Method Close, addr 0x5a69614, size 0x10, virtual true, abstract: false, final false
+inline void Close() ;
 
-  /// @brief Method Dispose, addr 0x5a69118, size 0x8, virtual true, abstract: false, final false
-  inline void Dispose(bool disposing);
+/// @brief Method Dispose, addr 0x5a69624, size 0x8, virtual true, abstract: false, final false
+inline void Dispose(bool  disposing) ;
 
-  /// @brief Method FlushAsync, addr 0x5a695dc, size 0x94, virtual true, abstract: false, final false
-  inline ::System::Threading::Tasks::Task* FlushAsync();
+/// @brief Method FlushAsync, addr 0x5a69ae8, size 0x94, virtual true, abstract: false, final false
+inline ::System::Threading::Tasks::Task* FlushAsync() ;
 
-  static inline ::System::IO::StringWriter* New_ctor();
+static inline ::System::IO::StringWriter* New_ctor() ;
 
-  static inline ::System::IO::StringWriter* New_ctor(::System::IFormatProvider* formatProvider);
+static inline ::System::IO::StringWriter* New_ctor(::System::IFormatProvider*  formatProvider) ;
 
-  static inline ::System::IO::StringWriter* New_ctor(::System::Text::StringBuilder* sb);
+static inline ::System::IO::StringWriter* New_ctor(::System::Text::StringBuilder*  sb) ;
 
-  static inline ::System::IO::StringWriter* New_ctor(::System::Text::StringBuilder* sb, ::System::IFormatProvider* formatProvider);
+static inline ::System::IO::StringWriter* New_ctor(::System::Text::StringBuilder*  sb, ::System::IFormatProvider*  formatProvider) ;
 
-  /// @brief Method ToString, addr 0x5a69670, size 0x1c, virtual true, abstract: false, final false
-  inline ::StringW ToString();
+/// @brief Method ToString, addr 0x5a69b7c, size 0x1c, virtual true, abstract: false, final false
+inline ::StringW ToString() ;
 
-  /// @brief Method Write, addr 0x5a69208, size 0x154, virtual true, abstract: false, final false
-  inline void Write(::ArrayW<char16_t, ::Array<char16_t>*> buffer, int32_t index, int32_t count);
+/// @brief Method Write, addr 0x5a69714, size 0x154, virtual true, abstract: false, final false
+inline void Write(::ArrayW<char16_t,::Array<char16_t>*>  buffer, int32_t  index, int32_t  count) ;
 
-  /// @brief Method Write, addr 0x5a6935c, size 0x34, virtual true, abstract: false, final false
-  inline void Write(::StringW value);
+/// @brief Method Write, addr 0x5a69868, size 0x34, virtual true, abstract: false, final false
+inline void Write(::StringW  value) ;
 
-  /// @brief Method Write, addr 0x5a691e0, size 0x28, virtual true, abstract: false, final false
-  inline void Write(char16_t value);
+/// @brief Method Write, addr 0x5a696ec, size 0x28, virtual true, abstract: false, final false
+inline void Write(char16_t  value) ;
 
-  /// @brief Method WriteAsync, addr 0x5a69508, size 0xd4, virtual true, abstract: false, final false
-  inline ::System::Threading::Tasks::Task* WriteAsync(::ArrayW<char16_t, ::Array<char16_t>*> buffer, int32_t index, int32_t count);
+/// @brief Method WriteAsync, addr 0x5a69a14, size 0xd4, virtual true, abstract: false, final false
+inline ::System::Threading::Tasks::Task* WriteAsync(::ArrayW<char16_t,::Array<char16_t>*>  buffer, int32_t  index, int32_t  count) ;
 
-  /// @brief Method WriteAsync, addr 0x5a6944c, size 0xbc, virtual true, abstract: false, final false
-  inline ::System::Threading::Tasks::Task* WriteAsync(::StringW value);
+/// @brief Method WriteAsync, addr 0x5a69958, size 0xbc, virtual true, abstract: false, final false
+inline ::System::Threading::Tasks::Task* WriteAsync(::StringW  value) ;
 
-  /// @brief Method WriteAsync, addr 0x5a69390, size 0xbc, virtual true, abstract: false, final false
-  inline ::System::Threading::Tasks::Task* WriteAsync(char16_t value);
+/// @brief Method WriteAsync, addr 0x5a6989c, size 0xbc, virtual true, abstract: false, final false
+inline ::System::Threading::Tasks::Task* WriteAsync(char16_t  value) ;
 
-  constexpr bool const& __cordl_internal_get__isOpen() const;
+constexpr bool const& __cordl_internal_get__isOpen() const;
 
-  constexpr bool& __cordl_internal_get__isOpen();
+constexpr bool& __cordl_internal_get__isOpen() ;
 
-  constexpr ::System::Text::StringBuilder* const& __cordl_internal_get__sb() const;
+constexpr ::System::Text::StringBuilder* const& __cordl_internal_get__sb() const;
 
-  constexpr ::System::Text::StringBuilder*& __cordl_internal_get__sb();
+constexpr ::System::Text::StringBuilder*& __cordl_internal_get__sb() ;
 
-  constexpr void __cordl_internal_set__isOpen(bool value);
+constexpr void __cordl_internal_set__isOpen(bool  value) ;
 
-  constexpr void __cordl_internal_set__sb(::System::Text::StringBuilder* value);
+constexpr void __cordl_internal_set__sb(::System::Text::StringBuilder*  value) ;
 
-  /// @brief Method .ctor, addr 0x5a68eb0, size 0x94, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5a693bc, size 0x94, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method .ctor, addr 0x5a69024, size 0x70, virtual false, abstract: false, final false
-  inline void _ctor(::System::IFormatProvider* formatProvider);
+/// @brief Method .ctor, addr 0x5a69530, size 0x70, virtual false, abstract: false, final false
+inline void _ctor(::System::IFormatProvider*  formatProvider) ;
 
-  /// @brief Method .ctor, addr 0x5a69094, size 0x74, virtual false, abstract: false, final false
-  inline void _ctor(::System::Text::StringBuilder* sb);
+/// @brief Method .ctor, addr 0x5a695a0, size 0x74, virtual false, abstract: false, final false
+inline void _ctor(::System::Text::StringBuilder*  sb) ;
 
-  /// @brief Method .ctor, addr 0x5a68f44, size 0xe0, virtual false, abstract: false, final false
-  inline void _ctor(::System::Text::StringBuilder* sb, ::System::IFormatProvider* formatProvider);
+/// @brief Method .ctor, addr 0x5a69450, size 0xe0, virtual false, abstract: false, final false
+inline void _ctor(::System::Text::StringBuilder*  sb, ::System::IFormatProvider*  formatProvider) ;
 
-  static inline ::System::Text::UnicodeEncoding* getStaticF_m_encoding();
+static inline ::System::Text::UnicodeEncoding* getStaticF_m_encoding() ;
 
-  /// @brief Method get_Encoding, addr 0x5a69120, size 0xc0, virtual true, abstract: false, final false
-  inline ::System::Text::Encoding* get_Encoding();
+/// @brief Method get_Encoding, addr 0x5a6962c, size 0xc0, virtual true, abstract: false, final false
+inline ::System::Text::Encoding* get_Encoding() ;
 
-  static inline void setStaticF_m_encoding(::System::Text::UnicodeEncoding* value);
+static inline void setStaticF_m_encoding(::System::Text::UnicodeEncoding*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr StringWriter();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr StringWriter() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StringWriter", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  StringWriter(StringWriter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StringWriter", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  StringWriter(StringWriter const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "StringWriter", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+StringWriter(StringWriter && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3908 };
+// Ctor Parameters [CppParam { name: "", ty: "StringWriter", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+StringWriter(StringWriter const& ) = delete;
 
-  /// @brief Field _sb, offset: 0x30, size: 0x8, def value: None
-  ::System::Text::StringBuilder* ____sb;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{3908};
 
-  /// @brief Field _isOpen, offset: 0x38, size: 0x1, def value: None
-  bool ____isOpen;
+/// @brief Field _sb, offset: 0x30, size: 0x8, def value: None
+ ::System::Text::StringBuilder*  ____sb;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _isOpen, offset: 0x38, size: 0x1, def value: None
+ bool  ____isOpen;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::IO::StringWriter, ____sb) == 0x30, "Offset mismatch!");
@@ -147,6 +147,6 @@ static_assert(offsetof(::System::IO::StringWriter, ____isOpen) == 0x38, "Offset 
 
 static_assert(::cordl_internals::size_check_v<::System::IO::StringWriter, 0x40>, "Size mismatch!");
 
-} // namespace System::IO
+} // namespace end def System::IO
 NEED_NO_BOX(::System::IO::StringWriter);
 DEFINE_IL2CPP_ARG_TYPE(::System::IO::StringWriter*, "System.IO", "StringWriter");

@@ -11,7 +11,8 @@ namespace GlobalNamespace {
 class DeterminismConfig;
 }
 namespace System::Collections::Generic {
-template <typename T> class List_1;
+template<typename T>
+class List_1;
 }
 namespace UnityEngine {
 class AudioSource;
@@ -28,139 +29,139 @@ namespace GlobalNamespace {
 // CS Name: BasicSpectrogramData
 class CORDL_TYPE BasicSpectrogramData : public ::UnityEngine::MonoBehaviour {
 public:
-  // Declarations
-  __declspec(property(get = get_ProcessedSamples)) ::System::Collections::Generic::List_1<float_t>* ProcessedSamples;
+// Declarations
+ __declspec(property(get=get_ProcessedSamples)) ::System::Collections::Generic::List_1<float_t>*  ProcessedSamples;
 
-  __declspec(property(get = get_Samples)) ::ArrayW<float_t, ::Array<float_t>*> Samples;
+ __declspec(property(get=get_Samples)) ::ArrayW<float_t,::Array<float_t>*>  Samples;
 
-  /// @brief Field _audioSource, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__audioSource, put = __cordl_internal_set__audioSource)) ::UnityW<::UnityEngine::AudioSource> _audioSource;
+/// @brief Field _audioSource, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get__audioSource, put=__cordl_internal_set__audioSource)) ::UnityW<::UnityEngine::AudioSource>  _audioSource;
 
-  /// @brief Field _determinismConfig, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__determinismConfig, put = __cordl_internal_set__determinismConfig)) ::GlobalNamespace::DeterminismConfig* _determinismConfig;
+/// @brief Field _determinismConfig, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get__determinismConfig, put=__cordl_internal_set__determinismConfig)) ::GlobalNamespace::DeterminismConfig*  _determinismConfig;
 
-  /// @brief Field _hasData, offset 0x34, size 0x1
-  __declspec(property(get = __cordl_internal_get__hasData, put = __cordl_internal_set__hasData)) bool _hasData;
+/// @brief Field _hasData, offset 0x34, size 0x1 
+ __declspec(property(get=__cordl_internal_get__hasData, put=__cordl_internal_set__hasData)) bool  _hasData;
 
-  /// @brief Field _hasProcessedData, offset 0x35, size 0x1
-  __declspec(property(get = __cordl_internal_get__hasProcessedData, put = __cordl_internal_set__hasProcessedData)) bool _hasProcessedData;
+/// @brief Field _hasProcessedData, offset 0x35, size 0x1 
+ __declspec(property(get=__cordl_internal_get__hasProcessedData, put=__cordl_internal_set__hasProcessedData)) bool  _hasProcessedData;
 
-  /// @brief Field _instantChangeThreshold, offset 0x30, size 0x4
-  __declspec(property(get = __cordl_internal_get__instantChangeThreshold, put = __cordl_internal_set__instantChangeThreshold)) float_t _instantChangeThreshold;
+/// @brief Field _instantChangeThreshold, offset 0x30, size 0x4 
+ __declspec(property(get=__cordl_internal_get__instantChangeThreshold, put=__cordl_internal_set__instantChangeThreshold)) float_t  _instantChangeThreshold;
 
-  /// @brief Field _processedSamples, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__processedSamples, put = __cordl_internal_set__processedSamples)) ::System::Collections::Generic::List_1<float_t>* _processedSamples;
+/// @brief Field _processedSamples, offset 0x40, size 0x8 
+ __declspec(property(get=__cordl_internal_get__processedSamples, put=__cordl_internal_set__processedSamples)) ::System::Collections::Generic::List_1<float_t>*  _processedSamples;
 
-  /// @brief Field _samples, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__samples, put = __cordl_internal_set__samples)) ::ArrayW<float_t, ::Array<float_t>*> _samples;
+/// @brief Field _samples, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get__samples, put=__cordl_internal_set__samples)) ::ArrayW<float_t,::Array<float_t>*>  _samples;
 
-  /// @brief Method Awake, addr 0x57f3bfc, size 0xb0, virtual false, abstract: false, final false
-  inline void Awake();
+/// @brief Method Awake, addr 0x57f452c, size 0xb0, virtual false, abstract: false, final false
+inline void Awake() ;
 
-  /// @brief Method GetFakeSamples, addr 0x57f38c4, size 0x144, virtual false, abstract: false, final false
-  inline void GetFakeSamples(::ArrayW<float_t, ::Array<float_t>*> samples);
+/// @brief Method GetFakeSamples, addr 0x57f41f4, size 0x144, virtual false, abstract: false, final false
+inline void GetFakeSamples(::ArrayW<float_t,::Array<float_t>*>  samples) ;
 
-  /// @brief Method LateUpdate, addr 0x57f3cac, size 0x8, virtual false, abstract: false, final false
-  inline void LateUpdate();
+/// @brief Method LateUpdate, addr 0x57f45dc, size 0x8, virtual false, abstract: false, final false
+inline void LateUpdate() ;
 
-  static inline ::GlobalNamespace::BasicSpectrogramData* New_ctor();
+static inline ::GlobalNamespace::BasicSpectrogramData* New_ctor() ;
 
-  /// @brief Method ProcessSamples, addr 0x57f3a44, size 0x1b8, virtual false, abstract: false, final false
-  inline void ProcessSamples(::ArrayW<float_t, ::Array<float_t>*> sourceSamples, ::System::Collections::Generic::List_1<float_t>* processedSamples);
+/// @brief Method ProcessSamples, addr 0x57f4374, size 0x1b8, virtual false, abstract: false, final false
+inline void ProcessSamples(::ArrayW<float_t,::Array<float_t>*>  sourceSamples, ::System::Collections::Generic::List_1<float_t>*  processedSamples) ;
 
-  constexpr ::UnityW<::UnityEngine::AudioSource> const& __cordl_internal_get__audioSource() const;
+constexpr ::UnityW<::UnityEngine::AudioSource> const& __cordl_internal_get__audioSource() const;
 
-  constexpr ::UnityW<::UnityEngine::AudioSource>& __cordl_internal_get__audioSource();
+constexpr ::UnityW<::UnityEngine::AudioSource>& __cordl_internal_get__audioSource() ;
 
-  constexpr ::GlobalNamespace::DeterminismConfig* const& __cordl_internal_get__determinismConfig() const;
+constexpr ::GlobalNamespace::DeterminismConfig* const& __cordl_internal_get__determinismConfig() const;
 
-  constexpr ::GlobalNamespace::DeterminismConfig*& __cordl_internal_get__determinismConfig();
+constexpr ::GlobalNamespace::DeterminismConfig*& __cordl_internal_get__determinismConfig() ;
 
-  constexpr bool const& __cordl_internal_get__hasData() const;
+constexpr bool const& __cordl_internal_get__hasData() const;
 
-  constexpr bool& __cordl_internal_get__hasData();
+constexpr bool& __cordl_internal_get__hasData() ;
 
-  constexpr bool const& __cordl_internal_get__hasProcessedData() const;
+constexpr bool const& __cordl_internal_get__hasProcessedData() const;
 
-  constexpr bool& __cordl_internal_get__hasProcessedData();
+constexpr bool& __cordl_internal_get__hasProcessedData() ;
 
-  constexpr float_t const& __cordl_internal_get__instantChangeThreshold() const;
+constexpr float_t const& __cordl_internal_get__instantChangeThreshold() const;
 
-  constexpr float_t& __cordl_internal_get__instantChangeThreshold();
+constexpr float_t& __cordl_internal_get__instantChangeThreshold() ;
 
-  constexpr ::System::Collections::Generic::List_1<float_t>* const& __cordl_internal_get__processedSamples() const;
+constexpr ::System::Collections::Generic::List_1<float_t>* const& __cordl_internal_get__processedSamples() const;
 
-  constexpr ::System::Collections::Generic::List_1<float_t>*& __cordl_internal_get__processedSamples();
+constexpr ::System::Collections::Generic::List_1<float_t>*& __cordl_internal_get__processedSamples() ;
 
-  constexpr ::ArrayW<float_t, ::Array<float_t>*> const& __cordl_internal_get__samples() const;
+constexpr ::ArrayW<float_t,::Array<float_t>*> const& __cordl_internal_get__samples() const;
 
-  constexpr ::ArrayW<float_t, ::Array<float_t>*>& __cordl_internal_get__samples();
+constexpr ::ArrayW<float_t,::Array<float_t>*>& __cordl_internal_get__samples() ;
 
-  constexpr void __cordl_internal_set__audioSource(::UnityW<::UnityEngine::AudioSource> value);
+constexpr void __cordl_internal_set__audioSource(::UnityW<::UnityEngine::AudioSource>  value) ;
 
-  constexpr void __cordl_internal_set__determinismConfig(::GlobalNamespace::DeterminismConfig* value);
+constexpr void __cordl_internal_set__determinismConfig(::GlobalNamespace::DeterminismConfig*  value) ;
 
-  constexpr void __cordl_internal_set__hasData(bool value);
+constexpr void __cordl_internal_set__hasData(bool  value) ;
 
-  constexpr void __cordl_internal_set__hasProcessedData(bool value);
+constexpr void __cordl_internal_set__hasProcessedData(bool  value) ;
 
-  constexpr void __cordl_internal_set__instantChangeThreshold(float_t value);
+constexpr void __cordl_internal_set__instantChangeThreshold(float_t  value) ;
 
-  constexpr void __cordl_internal_set__processedSamples(::System::Collections::Generic::List_1<float_t>* value);
+constexpr void __cordl_internal_set__processedSamples(::System::Collections::Generic::List_1<float_t>*  value) ;
 
-  constexpr void __cordl_internal_set__samples(::ArrayW<float_t, ::Array<float_t>*> value);
+constexpr void __cordl_internal_set__samples(::ArrayW<float_t,::Array<float_t>*>  value) ;
 
-  /// @brief Method .ctor, addr 0x57f3cb4, size 0xb4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x57f45e4, size 0xb4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_ProcessedSamples, addr 0x57f3a08, size 0x3c, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::List_1<float_t>* get_ProcessedSamples();
+/// @brief Method get_ProcessedSamples, addr 0x57f4338, size 0x3c, virtual false, abstract: false, final false
+inline ::System::Collections::Generic::List_1<float_t>* get_ProcessedSamples() ;
 
-  /// @brief Method get_Samples, addr 0x57f380c, size 0xb8, virtual false, abstract: false, final false
-  inline ::ArrayW<float_t, ::Array<float_t>*> get_Samples();
+/// @brief Method get_Samples, addr 0x57f413c, size 0xb8, virtual false, abstract: false, final false
+inline ::ArrayW<float_t,::Array<float_t>*> get_Samples() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BasicSpectrogramData();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr BasicSpectrogramData() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BasicSpectrogramData", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  BasicSpectrogramData(BasicSpectrogramData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BasicSpectrogramData", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  BasicSpectrogramData(BasicSpectrogramData const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "BasicSpectrogramData", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+BasicSpectrogramData(BasicSpectrogramData && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5957 };
+// Ctor Parameters [CppParam { name: "", ty: "BasicSpectrogramData", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+BasicSpectrogramData(BasicSpectrogramData const& ) = delete;
 
-  /// @brief Field kNumberOfSamples offset 0xffffffff size 0x4
-  static constexpr int32_t kNumberOfSamples{ static_cast<int32_t>(0x40) };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{5957};
 
-  /// @brief Field _determinismConfig, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::DeterminismConfig* ____determinismConfig;
+/// @brief Field kNumberOfSamples offset 0xffffffff size 0x4
+static constexpr int32_t  kNumberOfSamples{static_cast<int32_t>(0x40)};
 
-  /// @brief Field _audioSource, offset: 0x28, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::AudioSource> ____audioSource;
+/// @brief Field _determinismConfig, offset: 0x20, size: 0x8, def value: None
+ ::GlobalNamespace::DeterminismConfig*  ____determinismConfig;
 
-  /// @brief Field _instantChangeThreshold, offset: 0x30, size: 0x4, def value: None
-  float_t ____instantChangeThreshold;
+/// @brief Field _audioSource, offset: 0x28, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::AudioSource>  ____audioSource;
 
-  /// @brief Field _hasData, offset: 0x34, size: 0x1, def value: None
-  bool ____hasData;
+/// @brief Field _instantChangeThreshold, offset: 0x30, size: 0x4, def value: None
+ float_t  ____instantChangeThreshold;
 
-  /// @brief Field _hasProcessedData, offset: 0x35, size: 0x1, def value: None
-  bool ____hasProcessedData;
+/// @brief Field _hasData, offset: 0x34, size: 0x1, def value: None
+ bool  ____hasData;
 
-  /// @brief Field _samples, offset: 0x38, size: 0x8, def value: None
-  ::ArrayW<float_t, ::Array<float_t>*> ____samples;
+/// @brief Field _hasProcessedData, offset: 0x35, size: 0x1, def value: None
+ bool  ____hasProcessedData;
 
-  /// @brief Field _processedSamples, offset: 0x40, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<float_t>* ____processedSamples;
+/// @brief Field _samples, offset: 0x38, size: 0x8, def value: None
+ ::ArrayW<float_t,::Array<float_t>*>  ____samples;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _processedSamples, offset: 0x40, size: 0x8, def value: None
+ ::System::Collections::Generic::List_1<float_t>*  ____processedSamples;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::BasicSpectrogramData, ____determinismConfig) == 0x20, "Offset mismatch!");
@@ -179,6 +180,6 @@ static_assert(offsetof(::GlobalNamespace::BasicSpectrogramData, ____processedSam
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BasicSpectrogramData, 0x48>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BasicSpectrogramData);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BasicSpectrogramData*, "", "BasicSpectrogramData");

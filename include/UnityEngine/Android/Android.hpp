@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "UnityEngine/Android/AndroidApplication.hpp"
 #include "UnityEngine/Android/AndroidAssetPackError.hpp"
@@ -31,5 +31,6 @@ module;
 #include "UnityEngine/Android/Permission.hpp"
 #include "UnityEngine/Android/PermissionCallbacks.hpp"
 #ifdef __cpp_modules
-export module Android;
-#endif
+                    export module Android;
+                    #endif
+                

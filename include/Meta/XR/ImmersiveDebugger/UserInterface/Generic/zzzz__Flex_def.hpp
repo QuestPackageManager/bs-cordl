@@ -31,117 +31,114 @@ namespace Meta::XR::ImmersiveDebugger::UserInterface::Generic {
 // CS Name: Meta.XR.ImmersiveDebugger.UserInterface.Generic.Flex
 class CORDL_TYPE Flex : public ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller {
 public:
-  // Declarations
-  __declspec(property(get = get_ScrollViewport, put = set_ScrollViewport)) ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ScrollViewport> ScrollViewport;
+// Declarations
+ __declspec(property(get=get_ScrollViewport, put=set_ScrollViewport)) ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ScrollViewport>  ScrollViewport;
 
-  __declspec(property(get = get_SizeDelta)) ::UnityEngine::Vector2 SizeDelta;
+ __declspec(property(get=get_SizeDelta)) ::UnityEngine::Vector2  SizeDelta;
 
-  __declspec(property(get = get_SizeDeltaWithMargin)) ::UnityEngine::Vector2 SizeDeltaWithMargin;
+ __declspec(property(get=get_SizeDeltaWithMargin)) ::UnityEngine::Vector2  SizeDeltaWithMargin;
 
-  /// @brief Field <ScrollViewport>k__BackingField, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get__ScrollViewport_k__BackingField,
-                      put = __cordl_internal_set__ScrollViewport_k__BackingField)) ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ScrollViewport>
-      _ScrollViewport_k__BackingField;
+/// @brief Field <ScrollViewport>k__BackingField, offset 0x78, size 0x8 
+ __declspec(property(get=__cordl_internal_get__ScrollViewport_k__BackingField, put=__cordl_internal_set__ScrollViewport_k__BackingField)) ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ScrollViewport>  _ScrollViewport_k__BackingField;
 
-  /// @brief Field _previousAnchoredPosition, offset 0x80, size 0xc
-  __declspec(property(get = __cordl_internal_get__previousAnchoredPosition, put = __cordl_internal_set__previousAnchoredPosition)) ::System::Nullable_1<::UnityEngine::Vector2>
-      _previousAnchoredPosition;
+/// @brief Field _previousAnchoredPosition, offset 0x80, size 0xc 
+ __declspec(property(get=__cordl_internal_get__previousAnchoredPosition, put=__cordl_internal_set__previousAnchoredPosition)) ::System::Nullable_1<::UnityEngine::Vector2>  _previousAnchoredPosition;
 
-  /// @brief Field _sizeDelta, offset 0x6c, size 0x8
-  __declspec(property(get = __cordl_internal_get__sizeDelta, put = __cordl_internal_set__sizeDelta)) ::UnityEngine::Vector2 _sizeDelta;
+/// @brief Field _sizeDelta, offset 0x6c, size 0x8 
+ __declspec(property(get=__cordl_internal_get__sizeDelta, put=__cordl_internal_set__sizeDelta)) ::UnityEngine::Vector2  _sizeDelta;
 
-  /// @brief Method Forget, addr 0x58acb9c, size 0x3c, virtual false, abstract: false, final false
-  inline void Forget(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller* controller);
+/// @brief Method Forget, addr 0x58ad0a8, size 0x3c, virtual false, abstract: false, final false
+inline void Forget(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller*  controller) ;
 
-  /// @brief Method ForgetAll, addr 0x58acc14, size 0x128, virtual false, abstract: false, final false
-  inline void ForgetAll();
+/// @brief Method ForgetAll, addr 0x58ad120, size 0x128, virtual false, abstract: false, final false
+inline void ForgetAll() ;
 
-  /// @brief Method IsVerticallyInViewport, addr 0x58ac7b8, size 0x88, virtual false, abstract: false, final false
-  static inline bool IsVerticallyInViewport(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller* controller, ::UnityEngine::Rect viewportRect, ::UnityEngine::Vector2 scroll);
+/// @brief Method IsVerticallyInViewport, addr 0x58accc4, size 0x88, virtual false, abstract: false, final false
+static inline bool IsVerticallyInViewport(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller*  controller, ::UnityEngine::Rect  viewportRect, ::UnityEngine::Vector2  scroll) ;
 
-  /// @brief Method LateUpdate, addr 0x58acb94, size 0x8, virtual false, abstract: false, final false
-  inline void LateUpdate();
+/// @brief Method LateUpdate, addr 0x58ad0a0, size 0x8, virtual false, abstract: false, final false
+inline void LateUpdate() ;
 
-  static inline ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Flex* New_ctor();
+static inline ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Flex* New_ctor() ;
 
-  /// @brief Method RefreshLayoutPostChildren, addr 0x58ac85c, size 0x338, virtual true, abstract: false, final false
-  inline void RefreshLayoutPostChildren();
+/// @brief Method RefreshLayoutPostChildren, addr 0x58acd68, size 0x338, virtual true, abstract: false, final false
+inline void RefreshLayoutPostChildren() ;
 
-  /// @brief Method RefreshLayoutPreChildren, addr 0x58ac840, size 0x1c, virtual true, abstract: false, final false
-  inline void RefreshLayoutPreChildren();
+/// @brief Method RefreshLayoutPreChildren, addr 0x58acd4c, size 0x1c, virtual true, abstract: false, final false
+inline void RefreshLayoutPreChildren() ;
 
-  /// @brief Method RefreshVisibilities, addr 0x58ac4e8, size 0x2d0, virtual false, abstract: false, final false
-  inline void RefreshVisibilities(bool force);
+/// @brief Method RefreshVisibilities, addr 0x58ac9f4, size 0x2d0, virtual false, abstract: false, final false
+inline void RefreshVisibilities(bool  force) ;
 
-  /// @brief Method Remember, addr 0x58acbd8, size 0x3c, virtual false, abstract: false, final false
-  inline void Remember(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller* controller);
+/// @brief Method Remember, addr 0x58ad0e4, size 0x3c, virtual false, abstract: false, final false
+inline void Remember(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller*  controller) ;
 
-  /// @brief Method UpdateAnchoredPosition, addr 0x58ac0e8, size 0xb0, virtual false, abstract: false, final false
-  inline void UpdateAnchoredPosition(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller* controller, ::ByRef<::UnityEngine::Vector2> offset, ::UnityEngine::Vector2 direction);
+/// @brief Method UpdateAnchoredPosition, addr 0x58ac5f4, size 0xb0, virtual false, abstract: false, final false
+inline void UpdateAnchoredPosition(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Controller*  controller, ::ByRef<::UnityEngine::Vector2>  offset, ::UnityEngine::Vector2  direction) ;
 
-  /// @brief Method UpdateChildrenWidth, addr 0x58ac198, size 0x350, virtual false, abstract: false, final false
-  inline void UpdateChildrenWidth();
+/// @brief Method UpdateChildrenWidth, addr 0x58ac6a4, size 0x350, virtual false, abstract: false, final false
+inline void UpdateChildrenWidth() ;
 
-  constexpr ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ScrollViewport> const& __cordl_internal_get__ScrollViewport_k__BackingField() const;
+constexpr ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ScrollViewport> const& __cordl_internal_get__ScrollViewport_k__BackingField() const;
 
-  constexpr ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ScrollViewport>& __cordl_internal_get__ScrollViewport_k__BackingField();
+constexpr ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ScrollViewport>& __cordl_internal_get__ScrollViewport_k__BackingField() ;
 
-  constexpr ::System::Nullable_1<::UnityEngine::Vector2> const& __cordl_internal_get__previousAnchoredPosition() const;
+constexpr ::System::Nullable_1<::UnityEngine::Vector2> const& __cordl_internal_get__previousAnchoredPosition() const;
 
-  constexpr ::System::Nullable_1<::UnityEngine::Vector2>& __cordl_internal_get__previousAnchoredPosition();
+constexpr ::System::Nullable_1<::UnityEngine::Vector2>& __cordl_internal_get__previousAnchoredPosition() ;
 
-  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get__sizeDelta() const;
+constexpr ::UnityEngine::Vector2 const& __cordl_internal_get__sizeDelta() const;
 
-  constexpr ::UnityEngine::Vector2& __cordl_internal_get__sizeDelta();
+constexpr ::UnityEngine::Vector2& __cordl_internal_get__sizeDelta() ;
 
-  constexpr void __cordl_internal_set__ScrollViewport_k__BackingField(::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ScrollViewport> value);
+constexpr void __cordl_internal_set__ScrollViewport_k__BackingField(::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ScrollViewport>  value) ;
 
-  constexpr void __cordl_internal_set__previousAnchoredPosition(::System::Nullable_1<::UnityEngine::Vector2> value);
+constexpr void __cordl_internal_set__previousAnchoredPosition(::System::Nullable_1<::UnityEngine::Vector2>  value) ;
 
-  constexpr void __cordl_internal_set__sizeDelta(::UnityEngine::Vector2 value);
+constexpr void __cordl_internal_set__sizeDelta(::UnityEngine::Vector2  value) ;
 
-  /// @brief Method .ctor, addr 0x58acd3c, size 0xc, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x58ad248, size 0xc, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_ScrollViewport, addr 0x58ac0d8, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ScrollViewport> get_ScrollViewport();
+/// @brief Method get_ScrollViewport, addr 0x58ac5e4, size 0x8, virtual false, abstract: false, final false
+inline ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ScrollViewport> get_ScrollViewport() ;
 
-  /// @brief Method get_SizeDelta, addr 0x58ac050, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector2 get_SizeDelta();
+/// @brief Method get_SizeDelta, addr 0x58ac55c, size 0x8, virtual false, abstract: false, final false
+inline ::UnityEngine::Vector2 get_SizeDelta() ;
 
-  /// @brief Method get_SizeDeltaWithMargin, addr 0x58ac058, size 0x54, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector2 get_SizeDeltaWithMargin();
+/// @brief Method get_SizeDeltaWithMargin, addr 0x58ac564, size 0x54, virtual false, abstract: false, final false
+inline ::UnityEngine::Vector2 get_SizeDeltaWithMargin() ;
 
-  /// @brief Method set_ScrollViewport, addr 0x58ac0e0, size 0x8, virtual false, abstract: false, final false
-  inline void set_ScrollViewport(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ScrollViewport* value);
+/// @brief Method set_ScrollViewport, addr 0x58ac5ec, size 0x8, virtual false, abstract: false, final false
+inline void set_ScrollViewport(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ScrollViewport*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Flex();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr Flex() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Flex", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  Flex(Flex&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Flex", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  Flex(Flex const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "Flex", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+Flex(Flex && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18364 };
+// Ctor Parameters [CppParam { name: "", ty: "Flex", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+Flex(Flex const& ) = delete;
 
-  /// @brief Field _sizeDelta, offset: 0x6c, size: 0x8, def value: None
-  ::UnityEngine::Vector2 ____sizeDelta;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{18368};
 
-  /// @brief Field <ScrollViewport>k__BackingField, offset: 0x78, size: 0x8, def value: None
-  ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ScrollViewport> ____ScrollViewport_k__BackingField;
+/// @brief Field _sizeDelta, offset: 0x6c, size: 0x8, def value: None
+ ::UnityEngine::Vector2  ____sizeDelta;
 
-  /// @brief Field _previousAnchoredPosition, offset: 0x80, size: 0xc, def value: None
-  ::System::Nullable_1<::UnityEngine::Vector2> ____previousAnchoredPosition;
+/// @brief Field <ScrollViewport>k__BackingField, offset: 0x78, size: 0x8, def value: None
+ ::UnityW<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ScrollViewport>  ____ScrollViewport_k__BackingField;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _previousAnchoredPosition, offset: 0x80, size: 0xc, def value: None
+ ::System::Nullable_1<::UnityEngine::Vector2>  ____previousAnchoredPosition;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Flex, ____sizeDelta) == 0x6c, "Offset mismatch!");
@@ -152,6 +149,6 @@ static_assert(offsetof(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Fl
 
 static_assert(::cordl_internals::size_check_v<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Flex, 0x90>, "Size mismatch!");
 
-} // namespace Meta::XR::ImmersiveDebugger::UserInterface::Generic
+} // namespace end def Meta::XR::ImmersiveDebugger::UserInterface::Generic
 NEED_NO_BOX(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Flex);
 DEFINE_IL2CPP_ARG_TYPE(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::Flex*, "Meta.XR.ImmersiveDebugger.UserInterface.Generic", "Flex");

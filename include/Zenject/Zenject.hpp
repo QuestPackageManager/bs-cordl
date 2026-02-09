@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "Zenject/ActionInstaller.hpp"
 #include "Zenject/AddToCurrentGameObjectComponentProvider.hpp"
@@ -466,5 +466,6 @@ module;
 #include "Zenject/ZenjectSettings.hpp"
 #include "Zenject/ZenjectStateMachineBehaviourAutoInjecter.hpp"
 #ifdef __cpp_modules
-export module Zenject;
-#endif
+                    export module Zenject;
+                    #endif
+                

@@ -18,45 +18,45 @@ namespace System::Net::NetworkInformation {
 // CS Name: System.Net.NetworkInformation.IPGlobalProperties
 class CORDL_TYPE IPGlobalProperties : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(get = get_DomainName)) ::StringW DomainName;
+// Declarations
+ __declspec(property(get=get_DomainName)) ::StringW  DomainName;
 
-  /// @brief Method GetIPGlobalProperties, addr 0x619d740, size 0x4, virtual false, abstract: false, final false
-  static inline ::System::Net::NetworkInformation::IPGlobalProperties* GetIPGlobalProperties();
+/// @brief Method GetIPGlobalProperties, addr 0x619de00, size 0x4, virtual false, abstract: false, final false
+static inline ::System::Net::NetworkInformation::IPGlobalProperties* GetIPGlobalProperties() ;
 
-  /// @brief Method InternalGetIPGlobalProperties, addr 0x619d78c, size 0x4, virtual false, abstract: false, final false
-  static inline ::System::Net::NetworkInformation::IPGlobalProperties* InternalGetIPGlobalProperties();
+/// @brief Method InternalGetIPGlobalProperties, addr 0x619de4c, size 0x4, virtual false, abstract: false, final false
+static inline ::System::Net::NetworkInformation::IPGlobalProperties* InternalGetIPGlobalProperties() ;
 
-  static inline ::System::Net::NetworkInformation::IPGlobalProperties* New_ctor();
+static inline ::System::Net::NetworkInformation::IPGlobalProperties* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x619d790, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x619de50, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_DomainName, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline ::StringW get_DomainName();
+/// @brief Method get_DomainName, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline ::StringW get_DomainName() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr IPGlobalProperties();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr IPGlobalProperties() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IPGlobalProperties", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IPGlobalProperties(IPGlobalProperties&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IPGlobalProperties", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  IPGlobalProperties(IPGlobalProperties const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "IPGlobalProperties", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+IPGlobalProperties(IPGlobalProperties && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11648 };
+// Ctor Parameters [CppParam { name: "", ty: "IPGlobalProperties", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+IPGlobalProperties(IPGlobalProperties const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11652};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::NetworkInformation::IPGlobalProperties, 0x10>, "Size mismatch!");
 
-} // namespace System::Net::NetworkInformation
+} // namespace end def System::Net::NetworkInformation
 NEED_NO_BOX(::System::Net::NetworkInformation::IPGlobalProperties);
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::NetworkInformation::IPGlobalProperties*, "System.Net.NetworkInformation", "IPGlobalProperties");

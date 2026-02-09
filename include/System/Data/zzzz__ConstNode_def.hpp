@@ -7,7 +7,8 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ConstNode)
 namespace System::Collections::Generic {
-template <typename T> class List_1;
+template<typename T>
+class List_1;
 }
 namespace System::Data {
 class DataColumn;
@@ -42,86 +43,86 @@ namespace System::Data {
 // CS Name: System.Data.ConstNode
 class CORDL_TYPE ConstNode : public ::System::Data::ExpressionNode {
 public:
-  // Declarations
-  /// @brief Field _val, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__val, put = __cordl_internal_set__val)) ::System::Object* _val;
+// Declarations
+/// @brief Field _val, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get__val, put=__cordl_internal_set__val)) ::System::Object*  _val;
 
-  /// @brief Method Bind, addr 0x5e8ae64, size 0x8, virtual true, abstract: false, final false
-  inline void Bind(::System::Data::DataTable* table, ::System::Collections::Generic::List_1<::System::Data::DataColumn*>* list);
+/// @brief Method Bind, addr 0x5e8b524, size 0x8, virtual true, abstract: false, final false
+inline void Bind(::System::Data::DataTable*  table, ::System::Collections::Generic::List_1<::System::Data::DataColumn*>*  list) ;
 
-  /// @brief Method Eval, addr 0x5e8ae6c, size 0x8, virtual true, abstract: false, final false
-  inline ::System::Object* Eval();
+/// @brief Method Eval, addr 0x5e8b52c, size 0x8, virtual true, abstract: false, final false
+inline ::System::Object* Eval() ;
 
-  /// @brief Method Eval, addr 0x5e8ae80, size 0xc, virtual true, abstract: false, final false
-  inline ::System::Object* Eval(::ArrayW<int32_t, ::Array<int32_t>*> recordNos);
+/// @brief Method Eval, addr 0x5e8b540, size 0xc, virtual true, abstract: false, final false
+inline ::System::Object* Eval(::ArrayW<int32_t,::Array<int32_t>*>  recordNos) ;
 
-  /// @brief Method Eval, addr 0x5e8ae74, size 0xc, virtual true, abstract: false, final false
-  inline ::System::Object* Eval(::System::Data::DataRow* row, ::System::Data::DataRowVersion version);
+/// @brief Method Eval, addr 0x5e8b534, size 0xc, virtual true, abstract: false, final false
+inline ::System::Object* Eval(::System::Data::DataRow*  row, ::System::Data::DataRowVersion  version) ;
 
-  /// @brief Method HasLocalAggregate, addr 0x5e8ae9c, size 0x8, virtual true, abstract: false, final false
-  inline bool HasLocalAggregate();
+/// @brief Method HasLocalAggregate, addr 0x5e8b55c, size 0x8, virtual true, abstract: false, final false
+inline bool HasLocalAggregate() ;
 
-  /// @brief Method HasRemoteAggregate, addr 0x5e8aea4, size 0x8, virtual true, abstract: false, final false
-  inline bool HasRemoteAggregate();
+/// @brief Method HasRemoteAggregate, addr 0x5e8b564, size 0x8, virtual true, abstract: false, final false
+inline bool HasRemoteAggregate() ;
 
-  /// @brief Method IsConstant, addr 0x5e8ae8c, size 0x8, virtual true, abstract: false, final false
-  inline bool IsConstant();
+/// @brief Method IsConstant, addr 0x5e8b54c, size 0x8, virtual true, abstract: false, final false
+inline bool IsConstant() ;
 
-  /// @brief Method IsTableConstant, addr 0x5e8ae94, size 0x8, virtual true, abstract: false, final false
-  inline bool IsTableConstant();
+/// @brief Method IsTableConstant, addr 0x5e8b554, size 0x8, virtual true, abstract: false, final false
+inline bool IsTableConstant() ;
 
-  static inline ::System::Data::ConstNode* New_ctor(::System::Data::DataTable* table, ::System::Data::ValueType type, ::System::Object* constant);
+static inline ::System::Data::ConstNode* New_ctor(::System::Data::DataTable*  table, ::System::Data::ValueType  type, ::System::Object*  constant) ;
 
-  static inline ::System::Data::ConstNode* New_ctor(::System::Data::DataTable* table, ::System::Data::ValueType type, ::System::Object* constant, bool fParseQuotes);
+static inline ::System::Data::ConstNode* New_ctor(::System::Data::DataTable*  table, ::System::Data::ValueType  type, ::System::Object*  constant, bool  fParseQuotes) ;
 
-  /// @brief Method Optimize, addr 0x5e8aeac, size 0x4, virtual true, abstract: false, final false
-  inline ::System::Data::ExpressionNode* Optimize();
+/// @brief Method Optimize, addr 0x5e8b56c, size 0x4, virtual true, abstract: false, final false
+inline ::System::Data::ExpressionNode* Optimize() ;
 
-  /// @brief Method SmallestDecimal, addr 0x5e8aa30, size 0x434, virtual false, abstract: false, final false
-  inline ::System::Object* SmallestDecimal(::System::Object* constant);
+/// @brief Method SmallestDecimal, addr 0x5e8b0f0, size 0x434, virtual false, abstract: false, final false
+inline ::System::Object* SmallestDecimal(::System::Object*  constant) ;
 
-  /// @brief Method SmallestNumeric, addr 0x5e8a528, size 0x508, virtual false, abstract: false, final false
-  inline ::System::Object* SmallestNumeric(::System::Object* constant);
+/// @brief Method SmallestNumeric, addr 0x5e8abe8, size 0x508, virtual false, abstract: false, final false
+inline ::System::Object* SmallestNumeric(::System::Object*  constant) ;
 
-  constexpr ::System::Object* const& __cordl_internal_get__val() const;
+constexpr ::System::Object* const& __cordl_internal_get__val() const;
 
-  constexpr ::System::Object*& __cordl_internal_get__val();
+constexpr ::System::Object*& __cordl_internal_get__val() ;
 
-  constexpr void __cordl_internal_set__val(::System::Object* value);
+constexpr void __cordl_internal_set__val(::System::Object*  value) ;
 
-  /// @brief Method .ctor, addr 0x5e8a520, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::System::Data::DataTable* table, ::System::Data::ValueType type, ::System::Object* constant);
+/// @brief Method .ctor, addr 0x5e8abe0, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(::System::Data::DataTable*  table, ::System::Data::ValueType  type, ::System::Object*  constant) ;
 
-  /// @brief Method .ctor, addr 0x5e87ab0, size 0x2e8, virtual false, abstract: false, final false
-  inline void _ctor(::System::Data::DataTable* table, ::System::Data::ValueType type, ::System::Object* constant, bool fParseQuotes);
+/// @brief Method .ctor, addr 0x5e88170, size 0x2e8, virtual false, abstract: false, final false
+inline void _ctor(::System::Data::DataTable*  table, ::System::Data::ValueType  type, ::System::Object*  constant, bool  fParseQuotes) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ConstNode();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ConstNode() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ConstNode", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ConstNode(ConstNode&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ConstNode", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ConstNode(ConstNode const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ConstNode", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ConstNode(ConstNode && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13785 };
+// Ctor Parameters [CppParam { name: "", ty: "ConstNode", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ConstNode(ConstNode const& ) = delete;
 
-  /// @brief Field _val, offset: 0x18, size: 0x8, def value: None
-  ::System::Object* ____val;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{13789};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _val, offset: 0x18, size: 0x8, def value: None
+ ::System::Object*  ____val;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Data::ConstNode, ____val) == 0x18, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::System::Data::ConstNode, 0x20>, "Size mismatch!");
 
-} // namespace System::Data
+} // namespace end def System::Data
 NEED_NO_BOX(::System::Data::ConstNode);
 DEFINE_IL2CPP_ARG_TYPE(::System::Data::ConstNode*, "System.Data", "ConstNode");

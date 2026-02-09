@@ -14,7 +14,8 @@ namespace GlobalNamespace {
 struct MultiplayerAvatarData;
 }
 namespace LiteNetLib::Utils {
-template <typename T> class INetImmutableSerializable_1;
+template<typename T>
+class INetImmutableSerializable_1;
 }
 namespace LiteNetLib::Utils {
 class INetImmutableSerializable;
@@ -26,13 +27,16 @@ namespace LiteNetLib::Utils {
 class NetDataWriter;
 }
 namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+template<typename T>
+class IEnumerable_1;
 }
 namespace System::Collections::Generic {
-template <typename T> class List_1;
+template<typename T>
+class List_1;
 }
 namespace System {
-template <typename T> class IEquatable_1;
+template<typename T>
+class IEquatable_1;
 }
 namespace System {
 class Object;
@@ -49,82 +53,78 @@ namespace GlobalNamespace {
 // CS Name: MultiplayerAvatarsData
 struct CORDL_TYPE MultiplayerAvatarsData {
 public:
-  // Declarations
-  /// @brief Convert operator to "::LiteNetLib::Utils::INetImmutableSerializable"
-  constexpr operator ::LiteNetLib::Utils::INetImmutableSerializable*();
+// Declarations
+/// @brief Convert operator to "::LiteNetLib::Utils::INetImmutableSerializable"
+constexpr operator  ::LiteNetLib::Utils::INetImmutableSerializable*() ;
 
-  /// @brief Convert operator to "::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::MultiplayerAvatarsData>"
-  constexpr operator ::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::MultiplayerAvatarsData>*();
+/// @brief Convert operator to "::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::MultiplayerAvatarsData>"
+constexpr operator  ::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::MultiplayerAvatarsData>*() ;
 
-  /// @brief Convert operator to "::System::IEquatable_1<::GlobalNamespace::MultiplayerAvatarsData>"
-  constexpr operator ::System::IEquatable_1<::GlobalNamespace::MultiplayerAvatarsData>*();
+/// @brief Convert operator to "::System::IEquatable_1<::GlobalNamespace::MultiplayerAvatarsData>"
+constexpr operator  ::System::IEquatable_1<::GlobalNamespace::MultiplayerAvatarsData>*() ;
 
-  /// @brief Method CreateFromSerializedData, addr 0x367d7b4, size 0x38, virtual true, abstract: false, final true
-  inline ::GlobalNamespace::MultiplayerAvatarsData CreateFromSerializedData(::LiteNetLib::Utils::NetDataReader* reader);
+/// @brief Method CreateFromSerializedData, addr 0x367d81c, size 0x38, virtual true, abstract: false, final true
+inline ::GlobalNamespace::MultiplayerAvatarsData CreateFromSerializedData(::LiteNetLib::Utils::NetDataReader*  reader) ;
 
-  /// @brief Method Deserialize, addr 0x367d7ec, size 0x34, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::MultiplayerAvatarsData Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
+/// @brief Method Deserialize, addr 0x367d854, size 0x34, virtual false, abstract: false, final false
+static inline ::GlobalNamespace::MultiplayerAvatarsData Deserialize(::LiteNetLib::Utils::NetDataReader*  reader) ;
 
-  /// @brief Method DeserializeAvatarsData, addr 0x367d820, size 0x154, virtual false, abstract: false, final false
-  static inline ::System::Collections::Generic::List_1<::GlobalNamespace::MultiplayerAvatarData>* DeserializeAvatarsData(::LiteNetLib::Utils::NetDataReader* reader);
+/// @brief Method DeserializeAvatarsData, addr 0x367d888, size 0x154, virtual false, abstract: false, final false
+static inline ::System::Collections::Generic::List_1<::GlobalNamespace::MultiplayerAvatarData>* DeserializeAvatarsData(::LiteNetLib::Utils::NetDataReader*  reader) ;
 
-  /// @brief Method Equals, addr 0x367dacc, size 0x94, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* obj);
+/// @brief Method Equals, addr 0x367db34, size 0x94, virtual true, abstract: false, final false
+inline bool Equals(::System::Object*  obj) ;
 
-  /// @brief Method Equals, addr 0x367d974, size 0x158, virtual true, abstract: false, final true
-  inline bool Equals(::GlobalNamespace::MultiplayerAvatarsData other);
+/// @brief Method Equals, addr 0x367d9dc, size 0x158, virtual true, abstract: false, final true
+inline bool Equals(::GlobalNamespace::MultiplayerAvatarsData  other) ;
 
-  /// @brief Method GetHashCode, addr 0x367db60, size 0x170, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
+/// @brief Method GetHashCode, addr 0x367dbc8, size 0x170, virtual true, abstract: false, final false
+inline int32_t GetHashCode() ;
 
-  /// @brief Method Serialize, addr 0x367d614, size 0x28, virtual true, abstract: false, final true
-  inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
+/// @brief Method Serialize, addr 0x367d67c, size 0x28, virtual true, abstract: false, final true
+inline void Serialize(::LiteNetLib::Utils::NetDataWriter*  writer) ;
 
-  /// @brief Method SerializeAvatarsData, addr 0x367d63c, size 0x178, virtual false, abstract: false, final false
-  inline void SerializeAvatarsData(::LiteNetLib::Utils::NetDataWriter* writer);
+/// @brief Method SerializeAvatarsData, addr 0x367d6a4, size 0x178, virtual false, abstract: false, final false
+inline void SerializeAvatarsData(::LiteNetLib::Utils::NetDataWriter*  writer) ;
 
-  /// @brief Method SupportsOptionalAvatarDataType, addr 0x367dcd0, size 0x64, virtual false, abstract: false, final false
-  inline bool SupportsOptionalAvatarDataType(uint32_t typeHash);
+/// @brief Method SupportsOptionalAvatarDataType, addr 0x367dd38, size 0x64, virtual false, abstract: false, final false
+inline bool SupportsOptionalAvatarDataType(uint32_t  typeHash) ;
 
-  /// @brief Method .ctor, addr 0x367d598, size 0x70, virtual false, abstract: false, final false
-  inline void _ctor(::System::Collections::Generic::List_1<::GlobalNamespace::MultiplayerAvatarData>* multiplayerAvatarsData,
-                    ::System::Collections::Generic::IEnumerable_1<uint32_t>* supportedAvatarTypeIdHashes);
+/// @brief Method .ctor, addr 0x367d600, size 0x70, virtual false, abstract: false, final false
+inline void _ctor(::System::Collections::Generic::List_1<::GlobalNamespace::MultiplayerAvatarData>*  multiplayerAvatarsData, ::System::Collections::Generic::IEnumerable_1<uint32_t>*  supportedAvatarTypeIdHashes) ;
 
-  /// @brief Method .ctor, addr 0x367d608, size 0xc, virtual false, abstract: false, final false
-  inline void _ctor(::System::Collections::Generic::List_1<::GlobalNamespace::MultiplayerAvatarData>* multiplayerAvatarsData, ::GlobalNamespace::BitMask128 supportedAvatarTypeIdHashesBloomFilter);
+/// @brief Method .ctor, addr 0x367d670, size 0xc, virtual false, abstract: false, final false
+inline void _ctor(::System::Collections::Generic::List_1<::GlobalNamespace::MultiplayerAvatarData>*  multiplayerAvatarsData, ::GlobalNamespace::BitMask128  supportedAvatarTypeIdHashesBloomFilter) ;
 
-  /// @brief Convert to "::LiteNetLib::Utils::INetImmutableSerializable"
-  constexpr ::LiteNetLib::Utils::INetImmutableSerializable* i___LiteNetLib__Utils__INetImmutableSerializable();
+/// @brief Convert to "::LiteNetLib::Utils::INetImmutableSerializable"
+constexpr ::LiteNetLib::Utils::INetImmutableSerializable* i___LiteNetLib__Utils__INetImmutableSerializable() ;
 
-  /// @brief Convert to "::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::MultiplayerAvatarsData>"
-  constexpr ::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::MultiplayerAvatarsData>*
-  i___LiteNetLib__Utils__INetImmutableSerializable_1___GlobalNamespace__MultiplayerAvatarsData_();
+/// @brief Convert to "::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::MultiplayerAvatarsData>"
+constexpr ::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::MultiplayerAvatarsData>* i___LiteNetLib__Utils__INetImmutableSerializable_1___GlobalNamespace__MultiplayerAvatarsData_() ;
 
-  /// @brief Convert to "::System::IEquatable_1<::GlobalNamespace::MultiplayerAvatarsData>"
-  constexpr ::System::IEquatable_1<::GlobalNamespace::MultiplayerAvatarsData>* i___System__IEquatable_1___GlobalNamespace__MultiplayerAvatarsData_();
+/// @brief Convert to "::System::IEquatable_1<::GlobalNamespace::MultiplayerAvatarsData>"
+constexpr ::System::IEquatable_1<::GlobalNamespace::MultiplayerAvatarsData>* i___System__IEquatable_1___GlobalNamespace__MultiplayerAvatarsData_() ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MultiplayerAvatarsData();
+// Ctor Parameters []
+// @brief default ctor
+constexpr MultiplayerAvatarsData() ;
 
-  // Ctor Parameters [CppParam { name: "multiplayerAvatarsData", ty: "::System::Collections::Generic::List_1<::GlobalNamespace::MultiplayerAvatarData>*", modifiers: "", def_value: None }, CppParam {
-  // name: "supportedAvatarTypeIdHashesBloomFilter", ty: "::GlobalNamespace::BitMask128", modifiers: "", def_value: None }]
-  constexpr MultiplayerAvatarsData(::System::Collections::Generic::List_1<::GlobalNamespace::MultiplayerAvatarData>* multiplayerAvatarsData,
-                                   ::GlobalNamespace::BitMask128 supportedAvatarTypeIdHashesBloomFilter) noexcept;
+// Ctor Parameters [CppParam { name: "multiplayerAvatarsData", ty: "::System::Collections::Generic::List_1<::GlobalNamespace::MultiplayerAvatarData>*", modifiers: "", def_value: None }, CppParam { name: "supportedAvatarTypeIdHashesBloomFilter", ty: "::GlobalNamespace::BitMask128", modifiers: "", def_value: None }]
+constexpr MultiplayerAvatarsData(::System::Collections::Generic::List_1<::GlobalNamespace::MultiplayerAvatarData>*  multiplayerAvatarsData, ::GlobalNamespace::BitMask128  supportedAvatarTypeIdHashesBloomFilter) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20865 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20869};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x18};
 
-  /// @brief Field multiplayerAvatarsData, offset: 0x0, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::GlobalNamespace::MultiplayerAvatarData>* multiplayerAvatarsData;
+/// @brief Field multiplayerAvatarsData, offset: 0x0, size: 0x8, def value: None
+ ::System::Collections::Generic::List_1<::GlobalNamespace::MultiplayerAvatarData>*  multiplayerAvatarsData;
 
-  /// @brief Field supportedAvatarTypeIdHashesBloomFilter, offset: 0x8, size: 0x10, def value: None
-  ::GlobalNamespace::BitMask128 supportedAvatarTypeIdHashesBloomFilter;
+/// @brief Field supportedAvatarTypeIdHashesBloomFilter, offset: 0x8, size: 0x10, def value: None
+ ::GlobalNamespace::BitMask128  supportedAvatarTypeIdHashesBloomFilter;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::MultiplayerAvatarsData, multiplayerAvatarsData) == 0x0, "Offset mismatch!");
@@ -133,5 +133,5 @@ static_assert(offsetof(::GlobalNamespace::MultiplayerAvatarsData, supportedAvata
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerAvatarsData, 0x18>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerAvatarsData, "", "MultiplayerAvatarsData");

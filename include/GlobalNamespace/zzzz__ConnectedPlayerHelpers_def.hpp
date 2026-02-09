@@ -20,47 +20,47 @@ namespace GlobalNamespace {
 // CS Name: ConnectedPlayerHelpers
 class CORDL_TYPE ConnectedPlayerHelpers : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method HasFinishedLevel, addr 0x31d35e4, size 0xc4, virtual false, abstract: false, final false
-  static inline bool HasFinishedLevel(::GlobalNamespace::IConnectedPlayer* connectedPlayer);
+// Declarations
+/// @brief Method HasFinishedLevel, addr 0x31d3534, size 0xc4, virtual false, abstract: false, final false
+static inline bool HasFinishedLevel(::GlobalNamespace::IConnectedPlayer*  connectedPlayer) ;
 
-  /// @brief Method IsActive, addr 0x31d3520, size 0xc4, virtual false, abstract: false, final false
-  static inline bool IsActive(::GlobalNamespace::IConnectedPlayer* connectedPlayer);
+/// @brief Method IsActive, addr 0x31d3470, size 0xc4, virtual false, abstract: false, final false
+static inline bool IsActive(::GlobalNamespace::IConnectedPlayer*  connectedPlayer) ;
 
-  /// @brief Method IsActiveOrFinished, addr 0x31d36a8, size 0x28, virtual false, abstract: false, final false
-  static inline bool IsActiveOrFinished(::GlobalNamespace::IConnectedPlayer* connectedPlayer);
+/// @brief Method IsActiveOrFinished, addr 0x31d35f8, size 0x28, virtual false, abstract: false, final false
+static inline bool IsActiveOrFinished(::GlobalNamespace::IConnectedPlayer*  connectedPlayer) ;
 
-  /// @brief Method IsFailed, addr 0x31d36d0, size 0xdc, virtual false, abstract: false, final false
-  static inline bool IsFailed(::GlobalNamespace::IConnectedPlayer* connectedPlayer);
+/// @brief Method IsFailed, addr 0x31d3620, size 0xdc, virtual false, abstract: false, final false
+static inline bool IsFailed(::GlobalNamespace::IConnectedPlayer*  connectedPlayer) ;
 
-  /// @brief Method WantsToPlayNextLevel, addr 0x31d3398, size 0xc4, virtual false, abstract: false, final false
-  static inline bool WantsToPlayNextLevel(::GlobalNamespace::IConnectedPlayer* connectedPlayer);
+/// @brief Method WantsToPlayNextLevel, addr 0x31d32e8, size 0xc4, virtual false, abstract: false, final false
+static inline bool WantsToPlayNextLevel(::GlobalNamespace::IConnectedPlayer*  connectedPlayer) ;
 
-  /// @brief Method WasActiveAtLevelStart, addr 0x31d345c, size 0xc4, virtual false, abstract: false, final false
-  static inline bool WasActiveAtLevelStart(::GlobalNamespace::IConnectedPlayer* connectedPlayer);
+/// @brief Method WasActiveAtLevelStart, addr 0x31d33ac, size 0xc4, virtual false, abstract: false, final false
+static inline bool WasActiveAtLevelStart(::GlobalNamespace::IConnectedPlayer*  connectedPlayer) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ConnectedPlayerHelpers();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ConnectedPlayerHelpers() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ConnectedPlayerHelpers", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ConnectedPlayerHelpers(ConnectedPlayerHelpers&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ConnectedPlayerHelpers", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ConnectedPlayerHelpers(ConnectedPlayerHelpers const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ConnectedPlayerHelpers", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ConnectedPlayerHelpers(ConnectedPlayerHelpers && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18815 };
+// Ctor Parameters [CppParam { name: "", ty: "ConnectedPlayerHelpers", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ConnectedPlayerHelpers(ConnectedPlayerHelpers const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{18819};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ConnectedPlayerHelpers, 0x10>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ConnectedPlayerHelpers);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ConnectedPlayerHelpers*, "", "ConnectedPlayerHelpers");

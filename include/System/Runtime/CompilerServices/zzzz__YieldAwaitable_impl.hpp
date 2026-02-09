@@ -9,185 +9,218 @@
 #include "System/zzzz__Action_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter.get_IsCompleted
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter::*)()>(
-    &::System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter::get_IsCompleted)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter::*)()>(&::System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter::get_IsCompleted)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59c298c;
+  constexpr static std::size_t addrs = 0x59c2e98;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter>::get(), "get_IsCompleted",
-                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter>::get(),
+                        "get_IsCompleted",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter.OnCompleted
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter::*)(::System::Action*)>(
-    &::System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter::OnCompleted)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter::*)(::System::Action*)>(&::System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter::OnCompleted)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x59c2994;
+  constexpr static std::size_t addrs = 0x59c2ea0;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter>::get(), "OnCompleted",
-                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter>::get(),
+                        "OnCompleted",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter.UnsafeOnCompleted
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter::*)(::System::Action*)>(
-    &::System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter::UnsafeOnCompleted)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter::*)(::System::Action*)>(&::System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter::UnsafeOnCompleted)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x59c2cb4;
+  constexpr static std::size_t addrs = 0x59c31c0;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter>::get(), "UnsafeOnCompleted",
-                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter>::get(),
+                        "UnsafeOnCompleted",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter.QueueContinuation
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Action*, bool)>(
-    &::System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter::QueueContinuation)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Action*, bool)>(&::System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter::QueueContinuation)> {
   constexpr static std::size_t size = 0x2c4;
-  constexpr static std::size_t addrs = 0x59c29f0;
+  constexpr static std::size_t addrs = 0x59c2efc;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter>::get(), "QueueContinuation", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter>::get(),
+                        "QueueContinuation",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter.RunAction
-template <>
+template<>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Object*)>(&::System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter::RunAction)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x59c2d10;
+  constexpr static std::size_t addrs = 0x59c321c;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter>::get(), "RunAction",
-                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter>::get(),
+                        "RunAction",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter.GetResult
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter::*)()>(
-    &::System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter::GetResult)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter::*)()>(&::System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter::GetResult)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x59c2d80;
+  constexpr static std::size_t addrs = 0x59c328c;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter>::get(), "GetResult",
-                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter>::get(),
+                        "GetResult",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
-inline void System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter::setStaticF_s_waitCallbackRunAction(::System::Threading::WaitCallback* value) {
-  ::cordl_internals::setStaticField<::System::Threading::WaitCallback*, "s_waitCallbackRunAction",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter>::get>(
-      std::forward<::System::Threading::WaitCallback*>(value));
+inline void System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter::setStaticF_s_waitCallbackRunAction(::System::Threading::WaitCallback*  value)  {
+::cordl_internals::setStaticField<::System::Threading::WaitCallback*, "s_waitCallbackRunAction", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter>::get>(std::forward<::System::Threading::WaitCallback*>(value));
 }
-inline ::System::Threading::WaitCallback* System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter::getStaticF_s_waitCallbackRunAction() {
-  return ::cordl_internals::getStaticField<::System::Threading::WaitCallback*, "s_waitCallbackRunAction",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter>::get>();
+inline ::System::Threading::WaitCallback* System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter::getStaticF_s_waitCallbackRunAction()  {
+return ::cordl_internals::getStaticField<::System::Threading::WaitCallback*, "s_waitCallbackRunAction", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter>::get>();
 }
-inline void System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter::setStaticF_s_sendOrPostCallbackRunAction(::System::Threading::SendOrPostCallback* value) {
-  ::cordl_internals::setStaticField<::System::Threading::SendOrPostCallback*, "s_sendOrPostCallbackRunAction",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter>::get>(
-      std::forward<::System::Threading::SendOrPostCallback*>(value));
+inline void System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter::setStaticF_s_sendOrPostCallbackRunAction(::System::Threading::SendOrPostCallback*  value)  {
+::cordl_internals::setStaticField<::System::Threading::SendOrPostCallback*, "s_sendOrPostCallbackRunAction", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter>::get>(std::forward<::System::Threading::SendOrPostCallback*>(value));
 }
-inline ::System::Threading::SendOrPostCallback* System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter::getStaticF_s_sendOrPostCallbackRunAction() {
-  return ::cordl_internals::getStaticField<::System::Threading::SendOrPostCallback*, "s_sendOrPostCallbackRunAction",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter>::get>();
+inline ::System::Threading::SendOrPostCallback* System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter::getStaticF_s_sendOrPostCallbackRunAction()  {
+return ::cordl_internals::getStaticField<::System::Threading::SendOrPostCallback*, "s_sendOrPostCallbackRunAction", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter>::get>();
 }
-inline bool System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter::get_IsCompleted() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter>::get(), "get_IsCompleted",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter::get_IsCompleted()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter>::get(),
+                        "get_IsCompleted",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline void System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter::OnCompleted(::System::Action* continuation) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter>::get(), "OnCompleted",
-                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, continuation);
+inline void System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter::OnCompleted(::System::Action*  continuation)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter>::get(),
+                        "OnCompleted",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, continuation);
 }
-inline void System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter::UnsafeOnCompleted(::System::Action* continuation) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter>::get(), "UnsafeOnCompleted",
-                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, continuation);
+inline void System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter::UnsafeOnCompleted(::System::Action*  continuation)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter>::get(),
+                        "UnsafeOnCompleted",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, continuation);
 }
-inline void System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter::QueueContinuation(::System::Action* continuation, bool flowContext) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter>::get(), "QueueContinuation", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, continuation, flowContext);
+inline void System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter::QueueContinuation(::System::Action*  continuation, bool  flowContext)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter>::get(),
+                        "QueueContinuation",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, continuation, flowContext);
 }
-inline void System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter::RunAction(::System::Object* state) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter>::get(), "RunAction",
-                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, state);
+inline void System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter::RunAction(::System::Object*  state)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter>::get(),
+                        "RunAction",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, state);
 }
-inline void System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter::GetResult() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter>::get(), "GetResult",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter::GetResult()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter>::get(),
+                        "GetResult",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 /// @brief Convert operator to "::System::Runtime::CompilerServices::ICriticalNotifyCompletion"
-constexpr System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter::operator ::System::Runtime::CompilerServices::ICriticalNotifyCompletion*() {
-  return static_cast<::System::Runtime::CompilerServices::ICriticalNotifyCompletion*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+constexpr  System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter::operator ::System::Runtime::CompilerServices::ICriticalNotifyCompletion*()  {
+return static_cast<::System::Runtime::CompilerServices::ICriticalNotifyCompletion*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::ICriticalNotifyCompletion"
-constexpr ::System::Runtime::CompilerServices::ICriticalNotifyCompletion*
-System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter::i___System__Runtime__CompilerServices__ICriticalNotifyCompletion() {
-  return static_cast<::System::Runtime::CompilerServices::ICriticalNotifyCompletion*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+constexpr ::System::Runtime::CompilerServices::ICriticalNotifyCompletion* System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter::i___System__Runtime__CompilerServices__ICriticalNotifyCompletion()  {
+return static_cast<::System::Runtime::CompilerServices::ICriticalNotifyCompletion*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert operator to "::System::Runtime::CompilerServices::INotifyCompletion"
-constexpr System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter::operator ::System::Runtime::CompilerServices::INotifyCompletion*() {
-  return static_cast<::System::Runtime::CompilerServices::INotifyCompletion*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+constexpr  System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter::operator ::System::Runtime::CompilerServices::INotifyCompletion*()  {
+return static_cast<::System::Runtime::CompilerServices::INotifyCompletion*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::INotifyCompletion"
-constexpr ::System::Runtime::CompilerServices::INotifyCompletion* System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter::i___System__Runtime__CompilerServices__INotifyCompletion() {
-  return static_cast<::System::Runtime::CompilerServices::INotifyCompletion*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+constexpr ::System::Runtime::CompilerServices::INotifyCompletion* System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter::i___System__Runtime__CompilerServices__INotifyCompletion()  {
+return static_cast<::System::Runtime::CompilerServices::INotifyCompletion*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 // Ctor Parameters []
-constexpr ::System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter::YieldAwaitable_YieldAwaiter() {}
+constexpr ::System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter::YieldAwaitable_YieldAwaiter()   {
+}
 //  Writing Method size for method: ::System::Runtime::CompilerServices::YieldAwaitable.GetAwaiter
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter (
-    ::System::Runtime::CompilerServices::YieldAwaitable::*)()>(&::System::Runtime::CompilerServices::YieldAwaitable::GetAwaiter)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter (::System::Runtime::CompilerServices::YieldAwaitable::*)()>(&::System::Runtime::CompilerServices::YieldAwaitable::GetAwaiter)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x59c2984;
+  constexpr static std::size_t addrs = 0x59c2e90;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::YieldAwaitable>::get(),
-                                                                               "GetAwaiter", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::YieldAwaitable>::get(),
+                        "GetAwaiter",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
-inline ::System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter System::Runtime::CompilerServices::YieldAwaitable::GetAwaiter() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::YieldAwaitable>::get(),
-                                                                             "GetAwaiter", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter, false>(this, ___internal_method);
+inline ::System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter System::Runtime::CompilerServices::YieldAwaitable::GetAwaiter()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::YieldAwaitable>::get(),
+                        "GetAwaiter",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Runtime::CompilerServices::YieldAwaitable_YieldAwaiter, false>(this, ___internal_method);
 }
 // Ctor Parameters []
-constexpr ::System::Runtime::CompilerServices::YieldAwaitable::YieldAwaitable() {}
+constexpr ::System::Runtime::CompilerServices::YieldAwaitable::YieldAwaitable()   {
+}

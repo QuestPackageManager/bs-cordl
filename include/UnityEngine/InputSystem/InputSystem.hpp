@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "UnityEngine/InputSystem/Accelerometer.hpp"
 #include "UnityEngine/InputSystem/AmbientTemperatureSensor.hpp"
@@ -79,5 +79,6 @@ module;
 #include "UnityEngine/InputSystem/Touchscreen.hpp"
 #include "UnityEngine/InputSystem/TrackedDevice.hpp"
 #ifdef __cpp_modules
-export module InputSystem;
-#endif
+                    export module InputSystem;
+                    #endif
+                

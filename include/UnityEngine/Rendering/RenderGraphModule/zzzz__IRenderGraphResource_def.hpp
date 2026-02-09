@@ -25,210 +25,210 @@ namespace UnityEngine::Rendering::RenderGraphModule {
 // CS Name: UnityEngine.Rendering.RenderGraphModule.IRenderGraphResource
 class CORDL_TYPE IRenderGraphResource : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field cachedHash, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get_cachedHash, put = __cordl_internal_set_cachedHash)) int32_t cachedHash;
+// Declarations
+/// @brief Field cachedHash, offset 0x20, size 0x4 
+ __declspec(property(get=__cordl_internal_get_cachedHash, put=__cordl_internal_set_cachedHash)) int32_t  cachedHash;
 
-  /// @brief Field forceRelease, offset 0x14, size 0x1
-  __declspec(property(get = __cordl_internal_get_forceRelease, put = __cordl_internal_set_forceRelease)) bool forceRelease;
+/// @brief Field forceRelease, offset 0x14, size 0x1 
+ __declspec(property(get=__cordl_internal_get_forceRelease, put=__cordl_internal_set_forceRelease)) bool  forceRelease;
 
-  /// @brief Field imported, offset 0x10, size 0x1
-  __declspec(property(get = __cordl_internal_get_imported, put = __cordl_internal_set_imported)) bool imported;
+/// @brief Field imported, offset 0x10, size 0x1 
+ __declspec(property(get=__cordl_internal_get_imported, put=__cordl_internal_set_imported)) bool  imported;
 
-  /// @brief Field readCount, offset 0x1c, size 0x4
-  __declspec(property(get = __cordl_internal_get_readCount, put = __cordl_internal_set_readCount)) uint32_t readCount;
+/// @brief Field readCount, offset 0x1c, size 0x4 
+ __declspec(property(get=__cordl_internal_get_readCount, put=__cordl_internal_set_readCount)) uint32_t  readCount;
 
-  /// @brief Field requestFallBack, offset 0x13, size 0x1
-  __declspec(property(get = __cordl_internal_get_requestFallBack, put = __cordl_internal_set_requestFallBack)) bool requestFallBack;
+/// @brief Field requestFallBack, offset 0x13, size 0x1 
+ __declspec(property(get=__cordl_internal_get_requestFallBack, put=__cordl_internal_set_requestFallBack)) bool  requestFallBack;
 
-  /// @brief Field shared, offset 0x11, size 0x1
-  __declspec(property(get = __cordl_internal_get_shared, put = __cordl_internal_set_shared)) bool shared;
+/// @brief Field shared, offset 0x11, size 0x1 
+ __declspec(property(get=__cordl_internal_get_shared, put=__cordl_internal_set_shared)) bool  shared;
 
-  /// @brief Field sharedExplicitRelease, offset 0x12, size 0x1
-  __declspec(property(get = __cordl_internal_get_sharedExplicitRelease, put = __cordl_internal_set_sharedExplicitRelease)) bool sharedExplicitRelease;
+/// @brief Field sharedExplicitRelease, offset 0x12, size 0x1 
+ __declspec(property(get=__cordl_internal_get_sharedExplicitRelease, put=__cordl_internal_set_sharedExplicitRelease)) bool  sharedExplicitRelease;
 
-  /// @brief Field sharedResourceLastFrameUsed, offset 0x28, size 0x4
-  __declspec(property(get = __cordl_internal_get_sharedResourceLastFrameUsed, put = __cordl_internal_set_sharedResourceLastFrameUsed)) int32_t sharedResourceLastFrameUsed;
+/// @brief Field sharedResourceLastFrameUsed, offset 0x28, size 0x4 
+ __declspec(property(get=__cordl_internal_get_sharedResourceLastFrameUsed, put=__cordl_internal_set_sharedResourceLastFrameUsed)) int32_t  sharedResourceLastFrameUsed;
 
-  /// @brief Field transientPassIndex, offset 0x24, size 0x4
-  __declspec(property(get = __cordl_internal_get_transientPassIndex, put = __cordl_internal_set_transientPassIndex)) int32_t transientPassIndex;
+/// @brief Field transientPassIndex, offset 0x24, size 0x4 
+ __declspec(property(get=__cordl_internal_get_transientPassIndex, put=__cordl_internal_set_transientPassIndex)) int32_t  transientPassIndex;
 
-  /// @brief Field version, offset 0x2c, size 0x4
-  __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version)) int32_t version;
+/// @brief Field version, offset 0x2c, size 0x4 
+ __declspec(property(get=__cordl_internal_get_version, put=__cordl_internal_set_version)) int32_t  version;
 
-  /// @brief Field writeCount, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get_writeCount, put = __cordl_internal_set_writeCount)) uint32_t writeCount;
+/// @brief Field writeCount, offset 0x18, size 0x4 
+ __declspec(property(get=__cordl_internal_get_writeCount, put=__cordl_internal_set_writeCount)) uint32_t  writeCount;
 
-  /// @brief Method CreateGraphicsResource, addr 0x6632e74, size 0x4, virtual true, abstract: false, final false
-  inline void CreateGraphicsResource();
+/// @brief Method CreateGraphicsResource, addr 0x6633534, size 0x4, virtual true, abstract: false, final false
+inline void CreateGraphicsResource() ;
 
-  /// @brief Method CreatePooledGraphicsResource, addr 0x6632e70, size 0x4, virtual true, abstract: false, final false
-  inline void CreatePooledGraphicsResource();
+/// @brief Method CreatePooledGraphicsResource, addr 0x6633530, size 0x4, virtual true, abstract: false, final false
+inline void CreatePooledGraphicsResource() ;
 
-  /// @brief Method GetDescHashCode, addr 0x6632e94, size 0x8, virtual true, abstract: false, final false
-  inline int32_t GetDescHashCode();
+/// @brief Method GetDescHashCode, addr 0x6633554, size 0x8, virtual true, abstract: false, final false
+inline int32_t GetDescHashCode() ;
 
-  /// @brief Method GetName, addr 0x6632dd0, size 0x44, virtual true, abstract: false, final false
-  inline ::StringW GetName();
+/// @brief Method GetName, addr 0x6633490, size 0x44, virtual true, abstract: false, final false
+inline ::StringW GetName() ;
 
-  /// @brief Method GetSortIndex, addr 0x6632e8c, size 0x8, virtual true, abstract: false, final false
-  inline int32_t GetSortIndex();
+/// @brief Method GetSortIndex, addr 0x663354c, size 0x8, virtual true, abstract: false, final false
+inline int32_t GetSortIndex() ;
 
-  /// @brief Method IncrementReadCount, addr 0x6632e2c, size 0x10, virtual true, abstract: false, final false
-  inline void IncrementReadCount();
+/// @brief Method IncrementReadCount, addr 0x66334ec, size 0x10, virtual true, abstract: false, final false
+inline void IncrementReadCount() ;
 
-  /// @brief Method IncrementWriteCount, addr 0x6632e1c, size 0x10, virtual true, abstract: false, final false
-  inline void IncrementWriteCount();
+/// @brief Method IncrementWriteCount, addr 0x66334dc, size 0x10, virtual true, abstract: false, final false
+inline void IncrementWriteCount() ;
 
-  /// @brief Method IsCreated, addr 0x6632e14, size 0x8, virtual true, abstract: false, final false
-  inline bool IsCreated();
+/// @brief Method IsCreated, addr 0x66334d4, size 0x8, virtual true, abstract: false, final false
+inline bool IsCreated() ;
 
-  /// @brief Method LogCreation, addr 0x6632e84, size 0x4, virtual true, abstract: false, final false
-  inline void LogCreation(::UnityEngine::Rendering::RenderGraphModule::RenderGraphLogger* logger);
+/// @brief Method LogCreation, addr 0x6633544, size 0x4, virtual true, abstract: false, final false
+inline void LogCreation(::UnityEngine::Rendering::RenderGraphModule::RenderGraphLogger*  logger) ;
 
-  /// @brief Method LogRelease, addr 0x6632e88, size 0x4, virtual true, abstract: false, final false
-  inline void LogRelease(::UnityEngine::Rendering::RenderGraphModule::RenderGraphLogger* logger);
+/// @brief Method LogRelease, addr 0x6633548, size 0x4, virtual true, abstract: false, final false
+inline void LogRelease(::UnityEngine::Rendering::RenderGraphModule::RenderGraphLogger*  logger) ;
 
-  /// @brief Method NeedsFallBack, addr 0x6632e50, size 0x20, virtual true, abstract: false, final false
-  inline bool NeedsFallBack();
+/// @brief Method NeedsFallBack, addr 0x6633510, size 0x20, virtual true, abstract: false, final false
+inline bool NeedsFallBack() ;
 
-  /// @brief Method NewVersion, addr 0x6632e3c, size 0x14, virtual true, abstract: false, final false
-  inline int32_t NewVersion();
+/// @brief Method NewVersion, addr 0x66334fc, size 0x14, virtual true, abstract: false, final false
+inline int32_t NewVersion() ;
 
-  static inline ::UnityEngine::Rendering::RenderGraphModule::IRenderGraphResource* New_ctor();
+static inline ::UnityEngine::Rendering::RenderGraphModule::IRenderGraphResource* New_ctor() ;
 
-  /// @brief Method ReleaseGraphicsResource, addr 0x6632e80, size 0x4, virtual true, abstract: false, final false
-  inline void ReleaseGraphicsResource();
+/// @brief Method ReleaseGraphicsResource, addr 0x6633540, size 0x4, virtual true, abstract: false, final false
+inline void ReleaseGraphicsResource() ;
 
-  /// @brief Method ReleasePooledGraphicsResource, addr 0x6632e7c, size 0x4, virtual true, abstract: false, final false
-  inline void ReleasePooledGraphicsResource(int32_t frameIndex);
+/// @brief Method ReleasePooledGraphicsResource, addr 0x663353c, size 0x4, virtual true, abstract: false, final false
+inline void ReleasePooledGraphicsResource(int32_t  frameIndex) ;
 
-  /// @brief Method Reset, addr 0x6632db0, size 0x20, virtual true, abstract: false, final false
-  inline void Reset(::UnityEngine::Rendering::RenderGraphModule::IRenderGraphResourcePool* _);
+/// @brief Method Reset, addr 0x6633470, size 0x20, virtual true, abstract: false, final false
+inline void Reset(::UnityEngine::Rendering::RenderGraphModule::IRenderGraphResourcePool*  _) ;
 
-  /// @brief Method UpdateGraphicsResource, addr 0x6632e78, size 0x4, virtual true, abstract: false, final false
-  inline void UpdateGraphicsResource();
+/// @brief Method UpdateGraphicsResource, addr 0x6633538, size 0x4, virtual true, abstract: false, final false
+inline void UpdateGraphicsResource() ;
 
-  constexpr int32_t const& __cordl_internal_get_cachedHash() const;
+constexpr int32_t const& __cordl_internal_get_cachedHash() const;
 
-  constexpr int32_t& __cordl_internal_get_cachedHash();
+constexpr int32_t& __cordl_internal_get_cachedHash() ;
 
-  constexpr bool const& __cordl_internal_get_forceRelease() const;
+constexpr bool const& __cordl_internal_get_forceRelease() const;
 
-  constexpr bool& __cordl_internal_get_forceRelease();
+constexpr bool& __cordl_internal_get_forceRelease() ;
 
-  constexpr bool const& __cordl_internal_get_imported() const;
+constexpr bool const& __cordl_internal_get_imported() const;
 
-  constexpr bool& __cordl_internal_get_imported();
+constexpr bool& __cordl_internal_get_imported() ;
 
-  constexpr uint32_t const& __cordl_internal_get_readCount() const;
+constexpr uint32_t const& __cordl_internal_get_readCount() const;
 
-  constexpr uint32_t& __cordl_internal_get_readCount();
+constexpr uint32_t& __cordl_internal_get_readCount() ;
 
-  constexpr bool const& __cordl_internal_get_requestFallBack() const;
+constexpr bool const& __cordl_internal_get_requestFallBack() const;
 
-  constexpr bool& __cordl_internal_get_requestFallBack();
+constexpr bool& __cordl_internal_get_requestFallBack() ;
 
-  constexpr bool const& __cordl_internal_get_shared() const;
+constexpr bool const& __cordl_internal_get_shared() const;
 
-  constexpr bool& __cordl_internal_get_shared();
+constexpr bool& __cordl_internal_get_shared() ;
 
-  constexpr bool const& __cordl_internal_get_sharedExplicitRelease() const;
+constexpr bool const& __cordl_internal_get_sharedExplicitRelease() const;
 
-  constexpr bool& __cordl_internal_get_sharedExplicitRelease();
+constexpr bool& __cordl_internal_get_sharedExplicitRelease() ;
 
-  constexpr int32_t const& __cordl_internal_get_sharedResourceLastFrameUsed() const;
+constexpr int32_t const& __cordl_internal_get_sharedResourceLastFrameUsed() const;
 
-  constexpr int32_t& __cordl_internal_get_sharedResourceLastFrameUsed();
+constexpr int32_t& __cordl_internal_get_sharedResourceLastFrameUsed() ;
 
-  constexpr int32_t const& __cordl_internal_get_transientPassIndex() const;
+constexpr int32_t const& __cordl_internal_get_transientPassIndex() const;
 
-  constexpr int32_t& __cordl_internal_get_transientPassIndex();
+constexpr int32_t& __cordl_internal_get_transientPassIndex() ;
 
-  constexpr int32_t const& __cordl_internal_get_version() const;
+constexpr int32_t const& __cordl_internal_get_version() const;
 
-  constexpr int32_t& __cordl_internal_get_version();
+constexpr int32_t& __cordl_internal_get_version() ;
 
-  constexpr uint32_t const& __cordl_internal_get_writeCount() const;
+constexpr uint32_t const& __cordl_internal_get_writeCount() const;
 
-  constexpr uint32_t& __cordl_internal_get_writeCount();
+constexpr uint32_t& __cordl_internal_get_writeCount() ;
 
-  constexpr void __cordl_internal_set_cachedHash(int32_t value);
+constexpr void __cordl_internal_set_cachedHash(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_forceRelease(bool value);
+constexpr void __cordl_internal_set_forceRelease(bool  value) ;
 
-  constexpr void __cordl_internal_set_imported(bool value);
+constexpr void __cordl_internal_set_imported(bool  value) ;
 
-  constexpr void __cordl_internal_set_readCount(uint32_t value);
+constexpr void __cordl_internal_set_readCount(uint32_t  value) ;
 
-  constexpr void __cordl_internal_set_requestFallBack(bool value);
+constexpr void __cordl_internal_set_requestFallBack(bool  value) ;
 
-  constexpr void __cordl_internal_set_shared(bool value);
+constexpr void __cordl_internal_set_shared(bool  value) ;
 
-  constexpr void __cordl_internal_set_sharedExplicitRelease(bool value);
+constexpr void __cordl_internal_set_sharedExplicitRelease(bool  value) ;
 
-  constexpr void __cordl_internal_set_sharedResourceLastFrameUsed(int32_t value);
+constexpr void __cordl_internal_set_sharedResourceLastFrameUsed(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_transientPassIndex(int32_t value);
+constexpr void __cordl_internal_set_transientPassIndex(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_version(int32_t value);
+constexpr void __cordl_internal_set_version(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_writeCount(uint32_t value);
+constexpr void __cordl_internal_set_writeCount(uint32_t  value) ;
 
-  /// @brief Method .ctor, addr 0x6632e9c, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x663355c, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr IRenderGraphResource();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr IRenderGraphResource() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IRenderGraphResource", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IRenderGraphResource(IRenderGraphResource&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IRenderGraphResource", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  IRenderGraphResource(IRenderGraphResource const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "IRenderGraphResource", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+IRenderGraphResource(IRenderGraphResource && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12434 };
+// Ctor Parameters [CppParam { name: "", ty: "IRenderGraphResource", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+IRenderGraphResource(IRenderGraphResource const& ) = delete;
 
-  /// @brief Field imported, offset: 0x10, size: 0x1, def value: None
-  bool ___imported;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12438};
 
-  /// @brief Field shared, offset: 0x11, size: 0x1, def value: None
-  bool ___shared;
+/// @brief Field imported, offset: 0x10, size: 0x1, def value: None
+ bool  ___imported;
 
-  /// @brief Field sharedExplicitRelease, offset: 0x12, size: 0x1, def value: None
-  bool ___sharedExplicitRelease;
+/// @brief Field shared, offset: 0x11, size: 0x1, def value: None
+ bool  ___shared;
 
-  /// @brief Field requestFallBack, offset: 0x13, size: 0x1, def value: None
-  bool ___requestFallBack;
+/// @brief Field sharedExplicitRelease, offset: 0x12, size: 0x1, def value: None
+ bool  ___sharedExplicitRelease;
 
-  /// @brief Field forceRelease, offset: 0x14, size: 0x1, def value: None
-  bool ___forceRelease;
+/// @brief Field requestFallBack, offset: 0x13, size: 0x1, def value: None
+ bool  ___requestFallBack;
 
-  /// @brief Field writeCount, offset: 0x18, size: 0x4, def value: None
-  uint32_t ___writeCount;
+/// @brief Field forceRelease, offset: 0x14, size: 0x1, def value: None
+ bool  ___forceRelease;
 
-  /// @brief Field readCount, offset: 0x1c, size: 0x4, def value: None
-  uint32_t ___readCount;
+/// @brief Field writeCount, offset: 0x18, size: 0x4, def value: None
+ uint32_t  ___writeCount;
 
-  /// @brief Field cachedHash, offset: 0x20, size: 0x4, def value: None
-  int32_t ___cachedHash;
+/// @brief Field readCount, offset: 0x1c, size: 0x4, def value: None
+ uint32_t  ___readCount;
 
-  /// @brief Field transientPassIndex, offset: 0x24, size: 0x4, def value: None
-  int32_t ___transientPassIndex;
+/// @brief Field cachedHash, offset: 0x20, size: 0x4, def value: None
+ int32_t  ___cachedHash;
 
-  /// @brief Field sharedResourceLastFrameUsed, offset: 0x28, size: 0x4, def value: None
-  int32_t ___sharedResourceLastFrameUsed;
+/// @brief Field transientPassIndex, offset: 0x24, size: 0x4, def value: None
+ int32_t  ___transientPassIndex;
 
-  /// @brief Field version, offset: 0x2c, size: 0x4, def value: None
-  int32_t ___version;
+/// @brief Field sharedResourceLastFrameUsed, offset: 0x28, size: 0x4, def value: None
+ int32_t  ___sharedResourceLastFrameUsed;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field version, offset: 0x2c, size: 0x4, def value: None
+ int32_t  ___version;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Rendering::RenderGraphModule::IRenderGraphResource, ___imported) == 0x10, "Offset mismatch!");
@@ -255,6 +255,6 @@ static_assert(offsetof(::UnityEngine::Rendering::RenderGraphModule::IRenderGraph
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::RenderGraphModule::IRenderGraphResource, 0x30>, "Size mismatch!");
 
-} // namespace UnityEngine::Rendering::RenderGraphModule
+} // namespace end def UnityEngine::Rendering::RenderGraphModule
 NEED_NO_BOX(::UnityEngine::Rendering::RenderGraphModule::IRenderGraphResource);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::RenderGraphModule::IRenderGraphResource*, "UnityEngine.Rendering.RenderGraphModule", "IRenderGraphResource");

@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "System/IO/Enumeration/FileSystemEntry.hpp"
 #include "System/IO/Enumeration/FileSystemEnumerableFactory.hpp"
@@ -9,5 +9,6 @@ module;
 #include "System/IO/Enumeration/FileSystemEnumerator_1.hpp"
 #include "System/IO/Enumeration/FileSystemName.hpp"
 #ifdef __cpp_modules
-export module Enumeration;
-#endif
+                    export module Enumeration;
+                    #endif
+                

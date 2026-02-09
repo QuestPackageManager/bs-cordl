@@ -4,55 +4,72 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRResetOrientation_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::OVRResetOrientation.Update
-template <>
+template<>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRResetOrientation::*)()>(&::GlobalNamespace::OVRResetOrientation::Update)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x5d5dacc;
+  constexpr static std::size_t addrs = 0x5d5dfd8;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRResetOrientation*>::get(), "Update",
-                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRResetOrientation*>::get(),
+                        "Update",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OVRResetOrientation._ctor
-template <>
+template<>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRResetOrientation::*)()>(&::GlobalNamespace::OVRResetOrientation::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x5d5dbbc;
+  constexpr static std::size_t addrs = 0x5d5e0c8;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRResetOrientation*>::get(), ".ctor",
-                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRResetOrientation*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
-constexpr ::GlobalNamespace::OVRInput_RawButton& GlobalNamespace::OVRResetOrientation::__cordl_internal_get_resetButton() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___resetButton;
+constexpr ::GlobalNamespace::OVRInput_RawButton& GlobalNamespace::OVRResetOrientation::__cordl_internal_get_resetButton()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___resetButton;
 }
 constexpr ::GlobalNamespace::OVRInput_RawButton const& GlobalNamespace::OVRResetOrientation::__cordl_internal_get_resetButton() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___resetButton;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___resetButton;
 }
-constexpr void GlobalNamespace::OVRResetOrientation::__cordl_internal_set_resetButton(::GlobalNamespace::OVRInput_RawButton value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___resetButton = value;
+constexpr void GlobalNamespace::OVRResetOrientation::__cordl_internal_set_resetButton(::GlobalNamespace::OVRInput_RawButton  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___resetButton = value;
 }
-inline void GlobalNamespace::OVRResetOrientation::Update() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRResetOrientation*>::get(), "Update",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::OVRResetOrientation::Update()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRResetOrientation*>::get(),
+                        "Update",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::OVRResetOrientation::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRResetOrientation*>::get(), ".ctor",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::OVRResetOrientation::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRResetOrientation*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::OVRResetOrientation* GlobalNamespace::OVRResetOrientation::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::OVRResetOrientation*>());
+inline ::GlobalNamespace::OVRResetOrientation* GlobalNamespace::OVRResetOrientation::New_ctor()  {
+return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::OVRResetOrientation*>());
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::OVRResetOrientation::OVRResetOrientation() {}
+constexpr ::GlobalNamespace::OVRResetOrientation::OVRResetOrientation()   {
+}

@@ -27,59 +27,59 @@ namespace Meta::XR::ImmersiveDebugger::Utils {
 // CS Name: Meta.XR.ImmersiveDebugger.Utils.MemberInfoExtensions
 class CORDL_TYPE MemberInfoExtensions : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method BuildSignatureForDebugInspector, addr 0x5898e6c, size 0x5ac, virtual false, abstract: false, final false
-  static inline ::StringW BuildSignatureForDebugInspector(::System::Reflection::MemberInfo* memberInfo);
+// Declarations
+/// @brief Method BuildSignatureForDebugInspector, addr 0x5899378, size 0x5ac, virtual false, abstract: false, final false
+static inline ::StringW BuildSignatureForDebugInspector(::System::Reflection::MemberInfo*  memberInfo) ;
 
-  /// @brief Method CanBeChanged, addr 0x5899580, size 0x2c, virtual false, abstract: false, final false
-  static inline bool CanBeChanged(::System::Reflection::MemberInfo* memberInfo);
+/// @brief Method CanBeChanged, addr 0x5899a8c, size 0x2c, virtual false, abstract: false, final false
+static inline bool CanBeChanged(::System::Reflection::MemberInfo*  memberInfo) ;
 
-  /// @brief Method GetDataType, addr 0x5898914, size 0x150, virtual false, abstract: false, final false
-  static inline ::System::Type* GetDataType(::System::Reflection::MemberInfo* memberInfo);
+/// @brief Method GetDataType, addr 0x5898e20, size 0x150, virtual false, abstract: false, final false
+static inline ::System::Type* GetDataType(::System::Reflection::MemberInfo*  memberInfo) ;
 
-  /// @brief Method GetValue, addr 0x5898584, size 0x1c8, virtual false, abstract: false, final false
-  static inline ::System::Object* GetValue(::System::Reflection::MemberInfo* memberInfo, ::System::Object* instance);
+/// @brief Method GetValue, addr 0x5898a90, size 0x1c8, virtual false, abstract: false, final false
+static inline ::System::Object* GetValue(::System::Reflection::MemberInfo*  memberInfo, ::System::Object*  instance) ;
 
-  /// @brief Method IsBaseTypeEqual, addr 0x5899418, size 0x168, virtual false, abstract: false, final false
-  static inline bool IsBaseTypeEqual(::System::Reflection::MemberInfo* member, ::System::Type* type);
+/// @brief Method IsBaseTypeEqual, addr 0x5899924, size 0x168, virtual false, abstract: false, final false
+static inline bool IsBaseTypeEqual(::System::Reflection::MemberInfo*  member, ::System::Type*  type) ;
 
-  /// @brief Method IsCompatibleWithDebugInspector, addr 0x58920f8, size 0x21c, virtual false, abstract: false, final false
-  static inline bool IsCompatibleWithDebugInspector(::System::Reflection::MemberInfo* memberInfo);
+/// @brief Method IsCompatibleWithDebugInspector, addr 0x5892604, size 0x21c, virtual false, abstract: false, final false
+static inline bool IsCompatibleWithDebugInspector(::System::Reflection::MemberInfo*  memberInfo) ;
 
-  /// @brief Method IsPublic, addr 0x5898c88, size 0x1e4, virtual false, abstract: false, final false
-  static inline bool IsPublic(::System::Reflection::MemberInfo* memberInfo);
+/// @brief Method IsPublic, addr 0x5899194, size 0x1e4, virtual false, abstract: false, final false
+static inline bool IsPublic(::System::Reflection::MemberInfo*  memberInfo) ;
 
-  /// @brief Method IsStatic, addr 0x5898a64, size 0x224, virtual false, abstract: false, final false
-  static inline bool IsStatic(::System::Reflection::MemberInfo* memberInfo);
+/// @brief Method IsStatic, addr 0x5898f70, size 0x224, virtual false, abstract: false, final false
+static inline bool IsStatic(::System::Reflection::MemberInfo*  memberInfo) ;
 
-  /// @brief Method IsTypeEqual, addr 0x58929dc, size 0x13c, virtual false, abstract: false, final false
-  static inline bool IsTypeEqual(::System::Reflection::MemberInfo* member, ::System::Type* type);
+/// @brief Method IsTypeEqual, addr 0x5892ee8, size 0x13c, virtual false, abstract: false, final false
+static inline bool IsTypeEqual(::System::Reflection::MemberInfo*  member, ::System::Type*  type) ;
 
-  /// @brief Method SetValue, addr 0x589874c, size 0x1c8, virtual false, abstract: false, final false
-  static inline void SetValue(::System::Reflection::MemberInfo* memberInfo, ::System::Object* instance, ::System::Object* value);
+/// @brief Method SetValue, addr 0x5898c58, size 0x1c8, virtual false, abstract: false, final false
+static inline void SetValue(::System::Reflection::MemberInfo*  memberInfo, ::System::Object*  instance, ::System::Object*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MemberInfoExtensions();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr MemberInfoExtensions() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MemberInfoExtensions", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  MemberInfoExtensions(MemberInfoExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MemberInfoExtensions", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  MemberInfoExtensions(MemberInfoExtensions const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "MemberInfoExtensions", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+MemberInfoExtensions(MemberInfoExtensions && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18318 };
+// Ctor Parameters [CppParam { name: "", ty: "MemberInfoExtensions", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+MemberInfoExtensions(MemberInfoExtensions const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{18322};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Meta::XR::ImmersiveDebugger::Utils::MemberInfoExtensions, 0x10>, "Size mismatch!");
 
-} // namespace Meta::XR::ImmersiveDebugger::Utils
+} // namespace end def Meta::XR::ImmersiveDebugger::Utils
 NEED_NO_BOX(::Meta::XR::ImmersiveDebugger::Utils::MemberInfoExtensions);
 DEFINE_IL2CPP_ARG_TYPE(::Meta::XR::ImmersiveDebugger::Utils::MemberInfoExtensions*, "Meta.XR.ImmersiveDebugger.Utils", "MemberInfoExtensions");

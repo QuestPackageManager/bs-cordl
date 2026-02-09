@@ -29,66 +29,65 @@ namespace GlobalNamespace {
 // CS Name: BeatSaberDisconnectedPlayer
 class CORDL_TYPE BeatSaberDisconnectedPlayer : public ::GlobalNamespace::DisconnectedPlayer {
 public:
-  // Declarations
-  /// @brief Field <multiplayerAvatarsData>k__BackingField, offset 0x28, size 0x18
-  __declspec(property(get = __cordl_internal_get__multiplayerAvatarsData_k__BackingField,
-                      put = __cordl_internal_set__multiplayerAvatarsData_k__BackingField)) ::GlobalNamespace::MultiplayerAvatarsData _multiplayerAvatarsData_k__BackingField;
+// Declarations
+/// @brief Field <multiplayerAvatarsData>k__BackingField, offset 0x28, size 0x18 
+ __declspec(property(get=__cordl_internal_get__multiplayerAvatarsData_k__BackingField, put=__cordl_internal_set__multiplayerAvatarsData_k__BackingField)) ::GlobalNamespace::MultiplayerAvatarsData  _multiplayerAvatarsData_k__BackingField;
 
-  __declspec(property(get = get_multiplayerAvatarsData)) ::GlobalNamespace::MultiplayerAvatarsData multiplayerAvatarsData;
+ __declspec(property(get=get_multiplayerAvatarsData)) ::GlobalNamespace::MultiplayerAvatarsData  multiplayerAvatarsData;
 
-  /// @brief Convert operator to "::GlobalNamespace::IBeatSaberConnectedPlayer"
-  constexpr operator ::GlobalNamespace::IBeatSaberConnectedPlayer*() noexcept;
+/// @brief Convert operator to "::GlobalNamespace::IBeatSaberConnectedPlayer"
+constexpr operator  ::GlobalNamespace::IBeatSaberConnectedPlayer*() noexcept;
 
-  /// @brief Convert operator to "::GlobalNamespace::IConnectedPlayer"
-  constexpr operator ::GlobalNamespace::IConnectedPlayer*() noexcept;
+/// @brief Convert operator to "::GlobalNamespace::IConnectedPlayer"
+constexpr operator  ::GlobalNamespace::IConnectedPlayer*() noexcept;
 
-  static inline ::GlobalNamespace::BeatSaberDisconnectedPlayer* New_ctor(::StringW userId, ::StringW userName, int32_t sortIndex);
+static inline ::GlobalNamespace::BeatSaberDisconnectedPlayer* New_ctor(::StringW  userId, ::StringW  userName, int32_t  sortIndex) ;
 
-  constexpr ::GlobalNamespace::MultiplayerAvatarsData const& __cordl_internal_get__multiplayerAvatarsData_k__BackingField() const;
+constexpr ::GlobalNamespace::MultiplayerAvatarsData const& __cordl_internal_get__multiplayerAvatarsData_k__BackingField() const;
 
-  constexpr ::GlobalNamespace::MultiplayerAvatarsData& __cordl_internal_get__multiplayerAvatarsData_k__BackingField();
+constexpr ::GlobalNamespace::MultiplayerAvatarsData& __cordl_internal_get__multiplayerAvatarsData_k__BackingField() ;
 
-  constexpr void __cordl_internal_set__multiplayerAvatarsData_k__BackingField(::GlobalNamespace::MultiplayerAvatarsData value);
+constexpr void __cordl_internal_set__multiplayerAvatarsData_k__BackingField(::GlobalNamespace::MultiplayerAvatarsData  value) ;
 
-  /// @brief Method .ctor, addr 0x31d2ae0, size 0xc, virtual false, abstract: false, final false
-  inline void _ctor(::StringW userId, ::StringW userName, int32_t sortIndex);
+/// @brief Method .ctor, addr 0x31d2a30, size 0xc, virtual false, abstract: false, final false
+inline void _ctor(::StringW  userId, ::StringW  userName, int32_t  sortIndex) ;
 
-  /// @brief Method get_multiplayerAvatarsData, addr 0x31d2aec, size 0x14, virtual true, abstract: false, final true
-  inline ::GlobalNamespace::MultiplayerAvatarsData get_multiplayerAvatarsData();
+/// @brief Method get_multiplayerAvatarsData, addr 0x31d2a3c, size 0x14, virtual true, abstract: false, final true
+inline ::GlobalNamespace::MultiplayerAvatarsData get_multiplayerAvatarsData() ;
 
-  /// @brief Convert to "::GlobalNamespace::IBeatSaberConnectedPlayer"
-  constexpr ::GlobalNamespace::IBeatSaberConnectedPlayer* i___GlobalNamespace__IBeatSaberConnectedPlayer() noexcept;
+/// @brief Convert to "::GlobalNamespace::IBeatSaberConnectedPlayer"
+constexpr ::GlobalNamespace::IBeatSaberConnectedPlayer* i___GlobalNamespace__IBeatSaberConnectedPlayer() noexcept;
 
-  /// @brief Convert to "::GlobalNamespace::IConnectedPlayer"
-  constexpr ::GlobalNamespace::IConnectedPlayer* i___GlobalNamespace__IConnectedPlayer() noexcept;
+/// @brief Convert to "::GlobalNamespace::IConnectedPlayer"
+constexpr ::GlobalNamespace::IConnectedPlayer* i___GlobalNamespace__IConnectedPlayer() noexcept;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BeatSaberDisconnectedPlayer();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr BeatSaberDisconnectedPlayer() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatSaberDisconnectedPlayer", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  BeatSaberDisconnectedPlayer(BeatSaberDisconnectedPlayer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatSaberDisconnectedPlayer", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  BeatSaberDisconnectedPlayer(BeatSaberDisconnectedPlayer const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "BeatSaberDisconnectedPlayer", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+BeatSaberDisconnectedPlayer(BeatSaberDisconnectedPlayer && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18807 };
+// Ctor Parameters [CppParam { name: "", ty: "BeatSaberDisconnectedPlayer", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+BeatSaberDisconnectedPlayer(BeatSaberDisconnectedPlayer const& ) = delete;
 
-  /// @brief Field <multiplayerAvatarsData>k__BackingField, offset: 0x28, size: 0x18, def value: None
-  ::GlobalNamespace::MultiplayerAvatarsData ____multiplayerAvatarsData_k__BackingField;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{18811};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field <multiplayerAvatarsData>k__BackingField, offset: 0x28, size: 0x18, def value: None
+ ::GlobalNamespace::MultiplayerAvatarsData  ____multiplayerAvatarsData_k__BackingField;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::BeatSaberDisconnectedPlayer, ____multiplayerAvatarsData_k__BackingField) == 0x28, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatSaberDisconnectedPlayer, 0x40>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BeatSaberDisconnectedPlayer);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BeatSaberDisconnectedPlayer*, "", "BeatSaberDisconnectedPlayer");

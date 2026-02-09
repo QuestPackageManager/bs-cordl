@@ -34,90 +34,90 @@ namespace System::Data::Common {
 // CS Name: System.Data.Common.SqlBinaryStorage
 class CORDL_TYPE SqlBinaryStorage : public ::System::Data::Common::DataStorage {
 public:
-  // Declarations
-  /// @brief Field _values, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get__values, put = __cordl_internal_set__values)) ::ArrayW<::System::Data::SqlTypes::SqlBinary, ::Array<::System::Data::SqlTypes::SqlBinary>*> _values;
+// Declarations
+/// @brief Field _values, offset 0x50, size 0x8 
+ __declspec(property(get=__cordl_internal_get__values, put=__cordl_internal_set__values)) ::ArrayW<::System::Data::SqlTypes::SqlBinary,::Array<::System::Data::SqlTypes::SqlBinary>*>  _values;
 
-  /// @brief Method Aggregate, addr 0x5f0274c, size 0x23c, virtual true, abstract: false, final false
-  inline ::System::Object* Aggregate(::ArrayW<int32_t, ::Array<int32_t>*> records, ::System::Data::AggregateType kind);
+/// @brief Method Aggregate, addr 0x5f02e0c, size 0x23c, virtual true, abstract: false, final false
+inline ::System::Object* Aggregate(::ArrayW<int32_t,::Array<int32_t>*>  records, ::System::Data::AggregateType  kind) ;
 
-  /// @brief Method Compare, addr 0x5f02988, size 0xa4, virtual true, abstract: false, final false
-  inline int32_t Compare(int32_t recordNo1, int32_t recordNo2);
+/// @brief Method Compare, addr 0x5f03048, size 0xa4, virtual true, abstract: false, final false
+inline int32_t Compare(int32_t  recordNo1, int32_t  recordNo2) ;
 
-  /// @brief Method CompareValueTo, addr 0x5f02a2c, size 0xb4, virtual true, abstract: false, final false
-  inline int32_t CompareValueTo(int32_t recordNo, ::System::Object* value);
+/// @brief Method CompareValueTo, addr 0x5f030ec, size 0xb4, virtual true, abstract: false, final false
+inline int32_t CompareValueTo(int32_t  recordNo, ::System::Object*  value) ;
 
-  /// @brief Method ConvertObjectToXml, addr 0x5f03050, size 0x260, virtual true, abstract: false, final false
-  inline ::StringW ConvertObjectToXml(::System::Object* value);
+/// @brief Method ConvertObjectToXml, addr 0x5f03710, size 0x260, virtual true, abstract: false, final false
+inline ::StringW ConvertObjectToXml(::System::Object*  value) ;
 
-  /// @brief Method ConvertValue, addr 0x5f02ae0, size 0x78, virtual true, abstract: false, final false
-  inline ::System::Object* ConvertValue(::System::Object* value);
+/// @brief Method ConvertValue, addr 0x5f031a0, size 0x78, virtual true, abstract: false, final false
+inline ::System::Object* ConvertValue(::System::Object*  value) ;
 
-  /// @brief Method ConvertXmlToObject, addr 0x5f02da0, size 0x2b0, virtual true, abstract: false, final false
-  inline ::System::Object* ConvertXmlToObject(::StringW s);
+/// @brief Method ConvertXmlToObject, addr 0x5f03460, size 0x2b0, virtual true, abstract: false, final false
+inline ::System::Object* ConvertXmlToObject(::StringW  s) ;
 
-  /// @brief Method Copy, addr 0x5f02b58, size 0x3c, virtual true, abstract: false, final false
-  inline void Copy(int32_t recordNo1, int32_t recordNo2);
+/// @brief Method Copy, addr 0x5f03218, size 0x3c, virtual true, abstract: false, final false
+inline void Copy(int32_t  recordNo1, int32_t  recordNo2) ;
 
-  /// @brief Method CopyValue, addr 0x5f032fc, size 0x104, virtual true, abstract: false, final false
-  inline void CopyValue(int32_t record, ::System::Object* store, ::System::Collections::BitArray* nullbits, int32_t storeIndex);
+/// @brief Method CopyValue, addr 0x5f039bc, size 0x104, virtual true, abstract: false, final false
+inline void CopyValue(int32_t  record, ::System::Object*  store, ::System::Collections::BitArray*  nullbits, int32_t  storeIndex) ;
 
-  /// @brief Method Get, addr 0x5f02b94, size 0x84, virtual true, abstract: false, final false
-  inline ::System::Object* Get(int32_t record);
+/// @brief Method Get, addr 0x5f03254, size 0x84, virtual true, abstract: false, final false
+inline ::System::Object* Get(int32_t  record) ;
 
-  /// @brief Method GetEmptyStorage, addr 0x5f032b0, size 0x4c, virtual true, abstract: false, final false
-  inline ::System::Object* GetEmptyStorage(int32_t recordCount);
+/// @brief Method GetEmptyStorage, addr 0x5f03970, size 0x4c, virtual true, abstract: false, final false
+inline ::System::Object* GetEmptyStorage(int32_t  recordCount) ;
 
-  /// @brief Method IsNull, addr 0x5f02c18, size 0x8c, virtual true, abstract: false, final false
-  inline bool IsNull(int32_t record);
+/// @brief Method IsNull, addr 0x5f032d8, size 0x8c, virtual true, abstract: false, final false
+inline bool IsNull(int32_t  record) ;
 
-  static inline ::System::Data::Common::SqlBinaryStorage* New_ctor(::System::Data::DataColumn* column);
+static inline ::System::Data::Common::SqlBinaryStorage* New_ctor(::System::Data::DataColumn*  column) ;
 
-  /// @brief Method Set, addr 0x5f02ca4, size 0x44, virtual true, abstract: false, final false
-  inline void Set(int32_t record, ::System::Object* value);
+/// @brief Method Set, addr 0x5f03364, size 0x44, virtual true, abstract: false, final false
+inline void Set(int32_t  record, ::System::Object*  value) ;
 
-  /// @brief Method SetCapacity, addr 0x5f02ce8, size 0xb8, virtual true, abstract: false, final false
-  inline void SetCapacity(int32_t capacity);
+/// @brief Method SetCapacity, addr 0x5f033a8, size 0xb8, virtual true, abstract: false, final false
+inline void SetCapacity(int32_t  capacity) ;
 
-  /// @brief Method SetStorage, addr 0x5f03400, size 0x90, virtual true, abstract: false, final false
-  inline void SetStorage(::System::Object* store, ::System::Collections::BitArray* nullbits);
+/// @brief Method SetStorage, addr 0x5f03ac0, size 0x90, virtual true, abstract: false, final false
+inline void SetStorage(::System::Object*  store, ::System::Collections::BitArray*  nullbits) ;
 
-  constexpr ::ArrayW<::System::Data::SqlTypes::SqlBinary, ::Array<::System::Data::SqlTypes::SqlBinary>*> const& __cordl_internal_get__values() const;
+constexpr ::ArrayW<::System::Data::SqlTypes::SqlBinary,::Array<::System::Data::SqlTypes::SqlBinary>*> const& __cordl_internal_get__values() const;
 
-  constexpr ::ArrayW<::System::Data::SqlTypes::SqlBinary, ::Array<::System::Data::SqlTypes::SqlBinary>*>& __cordl_internal_get__values();
+constexpr ::ArrayW<::System::Data::SqlTypes::SqlBinary,::Array<::System::Data::SqlTypes::SqlBinary>*>& __cordl_internal_get__values() ;
 
-  constexpr void __cordl_internal_set__values(::ArrayW<::System::Data::SqlTypes::SqlBinary, ::Array<::System::Data::SqlTypes::SqlBinary>*> value);
+constexpr void __cordl_internal_set__values(::ArrayW<::System::Data::SqlTypes::SqlBinary,::Array<::System::Data::SqlTypes::SqlBinary>*>  value) ;
 
-  /// @brief Method .ctor, addr 0x5ef1e88, size 0x130, virtual false, abstract: false, final false
-  inline void _ctor(::System::Data::DataColumn* column);
+/// @brief Method .ctor, addr 0x5ef2548, size 0x130, virtual false, abstract: false, final false
+inline void _ctor(::System::Data::DataColumn*  column) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SqlBinaryStorage();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr SqlBinaryStorage() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SqlBinaryStorage", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  SqlBinaryStorage(SqlBinaryStorage&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SqlBinaryStorage", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  SqlBinaryStorage(SqlBinaryStorage const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "SqlBinaryStorage", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+SqlBinaryStorage(SqlBinaryStorage && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13902 };
+// Ctor Parameters [CppParam { name: "", ty: "SqlBinaryStorage", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+SqlBinaryStorage(SqlBinaryStorage const& ) = delete;
 
-  /// @brief Field _values, offset: 0x50, size: 0x8, def value: None
-  ::ArrayW<::System::Data::SqlTypes::SqlBinary, ::Array<::System::Data::SqlTypes::SqlBinary>*> ____values;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{13906};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _values, offset: 0x50, size: 0x8, def value: None
+ ::ArrayW<::System::Data::SqlTypes::SqlBinary,::Array<::System::Data::SqlTypes::SqlBinary>*>  ____values;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Data::Common::SqlBinaryStorage, ____values) == 0x50, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::System::Data::Common::SqlBinaryStorage, 0x58>, "Size mismatch!");
 
-} // namespace System::Data::Common
+} // namespace end def System::Data::Common
 NEED_NO_BOX(::System::Data::Common::SqlBinaryStorage);
 DEFINE_IL2CPP_ARG_TYPE(::System::Data::Common::SqlBinaryStorage*, "System.Data.Common", "SqlBinaryStorage");

@@ -26,43 +26,43 @@ namespace System::Runtime::Remoting::Activation {
 // CS Name: System.Runtime.Remoting.Activation.RemoteActivator
 class CORDL_TYPE RemoteActivator : public ::System::MarshalByRefObject {
 public:
-  // Declarations
-  __declspec(property(get = get_NextActivator)) ::System::Runtime::Remoting::Activation::IActivator* NextActivator;
+// Declarations
+ __declspec(property(get=get_NextActivator)) ::System::Runtime::Remoting::Activation::IActivator*  NextActivator;
 
-  /// @brief Convert operator to "::System::Runtime::Remoting::Activation::IActivator"
-  constexpr operator ::System::Runtime::Remoting::Activation::IActivator*() noexcept;
+/// @brief Convert operator to "::System::Runtime::Remoting::Activation::IActivator"
+constexpr operator  ::System::Runtime::Remoting::Activation::IActivator*() noexcept;
 
-  /// @brief Method Activate, addr 0x598de08, size 0x444, virtual true, abstract: false, final true
-  inline ::System::Runtime::Remoting::Activation::IConstructionReturnMessage* Activate(::System::Runtime::Remoting::Activation::IConstructionCallMessage* msg);
+/// @brief Method Activate, addr 0x598e314, size 0x444, virtual true, abstract: false, final true
+inline ::System::Runtime::Remoting::Activation::IConstructionReturnMessage* Activate(::System::Runtime::Remoting::Activation::IConstructionCallMessage*  msg) ;
 
-  /// @brief Method get_NextActivator, addr 0x598e24c, size 0x38, virtual true, abstract: false, final true
-  inline ::System::Runtime::Remoting::Activation::IActivator* get_NextActivator();
+/// @brief Method get_NextActivator, addr 0x598e758, size 0x38, virtual true, abstract: false, final true
+inline ::System::Runtime::Remoting::Activation::IActivator* get_NextActivator() ;
 
-  /// @brief Convert to "::System::Runtime::Remoting::Activation::IActivator"
-  constexpr ::System::Runtime::Remoting::Activation::IActivator* i___System__Runtime__Remoting__Activation__IActivator() noexcept;
+/// @brief Convert to "::System::Runtime::Remoting::Activation::IActivator"
+constexpr ::System::Runtime::Remoting::Activation::IActivator* i___System__Runtime__Remoting__Activation__IActivator() noexcept;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RemoteActivator();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr RemoteActivator() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RemoteActivator", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  RemoteActivator(RemoteActivator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RemoteActivator", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  RemoteActivator(RemoteActivator const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "RemoteActivator", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+RemoteActivator(RemoteActivator && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3153 };
+// Ctor Parameters [CppParam { name: "", ty: "RemoteActivator", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+RemoteActivator(RemoteActivator const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{3153};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Remoting::Activation::RemoteActivator, 0x18>, "Size mismatch!");
 
-} // namespace System::Runtime::Remoting::Activation
+} // namespace end def System::Runtime::Remoting::Activation
 NEED_NO_BOX(::System::Runtime::Remoting::Activation::RemoteActivator);
 DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::Activation::RemoteActivator*, "System.Runtime.Remoting.Activation", "RemoteActivator");

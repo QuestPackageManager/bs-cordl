@@ -33,91 +33,89 @@ namespace System::Linq::Expressions {
 // CS Name: System.Linq.Expressions.InvocationExpression
 class CORDL_TYPE InvocationExpression : public ::System::Linq::Expressions::Expression {
 public:
-  // Declarations
-  __declspec(property(get = get_ArgumentCount)) int32_t ArgumentCount;
+// Declarations
+ __declspec(property(get=get_ArgumentCount)) int32_t  ArgumentCount;
 
-  __declspec(property(get = get_Expression)) ::System::Linq::Expressions::Expression* Expression;
+ __declspec(property(get=get_Expression)) ::System::Linq::Expressions::Expression*  Expression;
 
-  __declspec(property(get = get_NodeType)) ::System::Linq::Expressions::ExpressionType NodeType;
+ __declspec(property(get=get_NodeType)) ::System::Linq::Expressions::ExpressionType  NodeType;
 
-  __declspec(property(get = get_Type)) ::System::Type* Type;
+ __declspec(property(get=get_Type)) ::System::Type*  Type;
 
-  /// @brief Field <Expression>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__Expression_k__BackingField,
-                      put = __cordl_internal_set__Expression_k__BackingField)) ::System::Linq::Expressions::Expression* _Expression_k__BackingField;
+/// @brief Field <Expression>k__BackingField, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get__Expression_k__BackingField, put=__cordl_internal_set__Expression_k__BackingField)) ::System::Linq::Expressions::Expression*  _Expression_k__BackingField;
 
-  /// @brief Field <Type>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__Type_k__BackingField, put = __cordl_internal_set__Type_k__BackingField)) ::System::Type* _Type_k__BackingField;
+/// @brief Field <Type>k__BackingField, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get__Type_k__BackingField, put=__cordl_internal_set__Type_k__BackingField)) ::System::Type*  _Type_k__BackingField;
 
-  /// @brief Convert operator to "::System::Linq::Expressions::IArgumentProvider"
-  constexpr operator ::System::Linq::Expressions::IArgumentProvider*() noexcept;
+/// @brief Convert operator to "::System::Linq::Expressions::IArgumentProvider"
+constexpr operator  ::System::Linq::Expressions::IArgumentProvider*() noexcept;
 
-  /// @brief Method Accept, addr 0x5dd0fc4, size 0x24, virtual true, abstract: false, final false
-  inline ::System::Linq::Expressions::Expression* Accept(::System::Linq::Expressions::ExpressionVisitor* visitor);
+/// @brief Method Accept, addr 0x5dd1684, size 0x24, virtual true, abstract: false, final false
+inline ::System::Linq::Expressions::Expression* Accept(::System::Linq::Expressions::ExpressionVisitor*  visitor) ;
 
-  /// @brief Method GetArgument, addr 0x5dd0f74, size 0x28, virtual true, abstract: false, final false
-  inline ::System::Linq::Expressions::Expression* GetArgument(int32_t index);
+/// @brief Method GetArgument, addr 0x5dd1634, size 0x28, virtual true, abstract: false, final false
+inline ::System::Linq::Expressions::Expression* GetArgument(int32_t  index) ;
 
-  static inline ::System::Linq::Expressions::InvocationExpression* New_ctor(::System::Linq::Expressions::Expression* expression, ::System::Type* returnType);
+static inline ::System::Linq::Expressions::InvocationExpression* New_ctor(::System::Linq::Expressions::Expression*  expression, ::System::Type*  returnType) ;
 
-  /// @brief Method Rewrite, addr 0x5dd0fe8, size 0x28, virtual true, abstract: false, final false
-  inline ::System::Linq::Expressions::InvocationExpression* Rewrite(::System::Linq::Expressions::Expression* lambda,
-                                                                    ::ArrayW<::System::Linq::Expressions::Expression*, ::Array<::System::Linq::Expressions::Expression*>*> arguments);
+/// @brief Method Rewrite, addr 0x5dd16a8, size 0x28, virtual true, abstract: false, final false
+inline ::System::Linq::Expressions::InvocationExpression* Rewrite(::System::Linq::Expressions::Expression*  lambda, ::ArrayW<::System::Linq::Expressions::Expression*,::Array<::System::Linq::Expressions::Expression*>*>  arguments) ;
 
-  constexpr ::System::Linq::Expressions::Expression* const& __cordl_internal_get__Expression_k__BackingField() const;
+constexpr ::System::Linq::Expressions::Expression* const& __cordl_internal_get__Expression_k__BackingField() const;
 
-  constexpr ::System::Linq::Expressions::Expression*& __cordl_internal_get__Expression_k__BackingField();
+constexpr ::System::Linq::Expressions::Expression*& __cordl_internal_get__Expression_k__BackingField() ;
 
-  constexpr ::System::Type* const& __cordl_internal_get__Type_k__BackingField() const;
+constexpr ::System::Type* const& __cordl_internal_get__Type_k__BackingField() const;
 
-  constexpr ::System::Type*& __cordl_internal_get__Type_k__BackingField();
+constexpr ::System::Type*& __cordl_internal_get__Type_k__BackingField() ;
 
-  constexpr void __cordl_internal_set__Expression_k__BackingField(::System::Linq::Expressions::Expression* value);
+constexpr void __cordl_internal_set__Expression_k__BackingField(::System::Linq::Expressions::Expression*  value) ;
 
-  constexpr void __cordl_internal_set__Type_k__BackingField(::System::Type* value);
+constexpr void __cordl_internal_set__Type_k__BackingField(::System::Type*  value) ;
 
-  /// @brief Method .ctor, addr 0x5dd0ef4, size 0x68, virtual false, abstract: false, final false
-  inline void _ctor(::System::Linq::Expressions::Expression* expression, ::System::Type* returnType);
+/// @brief Method .ctor, addr 0x5dd15b4, size 0x68, virtual false, abstract: false, final false
+inline void _ctor(::System::Linq::Expressions::Expression*  expression, ::System::Type*  returnType) ;
 
-  /// @brief Method get_ArgumentCount, addr 0x5dd0f9c, size 0x28, virtual true, abstract: false, final false
-  inline int32_t get_ArgumentCount();
+/// @brief Method get_ArgumentCount, addr 0x5dd165c, size 0x28, virtual true, abstract: false, final false
+inline int32_t get_ArgumentCount() ;
 
-  /// @brief Method get_Expression, addr 0x5dd0f6c, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Linq::Expressions::Expression* get_Expression();
+/// @brief Method get_Expression, addr 0x5dd162c, size 0x8, virtual false, abstract: false, final false
+inline ::System::Linq::Expressions::Expression* get_Expression() ;
 
-  /// @brief Method get_NodeType, addr 0x5dd0f64, size 0x8, virtual true, abstract: false, final true
-  inline ::System::Linq::Expressions::ExpressionType get_NodeType();
+/// @brief Method get_NodeType, addr 0x5dd1624, size 0x8, virtual true, abstract: false, final true
+inline ::System::Linq::Expressions::ExpressionType get_NodeType() ;
 
-  /// @brief Method get_Type, addr 0x5dd0f5c, size 0x8, virtual true, abstract: false, final true
-  inline ::System::Type* get_Type();
+/// @brief Method get_Type, addr 0x5dd161c, size 0x8, virtual true, abstract: false, final true
+inline ::System::Type* get_Type() ;
 
-  /// @brief Convert to "::System::Linq::Expressions::IArgumentProvider"
-  constexpr ::System::Linq::Expressions::IArgumentProvider* i___System__Linq__Expressions__IArgumentProvider() noexcept;
+/// @brief Convert to "::System::Linq::Expressions::IArgumentProvider"
+constexpr ::System::Linq::Expressions::IArgumentProvider* i___System__Linq__Expressions__IArgumentProvider() noexcept;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr InvocationExpression();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr InvocationExpression() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InvocationExpression", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  InvocationExpression(InvocationExpression&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InvocationExpression", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  InvocationExpression(InvocationExpression const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "InvocationExpression", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+InvocationExpression(InvocationExpression && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16141 };
+// Ctor Parameters [CppParam { name: "", ty: "InvocationExpression", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+InvocationExpression(InvocationExpression const& ) = delete;
 
-  /// @brief Field <Type>k__BackingField, offset: 0x10, size: 0x8, def value: None
-  ::System::Type* ____Type_k__BackingField;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{16145};
 
-  /// @brief Field <Expression>k__BackingField, offset: 0x18, size: 0x8, def value: None
-  ::System::Linq::Expressions::Expression* ____Expression_k__BackingField;
+/// @brief Field <Type>k__BackingField, offset: 0x10, size: 0x8, def value: None
+ ::System::Type*  ____Type_k__BackingField;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field <Expression>k__BackingField, offset: 0x18, size: 0x8, def value: None
+ ::System::Linq::Expressions::Expression*  ____Expression_k__BackingField;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Linq::Expressions::InvocationExpression, ____Type_k__BackingField) == 0x10, "Offset mismatch!");
@@ -126,6 +124,6 @@ static_assert(offsetof(::System::Linq::Expressions::InvocationExpression, ____Ex
 
 static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::InvocationExpression, 0x20>, "Size mismatch!");
 
-} // namespace System::Linq::Expressions
+} // namespace end def System::Linq::Expressions
 NEED_NO_BOX(::System::Linq::Expressions::InvocationExpression);
 DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::InvocationExpression*, "System.Linq.Expressions", "InvocationExpression");

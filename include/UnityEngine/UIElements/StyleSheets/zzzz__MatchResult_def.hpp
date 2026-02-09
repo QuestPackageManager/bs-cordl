@@ -19,33 +19,32 @@ namespace UnityEngine::UIElements::StyleSheets {
 // CS Name: UnityEngine.UIElements.StyleSheets.MatchResult
 struct CORDL_TYPE MatchResult {
 public:
-  // Declarations
-  __declspec(property(get = get_success)) bool success;
+// Declarations
+ __declspec(property(get=get_success)) bool  success;
 
-  /// @brief Method get_success, addr 0x6b4eba0, size 0x10, virtual false, abstract: false, final false
-  inline bool get_success();
+/// @brief Method get_success, addr 0x6b4f260, size 0x10, virtual false, abstract: false, final false
+inline bool get_success() ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MatchResult();
+// Ctor Parameters []
+// @brief default ctor
+constexpr MatchResult() ;
 
-  // Ctor Parameters [CppParam { name: "errorCode", ty: "::UnityEngine::UIElements::StyleSheets::MatchResultErrorCode", modifiers: "", def_value: None }, CppParam { name: "errorValue", ty:
-  // "::StringW", modifiers: "", def_value: None }]
-  constexpr MatchResult(::UnityEngine::UIElements::StyleSheets::MatchResultErrorCode errorCode, ::StringW errorValue) noexcept;
+// Ctor Parameters [CppParam { name: "errorCode", ty: "::UnityEngine::UIElements::StyleSheets::MatchResultErrorCode", modifiers: "", def_value: None }, CppParam { name: "errorValue", ty: "::StringW", modifiers: "", def_value: None }]
+constexpr MatchResult(::UnityEngine::UIElements::StyleSheets::MatchResultErrorCode  errorCode, ::StringW  errorValue) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5471 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{5471};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x10};
 
-  /// @brief Field errorCode, offset: 0x0, size: 0x4, def value: None
-  ::UnityEngine::UIElements::StyleSheets::MatchResultErrorCode errorCode;
+/// @brief Field errorCode, offset: 0x0, size: 0x4, def value: None
+ ::UnityEngine::UIElements::StyleSheets::MatchResultErrorCode  errorCode;
 
-  /// @brief Field errorValue, offset: 0x8, size: 0x8, def value: None
-  ::StringW errorValue;
+/// @brief Field errorValue, offset: 0x8, size: 0x8, def value: None
+ ::StringW  errorValue;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::UIElements::StyleSheets::MatchResult, errorCode) == 0x0, "Offset mismatch!");
@@ -54,5 +53,5 @@ static_assert(offsetof(::UnityEngine::UIElements::StyleSheets::MatchResult, erro
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::StyleSheets::MatchResult, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements::StyleSheets
+} // namespace end def UnityEngine::UIElements::StyleSheets
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::StyleSheets::MatchResult, "UnityEngine.UIElements.StyleSheets", "MatchResult");

@@ -24,57 +24,57 @@ namespace Zenject {
 // CS Name: Zenject.PrefabProviderResource
 class CORDL_TYPE PrefabProviderResource : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field _resourcePath, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__resourcePath, put = __cordl_internal_set__resourcePath)) ::StringW _resourcePath;
+// Declarations
+/// @brief Field _resourcePath, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get__resourcePath, put=__cordl_internal_set__resourcePath)) ::StringW  _resourcePath;
 
-  /// @brief Convert operator to "::Zenject::IPrefabProvider"
-  constexpr operator ::Zenject::IPrefabProvider*() noexcept;
+/// @brief Convert operator to "::Zenject::IPrefabProvider"
+constexpr operator  ::Zenject::IPrefabProvider*() noexcept;
 
-  /// @brief Method GetPrefab, addr 0x6cbca40, size 0xd8, virtual true, abstract: false, final true
-  inline ::UnityW<::UnityEngine::Object> GetPrefab();
+/// @brief Method GetPrefab, addr 0x6cbd100, size 0xd8, virtual true, abstract: false, final true
+inline ::UnityW<::UnityEngine::Object> GetPrefab() ;
 
-  static inline ::Zenject::PrefabProviderResource* New_ctor(::StringW resourcePath);
+static inline ::Zenject::PrefabProviderResource* New_ctor(::StringW  resourcePath) ;
 
-  constexpr ::StringW const& __cordl_internal_get__resourcePath() const;
+constexpr ::StringW const& __cordl_internal_get__resourcePath() const;
 
-  constexpr ::StringW& __cordl_internal_get__resourcePath();
+constexpr ::StringW& __cordl_internal_get__resourcePath() ;
 
-  constexpr void __cordl_internal_set__resourcePath(::StringW value);
+constexpr void __cordl_internal_set__resourcePath(::StringW  value) ;
 
-  /// @brief Method .ctor, addr 0x6cbca38, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::StringW resourcePath);
+/// @brief Method .ctor, addr 0x6cbd0f8, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(::StringW  resourcePath) ;
 
-  /// @brief Convert to "::Zenject::IPrefabProvider"
-  constexpr ::Zenject::IPrefabProvider* i___Zenject__IPrefabProvider() noexcept;
+/// @brief Convert to "::Zenject::IPrefabProvider"
+constexpr ::Zenject::IPrefabProvider* i___Zenject__IPrefabProvider() noexcept;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PrefabProviderResource();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr PrefabProviderResource() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PrefabProviderResource", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  PrefabProviderResource(PrefabProviderResource&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PrefabProviderResource", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  PrefabProviderResource(PrefabProviderResource const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "PrefabProviderResource", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+PrefabProviderResource(PrefabProviderResource && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14560 };
+// Ctor Parameters [CppParam { name: "", ty: "PrefabProviderResource", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+PrefabProviderResource(PrefabProviderResource const& ) = delete;
 
-  /// @brief Field _resourcePath, offset: 0x10, size: 0x8, def value: None
-  ::StringW ____resourcePath;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{14564};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _resourcePath, offset: 0x10, size: 0x8, def value: None
+ ::StringW  ____resourcePath;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Zenject::PrefabProviderResource, ____resourcePath) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::Zenject::PrefabProviderResource, 0x18>, "Size mismatch!");
 
-} // namespace Zenject
+} // namespace end def Zenject
 NEED_NO_BOX(::Zenject::PrefabProviderResource);
 DEFINE_IL2CPP_ARG_TYPE(::Zenject::PrefabProviderResource*, "Zenject", "PrefabProviderResource");

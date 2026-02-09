@@ -24,65 +24,64 @@ MARK_REF_PTR_T(::UnityEngine::Rendering::RenderGraphModule::TextureResource);
 namespace UnityEngine::Rendering::RenderGraphModule {
 // Is value type: false
 // CS Name: UnityEngine.Rendering.RenderGraphModule.TextureResource
-class CORDL_TYPE TextureResource
-    : public ::UnityEngine::Rendering::RenderGraphModule::RenderGraphResource_2<::UnityEngine::Rendering::RenderGraphModule::TextureDesc, ::UnityEngine::Rendering::RTHandle*> {
+class CORDL_TYPE TextureResource : public ::UnityEngine::Rendering::RenderGraphModule::RenderGraphResource_2<::UnityEngine::Rendering::RenderGraphModule::TextureDesc,::UnityEngine::Rendering::RTHandle*> {
 public:
-  // Declarations
-  /// @brief Field m_TextureCreationIndex, offset 0xffffffff, size 0x4
-  __declspec(property(get = getStaticF_m_TextureCreationIndex, put = setStaticF_m_TextureCreationIndex)) int32_t m_TextureCreationIndex;
+// Declarations
+/// @brief Field m_TextureCreationIndex, offset 0xffffffff, size 0x4 
+ __declspec(property(get=getStaticF_m_TextureCreationIndex, put=setStaticF_m_TextureCreationIndex)) int32_t  m_TextureCreationIndex;
 
-  /// @brief Method CreateGraphicsResource, addr 0x6633e0c, size 0x410, virtual true, abstract: false, final false
-  inline void CreateGraphicsResource();
+/// @brief Method CreateGraphicsResource, addr 0x66344cc, size 0x410, virtual true, abstract: false, final false
+inline void CreateGraphicsResource() ;
 
-  /// @brief Method GetDescHashCode, addr 0x6633e04, size 0x8, virtual true, abstract: false, final false
-  inline int32_t GetDescHashCode();
+/// @brief Method GetDescHashCode, addr 0x66344c4, size 0x8, virtual true, abstract: false, final false
+inline int32_t GetDescHashCode() ;
 
-  /// @brief Method GetName, addr 0x6633d90, size 0x74, virtual true, abstract: false, final false
-  inline ::StringW GetName();
+/// @brief Method GetName, addr 0x6634450, size 0x74, virtual true, abstract: false, final false
+inline ::StringW GetName() ;
 
-  /// @brief Method LogCreation, addr 0x6634294, size 0x134, virtual true, abstract: false, final false
-  inline void LogCreation(::UnityEngine::Rendering::RenderGraphModule::RenderGraphLogger* logger);
+/// @brief Method LogCreation, addr 0x6634954, size 0x134, virtual true, abstract: false, final false
+inline void LogCreation(::UnityEngine::Rendering::RenderGraphModule::RenderGraphLogger*  logger) ;
 
-  /// @brief Method LogRelease, addr 0x66343c8, size 0xe4, virtual true, abstract: false, final false
-  inline void LogRelease(::UnityEngine::Rendering::RenderGraphModule::RenderGraphLogger* logger);
+/// @brief Method LogRelease, addr 0x6634a88, size 0xe4, virtual true, abstract: false, final false
+inline void LogRelease(::UnityEngine::Rendering::RenderGraphModule::RenderGraphLogger*  logger) ;
 
-  static inline ::UnityEngine::Rendering::RenderGraphModule::TextureResource* New_ctor();
+static inline ::UnityEngine::Rendering::RenderGraphModule::TextureResource* New_ctor() ;
 
-  /// @brief Method ReleaseGraphicsResource, addr 0x6634240, size 0x54, virtual true, abstract: false, final false
-  inline void ReleaseGraphicsResource();
+/// @brief Method ReleaseGraphicsResource, addr 0x6634900, size 0x54, virtual true, abstract: false, final false
+inline void ReleaseGraphicsResource() ;
 
-  /// @brief Method UpdateGraphicsResource, addr 0x663421c, size 0x24, virtual true, abstract: false, final false
-  inline void UpdateGraphicsResource();
+/// @brief Method UpdateGraphicsResource, addr 0x66348dc, size 0x24, virtual true, abstract: false, final false
+inline void UpdateGraphicsResource() ;
 
-  /// @brief Method .ctor, addr 0x66344ac, size 0x3c, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6634b6c, size 0x3c, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  static inline int32_t getStaticF_m_TextureCreationIndex();
+static inline int32_t getStaticF_m_TextureCreationIndex() ;
 
-  static inline void setStaticF_m_TextureCreationIndex(int32_t value);
+static inline void setStaticF_m_TextureCreationIndex(int32_t  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TextureResource();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr TextureResource() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TextureResource", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  TextureResource(TextureResource&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TextureResource", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  TextureResource(TextureResource const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "TextureResource", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+TextureResource(TextureResource && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12441 };
+// Ctor Parameters [CppParam { name: "", ty: "TextureResource", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+TextureResource(TextureResource const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12445};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::RenderGraphModule::TextureResource, 0xc8>, "Size mismatch!");
 
-} // namespace UnityEngine::Rendering::RenderGraphModule
+} // namespace end def UnityEngine::Rendering::RenderGraphModule
 NEED_NO_BOX(::UnityEngine::Rendering::RenderGraphModule::TextureResource);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::RenderGraphModule::TextureResource*, "UnityEngine.Rendering.RenderGraphModule", "TextureResource");

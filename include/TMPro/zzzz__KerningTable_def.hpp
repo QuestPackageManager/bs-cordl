@@ -8,10 +8,12 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(KerningTable)
 namespace System::Collections::Generic {
-template <typename T> class List_1;
+template<typename T>
+class List_1;
 }
 namespace System {
-template <typename T, typename TResult> class Func_2;
+template<typename T,typename TResult>
+class Func_2;
 }
 namespace TMPro {
 struct GlyphValueRecord_Legacy;
@@ -59,119 +61,119 @@ namespace TMPro {
 // CS Name: TMPro.KerningTable/<>c
 class CORDL_TYPE KerningTable___c : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field <>9, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::TMPro::KerningTable___c* __9;
+// Declarations
+/// @brief Field <>9, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF___9, put=setStaticF___9)) ::TMPro::KerningTable___c*  __9;
 
-  /// @brief Field <>9__7_0, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9__7_0, put = setStaticF___9__7_0)) ::System::Func_2<::TMPro::KerningPair*, uint32_t>* __9__7_0;
+/// @brief Field <>9__7_0, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF___9__7_0, put=setStaticF___9__7_0)) ::System::Func_2<::TMPro::KerningPair*,uint32_t>*  __9__7_0;
 
-  /// @brief Field <>9__7_1, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9__7_1, put = setStaticF___9__7_1)) ::System::Func_2<::TMPro::KerningPair*, uint32_t>* __9__7_1;
+/// @brief Field <>9__7_1, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF___9__7_1, put=setStaticF___9__7_1)) ::System::Func_2<::TMPro::KerningPair*,uint32_t>*  __9__7_1;
 
-  static inline ::TMPro::KerningTable___c* New_ctor();
+static inline ::TMPro::KerningTable___c* New_ctor() ;
 
-  /// @brief Method <SortKerningPairs>b__7_0, addr 0x67a50a0, size 0x14, virtual false, abstract: false, final false
-  inline uint32_t _SortKerningPairs_b__7_0(::TMPro::KerningPair* s);
+/// @brief Method <SortKerningPairs>b__7_0, addr 0x67a5760, size 0x14, virtual false, abstract: false, final false
+inline uint32_t _SortKerningPairs_b__7_0(::TMPro::KerningPair*  s) ;
 
-  /// @brief Method <SortKerningPairs>b__7_1, addr 0x67a50b4, size 0x14, virtual false, abstract: false, final false
-  inline uint32_t _SortKerningPairs_b__7_1(::TMPro::KerningPair* s);
+/// @brief Method <SortKerningPairs>b__7_1, addr 0x67a5774, size 0x14, virtual false, abstract: false, final false
+inline uint32_t _SortKerningPairs_b__7_1(::TMPro::KerningPair*  s) ;
 
-  /// @brief Method .ctor, addr 0x67a509c, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x67a575c, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  static inline ::TMPro::KerningTable___c* getStaticF___9();
+static inline ::TMPro::KerningTable___c* getStaticF___9() ;
 
-  static inline ::System::Func_2<::TMPro::KerningPair*, uint32_t>* getStaticF___9__7_0();
+static inline ::System::Func_2<::TMPro::KerningPair*,uint32_t>* getStaticF___9__7_0() ;
 
-  static inline ::System::Func_2<::TMPro::KerningPair*, uint32_t>* getStaticF___9__7_1();
+static inline ::System::Func_2<::TMPro::KerningPair*,uint32_t>* getStaticF___9__7_1() ;
 
-  static inline void setStaticF___9(::TMPro::KerningTable___c* value);
+static inline void setStaticF___9(::TMPro::KerningTable___c*  value) ;
 
-  static inline void setStaticF___9__7_0(::System::Func_2<::TMPro::KerningPair*, uint32_t>* value);
+static inline void setStaticF___9__7_0(::System::Func_2<::TMPro::KerningPair*,uint32_t>*  value) ;
 
-  static inline void setStaticF___9__7_1(::System::Func_2<::TMPro::KerningPair*, uint32_t>* value);
+static inline void setStaticF___9__7_1(::System::Func_2<::TMPro::KerningPair*,uint32_t>*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr KerningTable___c();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr KerningTable___c() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "KerningTable___c", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  KerningTable___c(KerningTable___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "KerningTable___c", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  KerningTable___c(KerningTable___c const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "KerningTable___c", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+KerningTable___c(KerningTable___c && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15892 };
+// Ctor Parameters [CppParam { name: "", ty: "KerningTable___c", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+KerningTable___c(KerningTable___c const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{15896};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::TMPro::KerningTable___c, 0x10>, "Size mismatch!");
 
-} // namespace TMPro
+} // namespace end def TMPro
 // Dependencies System.Object
 namespace TMPro {
 // Is value type: false
 // CS Name: TMPro.KerningTable/<>c__DisplayClass3_0
 class CORDL_TYPE KerningTable___c__DisplayClass3_0 : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field first, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_first, put = __cordl_internal_set_first)) uint32_t first;
+// Declarations
+/// @brief Field first, offset 0x10, size 0x4 
+ __declspec(property(get=__cordl_internal_get_first, put=__cordl_internal_set_first)) uint32_t  first;
 
-  /// @brief Field second, offset 0x14, size 0x4
-  __declspec(property(get = __cordl_internal_get_second, put = __cordl_internal_set_second)) uint32_t second;
+/// @brief Field second, offset 0x14, size 0x4 
+ __declspec(property(get=__cordl_internal_get_second, put=__cordl_internal_set_second)) uint32_t  second;
 
-  static inline ::TMPro::KerningTable___c__DisplayClass3_0* New_ctor();
+static inline ::TMPro::KerningTable___c__DisplayClass3_0* New_ctor() ;
 
-  /// @brief Method <AddKerningPair>b__0, addr 0x67a50c8, size 0x38, virtual false, abstract: false, final false
-  inline bool _AddKerningPair_b__0(::TMPro::KerningPair* item);
+/// @brief Method <AddKerningPair>b__0, addr 0x67a5788, size 0x38, virtual false, abstract: false, final false
+inline bool _AddKerningPair_b__0(::TMPro::KerningPair*  item) ;
 
-  constexpr uint32_t const& __cordl_internal_get_first() const;
+constexpr uint32_t const& __cordl_internal_get_first() const;
 
-  constexpr uint32_t& __cordl_internal_get_first();
+constexpr uint32_t& __cordl_internal_get_first() ;
 
-  constexpr uint32_t const& __cordl_internal_get_second() const;
+constexpr uint32_t const& __cordl_internal_get_second() const;
 
-  constexpr uint32_t& __cordl_internal_get_second();
+constexpr uint32_t& __cordl_internal_get_second() ;
 
-  constexpr void __cordl_internal_set_first(uint32_t value);
+constexpr void __cordl_internal_set_first(uint32_t  value) ;
 
-  constexpr void __cordl_internal_set_second(uint32_t value);
+constexpr void __cordl_internal_set_second(uint32_t  value) ;
 
-  /// @brief Method .ctor, addr 0x67a4abc, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x67a517c, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr KerningTable___c__DisplayClass3_0();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr KerningTable___c__DisplayClass3_0() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "KerningTable___c__DisplayClass3_0", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  KerningTable___c__DisplayClass3_0(KerningTable___c__DisplayClass3_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "KerningTable___c__DisplayClass3_0", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  KerningTable___c__DisplayClass3_0(KerningTable___c__DisplayClass3_0 const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "KerningTable___c__DisplayClass3_0", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+KerningTable___c__DisplayClass3_0(KerningTable___c__DisplayClass3_0 && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15893 };
+// Ctor Parameters [CppParam { name: "", ty: "KerningTable___c__DisplayClass3_0", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+KerningTable___c__DisplayClass3_0(KerningTable___c__DisplayClass3_0 const& ) = delete;
 
-  /// @brief Field first, offset: 0x10, size: 0x4, def value: None
-  uint32_t ___first;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{15897};
 
-  /// @brief Field second, offset: 0x14, size: 0x4, def value: None
-  uint32_t ___second;
+/// @brief Field first, offset: 0x10, size: 0x4, def value: None
+ uint32_t  ___first;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field second, offset: 0x14, size: 0x4, def value: None
+ uint32_t  ___second;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::TMPro::KerningTable___c__DisplayClass3_0, ___first) == 0x10, "Offset mismatch!");
@@ -180,64 +182,64 @@ static_assert(offsetof(::TMPro::KerningTable___c__DisplayClass3_0, ___second) ==
 
 static_assert(::cordl_internals::size_check_v<::TMPro::KerningTable___c__DisplayClass3_0, 0x18>, "Size mismatch!");
 
-} // namespace TMPro
+} // namespace end def TMPro
 // Dependencies System.Object
 namespace TMPro {
 // Is value type: false
 // CS Name: TMPro.KerningTable/<>c__DisplayClass4_0
 class CORDL_TYPE KerningTable___c__DisplayClass4_0 : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field first, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_first, put = __cordl_internal_set_first)) uint32_t first;
+// Declarations
+/// @brief Field first, offset 0x10, size 0x4 
+ __declspec(property(get=__cordl_internal_get_first, put=__cordl_internal_set_first)) uint32_t  first;
 
-  /// @brief Field second, offset 0x14, size 0x4
-  __declspec(property(get = __cordl_internal_get_second, put = __cordl_internal_set_second)) uint32_t second;
+/// @brief Field second, offset 0x14, size 0x4 
+ __declspec(property(get=__cordl_internal_get_second, put=__cordl_internal_set_second)) uint32_t  second;
 
-  static inline ::TMPro::KerningTable___c__DisplayClass4_0* New_ctor();
+static inline ::TMPro::KerningTable___c__DisplayClass4_0* New_ctor() ;
 
-  /// @brief Method <AddGlyphPairAdjustmentRecord>b__0, addr 0x67a5100, size 0x38, virtual false, abstract: false, final false
-  inline bool _AddGlyphPairAdjustmentRecord_b__0(::TMPro::KerningPair* item);
+/// @brief Method <AddGlyphPairAdjustmentRecord>b__0, addr 0x67a57c0, size 0x38, virtual false, abstract: false, final false
+inline bool _AddGlyphPairAdjustmentRecord_b__0(::TMPro::KerningPair*  item) ;
 
-  constexpr uint32_t const& __cordl_internal_get_first() const;
+constexpr uint32_t const& __cordl_internal_get_first() const;
 
-  constexpr uint32_t& __cordl_internal_get_first();
+constexpr uint32_t& __cordl_internal_get_first() ;
 
-  constexpr uint32_t const& __cordl_internal_get_second() const;
+constexpr uint32_t const& __cordl_internal_get_second() const;
 
-  constexpr uint32_t& __cordl_internal_get_second();
+constexpr uint32_t& __cordl_internal_get_second() ;
 
-  constexpr void __cordl_internal_set_first(uint32_t value);
+constexpr void __cordl_internal_set_first(uint32_t  value) ;
 
-  constexpr void __cordl_internal_set_second(uint32_t value);
+constexpr void __cordl_internal_set_second(uint32_t  value) ;
 
-  /// @brief Method .ctor, addr 0x67a4cb0, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x67a5370, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr KerningTable___c__DisplayClass4_0();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr KerningTable___c__DisplayClass4_0() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "KerningTable___c__DisplayClass4_0", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  KerningTable___c__DisplayClass4_0(KerningTable___c__DisplayClass4_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "KerningTable___c__DisplayClass4_0", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  KerningTable___c__DisplayClass4_0(KerningTable___c__DisplayClass4_0 const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "KerningTable___c__DisplayClass4_0", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+KerningTable___c__DisplayClass4_0(KerningTable___c__DisplayClass4_0 && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15894 };
+// Ctor Parameters [CppParam { name: "", ty: "KerningTable___c__DisplayClass4_0", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+KerningTable___c__DisplayClass4_0(KerningTable___c__DisplayClass4_0 const& ) = delete;
 
-  /// @brief Field first, offset: 0x10, size: 0x4, def value: None
-  uint32_t ___first;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{15898};
 
-  /// @brief Field second, offset: 0x14, size: 0x4, def value: None
-  uint32_t ___second;
+/// @brief Field first, offset: 0x10, size: 0x4, def value: None
+ uint32_t  ___first;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field second, offset: 0x14, size: 0x4, def value: None
+ uint32_t  ___second;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::TMPro::KerningTable___c__DisplayClass4_0, ___first) == 0x10, "Offset mismatch!");
@@ -246,64 +248,64 @@ static_assert(offsetof(::TMPro::KerningTable___c__DisplayClass4_0, ___second) ==
 
 static_assert(::cordl_internals::size_check_v<::TMPro::KerningTable___c__DisplayClass4_0, 0x18>, "Size mismatch!");
 
-} // namespace TMPro
+} // namespace end def TMPro
 // Dependencies System.Object
 namespace TMPro {
 // Is value type: false
 // CS Name: TMPro.KerningTable/<>c__DisplayClass5_0
 class CORDL_TYPE KerningTable___c__DisplayClass5_0 : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field left, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_left, put = __cordl_internal_set_left)) int32_t left;
+// Declarations
+/// @brief Field left, offset 0x10, size 0x4 
+ __declspec(property(get=__cordl_internal_get_left, put=__cordl_internal_set_left)) int32_t  left;
 
-  /// @brief Field right, offset 0x14, size 0x4
-  __declspec(property(get = __cordl_internal_get_right, put = __cordl_internal_set_right)) int32_t right;
+/// @brief Field right, offset 0x14, size 0x4 
+ __declspec(property(get=__cordl_internal_get_right, put=__cordl_internal_set_right)) int32_t  right;
 
-  static inline ::TMPro::KerningTable___c__DisplayClass5_0* New_ctor();
+static inline ::TMPro::KerningTable___c__DisplayClass5_0* New_ctor() ;
 
-  /// @brief Method <RemoveKerningPair>b__0, addr 0x67a5138, size 0x38, virtual false, abstract: false, final false
-  inline bool _RemoveKerningPair_b__0(::TMPro::KerningPair* item);
+/// @brief Method <RemoveKerningPair>b__0, addr 0x67a57f8, size 0x38, virtual false, abstract: false, final false
+inline bool _RemoveKerningPair_b__0(::TMPro::KerningPair*  item) ;
 
-  constexpr int32_t const& __cordl_internal_get_left() const;
+constexpr int32_t const& __cordl_internal_get_left() const;
 
-  constexpr int32_t& __cordl_internal_get_left();
+constexpr int32_t& __cordl_internal_get_left() ;
 
-  constexpr int32_t const& __cordl_internal_get_right() const;
+constexpr int32_t const& __cordl_internal_get_right() const;
 
-  constexpr int32_t& __cordl_internal_get_right();
+constexpr int32_t& __cordl_internal_get_right() ;
 
-  constexpr void __cordl_internal_set_left(int32_t value);
+constexpr void __cordl_internal_set_left(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_right(int32_t value);
+constexpr void __cordl_internal_set_right(int32_t  value) ;
 
-  /// @brief Method .ctor, addr 0x67a4ddc, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x67a549c, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr KerningTable___c__DisplayClass5_0();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr KerningTable___c__DisplayClass5_0() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "KerningTable___c__DisplayClass5_0", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  KerningTable___c__DisplayClass5_0(KerningTable___c__DisplayClass5_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "KerningTable___c__DisplayClass5_0", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  KerningTable___c__DisplayClass5_0(KerningTable___c__DisplayClass5_0 const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "KerningTable___c__DisplayClass5_0", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+KerningTable___c__DisplayClass5_0(KerningTable___c__DisplayClass5_0 && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15895 };
+// Ctor Parameters [CppParam { name: "", ty: "KerningTable___c__DisplayClass5_0", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+KerningTable___c__DisplayClass5_0(KerningTable___c__DisplayClass5_0 const& ) = delete;
 
-  /// @brief Field left, offset: 0x10, size: 0x4, def value: None
-  int32_t ___left;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{15899};
 
-  /// @brief Field right, offset: 0x14, size: 0x4, def value: None
-  int32_t ___right;
+/// @brief Field left, offset: 0x10, size: 0x4, def value: None
+ int32_t  ___left;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field right, offset: 0x14, size: 0x4, def value: None
+ int32_t  ___right;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::TMPro::KerningTable___c__DisplayClass5_0, ___left) == 0x10, "Offset mismatch!");
@@ -312,82 +314,82 @@ static_assert(offsetof(::TMPro::KerningTable___c__DisplayClass5_0, ___right) == 
 
 static_assert(::cordl_internals::size_check_v<::TMPro::KerningTable___c__DisplayClass5_0, 0x18>, "Size mismatch!");
 
-} // namespace TMPro
+} // namespace end def TMPro
 // Dependencies System.Object
 namespace TMPro {
 // Is value type: false
 // CS Name: TMPro.KerningTable
 class CORDL_TYPE KerningTable : public ::System::Object {
 public:
-  // Declarations
-  using __c = ::TMPro::KerningTable___c;
+// Declarations
+using __c = ::TMPro::KerningTable___c;
 
-  using __c__DisplayClass3_0 = ::TMPro::KerningTable___c__DisplayClass3_0;
+using __c__DisplayClass3_0 = ::TMPro::KerningTable___c__DisplayClass3_0;
 
-  using __c__DisplayClass4_0 = ::TMPro::KerningTable___c__DisplayClass4_0;
+using __c__DisplayClass4_0 = ::TMPro::KerningTable___c__DisplayClass4_0;
 
-  using __c__DisplayClass5_0 = ::TMPro::KerningTable___c__DisplayClass5_0;
+using __c__DisplayClass5_0 = ::TMPro::KerningTable___c__DisplayClass5_0;
 
-  /// @brief Field kerningPairs, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_kerningPairs, put = __cordl_internal_set_kerningPairs)) ::System::Collections::Generic::List_1<::TMPro::KerningPair*>* kerningPairs;
+/// @brief Field kerningPairs, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_kerningPairs, put=__cordl_internal_set_kerningPairs)) ::System::Collections::Generic::List_1<::TMPro::KerningPair*>*  kerningPairs;
 
-  /// @brief Method AddGlyphPairAdjustmentRecord, addr 0x67a4ac0, size 0x1f0, virtual false, abstract: false, final false
-  inline int32_t AddGlyphPairAdjustmentRecord(uint32_t first, ::TMPro::GlyphValueRecord_Legacy firstAdjustments, uint32_t second, ::TMPro::GlyphValueRecord_Legacy secondAdjustments);
+/// @brief Method AddGlyphPairAdjustmentRecord, addr 0x67a5180, size 0x1f0, virtual false, abstract: false, final false
+inline int32_t AddGlyphPairAdjustmentRecord(uint32_t  first, ::TMPro::GlyphValueRecord_Legacy  firstAdjustments, uint32_t  second, ::TMPro::GlyphValueRecord_Legacy  secondAdjustments) ;
 
-  /// @brief Method AddKerningPair, addr 0x67a490c, size 0x1b0, virtual false, abstract: false, final false
-  inline int32_t AddKerningPair(uint32_t first, uint32_t second, float_t offset);
+/// @brief Method AddKerningPair, addr 0x67a4fcc, size 0x1b0, virtual false, abstract: false, final false
+inline int32_t AddKerningPair(uint32_t  first, uint32_t  second, float_t  offset) ;
 
-  /// @brief Method AddKerningPair, addr 0x67a4744, size 0x1c8, virtual false, abstract: false, final false
-  inline void AddKerningPair();
+/// @brief Method AddKerningPair, addr 0x67a4e04, size 0x1c8, virtual false, abstract: false, final false
+inline void AddKerningPair() ;
 
-  static inline ::TMPro::KerningTable* New_ctor();
+static inline ::TMPro::KerningTable* New_ctor() ;
 
-  /// @brief Method RemoveKerningPair, addr 0x67a4de0, size 0x64, virtual false, abstract: false, final false
-  inline void RemoveKerningPair(int32_t index);
+/// @brief Method RemoveKerningPair, addr 0x67a54a0, size 0x64, virtual false, abstract: false, final false
+inline void RemoveKerningPair(int32_t  index) ;
 
-  /// @brief Method RemoveKerningPair, addr 0x67a4cb4, size 0x128, virtual false, abstract: false, final false
-  inline void RemoveKerningPair(int32_t left, int32_t right);
+/// @brief Method RemoveKerningPair, addr 0x67a5374, size 0x128, virtual false, abstract: false, final false
+inline void RemoveKerningPair(int32_t  left, int32_t  right) ;
 
-  /// @brief Method SortKerningPairs, addr 0x67a4e44, size 0x204, virtual false, abstract: false, final false
-  inline void SortKerningPairs();
+/// @brief Method SortKerningPairs, addr 0x67a5504, size 0x204, virtual false, abstract: false, final false
+inline void SortKerningPairs() ;
 
-  constexpr ::System::Collections::Generic::List_1<::TMPro::KerningPair*>* const& __cordl_internal_get_kerningPairs() const;
+constexpr ::System::Collections::Generic::List_1<::TMPro::KerningPair*>* const& __cordl_internal_get_kerningPairs() const;
 
-  constexpr ::System::Collections::Generic::List_1<::TMPro::KerningPair*>*& __cordl_internal_get_kerningPairs();
+constexpr ::System::Collections::Generic::List_1<::TMPro::KerningPair*>*& __cordl_internal_get_kerningPairs() ;
 
-  constexpr void __cordl_internal_set_kerningPairs(::System::Collections::Generic::List_1<::TMPro::KerningPair*>* value);
+constexpr void __cordl_internal_set_kerningPairs(::System::Collections::Generic::List_1<::TMPro::KerningPair*>*  value) ;
 
-  /// @brief Method .ctor, addr 0x67a46d0, size 0x74, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x67a4d90, size 0x74, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr KerningTable();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr KerningTable() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "KerningTable", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  KerningTable(KerningTable&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "KerningTable", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  KerningTable(KerningTable const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "KerningTable", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+KerningTable(KerningTable && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15896 };
+// Ctor Parameters [CppParam { name: "", ty: "KerningTable", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+KerningTable(KerningTable const& ) = delete;
 
-  /// @brief Field kerningPairs, offset: 0x10, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::TMPro::KerningPair*>* ___kerningPairs;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{15900};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field kerningPairs, offset: 0x10, size: 0x8, def value: None
+ ::System::Collections::Generic::List_1<::TMPro::KerningPair*>*  ___kerningPairs;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::TMPro::KerningTable, ___kerningPairs) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::TMPro::KerningTable, 0x18>, "Size mismatch!");
 
-} // namespace TMPro
+} // namespace end def TMPro
 NEED_NO_BOX(::TMPro::KerningTable);
 DEFINE_IL2CPP_ARG_TYPE(::TMPro::KerningTable*, "TMPro", "KerningTable");
 NEED_NO_BOX(::TMPro::KerningTable___c);

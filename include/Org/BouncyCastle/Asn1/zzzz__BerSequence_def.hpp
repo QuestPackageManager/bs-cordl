@@ -26,62 +26,62 @@ namespace Org::BouncyCastle::Asn1 {
 // CS Name: Org.BouncyCastle.Asn1.BerSequence
 class CORDL_TYPE BerSequence : public ::Org::BouncyCastle::Asn1::DerSequence {
 public:
-  // Declarations
-  /// @brief Field Empty, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_Empty, put = setStaticF_Empty)) ::Org::BouncyCastle::Asn1::BerSequence* Empty;
+// Declarations
+/// @brief Field Empty, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_Empty, put=setStaticF_Empty)) ::Org::BouncyCastle::Asn1::BerSequence*  Empty;
 
-  /// @brief Method Encode, addr 0x358f820, size 0x3d4, virtual true, abstract: false, final false
-  inline void Encode(::Org::BouncyCastle::Asn1::DerOutputStream* derOut);
+/// @brief Method Encode, addr 0x358f770, size 0x3d4, virtual true, abstract: false, final false
+inline void Encode(::Org::BouncyCastle::Asn1::DerOutputStream*  derOut) ;
 
-  /// @brief Method FromVector, addr 0x358bfd0, size 0x8c, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Asn1::BerSequence* FromVector(::Org::BouncyCastle::Asn1::Asn1EncodableVector* elementVector);
+/// @brief Method FromVector, addr 0x358bf20, size 0x8c, virtual false, abstract: false, final false
+static inline ::Org::BouncyCastle::Asn1::BerSequence* FromVector(::Org::BouncyCastle::Asn1::Asn1EncodableVector*  elementVector) ;
 
-  static inline ::Org::BouncyCastle::Asn1::BerSequence* New_ctor();
+static inline ::Org::BouncyCastle::Asn1::BerSequence* New_ctor() ;
 
-  static inline ::Org::BouncyCastle::Asn1::BerSequence* New_ctor(::Org::BouncyCastle::Asn1::Asn1Encodable* element);
+static inline ::Org::BouncyCastle::Asn1::BerSequence* New_ctor(::Org::BouncyCastle::Asn1::Asn1Encodable*  element) ;
 
-  static inline ::Org::BouncyCastle::Asn1::BerSequence* New_ctor(::Org::BouncyCastle::Asn1::Asn1EncodableVector* elementVector);
+static inline ::Org::BouncyCastle::Asn1::BerSequence* New_ctor(::Org::BouncyCastle::Asn1::Asn1EncodableVector*  elementVector) ;
 
-  static inline ::Org::BouncyCastle::Asn1::BerSequence* New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*, ::Array<::Org::BouncyCastle::Asn1::Asn1Encodable*>*> elements);
+static inline ::Org::BouncyCastle::Asn1::BerSequence* New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*,::Array<::Org::BouncyCastle::Asn1::Asn1Encodable*>*>  elements) ;
 
-  /// @brief Method .ctor, addr 0x358f760, size 0x58, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x358f6b0, size 0x58, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method .ctor, addr 0x3589f30, size 0x68, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Encodable* element);
+/// @brief Method .ctor, addr 0x3589e80, size 0x68, virtual false, abstract: false, final false
+inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Encodable*  element) ;
 
-  /// @brief Method .ctor, addr 0x358f6f8, size 0x68, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Asn1::Asn1EncodableVector* elementVector);
+/// @brief Method .ctor, addr 0x358f648, size 0x68, virtual false, abstract: false, final false
+inline void _ctor(::Org::BouncyCastle::Asn1::Asn1EncodableVector*  elementVector) ;
 
-  /// @brief Method .ctor, addr 0x358f7b8, size 0x68, virtual false, abstract: false, final false
-  inline void _ctor(::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*, ::Array<::Org::BouncyCastle::Asn1::Asn1Encodable*>*> elements);
+/// @brief Method .ctor, addr 0x358f708, size 0x68, virtual false, abstract: false, final false
+inline void _ctor(::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*,::Array<::Org::BouncyCastle::Asn1::Asn1Encodable*>*>  elements) ;
 
-  static inline ::Org::BouncyCastle::Asn1::BerSequence* getStaticF_Empty();
+static inline ::Org::BouncyCastle::Asn1::BerSequence* getStaticF_Empty() ;
 
-  static inline void setStaticF_Empty(::Org::BouncyCastle::Asn1::BerSequence* value);
+static inline void setStaticF_Empty(::Org::BouncyCastle::Asn1::BerSequence*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BerSequence();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr BerSequence() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BerSequence", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  BerSequence(BerSequence&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BerSequence", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  BerSequence(BerSequence const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "BerSequence", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+BerSequence(BerSequence && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 488 };
+// Ctor Parameters [CppParam { name: "", ty: "BerSequence", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+BerSequence(BerSequence const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{488};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::BerSequence, 0x18>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Asn1
+} // namespace end def Org::BouncyCastle::Asn1
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::BerSequence);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::BerSequence*, "Org.BouncyCastle.Asn1", "BerSequence");

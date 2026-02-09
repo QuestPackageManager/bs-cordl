@@ -4,55 +4,72 @@
 #include "HMUI/zzzz__ScreenModeSO_def.hpp"
 #include "HMUI/zzzz__ScreenModeData_def.hpp"
 //  Writing Method size for method: ::HMUI::ScreenModeSO.get_data
-template <>
+template<>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HMUI::ScreenModeData* (::HMUI::ScreenModeSO::*)()>(&::HMUI::ScreenModeSO::get_data)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32003b4;
+  constexpr static std::size_t addrs = 0x3200304;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ScreenModeSO*>::get(), "get_data",
-                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ScreenModeSO*>::get(),
+                        "get_data",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::HMUI::ScreenModeSO._ctor
-template <>
+template<>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ScreenModeSO::*)()>(&::HMUI::ScreenModeSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x32003bc;
+  constexpr static std::size_t addrs = 0x320030c;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ScreenModeSO*>::get(), ".ctor",
-                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ScreenModeSO*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
-constexpr ::HMUI::ScreenModeData*& HMUI::ScreenModeSO::__cordl_internal_get__data() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____data;
+constexpr ::HMUI::ScreenModeData*& HMUI::ScreenModeSO::__cordl_internal_get__data()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____data;
 }
 constexpr ::HMUI::ScreenModeData* const& HMUI::ScreenModeSO::__cordl_internal_get__data() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____data;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____data;
 }
-constexpr void HMUI::ScreenModeSO::__cordl_internal_set__data(::HMUI::ScreenModeData* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____data)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void HMUI::ScreenModeSO::__cordl_internal_set__data(::HMUI::ScreenModeData*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____data)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::HMUI::ScreenModeData* HMUI::ScreenModeSO::get_data() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ScreenModeSO*>::get(), "get_data",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::HMUI::ScreenModeData*, false>(this, ___internal_method);
+inline ::HMUI::ScreenModeData* HMUI::ScreenModeSO::get_data()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ScreenModeSO*>::get(),
+                        "get_data",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<::HMUI::ScreenModeData*, false>(this, ___internal_method);
 }
-inline void HMUI::ScreenModeSO::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ScreenModeSO*>::get(), ".ctor",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void HMUI::ScreenModeSO::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ScreenModeSO*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::HMUI::ScreenModeSO* HMUI::ScreenModeSO::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HMUI::ScreenModeSO*>());
+inline ::HMUI::ScreenModeSO* HMUI::ScreenModeSO::New_ctor()  {
+return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HMUI::ScreenModeSO*>());
 }
 // Ctor Parameters []
-constexpr ::HMUI::ScreenModeSO::ScreenModeSO() {}
+constexpr ::HMUI::ScreenModeSO::ScreenModeSO()   {
+}

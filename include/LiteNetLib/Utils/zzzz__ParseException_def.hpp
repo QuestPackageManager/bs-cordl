@@ -18,34 +18,34 @@ namespace LiteNetLib::Utils {
 // CS Name: LiteNetLib.Utils.ParseException
 class CORDL_TYPE ParseException : public ::System::Exception {
 public:
-  // Declarations
-  static inline ::LiteNetLib::Utils::ParseException* New_ctor(::StringW message);
+// Declarations
+static inline ::LiteNetLib::Utils::ParseException* New_ctor(::StringW  message) ;
 
-  /// @brief Method .ctor, addr 0x56f8ce4, size 0x6c, virtual false, abstract: false, final false
-  inline void _ctor(::StringW message);
+/// @brief Method .ctor, addr 0x56f8a6c, size 0x6c, virtual false, abstract: false, final false
+inline void _ctor(::StringW  message) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ParseException();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ParseException() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ParseException", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ParseException(ParseException&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ParseException", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ParseException(ParseException const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ParseException", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ParseException(ParseException && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19877 };
+// Ctor Parameters [CppParam { name: "", ty: "ParseException", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ParseException(ParseException const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{19881};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::LiteNetLib::Utils::ParseException, 0x90>, "Size mismatch!");
 
-} // namespace LiteNetLib::Utils
+} // namespace end def LiteNetLib::Utils
 NEED_NO_BOX(::LiteNetLib::Utils::ParseException);
 DEFINE_IL2CPP_ARG_TYPE(::LiteNetLib::Utils::ParseException*, "LiteNetLib.Utils", "ParseException");

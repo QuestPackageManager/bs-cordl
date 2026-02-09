@@ -17,34 +17,34 @@ namespace GlobalNamespace {
 // CS Name: JumpDestinationMarker
 class CORDL_TYPE JumpDestinationMarker : public ::UnityEngine::Timeline::Marker {
 public:
-  // Declarations
-  static inline ::GlobalNamespace::JumpDestinationMarker* New_ctor();
+// Declarations
+static inline ::GlobalNamespace::JumpDestinationMarker* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x56a47c8, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x56a4550, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr JumpDestinationMarker();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr JumpDestinationMarker() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "JumpDestinationMarker", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  JumpDestinationMarker(JumpDestinationMarker&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "JumpDestinationMarker", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  JumpDestinationMarker(JumpDestinationMarker const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "JumpDestinationMarker", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+JumpDestinationMarker(JumpDestinationMarker && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20293 };
+// Ctor Parameters [CppParam { name: "", ty: "JumpDestinationMarker", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+JumpDestinationMarker(JumpDestinationMarker const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20297};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::JumpDestinationMarker, 0x28>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::JumpDestinationMarker);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::JumpDestinationMarker*, "", "JumpDestinationMarker");

@@ -10,533 +10,612 @@
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 //  Writing Method size for method: ::System::ComponentModel::MemberDescriptor._ctor
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (::System::ComponentModel::MemberDescriptor::*)(::StringW, ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*>)>(&::System::ComponentModel::MemberDescriptor::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::MemberDescriptor::*)(::StringW, ::ArrayW<::System::Attribute*,::Array<::System::Attribute*>*>)>(&::System::ComponentModel::MemberDescriptor::_ctor)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x6218880;
+  constexpr static std::size_t addrs = 0x6218f40;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::MemberDescriptor*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*>>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::MemberDescriptor*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Attribute*,::Array<::System::Attribute*>*>>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::ComponentModel::MemberDescriptor._ctor
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::MemberDescriptor::*)(
-    ::System::ComponentModel::MemberDescriptor*, ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*>)>(&::System::ComponentModel::MemberDescriptor::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::MemberDescriptor::*)(::System::ComponentModel::MemberDescriptor*, ::ArrayW<::System::Attribute*,::Array<::System::Attribute*>*>)>(&::System::ComponentModel::MemberDescriptor::_ctor)> {
   constexpr static std::size_t size = 0x410;
-  constexpr static std::size_t addrs = 0x6218a10;
+  constexpr static std::size_t addrs = 0x62190d0;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::MemberDescriptor*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::ComponentModel::MemberDescriptor*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*>>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::MemberDescriptor*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::ComponentModel::MemberDescriptor*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Attribute*,::Array<::System::Attribute*>*>>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::ComponentModel::MemberDescriptor.get_AttributeArray
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> (::System::ComponentModel::MemberDescriptor::*)()>(
-    &::System::ComponentModel::MemberDescriptor::get_AttributeArray)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Attribute*,::Array<::System::Attribute*>*> (::System::ComponentModel::MemberDescriptor::*)()>(&::System::ComponentModel::MemberDescriptor::get_AttributeArray)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x6218e20;
+  constexpr static std::size_t addrs = 0x62194e0;
 
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::MemberDescriptor*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::MemberDescriptor*>::get(), 4));
+  inline static const ::MethodInfo* methodInfo() {
+    
+                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::MemberDescriptor*>::get(),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::MemberDescriptor*>::get(),
+                                  4
+                                ));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::ComponentModel::MemberDescriptor.set_AttributeArray
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::MemberDescriptor::*)(::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*>)>(
-    &::System::ComponentModel::MemberDescriptor::set_AttributeArray)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::MemberDescriptor::*)(::ArrayW<::System::Attribute*,::Array<::System::Attribute*>*>)>(&::System::ComponentModel::MemberDescriptor::set_AttributeArray)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x6219650;
+  constexpr static std::size_t addrs = 0x6219d10;
 
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::MemberDescriptor*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::MemberDescriptor*>::get(), 5));
+  inline static const ::MethodInfo* methodInfo() {
+    
+                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::MemberDescriptor*>::get(),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::MemberDescriptor*>::get(),
+                                  5
+                                ));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::ComponentModel::MemberDescriptor.get_Attributes
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ComponentModel::AttributeCollection* (::System::ComponentModel::MemberDescriptor::*)()>(
-    &::System::ComponentModel::MemberDescriptor::get_Attributes)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ComponentModel::AttributeCollection* (::System::ComponentModel::MemberDescriptor::*)()>(&::System::ComponentModel::MemberDescriptor::get_Attributes)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x6219710;
+  constexpr static std::size_t addrs = 0x6219dd0;
 
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::MemberDescriptor*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::MemberDescriptor*>::get(), 6));
+  inline static const ::MethodInfo* methodInfo() {
+    
+                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::MemberDescriptor*>::get(),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::MemberDescriptor*>::get(),
+                                  6
+                                ));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::ComponentModel::MemberDescriptor.get_Name
-template <>
+template<>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::ComponentModel::MemberDescriptor::*)()>(&::System::ComponentModel::MemberDescriptor::get_Name)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x62197f0;
+  constexpr static std::size_t addrs = 0x6219eb0;
 
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::MemberDescriptor*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::MemberDescriptor*>::get(), 7));
+  inline static const ::MethodInfo* methodInfo() {
+    
+                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::MemberDescriptor*>::get(),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::MemberDescriptor*>::get(),
+                                  7
+                                ));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::ComponentModel::MemberDescriptor.get_NameHashCode
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::ComponentModel::MemberDescriptor::*)()>(
-    &::System::ComponentModel::MemberDescriptor::get_NameHashCode)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::ComponentModel::MemberDescriptor::*)()>(&::System::ComponentModel::MemberDescriptor::get_NameHashCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6219844;
+  constexpr static std::size_t addrs = 0x6219f04;
 
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::MemberDescriptor*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::MemberDescriptor*>::get(), 8));
+  inline static const ::MethodInfo* methodInfo() {
+    
+                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::MemberDescriptor*>::get(),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::MemberDescriptor*>::get(),
+                                  8
+                                ));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::ComponentModel::MemberDescriptor.get_DisplayName
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::ComponentModel::MemberDescriptor::*)()>(
-    &::System::ComponentModel::MemberDescriptor::get_DisplayName)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::ComponentModel::MemberDescriptor::*)()>(&::System::ComponentModel::MemberDescriptor::get_DisplayName)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x621984c;
+  constexpr static std::size_t addrs = 0x6219f0c;
 
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::MemberDescriptor*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::MemberDescriptor*>::get(), 9));
+  inline static const ::MethodInfo* methodInfo() {
+    
+                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::MemberDescriptor*>::get(),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::MemberDescriptor*>::get(),
+                                  9
+                                ));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::ComponentModel::MemberDescriptor.CheckAttributesValid
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::MemberDescriptor::*)()>(
-    &::System::ComponentModel::MemberDescriptor::CheckAttributesValid)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::MemberDescriptor::*)()>(&::System::ComponentModel::MemberDescriptor::CheckAttributesValid)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x6218e40;
+  constexpr static std::size_t addrs = 0x6219500;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::MemberDescriptor*>::get(),
-                                                                               "CheckAttributesValid", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::MemberDescriptor*>::get(),
+                        "CheckAttributesValid",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::ComponentModel::MemberDescriptor.CreateAttributeCollection
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ComponentModel::AttributeCollection* (::System::ComponentModel::MemberDescriptor::*)()>(
-    &::System::ComponentModel::MemberDescriptor::CreateAttributeCollection)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ComponentModel::AttributeCollection* (::System::ComponentModel::MemberDescriptor::*)()>(&::System::ComponentModel::MemberDescriptor::CreateAttributeCollection)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x6219960;
+  constexpr static std::size_t addrs = 0x621a020;
 
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::MemberDescriptor*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::MemberDescriptor*>::get(), 10));
+  inline static const ::MethodInfo* methodInfo() {
+    
+                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::MemberDescriptor*>::get(),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::MemberDescriptor*>::get(),
+                                  10
+                                ));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::ComponentModel::MemberDescriptor.Equals
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::MemberDescriptor::*)(::System::Object*)>(
-    &::System::ComponentModel::MemberDescriptor::Equals)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::MemberDescriptor::*)(::System::Object*)>(&::System::ComponentModel::MemberDescriptor::Equals)> {
   constexpr static std::size_t size = 0x280;
-  constexpr static std::size_t addrs = 0x62199d8;
+  constexpr static std::size_t addrs = 0x621a098;
 
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::MemberDescriptor*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::MemberDescriptor*>::get(), 0));
+  inline static const ::MethodInfo* methodInfo() {
+    
+                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::MemberDescriptor*>::get(),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::MemberDescriptor*>::get(),
+                                  0
+                                ));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::ComponentModel::MemberDescriptor.FillAttributes
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::MemberDescriptor::*)(::System::Collections::IList*)>(
-    &::System::ComponentModel::MemberDescriptor::FillAttributes)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::MemberDescriptor::*)(::System::Collections::IList*)>(&::System::ComponentModel::MemberDescriptor::FillAttributes)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x6219c58;
+  constexpr static std::size_t addrs = 0x621a318;
 
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::MemberDescriptor*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::MemberDescriptor*>::get(), 11));
+  inline static const ::MethodInfo* methodInfo() {
+    
+                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::MemberDescriptor*>::get(),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::MemberDescriptor*>::get(),
+                                  11
+                                ));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::ComponentModel::MemberDescriptor.FilterAttributesIfNeeded
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::MemberDescriptor::*)()>(
-    &::System::ComponentModel::MemberDescriptor::FilterAttributesIfNeeded)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::MemberDescriptor::*)()>(&::System::ComponentModel::MemberDescriptor::FilterAttributesIfNeeded)> {
   constexpr static std::size_t size = 0x754;
-  constexpr static std::size_t addrs = 0x6218efc;
+  constexpr static std::size_t addrs = 0x62195bc;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::MemberDescriptor*>::get(),
-                                                                               "FilterAttributesIfNeeded", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::MemberDescriptor*>::get(),
+                        "FilterAttributesIfNeeded",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::ComponentModel::MemberDescriptor.FindMethod
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Reflection::MethodInfo* (*)(::System::Type*, ::StringW, ::ArrayW<::System::Type*, ::Array<::System::Type*>*>, ::System::Type*)>(
-        &::System::ComponentModel::MemberDescriptor::FindMethod)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::MethodInfo* (*)(::System::Type*, ::StringW, ::ArrayW<::System::Type*,::Array<::System::Type*>*>, ::System::Type*)>(&::System::ComponentModel::MemberDescriptor::FindMethod)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6219d50;
+  constexpr static std::size_t addrs = 0x621a410;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::MemberDescriptor*>::get(), "FindMethod", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Type*, ::Array<::System::Type*>*>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::MemberDescriptor*>::get(),
+                        "FindMethod",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Type*,::Array<::System::Type*>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::ComponentModel::MemberDescriptor.FindMethod
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Reflection::MethodInfo* (*)(::System::Type*, ::StringW, ::ArrayW<::System::Type*, ::Array<::System::Type*>*>, ::System::Type*, bool)>(
-        &::System::ComponentModel::MemberDescriptor::FindMethod)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::MethodInfo* (*)(::System::Type*, ::StringW, ::ArrayW<::System::Type*,::Array<::System::Type*>*>, ::System::Type*, bool)>(&::System::ComponentModel::MemberDescriptor::FindMethod)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x6219d58;
+  constexpr static std::size_t addrs = 0x621a418;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::MemberDescriptor*>::get(), "FindMethod", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Type*, ::Array<::System::Type*>*>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::MemberDescriptor*>::get(),
+                        "FindMethod",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 5>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Type*,::Array<::System::Type*>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::ComponentModel::MemberDescriptor.GetHashCode
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::ComponentModel::MemberDescriptor::*)()>(
-    &::System::ComponentModel::MemberDescriptor::GetHashCode)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::ComponentModel::MemberDescriptor::*)()>(&::System::ComponentModel::MemberDescriptor::GetHashCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6219dd8;
+  constexpr static std::size_t addrs = 0x621a498;
 
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::MemberDescriptor*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::MemberDescriptor*>::get(), 2));
+  inline static const ::MethodInfo* methodInfo() {
+    
+                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::MemberDescriptor*>::get(),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::MemberDescriptor*>::get(),
+                                  2
+                                ));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::ComponentModel::MemberDescriptor.GetInvocationTarget
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::ComponentModel::MemberDescriptor::*)(::System::Type*, ::System::Object*)>(
-    &::System::ComponentModel::MemberDescriptor::GetInvocationTarget)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::ComponentModel::MemberDescriptor::*)(::System::Type*, ::System::Object*)>(&::System::ComponentModel::MemberDescriptor::GetInvocationTarget)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x6219de0;
+  constexpr static std::size_t addrs = 0x621a4a0;
 
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::MemberDescriptor*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::MemberDescriptor*>::get(), 12));
+  inline static const ::MethodInfo* methodInfo() {
+    
+                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::MemberDescriptor*>::get(),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::MemberDescriptor*>::get(),
+                                  12
+                                ));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::ComponentModel::MemberDescriptor.GetSite
-template <>
+template<>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ComponentModel::ISite* (*)(::System::Object*)>(&::System::ComponentModel::MemberDescriptor::GetSite)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x621a56c;
+  constexpr static std::size_t addrs = 0x621ac2c;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::MemberDescriptor*>::get(), "GetSite", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::MemberDescriptor*>::get(),
+                        "GetSite",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get()}
+                    )));
     return ___internal_method;
   }
 };
-constexpr ::StringW& System::ComponentModel::MemberDescriptor::__cordl_internal_get_name() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___name;
+constexpr ::StringW& System::ComponentModel::MemberDescriptor::__cordl_internal_get_name()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___name;
 }
 constexpr ::StringW const& System::ComponentModel::MemberDescriptor::__cordl_internal_get_name() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___name;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___name;
 }
-constexpr void System::ComponentModel::MemberDescriptor::__cordl_internal_set_name(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___name)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::ComponentModel::MemberDescriptor::__cordl_internal_set_name(::StringW  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___name)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::StringW& System::ComponentModel::MemberDescriptor::__cordl_internal_get_displayName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___displayName;
+constexpr ::StringW& System::ComponentModel::MemberDescriptor::__cordl_internal_get_displayName()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___displayName;
 }
 constexpr ::StringW const& System::ComponentModel::MemberDescriptor::__cordl_internal_get_displayName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___displayName;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___displayName;
 }
-constexpr void System::ComponentModel::MemberDescriptor::__cordl_internal_set_displayName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___displayName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::ComponentModel::MemberDescriptor::__cordl_internal_set_displayName(::StringW  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___displayName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr int32_t& System::ComponentModel::MemberDescriptor::__cordl_internal_get_nameHash() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___nameHash;
+constexpr int32_t& System::ComponentModel::MemberDescriptor::__cordl_internal_get_nameHash()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___nameHash;
 }
 constexpr int32_t const& System::ComponentModel::MemberDescriptor::__cordl_internal_get_nameHash() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___nameHash;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___nameHash;
 }
-constexpr void System::ComponentModel::MemberDescriptor::__cordl_internal_set_nameHash(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___nameHash = value;
+constexpr void System::ComponentModel::MemberDescriptor::__cordl_internal_set_nameHash(int32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___nameHash = value;
 }
-constexpr ::System::ComponentModel::AttributeCollection*& System::ComponentModel::MemberDescriptor::__cordl_internal_get_attributeCollection() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___attributeCollection;
+constexpr ::System::ComponentModel::AttributeCollection*& System::ComponentModel::MemberDescriptor::__cordl_internal_get_attributeCollection()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___attributeCollection;
 }
 constexpr ::System::ComponentModel::AttributeCollection* const& System::ComponentModel::MemberDescriptor::__cordl_internal_get_attributeCollection() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___attributeCollection;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___attributeCollection;
 }
-constexpr void System::ComponentModel::MemberDescriptor::__cordl_internal_set_attributeCollection(::System::ComponentModel::AttributeCollection* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___attributeCollection)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::ComponentModel::MemberDescriptor::__cordl_internal_set_attributeCollection(::System::ComponentModel::AttributeCollection*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___attributeCollection)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*>& System::ComponentModel::MemberDescriptor::__cordl_internal_get_attributes() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___attributes;
+constexpr ::ArrayW<::System::Attribute*,::Array<::System::Attribute*>*>& System::ComponentModel::MemberDescriptor::__cordl_internal_get_attributes()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___attributes;
 }
-constexpr ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> const& System::ComponentModel::MemberDescriptor::__cordl_internal_get_attributes() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___attributes;
+constexpr ::ArrayW<::System::Attribute*,::Array<::System::Attribute*>*> const& System::ComponentModel::MemberDescriptor::__cordl_internal_get_attributes() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___attributes;
 }
-constexpr void System::ComponentModel::MemberDescriptor::__cordl_internal_set_attributes(::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___attributes)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::ComponentModel::MemberDescriptor::__cordl_internal_set_attributes(::ArrayW<::System::Attribute*,::Array<::System::Attribute*>*>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___attributes)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*>& System::ComponentModel::MemberDescriptor::__cordl_internal_get_originalAttributes() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___originalAttributes;
+constexpr ::ArrayW<::System::Attribute*,::Array<::System::Attribute*>*>& System::ComponentModel::MemberDescriptor::__cordl_internal_get_originalAttributes()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___originalAttributes;
 }
-constexpr ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> const& System::ComponentModel::MemberDescriptor::__cordl_internal_get_originalAttributes() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___originalAttributes;
+constexpr ::ArrayW<::System::Attribute*,::Array<::System::Attribute*>*> const& System::ComponentModel::MemberDescriptor::__cordl_internal_get_originalAttributes() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___originalAttributes;
 }
-constexpr void System::ComponentModel::MemberDescriptor::__cordl_internal_set_originalAttributes(::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___originalAttributes)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::ComponentModel::MemberDescriptor::__cordl_internal_set_originalAttributes(::ArrayW<::System::Attribute*,::Array<::System::Attribute*>*>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___originalAttributes)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr bool& System::ComponentModel::MemberDescriptor::__cordl_internal_get_attributesFiltered() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___attributesFiltered;
+constexpr bool& System::ComponentModel::MemberDescriptor::__cordl_internal_get_attributesFiltered()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___attributesFiltered;
 }
 constexpr bool const& System::ComponentModel::MemberDescriptor::__cordl_internal_get_attributesFiltered() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___attributesFiltered;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___attributesFiltered;
 }
-constexpr void System::ComponentModel::MemberDescriptor::__cordl_internal_set_attributesFiltered(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___attributesFiltered = value;
+constexpr void System::ComponentModel::MemberDescriptor::__cordl_internal_set_attributesFiltered(bool  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___attributesFiltered = value;
 }
-constexpr bool& System::ComponentModel::MemberDescriptor::__cordl_internal_get_attributesFilled() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___attributesFilled;
+constexpr bool& System::ComponentModel::MemberDescriptor::__cordl_internal_get_attributesFilled()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___attributesFilled;
 }
 constexpr bool const& System::ComponentModel::MemberDescriptor::__cordl_internal_get_attributesFilled() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___attributesFilled;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___attributesFilled;
 }
-constexpr void System::ComponentModel::MemberDescriptor::__cordl_internal_set_attributesFilled(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___attributesFilled = value;
+constexpr void System::ComponentModel::MemberDescriptor::__cordl_internal_set_attributesFilled(bool  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___attributesFilled = value;
 }
-constexpr int32_t& System::ComponentModel::MemberDescriptor::__cordl_internal_get_metadataVersion() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___metadataVersion;
+constexpr int32_t& System::ComponentModel::MemberDescriptor::__cordl_internal_get_metadataVersion()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___metadataVersion;
 }
 constexpr int32_t const& System::ComponentModel::MemberDescriptor::__cordl_internal_get_metadataVersion() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___metadataVersion;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___metadataVersion;
 }
-constexpr void System::ComponentModel::MemberDescriptor::__cordl_internal_set_metadataVersion(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___metadataVersion = value;
+constexpr void System::ComponentModel::MemberDescriptor::__cordl_internal_set_metadataVersion(int32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___metadataVersion = value;
 }
-constexpr ::StringW& System::ComponentModel::MemberDescriptor::__cordl_internal_get_category() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___category;
+constexpr ::StringW& System::ComponentModel::MemberDescriptor::__cordl_internal_get_category()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___category;
 }
 constexpr ::StringW const& System::ComponentModel::MemberDescriptor::__cordl_internal_get_category() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___category;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___category;
 }
-constexpr void System::ComponentModel::MemberDescriptor::__cordl_internal_set_category(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___category)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::ComponentModel::MemberDescriptor::__cordl_internal_set_category(::StringW  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___category)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::StringW& System::ComponentModel::MemberDescriptor::__cordl_internal_get_description() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___description;
+constexpr ::StringW& System::ComponentModel::MemberDescriptor::__cordl_internal_get_description()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___description;
 }
 constexpr ::StringW const& System::ComponentModel::MemberDescriptor::__cordl_internal_get_description() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___description;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___description;
 }
-constexpr void System::ComponentModel::MemberDescriptor::__cordl_internal_set_description(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___description)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::ComponentModel::MemberDescriptor::__cordl_internal_set_description(::StringW  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___description)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Object*& System::ComponentModel::MemberDescriptor::__cordl_internal_get_lockCookie() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___lockCookie;
+constexpr ::System::Object*& System::ComponentModel::MemberDescriptor::__cordl_internal_get_lockCookie()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___lockCookie;
 }
 constexpr ::System::Object* const& System::ComponentModel::MemberDescriptor::__cordl_internal_get_lockCookie() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___lockCookie;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___lockCookie;
 }
-constexpr void System::ComponentModel::MemberDescriptor::__cordl_internal_set_lockCookie(::System::Object* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___lockCookie)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::ComponentModel::MemberDescriptor::__cordl_internal_set_lockCookie(::System::Object*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___lockCookie)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void System::ComponentModel::MemberDescriptor::_ctor(::StringW name, ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> attributes) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::MemberDescriptor*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*>>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, name, attributes);
+inline void System::ComponentModel::MemberDescriptor::_ctor(::StringW  name, ::ArrayW<::System::Attribute*,::Array<::System::Attribute*>*>  attributes)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::MemberDescriptor*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Attribute*,::Array<::System::Attribute*>*>>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, name, attributes);
 }
-inline void System::ComponentModel::MemberDescriptor::_ctor(::System::ComponentModel::MemberDescriptor* oldMemberDescriptor,
-                                                            ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> newAttributes) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::MemberDescriptor*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::ComponentModel::MemberDescriptor*>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*>>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, oldMemberDescriptor, newAttributes);
+inline void System::ComponentModel::MemberDescriptor::_ctor(::System::ComponentModel::MemberDescriptor*  oldMemberDescriptor, ::ArrayW<::System::Attribute*,::Array<::System::Attribute*>*>  newAttributes)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::MemberDescriptor*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::ComponentModel::MemberDescriptor*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Attribute*,::Array<::System::Attribute*>*>>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, oldMemberDescriptor, newAttributes);
 }
-inline ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> System::ComponentModel::MemberDescriptor::get_AttributeArray() {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::MemberDescriptor*>::get(), 4)));
-  return ::cordl_internals::RunMethodRethrow<::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*>, false>(this, ___internal_method);
+inline ::ArrayW<::System::Attribute*,::Array<::System::Attribute*>*> System::ComponentModel::MemberDescriptor::get_AttributeArray()  {
+auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::MemberDescriptor*>::get(),
+                            4
+                        )));
+return ::cordl_internals::RunMethodRethrow<::ArrayW<::System::Attribute*,::Array<::System::Attribute*>*>, false>(this, ___internal_method);
 }
-inline void System::ComponentModel::MemberDescriptor::set_AttributeArray(::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> value) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::MemberDescriptor*>::get(), 5)));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void System::ComponentModel::MemberDescriptor::set_AttributeArray(::ArrayW<::System::Attribute*,::Array<::System::Attribute*>*>  value)  {
+auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::MemberDescriptor*>::get(),
+                            5
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::System::ComponentModel::AttributeCollection* System::ComponentModel::MemberDescriptor::get_Attributes() {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::MemberDescriptor*>::get(), 6)));
-  return ::cordl_internals::RunMethodRethrow<::System::ComponentModel::AttributeCollection*, false>(this, ___internal_method);
+inline ::System::ComponentModel::AttributeCollection* System::ComponentModel::MemberDescriptor::get_Attributes()  {
+auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::MemberDescriptor*>::get(),
+                            6
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::ComponentModel::AttributeCollection*, false>(this, ___internal_method);
 }
-inline ::StringW System::ComponentModel::MemberDescriptor::get_Name() {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::MemberDescriptor*>::get(), 7)));
-  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+inline ::StringW System::ComponentModel::MemberDescriptor::get_Name()  {
+auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::MemberDescriptor*>::get(),
+                            7
+                        )));
+return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-inline int32_t System::ComponentModel::MemberDescriptor::get_NameHashCode() {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::MemberDescriptor*>::get(), 8)));
-  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+inline int32_t System::ComponentModel::MemberDescriptor::get_NameHashCode()  {
+auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::MemberDescriptor*>::get(),
+                            8
+                        )));
+return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
-inline ::StringW System::ComponentModel::MemberDescriptor::get_DisplayName() {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::MemberDescriptor*>::get(), 9)));
-  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+inline ::StringW System::ComponentModel::MemberDescriptor::get_DisplayName()  {
+auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::MemberDescriptor*>::get(),
+                            9
+                        )));
+return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-inline void System::ComponentModel::MemberDescriptor::CheckAttributesValid() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::MemberDescriptor*>::get(),
-                                                                             "CheckAttributesValid", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void System::ComponentModel::MemberDescriptor::CheckAttributesValid()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::MemberDescriptor*>::get(),
+                        "CheckAttributesValid",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::System::ComponentModel::AttributeCollection* System::ComponentModel::MemberDescriptor::CreateAttributeCollection() {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::MemberDescriptor*>::get(), 10)));
-  return ::cordl_internals::RunMethodRethrow<::System::ComponentModel::AttributeCollection*, false>(this, ___internal_method);
+inline ::System::ComponentModel::AttributeCollection* System::ComponentModel::MemberDescriptor::CreateAttributeCollection()  {
+auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::MemberDescriptor*>::get(),
+                            10
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::ComponentModel::AttributeCollection*, false>(this, ___internal_method);
 }
-inline bool System::ComponentModel::MemberDescriptor::Equals(::System::Object* obj) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::MemberDescriptor*>::get(), 0)));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, obj);
+inline bool System::ComponentModel::MemberDescriptor::Equals(::System::Object*  obj)  {
+auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::MemberDescriptor*>::get(),
+                            0
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, obj);
 }
-inline void System::ComponentModel::MemberDescriptor::FillAttributes(::System::Collections::IList* attributeList) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::MemberDescriptor*>::get(), 11)));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, attributeList);
+inline void System::ComponentModel::MemberDescriptor::FillAttributes(::System::Collections::IList*  attributeList)  {
+auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::MemberDescriptor*>::get(),
+                            11
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, attributeList);
 }
-inline void System::ComponentModel::MemberDescriptor::FilterAttributesIfNeeded() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::MemberDescriptor*>::get(),
-                                                                             "FilterAttributesIfNeeded", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void System::ComponentModel::MemberDescriptor::FilterAttributesIfNeeded()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::MemberDescriptor*>::get(),
+                        "FilterAttributesIfNeeded",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::System::Reflection::MethodInfo* System::ComponentModel::MemberDescriptor::FindMethod(::System::Type* componentClass, ::StringW name, ::ArrayW<::System::Type*, ::Array<::System::Type*>*> args,
-                                                                                              ::System::Type* returnType) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::MemberDescriptor*>::get(), "FindMethod", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Type*, ::Array<::System::Type*>*>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::System::Reflection::MethodInfo*, false>(nullptr, ___internal_method, componentClass, name, args, returnType);
+inline ::System::Reflection::MethodInfo* System::ComponentModel::MemberDescriptor::FindMethod(::System::Type*  componentClass, ::StringW  name, ::ArrayW<::System::Type*,::Array<::System::Type*>*>  args, ::System::Type*  returnType)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::MemberDescriptor*>::get(),
+                        "FindMethod",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Type*,::Array<::System::Type*>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Reflection::MethodInfo*, false>(nullptr, ___internal_method, componentClass, name, args, returnType);
 }
-inline ::System::Reflection::MethodInfo* System::ComponentModel::MemberDescriptor::FindMethod(::System::Type* componentClass, ::StringW name, ::ArrayW<::System::Type*, ::Array<::System::Type*>*> args,
-                                                                                              ::System::Type* returnType, bool publicOnly) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::MemberDescriptor*>::get(), "FindMethod", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Type*, ::Array<::System::Type*>*>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::System::Reflection::MethodInfo*, false>(nullptr, ___internal_method, componentClass, name, args, returnType, publicOnly);
+inline ::System::Reflection::MethodInfo* System::ComponentModel::MemberDescriptor::FindMethod(::System::Type*  componentClass, ::StringW  name, ::ArrayW<::System::Type*,::Array<::System::Type*>*>  args, ::System::Type*  returnType, bool  publicOnly)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::MemberDescriptor*>::get(),
+                        "FindMethod",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 5>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Type*,::Array<::System::Type*>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Reflection::MethodInfo*, false>(nullptr, ___internal_method, componentClass, name, args, returnType, publicOnly);
 }
-inline int32_t System::ComponentModel::MemberDescriptor::GetHashCode() {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::MemberDescriptor*>::get(), 2)));
-  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+inline int32_t System::ComponentModel::MemberDescriptor::GetHashCode()  {
+auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::MemberDescriptor*>::get(),
+                            2
+                        )));
+return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
-inline ::System::Object* System::ComponentModel::MemberDescriptor::GetInvocationTarget(::System::Type* type, ::System::Object* instance) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::MemberDescriptor*>::get(), 12)));
-  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, type, instance);
+inline ::System::Object* System::ComponentModel::MemberDescriptor::GetInvocationTarget(::System::Type*  type, ::System::Object*  instance)  {
+auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::MemberDescriptor*>::get(),
+                            12
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, type, instance);
 }
-inline ::System::ComponentModel::ISite* System::ComponentModel::MemberDescriptor::GetSite(::System::Object* component) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::MemberDescriptor*>::get(), "GetSite", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::System::ComponentModel::ISite*, false>(nullptr, ___internal_method, component);
+inline ::System::ComponentModel::ISite* System::ComponentModel::MemberDescriptor::GetSite(::System::Object*  component)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::MemberDescriptor*>::get(),
+                        "GetSite",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::ComponentModel::ISite*, false>(nullptr, ___internal_method, component);
 }
-inline ::System::ComponentModel::MemberDescriptor* System::ComponentModel::MemberDescriptor::New_ctor(::StringW name, ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> attributes) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::ComponentModel::MemberDescriptor*>(name, attributes));
+inline ::System::ComponentModel::MemberDescriptor* System::ComponentModel::MemberDescriptor::New_ctor(::StringW  name, ::ArrayW<::System::Attribute*,::Array<::System::Attribute*>*>  attributes)  {
+return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::ComponentModel::MemberDescriptor*>(name, attributes));
 }
-inline ::System::ComponentModel::MemberDescriptor* System::ComponentModel::MemberDescriptor::New_ctor(::System::ComponentModel::MemberDescriptor* oldMemberDescriptor,
-                                                                                                      ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> newAttributes) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::ComponentModel::MemberDescriptor*>(oldMemberDescriptor, newAttributes));
+inline ::System::ComponentModel::MemberDescriptor* System::ComponentModel::MemberDescriptor::New_ctor(::System::ComponentModel::MemberDescriptor*  oldMemberDescriptor, ::ArrayW<::System::Attribute*,::Array<::System::Attribute*>*>  newAttributes)  {
+return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::ComponentModel::MemberDescriptor*>(oldMemberDescriptor, newAttributes));
 }
 // Ctor Parameters []
-constexpr ::System::ComponentModel::MemberDescriptor::MemberDescriptor() {}
+constexpr ::System::ComponentModel::MemberDescriptor::MemberDescriptor()   {
+}

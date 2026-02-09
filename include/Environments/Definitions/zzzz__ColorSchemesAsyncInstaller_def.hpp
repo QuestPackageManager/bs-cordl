@@ -18,13 +18,16 @@ namespace GlobalNamespace {
 class ColorSchemeSO;
 }
 namespace System::Collections::Generic {
-template <typename T> class IList_1;
+template<typename T>
+class IList_1;
 }
 namespace System::Collections::Generic {
-template <typename T> class List_1;
+template<typename T>
+class List_1;
 }
 namespace System {
-template <typename T, typename TResult> class Func_2;
+template<typename T,typename TResult>
+class Func_2;
 }
 // Forward declare root types
 namespace Environments::Definitions {
@@ -42,116 +45,114 @@ namespace Environments::Definitions {
 // CS Name: Environments.Definitions.ColorSchemesAsyncInstaller/<>c
 class CORDL_TYPE ColorSchemesAsyncInstaller___c : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field <>9, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::Environments::Definitions::ColorSchemesAsyncInstaller___c* __9;
+// Declarations
+/// @brief Field <>9, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF___9, put=setStaticF___9)) ::Environments::Definitions::ColorSchemesAsyncInstaller___c*  __9;
 
-  /// @brief Field <>9__3_0, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9__3_0, put = setStaticF___9__3_0)) ::System::Func_2<::UnityW<::GlobalNamespace::ColorSchemeSO>, int32_t>* __9__3_0;
+/// @brief Field <>9__3_0, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF___9__3_0, put=setStaticF___9__3_0)) ::System::Func_2<::UnityW<::GlobalNamespace::ColorSchemeSO>,int32_t>*  __9__3_0;
 
-  static inline ::Environments::Definitions::ColorSchemesAsyncInstaller___c* New_ctor();
+static inline ::Environments::Definitions::ColorSchemesAsyncInstaller___c* New_ctor() ;
 
-  /// @brief Method <LoadResourcesBeforeInstall>b__3_0, addr 0x366e5d0, size 0x14, virtual false, abstract: false, final false
-  inline int32_t _LoadResourcesBeforeInstall_b__3_0(::GlobalNamespace::ColorSchemeSO* colorScheme);
+/// @brief Method <LoadResourcesBeforeInstall>b__3_0, addr 0x366e638, size 0x14, virtual false, abstract: false, final false
+inline int32_t _LoadResourcesBeforeInstall_b__3_0(::GlobalNamespace::ColorSchemeSO*  colorScheme) ;
 
-  /// @brief Method .ctor, addr 0x366e5cc, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x366e634, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  static inline ::Environments::Definitions::ColorSchemesAsyncInstaller___c* getStaticF___9();
+static inline ::Environments::Definitions::ColorSchemesAsyncInstaller___c* getStaticF___9() ;
 
-  static inline ::System::Func_2<::UnityW<::GlobalNamespace::ColorSchemeSO>, int32_t>* getStaticF___9__3_0();
+static inline ::System::Func_2<::UnityW<::GlobalNamespace::ColorSchemeSO>,int32_t>* getStaticF___9__3_0() ;
 
-  static inline void setStaticF___9(::Environments::Definitions::ColorSchemesAsyncInstaller___c* value);
+static inline void setStaticF___9(::Environments::Definitions::ColorSchemesAsyncInstaller___c*  value) ;
 
-  static inline void setStaticF___9__3_0(::System::Func_2<::UnityW<::GlobalNamespace::ColorSchemeSO>, int32_t>* value);
+static inline void setStaticF___9__3_0(::System::Func_2<::UnityW<::GlobalNamespace::ColorSchemeSO>,int32_t>*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ColorSchemesAsyncInstaller___c();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ColorSchemesAsyncInstaller___c() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ColorSchemesAsyncInstaller___c", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ColorSchemesAsyncInstaller___c(ColorSchemesAsyncInstaller___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ColorSchemesAsyncInstaller___c", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ColorSchemesAsyncInstaller___c(ColorSchemesAsyncInstaller___c const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ColorSchemesAsyncInstaller___c", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ColorSchemesAsyncInstaller___c(ColorSchemesAsyncInstaller___c && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15456 };
+// Ctor Parameters [CppParam { name: "", ty: "ColorSchemesAsyncInstaller___c", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ColorSchemesAsyncInstaller___c(ColorSchemesAsyncInstaller___c const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{15460};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Environments::Definitions::ColorSchemesAsyncInstaller___c, 0x10>, "Size mismatch!");
 
-} // namespace Environments::Definitions
+} // namespace end def Environments::Definitions
 // Dependencies BGLib.AppFlow.Initialization.AddressablesAsyncInstaller`1<T>
 namespace Environments::Definitions {
 // Is value type: false
 // CS Name: Environments.Definitions.ColorSchemesAsyncInstaller
 class CORDL_TYPE ColorSchemesAsyncInstaller : public ::BGLib::AppFlow::Initialization::AddressablesAsyncInstaller_1<::UnityW<::GlobalNamespace::ColorSchemeSO>> {
 public:
-  // Declarations
-  using __c = ::Environments::Definitions::ColorSchemesAsyncInstaller___c;
+// Declarations
+using __c = ::Environments::Definitions::ColorSchemesAsyncInstaller___c;
 
-  /// @brief Field _colorSchemes, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__colorSchemes,
-                      put = __cordl_internal_set__colorSchemes)) ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::ColorSchemeSO>>* _colorSchemes;
+/// @brief Field _colorSchemes, offset 0x40, size 0x8 
+ __declspec(property(get=__cordl_internal_get__colorSchemes, put=__cordl_internal_set__colorSchemes)) ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::ColorSchemeSO>>*  _colorSchemes;
 
-  __declspec(property(get = get_assetLabelRuntimeKey)) ::StringW assetLabelRuntimeKey;
+ __declspec(property(get=get_assetLabelRuntimeKey)) ::StringW  assetLabelRuntimeKey;
 
-  /// @brief Method InstallBindings, addr 0x366e420, size 0xcc, virtual true, abstract: false, final false
-  inline void InstallBindings();
+/// @brief Method InstallBindings, addr 0x366e488, size 0xcc, virtual true, abstract: false, final false
+inline void InstallBindings() ;
 
-  /// @brief Method LoadResourcesBeforeInstall, addr 0x366e2d8, size 0x148, virtual true, abstract: false, final false
-  inline void LoadResourcesBeforeInstall(::System::Collections::Generic::IList_1<::UnityW<::GlobalNamespace::ColorSchemeSO>>* colorSchemes,
-                                         ::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry* registry);
+/// @brief Method LoadResourcesBeforeInstall, addr 0x366e340, size 0x148, virtual true, abstract: false, final false
+inline void LoadResourcesBeforeInstall(::System::Collections::Generic::IList_1<::UnityW<::GlobalNamespace::ColorSchemeSO>>*  colorSchemes, ::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry*  registry) ;
 
-  static inline ::Environments::Definitions::ColorSchemesAsyncInstaller* New_ctor();
+static inline ::Environments::Definitions::ColorSchemesAsyncInstaller* New_ctor() ;
 
-  constexpr ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::ColorSchemeSO>>* const& __cordl_internal_get__colorSchemes() const;
+constexpr ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::ColorSchemeSO>>* const& __cordl_internal_get__colorSchemes() const;
 
-  constexpr ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::ColorSchemeSO>>*& __cordl_internal_get__colorSchemes();
+constexpr ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::ColorSchemeSO>>*& __cordl_internal_get__colorSchemes() ;
 
-  constexpr void __cordl_internal_set__colorSchemes(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::ColorSchemeSO>>* value);
+constexpr void __cordl_internal_set__colorSchemes(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::ColorSchemeSO>>*  value) ;
 
-  /// @brief Method .ctor, addr 0x366e4ec, size 0x8c, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x366e554, size 0x8c, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_assetLabelRuntimeKey, addr 0x366e294, size 0x44, virtual true, abstract: false, final false
-  inline ::StringW get_assetLabelRuntimeKey();
+/// @brief Method get_assetLabelRuntimeKey, addr 0x366e2fc, size 0x44, virtual true, abstract: false, final false
+inline ::StringW get_assetLabelRuntimeKey() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ColorSchemesAsyncInstaller();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ColorSchemesAsyncInstaller() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ColorSchemesAsyncInstaller", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ColorSchemesAsyncInstaller(ColorSchemesAsyncInstaller&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ColorSchemesAsyncInstaller", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ColorSchemesAsyncInstaller(ColorSchemesAsyncInstaller const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ColorSchemesAsyncInstaller", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ColorSchemesAsyncInstaller(ColorSchemesAsyncInstaller && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15457 };
+// Ctor Parameters [CppParam { name: "", ty: "ColorSchemesAsyncInstaller", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ColorSchemesAsyncInstaller(ColorSchemesAsyncInstaller const& ) = delete;
 
-  /// @brief Field _colorSchemes, offset: 0x40, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::ColorSchemeSO>>* ____colorSchemes;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{15461};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _colorSchemes, offset: 0x40, size: 0x8, def value: None
+ ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::ColorSchemeSO>>*  ____colorSchemes;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Environments::Definitions::ColorSchemesAsyncInstaller, ____colorSchemes) == 0x40, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::Environments::Definitions::ColorSchemesAsyncInstaller, 0x48>, "Size mismatch!");
 
-} // namespace Environments::Definitions
+} // namespace end def Environments::Definitions
 NEED_NO_BOX(::Environments::Definitions::ColorSchemesAsyncInstaller);
 DEFINE_IL2CPP_ARG_TYPE(::Environments::Definitions::ColorSchemesAsyncInstaller*, "Environments.Definitions", "ColorSchemesAsyncInstaller");
 NEED_NO_BOX(::Environments::Definitions::ColorSchemesAsyncInstaller___c);

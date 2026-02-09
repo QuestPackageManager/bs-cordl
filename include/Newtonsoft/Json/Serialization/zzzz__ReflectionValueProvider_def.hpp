@@ -26,60 +26,60 @@ namespace Newtonsoft::Json::Serialization {
 // CS Name: Newtonsoft.Json.Serialization.ReflectionValueProvider
 class CORDL_TYPE ReflectionValueProvider : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field _memberInfo, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__memberInfo, put = __cordl_internal_set__memberInfo)) ::System::Reflection::MemberInfo* _memberInfo;
+// Declarations
+/// @brief Field _memberInfo, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get__memberInfo, put=__cordl_internal_set__memberInfo)) ::System::Reflection::MemberInfo*  _memberInfo;
 
-  /// @brief Convert operator to "::Newtonsoft::Json::Serialization::IValueProvider"
-  constexpr operator ::Newtonsoft::Json::Serialization::IValueProvider*() noexcept;
+/// @brief Convert operator to "::Newtonsoft::Json::Serialization::IValueProvider"
+constexpr operator  ::Newtonsoft::Json::Serialization::IValueProvider*() noexcept;
 
-  /// @brief Method GetValue, addr 0x5babe5c, size 0x2c8, virtual true, abstract: false, final true
-  inline ::System::Object* GetValue(::System::Object* target);
+/// @brief Method GetValue, addr 0x5bac368, size 0x2c8, virtual true, abstract: false, final true
+inline ::System::Object* GetValue(::System::Object*  target) ;
 
-  static inline ::Newtonsoft::Json::Serialization::ReflectionValueProvider* New_ctor(::System::Reflection::MemberInfo* memberInfo);
+static inline ::Newtonsoft::Json::Serialization::ReflectionValueProvider* New_ctor(::System::Reflection::MemberInfo*  memberInfo) ;
 
-  /// @brief Method SetValue, addr 0x5babcb8, size 0x1a4, virtual true, abstract: false, final true
-  inline void SetValue(::System::Object* target, ::System::Object* value);
+/// @brief Method SetValue, addr 0x5bac1c4, size 0x1a4, virtual true, abstract: false, final true
+inline void SetValue(::System::Object*  target, ::System::Object*  value) ;
 
-  constexpr ::System::Reflection::MemberInfo* const& __cordl_internal_get__memberInfo() const;
+constexpr ::System::Reflection::MemberInfo* const& __cordl_internal_get__memberInfo() const;
 
-  constexpr ::System::Reflection::MemberInfo*& __cordl_internal_get__memberInfo();
+constexpr ::System::Reflection::MemberInfo*& __cordl_internal_get__memberInfo() ;
 
-  constexpr void __cordl_internal_set__memberInfo(::System::Reflection::MemberInfo* value);
+constexpr void __cordl_internal_set__memberInfo(::System::Reflection::MemberInfo*  value) ;
 
-  /// @brief Method .ctor, addr 0x5babc54, size 0x64, virtual false, abstract: false, final false
-  inline void _ctor(::System::Reflection::MemberInfo* memberInfo);
+/// @brief Method .ctor, addr 0x5bac160, size 0x64, virtual false, abstract: false, final false
+inline void _ctor(::System::Reflection::MemberInfo*  memberInfo) ;
 
-  /// @brief Convert to "::Newtonsoft::Json::Serialization::IValueProvider"
-  constexpr ::Newtonsoft::Json::Serialization::IValueProvider* i___Newtonsoft__Json__Serialization__IValueProvider() noexcept;
+/// @brief Convert to "::Newtonsoft::Json::Serialization::IValueProvider"
+constexpr ::Newtonsoft::Json::Serialization::IValueProvider* i___Newtonsoft__Json__Serialization__IValueProvider() noexcept;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ReflectionValueProvider();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ReflectionValueProvider() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ReflectionValueProvider", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ReflectionValueProvider(ReflectionValueProvider&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ReflectionValueProvider", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ReflectionValueProvider(ReflectionValueProvider const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ReflectionValueProvider", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ReflectionValueProvider(ReflectionValueProvider && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13507 };
+// Ctor Parameters [CppParam { name: "", ty: "ReflectionValueProvider", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ReflectionValueProvider(ReflectionValueProvider const& ) = delete;
 
-  /// @brief Field _memberInfo, offset: 0x10, size: 0x8, def value: None
-  ::System::Reflection::MemberInfo* ____memberInfo;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{13511};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _memberInfo, offset: 0x10, size: 0x8, def value: None
+ ::System::Reflection::MemberInfo*  ____memberInfo;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Newtonsoft::Json::Serialization::ReflectionValueProvider, ____memberInfo) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Serialization::ReflectionValueProvider, 0x18>, "Size mismatch!");
 
-} // namespace Newtonsoft::Json::Serialization
+} // namespace end def Newtonsoft::Json::Serialization
 NEED_NO_BOX(::Newtonsoft::Json::Serialization::ReflectionValueProvider);
 DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Serialization::ReflectionValueProvider*, "Newtonsoft.Json.Serialization", "ReflectionValueProvider");

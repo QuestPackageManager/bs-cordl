@@ -18,37 +18,37 @@ namespace System::Xml::Schema {
 // CS Name: System.Xml.Schema.NamespaceListV1Compat
 class CORDL_TYPE NamespaceListV1Compat : public ::System::Xml::Schema::NamespaceList {
 public:
-  // Declarations
-  /// @brief Method Allows, addr 0x602abb0, size 0x34, virtual true, abstract: false, final false
-  inline bool Allows(::StringW ns);
+// Declarations
+/// @brief Method Allows, addr 0x602b270, size 0x34, virtual true, abstract: false, final false
+inline bool Allows(::StringW  ns) ;
 
-  static inline ::System::Xml::Schema::NamespaceListV1Compat* New_ctor(::StringW namespaces, ::StringW targetNamespace);
+static inline ::System::Xml::Schema::NamespaceListV1Compat* New_ctor(::StringW  namespaces, ::StringW  targetNamespace) ;
 
-  /// @brief Method .ctor, addr 0x602abac, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor(::StringW namespaces, ::StringW targetNamespace);
+/// @brief Method .ctor, addr 0x602b26c, size 0x4, virtual false, abstract: false, final false
+inline void _ctor(::StringW  namespaces, ::StringW  targetNamespace) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NamespaceListV1Compat();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr NamespaceListV1Compat() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NamespaceListV1Compat", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  NamespaceListV1Compat(NamespaceListV1Compat&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NamespaceListV1Compat", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  NamespaceListV1Compat(NamespaceListV1Compat const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "NamespaceListV1Compat", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+NamespaceListV1Compat(NamespaceListV1Compat && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9675 };
+// Ctor Parameters [CppParam { name: "", ty: "NamespaceListV1Compat", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+NamespaceListV1Compat(NamespaceListV1Compat const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{9679};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::NamespaceListV1Compat, 0x28>, "Size mismatch!");
 
-} // namespace System::Xml::Schema
+} // namespace end def System::Xml::Schema
 NEED_NO_BOX(::System::Xml::Schema::NamespaceListV1Compat);
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::NamespaceListV1Compat*, "System.Xml.Schema", "NamespaceListV1Compat");

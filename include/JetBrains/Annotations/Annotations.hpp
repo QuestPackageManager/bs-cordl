@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "JetBrains/Annotations/AspChildControlTypeAttribute.hpp"
 #include "JetBrains/Annotations/AspDataFieldAttribute.hpp"
@@ -78,5 +78,6 @@ module;
 #include "JetBrains/Annotations/XamlItemBindingOfItemsControlAttribute.hpp"
 #include "JetBrains/Annotations/XamlItemsControlAttribute.hpp"
 #ifdef __cpp_modules
-export module Annotations;
-#endif
+                    export module Annotations;
+                    #endif
+                

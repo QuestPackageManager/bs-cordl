@@ -18,45 +18,45 @@ namespace LiteNetLib::Utils {
 // CS Name: LiteNetLib.Utils.CRC32C
 class CORDL_TYPE CRC32C : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field Table, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_Table, put = setStaticF_Table)) ::ArrayW<uint32_t, ::Array<uint32_t>*> Table;
+// Declarations
+/// @brief Field Table, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_Table, put=setStaticF_Table)) ::ArrayW<uint32_t,::Array<uint32_t>*>  Table;
 
-  /// @brief Method Compute, addr 0x56f5d9c, size 0x3bc, virtual false, abstract: false, final false
-  static inline uint32_t Compute(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t offset, int32_t length);
+/// @brief Method Compute, addr 0x56f5b24, size 0x3bc, virtual false, abstract: false, final false
+static inline uint32_t Compute(::ArrayW<uint8_t,::Array<uint8_t>*>  input, int32_t  offset, int32_t  length) ;
 
-  static inline ::ArrayW<uint32_t, ::Array<uint32_t>*> getStaticF_Table();
+static inline ::ArrayW<uint32_t,::Array<uint32_t>*> getStaticF_Table() ;
 
-  static inline void setStaticF_Table(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
+static inline void setStaticF_Table(::ArrayW<uint32_t,::Array<uint32_t>*>  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CRC32C();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr CRC32C() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CRC32C", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  CRC32C(CRC32C&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CRC32C", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  CRC32C(CRC32C const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "CRC32C", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+CRC32C(CRC32C && ) = delete;
 
-  /// @brief Field ChecksumSize offset 0xffffffff size 0x4
-  static constexpr int32_t ChecksumSize{ static_cast<int32_t>(0x4) };
+// Ctor Parameters [CppParam { name: "", ty: "CRC32C", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+CRC32C(CRC32C const& ) = delete;
 
-  /// @brief Field Poly offset 0xffffffff size 0x4
-  static constexpr uint32_t Poly{ static_cast<uint32_t>(0x82f63b78u) };
+/// @brief Field ChecksumSize offset 0xffffffff size 0x4
+static constexpr int32_t  ChecksumSize{static_cast<int32_t>(0x4)};
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19856 };
+/// @brief Field Poly offset 0xffffffff size 0x4
+static constexpr uint32_t  Poly{static_cast<uint32_t>(0x82f63b78u)};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{19860};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::LiteNetLib::Utils::CRC32C, 0x10>, "Size mismatch!");
 
-} // namespace LiteNetLib::Utils
+} // namespace end def LiteNetLib::Utils
 NEED_NO_BOX(::LiteNetLib::Utils::CRC32C);
 DEFINE_IL2CPP_ARG_TYPE(::LiteNetLib::Utils::CRC32C*, "LiteNetLib.Utils", "CRC32C");

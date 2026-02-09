@@ -29,66 +29,65 @@ namespace GlobalNamespace {
 // CS Name: JumpReceiver
 class CORDL_TYPE JumpReceiver : public ::UnityEngine::MonoBehaviour {
 public:
-  // Declarations
-  /// @brief Field <jumpToDestinationValid>k__BackingField, offset 0x20, size 0x1
-  __declspec(property(get = __cordl_internal_get__jumpToDestinationValid_k__BackingField,
-                      put = __cordl_internal_set__jumpToDestinationValid_k__BackingField)) bool _jumpToDestinationValid_k__BackingField;
+// Declarations
+/// @brief Field <jumpToDestinationValid>k__BackingField, offset 0x20, size 0x1 
+ __declspec(property(get=__cordl_internal_get__jumpToDestinationValid_k__BackingField, put=__cordl_internal_set__jumpToDestinationValid_k__BackingField)) bool  _jumpToDestinationValid_k__BackingField;
 
-  __declspec(property(get = get_jumpToDestinationValid, put = set_jumpToDestinationValid)) bool jumpToDestinationValid;
+ __declspec(property(get=get_jumpToDestinationValid, put=set_jumpToDestinationValid)) bool  jumpToDestinationValid;
 
-  /// @brief Convert operator to "::UnityEngine::Playables::INotificationReceiver"
-  constexpr operator ::UnityEngine::Playables::INotificationReceiver*() noexcept;
+/// @brief Convert operator to "::UnityEngine::Playables::INotificationReceiver"
+constexpr operator  ::UnityEngine::Playables::INotificationReceiver*() noexcept;
 
-  static inline ::GlobalNamespace::JumpReceiver* New_ctor();
+static inline ::GlobalNamespace::JumpReceiver* New_ctor() ;
 
-  /// @brief Method OnNotify, addr 0x56a47f8, size 0x148, virtual true, abstract: false, final true
-  inline void OnNotify(::UnityEngine::Playables::Playable origin, ::UnityEngine::Playables::INotification* notification, ::System::Object* context);
+/// @brief Method OnNotify, addr 0x56a4580, size 0x148, virtual true, abstract: false, final true
+inline void OnNotify(::UnityEngine::Playables::Playable  origin, ::UnityEngine::Playables::INotification*  notification, ::System::Object*  context) ;
 
-  constexpr bool const& __cordl_internal_get__jumpToDestinationValid_k__BackingField() const;
+constexpr bool const& __cordl_internal_get__jumpToDestinationValid_k__BackingField() const;
 
-  constexpr bool& __cordl_internal_get__jumpToDestinationValid_k__BackingField();
+constexpr bool& __cordl_internal_get__jumpToDestinationValid_k__BackingField() ;
 
-  constexpr void __cordl_internal_set__jumpToDestinationValid_k__BackingField(bool value);
+constexpr void __cordl_internal_set__jumpToDestinationValid_k__BackingField(bool  value) ;
 
-  /// @brief Method .ctor, addr 0x56a4940, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x56a46c8, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_jumpToDestinationValid, addr 0x56a47e8, size 0x8, virtual false, abstract: false, final false
-  inline bool get_jumpToDestinationValid();
+/// @brief Method get_jumpToDestinationValid, addr 0x56a4570, size 0x8, virtual false, abstract: false, final false
+inline bool get_jumpToDestinationValid() ;
 
-  /// @brief Convert to "::UnityEngine::Playables::INotificationReceiver"
-  constexpr ::UnityEngine::Playables::INotificationReceiver* i___UnityEngine__Playables__INotificationReceiver() noexcept;
+/// @brief Convert to "::UnityEngine::Playables::INotificationReceiver"
+constexpr ::UnityEngine::Playables::INotificationReceiver* i___UnityEngine__Playables__INotificationReceiver() noexcept;
 
-  /// @brief Method set_jumpToDestinationValid, addr 0x56a47f0, size 0x8, virtual false, abstract: false, final false
-  inline void set_jumpToDestinationValid(bool value);
+/// @brief Method set_jumpToDestinationValid, addr 0x56a4578, size 0x8, virtual false, abstract: false, final false
+inline void set_jumpToDestinationValid(bool  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr JumpReceiver();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr JumpReceiver() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "JumpReceiver", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  JumpReceiver(JumpReceiver&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "JumpReceiver", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  JumpReceiver(JumpReceiver const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "JumpReceiver", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+JumpReceiver(JumpReceiver && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20295 };
+// Ctor Parameters [CppParam { name: "", ty: "JumpReceiver", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+JumpReceiver(JumpReceiver const& ) = delete;
 
-  /// @brief Field <jumpToDestinationValid>k__BackingField, offset: 0x20, size: 0x1, def value: None
-  bool ____jumpToDestinationValid_k__BackingField;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20299};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field <jumpToDestinationValid>k__BackingField, offset: 0x20, size: 0x1, def value: None
+ bool  ____jumpToDestinationValid_k__BackingField;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::JumpReceiver, ____jumpToDestinationValid_k__BackingField) == 0x20, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::JumpReceiver, 0x28>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::JumpReceiver);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::JumpReceiver*, "", "JumpReceiver");

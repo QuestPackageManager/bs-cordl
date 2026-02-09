@@ -53,404 +53,404 @@ namespace System::Net {
 // CS Name: System.Net.ServicePoint
 class CORDL_TYPE ServicePoint : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(get = get_Address)) ::System::Uri* Address;
+// Declarations
+ __declspec(property(get=get_Address)) ::System::Uri*  Address;
 
-  __declspec(property(put = set_BindIPEndPointDelegate)) ::System::Net::BindIPEndPoint* BindIPEndPointDelegate;
+ __declspec(property(put=set_BindIPEndPointDelegate)) ::System::Net::BindIPEndPoint*  BindIPEndPointDelegate;
 
-  __declspec(property(get = get_ConnectionLimit)) int32_t ConnectionLimit;
+ __declspec(property(get=get_ConnectionLimit)) int32_t  ConnectionLimit;
 
-  __declspec(property(put = set_Expect100Continue)) bool Expect100Continue;
+ __declspec(property(put=set_Expect100Continue)) bool  Expect100Continue;
 
-  __declspec(property(get = get_HasTimedOut)) bool HasTimedOut;
+ __declspec(property(get=get_HasTimedOut)) bool  HasTimedOut;
 
-  __declspec(property(get = get_HostEntry)) ::System::Net::IPHostEntry* HostEntry;
+ __declspec(property(get=get_HostEntry)) ::System::Net::IPHostEntry*  HostEntry;
 
-  __declspec(property(get = get_Key)) ::System::Net::ServicePointManager_SPKey* Key;
+ __declspec(property(get=get_Key)) ::System::Net::ServicePointManager_SPKey*  Key;
 
-  __declspec(property(get = get_ProtocolVersion)) ::System::Version* ProtocolVersion;
+ __declspec(property(get=get_ProtocolVersion)) ::System::Version*  ProtocolVersion;
 
-  __declspec(property(get = get_Scheduler, put = set_Scheduler)) ::System::Net::ServicePointScheduler* Scheduler;
+ __declspec(property(get=get_Scheduler, put=set_Scheduler)) ::System::Net::ServicePointScheduler*  Scheduler;
 
-  __declspec(property(get = get_SendContinue, put = set_SendContinue)) bool SendContinue;
+ __declspec(property(get=get_SendContinue, put=set_SendContinue)) bool  SendContinue;
 
-  __declspec(property(get = get_UseConnect, put = set_UseConnect)) bool UseConnect;
+ __declspec(property(get=get_UseConnect, put=set_UseConnect)) bool  UseConnect;
 
-  __declspec(property(get = get_UseNagleAlgorithm, put = set_UseNagleAlgorithm)) bool UseNagleAlgorithm;
+ __declspec(property(get=get_UseNagleAlgorithm, put=set_UseNagleAlgorithm)) bool  UseNagleAlgorithm;
 
-  __declspec(property(get = get_UsesProxy, put = set_UsesProxy)) bool UsesProxy;
+ __declspec(property(get=get_UsesProxy, put=set_UsesProxy)) bool  UsesProxy;
 
-  /// @brief Field <Key>k__BackingField, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get__Key_k__BackingField, put = __cordl_internal_set__Key_k__BackingField)) ::System::Net::ServicePointManager_SPKey* _Key_k__BackingField;
+/// @brief Field <Key>k__BackingField, offset 0x68, size 0x8 
+ __declspec(property(get=__cordl_internal_get__Key_k__BackingField, put=__cordl_internal_set__Key_k__BackingField)) ::System::Net::ServicePointManager_SPKey*  _Key_k__BackingField;
 
-  /// @brief Field <Scheduler>k__BackingField, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get__Scheduler_k__BackingField, put = __cordl_internal_set__Scheduler_k__BackingField)) ::System::Net::ServicePointScheduler* _Scheduler_k__BackingField;
+/// @brief Field <Scheduler>k__BackingField, offset 0x70, size 0x8 
+ __declspec(property(get=__cordl_internal_get__Scheduler_k__BackingField, put=__cordl_internal_set__Scheduler_k__BackingField)) ::System::Net::ServicePointScheduler*  _Scheduler_k__BackingField;
 
-  /// @brief Field connectionLeaseTimeout, offset 0x60, size 0x4
-  __declspec(property(get = __cordl_internal_get_connectionLeaseTimeout, put = __cordl_internal_set_connectionLeaseTimeout)) int32_t connectionLeaseTimeout;
+/// @brief Field connectionLeaseTimeout, offset 0x60, size 0x4 
+ __declspec(property(get=__cordl_internal_get_connectionLeaseTimeout, put=__cordl_internal_set_connectionLeaseTimeout)) int32_t  connectionLeaseTimeout;
 
-  /// @brief Field connectionLimit, offset 0x78, size 0x4
-  __declspec(property(get = __cordl_internal_get_connectionLimit, put = __cordl_internal_set_connectionLimit)) int32_t connectionLimit;
+/// @brief Field connectionLimit, offset 0x78, size 0x4 
+ __declspec(property(get=__cordl_internal_get_connectionLimit, put=__cordl_internal_set_connectionLimit)) int32_t  connectionLimit;
 
-  /// @brief Field disposed, offset 0x5c, size 0x1
-  __declspec(property(get = __cordl_internal_get_disposed, put = __cordl_internal_set_disposed)) bool disposed;
+/// @brief Field disposed, offset 0x5c, size 0x1 
+ __declspec(property(get=__cordl_internal_get_disposed, put=__cordl_internal_set_disposed)) bool  disposed;
 
-  /// @brief Field endPointCallback, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_endPointCallback, put = __cordl_internal_set_endPointCallback)) ::System::Net::BindIPEndPoint* endPointCallback;
+/// @brief Field endPointCallback, offset 0x48, size 0x8 
+ __declspec(property(get=__cordl_internal_get_endPointCallback, put=__cordl_internal_set_endPointCallback)) ::System::Net::BindIPEndPoint*  endPointCallback;
 
-  /// @brief Field host, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_host, put = __cordl_internal_set_host)) ::System::Net::IPHostEntry* host;
+/// @brief Field host, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get_host, put=__cordl_internal_set_host)) ::System::Net::IPHostEntry*  host;
 
-  /// @brief Field hostE, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_hostE, put = __cordl_internal_set_hostE)) ::System::Object* hostE;
+/// @brief Field hostE, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get_hostE, put=__cordl_internal_set_hostE)) ::System::Object*  hostE;
 
-  /// @brief Field lastDnsResolve, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_lastDnsResolve, put = __cordl_internal_set_lastDnsResolve)) ::System::DateTime lastDnsResolve;
+/// @brief Field lastDnsResolve, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_lastDnsResolve, put=__cordl_internal_set_lastDnsResolve)) ::System::DateTime  lastDnsResolve;
 
-  /// @brief Field m_ClientCertificateOrBytes, offset 0x88, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_ClientCertificateOrBytes, put = __cordl_internal_set_m_ClientCertificateOrBytes)) ::System::Object* m_ClientCertificateOrBytes;
+/// @brief Field m_ClientCertificateOrBytes, offset 0x88, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_ClientCertificateOrBytes, put=__cordl_internal_set_m_ClientCertificateOrBytes)) ::System::Object*  m_ClientCertificateOrBytes;
 
-  /// @brief Field m_ServerCertificateOrBytes, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_ServerCertificateOrBytes, put = __cordl_internal_set_m_ServerCertificateOrBytes)) ::System::Object* m_ServerCertificateOrBytes;
+/// @brief Field m_ServerCertificateOrBytes, offset 0x80, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_ServerCertificateOrBytes, put=__cordl_internal_set_m_ServerCertificateOrBytes)) ::System::Object*  m_ServerCertificateOrBytes;
 
-  /// @brief Field maxIdleTime, offset 0x7c, size 0x4
-  __declspec(property(get = __cordl_internal_get_maxIdleTime, put = __cordl_internal_set_maxIdleTime)) int32_t maxIdleTime;
+/// @brief Field maxIdleTime, offset 0x7c, size 0x4 
+ __declspec(property(get=__cordl_internal_get_maxIdleTime, put=__cordl_internal_set_maxIdleTime)) int32_t  maxIdleTime;
 
-  /// @brief Field protocolVersion, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_protocolVersion, put = __cordl_internal_set_protocolVersion)) ::System::Version* protocolVersion;
+/// @brief Field protocolVersion, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get_protocolVersion, put=__cordl_internal_set_protocolVersion)) ::System::Version*  protocolVersion;
 
-  /// @brief Field receiveBufferSize, offset 0x64, size 0x4
-  __declspec(property(get = __cordl_internal_get_receiveBufferSize, put = __cordl_internal_set_receiveBufferSize)) int32_t receiveBufferSize;
+/// @brief Field receiveBufferSize, offset 0x64, size 0x4 
+ __declspec(property(get=__cordl_internal_get_receiveBufferSize, put=__cordl_internal_set_receiveBufferSize)) int32_t  receiveBufferSize;
 
-  /// @brief Field sendContinue, offset 0x31, size 0x1
-  __declspec(property(get = __cordl_internal_get_sendContinue, put = __cordl_internal_set_sendContinue)) bool sendContinue;
+/// @brief Field sendContinue, offset 0x31, size 0x1 
+ __declspec(property(get=__cordl_internal_get_sendContinue, put=__cordl_internal_set_sendContinue)) bool  sendContinue;
 
-  /// @brief Field tcp_keepalive, offset 0x50, size 0x1
-  __declspec(property(get = __cordl_internal_get_tcp_keepalive, put = __cordl_internal_set_tcp_keepalive)) bool tcp_keepalive;
+/// @brief Field tcp_keepalive, offset 0x50, size 0x1 
+ __declspec(property(get=__cordl_internal_get_tcp_keepalive, put=__cordl_internal_set_tcp_keepalive)) bool  tcp_keepalive;
 
-  /// @brief Field tcp_keepalive_interval, offset 0x58, size 0x4
-  __declspec(property(get = __cordl_internal_get_tcp_keepalive_interval, put = __cordl_internal_set_tcp_keepalive_interval)) int32_t tcp_keepalive_interval;
+/// @brief Field tcp_keepalive_interval, offset 0x58, size 0x4 
+ __declspec(property(get=__cordl_internal_get_tcp_keepalive_interval, put=__cordl_internal_set_tcp_keepalive_interval)) int32_t  tcp_keepalive_interval;
 
-  /// @brief Field tcp_keepalive_time, offset 0x54, size 0x4
-  __declspec(property(get = __cordl_internal_get_tcp_keepalive_time, put = __cordl_internal_set_tcp_keepalive_time)) int32_t tcp_keepalive_time;
+/// @brief Field tcp_keepalive_time, offset 0x54, size 0x4 
+ __declspec(property(get=__cordl_internal_get_tcp_keepalive_time, put=__cordl_internal_set_tcp_keepalive_time)) int32_t  tcp_keepalive_time;
 
-  /// @brief Field uri, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_uri, put = __cordl_internal_set_uri)) ::System::Uri* uri;
+/// @brief Field uri, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_uri, put=__cordl_internal_set_uri)) ::System::Uri*  uri;
 
-  /// @brief Field useConnect, offset 0x32, size 0x1
-  __declspec(property(get = __cordl_internal_get_useConnect, put = __cordl_internal_set_useConnect)) bool useConnect;
+/// @brief Field useConnect, offset 0x32, size 0x1 
+ __declspec(property(get=__cordl_internal_get_useConnect, put=__cordl_internal_set_useConnect)) bool  useConnect;
 
-  /// @brief Field useNagle, offset 0x40, size 0x1
-  __declspec(property(get = __cordl_internal_get_useNagle, put = __cordl_internal_set_useNagle)) bool useNagle;
+/// @brief Field useNagle, offset 0x40, size 0x1 
+ __declspec(property(get=__cordl_internal_get_useNagle, put=__cordl_internal_set_useNagle)) bool  useNagle;
 
-  /// @brief Field usesProxy, offset 0x30, size 0x1
-  __declspec(property(get = __cordl_internal_get_usesProxy, put = __cordl_internal_set_usesProxy)) bool usesProxy;
+/// @brief Field usesProxy, offset 0x30, size 0x1 
+ __declspec(property(get=__cordl_internal_get_usesProxy, put=__cordl_internal_set_usesProxy)) bool  usesProxy;
 
-  /// @brief Method CallEndPointDelegate, addr 0x6188fb0, size 0x1a4, virtual false, abstract: false, final false
-  inline bool CallEndPointDelegate(::System::Net::Sockets::Socket* sock, ::System::Net::IPEndPoint* remote);
+/// @brief Method CallEndPointDelegate, addr 0x6189670, size 0x1a4, virtual false, abstract: false, final false
+inline bool CallEndPointDelegate(::System::Net::Sockets::Socket*  sock, ::System::Net::IPEndPoint*  remote) ;
 
-  /// @brief Method CloseConnectionGroup, addr 0x6188d3c, size 0xe8, virtual false, abstract: false, final false
-  inline bool CloseConnectionGroup(::StringW connectionGroupName);
+/// @brief Method CloseConnectionGroup, addr 0x61893fc, size 0xe8, virtual false, abstract: false, final false
+inline bool CloseConnectionGroup(::StringW  connectionGroupName) ;
 
-  /// @brief Method FreeServicePoint, addr 0x6188f38, size 0x10, virtual false, abstract: false, final false
-  inline void FreeServicePoint();
+/// @brief Method FreeServicePoint, addr 0x61895f8, size 0x10, virtual false, abstract: false, final false
+inline void FreeServicePoint() ;
 
-  /// @brief Method KeepAliveSetup, addr 0x61885f8, size 0xc0, virtual false, abstract: false, final false
-  inline void KeepAliveSetup(::System::Net::Sockets::Socket* socket);
+/// @brief Method KeepAliveSetup, addr 0x6188cb8, size 0xc0, virtual false, abstract: false, final false
+inline void KeepAliveSetup(::System::Net::Sockets::Socket*  socket) ;
 
-  static inline ::System::Net::ServicePoint* New_ctor(::System::Net::ServicePointManager_SPKey* key, ::System::Uri* uri, int32_t connectionLimit, int32_t maxIdleTime);
+static inline ::System::Net::ServicePoint* New_ctor(::System::Net::ServicePointManager_SPKey*  key, ::System::Uri*  uri, int32_t  connectionLimit, int32_t  maxIdleTime) ;
 
-  /// @brief Method PutBytes, addr 0x61886b8, size 0x80, virtual false, abstract: false, final false
-  static inline void PutBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, uint32_t v, int32_t offset);
+/// @brief Method PutBytes, addr 0x6188d78, size 0x80, virtual false, abstract: false, final false
+static inline void PutBytes(::ArrayW<uint8_t,::Array<uint8_t>*>  bytes, uint32_t  v, int32_t  offset) ;
 
-  /// @brief Method SendRequest, addr 0x617d8ac, size 0x178, virtual false, abstract: false, final false
-  inline void SendRequest(::System::Net::WebOperation* operation, ::StringW groupName);
+/// @brief Method SendRequest, addr 0x617df6c, size 0x178, virtual false, abstract: false, final false
+inline void SendRequest(::System::Net::WebOperation*  operation, ::StringW  groupName) ;
 
-  /// @brief Method SetTcpKeepAlive, addr 0x6188548, size 0xb0, virtual false, abstract: false, final false
-  inline void SetTcpKeepAlive(bool enabled, int32_t keepAliveTime, int32_t keepAliveInterval);
+/// @brief Method SetTcpKeepAlive, addr 0x6188c08, size 0xb0, virtual false, abstract: false, final false
+inline void SetTcpKeepAlive(bool  enabled, int32_t  keepAliveTime, int32_t  keepAliveInterval) ;
 
-  /// @brief Method SetVersion, addr 0x6188c50, size 0x8, virtual false, abstract: false, final false
-  inline void SetVersion(::System::Version* version);
+/// @brief Method SetVersion, addr 0x6189310, size 0x8, virtual false, abstract: false, final false
+inline void SetVersion(::System::Version*  version) ;
 
-  /// @brief Method UpdateClientCertificate, addr 0x6188f7c, size 0x34, virtual false, abstract: false, final false
-  inline void UpdateClientCertificate(::System::Security::Cryptography::X509Certificates::X509Certificate* certificate);
+/// @brief Method UpdateClientCertificate, addr 0x618963c, size 0x34, virtual false, abstract: false, final false
+inline void UpdateClientCertificate(::System::Security::Cryptography::X509Certificates::X509Certificate*  certificate) ;
 
-  /// @brief Method UpdateServerCertificate, addr 0x6188f48, size 0x34, virtual false, abstract: false, final false
-  inline void UpdateServerCertificate(::System::Security::Cryptography::X509Certificates::X509Certificate* certificate);
+/// @brief Method UpdateServerCertificate, addr 0x6189608, size 0x34, virtual false, abstract: false, final false
+inline void UpdateServerCertificate(::System::Security::Cryptography::X509Certificates::X509Certificate*  certificate) ;
 
-  constexpr ::System::Net::ServicePointManager_SPKey* const& __cordl_internal_get__Key_k__BackingField() const;
+constexpr ::System::Net::ServicePointManager_SPKey* const& __cordl_internal_get__Key_k__BackingField() const;
 
-  constexpr ::System::Net::ServicePointManager_SPKey*& __cordl_internal_get__Key_k__BackingField();
+constexpr ::System::Net::ServicePointManager_SPKey*& __cordl_internal_get__Key_k__BackingField() ;
 
-  constexpr ::System::Net::ServicePointScheduler* const& __cordl_internal_get__Scheduler_k__BackingField() const;
+constexpr ::System::Net::ServicePointScheduler* const& __cordl_internal_get__Scheduler_k__BackingField() const;
 
-  constexpr ::System::Net::ServicePointScheduler*& __cordl_internal_get__Scheduler_k__BackingField();
+constexpr ::System::Net::ServicePointScheduler*& __cordl_internal_get__Scheduler_k__BackingField() ;
 
-  constexpr int32_t const& __cordl_internal_get_connectionLeaseTimeout() const;
+constexpr int32_t const& __cordl_internal_get_connectionLeaseTimeout() const;
 
-  constexpr int32_t& __cordl_internal_get_connectionLeaseTimeout();
+constexpr int32_t& __cordl_internal_get_connectionLeaseTimeout() ;
 
-  constexpr int32_t const& __cordl_internal_get_connectionLimit() const;
+constexpr int32_t const& __cordl_internal_get_connectionLimit() const;
 
-  constexpr int32_t& __cordl_internal_get_connectionLimit();
+constexpr int32_t& __cordl_internal_get_connectionLimit() ;
 
-  constexpr bool const& __cordl_internal_get_disposed() const;
+constexpr bool const& __cordl_internal_get_disposed() const;
 
-  constexpr bool& __cordl_internal_get_disposed();
+constexpr bool& __cordl_internal_get_disposed() ;
 
-  constexpr ::System::Net::BindIPEndPoint* const& __cordl_internal_get_endPointCallback() const;
+constexpr ::System::Net::BindIPEndPoint* const& __cordl_internal_get_endPointCallback() const;
 
-  constexpr ::System::Net::BindIPEndPoint*& __cordl_internal_get_endPointCallback();
+constexpr ::System::Net::BindIPEndPoint*& __cordl_internal_get_endPointCallback() ;
 
-  constexpr ::System::Net::IPHostEntry* const& __cordl_internal_get_host() const;
+constexpr ::System::Net::IPHostEntry* const& __cordl_internal_get_host() const;
 
-  constexpr ::System::Net::IPHostEntry*& __cordl_internal_get_host();
+constexpr ::System::Net::IPHostEntry*& __cordl_internal_get_host() ;
 
-  constexpr ::System::Object* const& __cordl_internal_get_hostE() const;
+constexpr ::System::Object* const& __cordl_internal_get_hostE() const;
 
-  constexpr ::System::Object*& __cordl_internal_get_hostE();
+constexpr ::System::Object*& __cordl_internal_get_hostE() ;
 
-  constexpr ::System::DateTime const& __cordl_internal_get_lastDnsResolve() const;
+constexpr ::System::DateTime const& __cordl_internal_get_lastDnsResolve() const;
 
-  constexpr ::System::DateTime& __cordl_internal_get_lastDnsResolve();
+constexpr ::System::DateTime& __cordl_internal_get_lastDnsResolve() ;
 
-  constexpr ::System::Object* const& __cordl_internal_get_m_ClientCertificateOrBytes() const;
+constexpr ::System::Object* const& __cordl_internal_get_m_ClientCertificateOrBytes() const;
 
-  constexpr ::System::Object*& __cordl_internal_get_m_ClientCertificateOrBytes();
+constexpr ::System::Object*& __cordl_internal_get_m_ClientCertificateOrBytes() ;
 
-  constexpr ::System::Object* const& __cordl_internal_get_m_ServerCertificateOrBytes() const;
+constexpr ::System::Object* const& __cordl_internal_get_m_ServerCertificateOrBytes() const;
 
-  constexpr ::System::Object*& __cordl_internal_get_m_ServerCertificateOrBytes();
+constexpr ::System::Object*& __cordl_internal_get_m_ServerCertificateOrBytes() ;
 
-  constexpr int32_t const& __cordl_internal_get_maxIdleTime() const;
+constexpr int32_t const& __cordl_internal_get_maxIdleTime() const;
 
-  constexpr int32_t& __cordl_internal_get_maxIdleTime();
+constexpr int32_t& __cordl_internal_get_maxIdleTime() ;
 
-  constexpr ::System::Version* const& __cordl_internal_get_protocolVersion() const;
+constexpr ::System::Version* const& __cordl_internal_get_protocolVersion() const;
 
-  constexpr ::System::Version*& __cordl_internal_get_protocolVersion();
+constexpr ::System::Version*& __cordl_internal_get_protocolVersion() ;
 
-  constexpr int32_t const& __cordl_internal_get_receiveBufferSize() const;
+constexpr int32_t const& __cordl_internal_get_receiveBufferSize() const;
 
-  constexpr int32_t& __cordl_internal_get_receiveBufferSize();
+constexpr int32_t& __cordl_internal_get_receiveBufferSize() ;
 
-  constexpr bool const& __cordl_internal_get_sendContinue() const;
+constexpr bool const& __cordl_internal_get_sendContinue() const;
 
-  constexpr bool& __cordl_internal_get_sendContinue();
+constexpr bool& __cordl_internal_get_sendContinue() ;
 
-  constexpr bool const& __cordl_internal_get_tcp_keepalive() const;
+constexpr bool const& __cordl_internal_get_tcp_keepalive() const;
 
-  constexpr bool& __cordl_internal_get_tcp_keepalive();
+constexpr bool& __cordl_internal_get_tcp_keepalive() ;
 
-  constexpr int32_t const& __cordl_internal_get_tcp_keepalive_interval() const;
+constexpr int32_t const& __cordl_internal_get_tcp_keepalive_interval() const;
 
-  constexpr int32_t& __cordl_internal_get_tcp_keepalive_interval();
+constexpr int32_t& __cordl_internal_get_tcp_keepalive_interval() ;
 
-  constexpr int32_t const& __cordl_internal_get_tcp_keepalive_time() const;
+constexpr int32_t const& __cordl_internal_get_tcp_keepalive_time() const;
 
-  constexpr int32_t& __cordl_internal_get_tcp_keepalive_time();
+constexpr int32_t& __cordl_internal_get_tcp_keepalive_time() ;
 
-  constexpr ::System::Uri* const& __cordl_internal_get_uri() const;
+constexpr ::System::Uri* const& __cordl_internal_get_uri() const;
 
-  constexpr ::System::Uri*& __cordl_internal_get_uri();
+constexpr ::System::Uri*& __cordl_internal_get_uri() ;
 
-  constexpr bool const& __cordl_internal_get_useConnect() const;
+constexpr bool const& __cordl_internal_get_useConnect() const;
 
-  constexpr bool& __cordl_internal_get_useConnect();
+constexpr bool& __cordl_internal_get_useConnect() ;
 
-  constexpr bool const& __cordl_internal_get_useNagle() const;
+constexpr bool const& __cordl_internal_get_useNagle() const;
 
-  constexpr bool& __cordl_internal_get_useNagle();
+constexpr bool& __cordl_internal_get_useNagle() ;
 
-  constexpr bool const& __cordl_internal_get_usesProxy() const;
+constexpr bool const& __cordl_internal_get_usesProxy() const;
 
-  constexpr bool& __cordl_internal_get_usesProxy();
+constexpr bool& __cordl_internal_get_usesProxy() ;
 
-  constexpr void __cordl_internal_set__Key_k__BackingField(::System::Net::ServicePointManager_SPKey* value);
+constexpr void __cordl_internal_set__Key_k__BackingField(::System::Net::ServicePointManager_SPKey*  value) ;
 
-  constexpr void __cordl_internal_set__Scheduler_k__BackingField(::System::Net::ServicePointScheduler* value);
+constexpr void __cordl_internal_set__Scheduler_k__BackingField(::System::Net::ServicePointScheduler*  value) ;
 
-  constexpr void __cordl_internal_set_connectionLeaseTimeout(int32_t value);
+constexpr void __cordl_internal_set_connectionLeaseTimeout(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_connectionLimit(int32_t value);
+constexpr void __cordl_internal_set_connectionLimit(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_disposed(bool value);
+constexpr void __cordl_internal_set_disposed(bool  value) ;
 
-  constexpr void __cordl_internal_set_endPointCallback(::System::Net::BindIPEndPoint* value);
+constexpr void __cordl_internal_set_endPointCallback(::System::Net::BindIPEndPoint*  value) ;
 
-  constexpr void __cordl_internal_set_host(::System::Net::IPHostEntry* value);
+constexpr void __cordl_internal_set_host(::System::Net::IPHostEntry*  value) ;
 
-  constexpr void __cordl_internal_set_hostE(::System::Object* value);
+constexpr void __cordl_internal_set_hostE(::System::Object*  value) ;
 
-  constexpr void __cordl_internal_set_lastDnsResolve(::System::DateTime value);
+constexpr void __cordl_internal_set_lastDnsResolve(::System::DateTime  value) ;
 
-  constexpr void __cordl_internal_set_m_ClientCertificateOrBytes(::System::Object* value);
+constexpr void __cordl_internal_set_m_ClientCertificateOrBytes(::System::Object*  value) ;
 
-  constexpr void __cordl_internal_set_m_ServerCertificateOrBytes(::System::Object* value);
+constexpr void __cordl_internal_set_m_ServerCertificateOrBytes(::System::Object*  value) ;
 
-  constexpr void __cordl_internal_set_maxIdleTime(int32_t value);
+constexpr void __cordl_internal_set_maxIdleTime(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_protocolVersion(::System::Version* value);
+constexpr void __cordl_internal_set_protocolVersion(::System::Version*  value) ;
 
-  constexpr void __cordl_internal_set_receiveBufferSize(int32_t value);
+constexpr void __cordl_internal_set_receiveBufferSize(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_sendContinue(bool value);
+constexpr void __cordl_internal_set_sendContinue(bool  value) ;
 
-  constexpr void __cordl_internal_set_tcp_keepalive(bool value);
+constexpr void __cordl_internal_set_tcp_keepalive(bool  value) ;
 
-  constexpr void __cordl_internal_set_tcp_keepalive_interval(int32_t value);
+constexpr void __cordl_internal_set_tcp_keepalive_interval(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_tcp_keepalive_time(int32_t value);
+constexpr void __cordl_internal_set_tcp_keepalive_time(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_uri(::System::Uri* value);
+constexpr void __cordl_internal_set_uri(::System::Uri*  value) ;
 
-  constexpr void __cordl_internal_set_useConnect(bool value);
+constexpr void __cordl_internal_set_useConnect(bool  value) ;
 
-  constexpr void __cordl_internal_set_useNagle(bool value);
+constexpr void __cordl_internal_set_useNagle(bool  value) ;
 
-  constexpr void __cordl_internal_set_usesProxy(bool value);
+constexpr void __cordl_internal_set_usesProxy(bool  value) ;
 
-  /// @brief Method .ctor, addr 0x6188288, size 0xc4, virtual false, abstract: false, final false
-  inline void _ctor(::System::Net::ServicePointManager_SPKey* key, ::System::Uri* uri, int32_t connectionLimit, int32_t maxIdleTime);
+/// @brief Method .ctor, addr 0x6188948, size 0xc4, virtual false, abstract: false, final false
+inline void _ctor(::System::Net::ServicePointManager_SPKey*  key, ::System::Uri*  uri, int32_t  connectionLimit, int32_t  maxIdleTime) ;
 
-  /// @brief Method get_Address, addr 0x6188508, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Uri* get_Address();
+/// @brief Method get_Address, addr 0x6188bc8, size 0x8, virtual false, abstract: false, final false
+inline ::System::Uri* get_Address() ;
 
-  /// @brief Method get_ConnectionLimit, addr 0x6188518, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_ConnectionLimit();
+/// @brief Method get_ConnectionLimit, addr 0x6188bd8, size 0x8, virtual false, abstract: false, final false
+inline int32_t get_ConnectionLimit() ;
 
-  /// @brief Method get_HasTimedOut, addr 0x6188758, size 0x14c, virtual false, abstract: false, final false
-  inline bool get_HasTimedOut();
+/// @brief Method get_HasTimedOut, addr 0x6188e18, size 0x14c, virtual false, abstract: false, final false
+inline bool get_HasTimedOut() ;
 
-  /// @brief Method get_HostEntry, addr 0x61888a4, size 0x3ac, virtual false, abstract: false, final false
-  inline ::System::Net::IPHostEntry* get_HostEntry();
+/// @brief Method get_HostEntry, addr 0x6188f64, size 0x3ac, virtual false, abstract: false, final false
+inline ::System::Net::IPHostEntry* get_HostEntry() ;
 
-  /// @brief Method get_Key, addr 0x61884f0, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Net::ServicePointManager_SPKey* get_Key();
+/// @brief Method get_Key, addr 0x6188bb0, size 0x8, virtual false, abstract: false, final false
+inline ::System::Net::ServicePointManager_SPKey* get_Key() ;
 
-  /// @brief Method get_ProtocolVersion, addr 0x6188520, size 0x8, virtual true, abstract: false, final false
-  inline ::System::Version* get_ProtocolVersion();
+/// @brief Method get_ProtocolVersion, addr 0x6188be0, size 0x8, virtual true, abstract: false, final false
+inline ::System::Version* get_ProtocolVersion() ;
 
-  /// @brief Method get_Scheduler, addr 0x61884f8, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Net::ServicePointScheduler* get_Scheduler();
+/// @brief Method get_Scheduler, addr 0x6188bb8, size 0x8, virtual false, abstract: false, final false
+inline ::System::Net::ServicePointScheduler* get_Scheduler() ;
 
-  /// @brief Method get_SendContinue, addr 0x617f810, size 0x8c, virtual false, abstract: false, final false
-  inline bool get_SendContinue();
+/// @brief Method get_SendContinue, addr 0x617fed0, size 0x8c, virtual false, abstract: false, final false
+inline bool get_SendContinue() ;
 
-  /// @brief Method get_UseConnect, addr 0x6188748, size 0x8, virtual false, abstract: false, final false
-  inline bool get_UseConnect();
+/// @brief Method get_UseConnect, addr 0x6188e08, size 0x8, virtual false, abstract: false, final false
+inline bool get_UseConnect() ;
 
-  /// @brief Method get_UseNagleAlgorithm, addr 0x6188530, size 0x8, virtual false, abstract: false, final false
-  inline bool get_UseNagleAlgorithm();
+/// @brief Method get_UseNagleAlgorithm, addr 0x6188bf0, size 0x8, virtual false, abstract: false, final false
+inline bool get_UseNagleAlgorithm() ;
 
-  /// @brief Method get_UsesProxy, addr 0x6188738, size 0x8, virtual false, abstract: false, final false
-  inline bool get_UsesProxy();
+/// @brief Method get_UsesProxy, addr 0x6188df8, size 0x8, virtual false, abstract: false, final false
+inline bool get_UsesProxy() ;
 
-  /// @brief Method set_BindIPEndPointDelegate, addr 0x6188510, size 0x8, virtual false, abstract: false, final false
-  inline void set_BindIPEndPointDelegate(::System::Net::BindIPEndPoint* value);
+/// @brief Method set_BindIPEndPointDelegate, addr 0x6188bd0, size 0x8, virtual false, abstract: false, final false
+inline void set_BindIPEndPointDelegate(::System::Net::BindIPEndPoint*  value) ;
 
-  /// @brief Method set_Expect100Continue, addr 0x6188528, size 0x8, virtual false, abstract: false, final false
-  inline void set_Expect100Continue(bool value);
+/// @brief Method set_Expect100Continue, addr 0x6188be8, size 0x8, virtual false, abstract: false, final false
+inline void set_Expect100Continue(bool  value) ;
 
-  /// @brief Method set_Scheduler, addr 0x6188500, size 0x8, virtual false, abstract: false, final false
-  inline void set_Scheduler(::System::Net::ServicePointScheduler* value);
+/// @brief Method set_Scheduler, addr 0x6188bc0, size 0x8, virtual false, abstract: false, final false
+inline void set_Scheduler(::System::Net::ServicePointScheduler*  value) ;
 
-  /// @brief Method set_SendContinue, addr 0x6188540, size 0x8, virtual false, abstract: false, final false
-  inline void set_SendContinue(bool value);
+/// @brief Method set_SendContinue, addr 0x6188c00, size 0x8, virtual false, abstract: false, final false
+inline void set_SendContinue(bool  value) ;
 
-  /// @brief Method set_UseConnect, addr 0x6188750, size 0x8, virtual false, abstract: false, final false
-  inline void set_UseConnect(bool value);
+/// @brief Method set_UseConnect, addr 0x6188e10, size 0x8, virtual false, abstract: false, final false
+inline void set_UseConnect(bool  value) ;
 
-  /// @brief Method set_UseNagleAlgorithm, addr 0x6188538, size 0x8, virtual false, abstract: false, final false
-  inline void set_UseNagleAlgorithm(bool value);
+/// @brief Method set_UseNagleAlgorithm, addr 0x6188bf8, size 0x8, virtual false, abstract: false, final false
+inline void set_UseNagleAlgorithm(bool  value) ;
 
-  /// @brief Method set_UsesProxy, addr 0x6188740, size 0x8, virtual false, abstract: false, final false
-  inline void set_UsesProxy(bool value);
+/// @brief Method set_UsesProxy, addr 0x6188e00, size 0x8, virtual false, abstract: false, final false
+inline void set_UsesProxy(bool  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ServicePoint();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ServicePoint() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ServicePoint", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ServicePoint(ServicePoint&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ServicePoint", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ServicePoint(ServicePoint const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ServicePoint", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ServicePoint(ServicePoint && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11599 };
+// Ctor Parameters [CppParam { name: "", ty: "ServicePoint", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ServicePoint(ServicePoint const& ) = delete;
 
-  /// @brief Field uri, offset: 0x10, size: 0x8, def value: None
-  ::System::Uri* ___uri;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11603};
 
-  /// @brief Field lastDnsResolve, offset: 0x18, size: 0x8, def value: None
-  ::System::DateTime ___lastDnsResolve;
+/// @brief Field uri, offset: 0x10, size: 0x8, def value: None
+ ::System::Uri*  ___uri;
 
-  /// @brief Field protocolVersion, offset: 0x20, size: 0x8, def value: None
-  ::System::Version* ___protocolVersion;
+/// @brief Field lastDnsResolve, offset: 0x18, size: 0x8, def value: None
+ ::System::DateTime  ___lastDnsResolve;
 
-  /// @brief Field host, offset: 0x28, size: 0x8, def value: None
-  ::System::Net::IPHostEntry* ___host;
+/// @brief Field protocolVersion, offset: 0x20, size: 0x8, def value: None
+ ::System::Version*  ___protocolVersion;
 
-  /// @brief Field usesProxy, offset: 0x30, size: 0x1, def value: None
-  bool ___usesProxy;
+/// @brief Field host, offset: 0x28, size: 0x8, def value: None
+ ::System::Net::IPHostEntry*  ___host;
 
-  /// @brief Field sendContinue, offset: 0x31, size: 0x1, def value: None
-  bool ___sendContinue;
+/// @brief Field usesProxy, offset: 0x30, size: 0x1, def value: None
+ bool  ___usesProxy;
 
-  /// @brief Field useConnect, offset: 0x32, size: 0x1, def value: None
-  bool ___useConnect;
+/// @brief Field sendContinue, offset: 0x31, size: 0x1, def value: None
+ bool  ___sendContinue;
 
-  /// @brief Field hostE, offset: 0x38, size: 0x8, def value: None
-  ::System::Object* ___hostE;
+/// @brief Field useConnect, offset: 0x32, size: 0x1, def value: None
+ bool  ___useConnect;
 
-  /// @brief Field useNagle, offset: 0x40, size: 0x1, def value: None
-  bool ___useNagle;
+/// @brief Field hostE, offset: 0x38, size: 0x8, def value: None
+ ::System::Object*  ___hostE;
 
-  /// @brief Field endPointCallback, offset: 0x48, size: 0x8, def value: None
-  ::System::Net::BindIPEndPoint* ___endPointCallback;
+/// @brief Field useNagle, offset: 0x40, size: 0x1, def value: None
+ bool  ___useNagle;
 
-  /// @brief Field tcp_keepalive, offset: 0x50, size: 0x1, def value: None
-  bool ___tcp_keepalive;
+/// @brief Field endPointCallback, offset: 0x48, size: 0x8, def value: None
+ ::System::Net::BindIPEndPoint*  ___endPointCallback;
 
-  /// @brief Field tcp_keepalive_time, offset: 0x54, size: 0x4, def value: None
-  int32_t ___tcp_keepalive_time;
+/// @brief Field tcp_keepalive, offset: 0x50, size: 0x1, def value: None
+ bool  ___tcp_keepalive;
 
-  /// @brief Field tcp_keepalive_interval, offset: 0x58, size: 0x4, def value: None
-  int32_t ___tcp_keepalive_interval;
+/// @brief Field tcp_keepalive_time, offset: 0x54, size: 0x4, def value: None
+ int32_t  ___tcp_keepalive_time;
 
-  /// @brief Field disposed, offset: 0x5c, size: 0x1, def value: None
-  bool ___disposed;
+/// @brief Field tcp_keepalive_interval, offset: 0x58, size: 0x4, def value: None
+ int32_t  ___tcp_keepalive_interval;
 
-  /// @brief Field connectionLeaseTimeout, offset: 0x60, size: 0x4, def value: None
-  int32_t ___connectionLeaseTimeout;
+/// @brief Field disposed, offset: 0x5c, size: 0x1, def value: None
+ bool  ___disposed;
 
-  /// @brief Field receiveBufferSize, offset: 0x64, size: 0x4, def value: None
-  int32_t ___receiveBufferSize;
+/// @brief Field connectionLeaseTimeout, offset: 0x60, size: 0x4, def value: None
+ int32_t  ___connectionLeaseTimeout;
 
-  /// @brief Field <Key>k__BackingField, offset: 0x68, size: 0x8, def value: None
-  ::System::Net::ServicePointManager_SPKey* ____Key_k__BackingField;
+/// @brief Field receiveBufferSize, offset: 0x64, size: 0x4, def value: None
+ int32_t  ___receiveBufferSize;
 
-  /// @brief Field <Scheduler>k__BackingField, offset: 0x70, size: 0x8, def value: None
-  ::System::Net::ServicePointScheduler* ____Scheduler_k__BackingField;
+/// @brief Field <Key>k__BackingField, offset: 0x68, size: 0x8, def value: None
+ ::System::Net::ServicePointManager_SPKey*  ____Key_k__BackingField;
 
-  /// @brief Field connectionLimit, offset: 0x78, size: 0x4, def value: None
-  int32_t ___connectionLimit;
+/// @brief Field <Scheduler>k__BackingField, offset: 0x70, size: 0x8, def value: None
+ ::System::Net::ServicePointScheduler*  ____Scheduler_k__BackingField;
 
-  /// @brief Field maxIdleTime, offset: 0x7c, size: 0x4, def value: None
-  int32_t ___maxIdleTime;
+/// @brief Field connectionLimit, offset: 0x78, size: 0x4, def value: None
+ int32_t  ___connectionLimit;
 
-  /// @brief Field m_ServerCertificateOrBytes, offset: 0x80, size: 0x8, def value: None
-  ::System::Object* ___m_ServerCertificateOrBytes;
+/// @brief Field maxIdleTime, offset: 0x7c, size: 0x4, def value: None
+ int32_t  ___maxIdleTime;
 
-  /// @brief Field m_ClientCertificateOrBytes, offset: 0x88, size: 0x8, def value: None
-  ::System::Object* ___m_ClientCertificateOrBytes;
+/// @brief Field m_ServerCertificateOrBytes, offset: 0x80, size: 0x8, def value: None
+ ::System::Object*  ___m_ServerCertificateOrBytes;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field m_ClientCertificateOrBytes, offset: 0x88, size: 0x8, def value: None
+ ::System::Object*  ___m_ClientCertificateOrBytes;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Net::ServicePoint, ___uri) == 0x10, "Offset mismatch!");
@@ -499,6 +499,6 @@ static_assert(offsetof(::System::Net::ServicePoint, ___m_ClientCertificateOrByte
 
 static_assert(::cordl_internals::size_check_v<::System::Net::ServicePoint, 0x90>, "Size mismatch!");
 
-} // namespace System::Net
+} // namespace end def System::Net
 NEED_NO_BOX(::System::Net::ServicePoint);
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::ServicePoint*, "System.Net", "ServicePoint");

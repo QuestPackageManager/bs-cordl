@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "Org/BouncyCastle/Math/Raw/Interleave.hpp"
 #include "Org/BouncyCastle/Math/Raw/Mod.hpp"
@@ -17,5 +17,6 @@ module;
 #include "Org/BouncyCastle/Math/Raw/Nat512.hpp"
 #include "Org/BouncyCastle/Math/Raw/Nat576.hpp"
 #ifdef __cpp_modules
-export module Raw;
-#endif
+                    export module Raw;
+                    #endif
+                

@@ -17,34 +17,34 @@ namespace System::Xml::Schema {
 // CS Name: System.Xml.Schema.XmlSchemaLengthFacet
 class CORDL_TYPE XmlSchemaLengthFacet : public ::System::Xml::Schema::XmlSchemaNumericFacet {
 public:
-  // Declarations
-  static inline ::System::Xml::Schema::XmlSchemaLengthFacet* New_ctor();
+// Declarations
+static inline ::System::Xml::Schema::XmlSchemaLengthFacet* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x607cb48, size 0xc, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x607d208, size 0xc, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr XmlSchemaLengthFacet();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr XmlSchemaLengthFacet() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaLengthFacet", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  XmlSchemaLengthFacet(XmlSchemaLengthFacet&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaLengthFacet", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  XmlSchemaLengthFacet(XmlSchemaLengthFacet const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "XmlSchemaLengthFacet", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+XmlSchemaLengthFacet(XmlSchemaLengthFacet && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9749 };
+// Ctor Parameters [CppParam { name: "", ty: "XmlSchemaLengthFacet", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+XmlSchemaLengthFacet(XmlSchemaLengthFacet const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{9753};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::XmlSchemaLengthFacet, 0x60>, "Size mismatch!");
 
-} // namespace System::Xml::Schema
+} // namespace end def System::Xml::Schema
 NEED_NO_BOX(::System::Xml::Schema::XmlSchemaLengthFacet);
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::XmlSchemaLengthFacet*, "System.Xml.Schema", "XmlSchemaLengthFacet");

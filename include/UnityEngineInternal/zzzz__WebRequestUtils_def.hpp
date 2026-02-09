@@ -24,48 +24,48 @@ namespace UnityEngineInternal {
 // CS Name: UnityEngineInternal.WebRequestUtils
 class CORDL_TYPE WebRequestUtils : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field domainRegex, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_domainRegex, put = setStaticF_domainRegex)) ::System::Text::RegularExpressions::Regex* domainRegex;
+// Declarations
+/// @brief Field domainRegex, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_domainRegex, put=setStaticF_domainRegex)) ::System::Text::RegularExpressions::Regex*  domainRegex;
 
-  /// @brief Method MakeInitialUrl, addr 0x6c5b8bc, size 0x38c, virtual false, abstract: false, final false
-  static inline ::StringW MakeInitialUrl(::StringW targetUrl, ::StringW localUrl);
+/// @brief Method MakeInitialUrl, addr 0x6c5bf7c, size 0x38c, virtual false, abstract: false, final false
+static inline ::StringW MakeInitialUrl(::StringW  targetUrl, ::StringW  localUrl) ;
 
-  /// @brief Method MakeUriString, addr 0x6c5bc48, size 0x430, virtual false, abstract: false, final false
-  static inline ::StringW MakeUriString(::System::Uri* targetUri, ::StringW targetUrl, bool prependProtocol);
+/// @brief Method MakeUriString, addr 0x6c5c308, size 0x430, virtual false, abstract: false, final false
+static inline ::StringW MakeUriString(::System::Uri*  targetUri, ::StringW  targetUrl, bool  prependProtocol) ;
 
-  /// @brief Method RedirectTo, addr 0x6c5b7d4, size 0xe8, virtual false, abstract: false, final false
-  static inline ::StringW RedirectTo(::StringW baseUri, ::StringW redirectUri);
+/// @brief Method RedirectTo, addr 0x6c5be94, size 0xe8, virtual false, abstract: false, final false
+static inline ::StringW RedirectTo(::StringW  baseUri, ::StringW  redirectUri) ;
 
-  /// @brief Method URLDecode, addr 0x6c5c078, size 0xa8, virtual false, abstract: false, final false
-  static inline ::StringW URLDecode(::StringW encoded);
+/// @brief Method URLDecode, addr 0x6c5c738, size 0xa8, virtual false, abstract: false, final false
+static inline ::StringW URLDecode(::StringW  encoded) ;
 
-  static inline ::System::Text::RegularExpressions::Regex* getStaticF_domainRegex();
+static inline ::System::Text::RegularExpressions::Regex* getStaticF_domainRegex() ;
 
-  static inline void setStaticF_domainRegex(::System::Text::RegularExpressions::Regex* value);
+static inline void setStaticF_domainRegex(::System::Text::RegularExpressions::Regex*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr WebRequestUtils();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr WebRequestUtils() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "WebRequestUtils", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  WebRequestUtils(WebRequestUtils&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "WebRequestUtils", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  WebRequestUtils(WebRequestUtils const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "WebRequestUtils", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+WebRequestUtils(WebRequestUtils && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22024 };
+// Ctor Parameters [CppParam { name: "", ty: "WebRequestUtils", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+WebRequestUtils(WebRequestUtils const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{22028};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngineInternal::WebRequestUtils, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngineInternal
+} // namespace end def UnityEngineInternal
 NEED_NO_BOX(::UnityEngineInternal::WebRequestUtils);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngineInternal::WebRequestUtils*, "UnityEngineInternal", "WebRequestUtils");

@@ -7,139 +7,160 @@
 #include "GlobalNamespace/zzzz__BloomPrePassBackgroundTextureGradient_def.hpp"
 #include "GlobalNamespace/zzzz__ColorBoostBeatmapEventData_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::BackgroundTextureGradientSwitchEventEffect.Start
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BackgroundTextureGradientSwitchEventEffect::*)()>(
-    &::GlobalNamespace::BackgroundTextureGradientSwitchEventEffect::Start)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BackgroundTextureGradientSwitchEventEffect::*)()>(&::GlobalNamespace::BackgroundTextureGradientSwitchEventEffect::Start)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x57df870;
+  constexpr static std::size_t addrs = 0x57e01a0;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BackgroundTextureGradientSwitchEventEffect*>::get(), "Start",
-                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BackgroundTextureGradientSwitchEventEffect*>::get(),
+                        "Start",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::BackgroundTextureGradientSwitchEventEffect.OnDestroy
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BackgroundTextureGradientSwitchEventEffect::*)()>(
-    &::GlobalNamespace::BackgroundTextureGradientSwitchEventEffect::OnDestroy)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BackgroundTextureGradientSwitchEventEffect::*)()>(&::GlobalNamespace::BackgroundTextureGradientSwitchEventEffect::OnDestroy)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x57df920;
+  constexpr static std::size_t addrs = 0x57e0250;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BackgroundTextureGradientSwitchEventEffect*>::get(), "OnDestroy",
-                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BackgroundTextureGradientSwitchEventEffect*>::get(),
+                        "OnDestroy",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::BackgroundTextureGradientSwitchEventEffect.HandleBeatmapEvent
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BackgroundTextureGradientSwitchEventEffect::*)(
-    ::GlobalNamespace::ColorBoostBeatmapEventData*)>(&::GlobalNamespace::BackgroundTextureGradientSwitchEventEffect::HandleBeatmapEvent)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BackgroundTextureGradientSwitchEventEffect::*)(::GlobalNamespace::ColorBoostBeatmapEventData*)>(&::GlobalNamespace::BackgroundTextureGradientSwitchEventEffect::HandleBeatmapEvent)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x57df93c;
+  constexpr static std::size_t addrs = 0x57e026c;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BackgroundTextureGradientSwitchEventEffect*>::get(), "HandleBeatmapEvent", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ColorBoostBeatmapEventData*>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BackgroundTextureGradientSwitchEventEffect*>::get(),
+                        "HandleBeatmapEvent",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ColorBoostBeatmapEventData*>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::BackgroundTextureGradientSwitchEventEffect._ctor
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BackgroundTextureGradientSwitchEventEffect::*)()>(
-    &::GlobalNamespace::BackgroundTextureGradientSwitchEventEffect::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BackgroundTextureGradientSwitchEventEffect::*)()>(&::GlobalNamespace::BackgroundTextureGradientSwitchEventEffect::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x57df98c;
+  constexpr static std::size_t addrs = 0x57e02bc;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BackgroundTextureGradientSwitchEventEffect*>::get(), ".ctor",
-                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BackgroundTextureGradientSwitchEventEffect*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
-constexpr ::UnityW<::GlobalNamespace::BloomPrePassBackgroundTextureGradient>& GlobalNamespace::BackgroundTextureGradientSwitchEventEffect::__cordl_internal_get__defaultTextureGradient() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____defaultTextureGradient;
+constexpr ::UnityW<::GlobalNamespace::BloomPrePassBackgroundTextureGradient>& GlobalNamespace::BackgroundTextureGradientSwitchEventEffect::__cordl_internal_get__defaultTextureGradient()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____defaultTextureGradient;
 }
 constexpr ::UnityW<::GlobalNamespace::BloomPrePassBackgroundTextureGradient> const& GlobalNamespace::BackgroundTextureGradientSwitchEventEffect::__cordl_internal_get__defaultTextureGradient() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____defaultTextureGradient;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____defaultTextureGradient;
 }
-constexpr void GlobalNamespace::BackgroundTextureGradientSwitchEventEffect::__cordl_internal_set__defaultTextureGradient(::UnityW<::GlobalNamespace::BloomPrePassBackgroundTextureGradient> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____defaultTextureGradient)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::BackgroundTextureGradientSwitchEventEffect::__cordl_internal_set__defaultTextureGradient(::UnityW<::GlobalNamespace::BloomPrePassBackgroundTextureGradient>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____defaultTextureGradient)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::GlobalNamespace::BloomPrePassBackgroundTextureGradient>& GlobalNamespace::BackgroundTextureGradientSwitchEventEffect::__cordl_internal_get__boostTextureGradient() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____boostTextureGradient;
+constexpr ::UnityW<::GlobalNamespace::BloomPrePassBackgroundTextureGradient>& GlobalNamespace::BackgroundTextureGradientSwitchEventEffect::__cordl_internal_get__boostTextureGradient()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____boostTextureGradient;
 }
 constexpr ::UnityW<::GlobalNamespace::BloomPrePassBackgroundTextureGradient> const& GlobalNamespace::BackgroundTextureGradientSwitchEventEffect::__cordl_internal_get__boostTextureGradient() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____boostTextureGradient;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____boostTextureGradient;
 }
-constexpr void GlobalNamespace::BackgroundTextureGradientSwitchEventEffect::__cordl_internal_set__boostTextureGradient(::UnityW<::GlobalNamespace::BloomPrePassBackgroundTextureGradient> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____boostTextureGradient)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::BackgroundTextureGradientSwitchEventEffect::__cordl_internal_set__boostTextureGradient(::UnityW<::GlobalNamespace::BloomPrePassBackgroundTextureGradient>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____boostTextureGradient)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::BeatmapCallbacksController*& GlobalNamespace::BackgroundTextureGradientSwitchEventEffect::__cordl_internal_get__beatmapCallbacksController() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____beatmapCallbacksController;
+constexpr ::GlobalNamespace::BeatmapCallbacksController*& GlobalNamespace::BackgroundTextureGradientSwitchEventEffect::__cordl_internal_get__beatmapCallbacksController()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____beatmapCallbacksController;
 }
 constexpr ::GlobalNamespace::BeatmapCallbacksController* const& GlobalNamespace::BackgroundTextureGradientSwitchEventEffect::__cordl_internal_get__beatmapCallbacksController() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____beatmapCallbacksController;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____beatmapCallbacksController;
 }
-constexpr void GlobalNamespace::BackgroundTextureGradientSwitchEventEffect::__cordl_internal_set__beatmapCallbacksController(::GlobalNamespace::BeatmapCallbacksController* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____beatmapCallbacksController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::BackgroundTextureGradientSwitchEventEffect::__cordl_internal_set__beatmapCallbacksController(::GlobalNamespace::BeatmapCallbacksController*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____beatmapCallbacksController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper*& GlobalNamespace::BackgroundTextureGradientSwitchEventEffect::__cordl_internal_get__beatmapDataCallbackWrapper() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____beatmapDataCallbackWrapper;
+constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper*& GlobalNamespace::BackgroundTextureGradientSwitchEventEffect::__cordl_internal_get__beatmapDataCallbackWrapper()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____beatmapDataCallbackWrapper;
 }
 constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper* const& GlobalNamespace::BackgroundTextureGradientSwitchEventEffect::__cordl_internal_get__beatmapDataCallbackWrapper() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____beatmapDataCallbackWrapper;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____beatmapDataCallbackWrapper;
 }
-constexpr void GlobalNamespace::BackgroundTextureGradientSwitchEventEffect::__cordl_internal_set__beatmapDataCallbackWrapper(::GlobalNamespace::BeatmapDataCallbackWrapper* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____beatmapDataCallbackWrapper)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::BackgroundTextureGradientSwitchEventEffect::__cordl_internal_set__beatmapDataCallbackWrapper(::GlobalNamespace::BeatmapDataCallbackWrapper*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____beatmapDataCallbackWrapper)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void GlobalNamespace::BackgroundTextureGradientSwitchEventEffect::Start() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BackgroundTextureGradientSwitchEventEffect*>::get(), "Start",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::BackgroundTextureGradientSwitchEventEffect::Start()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BackgroundTextureGradientSwitchEventEffect*>::get(),
+                        "Start",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::BackgroundTextureGradientSwitchEventEffect::OnDestroy() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BackgroundTextureGradientSwitchEventEffect*>::get(), "OnDestroy",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::BackgroundTextureGradientSwitchEventEffect::OnDestroy()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BackgroundTextureGradientSwitchEventEffect*>::get(),
+                        "OnDestroy",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::BackgroundTextureGradientSwitchEventEffect::HandleBeatmapEvent(::GlobalNamespace::ColorBoostBeatmapEventData* eventData) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BackgroundTextureGradientSwitchEventEffect*>::get(), "HandleBeatmapEvent", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ColorBoostBeatmapEventData*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, eventData);
+inline void GlobalNamespace::BackgroundTextureGradientSwitchEventEffect::HandleBeatmapEvent(::GlobalNamespace::ColorBoostBeatmapEventData*  eventData)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BackgroundTextureGradientSwitchEventEffect*>::get(),
+                        "HandleBeatmapEvent",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ColorBoostBeatmapEventData*>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, eventData);
 }
-inline void GlobalNamespace::BackgroundTextureGradientSwitchEventEffect::_ctor() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BackgroundTextureGradientSwitchEventEffect*>::get(), ".ctor",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::BackgroundTextureGradientSwitchEventEffect::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BackgroundTextureGradientSwitchEventEffect*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::BackgroundTextureGradientSwitchEventEffect* GlobalNamespace::BackgroundTextureGradientSwitchEventEffect::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BackgroundTextureGradientSwitchEventEffect*>());
+inline ::GlobalNamespace::BackgroundTextureGradientSwitchEventEffect* GlobalNamespace::BackgroundTextureGradientSwitchEventEffect::New_ctor()  {
+return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BackgroundTextureGradientSwitchEventEffect*>());
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::BackgroundTextureGradientSwitchEventEffect::BackgroundTextureGradientSwitchEventEffect() {}
+constexpr ::GlobalNamespace::BackgroundTextureGradientSwitchEventEffect::BackgroundTextureGradientSwitchEventEffect()   {
+}

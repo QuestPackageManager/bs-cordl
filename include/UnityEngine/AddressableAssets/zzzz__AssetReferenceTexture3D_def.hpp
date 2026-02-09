@@ -21,34 +21,34 @@ namespace UnityEngine::AddressableAssets {
 // CS Name: UnityEngine.AddressableAssets.AssetReferenceTexture3D
 class CORDL_TYPE AssetReferenceTexture3D : public ::UnityEngine::AddressableAssets::AssetReferenceT_1<::UnityW<::UnityEngine::Texture3D>> {
 public:
-  // Declarations
-  static inline ::UnityEngine::AddressableAssets::AssetReferenceTexture3D* New_ctor(::StringW guid);
+// Declarations
+static inline ::UnityEngine::AddressableAssets::AssetReferenceTexture3D* New_ctor(::StringW  guid) ;
 
-  /// @brief Method .ctor, addr 0x62a9c3c, size 0x78, virtual false, abstract: false, final false
-  inline void _ctor(::StringW guid);
+/// @brief Method .ctor, addr 0x62aa2fc, size 0x78, virtual false, abstract: false, final false
+inline void _ctor(::StringW  guid) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AssetReferenceTexture3D();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr AssetReferenceTexture3D() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AssetReferenceTexture3D", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  AssetReferenceTexture3D(AssetReferenceTexture3D&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AssetReferenceTexture3D", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  AssetReferenceTexture3D(AssetReferenceTexture3D const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "AssetReferenceTexture3D", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+AssetReferenceTexture3D(AssetReferenceTexture3D && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19539 };
+// Ctor Parameters [CppParam { name: "", ty: "AssetReferenceTexture3D", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+AssetReferenceTexture3D(AssetReferenceTexture3D const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{19543};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::AddressableAssets::AssetReferenceTexture3D, 0x40>, "Size mismatch!");
 
-} // namespace UnityEngine::AddressableAssets
+} // namespace end def UnityEngine::AddressableAssets
 NEED_NO_BOX(::UnityEngine::AddressableAssets::AssetReferenceTexture3D);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AddressableAssets::AssetReferenceTexture3D*, "UnityEngine.AddressableAssets", "AssetReferenceTexture3D");

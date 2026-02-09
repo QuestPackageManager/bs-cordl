@@ -36,50 +36,49 @@ namespace System::Security::AccessControl {
 // CS Name: System.Security.AccessControl.DiscretionaryAcl
 class CORDL_TYPE DiscretionaryAcl : public ::System::Security::AccessControl::CommonAcl {
 public:
-  // Declarations
-  /// @brief Method AddAccess, addr 0x596f378, size 0x6c, virtual false, abstract: false, final false
-  inline void AddAccess(::System::Security::AccessControl::AccessControlType accessType, ::System::Security::Principal::SecurityIdentifier* sid, int32_t accessMask,
-                        ::System::Security::AccessControl::InheritanceFlags inheritanceFlags, ::System::Security::AccessControl::PropagationFlags propagationFlags);
+// Declarations
+/// @brief Method AddAccess, addr 0x596f884, size 0x6c, virtual false, abstract: false, final false
+inline void AddAccess(::System::Security::AccessControl::AccessControlType  accessType, ::System::Security::Principal::SecurityIdentifier*  sid, int32_t  accessMask, ::System::Security::AccessControl::InheritanceFlags  inheritanceFlags, ::System::Security::AccessControl::PropagationFlags  propagationFlags) ;
 
-  /// @brief Method ApplyCanonicalSortToExplicitAces, addr 0x596f544, size 0x48, virtual true, abstract: false, final false
-  inline void ApplyCanonicalSortToExplicitAces();
+/// @brief Method ApplyCanonicalSortToExplicitAces, addr 0x596fa50, size 0x48, virtual true, abstract: false, final false
+inline void ApplyCanonicalSortToExplicitAces() ;
 
-  /// @brief Method GetAceInsertPosition, addr 0x596f58c, size 0x10, virtual true, abstract: false, final false
-  inline int32_t GetAceInsertPosition(::System::Security::AccessControl::AceQualifier aceQualifier);
+/// @brief Method GetAceInsertPosition, addr 0x596fa98, size 0x10, virtual true, abstract: false, final false
+inline int32_t GetAceInsertPosition(::System::Security::AccessControl::AceQualifier  aceQualifier) ;
 
-  /// @brief Method GetAceQualifier, addr 0x596f4ec, size 0x58, virtual false, abstract: false, final false
-  static inline ::System::Security::AccessControl::AceQualifier GetAceQualifier(::System::Security::AccessControl::AccessControlType accessType);
+/// @brief Method GetAceQualifier, addr 0x596f9f8, size 0x58, virtual false, abstract: false, final false
+static inline ::System::Security::AccessControl::AceQualifier GetAceQualifier(::System::Security::AccessControl::AccessControlType  accessType) ;
 
-  /// @brief Method IsAceMeaningless, addr 0x596f59c, size 0xfc, virtual true, abstract: false, final false
-  inline bool IsAceMeaningless(::System::Security::AccessControl::GenericAce* ace);
+/// @brief Method IsAceMeaningless, addr 0x596faa8, size 0xfc, virtual true, abstract: false, final false
+inline bool IsAceMeaningless(::System::Security::AccessControl::GenericAce*  ace) ;
 
-  static inline ::System::Security::AccessControl::DiscretionaryAcl* New_ctor(bool isContainer, bool isDS, int32_t capacity);
+static inline ::System::Security::AccessControl::DiscretionaryAcl* New_ctor(bool  isContainer, bool  isDS, int32_t  capacity) ;
 
-  /// @brief Method .ctor, addr 0x596f374, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor(bool isContainer, bool isDS, int32_t capacity);
+/// @brief Method .ctor, addr 0x596f880, size 0x4, virtual false, abstract: false, final false
+inline void _ctor(bool  isContainer, bool  isDS, int32_t  capacity) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DiscretionaryAcl();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr DiscretionaryAcl() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DiscretionaryAcl", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  DiscretionaryAcl(DiscretionaryAcl&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DiscretionaryAcl", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  DiscretionaryAcl(DiscretionaryAcl const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "DiscretionaryAcl", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+DiscretionaryAcl(DiscretionaryAcl && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3046 };
+// Ctor Parameters [CppParam { name: "", ty: "DiscretionaryAcl", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+DiscretionaryAcl(DiscretionaryAcl const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{3046};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Security::AccessControl::DiscretionaryAcl, 0x20>, "Size mismatch!");
 
-} // namespace System::Security::AccessControl
+} // namespace end def System::Security::AccessControl
 NEED_NO_BOX(::System::Security::AccessControl::DiscretionaryAcl);
 DEFINE_IL2CPP_ARG_TYPE(::System::Security::AccessControl::DiscretionaryAcl*, "System.Security.AccessControl", "DiscretionaryAcl");

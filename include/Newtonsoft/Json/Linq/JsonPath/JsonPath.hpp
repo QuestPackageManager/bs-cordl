@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "Newtonsoft/Json/Linq/JsonPath/ArrayIndexFilter.hpp"
 #include "Newtonsoft/Json/Linq/JsonPath/ArrayMultipleIndexFilter.hpp"
@@ -20,5 +20,6 @@ module;
 #include "Newtonsoft/Json/Linq/JsonPath/ScanFilter.hpp"
 #include "Newtonsoft/Json/Linq/JsonPath/ScanMultipleFilter.hpp"
 #ifdef __cpp_modules
-export module JsonPath;
-#endif
+                    export module JsonPath;
+                    #endif
+                

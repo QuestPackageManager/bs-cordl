@@ -23,37 +23,37 @@ namespace UnityEngine::UIElements {
 // CS Name: UnityEngine.UIElements.SavePersistentViewData
 class CORDL_TYPE SavePersistentViewData : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method Invoke, addr 0x6bed22c, size 0x14, virtual true, abstract: false, final false
-  inline void Invoke();
+// Declarations
+/// @brief Method Invoke, addr 0x6bed8ec, size 0x14, virtual true, abstract: false, final false
+inline void Invoke() ;
 
-  static inline ::UnityEngine::UIElements::SavePersistentViewData* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::UnityEngine::UIElements::SavePersistentViewData* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x6bed1c4, size 0x68, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x6bed884, size 0x68, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SavePersistentViewData();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr SavePersistentViewData() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SavePersistentViewData", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  SavePersistentViewData(SavePersistentViewData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SavePersistentViewData", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  SavePersistentViewData(SavePersistentViewData const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "SavePersistentViewData", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+SavePersistentViewData(SavePersistentViewData && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4647 };
+// Ctor Parameters [CppParam { name: "", ty: "SavePersistentViewData", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+SavePersistentViewData(SavePersistentViewData const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4647};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::SavePersistentViewData, 0x80>, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements
+} // namespace end def UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::SavePersistentViewData);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::SavePersistentViewData*, "UnityEngine.UIElements", "SavePersistentViewData");

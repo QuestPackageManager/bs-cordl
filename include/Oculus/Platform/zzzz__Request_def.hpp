@@ -24,71 +24,71 @@ namespace Oculus::Platform {
 // CS Name: Oculus.Platform.Request
 class CORDL_TYPE Request : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(get = get_RequestID, put = set_RequestID)) uint64_t RequestID;
+// Declarations
+ __declspec(property(get=get_RequestID, put=set_RequestID)) uint64_t  RequestID;
 
-  /// @brief Field <RequestID>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__RequestID_k__BackingField, put = __cordl_internal_set__RequestID_k__BackingField)) uint64_t _RequestID_k__BackingField;
+/// @brief Field <RequestID>k__BackingField, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get__RequestID_k__BackingField, put=__cordl_internal_set__RequestID_k__BackingField)) uint64_t  _RequestID_k__BackingField;
 
-  /// @brief Field callback_, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_callback_, put = __cordl_internal_set_callback_)) ::Oculus::Platform::Message_Callback* callback_;
+/// @brief Field callback_, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_callback_, put=__cordl_internal_set_callback_)) ::Oculus::Platform::Message_Callback*  callback_;
 
-  /// @brief Method HandleMessage, addr 0x5c3d884, size 0x64, virtual true, abstract: false, final false
-  inline void HandleMessage(::Oculus::Platform::Message* msg);
+/// @brief Method HandleMessage, addr 0x5c3dd90, size 0x64, virtual true, abstract: false, final false
+inline void HandleMessage(::Oculus::Platform::Message*  msg) ;
 
-  static inline ::Oculus::Platform::Request* New_ctor(uint64_t requestID);
+static inline ::Oculus::Platform::Request* New_ctor(uint64_t  requestID) ;
 
-  /// @brief Method OnComplete, addr 0x5c3d814, size 0x70, virtual false, abstract: false, final false
-  inline ::Oculus::Platform::Request* OnComplete(::Oculus::Platform::Message_Callback* callback);
+/// @brief Method OnComplete, addr 0x5c3dd20, size 0x70, virtual false, abstract: false, final false
+inline ::Oculus::Platform::Request* OnComplete(::Oculus::Platform::Message_Callback*  callback) ;
 
-  /// @brief Method RunCallbacks, addr 0x5c0784c, size 0x70, virtual false, abstract: false, final false
-  static inline void RunCallbacks(uint32_t limit);
+/// @brief Method RunCallbacks, addr 0x5c07d58, size 0x70, virtual false, abstract: false, final false
+static inline void RunCallbacks(uint32_t  limit) ;
 
-  constexpr uint64_t const& __cordl_internal_get__RequestID_k__BackingField() const;
+constexpr uint64_t const& __cordl_internal_get__RequestID_k__BackingField() const;
 
-  constexpr uint64_t& __cordl_internal_get__RequestID_k__BackingField();
+constexpr uint64_t& __cordl_internal_get__RequestID_k__BackingField() ;
 
-  constexpr ::Oculus::Platform::Message_Callback* const& __cordl_internal_get_callback_() const;
+constexpr ::Oculus::Platform::Message_Callback* const& __cordl_internal_get_callback_() const;
 
-  constexpr ::Oculus::Platform::Message_Callback*& __cordl_internal_get_callback_();
+constexpr ::Oculus::Platform::Message_Callback*& __cordl_internal_get_callback_() ;
 
-  constexpr void __cordl_internal_set__RequestID_k__BackingField(uint64_t value);
+constexpr void __cordl_internal_set__RequestID_k__BackingField(uint64_t  value) ;
 
-  constexpr void __cordl_internal_set_callback_(::Oculus::Platform::Message_Callback* value);
+constexpr void __cordl_internal_set_callback_(::Oculus::Platform::Message_Callback*  value) ;
 
-  /// @brief Method .ctor, addr 0x5c32788, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(uint64_t requestID);
+/// @brief Method .ctor, addr 0x5c32c94, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(uint64_t  requestID) ;
 
-  /// @brief Method get_RequestID, addr 0x5c3d804, size 0x8, virtual false, abstract: false, final false
-  inline uint64_t get_RequestID();
+/// @brief Method get_RequestID, addr 0x5c3dd10, size 0x8, virtual false, abstract: false, final false
+inline uint64_t get_RequestID() ;
 
-  /// @brief Method set_RequestID, addr 0x5c3d80c, size 0x8, virtual false, abstract: false, final false
-  inline void set_RequestID(uint64_t value);
+/// @brief Method set_RequestID, addr 0x5c3dd18, size 0x8, virtual false, abstract: false, final false
+inline void set_RequestID(uint64_t  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Request();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr Request() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Request", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  Request(Request&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Request", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  Request(Request const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "Request", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+Request(Request && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17947 };
+// Ctor Parameters [CppParam { name: "", ty: "Request", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+Request(Request const& ) = delete;
 
-  /// @brief Field callback_, offset: 0x10, size: 0x8, def value: None
-  ::Oculus::Platform::Message_Callback* ___callback_;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{17951};
 
-  /// @brief Field <RequestID>k__BackingField, offset: 0x18, size: 0x8, def value: None
-  uint64_t ____RequestID_k__BackingField;
+/// @brief Field callback_, offset: 0x10, size: 0x8, def value: None
+ ::Oculus::Platform::Message_Callback*  ___callback_;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field <RequestID>k__BackingField, offset: 0x18, size: 0x8, def value: None
+ uint64_t  ____RequestID_k__BackingField;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Oculus::Platform::Request, ___callback_) == 0x10, "Offset mismatch!");
@@ -97,6 +97,6 @@ static_assert(offsetof(::Oculus::Platform::Request, ____RequestID_k__BackingFiel
 
 static_assert(::cordl_internals::size_check_v<::Oculus::Platform::Request, 0x20>, "Size mismatch!");
 
-} // namespace Oculus::Platform
+} // namespace end def Oculus::Platform
 NEED_NO_BOX(::Oculus::Platform::Request);
 DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Request*, "Oculus.Platform", "Request");

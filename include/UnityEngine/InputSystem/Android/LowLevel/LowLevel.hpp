@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "UnityEngine/InputSystem/Android/LowLevel/AndroidAxis.hpp"
 #include "UnityEngine/InputSystem/Android/LowLevel/AndroidCompensateDirectionProcessor.hpp"
@@ -14,5 +14,6 @@ module;
 #include "UnityEngine/InputSystem/Android/LowLevel/AndroidSensorState.hpp"
 #include "UnityEngine/InputSystem/Android/LowLevel/AndroidSensorType.hpp"
 #ifdef __cpp_modules
-export module LowLevel;
-#endif
+                    export module LowLevel;
+                    #endif
+                

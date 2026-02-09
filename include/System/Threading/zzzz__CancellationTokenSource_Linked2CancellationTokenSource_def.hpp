@@ -21,57 +21,57 @@ namespace GlobalNamespace {
 // CS Name: System.Threading.CancellationTokenSource/Linked2CancellationTokenSource
 class CORDL_TYPE CancellationTokenSource_Linked2CancellationTokenSource : public ::System::Threading::CancellationTokenSource {
 public:
-  // Declarations
-  /// @brief Field _reg1, offset 0x40, size 0x18
-  __declspec(property(get = __cordl_internal_get__reg1, put = __cordl_internal_set__reg1)) ::System::Threading::CancellationTokenRegistration _reg1;
+// Declarations
+/// @brief Field _reg1, offset 0x40, size 0x18 
+ __declspec(property(get=__cordl_internal_get__reg1, put=__cordl_internal_set__reg1)) ::System::Threading::CancellationTokenRegistration  _reg1;
 
-  /// @brief Field _reg2, offset 0x58, size 0x18
-  __declspec(property(get = __cordl_internal_get__reg2, put = __cordl_internal_set__reg2)) ::System::Threading::CancellationTokenRegistration _reg2;
+/// @brief Field _reg2, offset 0x58, size 0x18 
+ __declspec(property(get=__cordl_internal_get__reg2, put=__cordl_internal_set__reg2)) ::System::Threading::CancellationTokenRegistration  _reg2;
 
-  /// @brief Method Dispose, addr 0x5afd0c8, size 0x3c, virtual true, abstract: false, final false
-  inline void Dispose(bool disposing);
+/// @brief Method Dispose, addr 0x5afd5d4, size 0x3c, virtual true, abstract: false, final false
+inline void Dispose(bool  disposing) ;
 
-  static inline ::GlobalNamespace::CancellationTokenSource_Linked2CancellationTokenSource* New_ctor(::System::Threading::CancellationToken token1, ::System::Threading::CancellationToken token2);
+static inline ::GlobalNamespace::CancellationTokenSource_Linked2CancellationTokenSource* New_ctor(::System::Threading::CancellationToken  token1, ::System::Threading::CancellationToken  token2) ;
 
-  constexpr ::System::Threading::CancellationTokenRegistration const& __cordl_internal_get__reg1() const;
+constexpr ::System::Threading::CancellationTokenRegistration const& __cordl_internal_get__reg1() const;
 
-  constexpr ::System::Threading::CancellationTokenRegistration& __cordl_internal_get__reg1();
+constexpr ::System::Threading::CancellationTokenRegistration& __cordl_internal_get__reg1() ;
 
-  constexpr ::System::Threading::CancellationTokenRegistration const& __cordl_internal_get__reg2() const;
+constexpr ::System::Threading::CancellationTokenRegistration const& __cordl_internal_get__reg2() const;
 
-  constexpr ::System::Threading::CancellationTokenRegistration& __cordl_internal_get__reg2();
+constexpr ::System::Threading::CancellationTokenRegistration& __cordl_internal_get__reg2() ;
 
-  constexpr void __cordl_internal_set__reg1(::System::Threading::CancellationTokenRegistration value);
+constexpr void __cordl_internal_set__reg1(::System::Threading::CancellationTokenRegistration  value) ;
 
-  constexpr void __cordl_internal_set__reg2(::System::Threading::CancellationTokenRegistration value);
+constexpr void __cordl_internal_set__reg2(::System::Threading::CancellationTokenRegistration  value) ;
 
-  /// @brief Method .ctor, addr 0x5afcd3c, size 0x128, virtual false, abstract: false, final false
-  inline void _ctor(::System::Threading::CancellationToken token1, ::System::Threading::CancellationToken token2);
+/// @brief Method .ctor, addr 0x5afd248, size 0x128, virtual false, abstract: false, final false
+inline void _ctor(::System::Threading::CancellationToken  token1, ::System::Threading::CancellationToken  token2) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CancellationTokenSource_Linked2CancellationTokenSource();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr CancellationTokenSource_Linked2CancellationTokenSource() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CancellationTokenSource_Linked2CancellationTokenSource", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  CancellationTokenSource_Linked2CancellationTokenSource(CancellationTokenSource_Linked2CancellationTokenSource&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CancellationTokenSource_Linked2CancellationTokenSource", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  CancellationTokenSource_Linked2CancellationTokenSource(CancellationTokenSource_Linked2CancellationTokenSource const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "CancellationTokenSource_Linked2CancellationTokenSource", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+CancellationTokenSource_Linked2CancellationTokenSource(CancellationTokenSource_Linked2CancellationTokenSource && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2697 };
+// Ctor Parameters [CppParam { name: "", ty: "CancellationTokenSource_Linked2CancellationTokenSource", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+CancellationTokenSource_Linked2CancellationTokenSource(CancellationTokenSource_Linked2CancellationTokenSource const& ) = delete;
 
-  /// @brief Field _reg1, offset: 0x40, size: 0x18, def value: None
-  ::System::Threading::CancellationTokenRegistration ____reg1;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{2697};
 
-  /// @brief Field _reg2, offset: 0x58, size: 0x18, def value: None
-  ::System::Threading::CancellationTokenRegistration ____reg2;
+/// @brief Field _reg1, offset: 0x40, size: 0x18, def value: None
+ ::System::Threading::CancellationTokenRegistration  ____reg1;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _reg2, offset: 0x58, size: 0x18, def value: None
+ ::System::Threading::CancellationTokenRegistration  ____reg2;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::CancellationTokenSource_Linked2CancellationTokenSource, ____reg1) == 0x40, "Offset mismatch!");
@@ -80,6 +80,6 @@ static_assert(offsetof(::GlobalNamespace::CancellationTokenSource_Linked2Cancell
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::CancellationTokenSource_Linked2CancellationTokenSource, 0x70>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::CancellationTokenSource_Linked2CancellationTokenSource);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::CancellationTokenSource_Linked2CancellationTokenSource*, "System.Threading", "CancellationTokenSource/Linked2CancellationTokenSource");

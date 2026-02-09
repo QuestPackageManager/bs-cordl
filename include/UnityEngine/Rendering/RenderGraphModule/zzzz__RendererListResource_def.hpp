@@ -22,31 +22,30 @@ namespace UnityEngine::Rendering::RenderGraphModule {
 // CS Name: UnityEngine.Rendering.RenderGraphModule.RendererListResource
 struct CORDL_TYPE RendererListResource {
 public:
-  // Declarations
-  /// @brief Method .ctor, addr 0x66309d8, size 0x20, virtual false, abstract: false, final false
-  inline void _ctor(::ByRef<::UnityEngine::Rendering::RendererListParams> desc);
+// Declarations
+/// @brief Method .ctor, addr 0x6631098, size 0x20, virtual false, abstract: false, final false
+inline void _ctor(::ByRef<::UnityEngine::Rendering::RendererListParams>  desc) ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RendererListResource();
+// Ctor Parameters []
+// @brief default ctor
+constexpr RendererListResource() ;
 
-  // Ctor Parameters [CppParam { name: "desc", ty: "::UnityEngine::Rendering::RendererListParams", modifiers: "", def_value: None }, CppParam { name: "rendererList", ty:
-  // "::UnityEngine::Rendering::RendererList", modifiers: "", def_value: None }]
-  constexpr RendererListResource(::UnityEngine::Rendering::RendererListParams desc, ::UnityEngine::Rendering::RendererList rendererList) noexcept;
+// Ctor Parameters [CppParam { name: "desc", ty: "::UnityEngine::Rendering::RendererListParams", modifiers: "", def_value: None }, CppParam { name: "rendererList", ty: "::UnityEngine::Rendering::RendererList", modifiers: "", def_value: None }]
+constexpr RendererListResource(::UnityEngine::Rendering::RendererListParams  desc, ::UnityEngine::Rendering::RendererList  rendererList) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12430 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12434};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x148 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x148};
 
-  /// @brief Field desc, offset: 0x0, size: 0x130, def value: None
-  ::UnityEngine::Rendering::RendererListParams desc;
+/// @brief Field desc, offset: 0x0, size: 0x130, def value: None
+ ::UnityEngine::Rendering::RendererListParams  desc;
 
-  /// @brief Field rendererList, offset: 0x130, size: 0x18, def value: None
-  ::UnityEngine::Rendering::RendererList rendererList;
+/// @brief Field rendererList, offset: 0x130, size: 0x18, def value: None
+ ::UnityEngine::Rendering::RendererList  rendererList;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Rendering::RenderGraphModule::RendererListResource, desc) == 0x0, "Offset mismatch!");
@@ -55,5 +54,5 @@ static_assert(offsetof(::UnityEngine::Rendering::RenderGraphModule::RendererList
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::RenderGraphModule::RendererListResource, 0x148>, "Size mismatch!");
 
-} // namespace UnityEngine::Rendering::RenderGraphModule
+} // namespace end def UnityEngine::Rendering::RenderGraphModule
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::RenderGraphModule::RendererListResource, "UnityEngine.Rendering.RenderGraphModule", "RendererListResource");

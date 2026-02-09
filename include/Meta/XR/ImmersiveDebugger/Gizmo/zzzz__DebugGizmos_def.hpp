@@ -16,10 +16,12 @@ namespace Meta::XR::ImmersiveDebugger::Gizmo {
 class PolylineRenderer;
 }
 namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
+template<typename T>
+class IReadOnlyList_1;
 }
 namespace System::Collections::Generic {
-template <typename T> class List_1;
+template<typename T>
+class List_1;
 }
 namespace System {
 class IDisposable;
@@ -61,256 +63,256 @@ namespace Meta::XR::ImmersiveDebugger::Gizmo {
 // CS Name: Meta.XR.ImmersiveDebugger.Gizmo.DebugGizmos/ColorScope
 struct CORDL_TYPE DebugGizmos_ColorScope {
 public:
-  // Declarations
-  /// @brief Convert operator to "::System::IDisposable"
-  constexpr operator ::System::IDisposable*();
+// Declarations
+/// @brief Convert operator to "::System::IDisposable"
+constexpr operator  ::System::IDisposable*() ;
 
-  /// @brief Method Dispose, addr 0x58bf3e4, size 0x74, virtual true, abstract: false, final true
-  inline void Dispose();
+/// @brief Method Dispose, addr 0x58bf8f0, size 0x74, virtual true, abstract: false, final true
+inline void Dispose() ;
 
-  /// @brief Method .ctor, addr 0x58bcd58, size 0x90, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::Color color);
+/// @brief Method .ctor, addr 0x58bd264, size 0x90, virtual false, abstract: false, final false
+inline void _ctor(::UnityEngine::Color  color) ;
 
-  /// @brief Convert to "::System::IDisposable"
-  constexpr ::System::IDisposable* i___System__IDisposable();
+/// @brief Convert to "::System::IDisposable"
+constexpr ::System::IDisposable* i___System__IDisposable() ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DebugGizmos_ColorScope();
+// Ctor Parameters []
+// @brief default ctor
+constexpr DebugGizmos_ColorScope() ;
 
-  // Ctor Parameters [CppParam { name: "_savedColor", ty: "::UnityEngine::Color", modifiers: "", def_value: None }]
-  constexpr DebugGizmos_ColorScope(::UnityEngine::Color _savedColor) noexcept;
+// Ctor Parameters [CppParam { name: "_savedColor", ty: "::UnityEngine::Color", modifiers: "", def_value: None }]
+constexpr DebugGizmos_ColorScope(::UnityEngine::Color  _savedColor) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18440 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{18444};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x10};
 
-  /// @brief Field _savedColor, offset: 0x0, size: 0x10, def value: None
-  ::UnityEngine::Color _savedColor;
+/// @brief Field _savedColor, offset: 0x0, size: 0x10, def value: None
+ ::UnityEngine::Color  _savedColor;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::Meta::XR::ImmersiveDebugger::Gizmo::DebugGizmos_ColorScope, _savedColor) == 0x0, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::Meta::XR::ImmersiveDebugger::Gizmo::DebugGizmos_ColorScope, 0x10>, "Size mismatch!");
 
-} // namespace Meta::XR::ImmersiveDebugger::Gizmo
+} // namespace end def Meta::XR::ImmersiveDebugger::Gizmo
 // Dependencies UnityEngine.Color, UnityEngine.MonoBehaviour
 namespace Meta::XR::ImmersiveDebugger::Gizmo {
 // Is value type: false
 // CS Name: Meta.XR.ImmersiveDebugger.Gizmo.DebugGizmos
 class CORDL_TYPE DebugGizmos : public ::UnityEngine::MonoBehaviour {
 public:
-  // Declarations
-  using ColorScope = ::Meta::XR::ImmersiveDebugger::Gizmo::DebugGizmos_ColorScope;
+// Declarations
+using ColorScope = ::Meta::XR::ImmersiveDebugger::Gizmo::DebugGizmos_ColorScope;
 
-  /// @brief Field CUBE_POINTS, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_CUBE_POINTS, put = setStaticF_CUBE_POINTS)) ::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::Vector3>* CUBE_POINTS;
+/// @brief Field CUBE_POINTS, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_CUBE_POINTS, put=setStaticF_CUBE_POINTS)) ::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::Vector3>*  CUBE_POINTS;
 
-  /// @brief Field CUBE_SEGMENTS, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_CUBE_SEGMENTS, put = setStaticF_CUBE_SEGMENTS)) ::System::Collections::Generic::IReadOnlyList_1<int32_t>* CUBE_SEGMENTS;
+/// @brief Field CUBE_SEGMENTS, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_CUBE_SEGMENTS, put=setStaticF_CUBE_SEGMENTS)) ::System::Collections::Generic::IReadOnlyList_1<int32_t>*  CUBE_SEGMENTS;
 
-  /// @brief Field Color, offset 0xffffffff, size 0x10
-  __declspec(property(get = getStaticF_Color, put = setStaticF_Color)) ::UnityEngine::Color Color;
+/// @brief Field Color, offset 0xffffffff, size 0x10 
+ __declspec(property(get=getStaticF_Color, put=setStaticF_Color)) ::UnityEngine::Color  Color;
 
-  /// @brief Field LineWidth, offset 0xffffffff, size 0x4
-  __declspec(property(get = getStaticF_LineWidth, put = setStaticF_LineWidth)) float_t LineWidth;
+/// @brief Field LineWidth, offset 0xffffffff, size 0x4 
+ __declspec(property(get=getStaticF_LineWidth, put=setStaticF_LineWidth)) float_t  LineWidth;
 
-  /// @brief Field PLANE_POINTS, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_PLANE_POINTS, put = setStaticF_PLANE_POINTS)) ::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::Vector2>* PLANE_POINTS;
+/// @brief Field PLANE_POINTS, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_PLANE_POINTS, put=setStaticF_PLANE_POINTS)) ::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::Vector2>*  PLANE_POINTS;
 
-  /// @brief Field PLANE_SEGMENTS, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_PLANE_SEGMENTS, put = setStaticF_PLANE_SEGMENTS)) ::System::Collections::Generic::IReadOnlyList_1<int32_t>* PLANE_SEGMENTS;
+/// @brief Field PLANE_SEGMENTS, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_PLANE_SEGMENTS, put=setStaticF_PLANE_SEGMENTS)) ::System::Collections::Generic::IReadOnlyList_1<int32_t>*  PLANE_SEGMENTS;
 
-  __declspec(property(get = get_Renderer)) ::Meta::XR::ImmersiveDebugger::Gizmo::PolylineRenderer* Renderer;
+ __declspec(property(get=get_Renderer)) ::Meta::XR::ImmersiveDebugger::Gizmo::PolylineRenderer*  Renderer;
 
-  /// @brief Field _addedSegmentSinceLastUpdate, offset 0x34, size 0x1
-  __declspec(property(get = __cordl_internal_get__addedSegmentSinceLastUpdate, put = __cordl_internal_set__addedSegmentSinceLastUpdate)) bool _addedSegmentSinceLastUpdate;
+/// @brief Field _addedSegmentSinceLastUpdate, offset 0x34, size 0x1 
+ __declspec(property(get=__cordl_internal_get__addedSegmentSinceLastUpdate, put=__cordl_internal_set__addedSegmentSinceLastUpdate)) bool  _addedSegmentSinceLastUpdate;
 
-  /// @brief Field _colors, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__colors, put = __cordl_internal_set__colors)) ::System::Collections::Generic::List_1<::UnityEngine::Color>* _colors;
+/// @brief Field _colors, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get__colors, put=__cordl_internal_set__colors)) ::System::Collections::Generic::List_1<::UnityEngine::Color>*  _colors;
 
-  /// @brief Field _index, offset 0x30, size 0x4
-  __declspec(property(get = __cordl_internal_get__index, put = __cordl_internal_set__index)) int32_t _index;
+/// @brief Field _index, offset 0x30, size 0x4 
+ __declspec(property(get=__cordl_internal_get__index, put=__cordl_internal_set__index)) int32_t  _index;
 
-  /// @brief Field _points, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__points, put = __cordl_internal_set__points)) ::System::Collections::Generic::List_1<::UnityEngine::Vector4>* _points;
+/// @brief Field _points, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get__points, put=__cordl_internal_set__points)) ::System::Collections::Generic::List_1<::UnityEngine::Vector4>*  _points;
 
-  /// @brief Field _polylineRenderer, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__polylineRenderer, put = __cordl_internal_set__polylineRenderer)) ::Meta::XR::ImmersiveDebugger::Gizmo::PolylineRenderer* _polylineRenderer;
+/// @brief Field _polylineRenderer, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get__polylineRenderer, put=__cordl_internal_set__polylineRenderer)) ::Meta::XR::ImmersiveDebugger::Gizmo::PolylineRenderer*  _polylineRenderer;
 
-  /// @brief Field _renderSinglePass, offset 0xffffffff, size 0x1
-  __declspec(property(get = getStaticF__renderSinglePass, put = setStaticF__renderSinglePass)) bool _renderSinglePass;
+/// @brief Field _renderSinglePass, offset 0xffffffff, size 0x1 
+ __declspec(property(get=getStaticF__renderSinglePass, put=setStaticF__renderSinglePass)) bool  _renderSinglePass;
 
-  /// @brief Field _root, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF__root, put = setStaticF__root)) ::UnityW<::Meta::XR::ImmersiveDebugger::Gizmo::DebugGizmos> _root;
+/// @brief Field _root, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF__root, put=setStaticF__root)) ::UnityW<::Meta::XR::ImmersiveDebugger::Gizmo::DebugGizmos>  _root;
 
-  /// @brief Method AddSegment, addr 0x58bc0a0, size 0x278, virtual false, abstract: false, final false
-  inline void AddSegment(::UnityEngine::Vector3 p0, ::UnityEngine::Vector3 p1, float_t width, ::UnityEngine::Color color0, ::UnityEngine::Color color1);
+/// @brief Method AddSegment, addr 0x58bc5ac, size 0x278, virtual false, abstract: false, final false
+inline void AddSegment(::UnityEngine::Vector3  p0, ::UnityEngine::Vector3  p1, float_t  width, ::UnityEngine::Color  color0, ::UnityEngine::Color  color1) ;
 
-  /// @brief Method ClearSegments, addr 0x58bbd74, size 0x8, virtual false, abstract: false, final false
-  inline void ClearSegments();
+/// @brief Method ClearSegments, addr 0x58bc280, size 0x8, virtual false, abstract: false, final false
+inline void ClearSegments() ;
 
-  /// @brief Method DrawAxis, addr 0x58bcde8, size 0xa8, virtual false, abstract: false, final false
-  static inline void DrawAxis(::UnityEngine::Pose pose, float_t size);
+/// @brief Method DrawAxis, addr 0x58bd2f4, size 0xa8, virtual false, abstract: false, final false
+static inline void DrawAxis(::UnityEngine::Pose  pose, float_t  size) ;
 
-  /// @brief Method DrawAxis, addr 0x58bca74, size 0x2e4, virtual false, abstract: false, final false
-  static inline void DrawAxis(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation, float_t size);
+/// @brief Method DrawAxis, addr 0x58bcf80, size 0x2e4, virtual false, abstract: false, final false
+static inline void DrawAxis(::UnityEngine::Vector3  position, ::UnityEngine::Quaternion  rotation, float_t  size) ;
 
-  /// @brief Method DrawAxis, addr 0x58bce90, size 0xd8, virtual false, abstract: false, final false
-  static inline void DrawAxis(::UnityEngine::Transform* t, float_t size);
+/// @brief Method DrawAxis, addr 0x58bd39c, size 0xd8, virtual false, abstract: false, final false
+static inline void DrawAxis(::UnityEngine::Transform*  t, float_t  size) ;
 
-  /// @brief Method DrawBox, addr 0x58bdf10, size 0xf0, virtual false, abstract: false, final false
-  static inline void DrawBox(::UnityEngine::Pose pose, float_t width, float_t height, float_t depth, bool isPivotTopSurface);
+/// @brief Method DrawBox, addr 0x58be41c, size 0xf0, virtual false, abstract: false, final false
+static inline void DrawBox(::UnityEngine::Pose  pose, float_t  width, float_t  height, float_t  depth, bool  isPivotTopSurface) ;
 
-  /// @brief Method DrawBox, addr 0x58bd698, size 0x878, virtual false, abstract: false, final false
-  static inline void DrawBox(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation, float_t width, float_t height, float_t depth, bool isPivotTopSurface);
+/// @brief Method DrawBox, addr 0x58bdba4, size 0x878, virtual false, abstract: false, final false
+static inline void DrawBox(::UnityEngine::Vector3  position, ::UnityEngine::Quaternion  rotation, float_t  width, float_t  height, float_t  depth, bool  isPivotTopSurface) ;
 
-  /// @brief Method DrawLine, addr 0x58bc5a8, size 0x160, virtual false, abstract: false, final false
-  static inline void DrawLine(::UnityEngine::Vector3 p0, ::UnityEngine::Vector3 p1, ::UnityEngine::Transform* t);
+/// @brief Method DrawLine, addr 0x58bcab4, size 0x160, virtual false, abstract: false, final false
+static inline void DrawLine(::UnityEngine::Vector3  p0, ::UnityEngine::Vector3  p1, ::UnityEngine::Transform*  t) ;
 
-  /// @brief Method DrawPlane, addr 0x58bd5c4, size 0xd4, virtual false, abstract: false, final false
-  static inline void DrawPlane(::UnityEngine::Pose pose, float_t width, float_t height);
+/// @brief Method DrawPlane, addr 0x58bdad0, size 0xd4, virtual false, abstract: false, final false
+static inline void DrawPlane(::UnityEngine::Pose  pose, float_t  width, float_t  height) ;
 
-  /// @brief Method DrawPlane, addr 0x58bcf68, size 0x65c, virtual false, abstract: false, final false
-  static inline void DrawPlane(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation, float_t width, float_t height);
+/// @brief Method DrawPlane, addr 0x58bd474, size 0x65c, virtual false, abstract: false, final false
+static inline void DrawPlane(::UnityEngine::Vector3  position, ::UnityEngine::Quaternion  rotation, float_t  width, float_t  height) ;
 
-  /// @brief Method DrawPoint, addr 0x58bc480, size 0x128, virtual false, abstract: false, final false
-  static inline void DrawPoint(::UnityEngine::Vector3 p0, ::UnityEngine::Transform* t);
+/// @brief Method DrawPoint, addr 0x58bc98c, size 0x128, virtual false, abstract: false, final false
+static inline void DrawPoint(::UnityEngine::Vector3  p0, ::UnityEngine::Transform*  t) ;
 
-  /// @brief Method DrawWireCube, addr 0x58bc708, size 0x36c, virtual false, abstract: false, final false
-  static inline void DrawWireCube(::UnityEngine::Vector3 center, float_t size, ::UnityEngine::Transform* t);
+/// @brief Method DrawWireCube, addr 0x58bcc14, size 0x36c, virtual false, abstract: false, final false
+static inline void DrawWireCube(::UnityEngine::Vector3  center, float_t  size, ::UnityEngine::Transform*  t) ;
 
-  /// @brief Method Init, addr 0x58bb2b4, size 0x88, virtual false, abstract: false, final false
-  static inline void Init();
+/// @brief Method Init, addr 0x58bb7c0, size 0x88, virtual false, abstract: false, final false
+static inline void Init() ;
 
-  /// @brief Method LateUpdate, addr 0x58bc01c, size 0x84, virtual true, abstract: false, final false
-  inline void LateUpdate();
+/// @brief Method LateUpdate, addr 0x58bc528, size 0x84, virtual true, abstract: false, final false
+inline void LateUpdate() ;
 
-  static inline ::Meta::XR::ImmersiveDebugger::Gizmo::DebugGizmos* New_ctor();
+static inline ::Meta::XR::ImmersiveDebugger::Gizmo::DebugGizmos* New_ctor() ;
 
-  /// @brief Method OnDisable, addr 0x58bbc00, size 0x80, virtual true, abstract: false, final false
-  inline void OnDisable();
+/// @brief Method OnDisable, addr 0x58bc10c, size 0x80, virtual true, abstract: false, final false
+inline void OnDisable() ;
 
-  /// @brief Method OnEnable, addr 0x58bb5ec, size 0x114, virtual true, abstract: false, final false
-  inline void OnEnable();
+/// @brief Method OnEnable, addr 0x58bbaf8, size 0x114, virtual true, abstract: false, final false
+inline void OnEnable() ;
 
-  /// @brief Method RenderSegments, addr 0x58bbd7c, size 0x34, virtual false, abstract: false, final false
-  inline void RenderSegments();
+/// @brief Method RenderSegments, addr 0x58bc288, size 0x34, virtual false, abstract: false, final false
+inline void RenderSegments() ;
 
-  constexpr bool const& __cordl_internal_get__addedSegmentSinceLastUpdate() const;
+constexpr bool const& __cordl_internal_get__addedSegmentSinceLastUpdate() const;
 
-  constexpr bool& __cordl_internal_get__addedSegmentSinceLastUpdate();
+constexpr bool& __cordl_internal_get__addedSegmentSinceLastUpdate() ;
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Color>* const& __cordl_internal_get__colors() const;
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::Color>* const& __cordl_internal_get__colors() const;
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Color>*& __cordl_internal_get__colors();
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::Color>*& __cordl_internal_get__colors() ;
 
-  constexpr int32_t const& __cordl_internal_get__index() const;
+constexpr int32_t const& __cordl_internal_get__index() const;
 
-  constexpr int32_t& __cordl_internal_get__index();
+constexpr int32_t& __cordl_internal_get__index() ;
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector4>* const& __cordl_internal_get__points() const;
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector4>* const& __cordl_internal_get__points() const;
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector4>*& __cordl_internal_get__points();
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector4>*& __cordl_internal_get__points() ;
 
-  constexpr ::Meta::XR::ImmersiveDebugger::Gizmo::PolylineRenderer* const& __cordl_internal_get__polylineRenderer() const;
+constexpr ::Meta::XR::ImmersiveDebugger::Gizmo::PolylineRenderer* const& __cordl_internal_get__polylineRenderer() const;
 
-  constexpr ::Meta::XR::ImmersiveDebugger::Gizmo::PolylineRenderer*& __cordl_internal_get__polylineRenderer();
+constexpr ::Meta::XR::ImmersiveDebugger::Gizmo::PolylineRenderer*& __cordl_internal_get__polylineRenderer() ;
 
-  constexpr void __cordl_internal_set__addedSegmentSinceLastUpdate(bool value);
+constexpr void __cordl_internal_set__addedSegmentSinceLastUpdate(bool  value) ;
 
-  constexpr void __cordl_internal_set__colors(::System::Collections::Generic::List_1<::UnityEngine::Color>* value);
+constexpr void __cordl_internal_set__colors(::System::Collections::Generic::List_1<::UnityEngine::Color>*  value) ;
 
-  constexpr void __cordl_internal_set__index(int32_t value);
+constexpr void __cordl_internal_set__index(int32_t  value) ;
 
-  constexpr void __cordl_internal_set__points(::System::Collections::Generic::List_1<::UnityEngine::Vector4>* value);
+constexpr void __cordl_internal_set__points(::System::Collections::Generic::List_1<::UnityEngine::Vector4>*  value) ;
 
-  constexpr void __cordl_internal_set__polylineRenderer(::Meta::XR::ImmersiveDebugger::Gizmo::PolylineRenderer* value);
+constexpr void __cordl_internal_set__polylineRenderer(::Meta::XR::ImmersiveDebugger::Gizmo::PolylineRenderer*  value) ;
 
-  /// @brief Method .ctor, addr 0x58be000, size 0xc0, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x58be50c, size 0xc0, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  static inline ::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::Vector3>* getStaticF_CUBE_POINTS();
+static inline ::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::Vector3>* getStaticF_CUBE_POINTS() ;
 
-  static inline ::System::Collections::Generic::IReadOnlyList_1<int32_t>* getStaticF_CUBE_SEGMENTS();
+static inline ::System::Collections::Generic::IReadOnlyList_1<int32_t>* getStaticF_CUBE_SEGMENTS() ;
 
-  static inline ::UnityEngine::Color getStaticF_Color();
+static inline ::UnityEngine::Color getStaticF_Color() ;
 
-  static inline float_t getStaticF_LineWidth();
+static inline float_t getStaticF_LineWidth() ;
 
-  static inline ::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::Vector2>* getStaticF_PLANE_POINTS();
+static inline ::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::Vector2>* getStaticF_PLANE_POINTS() ;
 
-  static inline ::System::Collections::Generic::IReadOnlyList_1<int32_t>* getStaticF_PLANE_SEGMENTS();
+static inline ::System::Collections::Generic::IReadOnlyList_1<int32_t>* getStaticF_PLANE_SEGMENTS() ;
 
-  static inline bool getStaticF__renderSinglePass();
+static inline bool getStaticF__renderSinglePass() ;
 
-  static inline ::UnityW<::Meta::XR::ImmersiveDebugger::Gizmo::DebugGizmos> getStaticF__root();
+static inline ::UnityW<::Meta::XR::ImmersiveDebugger::Gizmo::DebugGizmos> getStaticF__root() ;
 
-  /// @brief Method get_RenderSinglePass, addr 0x58bc318, size 0x5c, virtual false, abstract: false, final false
-  static inline bool get_RenderSinglePass();
+/// @brief Method get_RenderSinglePass, addr 0x58bc824, size 0x5c, virtual false, abstract: false, final false
+static inline bool get_RenderSinglePass() ;
 
-  /// @brief Method get_Renderer, addr 0x58bb700, size 0xa0, virtual false, abstract: false, final false
-  inline ::Meta::XR::ImmersiveDebugger::Gizmo::PolylineRenderer* get_Renderer();
+/// @brief Method get_Renderer, addr 0x58bbc0c, size 0xa0, virtual false, abstract: false, final false
+inline ::Meta::XR::ImmersiveDebugger::Gizmo::PolylineRenderer* get_Renderer() ;
 
-  /// @brief Method get_Root, addr 0x58bb33c, size 0x2b0, virtual false, abstract: false, final false
-  static inline ::UnityW<::Meta::XR::ImmersiveDebugger::Gizmo::DebugGizmos> get_Root();
+/// @brief Method get_Root, addr 0x58bb848, size 0x2b0, virtual false, abstract: false, final false
+static inline ::UnityW<::Meta::XR::ImmersiveDebugger::Gizmo::DebugGizmos> get_Root() ;
 
-  static inline void setStaticF_CUBE_POINTS(::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::Vector3>* value);
+static inline void setStaticF_CUBE_POINTS(::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::Vector3>*  value) ;
 
-  static inline void setStaticF_CUBE_SEGMENTS(::System::Collections::Generic::IReadOnlyList_1<int32_t>* value);
+static inline void setStaticF_CUBE_SEGMENTS(::System::Collections::Generic::IReadOnlyList_1<int32_t>*  value) ;
 
-  static inline void setStaticF_Color(::UnityEngine::Color value);
+static inline void setStaticF_Color(::UnityEngine::Color  value) ;
 
-  static inline void setStaticF_LineWidth(float_t value);
+static inline void setStaticF_LineWidth(float_t  value) ;
 
-  static inline void setStaticF_PLANE_POINTS(::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::Vector2>* value);
+static inline void setStaticF_PLANE_POINTS(::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::Vector2>*  value) ;
 
-  static inline void setStaticF_PLANE_SEGMENTS(::System::Collections::Generic::IReadOnlyList_1<int32_t>* value);
+static inline void setStaticF_PLANE_SEGMENTS(::System::Collections::Generic::IReadOnlyList_1<int32_t>*  value) ;
 
-  static inline void setStaticF__renderSinglePass(bool value);
+static inline void setStaticF__renderSinglePass(bool  value) ;
 
-  static inline void setStaticF__root(::UnityW<::Meta::XR::ImmersiveDebugger::Gizmo::DebugGizmos> value);
+static inline void setStaticF__root(::UnityW<::Meta::XR::ImmersiveDebugger::Gizmo::DebugGizmos>  value) ;
 
-  /// @brief Method set_RenderSinglePass, addr 0x58bc374, size 0x10c, virtual false, abstract: false, final false
-  static inline void set_RenderSinglePass(bool value);
+/// @brief Method set_RenderSinglePass, addr 0x58bc880, size 0x10c, virtual false, abstract: false, final false
+static inline void set_RenderSinglePass(bool  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DebugGizmos();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr DebugGizmos() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DebugGizmos", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  DebugGizmos(DebugGizmos&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DebugGizmos", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  DebugGizmos(DebugGizmos const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "DebugGizmos", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+DebugGizmos(DebugGizmos && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18441 };
+// Ctor Parameters [CppParam { name: "", ty: "DebugGizmos", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+DebugGizmos(DebugGizmos const& ) = delete;
 
-  /// @brief Field _points, offset: 0x20, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::UnityEngine::Vector4>* ____points;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{18445};
 
-  /// @brief Field _colors, offset: 0x28, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::UnityEngine::Color>* ____colors;
+/// @brief Field _points, offset: 0x20, size: 0x8, def value: None
+ ::System::Collections::Generic::List_1<::UnityEngine::Vector4>*  ____points;
 
-  /// @brief Field _index, offset: 0x30, size: 0x4, def value: None
-  int32_t ____index;
+/// @brief Field _colors, offset: 0x28, size: 0x8, def value: None
+ ::System::Collections::Generic::List_1<::UnityEngine::Color>*  ____colors;
 
-  /// @brief Field _addedSegmentSinceLastUpdate, offset: 0x34, size: 0x1, def value: None
-  bool ____addedSegmentSinceLastUpdate;
+/// @brief Field _index, offset: 0x30, size: 0x4, def value: None
+ int32_t  ____index;
 
-  /// @brief Field _polylineRenderer, offset: 0x38, size: 0x8, def value: None
-  ::Meta::XR::ImmersiveDebugger::Gizmo::PolylineRenderer* ____polylineRenderer;
+/// @brief Field _addedSegmentSinceLastUpdate, offset: 0x34, size: 0x1, def value: None
+ bool  ____addedSegmentSinceLastUpdate;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _polylineRenderer, offset: 0x38, size: 0x8, def value: None
+ ::Meta::XR::ImmersiveDebugger::Gizmo::PolylineRenderer*  ____polylineRenderer;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Meta::XR::ImmersiveDebugger::Gizmo::DebugGizmos, ____points) == 0x20, "Offset mismatch!");
@@ -325,7 +327,7 @@ static_assert(offsetof(::Meta::XR::ImmersiveDebugger::Gizmo::DebugGizmos, ____po
 
 static_assert(::cordl_internals::size_check_v<::Meta::XR::ImmersiveDebugger::Gizmo::DebugGizmos, 0x40>, "Size mismatch!");
 
-} // namespace Meta::XR::ImmersiveDebugger::Gizmo
+} // namespace end def Meta::XR::ImmersiveDebugger::Gizmo
 NEED_NO_BOX(::Meta::XR::ImmersiveDebugger::Gizmo::DebugGizmos);
 DEFINE_IL2CPP_ARG_TYPE(::Meta::XR::ImmersiveDebugger::Gizmo::DebugGizmos*, "Meta.XR.ImmersiveDebugger.Gizmo", "DebugGizmos");
 DEFINE_IL2CPP_ARG_TYPE(::Meta::XR::ImmersiveDebugger::Gizmo::DebugGizmos_ColorScope, "Meta.XR.ImmersiveDebugger.Gizmo", "DebugGizmos/ColorScope");

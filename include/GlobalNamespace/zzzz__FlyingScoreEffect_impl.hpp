@@ -15,295 +15,346 @@
 #include "UnityEngine/zzzz__SpriteRenderer_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::FlyingScoreEffect_Pool.OnDespawned
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FlyingScoreEffect_Pool::*)(::GlobalNamespace::FlyingScoreEffect*)>(
-    &::GlobalNamespace::FlyingScoreEffect_Pool::OnDespawned)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FlyingScoreEffect_Pool::*)(::GlobalNamespace::FlyingScoreEffect*)>(&::GlobalNamespace::FlyingScoreEffect_Pool::OnDespawned)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x57d50a4;
+  constexpr static std::size_t addrs = 0x57d59d4;
 
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FlyingScoreEffect_Pool*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FlyingScoreEffect_Pool*>::get(), 16));
+  inline static const ::MethodInfo* methodInfo() {
+    
+                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FlyingScoreEffect_Pool*>::get(),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FlyingScoreEffect_Pool*>::get(),
+                                  16
+                                ));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::FlyingScoreEffect_Pool._ctor
-template <>
+template<>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FlyingScoreEffect_Pool::*)()>(&::GlobalNamespace::FlyingScoreEffect_Pool::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x57d5110;
+  constexpr static std::size_t addrs = 0x57d5a40;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FlyingScoreEffect_Pool*>::get(), ".ctor",
-                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FlyingScoreEffect_Pool*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
-inline void GlobalNamespace::FlyingScoreEffect_Pool::OnDespawned(::GlobalNamespace::FlyingScoreEffect* item) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FlyingScoreEffect_Pool*>::get(), 16)));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, item);
+inline void GlobalNamespace::FlyingScoreEffect_Pool::OnDespawned(::GlobalNamespace::FlyingScoreEffect*  item)  {
+auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FlyingScoreEffect_Pool*>::get(),
+                            16
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, item);
 }
-inline void GlobalNamespace::FlyingScoreEffect_Pool::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FlyingScoreEffect_Pool*>::get(), ".ctor",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::FlyingScoreEffect_Pool::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FlyingScoreEffect_Pool*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::FlyingScoreEffect_Pool* GlobalNamespace::FlyingScoreEffect_Pool::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::FlyingScoreEffect_Pool*>());
+inline ::GlobalNamespace::FlyingScoreEffect_Pool* GlobalNamespace::FlyingScoreEffect_Pool::New_ctor()  {
+return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::FlyingScoreEffect_Pool*>());
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::FlyingScoreEffect_Pool::FlyingScoreEffect_Pool() {}
+constexpr ::GlobalNamespace::FlyingScoreEffect_Pool::FlyingScoreEffect_Pool()   {
+}
 //  Writing Method size for method: ::GlobalNamespace::FlyingScoreEffect.InitAndPresent
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FlyingScoreEffect::*)(
-    ::GlobalNamespace::IReadonlyCutScoreBuffer*, float_t, ::UnityEngine::Vector3, ::UnityEngine::Color)>(&::GlobalNamespace::FlyingScoreEffect::InitAndPresent)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FlyingScoreEffect::*)(::GlobalNamespace::IReadonlyCutScoreBuffer*, float_t, ::UnityEngine::Vector3, ::UnityEngine::Color)>(&::GlobalNamespace::FlyingScoreEffect::InitAndPresent)> {
   constexpr static std::size_t size = 0x4e8;
-  constexpr static std::size_t addrs = 0x57d4900;
+  constexpr static std::size_t addrs = 0x57d5230;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FlyingScoreEffect*>::get(), "InitAndPresent", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IReadonlyCutScoreBuffer*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Color>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FlyingScoreEffect*>::get(),
+                        "InitAndPresent",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IReadonlyCutScoreBuffer*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Color>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::FlyingScoreEffect.ManualUpdate
-template <>
+template<>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FlyingScoreEffect::*)(float_t)>(&::GlobalNamespace::FlyingScoreEffect::ManualUpdate)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x57d4e70;
+  constexpr static std::size_t addrs = 0x57d57a0;
 
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FlyingScoreEffect*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FlyingScoreEffect*>::get(), 4));
+  inline static const ::MethodInfo* methodInfo() {
+    
+                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FlyingScoreEffect*>::get(),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FlyingScoreEffect*>::get(),
+                                  4
+                                ));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::FlyingScoreEffect.HandleCutScoreBufferDidChange
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FlyingScoreEffect::*)(::GlobalNamespace::CutScoreBuffer*)>(
-    &::GlobalNamespace::FlyingScoreEffect::HandleCutScoreBufferDidChange)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FlyingScoreEffect::*)(::GlobalNamespace::CutScoreBuffer*)>(&::GlobalNamespace::FlyingScoreEffect::HandleCutScoreBufferDidChange)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x57d4ef8;
+  constexpr static std::size_t addrs = 0x57d5828;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FlyingScoreEffect*>::get(), "HandleCutScoreBufferDidChange", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::CutScoreBuffer*>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FlyingScoreEffect*>::get(),
+                        "HandleCutScoreBufferDidChange",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::CutScoreBuffer*>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::FlyingScoreEffect.RefreshScore
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FlyingScoreEffect::*)(int32_t, int32_t)>(
-    &::GlobalNamespace::FlyingScoreEffect::RefreshScore)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FlyingScoreEffect::*)(int32_t, int32_t)>(&::GlobalNamespace::FlyingScoreEffect::RefreshScore)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x57d4de8;
+  constexpr static std::size_t addrs = 0x57d5718;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FlyingScoreEffect*>::get(), "RefreshScore", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FlyingScoreEffect*>::get(),
+                        "RefreshScore",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::FlyingScoreEffect.HandleCutScoreBufferDidFinish
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FlyingScoreEffect::*)(::GlobalNamespace::CutScoreBuffer*)>(
-    &::GlobalNamespace::FlyingScoreEffect::HandleCutScoreBufferDidFinish)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FlyingScoreEffect::*)(::GlobalNamespace::CutScoreBuffer*)>(&::GlobalNamespace::FlyingScoreEffect::HandleCutScoreBufferDidFinish)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x57d4f40;
+  constexpr static std::size_t addrs = 0x57d5870;
 
-  inline static ::MethodInfo const* methodInfo() {
+  inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FlyingScoreEffect*>::get(), "HandleCutScoreBufferDidFinish", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::CutScoreBuffer*>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FlyingScoreEffect*>::get(),
+                        "HandleCutScoreBufferDidFinish",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::CutScoreBuffer*>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::FlyingScoreEffect.UnregisterCallbacksIfNeeded
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FlyingScoreEffect::*)()>(
-    &::GlobalNamespace::FlyingScoreEffect::UnregisterCallbacksIfNeeded)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FlyingScoreEffect::*)()>(&::GlobalNamespace::FlyingScoreEffect::UnregisterCallbacksIfNeeded)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x57d4f44;
+  constexpr static std::size_t addrs = 0x57d5874;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FlyingScoreEffect*>::get(),
-                                                                               "UnregisterCallbacksIfNeeded", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FlyingScoreEffect*>::get(),
+                        "UnregisterCallbacksIfNeeded",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::FlyingScoreEffect._ctor
-template <>
+template<>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FlyingScoreEffect::*)()>(&::GlobalNamespace::FlyingScoreEffect::_ctor)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x57d5070;
+  constexpr static std::size_t addrs = 0x57d59a0;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FlyingScoreEffect*>::get(), ".ctor",
-                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FlyingScoreEffect*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
-constexpr ::UnityEngine::AnimationCurve*& GlobalNamespace::FlyingScoreEffect::__cordl_internal_get__fadeAnimationCurve() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____fadeAnimationCurve;
+constexpr ::UnityEngine::AnimationCurve*& GlobalNamespace::FlyingScoreEffect::__cordl_internal_get__fadeAnimationCurve()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____fadeAnimationCurve;
 }
 constexpr ::UnityEngine::AnimationCurve* const& GlobalNamespace::FlyingScoreEffect::__cordl_internal_get__fadeAnimationCurve() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____fadeAnimationCurve;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____fadeAnimationCurve;
 }
-constexpr void GlobalNamespace::FlyingScoreEffect::__cordl_internal_set__fadeAnimationCurve(::UnityEngine::AnimationCurve* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____fadeAnimationCurve)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::FlyingScoreEffect::__cordl_internal_set__fadeAnimationCurve(::UnityEngine::AnimationCurve*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____fadeAnimationCurve)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::UnityEngine::SpriteRenderer>& GlobalNamespace::FlyingScoreEffect::__cordl_internal_get__maxCutDistanceScoreIndicator() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____maxCutDistanceScoreIndicator;
+constexpr ::UnityW<::UnityEngine::SpriteRenderer>& GlobalNamespace::FlyingScoreEffect::__cordl_internal_get__maxCutDistanceScoreIndicator()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____maxCutDistanceScoreIndicator;
 }
 constexpr ::UnityW<::UnityEngine::SpriteRenderer> const& GlobalNamespace::FlyingScoreEffect::__cordl_internal_get__maxCutDistanceScoreIndicator() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____maxCutDistanceScoreIndicator;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____maxCutDistanceScoreIndicator;
 }
-constexpr void GlobalNamespace::FlyingScoreEffect::__cordl_internal_set__maxCutDistanceScoreIndicator(::UnityW<::UnityEngine::SpriteRenderer> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____maxCutDistanceScoreIndicator)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::FlyingScoreEffect::__cordl_internal_set__maxCutDistanceScoreIndicator(::UnityW<::UnityEngine::SpriteRenderer>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____maxCutDistanceScoreIndicator)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::TMPro::TextMeshPro>& GlobalNamespace::FlyingScoreEffect::__cordl_internal_get__text() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____text;
+constexpr ::UnityW<::TMPro::TextMeshPro>& GlobalNamespace::FlyingScoreEffect::__cordl_internal_get__text()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____text;
 }
 constexpr ::UnityW<::TMPro::TextMeshPro> const& GlobalNamespace::FlyingScoreEffect::__cordl_internal_get__text() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____text;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____text;
 }
-constexpr void GlobalNamespace::FlyingScoreEffect::__cordl_internal_set__text(::UnityW<::TMPro::TextMeshPro> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____text)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::FlyingScoreEffect::__cordl_internal_set__text(::UnityW<::TMPro::TextMeshPro>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____text)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::Color& GlobalNamespace::FlyingScoreEffect::__cordl_internal_get__color() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____color;
+constexpr ::UnityEngine::Color& GlobalNamespace::FlyingScoreEffect::__cordl_internal_get__color()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____color;
 }
 constexpr ::UnityEngine::Color const& GlobalNamespace::FlyingScoreEffect::__cordl_internal_get__color() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____color;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____color;
 }
-constexpr void GlobalNamespace::FlyingScoreEffect::__cordl_internal_set__color(::UnityEngine::Color value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____color = value;
+constexpr void GlobalNamespace::FlyingScoreEffect::__cordl_internal_set__color(::UnityEngine::Color  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____color = value;
 }
-constexpr float_t& GlobalNamespace::FlyingScoreEffect::__cordl_internal_get__colorAMultiplier() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____colorAMultiplier;
+constexpr float_t& GlobalNamespace::FlyingScoreEffect::__cordl_internal_get__colorAMultiplier()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____colorAMultiplier;
 }
 constexpr float_t const& GlobalNamespace::FlyingScoreEffect::__cordl_internal_get__colorAMultiplier() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____colorAMultiplier;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____colorAMultiplier;
 }
-constexpr void GlobalNamespace::FlyingScoreEffect::__cordl_internal_set__colorAMultiplier(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____colorAMultiplier = value;
+constexpr void GlobalNamespace::FlyingScoreEffect::__cordl_internal_set__colorAMultiplier(float_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____colorAMultiplier = value;
 }
-constexpr bool& GlobalNamespace::FlyingScoreEffect::__cordl_internal_get__registeredToCallbacks() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____registeredToCallbacks;
+constexpr bool& GlobalNamespace::FlyingScoreEffect::__cordl_internal_get__registeredToCallbacks()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____registeredToCallbacks;
 }
 constexpr bool const& GlobalNamespace::FlyingScoreEffect::__cordl_internal_get__registeredToCallbacks() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____registeredToCallbacks;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____registeredToCallbacks;
 }
-constexpr void GlobalNamespace::FlyingScoreEffect::__cordl_internal_set__registeredToCallbacks(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____registeredToCallbacks = value;
+constexpr void GlobalNamespace::FlyingScoreEffect::__cordl_internal_set__registeredToCallbacks(bool  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____registeredToCallbacks = value;
 }
-constexpr ::GlobalNamespace::IReadonlyCutScoreBuffer*& GlobalNamespace::FlyingScoreEffect::__cordl_internal_get__cutScoreBuffer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____cutScoreBuffer;
+constexpr ::GlobalNamespace::IReadonlyCutScoreBuffer*& GlobalNamespace::FlyingScoreEffect::__cordl_internal_get__cutScoreBuffer()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____cutScoreBuffer;
 }
 constexpr ::GlobalNamespace::IReadonlyCutScoreBuffer* const& GlobalNamespace::FlyingScoreEffect::__cordl_internal_get__cutScoreBuffer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____cutScoreBuffer;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____cutScoreBuffer;
 }
-constexpr void GlobalNamespace::FlyingScoreEffect::__cordl_internal_set__cutScoreBuffer(::GlobalNamespace::IReadonlyCutScoreBuffer* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____cutScoreBuffer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::FlyingScoreEffect::__cordl_internal_set__cutScoreBuffer(::GlobalNamespace::IReadonlyCutScoreBuffer*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____cutScoreBuffer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void GlobalNamespace::FlyingScoreEffect::InitAndPresent(::GlobalNamespace::IReadonlyCutScoreBuffer* cutScoreBuffer, float_t duration, ::UnityEngine::Vector3 targetPos,
-                                                               ::UnityEngine::Color color) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FlyingScoreEffect*>::get(), "InitAndPresent", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IReadonlyCutScoreBuffer*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Color>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, cutScoreBuffer, duration, targetPos, color);
+inline void GlobalNamespace::FlyingScoreEffect::InitAndPresent(::GlobalNamespace::IReadonlyCutScoreBuffer*  cutScoreBuffer, float_t  duration, ::UnityEngine::Vector3  targetPos, ::UnityEngine::Color  color)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FlyingScoreEffect*>::get(),
+                        "InitAndPresent",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IReadonlyCutScoreBuffer*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Color>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, cutScoreBuffer, duration, targetPos, color);
 }
-inline void GlobalNamespace::FlyingScoreEffect::ManualUpdate(float_t t) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FlyingScoreEffect*>::get(), 4)));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, t);
+inline void GlobalNamespace::FlyingScoreEffect::ManualUpdate(float_t  t)  {
+auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FlyingScoreEffect*>::get(),
+                            4
+                        )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, t);
 }
-inline void GlobalNamespace::FlyingScoreEffect::HandleCutScoreBufferDidChange(::GlobalNamespace::CutScoreBuffer* cutScoreBuffer) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FlyingScoreEffect*>::get(), "HandleCutScoreBufferDidChange", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::CutScoreBuffer*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, cutScoreBuffer);
+inline void GlobalNamespace::FlyingScoreEffect::HandleCutScoreBufferDidChange(::GlobalNamespace::CutScoreBuffer*  cutScoreBuffer)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FlyingScoreEffect*>::get(),
+                        "HandleCutScoreBufferDidChange",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::CutScoreBuffer*>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, cutScoreBuffer);
 }
-inline void GlobalNamespace::FlyingScoreEffect::RefreshScore(int32_t score, int32_t maxPossibleCutScore) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FlyingScoreEffect*>::get(), "RefreshScore", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, score, maxPossibleCutScore);
+inline void GlobalNamespace::FlyingScoreEffect::RefreshScore(int32_t  score, int32_t  maxPossibleCutScore)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FlyingScoreEffect*>::get(),
+                        "RefreshScore",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, score, maxPossibleCutScore);
 }
-inline void GlobalNamespace::FlyingScoreEffect::HandleCutScoreBufferDidFinish(::GlobalNamespace::CutScoreBuffer* cutScoreBuffer) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FlyingScoreEffect*>::get(), "HandleCutScoreBufferDidFinish", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::CutScoreBuffer*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, cutScoreBuffer);
+inline void GlobalNamespace::FlyingScoreEffect::HandleCutScoreBufferDidFinish(::GlobalNamespace::CutScoreBuffer*  cutScoreBuffer)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FlyingScoreEffect*>::get(),
+                        "HandleCutScoreBufferDidFinish",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::CutScoreBuffer*>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, cutScoreBuffer);
 }
-inline void GlobalNamespace::FlyingScoreEffect::UnregisterCallbacksIfNeeded() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FlyingScoreEffect*>::get(),
-                                                                             "UnregisterCallbacksIfNeeded", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::FlyingScoreEffect::UnregisterCallbacksIfNeeded()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FlyingScoreEffect*>::get(),
+                        "UnregisterCallbacksIfNeeded",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::FlyingScoreEffect::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FlyingScoreEffect*>::get(), ".ctor",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::FlyingScoreEffect::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FlyingScoreEffect*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::FlyingScoreEffect* GlobalNamespace::FlyingScoreEffect::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::FlyingScoreEffect*>());
+inline ::GlobalNamespace::FlyingScoreEffect* GlobalNamespace::FlyingScoreEffect::New_ctor()  {
+return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::FlyingScoreEffect*>());
 }
 /// @brief Convert operator to "::GlobalNamespace::ICutScoreBufferDidChangeReceiver"
-constexpr GlobalNamespace::FlyingScoreEffect::operator ::GlobalNamespace::ICutScoreBufferDidChangeReceiver*() noexcept {
-  return static_cast<::GlobalNamespace::ICutScoreBufferDidChangeReceiver*>(static_cast<void*>(this));
+constexpr  GlobalNamespace::FlyingScoreEffect::operator ::GlobalNamespace::ICutScoreBufferDidChangeReceiver*() noexcept {
+return static_cast<::GlobalNamespace::ICutScoreBufferDidChangeReceiver*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::GlobalNamespace::ICutScoreBufferDidChangeReceiver"
 constexpr ::GlobalNamespace::ICutScoreBufferDidChangeReceiver* GlobalNamespace::FlyingScoreEffect::i___GlobalNamespace__ICutScoreBufferDidChangeReceiver() noexcept {
-  return static_cast<::GlobalNamespace::ICutScoreBufferDidChangeReceiver*>(static_cast<void*>(this));
+return static_cast<::GlobalNamespace::ICutScoreBufferDidChangeReceiver*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::GlobalNamespace::ICutScoreBufferDidFinishReceiver"
-constexpr GlobalNamespace::FlyingScoreEffect::operator ::GlobalNamespace::ICutScoreBufferDidFinishReceiver*() noexcept {
-  return static_cast<::GlobalNamespace::ICutScoreBufferDidFinishReceiver*>(static_cast<void*>(this));
+constexpr  GlobalNamespace::FlyingScoreEffect::operator ::GlobalNamespace::ICutScoreBufferDidFinishReceiver*() noexcept {
+return static_cast<::GlobalNamespace::ICutScoreBufferDidFinishReceiver*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::GlobalNamespace::ICutScoreBufferDidFinishReceiver"
 constexpr ::GlobalNamespace::ICutScoreBufferDidFinishReceiver* GlobalNamespace::FlyingScoreEffect::i___GlobalNamespace__ICutScoreBufferDidFinishReceiver() noexcept {
-  return static_cast<::GlobalNamespace::ICutScoreBufferDidFinishReceiver*>(static_cast<void*>(this));
+return static_cast<::GlobalNamespace::ICutScoreBufferDidFinishReceiver*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::FlyingScoreEffect::FlyingScoreEffect() {}
+constexpr ::GlobalNamespace::FlyingScoreEffect::FlyingScoreEffect()   {
+}

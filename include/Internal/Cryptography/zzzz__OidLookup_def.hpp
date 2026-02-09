@@ -10,13 +10,16 @@ namespace Internal::Cryptography {
 class OidLookup___c;
 }
 namespace System::Collections::Concurrent {
-template <typename TKey, typename TValue> class ConcurrentDictionary_2;
+template<typename TKey,typename TValue>
+class ConcurrentDictionary_2;
 }
 namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+template<typename TKey,typename TValue>
+class Dictionary_2;
 }
 namespace System::Collections::Generic {
-template <typename TKey, typename TValue> struct KeyValuePair_2;
+template<typename TKey,typename TValue>
+struct KeyValuePair_2;
 }
 namespace System::Security::Cryptography {
 struct OidGroup;
@@ -37,132 +40,130 @@ namespace Internal::Cryptography {
 // CS Name: Internal.Cryptography.OidLookup/<>c
 class CORDL_TYPE OidLookup___c : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field <>9, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::Internal::Cryptography::OidLookup___c* __9;
+// Declarations
+/// @brief Field <>9, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF___9, put=setStaticF___9)) ::Internal::Cryptography::OidLookup___c*  __9;
 
-  static inline ::Internal::Cryptography::OidLookup___c* New_ctor();
+static inline ::Internal::Cryptography::OidLookup___c* New_ctor() ;
 
-  /// @brief Method <.cctor>b__10_0, addr 0x5e2df54, size 0x44, virtual false, abstract: false, final false
-  inline ::StringW __cctor_b__10_0(::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW> kvp);
+/// @brief Method <.cctor>b__10_0, addr 0x5e2e614, size 0x44, virtual false, abstract: false, final false
+inline ::StringW __cctor_b__10_0(::System::Collections::Generic::KeyValuePair_2<::StringW,::StringW>  kvp) ;
 
-  /// @brief Method <.cctor>b__10_1, addr 0x5e2df98, size 0x44, virtual false, abstract: false, final false
-  inline ::StringW __cctor_b__10_1(::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW> kvp);
+/// @brief Method <.cctor>b__10_1, addr 0x5e2e658, size 0x44, virtual false, abstract: false, final false
+inline ::StringW __cctor_b__10_1(::System::Collections::Generic::KeyValuePair_2<::StringW,::StringW>  kvp) ;
 
-  /// @brief Method .ctor, addr 0x5e2df50, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5e2e610, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  static inline ::Internal::Cryptography::OidLookup___c* getStaticF___9();
+static inline ::Internal::Cryptography::OidLookup___c* getStaticF___9() ;
 
-  static inline void setStaticF___9(::Internal::Cryptography::OidLookup___c* value);
+static inline void setStaticF___9(::Internal::Cryptography::OidLookup___c*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr OidLookup___c();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr OidLookup___c() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OidLookup___c", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  OidLookup___c(OidLookup___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OidLookup___c", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  OidLookup___c(OidLookup___c const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "OidLookup___c", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+OidLookup___c(OidLookup___c && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11021 };
+// Ctor Parameters [CppParam { name: "", ty: "OidLookup___c", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+OidLookup___c(OidLookup___c const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11025};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Internal::Cryptography::OidLookup___c, 0x10>, "Size mismatch!");
 
-} // namespace Internal::Cryptography
+} // namespace end def Internal::Cryptography
 // Dependencies System.Object
 namespace Internal::Cryptography {
 // Is value type: false
 // CS Name: Internal.Cryptography.OidLookup
 class CORDL_TYPE OidLookup : public ::System::Object {
 public:
-  // Declarations
-  using __c = ::Internal::Cryptography::OidLookup___c;
+// Declarations
+using __c = ::Internal::Cryptography::OidLookup___c;
 
-  /// @brief Field s_compatOids, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_s_compatOids, put = setStaticF_s_compatOids)) ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* s_compatOids;
+/// @brief Field s_compatOids, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_s_compatOids, put=setStaticF_s_compatOids)) ::System::Collections::Generic::Dictionary_2<::StringW,::StringW>*  s_compatOids;
 
-  /// @brief Field s_friendlyNameToOid, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_s_friendlyNameToOid, put = setStaticF_s_friendlyNameToOid)) ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* s_friendlyNameToOid;
+/// @brief Field s_friendlyNameToOid, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_s_friendlyNameToOid, put=setStaticF_s_friendlyNameToOid)) ::System::Collections::Generic::Dictionary_2<::StringW,::StringW>*  s_friendlyNameToOid;
 
-  /// @brief Field s_lateBoundFriendlyNameToOid, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_s_lateBoundFriendlyNameToOid,
-                      put = setStaticF_s_lateBoundFriendlyNameToOid)) ::System::Collections::Concurrent::ConcurrentDictionary_2<::StringW, ::StringW>* s_lateBoundFriendlyNameToOid;
+/// @brief Field s_lateBoundFriendlyNameToOid, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_s_lateBoundFriendlyNameToOid, put=setStaticF_s_lateBoundFriendlyNameToOid)) ::System::Collections::Concurrent::ConcurrentDictionary_2<::StringW,::StringW>*  s_lateBoundFriendlyNameToOid;
 
-  /// @brief Field s_lateBoundOidToFriendlyName, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_s_lateBoundOidToFriendlyName,
-                      put = setStaticF_s_lateBoundOidToFriendlyName)) ::System::Collections::Concurrent::ConcurrentDictionary_2<::StringW, ::StringW>* s_lateBoundOidToFriendlyName;
+/// @brief Field s_lateBoundOidToFriendlyName, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_s_lateBoundOidToFriendlyName, put=setStaticF_s_lateBoundOidToFriendlyName)) ::System::Collections::Concurrent::ConcurrentDictionary_2<::StringW,::StringW>*  s_lateBoundOidToFriendlyName;
 
-  /// @brief Field s_oidToFriendlyName, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_s_oidToFriendlyName, put = setStaticF_s_oidToFriendlyName)) ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* s_oidToFriendlyName;
+/// @brief Field s_oidToFriendlyName, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_s_oidToFriendlyName, put=setStaticF_s_oidToFriendlyName)) ::System::Collections::Generic::Dictionary_2<::StringW,::StringW>*  s_oidToFriendlyName;
 
-  /// @brief Method NativeFriendlyNameToOid, addr 0x5e2b3ac, size 0x400, virtual false, abstract: false, final false
-  static inline ::StringW NativeFriendlyNameToOid(::StringW friendlyName, ::System::Security::Cryptography::OidGroup oidGroup, bool fallBackToAllGroups);
+/// @brief Method NativeFriendlyNameToOid, addr 0x5e2ba6c, size 0x400, virtual false, abstract: false, final false
+static inline ::StringW NativeFriendlyNameToOid(::StringW  friendlyName, ::System::Security::Cryptography::OidGroup  oidGroup, bool  fallBackToAllGroups) ;
 
-  /// @brief Method NativeOidToFriendlyName, addr 0x5e2ade4, size 0x3f8, virtual false, abstract: false, final false
-  static inline ::StringW NativeOidToFriendlyName(::StringW oid, ::System::Security::Cryptography::OidGroup oidGroup, bool fallBackToAllGroups);
+/// @brief Method NativeOidToFriendlyName, addr 0x5e2b4a4, size 0x3f8, virtual false, abstract: false, final false
+static inline ::StringW NativeOidToFriendlyName(::StringW  oid, ::System::Security::Cryptography::OidGroup  oidGroup, bool  fallBackToAllGroups) ;
 
-  /// @brief Method ShouldUseCache, addr 0x5e2addc, size 0x8, virtual false, abstract: false, final false
-  static inline bool ShouldUseCache(::System::Security::Cryptography::OidGroup oidGroup);
+/// @brief Method ShouldUseCache, addr 0x5e2b49c, size 0x8, virtual false, abstract: false, final false
+static inline bool ShouldUseCache(::System::Security::Cryptography::OidGroup  oidGroup) ;
 
-  /// @brief Method ToFriendlyName, addr 0x5e2abec, size 0x1f0, virtual false, abstract: false, final false
-  static inline ::StringW ToFriendlyName(::StringW oid, ::System::Security::Cryptography::OidGroup oidGroup, bool fallBackToAllGroups);
+/// @brief Method ToFriendlyName, addr 0x5e2b2ac, size 0x1f0, virtual false, abstract: false, final false
+static inline ::StringW ToFriendlyName(::StringW  oid, ::System::Security::Cryptography::OidGroup  oidGroup, bool  fallBackToAllGroups) ;
 
-  /// @brief Method ToOid, addr 0x5e2b1dc, size 0x1d0, virtual false, abstract: false, final false
-  static inline ::StringW ToOid(::StringW friendlyName, ::System::Security::Cryptography::OidGroup oidGroup, bool fallBackToAllGroups);
+/// @brief Method ToOid, addr 0x5e2b89c, size 0x1d0, virtual false, abstract: false, final false
+static inline ::StringW ToOid(::StringW  friendlyName, ::System::Security::Cryptography::OidGroup  oidGroup, bool  fallBackToAllGroups) ;
 
-  static inline ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* getStaticF_s_compatOids();
+static inline ::System::Collections::Generic::Dictionary_2<::StringW,::StringW>* getStaticF_s_compatOids() ;
 
-  static inline ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* getStaticF_s_friendlyNameToOid();
+static inline ::System::Collections::Generic::Dictionary_2<::StringW,::StringW>* getStaticF_s_friendlyNameToOid() ;
 
-  static inline ::System::Collections::Concurrent::ConcurrentDictionary_2<::StringW, ::StringW>* getStaticF_s_lateBoundFriendlyNameToOid();
+static inline ::System::Collections::Concurrent::ConcurrentDictionary_2<::StringW,::StringW>* getStaticF_s_lateBoundFriendlyNameToOid() ;
 
-  static inline ::System::Collections::Concurrent::ConcurrentDictionary_2<::StringW, ::StringW>* getStaticF_s_lateBoundOidToFriendlyName();
+static inline ::System::Collections::Concurrent::ConcurrentDictionary_2<::StringW,::StringW>* getStaticF_s_lateBoundOidToFriendlyName() ;
 
-  static inline ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* getStaticF_s_oidToFriendlyName();
+static inline ::System::Collections::Generic::Dictionary_2<::StringW,::StringW>* getStaticF_s_oidToFriendlyName() ;
 
-  static inline void setStaticF_s_compatOids(::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* value);
+static inline void setStaticF_s_compatOids(::System::Collections::Generic::Dictionary_2<::StringW,::StringW>*  value) ;
 
-  static inline void setStaticF_s_friendlyNameToOid(::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* value);
+static inline void setStaticF_s_friendlyNameToOid(::System::Collections::Generic::Dictionary_2<::StringW,::StringW>*  value) ;
 
-  static inline void setStaticF_s_lateBoundFriendlyNameToOid(::System::Collections::Concurrent::ConcurrentDictionary_2<::StringW, ::StringW>* value);
+static inline void setStaticF_s_lateBoundFriendlyNameToOid(::System::Collections::Concurrent::ConcurrentDictionary_2<::StringW,::StringW>*  value) ;
 
-  static inline void setStaticF_s_lateBoundOidToFriendlyName(::System::Collections::Concurrent::ConcurrentDictionary_2<::StringW, ::StringW>* value);
+static inline void setStaticF_s_lateBoundOidToFriendlyName(::System::Collections::Concurrent::ConcurrentDictionary_2<::StringW,::StringW>*  value) ;
 
-  static inline void setStaticF_s_oidToFriendlyName(::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* value);
+static inline void setStaticF_s_oidToFriendlyName(::System::Collections::Generic::Dictionary_2<::StringW,::StringW>*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr OidLookup();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr OidLookup() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OidLookup", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  OidLookup(OidLookup&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OidLookup", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  OidLookup(OidLookup const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "OidLookup", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+OidLookup(OidLookup && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11022 };
+// Ctor Parameters [CppParam { name: "", ty: "OidLookup", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+OidLookup(OidLookup const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11026};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Internal::Cryptography::OidLookup, 0x10>, "Size mismatch!");
 
-} // namespace Internal::Cryptography
+} // namespace end def Internal::Cryptography
 NEED_NO_BOX(::Internal::Cryptography::OidLookup);
 DEFINE_IL2CPP_ARG_TYPE(::Internal::Cryptography::OidLookup*, "Internal.Cryptography", "OidLookup");
 NEED_NO_BOX(::Internal::Cryptography::OidLookup___c);

@@ -19,28 +19,27 @@ namespace UnityEngine {
 // CS Name: UnityEngine.ActivePlayable
 struct CORDL_TYPE ActivePlayable {
 public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ActivePlayable();
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr ActivePlayable() ;
 
-  // Ctor Parameters [CppParam { name: "_settings_k__BackingField", ty: "::UnityEngine::PlayableSettings", modifiers: "", def_value: None }, CppParam { name: "_clipPlayableHandle_k__BackingField", ty:
-  // "::UnityEngine::Playables::PlayableHandle", modifiers: "", def_value: None }]
-  constexpr ActivePlayable(::UnityEngine::PlayableSettings _settings_k__BackingField, ::UnityEngine::Playables::PlayableHandle _clipPlayableHandle_k__BackingField) noexcept;
+// Ctor Parameters [CppParam { name: "_settings_k__BackingField", ty: "::UnityEngine::PlayableSettings", modifiers: "", def_value: None }, CppParam { name: "_clipPlayableHandle_k__BackingField", ty: "::UnityEngine::Playables::PlayableHandle", modifiers: "", def_value: None }]
+constexpr ActivePlayable(::UnityEngine::PlayableSettings  _settings_k__BackingField, ::UnityEngine::Playables::PlayableHandle  _clipPlayableHandle_k__BackingField) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20570 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20574};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x30};
 
-  /// @brief Field <settings>k__BackingField, offset: 0x0, size: 0x20, def value: None
-  ::UnityEngine::PlayableSettings _settings_k__BackingField;
+/// @brief Field <settings>k__BackingField, offset: 0x0, size: 0x20, def value: None
+ ::UnityEngine::PlayableSettings  _settings_k__BackingField;
 
-  /// @brief Field <clipPlayableHandle>k__BackingField, offset: 0x20, size: 0x10, def value: None
-  ::UnityEngine::Playables::PlayableHandle _clipPlayableHandle_k__BackingField;
+/// @brief Field <clipPlayableHandle>k__BackingField, offset: 0x20, size: 0x10, def value: None
+ ::UnityEngine::Playables::PlayableHandle  _clipPlayableHandle_k__BackingField;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::ActivePlayable, _settings_k__BackingField) == 0x0, "Offset mismatch!");
@@ -49,5 +48,5 @@ static_assert(offsetof(::UnityEngine::ActivePlayable, _clipPlayableHandle_k__Bac
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ActivePlayable, 0x30>, "Size mismatch!");
 
-} // namespace UnityEngine
+} // namespace end def UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ActivePlayable, "UnityEngine", "ActivePlayable");

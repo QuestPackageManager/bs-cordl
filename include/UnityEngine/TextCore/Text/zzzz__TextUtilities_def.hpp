@@ -22,38 +22,38 @@ namespace UnityEngine::TextCore::Text {
 // CS Name: UnityEngine.TextCore.Text.TextUtilities
 class CORDL_TYPE TextUtilities : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method GetHashCodeCaseInSensitive, addr 0x6a47f54, size 0x70, virtual false, abstract: false, final false
-  static inline int32_t GetHashCodeCaseInSensitive(::StringW s);
+// Declarations
+/// @brief Method GetHashCodeCaseInSensitive, addr 0x6a48614, size 0x70, virtual false, abstract: false, final false
+static inline int32_t GetHashCodeCaseInSensitive(::StringW  s) ;
 
-  /// @brief Method GetTextFontWeightIndex, addr 0x6a4952c, size 0x94, virtual false, abstract: false, final false
-  static inline int32_t GetTextFontWeightIndex(::UnityEngine::TextCore::Text::TextFontWeight fontWeight);
+/// @brief Method GetTextFontWeightIndex, addr 0x6a49bec, size 0x94, virtual false, abstract: false, final false
+static inline int32_t GetTextFontWeightIndex(::UnityEngine::TextCore::Text::TextFontWeight  fontWeight) ;
 
-  /// @brief Method ToUpperFast, addr 0x6a494ac, size 0x80, virtual false, abstract: false, final false
-  static inline char16_t ToUpperFast(char16_t c);
+/// @brief Method ToUpperFast, addr 0x6a49b6c, size 0x80, virtual false, abstract: false, final false
+static inline char16_t ToUpperFast(char16_t  c) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TextUtilities();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr TextUtilities() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TextUtilities", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  TextUtilities(TextUtilities&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TextUtilities", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  TextUtilities(TextUtilities const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "TextUtilities", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+TextUtilities(TextUtilities && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17256 };
+// Ctor Parameters [CppParam { name: "", ty: "TextUtilities", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+TextUtilities(TextUtilities const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{17260};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::TextCore::Text::TextUtilities, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine::TextCore::Text
+} // namespace end def UnityEngine::TextCore::Text
 NEED_NO_BOX(::UnityEngine::TextCore::Text::TextUtilities);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextCore::Text::TextUtilities*, "UnityEngine.TextCore.Text", "TextUtilities");

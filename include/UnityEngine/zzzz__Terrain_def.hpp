@@ -24,67 +24,67 @@ namespace UnityEngine {
 // CS Name: UnityEngine.Terrain
 class CORDL_TYPE Terrain : public ::UnityEngine::Behaviour {
 public:
-  // Declarations
-  __declspec(property(get = get_allowAutoConnect)) bool allowAutoConnect;
+// Declarations
+ __declspec(property(get=get_allowAutoConnect)) bool  allowAutoConnect;
 
-  __declspec(property(get = get_groupingID)) int32_t groupingID;
+ __declspec(property(get=get_groupingID)) int32_t  groupingID;
 
-  __declspec(property(get = get_terrainData)) ::UnityW<::UnityEngine::TerrainData> terrainData;
+ __declspec(property(get=get_terrainData)) ::UnityW<::UnityEngine::TerrainData>  terrainData;
 
-  static inline ::UnityEngine::Terrain* New_ctor();
+static inline ::UnityEngine::Terrain* New_ctor() ;
 
-  /// @brief Method SetNeighbors, addr 0x69ee314, size 0x128, virtual false, abstract: false, final false
-  inline void SetNeighbors(::UnityEngine::Terrain* left, ::UnityEngine::Terrain* top, ::UnityEngine::Terrain* right, ::UnityEngine::Terrain* bottom);
+/// @brief Method SetNeighbors, addr 0x69ee9d4, size 0x128, virtual false, abstract: false, final false
+inline void SetNeighbors(::UnityEngine::Terrain*  left, ::UnityEngine::Terrain*  top, ::UnityEngine::Terrain*  right, ::UnityEngine::Terrain*  bottom) ;
 
-  /// @brief Method SetNeighbors_Injected, addr 0x69ee43c, size 0x6c, virtual false, abstract: false, final false
-  static inline void SetNeighbors_Injected(::System::IntPtr _unity_self, ::System::IntPtr left, ::System::IntPtr top, ::System::IntPtr right, ::System::IntPtr bottom);
+/// @brief Method SetNeighbors_Injected, addr 0x69eeafc, size 0x6c, virtual false, abstract: false, final false
+static inline void SetNeighbors_Injected(::System::IntPtr  _unity_self, ::System::IntPtr  left, ::System::IntPtr  top, ::System::IntPtr  right, ::System::IntPtr  bottom) ;
 
-  /// @brief Method .ctor, addr 0x69ee4d0, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x69eeb90, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_activeTerrains, addr 0x69ee4a8, size 0x28, virtual false, abstract: false, final false
-  static inline ::ArrayW<::UnityW<::UnityEngine::Terrain>, ::Array<::UnityW<::UnityEngine::Terrain>>*> get_activeTerrains();
+/// @brief Method get_activeTerrains, addr 0x69eeb68, size 0x28, virtual false, abstract: false, final false
+static inline ::ArrayW<::UnityW<::UnityEngine::Terrain>,::Array<::UnityW<::UnityEngine::Terrain>>*> get_activeTerrains() ;
 
-  /// @brief Method get_allowAutoConnect, addr 0x69ee19c, size 0x80, virtual false, abstract: false, final false
-  inline bool get_allowAutoConnect();
+/// @brief Method get_allowAutoConnect, addr 0x69ee85c, size 0x80, virtual false, abstract: false, final false
+inline bool get_allowAutoConnect() ;
 
-  /// @brief Method get_allowAutoConnect_Injected, addr 0x69ee21c, size 0x3c, virtual false, abstract: false, final false
-  static inline bool get_allowAutoConnect_Injected(::System::IntPtr _unity_self);
+/// @brief Method get_allowAutoConnect_Injected, addr 0x69ee8dc, size 0x3c, virtual false, abstract: false, final false
+static inline bool get_allowAutoConnect_Injected(::System::IntPtr  _unity_self) ;
 
-  /// @brief Method get_groupingID, addr 0x69ee258, size 0x80, virtual false, abstract: false, final false
-  inline int32_t get_groupingID();
+/// @brief Method get_groupingID, addr 0x69ee918, size 0x80, virtual false, abstract: false, final false
+inline int32_t get_groupingID() ;
 
-  /// @brief Method get_groupingID_Injected, addr 0x69ee2d8, size 0x3c, virtual false, abstract: false, final false
-  static inline int32_t get_groupingID_Injected(::System::IntPtr _unity_self);
+/// @brief Method get_groupingID_Injected, addr 0x69ee998, size 0x3c, virtual false, abstract: false, final false
+static inline int32_t get_groupingID_Injected(::System::IntPtr  _unity_self) ;
 
-  /// @brief Method get_terrainData, addr 0x69ee010, size 0x150, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::TerrainData> get_terrainData();
+/// @brief Method get_terrainData, addr 0x69ee6d0, size 0x150, virtual false, abstract: false, final false
+inline ::UnityW<::UnityEngine::TerrainData> get_terrainData() ;
 
-  /// @brief Method get_terrainData_Injected, addr 0x69ee160, size 0x3c, virtual false, abstract: false, final false
-  static inline ::System::IntPtr get_terrainData_Injected(::System::IntPtr _unity_self);
+/// @brief Method get_terrainData_Injected, addr 0x69ee820, size 0x3c, virtual false, abstract: false, final false
+static inline ::System::IntPtr get_terrainData_Injected(::System::IntPtr  _unity_self) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Terrain();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr Terrain() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Terrain", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  Terrain(Terrain&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Terrain", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  Terrain(Terrain const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "Terrain", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+Terrain(Terrain && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22416 };
+// Ctor Parameters [CppParam { name: "", ty: "Terrain", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+Terrain(Terrain const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{22420};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Terrain, 0x18>, "Size mismatch!");
 
-} // namespace UnityEngine
+} // namespace end def UnityEngine
 NEED_NO_BOX(::UnityEngine::Terrain);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Terrain*, "UnityEngine", "Terrain");

@@ -8,7 +8,8 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(FormatterServices)
 namespace System::Collections::Concurrent {
-template <typename TKey, typename TValue> class ConcurrentDictionary_2;
+template<typename TKey,typename TValue>
+class ConcurrentDictionary_2;
 }
 namespace System::Reflection {
 class Assembly;
@@ -53,184 +54,176 @@ namespace System::Runtime::Serialization {
 // CS Name: System.Runtime.Serialization.FormatterServices/<>c__DisplayClass9_0
 class CORDL_TYPE FormatterServices___c__DisplayClass9_0 : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field type, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type)) ::System::Type* type;
+// Declarations
+/// @brief Field type, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_type, put=__cordl_internal_set_type)) ::System::Type*  type;
 
-  static inline ::System::Runtime::Serialization::FormatterServices___c__DisplayClass9_0* New_ctor();
+static inline ::System::Runtime::Serialization::FormatterServices___c__DisplayClass9_0* New_ctor() ;
 
-  /// @brief Method <GetSerializableMembers>b__0, addr 0x599f794, size 0xb4, virtual false, abstract: false, final false
-  inline ::ArrayW<::System::Reflection::MemberInfo*, ::Array<::System::Reflection::MemberInfo*>*> _GetSerializableMembers_b__0(::System::Runtime::Serialization::MemberHolder* _);
+/// @brief Method <GetSerializableMembers>b__0, addr 0x599fca0, size 0xb4, virtual false, abstract: false, final false
+inline ::ArrayW<::System::Reflection::MemberInfo*,::Array<::System::Reflection::MemberInfo*>*> _GetSerializableMembers_b__0(::System::Runtime::Serialization::MemberHolder*  _) ;
 
-  constexpr ::System::Type* const& __cordl_internal_get_type() const;
+constexpr ::System::Type* const& __cordl_internal_get_type() const;
 
-  constexpr ::System::Type*& __cordl_internal_get_type();
+constexpr ::System::Type*& __cordl_internal_get_type() ;
 
-  constexpr void __cordl_internal_set_type(::System::Type* value);
+constexpr void __cordl_internal_set_type(::System::Type*  value) ;
 
-  /// @brief Method .ctor, addr 0x599e43c, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x599e948, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr FormatterServices___c__DisplayClass9_0();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr FormatterServices___c__DisplayClass9_0() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FormatterServices___c__DisplayClass9_0", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  FormatterServices___c__DisplayClass9_0(FormatterServices___c__DisplayClass9_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FormatterServices___c__DisplayClass9_0", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  FormatterServices___c__DisplayClass9_0(FormatterServices___c__DisplayClass9_0 const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "FormatterServices___c__DisplayClass9_0", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+FormatterServices___c__DisplayClass9_0(FormatterServices___c__DisplayClass9_0 && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3229 };
+// Ctor Parameters [CppParam { name: "", ty: "FormatterServices___c__DisplayClass9_0", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+FormatterServices___c__DisplayClass9_0(FormatterServices___c__DisplayClass9_0 const& ) = delete;
 
-  /// @brief Field type, offset: 0x10, size: 0x8, def value: None
-  ::System::Type* ___type;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{3229};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field type, offset: 0x10, size: 0x8, def value: None
+ ::System::Type*  ___type;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Runtime::Serialization::FormatterServices___c__DisplayClass9_0, ___type) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::FormatterServices___c__DisplayClass9_0, 0x18>, "Size mismatch!");
 
-} // namespace System::Runtime::Serialization
+} // namespace end def System::Runtime::Serialization
 // Dependencies System.Object
 namespace System::Runtime::Serialization {
 // Is value type: false
 // CS Name: System.Runtime.Serialization.FormatterServices
 class CORDL_TYPE FormatterServices : public ::System::Object {
 public:
-  // Declarations
-  using __c__DisplayClass9_0 = ::System::Runtime::Serialization::FormatterServices___c__DisplayClass9_0;
+// Declarations
+using __c__DisplayClass9_0 = ::System::Runtime::Serialization::FormatterServices___c__DisplayClass9_0;
 
-  /// @brief Field advancedTypes, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_advancedTypes, put = setStaticF_advancedTypes)) ::ArrayW<::System::Type*, ::Array<::System::Type*>*> advancedTypes;
+/// @brief Field advancedTypes, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_advancedTypes, put=setStaticF_advancedTypes)) ::ArrayW<::System::Type*,::Array<::System::Type*>*>  advancedTypes;
 
-  /// @brief Field m_MemberInfoTable, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_m_MemberInfoTable, put = setStaticF_m_MemberInfoTable)) ::System::Collections::Concurrent::ConcurrentDictionary_2<
-      ::System::Runtime::Serialization::MemberHolder*, ::ArrayW<::System::Reflection::MemberInfo*, ::Array<::System::Reflection::MemberInfo*>*>>* m_MemberInfoTable;
+/// @brief Field m_MemberInfoTable, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_m_MemberInfoTable, put=setStaticF_m_MemberInfoTable)) ::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Runtime::Serialization::MemberHolder*,::ArrayW<::System::Reflection::MemberInfo*,::Array<::System::Reflection::MemberInfo*>*>>*  m_MemberInfoTable;
 
-  /// @brief Field s_binder, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_s_binder, put = setStaticF_s_binder)) ::System::Reflection::Binder* s_binder;
+/// @brief Field s_binder, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_s_binder, put=setStaticF_s_binder)) ::System::Reflection::Binder*  s_binder;
 
-  /// @brief Field unsafeTypeForwardersIsEnabled, offset 0xffffffff, size 0x1
-  __declspec(property(get = getStaticF_unsafeTypeForwardersIsEnabled, put = setStaticF_unsafeTypeForwardersIsEnabled)) bool unsafeTypeForwardersIsEnabled;
+/// @brief Field unsafeTypeForwardersIsEnabled, offset 0xffffffff, size 0x1 
+ __declspec(property(get=getStaticF_unsafeTypeForwardersIsEnabled, put=setStaticF_unsafeTypeForwardersIsEnabled)) bool  unsafeTypeForwardersIsEnabled;
 
-  /// @brief Field unsafeTypeForwardersIsEnabledInitialized, offset 0xffffffff, size 0x1
-  __declspec(property(get = getStaticF_unsafeTypeForwardersIsEnabledInitialized, put = setStaticF_unsafeTypeForwardersIsEnabledInitialized)) bool unsafeTypeForwardersIsEnabledInitialized;
+/// @brief Field unsafeTypeForwardersIsEnabledInitialized, offset 0xffffffff, size 0x1 
+ __declspec(property(get=getStaticF_unsafeTypeForwardersIsEnabledInitialized, put=setStaticF_unsafeTypeForwardersIsEnabledInitialized)) bool  unsafeTypeForwardersIsEnabledInitialized;
 
-  /// @brief Method CheckSerializable, addr 0x599d680, size 0x1c, virtual false, abstract: false, final false
-  static inline bool CheckSerializable(::System::RuntimeType* type);
+/// @brief Method CheckSerializable, addr 0x599db8c, size 0x1c, virtual false, abstract: false, final false
+static inline bool CheckSerializable(::System::RuntimeType*  type) ;
 
-  /// @brief Method GetClrAssemblyName, addr 0x599f0a8, size 0x16c, virtual false, abstract: false, final false
-  static inline ::StringW GetClrAssemblyName(::System::Type* type, ::ByRef<bool> hasTypeForwardedFrom);
+/// @brief Method GetClrAssemblyName, addr 0x599f5b4, size 0x16c, virtual false, abstract: false, final false
+static inline ::StringW GetClrAssemblyName(::System::Type*  type, ::ByRef<bool>  hasTypeForwardedFrom) ;
 
-  /// @brief Method GetClrTypeFullName, addr 0x599f214, size 0x94, virtual false, abstract: false, final false
-  static inline ::StringW GetClrTypeFullName(::System::Type* type);
+/// @brief Method GetClrTypeFullName, addr 0x599f720, size 0x94, virtual false, abstract: false, final false
+static inline ::StringW GetClrTypeFullName(::System::Type*  type) ;
 
-  /// @brief Method GetClrTypeFullNameForArray, addr 0x599f2a8, size 0x27c, virtual false, abstract: false, final false
-  static inline ::StringW GetClrTypeFullNameForArray(::System::Type* type);
+/// @brief Method GetClrTypeFullNameForArray, addr 0x599f7b4, size 0x27c, virtual false, abstract: false, final false
+static inline ::StringW GetClrTypeFullNameForArray(::System::Type*  type) ;
 
-  /// @brief Method GetClrTypeFullNameForNonArrayTypes, addr 0x599f524, size 0x270, virtual false, abstract: false, final false
-  static inline ::StringW GetClrTypeFullNameForNonArrayTypes(::System::Type* type);
+/// @brief Method GetClrTypeFullNameForNonArrayTypes, addr 0x599fa30, size 0x270, virtual false, abstract: false, final false
+static inline ::StringW GetClrTypeFullNameForNonArrayTypes(::System::Type*  type) ;
 
-  /// @brief Method GetEnableUnsafeTypeForwarders, addr 0x599e600, size 0x8, virtual false, abstract: false, final false
-  static inline bool GetEnableUnsafeTypeForwarders();
+/// @brief Method GetEnableUnsafeTypeForwarders, addr 0x599eb0c, size 0x8, virtual false, abstract: false, final false
+static inline bool GetEnableUnsafeTypeForwarders() ;
 
-  /// @brief Method GetObjectData, addr 0x599ebb0, size 0x330, virtual false, abstract: false, final false
-  static inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> GetObjectData(::System::Object* obj,
-                                                                                       ::ArrayW<::System::Reflection::MemberInfo*, ::Array<::System::Reflection::MemberInfo*>*> members);
+/// @brief Method GetObjectData, addr 0x599f0bc, size 0x330, virtual false, abstract: false, final false
+static inline ::ArrayW<::System::Object*,::Array<::System::Object*>*> GetObjectData(::System::Object*  obj, ::ArrayW<::System::Reflection::MemberInfo*,::Array<::System::Reflection::MemberInfo*>*>  members) ;
 
-  /// @brief Method GetParentTypes, addr 0x599dd80, size 0x3a8, virtual false, abstract: false, final false
-  static inline bool GetParentTypes(::System::RuntimeType* parentType, ::ByRef<::ArrayW<::System::RuntimeType*, ::Array<::System::RuntimeType*>*>> parentTypes, ::ByRef<int32_t> parentTypeCount);
+/// @brief Method GetParentTypes, addr 0x599e28c, size 0x3a8, virtual false, abstract: false, final false
+static inline bool GetParentTypes(::System::RuntimeType*  parentType, ::ByRef<::ArrayW<::System::RuntimeType*,::Array<::System::RuntimeType*>*>>  parentTypes, ::ByRef<int32_t>  parentTypeCount) ;
 
-  /// @brief Method GetSerializableMembers, addr 0x599d4ec, size 0x194, virtual false, abstract: false, final false
-  static inline ::ArrayW<::System::Reflection::MemberInfo*, ::Array<::System::Reflection::MemberInfo*>*> GetSerializableMembers(::System::RuntimeType* type);
+/// @brief Method GetSerializableMembers, addr 0x599d9f8, size 0x194, virtual false, abstract: false, final false
+static inline ::ArrayW<::System::Reflection::MemberInfo*,::Array<::System::Reflection::MemberInfo*>*> GetSerializableMembers(::System::RuntimeType*  type) ;
 
-  /// @brief Method GetSerializableMembers, addr 0x599e1b0, size 0x28c, virtual false, abstract: false, final false
-  static inline ::ArrayW<::System::Reflection::MemberInfo*, ::Array<::System::Reflection::MemberInfo*>*> GetSerializableMembers(::System::Type* type,
-                                                                                                                                ::System::Runtime::Serialization::StreamingContext context);
+/// @brief Method GetSerializableMembers, addr 0x599e6bc, size 0x28c, virtual false, abstract: false, final false
+static inline ::ArrayW<::System::Reflection::MemberInfo*,::Array<::System::Reflection::MemberInfo*>*> GetSerializableMembers(::System::Type*  type, ::System::Runtime::Serialization::StreamingContext  context) ;
 
-  /// @brief Method GetTypeFromAssembly, addr 0x599ef2c, size 0x98, virtual false, abstract: false, final false
-  static inline ::System::Type* GetTypeFromAssembly(::System::Reflection::Assembly* assem, ::StringW name);
+/// @brief Method GetTypeFromAssembly, addr 0x599f438, size 0x98, virtual false, abstract: false, final false
+static inline ::System::Type* GetTypeFromAssembly(::System::Reflection::Assembly*  assem, ::StringW  name) ;
 
-  /// @brief Method GetUninitializedObject, addr 0x599e440, size 0x1bc, virtual false, abstract: false, final false
-  static inline ::System::Object* GetUninitializedObject(::System::Type* type);
+/// @brief Method GetUninitializedObject, addr 0x599e94c, size 0x1bc, virtual false, abstract: false, final false
+static inline ::System::Object* GetUninitializedObject(::System::Type*  type) ;
 
-  /// @brief Method InternalGetSerializableMembers, addr 0x599d69c, size 0x6e4, virtual false, abstract: false, final false
-  static inline ::ArrayW<::System::Reflection::MemberInfo*, ::Array<::System::Reflection::MemberInfo*>*> InternalGetSerializableMembers(::System::RuntimeType* type);
+/// @brief Method InternalGetSerializableMembers, addr 0x599dba8, size 0x6e4, virtual false, abstract: false, final false
+static inline ::ArrayW<::System::Reflection::MemberInfo*,::Array<::System::Reflection::MemberInfo*>*> InternalGetSerializableMembers(::System::RuntimeType*  type) ;
 
-  /// @brief Method LoadAssemblyFromString, addr 0x599efc4, size 0x8, virtual false, abstract: false, final false
-  static inline ::System::Reflection::Assembly* LoadAssemblyFromString(::StringW assemblyName);
+/// @brief Method LoadAssemblyFromString, addr 0x599f4d0, size 0x8, virtual false, abstract: false, final false
+static inline ::System::Reflection::Assembly* LoadAssemblyFromString(::StringW  assemblyName) ;
 
-  /// @brief Method LoadAssemblyFromStringNoThrow, addr 0x599efcc, size 0xdc, virtual false, abstract: false, final false
-  static inline ::System::Reflection::Assembly* LoadAssemblyFromStringNoThrow(::StringW assemblyName);
+/// @brief Method LoadAssemblyFromStringNoThrow, addr 0x599f4d8, size 0xdc, virtual false, abstract: false, final false
+static inline ::System::Reflection::Assembly* LoadAssemblyFromStringNoThrow(::StringW  assemblyName) ;
 
-  /// @brief Method PopulateObjectMembers, addr 0x599e8cc, size 0x2e4, virtual false, abstract: false, final false
-  static inline ::System::Object* PopulateObjectMembers(::System::Object* obj, ::ArrayW<::System::Reflection::MemberInfo*, ::Array<::System::Reflection::MemberInfo*>*> members,
-                                                        ::ArrayW<::System::Object*, ::Array<::System::Object*>*> data);
+/// @brief Method PopulateObjectMembers, addr 0x599edd8, size 0x2e4, virtual false, abstract: false, final false
+static inline ::System::Object* PopulateObjectMembers(::System::Object*  obj, ::ArrayW<::System::Reflection::MemberInfo*,::Array<::System::Reflection::MemberInfo*>*>  members, ::ArrayW<::System::Object*,::Array<::System::Object*>*>  data) ;
 
-  /// @brief Method SerializationSetValue, addr 0x599e6b4, size 0x19c, virtual false, abstract: false, final false
-  static inline void SerializationSetValue(::System::Reflection::MemberInfo* fi, ::System::Object* target, ::System::Object* value);
+/// @brief Method SerializationSetValue, addr 0x599ebc0, size 0x19c, virtual false, abstract: false, final false
+static inline void SerializationSetValue(::System::Reflection::MemberInfo*  fi, ::System::Object*  target, ::System::Object*  value) ;
 
-  /// @brief Method UnsafeTypeForwardersIsEnabled, addr 0x599e608, size 0xac, virtual false, abstract: false, final false
-  static inline bool UnsafeTypeForwardersIsEnabled();
+/// @brief Method UnsafeTypeForwardersIsEnabled, addr 0x599eb14, size 0xac, virtual false, abstract: false, final false
+static inline bool UnsafeTypeForwardersIsEnabled() ;
 
-  static inline ::ArrayW<::System::Type*, ::Array<::System::Type*>*> getStaticF_advancedTypes();
+static inline ::ArrayW<::System::Type*,::Array<::System::Type*>*> getStaticF_advancedTypes() ;
 
-  static inline ::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Runtime::Serialization::MemberHolder*,
-                                                                          ::ArrayW<::System::Reflection::MemberInfo*, ::Array<::System::Reflection::MemberInfo*>*>>*
-  getStaticF_m_MemberInfoTable();
+static inline ::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Runtime::Serialization::MemberHolder*,::ArrayW<::System::Reflection::MemberInfo*,::Array<::System::Reflection::MemberInfo*>*>>* getStaticF_m_MemberInfoTable() ;
 
-  static inline ::System::Reflection::Binder* getStaticF_s_binder();
+static inline ::System::Reflection::Binder* getStaticF_s_binder() ;
 
-  static inline bool getStaticF_unsafeTypeForwardersIsEnabled();
+static inline bool getStaticF_unsafeTypeForwardersIsEnabled() ;
 
-  static inline bool getStaticF_unsafeTypeForwardersIsEnabledInitialized();
+static inline bool getStaticF_unsafeTypeForwardersIsEnabledInitialized() ;
 
-  /// @brief Method nativeGetUninitializedObject, addr 0x599e5fc, size 0x4, virtual false, abstract: false, final false
-  static inline ::System::Object* nativeGetUninitializedObject(::System::RuntimeType* type);
+/// @brief Method nativeGetUninitializedObject, addr 0x599eb08, size 0x4, virtual false, abstract: false, final false
+static inline ::System::Object* nativeGetUninitializedObject(::System::RuntimeType*  type) ;
 
-  static inline void setStaticF_advancedTypes(::ArrayW<::System::Type*, ::Array<::System::Type*>*> value);
+static inline void setStaticF_advancedTypes(::ArrayW<::System::Type*,::Array<::System::Type*>*>  value) ;
 
-  static inline void
-  setStaticF_m_MemberInfoTable(::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Runtime::Serialization::MemberHolder*,
-                                                                                         ::ArrayW<::System::Reflection::MemberInfo*, ::Array<::System::Reflection::MemberInfo*>*>>* value);
+static inline void setStaticF_m_MemberInfoTable(::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Runtime::Serialization::MemberHolder*,::ArrayW<::System::Reflection::MemberInfo*,::Array<::System::Reflection::MemberInfo*>*>>*  value) ;
 
-  static inline void setStaticF_s_binder(::System::Reflection::Binder* value);
+static inline void setStaticF_s_binder(::System::Reflection::Binder*  value) ;
 
-  static inline void setStaticF_unsafeTypeForwardersIsEnabled(bool value);
+static inline void setStaticF_unsafeTypeForwardersIsEnabled(bool  value) ;
 
-  static inline void setStaticF_unsafeTypeForwardersIsEnabledInitialized(bool value);
+static inline void setStaticF_unsafeTypeForwardersIsEnabledInitialized(bool  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr FormatterServices();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr FormatterServices() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FormatterServices", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  FormatterServices(FormatterServices&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FormatterServices", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  FormatterServices(FormatterServices const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "FormatterServices", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+FormatterServices(FormatterServices && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3230 };
+// Ctor Parameters [CppParam { name: "", ty: "FormatterServices", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+FormatterServices(FormatterServices const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{3230};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::FormatterServices, 0x10>, "Size mismatch!");
 
-} // namespace System::Runtime::Serialization
+} // namespace end def System::Runtime::Serialization
 NEED_NO_BOX(::System::Runtime::Serialization::FormatterServices);
 DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::FormatterServices*, "System.Runtime.Serialization", "FormatterServices");
 NEED_NO_BOX(::System::Runtime::Serialization::FormatterServices___c__DisplayClass9_0);

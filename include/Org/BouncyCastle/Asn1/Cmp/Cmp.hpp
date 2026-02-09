@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "Org/BouncyCastle/Asn1/Cmp/CAKeyUpdAnnContent.hpp"
 #include "Org/BouncyCastle/Asn1/Cmp/CertConfirmContent.hpp"
@@ -43,5 +43,6 @@ module;
 #include "Org/BouncyCastle/Asn1/Cmp/RevRepContentBuilder.hpp"
 #include "Org/BouncyCastle/Asn1/Cmp/RevReqContent.hpp"
 #ifdef __cpp_modules
-export module Cmp;
-#endif
+                    export module Cmp;
+                    #endif
+                

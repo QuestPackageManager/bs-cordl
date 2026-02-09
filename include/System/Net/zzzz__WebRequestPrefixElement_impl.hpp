@@ -5,106 +5,122 @@
 #include "System/Net/zzzz__IWebRequestCreate_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 //  Writing Method size for method: ::System::Net::WebRequestPrefixElement.get_Creator
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::IWebRequestCreate* (::System::Net::WebRequestPrefixElement::*)()>(
-    &::System::Net::WebRequestPrefixElement::get_Creator)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::IWebRequestCreate* (::System::Net::WebRequestPrefixElement::*)()>(&::System::Net::WebRequestPrefixElement::get_Creator)> {
   constexpr static std::size_t size = 0x1e8;
-  constexpr static std::size_t addrs = 0x6258944;
+  constexpr static std::size_t addrs = 0x6259004;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::WebRequestPrefixElement*>::get(), "get_Creator",
-                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::WebRequestPrefixElement*>::get(),
+                        "get_Creator",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Net::WebRequestPrefixElement.set_Creator
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::WebRequestPrefixElement::*)(::System::Net::IWebRequestCreate*)>(
-    &::System::Net::WebRequestPrefixElement::set_Creator)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::WebRequestPrefixElement::*)(::System::Net::IWebRequestCreate*)>(&::System::Net::WebRequestPrefixElement::set_Creator)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6258b2c;
+  constexpr static std::size_t addrs = 0x62591ec;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::WebRequestPrefixElement*>::get(), "set_Creator", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::IWebRequestCreate*>::get() })));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::WebRequestPrefixElement*>::get(),
+                        "set_Creator",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::IWebRequestCreate*>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Net::WebRequestPrefixElement._ctor
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::WebRequestPrefixElement::*)(::StringW, ::System::Net::IWebRequestCreate*)>(
-    &::System::Net::WebRequestPrefixElement::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::WebRequestPrefixElement::*)(::StringW, ::System::Net::IWebRequestCreate*)>(&::System::Net::WebRequestPrefixElement::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x6258b34;
+  constexpr static std::size_t addrs = 0x62591f4;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::WebRequestPrefixElement*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
-                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::IWebRequestCreate*>::get() })));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::WebRequestPrefixElement*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::IWebRequestCreate*>::get()}
+                    )));
     return ___internal_method;
   }
 };
-constexpr ::StringW& System::Net::WebRequestPrefixElement::__cordl_internal_get_Prefix() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___Prefix;
+constexpr ::StringW& System::Net::WebRequestPrefixElement::__cordl_internal_get_Prefix()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___Prefix;
 }
 constexpr ::StringW const& System::Net::WebRequestPrefixElement::__cordl_internal_get_Prefix() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___Prefix;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___Prefix;
 }
-constexpr void System::Net::WebRequestPrefixElement::__cordl_internal_set_Prefix(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Prefix)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Net::WebRequestPrefixElement::__cordl_internal_set_Prefix(::StringW  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Prefix)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Net::IWebRequestCreate*& System::Net::WebRequestPrefixElement::__cordl_internal_get_creator() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___creator;
+constexpr ::System::Net::IWebRequestCreate*& System::Net::WebRequestPrefixElement::__cordl_internal_get_creator()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___creator;
 }
 constexpr ::System::Net::IWebRequestCreate* const& System::Net::WebRequestPrefixElement::__cordl_internal_get_creator() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___creator;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___creator;
 }
-constexpr void System::Net::WebRequestPrefixElement::__cordl_internal_set_creator(::System::Net::IWebRequestCreate* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___creator)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Net::WebRequestPrefixElement::__cordl_internal_set_creator(::System::Net::IWebRequestCreate*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___creator)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Type*& System::Net::WebRequestPrefixElement::__cordl_internal_get_creatorType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___creatorType;
+constexpr ::System::Type*& System::Net::WebRequestPrefixElement::__cordl_internal_get_creatorType()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___creatorType;
 }
 constexpr ::System::Type* const& System::Net::WebRequestPrefixElement::__cordl_internal_get_creatorType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___creatorType;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___creatorType;
 }
-constexpr void System::Net::WebRequestPrefixElement::__cordl_internal_set_creatorType(::System::Type* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___creatorType)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::Net::WebRequestPrefixElement::__cordl_internal_set_creatorType(::System::Type*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___creatorType)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::System::Net::IWebRequestCreate* System::Net::WebRequestPrefixElement::get_Creator() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::WebRequestPrefixElement*>::get(), "get_Creator",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::System::Net::IWebRequestCreate*, false>(this, ___internal_method);
+inline ::System::Net::IWebRequestCreate* System::Net::WebRequestPrefixElement::get_Creator()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::WebRequestPrefixElement*>::get(),
+                        "get_Creator",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Net::IWebRequestCreate*, false>(this, ___internal_method);
 }
-inline void System::Net::WebRequestPrefixElement::set_Creator(::System::Net::IWebRequestCreate* value) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::WebRequestPrefixElement*>::get(), "set_Creator", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::IWebRequestCreate*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+inline void System::Net::WebRequestPrefixElement::set_Creator(::System::Net::IWebRequestCreate*  value)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::WebRequestPrefixElement*>::get(),
+                        "set_Creator",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::IWebRequestCreate*>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void System::Net::WebRequestPrefixElement::_ctor(::StringW P, ::System::Net::IWebRequestCreate* C) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::WebRequestPrefixElement*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::IWebRequestCreate*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, P, C);
+inline void System::Net::WebRequestPrefixElement::_ctor(::StringW  P, ::System::Net::IWebRequestCreate*  C)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::WebRequestPrefixElement*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::IWebRequestCreate*>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, P, C);
 }
-inline ::System::Net::WebRequestPrefixElement* System::Net::WebRequestPrefixElement::New_ctor(::StringW P, ::System::Net::IWebRequestCreate* C) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::WebRequestPrefixElement*>(P, C));
+inline ::System::Net::WebRequestPrefixElement* System::Net::WebRequestPrefixElement::New_ctor(::StringW  P, ::System::Net::IWebRequestCreate*  C)  {
+return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::WebRequestPrefixElement*>(P, C));
 }
 // Ctor Parameters []
-constexpr ::System::Net::WebRequestPrefixElement::WebRequestPrefixElement() {}
+constexpr ::System::Net::WebRequestPrefixElement::WebRequestPrefixElement()   {
+}

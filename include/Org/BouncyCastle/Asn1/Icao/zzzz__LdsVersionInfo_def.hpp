@@ -30,71 +30,71 @@ namespace Org::BouncyCastle::Asn1::Icao {
 // CS Name: Org.BouncyCastle.Asn1.Icao.LdsVersionInfo
 class CORDL_TYPE LdsVersionInfo : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
-  // Declarations
-  /// @brief Field ldsVersion, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_ldsVersion, put = __cordl_internal_set_ldsVersion)) ::Org::BouncyCastle::Asn1::DerPrintableString* ldsVersion;
+// Declarations
+/// @brief Field ldsVersion, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_ldsVersion, put=__cordl_internal_set_ldsVersion)) ::Org::BouncyCastle::Asn1::DerPrintableString*  ldsVersion;
 
-  /// @brief Field unicodeVersion, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_unicodeVersion, put = __cordl_internal_set_unicodeVersion)) ::Org::BouncyCastle::Asn1::DerPrintableString* unicodeVersion;
+/// @brief Field unicodeVersion, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_unicodeVersion, put=__cordl_internal_set_unicodeVersion)) ::Org::BouncyCastle::Asn1::DerPrintableString*  unicodeVersion;
 
-  /// @brief Method GetInstance, addr 0x33540f4, size 0xa0, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Asn1::Icao::LdsVersionInfo* GetInstance(::System::Object* obj);
+/// @brief Method GetInstance, addr 0x3354044, size 0xa0, virtual false, abstract: false, final false
+static inline ::Org::BouncyCastle::Asn1::Icao::LdsVersionInfo* GetInstance(::System::Object*  obj) ;
 
-  /// @brief Method GetLdsVersion, addr 0x33546d8, size 0x1c, virtual true, abstract: false, final false
-  inline ::StringW GetLdsVersion();
+/// @brief Method GetLdsVersion, addr 0x3354628, size 0x1c, virtual true, abstract: false, final false
+inline ::StringW GetLdsVersion() ;
 
-  /// @brief Method GetUnicodeVersion, addr 0x33546f4, size 0x1c, virtual true, abstract: false, final false
-  inline ::StringW GetUnicodeVersion();
+/// @brief Method GetUnicodeVersion, addr 0x3354644, size 0x1c, virtual true, abstract: false, final false
+inline ::StringW GetUnicodeVersion() ;
 
-  static inline ::Org::BouncyCastle::Asn1::Icao::LdsVersionInfo* New_ctor(::StringW ldsVersion, ::StringW unicodeVersion);
+static inline ::Org::BouncyCastle::Asn1::Icao::LdsVersionInfo* New_ctor(::StringW  ldsVersion, ::StringW  unicodeVersion) ;
 
-  static inline ::Org::BouncyCastle::Asn1::Icao::LdsVersionInfo* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
+static inline ::Org::BouncyCastle::Asn1::Icao::LdsVersionInfo* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence*  seq) ;
 
-  /// @brief Method ToAsn1Object, addr 0x3354710, size 0xf0, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
+/// @brief Method ToAsn1Object, addr 0x3354660, size 0xf0, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object() ;
 
-  constexpr ::Org::BouncyCastle::Asn1::DerPrintableString* const& __cordl_internal_get_ldsVersion() const;
+constexpr ::Org::BouncyCastle::Asn1::DerPrintableString* const& __cordl_internal_get_ldsVersion() const;
 
-  constexpr ::Org::BouncyCastle::Asn1::DerPrintableString*& __cordl_internal_get_ldsVersion();
+constexpr ::Org::BouncyCastle::Asn1::DerPrintableString*& __cordl_internal_get_ldsVersion() ;
 
-  constexpr ::Org::BouncyCastle::Asn1::DerPrintableString* const& __cordl_internal_get_unicodeVersion() const;
+constexpr ::Org::BouncyCastle::Asn1::DerPrintableString* const& __cordl_internal_get_unicodeVersion() const;
 
-  constexpr ::Org::BouncyCastle::Asn1::DerPrintableString*& __cordl_internal_get_unicodeVersion();
+constexpr ::Org::BouncyCastle::Asn1::DerPrintableString*& __cordl_internal_get_unicodeVersion() ;
 
-  constexpr void __cordl_internal_set_ldsVersion(::Org::BouncyCastle::Asn1::DerPrintableString* value);
+constexpr void __cordl_internal_set_ldsVersion(::Org::BouncyCastle::Asn1::DerPrintableString*  value) ;
 
-  constexpr void __cordl_internal_set_unicodeVersion(::Org::BouncyCastle::Asn1::DerPrintableString* value);
+constexpr void __cordl_internal_set_unicodeVersion(::Org::BouncyCastle::Asn1::DerPrintableString*  value) ;
 
-  /// @brief Method .ctor, addr 0x3354570, size 0x8c, virtual false, abstract: false, final false
-  inline void _ctor(::StringW ldsVersion, ::StringW unicodeVersion);
+/// @brief Method .ctor, addr 0x33544c0, size 0x8c, virtual false, abstract: false, final false
+inline void _ctor(::StringW  ldsVersion, ::StringW  unicodeVersion) ;
 
-  /// @brief Method .ctor, addr 0x33545fc, size 0xdc, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
+/// @brief Method .ctor, addr 0x335454c, size 0xdc, virtual false, abstract: false, final false
+inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence*  seq) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LdsVersionInfo();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr LdsVersionInfo() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LdsVersionInfo", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  LdsVersionInfo(LdsVersionInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LdsVersionInfo", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  LdsVersionInfo(LdsVersionInfo const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "LdsVersionInfo", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+LdsVersionInfo(LdsVersionInfo && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 178 };
+// Ctor Parameters [CppParam { name: "", ty: "LdsVersionInfo", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+LdsVersionInfo(LdsVersionInfo const& ) = delete;
 
-  /// @brief Field ldsVersion, offset: 0x10, size: 0x8, def value: None
-  ::Org::BouncyCastle::Asn1::DerPrintableString* ___ldsVersion;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{178};
 
-  /// @brief Field unicodeVersion, offset: 0x18, size: 0x8, def value: None
-  ::Org::BouncyCastle::Asn1::DerPrintableString* ___unicodeVersion;
+/// @brief Field ldsVersion, offset: 0x10, size: 0x8, def value: None
+ ::Org::BouncyCastle::Asn1::DerPrintableString*  ___ldsVersion;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field unicodeVersion, offset: 0x18, size: 0x8, def value: None
+ ::Org::BouncyCastle::Asn1::DerPrintableString*  ___unicodeVersion;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Org::BouncyCastle::Asn1::Icao::LdsVersionInfo, ___ldsVersion) == 0x10, "Offset mismatch!");
@@ -103,6 +103,6 @@ static_assert(offsetof(::Org::BouncyCastle::Asn1::Icao::LdsVersionInfo, ___unico
 
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Icao::LdsVersionInfo, 0x20>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Asn1::Icao
+} // namespace end def Org::BouncyCastle::Asn1::Icao
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Icao::LdsVersionInfo);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::Icao::LdsVersionInfo*, "Org.BouncyCastle.Asn1.Icao", "LdsVersionInfo");

@@ -19,58 +19,58 @@ namespace Meta::XR {
 // CS Name: Meta.XR.MetaXRSpaceWarp
 class CORDL_TYPE MetaXRSpaceWarp : public ::UnityEngine::XR::OpenXR::Features::OpenXRFeature {
 public:
-  // Declarations
-  /// @brief Method MetaSetAppSpacePosition, addr 0x5ca225c, size 0x90, virtual false, abstract: false, final false
-  static inline void MetaSetAppSpacePosition(float_t x, float_t y, float_t z);
+// Declarations
+/// @brief Method MetaSetAppSpacePosition, addr 0x5ca2768, size 0x90, virtual false, abstract: false, final false
+static inline void MetaSetAppSpacePosition(float_t  x, float_t  y, float_t  z) ;
 
-  /// @brief Method MetaSetAppSpaceRotation, addr 0x5ca22f0, size 0x98, virtual false, abstract: false, final false
-  static inline void MetaSetAppSpaceRotation(float_t x, float_t y, float_t z, float_t w);
+/// @brief Method MetaSetAppSpaceRotation, addr 0x5ca27fc, size 0x98, virtual false, abstract: false, final false
+static inline void MetaSetAppSpaceRotation(float_t  x, float_t  y, float_t  z, float_t  w) ;
 
-  /// @brief Method MetaSetSpaceWarp, addr 0x5ca21dc, size 0x7c, virtual false, abstract: false, final false
-  static inline void MetaSetSpaceWarp(bool enabled);
+/// @brief Method MetaSetSpaceWarp, addr 0x5ca26e8, size 0x7c, virtual false, abstract: false, final false
+static inline void MetaSetSpaceWarp(bool  enabled) ;
 
-  static inline ::Meta::XR::MetaXRSpaceWarp* New_ctor();
+static inline ::Meta::XR::MetaXRSpaceWarp* New_ctor() ;
 
-  /// @brief Method SetAppSpacePosition, addr 0x5ca2258, size 0x4, virtual false, abstract: false, final false
-  static inline void SetAppSpacePosition(float_t x, float_t y, float_t z);
+/// @brief Method SetAppSpacePosition, addr 0x5ca2764, size 0x4, virtual false, abstract: false, final false
+static inline void SetAppSpacePosition(float_t  x, float_t  y, float_t  z) ;
 
-  /// @brief Method SetAppSpaceRotation, addr 0x5ca22ec, size 0x4, virtual false, abstract: false, final false
-  static inline void SetAppSpaceRotation(float_t x, float_t y, float_t z, float_t w);
+/// @brief Method SetAppSpaceRotation, addr 0x5ca27f8, size 0x4, virtual false, abstract: false, final false
+static inline void SetAppSpaceRotation(float_t  x, float_t  y, float_t  z, float_t  w) ;
 
-  /// @brief Method SetSpaceWarp, addr 0x5ca21d8, size 0x4, virtual false, abstract: false, final false
-  static inline void SetSpaceWarp(bool enabled);
+/// @brief Method SetSpaceWarp, addr 0x5ca26e4, size 0x4, virtual false, abstract: false, final false
+static inline void SetSpaceWarp(bool  enabled) ;
 
-  /// @brief Method .ctor, addr 0x5ca2388, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5ca2894, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MetaXRSpaceWarp();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr MetaXRSpaceWarp() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MetaXRSpaceWarp", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  MetaXRSpaceWarp(MetaXRSpaceWarp&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MetaXRSpaceWarp", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  MetaXRSpaceWarp(MetaXRSpaceWarp const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "MetaXRSpaceWarp", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+MetaXRSpaceWarp(MetaXRSpaceWarp && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8545 };
+// Ctor Parameters [CppParam { name: "", ty: "MetaXRSpaceWarp", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+MetaXRSpaceWarp(MetaXRSpaceWarp const& ) = delete;
 
-  /// @brief Field extensionList offset 0xffffffff size 0x8
-  static constexpr ::ConstString extensionList{ u"XR_FB_space_warp" };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8549};
 
-  /// @brief Field featureId offset 0xffffffff size 0x8
-  static constexpr ::ConstString featureId{ u"com.meta.openxr.feature.spacewarp" };
+/// @brief Field extensionList offset 0xffffffff size 0x8
+static constexpr ::ConstString  extensionList{u"XR_FB_space_warp"};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field featureId offset 0xffffffff size 0x8
+static constexpr ::ConstString  featureId{u"com.meta.openxr.feature.spacewarp"};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Meta::XR::MetaXRSpaceWarp, 0x50>, "Size mismatch!");
 
-} // namespace Meta::XR
+} // namespace end def Meta::XR
 NEED_NO_BOX(::Meta::XR::MetaXRSpaceWarp);
 DEFINE_IL2CPP_ARG_TYPE(::Meta::XR::MetaXRSpaceWarp*, "Meta.XR", "MetaXRSpaceWarp");

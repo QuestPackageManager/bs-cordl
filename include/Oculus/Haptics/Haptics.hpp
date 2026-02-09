@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "Oculus/Haptics/Controller.hpp"
 #include "Oculus/Haptics/Ffi.hpp"
@@ -11,5 +11,6 @@ module;
 #include "Oculus/Haptics/Haptics.hpp"
 #include "Oculus/Haptics/Utils.hpp"
 #ifdef __cpp_modules
-export module Haptics;
-#endif
+                    export module Haptics;
+                    #endif
+                

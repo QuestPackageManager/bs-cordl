@@ -18,37 +18,37 @@ namespace GlobalNamespace {
 // CS Name: PlayingMultiplayerRichPresenceData
 class CORDL_TYPE PlayingMultiplayerRichPresenceData : public ::GlobalNamespace::InMultiplayerRichPresenceData {
 public:
-  // Declarations
-  static inline ::GlobalNamespace::PlayingMultiplayerRichPresenceData* New_ctor(bool atMaxPartySize);
+// Declarations
+static inline ::GlobalNamespace::PlayingMultiplayerRichPresenceData* New_ctor(bool  atMaxPartySize) ;
 
-  /// @brief Method .ctor, addr 0x576b274, size 0x94, virtual false, abstract: false, final false
-  inline void _ctor(bool atMaxPartySize);
+/// @brief Method .ctor, addr 0x576bba4, size 0x94, virtual false, abstract: false, final false
+inline void _ctor(bool  atMaxPartySize) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PlayingMultiplayerRichPresenceData();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr PlayingMultiplayerRichPresenceData() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlayingMultiplayerRichPresenceData", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  PlayingMultiplayerRichPresenceData(PlayingMultiplayerRichPresenceData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlayingMultiplayerRichPresenceData", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  PlayingMultiplayerRichPresenceData(PlayingMultiplayerRichPresenceData const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "PlayingMultiplayerRichPresenceData", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+PlayingMultiplayerRichPresenceData(PlayingMultiplayerRichPresenceData && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6723 };
+// Ctor Parameters [CppParam { name: "", ty: "PlayingMultiplayerRichPresenceData", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+PlayingMultiplayerRichPresenceData(PlayingMultiplayerRichPresenceData const& ) = delete;
 
-  /// @brief Field kPlayingMultiplayerLobbyRichPresenceLocalizationKey offset 0xffffffff size 0x8
-  static constexpr ::ConstString kPlayingMultiplayerLobbyRichPresenceLocalizationKey{ u"PLAYING_MULTIPLAYER_PRESENCE" };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6727};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field kPlayingMultiplayerLobbyRichPresenceLocalizationKey offset 0xffffffff size 0x8
+static constexpr ::ConstString  kPlayingMultiplayerLobbyRichPresenceLocalizationKey{u"PLAYING_MULTIPLAYER_PRESENCE"};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PlayingMultiplayerRichPresenceData, 0x30>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::PlayingMultiplayerRichPresenceData);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PlayingMultiplayerRichPresenceData*, "", "PlayingMultiplayerRichPresenceData");

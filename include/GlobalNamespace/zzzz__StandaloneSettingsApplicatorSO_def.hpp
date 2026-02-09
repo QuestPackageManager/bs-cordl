@@ -20,37 +20,37 @@ namespace GlobalNamespace {
 // CS Name: StandaloneSettingsApplicatorSO
 class CORDL_TYPE StandaloneSettingsApplicatorSO : public ::GlobalNamespace::SettingsApplicatorSO {
 public:
-  // Declarations
-  /// @brief Method ApplyWindowSettings, addr 0x576db08, size 0x15c, virtual true, abstract: false, final false
-  inline void ApplyWindowSettings(::ByRef<::BeatSaber::Settings::WindowSettings> settings);
+// Declarations
+/// @brief Method ApplyWindowSettings, addr 0x576e438, size 0x15c, virtual true, abstract: false, final false
+inline void ApplyWindowSettings(::ByRef<::BeatSaber::Settings::WindowSettings>  settings) ;
 
-  static inline ::GlobalNamespace::StandaloneSettingsApplicatorSO* New_ctor();
+static inline ::GlobalNamespace::StandaloneSettingsApplicatorSO* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x576dc64, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x576e594, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr StandaloneSettingsApplicatorSO();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr StandaloneSettingsApplicatorSO() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StandaloneSettingsApplicatorSO", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  StandaloneSettingsApplicatorSO(StandaloneSettingsApplicatorSO&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StandaloneSettingsApplicatorSO", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  StandaloneSettingsApplicatorSO(StandaloneSettingsApplicatorSO const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "StandaloneSettingsApplicatorSO", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+StandaloneSettingsApplicatorSO(StandaloneSettingsApplicatorSO && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6746 };
+// Ctor Parameters [CppParam { name: "", ty: "StandaloneSettingsApplicatorSO", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+StandaloneSettingsApplicatorSO(StandaloneSettingsApplicatorSO const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6750};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::StandaloneSettingsApplicatorSO, 0x68>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::StandaloneSettingsApplicatorSO);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::StandaloneSettingsApplicatorSO*, "", "StandaloneSettingsApplicatorSO");

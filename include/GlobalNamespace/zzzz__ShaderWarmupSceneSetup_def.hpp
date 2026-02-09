@@ -20,51 +20,51 @@ namespace GlobalNamespace {
 // CS Name: ShaderWarmupSceneSetup
 class CORDL_TYPE ShaderWarmupSceneSetup : public ::Zenject::MonoInstaller {
 public:
-  // Declarations
-  /// @brief Field _sharedWarmupColorScheme, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__sharedWarmupColorScheme, put = __cordl_internal_set__sharedWarmupColorScheme)) ::UnityW<::GlobalNamespace::ColorSchemeSO> _sharedWarmupColorScheme;
+// Declarations
+/// @brief Field _sharedWarmupColorScheme, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get__sharedWarmupColorScheme, put=__cordl_internal_set__sharedWarmupColorScheme)) ::UnityW<::GlobalNamespace::ColorSchemeSO>  _sharedWarmupColorScheme;
 
-  /// @brief Method InstallBindings, addr 0x5780614, size 0xe4, virtual true, abstract: false, final false
-  inline void InstallBindings();
+/// @brief Method InstallBindings, addr 0x5780f44, size 0xe4, virtual true, abstract: false, final false
+inline void InstallBindings() ;
 
-  static inline ::GlobalNamespace::ShaderWarmupSceneSetup* New_ctor();
+static inline ::GlobalNamespace::ShaderWarmupSceneSetup* New_ctor() ;
 
-  constexpr ::UnityW<::GlobalNamespace::ColorSchemeSO> const& __cordl_internal_get__sharedWarmupColorScheme() const;
+constexpr ::UnityW<::GlobalNamespace::ColorSchemeSO> const& __cordl_internal_get__sharedWarmupColorScheme() const;
 
-  constexpr ::UnityW<::GlobalNamespace::ColorSchemeSO>& __cordl_internal_get__sharedWarmupColorScheme();
+constexpr ::UnityW<::GlobalNamespace::ColorSchemeSO>& __cordl_internal_get__sharedWarmupColorScheme() ;
 
-  constexpr void __cordl_internal_set__sharedWarmupColorScheme(::UnityW<::GlobalNamespace::ColorSchemeSO> value);
+constexpr void __cordl_internal_set__sharedWarmupColorScheme(::UnityW<::GlobalNamespace::ColorSchemeSO>  value) ;
 
-  /// @brief Method .ctor, addr 0x57806f8, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5781028, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ShaderWarmupSceneSetup();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ShaderWarmupSceneSetup() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ShaderWarmupSceneSetup", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ShaderWarmupSceneSetup(ShaderWarmupSceneSetup&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ShaderWarmupSceneSetup", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ShaderWarmupSceneSetup(ShaderWarmupSceneSetup const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ShaderWarmupSceneSetup", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ShaderWarmupSceneSetup(ShaderWarmupSceneSetup && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6848 };
+// Ctor Parameters [CppParam { name: "", ty: "ShaderWarmupSceneSetup", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ShaderWarmupSceneSetup(ShaderWarmupSceneSetup const& ) = delete;
 
-  /// @brief Field _sharedWarmupColorScheme, offset: 0x28, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::ColorSchemeSO> ____sharedWarmupColorScheme;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6852};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _sharedWarmupColorScheme, offset: 0x28, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::ColorSchemeSO>  ____sharedWarmupColorScheme;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::ShaderWarmupSceneSetup, ____sharedWarmupColorScheme) == 0x28, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ShaderWarmupSceneSetup, 0x30>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ShaderWarmupSceneSetup);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ShaderWarmupSceneSetup*, "", "ShaderWarmupSceneSetup");

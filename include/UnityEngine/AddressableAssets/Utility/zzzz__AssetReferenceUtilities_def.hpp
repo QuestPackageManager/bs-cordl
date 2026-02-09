@@ -18,37 +18,37 @@ namespace UnityEngine::AddressableAssets::Utility {
 // CS Name: UnityEngine.AddressableAssets.Utility.AssetReferenceUtilities
 class CORDL_TYPE AssetReferenceUtilities : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method FormatName, addr 0x62ae948, size 0x9c, virtual false, abstract: false, final false
-  static inline ::StringW FormatName(::StringW name);
+// Declarations
+/// @brief Method FormatName, addr 0x62af008, size 0x9c, virtual false, abstract: false, final false
+static inline ::StringW FormatName(::StringW  name) ;
 
-  static inline ::UnityEngine::AddressableAssets::Utility::AssetReferenceUtilities* New_ctor();
+static inline ::UnityEngine::AddressableAssets::Utility::AssetReferenceUtilities* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x62ae9e4, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x62af0a4, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AssetReferenceUtilities();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr AssetReferenceUtilities() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AssetReferenceUtilities", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  AssetReferenceUtilities(AssetReferenceUtilities&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AssetReferenceUtilities", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  AssetReferenceUtilities(AssetReferenceUtilities const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "AssetReferenceUtilities", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+AssetReferenceUtilities(AssetReferenceUtilities && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19553 };
+// Ctor Parameters [CppParam { name: "", ty: "AssetReferenceUtilities", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+AssetReferenceUtilities(AssetReferenceUtilities const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{19557};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::AddressableAssets::Utility::AssetReferenceUtilities, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine::AddressableAssets::Utility
+} // namespace end def UnityEngine::AddressableAssets::Utility
 NEED_NO_BOX(::UnityEngine::AddressableAssets::Utility::AssetReferenceUtilities);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AddressableAssets::Utility::AssetReferenceUtilities*, "UnityEngine.AddressableAssets.Utility", "AssetReferenceUtilities");

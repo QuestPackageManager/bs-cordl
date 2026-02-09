@@ -21,37 +21,37 @@ namespace GlobalNamespace {
 // CS Name: MultiplayerBadgeDataHandMovementSO
 class CORDL_TYPE MultiplayerBadgeDataHandMovementSO : public ::GlobalNamespace::MultiplayerBadgeDataMinMaxFloatSO {
 public:
-  // Declarations
-  /// @brief Method GetValue, addr 0x3635a90, size 0x2c, virtual true, abstract: false, final false
-  inline float_t GetValue(::GlobalNamespace::MultiplayerPlayerResultsData* result);
+// Declarations
+/// @brief Method GetValue, addr 0x3635acc, size 0x2c, virtual true, abstract: false, final false
+inline float_t GetValue(::GlobalNamespace::MultiplayerPlayerResultsData*  result) ;
 
-  static inline ::GlobalNamespace::MultiplayerBadgeDataHandMovementSO* New_ctor();
+static inline ::GlobalNamespace::MultiplayerBadgeDataHandMovementSO* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x3635abc, size 0x10, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x3635af8, size 0x10, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MultiplayerBadgeDataHandMovementSO();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr MultiplayerBadgeDataHandMovementSO() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerBadgeDataHandMovementSO", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  MultiplayerBadgeDataHandMovementSO(MultiplayerBadgeDataHandMovementSO&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerBadgeDataHandMovementSO", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerBadgeDataHandMovementSO(MultiplayerBadgeDataHandMovementSO const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "MultiplayerBadgeDataHandMovementSO", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+MultiplayerBadgeDataHandMovementSO(MultiplayerBadgeDataHandMovementSO && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15056 };
+// Ctor Parameters [CppParam { name: "", ty: "MultiplayerBadgeDataHandMovementSO", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+MultiplayerBadgeDataHandMovementSO(MultiplayerBadgeDataHandMovementSO const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{15060};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerBadgeDataHandMovementSO, 0x38>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MultiplayerBadgeDataHandMovementSO);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerBadgeDataHandMovementSO*, "", "MultiplayerBadgeDataHandMovementSO");

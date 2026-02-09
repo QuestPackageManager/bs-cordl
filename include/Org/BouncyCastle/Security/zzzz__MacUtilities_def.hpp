@@ -31,59 +31,59 @@ namespace Org::BouncyCastle::Security {
 // CS Name: Org.BouncyCastle.Security.MacUtilities
 class CORDL_TYPE MacUtilities : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field algorithms, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_algorithms, put = setStaticF_algorithms)) ::System::Collections::IDictionary* algorithms;
+// Declarations
+/// @brief Field algorithms, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_algorithms, put=setStaticF_algorithms)) ::System::Collections::IDictionary*  algorithms;
 
-  /// @brief Method CalculateMac, addr 0x3506c8c, size 0x160, virtual false, abstract: false, final false
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> CalculateMac(::StringW algorithm, ::Org::BouncyCastle::Crypto::ICipherParameters* cp, ::ArrayW<uint8_t, ::Array<uint8_t>*> input);
+/// @brief Method CalculateMac, addr 0x3506bdc, size 0x160, virtual false, abstract: false, final false
+static inline ::ArrayW<uint8_t,::Array<uint8_t>*> CalculateMac(::StringW  algorithm, ::Org::BouncyCastle::Crypto::ICipherParameters*  cp, ::ArrayW<uint8_t,::Array<uint8_t>*>  input) ;
 
-  /// @brief Method DoFinal, addr 0x3506dec, size 0x13c, virtual false, abstract: false, final false
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> DoFinal(::Org::BouncyCastle::Crypto::IMac* mac);
+/// @brief Method DoFinal, addr 0x3506d3c, size 0x13c, virtual false, abstract: false, final false
+static inline ::ArrayW<uint8_t,::Array<uint8_t>*> DoFinal(::Org::BouncyCastle::Crypto::IMac*  mac) ;
 
-  /// @brief Method DoFinal, addr 0x3506f28, size 0xf4, virtual false, abstract: false, final false
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> DoFinal(::Org::BouncyCastle::Crypto::IMac* mac, ::ArrayW<uint8_t, ::Array<uint8_t>*> input);
+/// @brief Method DoFinal, addr 0x3506e78, size 0xf4, virtual false, abstract: false, final false
+static inline ::ArrayW<uint8_t,::Array<uint8_t>*> DoFinal(::Org::BouncyCastle::Crypto::IMac*  mac, ::ArrayW<uint8_t,::Array<uint8_t>*>  input) ;
 
-  /// @brief Method GetAlgorithmName, addr 0x3506b8c, size 0x100, virtual false, abstract: false, final false
-  static inline ::StringW GetAlgorithmName(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
+/// @brief Method GetAlgorithmName, addr 0x3506adc, size 0x100, virtual false, abstract: false, final false
+static inline ::StringW GetAlgorithmName(::Org::BouncyCastle::Asn1::DerObjectIdentifier*  oid) ;
 
-  /// @brief Method GetMac, addr 0x3506050, size 0xb3c, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Crypto::IMac* GetMac(::StringW algorithm);
+/// @brief Method GetMac, addr 0x3505fa0, size 0xb3c, virtual false, abstract: false, final false
+static inline ::Org::BouncyCastle::Crypto::IMac* GetMac(::StringW  algorithm) ;
 
-  /// @brief Method GetMac, addr 0x3505fec, size 0x64, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Crypto::IMac* GetMac(::Org::BouncyCastle::Asn1::DerObjectIdentifier* id);
+/// @brief Method GetMac, addr 0x3505f3c, size 0x64, virtual false, abstract: false, final false
+static inline ::Org::BouncyCastle::Crypto::IMac* GetMac(::Org::BouncyCastle::Asn1::DerObjectIdentifier*  id) ;
 
-  static inline ::Org::BouncyCastle::Security::MacUtilities* New_ctor();
+static inline ::Org::BouncyCastle::Security::MacUtilities* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x35042c8, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x3504218, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  static inline ::System::Collections::IDictionary* getStaticF_algorithms();
+static inline ::System::Collections::IDictionary* getStaticF_algorithms() ;
 
-  static inline void setStaticF_algorithms(::System::Collections::IDictionary* value);
+static inline void setStaticF_algorithms(::System::Collections::IDictionary*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MacUtilities();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr MacUtilities() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MacUtilities", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  MacUtilities(MacUtilities&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MacUtilities", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  MacUtilities(MacUtilities const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "MacUtilities", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+MacUtilities(MacUtilities && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1751 };
+// Ctor Parameters [CppParam { name: "", ty: "MacUtilities", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+MacUtilities(MacUtilities const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{1751};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Security::MacUtilities, 0x10>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Security
+} // namespace end def Org::BouncyCastle::Security
 NEED_NO_BOX(::Org::BouncyCastle::Security::MacUtilities);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Security::MacUtilities*, "Org.BouncyCastle.Security", "MacUtilities");

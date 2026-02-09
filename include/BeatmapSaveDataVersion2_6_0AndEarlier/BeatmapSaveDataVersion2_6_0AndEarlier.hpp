@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "BeatmapSaveDataVersion2_6_0AndEarlier/BeatmapObjectType.hpp"
 #include "BeatmapSaveDataVersion2_6_0AndEarlier/BeatmapSaveData.hpp"
@@ -18,5 +18,6 @@ module;
 #include "BeatmapSaveDataVersion2_6_0AndEarlier/SpecialEventsForKeyword.hpp"
 #include "BeatmapSaveDataVersion2_6_0AndEarlier/WaypointData.hpp"
 #ifdef __cpp_modules
-export module BeatmapSaveDataVersion2_6_0AndEarlier;
-#endif
+                    export module BeatmapSaveDataVersion2_6_0AndEarlier;
+                    #endif
+                

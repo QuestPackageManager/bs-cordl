@@ -19,49 +19,45 @@ namespace UnityEngine {
 // CS Name: UnityEngine.ArticulationDrive
 struct CORDL_TYPE ArticulationDrive {
 public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ArticulationDrive();
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr ArticulationDrive() ;
 
-  // Ctor Parameters [CppParam { name: "lowerLimit", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "upperLimit", ty: "float_t", modifiers: "", def_value: None }, CppParam { name:
-  // "stiffness", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "damping", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "forceLimit", ty: "float_t", modifiers:
-  // "", def_value: None }, CppParam { name: "target", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "targetVelocity", ty: "float_t", modifiers: "", def_value: None }, CppParam {
-  // name: "driveType", ty: "::UnityEngine::ArticulationDriveType", modifiers: "", def_value: None }]
-  constexpr ArticulationDrive(float_t lowerLimit, float_t upperLimit, float_t stiffness, float_t damping, float_t forceLimit, float_t target, float_t targetVelocity,
-                              ::UnityEngine::ArticulationDriveType driveType) noexcept;
+// Ctor Parameters [CppParam { name: "lowerLimit", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "upperLimit", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "stiffness", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "damping", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "forceLimit", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "target", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "targetVelocity", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "driveType", ty: "::UnityEngine::ArticulationDriveType", modifiers: "", def_value: None }]
+constexpr ArticulationDrive(float_t  lowerLimit, float_t  upperLimit, float_t  stiffness, float_t  damping, float_t  forceLimit, float_t  target, float_t  targetVelocity, ::UnityEngine::ArticulationDriveType  driveType) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18591 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{18595};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x20};
 
-  /// @brief Field lowerLimit, offset: 0x0, size: 0x4, def value: None
-  float_t lowerLimit;
+/// @brief Field lowerLimit, offset: 0x0, size: 0x4, def value: None
+ float_t  lowerLimit;
 
-  /// @brief Field upperLimit, offset: 0x4, size: 0x4, def value: None
-  float_t upperLimit;
+/// @brief Field upperLimit, offset: 0x4, size: 0x4, def value: None
+ float_t  upperLimit;
 
-  /// @brief Field stiffness, offset: 0x8, size: 0x4, def value: None
-  float_t stiffness;
+/// @brief Field stiffness, offset: 0x8, size: 0x4, def value: None
+ float_t  stiffness;
 
-  /// @brief Field damping, offset: 0xc, size: 0x4, def value: None
-  float_t damping;
+/// @brief Field damping, offset: 0xc, size: 0x4, def value: None
+ float_t  damping;
 
-  /// @brief Field forceLimit, offset: 0x10, size: 0x4, def value: None
-  float_t forceLimit;
+/// @brief Field forceLimit, offset: 0x10, size: 0x4, def value: None
+ float_t  forceLimit;
 
-  /// @brief Field target, offset: 0x14, size: 0x4, def value: None
-  float_t target;
+/// @brief Field target, offset: 0x14, size: 0x4, def value: None
+ float_t  target;
 
-  /// @brief Field targetVelocity, offset: 0x18, size: 0x4, def value: None
-  float_t targetVelocity;
+/// @brief Field targetVelocity, offset: 0x18, size: 0x4, def value: None
+ float_t  targetVelocity;
 
-  /// @brief Field driveType, offset: 0x1c, size: 0x4, def value: None
-  ::UnityEngine::ArticulationDriveType driveType;
+/// @brief Field driveType, offset: 0x1c, size: 0x4, def value: None
+ ::UnityEngine::ArticulationDriveType  driveType;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::ArticulationDrive, lowerLimit) == 0x0, "Offset mismatch!");
@@ -82,5 +78,5 @@ static_assert(offsetof(::UnityEngine::ArticulationDrive, driveType) == 0x1c, "Of
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ArticulationDrive, 0x20>, "Size mismatch!");
 
-} // namespace UnityEngine
+} // namespace end def UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ArticulationDrive, "UnityEngine", "ArticulationDrive");

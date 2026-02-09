@@ -4,201 +4,225 @@
 #include "System/ComponentModel/zzzz__DesignerCategoryAttribute_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::ComponentModel::DesignerCategoryAttribute._ctor
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::DesignerCategoryAttribute::*)()>(
-    &::System::ComponentModel::DesignerCategoryAttribute::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::DesignerCategoryAttribute::*)()>(&::System::ComponentModel::DesignerCategoryAttribute::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x61fea08;
+  constexpr static std::size_t addrs = 0x61ff0c8;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DesignerCategoryAttribute*>::get(),
-                                                                               ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DesignerCategoryAttribute*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::ComponentModel::DesignerCategoryAttribute._ctor
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::DesignerCategoryAttribute::*)(::StringW)>(
-    &::System::ComponentModel::DesignerCategoryAttribute::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::DesignerCategoryAttribute::*)(::StringW)>(&::System::ComponentModel::DesignerCategoryAttribute::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x61fea20;
+  constexpr static std::size_t addrs = 0x61ff0e0;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DesignerCategoryAttribute*>::get(), ".ctor",
-                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DesignerCategoryAttribute*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::ComponentModel::DesignerCategoryAttribute.get_Category
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::ComponentModel::DesignerCategoryAttribute::*)()>(
-    &::System::ComponentModel::DesignerCategoryAttribute::get_Category)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::ComponentModel::DesignerCategoryAttribute::*)()>(&::System::ComponentModel::DesignerCategoryAttribute::get_Category)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x61fea28;
+  constexpr static std::size_t addrs = 0x61ff0e8;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DesignerCategoryAttribute*>::get(),
-                                                                               "get_Category", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DesignerCategoryAttribute*>::get(),
+                        "get_Category",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::ComponentModel::DesignerCategoryAttribute.Equals
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::DesignerCategoryAttribute::*)(::System::Object*)>(
-    &::System::ComponentModel::DesignerCategoryAttribute::Equals)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::DesignerCategoryAttribute::*)(::System::Object*)>(&::System::ComponentModel::DesignerCategoryAttribute::Equals)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x61fea30;
+  constexpr static std::size_t addrs = 0x61ff0f0;
 
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DesignerCategoryAttribute*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DesignerCategoryAttribute*>::get(), 0));
+  inline static const ::MethodInfo* methodInfo() {
+    
+                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DesignerCategoryAttribute*>::get(),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DesignerCategoryAttribute*>::get(),
+                                  0
+                                ));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::ComponentModel::DesignerCategoryAttribute.GetHashCode
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::ComponentModel::DesignerCategoryAttribute::*)()>(
-    &::System::ComponentModel::DesignerCategoryAttribute::GetHashCode)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::ComponentModel::DesignerCategoryAttribute::*)()>(&::System::ComponentModel::DesignerCategoryAttribute::GetHashCode)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x61feac0;
+  constexpr static std::size_t addrs = 0x61ff180;
 
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DesignerCategoryAttribute*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DesignerCategoryAttribute*>::get(), 2));
+  inline static const ::MethodInfo* methodInfo() {
+    
+                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DesignerCategoryAttribute*>::get(),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DesignerCategoryAttribute*>::get(),
+                                  2
+                                ));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::ComponentModel::DesignerCategoryAttribute.IsDefaultAttribute
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::DesignerCategoryAttribute::*)()>(
-    &::System::ComponentModel::DesignerCategoryAttribute::IsDefaultAttribute)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::DesignerCategoryAttribute::*)()>(&::System::ComponentModel::DesignerCategoryAttribute::IsDefaultAttribute)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x61feadc;
+  constexpr static std::size_t addrs = 0x61ff19c;
 
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DesignerCategoryAttribute*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DesignerCategoryAttribute*>::get(), 6));
+  inline static const ::MethodInfo* methodInfo() {
+    
+                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DesignerCategoryAttribute*>::get(),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DesignerCategoryAttribute*>::get(),
+                                  6
+                                ));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::ComponentModel::DesignerCategoryAttribute.get_TypeId
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::ComponentModel::DesignerCategoryAttribute::*)()>(
-    &::System::ComponentModel::DesignerCategoryAttribute::get_TypeId)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::ComponentModel::DesignerCategoryAttribute::*)()>(&::System::ComponentModel::DesignerCategoryAttribute::get_TypeId)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x61feb58;
+  constexpr static std::size_t addrs = 0x61ff218;
 
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DesignerCategoryAttribute*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DesignerCategoryAttribute*>::get(), 4));
+  inline static const ::MethodInfo* methodInfo() {
+    
+                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DesignerCategoryAttribute*>::get(),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DesignerCategoryAttribute*>::get(),
+                                  4
+                                ));
     return ___internal_method;
   }
 };
-constexpr ::StringW& System::ComponentModel::DesignerCategoryAttribute::__cordl_internal_get__Category_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____Category_k__BackingField;
+constexpr ::StringW& System::ComponentModel::DesignerCategoryAttribute::__cordl_internal_get__Category_k__BackingField()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____Category_k__BackingField;
 }
 constexpr ::StringW const& System::ComponentModel::DesignerCategoryAttribute::__cordl_internal_get__Category_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____Category_k__BackingField;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____Category_k__BackingField;
 }
-constexpr void System::ComponentModel::DesignerCategoryAttribute::__cordl_internal_set__Category_k__BackingField(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Category_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void System::ComponentModel::DesignerCategoryAttribute::__cordl_internal_set__Category_k__BackingField(::StringW  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Category_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void System::ComponentModel::DesignerCategoryAttribute::setStaticF_Component(::System::ComponentModel::DesignerCategoryAttribute* value) {
-  ::cordl_internals::setStaticField<::System::ComponentModel::DesignerCategoryAttribute*, "Component",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DesignerCategoryAttribute*>::get>(
-      std::forward<::System::ComponentModel::DesignerCategoryAttribute*>(value));
+inline void System::ComponentModel::DesignerCategoryAttribute::setStaticF_Component(::System::ComponentModel::DesignerCategoryAttribute*  value)  {
+::cordl_internals::setStaticField<::System::ComponentModel::DesignerCategoryAttribute*, "Component", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DesignerCategoryAttribute*>::get>(std::forward<::System::ComponentModel::DesignerCategoryAttribute*>(value));
 }
-inline ::System::ComponentModel::DesignerCategoryAttribute* System::ComponentModel::DesignerCategoryAttribute::getStaticF_Component() {
-  return ::cordl_internals::getStaticField<::System::ComponentModel::DesignerCategoryAttribute*, "Component",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DesignerCategoryAttribute*>::get>();
+inline ::System::ComponentModel::DesignerCategoryAttribute* System::ComponentModel::DesignerCategoryAttribute::getStaticF_Component()  {
+return ::cordl_internals::getStaticField<::System::ComponentModel::DesignerCategoryAttribute*, "Component", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DesignerCategoryAttribute*>::get>();
 }
-inline void System::ComponentModel::DesignerCategoryAttribute::setStaticF_Default(::System::ComponentModel::DesignerCategoryAttribute* value) {
-  ::cordl_internals::setStaticField<::System::ComponentModel::DesignerCategoryAttribute*, "Default",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DesignerCategoryAttribute*>::get>(
-      std::forward<::System::ComponentModel::DesignerCategoryAttribute*>(value));
+inline void System::ComponentModel::DesignerCategoryAttribute::setStaticF_Default(::System::ComponentModel::DesignerCategoryAttribute*  value)  {
+::cordl_internals::setStaticField<::System::ComponentModel::DesignerCategoryAttribute*, "Default", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DesignerCategoryAttribute*>::get>(std::forward<::System::ComponentModel::DesignerCategoryAttribute*>(value));
 }
-inline ::System::ComponentModel::DesignerCategoryAttribute* System::ComponentModel::DesignerCategoryAttribute::getStaticF_Default() {
-  return ::cordl_internals::getStaticField<::System::ComponentModel::DesignerCategoryAttribute*, "Default",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DesignerCategoryAttribute*>::get>();
+inline ::System::ComponentModel::DesignerCategoryAttribute* System::ComponentModel::DesignerCategoryAttribute::getStaticF_Default()  {
+return ::cordl_internals::getStaticField<::System::ComponentModel::DesignerCategoryAttribute*, "Default", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DesignerCategoryAttribute*>::get>();
 }
-inline void System::ComponentModel::DesignerCategoryAttribute::setStaticF_Form(::System::ComponentModel::DesignerCategoryAttribute* value) {
-  ::cordl_internals::setStaticField<::System::ComponentModel::DesignerCategoryAttribute*, "Form",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DesignerCategoryAttribute*>::get>(
-      std::forward<::System::ComponentModel::DesignerCategoryAttribute*>(value));
+inline void System::ComponentModel::DesignerCategoryAttribute::setStaticF_Form(::System::ComponentModel::DesignerCategoryAttribute*  value)  {
+::cordl_internals::setStaticField<::System::ComponentModel::DesignerCategoryAttribute*, "Form", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DesignerCategoryAttribute*>::get>(std::forward<::System::ComponentModel::DesignerCategoryAttribute*>(value));
 }
-inline ::System::ComponentModel::DesignerCategoryAttribute* System::ComponentModel::DesignerCategoryAttribute::getStaticF_Form() {
-  return ::cordl_internals::getStaticField<::System::ComponentModel::DesignerCategoryAttribute*, "Form",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DesignerCategoryAttribute*>::get>();
+inline ::System::ComponentModel::DesignerCategoryAttribute* System::ComponentModel::DesignerCategoryAttribute::getStaticF_Form()  {
+return ::cordl_internals::getStaticField<::System::ComponentModel::DesignerCategoryAttribute*, "Form", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DesignerCategoryAttribute*>::get>();
 }
-inline void System::ComponentModel::DesignerCategoryAttribute::setStaticF_Generic(::System::ComponentModel::DesignerCategoryAttribute* value) {
-  ::cordl_internals::setStaticField<::System::ComponentModel::DesignerCategoryAttribute*, "Generic",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DesignerCategoryAttribute*>::get>(
-      std::forward<::System::ComponentModel::DesignerCategoryAttribute*>(value));
+inline void System::ComponentModel::DesignerCategoryAttribute::setStaticF_Generic(::System::ComponentModel::DesignerCategoryAttribute*  value)  {
+::cordl_internals::setStaticField<::System::ComponentModel::DesignerCategoryAttribute*, "Generic", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DesignerCategoryAttribute*>::get>(std::forward<::System::ComponentModel::DesignerCategoryAttribute*>(value));
 }
-inline ::System::ComponentModel::DesignerCategoryAttribute* System::ComponentModel::DesignerCategoryAttribute::getStaticF_Generic() {
-  return ::cordl_internals::getStaticField<::System::ComponentModel::DesignerCategoryAttribute*, "Generic",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DesignerCategoryAttribute*>::get>();
+inline ::System::ComponentModel::DesignerCategoryAttribute* System::ComponentModel::DesignerCategoryAttribute::getStaticF_Generic()  {
+return ::cordl_internals::getStaticField<::System::ComponentModel::DesignerCategoryAttribute*, "Generic", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DesignerCategoryAttribute*>::get>();
 }
-inline void System::ComponentModel::DesignerCategoryAttribute::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DesignerCategoryAttribute*>::get(),
-                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void System::ComponentModel::DesignerCategoryAttribute::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DesignerCategoryAttribute*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void System::ComponentModel::DesignerCategoryAttribute::_ctor(::StringW category) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DesignerCategoryAttribute*>::get(), ".ctor",
-                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, category);
+inline void System::ComponentModel::DesignerCategoryAttribute::_ctor(::StringW  category)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DesignerCategoryAttribute*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, category);
 }
-inline ::StringW System::ComponentModel::DesignerCategoryAttribute::get_Category() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DesignerCategoryAttribute*>::get(),
-                                                                             "get_Category", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+inline ::StringW System::ComponentModel::DesignerCategoryAttribute::get_Category()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DesignerCategoryAttribute*>::get(),
+                        "get_Category",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-inline bool System::ComponentModel::DesignerCategoryAttribute::Equals(::System::Object* obj) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DesignerCategoryAttribute*>::get(), 0)));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, obj);
+inline bool System::ComponentModel::DesignerCategoryAttribute::Equals(::System::Object*  obj)  {
+auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DesignerCategoryAttribute*>::get(),
+                            0
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, obj);
 }
-inline int32_t System::ComponentModel::DesignerCategoryAttribute::GetHashCode() {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DesignerCategoryAttribute*>::get(), 2)));
-  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+inline int32_t System::ComponentModel::DesignerCategoryAttribute::GetHashCode()  {
+auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DesignerCategoryAttribute*>::get(),
+                            2
+                        )));
+return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
-inline bool System::ComponentModel::DesignerCategoryAttribute::IsDefaultAttribute() {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DesignerCategoryAttribute*>::get(), 6)));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+inline bool System::ComponentModel::DesignerCategoryAttribute::IsDefaultAttribute()  {
+auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DesignerCategoryAttribute*>::get(),
+                            6
+                        )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline ::System::Object* System::ComponentModel::DesignerCategoryAttribute::get_TypeId() {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DesignerCategoryAttribute*>::get(), 4)));
-  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
+inline ::System::Object* System::ComponentModel::DesignerCategoryAttribute::get_TypeId()  {
+auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DesignerCategoryAttribute*>::get(),
+                            4
+                        )));
+return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
-inline ::System::ComponentModel::DesignerCategoryAttribute* System::ComponentModel::DesignerCategoryAttribute::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::ComponentModel::DesignerCategoryAttribute*>());
+inline ::System::ComponentModel::DesignerCategoryAttribute* System::ComponentModel::DesignerCategoryAttribute::New_ctor()  {
+return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::ComponentModel::DesignerCategoryAttribute*>());
 }
-inline ::System::ComponentModel::DesignerCategoryAttribute* System::ComponentModel::DesignerCategoryAttribute::New_ctor(::StringW category) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::ComponentModel::DesignerCategoryAttribute*>(category));
+inline ::System::ComponentModel::DesignerCategoryAttribute* System::ComponentModel::DesignerCategoryAttribute::New_ctor(::StringW  category)  {
+return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::ComponentModel::DesignerCategoryAttribute*>(category));
 }
 // Ctor Parameters []
-constexpr ::System::ComponentModel::DesignerCategoryAttribute::DesignerCategoryAttribute() {}
+constexpr ::System::ComponentModel::DesignerCategoryAttribute::DesignerCategoryAttribute()   {
+}

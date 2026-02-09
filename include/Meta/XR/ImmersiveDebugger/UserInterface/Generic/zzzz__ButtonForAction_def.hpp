@@ -20,56 +20,56 @@ namespace Meta::XR::ImmersiveDebugger::UserInterface::Generic {
 // CS Name: Meta.XR.ImmersiveDebugger.UserInterface.Generic.ButtonForAction
 class CORDL_TYPE ButtonForAction : public ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ButtonWithLabel {
 public:
-  // Declarations
-  __declspec(property(get = get_Action, put = set_Action)) ::Meta::XR::ImmersiveDebugger::Manager::ActionHook* Action;
+// Declarations
+ __declspec(property(get=get_Action, put=set_Action)) ::Meta::XR::ImmersiveDebugger::Manager::ActionHook*  Action;
 
-  /// @brief Field _hook, offset 0xa0, size 0x8
-  __declspec(property(get = __cordl_internal_get__hook, put = __cordl_internal_set__hook)) ::Meta::XR::ImmersiveDebugger::Manager::ActionHook* _hook;
+/// @brief Field _hook, offset 0xa0, size 0x8 
+ __declspec(property(get=__cordl_internal_get__hook, put=__cordl_internal_set__hook)) ::Meta::XR::ImmersiveDebugger::Manager::ActionHook*  _hook;
 
-  static inline ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ButtonForAction* New_ctor();
+static inline ::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ButtonForAction* New_ctor() ;
 
-  constexpr ::Meta::XR::ImmersiveDebugger::Manager::ActionHook* const& __cordl_internal_get__hook() const;
+constexpr ::Meta::XR::ImmersiveDebugger::Manager::ActionHook* const& __cordl_internal_get__hook() const;
 
-  constexpr ::Meta::XR::ImmersiveDebugger::Manager::ActionHook*& __cordl_internal_get__hook();
+constexpr ::Meta::XR::ImmersiveDebugger::Manager::ActionHook*& __cordl_internal_get__hook() ;
 
-  constexpr void __cordl_internal_set__hook(::Meta::XR::ImmersiveDebugger::Manager::ActionHook* value);
+constexpr void __cordl_internal_set__hook(::Meta::XR::ImmersiveDebugger::Manager::ActionHook*  value) ;
 
-  /// @brief Method .ctor, addr 0x58a8784, size 0xc, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x58a8c90, size 0xc, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_Action, addr 0x58a877c, size 0x8, virtual false, abstract: false, final false
-  inline ::Meta::XR::ImmersiveDebugger::Manager::ActionHook* get_Action();
+/// @brief Method get_Action, addr 0x58a8c88, size 0x8, virtual false, abstract: false, final false
+inline ::Meta::XR::ImmersiveDebugger::Manager::ActionHook* get_Action() ;
 
-  /// @brief Method set_Action, addr 0x58a5324, size 0x1c, virtual false, abstract: false, final false
-  inline void set_Action(::Meta::XR::ImmersiveDebugger::Manager::ActionHook* value);
+/// @brief Method set_Action, addr 0x58a5830, size 0x1c, virtual false, abstract: false, final false
+inline void set_Action(::Meta::XR::ImmersiveDebugger::Manager::ActionHook*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ButtonForAction();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ButtonForAction() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ButtonForAction", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ButtonForAction(ButtonForAction&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ButtonForAction", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ButtonForAction(ButtonForAction const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ButtonForAction", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ButtonForAction(ButtonForAction && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18354 };
+// Ctor Parameters [CppParam { name: "", ty: "ButtonForAction", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ButtonForAction(ButtonForAction const& ) = delete;
 
-  /// @brief Field _hook, offset: 0xa0, size: 0x8, def value: None
-  ::Meta::XR::ImmersiveDebugger::Manager::ActionHook* ____hook;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{18358};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _hook, offset: 0xa0, size: 0x8, def value: None
+ ::Meta::XR::ImmersiveDebugger::Manager::ActionHook*  ____hook;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ButtonForAction, ____hook) == 0xa0, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ButtonForAction, 0xa8>, "Size mismatch!");
 
-} // namespace Meta::XR::ImmersiveDebugger::UserInterface::Generic
+} // namespace end def Meta::XR::ImmersiveDebugger::UserInterface::Generic
 NEED_NO_BOX(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ButtonForAction);
 DEFINE_IL2CPP_ARG_TYPE(::Meta::XR::ImmersiveDebugger::UserInterface::Generic::ButtonForAction*, "Meta.XR.ImmersiveDebugger.UserInterface.Generic", "ButtonForAction");

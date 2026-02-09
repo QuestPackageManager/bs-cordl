@@ -7,7 +7,8 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(InteractableTextMeshPro)
 namespace System::Collections::Generic {
-template <typename T> class List_1;
+template<typename T>
+class List_1;
 }
 namespace TMPro {
 class TextMeshProUGUI;
@@ -27,82 +28,81 @@ namespace HMUI {
 // CS Name: HMUI.InteractableTextMeshPro
 class CORDL_TYPE InteractableTextMeshPro : public ::UnityEngine::EventSystems::UIBehaviour {
 public:
-  // Declarations
-  /// @brief Field _canvasGroupCache, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__canvasGroupCache,
-                      put = __cordl_internal_set__canvasGroupCache)) ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::CanvasGroup>>* _canvasGroupCache;
+// Declarations
+/// @brief Field _canvasGroupCache, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get__canvasGroupCache, put=__cordl_internal_set__canvasGroupCache)) ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::CanvasGroup>>*  _canvasGroupCache;
 
-  /// @brief Field _interactionAlpha, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get__interactionAlpha, put = __cordl_internal_set__interactionAlpha)) float_t _interactionAlpha;
+/// @brief Field _interactionAlpha, offset 0x20, size 0x4 
+ __declspec(property(get=__cordl_internal_get__interactionAlpha, put=__cordl_internal_set__interactionAlpha)) float_t  _interactionAlpha;
 
-  /// @brief Field _noInteractionAlpha, offset 0x24, size 0x4
-  __declspec(property(get = __cordl_internal_get__noInteractionAlpha, put = __cordl_internal_set__noInteractionAlpha)) float_t _noInteractionAlpha;
+/// @brief Field _noInteractionAlpha, offset 0x24, size 0x4 
+ __declspec(property(get=__cordl_internal_get__noInteractionAlpha, put=__cordl_internal_set__noInteractionAlpha)) float_t  _noInteractionAlpha;
 
-  /// @brief Field _text, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__text, put = __cordl_internal_set__text)) ::UnityW<::TMPro::TextMeshProUGUI> _text;
+/// @brief Field _text, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get__text, put=__cordl_internal_set__text)) ::UnityW<::TMPro::TextMeshProUGUI>  _text;
 
-  static inline ::HMUI::InteractableTextMeshPro* New_ctor();
+static inline ::HMUI::InteractableTextMeshPro* New_ctor() ;
 
-  /// @brief Method OnCanvasGroupChanged, addr 0x56c5154, size 0x1e8, virtual true, abstract: false, final false
-  inline void OnCanvasGroupChanged();
+/// @brief Method OnCanvasGroupChanged, addr 0x56c4edc, size 0x1e8, virtual true, abstract: false, final false
+inline void OnCanvasGroupChanged() ;
 
-  constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::CanvasGroup>>* const& __cordl_internal_get__canvasGroupCache() const;
+constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::CanvasGroup>>* const& __cordl_internal_get__canvasGroupCache() const;
 
-  constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::CanvasGroup>>*& __cordl_internal_get__canvasGroupCache();
+constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::CanvasGroup>>*& __cordl_internal_get__canvasGroupCache() ;
 
-  constexpr float_t const& __cordl_internal_get__interactionAlpha() const;
+constexpr float_t const& __cordl_internal_get__interactionAlpha() const;
 
-  constexpr float_t& __cordl_internal_get__interactionAlpha();
+constexpr float_t& __cordl_internal_get__interactionAlpha() ;
 
-  constexpr float_t const& __cordl_internal_get__noInteractionAlpha() const;
+constexpr float_t const& __cordl_internal_get__noInteractionAlpha() const;
 
-  constexpr float_t& __cordl_internal_get__noInteractionAlpha();
+constexpr float_t& __cordl_internal_get__noInteractionAlpha() ;
 
-  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__text() const;
+constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__text() const;
 
-  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__text();
+constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__text() ;
 
-  constexpr void __cordl_internal_set__canvasGroupCache(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::CanvasGroup>>* value);
+constexpr void __cordl_internal_set__canvasGroupCache(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::CanvasGroup>>*  value) ;
 
-  constexpr void __cordl_internal_set__interactionAlpha(float_t value);
+constexpr void __cordl_internal_set__interactionAlpha(float_t  value) ;
 
-  constexpr void __cordl_internal_set__noInteractionAlpha(float_t value);
+constexpr void __cordl_internal_set__noInteractionAlpha(float_t  value) ;
 
-  constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshProUGUI> value);
+constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshProUGUI>  value) ;
 
-  /// @brief Method .ctor, addr 0x56c533c, size 0x84, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x56c50c4, size 0x84, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr InteractableTextMeshPro();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr InteractableTextMeshPro() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InteractableTextMeshPro", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  InteractableTextMeshPro(InteractableTextMeshPro&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InteractableTextMeshPro", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  InteractableTextMeshPro(InteractableTextMeshPro const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "InteractableTextMeshPro", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+InteractableTextMeshPro(InteractableTextMeshPro && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19131 };
+// Ctor Parameters [CppParam { name: "", ty: "InteractableTextMeshPro", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+InteractableTextMeshPro(InteractableTextMeshPro const& ) = delete;
 
-  /// @brief Field _interactionAlpha, offset: 0x20, size: 0x4, def value: None
-  float_t ____interactionAlpha;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{19135};
 
-  /// @brief Field _noInteractionAlpha, offset: 0x24, size: 0x4, def value: None
-  float_t ____noInteractionAlpha;
+/// @brief Field _interactionAlpha, offset: 0x20, size: 0x4, def value: None
+ float_t  ____interactionAlpha;
 
-  /// @brief Field _text, offset: 0x28, size: 0x8, def value: None
-  ::UnityW<::TMPro::TextMeshProUGUI> ____text;
+/// @brief Field _noInteractionAlpha, offset: 0x24, size: 0x4, def value: None
+ float_t  ____noInteractionAlpha;
 
-  /// @brief Field _canvasGroupCache, offset: 0x30, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::CanvasGroup>>* ____canvasGroupCache;
+/// @brief Field _text, offset: 0x28, size: 0x8, def value: None
+ ::UnityW<::TMPro::TextMeshProUGUI>  ____text;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _canvasGroupCache, offset: 0x30, size: 0x8, def value: None
+ ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::CanvasGroup>>*  ____canvasGroupCache;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::HMUI::InteractableTextMeshPro, ____interactionAlpha) == 0x20, "Offset mismatch!");
@@ -115,6 +115,6 @@ static_assert(offsetof(::HMUI::InteractableTextMeshPro, ____canvasGroupCache) ==
 
 static_assert(::cordl_internals::size_check_v<::HMUI::InteractableTextMeshPro, 0x38>, "Size mismatch!");
 
-} // namespace HMUI
+} // namespace end def HMUI
 NEED_NO_BOX(::HMUI::InteractableTextMeshPro);
 DEFINE_IL2CPP_ARG_TYPE(::HMUI::InteractableTextMeshPro*, "HMUI", "InteractableTextMeshPro");

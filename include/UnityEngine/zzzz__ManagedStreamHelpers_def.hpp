@@ -24,41 +24,41 @@ namespace UnityEngine {
 // CS Name: UnityEngine.ManagedStreamHelpers
 class CORDL_TYPE ManagedStreamHelpers : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method ManagedStreamLength, addr 0x6919950, size 0x9c, virtual false, abstract: false, final false
-  static inline void ManagedStreamLength(::System::IO::Stream* stream, ::System::IntPtr returnValueAddress);
+// Declarations
+/// @brief Method ManagedStreamLength, addr 0x691a010, size 0x9c, virtual false, abstract: false, final false
+static inline void ManagedStreamLength(::System::IO::Stream*  stream, ::System::IntPtr  returnValueAddress) ;
 
-  /// @brief Method ManagedStreamRead, addr 0x69197d0, size 0xc4, virtual false, abstract: false, final false
-  static inline void ManagedStreamRead(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::System::IO::Stream* stream, ::System::IntPtr returnValueAddress);
+/// @brief Method ManagedStreamRead, addr 0x6919e90, size 0xc4, virtual false, abstract: false, final false
+static inline void ManagedStreamRead(::ArrayW<uint8_t,::Array<uint8_t>*>  buffer, int32_t  offset, int32_t  count, ::System::IO::Stream*  stream, ::System::IntPtr  returnValueAddress) ;
 
-  /// @brief Method ManagedStreamSeek, addr 0x6919894, size 0xbc, virtual false, abstract: false, final false
-  static inline void ManagedStreamSeek(int64_t offset, uint32_t origin, ::System::IO::Stream* stream, ::System::IntPtr returnValueAddress);
+/// @brief Method ManagedStreamSeek, addr 0x6919f54, size 0xbc, virtual false, abstract: false, final false
+static inline void ManagedStreamSeek(int64_t  offset, uint32_t  origin, ::System::IO::Stream*  stream, ::System::IntPtr  returnValueAddress) ;
 
-  /// @brief Method ValidateLoadFromStream, addr 0x69196cc, size 0x104, virtual false, abstract: false, final false
-  static inline void ValidateLoadFromStream(::System::IO::Stream* stream);
+/// @brief Method ValidateLoadFromStream, addr 0x6919d8c, size 0x104, virtual false, abstract: false, final false
+static inline void ValidateLoadFromStream(::System::IO::Stream*  stream) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ManagedStreamHelpers();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ManagedStreamHelpers() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ManagedStreamHelpers", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ManagedStreamHelpers(ManagedStreamHelpers&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ManagedStreamHelpers", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ManagedStreamHelpers(ManagedStreamHelpers const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ManagedStreamHelpers", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ManagedStreamHelpers(ManagedStreamHelpers && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10332 };
+// Ctor Parameters [CppParam { name: "", ty: "ManagedStreamHelpers", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ManagedStreamHelpers(ManagedStreamHelpers const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10336};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ManagedStreamHelpers, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine
+} // namespace end def UnityEngine
 NEED_NO_BOX(::UnityEngine::ManagedStreamHelpers);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ManagedStreamHelpers*, "UnityEngine", "ManagedStreamHelpers");

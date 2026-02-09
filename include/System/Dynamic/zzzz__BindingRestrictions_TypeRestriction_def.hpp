@@ -27,63 +27,63 @@ namespace GlobalNamespace {
 // CS Name: System.Dynamic.BindingRestrictions/TypeRestriction
 class CORDL_TYPE BindingRestrictions_TypeRestriction : public ::System::Dynamic::BindingRestrictions {
 public:
-  // Declarations
-  /// @brief Field _expression, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__expression, put = __cordl_internal_set__expression)) ::System::Linq::Expressions::Expression* _expression;
+// Declarations
+/// @brief Field _expression, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get__expression, put=__cordl_internal_set__expression)) ::System::Linq::Expressions::Expression*  _expression;
 
-  /// @brief Field _type, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__type, put = __cordl_internal_set__type)) ::System::Type* _type;
+/// @brief Field _type, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get__type, put=__cordl_internal_set__type)) ::System::Type*  _type;
 
-  /// @brief Method Equals, addr 0x5e0da04, size 0xd0, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* obj);
+/// @brief Method Equals, addr 0x5e0e0c4, size 0xd0, virtual true, abstract: false, final false
+inline bool Equals(::System::Object*  obj) ;
 
-  /// @brief Method GetExpression, addr 0x5e0db28, size 0x64, virtual true, abstract: false, final false
-  inline ::System::Linq::Expressions::Expression* GetExpression();
+/// @brief Method GetExpression, addr 0x5e0e1e8, size 0x64, virtual true, abstract: false, final false
+inline ::System::Linq::Expressions::Expression* GetExpression() ;
 
-  /// @brief Method GetHashCode, addr 0x5e0dad4, size 0x54, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
+/// @brief Method GetHashCode, addr 0x5e0e194, size 0x54, virtual true, abstract: false, final false
+inline int32_t GetHashCode() ;
 
-  static inline ::GlobalNamespace::BindingRestrictions_TypeRestriction* New_ctor(::System::Linq::Expressions::Expression* parameter, ::System::Type* type);
+static inline ::GlobalNamespace::BindingRestrictions_TypeRestriction* New_ctor(::System::Linq::Expressions::Expression*  parameter, ::System::Type*  type) ;
 
-  constexpr ::System::Linq::Expressions::Expression* const& __cordl_internal_get__expression() const;
+constexpr ::System::Linq::Expressions::Expression* const& __cordl_internal_get__expression() const;
 
-  constexpr ::System::Linq::Expressions::Expression*& __cordl_internal_get__expression();
+constexpr ::System::Linq::Expressions::Expression*& __cordl_internal_get__expression() ;
 
-  constexpr ::System::Type* const& __cordl_internal_get__type() const;
+constexpr ::System::Type* const& __cordl_internal_get__type() const;
 
-  constexpr ::System::Type*& __cordl_internal_get__type();
+constexpr ::System::Type*& __cordl_internal_get__type() ;
 
-  constexpr void __cordl_internal_set__expression(::System::Linq::Expressions::Expression* value);
+constexpr void __cordl_internal_set__expression(::System::Linq::Expressions::Expression*  value) ;
 
-  constexpr void __cordl_internal_set__type(::System::Type* value);
+constexpr void __cordl_internal_set__type(::System::Type*  value) ;
 
-  /// @brief Method .ctor, addr 0x5e0d054, size 0x68, virtual false, abstract: false, final false
-  inline void _ctor(::System::Linq::Expressions::Expression* parameter, ::System::Type* type);
+/// @brief Method .ctor, addr 0x5e0d714, size 0x68, virtual false, abstract: false, final false
+inline void _ctor(::System::Linq::Expressions::Expression*  parameter, ::System::Type*  type) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BindingRestrictions_TypeRestriction();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr BindingRestrictions_TypeRestriction() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BindingRestrictions_TypeRestriction", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  BindingRestrictions_TypeRestriction(BindingRestrictions_TypeRestriction&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BindingRestrictions_TypeRestriction", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  BindingRestrictions_TypeRestriction(BindingRestrictions_TypeRestriction const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "BindingRestrictions_TypeRestriction", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+BindingRestrictions_TypeRestriction(BindingRestrictions_TypeRestriction && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16611 };
+// Ctor Parameters [CppParam { name: "", ty: "BindingRestrictions_TypeRestriction", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+BindingRestrictions_TypeRestriction(BindingRestrictions_TypeRestriction const& ) = delete;
 
-  /// @brief Field _expression, offset: 0x10, size: 0x8, def value: None
-  ::System::Linq::Expressions::Expression* ____expression;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{16615};
 
-  /// @brief Field _type, offset: 0x18, size: 0x8, def value: None
-  ::System::Type* ____type;
+/// @brief Field _expression, offset: 0x10, size: 0x8, def value: None
+ ::System::Linq::Expressions::Expression*  ____expression;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _type, offset: 0x18, size: 0x8, def value: None
+ ::System::Type*  ____type;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::BindingRestrictions_TypeRestriction, ____expression) == 0x10, "Offset mismatch!");
@@ -92,6 +92,6 @@ static_assert(offsetof(::GlobalNamespace::BindingRestrictions_TypeRestriction, _
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BindingRestrictions_TypeRestriction, 0x20>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BindingRestrictions_TypeRestriction);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BindingRestrictions_TypeRestriction*, "System.Dynamic", "BindingRestrictions/TypeRestriction");

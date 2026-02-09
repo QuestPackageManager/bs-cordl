@@ -29,53 +29,51 @@ namespace BeatmapDataLoaderVersion4 {
 // CS Name: BeatmapDataLoaderVersion4.BombNoteItemConverter
 class CORDL_TYPE BombNoteItemConverter : public ::GlobalNamespace::BeatToTimeConverter {
 public:
-  // Declarations
-  /// @brief Field _bombNotes, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__bombNotes, put = __cordl_internal_set__bombNotes)) ::ArrayW<::BeatmapSaveDataVersion4::BombNote, ::Array<::BeatmapSaveDataVersion4::BombNote>*>
-      _bombNotes;
+// Declarations
+/// @brief Field _bombNotes, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get__bombNotes, put=__cordl_internal_set__bombNotes)) ::ArrayW<::BeatmapSaveDataVersion4::BombNote,::Array<::BeatmapSaveDataVersion4::BombNote>*>  _bombNotes;
 
-  /// @brief Method Convert, addr 0x3664de8, size 0x7c, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::BeatmapObjectData* Convert(::BeatmapSaveDataVersion4::BeatmapBeatIndex* index);
+/// @brief Method Convert, addr 0x3664e50, size 0x7c, virtual false, abstract: false, final false
+inline ::GlobalNamespace::BeatmapObjectData* Convert(::BeatmapSaveDataVersion4::BeatmapBeatIndex*  index) ;
 
-  static inline ::BeatmapDataLoaderVersion4::BombNoteItemConverter* New_ctor(::ArrayW<::BeatmapSaveDataVersion4::BombNote, ::Array<::BeatmapSaveDataVersion4::BombNote>*> bombNotes,
-                                                                             ::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor);
+static inline ::BeatmapDataLoaderVersion4::BombNoteItemConverter* New_ctor(::ArrayW<::BeatmapSaveDataVersion4::BombNote,::Array<::BeatmapSaveDataVersion4::BombNote>*>  bombNotes, ::GlobalNamespace::BpmTimeProcessor*  bpmTimeProcessor) ;
 
-  constexpr ::ArrayW<::BeatmapSaveDataVersion4::BombNote, ::Array<::BeatmapSaveDataVersion4::BombNote>*> const& __cordl_internal_get__bombNotes() const;
+constexpr ::ArrayW<::BeatmapSaveDataVersion4::BombNote,::Array<::BeatmapSaveDataVersion4::BombNote>*> const& __cordl_internal_get__bombNotes() const;
 
-  constexpr ::ArrayW<::BeatmapSaveDataVersion4::BombNote, ::Array<::BeatmapSaveDataVersion4::BombNote>*>& __cordl_internal_get__bombNotes();
+constexpr ::ArrayW<::BeatmapSaveDataVersion4::BombNote,::Array<::BeatmapSaveDataVersion4::BombNote>*>& __cordl_internal_get__bombNotes() ;
 
-  constexpr void __cordl_internal_set__bombNotes(::ArrayW<::BeatmapSaveDataVersion4::BombNote, ::Array<::BeatmapSaveDataVersion4::BombNote>*> value);
+constexpr void __cordl_internal_set__bombNotes(::ArrayW<::BeatmapSaveDataVersion4::BombNote,::Array<::BeatmapSaveDataVersion4::BombNote>*>  value) ;
 
-  /// @brief Method .ctor, addr 0x3664cd8, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::ArrayW<::BeatmapSaveDataVersion4::BombNote, ::Array<::BeatmapSaveDataVersion4::BombNote>*> bombNotes, ::GlobalNamespace::BpmTimeProcessor* bpmTimeProcessor);
+/// @brief Method .ctor, addr 0x3664d40, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(::ArrayW<::BeatmapSaveDataVersion4::BombNote,::Array<::BeatmapSaveDataVersion4::BombNote>*>  bombNotes, ::GlobalNamespace::BpmTimeProcessor*  bpmTimeProcessor) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BombNoteItemConverter();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr BombNoteItemConverter() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BombNoteItemConverter", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  BombNoteItemConverter(BombNoteItemConverter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BombNoteItemConverter", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  BombNoteItemConverter(BombNoteItemConverter const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "BombNoteItemConverter", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+BombNoteItemConverter(BombNoteItemConverter && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15399 };
+// Ctor Parameters [CppParam { name: "", ty: "BombNoteItemConverter", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+BombNoteItemConverter(BombNoteItemConverter const& ) = delete;
 
-  /// @brief Field _bombNotes, offset: 0x18, size: 0x8, def value: None
-  ::ArrayW<::BeatmapSaveDataVersion4::BombNote, ::Array<::BeatmapSaveDataVersion4::BombNote>*> ____bombNotes;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{15403};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _bombNotes, offset: 0x18, size: 0x8, def value: None
+ ::ArrayW<::BeatmapSaveDataVersion4::BombNote,::Array<::BeatmapSaveDataVersion4::BombNote>*>  ____bombNotes;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::BeatmapDataLoaderVersion4::BombNoteItemConverter, ____bombNotes) == 0x18, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::BeatmapDataLoaderVersion4::BombNoteItemConverter, 0x20>, "Size mismatch!");
 
-} // namespace BeatmapDataLoaderVersion4
+} // namespace end def BeatmapDataLoaderVersion4
 NEED_NO_BOX(::BeatmapDataLoaderVersion4::BombNoteItemConverter);
 DEFINE_IL2CPP_ARG_TYPE(::BeatmapDataLoaderVersion4::BombNoteItemConverter*, "BeatmapDataLoaderVersion4", "BombNoteItemConverter");

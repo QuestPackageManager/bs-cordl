@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "UnityEngine/InputSystem/UI/BaseInputOverride.hpp"
 #include "UnityEngine/InputSystem/UI/ExtendedAxisEventData.hpp"
@@ -15,5 +15,6 @@ module;
 #include "UnityEngine/InputSystem/UI/UIPointerType.hpp"
 #include "UnityEngine/InputSystem/UI/VirtualMouseInput.hpp"
 #ifdef __cpp_modules
-export module UI;
-#endif
+                    export module UI;
+                    #endif
+                

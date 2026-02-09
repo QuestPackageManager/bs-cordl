@@ -45,199 +45,199 @@ namespace System::Net {
 // CS Name: System.Net.FtpDataStream
 class CORDL_TYPE FtpDataStream : public ::System::IO::Stream {
 public:
-  // Declarations
-  __declspec(property(get = get_CanRead)) bool CanRead;
+// Declarations
+ __declspec(property(get=get_CanRead)) bool  CanRead;
 
-  __declspec(property(get = get_CanSeek)) bool CanSeek;
+ __declspec(property(get=get_CanSeek)) bool  CanSeek;
 
-  __declspec(property(get = get_CanTimeout)) bool CanTimeout;
+ __declspec(property(get=get_CanTimeout)) bool  CanTimeout;
 
-  __declspec(property(get = get_CanWrite)) bool CanWrite;
+ __declspec(property(get=get_CanWrite)) bool  CanWrite;
 
-  __declspec(property(get = get_Length)) int64_t Length;
+ __declspec(property(get=get_Length)) int64_t  Length;
 
-  __declspec(property(get = get_Position, put = set_Position)) int64_t Position;
+ __declspec(property(get=get_Position, put=set_Position)) int64_t  Position;
 
-  __declspec(property(get = get_ReadTimeout, put = set_ReadTimeout)) int32_t ReadTimeout;
+ __declspec(property(get=get_ReadTimeout, put=set_ReadTimeout)) int32_t  ReadTimeout;
 
-  __declspec(property(get = get_WriteTimeout, put = set_WriteTimeout)) int32_t WriteTimeout;
+ __declspec(property(get=get_WriteTimeout, put=set_WriteTimeout)) int32_t  WriteTimeout;
 
-  /// @brief Field _closing, offset 0x3b, size 0x1
-  __declspec(property(get = __cordl_internal_get__closing, put = __cordl_internal_set__closing)) bool _closing;
+/// @brief Field _closing, offset 0x3b, size 0x1 
+ __declspec(property(get=__cordl_internal_get__closing, put=__cordl_internal_set__closing)) bool  _closing;
 
-  /// @brief Field _isFullyRead, offset 0x3a, size 0x1
-  __declspec(property(get = __cordl_internal_get__isFullyRead, put = __cordl_internal_set__isFullyRead)) bool _isFullyRead;
+/// @brief Field _isFullyRead, offset 0x3a, size 0x1 
+ __declspec(property(get=__cordl_internal_get__isFullyRead, put=__cordl_internal_set__isFullyRead)) bool  _isFullyRead;
 
-  /// @brief Field _networkStream, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__networkStream, put = __cordl_internal_set__networkStream)) ::System::Net::Sockets::NetworkStream* _networkStream;
+/// @brief Field _networkStream, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get__networkStream, put=__cordl_internal_set__networkStream)) ::System::Net::Sockets::NetworkStream*  _networkStream;
 
-  /// @brief Field _readable, offset 0x39, size 0x1
-  __declspec(property(get = __cordl_internal_get__readable, put = __cordl_internal_set__readable)) bool _readable;
+/// @brief Field _readable, offset 0x39, size 0x1 
+ __declspec(property(get=__cordl_internal_get__readable, put=__cordl_internal_set__readable)) bool  _readable;
 
-  /// @brief Field _request, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__request, put = __cordl_internal_set__request)) ::System::Net::FtpWebRequest* _request;
+/// @brief Field _request, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get__request, put=__cordl_internal_set__request)) ::System::Net::FtpWebRequest*  _request;
 
-  /// @brief Field _writeable, offset 0x38, size 0x1
-  __declspec(property(get = __cordl_internal_get__writeable, put = __cordl_internal_set__writeable)) bool _writeable;
+/// @brief Field _writeable, offset 0x38, size 0x1 
+ __declspec(property(get=__cordl_internal_get__writeable, put=__cordl_internal_set__writeable)) bool  _writeable;
 
-  /// @brief Convert operator to "::System::Net::ICloseEx"
-  constexpr operator ::System::Net::ICloseEx*() noexcept;
+/// @brief Convert operator to "::System::Net::ICloseEx"
+constexpr operator  ::System::Net::ICloseEx*() noexcept;
 
-  /// @brief Method AsyncReadCallback, addr 0x624d678, size 0x2bc, virtual false, abstract: false, final false
-  inline void AsyncReadCallback(::System::IAsyncResult* ar);
+/// @brief Method AsyncReadCallback, addr 0x624dd38, size 0x2bc, virtual false, abstract: false, final false
+inline void AsyncReadCallback(::System::IAsyncResult*  ar) ;
 
-  /// @brief Method BeginRead, addr 0x624d970, size 0x19c, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginRead(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size, ::System::AsyncCallback* callback, ::System::Object* state);
+/// @brief Method BeginRead, addr 0x624e030, size 0x19c, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginRead(::ArrayW<uint8_t,::Array<uint8_t>*>  buffer, int32_t  offset, int32_t  size, ::System::AsyncCallback*  callback, ::System::Object*  state) ;
 
-  /// @brief Method BeginWrite, addr 0x624dd18, size 0xf0, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginWrite(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size, ::System::AsyncCallback* callback, ::System::Object* state);
+/// @brief Method BeginWrite, addr 0x624e3d8, size 0xf0, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginWrite(::ArrayW<uint8_t,::Array<uint8_t>*>  buffer, int32_t  offset, int32_t  size, ::System::AsyncCallback*  callback, ::System::Object*  state) ;
 
-  /// @brief Method CheckError, addr 0x624d280, size 0x40, virtual false, abstract: false, final false
-  inline void CheckError();
+/// @brief Method CheckError, addr 0x624d940, size 0x40, virtual false, abstract: false, final false
+inline void CheckError() ;
 
-  /// @brief Method Dispose, addr 0x624cd24, size 0x128, virtual true, abstract: false, final false
-  inline void Dispose(bool disposing);
+/// @brief Method Dispose, addr 0x624d3e4, size 0x128, virtual true, abstract: false, final false
+inline void Dispose(bool  disposing) ;
 
-  /// @brief Method EndRead, addr 0x624db94, size 0x17c, virtual true, abstract: false, final false
-  inline int32_t EndRead(::System::IAsyncResult* ar);
+/// @brief Method EndRead, addr 0x624e254, size 0x17c, virtual true, abstract: false, final false
+inline int32_t EndRead(::System::IAsyncResult*  ar) ;
 
-  /// @brief Method EndWrite, addr 0x624de08, size 0x94, virtual true, abstract: false, final false
-  inline void EndWrite(::System::IAsyncResult* asyncResult);
+/// @brief Method EndWrite, addr 0x624e4c8, size 0x94, virtual true, abstract: false, final false
+inline void EndWrite(::System::IAsyncResult*  asyncResult) ;
 
-  /// @brief Method Flush, addr 0x624de9c, size 0x20, virtual true, abstract: false, final false
-  inline void Flush();
+/// @brief Method Flush, addr 0x624e55c, size 0x20, virtual true, abstract: false, final false
+inline void Flush() ;
 
-  static inline ::System::Net::FtpDataStream* New_ctor(::System::Net::Sockets::NetworkStream* networkStream, ::System::Net::FtpWebRequest* request, ::System::Net::TriState writeOnly);
+static inline ::System::Net::FtpDataStream* New_ctor(::System::Net::Sockets::NetworkStream*  networkStream, ::System::Net::FtpWebRequest*  request, ::System::Net::TriState  writeOnly) ;
 
-  /// @brief Method Read, addr 0x624d4a4, size 0x100, virtual true, abstract: false, final false
-  inline int32_t Read(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size);
+/// @brief Method Read, addr 0x624db64, size 0x100, virtual true, abstract: false, final false
+inline int32_t Read(::ArrayW<uint8_t,::Array<uint8_t>*>  buffer, int32_t  offset, int32_t  size) ;
 
-  /// @brief Method Seek, addr 0x624d3dc, size 0xc8, virtual true, abstract: false, final false
-  inline int64_t Seek(int64_t offset, ::System::IO::SeekOrigin origin);
+/// @brief Method Seek, addr 0x624da9c, size 0xc8, virtual true, abstract: false, final false
+inline int64_t Seek(int64_t  offset, ::System::IO::SeekOrigin  origin) ;
 
-  /// @brief Method SetLength, addr 0x624debc, size 0x20, virtual true, abstract: false, final false
-  inline void SetLength(int64_t value);
+/// @brief Method SetLength, addr 0x624e57c, size 0x20, virtual true, abstract: false, final false
+inline void SetLength(int64_t  value) ;
 
-  /// @brief Method SetSocketTimeoutOption, addr 0x624df78, size 0x50, virtual false, abstract: false, final false
-  inline void SetSocketTimeoutOption(int32_t timeout);
+/// @brief Method SetSocketTimeoutOption, addr 0x624e638, size 0x50, virtual false, abstract: false, final false
+inline void SetSocketTimeoutOption(int32_t  timeout) ;
 
-  /// @brief Method System.Net.ICloseEx.CloseEx, addr 0x624ce4c, size 0x434, virtual true, abstract: false, final true
-  inline void System_Net_ICloseEx_CloseEx(::System::Net::CloseExState closeState);
+/// @brief Method System.Net.ICloseEx.CloseEx, addr 0x624d50c, size 0x434, virtual true, abstract: false, final true
+inline void System_Net_ICloseEx_CloseEx(::System::Net::CloseExState  closeState) ;
 
-  /// @brief Method Write, addr 0x624d5a4, size 0xd4, virtual true, abstract: false, final false
-  inline void Write(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size);
+/// @brief Method Write, addr 0x624dc64, size 0xd4, virtual true, abstract: false, final false
+inline void Write(::ArrayW<uint8_t,::Array<uint8_t>*>  buffer, int32_t  offset, int32_t  size) ;
 
-  constexpr bool const& __cordl_internal_get__closing() const;
+constexpr bool const& __cordl_internal_get__closing() const;
 
-  constexpr bool& __cordl_internal_get__closing();
+constexpr bool& __cordl_internal_get__closing() ;
 
-  constexpr bool const& __cordl_internal_get__isFullyRead() const;
+constexpr bool const& __cordl_internal_get__isFullyRead() const;
 
-  constexpr bool& __cordl_internal_get__isFullyRead();
+constexpr bool& __cordl_internal_get__isFullyRead() ;
 
-  constexpr ::System::Net::Sockets::NetworkStream* const& __cordl_internal_get__networkStream() const;
+constexpr ::System::Net::Sockets::NetworkStream* const& __cordl_internal_get__networkStream() const;
 
-  constexpr ::System::Net::Sockets::NetworkStream*& __cordl_internal_get__networkStream();
+constexpr ::System::Net::Sockets::NetworkStream*& __cordl_internal_get__networkStream() ;
 
-  constexpr bool const& __cordl_internal_get__readable() const;
+constexpr bool const& __cordl_internal_get__readable() const;
 
-  constexpr bool& __cordl_internal_get__readable();
+constexpr bool& __cordl_internal_get__readable() ;
 
-  constexpr ::System::Net::FtpWebRequest* const& __cordl_internal_get__request() const;
+constexpr ::System::Net::FtpWebRequest* const& __cordl_internal_get__request() const;
 
-  constexpr ::System::Net::FtpWebRequest*& __cordl_internal_get__request();
+constexpr ::System::Net::FtpWebRequest*& __cordl_internal_get__request() ;
 
-  constexpr bool const& __cordl_internal_get__writeable() const;
+constexpr bool const& __cordl_internal_get__writeable() const;
 
-  constexpr bool& __cordl_internal_get__writeable();
+constexpr bool& __cordl_internal_get__writeable() ;
 
-  constexpr void __cordl_internal_set__closing(bool value);
+constexpr void __cordl_internal_set__closing(bool  value) ;
 
-  constexpr void __cordl_internal_set__isFullyRead(bool value);
+constexpr void __cordl_internal_set__isFullyRead(bool  value) ;
 
-  constexpr void __cordl_internal_set__networkStream(::System::Net::Sockets::NetworkStream* value);
+constexpr void __cordl_internal_set__networkStream(::System::Net::Sockets::NetworkStream*  value) ;
 
-  constexpr void __cordl_internal_set__readable(bool value);
+constexpr void __cordl_internal_set__readable(bool  value) ;
 
-  constexpr void __cordl_internal_set__request(::System::Net::FtpWebRequest* value);
+constexpr void __cordl_internal_set__request(::System::Net::FtpWebRequest*  value) ;
 
-  constexpr void __cordl_internal_set__writeable(bool value);
+constexpr void __cordl_internal_set__writeable(bool  value) ;
 
-  /// @brief Method .ctor, addr 0x624cc20, size 0x104, virtual false, abstract: false, final false
-  inline void _ctor(::System::Net::Sockets::NetworkStream* networkStream, ::System::Net::FtpWebRequest* request, ::System::Net::TriState writeOnly);
+/// @brief Method .ctor, addr 0x624d2e0, size 0x104, virtual false, abstract: false, final false
+inline void _ctor(::System::Net::Sockets::NetworkStream*  networkStream, ::System::Net::FtpWebRequest*  request, ::System::Net::TriState  writeOnly) ;
 
-  /// @brief Method get_CanRead, addr 0x624d354, size 0x8, virtual true, abstract: false, final false
-  inline bool get_CanRead();
+/// @brief Method get_CanRead, addr 0x624da14, size 0x8, virtual true, abstract: false, final false
+inline bool get_CanRead() ;
 
-  /// @brief Method get_CanSeek, addr 0x624d35c, size 0x1c, virtual true, abstract: false, final false
-  inline bool get_CanSeek();
+/// @brief Method get_CanSeek, addr 0x624da1c, size 0x1c, virtual true, abstract: false, final false
+inline bool get_CanSeek() ;
 
-  /// @brief Method get_CanTimeout, addr 0x624dedc, size 0x1c, virtual true, abstract: false, final false
-  inline bool get_CanTimeout();
+/// @brief Method get_CanTimeout, addr 0x624e59c, size 0x1c, virtual true, abstract: false, final false
+inline bool get_CanTimeout() ;
 
-  /// @brief Method get_CanWrite, addr 0x624d378, size 0x8, virtual true, abstract: false, final false
-  inline bool get_CanWrite();
+/// @brief Method get_CanWrite, addr 0x624da38, size 0x8, virtual true, abstract: false, final false
+inline bool get_CanWrite() ;
 
-  /// @brief Method get_Length, addr 0x624d380, size 0x1c, virtual true, abstract: false, final false
-  inline int64_t get_Length();
+/// @brief Method get_Length, addr 0x624da40, size 0x1c, virtual true, abstract: false, final false
+inline int64_t get_Length() ;
 
-  /// @brief Method get_Position, addr 0x624d39c, size 0x20, virtual true, abstract: false, final false
-  inline int64_t get_Position();
+/// @brief Method get_Position, addr 0x624da5c, size 0x20, virtual true, abstract: false, final false
+inline int64_t get_Position() ;
 
-  /// @brief Method get_ReadTimeout, addr 0x624def8, size 0x20, virtual true, abstract: false, final false
-  inline int32_t get_ReadTimeout();
+/// @brief Method get_ReadTimeout, addr 0x624e5b8, size 0x20, virtual true, abstract: false, final false
+inline int32_t get_ReadTimeout() ;
 
-  /// @brief Method get_WriteTimeout, addr 0x624df38, size 0x20, virtual true, abstract: false, final false
-  inline int32_t get_WriteTimeout();
+/// @brief Method get_WriteTimeout, addr 0x624e5f8, size 0x20, virtual true, abstract: false, final false
+inline int32_t get_WriteTimeout() ;
 
-  /// @brief Convert to "::System::Net::ICloseEx"
-  constexpr ::System::Net::ICloseEx* i___System__Net__ICloseEx() noexcept;
+/// @brief Convert to "::System::Net::ICloseEx"
+constexpr ::System::Net::ICloseEx* i___System__Net__ICloseEx() noexcept;
 
-  /// @brief Method set_Position, addr 0x624d3bc, size 0x20, virtual true, abstract: false, final false
-  inline void set_Position(int64_t value);
+/// @brief Method set_Position, addr 0x624da7c, size 0x20, virtual true, abstract: false, final false
+inline void set_Position(int64_t  value) ;
 
-  /// @brief Method set_ReadTimeout, addr 0x624df18, size 0x20, virtual true, abstract: false, final false
-  inline void set_ReadTimeout(int32_t value);
+/// @brief Method set_ReadTimeout, addr 0x624e5d8, size 0x20, virtual true, abstract: false, final false
+inline void set_ReadTimeout(int32_t  value) ;
 
-  /// @brief Method set_WriteTimeout, addr 0x624df58, size 0x20, virtual true, abstract: false, final false
-  inline void set_WriteTimeout(int32_t value);
+/// @brief Method set_WriteTimeout, addr 0x624e618, size 0x20, virtual true, abstract: false, final false
+inline void set_WriteTimeout(int32_t  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr FtpDataStream();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr FtpDataStream() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FtpDataStream", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  FtpDataStream(FtpDataStream&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FtpDataStream", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  FtpDataStream(FtpDataStream const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "FtpDataStream", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+FtpDataStream(FtpDataStream && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11442 };
+// Ctor Parameters [CppParam { name: "", ty: "FtpDataStream", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+FtpDataStream(FtpDataStream const& ) = delete;
 
-  /// @brief Field _request, offset: 0x28, size: 0x8, def value: None
-  ::System::Net::FtpWebRequest* ____request;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11446};
 
-  /// @brief Field _networkStream, offset: 0x30, size: 0x8, def value: None
-  ::System::Net::Sockets::NetworkStream* ____networkStream;
+/// @brief Field _request, offset: 0x28, size: 0x8, def value: None
+ ::System::Net::FtpWebRequest*  ____request;
 
-  /// @brief Field _writeable, offset: 0x38, size: 0x1, def value: None
-  bool ____writeable;
+/// @brief Field _networkStream, offset: 0x30, size: 0x8, def value: None
+ ::System::Net::Sockets::NetworkStream*  ____networkStream;
 
-  /// @brief Field _readable, offset: 0x39, size: 0x1, def value: None
-  bool ____readable;
+/// @brief Field _writeable, offset: 0x38, size: 0x1, def value: None
+ bool  ____writeable;
 
-  /// @brief Field _isFullyRead, offset: 0x3a, size: 0x1, def value: None
-  bool ____isFullyRead;
+/// @brief Field _readable, offset: 0x39, size: 0x1, def value: None
+ bool  ____readable;
 
-  /// @brief Field _closing, offset: 0x3b, size: 0x1, def value: None
-  bool ____closing;
+/// @brief Field _isFullyRead, offset: 0x3a, size: 0x1, def value: None
+ bool  ____isFullyRead;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _closing, offset: 0x3b, size: 0x1, def value: None
+ bool  ____closing;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Net::FtpDataStream, ____request) == 0x28, "Offset mismatch!");
@@ -254,6 +254,6 @@ static_assert(offsetof(::System::Net::FtpDataStream, ____closing) == 0x3b, "Offs
 
 static_assert(::cordl_internals::size_check_v<::System::Net::FtpDataStream, 0x40>, "Size mismatch!");
 
-} // namespace System::Net
+} // namespace end def System::Net
 NEED_NO_BOX(::System::Net::FtpDataStream);
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::FtpDataStream*, "System.Net", "FtpDataStream");

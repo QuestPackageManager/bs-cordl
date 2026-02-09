@@ -15,7 +15,8 @@ namespace GlobalNamespace {
 class IBeatmapLevelData;
 }
 namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
+template<typename TResult>
+class Task_1;
 }
 namespace UnityEngine {
 class AudioClip;
@@ -32,43 +33,41 @@ namespace GlobalNamespace {
 // CS Name: AudioClipAsyncLoaderExtensions
 class CORDL_TYPE AudioClipAsyncLoaderExtensions : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method LoadPreview, addr 0x362176c, size 0xac, virtual false, abstract: false, final false
-  static inline ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::AudioClip>>* LoadPreview(::GlobalNamespace::AudioClipAsyncLoader* asyncLoader,
-                                                                                                    ::GlobalNamespace::BeatmapLevel* beatmapLevel);
+// Declarations
+/// @brief Method LoadPreview, addr 0x36216bc, size 0xac, virtual false, abstract: false, final false
+static inline ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::AudioClip>>* LoadPreview(::GlobalNamespace::AudioClipAsyncLoader*  asyncLoader, ::GlobalNamespace::BeatmapLevel*  beatmapLevel) ;
 
-  /// @brief Method LoadSong, addr 0x36218c4, size 0x21c, virtual false, abstract: false, final false
-  static inline ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::AudioClip>>* LoadSong(::GlobalNamespace::AudioClipAsyncLoader* asyncLoader,
-                                                                                                 ::GlobalNamespace::IBeatmapLevelData* beatmapLevelData);
+/// @brief Method LoadSong, addr 0x3621814, size 0x21c, virtual false, abstract: false, final false
+static inline ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::AudioClip>>* LoadSong(::GlobalNamespace::AudioClipAsyncLoader*  asyncLoader, ::GlobalNamespace::IBeatmapLevelData*  beatmapLevelData) ;
 
-  /// @brief Method UnloadPreview, addr 0x3621818, size 0xac, virtual false, abstract: false, final false
-  static inline void UnloadPreview(::GlobalNamespace::AudioClipAsyncLoader* _, ::GlobalNamespace::BeatmapLevel* beatmapLevel);
+/// @brief Method UnloadPreview, addr 0x3621768, size 0xac, virtual false, abstract: false, final false
+static inline void UnloadPreview(::GlobalNamespace::AudioClipAsyncLoader*  _, ::GlobalNamespace::BeatmapLevel*  beatmapLevel) ;
 
-  /// @brief Method UnloadSong, addr 0x362004c, size 0x1d4, virtual false, abstract: false, final false
-  static inline void UnloadSong(::GlobalNamespace::AudioClipAsyncLoader* asyncLoader, ::GlobalNamespace::IBeatmapLevelData* beatmapLevelData);
+/// @brief Method UnloadSong, addr 0x361ff9c, size 0x1d4, virtual false, abstract: false, final false
+static inline void UnloadSong(::GlobalNamespace::AudioClipAsyncLoader*  asyncLoader, ::GlobalNamespace::IBeatmapLevelData*  beatmapLevelData) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AudioClipAsyncLoaderExtensions();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr AudioClipAsyncLoaderExtensions() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AudioClipAsyncLoaderExtensions", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  AudioClipAsyncLoaderExtensions(AudioClipAsyncLoaderExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AudioClipAsyncLoaderExtensions", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  AudioClipAsyncLoaderExtensions(AudioClipAsyncLoaderExtensions const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "AudioClipAsyncLoaderExtensions", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+AudioClipAsyncLoaderExtensions(AudioClipAsyncLoaderExtensions && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14916 };
+// Ctor Parameters [CppParam { name: "", ty: "AudioClipAsyncLoaderExtensions", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+AudioClipAsyncLoaderExtensions(AudioClipAsyncLoaderExtensions const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{14920};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::AudioClipAsyncLoaderExtensions, 0x10>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::AudioClipAsyncLoaderExtensions);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::AudioClipAsyncLoaderExtensions*, "", "AudioClipAsyncLoaderExtensions");

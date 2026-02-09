@@ -21,34 +21,34 @@ namespace UnityEngine::Rendering {
 // CS Name: UnityEngine.Rendering.NoInterpVector4Parameter
 class CORDL_TYPE NoInterpVector4Parameter : public ::UnityEngine::Rendering::VolumeParameter_1<::UnityEngine::Vector4> {
 public:
-  // Declarations
-  static inline ::UnityEngine::Rendering::NoInterpVector4Parameter* New_ctor(::UnityEngine::Vector4 value, bool overrideState);
+// Declarations
+static inline ::UnityEngine::Rendering::NoInterpVector4Parameter* New_ctor(::UnityEngine::Vector4  value, bool  overrideState) ;
 
-  /// @brief Method .ctor, addr 0x6616584, size 0x84, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::Vector4 value, bool overrideState);
+/// @brief Method .ctor, addr 0x6616c44, size 0x84, virtual false, abstract: false, final false
+inline void _ctor(::UnityEngine::Vector4  value, bool  overrideState) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NoInterpVector4Parameter();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr NoInterpVector4Parameter() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NoInterpVector4Parameter", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  NoInterpVector4Parameter(NoInterpVector4Parameter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NoInterpVector4Parameter", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  NoInterpVector4Parameter(NoInterpVector4Parameter const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "NoInterpVector4Parameter", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+NoInterpVector4Parameter(NoInterpVector4Parameter && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12337 };
+// Ctor Parameters [CppParam { name: "", ty: "NoInterpVector4Parameter", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+NoInterpVector4Parameter(NoInterpVector4Parameter const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12341};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::NoInterpVector4Parameter, 0x28>, "Size mismatch!");
 
-} // namespace UnityEngine::Rendering
+} // namespace end def UnityEngine::Rendering
 NEED_NO_BOX(::UnityEngine::Rendering::NoInterpVector4Parameter);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::NoInterpVector4Parameter*, "UnityEngine.Rendering", "NoInterpVector4Parameter");

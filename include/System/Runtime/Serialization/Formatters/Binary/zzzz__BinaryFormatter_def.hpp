@@ -10,7 +10,8 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(BinaryFormatter)
 namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+template<typename TKey,typename TValue>
+class Dictionary_2;
 }
 namespace System::IO {
 class Stream;
@@ -48,175 +49,168 @@ class BinaryFormatter;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::BinaryFormatter);
-// Dependencies System.Object, System.Runtime.Serialization.Formatters.FormatterAssemblyStyle, System.Runtime.Serialization.Formatters.FormatterTypeStyle,
-// System.Runtime.Serialization.Formatters.TypeFilterLevel, System.Runtime.Serialization.StreamingContext
+// Dependencies System.Object, System.Runtime.Serialization.Formatters.FormatterAssemblyStyle, System.Runtime.Serialization.Formatters.FormatterTypeStyle, System.Runtime.Serialization.Formatters.TypeFilterLevel, System.Runtime.Serialization.StreamingContext
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
 // CS Name: System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
 class CORDL_TYPE BinaryFormatter : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(put = set_AssemblyFormat)) ::System::Runtime::Serialization::Formatters::FormatterAssemblyStyle AssemblyFormat;
+// Declarations
+ __declspec(property(put=set_AssemblyFormat)) ::System::Runtime::Serialization::Formatters::FormatterAssemblyStyle  AssemblyFormat;
 
-  __declspec(property(put = set_Binder)) ::System::Runtime::Serialization::SerializationBinder* Binder;
+ __declspec(property(put=set_Binder)) ::System::Runtime::Serialization::SerializationBinder*  Binder;
 
-  __declspec(property(put = set_SurrogateSelector)) ::System::Runtime::Serialization::ISurrogateSelector* SurrogateSelector;
+ __declspec(property(put=set_SurrogateSelector)) ::System::Runtime::Serialization::ISurrogateSelector*  SurrogateSelector;
 
-  /// @brief Field m_assemblyFormat, offset 0x34, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_assemblyFormat, put = __cordl_internal_set_m_assemblyFormat)) ::System::Runtime::Serialization::Formatters::FormatterAssemblyStyle m_assemblyFormat;
+/// @brief Field m_assemblyFormat, offset 0x34, size 0x4 
+ __declspec(property(get=__cordl_internal_get_m_assemblyFormat, put=__cordl_internal_set_m_assemblyFormat)) ::System::Runtime::Serialization::Formatters::FormatterAssemblyStyle  m_assemblyFormat;
 
-  /// @brief Field m_binder, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_binder, put = __cordl_internal_set_m_binder)) ::System::Runtime::Serialization::SerializationBinder* m_binder;
+/// @brief Field m_binder, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_binder, put=__cordl_internal_set_m_binder)) ::System::Runtime::Serialization::SerializationBinder*  m_binder;
 
-  /// @brief Field m_context, offset 0x18, size 0x10
-  __declspec(property(get = __cordl_internal_get_m_context, put = __cordl_internal_set_m_context)) ::System::Runtime::Serialization::StreamingContext m_context;
+/// @brief Field m_context, offset 0x18, size 0x10 
+ __declspec(property(get=__cordl_internal_get_m_context, put=__cordl_internal_set_m_context)) ::System::Runtime::Serialization::StreamingContext  m_context;
 
-  /// @brief Field m_crossAppDomainArray, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_crossAppDomainArray, put = __cordl_internal_set_m_crossAppDomainArray)) ::ArrayW<::System::Object*, ::Array<::System::Object*>*>
-      m_crossAppDomainArray;
+/// @brief Field m_crossAppDomainArray, offset 0x40, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_crossAppDomainArray, put=__cordl_internal_set_m_crossAppDomainArray)) ::ArrayW<::System::Object*,::Array<::System::Object*>*>  m_crossAppDomainArray;
 
-  /// @brief Field m_securityLevel, offset 0x38, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_securityLevel, put = __cordl_internal_set_m_securityLevel)) ::System::Runtime::Serialization::Formatters::TypeFilterLevel m_securityLevel;
+/// @brief Field m_securityLevel, offset 0x38, size 0x4 
+ __declspec(property(get=__cordl_internal_get_m_securityLevel, put=__cordl_internal_set_m_securityLevel)) ::System::Runtime::Serialization::Formatters::TypeFilterLevel  m_securityLevel;
 
-  /// @brief Field m_surrogates, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_surrogates, put = __cordl_internal_set_m_surrogates)) ::System::Runtime::Serialization::ISurrogateSelector* m_surrogates;
+/// @brief Field m_surrogates, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_surrogates, put=__cordl_internal_set_m_surrogates)) ::System::Runtime::Serialization::ISurrogateSelector*  m_surrogates;
 
-  /// @brief Field m_typeFormat, offset 0x30, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_typeFormat, put = __cordl_internal_set_m_typeFormat)) ::System::Runtime::Serialization::Formatters::FormatterTypeStyle m_typeFormat;
+/// @brief Field m_typeFormat, offset 0x30, size 0x4 
+ __declspec(property(get=__cordl_internal_get_m_typeFormat, put=__cordl_internal_set_m_typeFormat)) ::System::Runtime::Serialization::Formatters::FormatterTypeStyle  m_typeFormat;
 
-  /// @brief Field typeNameCache, offset 0xffffffff, size 0x8
-  __declspec(property(
-      get = getStaticF_typeNameCache,
-      put = setStaticF_typeNameCache)) ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Runtime::Serialization::Formatters::Binary::TypeInformation*>* typeNameCache;
+/// @brief Field typeNameCache, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_typeNameCache, put=setStaticF_typeNameCache)) ::System::Collections::Generic::Dictionary_2<::System::Type*,::System::Runtime::Serialization::Formatters::Binary::TypeInformation*>*  typeNameCache;
 
-  /// @brief Method Deserialize, addr 0x59abf78, size 0xc, virtual true, abstract: false, final true
-  inline ::System::Object* Deserialize(::System::IO::Stream* serializationStream);
+/// @brief Method Deserialize, addr 0x59ac484, size 0xc, virtual true, abstract: false, final true
+inline ::System::Object* Deserialize(::System::IO::Stream*  serializationStream) ;
 
-  /// @brief Method Deserialize, addr 0x59abf84, size 0x8, virtual true, abstract: false, final true
-  inline ::System::Object* Deserialize(::System::IO::Stream* serializationStream, ::System::Runtime::Remoting::Messaging::HeaderHandler* handler);
+/// @brief Method Deserialize, addr 0x59ac490, size 0x8, virtual true, abstract: false, final true
+inline ::System::Object* Deserialize(::System::IO::Stream*  serializationStream, ::System::Runtime::Remoting::Messaging::HeaderHandler*  handler) ;
 
-  /// @brief Method Deserialize, addr 0x59abf8c, size 0x22c, virtual false, abstract: false, final false
-  inline ::System::Object* Deserialize(::System::IO::Stream* serializationStream, ::System::Runtime::Remoting::Messaging::HeaderHandler* handler, bool fCheck);
+/// @brief Method Deserialize, addr 0x59ac498, size 0x22c, virtual false, abstract: false, final false
+inline ::System::Object* Deserialize(::System::IO::Stream*  serializationStream, ::System::Runtime::Remoting::Messaging::HeaderHandler*  handler, bool  fCheck) ;
 
-  /// @brief Method GetTypeInformation, addr 0x59ac44c, size 0x264, virtual false, abstract: false, final false
-  static inline ::System::Runtime::Serialization::Formatters::Binary::TypeInformation* GetTypeInformation(::System::Type* type);
+/// @brief Method GetTypeInformation, addr 0x59ac958, size 0x264, virtual false, abstract: false, final false
+static inline ::System::Runtime::Serialization::Formatters::Binary::TypeInformation* GetTypeInformation(::System::Type*  type) ;
 
-  static inline ::System::Runtime::Serialization::Formatters::Binary::BinaryFormatter* New_ctor();
+static inline ::System::Runtime::Serialization::Formatters::Binary::BinaryFormatter* New_ctor() ;
 
-  static inline ::System::Runtime::Serialization::Formatters::Binary::BinaryFormatter* New_ctor(::System::Runtime::Serialization::ISurrogateSelector* selector,
-                                                                                                ::System::Runtime::Serialization::StreamingContext context);
+static inline ::System::Runtime::Serialization::Formatters::Binary::BinaryFormatter* New_ctor(::System::Runtime::Serialization::ISurrogateSelector*  selector, ::System::Runtime::Serialization::StreamingContext  context) ;
 
-  /// @brief Method Serialize, addr 0x59ac1b8, size 0xc, virtual true, abstract: false, final true
-  inline void Serialize(::System::IO::Stream* serializationStream, ::System::Object* graph);
+/// @brief Method Serialize, addr 0x59ac6c4, size 0xc, virtual true, abstract: false, final true
+inline void Serialize(::System::IO::Stream*  serializationStream, ::System::Object*  graph) ;
 
-  /// @brief Method Serialize, addr 0x59ac1c4, size 0x8, virtual true, abstract: false, final true
-  inline void Serialize(::System::IO::Stream* serializationStream, ::System::Object* graph,
-                        ::ArrayW<::System::Runtime::Remoting::Messaging::Header*, ::Array<::System::Runtime::Remoting::Messaging::Header*>*> headers);
+/// @brief Method Serialize, addr 0x59ac6d0, size 0x8, virtual true, abstract: false, final true
+inline void Serialize(::System::IO::Stream*  serializationStream, ::System::Object*  graph, ::ArrayW<::System::Runtime::Remoting::Messaging::Header*,::Array<::System::Runtime::Remoting::Messaging::Header*>*>  headers) ;
 
-  /// @brief Method Serialize, addr 0x59ac1cc, size 0x1d8, virtual false, abstract: false, final false
-  inline void Serialize(::System::IO::Stream* serializationStream, ::System::Object* graph,
-                        ::ArrayW<::System::Runtime::Remoting::Messaging::Header*, ::Array<::System::Runtime::Remoting::Messaging::Header*>*> headers, bool fCheck);
+/// @brief Method Serialize, addr 0x59ac6d8, size 0x1d8, virtual false, abstract: false, final false
+inline void Serialize(::System::IO::Stream*  serializationStream, ::System::Object*  graph, ::ArrayW<::System::Runtime::Remoting::Messaging::Header*,::Array<::System::Runtime::Remoting::Messaging::Header*>*>  headers, bool  fCheck) ;
 
-  constexpr ::System::Runtime::Serialization::Formatters::FormatterAssemblyStyle const& __cordl_internal_get_m_assemblyFormat() const;
+constexpr ::System::Runtime::Serialization::Formatters::FormatterAssemblyStyle const& __cordl_internal_get_m_assemblyFormat() const;
 
-  constexpr ::System::Runtime::Serialization::Formatters::FormatterAssemblyStyle& __cordl_internal_get_m_assemblyFormat();
+constexpr ::System::Runtime::Serialization::Formatters::FormatterAssemblyStyle& __cordl_internal_get_m_assemblyFormat() ;
 
-  constexpr ::System::Runtime::Serialization::SerializationBinder* const& __cordl_internal_get_m_binder() const;
+constexpr ::System::Runtime::Serialization::SerializationBinder* const& __cordl_internal_get_m_binder() const;
 
-  constexpr ::System::Runtime::Serialization::SerializationBinder*& __cordl_internal_get_m_binder();
+constexpr ::System::Runtime::Serialization::SerializationBinder*& __cordl_internal_get_m_binder() ;
 
-  constexpr ::System::Runtime::Serialization::StreamingContext const& __cordl_internal_get_m_context() const;
+constexpr ::System::Runtime::Serialization::StreamingContext const& __cordl_internal_get_m_context() const;
 
-  constexpr ::System::Runtime::Serialization::StreamingContext& __cordl_internal_get_m_context();
+constexpr ::System::Runtime::Serialization::StreamingContext& __cordl_internal_get_m_context() ;
 
-  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*> const& __cordl_internal_get_m_crossAppDomainArray() const;
+constexpr ::ArrayW<::System::Object*,::Array<::System::Object*>*> const& __cordl_internal_get_m_crossAppDomainArray() const;
 
-  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*>& __cordl_internal_get_m_crossAppDomainArray();
+constexpr ::ArrayW<::System::Object*,::Array<::System::Object*>*>& __cordl_internal_get_m_crossAppDomainArray() ;
 
-  constexpr ::System::Runtime::Serialization::Formatters::TypeFilterLevel const& __cordl_internal_get_m_securityLevel() const;
+constexpr ::System::Runtime::Serialization::Formatters::TypeFilterLevel const& __cordl_internal_get_m_securityLevel() const;
 
-  constexpr ::System::Runtime::Serialization::Formatters::TypeFilterLevel& __cordl_internal_get_m_securityLevel();
+constexpr ::System::Runtime::Serialization::Formatters::TypeFilterLevel& __cordl_internal_get_m_securityLevel() ;
 
-  constexpr ::System::Runtime::Serialization::ISurrogateSelector* const& __cordl_internal_get_m_surrogates() const;
+constexpr ::System::Runtime::Serialization::ISurrogateSelector* const& __cordl_internal_get_m_surrogates() const;
 
-  constexpr ::System::Runtime::Serialization::ISurrogateSelector*& __cordl_internal_get_m_surrogates();
+constexpr ::System::Runtime::Serialization::ISurrogateSelector*& __cordl_internal_get_m_surrogates() ;
 
-  constexpr ::System::Runtime::Serialization::Formatters::FormatterTypeStyle const& __cordl_internal_get_m_typeFormat() const;
+constexpr ::System::Runtime::Serialization::Formatters::FormatterTypeStyle const& __cordl_internal_get_m_typeFormat() const;
 
-  constexpr ::System::Runtime::Serialization::Formatters::FormatterTypeStyle& __cordl_internal_get_m_typeFormat();
+constexpr ::System::Runtime::Serialization::Formatters::FormatterTypeStyle& __cordl_internal_get_m_typeFormat() ;
 
-  constexpr void __cordl_internal_set_m_assemblyFormat(::System::Runtime::Serialization::Formatters::FormatterAssemblyStyle value);
+constexpr void __cordl_internal_set_m_assemblyFormat(::System::Runtime::Serialization::Formatters::FormatterAssemblyStyle  value) ;
 
-  constexpr void __cordl_internal_set_m_binder(::System::Runtime::Serialization::SerializationBinder* value);
+constexpr void __cordl_internal_set_m_binder(::System::Runtime::Serialization::SerializationBinder*  value) ;
 
-  constexpr void __cordl_internal_set_m_context(::System::Runtime::Serialization::StreamingContext value);
+constexpr void __cordl_internal_set_m_context(::System::Runtime::Serialization::StreamingContext  value) ;
 
-  constexpr void __cordl_internal_set_m_crossAppDomainArray(::ArrayW<::System::Object*, ::Array<::System::Object*>*> value);
+constexpr void __cordl_internal_set_m_crossAppDomainArray(::ArrayW<::System::Object*,::Array<::System::Object*>*>  value) ;
 
-  constexpr void __cordl_internal_set_m_securityLevel(::System::Runtime::Serialization::Formatters::TypeFilterLevel value);
+constexpr void __cordl_internal_set_m_securityLevel(::System::Runtime::Serialization::Formatters::TypeFilterLevel  value) ;
 
-  constexpr void __cordl_internal_set_m_surrogates(::System::Runtime::Serialization::ISurrogateSelector* value);
+constexpr void __cordl_internal_set_m_surrogates(::System::Runtime::Serialization::ISurrogateSelector*  value) ;
 
-  constexpr void __cordl_internal_set_m_typeFormat(::System::Runtime::Serialization::Formatters::FormatterTypeStyle value);
+constexpr void __cordl_internal_set_m_typeFormat(::System::Runtime::Serialization::Formatters::FormatterTypeStyle  value) ;
 
-  /// @brief Method .ctor, addr 0x59abf34, size 0x28, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x59ac440, size 0x28, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method .ctor, addr 0x59abf5c, size 0x1c, virtual false, abstract: false, final false
-  inline void _ctor(::System::Runtime::Serialization::ISurrogateSelector* selector, ::System::Runtime::Serialization::StreamingContext context);
+/// @brief Method .ctor, addr 0x59ac468, size 0x1c, virtual false, abstract: false, final false
+inline void _ctor(::System::Runtime::Serialization::ISurrogateSelector*  selector, ::System::Runtime::Serialization::StreamingContext  context) ;
 
-  static inline ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Runtime::Serialization::Formatters::Binary::TypeInformation*>* getStaticF_typeNameCache();
+static inline ::System::Collections::Generic::Dictionary_2<::System::Type*,::System::Runtime::Serialization::Formatters::Binary::TypeInformation*>* getStaticF_typeNameCache() ;
 
-  static inline void setStaticF_typeNameCache(::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Runtime::Serialization::Formatters::Binary::TypeInformation*>* value);
+static inline void setStaticF_typeNameCache(::System::Collections::Generic::Dictionary_2<::System::Type*,::System::Runtime::Serialization::Formatters::Binary::TypeInformation*>*  value) ;
 
-  /// @brief Method set_AssemblyFormat, addr 0x59abf1c, size 0x8, virtual false, abstract: false, final false
-  inline void set_AssemblyFormat(::System::Runtime::Serialization::Formatters::FormatterAssemblyStyle value);
+/// @brief Method set_AssemblyFormat, addr 0x59ac428, size 0x8, virtual false, abstract: false, final false
+inline void set_AssemblyFormat(::System::Runtime::Serialization::Formatters::FormatterAssemblyStyle  value) ;
 
-  /// @brief Method set_Binder, addr 0x59abf2c, size 0x8, virtual true, abstract: false, final true
-  inline void set_Binder(::System::Runtime::Serialization::SerializationBinder* value);
+/// @brief Method set_Binder, addr 0x59ac438, size 0x8, virtual true, abstract: false, final true
+inline void set_Binder(::System::Runtime::Serialization::SerializationBinder*  value) ;
 
-  /// @brief Method set_SurrogateSelector, addr 0x59abf24, size 0x8, virtual true, abstract: false, final true
-  inline void set_SurrogateSelector(::System::Runtime::Serialization::ISurrogateSelector* value);
+/// @brief Method set_SurrogateSelector, addr 0x59ac430, size 0x8, virtual true, abstract: false, final true
+inline void set_SurrogateSelector(::System::Runtime::Serialization::ISurrogateSelector*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BinaryFormatter();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr BinaryFormatter() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BinaryFormatter", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  BinaryFormatter(BinaryFormatter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BinaryFormatter", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  BinaryFormatter(BinaryFormatter const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "BinaryFormatter", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+BinaryFormatter(BinaryFormatter && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3291 };
+// Ctor Parameters [CppParam { name: "", ty: "BinaryFormatter", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+BinaryFormatter(BinaryFormatter const& ) = delete;
 
-  /// @brief Field m_surrogates, offset: 0x10, size: 0x8, def value: None
-  ::System::Runtime::Serialization::ISurrogateSelector* ___m_surrogates;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{3291};
 
-  /// @brief Field m_context, offset: 0x18, size: 0x10, def value: None
-  ::System::Runtime::Serialization::StreamingContext ___m_context;
+/// @brief Field m_surrogates, offset: 0x10, size: 0x8, def value: None
+ ::System::Runtime::Serialization::ISurrogateSelector*  ___m_surrogates;
 
-  /// @brief Field m_binder, offset: 0x28, size: 0x8, def value: None
-  ::System::Runtime::Serialization::SerializationBinder* ___m_binder;
+/// @brief Field m_context, offset: 0x18, size: 0x10, def value: None
+ ::System::Runtime::Serialization::StreamingContext  ___m_context;
 
-  /// @brief Field m_typeFormat, offset: 0x30, size: 0x4, def value: None
-  ::System::Runtime::Serialization::Formatters::FormatterTypeStyle ___m_typeFormat;
+/// @brief Field m_binder, offset: 0x28, size: 0x8, def value: None
+ ::System::Runtime::Serialization::SerializationBinder*  ___m_binder;
 
-  /// @brief Field m_assemblyFormat, offset: 0x34, size: 0x4, def value: None
-  ::System::Runtime::Serialization::Formatters::FormatterAssemblyStyle ___m_assemblyFormat;
+/// @brief Field m_typeFormat, offset: 0x30, size: 0x4, def value: None
+ ::System::Runtime::Serialization::Formatters::FormatterTypeStyle  ___m_typeFormat;
 
-  /// @brief Field m_securityLevel, offset: 0x38, size: 0x4, def value: None
-  ::System::Runtime::Serialization::Formatters::TypeFilterLevel ___m_securityLevel;
+/// @brief Field m_assemblyFormat, offset: 0x34, size: 0x4, def value: None
+ ::System::Runtime::Serialization::Formatters::FormatterAssemblyStyle  ___m_assemblyFormat;
 
-  /// @brief Field m_crossAppDomainArray, offset: 0x40, size: 0x8, def value: None
-  ::ArrayW<::System::Object*, ::Array<::System::Object*>*> ___m_crossAppDomainArray;
+/// @brief Field m_securityLevel, offset: 0x38, size: 0x4, def value: None
+ ::System::Runtime::Serialization::Formatters::TypeFilterLevel  ___m_securityLevel;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field m_crossAppDomainArray, offset: 0x40, size: 0x8, def value: None
+ ::ArrayW<::System::Object*,::Array<::System::Object*>*>  ___m_crossAppDomainArray;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::BinaryFormatter, ___m_surrogates) == 0x10, "Offset mismatch!");
@@ -235,6 +229,6 @@ static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::Bin
 
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::Formatters::Binary::BinaryFormatter, 0x48>, "Size mismatch!");
 
-} // namespace System::Runtime::Serialization::Formatters::Binary
+} // namespace end def System::Runtime::Serialization::Formatters::Binary
 NEED_NO_BOX(::System::Runtime::Serialization::Formatters::Binary::BinaryFormatter);
 DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::Formatters::Binary::BinaryFormatter*, "System.Runtime.Serialization.Formatters.Binary", "BinaryFormatter");

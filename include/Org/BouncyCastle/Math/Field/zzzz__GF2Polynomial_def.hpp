@@ -24,68 +24,68 @@ namespace Org::BouncyCastle::Math::Field {
 // CS Name: Org.BouncyCastle.Math.Field.GF2Polynomial
 class CORDL_TYPE GF2Polynomial : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(get = get_Degree)) int32_t Degree;
+// Declarations
+ __declspec(property(get=get_Degree)) int32_t  Degree;
 
-  /// @brief Field exponents, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_exponents, put = __cordl_internal_set_exponents)) ::ArrayW<int32_t, ::Array<int32_t>*> exponents;
+/// @brief Field exponents, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_exponents, put=__cordl_internal_set_exponents)) ::ArrayW<int32_t,::Array<int32_t>*>  exponents;
 
-  /// @brief Convert operator to "::Org::BouncyCastle::Math::Field::IPolynomial"
-  constexpr operator ::Org::BouncyCastle::Math::Field::IPolynomial*() noexcept;
+/// @brief Convert operator to "::Org::BouncyCastle::Math::Field::IPolynomial"
+constexpr operator  ::Org::BouncyCastle::Math::Field::IPolynomial*() noexcept;
 
-  /// @brief Method Equals, addr 0x343758c, size 0xe0, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* obj);
+/// @brief Method Equals, addr 0x34374dc, size 0xe0, virtual true, abstract: false, final false
+inline bool Equals(::System::Object*  obj) ;
 
-  /// @brief Method GetExponentsPresent, addr 0x343752c, size 0x60, virtual true, abstract: false, final false
-  inline ::ArrayW<int32_t, ::Array<int32_t>*> GetExponentsPresent();
+/// @brief Method GetExponentsPresent, addr 0x343747c, size 0x60, virtual true, abstract: false, final false
+inline ::ArrayW<int32_t,::Array<int32_t>*> GetExponentsPresent() ;
 
-  /// @brief Method GetHashCode, addr 0x343766c, size 0x60, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
+/// @brief Method GetHashCode, addr 0x34375bc, size 0x60, virtual true, abstract: false, final false
+inline int32_t GetHashCode() ;
 
-  static inline ::Org::BouncyCastle::Math::Field::GF2Polynomial* New_ctor(::ArrayW<int32_t, ::Array<int32_t>*> exponents);
+static inline ::Org::BouncyCastle::Math::Field::GF2Polynomial* New_ctor(::ArrayW<int32_t,::Array<int32_t>*>  exponents) ;
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_exponents() const;
+constexpr ::ArrayW<int32_t,::Array<int32_t>*> const& __cordl_internal_get_exponents() const;
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_exponents();
+constexpr ::ArrayW<int32_t,::Array<int32_t>*>& __cordl_internal_get_exponents() ;
 
-  constexpr void __cordl_internal_set_exponents(::ArrayW<int32_t, ::Array<int32_t>*> value);
+constexpr void __cordl_internal_set_exponents(::ArrayW<int32_t,::Array<int32_t>*>  value) ;
 
-  /// @brief Method .ctor, addr 0x3436e84, size 0x70, virtual false, abstract: false, final false
-  inline void _ctor(::ArrayW<int32_t, ::Array<int32_t>*> exponents);
+/// @brief Method .ctor, addr 0x3436dd4, size 0x70, virtual false, abstract: false, final false
+inline void _ctor(::ArrayW<int32_t,::Array<int32_t>*>  exponents) ;
 
-  /// @brief Method get_Degree, addr 0x34374f8, size 0x34, virtual true, abstract: false, final false
-  inline int32_t get_Degree();
+/// @brief Method get_Degree, addr 0x3437448, size 0x34, virtual true, abstract: false, final false
+inline int32_t get_Degree() ;
 
-  /// @brief Convert to "::Org::BouncyCastle::Math::Field::IPolynomial"
-  constexpr ::Org::BouncyCastle::Math::Field::IPolynomial* i___Org__BouncyCastle__Math__Field__IPolynomial() noexcept;
+/// @brief Convert to "::Org::BouncyCastle::Math::Field::IPolynomial"
+constexpr ::Org::BouncyCastle::Math::Field::IPolynomial* i___Org__BouncyCastle__Math__Field__IPolynomial() noexcept;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr GF2Polynomial();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr GF2Polynomial() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GF2Polynomial", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  GF2Polynomial(GF2Polynomial&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GF2Polynomial", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  GF2Polynomial(GF2Polynomial const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "GF2Polynomial", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+GF2Polynomial(GF2Polynomial && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1586 };
+// Ctor Parameters [CppParam { name: "", ty: "GF2Polynomial", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+GF2Polynomial(GF2Polynomial const& ) = delete;
 
-  /// @brief Field exponents, offset: 0x10, size: 0x8, def value: None
-  ::ArrayW<int32_t, ::Array<int32_t>*> ___exponents;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{1586};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field exponents, offset: 0x10, size: 0x8, def value: None
+ ::ArrayW<int32_t,::Array<int32_t>*>  ___exponents;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Org::BouncyCastle::Math::Field::GF2Polynomial, ___exponents) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Math::Field::GF2Polynomial, 0x18>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Math::Field
+} // namespace end def Org::BouncyCastle::Math::Field
 NEED_NO_BOX(::Org::BouncyCastle::Math::Field::GF2Polynomial);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Math::Field::GF2Polynomial*, "Org.BouncyCastle.Math.Field", "GF2Polynomial");

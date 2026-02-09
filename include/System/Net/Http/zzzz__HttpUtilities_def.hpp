@@ -18,35 +18,35 @@ namespace System::Net::Http {
 // CS Name: System.Net.Http.HttpUtilities
 class CORDL_TYPE HttpUtilities : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method IsSecureWebSocketScheme, addr 0x5f21820, size 0x54, virtual false, abstract: false, final false
-  static inline bool IsSecureWebSocketScheme(::StringW scheme);
+// Declarations
+/// @brief Method IsSecureWebSocketScheme, addr 0x5f21ee0, size 0x54, virtual false, abstract: false, final false
+static inline bool IsSecureWebSocketScheme(::StringW  scheme) ;
 
-  /// @brief Method IsSupportedSecureScheme, addr 0x5f217b0, size 0x70, virtual false, abstract: false, final false
-  static inline bool IsSupportedSecureScheme(::StringW scheme);
+/// @brief Method IsSupportedSecureScheme, addr 0x5f21e70, size 0x70, virtual false, abstract: false, final false
+static inline bool IsSupportedSecureScheme(::StringW  scheme) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HttpUtilities();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr HttpUtilities() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HttpUtilities", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  HttpUtilities(HttpUtilities&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HttpUtilities", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  HttpUtilities(HttpUtilities const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "HttpUtilities", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+HttpUtilities(HttpUtilities && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20030 };
+// Ctor Parameters [CppParam { name: "", ty: "HttpUtilities", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+HttpUtilities(HttpUtilities const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20034};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::Http::HttpUtilities, 0x10>, "Size mismatch!");
 
-} // namespace System::Net::Http
+} // namespace end def System::Net::Http
 NEED_NO_BOX(::System::Net::Http::HttpUtilities);
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::Http::HttpUtilities*, "System.Net.Http", "HttpUtilities");

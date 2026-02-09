@@ -38,61 +38,60 @@ namespace Org::BouncyCastle::Crmf {
 // CS Name: Org.BouncyCastle.Crmf.PkiArchiveControlBuilder
 class CORDL_TYPE PkiArchiveControlBuilder : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field envGen, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_envGen, put = __cordl_internal_set_envGen)) ::Org::BouncyCastle::Cms::CmsEnvelopedDataGenerator* envGen;
+// Declarations
+/// @brief Field envGen, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_envGen, put=__cordl_internal_set_envGen)) ::Org::BouncyCastle::Cms::CmsEnvelopedDataGenerator*  envGen;
 
-  /// @brief Field keyContent, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_keyContent, put = __cordl_internal_set_keyContent)) ::Org::BouncyCastle::Cms::CmsProcessableByteArray* keyContent;
+/// @brief Field keyContent, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_keyContent, put=__cordl_internal_set_keyContent)) ::Org::BouncyCastle::Cms::CmsProcessableByteArray*  keyContent;
 
-  /// @brief Method AddRecipientGenerator, addr 0x35dfebc, size 0x28, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Crmf::PkiArchiveControlBuilder* AddRecipientGenerator(::Org::BouncyCastle::Cms::RecipientInfoGenerator* recipientGen);
+/// @brief Method AddRecipientGenerator, addr 0x35dfe0c, size 0x28, virtual false, abstract: false, final false
+inline ::Org::BouncyCastle::Crmf::PkiArchiveControlBuilder* AddRecipientGenerator(::Org::BouncyCastle::Cms::RecipientInfoGenerator*  recipientGen) ;
 
-  /// @brief Method Build, addr 0x35dfee4, size 0xe8, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Crmf::PkiArchiveControl* Build(::Org::BouncyCastle::Crypto::ICipherBuilderWithKey* contentEncryptor);
+/// @brief Method Build, addr 0x35dfe34, size 0xe8, virtual false, abstract: false, final false
+inline ::Org::BouncyCastle::Crmf::PkiArchiveControl* Build(::Org::BouncyCastle::Crypto::ICipherBuilderWithKey*  contentEncryptor) ;
 
-  static inline ::Org::BouncyCastle::Crmf::PkiArchiveControlBuilder* New_ctor(::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo* privateKeyInfo,
-                                                                              ::Org::BouncyCastle::Asn1::X509::GeneralName* generalName);
+static inline ::Org::BouncyCastle::Crmf::PkiArchiveControlBuilder* New_ctor(::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo*  privateKeyInfo, ::Org::BouncyCastle::Asn1::X509::GeneralName*  generalName) ;
 
-  constexpr ::Org::BouncyCastle::Cms::CmsEnvelopedDataGenerator* const& __cordl_internal_get_envGen() const;
+constexpr ::Org::BouncyCastle::Cms::CmsEnvelopedDataGenerator* const& __cordl_internal_get_envGen() const;
 
-  constexpr ::Org::BouncyCastle::Cms::CmsEnvelopedDataGenerator*& __cordl_internal_get_envGen();
+constexpr ::Org::BouncyCastle::Cms::CmsEnvelopedDataGenerator*& __cordl_internal_get_envGen() ;
 
-  constexpr ::Org::BouncyCastle::Cms::CmsProcessableByteArray* const& __cordl_internal_get_keyContent() const;
+constexpr ::Org::BouncyCastle::Cms::CmsProcessableByteArray* const& __cordl_internal_get_keyContent() const;
 
-  constexpr ::Org::BouncyCastle::Cms::CmsProcessableByteArray*& __cordl_internal_get_keyContent();
+constexpr ::Org::BouncyCastle::Cms::CmsProcessableByteArray*& __cordl_internal_get_keyContent() ;
 
-  constexpr void __cordl_internal_set_envGen(::Org::BouncyCastle::Cms::CmsEnvelopedDataGenerator* value);
+constexpr void __cordl_internal_set_envGen(::Org::BouncyCastle::Cms::CmsEnvelopedDataGenerator*  value) ;
 
-  constexpr void __cordl_internal_set_keyContent(::Org::BouncyCastle::Cms::CmsProcessableByteArray* value);
+constexpr void __cordl_internal_set_keyContent(::Org::BouncyCastle::Cms::CmsProcessableByteArray*  value) ;
 
-  /// @brief Method .ctor, addr 0x35dfcf0, size 0x1cc, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo* privateKeyInfo, ::Org::BouncyCastle::Asn1::X509::GeneralName* generalName);
+/// @brief Method .ctor, addr 0x35dfc40, size 0x1cc, virtual false, abstract: false, final false
+inline void _ctor(::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo*  privateKeyInfo, ::Org::BouncyCastle::Asn1::X509::GeneralName*  generalName) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PkiArchiveControlBuilder();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr PkiArchiveControlBuilder() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PkiArchiveControlBuilder", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  PkiArchiveControlBuilder(PkiArchiveControlBuilder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PkiArchiveControlBuilder", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  PkiArchiveControlBuilder(PkiArchiveControlBuilder const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "PkiArchiveControlBuilder", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+PkiArchiveControlBuilder(PkiArchiveControlBuilder && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 704 };
+// Ctor Parameters [CppParam { name: "", ty: "PkiArchiveControlBuilder", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+PkiArchiveControlBuilder(PkiArchiveControlBuilder const& ) = delete;
 
-  /// @brief Field envGen, offset: 0x10, size: 0x8, def value: None
-  ::Org::BouncyCastle::Cms::CmsEnvelopedDataGenerator* ___envGen;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{704};
 
-  /// @brief Field keyContent, offset: 0x18, size: 0x8, def value: None
-  ::Org::BouncyCastle::Cms::CmsProcessableByteArray* ___keyContent;
+/// @brief Field envGen, offset: 0x10, size: 0x8, def value: None
+ ::Org::BouncyCastle::Cms::CmsEnvelopedDataGenerator*  ___envGen;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field keyContent, offset: 0x18, size: 0x8, def value: None
+ ::Org::BouncyCastle::Cms::CmsProcessableByteArray*  ___keyContent;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Org::BouncyCastle::Crmf::PkiArchiveControlBuilder, ___envGen) == 0x10, "Offset mismatch!");
@@ -101,6 +100,6 @@ static_assert(offsetof(::Org::BouncyCastle::Crmf::PkiArchiveControlBuilder, ___k
 
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crmf::PkiArchiveControlBuilder, 0x20>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Crmf
+} // namespace end def Org::BouncyCastle::Crmf
 NEED_NO_BOX(::Org::BouncyCastle::Crmf::PkiArchiveControlBuilder);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crmf::PkiArchiveControlBuilder*, "Org.BouncyCastle.Crmf", "PkiArchiveControlBuilder");

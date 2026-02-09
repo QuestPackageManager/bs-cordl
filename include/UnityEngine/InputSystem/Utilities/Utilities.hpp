@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "UnityEngine/InputSystem/Utilities/ArrayHelpers.hpp"
 #include "UnityEngine/InputSystem/Utilities/CSharpCodeHelpers.hpp"
@@ -40,5 +40,6 @@ module;
 #include "UnityEngine/InputSystem/Utilities/Vector3MagnitudeComparer.hpp"
 #include "UnityEngine/InputSystem/Utilities/WhereObservable_1.hpp"
 #ifdef __cpp_modules
-export module Utilities;
-#endif
+                    export module Utilities;
+                    #endif
+                

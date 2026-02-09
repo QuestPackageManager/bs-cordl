@@ -23,46 +23,46 @@ namespace Org::BouncyCastle::Crypto::Tls {
 // CS Name: Org.BouncyCastle.Crypto.Tls.TlsNullCompression
 class CORDL_TYPE TlsNullCompression : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Tls::TlsCompression"
-  constexpr operator ::Org::BouncyCastle::Crypto::Tls::TlsCompression*() noexcept;
+// Declarations
+/// @brief Convert operator to "::Org::BouncyCastle::Crypto::Tls::TlsCompression"
+constexpr operator  ::Org::BouncyCastle::Crypto::Tls::TlsCompression*() noexcept;
 
-  /// @brief Method Compress, addr 0x338d288, size 0x8, virtual true, abstract: false, final false
-  inline ::System::IO::Stream* Compress(::System::IO::Stream* output);
+/// @brief Method Compress, addr 0x338d1d8, size 0x8, virtual true, abstract: false, final false
+inline ::System::IO::Stream* Compress(::System::IO::Stream*  output) ;
 
-  /// @brief Method Decompress, addr 0x338d290, size 0x8, virtual true, abstract: false, final false
-  inline ::System::IO::Stream* Decompress(::System::IO::Stream* output);
+/// @brief Method Decompress, addr 0x338d1e0, size 0x8, virtual true, abstract: false, final false
+inline ::System::IO::Stream* Decompress(::System::IO::Stream*  output) ;
 
-  static inline ::Org::BouncyCastle::Crypto::Tls::TlsNullCompression* New_ctor();
+static inline ::Org::BouncyCastle::Crypto::Tls::TlsNullCompression* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x338d298, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x338d1e8, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsCompression"
-  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsCompression* i___Org__BouncyCastle__Crypto__Tls__TlsCompression() noexcept;
+/// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsCompression"
+constexpr ::Org::BouncyCastle::Crypto::Tls::TlsCompression* i___Org__BouncyCastle__Crypto__Tls__TlsCompression() noexcept;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TlsNullCompression();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr TlsNullCompression() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TlsNullCompression", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  TlsNullCompression(TlsNullCompression&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TlsNullCompression", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  TlsNullCompression(TlsNullCompression const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "TlsNullCompression", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+TlsNullCompression(TlsNullCompression && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1314 };
+// Ctor Parameters [CppParam { name: "", ty: "TlsNullCompression", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+TlsNullCompression(TlsNullCompression const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{1314};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Tls::TlsNullCompression, 0x10>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Crypto::Tls
+} // namespace end def Org::BouncyCastle::Crypto::Tls
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Tls::TlsNullCompression);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Tls::TlsNullCompression*, "Org.BouncyCastle.Crypto.Tls", "TlsNullCompression");

@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "System/Security/Cryptography/X509Certificates/OpenFlags.hpp"
 #include "System/Security/Cryptography/X509Certificates/PublicKey.hpp"
@@ -49,5 +49,6 @@ module;
 #include "System/Security/Cryptography/X509Certificates/X509SubjectKeyIdentifierHashAlgorithm.hpp"
 #include "System/Security/Cryptography/X509Certificates/X509VerificationFlags.hpp"
 #ifdef __cpp_modules
-export module X509Certificates;
-#endif
+                    export module X509Certificates;
+                    #endif
+                

@@ -24,76 +24,76 @@ namespace System {
 // CS Name: System.ObjectDisposedException
 class CORDL_TYPE ObjectDisposedException : public ::System::InvalidOperationException {
 public:
-  // Declarations
-  __declspec(property(get = get_Message)) ::StringW Message;
+// Declarations
+ __declspec(property(get=get_Message)) ::StringW  Message;
 
-  __declspec(property(get = get_ObjectName)) ::StringW ObjectName;
+ __declspec(property(get=get_ObjectName)) ::StringW  ObjectName;
 
-  /// @brief Field _objectName, offset 0x90, size 0x8
-  __declspec(property(get = __cordl_internal_get__objectName, put = __cordl_internal_set__objectName)) ::StringW _objectName;
+/// @brief Field _objectName, offset 0x90, size 0x8 
+ __declspec(property(get=__cordl_internal_get__objectName, put=__cordl_internal_set__objectName)) ::StringW  _objectName;
 
-  /// @brief Method GetObjectData, addr 0x5aa78cc, size 0xc8, virtual true, abstract: false, final false
-  inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
+/// @brief Method GetObjectData, addr 0x5aa7dd8, size 0xc8, virtual true, abstract: false, final false
+inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context) ;
 
-  static inline ::System::ObjectDisposedException* New_ctor();
+static inline ::System::ObjectDisposedException* New_ctor() ;
 
-  static inline ::System::ObjectDisposedException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
+static inline ::System::ObjectDisposedException* New_ctor(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context) ;
 
-  static inline ::System::ObjectDisposedException* New_ctor(::StringW objectName);
+static inline ::System::ObjectDisposedException* New_ctor(::StringW  objectName) ;
 
-  static inline ::System::ObjectDisposedException* New_ctor(::StringW objectName, ::StringW message);
+static inline ::System::ObjectDisposedException* New_ctor(::StringW  objectName, ::StringW  message) ;
 
-  constexpr ::StringW const& __cordl_internal_get__objectName() const;
+constexpr ::StringW const& __cordl_internal_get__objectName() const;
 
-  constexpr ::StringW& __cordl_internal_get__objectName();
+constexpr ::StringW& __cordl_internal_get__objectName() ;
 
-  constexpr void __cordl_internal_set__objectName(::StringW value);
+constexpr void __cordl_internal_set__objectName(::StringW  value) ;
 
-  /// @brief Method .ctor, addr 0x5aa773c, size 0x60, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5aa7c48, size 0x60, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method .ctor, addr 0x5aa783c, size 0x90, virtual false, abstract: false, final false
-  inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
+/// @brief Method .ctor, addr 0x5aa7d48, size 0x90, virtual false, abstract: false, final false
+inline void _ctor(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context) ;
 
-  /// @brief Method .ctor, addr 0x5aa77d0, size 0x6c, virtual false, abstract: false, final false
-  inline void _ctor(::StringW objectName);
+/// @brief Method .ctor, addr 0x5aa7cdc, size 0x6c, virtual false, abstract: false, final false
+inline void _ctor(::StringW  objectName) ;
 
-  /// @brief Method .ctor, addr 0x5aa779c, size 0x34, virtual false, abstract: false, final false
-  inline void _ctor(::StringW objectName, ::StringW message);
+/// @brief Method .ctor, addr 0x5aa7ca8, size 0x34, virtual false, abstract: false, final false
+inline void _ctor(::StringW  objectName, ::StringW  message) ;
 
-  /// @brief Method get_Message, addr 0x5aa79f0, size 0xb4, virtual true, abstract: false, final false
-  inline ::StringW get_Message();
+/// @brief Method get_Message, addr 0x5aa7efc, size 0xb4, virtual true, abstract: false, final false
+inline ::StringW get_Message() ;
 
-  /// @brief Method get_ObjectName, addr 0x5aa7994, size 0x20, virtual false, abstract: false, final false
-  inline ::StringW get_ObjectName();
+/// @brief Method get_ObjectName, addr 0x5aa7ea0, size 0x20, virtual false, abstract: false, final false
+inline ::StringW get_ObjectName() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ObjectDisposedException();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ObjectDisposedException() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ObjectDisposedException", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ObjectDisposedException(ObjectDisposedException&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ObjectDisposedException", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ObjectDisposedException(ObjectDisposedException const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ObjectDisposedException", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ObjectDisposedException(ObjectDisposedException && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2457 };
+// Ctor Parameters [CppParam { name: "", ty: "ObjectDisposedException", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ObjectDisposedException(ObjectDisposedException const& ) = delete;
 
-  /// @brief Field _objectName, offset: 0x90, size: 0x8, def value: None
-  ::StringW ____objectName;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{2457};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _objectName, offset: 0x90, size: 0x8, def value: None
+ ::StringW  ____objectName;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::ObjectDisposedException, ____objectName) == 0x90, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::System::ObjectDisposedException, 0x98>, "Size mismatch!");
 
-} // namespace System
+} // namespace end def System
 NEED_NO_BOX(::System::ObjectDisposedException);
 DEFINE_IL2CPP_ARG_TYPE(::System::ObjectDisposedException*, "System", "ObjectDisposedException");

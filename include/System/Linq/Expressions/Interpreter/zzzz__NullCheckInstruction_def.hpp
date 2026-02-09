@@ -25,59 +25,59 @@ namespace System::Linq::Expressions::Interpreter {
 // CS Name: System.Linq.Expressions.Interpreter.NullCheckInstruction
 class CORDL_TYPE NullCheckInstruction : public ::System::Linq::Expressions::Interpreter::Instruction {
 public:
-  // Declarations
-  __declspec(property(get = get_ConsumedStack)) int32_t ConsumedStack;
+// Declarations
+ __declspec(property(get=get_ConsumedStack)) int32_t  ConsumedStack;
 
-  /// @brief Field Instance, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance)) ::System::Linq::Expressions::Interpreter::Instruction* Instance;
+/// @brief Field Instance, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_Instance, put=setStaticF_Instance)) ::System::Linq::Expressions::Interpreter::Instruction*  Instance;
 
-  __declspec(property(get = get_InstructionName)) ::StringW InstructionName;
+ __declspec(property(get=get_InstructionName)) ::StringW  InstructionName;
 
-  __declspec(property(get = get_ProducedStack)) int32_t ProducedStack;
+ __declspec(property(get=get_ProducedStack)) int32_t  ProducedStack;
 
-  static inline ::System::Linq::Expressions::Interpreter::NullCheckInstruction* New_ctor();
+static inline ::System::Linq::Expressions::Interpreter::NullCheckInstruction* New_ctor() ;
 
-  /// @brief Method Run, addr 0x5e04d9c, size 0x5c, virtual true, abstract: false, final false
-  inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
+/// @brief Method Run, addr 0x5e0545c, size 0x5c, virtual true, abstract: false, final false
+inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame*  frame) ;
 
-  /// @brief Method .ctor, addr 0x5e04d44, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5e05404, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  static inline ::System::Linq::Expressions::Interpreter::Instruction* getStaticF_Instance();
+static inline ::System::Linq::Expressions::Interpreter::Instruction* getStaticF_Instance() ;
 
-  /// @brief Method get_ConsumedStack, addr 0x5e04d48, size 0x8, virtual true, abstract: false, final false
-  inline int32_t get_ConsumedStack();
+/// @brief Method get_ConsumedStack, addr 0x5e05408, size 0x8, virtual true, abstract: false, final false
+inline int32_t get_ConsumedStack() ;
 
-  /// @brief Method get_InstructionName, addr 0x5e04d58, size 0x44, virtual true, abstract: false, final false
-  inline ::StringW get_InstructionName();
+/// @brief Method get_InstructionName, addr 0x5e05418, size 0x44, virtual true, abstract: false, final false
+inline ::StringW get_InstructionName() ;
 
-  /// @brief Method get_ProducedStack, addr 0x5e04d50, size 0x8, virtual true, abstract: false, final false
-  inline int32_t get_ProducedStack();
+/// @brief Method get_ProducedStack, addr 0x5e05410, size 0x8, virtual true, abstract: false, final false
+inline int32_t get_ProducedStack() ;
 
-  static inline void setStaticF_Instance(::System::Linq::Expressions::Interpreter::Instruction* value);
+static inline void setStaticF_Instance(::System::Linq::Expressions::Interpreter::Instruction*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NullCheckInstruction();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr NullCheckInstruction() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NullCheckInstruction", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  NullCheckInstruction(NullCheckInstruction&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NullCheckInstruction", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  NullCheckInstruction(NullCheckInstruction const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "NullCheckInstruction", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+NullCheckInstruction(NullCheckInstruction && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16520 };
+// Ctor Parameters [CppParam { name: "", ty: "NullCheckInstruction", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+NullCheckInstruction(NullCheckInstruction const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{16524};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Interpreter::NullCheckInstruction, 0x10>, "Size mismatch!");
 
-} // namespace System::Linq::Expressions::Interpreter
+} // namespace end def System::Linq::Expressions::Interpreter
 NEED_NO_BOX(::System::Linq::Expressions::Interpreter::NullCheckInstruction);
 DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::Interpreter::NullCheckInstruction*, "System.Linq.Expressions.Interpreter", "NullCheckInstruction");

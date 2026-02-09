@@ -20,39 +20,39 @@ namespace System::Net::Configuration {
 // CS Name: System.Net.Configuration.ProxyElement
 class CORDL_TYPE ProxyElement : public ::System::Configuration::ConfigurationElement {
 public:
-  // Declarations
-  __declspec(property(get = get_Properties)) ::System::Configuration::ConfigurationPropertyCollection* Properties;
+// Declarations
+ __declspec(property(get=get_Properties)) ::System::Configuration::ConfigurationPropertyCollection*  Properties;
 
-  static inline ::System::Net::Configuration::ProxyElement* New_ctor();
+static inline ::System::Net::Configuration::ProxyElement* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x61bd198, size 0x3c, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x61bd858, size 0x3c, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_Properties, addr 0x61bd1d4, size 0x3c, virtual true, abstract: false, final false
-  inline ::System::Configuration::ConfigurationPropertyCollection* get_Properties();
+/// @brief Method get_Properties, addr 0x61bd894, size 0x3c, virtual true, abstract: false, final false
+inline ::System::Configuration::ConfigurationPropertyCollection* get_Properties() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ProxyElement();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ProxyElement() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ProxyElement", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ProxyElement(ProxyElement&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ProxyElement", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ProxyElement(ProxyElement const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ProxyElement", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ProxyElement(ProxyElement && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11802 };
+// Ctor Parameters [CppParam { name: "", ty: "ProxyElement", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ProxyElement(ProxyElement const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11806};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::Configuration::ProxyElement, 0x10>, "Size mismatch!");
 
-} // namespace System::Net::Configuration
+} // namespace end def System::Net::Configuration
 NEED_NO_BOX(::System::Net::Configuration::ProxyElement);
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::Configuration::ProxyElement*, "System.Net.Configuration", "ProxyElement");

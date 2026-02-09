@@ -25,64 +25,63 @@ namespace UnityEngine::SceneManagement {
 // CS Name: UnityEngine.SceneManagement.SceneManagerAPI
 class CORDL_TYPE SceneManagerAPI : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field <overrideAPI>k__BackingField, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF__overrideAPI_k__BackingField, put = setStaticF__overrideAPI_k__BackingField)) ::UnityEngine::SceneManagement::SceneManagerAPI* _overrideAPI_k__BackingField;
+// Declarations
+/// @brief Field <overrideAPI>k__BackingField, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF__overrideAPI_k__BackingField, put=setStaticF__overrideAPI_k__BackingField)) ::UnityEngine::SceneManagement::SceneManagerAPI*  _overrideAPI_k__BackingField;
 
-  /// @brief Field s_DefaultAPI, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_s_DefaultAPI, put = setStaticF_s_DefaultAPI)) ::UnityEngine::SceneManagement::SceneManagerAPI* s_DefaultAPI;
+/// @brief Field s_DefaultAPI, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_s_DefaultAPI, put=setStaticF_s_DefaultAPI)) ::UnityEngine::SceneManagement::SceneManagerAPI*  s_DefaultAPI;
 
-  /// @brief Method GetNumScenesInBuildSettings, addr 0x6934ee0, size 0x28, virtual true, abstract: false, final false
-  inline int32_t GetNumScenesInBuildSettings();
+/// @brief Method GetNumScenesInBuildSettings, addr 0x69355a0, size 0x28, virtual true, abstract: false, final false
+inline int32_t GetNumScenesInBuildSettings() ;
 
-  /// @brief Method LoadFirstScene, addr 0x6934f1c, size 0x8, virtual true, abstract: false, final false
-  inline ::UnityEngine::AsyncOperation* LoadFirstScene(bool mustLoadAsync);
+/// @brief Method LoadFirstScene, addr 0x69355dc, size 0x8, virtual true, abstract: false, final false
+inline ::UnityEngine::AsyncOperation* LoadFirstScene(bool  mustLoadAsync) ;
 
-  /// @brief Method LoadSceneAsyncByNameOrIndex, addr 0x6934f08, size 0x14, virtual true, abstract: false, final false
-  inline ::UnityEngine::AsyncOperation* LoadSceneAsyncByNameOrIndex(::StringW sceneName, int32_t sceneBuildIndex, ::UnityEngine::SceneManagement::LoadSceneParameters parameters,
-                                                                    bool mustCompleteNextFrame);
+/// @brief Method LoadSceneAsyncByNameOrIndex, addr 0x69355c8, size 0x14, virtual true, abstract: false, final false
+inline ::UnityEngine::AsyncOperation* LoadSceneAsyncByNameOrIndex(::StringW  sceneName, int32_t  sceneBuildIndex, ::UnityEngine::SceneManagement::LoadSceneParameters  parameters, bool  mustCompleteNextFrame) ;
 
-  static inline ::UnityEngine::SceneManagement::SceneManagerAPI* New_ctor();
+static inline ::UnityEngine::SceneManagement::SceneManagerAPI* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x6934edc, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x693559c, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  static inline ::UnityEngine::SceneManagement::SceneManagerAPI* getStaticF__overrideAPI_k__BackingField();
+static inline ::UnityEngine::SceneManagement::SceneManagerAPI* getStaticF__overrideAPI_k__BackingField() ;
 
-  static inline ::UnityEngine::SceneManagement::SceneManagerAPI* getStaticF_s_DefaultAPI();
+static inline ::UnityEngine::SceneManagement::SceneManagerAPI* getStaticF_s_DefaultAPI() ;
 
-  /// @brief Method get_ActiveAPI, addr 0x6934dcc, size 0xb4, virtual false, abstract: false, final false
-  static inline ::UnityEngine::SceneManagement::SceneManagerAPI* get_ActiveAPI();
+/// @brief Method get_ActiveAPI, addr 0x693548c, size 0xb4, virtual false, abstract: false, final false
+static inline ::UnityEngine::SceneManagement::SceneManagerAPI* get_ActiveAPI() ;
 
-  /// @brief Method get_overrideAPI, addr 0x6934e80, size 0x5c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::SceneManagement::SceneManagerAPI* get_overrideAPI();
+/// @brief Method get_overrideAPI, addr 0x6935540, size 0x5c, virtual false, abstract: false, final false
+static inline ::UnityEngine::SceneManagement::SceneManagerAPI* get_overrideAPI() ;
 
-  static inline void setStaticF__overrideAPI_k__BackingField(::UnityEngine::SceneManagement::SceneManagerAPI* value);
+static inline void setStaticF__overrideAPI_k__BackingField(::UnityEngine::SceneManagement::SceneManagerAPI*  value) ;
 
-  static inline void setStaticF_s_DefaultAPI(::UnityEngine::SceneManagement::SceneManagerAPI* value);
+static inline void setStaticF_s_DefaultAPI(::UnityEngine::SceneManagement::SceneManagerAPI*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SceneManagerAPI();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr SceneManagerAPI() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SceneManagerAPI", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  SceneManagerAPI(SceneManagerAPI&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SceneManagerAPI", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  SceneManagerAPI(SceneManagerAPI const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "SceneManagerAPI", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+SceneManagerAPI(SceneManagerAPI && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10465 };
+// Ctor Parameters [CppParam { name: "", ty: "SceneManagerAPI", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+SceneManagerAPI(SceneManagerAPI const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10469};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::SceneManagement::SceneManagerAPI, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine::SceneManagement
+} // namespace end def UnityEngine::SceneManagement
 NEED_NO_BOX(::UnityEngine::SceneManagement::SceneManagerAPI);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::SceneManagement::SceneManagerAPI*, "UnityEngine.SceneManagement", "SceneManagerAPI");

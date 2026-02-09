@@ -23,47 +23,47 @@ namespace Unity::Hierarchy {
 // CS Name: Unity.Hierarchy.DefaultHierarchySearchQueryParser
 class CORDL_TYPE DefaultHierarchySearchQueryParser : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field s_Filter, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_s_Filter, put = setStaticF_s_Filter)) ::System::Text::RegularExpressions::Regex* s_Filter;
+// Declarations
+/// @brief Field s_Filter, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_s_Filter, put=setStaticF_s_Filter)) ::System::Text::RegularExpressions::Regex*  s_Filter;
 
-  /// @brief Convert operator to "::Unity::Hierarchy::IHierarchySearchQueryParser"
-  constexpr operator ::Unity::Hierarchy::IHierarchySearchQueryParser*() noexcept;
+/// @brief Convert operator to "::Unity::Hierarchy::IHierarchySearchQueryParser"
+constexpr operator  ::Unity::Hierarchy::IHierarchySearchQueryParser*() noexcept;
 
-  static inline ::Unity::Hierarchy::DefaultHierarchySearchQueryParser* New_ctor();
+static inline ::Unity::Hierarchy::DefaultHierarchySearchQueryParser* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x696cca8, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x696d368, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  static inline ::System::Text::RegularExpressions::Regex* getStaticF_s_Filter();
+static inline ::System::Text::RegularExpressions::Regex* getStaticF_s_Filter() ;
 
-  /// @brief Convert to "::Unity::Hierarchy::IHierarchySearchQueryParser"
-  constexpr ::Unity::Hierarchy::IHierarchySearchQueryParser* i___Unity__Hierarchy__IHierarchySearchQueryParser() noexcept;
+/// @brief Convert to "::Unity::Hierarchy::IHierarchySearchQueryParser"
+constexpr ::Unity::Hierarchy::IHierarchySearchQueryParser* i___Unity__Hierarchy__IHierarchySearchQueryParser() noexcept;
 
-  static inline void setStaticF_s_Filter(::System::Text::RegularExpressions::Regex* value);
+static inline void setStaticF_s_Filter(::System::Text::RegularExpressions::Regex*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DefaultHierarchySearchQueryParser();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr DefaultHierarchySearchQueryParser() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DefaultHierarchySearchQueryParser", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  DefaultHierarchySearchQueryParser(DefaultHierarchySearchQueryParser&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DefaultHierarchySearchQueryParser", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  DefaultHierarchySearchQueryParser(DefaultHierarchySearchQueryParser const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "DefaultHierarchySearchQueryParser", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+DefaultHierarchySearchQueryParser(DefaultHierarchySearchQueryParser && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21743 };
+// Ctor Parameters [CppParam { name: "", ty: "DefaultHierarchySearchQueryParser", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+DefaultHierarchySearchQueryParser(DefaultHierarchySearchQueryParser const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{21747};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Unity::Hierarchy::DefaultHierarchySearchQueryParser, 0x10>, "Size mismatch!");
 
-} // namespace Unity::Hierarchy
+} // namespace end def Unity::Hierarchy
 NEED_NO_BOX(::Unity::Hierarchy::DefaultHierarchySearchQueryParser);
 DEFINE_IL2CPP_ARG_TYPE(::Unity::Hierarchy::DefaultHierarchySearchQueryParser*, "Unity.Hierarchy", "DefaultHierarchySearchQueryParser");

@@ -18,51 +18,51 @@ namespace System::Text {
 // CS Name: System.Text.EncoderExceptionFallbackBuffer
 class CORDL_TYPE EncoderExceptionFallbackBuffer : public ::System::Text::EncoderFallbackBuffer {
 public:
-  // Declarations
-  __declspec(property(get = get_Remaining)) int32_t Remaining;
+// Declarations
+ __declspec(property(get=get_Remaining)) int32_t  Remaining;
 
-  /// @brief Method Fallback, addr 0x5923d24, size 0xa0, virtual true, abstract: false, final false
-  inline bool Fallback(char16_t charUnknown, int32_t index);
+/// @brief Method Fallback, addr 0x5924230, size 0xa0, virtual true, abstract: false, final false
+inline bool Fallback(char16_t  charUnknown, int32_t  index) ;
 
-  /// @brief Method Fallback, addr 0x5923e00, size 0x218, virtual true, abstract: false, final false
-  inline bool Fallback(char16_t charUnknownHigh, char16_t charUnknownLow, int32_t index);
+/// @brief Method Fallback, addr 0x592430c, size 0x218, virtual true, abstract: false, final false
+inline bool Fallback(char16_t  charUnknownHigh, char16_t  charUnknownLow, int32_t  index) ;
 
-  /// @brief Method GetNextChar, addr 0x59241c0, size 0x8, virtual true, abstract: false, final false
-  inline char16_t GetNextChar();
+/// @brief Method GetNextChar, addr 0x59246cc, size 0x8, virtual true, abstract: false, final false
+inline char16_t GetNextChar() ;
 
-  /// @brief Method MovePrevious, addr 0x59241c8, size 0x8, virtual true, abstract: false, final false
-  inline bool MovePrevious();
+/// @brief Method MovePrevious, addr 0x59246d4, size 0x8, virtual true, abstract: false, final false
+inline bool MovePrevious() ;
 
-  static inline ::System::Text::EncoderExceptionFallbackBuffer* New_ctor();
+static inline ::System::Text::EncoderExceptionFallbackBuffer* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x5923cb0, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x59241bc, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_Remaining, addr 0x59241d0, size 0x8, virtual true, abstract: false, final false
-  inline int32_t get_Remaining();
+/// @brief Method get_Remaining, addr 0x59246dc, size 0x8, virtual true, abstract: false, final false
+inline int32_t get_Remaining() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr EncoderExceptionFallbackBuffer();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr EncoderExceptionFallbackBuffer() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EncoderExceptionFallbackBuffer", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  EncoderExceptionFallbackBuffer(EncoderExceptionFallbackBuffer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EncoderExceptionFallbackBuffer", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  EncoderExceptionFallbackBuffer(EncoderExceptionFallbackBuffer const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "EncoderExceptionFallbackBuffer", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+EncoderExceptionFallbackBuffer(EncoderExceptionFallbackBuffer && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2861 };
+// Ctor Parameters [CppParam { name: "", ty: "EncoderExceptionFallbackBuffer", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+EncoderExceptionFallbackBuffer(EncoderExceptionFallbackBuffer const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{2861};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Text::EncoderExceptionFallbackBuffer, 0x30>, "Size mismatch!");
 
-} // namespace System::Text
+} // namespace end def System::Text
 NEED_NO_BOX(::System::Text::EncoderExceptionFallbackBuffer);
 DEFINE_IL2CPP_ARG_TYPE(::System::Text::EncoderExceptionFallbackBuffer*, "System.Text", "EncoderExceptionFallbackBuffer");

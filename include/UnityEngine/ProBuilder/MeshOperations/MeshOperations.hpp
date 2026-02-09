@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "UnityEngine/ProBuilder/MeshOperations/AppendElements.hpp"
 #include "UnityEngine/ProBuilder/MeshOperations/Bevel.hpp"
@@ -24,5 +24,6 @@ module;
 #include "UnityEngine/ProBuilder/MeshOperations/UVEditing.hpp"
 #include "UnityEngine/ProBuilder/MeshOperations/VertexEditing.hpp"
 #ifdef __cpp_modules
-export module MeshOperations;
-#endif
+                    export module MeshOperations;
+                    #endif
+                

@@ -29,62 +29,62 @@ namespace Org::BouncyCastle::Asn1::Cmp {
 // CS Name: Org.BouncyCastle.Asn1.Cmp.GenRepContent
 class CORDL_TYPE GenRepContent : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
-  // Declarations
-  /// @brief Field content, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_content, put = __cordl_internal_set_content)) ::Org::BouncyCastle::Asn1::Asn1Sequence* content;
+// Declarations
+/// @brief Field content, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_content, put=__cordl_internal_set_content)) ::Org::BouncyCastle::Asn1::Asn1Sequence*  content;
 
-  /// @brief Method GetInstance, addr 0x324eb20, size 0x17c, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Asn1::Cmp::GenRepContent* GetInstance(::System::Object* obj);
+/// @brief Method GetInstance, addr 0x324ea70, size 0x17c, virtual false, abstract: false, final false
+static inline ::Org::BouncyCastle::Asn1::Cmp::GenRepContent* GetInstance(::System::Object*  obj) ;
 
-  static inline ::Org::BouncyCastle::Asn1::Cmp::GenRepContent* New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::Cmp::InfoTypeAndValue*, ::Array<::Org::BouncyCastle::Asn1::Cmp::InfoTypeAndValue*>*> itv);
+static inline ::Org::BouncyCastle::Asn1::Cmp::GenRepContent* New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::Cmp::InfoTypeAndValue*,::Array<::Org::BouncyCastle::Asn1::Cmp::InfoTypeAndValue*>*>  itv) ;
 
-  static inline ::Org::BouncyCastle::Asn1::Cmp::GenRepContent* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
+static inline ::Org::BouncyCastle::Asn1::Cmp::GenRepContent* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence*  seq) ;
 
-  /// @brief Method ToAsn1Object, addr 0x324edfc, size 0x8, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
+/// @brief Method ToAsn1Object, addr 0x324ed4c, size 0x8, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object() ;
 
-  /// @brief Method ToInfoTypeAndValueArray, addr 0x324ed04, size 0xf8, virtual true, abstract: false, final false
-  inline ::ArrayW<::Org::BouncyCastle::Asn1::Cmp::InfoTypeAndValue*, ::Array<::Org::BouncyCastle::Asn1::Cmp::InfoTypeAndValue*>*> ToInfoTypeAndValueArray();
+/// @brief Method ToInfoTypeAndValueArray, addr 0x324ec54, size 0xf8, virtual true, abstract: false, final false
+inline ::ArrayW<::Org::BouncyCastle::Asn1::Cmp::InfoTypeAndValue*,::Array<::Org::BouncyCastle::Asn1::Cmp::InfoTypeAndValue*>*> ToInfoTypeAndValueArray() ;
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence* const& __cordl_internal_get_content() const;
+constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence* const& __cordl_internal_get_content() const;
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence*& __cordl_internal_get_content();
+constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence*& __cordl_internal_get_content() ;
 
-  constexpr void __cordl_internal_set_content(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
+constexpr void __cordl_internal_set_content(::Org::BouncyCastle::Asn1::Asn1Sequence*  value) ;
 
-  /// @brief Method .ctor, addr 0x324ec9c, size 0x68, virtual false, abstract: false, final false
-  inline void _ctor(::ArrayW<::Org::BouncyCastle::Asn1::Cmp::InfoTypeAndValue*, ::Array<::Org::BouncyCastle::Asn1::Cmp::InfoTypeAndValue*>*> itv);
+/// @brief Method .ctor, addr 0x324ebec, size 0x68, virtual false, abstract: false, final false
+inline void _ctor(::ArrayW<::Org::BouncyCastle::Asn1::Cmp::InfoTypeAndValue*,::Array<::Org::BouncyCastle::Asn1::Cmp::InfoTypeAndValue*>*>  itv) ;
 
-  /// @brief Method .ctor, addr 0x324eb18, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
+/// @brief Method .ctor, addr 0x324ea68, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence*  seq) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr GenRepContent();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr GenRepContent() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GenRepContent", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  GenRepContent(GenRepContent&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GenRepContent", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  GenRepContent(GenRepContent const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "GenRepContent", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+GenRepContent(GenRepContent && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 24 };
+// Ctor Parameters [CppParam { name: "", ty: "GenRepContent", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+GenRepContent(GenRepContent const& ) = delete;
 
-  /// @brief Field content, offset: 0x10, size: 0x8, def value: None
-  ::Org::BouncyCastle::Asn1::Asn1Sequence* ___content;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{24};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field content, offset: 0x10, size: 0x8, def value: None
+ ::Org::BouncyCastle::Asn1::Asn1Sequence*  ___content;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Org::BouncyCastle::Asn1::Cmp::GenRepContent, ___content) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Cmp::GenRepContent, 0x18>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Asn1::Cmp
+} // namespace end def Org::BouncyCastle::Asn1::Cmp
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Cmp::GenRepContent);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::Cmp::GenRepContent*, "Org.BouncyCastle.Asn1.Cmp", "GenRepContent");

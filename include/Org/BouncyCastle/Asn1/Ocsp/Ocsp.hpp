@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "Org/BouncyCastle/Asn1/Ocsp/BasicOcspResponse.hpp"
 #include "Org/BouncyCastle/Asn1/Ocsp/CertID.hpp"
@@ -21,5 +21,6 @@ module;
 #include "Org/BouncyCastle/Asn1/Ocsp/SingleResponse.hpp"
 #include "Org/BouncyCastle/Asn1/Ocsp/TbsRequest.hpp"
 #ifdef __cpp_modules
-export module Ocsp;
-#endif
+                    export module Ocsp;
+                    #endif
+                

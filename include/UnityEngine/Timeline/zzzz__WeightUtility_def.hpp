@@ -21,32 +21,32 @@ namespace UnityEngine::Timeline {
 // CS Name: UnityEngine.Timeline.WeightUtility
 class CORDL_TYPE WeightUtility : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method NormalizeMixer, addr 0x6818d5c, size 0x198, virtual false, abstract: false, final false
-  static inline float_t NormalizeMixer(::UnityEngine::Playables::Playable mixer);
+// Declarations
+/// @brief Method NormalizeMixer, addr 0x681941c, size 0x198, virtual false, abstract: false, final false
+static inline float_t NormalizeMixer(::UnityEngine::Playables::Playable  mixer) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr WeightUtility();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr WeightUtility() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "WeightUtility", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  WeightUtility(WeightUtility&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "WeightUtility", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  WeightUtility(WeightUtility const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "WeightUtility", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+WeightUtility(WeightUtility && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19093 };
+// Ctor Parameters [CppParam { name: "", ty: "WeightUtility", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+WeightUtility(WeightUtility const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{19097};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Timeline::WeightUtility, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine::Timeline
+} // namespace end def UnityEngine::Timeline
 NEED_NO_BOX(::UnityEngine::Timeline::WeightUtility);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Timeline::WeightUtility*, "UnityEngine.Timeline", "WeightUtility");

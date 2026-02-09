@@ -27,49 +27,49 @@ namespace System::Reflection {
 // CS Name: System.Reflection.InvalidFilterCriteriaException
 class CORDL_TYPE InvalidFilterCriteriaException : public ::System::ApplicationException {
 public:
-  // Declarations
-  static inline ::System::Reflection::InvalidFilterCriteriaException* New_ctor();
+// Declarations
+static inline ::System::Reflection::InvalidFilterCriteriaException* New_ctor() ;
 
-  static inline ::System::Reflection::InvalidFilterCriteriaException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
+static inline ::System::Reflection::InvalidFilterCriteriaException* New_ctor(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context) ;
 
-  static inline ::System::Reflection::InvalidFilterCriteriaException* New_ctor(::StringW message);
+static inline ::System::Reflection::InvalidFilterCriteriaException* New_ctor(::StringW  message) ;
 
-  static inline ::System::Reflection::InvalidFilterCriteriaException* New_ctor(::StringW message, ::System::Exception* inner);
+static inline ::System::Reflection::InvalidFilterCriteriaException* New_ctor(::StringW  message, ::System::Exception*  inner) ;
 
-  /// @brief Method .ctor, addr 0x59cee0c, size 0x64, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x59cf318, size 0x64, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method .ctor, addr 0x59ceebc, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
+/// @brief Method .ctor, addr 0x59cf3c8, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context) ;
 
-  /// @brief Method .ctor, addr 0x59cee70, size 0x28, virtual false, abstract: false, final false
-  inline void _ctor(::StringW message);
+/// @brief Method .ctor, addr 0x59cf37c, size 0x28, virtual false, abstract: false, final false
+inline void _ctor(::StringW  message) ;
 
-  /// @brief Method .ctor, addr 0x59cee98, size 0x24, virtual false, abstract: false, final false
-  inline void _ctor(::StringW message, ::System::Exception* inner);
+/// @brief Method .ctor, addr 0x59cf3a4, size 0x24, virtual false, abstract: false, final false
+inline void _ctor(::StringW  message, ::System::Exception*  inner) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr InvalidFilterCriteriaException();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr InvalidFilterCriteriaException() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InvalidFilterCriteriaException", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  InvalidFilterCriteriaException(InvalidFilterCriteriaException&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InvalidFilterCriteriaException", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  InvalidFilterCriteriaException(InvalidFilterCriteriaException const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "InvalidFilterCriteriaException", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+InvalidFilterCriteriaException(InvalidFilterCriteriaException && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3495 };
+// Ctor Parameters [CppParam { name: "", ty: "InvalidFilterCriteriaException", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+InvalidFilterCriteriaException(InvalidFilterCriteriaException const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{3495};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Reflection::InvalidFilterCriteriaException, 0x90>, "Size mismatch!");
 
-} // namespace System::Reflection
+} // namespace end def System::Reflection
 NEED_NO_BOX(::System::Reflection::InvalidFilterCriteriaException);
 DEFINE_IL2CPP_ARG_TYPE(::System::Reflection::InvalidFilterCriteriaException*, "System.Reflection", "InvalidFilterCriteriaException");

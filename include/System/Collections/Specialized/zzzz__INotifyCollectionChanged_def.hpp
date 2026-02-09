@@ -10,23 +10,23 @@ class INotifyCollectionChanged;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Collections::Specialized::INotifyCollectionChanged);
-// Dependencies
+// Dependencies 
 namespace System::Collections::Specialized {
 // Is value type: false
 // CS Name: System.Collections.Specialized.INotifyCollectionChanged
 class CORDL_TYPE INotifyCollectionChanged {
 public:
-  // Declarations
-  // Ctor Parameters [CppParam { name: "", ty: "INotifyCollectionChanged", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  INotifyCollectionChanged(INotifyCollectionChanged const&) = delete;
+// Declarations
+// Ctor Parameters [CppParam { name: "", ty: "INotifyCollectionChanged", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+INotifyCollectionChanged(INotifyCollectionChanged const& ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11350 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11354};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-} // namespace System::Collections::Specialized
+} // namespace end def System::Collections::Specialized
 NEED_NO_BOX(::System::Collections::Specialized::INotifyCollectionChanged);
 DEFINE_IL2CPP_ARG_TYPE(::System::Collections::Specialized::INotifyCollectionChanged*, "System.Collections.Specialized", "INotifyCollectionChanged");

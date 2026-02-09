@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "Org/BouncyCastle/Math/EC/Custom/Sec/SecP128R1Curve.hpp"
 #include "Org/BouncyCastle/Math/EC/Custom/Sec/SecP128R1Field.hpp"
@@ -104,5 +104,6 @@ module;
 #include "Org/BouncyCastle/Math/EC/Custom/Sec/SecT571R1Curve.hpp"
 #include "Org/BouncyCastle/Math/EC/Custom/Sec/SecT571R1Point.hpp"
 #ifdef __cpp_modules
-export module Sec;
-#endif
+                    export module Sec;
+                    #endif
+                

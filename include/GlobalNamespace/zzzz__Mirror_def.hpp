@@ -10,7 +10,8 @@ namespace GlobalNamespace {
 class MirrorRendererSO;
 }
 namespace System {
-template <typename T> class Action_1;
+template<typename T>
+class Action_1;
 }
 namespace UnityEngine {
 class Camera;
@@ -36,163 +37,162 @@ namespace GlobalNamespace {
 // CS Name: Mirror
 class CORDL_TYPE Mirror : public ::UnityEngine::MonoBehaviour {
 public:
-  // Declarations
-  /// @brief Field <isEnabled>k__BackingField, offset 0x48, size 0x1
-  __declspec(property(get = __cordl_internal_get__isEnabled_k__BackingField, put = __cordl_internal_set__isEnabled_k__BackingField)) bool _isEnabled_k__BackingField;
+// Declarations
+/// @brief Field <isEnabled>k__BackingField, offset 0x48, size 0x1 
+ __declspec(property(get=__cordl_internal_get__isEnabled_k__BackingField, put=__cordl_internal_set__isEnabled_k__BackingField)) bool  _isEnabled_k__BackingField;
 
-  /// @brief Field _mirrorMaterial, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__mirrorMaterial, put = __cordl_internal_set__mirrorMaterial)) ::UnityW<::UnityEngine::Material> _mirrorMaterial;
+/// @brief Field _mirrorMaterial, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get__mirrorMaterial, put=__cordl_internal_set__mirrorMaterial)) ::UnityW<::UnityEngine::Material>  _mirrorMaterial;
 
-  /// @brief Field _mirrorRenderer, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__mirrorRenderer, put = __cordl_internal_set__mirrorRenderer)) ::UnityW<::GlobalNamespace::MirrorRendererSO> _mirrorRenderer;
+/// @brief Field _mirrorRenderer, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get__mirrorRenderer, put=__cordl_internal_set__mirrorRenderer)) ::UnityW<::GlobalNamespace::MirrorRendererSO>  _mirrorRenderer;
 
-  /// @brief Field _noMirrorMaterial, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__noMirrorMaterial, put = __cordl_internal_set__noMirrorMaterial)) ::UnityW<::UnityEngine::Material> _noMirrorMaterial;
+/// @brief Field _noMirrorMaterial, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get__noMirrorMaterial, put=__cordl_internal_set__noMirrorMaterial)) ::UnityW<::UnityEngine::Material>  _noMirrorMaterial;
 
-  /// @brief Field _reflectionPlaneTransform, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__reflectionPlaneTransform, put = __cordl_internal_set__reflectionPlaneTransform)) ::UnityW<::UnityEngine::Transform> _reflectionPlaneTransform;
+/// @brief Field _reflectionPlaneTransform, offset 0x40, size 0x8 
+ __declspec(property(get=__cordl_internal_get__reflectionPlaneTransform, put=__cordl_internal_set__reflectionPlaneTransform)) ::UnityW<::UnityEngine::Transform>  _reflectionPlaneTransform;
 
-  /// @brief Field _renderer, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__renderer, put = __cordl_internal_set__renderer)) ::UnityW<::UnityEngine::MeshRenderer> _renderer;
+/// @brief Field _renderer, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get__renderer, put=__cordl_internal_set__renderer)) ::UnityW<::UnityEngine::MeshRenderer>  _renderer;
 
-  /// @brief Field _texturePropertyID, offset 0xffffffff, size 0x4
-  __declspec(property(get = getStaticF__texturePropertyID, put = setStaticF__texturePropertyID)) int32_t _texturePropertyID;
+/// @brief Field _texturePropertyID, offset 0xffffffff, size 0x4 
+ __declspec(property(get=getStaticF__texturePropertyID, put=setStaticF__texturePropertyID)) int32_t  _texturePropertyID;
 
-  __declspec(property(get = get_isEnabled, put = set_isEnabled)) bool isEnabled;
+ __declspec(property(get=get_isEnabled, put=set_isEnabled)) bool  isEnabled;
 
-  /// @brief Field mirrorDidChangeEnabledStateEvent, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_mirrorDidChangeEnabledStateEvent,
-                      put = __cordl_internal_set_mirrorDidChangeEnabledStateEvent)) ::System::Action_1<bool>* mirrorDidChangeEnabledStateEvent;
+/// @brief Field mirrorDidChangeEnabledStateEvent, offset 0x50, size 0x8 
+ __declspec(property(get=__cordl_internal_get_mirrorDidChangeEnabledStateEvent, put=__cordl_internal_set_mirrorDidChangeEnabledStateEvent)) ::System::Action_1<bool>*  mirrorDidChangeEnabledStateEvent;
 
-  __declspec(property(get = get_mirrorMaterial)) ::UnityW<::UnityEngine::Material> mirrorMaterial;
+ __declspec(property(get=get_mirrorMaterial)) ::UnityW<::UnityEngine::Material>  mirrorMaterial;
 
-  __declspec(property(get = get_noMirrorMaterial)) ::UnityW<::UnityEngine::Material> noMirrorMaterial;
+ __declspec(property(get=get_noMirrorMaterial)) ::UnityW<::UnityEngine::Material>  noMirrorMaterial;
 
-  __declspec(property(get = get_reflectionPlaneTransform)) ::UnityW<::UnityEngine::Transform> reflectionPlaneTransform;
+ __declspec(property(get=get_reflectionPlaneTransform)) ::UnityW<::UnityEngine::Transform>  reflectionPlaneTransform;
 
-  /// @brief Method ChangeMirrorEnabledState, addr 0x5d96534, size 0x3c, virtual false, abstract: false, final false
-  inline void ChangeMirrorEnabledState(bool newIsEnabled);
+/// @brief Method ChangeMirrorEnabledState, addr 0x5d96bf4, size 0x3c, virtual false, abstract: false, final false
+inline void ChangeMirrorEnabledState(bool  newIsEnabled) ;
 
-  static inline ::GlobalNamespace::Mirror* New_ctor();
+static inline ::GlobalNamespace::Mirror* New_ctor() ;
 
-  /// @brief Method OnWillRenderObject, addr 0x5d96264, size 0x1c, virtual false, abstract: false, final false
-  inline void OnWillRenderObject();
+/// @brief Method OnWillRenderObject, addr 0x5d96924, size 0x1c, virtual false, abstract: false, final false
+inline void OnWillRenderObject() ;
 
-  /// @brief Method RenderMirror, addr 0x5d96280, size 0x2b4, virtual false, abstract: false, final false
-  inline void RenderMirror(::UnityEngine::Camera* currentCamera);
+/// @brief Method RenderMirror, addr 0x5d96940, size 0x2b4, virtual false, abstract: false, final false
+inline void RenderMirror(::UnityEngine::Camera*  currentCamera) ;
 
-  /// @brief Method Update, addr 0x5d96104, size 0x14, virtual false, abstract: false, final false
-  inline void Update();
+/// @brief Method Update, addr 0x5d967c4, size 0x14, virtual false, abstract: false, final false
+inline void Update() ;
 
-  constexpr bool const& __cordl_internal_get__isEnabled_k__BackingField() const;
+constexpr bool const& __cordl_internal_get__isEnabled_k__BackingField() const;
 
-  constexpr bool& __cordl_internal_get__isEnabled_k__BackingField();
+constexpr bool& __cordl_internal_get__isEnabled_k__BackingField() ;
 
-  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get__mirrorMaterial() const;
+constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get__mirrorMaterial() const;
 
-  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get__mirrorMaterial();
+constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get__mirrorMaterial() ;
 
-  constexpr ::UnityW<::GlobalNamespace::MirrorRendererSO> const& __cordl_internal_get__mirrorRenderer() const;
+constexpr ::UnityW<::GlobalNamespace::MirrorRendererSO> const& __cordl_internal_get__mirrorRenderer() const;
 
-  constexpr ::UnityW<::GlobalNamespace::MirrorRendererSO>& __cordl_internal_get__mirrorRenderer();
+constexpr ::UnityW<::GlobalNamespace::MirrorRendererSO>& __cordl_internal_get__mirrorRenderer() ;
 
-  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get__noMirrorMaterial() const;
+constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get__noMirrorMaterial() const;
 
-  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get__noMirrorMaterial();
+constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get__noMirrorMaterial() ;
 
-  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__reflectionPlaneTransform() const;
+constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__reflectionPlaneTransform() const;
 
-  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__reflectionPlaneTransform();
+constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__reflectionPlaneTransform() ;
 
-  constexpr ::UnityW<::UnityEngine::MeshRenderer> const& __cordl_internal_get__renderer() const;
+constexpr ::UnityW<::UnityEngine::MeshRenderer> const& __cordl_internal_get__renderer() const;
 
-  constexpr ::UnityW<::UnityEngine::MeshRenderer>& __cordl_internal_get__renderer();
+constexpr ::UnityW<::UnityEngine::MeshRenderer>& __cordl_internal_get__renderer() ;
 
-  constexpr ::System::Action_1<bool>* const& __cordl_internal_get_mirrorDidChangeEnabledStateEvent() const;
+constexpr ::System::Action_1<bool>* const& __cordl_internal_get_mirrorDidChangeEnabledStateEvent() const;
 
-  constexpr ::System::Action_1<bool>*& __cordl_internal_get_mirrorDidChangeEnabledStateEvent();
+constexpr ::System::Action_1<bool>*& __cordl_internal_get_mirrorDidChangeEnabledStateEvent() ;
 
-  constexpr void __cordl_internal_set__isEnabled_k__BackingField(bool value);
+constexpr void __cordl_internal_set__isEnabled_k__BackingField(bool  value) ;
 
-  constexpr void __cordl_internal_set__mirrorMaterial(::UnityW<::UnityEngine::Material> value);
+constexpr void __cordl_internal_set__mirrorMaterial(::UnityW<::UnityEngine::Material>  value) ;
 
-  constexpr void __cordl_internal_set__mirrorRenderer(::UnityW<::GlobalNamespace::MirrorRendererSO> value);
+constexpr void __cordl_internal_set__mirrorRenderer(::UnityW<::GlobalNamespace::MirrorRendererSO>  value) ;
 
-  constexpr void __cordl_internal_set__noMirrorMaterial(::UnityW<::UnityEngine::Material> value);
+constexpr void __cordl_internal_set__noMirrorMaterial(::UnityW<::UnityEngine::Material>  value) ;
 
-  constexpr void __cordl_internal_set__reflectionPlaneTransform(::UnityW<::UnityEngine::Transform> value);
+constexpr void __cordl_internal_set__reflectionPlaneTransform(::UnityW<::UnityEngine::Transform>  value) ;
 
-  constexpr void __cordl_internal_set__renderer(::UnityW<::UnityEngine::MeshRenderer> value);
+constexpr void __cordl_internal_set__renderer(::UnityW<::UnityEngine::MeshRenderer>  value) ;
 
-  constexpr void __cordl_internal_set_mirrorDidChangeEnabledStateEvent(::System::Action_1<bool>* value);
+constexpr void __cordl_internal_set_mirrorDidChangeEnabledStateEvent(::System::Action_1<bool>*  value) ;
 
-  /// @brief Method .ctor, addr 0x5d96e00, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5d974c0, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method add_mirrorDidChangeEnabledStateEvent, addr 0x5d95f84, size 0xc0, virtual false, abstract: false, final false
-  inline void add_mirrorDidChangeEnabledStateEvent(::System::Action_1<bool>* value);
+/// @brief Method add_mirrorDidChangeEnabledStateEvent, addr 0x5d96644, size 0xc0, virtual false, abstract: false, final false
+inline void add_mirrorDidChangeEnabledStateEvent(::System::Action_1<bool>*  value) ;
 
-  static inline int32_t getStaticF__texturePropertyID();
+static inline int32_t getStaticF__texturePropertyID() ;
 
-  /// @brief Method get_isEnabled, addr 0x5d95f74, size 0x8, virtual false, abstract: false, final false
-  inline bool get_isEnabled();
+/// @brief Method get_isEnabled, addr 0x5d96634, size 0x8, virtual false, abstract: false, final false
+inline bool get_isEnabled() ;
 
-  /// @brief Method get_mirrorMaterial, addr 0x5d95f5c, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::Material> get_mirrorMaterial();
+/// @brief Method get_mirrorMaterial, addr 0x5d9661c, size 0x8, virtual false, abstract: false, final false
+inline ::UnityW<::UnityEngine::Material> get_mirrorMaterial() ;
 
-  /// @brief Method get_noMirrorMaterial, addr 0x5d95f64, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::Material> get_noMirrorMaterial();
+/// @brief Method get_noMirrorMaterial, addr 0x5d96624, size 0x8, virtual false, abstract: false, final false
+inline ::UnityW<::UnityEngine::Material> get_noMirrorMaterial() ;
 
-  /// @brief Method get_reflectionPlaneTransform, addr 0x5d95f6c, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::Transform> get_reflectionPlaneTransform();
+/// @brief Method get_reflectionPlaneTransform, addr 0x5d9662c, size 0x8, virtual false, abstract: false, final false
+inline ::UnityW<::UnityEngine::Transform> get_reflectionPlaneTransform() ;
 
-  /// @brief Method remove_mirrorDidChangeEnabledStateEvent, addr 0x5d96044, size 0xc0, virtual false, abstract: false, final false
-  inline void remove_mirrorDidChangeEnabledStateEvent(::System::Action_1<bool>* value);
+/// @brief Method remove_mirrorDidChangeEnabledStateEvent, addr 0x5d96704, size 0xc0, virtual false, abstract: false, final false
+inline void remove_mirrorDidChangeEnabledStateEvent(::System::Action_1<bool>*  value) ;
 
-  static inline void setStaticF__texturePropertyID(int32_t value);
+static inline void setStaticF__texturePropertyID(int32_t  value) ;
 
-  /// @brief Method set_isEnabled, addr 0x5d95f7c, size 0x8, virtual false, abstract: false, final false
-  inline void set_isEnabled(bool value);
+/// @brief Method set_isEnabled, addr 0x5d9663c, size 0x8, virtual false, abstract: false, final false
+inline void set_isEnabled(bool  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Mirror();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr Mirror() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Mirror", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  Mirror(Mirror&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Mirror", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  Mirror(Mirror const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "Mirror", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+Mirror(Mirror && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20791 };
+// Ctor Parameters [CppParam { name: "", ty: "Mirror", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+Mirror(Mirror const& ) = delete;
 
-  /// @brief Field _mirrorRenderer, offset: 0x20, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::MirrorRendererSO> ____mirrorRenderer;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20795};
 
-  /// @brief Field _renderer, offset: 0x28, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::MeshRenderer> ____renderer;
+/// @brief Field _mirrorRenderer, offset: 0x20, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::MirrorRendererSO>  ____mirrorRenderer;
 
-  /// @brief Field _mirrorMaterial, offset: 0x30, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::Material> ____mirrorMaterial;
+/// @brief Field _renderer, offset: 0x28, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::MeshRenderer>  ____renderer;
 
-  /// @brief Field _noMirrorMaterial, offset: 0x38, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::Material> ____noMirrorMaterial;
+/// @brief Field _mirrorMaterial, offset: 0x30, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::Material>  ____mirrorMaterial;
 
-  /// @brief Field _reflectionPlaneTransform, offset: 0x40, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::Transform> ____reflectionPlaneTransform;
+/// @brief Field _noMirrorMaterial, offset: 0x38, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::Material>  ____noMirrorMaterial;
 
-  /// @brief Field <isEnabled>k__BackingField, offset: 0x48, size: 0x1, def value: None
-  bool ____isEnabled_k__BackingField;
+/// @brief Field _reflectionPlaneTransform, offset: 0x40, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::Transform>  ____reflectionPlaneTransform;
 
-  /// @brief Field mirrorDidChangeEnabledStateEvent, offset: 0x50, size: 0x8, def value: None
-  ::System::Action_1<bool>* ___mirrorDidChangeEnabledStateEvent;
+/// @brief Field <isEnabled>k__BackingField, offset: 0x48, size: 0x1, def value: None
+ bool  ____isEnabled_k__BackingField;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field mirrorDidChangeEnabledStateEvent, offset: 0x50, size: 0x8, def value: None
+ ::System::Action_1<bool>*  ___mirrorDidChangeEnabledStateEvent;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::Mirror, ____mirrorRenderer) == 0x20, "Offset mismatch!");
@@ -211,6 +211,6 @@ static_assert(offsetof(::GlobalNamespace::Mirror, ___mirrorDidChangeEnabledState
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::Mirror, 0x58>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::Mirror);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::Mirror*, "", "Mirror");

@@ -23,82 +23,79 @@ namespace UnityEngine {
 // CS Name: UnityEngine.ContactPairPoint
 struct CORDL_TYPE ContactPairPoint {
 public:
-  // Declarations
-  __declspec(property(get = get_Impulse)) ::UnityEngine::Vector3 Impulse;
+// Declarations
+ __declspec(property(get=get_Impulse)) ::UnityEngine::Vector3  Impulse;
 
-  __declspec(property(get = get_Normal)) ::UnityEngine::Vector3 Normal;
+ __declspec(property(get=get_Normal)) ::UnityEngine::Vector3  Normal;
 
-  __declspec(property(get = get_Position)) ::UnityEngine::Vector3 Position;
+ __declspec(property(get=get_Position)) ::UnityEngine::Vector3  Position;
 
-  __declspec(property(get = get_Separation)) float_t Separation;
+ __declspec(property(get=get_Separation)) float_t  Separation;
 
-  __declspec(property(get = get_impulse)) ::UnityEngine::Vector3 impulse;
+ __declspec(property(get=get_impulse)) ::UnityEngine::Vector3  impulse;
 
-  __declspec(property(get = get_normal)) ::UnityEngine::Vector3 normal;
+ __declspec(property(get=get_normal)) ::UnityEngine::Vector3  normal;
 
-  __declspec(property(get = get_position)) ::UnityEngine::Vector3 position;
+ __declspec(property(get=get_position)) ::UnityEngine::Vector3  position;
 
-  __declspec(property(get = get_separation)) float_t separation;
+ __declspec(property(get=get_separation)) float_t  separation;
 
-  /// @brief Method get_Impulse, addr 0x69c7cb0, size 0xc, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector3 get_Impulse();
+/// @brief Method get_Impulse, addr 0x69c8370, size 0xc, virtual false, abstract: false, final false
+inline ::UnityEngine::Vector3 get_Impulse() ;
 
-  /// @brief Method get_Normal, addr 0x69c7ca4, size 0xc, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector3 get_Normal();
+/// @brief Method get_Normal, addr 0x69c8364, size 0xc, virtual false, abstract: false, final false
+inline ::UnityEngine::Vector3 get_Normal() ;
 
-  /// @brief Method get_Position, addr 0x69c7c90, size 0xc, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector3 get_Position();
+/// @brief Method get_Position, addr 0x69c8350, size 0xc, virtual false, abstract: false, final false
+inline ::UnityEngine::Vector3 get_Position() ;
 
-  /// @brief Method get_Separation, addr 0x69c7c9c, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_Separation();
+/// @brief Method get_Separation, addr 0x69c835c, size 0x8, virtual false, abstract: false, final false
+inline float_t get_Separation() ;
 
-  /// @brief Method get_impulse, addr 0x69c7c84, size 0xc, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector3 get_impulse();
+/// @brief Method get_impulse, addr 0x69c8344, size 0xc, virtual false, abstract: false, final false
+inline ::UnityEngine::Vector3 get_impulse() ;
 
-  /// @brief Method get_normal, addr 0x69c7c78, size 0xc, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector3 get_normal();
+/// @brief Method get_normal, addr 0x69c8338, size 0xc, virtual false, abstract: false, final false
+inline ::UnityEngine::Vector3 get_normal() ;
 
-  /// @brief Method get_position, addr 0x69c7c64, size 0xc, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector3 get_position();
+/// @brief Method get_position, addr 0x69c8324, size 0xc, virtual false, abstract: false, final false
+inline ::UnityEngine::Vector3 get_position() ;
 
-  /// @brief Method get_separation, addr 0x69c7c70, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_separation();
+/// @brief Method get_separation, addr 0x69c8330, size 0x8, virtual false, abstract: false, final false
+inline float_t get_separation() ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ContactPairPoint();
+// Ctor Parameters []
+// @brief default ctor
+constexpr ContactPairPoint() ;
 
-  // Ctor Parameters [CppParam { name: "m_Position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "m_Separation", ty: "float_t", modifiers: "", def_value: None },
-  // CppParam { name: "m_Normal", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "m_InternalFaceIndex0", ty: "uint32_t", modifiers: "", def_value: None }, CppParam {
-  // name: "m_Impulse", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "m_InternalFaceIndex1", ty: "uint32_t", modifiers: "", def_value: None }]
-  constexpr ContactPairPoint(::UnityEngine::Vector3 m_Position, float_t m_Separation, ::UnityEngine::Vector3 m_Normal, uint32_t m_InternalFaceIndex0, ::UnityEngine::Vector3 m_Impulse,
-                             uint32_t m_InternalFaceIndex1) noexcept;
+// Ctor Parameters [CppParam { name: "m_Position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "m_Separation", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_Normal", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "m_InternalFaceIndex0", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "m_Impulse", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "m_InternalFaceIndex1", ty: "uint32_t", modifiers: "", def_value: None }]
+constexpr ContactPairPoint(::UnityEngine::Vector3  m_Position, float_t  m_Separation, ::UnityEngine::Vector3  m_Normal, uint32_t  m_InternalFaceIndex0, ::UnityEngine::Vector3  m_Impulse, uint32_t  m_InternalFaceIndex1) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18633 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{18637};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x30};
 
-  /// @brief Field m_Position, offset: 0x0, size: 0xc, def value: None
-  ::UnityEngine::Vector3 m_Position;
+/// @brief Field m_Position, offset: 0x0, size: 0xc, def value: None
+ ::UnityEngine::Vector3  m_Position;
 
-  /// @brief Field m_Separation, offset: 0xc, size: 0x4, def value: None
-  float_t m_Separation;
+/// @brief Field m_Separation, offset: 0xc, size: 0x4, def value: None
+ float_t  m_Separation;
 
-  /// @brief Field m_Normal, offset: 0x10, size: 0xc, def value: None
-  ::UnityEngine::Vector3 m_Normal;
+/// @brief Field m_Normal, offset: 0x10, size: 0xc, def value: None
+ ::UnityEngine::Vector3  m_Normal;
 
-  /// @brief Field m_InternalFaceIndex0, offset: 0x1c, size: 0x4, def value: None
-  uint32_t m_InternalFaceIndex0;
+/// @brief Field m_InternalFaceIndex0, offset: 0x1c, size: 0x4, def value: None
+ uint32_t  m_InternalFaceIndex0;
 
-  /// @brief Field m_Impulse, offset: 0x20, size: 0xc, def value: None
-  ::UnityEngine::Vector3 m_Impulse;
+/// @brief Field m_Impulse, offset: 0x20, size: 0xc, def value: None
+ ::UnityEngine::Vector3  m_Impulse;
 
-  /// @brief Field m_InternalFaceIndex1, offset: 0x2c, size: 0x4, def value: None
-  uint32_t m_InternalFaceIndex1;
+/// @brief Field m_InternalFaceIndex1, offset: 0x2c, size: 0x4, def value: None
+ uint32_t  m_InternalFaceIndex1;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::ContactPairPoint, m_Position) == 0x0, "Offset mismatch!");
@@ -115,5 +112,5 @@ static_assert(offsetof(::UnityEngine::ContactPairPoint, m_InternalFaceIndex1) ==
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ContactPairPoint, 0x30>, "Size mismatch!");
 
-} // namespace UnityEngine
+} // namespace end def UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ContactPairPoint, "UnityEngine", "ContactPairPoint");

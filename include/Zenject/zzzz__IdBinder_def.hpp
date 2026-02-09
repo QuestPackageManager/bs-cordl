@@ -23,51 +23,51 @@ namespace Zenject {
 // CS Name: Zenject.IdBinder
 class CORDL_TYPE IdBinder : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field _bindInfo, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__bindInfo, put = __cordl_internal_set__bindInfo)) ::Zenject::BindInfo* _bindInfo;
+// Declarations
+/// @brief Field _bindInfo, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get__bindInfo, put=__cordl_internal_set__bindInfo)) ::Zenject::BindInfo*  _bindInfo;
 
-  static inline ::Zenject::IdBinder* New_ctor(::Zenject::BindInfo* bindInfo);
+static inline ::Zenject::IdBinder* New_ctor(::Zenject::BindInfo*  bindInfo) ;
 
-  /// @brief Method WithId, addr 0x6c90bd0, size 0x18, virtual false, abstract: false, final false
-  inline void WithId(::System::Object* identifier);
+/// @brief Method WithId, addr 0x6c91290, size 0x18, virtual false, abstract: false, final false
+inline void WithId(::System::Object*  identifier) ;
 
-  constexpr ::Zenject::BindInfo* const& __cordl_internal_get__bindInfo() const;
+constexpr ::Zenject::BindInfo* const& __cordl_internal_get__bindInfo() const;
 
-  constexpr ::Zenject::BindInfo*& __cordl_internal_get__bindInfo();
+constexpr ::Zenject::BindInfo*& __cordl_internal_get__bindInfo() ;
 
-  constexpr void __cordl_internal_set__bindInfo(::Zenject::BindInfo* value);
+constexpr void __cordl_internal_set__bindInfo(::Zenject::BindInfo*  value) ;
 
-  /// @brief Method .ctor, addr 0x6c90bc8, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::Zenject::BindInfo* bindInfo);
+/// @brief Method .ctor, addr 0x6c91288, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(::Zenject::BindInfo*  bindInfo) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr IdBinder();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr IdBinder() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IdBinder", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IdBinder(IdBinder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IdBinder", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  IdBinder(IdBinder const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "IdBinder", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+IdBinder(IdBinder && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14247 };
+// Ctor Parameters [CppParam { name: "", ty: "IdBinder", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+IdBinder(IdBinder const& ) = delete;
 
-  /// @brief Field _bindInfo, offset: 0x10, size: 0x8, def value: None
-  ::Zenject::BindInfo* ____bindInfo;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{14251};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _bindInfo, offset: 0x10, size: 0x8, def value: None
+ ::Zenject::BindInfo*  ____bindInfo;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Zenject::IdBinder, ____bindInfo) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::Zenject::IdBinder, 0x18>, "Size mismatch!");
 
-} // namespace Zenject
+} // namespace end def Zenject
 NEED_NO_BOX(::Zenject::IdBinder);
 DEFINE_IL2CPP_ARG_TYPE(::Zenject::IdBinder*, "Zenject", "IdBinder");

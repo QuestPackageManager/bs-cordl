@@ -18,59 +18,59 @@ namespace GlobalNamespace {
 // CS Name: AddressablesConstants
 class CORDL_TYPE AddressablesConstants : public ::System::Object {
 public:
-  // Declarations
+// Declarations
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AddressablesConstants();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr AddressablesConstants() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AddressablesConstants", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  AddressablesConstants(AddressablesConstants&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AddressablesConstants", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  AddressablesConstants(AddressablesConstants const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "AddressablesConstants", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+AddressablesConstants(AddressablesConstants && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23286 };
+// Ctor Parameters [CppParam { name: "", ty: "AddressablesConstants", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+AddressablesConstants(AddressablesConstants const& ) = delete;
 
-  /// @brief Field kAllBeatmapCharacteristicsCollectionKey offset 0xffffffff size 0x8
-  static constexpr ::ConstString kAllBeatmapCharacteristicsCollectionKey{ u"AllBeatmapCharacteristicsCollection" };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{23290};
 
-  /// @brief Field kAvatarAdapterInstallerLabel offset 0xffffffff size 0x8
-  static constexpr ::ConstString kAvatarAdapterInstallerLabel{ u"AvatarAdapterInstaller" };
+/// @brief Field kAllBeatmapCharacteristicsCollectionKey offset 0xffffffff size 0x8
+static constexpr ::ConstString  kAllBeatmapCharacteristicsCollectionKey{u"AllBeatmapCharacteristicsCollection"};
 
-  /// @brief Field kColorSchemeLabel offset 0xffffffff size 0x8
-  static constexpr ::ConstString kColorSchemeLabel{ u"ColorScheme" };
+/// @brief Field kAvatarAdapterInstallerLabel offset 0xffffffff size 0x8
+static constexpr ::ConstString  kAvatarAdapterInstallerLabel{u"AvatarAdapterInstaller"};
 
-  /// @brief Field kEnvironmentInfoLabel offset 0xffffffff size 0x8
-  static constexpr ::ConstString kEnvironmentInfoLabel{ u"EnvironmentInfo" };
+/// @brief Field kColorSchemeLabel offset 0xffffffff size 0x8
+static constexpr ::ConstString  kColorSchemeLabel{u"ColorScheme"};
 
-  /// @brief Field kEnvironmentTracksDefinitionLabel offset 0xffffffff size 0x8
-  static constexpr ::ConstString kEnvironmentTracksDefinitionLabel{ u"EnvironmentTracksDefinition" };
+/// @brief Field kEnvironmentInfoLabel offset 0xffffffff size 0x8
+static constexpr ::ConstString  kEnvironmentInfoLabel{u"EnvironmentInfo"};
 
-  /// @brief Field kGameCreditsLabel offset 0xffffffff size 0x8
-  static constexpr ::ConstString kGameCreditsLabel{ u"GameCredits" };
+/// @brief Field kEnvironmentTracksDefinitionLabel offset 0xffffffff size 0x8
+static constexpr ::ConstString  kEnvironmentTracksDefinitionLabel{u"EnvironmentTracksDefinition"};
 
-  /// @brief Field kMusicPackCreditsLabel offset 0xffffffff size 0x8
-  static constexpr ::ConstString kMusicPackCreditsLabel{ u"MusicPackCredits" };
+/// @brief Field kGameCreditsLabel offset 0xffffffff size 0x8
+static constexpr ::ConstString  kGameCreditsLabel{u"GameCredits"};
 
-  /// @brief Field kPackDefinitionLabelKey offset 0xffffffff size 0x8
-  static constexpr ::ConstString kPackDefinitionLabelKey{ u"PackDefinition" };
+/// @brief Field kMusicPackCreditsLabel offset 0xffffffff size 0x8
+static constexpr ::ConstString  kMusicPackCreditsLabel{u"MusicPackCredits"};
 
-  /// @brief Field kResultEnvironmentKey offset 0xffffffff size 0x8
-  static constexpr ::ConstString kResultEnvironmentKey{ u"ResultEnvironment" };
+/// @brief Field kPackDefinitionLabelKey offset 0xffffffff size 0x8
+static constexpr ::ConstString  kPackDefinitionLabelKey{u"PackDefinition"};
 
-  /// @brief Field kTextMeshProFontKey offset 0xffffffff size 0x8
-  static constexpr ::ConstString kTextMeshProFontKey{ u"TextMeshProFont" };
+/// @brief Field kResultEnvironmentKey offset 0xffffffff size 0x8
+static constexpr ::ConstString  kResultEnvironmentKey{u"ResultEnvironment"};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field kTextMeshProFontKey offset 0xffffffff size 0x8
+static constexpr ::ConstString  kTextMeshProFontKey{u"TextMeshProFont"};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::AddressablesConstants, 0x10>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::AddressablesConstants);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::AddressablesConstants*, "", "AddressablesConstants");

@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "System/Globalization/Bootstring.hpp"
 #include "System/Globalization/Calendar.hpp"
@@ -57,5 +57,6 @@ module;
 #include "System/Globalization/UmAlQuraCalendar.hpp"
 #include "System/Globalization/UnicodeCategory.hpp"
 #ifdef __cpp_modules
-export module Globalization;
-#endif
+                    export module Globalization;
+                    #endif
+                

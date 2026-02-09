@@ -17,34 +17,34 @@ namespace System::Xml::Schema {
 // CS Name: System.Xml.Schema.XmlSchemaContent
 class CORDL_TYPE XmlSchemaContent : public ::System::Xml::Schema::XmlSchemaAnnotated {
 public:
-  // Declarations
-  static inline ::System::Xml::Schema::XmlSchemaContent* New_ctor();
+// Declarations
+static inline ::System::Xml::Schema::XmlSchemaContent* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x607956c, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6079c2c, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr XmlSchemaContent();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr XmlSchemaContent() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaContent", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  XmlSchemaContent(XmlSchemaContent&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaContent", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  XmlSchemaContent(XmlSchemaContent const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "XmlSchemaContent", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+XmlSchemaContent(XmlSchemaContent && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9736 };
+// Ctor Parameters [CppParam { name: "", ty: "XmlSchemaContent", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+XmlSchemaContent(XmlSchemaContent const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{9740};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::XmlSchemaContent, 0x50>, "Size mismatch!");
 
-} // namespace System::Xml::Schema
+} // namespace end def System::Xml::Schema
 NEED_NO_BOX(::System::Xml::Schema::XmlSchemaContent);
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::XmlSchemaContent*, "System.Xml.Schema", "XmlSchemaContent");

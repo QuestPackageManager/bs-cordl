@@ -21,58 +21,58 @@ namespace GlobalNamespace {
 // CS Name: SongTimeToShaderWriter
 class CORDL_TYPE SongTimeToShaderWriter : public ::UnityEngine::MonoBehaviour {
 public:
-  // Declarations
-  /// @brief Field _audioTimeSource, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__audioTimeSource, put = __cordl_internal_set__audioTimeSource)) ::GlobalNamespace::IAudioTimeSource* _audioTimeSource;
+// Declarations
+/// @brief Field _audioTimeSource, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get__audioTimeSource, put=__cordl_internal_set__audioTimeSource)) ::GlobalNamespace::IAudioTimeSource*  _audioTimeSource;
 
-  /// @brief Field _songTimePropertyId, offset 0xffffffff, size 0x4
-  __declspec(property(get = getStaticF__songTimePropertyId, put = setStaticF__songTimePropertyId)) int32_t _songTimePropertyId;
+/// @brief Field _songTimePropertyId, offset 0xffffffff, size 0x4 
+ __declspec(property(get=getStaticF__songTimePropertyId, put=setStaticF__songTimePropertyId)) int32_t  _songTimePropertyId;
 
-  static inline ::GlobalNamespace::SongTimeToShaderWriter* New_ctor();
+static inline ::GlobalNamespace::SongTimeToShaderWriter* New_ctor() ;
 
-  /// @brief Method Update, addr 0x5772314, size 0x244, virtual false, abstract: false, final false
-  inline void Update();
+/// @brief Method Update, addr 0x5772c44, size 0x244, virtual false, abstract: false, final false
+inline void Update() ;
 
-  constexpr ::GlobalNamespace::IAudioTimeSource* const& __cordl_internal_get__audioTimeSource() const;
+constexpr ::GlobalNamespace::IAudioTimeSource* const& __cordl_internal_get__audioTimeSource() const;
 
-  constexpr ::GlobalNamespace::IAudioTimeSource*& __cordl_internal_get__audioTimeSource();
+constexpr ::GlobalNamespace::IAudioTimeSource*& __cordl_internal_get__audioTimeSource() ;
 
-  constexpr void __cordl_internal_set__audioTimeSource(::GlobalNamespace::IAudioTimeSource* value);
+constexpr void __cordl_internal_set__audioTimeSource(::GlobalNamespace::IAudioTimeSource*  value) ;
 
-  /// @brief Method .ctor, addr 0x5772558, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5772e88, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  static inline int32_t getStaticF__songTimePropertyId();
+static inline int32_t getStaticF__songTimePropertyId() ;
 
-  static inline void setStaticF__songTimePropertyId(int32_t value);
+static inline void setStaticF__songTimePropertyId(int32_t  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SongTimeToShaderWriter();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr SongTimeToShaderWriter() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SongTimeToShaderWriter", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  SongTimeToShaderWriter(SongTimeToShaderWriter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SongTimeToShaderWriter", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  SongTimeToShaderWriter(SongTimeToShaderWriter const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "SongTimeToShaderWriter", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+SongTimeToShaderWriter(SongTimeToShaderWriter && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6756 };
+// Ctor Parameters [CppParam { name: "", ty: "SongTimeToShaderWriter", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+SongTimeToShaderWriter(SongTimeToShaderWriter const& ) = delete;
 
-  /// @brief Field _audioTimeSource, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::IAudioTimeSource* ____audioTimeSource;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6760};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _audioTimeSource, offset: 0x20, size: 0x8, def value: None
+ ::GlobalNamespace::IAudioTimeSource*  ____audioTimeSource;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::SongTimeToShaderWriter, ____audioTimeSource) == 0x20, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SongTimeToShaderWriter, 0x28>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SongTimeToShaderWriter);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SongTimeToShaderWriter*, "", "SongTimeToShaderWriter");

@@ -9,7 +9,8 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(RasterState)
 namespace System {
-template <typename T> class IEquatable_1;
+template<typename T>
+class IEquatable_1;
 }
 namespace System {
 class Object;
@@ -29,71 +30,67 @@ namespace UnityEngine::Rendering {
 // CS Name: UnityEngine.Rendering.RasterState
 struct CORDL_TYPE RasterState {
 public:
-  // Declarations
-  /// @brief Field defaultValue, offset 0xffffffff, size 0x10
-  __declspec(property(get = getStaticF_defaultValue, put = setStaticF_defaultValue)) ::UnityEngine::Rendering::RasterState defaultValue;
+// Declarations
+/// @brief Field defaultValue, offset 0xffffffff, size 0x10 
+ __declspec(property(get=getStaticF_defaultValue, put=setStaticF_defaultValue)) ::UnityEngine::Rendering::RasterState  defaultValue;
 
-  /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::RasterState>"
-  constexpr operator ::System::IEquatable_1<::UnityEngine::Rendering::RasterState>*();
+/// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::RasterState>"
+constexpr operator  ::System::IEquatable_1<::UnityEngine::Rendering::RasterState>*() ;
 
-  /// @brief Method Equals, addr 0x69569f4, size 0xb4, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* obj);
+/// @brief Method Equals, addr 0x69570b4, size 0xb4, virtual true, abstract: false, final false
+inline bool Equals(::System::Object*  obj) ;
 
-  /// @brief Method Equals, addr 0x6956978, size 0x7c, virtual true, abstract: false, final true
-  inline bool Equals(::UnityEngine::Rendering::RasterState other);
+/// @brief Method Equals, addr 0x6957038, size 0x7c, virtual true, abstract: false, final true
+inline bool Equals(::UnityEngine::Rendering::RasterState  other) ;
 
-  /// @brief Method GetHashCode, addr 0x6956aa8, size 0x48, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
+/// @brief Method GetHashCode, addr 0x6957168, size 0x48, virtual true, abstract: false, final false
+inline int32_t GetHashCode() ;
 
-  /// @brief Method .ctor, addr 0x69568e4, size 0x94, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::Rendering::CullMode cullingMode, int32_t offsetUnits, float_t offsetFactor, bool depthClip);
+/// @brief Method .ctor, addr 0x6956fa4, size 0x94, virtual false, abstract: false, final false
+inline void _ctor(::UnityEngine::Rendering::CullMode  cullingMode, int32_t  offsetUnits, float_t  offsetFactor, bool  depthClip) ;
 
-  static inline ::UnityEngine::Rendering::RasterState getStaticF_defaultValue();
+static inline ::UnityEngine::Rendering::RasterState getStaticF_defaultValue() ;
 
-  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rendering::RasterState>"
-  constexpr ::System::IEquatable_1<::UnityEngine::Rendering::RasterState>* i___System__IEquatable_1___UnityEngine__Rendering__RasterState_();
+/// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rendering::RasterState>"
+constexpr ::System::IEquatable_1<::UnityEngine::Rendering::RasterState>* i___System__IEquatable_1___UnityEngine__Rendering__RasterState_() ;
 
-  static inline void setStaticF_defaultValue(::UnityEngine::Rendering::RasterState value);
+static inline void setStaticF_defaultValue(::UnityEngine::Rendering::RasterState  value) ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RasterState();
+// Ctor Parameters []
+// @brief default ctor
+constexpr RasterState() ;
 
-  // Ctor Parameters [CppParam { name: "m_CullingMode", ty: "::UnityEngine::Rendering::CullMode", modifiers: "", def_value: None }, CppParam { name: "m_OffsetUnits", ty: "int32_t", modifiers: "",
-  // def_value: None }, CppParam { name: "m_OffsetFactor", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_DepthClip", ty: "uint8_t", modifiers: "", def_value: None }, CppParam {
-  // name: "m_Conservative", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "m_Padding1", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "m_Padding2", ty:
-  // "uint8_t", modifiers: "", def_value: None }]
-  constexpr RasterState(::UnityEngine::Rendering::CullMode m_CullingMode, int32_t m_OffsetUnits, float_t m_OffsetFactor, uint8_t m_DepthClip, uint8_t m_Conservative, uint8_t m_Padding1,
-                        uint8_t m_Padding2) noexcept;
+// Ctor Parameters [CppParam { name: "m_CullingMode", ty: "::UnityEngine::Rendering::CullMode", modifiers: "", def_value: None }, CppParam { name: "m_OffsetUnits", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_OffsetFactor", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_DepthClip", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "m_Conservative", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "m_Padding1", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "m_Padding2", ty: "uint8_t", modifiers: "", def_value: None }]
+constexpr RasterState(::UnityEngine::Rendering::CullMode  m_CullingMode, int32_t  m_OffsetUnits, float_t  m_OffsetFactor, uint8_t  m_DepthClip, uint8_t  m_Conservative, uint8_t  m_Padding1, uint8_t  m_Padding2) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10791 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10795};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x10};
 
-  /// @brief Field m_CullingMode, offset: 0x0, size: 0x4, def value: None
-  ::UnityEngine::Rendering::CullMode m_CullingMode;
+/// @brief Field m_CullingMode, offset: 0x0, size: 0x4, def value: None
+ ::UnityEngine::Rendering::CullMode  m_CullingMode;
 
-  /// @brief Field m_OffsetUnits, offset: 0x4, size: 0x4, def value: None
-  int32_t m_OffsetUnits;
+/// @brief Field m_OffsetUnits, offset: 0x4, size: 0x4, def value: None
+ int32_t  m_OffsetUnits;
 
-  /// @brief Field m_OffsetFactor, offset: 0x8, size: 0x4, def value: None
-  float_t m_OffsetFactor;
+/// @brief Field m_OffsetFactor, offset: 0x8, size: 0x4, def value: None
+ float_t  m_OffsetFactor;
 
-  /// @brief Field m_DepthClip, offset: 0xc, size: 0x1, def value: None
-  uint8_t m_DepthClip;
+/// @brief Field m_DepthClip, offset: 0xc, size: 0x1, def value: None
+ uint8_t  m_DepthClip;
 
-  /// @brief Field m_Conservative, offset: 0xd, size: 0x1, def value: None
-  uint8_t m_Conservative;
+/// @brief Field m_Conservative, offset: 0xd, size: 0x1, def value: None
+ uint8_t  m_Conservative;
 
-  /// @brief Field m_Padding1, offset: 0xe, size: 0x1, def value: None
-  uint8_t m_Padding1;
+/// @brief Field m_Padding1, offset: 0xe, size: 0x1, def value: None
+ uint8_t  m_Padding1;
 
-  /// @brief Field m_Padding2, offset: 0xf, size: 0x1, def value: None
-  uint8_t m_Padding2;
+/// @brief Field m_Padding2, offset: 0xf, size: 0x1, def value: None
+ uint8_t  m_Padding2;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Rendering::RasterState, m_CullingMode) == 0x0, "Offset mismatch!");
@@ -112,5 +109,5 @@ static_assert(offsetof(::UnityEngine::Rendering::RasterState, m_Padding2) == 0xf
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::RasterState, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine::Rendering
+} // namespace end def UnityEngine::Rendering
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::RasterState, "UnityEngine.Rendering", "RasterState");

@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "System/Xml/XPath/XPathDocument.hpp"
 #include "System/Xml/XPath/XPathException.hpp"
@@ -12,5 +12,6 @@ module;
 #include "System/Xml/XPath/XPathNodeType.hpp"
 #include "System/Xml/XPath/XPathResultType.hpp"
 #ifdef __cpp_modules
-export module XPath;
-#endif
+                    export module XPath;
+                    #endif
+                

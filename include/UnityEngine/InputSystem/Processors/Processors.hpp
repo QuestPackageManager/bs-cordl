@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "UnityEngine/InputSystem/Processors/AxisDeadzoneProcessor.hpp"
 #include "UnityEngine/InputSystem/Processors/ClampProcessor.hpp"
@@ -18,5 +18,6 @@ module;
 #include "UnityEngine/InputSystem/Processors/ScaleVector3Processor.hpp"
 #include "UnityEngine/InputSystem/Processors/StickDeadzoneProcessor.hpp"
 #ifdef __cpp_modules
-export module Processors;
-#endif
+                    export module Processors;
+                    #endif
+                

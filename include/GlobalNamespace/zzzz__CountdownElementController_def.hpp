@@ -24,60 +24,60 @@ namespace GlobalNamespace {
 // CS Name: CountdownElementController
 class CORDL_TYPE CountdownElementController : public ::UnityEngine::MonoBehaviour {
 public:
-  // Declarations
-  /// @brief Field _animation, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__animation, put = __cordl_internal_set__animation)) ::UnityW<::UnityEngine::Animation> _animation;
+// Declarations
+/// @brief Field _animation, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get__animation, put=__cordl_internal_set__animation)) ::UnityW<::UnityEngine::Animation>  _animation;
 
-  /// @brief Field _text, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__text, put = __cordl_internal_set__text)) ::UnityW<::TMPro::TextMeshProUGUI> _text;
+/// @brief Field _text, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get__text, put=__cordl_internal_set__text)) ::UnityW<::TMPro::TextMeshProUGUI>  _text;
 
-  static inline ::GlobalNamespace::CountdownElementController* New_ctor();
+static inline ::GlobalNamespace::CountdownElementController* New_ctor() ;
 
-  /// @brief Method SetTextAndRunAnimation, addr 0x5868268, size 0x60, virtual false, abstract: false, final false
-  inline void SetTextAndRunAnimation(::StringW text);
+/// @brief Method SetTextAndRunAnimation, addr 0x5869014, size 0x60, virtual false, abstract: false, final false
+inline void SetTextAndRunAnimation(::StringW  text) ;
 
-  /// @brief Method StopAndHide, addr 0x58683b8, size 0x24, virtual false, abstract: false, final false
-  inline void StopAndHide();
+/// @brief Method StopAndHide, addr 0x5869164, size 0x24, virtual false, abstract: false, final false
+inline void StopAndHide() ;
 
-  constexpr ::UnityW<::UnityEngine::Animation> const& __cordl_internal_get__animation() const;
+constexpr ::UnityW<::UnityEngine::Animation> const& __cordl_internal_get__animation() const;
 
-  constexpr ::UnityW<::UnityEngine::Animation>& __cordl_internal_get__animation();
+constexpr ::UnityW<::UnityEngine::Animation>& __cordl_internal_get__animation() ;
 
-  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__text() const;
+constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__text() const;
 
-  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__text();
+constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__text() ;
 
-  constexpr void __cordl_internal_set__animation(::UnityW<::UnityEngine::Animation> value);
+constexpr void __cordl_internal_set__animation(::UnityW<::UnityEngine::Animation>  value) ;
 
-  constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshProUGUI> value);
+constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshProUGUI>  value) ;
 
-  /// @brief Method .ctor, addr 0x5868534, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x58692e0, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CountdownElementController();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr CountdownElementController() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CountdownElementController", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  CountdownElementController(CountdownElementController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CountdownElementController", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  CountdownElementController(CountdownElementController const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "CountdownElementController", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+CountdownElementController(CountdownElementController && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6410 };
+// Ctor Parameters [CppParam { name: "", ty: "CountdownElementController", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+CountdownElementController(CountdownElementController const& ) = delete;
 
-  /// @brief Field _text, offset: 0x20, size: 0x8, def value: None
-  ::UnityW<::TMPro::TextMeshProUGUI> ____text;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6411};
 
-  /// @brief Field _animation, offset: 0x28, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::Animation> ____animation;
+/// @brief Field _text, offset: 0x20, size: 0x8, def value: None
+ ::UnityW<::TMPro::TextMeshProUGUI>  ____text;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _animation, offset: 0x28, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::Animation>  ____animation;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::CountdownElementController, ____text) == 0x20, "Offset mismatch!");
@@ -86,6 +86,6 @@ static_assert(offsetof(::GlobalNamespace::CountdownElementController, ____animat
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::CountdownElementController, 0x30>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::CountdownElementController);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::CountdownElementController*, "", "CountdownElementController");

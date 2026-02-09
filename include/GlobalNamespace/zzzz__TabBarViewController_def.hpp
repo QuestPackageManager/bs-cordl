@@ -39,54 +39,54 @@ namespace GlobalNamespace {
 // CS Name: TabBarViewController/TabBarItem
 class CORDL_TYPE TabBarViewController_TabBarItem : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field action, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_action, put = __cordl_internal_set_action)) ::System::Action* action;
+// Declarations
+/// @brief Field action, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_action, put=__cordl_internal_set_action)) ::System::Action*  action;
 
-  /// @brief Field title, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_title, put = __cordl_internal_set_title)) ::StringW title;
+/// @brief Field title, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_title, put=__cordl_internal_set_title)) ::StringW  title;
 
-  static inline ::GlobalNamespace::TabBarViewController_TabBarItem* New_ctor(::StringW title, ::System::Action* action);
+static inline ::GlobalNamespace::TabBarViewController_TabBarItem* New_ctor(::StringW  title, ::System::Action*  action) ;
 
-  constexpr ::System::Action* const& __cordl_internal_get_action() const;
+constexpr ::System::Action* const& __cordl_internal_get_action() const;
 
-  constexpr ::System::Action*& __cordl_internal_get_action();
+constexpr ::System::Action*& __cordl_internal_get_action() ;
 
-  constexpr ::StringW const& __cordl_internal_get_title() const;
+constexpr ::StringW const& __cordl_internal_get_title() const;
 
-  constexpr ::StringW& __cordl_internal_get_title();
+constexpr ::StringW& __cordl_internal_get_title() ;
 
-  constexpr void __cordl_internal_set_action(::System::Action* value);
+constexpr void __cordl_internal_set_action(::System::Action*  value) ;
 
-  constexpr void __cordl_internal_set_title(::StringW value);
+constexpr void __cordl_internal_set_title(::StringW  value) ;
 
-  /// @brief Method .ctor, addr 0x573bb98, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::StringW title, ::System::Action* action);
+/// @brief Method .ctor, addr 0x573c3fc, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(::StringW  title, ::System::Action*  action) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TabBarViewController_TabBarItem();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr TabBarViewController_TabBarItem() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TabBarViewController_TabBarItem", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  TabBarViewController_TabBarItem(TabBarViewController_TabBarItem&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TabBarViewController_TabBarItem", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  TabBarViewController_TabBarItem(TabBarViewController_TabBarItem const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "TabBarViewController_TabBarItem", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+TabBarViewController_TabBarItem(TabBarViewController_TabBarItem && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6541 };
+// Ctor Parameters [CppParam { name: "", ty: "TabBarViewController_TabBarItem", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+TabBarViewController_TabBarItem(TabBarViewController_TabBarItem const& ) = delete;
 
-  /// @brief Field title, offset: 0x10, size: 0x8, def value: None
-  ::StringW ___title;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6544};
 
-  /// @brief Field action, offset: 0x18, size: 0x8, def value: None
-  ::System::Action* ___action;
+/// @brief Field title, offset: 0x10, size: 0x8, def value: None
+ ::StringW  ___title;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field action, offset: 0x18, size: 0x8, def value: None
+ ::System::Action*  ___action;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::TabBarViewController_TabBarItem, ___title) == 0x10, "Offset mismatch!");
@@ -95,132 +95,130 @@ static_assert(offsetof(::GlobalNamespace::TabBarViewController_TabBarItem, ___ac
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::TabBarViewController_TabBarItem, 0x20>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 // Dependencies HMUI.ViewController
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: TabBarViewController
 class CORDL_TYPE TabBarViewController : public ::HMUI::ViewController {
 public:
-  // Declarations
-  using TabBarItem = ::GlobalNamespace::TabBarViewController_TabBarItem;
+// Declarations
+using TabBarItem = ::GlobalNamespace::TabBarViewController_TabBarItem;
 
-  /// @brief Field _contentSizeFilter, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get__contentSizeFilter, put = __cordl_internal_set__contentSizeFilter)) ::UnityW<::UnityEngine::UI::ContentSizeFitter> _contentSizeFilter;
+/// @brief Field _contentSizeFilter, offset 0x80, size 0x8 
+ __declspec(property(get=__cordl_internal_get__contentSizeFilter, put=__cordl_internal_set__contentSizeFilter)) ::UnityW<::UnityEngine::UI::ContentSizeFitter>  _contentSizeFilter;
 
-  /// @brief Field _items, offset 0x90, size 0x8
-  __declspec(property(get = __cordl_internal_get__items,
-                      put = __cordl_internal_set__items)) ::ArrayW<::GlobalNamespace::TabBarViewController_TabBarItem*, ::Array<::GlobalNamespace::TabBarViewController_TabBarItem*>*>
-      _items;
+/// @brief Field _items, offset 0x90, size 0x8 
+ __declspec(property(get=__cordl_internal_get__items, put=__cordl_internal_set__items)) ::ArrayW<::GlobalNamespace::TabBarViewController_TabBarItem*,::Array<::GlobalNamespace::TabBarViewController_TabBarItem*>*>  _items;
 
-  /// @brief Field _labels, offset 0x88, size 0x8
-  __declspec(property(get = __cordl_internal_get__labels, put = __cordl_internal_set__labels)) ::ArrayW<::StringW, ::Array<::StringW>*> _labels;
+/// @brief Field _labels, offset 0x88, size 0x8 
+ __declspec(property(get=__cordl_internal_get__labels, put=__cordl_internal_set__labels)) ::ArrayW<::StringW,::Array<::StringW>*>  _labels;
 
-  /// @brief Field _segmentedControll, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get__segmentedControll, put = __cordl_internal_set__segmentedControll)) ::UnityW<::HMUI::TextSegmentedControl> _segmentedControll;
+/// @brief Field _segmentedControll, offset 0x78, size 0x8 
+ __declspec(property(get=__cordl_internal_get__segmentedControll, put=__cordl_internal_set__segmentedControll)) ::UnityW<::HMUI::TextSegmentedControl>  _segmentedControll;
 
-  /// @brief Field _shouldReloadData, offset 0x98, size 0x1
-  __declspec(property(get = __cordl_internal_get__shouldReloadData, put = __cordl_internal_set__shouldReloadData)) bool _shouldReloadData;
+/// @brief Field _shouldReloadData, offset 0x98, size 0x1 
+ __declspec(property(get=__cordl_internal_get__shouldReloadData, put=__cordl_internal_set__shouldReloadData)) bool  _shouldReloadData;
 
-  __declspec(property(get = get_selectedCellNumber)) int32_t selectedCellNumber;
+ __declspec(property(get=get_selectedCellNumber)) int32_t  selectedCellNumber;
 
-  __declspec(property(get = get_sizeToFit, put = set_sizeToFit)) bool sizeToFit;
+ __declspec(property(get=get_sizeToFit, put=set_sizeToFit)) bool  sizeToFit;
 
-  /// @brief Method Clear, addr 0x573b928, size 0x58, virtual false, abstract: false, final false
-  inline void Clear();
+/// @brief Method Clear, addr 0x573c18c, size 0x58, virtual false, abstract: false, final false
+inline void Clear() ;
 
-  /// @brief Method DidActivate, addr 0x573b980, size 0xe0, virtual true, abstract: false, final false
-  inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
+/// @brief Method DidActivate, addr 0x573c1e4, size 0xe0, virtual true, abstract: false, final false
+inline void DidActivate(bool  firstActivation, bool  addedToHierarchy, bool  screenSystemEnabling) ;
 
-  /// @brief Method HandleDidSelectCell, addr 0x573bb44, size 0x50, virtual false, abstract: false, final false
-  inline void HandleDidSelectCell(::HMUI::SegmentedControl* segmentedControl, int32_t cellNumber);
+/// @brief Method HandleDidSelectCell, addr 0x573c3a8, size 0x50, virtual false, abstract: false, final false
+inline void HandleDidSelectCell(::HMUI::SegmentedControl*  segmentedControl, int32_t  cellNumber) ;
 
-  static inline ::GlobalNamespace::TabBarViewController* New_ctor();
+static inline ::GlobalNamespace::TabBarViewController* New_ctor() ;
 
-  /// @brief Method OnDestroy, addr 0x573ba60, size 0xe4, virtual true, abstract: false, final false
-  inline void OnDestroy();
+/// @brief Method OnDestroy, addr 0x573c2c4, size 0xe4, virtual true, abstract: false, final false
+inline void OnDestroy() ;
 
-  /// @brief Method SelectItem, addr 0x573b910, size 0x18, virtual false, abstract: false, final false
-  inline void SelectItem(int32_t index);
+/// @brief Method SelectItem, addr 0x573c174, size 0x18, virtual false, abstract: false, final false
+inline void SelectItem(int32_t  index) ;
 
-  /// @brief Method Setup, addr 0x573b75c, size 0x1b4, virtual false, abstract: false, final false
-  inline void Setup(::ArrayW<::GlobalNamespace::TabBarViewController_TabBarItem*, ::Array<::GlobalNamespace::TabBarViewController_TabBarItem*>*> items);
+/// @brief Method Setup, addr 0x573bfc0, size 0x1b4, virtual false, abstract: false, final false
+inline void Setup(::ArrayW<::GlobalNamespace::TabBarViewController_TabBarItem*,::Array<::GlobalNamespace::TabBarViewController_TabBarItem*>*>  items) ;
 
-  constexpr ::UnityW<::UnityEngine::UI::ContentSizeFitter> const& __cordl_internal_get__contentSizeFilter() const;
+constexpr ::UnityW<::UnityEngine::UI::ContentSizeFitter> const& __cordl_internal_get__contentSizeFilter() const;
 
-  constexpr ::UnityW<::UnityEngine::UI::ContentSizeFitter>& __cordl_internal_get__contentSizeFilter();
+constexpr ::UnityW<::UnityEngine::UI::ContentSizeFitter>& __cordl_internal_get__contentSizeFilter() ;
 
-  constexpr ::ArrayW<::GlobalNamespace::TabBarViewController_TabBarItem*, ::Array<::GlobalNamespace::TabBarViewController_TabBarItem*>*> const& __cordl_internal_get__items() const;
+constexpr ::ArrayW<::GlobalNamespace::TabBarViewController_TabBarItem*,::Array<::GlobalNamespace::TabBarViewController_TabBarItem*>*> const& __cordl_internal_get__items() const;
 
-  constexpr ::ArrayW<::GlobalNamespace::TabBarViewController_TabBarItem*, ::Array<::GlobalNamespace::TabBarViewController_TabBarItem*>*>& __cordl_internal_get__items();
+constexpr ::ArrayW<::GlobalNamespace::TabBarViewController_TabBarItem*,::Array<::GlobalNamespace::TabBarViewController_TabBarItem*>*>& __cordl_internal_get__items() ;
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get__labels() const;
+constexpr ::ArrayW<::StringW,::Array<::StringW>*> const& __cordl_internal_get__labels() const;
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get__labels();
+constexpr ::ArrayW<::StringW,::Array<::StringW>*>& __cordl_internal_get__labels() ;
 
-  constexpr ::UnityW<::HMUI::TextSegmentedControl> const& __cordl_internal_get__segmentedControll() const;
+constexpr ::UnityW<::HMUI::TextSegmentedControl> const& __cordl_internal_get__segmentedControll() const;
 
-  constexpr ::UnityW<::HMUI::TextSegmentedControl>& __cordl_internal_get__segmentedControll();
+constexpr ::UnityW<::HMUI::TextSegmentedControl>& __cordl_internal_get__segmentedControll() ;
 
-  constexpr bool const& __cordl_internal_get__shouldReloadData() const;
+constexpr bool const& __cordl_internal_get__shouldReloadData() const;
 
-  constexpr bool& __cordl_internal_get__shouldReloadData();
+constexpr bool& __cordl_internal_get__shouldReloadData() ;
 
-  constexpr void __cordl_internal_set__contentSizeFilter(::UnityW<::UnityEngine::UI::ContentSizeFitter> value);
+constexpr void __cordl_internal_set__contentSizeFilter(::UnityW<::UnityEngine::UI::ContentSizeFitter>  value) ;
 
-  constexpr void __cordl_internal_set__items(::ArrayW<::GlobalNamespace::TabBarViewController_TabBarItem*, ::Array<::GlobalNamespace::TabBarViewController_TabBarItem*>*> value);
+constexpr void __cordl_internal_set__items(::ArrayW<::GlobalNamespace::TabBarViewController_TabBarItem*,::Array<::GlobalNamespace::TabBarViewController_TabBarItem*>*>  value) ;
 
-  constexpr void __cordl_internal_set__labels(::ArrayW<::StringW, ::Array<::StringW>*> value);
+constexpr void __cordl_internal_set__labels(::ArrayW<::StringW,::Array<::StringW>*>  value) ;
 
-  constexpr void __cordl_internal_set__segmentedControll(::UnityW<::HMUI::TextSegmentedControl> value);
+constexpr void __cordl_internal_set__segmentedControll(::UnityW<::HMUI::TextSegmentedControl>  value) ;
 
-  constexpr void __cordl_internal_set__shouldReloadData(bool value);
+constexpr void __cordl_internal_set__shouldReloadData(bool  value) ;
 
-  /// @brief Method .ctor, addr 0x573bb94, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x573c3f8, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_selectedCellNumber, addr 0x573b744, size 0x18, virtual false, abstract: false, final false
-  inline int32_t get_selectedCellNumber();
+/// @brief Method get_selectedCellNumber, addr 0x573bfa8, size 0x18, virtual false, abstract: false, final false
+inline int32_t get_selectedCellNumber() ;
 
-  /// @brief Method get_sizeToFit, addr 0x573b72c, size 0x18, virtual false, abstract: false, final false
-  inline bool get_sizeToFit();
+/// @brief Method get_sizeToFit, addr 0x573bf90, size 0x18, virtual false, abstract: false, final false
+inline bool get_sizeToFit() ;
 
-  /// @brief Method set_sizeToFit, addr 0x573b710, size 0x1c, virtual false, abstract: false, final false
-  inline void set_sizeToFit(bool value);
+/// @brief Method set_sizeToFit, addr 0x573bf74, size 0x1c, virtual false, abstract: false, final false
+inline void set_sizeToFit(bool  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TabBarViewController();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr TabBarViewController() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TabBarViewController", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  TabBarViewController(TabBarViewController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TabBarViewController", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  TabBarViewController(TabBarViewController const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "TabBarViewController", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+TabBarViewController(TabBarViewController && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6542 };
+// Ctor Parameters [CppParam { name: "", ty: "TabBarViewController", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+TabBarViewController(TabBarViewController const& ) = delete;
 
-  /// @brief Field _segmentedControll, offset: 0x78, size: 0x8, def value: None
-  ::UnityW<::HMUI::TextSegmentedControl> ____segmentedControll;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6545};
 
-  /// @brief Field _contentSizeFilter, offset: 0x80, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::UI::ContentSizeFitter> ____contentSizeFilter;
+/// @brief Field _segmentedControll, offset: 0x78, size: 0x8, def value: None
+ ::UnityW<::HMUI::TextSegmentedControl>  ____segmentedControll;
 
-  /// @brief Field _labels, offset: 0x88, size: 0x8, def value: None
-  ::ArrayW<::StringW, ::Array<::StringW>*> ____labels;
+/// @brief Field _contentSizeFilter, offset: 0x80, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::UI::ContentSizeFitter>  ____contentSizeFilter;
 
-  /// @brief Field _items, offset: 0x90, size: 0x8, def value: None
-  ::ArrayW<::GlobalNamespace::TabBarViewController_TabBarItem*, ::Array<::GlobalNamespace::TabBarViewController_TabBarItem*>*> ____items;
+/// @brief Field _labels, offset: 0x88, size: 0x8, def value: None
+ ::ArrayW<::StringW,::Array<::StringW>*>  ____labels;
 
-  /// @brief Field _shouldReloadData, offset: 0x98, size: 0x1, def value: None
-  bool ____shouldReloadData;
+/// @brief Field _items, offset: 0x90, size: 0x8, def value: None
+ ::ArrayW<::GlobalNamespace::TabBarViewController_TabBarItem*,::Array<::GlobalNamespace::TabBarViewController_TabBarItem*>*>  ____items;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _shouldReloadData, offset: 0x98, size: 0x1, def value: None
+ bool  ____shouldReloadData;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::TabBarViewController, ____segmentedControll) == 0x78, "Offset mismatch!");
@@ -235,7 +233,7 @@ static_assert(offsetof(::GlobalNamespace::TabBarViewController, ____shouldReload
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::TabBarViewController, 0xa0>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::TabBarViewController);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::TabBarViewController*, "", "TabBarViewController");
 NEED_NO_BOX(::GlobalNamespace::TabBarViewController_TabBarItem);

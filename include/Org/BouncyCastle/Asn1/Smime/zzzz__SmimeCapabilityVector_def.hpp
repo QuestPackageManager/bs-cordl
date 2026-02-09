@@ -27,60 +27,60 @@ namespace Org::BouncyCastle::Asn1::Smime {
 // CS Name: Org.BouncyCastle.Asn1.Smime.SmimeCapabilityVector
 class CORDL_TYPE SmimeCapabilityVector : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field capabilities, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_capabilities, put = __cordl_internal_set_capabilities)) ::Org::BouncyCastle::Asn1::Asn1EncodableVector* capabilities;
+// Declarations
+/// @brief Field capabilities, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_capabilities, put=__cordl_internal_set_capabilities)) ::Org::BouncyCastle::Asn1::Asn1EncodableVector*  capabilities;
 
-  /// @brief Method AddCapability, addr 0x3450828, size 0x7c, virtual false, abstract: false, final false
-  inline void AddCapability(::Org::BouncyCastle::Asn1::DerObjectIdentifier* capability);
+/// @brief Method AddCapability, addr 0x3450778, size 0x7c, virtual false, abstract: false, final false
+inline void AddCapability(::Org::BouncyCastle::Asn1::DerObjectIdentifier*  capability) ;
 
-  /// @brief Method AddCapability, addr 0x34509dc, size 0x108, virtual false, abstract: false, final false
-  inline void AddCapability(::Org::BouncyCastle::Asn1::DerObjectIdentifier* capability, ::Org::BouncyCastle::Asn1::Asn1Encodable* parameters);
+/// @brief Method AddCapability, addr 0x345092c, size 0x108, virtual false, abstract: false, final false
+inline void AddCapability(::Org::BouncyCastle::Asn1::DerObjectIdentifier*  capability, ::Org::BouncyCastle::Asn1::Asn1Encodable*  parameters) ;
 
-  /// @brief Method AddCapability, addr 0x34508a4, size 0x138, virtual false, abstract: false, final false
-  inline void AddCapability(::Org::BouncyCastle::Asn1::DerObjectIdentifier* capability, int32_t value);
+/// @brief Method AddCapability, addr 0x34507f4, size 0x138, virtual false, abstract: false, final false
+inline void AddCapability(::Org::BouncyCastle::Asn1::DerObjectIdentifier*  capability, int32_t  value) ;
 
-  static inline ::Org::BouncyCastle::Asn1::Smime::SmimeCapabilityVector* New_ctor();
+static inline ::Org::BouncyCastle::Asn1::Smime::SmimeCapabilityVector* New_ctor() ;
 
-  /// @brief Method ToAsn1EncodableVector, addr 0x3450ae4, size 0x8, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Asn1EncodableVector* ToAsn1EncodableVector();
+/// @brief Method ToAsn1EncodableVector, addr 0x3450a34, size 0x8, virtual false, abstract: false, final false
+inline ::Org::BouncyCastle::Asn1::Asn1EncodableVector* ToAsn1EncodableVector() ;
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1EncodableVector* const& __cordl_internal_get_capabilities() const;
+constexpr ::Org::BouncyCastle::Asn1::Asn1EncodableVector* const& __cordl_internal_get_capabilities() const;
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1EncodableVector*& __cordl_internal_get_capabilities();
+constexpr ::Org::BouncyCastle::Asn1::Asn1EncodableVector*& __cordl_internal_get_capabilities() ;
 
-  constexpr void __cordl_internal_set_capabilities(::Org::BouncyCastle::Asn1::Asn1EncodableVector* value);
+constexpr void __cordl_internal_set_capabilities(::Org::BouncyCastle::Asn1::Asn1EncodableVector*  value) ;
 
-  /// @brief Method .ctor, addr 0x3450aec, size 0x5c, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x3450a3c, size 0x5c, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SmimeCapabilityVector();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr SmimeCapabilityVector() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SmimeCapabilityVector", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  SmimeCapabilityVector(SmimeCapabilityVector&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SmimeCapabilityVector", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  SmimeCapabilityVector(SmimeCapabilityVector const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "SmimeCapabilityVector", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+SmimeCapabilityVector(SmimeCapabilityVector && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 296 };
+// Ctor Parameters [CppParam { name: "", ty: "SmimeCapabilityVector", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+SmimeCapabilityVector(SmimeCapabilityVector const& ) = delete;
 
-  /// @brief Field capabilities, offset: 0x10, size: 0x8, def value: None
-  ::Org::BouncyCastle::Asn1::Asn1EncodableVector* ___capabilities;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{296};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field capabilities, offset: 0x10, size: 0x8, def value: None
+ ::Org::BouncyCastle::Asn1::Asn1EncodableVector*  ___capabilities;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Org::BouncyCastle::Asn1::Smime::SmimeCapabilityVector, ___capabilities) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Smime::SmimeCapabilityVector, 0x18>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Asn1::Smime
+} // namespace end def Org::BouncyCastle::Asn1::Smime
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Smime::SmimeCapabilityVector);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::Smime::SmimeCapabilityVector*, "Org.BouncyCastle.Asn1.Smime", "SmimeCapabilityVector");

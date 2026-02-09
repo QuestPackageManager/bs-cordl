@@ -9,10 +9,12 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(AppDomain)
 namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+template<typename TKey,typename TValue>
+class Dictionary_2;
 }
 namespace System::Collections::Generic {
-template <typename T> class List_1;
+template<typename T>
+class List_1;
 }
 namespace System::Reflection {
 class AssemblyName;
@@ -45,7 +47,8 @@ namespace System {
 class AssemblyLoadEventHandler;
 }
 namespace System {
-template <typename TEventArgs> class EventHandler_1;
+template<typename TEventArgs>
+class EventHandler_1;
 }
 namespace System {
 class EventHandler;
@@ -71,400 +74,394 @@ namespace System {
 // CS Name: System.AppDomain
 class CORDL_TYPE AppDomain : public ::System::MarshalByRefObject {
 public:
-  // Declarations
-  /// @brief Field AssemblyLoad, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_AssemblyLoad, put = __cordl_internal_set_AssemblyLoad)) ::System::AssemblyLoadEventHandler* AssemblyLoad;
+// Declarations
+/// @brief Field AssemblyLoad, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get_AssemblyLoad, put=__cordl_internal_set_AssemblyLoad)) ::System::AssemblyLoadEventHandler*  AssemblyLoad;
 
-  /// @brief Field AssemblyResolve, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_AssemblyResolve, put = __cordl_internal_set_AssemblyResolve)) ::System::ResolveEventHandler* AssemblyResolve;
+/// @brief Field AssemblyResolve, offset 0x40, size 0x8 
+ __declspec(property(get=__cordl_internal_get_AssemblyResolve, put=__cordl_internal_set_AssemblyResolve)) ::System::ResolveEventHandler*  AssemblyResolve;
 
-  /// @brief Field DomainUnload, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_DomainUnload, put = __cordl_internal_set_DomainUnload)) ::System::EventHandler* DomainUnload;
+/// @brief Field DomainUnload, offset 0x48, size 0x8 
+ __declspec(property(get=__cordl_internal_get_DomainUnload, put=__cordl_internal_set_DomainUnload)) ::System::EventHandler*  DomainUnload;
 
-  /// @brief Field FirstChanceException, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get_FirstChanceException,
-                      put = __cordl_internal_set_FirstChanceException)) ::System::EventHandler_1<::System::Runtime::ExceptionServices::FirstChanceExceptionEventArgs*>* FirstChanceException;
+/// @brief Field FirstChanceException, offset 0x70, size 0x8 
+ __declspec(property(get=__cordl_internal_get_FirstChanceException, put=__cordl_internal_set_FirstChanceException)) ::System::EventHandler_1<::System::Runtime::ExceptionServices::FirstChanceExceptionEventArgs*>*  FirstChanceException;
 
-  __declspec(property(get = get_FriendlyName)) ::StringW FriendlyName;
+ __declspec(property(get=get_FriendlyName)) ::StringW  FriendlyName;
 
-  __declspec(property(get = get_IsFullyTrusted)) bool IsFullyTrusted;
+ __declspec(property(get=get_IsFullyTrusted)) bool  IsFullyTrusted;
 
-  __declspec(property(get = get_IsHomogenous)) bool IsHomogenous;
+ __declspec(property(get=get_IsHomogenous)) bool  IsHomogenous;
 
-  /// @brief Field ProcessExit, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_ProcessExit, put = __cordl_internal_set_ProcessExit)) ::System::EventHandler* ProcessExit;
+/// @brief Field ProcessExit, offset 0x50, size 0x8 
+ __declspec(property(get=__cordl_internal_get_ProcessExit, put=__cordl_internal_set_ProcessExit)) ::System::EventHandler*  ProcessExit;
 
-  /// @brief Field ReflectionOnlyAssemblyResolve, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get_ReflectionOnlyAssemblyResolve, put = __cordl_internal_set_ReflectionOnlyAssemblyResolve)) ::System::ResolveEventHandler* ReflectionOnlyAssemblyResolve;
+/// @brief Field ReflectionOnlyAssemblyResolve, offset 0x80, size 0x8 
+ __declspec(property(get=__cordl_internal_get_ReflectionOnlyAssemblyResolve, put=__cordl_internal_set_ReflectionOnlyAssemblyResolve)) ::System::ResolveEventHandler*  ReflectionOnlyAssemblyResolve;
 
-  /// @brief Field ResourceResolve, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get_ResourceResolve, put = __cordl_internal_set_ResourceResolve)) ::System::ResolveEventHandler* ResourceResolve;
+/// @brief Field ResourceResolve, offset 0x58, size 0x8 
+ __declspec(property(get=__cordl_internal_get_ResourceResolve, put=__cordl_internal_set_ResourceResolve)) ::System::ResolveEventHandler*  ResourceResolve;
 
-  /// @brief Field TypeResolve, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get_TypeResolve, put = __cordl_internal_set_TypeResolve)) ::System::ResolveEventHandler* TypeResolve;
+/// @brief Field TypeResolve, offset 0x60, size 0x8 
+ __declspec(property(get=__cordl_internal_get_TypeResolve, put=__cordl_internal_set_TypeResolve)) ::System::ResolveEventHandler*  TypeResolve;
 
-  /// @brief Field UnhandledException, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get_UnhandledException, put = __cordl_internal_set_UnhandledException)) ::System::UnhandledExceptionEventHandler* UnhandledException;
+/// @brief Field UnhandledException, offset 0x68, size 0x8 
+ __declspec(property(get=__cordl_internal_get_UnhandledException, put=__cordl_internal_set_UnhandledException)) ::System::UnhandledExceptionEventHandler*  UnhandledException;
 
-  /// @brief Field _activation, offset 0x88, size 0x8
-  __declspec(property(get = __cordl_internal_get__activation, put = __cordl_internal_set__activation)) ::System::Object* _activation;
+/// @brief Field _activation, offset 0x88, size 0x8 
+ __declspec(property(get=__cordl_internal_get__activation, put=__cordl_internal_set__activation)) ::System::Object*  _activation;
 
-  /// @brief Field _applicationIdentity, offset 0x90, size 0x8
-  __declspec(property(get = __cordl_internal_get__applicationIdentity, put = __cordl_internal_set__applicationIdentity)) ::System::Object* _applicationIdentity;
+/// @brief Field _applicationIdentity, offset 0x90, size 0x8 
+ __declspec(property(get=__cordl_internal_get__applicationIdentity, put=__cordl_internal_set__applicationIdentity)) ::System::Object*  _applicationIdentity;
 
-  /// @brief Field _domain_manager, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get__domain_manager, put = __cordl_internal_set__domain_manager)) ::System::Object* _domain_manager;
+/// @brief Field _domain_manager, offset 0x78, size 0x8 
+ __declspec(property(get=__cordl_internal_get__domain_manager, put=__cordl_internal_set__domain_manager)) ::System::Object*  _domain_manager;
 
-  /// @brief Field _evidence, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__evidence, put = __cordl_internal_set__evidence)) ::System::Object* _evidence;
+/// @brief Field _evidence, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get__evidence, put=__cordl_internal_set__evidence)) ::System::Object*  _evidence;
 
-  /// @brief Field _granted, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__granted, put = __cordl_internal_set__granted)) ::System::Object* _granted;
+/// @brief Field _granted, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get__granted, put=__cordl_internal_set__granted)) ::System::Object*  _granted;
 
-  /// @brief Field _mono_app_domain, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__mono_app_domain, put = __cordl_internal_set__mono_app_domain)) ::System::IntPtr _mono_app_domain;
+/// @brief Field _mono_app_domain, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get__mono_app_domain, put=__cordl_internal_set__mono_app_domain)) ::System::IntPtr  _mono_app_domain;
 
-  /// @brief Field _principalPolicy, offset 0x30, size 0x4
-  __declspec(property(get = __cordl_internal_get__principalPolicy, put = __cordl_internal_set__principalPolicy)) int32_t _principalPolicy;
+/// @brief Field _principalPolicy, offset 0x30, size 0x4 
+ __declspec(property(get=__cordl_internal_get__principalPolicy, put=__cordl_internal_set__principalPolicy)) int32_t  _principalPolicy;
 
-  /// @brief Field _process_guid, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF__process_guid, put = setStaticF__process_guid)) ::StringW _process_guid;
+/// @brief Field _process_guid, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF__process_guid, put=setStaticF__process_guid)) ::StringW  _process_guid;
 
-  /// @brief Field assembly_resolve_in_progress, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_assembly_resolve_in_progress,
-                      put = setStaticF_assembly_resolve_in_progress)) ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Object*>* assembly_resolve_in_progress;
+/// @brief Field assembly_resolve_in_progress, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_assembly_resolve_in_progress, put=setStaticF_assembly_resolve_in_progress)) ::System::Collections::Generic::Dictionary_2<::StringW,::System::Object*>*  assembly_resolve_in_progress;
 
-  /// @brief Field assembly_resolve_in_progress_refonly, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_assembly_resolve_in_progress_refonly,
-                      put = setStaticF_assembly_resolve_in_progress_refonly)) ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Object*>* assembly_resolve_in_progress_refonly;
+/// @brief Field assembly_resolve_in_progress_refonly, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_assembly_resolve_in_progress_refonly, put=setStaticF_assembly_resolve_in_progress_refonly)) ::System::Collections::Generic::Dictionary_2<::StringW,::System::Object*>*  assembly_resolve_in_progress_refonly;
 
-  /// @brief Field compatibility_switch, offset 0x98, size 0x8
-  __declspec(property(get = __cordl_internal_get_compatibility_switch, put = __cordl_internal_set_compatibility_switch)) ::System::Collections::Generic::List_1<::StringW>* compatibility_switch;
+/// @brief Field compatibility_switch, offset 0x98, size 0x8 
+ __declspec(property(get=__cordl_internal_get_compatibility_switch, put=__cordl_internal_set_compatibility_switch)) ::System::Collections::Generic::List_1<::StringW>*  compatibility_switch;
 
-  /// @brief Field type_resolve_in_progress, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_type_resolve_in_progress,
-                      put = setStaticF_type_resolve_in_progress)) ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Object*>* type_resolve_in_progress;
+/// @brief Field type_resolve_in_progress, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_type_resolve_in_progress, put=setStaticF_type_resolve_in_progress)) ::System::Collections::Generic::Dictionary_2<::StringW,::System::Object*>*  type_resolve_in_progress;
 
-  /// @brief Method DoAssemblyLoad, addr 0x5adc820, size 0x94, virtual false, abstract: false, final false
-  inline void DoAssemblyLoad(::System::Reflection::Assembly* assembly);
+/// @brief Method DoAssemblyLoad, addr 0x5adcd2c, size 0x94, virtual false, abstract: false, final false
+inline void DoAssemblyLoad(::System::Reflection::Assembly*  assembly) ;
 
-  /// @brief Method DoAssemblyResolve, addr 0x5adc8b4, size 0x410, virtual false, abstract: false, final false
-  inline ::System::Reflection::Assembly* DoAssemblyResolve(::StringW name, ::System::Reflection::Assembly* requestingAssembly, bool refonly);
+/// @brief Method DoAssemblyResolve, addr 0x5adcdc0, size 0x410, virtual false, abstract: false, final false
+inline ::System::Reflection::Assembly* DoAssemblyResolve(::StringW  name, ::System::Reflection::Assembly*  requestingAssembly, bool  refonly) ;
 
-  /// @brief Method DoDomainUnload, addr 0x5add180, size 0x24, virtual false, abstract: false, final false
-  inline void DoDomainUnload();
+/// @brief Method DoDomainUnload, addr 0x5add68c, size 0x24, virtual false, abstract: false, final false
+inline void DoDomainUnload() ;
 
-  /// @brief Method DoResourceResolve, addr 0x5add048, size 0x138, virtual false, abstract: false, final false
-  inline ::System::Reflection::Assembly* DoResourceResolve(::StringW name, ::System::Reflection::Assembly* requesting);
+/// @brief Method DoResourceResolve, addr 0x5add554, size 0x138, virtual false, abstract: false, final false
+inline ::System::Reflection::Assembly* DoResourceResolve(::StringW  name, ::System::Reflection::Assembly*  requesting) ;
 
-  /// @brief Method DoTypeResolve, addr 0x5adccc4, size 0x384, virtual false, abstract: false, final false
-  inline ::System::Reflection::Assembly* DoTypeResolve(::StringW name);
+/// @brief Method DoTypeResolve, addr 0x5add1d0, size 0x384, virtual false, abstract: false, final false
+inline ::System::Reflection::Assembly* DoTypeResolve(::StringW  name) ;
 
-  /// @brief Method GetAssemblies, addr 0x5adc450, size 0x8, virtual true, abstract: false, final true
-  inline ::ArrayW<::System::Reflection::Assembly*, ::Array<::System::Reflection::Assembly*>*> GetAssemblies();
+/// @brief Method GetAssemblies, addr 0x5adc95c, size 0x8, virtual true, abstract: false, final true
+inline ::ArrayW<::System::Reflection::Assembly*,::Array<::System::Reflection::Assembly*>*> GetAssemblies() ;
 
-  /// @brief Method GetAssemblies, addr 0x5adc44c, size 0x4, virtual false, abstract: false, final false
-  inline ::ArrayW<::System::Reflection::Assembly*, ::Array<::System::Reflection::Assembly*>*> GetAssemblies(bool refOnly);
+/// @brief Method GetAssemblies, addr 0x5adc958, size 0x4, virtual false, abstract: false, final false
+inline ::ArrayW<::System::Reflection::Assembly*,::Array<::System::Reflection::Assembly*>*> GetAssemblies(bool  refOnly) ;
 
-  /// @brief Method GetData, addr 0x5adc458, size 0x4, virtual true, abstract: false, final true
-  inline ::System::Object* GetData(::StringW name);
+/// @brief Method GetData, addr 0x5adc964, size 0x4, virtual true, abstract: false, final true
+inline ::System::Object* GetData(::StringW  name) ;
 
-  /// @brief Method GetMarshalledDomainObjRef, addr 0x5add1a4, size 0xa8, virtual false, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetMarshalledDomainObjRef();
+/// @brief Method GetMarshalledDomainObjRef, addr 0x5add6b0, size 0xa8, virtual false, abstract: false, final false
+inline ::ArrayW<uint8_t,::Array<uint8_t>*> GetMarshalledDomainObjRef() ;
 
-  /// @brief Method GetProcessGuid, addr 0x5adc75c, size 0x70, virtual false, abstract: false, final false
-  static inline ::StringW GetProcessGuid();
+/// @brief Method GetProcessGuid, addr 0x5adcc68, size 0x70, virtual false, abstract: false, final false
+static inline ::StringW GetProcessGuid() ;
 
-  /// @brief Method InitializeLifetimeService, addr 0x5adc45c, size 0x8, virtual true, abstract: false, final false
-  inline ::System::Object* InitializeLifetimeService();
+/// @brief Method InitializeLifetimeService, addr 0x5adc968, size 0x8, virtual true, abstract: false, final false
+inline ::System::Object* InitializeLifetimeService() ;
 
-  /// @brief Method InternalGetContext, addr 0x5adc6a4, size 0x24, virtual false, abstract: false, final false
-  static inline ::System::Runtime::Remoting::Contexts::Context* InternalGetContext();
+/// @brief Method InternalGetContext, addr 0x5adcbb0, size 0x24, virtual false, abstract: false, final false
+static inline ::System::Runtime::Remoting::Contexts::Context* InternalGetContext() ;
 
-  /// @brief Method InternalGetDefaultContext, addr 0x5adc6c8, size 0x24, virtual false, abstract: false, final false
-  static inline ::System::Runtime::Remoting::Contexts::Context* InternalGetDefaultContext();
+/// @brief Method InternalGetDefaultContext, addr 0x5adcbd4, size 0x24, virtual false, abstract: false, final false
+static inline ::System::Runtime::Remoting::Contexts::Context* InternalGetDefaultContext() ;
 
-  /// @brief Method InternalGetProcessGuid, addr 0x5adc6ec, size 0x8, virtual false, abstract: false, final false
-  static inline ::StringW InternalGetProcessGuid(::StringW newguid);
+/// @brief Method InternalGetProcessGuid, addr 0x5adcbf8, size 0x8, virtual false, abstract: false, final false
+static inline ::StringW InternalGetProcessGuid(::StringW  newguid) ;
 
-  /// @brief Method InternalIsFinalizingForUnload, addr 0x5adc7cc, size 0x8, virtual false, abstract: false, final false
-  static inline bool InternalIsFinalizingForUnload(int32_t domain_id);
+/// @brief Method InternalIsFinalizingForUnload, addr 0x5adccd8, size 0x8, virtual false, abstract: false, final false
+static inline bool InternalIsFinalizingForUnload(int32_t  domain_id) ;
 
-  /// @brief Method InternalPopDomainRef, addr 0x5adc694, size 0x8, virtual false, abstract: false, final false
-  static inline void InternalPopDomainRef();
+/// @brief Method InternalPopDomainRef, addr 0x5adcba0, size 0x8, virtual false, abstract: false, final false
+static inline void InternalPopDomainRef() ;
 
-  /// @brief Method InternalPushDomainRefByID, addr 0x5adc68c, size 0x8, virtual false, abstract: false, final false
-  static inline void InternalPushDomainRefByID(int32_t domain_id);
+/// @brief Method InternalPushDomainRefByID, addr 0x5adcb98, size 0x8, virtual false, abstract: false, final false
+static inline void InternalPushDomainRefByID(int32_t  domain_id) ;
 
-  /// @brief Method InternalSetContext, addr 0x5adc69c, size 0x8, virtual false, abstract: false, final false
-  static inline ::System::Runtime::Remoting::Contexts::Context* InternalSetContext(::System::Runtime::Remoting::Contexts::Context* context);
+/// @brief Method InternalSetContext, addr 0x5adcba8, size 0x8, virtual false, abstract: false, final false
+static inline ::System::Runtime::Remoting::Contexts::Context* InternalSetContext(::System::Runtime::Remoting::Contexts::Context*  context) ;
 
-  /// @brief Method InternalSetDomain, addr 0x5adc684, size 0x8, virtual false, abstract: false, final false
-  static inline ::System::AppDomain* InternalSetDomain(::System::AppDomain* context);
+/// @brief Method InternalSetDomain, addr 0x5adcb90, size 0x8, virtual false, abstract: false, final false
+static inline ::System::AppDomain* InternalSetDomain(::System::AppDomain*  context) ;
 
-  /// @brief Method InternalSetDomainByID, addr 0x5adc67c, size 0x8, virtual false, abstract: false, final false
-  static inline ::System::AppDomain* InternalSetDomainByID(int32_t domain_id);
+/// @brief Method InternalSetDomainByID, addr 0x5adcb88, size 0x8, virtual false, abstract: false, final false
+static inline ::System::AppDomain* InternalSetDomainByID(int32_t  domain_id) ;
 
-  /// @brief Method InvokeInDomainByID, addr 0x5adc6f4, size 0x68, virtual false, abstract: false, final false
-  static inline ::System::Object* InvokeInDomainByID(int32_t domain_id, ::System::Reflection::MethodInfo* method, ::System::Object* obj, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
+/// @brief Method InvokeInDomainByID, addr 0x5adcc00, size 0x68, virtual false, abstract: false, final false
+static inline ::System::Object* InvokeInDomainByID(int32_t  domain_id, ::System::Reflection::MethodInfo*  method, ::System::Object*  obj, ::ArrayW<::System::Object*,::Array<::System::Object*>*>  args) ;
 
-  /// @brief Method IsAppXModel, addr 0x5adc3ec, size 0x8, virtual false, abstract: false, final false
-  static inline bool IsAppXModel();
+/// @brief Method IsAppXModel, addr 0x5adc8f8, size 0x8, virtual false, abstract: false, final false
+static inline bool IsAppXModel() ;
 
-  /// @brief Method IsFinalizingForUnload, addr 0x5adc7d4, size 0x14, virtual false, abstract: false, final false
-  inline bool IsFinalizingForUnload();
+/// @brief Method IsFinalizingForUnload, addr 0x5adcce0, size 0x14, virtual false, abstract: false, final false
+inline bool IsFinalizingForUnload() ;
 
-  /// @brief Method Load, addr 0x5adc560, size 0x1c, virtual true, abstract: false, final true
-  inline ::System::Reflection::Assembly* Load(::StringW assemblyString);
+/// @brief Method Load, addr 0x5adca6c, size 0x1c, virtual true, abstract: false, final true
+inline ::System::Reflection::Assembly* Load(::StringW  assemblyString) ;
 
-  /// @brief Method Load, addr 0x5adc57c, size 0x100, virtual false, abstract: false, final false
-  inline ::System::Reflection::Assembly* Load(::StringW assemblyString, ::System::Security::Policy::Evidence* assemblySecurity, bool refonly, ::ByRef<::System::Threading::StackCrawlMark> stackMark);
+/// @brief Method Load, addr 0x5adca88, size 0x100, virtual false, abstract: false, final false
+inline ::System::Reflection::Assembly* Load(::StringW  assemblyString, ::System::Security::Policy::Evidence*  assemblySecurity, bool  refonly, ::ByRef<::System::Threading::StackCrawlMark>  stackMark) ;
 
-  /// @brief Method LoadAssembly, addr 0x5adc464, size 0x4, virtual false, abstract: false, final false
-  inline ::System::Reflection::Assembly* LoadAssembly(::StringW assemblyRef, ::System::Security::Policy::Evidence* securityEvidence, bool refOnly,
-                                                      ::ByRef<::System::Threading::StackCrawlMark> stackMark);
+/// @brief Method LoadAssembly, addr 0x5adc970, size 0x4, virtual false, abstract: false, final false
+inline ::System::Reflection::Assembly* LoadAssembly(::StringW  assemblyRef, ::System::Security::Policy::Evidence*  securityEvidence, bool  refOnly, ::ByRef<::System::Threading::StackCrawlMark>  stackMark) ;
 
-  /// @brief Method LoadSatellite, addr 0x5adc468, size 0xf8, virtual false, abstract: false, final false
-  inline ::System::Reflection::Assembly* LoadSatellite(::System::Reflection::AssemblyName* assemblyRef, bool throwOnError, ::ByRef<::System::Threading::StackCrawlMark> stackMark);
+/// @brief Method LoadSatellite, addr 0x5adc974, size 0xf8, virtual false, abstract: false, final false
+inline ::System::Reflection::Assembly* LoadSatellite(::System::Reflection::AssemblyName*  assemblyRef, bool  throwOnError, ::ByRef<::System::Threading::StackCrawlMark>  stackMark) ;
 
-  static inline ::System::AppDomain* New_ctor();
+static inline ::System::AppDomain* New_ctor() ;
 
-  /// @brief Method ProcessMessageInDomain, addr 0x5add24c, size 0x134, virtual false, abstract: false, final false
-  inline void ProcessMessageInDomain(::ArrayW<uint8_t, ::Array<uint8_t>*> arrRequest, ::System::Runtime::Remoting::Messaging::CADMethodCallMessage* cadMsg,
-                                     ::ByRef<::ArrayW<uint8_t, ::Array<uint8_t>*>> arrResponse, ::ByRef<::System::Runtime::Remoting::Messaging::CADMethodReturnMessage*> cadMrm);
+/// @brief Method ProcessMessageInDomain, addr 0x5add758, size 0x134, virtual false, abstract: false, final false
+inline void ProcessMessageInDomain(::ArrayW<uint8_t,::Array<uint8_t>*>  arrRequest, ::System::Runtime::Remoting::Messaging::CADMethodCallMessage*  cadMsg, ::ByRef<::ArrayW<uint8_t,::Array<uint8_t>*>>  arrResponse, ::ByRef<::System::Runtime::Remoting::Messaging::CADMethodReturnMessage*>  cadMrm) ;
 
-  /// @brief Method ToString, addr 0x5adc7fc, size 0x24, virtual true, abstract: false, final false
-  inline ::StringW ToString();
+/// @brief Method ToString, addr 0x5adcd08, size 0x24, virtual true, abstract: false, final false
+inline ::StringW ToString() ;
 
-  constexpr ::System::AssemblyLoadEventHandler* const& __cordl_internal_get_AssemblyLoad() const;
+constexpr ::System::AssemblyLoadEventHandler* const& __cordl_internal_get_AssemblyLoad() const;
 
-  constexpr ::System::AssemblyLoadEventHandler*& __cordl_internal_get_AssemblyLoad();
+constexpr ::System::AssemblyLoadEventHandler*& __cordl_internal_get_AssemblyLoad() ;
 
-  constexpr ::System::ResolveEventHandler* const& __cordl_internal_get_AssemblyResolve() const;
+constexpr ::System::ResolveEventHandler* const& __cordl_internal_get_AssemblyResolve() const;
 
-  constexpr ::System::ResolveEventHandler*& __cordl_internal_get_AssemblyResolve();
+constexpr ::System::ResolveEventHandler*& __cordl_internal_get_AssemblyResolve() ;
 
-  constexpr ::System::EventHandler* const& __cordl_internal_get_DomainUnload() const;
+constexpr ::System::EventHandler* const& __cordl_internal_get_DomainUnload() const;
 
-  constexpr ::System::EventHandler*& __cordl_internal_get_DomainUnload();
+constexpr ::System::EventHandler*& __cordl_internal_get_DomainUnload() ;
 
-  constexpr ::System::EventHandler_1<::System::Runtime::ExceptionServices::FirstChanceExceptionEventArgs*>* const& __cordl_internal_get_FirstChanceException() const;
+constexpr ::System::EventHandler_1<::System::Runtime::ExceptionServices::FirstChanceExceptionEventArgs*>* const& __cordl_internal_get_FirstChanceException() const;
 
-  constexpr ::System::EventHandler_1<::System::Runtime::ExceptionServices::FirstChanceExceptionEventArgs*>*& __cordl_internal_get_FirstChanceException();
+constexpr ::System::EventHandler_1<::System::Runtime::ExceptionServices::FirstChanceExceptionEventArgs*>*& __cordl_internal_get_FirstChanceException() ;
 
-  constexpr ::System::EventHandler* const& __cordl_internal_get_ProcessExit() const;
+constexpr ::System::EventHandler* const& __cordl_internal_get_ProcessExit() const;
 
-  constexpr ::System::EventHandler*& __cordl_internal_get_ProcessExit();
+constexpr ::System::EventHandler*& __cordl_internal_get_ProcessExit() ;
 
-  constexpr ::System::ResolveEventHandler* const& __cordl_internal_get_ReflectionOnlyAssemblyResolve() const;
+constexpr ::System::ResolveEventHandler* const& __cordl_internal_get_ReflectionOnlyAssemblyResolve() const;
 
-  constexpr ::System::ResolveEventHandler*& __cordl_internal_get_ReflectionOnlyAssemblyResolve();
+constexpr ::System::ResolveEventHandler*& __cordl_internal_get_ReflectionOnlyAssemblyResolve() ;
 
-  constexpr ::System::ResolveEventHandler* const& __cordl_internal_get_ResourceResolve() const;
+constexpr ::System::ResolveEventHandler* const& __cordl_internal_get_ResourceResolve() const;
 
-  constexpr ::System::ResolveEventHandler*& __cordl_internal_get_ResourceResolve();
+constexpr ::System::ResolveEventHandler*& __cordl_internal_get_ResourceResolve() ;
 
-  constexpr ::System::ResolveEventHandler* const& __cordl_internal_get_TypeResolve() const;
+constexpr ::System::ResolveEventHandler* const& __cordl_internal_get_TypeResolve() const;
 
-  constexpr ::System::ResolveEventHandler*& __cordl_internal_get_TypeResolve();
+constexpr ::System::ResolveEventHandler*& __cordl_internal_get_TypeResolve() ;
 
-  constexpr ::System::UnhandledExceptionEventHandler* const& __cordl_internal_get_UnhandledException() const;
+constexpr ::System::UnhandledExceptionEventHandler* const& __cordl_internal_get_UnhandledException() const;
 
-  constexpr ::System::UnhandledExceptionEventHandler*& __cordl_internal_get_UnhandledException();
+constexpr ::System::UnhandledExceptionEventHandler*& __cordl_internal_get_UnhandledException() ;
 
-  constexpr ::System::Object* const& __cordl_internal_get__activation() const;
+constexpr ::System::Object* const& __cordl_internal_get__activation() const;
 
-  constexpr ::System::Object*& __cordl_internal_get__activation();
+constexpr ::System::Object*& __cordl_internal_get__activation() ;
 
-  constexpr ::System::Object* const& __cordl_internal_get__applicationIdentity() const;
+constexpr ::System::Object* const& __cordl_internal_get__applicationIdentity() const;
 
-  constexpr ::System::Object*& __cordl_internal_get__applicationIdentity();
+constexpr ::System::Object*& __cordl_internal_get__applicationIdentity() ;
 
-  constexpr ::System::Object* const& __cordl_internal_get__domain_manager() const;
+constexpr ::System::Object* const& __cordl_internal_get__domain_manager() const;
 
-  constexpr ::System::Object*& __cordl_internal_get__domain_manager();
+constexpr ::System::Object*& __cordl_internal_get__domain_manager() ;
 
-  constexpr ::System::Object* const& __cordl_internal_get__evidence() const;
+constexpr ::System::Object* const& __cordl_internal_get__evidence() const;
 
-  constexpr ::System::Object*& __cordl_internal_get__evidence();
+constexpr ::System::Object*& __cordl_internal_get__evidence() ;
 
-  constexpr ::System::Object* const& __cordl_internal_get__granted() const;
+constexpr ::System::Object* const& __cordl_internal_get__granted() const;
 
-  constexpr ::System::Object*& __cordl_internal_get__granted();
+constexpr ::System::Object*& __cordl_internal_get__granted() ;
 
-  constexpr ::System::IntPtr const& __cordl_internal_get__mono_app_domain() const;
+constexpr ::System::IntPtr const& __cordl_internal_get__mono_app_domain() const;
 
-  constexpr ::System::IntPtr& __cordl_internal_get__mono_app_domain();
+constexpr ::System::IntPtr& __cordl_internal_get__mono_app_domain() ;
 
-  constexpr int32_t const& __cordl_internal_get__principalPolicy() const;
+constexpr int32_t const& __cordl_internal_get__principalPolicy() const;
 
-  constexpr int32_t& __cordl_internal_get__principalPolicy();
+constexpr int32_t& __cordl_internal_get__principalPolicy() ;
 
-  constexpr ::System::Collections::Generic::List_1<::StringW>* const& __cordl_internal_get_compatibility_switch() const;
+constexpr ::System::Collections::Generic::List_1<::StringW>* const& __cordl_internal_get_compatibility_switch() const;
 
-  constexpr ::System::Collections::Generic::List_1<::StringW>*& __cordl_internal_get_compatibility_switch();
+constexpr ::System::Collections::Generic::List_1<::StringW>*& __cordl_internal_get_compatibility_switch() ;
 
-  constexpr void __cordl_internal_set_AssemblyLoad(::System::AssemblyLoadEventHandler* value);
+constexpr void __cordl_internal_set_AssemblyLoad(::System::AssemblyLoadEventHandler*  value) ;
 
-  constexpr void __cordl_internal_set_AssemblyResolve(::System::ResolveEventHandler* value);
+constexpr void __cordl_internal_set_AssemblyResolve(::System::ResolveEventHandler*  value) ;
 
-  constexpr void __cordl_internal_set_DomainUnload(::System::EventHandler* value);
+constexpr void __cordl_internal_set_DomainUnload(::System::EventHandler*  value) ;
 
-  constexpr void __cordl_internal_set_FirstChanceException(::System::EventHandler_1<::System::Runtime::ExceptionServices::FirstChanceExceptionEventArgs*>* value);
+constexpr void __cordl_internal_set_FirstChanceException(::System::EventHandler_1<::System::Runtime::ExceptionServices::FirstChanceExceptionEventArgs*>*  value) ;
 
-  constexpr void __cordl_internal_set_ProcessExit(::System::EventHandler* value);
+constexpr void __cordl_internal_set_ProcessExit(::System::EventHandler*  value) ;
 
-  constexpr void __cordl_internal_set_ReflectionOnlyAssemblyResolve(::System::ResolveEventHandler* value);
+constexpr void __cordl_internal_set_ReflectionOnlyAssemblyResolve(::System::ResolveEventHandler*  value) ;
 
-  constexpr void __cordl_internal_set_ResourceResolve(::System::ResolveEventHandler* value);
+constexpr void __cordl_internal_set_ResourceResolve(::System::ResolveEventHandler*  value) ;
 
-  constexpr void __cordl_internal_set_TypeResolve(::System::ResolveEventHandler* value);
+constexpr void __cordl_internal_set_TypeResolve(::System::ResolveEventHandler*  value) ;
 
-  constexpr void __cordl_internal_set_UnhandledException(::System::UnhandledExceptionEventHandler* value);
+constexpr void __cordl_internal_set_UnhandledException(::System::UnhandledExceptionEventHandler*  value) ;
 
-  constexpr void __cordl_internal_set__activation(::System::Object* value);
+constexpr void __cordl_internal_set__activation(::System::Object*  value) ;
 
-  constexpr void __cordl_internal_set__applicationIdentity(::System::Object* value);
+constexpr void __cordl_internal_set__applicationIdentity(::System::Object*  value) ;
 
-  constexpr void __cordl_internal_set__domain_manager(::System::Object* value);
+constexpr void __cordl_internal_set__domain_manager(::System::Object*  value) ;
 
-  constexpr void __cordl_internal_set__evidence(::System::Object* value);
+constexpr void __cordl_internal_set__evidence(::System::Object*  value) ;
 
-  constexpr void __cordl_internal_set__granted(::System::Object* value);
+constexpr void __cordl_internal_set__granted(::System::Object*  value) ;
 
-  constexpr void __cordl_internal_set__mono_app_domain(::System::IntPtr value);
+constexpr void __cordl_internal_set__mono_app_domain(::System::IntPtr  value) ;
 
-  constexpr void __cordl_internal_set__principalPolicy(int32_t value);
+constexpr void __cordl_internal_set__principalPolicy(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_compatibility_switch(::System::Collections::Generic::List_1<::StringW>* value);
+constexpr void __cordl_internal_set_compatibility_switch(::System::Collections::Generic::List_1<::StringW>*  value) ;
 
-  /// @brief Method .ctor, addr 0x5adc3f4, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5adc900, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method add_DomainUnload, addr 0x5add380, size 0xa8, virtual true, abstract: false, final true
-  inline void add_DomainUnload(::System::EventHandler* value);
+/// @brief Method add_DomainUnload, addr 0x5add88c, size 0xa8, virtual true, abstract: false, final true
+inline void add_DomainUnload(::System::EventHandler*  value) ;
 
-  /// @brief Method add_ProcessExit, addr 0x5add744, size 0xa8, virtual true, abstract: false, final true
-  inline void add_ProcessExit(::System::EventHandler* value);
+/// @brief Method add_ProcessExit, addr 0x5addc50, size 0xa8, virtual true, abstract: false, final true
+inline void add_ProcessExit(::System::EventHandler*  value) ;
 
-  /// @brief Method add_UnhandledException, addr 0x5add894, size 0xa8, virtual true, abstract: false, final true
-  inline void add_UnhandledException(::System::UnhandledExceptionEventHandler* value);
+/// @brief Method add_UnhandledException, addr 0x5addda0, size 0xa8, virtual true, abstract: false, final true
+inline void add_UnhandledException(::System::UnhandledExceptionEventHandler*  value) ;
 
-  /// @brief Method getCurDomain, addr 0x5adc444, size 0x4, virtual false, abstract: false, final false
-  static inline ::System::AppDomain* getCurDomain();
+/// @brief Method getCurDomain, addr 0x5adc950, size 0x4, virtual false, abstract: false, final false
+static inline ::System::AppDomain* getCurDomain() ;
 
-  /// @brief Method getDomainID, addr 0x5adc7e8, size 0x14, virtual false, abstract: false, final false
-  inline int32_t getDomainID();
+/// @brief Method getDomainID, addr 0x5adccf4, size 0x14, virtual false, abstract: false, final false
+inline int32_t getDomainID() ;
 
-  /// @brief Method getFriendlyName, addr 0x5adc3fc, size 0x24, virtual false, abstract: false, final false
-  inline ::StringW getFriendlyName();
+/// @brief Method getFriendlyName, addr 0x5adc908, size 0x24, virtual false, abstract: false, final false
+inline ::StringW getFriendlyName() ;
 
-  static inline ::StringW getStaticF__process_guid();
+static inline ::StringW getStaticF__process_guid() ;
 
-  static inline ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Object*>* getStaticF_assembly_resolve_in_progress();
+static inline ::System::Collections::Generic::Dictionary_2<::StringW,::System::Object*>* getStaticF_assembly_resolve_in_progress() ;
 
-  static inline ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Object*>* getStaticF_assembly_resolve_in_progress_refonly();
+static inline ::System::Collections::Generic::Dictionary_2<::StringW,::System::Object*>* getStaticF_assembly_resolve_in_progress_refonly() ;
 
-  static inline ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Object*>* getStaticF_type_resolve_in_progress();
+static inline ::System::Collections::Generic::Dictionary_2<::StringW,::System::Object*>* getStaticF_type_resolve_in_progress() ;
 
-  /// @brief Method get_CurrentDomain, addr 0x5adc448, size 0x4, virtual false, abstract: false, final false
-  static inline ::System::AppDomain* get_CurrentDomain();
+/// @brief Method get_CurrentDomain, addr 0x5adc954, size 0x4, virtual false, abstract: false, final false
+static inline ::System::AppDomain* get_CurrentDomain() ;
 
-  /// @brief Method get_FriendlyName, addr 0x5adc420, size 0x24, virtual true, abstract: false, final true
-  inline ::StringW get_FriendlyName();
+/// @brief Method get_FriendlyName, addr 0x5adc92c, size 0x24, virtual true, abstract: false, final true
+inline ::StringW get_FriendlyName() ;
 
-  /// @brief Method get_IsFullyTrusted, addr 0x5add9ec, size 0x8, virtual false, abstract: false, final false
-  inline bool get_IsFullyTrusted();
+/// @brief Method get_IsFullyTrusted, addr 0x5addef8, size 0x8, virtual false, abstract: false, final false
+inline bool get_IsFullyTrusted() ;
 
-  /// @brief Method get_IsHomogenous, addr 0x5add9e4, size 0x8, virtual false, abstract: false, final false
-  inline bool get_IsHomogenous();
+/// @brief Method get_IsHomogenous, addr 0x5addef0, size 0x8, virtual false, abstract: false, final false
+inline bool get_IsHomogenous() ;
 
-  /// @brief Method remove_DomainUnload, addr 0x5add564, size 0xa8, virtual true, abstract: false, final true
-  inline void remove_DomainUnload(::System::EventHandler* value);
+/// @brief Method remove_DomainUnload, addr 0x5adda70, size 0xa8, virtual true, abstract: false, final true
+inline void remove_DomainUnload(::System::EventHandler*  value) ;
 
-  /// @brief Method remove_ProcessExit, addr 0x5add7ec, size 0xa8, virtual true, abstract: false, final true
-  inline void remove_ProcessExit(::System::EventHandler* value);
+/// @brief Method remove_ProcessExit, addr 0x5addcf8, size 0xa8, virtual true, abstract: false, final true
+inline void remove_ProcessExit(::System::EventHandler*  value) ;
 
-  /// @brief Method remove_UnhandledException, addr 0x5add93c, size 0xa8, virtual true, abstract: false, final true
-  inline void remove_UnhandledException(::System::UnhandledExceptionEventHandler* value);
+/// @brief Method remove_UnhandledException, addr 0x5adde48, size 0xa8, virtual true, abstract: false, final true
+inline void remove_UnhandledException(::System::UnhandledExceptionEventHandler*  value) ;
 
-  static inline void setStaticF__process_guid(::StringW value);
+static inline void setStaticF__process_guid(::StringW  value) ;
 
-  static inline void setStaticF_assembly_resolve_in_progress(::System::Collections::Generic::Dictionary_2<::StringW, ::System::Object*>* value);
+static inline void setStaticF_assembly_resolve_in_progress(::System::Collections::Generic::Dictionary_2<::StringW,::System::Object*>*  value) ;
 
-  static inline void setStaticF_assembly_resolve_in_progress_refonly(::System::Collections::Generic::Dictionary_2<::StringW, ::System::Object*>* value);
+static inline void setStaticF_assembly_resolve_in_progress_refonly(::System::Collections::Generic::Dictionary_2<::StringW,::System::Object*>*  value) ;
 
-  static inline void setStaticF_type_resolve_in_progress(::System::Collections::Generic::Dictionary_2<::StringW, ::System::Object*>* value);
+static inline void setStaticF_type_resolve_in_progress(::System::Collections::Generic::Dictionary_2<::StringW,::System::Object*>*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AppDomain();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr AppDomain() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AppDomain", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  AppDomain(AppDomain&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AppDomain", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  AppDomain(AppDomain const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "AppDomain", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+AppDomain(AppDomain && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2586 };
+// Ctor Parameters [CppParam { name: "", ty: "AppDomain", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+AppDomain(AppDomain const& ) = delete;
 
-  /// @brief Field _mono_app_domain, offset: 0x18, size: 0x8, def value: None
-  ::System::IntPtr ____mono_app_domain;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{2586};
 
-  /// @brief Field _evidence, offset: 0x20, size: 0x8, def value: None
-  ::System::Object* ____evidence;
+/// @brief Field _mono_app_domain, offset: 0x18, size: 0x8, def value: None
+ ::System::IntPtr  ____mono_app_domain;
 
-  /// @brief Field _granted, offset: 0x28, size: 0x8, def value: None
-  ::System::Object* ____granted;
+/// @brief Field _evidence, offset: 0x20, size: 0x8, def value: None
+ ::System::Object*  ____evidence;
 
-  /// @brief Field _principalPolicy, offset: 0x30, size: 0x4, def value: None
-  int32_t ____principalPolicy;
+/// @brief Field _granted, offset: 0x28, size: 0x8, def value: None
+ ::System::Object*  ____granted;
 
-  /// @brief Field AssemblyLoad, offset: 0x38, size: 0x8, def value: None
-  ::System::AssemblyLoadEventHandler* ___AssemblyLoad;
+/// @brief Field _principalPolicy, offset: 0x30, size: 0x4, def value: None
+ int32_t  ____principalPolicy;
 
-  /// @brief Field AssemblyResolve, offset: 0x40, size: 0x8, def value: None
-  ::System::ResolveEventHandler* ___AssemblyResolve;
+/// @brief Field AssemblyLoad, offset: 0x38, size: 0x8, def value: None
+ ::System::AssemblyLoadEventHandler*  ___AssemblyLoad;
 
-  /// @brief Field DomainUnload, offset: 0x48, size: 0x8, def value: None
-  ::System::EventHandler* ___DomainUnload;
+/// @brief Field AssemblyResolve, offset: 0x40, size: 0x8, def value: None
+ ::System::ResolveEventHandler*  ___AssemblyResolve;
 
-  /// @brief Field ProcessExit, offset: 0x50, size: 0x8, def value: None
-  ::System::EventHandler* ___ProcessExit;
+/// @brief Field DomainUnload, offset: 0x48, size: 0x8, def value: None
+ ::System::EventHandler*  ___DomainUnload;
 
-  /// @brief Field ResourceResolve, offset: 0x58, size: 0x8, def value: None
-  ::System::ResolveEventHandler* ___ResourceResolve;
+/// @brief Field ProcessExit, offset: 0x50, size: 0x8, def value: None
+ ::System::EventHandler*  ___ProcessExit;
 
-  /// @brief Field TypeResolve, offset: 0x60, size: 0x8, def value: None
-  ::System::ResolveEventHandler* ___TypeResolve;
+/// @brief Field ResourceResolve, offset: 0x58, size: 0x8, def value: None
+ ::System::ResolveEventHandler*  ___ResourceResolve;
 
-  /// @brief Field UnhandledException, offset: 0x68, size: 0x8, def value: None
-  ::System::UnhandledExceptionEventHandler* ___UnhandledException;
+/// @brief Field TypeResolve, offset: 0x60, size: 0x8, def value: None
+ ::System::ResolveEventHandler*  ___TypeResolve;
 
-  /// @brief Field FirstChanceException, offset: 0x70, size: 0x8, def value: None
-  ::System::EventHandler_1<::System::Runtime::ExceptionServices::FirstChanceExceptionEventArgs*>* ___FirstChanceException;
+/// @brief Field UnhandledException, offset: 0x68, size: 0x8, def value: None
+ ::System::UnhandledExceptionEventHandler*  ___UnhandledException;
 
-  /// @brief Field _domain_manager, offset: 0x78, size: 0x8, def value: None
-  ::System::Object* ____domain_manager;
+/// @brief Field FirstChanceException, offset: 0x70, size: 0x8, def value: None
+ ::System::EventHandler_1<::System::Runtime::ExceptionServices::FirstChanceExceptionEventArgs*>*  ___FirstChanceException;
 
-  /// @brief Field ReflectionOnlyAssemblyResolve, offset: 0x80, size: 0x8, def value: None
-  ::System::ResolveEventHandler* ___ReflectionOnlyAssemblyResolve;
+/// @brief Field _domain_manager, offset: 0x78, size: 0x8, def value: None
+ ::System::Object*  ____domain_manager;
 
-  /// @brief Field _activation, offset: 0x88, size: 0x8, def value: None
-  ::System::Object* ____activation;
+/// @brief Field ReflectionOnlyAssemblyResolve, offset: 0x80, size: 0x8, def value: None
+ ::System::ResolveEventHandler*  ___ReflectionOnlyAssemblyResolve;
 
-  /// @brief Field _applicationIdentity, offset: 0x90, size: 0x8, def value: None
-  ::System::Object* ____applicationIdentity;
+/// @brief Field _activation, offset: 0x88, size: 0x8, def value: None
+ ::System::Object*  ____activation;
 
-  /// @brief Field compatibility_switch, offset: 0x98, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::StringW>* ___compatibility_switch;
+/// @brief Field _applicationIdentity, offset: 0x90, size: 0x8, def value: None
+ ::System::Object*  ____applicationIdentity;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field compatibility_switch, offset: 0x98, size: 0x8, def value: None
+ ::System::Collections::Generic::List_1<::StringW>*  ___compatibility_switch;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::AppDomain, ____mono_app_domain) == 0x18, "Offset mismatch!");
@@ -503,6 +500,6 @@ static_assert(offsetof(::System::AppDomain, ___compatibility_switch) == 0x98, "O
 
 static_assert(::cordl_internals::size_check_v<::System::AppDomain, 0xa0>, "Size mismatch!");
 
-} // namespace System
+} // namespace end def System
 NEED_NO_BOX(::System::AppDomain);
 DEFINE_IL2CPP_ARG_TYPE(::System::AppDomain*, "System", "AppDomain");

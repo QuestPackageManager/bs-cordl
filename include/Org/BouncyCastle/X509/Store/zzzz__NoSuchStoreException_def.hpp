@@ -21,44 +21,44 @@ namespace Org::BouncyCastle::X509::Store {
 // CS Name: Org.BouncyCastle.X509.Store.NoSuchStoreException
 class CORDL_TYPE NoSuchStoreException : public ::Org::BouncyCastle::X509::Store::X509StoreException {
 public:
-  // Declarations
-  static inline ::Org::BouncyCastle::X509::Store::NoSuchStoreException* New_ctor();
+// Declarations
+static inline ::Org::BouncyCastle::X509::Store::NoSuchStoreException* New_ctor() ;
 
-  static inline ::Org::BouncyCastle::X509::Store::NoSuchStoreException* New_ctor(::StringW message);
+static inline ::Org::BouncyCastle::X509::Store::NoSuchStoreException* New_ctor(::StringW  message) ;
 
-  static inline ::Org::BouncyCastle::X509::Store::NoSuchStoreException* New_ctor(::StringW message, ::System::Exception* e);
+static inline ::Org::BouncyCastle::X509::Store::NoSuchStoreException* New_ctor(::StringW  message, ::System::Exception*  e) ;
 
-  /// @brief Method .ctor, addr 0x35448c0, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x3544810, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method .ctor, addr 0x35448c4, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor(::StringW message);
+/// @brief Method .ctor, addr 0x3544814, size 0x4, virtual false, abstract: false, final false
+inline void _ctor(::StringW  message) ;
 
-  /// @brief Method .ctor, addr 0x35448c8, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor(::StringW message, ::System::Exception* e);
+/// @brief Method .ctor, addr 0x3544818, size 0x4, virtual false, abstract: false, final false
+inline void _ctor(::StringW  message, ::System::Exception*  e) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NoSuchStoreException();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr NoSuchStoreException() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NoSuchStoreException", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  NoSuchStoreException(NoSuchStoreException&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NoSuchStoreException", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  NoSuchStoreException(NoSuchStoreException const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "NoSuchStoreException", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+NoSuchStoreException(NoSuchStoreException && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1845 };
+// Ctor Parameters [CppParam { name: "", ty: "NoSuchStoreException", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+NoSuchStoreException(NoSuchStoreException const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{1845};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::X509::Store::NoSuchStoreException, 0x90>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::X509::Store
+} // namespace end def Org::BouncyCastle::X509::Store
 NEED_NO_BOX(::Org::BouncyCastle::X509::Store::NoSuchStoreException);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::X509::Store::NoSuchStoreException*, "Org.BouncyCastle.X509.Store", "NoSuchStoreException");

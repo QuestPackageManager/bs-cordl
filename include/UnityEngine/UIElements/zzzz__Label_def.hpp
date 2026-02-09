@@ -31,123 +31,123 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::Label_UxmlTraits);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.Label/UxmlFactory
-class CORDL_TYPE Label_UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::Label*, ::UnityEngine::UIElements::Label_UxmlTraits*> {
+class CORDL_TYPE Label_UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::Label*,::UnityEngine::UIElements::Label_UxmlTraits*> {
 public:
-  // Declarations
-  static inline ::UnityEngine::UIElements::Label_UxmlFactory* New_ctor();
+// Declarations
+static inline ::UnityEngine::UIElements::Label_UxmlFactory* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x6b837e8, size 0x68, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6b83ea8, size 0x68, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Label_UxmlFactory();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr Label_UxmlFactory() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Label_UxmlFactory", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  Label_UxmlFactory(Label_UxmlFactory&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Label_UxmlFactory", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  Label_UxmlFactory(Label_UxmlFactory const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "Label_UxmlFactory", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+Label_UxmlFactory(Label_UxmlFactory && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4236 };
+// Ctor Parameters [CppParam { name: "", ty: "Label_UxmlFactory", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+Label_UxmlFactory(Label_UxmlFactory const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4236};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::Label_UxmlFactory, 0x18>, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements
+} // namespace end def UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.TextElement::UxmlTraits
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.Label/UxmlTraits
 class CORDL_TYPE Label_UxmlTraits : public ::UnityEngine::UIElements::TextElement_UxmlTraits {
 public:
-  // Declarations
-  static inline ::UnityEngine::UIElements::Label_UxmlTraits* New_ctor();
+// Declarations
+static inline ::UnityEngine::UIElements::Label_UxmlTraits* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x6b83850, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6b83f10, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Label_UxmlTraits();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr Label_UxmlTraits() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Label_UxmlTraits", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  Label_UxmlTraits(Label_UxmlTraits&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Label_UxmlTraits", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  Label_UxmlTraits(Label_UxmlTraits const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "Label_UxmlTraits", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+Label_UxmlTraits(Label_UxmlTraits && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4237 };
+// Ctor Parameters [CppParam { name: "", ty: "Label_UxmlTraits", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+Label_UxmlTraits(Label_UxmlTraits const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4237};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::Label_UxmlTraits, 0xd0>, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements
+} // namespace end def UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.TextElement
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.Label
 class CORDL_TYPE Label : public ::UnityEngine::UIElements::TextElement {
 public:
-  // Declarations
-  using UxmlFactory = ::UnityEngine::UIElements::Label_UxmlFactory;
+// Declarations
+using UxmlFactory = ::UnityEngine::UIElements::Label_UxmlFactory;
 
-  using UxmlTraits = ::UnityEngine::UIElements::Label_UxmlTraits;
+using UxmlTraits = ::UnityEngine::UIElements::Label_UxmlTraits;
 
-  /// @brief Field ussClassName, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_ussClassName, put = setStaticF_ussClassName)) ::StringW ussClassName;
+/// @brief Field ussClassName, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_ussClassName, put=setStaticF_ussClassName)) ::StringW  ussClassName;
 
-  static inline ::UnityEngine::UIElements::Label* New_ctor();
+static inline ::UnityEngine::UIElements::Label* New_ctor() ;
 
-  static inline ::UnityEngine::UIElements::Label* New_ctor(::StringW text);
+static inline ::UnityEngine::UIElements::Label* New_ctor(::StringW  text) ;
 
-  /// @brief Method .ctor, addr 0x6b8376c, size 0x14, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6b83e2c, size 0x14, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method .ctor, addr 0x6b7aa00, size 0xc0, virtual false, abstract: false, final false
-  inline void _ctor(::StringW text);
+/// @brief Method .ctor, addr 0x6b7b0c0, size 0xc0, virtual false, abstract: false, final false
+inline void _ctor(::StringW  text) ;
 
-  static inline ::StringW getStaticF_ussClassName();
+static inline ::StringW getStaticF_ussClassName() ;
 
-  static inline void setStaticF_ussClassName(::StringW value);
+static inline void setStaticF_ussClassName(::StringW  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Label();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr Label() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Label", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  Label(Label&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Label", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  Label(Label const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "Label", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+Label(Label && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4238 };
+// Ctor Parameters [CppParam { name: "", ty: "Label", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+Label(Label const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4238};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::Label, 0x5a8>, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements
+} // namespace end def UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::Label);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::Label*, "UnityEngine.UIElements", "Label");
 NEED_NO_BOX(::UnityEngine::UIElements::Label_UxmlFactory);

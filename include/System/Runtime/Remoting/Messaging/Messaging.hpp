@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "System/Runtime/Remoting/Messaging/ArgInfo.hpp"
 #include "System/Runtime/Remoting/Messaging/ArgInfoType.hpp"
@@ -50,5 +50,6 @@ module;
 #include "System/Runtime/Remoting/Messaging/ServerObjectTerminatorSink.hpp"
 #include "System/Runtime/Remoting/Messaging/StackBuilderSink.hpp"
 #ifdef __cpp_modules
-export module Messaging;
-#endif
+                    export module Messaging;
+                    #endif
+                

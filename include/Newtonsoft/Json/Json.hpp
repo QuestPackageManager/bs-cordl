@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "Newtonsoft/Json/ConstructorHandling.hpp"
 #include "Newtonsoft/Json/DateFormatHandling.hpp"
@@ -57,5 +57,6 @@ module;
 #include "Newtonsoft/Json/TypeNameHandling.hpp"
 #include "Newtonsoft/Json/WriteState.hpp"
 #ifdef __cpp_modules
-export module Json;
-#endif
+                    export module Json;
+                    #endif
+                

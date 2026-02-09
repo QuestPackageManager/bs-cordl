@@ -21,67 +21,67 @@ namespace GlobalNamespace {
 // CS Name: BrowsingMenusRichPresenceData
 class CORDL_TYPE BrowsingMenusRichPresenceData : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field _localizedDescription, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__localizedDescription, put = __cordl_internal_set__localizedDescription)) ::StringW _localizedDescription;
+// Declarations
+/// @brief Field _localizedDescription, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get__localizedDescription, put=__cordl_internal_set__localizedDescription)) ::StringW  _localizedDescription;
 
-  __declspec(property(get = get_apiName)) ::StringW apiName;
+ __declspec(property(get=get_apiName)) ::StringW  apiName;
 
-  __declspec(property(get = get_localizedDescription)) ::StringW localizedDescription;
+ __declspec(property(get=get_localizedDescription)) ::StringW  localizedDescription;
 
-  /// @brief Convert operator to "::GlobalNamespace::IRichPresenceData"
-  constexpr operator ::GlobalNamespace::IRichPresenceData*() noexcept;
+/// @brief Convert operator to "::GlobalNamespace::IRichPresenceData"
+constexpr operator  ::GlobalNamespace::IRichPresenceData*() noexcept;
 
-  static inline ::GlobalNamespace::BrowsingMenusRichPresenceData* New_ctor();
+static inline ::GlobalNamespace::BrowsingMenusRichPresenceData* New_ctor() ;
 
-  constexpr ::StringW const& __cordl_internal_get__localizedDescription() const;
+constexpr ::StringW const& __cordl_internal_get__localizedDescription() const;
 
-  constexpr ::StringW& __cordl_internal_get__localizedDescription();
+constexpr ::StringW& __cordl_internal_get__localizedDescription() ;
 
-  constexpr void __cordl_internal_set__localizedDescription(::StringW value);
+constexpr void __cordl_internal_set__localizedDescription(::StringW  value) ;
 
-  /// @brief Method .ctor, addr 0x576b87c, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x576c1ac, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_apiName, addr 0x576b7dc, size 0x44, virtual true, abstract: false, final true
-  inline ::StringW get_apiName();
+/// @brief Method get_apiName, addr 0x576c10c, size 0x44, virtual true, abstract: false, final true
+inline ::StringW get_apiName() ;
 
-  /// @brief Method get_localizedDescription, addr 0x576b820, size 0x5c, virtual true, abstract: false, final true
-  inline ::StringW get_localizedDescription();
+/// @brief Method get_localizedDescription, addr 0x576c150, size 0x5c, virtual true, abstract: false, final true
+inline ::StringW get_localizedDescription() ;
 
-  /// @brief Convert to "::GlobalNamespace::IRichPresenceData"
-  constexpr ::GlobalNamespace::IRichPresenceData* i___GlobalNamespace__IRichPresenceData() noexcept;
+/// @brief Convert to "::GlobalNamespace::IRichPresenceData"
+constexpr ::GlobalNamespace::IRichPresenceData* i___GlobalNamespace__IRichPresenceData() noexcept;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BrowsingMenusRichPresenceData();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr BrowsingMenusRichPresenceData() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BrowsingMenusRichPresenceData", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  BrowsingMenusRichPresenceData(BrowsingMenusRichPresenceData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BrowsingMenusRichPresenceData", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  BrowsingMenusRichPresenceData(BrowsingMenusRichPresenceData const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "BrowsingMenusRichPresenceData", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+BrowsingMenusRichPresenceData(BrowsingMenusRichPresenceData && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6727 };
+// Ctor Parameters [CppParam { name: "", ty: "BrowsingMenusRichPresenceData", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+BrowsingMenusRichPresenceData(BrowsingMenusRichPresenceData const& ) = delete;
 
-  /// @brief Field kBrowsingMenusRichPresenceLocalizationKey offset 0xffffffff size 0x8
-  static constexpr ::ConstString kBrowsingMenusRichPresenceLocalizationKey{ u"BROWSING_MENUS_PRESENCE" };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6731};
 
-  /// @brief Field _localizedDescription, offset: 0x10, size: 0x8, def value: None
-  ::StringW ____localizedDescription;
+/// @brief Field kBrowsingMenusRichPresenceLocalizationKey offset 0xffffffff size 0x8
+static constexpr ::ConstString  kBrowsingMenusRichPresenceLocalizationKey{u"BROWSING_MENUS_PRESENCE"};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _localizedDescription, offset: 0x10, size: 0x8, def value: None
+ ::StringW  ____localizedDescription;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::BrowsingMenusRichPresenceData, ____localizedDescription) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BrowsingMenusRichPresenceData, 0x18>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BrowsingMenusRichPresenceData);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BrowsingMenusRichPresenceData*, "", "BrowsingMenusRichPresenceData");

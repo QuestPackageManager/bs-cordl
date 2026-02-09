@@ -39,76 +39,76 @@ namespace Org::BouncyCastle::Asn1::Ocsp {
 // CS Name: Org.BouncyCastle.Asn1.Ocsp.ResponderID
 class CORDL_TYPE ResponderID : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
-  // Declarations
-  __declspec(property(get = get_Name)) ::Org::BouncyCastle::Asn1::X509::X509Name* Name;
+// Declarations
+ __declspec(property(get=get_Name)) ::Org::BouncyCastle::Asn1::X509::X509Name*  Name;
 
-  /// @brief Field id, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_id, put = __cordl_internal_set_id)) ::Org::BouncyCastle::Asn1::Asn1Encodable* id;
+/// @brief Field id, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_id, put=__cordl_internal_set_id)) ::Org::BouncyCastle::Asn1::Asn1Encodable*  id;
 
-  /// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1Choice"
-  constexpr operator ::Org::BouncyCastle::Asn1::IAsn1Choice*() noexcept;
+/// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1Choice"
+constexpr operator  ::Org::BouncyCastle::Asn1::IAsn1Choice*() noexcept;
 
-  /// @brief Method GetInstance, addr 0x33610dc, size 0x28, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Asn1::Ocsp::ResponderID* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool isExplicit);
+/// @brief Method GetInstance, addr 0x336102c, size 0x28, virtual false, abstract: false, final false
+static inline ::Org::BouncyCastle::Asn1::Ocsp::ResponderID* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject*  obj, bool  isExplicit) ;
 
-  /// @brief Method GetInstance, addr 0x3360e44, size 0x1e8, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Asn1::Ocsp::ResponderID* GetInstance(::System::Object* obj);
+/// @brief Method GetInstance, addr 0x3360d94, size 0x1e8, virtual false, abstract: false, final false
+static inline ::Org::BouncyCastle::Asn1::Ocsp::ResponderID* GetInstance(::System::Object*  obj) ;
 
-  /// @brief Method GetKeyHash, addr 0x3361104, size 0x8c, virtual true, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetKeyHash();
+/// @brief Method GetKeyHash, addr 0x3361054, size 0x8c, virtual true, abstract: false, final false
+inline ::ArrayW<uint8_t,::Array<uint8_t>*> GetKeyHash() ;
 
-  static inline ::Org::BouncyCastle::Asn1::Ocsp::ResponderID* New_ctor(::Org::BouncyCastle::Asn1::Asn1OctetString* id);
+static inline ::Org::BouncyCastle::Asn1::Ocsp::ResponderID* New_ctor(::Org::BouncyCastle::Asn1::Asn1OctetString*  id) ;
 
-  static inline ::Org::BouncyCastle::Asn1::Ocsp::ResponderID* New_ctor(::Org::BouncyCastle::Asn1::X509::X509Name* id);
+static inline ::Org::BouncyCastle::Asn1::Ocsp::ResponderID* New_ctor(::Org::BouncyCastle::Asn1::X509::X509Name*  id) ;
 
-  /// @brief Method ToAsn1Object, addr 0x3361248, size 0x104, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
+/// @brief Method ToAsn1Object, addr 0x3361198, size 0x104, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object() ;
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1Encodable* const& __cordl_internal_get_id() const;
+constexpr ::Org::BouncyCastle::Asn1::Asn1Encodable* const& __cordl_internal_get_id() const;
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1Encodable*& __cordl_internal_get_id();
+constexpr ::Org::BouncyCastle::Asn1::Asn1Encodable*& __cordl_internal_get_id() ;
 
-  constexpr void __cordl_internal_set_id(::Org::BouncyCastle::Asn1::Asn1Encodable* value);
+constexpr void __cordl_internal_set_id(::Org::BouncyCastle::Asn1::Asn1Encodable*  value) ;
 
-  /// @brief Method .ctor, addr 0x336102c, size 0x58, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Asn1::Asn1OctetString* id);
+/// @brief Method .ctor, addr 0x3360f7c, size 0x58, virtual false, abstract: false, final false
+inline void _ctor(::Org::BouncyCastle::Asn1::Asn1OctetString*  id) ;
 
-  /// @brief Method .ctor, addr 0x3361084, size 0x58, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Asn1::X509::X509Name* id);
+/// @brief Method .ctor, addr 0x3360fd4, size 0x58, virtual false, abstract: false, final false
+inline void _ctor(::Org::BouncyCastle::Asn1::X509::X509Name*  id) ;
 
-  /// @brief Method get_Name, addr 0x3361190, size 0xb8, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::X509::X509Name* get_Name();
+/// @brief Method get_Name, addr 0x33610e0, size 0xb8, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Asn1::X509::X509Name* get_Name() ;
 
-  /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Choice"
-  constexpr ::Org::BouncyCastle::Asn1::IAsn1Choice* i___Org__BouncyCastle__Asn1__IAsn1Choice() noexcept;
+/// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Choice"
+constexpr ::Org::BouncyCastle::Asn1::IAsn1Choice* i___Org__BouncyCastle__Asn1__IAsn1Choice() noexcept;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ResponderID();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ResponderID() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ResponderID", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ResponderID(ResponderID&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ResponderID", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ResponderID(ResponderID const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ResponderID", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ResponderID(ResponderID && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 216 };
+// Ctor Parameters [CppParam { name: "", ty: "ResponderID", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ResponderID(ResponderID const& ) = delete;
 
-  /// @brief Field id, offset: 0x10, size: 0x8, def value: None
-  ::Org::BouncyCastle::Asn1::Asn1Encodable* ___id;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{216};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field id, offset: 0x10, size: 0x8, def value: None
+ ::Org::BouncyCastle::Asn1::Asn1Encodable*  ___id;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Org::BouncyCastle::Asn1::Ocsp::ResponderID, ___id) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Ocsp::ResponderID, 0x18>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Asn1::Ocsp
+} // namespace end def Org::BouncyCastle::Asn1::Ocsp
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Ocsp::ResponderID);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::Ocsp::ResponderID*, "Org.BouncyCastle.Asn1.Ocsp", "ResponderID");

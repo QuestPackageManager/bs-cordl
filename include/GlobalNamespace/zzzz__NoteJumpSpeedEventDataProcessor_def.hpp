@@ -12,7 +12,8 @@ namespace GlobalNamespace {
 class NoteJumpSpeedEventData;
 }
 namespace System::Collections::Generic {
-template <typename T> class LinkedListNode_1;
+template<typename T>
+class LinkedListNode_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -26,40 +27,40 @@ namespace GlobalNamespace {
 // CS Name: NoteJumpSpeedEventDataProcessor
 class CORDL_TYPE NoteJumpSpeedEventDataProcessor : public ::GlobalNamespace::BeatmapEventDataProcessor_1<::GlobalNamespace::NoteJumpSpeedEventData*> {
 public:
-  // Declarations
-  static inline ::GlobalNamespace::NoteJumpSpeedEventDataProcessor* New_ctor();
+// Declarations
+static inline ::GlobalNamespace::NoteJumpSpeedEventDataProcessor* New_ctor() ;
 
-  /// @brief Method ProcessBeforeDeleteEventDataInternal, addr 0x319540c, size 0xe4, virtual true, abstract: false, final false
-  inline void ProcessBeforeDeleteEventDataInternal(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>* nodeToDelete);
+/// @brief Method ProcessBeforeDeleteEventDataInternal, addr 0x319535c, size 0xe4, virtual true, abstract: false, final false
+inline void ProcessBeforeDeleteEventDataInternal(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>*  nodeToDelete) ;
 
-  /// @brief Method ProcessInsertedEventDataInternal, addr 0x3195318, size 0xf4, virtual true, abstract: false, final false
-  inline void ProcessInsertedEventDataInternal(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>* insertedNode);
+/// @brief Method ProcessInsertedEventDataInternal, addr 0x3195268, size 0xf4, virtual true, abstract: false, final false
+inline void ProcessInsertedEventDataInternal(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>*  insertedNode) ;
 
-  /// @brief Method .ctor, addr 0x31954f0, size 0x3c, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x3195440, size 0x3c, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NoteJumpSpeedEventDataProcessor();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr NoteJumpSpeedEventDataProcessor() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NoteJumpSpeedEventDataProcessor", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  NoteJumpSpeedEventDataProcessor(NoteJumpSpeedEventDataProcessor&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NoteJumpSpeedEventDataProcessor", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  NoteJumpSpeedEventDataProcessor(NoteJumpSpeedEventDataProcessor const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "NoteJumpSpeedEventDataProcessor", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+NoteJumpSpeedEventDataProcessor(NoteJumpSpeedEventDataProcessor && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21065 };
+// Ctor Parameters [CppParam { name: "", ty: "NoteJumpSpeedEventDataProcessor", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+NoteJumpSpeedEventDataProcessor(NoteJumpSpeedEventDataProcessor const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{21069};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::NoteJumpSpeedEventDataProcessor, 0x10>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::NoteJumpSpeedEventDataProcessor);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::NoteJumpSpeedEventDataProcessor*, "", "NoteJumpSpeedEventDataProcessor");

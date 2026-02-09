@@ -12,67 +12,67 @@ struct ReflectionProbeSortingCriteria;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::Rendering::ReflectionProbeSortingCriteria);
-// Dependencies
+// Dependencies 
 namespace UnityEngine::Rendering {
 // Is value type: true
 // CS Name: UnityEngine.Rendering.ReflectionProbeSortingCriteria
 struct CORDL_TYPE ReflectionProbeSortingCriteria {
 public:
-  // Declarations
-  using __CORDL_BACKING_ENUM_TYPE = int32_t;
+// Declarations
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct __ReflectionProbeSortingCriteria_Unwrapped
-  enum struct __ReflectionProbeSortingCriteria_Unwrapped : int32_t {
-    __E_None = static_cast<int32_t>(0x0),
-    __E_Importance = static_cast<int32_t>(0x1),
-    __E_Size = static_cast<int32_t>(0x2),
-    __E_ImportanceThenSize = static_cast<int32_t>(0x3),
-  };
+/// @brief Nested struct __ReflectionProbeSortingCriteria_Unwrapped
+enum struct __ReflectionProbeSortingCriteria_Unwrapped : int32_t {
+__E_None = static_cast<int32_t>(0x0),
+__E_Importance = static_cast<int32_t>(0x1),
+__E_Size = static_cast<int32_t>(0x2),
+__E_ImportanceThenSize = static_cast<int32_t>(0x3),
+};
 
-  /// @brief Conversion into unwrapped enum value
-  constexpr operator __ReflectionProbeSortingCriteria_Unwrapped() const noexcept {
-    return static_cast<__ReflectionProbeSortingCriteria_Unwrapped>(this->value__);
-  }
+/// @brief Conversion into unwrapped enum value
+constexpr operator __ReflectionProbeSortingCriteria_Unwrapped () const noexcept {
+return static_cast<__ReflectionProbeSortingCriteria_Unwrapped>(this->value__);
+}
 
-  /// @brief Conversion into unwrapped enum value
-  constexpr explicit operator int32_t() const noexcept {
-    return static_cast<int32_t>(this->value__);
-  }
+/// @brief Conversion into unwrapped enum value
+constexpr explicit operator int32_t () const noexcept {
+return static_cast<int32_t>(this->value__);
+}
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ReflectionProbeSortingCriteria();
+// Ctor Parameters []
+// @brief default ctor
+constexpr ReflectionProbeSortingCriteria() ;
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr ReflectionProbeSortingCriteria(int32_t value__) noexcept;
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr ReflectionProbeSortingCriteria(int32_t  value__) noexcept;
 
-  /// @brief Field Importance value: I32(1)
-  static ::UnityEngine::Rendering::ReflectionProbeSortingCriteria const Importance;
+/// @brief Field Importance value: I32(1)
+static ::UnityEngine::Rendering::ReflectionProbeSortingCriteria const Importance;
 
-  /// @brief Field ImportanceThenSize value: I32(3)
-  static ::UnityEngine::Rendering::ReflectionProbeSortingCriteria const ImportanceThenSize;
+/// @brief Field ImportanceThenSize value: I32(3)
+static ::UnityEngine::Rendering::ReflectionProbeSortingCriteria const ImportanceThenSize;
 
-  /// @brief Field None value: I32(0)
-  static ::UnityEngine::Rendering::ReflectionProbeSortingCriteria const None;
+/// @brief Field None value: I32(0)
+static ::UnityEngine::Rendering::ReflectionProbeSortingCriteria const None;
 
-  /// @brief Field Size value: I32(2)
-  static ::UnityEngine::Rendering::ReflectionProbeSortingCriteria const Size;
+/// @brief Field Size value: I32(2)
+static ::UnityEngine::Rendering::ReflectionProbeSortingCriteria const Size;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10792 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10796};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x4};
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+/// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+ int32_t  value__;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Rendering::ReflectionProbeSortingCriteria, value__) == 0x0, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::ReflectionProbeSortingCriteria, 0x4>, "Size mismatch!");
 
-} // namespace UnityEngine::Rendering
+} // namespace end def UnityEngine::Rendering
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::ReflectionProbeSortingCriteria, "UnityEngine.Rendering", "ReflectionProbeSortingCriteria");

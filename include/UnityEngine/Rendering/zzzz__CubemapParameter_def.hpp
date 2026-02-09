@@ -21,37 +21,37 @@ namespace UnityEngine::Rendering {
 // CS Name: UnityEngine.Rendering.CubemapParameter
 class CORDL_TYPE CubemapParameter : public ::UnityEngine::Rendering::VolumeParameter_1<::UnityW<::UnityEngine::Texture>> {
 public:
-  // Declarations
-  /// @brief Method GetHashCode, addr 0x6616f14, size 0x108, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
+// Declarations
+/// @brief Method GetHashCode, addr 0x66175d4, size 0x108, virtual true, abstract: false, final false
+inline int32_t GetHashCode() ;
 
-  static inline ::UnityEngine::Rendering::CubemapParameter* New_ctor(::UnityEngine::Texture* value, bool overrideState);
+static inline ::UnityEngine::Rendering::CubemapParameter* New_ctor(::UnityEngine::Texture*  value, bool  overrideState) ;
 
-  /// @brief Method .ctor, addr 0x6616eb0, size 0x64, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::Texture* value, bool overrideState);
+/// @brief Method .ctor, addr 0x6617570, size 0x64, virtual false, abstract: false, final false
+inline void _ctor(::UnityEngine::Texture*  value, bool  overrideState) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CubemapParameter();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr CubemapParameter() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CubemapParameter", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  CubemapParameter(CubemapParameter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CubemapParameter", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  CubemapParameter(CubemapParameter const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "CubemapParameter", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+CubemapParameter(CubemapParameter && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12344 };
+// Ctor Parameters [CppParam { name: "", ty: "CubemapParameter", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+CubemapParameter(CubemapParameter const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12348};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::CubemapParameter, 0x20>, "Size mismatch!");
 
-} // namespace UnityEngine::Rendering
+} // namespace end def UnityEngine::Rendering
 NEED_NO_BOX(::UnityEngine::Rendering::CubemapParameter);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::CubemapParameter*, "UnityEngine.Rendering", "CubemapParameter");

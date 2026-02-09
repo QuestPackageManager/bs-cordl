@@ -22,35 +22,35 @@ namespace System::Net {
 // CS Name: System.Net.HttpStatusDescription
 class CORDL_TYPE HttpStatusDescription : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method Get, addr 0x6241fa4, size 0x4, virtual false, abstract: false, final false
-  static inline ::StringW Get(::System::Net::HttpStatusCode code);
+// Declarations
+/// @brief Method Get, addr 0x6242664, size 0x4, virtual false, abstract: false, final false
+static inline ::StringW Get(::System::Net::HttpStatusCode  code) ;
 
-  /// @brief Method Get, addr 0x6241fa8, size 0x930, virtual false, abstract: false, final false
-  static inline ::StringW Get(int32_t code);
+/// @brief Method Get, addr 0x6242668, size 0x930, virtual false, abstract: false, final false
+static inline ::StringW Get(int32_t  code) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HttpStatusDescription();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr HttpStatusDescription() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HttpStatusDescription", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  HttpStatusDescription(HttpStatusDescription&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HttpStatusDescription", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  HttpStatusDescription(HttpStatusDescription const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "HttpStatusDescription", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+HttpStatusDescription(HttpStatusDescription && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11420 };
+// Ctor Parameters [CppParam { name: "", ty: "HttpStatusDescription", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+HttpStatusDescription(HttpStatusDescription const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11424};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::HttpStatusDescription, 0x10>, "Size mismatch!");
 
-} // namespace System::Net
+} // namespace end def System::Net
 NEED_NO_BOX(::System::Net::HttpStatusDescription);
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::HttpStatusDescription*, "System.Net", "HttpStatusDescription");

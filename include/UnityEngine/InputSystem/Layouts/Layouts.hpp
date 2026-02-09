@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "UnityEngine/InputSystem/Layouts/InputControlAttribute.hpp"
 #include "UnityEngine/InputSystem/Layouts/InputControlLayout.hpp"
@@ -11,5 +11,6 @@ module;
 #include "UnityEngine/InputSystem/Layouts/InputDeviceFindControlLayoutDelegate.hpp"
 #include "UnityEngine/InputSystem/Layouts/InputDeviceMatcher.hpp"
 #ifdef __cpp_modules
-export module Layouts;
-#endif
+                    export module Layouts;
+                    #endif
+                

@@ -23,55 +23,51 @@ namespace OVR::OpenVR {
 #pragma pack(push, 4)
 struct CORDL_TYPE VRControllerState_t_Packed {
 public:
-  // Declarations
-  /// @brief Method Unpack, addr 0x5c94fc8, size 0x3c, virtual false, abstract: false, final false
-  inline void Unpack(::ByRef<::OVR::OpenVR::VRControllerState_t> unpacked);
+// Declarations
+/// @brief Method Unpack, addr 0x5c954d4, size 0x3c, virtual false, abstract: false, final false
+inline void Unpack(::ByRef<::OVR::OpenVR::VRControllerState_t>  unpacked) ;
 
-  /// @brief Method .ctor, addr 0x5c94f84, size 0x44, virtual false, abstract: false, final false
-  inline void _ctor(::OVR::OpenVR::VRControllerState_t unpacked);
+/// @brief Method .ctor, addr 0x5c95490, size 0x44, virtual false, abstract: false, final false
+inline void _ctor(::OVR::OpenVR::VRControllerState_t  unpacked) ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr VRControllerState_t_Packed();
+// Ctor Parameters []
+// @brief default ctor
+constexpr VRControllerState_t_Packed() ;
 
-  // Ctor Parameters [CppParam { name: "unPacketNum", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "ulButtonPressed", ty: "uint64_t", modifiers: "", def_value: None }, CppParam {
-  // name: "ulButtonTouched", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "rAxis0", ty: "::OVR::OpenVR::VRControllerAxis_t", modifiers: "", def_value: None }, CppParam { name:
-  // "rAxis1", ty: "::OVR::OpenVR::VRControllerAxis_t", modifiers: "", def_value: None }, CppParam { name: "rAxis2", ty: "::OVR::OpenVR::VRControllerAxis_t", modifiers: "", def_value: None }, CppParam
-  // { name: "rAxis3", ty: "::OVR::OpenVR::VRControllerAxis_t", modifiers: "", def_value: None }, CppParam { name: "rAxis4", ty: "::OVR::OpenVR::VRControllerAxis_t", modifiers: "", def_value: None }]
-  constexpr VRControllerState_t_Packed(uint32_t unPacketNum, uint64_t ulButtonPressed, uint64_t ulButtonTouched, ::OVR::OpenVR::VRControllerAxis_t rAxis0, ::OVR::OpenVR::VRControllerAxis_t rAxis1,
-                                       ::OVR::OpenVR::VRControllerAxis_t rAxis2, ::OVR::OpenVR::VRControllerAxis_t rAxis3, ::OVR::OpenVR::VRControllerAxis_t rAxis4) noexcept;
+// Ctor Parameters [CppParam { name: "unPacketNum", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "ulButtonPressed", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "ulButtonTouched", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "rAxis0", ty: "::OVR::OpenVR::VRControllerAxis_t", modifiers: "", def_value: None }, CppParam { name: "rAxis1", ty: "::OVR::OpenVR::VRControllerAxis_t", modifiers: "", def_value: None }, CppParam { name: "rAxis2", ty: "::OVR::OpenVR::VRControllerAxis_t", modifiers: "", def_value: None }, CppParam { name: "rAxis3", ty: "::OVR::OpenVR::VRControllerAxis_t", modifiers: "", def_value: None }, CppParam { name: "rAxis4", ty: "::OVR::OpenVR::VRControllerAxis_t", modifiers: "", def_value: None }]
+constexpr VRControllerState_t_Packed(uint32_t  unPacketNum, uint64_t  ulButtonPressed, uint64_t  ulButtonTouched, ::OVR::OpenVR::VRControllerAxis_t  rAxis0, ::OVR::OpenVR::VRControllerAxis_t  rAxis1, ::OVR::OpenVR::VRControllerAxis_t  rAxis2, ::OVR::OpenVR::VRControllerAxis_t  rAxis3, ::OVR::OpenVR::VRControllerAxis_t  rAxis4) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8496 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{8500};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x3c };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x3c};
 
-  /// @brief Field unPacketNum, offset: 0x0, size: 0x4, def value: None
-  uint32_t unPacketNum;
+/// @brief Field unPacketNum, offset: 0x0, size: 0x4, def value: None
+ uint32_t  unPacketNum;
 
-  /// @brief Field ulButtonPressed, offset: 0x4, size: 0x8, def value: None
-  uint64_t ulButtonPressed;
+/// @brief Field ulButtonPressed, offset: 0x4, size: 0x8, def value: None
+ uint64_t  ulButtonPressed;
 
-  /// @brief Field ulButtonTouched, offset: 0xc, size: 0x8, def value: None
-  uint64_t ulButtonTouched;
+/// @brief Field ulButtonTouched, offset: 0xc, size: 0x8, def value: None
+ uint64_t  ulButtonTouched;
 
-  /// @brief Field rAxis0, offset: 0x14, size: 0x8, def value: None
-  ::OVR::OpenVR::VRControllerAxis_t rAxis0;
+/// @brief Field rAxis0, offset: 0x14, size: 0x8, def value: None
+ ::OVR::OpenVR::VRControllerAxis_t  rAxis0;
 
-  /// @brief Field rAxis1, offset: 0x1c, size: 0x8, def value: None
-  ::OVR::OpenVR::VRControllerAxis_t rAxis1;
+/// @brief Field rAxis1, offset: 0x1c, size: 0x8, def value: None
+ ::OVR::OpenVR::VRControllerAxis_t  rAxis1;
 
-  /// @brief Field rAxis2, offset: 0x24, size: 0x8, def value: None
-  ::OVR::OpenVR::VRControllerAxis_t rAxis2;
+/// @brief Field rAxis2, offset: 0x24, size: 0x8, def value: None
+ ::OVR::OpenVR::VRControllerAxis_t  rAxis2;
 
-  /// @brief Field rAxis3, offset: 0x2c, size: 0x8, def value: None
-  ::OVR::OpenVR::VRControllerAxis_t rAxis3;
+/// @brief Field rAxis3, offset: 0x2c, size: 0x8, def value: None
+ ::OVR::OpenVR::VRControllerAxis_t  rAxis3;
 
-  /// @brief Field rAxis4, offset: 0x34, size: 0x8, def value: None
-  ::OVR::OpenVR::VRControllerAxis_t rAxis4;
+/// @brief Field rAxis4, offset: 0x34, size: 0x8, def value: None
+ ::OVR::OpenVR::VRControllerAxis_t  rAxis4;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
@@ -93,5 +89,5 @@ static_assert(offsetof(::OVR::OpenVR::VRControllerState_t_Packed, rAxis4) == 0x3
 
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::VRControllerState_t_Packed, 0x3c>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::VRControllerState_t_Packed, "OVR.OpenVR", "VRControllerState_t_Packed");

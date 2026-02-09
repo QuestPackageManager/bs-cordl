@@ -11,169 +11,171 @@
 #include "System/Linq/Expressions/Interpreter/zzzz__SubOvfInstruction_SubOvfUInt64_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 //  Writing Method size for method: ::System::Linq::Expressions::Interpreter::SubOvfInstruction.get_ConsumedStack
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::SubOvfInstruction::*)()>(
-    &::System::Linq::Expressions::Interpreter::SubOvfInstruction::get_ConsumedStack)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::SubOvfInstruction::*)()>(&::System::Linq::Expressions::Interpreter::SubOvfInstruction::get_ConsumedStack)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e0920c;
+  constexpr static std::size_t addrs = 0x5e098cc;
 
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::SubOvfInstruction*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::SubOvfInstruction*>::get(), 4));
+  inline static const ::MethodInfo* methodInfo() {
+    
+                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::SubOvfInstruction*>::get(),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::SubOvfInstruction*>::get(),
+                                  4
+                                ));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Linq::Expressions::Interpreter::SubOvfInstruction.get_ProducedStack
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::SubOvfInstruction::*)()>(
-    &::System::Linq::Expressions::Interpreter::SubOvfInstruction::get_ProducedStack)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::SubOvfInstruction::*)()>(&::System::Linq::Expressions::Interpreter::SubOvfInstruction::get_ProducedStack)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x5e09214;
+  constexpr static std::size_t addrs = 0x5e098d4;
 
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::SubOvfInstruction*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::SubOvfInstruction*>::get(), 5));
+  inline static const ::MethodInfo* methodInfo() {
+    
+                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::SubOvfInstruction*>::get(),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::SubOvfInstruction*>::get(),
+                                  5
+                                ));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Linq::Expressions::Interpreter::SubOvfInstruction.get_InstructionName
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Linq::Expressions::Interpreter::SubOvfInstruction::*)()>(
-    &::System::Linq::Expressions::Interpreter::SubOvfInstruction::get_InstructionName)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Linq::Expressions::Interpreter::SubOvfInstruction::*)()>(&::System::Linq::Expressions::Interpreter::SubOvfInstruction::get_InstructionName)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x5e0921c;
+  constexpr static std::size_t addrs = 0x5e098dc;
 
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::SubOvfInstruction*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::SubOvfInstruction*>::get(), 9));
+  inline static const ::MethodInfo* methodInfo() {
+    
+                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::SubOvfInstruction*>::get(),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::SubOvfInstruction*>::get(),
+                                  9
+                                ));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Linq::Expressions::Interpreter::SubOvfInstruction._ctor
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::SubOvfInstruction::*)()>(
-    &::System::Linq::Expressions::Interpreter::SubOvfInstruction::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::SubOvfInstruction::*)()>(&::System::Linq::Expressions::Interpreter::SubOvfInstruction::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x5e09260;
+  constexpr static std::size_t addrs = 0x5e09920;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::SubOvfInstruction*>::get(), ".ctor",
-                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::SubOvfInstruction*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Linq::Expressions::Interpreter::SubOvfInstruction.Create
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::Interpreter::Instruction* (*)(::System::Type*)>(
-    &::System::Linq::Expressions::Interpreter::SubOvfInstruction::Create)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::Interpreter::Instruction* (*)(::System::Type*)>(&::System::Linq::Expressions::Interpreter::SubOvfInstruction::Create)> {
   constexpr static std::size_t size = 0x28c;
-  constexpr static std::size_t addrs = 0x5e09264;
+  constexpr static std::size_t addrs = 0x5e09924;
 
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::SubOvfInstruction*>::get(), "Create",
-                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
+  inline static const ::MethodInfo* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::SubOvfInstruction*>::get(),
+                        "Create",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
+                    )));
     return ___internal_method;
   }
 };
-inline void System::Linq::Expressions::Interpreter::SubOvfInstruction::setStaticF_s_Int16(::System::Linq::Expressions::Interpreter::Instruction* value) {
-  ::cordl_internals::setStaticField<::System::Linq::Expressions::Interpreter::Instruction*, "s_Int16",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::SubOvfInstruction*>::get>(
-      std::forward<::System::Linq::Expressions::Interpreter::Instruction*>(value));
+inline void System::Linq::Expressions::Interpreter::SubOvfInstruction::setStaticF_s_Int16(::System::Linq::Expressions::Interpreter::Instruction*  value)  {
+::cordl_internals::setStaticField<::System::Linq::Expressions::Interpreter::Instruction*, "s_Int16", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::SubOvfInstruction*>::get>(std::forward<::System::Linq::Expressions::Interpreter::Instruction*>(value));
 }
-inline ::System::Linq::Expressions::Interpreter::Instruction* System::Linq::Expressions::Interpreter::SubOvfInstruction::getStaticF_s_Int16() {
-  return ::cordl_internals::getStaticField<::System::Linq::Expressions::Interpreter::Instruction*, "s_Int16",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::SubOvfInstruction*>::get>();
+inline ::System::Linq::Expressions::Interpreter::Instruction* System::Linq::Expressions::Interpreter::SubOvfInstruction::getStaticF_s_Int16()  {
+return ::cordl_internals::getStaticField<::System::Linq::Expressions::Interpreter::Instruction*, "s_Int16", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::SubOvfInstruction*>::get>();
 }
-inline void System::Linq::Expressions::Interpreter::SubOvfInstruction::setStaticF_s_Int32(::System::Linq::Expressions::Interpreter::Instruction* value) {
-  ::cordl_internals::setStaticField<::System::Linq::Expressions::Interpreter::Instruction*, "s_Int32",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::SubOvfInstruction*>::get>(
-      std::forward<::System::Linq::Expressions::Interpreter::Instruction*>(value));
+inline void System::Linq::Expressions::Interpreter::SubOvfInstruction::setStaticF_s_Int32(::System::Linq::Expressions::Interpreter::Instruction*  value)  {
+::cordl_internals::setStaticField<::System::Linq::Expressions::Interpreter::Instruction*, "s_Int32", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::SubOvfInstruction*>::get>(std::forward<::System::Linq::Expressions::Interpreter::Instruction*>(value));
 }
-inline ::System::Linq::Expressions::Interpreter::Instruction* System::Linq::Expressions::Interpreter::SubOvfInstruction::getStaticF_s_Int32() {
-  return ::cordl_internals::getStaticField<::System::Linq::Expressions::Interpreter::Instruction*, "s_Int32",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::SubOvfInstruction*>::get>();
+inline ::System::Linq::Expressions::Interpreter::Instruction* System::Linq::Expressions::Interpreter::SubOvfInstruction::getStaticF_s_Int32()  {
+return ::cordl_internals::getStaticField<::System::Linq::Expressions::Interpreter::Instruction*, "s_Int32", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::SubOvfInstruction*>::get>();
 }
-inline void System::Linq::Expressions::Interpreter::SubOvfInstruction::setStaticF_s_Int64(::System::Linq::Expressions::Interpreter::Instruction* value) {
-  ::cordl_internals::setStaticField<::System::Linq::Expressions::Interpreter::Instruction*, "s_Int64",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::SubOvfInstruction*>::get>(
-      std::forward<::System::Linq::Expressions::Interpreter::Instruction*>(value));
+inline void System::Linq::Expressions::Interpreter::SubOvfInstruction::setStaticF_s_Int64(::System::Linq::Expressions::Interpreter::Instruction*  value)  {
+::cordl_internals::setStaticField<::System::Linq::Expressions::Interpreter::Instruction*, "s_Int64", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::SubOvfInstruction*>::get>(std::forward<::System::Linq::Expressions::Interpreter::Instruction*>(value));
 }
-inline ::System::Linq::Expressions::Interpreter::Instruction* System::Linq::Expressions::Interpreter::SubOvfInstruction::getStaticF_s_Int64() {
-  return ::cordl_internals::getStaticField<::System::Linq::Expressions::Interpreter::Instruction*, "s_Int64",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::SubOvfInstruction*>::get>();
+inline ::System::Linq::Expressions::Interpreter::Instruction* System::Linq::Expressions::Interpreter::SubOvfInstruction::getStaticF_s_Int64()  {
+return ::cordl_internals::getStaticField<::System::Linq::Expressions::Interpreter::Instruction*, "s_Int64", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::SubOvfInstruction*>::get>();
 }
-inline void System::Linq::Expressions::Interpreter::SubOvfInstruction::setStaticF_s_UInt16(::System::Linq::Expressions::Interpreter::Instruction* value) {
-  ::cordl_internals::setStaticField<::System::Linq::Expressions::Interpreter::Instruction*, "s_UInt16",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::SubOvfInstruction*>::get>(
-      std::forward<::System::Linq::Expressions::Interpreter::Instruction*>(value));
+inline void System::Linq::Expressions::Interpreter::SubOvfInstruction::setStaticF_s_UInt16(::System::Linq::Expressions::Interpreter::Instruction*  value)  {
+::cordl_internals::setStaticField<::System::Linq::Expressions::Interpreter::Instruction*, "s_UInt16", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::SubOvfInstruction*>::get>(std::forward<::System::Linq::Expressions::Interpreter::Instruction*>(value));
 }
-inline ::System::Linq::Expressions::Interpreter::Instruction* System::Linq::Expressions::Interpreter::SubOvfInstruction::getStaticF_s_UInt16() {
-  return ::cordl_internals::getStaticField<::System::Linq::Expressions::Interpreter::Instruction*, "s_UInt16",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::SubOvfInstruction*>::get>();
+inline ::System::Linq::Expressions::Interpreter::Instruction* System::Linq::Expressions::Interpreter::SubOvfInstruction::getStaticF_s_UInt16()  {
+return ::cordl_internals::getStaticField<::System::Linq::Expressions::Interpreter::Instruction*, "s_UInt16", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::SubOvfInstruction*>::get>();
 }
-inline void System::Linq::Expressions::Interpreter::SubOvfInstruction::setStaticF_s_UInt32(::System::Linq::Expressions::Interpreter::Instruction* value) {
-  ::cordl_internals::setStaticField<::System::Linq::Expressions::Interpreter::Instruction*, "s_UInt32",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::SubOvfInstruction*>::get>(
-      std::forward<::System::Linq::Expressions::Interpreter::Instruction*>(value));
+inline void System::Linq::Expressions::Interpreter::SubOvfInstruction::setStaticF_s_UInt32(::System::Linq::Expressions::Interpreter::Instruction*  value)  {
+::cordl_internals::setStaticField<::System::Linq::Expressions::Interpreter::Instruction*, "s_UInt32", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::SubOvfInstruction*>::get>(std::forward<::System::Linq::Expressions::Interpreter::Instruction*>(value));
 }
-inline ::System::Linq::Expressions::Interpreter::Instruction* System::Linq::Expressions::Interpreter::SubOvfInstruction::getStaticF_s_UInt32() {
-  return ::cordl_internals::getStaticField<::System::Linq::Expressions::Interpreter::Instruction*, "s_UInt32",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::SubOvfInstruction*>::get>();
+inline ::System::Linq::Expressions::Interpreter::Instruction* System::Linq::Expressions::Interpreter::SubOvfInstruction::getStaticF_s_UInt32()  {
+return ::cordl_internals::getStaticField<::System::Linq::Expressions::Interpreter::Instruction*, "s_UInt32", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::SubOvfInstruction*>::get>();
 }
-inline void System::Linq::Expressions::Interpreter::SubOvfInstruction::setStaticF_s_UInt64(::System::Linq::Expressions::Interpreter::Instruction* value) {
-  ::cordl_internals::setStaticField<::System::Linq::Expressions::Interpreter::Instruction*, "s_UInt64",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::SubOvfInstruction*>::get>(
-      std::forward<::System::Linq::Expressions::Interpreter::Instruction*>(value));
+inline void System::Linq::Expressions::Interpreter::SubOvfInstruction::setStaticF_s_UInt64(::System::Linq::Expressions::Interpreter::Instruction*  value)  {
+::cordl_internals::setStaticField<::System::Linq::Expressions::Interpreter::Instruction*, "s_UInt64", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::SubOvfInstruction*>::get>(std::forward<::System::Linq::Expressions::Interpreter::Instruction*>(value));
 }
-inline ::System::Linq::Expressions::Interpreter::Instruction* System::Linq::Expressions::Interpreter::SubOvfInstruction::getStaticF_s_UInt64() {
-  return ::cordl_internals::getStaticField<::System::Linq::Expressions::Interpreter::Instruction*, "s_UInt64",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::SubOvfInstruction*>::get>();
+inline ::System::Linq::Expressions::Interpreter::Instruction* System::Linq::Expressions::Interpreter::SubOvfInstruction::getStaticF_s_UInt64()  {
+return ::cordl_internals::getStaticField<::System::Linq::Expressions::Interpreter::Instruction*, "s_UInt64", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::SubOvfInstruction*>::get>();
 }
-inline int32_t System::Linq::Expressions::Interpreter::SubOvfInstruction::get_ConsumedStack() {
-  auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::SubOvfInstruction*>::get(), 4)));
-  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+inline int32_t System::Linq::Expressions::Interpreter::SubOvfInstruction::get_ConsumedStack()  {
+auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::SubOvfInstruction*>::get(),
+                            4
+                        )));
+return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
-inline int32_t System::Linq::Expressions::Interpreter::SubOvfInstruction::get_ProducedStack() {
-  auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::SubOvfInstruction*>::get(), 5)));
-  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+inline int32_t System::Linq::Expressions::Interpreter::SubOvfInstruction::get_ProducedStack()  {
+auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::SubOvfInstruction*>::get(),
+                            5
+                        )));
+return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
-inline ::StringW System::Linq::Expressions::Interpreter::SubOvfInstruction::get_InstructionName() {
-  auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::SubOvfInstruction*>::get(), 9)));
-  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+inline ::StringW System::Linq::Expressions::Interpreter::SubOvfInstruction::get_InstructionName()  {
+auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+                            il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::SubOvfInstruction*>::get(),
+                            9
+                        )));
+return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-inline void System::Linq::Expressions::Interpreter::SubOvfInstruction::_ctor() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::SubOvfInstruction*>::get(), ".ctor",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void System::Linq::Expressions::Interpreter::SubOvfInstruction::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::SubOvfInstruction*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::System::Linq::Expressions::Interpreter::Instruction* System::Linq::Expressions::Interpreter::SubOvfInstruction::Create(::System::Type* type) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::SubOvfInstruction*>::get(), "Create",
-                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::System::Linq::Expressions::Interpreter::Instruction*, false>(nullptr, ___internal_method, type);
+inline ::System::Linq::Expressions::Interpreter::Instruction* System::Linq::Expressions::Interpreter::SubOvfInstruction::Create(::System::Type*  type)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::SubOvfInstruction*>::get(),
+                        "Create",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Linq::Expressions::Interpreter::Instruction*, false>(nullptr, ___internal_method, type);
 }
-inline ::System::Linq::Expressions::Interpreter::SubOvfInstruction* System::Linq::Expressions::Interpreter::SubOvfInstruction::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::Expressions::Interpreter::SubOvfInstruction*>());
+inline ::System::Linq::Expressions::Interpreter::SubOvfInstruction* System::Linq::Expressions::Interpreter::SubOvfInstruction::New_ctor()  {
+return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Linq::Expressions::Interpreter::SubOvfInstruction*>());
 }
 // Ctor Parameters []
-constexpr ::System::Linq::Expressions::Interpreter::SubOvfInstruction::SubOvfInstruction() {}
+constexpr ::System::Linq::Expressions::Interpreter::SubOvfInstruction::SubOvfInstruction()   {
+}

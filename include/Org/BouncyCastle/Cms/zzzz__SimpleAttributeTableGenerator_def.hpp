@@ -26,57 +26,57 @@ namespace Org::BouncyCastle::Cms {
 // CS Name: Org.BouncyCastle.Cms.SimpleAttributeTableGenerator
 class CORDL_TYPE SimpleAttributeTableGenerator : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field attributes, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_attributes, put = __cordl_internal_set_attributes)) ::Org::BouncyCastle::Asn1::Cms::AttributeTable* attributes;
+// Declarations
+/// @brief Field attributes, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_attributes, put=__cordl_internal_set_attributes)) ::Org::BouncyCastle::Asn1::Cms::AttributeTable*  attributes;
 
-  /// @brief Convert operator to "::Org::BouncyCastle::Cms::CmsAttributeTableGenerator"
-  constexpr operator ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator*() noexcept;
+/// @brief Convert operator to "::Org::BouncyCastle::Cms::CmsAttributeTableGenerator"
+constexpr operator  ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator*() noexcept;
 
-  /// @brief Method GetAttributes, addr 0x35dc060, size 0x8, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Cms::AttributeTable* GetAttributes(::System::Collections::IDictionary* parameters);
+/// @brief Method GetAttributes, addr 0x35dbfb0, size 0x8, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Asn1::Cms::AttributeTable* GetAttributes(::System::Collections::IDictionary*  parameters) ;
 
-  static inline ::Org::BouncyCastle::Cms::SimpleAttributeTableGenerator* New_ctor(::Org::BouncyCastle::Asn1::Cms::AttributeTable* attributes);
+static inline ::Org::BouncyCastle::Cms::SimpleAttributeTableGenerator* New_ctor(::Org::BouncyCastle::Asn1::Cms::AttributeTable*  attributes) ;
 
-  constexpr ::Org::BouncyCastle::Asn1::Cms::AttributeTable* const& __cordl_internal_get_attributes() const;
+constexpr ::Org::BouncyCastle::Asn1::Cms::AttributeTable* const& __cordl_internal_get_attributes() const;
 
-  constexpr ::Org::BouncyCastle::Asn1::Cms::AttributeTable*& __cordl_internal_get_attributes();
+constexpr ::Org::BouncyCastle::Asn1::Cms::AttributeTable*& __cordl_internal_get_attributes() ;
 
-  constexpr void __cordl_internal_set_attributes(::Org::BouncyCastle::Asn1::Cms::AttributeTable* value);
+constexpr void __cordl_internal_set_attributes(::Org::BouncyCastle::Asn1::Cms::AttributeTable*  value) ;
 
-  /// @brief Method .ctor, addr 0x35dc058, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Asn1::Cms::AttributeTable* attributes);
+/// @brief Method .ctor, addr 0x35dbfa8, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(::Org::BouncyCastle::Asn1::Cms::AttributeTable*  attributes) ;
 
-  /// @brief Convert to "::Org::BouncyCastle::Cms::CmsAttributeTableGenerator"
-  constexpr ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* i___Org__BouncyCastle__Cms__CmsAttributeTableGenerator() noexcept;
+/// @brief Convert to "::Org::BouncyCastle::Cms::CmsAttributeTableGenerator"
+constexpr ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* i___Org__BouncyCastle__Cms__CmsAttributeTableGenerator() noexcept;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SimpleAttributeTableGenerator();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr SimpleAttributeTableGenerator() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SimpleAttributeTableGenerator", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  SimpleAttributeTableGenerator(SimpleAttributeTableGenerator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SimpleAttributeTableGenerator", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  SimpleAttributeTableGenerator(SimpleAttributeTableGenerator const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "SimpleAttributeTableGenerator", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+SimpleAttributeTableGenerator(SimpleAttributeTableGenerator && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 693 };
+// Ctor Parameters [CppParam { name: "", ty: "SimpleAttributeTableGenerator", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+SimpleAttributeTableGenerator(SimpleAttributeTableGenerator const& ) = delete;
 
-  /// @brief Field attributes, offset: 0x10, size: 0x8, def value: None
-  ::Org::BouncyCastle::Asn1::Cms::AttributeTable* ___attributes;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{693};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field attributes, offset: 0x10, size: 0x8, def value: None
+ ::Org::BouncyCastle::Asn1::Cms::AttributeTable*  ___attributes;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Org::BouncyCastle::Cms::SimpleAttributeTableGenerator, ___attributes) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Cms::SimpleAttributeTableGenerator, 0x18>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Cms
+} // namespace end def Org::BouncyCastle::Cms
 NEED_NO_BOX(::Org::BouncyCastle::Cms::SimpleAttributeTableGenerator);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Cms::SimpleAttributeTableGenerator*, "Org.BouncyCastle.Cms", "SimpleAttributeTableGenerator");

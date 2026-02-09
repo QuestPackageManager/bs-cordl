@@ -12,16 +12,19 @@ namespace Newtonsoft::Json::Utilities {
 struct StringUtils_SeparatedCaseState;
 }
 namespace Newtonsoft::Json::Utilities {
-template <typename TSource> class StringUtils___c__DisplayClass14_0_1;
+template<typename TSource>
+class StringUtils___c__DisplayClass14_0_1;
 }
 namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+template<typename T>
+class IEnumerable_1;
 }
 namespace System::IO {
 class StringWriter;
 }
 namespace System {
-template <typename T, typename TResult> class Func_2;
+template<typename T,typename TResult>
+class Func_2;
 }
 namespace System {
 class IFormatProvider;
@@ -37,256 +40,258 @@ namespace Newtonsoft::Json::Utilities {
 class StringUtils;
 }
 namespace Newtonsoft::Json::Utilities {
-template <typename TSource> class StringUtils___c__DisplayClass14_0_1;
+template<typename TSource>
+class StringUtils___c__DisplayClass14_0_1;
 }
 // Write type traits
 MARK_VAL_T(::Newtonsoft::Json::Utilities::StringUtils_SeparatedCaseState);
 MARK_REF_PTR_T(::Newtonsoft::Json::Utilities::StringUtils);
 MARK_GEN_REF_PTR_T(::Newtonsoft::Json::Utilities::StringUtils___c__DisplayClass14_0_1);
-// Dependencies
+// Dependencies 
 namespace Newtonsoft::Json::Utilities {
 // Is value type: true
 // CS Name: Newtonsoft.Json.Utilities.StringUtils/SeparatedCaseState
 struct CORDL_TYPE StringUtils_SeparatedCaseState {
 public:
-  // Declarations
-  using __CORDL_BACKING_ENUM_TYPE = int32_t;
+// Declarations
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct __StringUtils_SeparatedCaseState_Unwrapped
-  enum struct __StringUtils_SeparatedCaseState_Unwrapped : int32_t {
-    __E_Start = static_cast<int32_t>(0x0),
-    __E_Lower = static_cast<int32_t>(0x1),
-    __E_Upper = static_cast<int32_t>(0x2),
-    __E_NewWord = static_cast<int32_t>(0x3),
-  };
+/// @brief Nested struct __StringUtils_SeparatedCaseState_Unwrapped
+enum struct __StringUtils_SeparatedCaseState_Unwrapped : int32_t {
+__E_Start = static_cast<int32_t>(0x0),
+__E_Lower = static_cast<int32_t>(0x1),
+__E_Upper = static_cast<int32_t>(0x2),
+__E_NewWord = static_cast<int32_t>(0x3),
+};
 
-  /// @brief Conversion into unwrapped enum value
-  constexpr operator __StringUtils_SeparatedCaseState_Unwrapped() const noexcept {
-    return static_cast<__StringUtils_SeparatedCaseState_Unwrapped>(this->value__);
-  }
+/// @brief Conversion into unwrapped enum value
+constexpr operator __StringUtils_SeparatedCaseState_Unwrapped () const noexcept {
+return static_cast<__StringUtils_SeparatedCaseState_Unwrapped>(this->value__);
+}
 
-  /// @brief Conversion into unwrapped enum value
-  constexpr explicit operator int32_t() const noexcept {
-    return static_cast<int32_t>(this->value__);
-  }
+/// @brief Conversion into unwrapped enum value
+constexpr explicit operator int32_t () const noexcept {
+return static_cast<int32_t>(this->value__);
+}
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr StringUtils_SeparatedCaseState();
+// Ctor Parameters []
+// @brief default ctor
+constexpr StringUtils_SeparatedCaseState() ;
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr StringUtils_SeparatedCaseState(int32_t value__) noexcept;
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr StringUtils_SeparatedCaseState(int32_t  value__) noexcept;
 
-  /// @brief Field Lower value: I32(1)
-  static ::Newtonsoft::Json::Utilities::StringUtils_SeparatedCaseState const Lower;
+/// @brief Field Lower value: I32(1)
+static ::Newtonsoft::Json::Utilities::StringUtils_SeparatedCaseState const Lower;
 
-  /// @brief Field NewWord value: I32(3)
-  static ::Newtonsoft::Json::Utilities::StringUtils_SeparatedCaseState const NewWord;
+/// @brief Field NewWord value: I32(3)
+static ::Newtonsoft::Json::Utilities::StringUtils_SeparatedCaseState const NewWord;
 
-  /// @brief Field Start value: I32(0)
-  static ::Newtonsoft::Json::Utilities::StringUtils_SeparatedCaseState const Start;
+/// @brief Field Start value: I32(0)
+static ::Newtonsoft::Json::Utilities::StringUtils_SeparatedCaseState const Start;
 
-  /// @brief Field Upper value: I32(2)
-  static ::Newtonsoft::Json::Utilities::StringUtils_SeparatedCaseState const Upper;
+/// @brief Field Upper value: I32(2)
+static ::Newtonsoft::Json::Utilities::StringUtils_SeparatedCaseState const Upper;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13435 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{13439};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x4};
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+/// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+ int32_t  value__;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::Newtonsoft::Json::Utilities::StringUtils_SeparatedCaseState, value__) == 0x0, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Utilities::StringUtils_SeparatedCaseState, 0x4>, "Size mismatch!");
 
-} // namespace Newtonsoft::Json::Utilities
+} // namespace end def Newtonsoft::Json::Utilities
 // Dependencies System.Object
 namespace Newtonsoft::Json::Utilities {
 // cpp template
-template <typename TSource>
+template<typename TSource>
 // Is value type: false
 // CS Name: Newtonsoft.Json.Utilities.StringUtils/<>c__DisplayClass14_0`1<TSource>
 class CORDL_TYPE StringUtils___c__DisplayClass14_0_1 : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field testValue, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_testValue, put = __cordl_internal_set_testValue)) ::StringW testValue;
+// Declarations
+/// @brief Field testValue, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_testValue, put=__cordl_internal_set_testValue)) ::StringW  testValue;
 
-  /// @brief Field valueSelector, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_valueSelector, put = __cordl_internal_set_valueSelector)) ::System::Func_2<TSource, ::StringW>* valueSelector;
+/// @brief Field valueSelector, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_valueSelector, put=__cordl_internal_set_valueSelector)) ::System::Func_2<TSource,::StringW>*  valueSelector;
 
-  static inline ::Newtonsoft::Json::Utilities::StringUtils___c__DisplayClass14_0_1<TSource>* New_ctor();
+static inline ::Newtonsoft::Json::Utilities::StringUtils___c__DisplayClass14_0_1<TSource>* New_ctor() ;
 
-  /// @brief Method <ForgivingCaseSensitiveFind>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline bool _ForgivingCaseSensitiveFind_b__0(TSource s);
+/// @brief Method <ForgivingCaseSensitiveFind>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+inline bool _ForgivingCaseSensitiveFind_b__0(TSource  s) ;
 
-  /// @brief Method <ForgivingCaseSensitiveFind>b__1, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline bool _ForgivingCaseSensitiveFind_b__1(TSource s);
+/// @brief Method <ForgivingCaseSensitiveFind>b__1, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+inline bool _ForgivingCaseSensitiveFind_b__1(TSource  s) ;
 
-  constexpr ::StringW const& __cordl_internal_get_testValue() const;
+constexpr ::StringW const& __cordl_internal_get_testValue() const;
 
-  constexpr ::StringW& __cordl_internal_get_testValue();
+constexpr ::StringW& __cordl_internal_get_testValue() ;
 
-  constexpr ::System::Func_2<TSource, ::StringW>* const& __cordl_internal_get_valueSelector() const;
+constexpr ::System::Func_2<TSource,::StringW>* const& __cordl_internal_get_valueSelector() const;
 
-  constexpr ::System::Func_2<TSource, ::StringW>*& __cordl_internal_get_valueSelector();
+constexpr ::System::Func_2<TSource,::StringW>*& __cordl_internal_get_valueSelector() ;
 
-  constexpr void __cordl_internal_set_testValue(::StringW value);
+constexpr void __cordl_internal_set_testValue(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_valueSelector(::System::Func_2<TSource, ::StringW>* value);
+constexpr void __cordl_internal_set_valueSelector(::System::Func_2<TSource,::StringW>*  value) ;
 
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr StringUtils___c__DisplayClass14_0_1();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr StringUtils___c__DisplayClass14_0_1() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StringUtils___c__DisplayClass14_0_1", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  StringUtils___c__DisplayClass14_0_1(StringUtils___c__DisplayClass14_0_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StringUtils___c__DisplayClass14_0_1", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  StringUtils___c__DisplayClass14_0_1(StringUtils___c__DisplayClass14_0_1 const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "StringUtils___c__DisplayClass14_0_1", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+StringUtils___c__DisplayClass14_0_1(StringUtils___c__DisplayClass14_0_1 && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13436 };
+// Ctor Parameters [CppParam { name: "", ty: "StringUtils___c__DisplayClass14_0_1", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+StringUtils___c__DisplayClass14_0_1(StringUtils___c__DisplayClass14_0_1 const& ) = delete;
 
-  /// @brief Field valueSelector, offset: 0x10, size: 0x8, def value: None
-  ::System::Func_2<TSource, ::StringW>* ___valueSelector;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{13440};
 
-  /// @brief Field testValue, offset: 0x18, size: 0x8, def value: None
-  ::StringW ___testValue;
+/// @brief Field valueSelector, offset: 0x10, size: 0x8, def value: None
+ ::System::Func_2<TSource,::StringW>*  ___valueSelector;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field testValue, offset: 0x18, size: 0x8, def value: None
+ ::StringW  ___testValue;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-} // namespace Newtonsoft::Json::Utilities
+} // namespace end def Newtonsoft::Json::Utilities
 // Dependencies System.Object
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
 // CS Name: Newtonsoft.Json.Utilities.StringUtils
 class CORDL_TYPE StringUtils : public ::System::Object {
 public:
-  // Declarations
-  using SeparatedCaseState = ::Newtonsoft::Json::Utilities::StringUtils_SeparatedCaseState;
+// Declarations
+using SeparatedCaseState = ::Newtonsoft::Json::Utilities::StringUtils_SeparatedCaseState;
 
-  template <typename TSource> using __c__DisplayClass14_0_1 = ::Newtonsoft::Json::Utilities::StringUtils___c__DisplayClass14_0_1<TSource>;
+template<typename TSource>
+using __c__DisplayClass14_0_1 = ::Newtonsoft::Json::Utilities::StringUtils___c__DisplayClass14_0_1<TSource>;
 
-  /// @brief Method CreateStringWriter, addr 0x5b85b3c, size 0xcc, virtual false, abstract: false, final false
-  static inline ::System::IO::StringWriter* CreateStringWriter(int32_t capacity);
+/// @brief Method CreateStringWriter, addr 0x5b86048, size 0xcc, virtual false, abstract: false, final false
+static inline ::System::IO::StringWriter* CreateStringWriter(int32_t  capacity) ;
 
-  /// @brief Method EndsWith, addr 0x5b86268, size 0x34, virtual false, abstract: false, final false
-  static inline bool EndsWith(::StringW source, char16_t value);
+/// @brief Method EndsWith, addr 0x5b86774, size 0x34, virtual false, abstract: false, final false
+static inline bool EndsWith(::StringW  source, char16_t  value) ;
 
-  /// @brief Method ForgivingCaseSensitiveFind, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TSource>
-  static inline TSource ForgivingCaseSensitiveFind(::System::Collections::Generic::IEnumerable_1<TSource>* source, ::System::Func_2<TSource, ::StringW>* valueSelector, ::StringW testValue);
+/// @brief Method ForgivingCaseSensitiveFind, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+template<typename TSource>
+static inline TSource ForgivingCaseSensitiveFind(::System::Collections::Generic::IEnumerable_1<TSource>*  source, ::System::Func_2<TSource,::StringW>*  valueSelector, ::StringW  testValue) ;
 
-  /// @brief Method FormatWith, addr 0x5b855c8, size 0xac, virtual false, abstract: false, final false
-  static inline ::StringW FormatWith(::StringW format, ::System::IFormatProvider* provider, ::System::Object* arg0);
+/// @brief Method FormatWith, addr 0x5b85ad4, size 0xac, virtual false, abstract: false, final false
+static inline ::StringW FormatWith(::StringW  format, ::System::IFormatProvider*  provider, ::System::Object*  arg0) ;
 
-  /// @brief Method FormatWith, addr 0x5b856e4, size 0xe0, virtual false, abstract: false, final false
-  static inline ::StringW FormatWith(::StringW format, ::System::IFormatProvider* provider, ::System::Object* arg0, ::System::Object* arg1);
+/// @brief Method FormatWith, addr 0x5b85bf0, size 0xe0, virtual false, abstract: false, final false
+static inline ::StringW FormatWith(::StringW  format, ::System::IFormatProvider*  provider, ::System::Object*  arg0, ::System::Object*  arg1) ;
 
-  /// @brief Method FormatWith, addr 0x5b857c4, size 0x10c, virtual false, abstract: false, final false
-  static inline ::StringW FormatWith(::StringW format, ::System::IFormatProvider* provider, ::System::Object* arg0, ::System::Object* arg1, ::System::Object* arg2);
+/// @brief Method FormatWith, addr 0x5b85cd0, size 0x10c, virtual false, abstract: false, final false
+static inline ::StringW FormatWith(::StringW  format, ::System::IFormatProvider*  provider, ::System::Object*  arg0, ::System::Object*  arg1, ::System::Object*  arg2) ;
 
-  /// @brief Method FormatWith, addr 0x5b858d0, size 0x140, virtual false, abstract: false, final false
-  static inline ::StringW FormatWith(::StringW format, ::System::IFormatProvider* provider, ::System::Object* arg0, ::System::Object* arg1, ::System::Object* arg2, ::System::Object* arg3);
+/// @brief Method FormatWith, addr 0x5b85ddc, size 0x140, virtual false, abstract: false, final false
+static inline ::StringW FormatWith(::StringW  format, ::System::IFormatProvider*  provider, ::System::Object*  arg0, ::System::Object*  arg1, ::System::Object*  arg2, ::System::Object*  arg3) ;
 
-  /// @brief Method FormatWith, addr 0x5b85674, size 0x70, virtual false, abstract: false, final false
-  static inline ::StringW FormatWith(::StringW format, ::System::IFormatProvider* provider, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
+/// @brief Method FormatWith, addr 0x5b85b80, size 0x70, virtual false, abstract: false, final false
+static inline ::StringW FormatWith(::StringW  format, ::System::IFormatProvider*  provider, ::ArrayW<::System::Object*,::Array<::System::Object*>*>  args) ;
 
-  /// @brief Method IndexOf, addr 0x5b86208, size 0x1c, virtual false, abstract: false, final false
-  static inline int32_t IndexOf(::StringW s, char16_t c);
+/// @brief Method IndexOf, addr 0x5b86714, size 0x1c, virtual false, abstract: false, final false
+static inline int32_t IndexOf(::StringW  s, char16_t  c) ;
 
-  /// @brief Method IsHighSurrogate, addr 0x5b861a0, size 0x34, virtual false, abstract: false, final false
-  static inline bool IsHighSurrogate(char16_t c);
+/// @brief Method IsHighSurrogate, addr 0x5b866ac, size 0x34, virtual false, abstract: false, final false
+static inline bool IsHighSurrogate(char16_t  c) ;
 
-  /// @brief Method IsLowSurrogate, addr 0x5b861d4, size 0x34, virtual false, abstract: false, final false
-  static inline bool IsLowSurrogate(char16_t c);
+/// @brief Method IsLowSurrogate, addr 0x5b866e0, size 0x34, virtual false, abstract: false, final false
+static inline bool IsLowSurrogate(char16_t  c) ;
 
-  /// @brief Method IsNullOrEmpty, addr 0x5b855ac, size 0x1c, virtual false, abstract: false, final false
-  static inline bool IsNullOrEmpty(::StringW value);
+/// @brief Method IsNullOrEmpty, addr 0x5b85ab8, size 0x1c, virtual false, abstract: false, final false
+static inline bool IsNullOrEmpty(::StringW  value) ;
 
-  /// @brief Method IsWhiteSpace, addr 0x5b85a5c, size 0xe0, virtual false, abstract: false, final false
-  static inline bool IsWhiteSpace(::StringW s);
+/// @brief Method IsWhiteSpace, addr 0x5b85f68, size 0xe0, virtual false, abstract: false, final false
+static inline bool IsWhiteSpace(::StringW  s) ;
 
-  /// @brief Method Replace, addr 0x5b86224, size 0x14, virtual false, abstract: false, final false
-  static inline ::StringW Replace(::StringW s, ::StringW oldValue, ::StringW newValue);
+/// @brief Method Replace, addr 0x5b86730, size 0x14, virtual false, abstract: false, final false
+static inline ::StringW Replace(::StringW  s, ::StringW  oldValue, ::StringW  newValue) ;
 
-  /// @brief Method StartsWith, addr 0x5b86238, size 0x30, virtual false, abstract: false, final false
-  static inline bool StartsWith(::StringW source, char16_t value);
+/// @brief Method StartsWith, addr 0x5b86744, size 0x30, virtual false, abstract: false, final false
+static inline bool StartsWith(::StringW  source, char16_t  value) ;
 
-  /// @brief Method ToCamelCase, addr 0x5b85cc0, size 0x1b0, virtual false, abstract: false, final false
-  static inline ::StringW ToCamelCase(::StringW s);
+/// @brief Method ToCamelCase, addr 0x5b861cc, size 0x1b0, virtual false, abstract: false, final false
+static inline ::StringW ToCamelCase(::StringW  s) ;
 
-  /// @brief Method ToCharAsUnicode, addr 0x5b85c08, size 0xb8, virtual false, abstract: false, final false
-  static inline void ToCharAsUnicode(char16_t c, ::ArrayW<char16_t, ::Array<char16_t>*> buffer);
+/// @brief Method ToCharAsUnicode, addr 0x5b86114, size 0xb8, virtual false, abstract: false, final false
+static inline void ToCharAsUnicode(char16_t  c, ::ArrayW<char16_t,::Array<char16_t>*>  buffer) ;
 
-  /// @brief Method ToKebabCase, addr 0x5b86198, size 0x8, virtual false, abstract: false, final false
-  static inline ::StringW ToKebabCase(::StringW s);
+/// @brief Method ToKebabCase, addr 0x5b866a4, size 0x8, virtual false, abstract: false, final false
+static inline ::StringW ToKebabCase(::StringW  s) ;
 
-  /// @brief Method ToLower, addr 0x5b85e70, size 0x84, virtual false, abstract: false, final false
-  static inline char16_t ToLower(char16_t c);
+/// @brief Method ToLower, addr 0x5b8637c, size 0x84, virtual false, abstract: false, final false
+static inline char16_t ToLower(char16_t  c) ;
 
-  /// @brief Method ToSeparatedCase, addr 0x5b85efc, size 0x29c, virtual false, abstract: false, final false
-  static inline ::StringW ToSeparatedCase(::StringW s, char16_t separator);
+/// @brief Method ToSeparatedCase, addr 0x5b86408, size 0x29c, virtual false, abstract: false, final false
+static inline ::StringW ToSeparatedCase(::StringW  s, char16_t  separator) ;
 
-  /// @brief Method ToSnakeCase, addr 0x5b85ef4, size 0x8, virtual false, abstract: false, final false
-  static inline ::StringW ToSnakeCase(::StringW s);
+/// @brief Method ToSnakeCase, addr 0x5b86400, size 0x8, virtual false, abstract: false, final false
+static inline ::StringW ToSnakeCase(::StringW  s) ;
 
-  /// @brief Method Trim, addr 0x5b8629c, size 0x194, virtual false, abstract: false, final false
-  static inline ::StringW Trim(::StringW s, int32_t start, int32_t length);
+/// @brief Method Trim, addr 0x5b867a8, size 0x194, virtual false, abstract: false, final false
+static inline ::StringW Trim(::StringW  s, int32_t  start, int32_t  length) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr StringUtils();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr StringUtils() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StringUtils", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  StringUtils(StringUtils&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StringUtils", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  StringUtils(StringUtils const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "StringUtils", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+StringUtils(StringUtils && ) = delete;
 
-  /// @brief Field CarriageReturn offset 0xffffffff size 0x2
-  static constexpr char16_t CarriageReturn{ u'\r' };
+// Ctor Parameters [CppParam { name: "", ty: "StringUtils", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+StringUtils(StringUtils const& ) = delete;
 
-  /// @brief Field CarriageReturnLineFeed offset 0xffffffff size 0x8
-  static constexpr ::ConstString CarriageReturnLineFeed{ u"\r\n" };
+/// @brief Field CarriageReturn offset 0xffffffff size 0x2
+static constexpr char16_t  CarriageReturn{u'\r'};
 
-  /// @brief Field Empty offset 0xffffffff size 0x8
-  static constexpr ::ConstString Empty{ u"" };
+/// @brief Field CarriageReturnLineFeed offset 0xffffffff size 0x8
+static constexpr ::ConstString  CarriageReturnLineFeed{u"\r\n"};
 
-  /// @brief Field LineFeed offset 0xffffffff size 0x2
-  static constexpr char16_t LineFeed{ u'\n' };
+/// @brief Field Empty offset 0xffffffff size 0x8
+static constexpr ::ConstString  Empty{u""};
 
-  /// @brief Field Tab offset 0xffffffff size 0x2
-  static constexpr char16_t Tab{ u'\t' };
+/// @brief Field LineFeed offset 0xffffffff size 0x2
+static constexpr char16_t  LineFeed{u'\n'};
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13437 };
+/// @brief Field Tab offset 0xffffffff size 0x2
+static constexpr char16_t  Tab{u'\t'};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{13441};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Utilities::StringUtils, 0x10>, "Size mismatch!");
 
-} // namespace Newtonsoft::Json::Utilities
+} // namespace end def Newtonsoft::Json::Utilities
 DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Utilities::StringUtils_SeparatedCaseState, "Newtonsoft.Json.Utilities", "StringUtils/SeparatedCaseState");
 NEED_NO_BOX(::Newtonsoft::Json::Utilities::StringUtils);
 DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Utilities::StringUtils*, "Newtonsoft.Json.Utilities", "StringUtils");

@@ -18,60 +18,62 @@ namespace System {
 class Object;
 }
 namespace UnityEngine::Rendering {
-template <typename T> class ListChangedEventArgs_1;
+template<typename T>
+class ListChangedEventArgs_1;
 }
 namespace UnityEngine::Rendering {
-template <typename T> class ObservableList_1;
+template<typename T>
+class ObservableList_1;
 }
 // Forward declare root types
 namespace UnityEngine::Rendering {
-template <typename T> class ListChangedEventHandler_1;
+template<typename T>
+class ListChangedEventHandler_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::UnityEngine::Rendering::ListChangedEventHandler_1);
 // Dependencies System.MulticastDelegate
 namespace UnityEngine::Rendering {
 // cpp template
-template <typename T>
+template<typename T>
 // Is value type: false
 // CS Name: UnityEngine.Rendering.ListChangedEventHandler`1<T>
 class CORDL_TYPE ListChangedEventHandler_1 : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::UnityEngine::Rendering::ObservableList_1<T>* sender, ::UnityEngine::Rendering::ListChangedEventArgs_1<T>* e, ::System::AsyncCallback* callback,
-                                             ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(::UnityEngine::Rendering::ObservableList_1<T>*  sender, ::UnityEngine::Rendering::ListChangedEventArgs_1<T>*  e, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void EndInvoke(::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline void EndInvoke(::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void Invoke(::UnityEngine::Rendering::ObservableList_1<T>* sender, ::UnityEngine::Rendering::ListChangedEventArgs_1<T>* e);
+/// @brief Method Invoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline void Invoke(::UnityEngine::Rendering::ObservableList_1<T>*  sender, ::UnityEngine::Rendering::ListChangedEventArgs_1<T>*  e) ;
 
-  static inline ::UnityEngine::Rendering::ListChangedEventHandler_1<T>* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::UnityEngine::Rendering::ListChangedEventHandler_1<T>* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ListChangedEventHandler_1();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ListChangedEventHandler_1() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ListChangedEventHandler_1", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ListChangedEventHandler_1(ListChangedEventHandler_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ListChangedEventHandler_1", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ListChangedEventHandler_1(ListChangedEventHandler_1 const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ListChangedEventHandler_1", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ListChangedEventHandler_1(ListChangedEventHandler_1 && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11909 };
+// Ctor Parameters [CppParam { name: "", ty: "ListChangedEventHandler_1", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ListChangedEventHandler_1(ListChangedEventHandler_1 const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{11913};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-} // namespace UnityEngine::Rendering
+} // namespace end def UnityEngine::Rendering
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::UnityEngine::Rendering::ListChangedEventHandler_1, "UnityEngine.Rendering", "ListChangedEventHandler`1");

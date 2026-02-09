@@ -22,38 +22,38 @@ namespace System::Xml {
 // CS Name: System.Xml.BinHexEncoder
 class CORDL_TYPE BinHexEncoder : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method Encode, addr 0x5fdea44, size 0x13c, virtual false, abstract: false, final false
-  static inline ::StringW Encode(::ArrayW<uint8_t, ::Array<uint8_t>*> inArray, int32_t offsetIn, int32_t count);
+// Declarations
+/// @brief Method Encode, addr 0x5fdf104, size 0x13c, virtual false, abstract: false, final false
+static inline ::StringW Encode(::ArrayW<uint8_t,::Array<uint8_t>*>  inArray, int32_t  offsetIn, int32_t  count) ;
 
-  /// @brief Method Encode, addr 0x5fde914, size 0x130, virtual false, abstract: false, final false
-  static inline int32_t Encode(::ArrayW<uint8_t, ::Array<uint8_t>*> inArray, int32_t offsetIn, int32_t count, ::ArrayW<char16_t, ::Array<char16_t>*> outArray);
+/// @brief Method Encode, addr 0x5fdefd4, size 0x130, virtual false, abstract: false, final false
+static inline int32_t Encode(::ArrayW<uint8_t,::Array<uint8_t>*>  inArray, int32_t  offsetIn, int32_t  count, ::ArrayW<char16_t,::Array<char16_t>*>  outArray) ;
 
-  /// @brief Method Encode, addr 0x5fde774, size 0x1a0, virtual false, abstract: false, final false
-  static inline void Encode(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t index, int32_t count, ::System::Xml::XmlWriter* writer);
+/// @brief Method Encode, addr 0x5fdee34, size 0x1a0, virtual false, abstract: false, final false
+static inline void Encode(::ArrayW<uint8_t,::Array<uint8_t>*>  buffer, int32_t  index, int32_t  count, ::System::Xml::XmlWriter*  writer) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BinHexEncoder();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr BinHexEncoder() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BinHexEncoder", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  BinHexEncoder(BinHexEncoder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BinHexEncoder", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  BinHexEncoder(BinHexEncoder const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "BinHexEncoder", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+BinHexEncoder(BinHexEncoder && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9225 };
+// Ctor Parameters [CppParam { name: "", ty: "BinHexEncoder", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+BinHexEncoder(BinHexEncoder const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{9229};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Xml::BinHexEncoder, 0x10>, "Size mismatch!");
 
-} // namespace System::Xml
+} // namespace end def System::Xml
 NEED_NO_BOX(::System::Xml::BinHexEncoder);
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::BinHexEncoder*, "System.Xml", "BinHexEncoder");

@@ -22,59 +22,59 @@ namespace UnityEngine::Internal {
 // CS Name: UnityEngine.Internal.DefaultValueAttribute
 class CORDL_TYPE DefaultValueAttribute : public ::System::Attribute {
 public:
-  // Declarations
-  /// @brief Field DefaultValue, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_DefaultValue, put = __cordl_internal_set_DefaultValue)) ::System::Object* DefaultValue;
+// Declarations
+/// @brief Field DefaultValue, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_DefaultValue, put=__cordl_internal_set_DefaultValue)) ::System::Object*  DefaultValue;
 
-  __declspec(property(get = get_Value)) ::System::Object* Value;
+ __declspec(property(get=get_Value)) ::System::Object*  Value;
 
-  /// @brief Method Equals, addr 0x6938a84, size 0xb4, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* obj);
+/// @brief Method Equals, addr 0x6939144, size 0xb4, virtual true, abstract: false, final false
+inline bool Equals(::System::Object*  obj) ;
 
-  /// @brief Method GetHashCode, addr 0x6938b38, size 0x24, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
+/// @brief Method GetHashCode, addr 0x69391f8, size 0x24, virtual true, abstract: false, final false
+inline int32_t GetHashCode() ;
 
-  static inline ::UnityEngine::Internal::DefaultValueAttribute* New_ctor(::StringW value);
+static inline ::UnityEngine::Internal::DefaultValueAttribute* New_ctor(::StringW  value) ;
 
-  constexpr ::System::Object* const& __cordl_internal_get_DefaultValue() const;
+constexpr ::System::Object* const& __cordl_internal_get_DefaultValue() const;
 
-  constexpr ::System::Object*& __cordl_internal_get_DefaultValue();
+constexpr ::System::Object*& __cordl_internal_get_DefaultValue() ;
 
-  constexpr void __cordl_internal_set_DefaultValue(::System::Object* value);
+constexpr void __cordl_internal_set_DefaultValue(::System::Object*  value) ;
 
-  /// @brief Method .ctor, addr 0x6938a74, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::StringW value);
+/// @brief Method .ctor, addr 0x6939134, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(::StringW  value) ;
 
-  /// @brief Method get_Value, addr 0x6938a7c, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Object* get_Value();
+/// @brief Method get_Value, addr 0x693913c, size 0x8, virtual false, abstract: false, final false
+inline ::System::Object* get_Value() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DefaultValueAttribute();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr DefaultValueAttribute() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DefaultValueAttribute", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  DefaultValueAttribute(DefaultValueAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DefaultValueAttribute", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  DefaultValueAttribute(DefaultValueAttribute const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "DefaultValueAttribute", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+DefaultValueAttribute(DefaultValueAttribute && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10636 };
+// Ctor Parameters [CppParam { name: "", ty: "DefaultValueAttribute", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+DefaultValueAttribute(DefaultValueAttribute const& ) = delete;
 
-  /// @brief Field DefaultValue, offset: 0x10, size: 0x8, def value: None
-  ::System::Object* ___DefaultValue;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{10640};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field DefaultValue, offset: 0x10, size: 0x8, def value: None
+ ::System::Object*  ___DefaultValue;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Internal::DefaultValueAttribute, ___DefaultValue) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Internal::DefaultValueAttribute, 0x18>, "Size mismatch!");
 
-} // namespace UnityEngine::Internal
+} // namespace end def UnityEngine::Internal
 NEED_NO_BOX(::UnityEngine::Internal::DefaultValueAttribute);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Internal::DefaultValueAttribute*, "UnityEngine.Internal", "DefaultValueAttribute");

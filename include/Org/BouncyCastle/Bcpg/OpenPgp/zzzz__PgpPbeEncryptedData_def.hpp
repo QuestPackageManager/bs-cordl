@@ -33,67 +33,66 @@ namespace Org::BouncyCastle::Bcpg::OpenPgp {
 // CS Name: Org.BouncyCastle.Bcpg.OpenPgp.PgpPbeEncryptedData
 class CORDL_TYPE PgpPbeEncryptedData : public ::Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedData {
 public:
-  // Declarations
-  /// @brief Field keyData, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_keyData, put = __cordl_internal_set_keyData)) ::Org::BouncyCastle::Bcpg::SymmetricKeyEncSessionPacket* keyData;
+// Declarations
+/// @brief Field keyData, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get_keyData, put=__cordl_internal_set_keyData)) ::Org::BouncyCastle::Bcpg::SymmetricKeyEncSessionPacket*  keyData;
 
-  /// @brief Method CreateStreamCipher, addr 0x348cfa4, size 0x154, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Crypto::IBufferedCipher* CreateStreamCipher(::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag keyAlgorithm);
+/// @brief Method CreateStreamCipher, addr 0x348cef4, size 0x154, virtual false, abstract: false, final false
+inline ::Org::BouncyCastle::Crypto::IBufferedCipher* CreateStreamCipher(::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag  keyAlgorithm) ;
 
-  /// @brief Method DoGetDataStream, addr 0x348c680, size 0x8f0, virtual false, abstract: false, final false
-  inline ::System::IO::Stream* DoGetDataStream(::ArrayW<uint8_t, ::Array<uint8_t>*> rawPassPhrase, bool clearPassPhrase);
+/// @brief Method DoGetDataStream, addr 0x348c5d0, size 0x8f0, virtual false, abstract: false, final false
+inline ::System::IO::Stream* DoGetDataStream(::ArrayW<uint8_t,::Array<uint8_t>*>  rawPassPhrase, bool  clearPassPhrase) ;
 
-  /// @brief Method GetDataStream, addr 0x348c654, size 0x2c, virtual false, abstract: false, final false
-  inline ::System::IO::Stream* GetDataStream(::ArrayW<char16_t, ::Array<char16_t>*> passPhrase);
+/// @brief Method GetDataStream, addr 0x348c5a4, size 0x2c, virtual false, abstract: false, final false
+inline ::System::IO::Stream* GetDataStream(::ArrayW<char16_t,::Array<char16_t>*>  passPhrase) ;
 
-  /// @brief Method GetDataStreamRaw, addr 0x348cf9c, size 0x8, virtual false, abstract: false, final false
-  inline ::System::IO::Stream* GetDataStreamRaw(::ArrayW<uint8_t, ::Array<uint8_t>*> rawPassPhrase);
+/// @brief Method GetDataStreamRaw, addr 0x348ceec, size 0x8, virtual false, abstract: false, final false
+inline ::System::IO::Stream* GetDataStreamRaw(::ArrayW<uint8_t,::Array<uint8_t>*>  rawPassPhrase) ;
 
-  /// @brief Method GetDataStreamUtf8, addr 0x348cf70, size 0x2c, virtual false, abstract: false, final false
-  inline ::System::IO::Stream* GetDataStreamUtf8(::ArrayW<char16_t, ::Array<char16_t>*> passPhrase);
+/// @brief Method GetDataStreamUtf8, addr 0x348cec0, size 0x2c, virtual false, abstract: false, final false
+inline ::System::IO::Stream* GetDataStreamUtf8(::ArrayW<char16_t,::Array<char16_t>*>  passPhrase) ;
 
-  /// @brief Method GetInputStream, addr 0x348c63c, size 0x18, virtual true, abstract: false, final false
-  inline ::System::IO::Stream* GetInputStream();
+/// @brief Method GetInputStream, addr 0x348c58c, size 0x18, virtual true, abstract: false, final false
+inline ::System::IO::Stream* GetInputStream() ;
 
-  static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpPbeEncryptedData* New_ctor(::Org::BouncyCastle::Bcpg::SymmetricKeyEncSessionPacket* keyData,
-                                                                                  ::Org::BouncyCastle::Bcpg::InputStreamPacket* encData);
+static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpPbeEncryptedData* New_ctor(::Org::BouncyCastle::Bcpg::SymmetricKeyEncSessionPacket*  keyData, ::Org::BouncyCastle::Bcpg::InputStreamPacket*  encData) ;
 
-  constexpr ::Org::BouncyCastle::Bcpg::SymmetricKeyEncSessionPacket* const& __cordl_internal_get_keyData() const;
+constexpr ::Org::BouncyCastle::Bcpg::SymmetricKeyEncSessionPacket* const& __cordl_internal_get_keyData() const;
 
-  constexpr ::Org::BouncyCastle::Bcpg::SymmetricKeyEncSessionPacket*& __cordl_internal_get_keyData();
+constexpr ::Org::BouncyCastle::Bcpg::SymmetricKeyEncSessionPacket*& __cordl_internal_get_keyData() ;
 
-  constexpr void __cordl_internal_set_keyData(::Org::BouncyCastle::Bcpg::SymmetricKeyEncSessionPacket* value);
+constexpr void __cordl_internal_set_keyData(::Org::BouncyCastle::Bcpg::SymmetricKeyEncSessionPacket*  value) ;
 
-  /// @brief Method .ctor, addr 0x34876c0, size 0xc, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Bcpg::SymmetricKeyEncSessionPacket* keyData, ::Org::BouncyCastle::Bcpg::InputStreamPacket* encData);
+/// @brief Method .ctor, addr 0x3487610, size 0xc, virtual false, abstract: false, final false
+inline void _ctor(::Org::BouncyCastle::Bcpg::SymmetricKeyEncSessionPacket*  keyData, ::Org::BouncyCastle::Bcpg::InputStreamPacket*  encData) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PgpPbeEncryptedData();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr PgpPbeEncryptedData() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PgpPbeEncryptedData", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  PgpPbeEncryptedData(PgpPbeEncryptedData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PgpPbeEncryptedData", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  PgpPbeEncryptedData(PgpPbeEncryptedData const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "PgpPbeEncryptedData", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+PgpPbeEncryptedData(PgpPbeEncryptedData && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1657 };
+// Ctor Parameters [CppParam { name: "", ty: "PgpPbeEncryptedData", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+PgpPbeEncryptedData(PgpPbeEncryptedData const& ) = delete;
 
-  /// @brief Field keyData, offset: 0x28, size: 0x8, def value: None
-  ::Org::BouncyCastle::Bcpg::SymmetricKeyEncSessionPacket* ___keyData;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{1657};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field keyData, offset: 0x28, size: 0x8, def value: None
+ ::Org::BouncyCastle::Bcpg::SymmetricKeyEncSessionPacket*  ___keyData;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Org::BouncyCastle::Bcpg::OpenPgp::PgpPbeEncryptedData, ___keyData) == 0x28, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Bcpg::OpenPgp::PgpPbeEncryptedData, 0x30>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Bcpg::OpenPgp
+} // namespace end def Org::BouncyCastle::Bcpg::OpenPgp
 NEED_NO_BOX(::Org::BouncyCastle::Bcpg::OpenPgp::PgpPbeEncryptedData);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Bcpg::OpenPgp::PgpPbeEncryptedData*, "Org.BouncyCastle.Bcpg.OpenPgp", "PgpPbeEncryptedData");

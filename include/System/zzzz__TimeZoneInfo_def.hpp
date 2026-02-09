@@ -15,7 +15,8 @@ namespace GlobalNamespace {
 struct Sys_Interop_DirectoryEntry;
 }
 namespace System::Collections::Generic {
-template <typename T> class List_1;
+template<typename T>
+class List_1;
 }
 namespace System::Globalization {
 struct DaylightTimeStruct;
@@ -33,7 +34,8 @@ namespace System::Runtime::Serialization {
 struct StreamingContext;
 }
 namespace System {
-template <typename T> class Comparison_1;
+template<typename T>
+class Comparison_1;
 }
 namespace System {
 struct DateTimeKind;
@@ -45,19 +47,23 @@ namespace System {
 struct DayOfWeek;
 }
 namespace System {
-template <typename T, typename TResult> class Func_2;
+template<typename T,typename TResult>
+class Func_2;
 }
 namespace System {
-template <typename T> class IEquatable_1;
+template<typename T>
+class IEquatable_1;
 }
 namespace System {
-template <typename T> struct Nullable_1;
+template<typename T>
+struct Nullable_1;
 }
 namespace System {
 class Object;
 }
 namespace System {
-template <typename T> class Predicate_1;
+template<typename T>
+class Predicate_1;
 }
 namespace System {
 struct TimeSpan;
@@ -133,34 +139,33 @@ namespace System {
 // CS Name: System.TimeZoneInfo/TZifType
 struct CORDL_TYPE TimeZoneInfo_TZifType {
 public:
-  // Declarations
-  /// @brief Method .ctor, addr 0x59f5fc0, size 0x148, virtual false, abstract: false, final false
-  inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t index);
+// Declarations
+/// @brief Method .ctor, addr 0x59f64cc, size 0x148, virtual false, abstract: false, final false
+inline void _ctor(::ArrayW<uint8_t,::Array<uint8_t>*>  data, int32_t  index) ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TimeZoneInfo_TZifType();
+// Ctor Parameters []
+// @brief default ctor
+constexpr TimeZoneInfo_TZifType() ;
 
-  // Ctor Parameters [CppParam { name: "UtcOffset", ty: "::System::TimeSpan", modifiers: "", def_value: None }, CppParam { name: "IsDst", ty: "bool", modifiers: "", def_value: None }, CppParam { name:
-  // "AbbreviationIndex", ty: "uint8_t", modifiers: "", def_value: None }]
-  constexpr TimeZoneInfo_TZifType(::System::TimeSpan UtcOffset, bool IsDst, uint8_t AbbreviationIndex) noexcept;
+// Ctor Parameters [CppParam { name: "UtcOffset", ty: "::System::TimeSpan", modifiers: "", def_value: None }, CppParam { name: "IsDst", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "AbbreviationIndex", ty: "uint8_t", modifiers: "", def_value: None }]
+constexpr TimeZoneInfo_TZifType(::System::TimeSpan  UtcOffset, bool  IsDst, uint8_t  AbbreviationIndex) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2313 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{2313};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x10};
 
-  /// @brief Field UtcOffset, offset: 0x0, size: 0x8, def value: None
-  ::System::TimeSpan UtcOffset;
+/// @brief Field UtcOffset, offset: 0x0, size: 0x8, def value: None
+ ::System::TimeSpan  UtcOffset;
 
-  /// @brief Field IsDst, offset: 0x8, size: 0x1, def value: None
-  bool IsDst;
+/// @brief Field IsDst, offset: 0x8, size: 0x1, def value: None
+ bool  IsDst;
 
-  /// @brief Field AbbreviationIndex, offset: 0x9, size: 0x1, def value: None
-  uint8_t AbbreviationIndex;
+/// @brief Field AbbreviationIndex, offset: 0x9, size: 0x1, def value: None
+ uint8_t  AbbreviationIndex;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::System::TimeZoneInfo_TZifType, UtcOffset) == 0x0, "Offset mismatch!");
@@ -171,118 +176,114 @@ static_assert(offsetof(::System::TimeZoneInfo_TZifType, AbbreviationIndex) == 0x
 
 static_assert(::cordl_internals::size_check_v<::System::TimeZoneInfo_TZifType, 0x10>, "Size mismatch!");
 
-} // namespace System
-// Dependencies
+} // namespace end def System
+// Dependencies 
 namespace System {
 // Is value type: true
 // CS Name: System.TimeZoneInfo/TZVersion
 struct CORDL_TYPE TimeZoneInfo_TZVersion {
 public:
-  // Declarations
-  using __CORDL_BACKING_ENUM_TYPE = uint8_t;
+// Declarations
+using __CORDL_BACKING_ENUM_TYPE = uint8_t;
 
-  /// @brief Nested struct __TimeZoneInfo_TZVersion_Unwrapped
-  enum struct __TimeZoneInfo_TZVersion_Unwrapped : uint8_t {
-    __E_V1 = static_cast<uint8_t>(0x0u),
-    __E_V2 = static_cast<uint8_t>(0x1u),
-    __E_V3 = static_cast<uint8_t>(0x2u),
-  };
+/// @brief Nested struct __TimeZoneInfo_TZVersion_Unwrapped
+enum struct __TimeZoneInfo_TZVersion_Unwrapped : uint8_t {
+__E_V1 = static_cast<uint8_t>(0x0u),
+__E_V2 = static_cast<uint8_t>(0x1u),
+__E_V3 = static_cast<uint8_t>(0x2u),
+};
 
-  /// @brief Conversion into unwrapped enum value
-  constexpr operator __TimeZoneInfo_TZVersion_Unwrapped() const noexcept {
-    return static_cast<__TimeZoneInfo_TZVersion_Unwrapped>(this->value__);
-  }
+/// @brief Conversion into unwrapped enum value
+constexpr operator __TimeZoneInfo_TZVersion_Unwrapped () const noexcept {
+return static_cast<__TimeZoneInfo_TZVersion_Unwrapped>(this->value__);
+}
 
-  /// @brief Conversion into unwrapped enum value
-  constexpr explicit operator uint8_t() const noexcept {
-    return static_cast<uint8_t>(this->value__);
-  }
+/// @brief Conversion into unwrapped enum value
+constexpr explicit operator uint8_t () const noexcept {
+return static_cast<uint8_t>(this->value__);
+}
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TimeZoneInfo_TZVersion();
+// Ctor Parameters []
+// @brief default ctor
+constexpr TimeZoneInfo_TZVersion() ;
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: None }]
-  constexpr TimeZoneInfo_TZVersion(uint8_t value__) noexcept;
+// Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: None }]
+constexpr TimeZoneInfo_TZVersion(uint8_t  value__) noexcept;
 
-  /// @brief Field V1 value: U8(0)
-  static ::System::TimeZoneInfo_TZVersion const V1;
+/// @brief Field V1 value: U8(0)
+static ::System::TimeZoneInfo_TZVersion const V1;
 
-  /// @brief Field V2 value: U8(1)
-  static ::System::TimeZoneInfo_TZVersion const V2;
+/// @brief Field V2 value: U8(1)
+static ::System::TimeZoneInfo_TZVersion const V2;
 
-  /// @brief Field V3 value: U8(2)
-  static ::System::TimeZoneInfo_TZVersion const V3;
+/// @brief Field V3 value: U8(2)
+static ::System::TimeZoneInfo_TZVersion const V3;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2315 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{2315};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x1};
 
-  /// @brief Field value__, offset: 0x0, size: 0x1, def value: None
-  uint8_t value__;
+/// @brief Field value__, offset: 0x0, size: 0x1, def value: None
+ uint8_t  value__;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::System::TimeZoneInfo_TZVersion, value__) == 0x0, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::System::TimeZoneInfo_TZVersion, 0x1>, "Size mismatch!");
 
-} // namespace System
+} // namespace end def System
 // Dependencies System.TimeZoneInfo::TZVersion
 namespace System {
 // Is value type: true
 // CS Name: System.TimeZoneInfo/TZifHead
 struct CORDL_TYPE TimeZoneInfo_TZifHead {
 public:
-  // Declarations
-  /// @brief Method .ctor, addr 0x59f5e10, size 0x1b0, virtual false, abstract: false, final false
-  inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t index);
+// Declarations
+/// @brief Method .ctor, addr 0x59f631c, size 0x1b0, virtual false, abstract: false, final false
+inline void _ctor(::ArrayW<uint8_t,::Array<uint8_t>*>  data, int32_t  index) ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TimeZoneInfo_TZifHead();
+// Ctor Parameters []
+// @brief default ctor
+constexpr TimeZoneInfo_TZifHead() ;
 
-  // Ctor Parameters [CppParam { name: "Magic", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "Version", ty: "::System::TimeZoneInfo_TZVersion", modifiers: "", def_value: None },
-  // CppParam { name: "IsGmtCount", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "IsStdCount", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "LeapCount", ty:
-  // "uint32_t", modifiers: "", def_value: None }, CppParam { name: "TimeCount", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "TypeCount", ty: "uint32_t", modifiers: "",
-  // def_value: None }, CppParam { name: "CharCount", ty: "uint32_t", modifiers: "", def_value: None }]
-  constexpr TimeZoneInfo_TZifHead(uint32_t Magic, ::System::TimeZoneInfo_TZVersion Version, uint32_t IsGmtCount, uint32_t IsStdCount, uint32_t LeapCount, uint32_t TimeCount, uint32_t TypeCount,
-                                  uint32_t CharCount) noexcept;
+// Ctor Parameters [CppParam { name: "Magic", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "Version", ty: "::System::TimeZoneInfo_TZVersion", modifiers: "", def_value: None }, CppParam { name: "IsGmtCount", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "IsStdCount", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "LeapCount", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "TimeCount", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "TypeCount", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "CharCount", ty: "uint32_t", modifiers: "", def_value: None }]
+constexpr TimeZoneInfo_TZifHead(uint32_t  Magic, ::System::TimeZoneInfo_TZVersion  Version, uint32_t  IsGmtCount, uint32_t  IsStdCount, uint32_t  LeapCount, uint32_t  TimeCount, uint32_t  TypeCount, uint32_t  CharCount) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2314 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{2314};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x20};
 
-  /// @brief Field Magic, offset: 0x0, size: 0x4, def value: None
-  uint32_t Magic;
+/// @brief Field Magic, offset: 0x0, size: 0x4, def value: None
+ uint32_t  Magic;
 
-  /// @brief Field Version, offset: 0x4, size: 0x1, def value: None
-  ::System::TimeZoneInfo_TZVersion Version;
+/// @brief Field Version, offset: 0x4, size: 0x1, def value: None
+ ::System::TimeZoneInfo_TZVersion  Version;
 
-  /// @brief Field IsGmtCount, offset: 0x8, size: 0x4, def value: None
-  uint32_t IsGmtCount;
+/// @brief Field IsGmtCount, offset: 0x8, size: 0x4, def value: None
+ uint32_t  IsGmtCount;
 
-  /// @brief Field IsStdCount, offset: 0xc, size: 0x4, def value: None
-  uint32_t IsStdCount;
+/// @brief Field IsStdCount, offset: 0xc, size: 0x4, def value: None
+ uint32_t  IsStdCount;
 
-  /// @brief Field LeapCount, offset: 0x10, size: 0x4, def value: None
-  uint32_t LeapCount;
+/// @brief Field LeapCount, offset: 0x10, size: 0x4, def value: None
+ uint32_t  LeapCount;
 
-  /// @brief Field TimeCount, offset: 0x14, size: 0x4, def value: None
-  uint32_t TimeCount;
+/// @brief Field TimeCount, offset: 0x14, size: 0x4, def value: None
+ uint32_t  TimeCount;
 
-  /// @brief Field TypeCount, offset: 0x18, size: 0x4, def value: None
-  uint32_t TypeCount;
+/// @brief Field TypeCount, offset: 0x18, size: 0x4, def value: None
+ uint32_t  TypeCount;
 
-  /// @brief Field CharCount, offset: 0x1c, size: 0x4, def value: None
-  uint32_t CharCount;
+/// @brief Field CharCount, offset: 0x1c, size: 0x4, def value: None
+ uint32_t  CharCount;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::System::TimeZoneInfo_TZifHead, Magic) == 0x0, "Offset mismatch!");
@@ -303,129 +304,127 @@ static_assert(offsetof(::System::TimeZoneInfo_TZifHead, CharCount) == 0x1c, "Off
 
 static_assert(::cordl_internals::size_check_v<::System::TimeZoneInfo_TZifHead, 0x20>, "Size mismatch!");
 
-} // namespace System
+} // namespace end def System
 // Dependencies System.DateTime, System.DayOfWeek
 namespace System {
 // Is value type: true
 // CS Name: System.TimeZoneInfo/TransitionTime
 struct CORDL_TYPE TimeZoneInfo_TransitionTime {
 public:
-  // Declarations
-  __declspec(property(get = get_Day)) int32_t Day;
+// Declarations
+ __declspec(property(get=get_Day)) int32_t  Day;
 
-  __declspec(property(get = get_DayOfWeek)) ::System::DayOfWeek DayOfWeek;
+ __declspec(property(get=get_DayOfWeek)) ::System::DayOfWeek  DayOfWeek;
 
-  __declspec(property(get = get_IsFixedDateRule)) bool IsFixedDateRule;
+ __declspec(property(get=get_IsFixedDateRule)) bool  IsFixedDateRule;
 
-  __declspec(property(get = get_Month)) int32_t Month;
+ __declspec(property(get=get_Month)) int32_t  Month;
 
-  __declspec(property(get = get_TimeOfDay)) ::System::DateTime TimeOfDay;
+ __declspec(property(get=get_TimeOfDay)) ::System::DateTime  TimeOfDay;
 
-  __declspec(property(get = get_Week)) int32_t Week;
+ __declspec(property(get=get_Week)) int32_t  Week;
 
-  /// @brief Convert operator to "::System::IEquatable_1<::System::TimeZoneInfo_TransitionTime>"
-  constexpr operator ::System::IEquatable_1<::System::TimeZoneInfo_TransitionTime>*();
+/// @brief Convert operator to "::System::IEquatable_1<::System::TimeZoneInfo_TransitionTime>"
+constexpr operator  ::System::IEquatable_1<::System::TimeZoneInfo_TransitionTime>*() ;
 
-  /// @brief Convert operator to "::System::Runtime::Serialization::IDeserializationCallback"
-  constexpr operator ::System::Runtime::Serialization::IDeserializationCallback*();
+/// @brief Convert operator to "::System::Runtime::Serialization::IDeserializationCallback"
+constexpr operator  ::System::Runtime::Serialization::IDeserializationCallback*() ;
 
-  /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
-  constexpr operator ::System::Runtime::Serialization::ISerializable*();
+/// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
+constexpr operator  ::System::Runtime::Serialization::ISerializable*() ;
 
-  /// @brief Method CreateFixedDateRule, addr 0x59f1700, size 0x60, virtual false, abstract: false, final false
-  static inline ::System::TimeZoneInfo_TransitionTime CreateFixedDateRule(::System::DateTime timeOfDay, int32_t month, int32_t day);
+/// @brief Method CreateFixedDateRule, addr 0x59f1c0c, size 0x60, virtual false, abstract: false, final false
+static inline ::System::TimeZoneInfo_TransitionTime CreateFixedDateRule(::System::DateTime  timeOfDay, int32_t  month, int32_t  day) ;
 
-  /// @brief Method CreateFloatingDateRule, addr 0x59f52f4, size 0x68, virtual false, abstract: false, final false
-  static inline ::System::TimeZoneInfo_TransitionTime CreateFloatingDateRule(::System::DateTime timeOfDay, int32_t month, int32_t week, ::System::DayOfWeek dayOfWeek);
+/// @brief Method CreateFloatingDateRule, addr 0x59f5800, size 0x68, virtual false, abstract: false, final false
+static inline ::System::TimeZoneInfo_TransitionTime CreateFloatingDateRule(::System::DateTime  timeOfDay, int32_t  month, int32_t  week, ::System::DayOfWeek  dayOfWeek) ;
 
-  /// @brief Method Equals, addr 0x59fbf28, size 0x94, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* obj);
+/// @brief Method Equals, addr 0x59fc434, size 0x94, virtual true, abstract: false, final false
+inline bool Equals(::System::Object*  obj) ;
 
-  /// @brief Method Equals, addr 0x59fb068, size 0xdc, virtual true, abstract: false, final true
-  inline bool Equals(::System::TimeZoneInfo_TransitionTime other);
+/// @brief Method Equals, addr 0x59fb574, size 0xdc, virtual true, abstract: false, final true
+inline bool Equals(::System::TimeZoneInfo_TransitionTime  other) ;
 
-  /// @brief Method GetHashCode, addr 0x59fbfbc, size 0x8, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
+/// @brief Method GetHashCode, addr 0x59fc4c8, size 0x8, virtual true, abstract: false, final false
+inline int32_t GetHashCode() ;
 
-  /// @brief Method System.Runtime.Serialization.IDeserializationCallback.OnDeserialization, addr 0x59fc2e4, size 0xf0, virtual true, abstract: false, final true
-  inline void System_Runtime_Serialization_IDeserializationCallback_OnDeserialization(::System::Object* sender);
+/// @brief Method System.Runtime.Serialization.IDeserializationCallback.OnDeserialization, addr 0x59fc7f0, size 0xf0, virtual true, abstract: false, final true
+inline void System_Runtime_Serialization_IDeserializationCallback_OnDeserialization(::System::Object*  sender) ;
 
-  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x59fc3d4, size 0x1b0, virtual true, abstract: false, final true
-  inline void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
+/// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x59fc8e0, size 0x1b0, virtual true, abstract: false, final true
+inline void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context) ;
 
-  /// @brief Method ValidateTransitionTime, addr 0x59fc034, size 0x2b0, virtual false, abstract: false, final false
-  static inline void ValidateTransitionTime(::System::DateTime timeOfDay, int32_t month, int32_t week, int32_t day, ::System::DayOfWeek dayOfWeek);
+/// @brief Method ValidateTransitionTime, addr 0x59fc540, size 0x2b0, virtual false, abstract: false, final false
+static inline void ValidateTransitionTime(::System::DateTime  timeOfDay, int32_t  month, int32_t  week, int32_t  day, ::System::DayOfWeek  dayOfWeek) ;
 
-  /// @brief Method .ctor, addr 0x59fc584, size 0x338, virtual false, abstract: false, final false
-  inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
+/// @brief Method .ctor, addr 0x59fca90, size 0x338, virtual false, abstract: false, final false
+inline void _ctor(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context) ;
 
-  /// @brief Method .ctor, addr 0x59fbfc4, size 0x70, virtual false, abstract: false, final false
-  inline void _ctor(::System::DateTime timeOfDay, int32_t month, int32_t week, int32_t day, ::System::DayOfWeek dayOfWeek, bool isFixedDateRule);
+/// @brief Method .ctor, addr 0x59fc4d0, size 0x70, virtual false, abstract: false, final false
+inline void _ctor(::System::DateTime  timeOfDay, int32_t  month, int32_t  week, int32_t  day, ::System::DayOfWeek  dayOfWeek, bool  isFixedDateRule) ;
 
-  /// @brief Method get_Day, addr 0x59fbf10, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_Day();
+/// @brief Method get_Day, addr 0x59fc41c, size 0x8, virtual false, abstract: false, final false
+inline int32_t get_Day() ;
 
-  /// @brief Method get_DayOfWeek, addr 0x59fbf18, size 0x8, virtual false, abstract: false, final false
-  inline ::System::DayOfWeek get_DayOfWeek();
+/// @brief Method get_DayOfWeek, addr 0x59fc424, size 0x8, virtual false, abstract: false, final false
+inline ::System::DayOfWeek get_DayOfWeek() ;
 
-  /// @brief Method get_IsFixedDateRule, addr 0x59fbf20, size 0x8, virtual false, abstract: false, final false
-  inline bool get_IsFixedDateRule();
+/// @brief Method get_IsFixedDateRule, addr 0x59fc42c, size 0x8, virtual false, abstract: false, final false
+inline bool get_IsFixedDateRule() ;
 
-  /// @brief Method get_Month, addr 0x59fbf00, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_Month();
+/// @brief Method get_Month, addr 0x59fc40c, size 0x8, virtual false, abstract: false, final false
+inline int32_t get_Month() ;
 
-  /// @brief Method get_TimeOfDay, addr 0x59fbef8, size 0x8, virtual false, abstract: false, final false
-  inline ::System::DateTime get_TimeOfDay();
+/// @brief Method get_TimeOfDay, addr 0x59fc404, size 0x8, virtual false, abstract: false, final false
+inline ::System::DateTime get_TimeOfDay() ;
 
-  /// @brief Method get_Week, addr 0x59fbf08, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_Week();
+/// @brief Method get_Week, addr 0x59fc414, size 0x8, virtual false, abstract: false, final false
+inline int32_t get_Week() ;
 
-  /// @brief Convert to "::System::IEquatable_1<::System::TimeZoneInfo_TransitionTime>"
-  constexpr ::System::IEquatable_1<::System::TimeZoneInfo_TransitionTime>* i___System__IEquatable_1___System__TimeZoneInfo_TransitionTime_();
+/// @brief Convert to "::System::IEquatable_1<::System::TimeZoneInfo_TransitionTime>"
+constexpr ::System::IEquatable_1<::System::TimeZoneInfo_TransitionTime>* i___System__IEquatable_1___System__TimeZoneInfo_TransitionTime_() ;
 
-  /// @brief Convert to "::System::Runtime::Serialization::IDeserializationCallback"
-  constexpr ::System::Runtime::Serialization::IDeserializationCallback* i___System__Runtime__Serialization__IDeserializationCallback();
+/// @brief Convert to "::System::Runtime::Serialization::IDeserializationCallback"
+constexpr ::System::Runtime::Serialization::IDeserializationCallback* i___System__Runtime__Serialization__IDeserializationCallback() ;
 
-  /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
-  constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable();
+/// @brief Convert to "::System::Runtime::Serialization::ISerializable"
+constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() ;
 
-  /// @brief Method op_Inequality, addr 0x59fb034, size 0x34, virtual false, abstract: false, final false
-  static inline bool op_Inequality(::System::TimeZoneInfo_TransitionTime t1, ::System::TimeZoneInfo_TransitionTime t2);
+/// @brief Method op_Inequality, addr 0x59fb540, size 0x34, virtual false, abstract: false, final false
+static inline bool op_Inequality(::System::TimeZoneInfo_TransitionTime  t1, ::System::TimeZoneInfo_TransitionTime  t2) ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TimeZoneInfo_TransitionTime();
+// Ctor Parameters []
+// @brief default ctor
+constexpr TimeZoneInfo_TransitionTime() ;
 
-  // Ctor Parameters [CppParam { name: "_timeOfDay", ty: "::System::DateTime", modifiers: "", def_value: None }, CppParam { name: "_month", ty: "uint8_t", modifiers: "", def_value: None }, CppParam {
-  // name: "_week", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "_day", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "_dayOfWeek", ty: "::System::DayOfWeek",
-  // modifiers: "", def_value: None }, CppParam { name: "_isFixedDateRule", ty: "bool", modifiers: "", def_value: None }]
-  constexpr TimeZoneInfo_TransitionTime(::System::DateTime _timeOfDay, uint8_t _month, uint8_t _week, uint8_t _day, ::System::DayOfWeek _dayOfWeek, bool _isFixedDateRule) noexcept;
+// Ctor Parameters [CppParam { name: "_timeOfDay", ty: "::System::DateTime", modifiers: "", def_value: None }, CppParam { name: "_month", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "_week", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "_day", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "_dayOfWeek", ty: "::System::DayOfWeek", modifiers: "", def_value: None }, CppParam { name: "_isFixedDateRule", ty: "bool", modifiers: "", def_value: None }]
+constexpr TimeZoneInfo_TransitionTime(::System::DateTime  _timeOfDay, uint8_t  _month, uint8_t  _week, uint8_t  _day, ::System::DayOfWeek  _dayOfWeek, bool  _isFixedDateRule) noexcept;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2317 };
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{2317};
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x18};
 
-  /// @brief Field _timeOfDay, offset: 0x0, size: 0x8, def value: None
-  ::System::DateTime _timeOfDay;
+/// @brief Field _timeOfDay, offset: 0x0, size: 0x8, def value: None
+ ::System::DateTime  _timeOfDay;
 
-  /// @brief Field _month, offset: 0x8, size: 0x1, def value: None
-  uint8_t _month;
+/// @brief Field _month, offset: 0x8, size: 0x1, def value: None
+ uint8_t  _month;
 
-  /// @brief Field _week, offset: 0x9, size: 0x1, def value: None
-  uint8_t _week;
+/// @brief Field _week, offset: 0x9, size: 0x1, def value: None
+ uint8_t  _week;
 
-  /// @brief Field _day, offset: 0xa, size: 0x1, def value: None
-  uint8_t _day;
+/// @brief Field _day, offset: 0xa, size: 0x1, def value: None
+ uint8_t  _day;
 
-  /// @brief Field _dayOfWeek, offset: 0xc, size: 0x4, def value: None
-  ::System::DayOfWeek _dayOfWeek;
+/// @brief Field _dayOfWeek, offset: 0xc, size: 0x4, def value: None
+ ::System::DayOfWeek  _dayOfWeek;
 
-  /// @brief Field _isFixedDateRule, offset: 0x10, size: 0x1, def value: None
-  bool _isFixedDateRule;
+/// @brief Field _isFixedDateRule, offset: 0x10, size: 0x1, def value: None
+ bool  _isFixedDateRule;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::System::TimeZoneInfo_TransitionTime, _timeOfDay) == 0x0, "Offset mismatch!");
@@ -442,223 +441,216 @@ static_assert(offsetof(::System::TimeZoneInfo_TransitionTime, _isFixedDateRule) 
 
 static_assert(::cordl_internals::size_check_v<::System::TimeZoneInfo_TransitionTime, 0x18>, "Size mismatch!");
 
-} // namespace System
+} // namespace end def System
 // Dependencies System.DateTime, System.Object, System.TimeSpan, System.TimeZoneInfo::TransitionTime
 namespace System {
 // Is value type: false
 // CS Name: System.TimeZoneInfo/AdjustmentRule
 class CORDL_TYPE TimeZoneInfo_AdjustmentRule : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(get = get_BaseUtcOffsetDelta)) ::System::TimeSpan BaseUtcOffsetDelta;
+// Declarations
+ __declspec(property(get=get_BaseUtcOffsetDelta)) ::System::TimeSpan  BaseUtcOffsetDelta;
 
-  __declspec(property(get = get_DateEnd)) ::System::DateTime DateEnd;
+ __declspec(property(get=get_DateEnd)) ::System::DateTime  DateEnd;
 
-  __declspec(property(get = get_DateStart)) ::System::DateTime DateStart;
+ __declspec(property(get=get_DateStart)) ::System::DateTime  DateStart;
 
-  __declspec(property(get = get_DaylightDelta)) ::System::TimeSpan DaylightDelta;
+ __declspec(property(get=get_DaylightDelta)) ::System::TimeSpan  DaylightDelta;
 
-  __declspec(property(get = get_DaylightTransitionEnd)) ::System::TimeZoneInfo_TransitionTime DaylightTransitionEnd;
+ __declspec(property(get=get_DaylightTransitionEnd)) ::System::TimeZoneInfo_TransitionTime  DaylightTransitionEnd;
 
-  __declspec(property(get = get_DaylightTransitionStart)) ::System::TimeZoneInfo_TransitionTime DaylightTransitionStart;
+ __declspec(property(get=get_DaylightTransitionStart)) ::System::TimeZoneInfo_TransitionTime  DaylightTransitionStart;
 
-  __declspec(property(get = get_HasDaylightSaving)) bool HasDaylightSaving;
+ __declspec(property(get=get_HasDaylightSaving)) bool  HasDaylightSaving;
 
-  __declspec(property(get = get_NoDaylightTransitions)) bool NoDaylightTransitions;
+ __declspec(property(get=get_NoDaylightTransitions)) bool  NoDaylightTransitions;
 
-  /// @brief Field _baseUtcOffsetDelta, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get__baseUtcOffsetDelta, put = __cordl_internal_set__baseUtcOffsetDelta)) ::System::TimeSpan _baseUtcOffsetDelta;
+/// @brief Field _baseUtcOffsetDelta, offset 0x58, size 0x8 
+ __declspec(property(get=__cordl_internal_get__baseUtcOffsetDelta, put=__cordl_internal_set__baseUtcOffsetDelta)) ::System::TimeSpan  _baseUtcOffsetDelta;
 
-  /// @brief Field _dateEnd, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__dateEnd, put = __cordl_internal_set__dateEnd)) ::System::DateTime _dateEnd;
+/// @brief Field _dateEnd, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get__dateEnd, put=__cordl_internal_set__dateEnd)) ::System::DateTime  _dateEnd;
 
-  /// @brief Field _dateStart, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__dateStart, put = __cordl_internal_set__dateStart)) ::System::DateTime _dateStart;
+/// @brief Field _dateStart, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get__dateStart, put=__cordl_internal_set__dateStart)) ::System::DateTime  _dateStart;
 
-  /// @brief Field _daylightDelta, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__daylightDelta, put = __cordl_internal_set__daylightDelta)) ::System::TimeSpan _daylightDelta;
+/// @brief Field _daylightDelta, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get__daylightDelta, put=__cordl_internal_set__daylightDelta)) ::System::TimeSpan  _daylightDelta;
 
-  /// @brief Field _daylightTransitionEnd, offset 0x40, size 0x18
-  __declspec(property(get = __cordl_internal_get__daylightTransitionEnd, put = __cordl_internal_set__daylightTransitionEnd)) ::System::TimeZoneInfo_TransitionTime _daylightTransitionEnd;
+/// @brief Field _daylightTransitionEnd, offset 0x40, size 0x18 
+ __declspec(property(get=__cordl_internal_get__daylightTransitionEnd, put=__cordl_internal_set__daylightTransitionEnd)) ::System::TimeZoneInfo_TransitionTime  _daylightTransitionEnd;
 
-  /// @brief Field _daylightTransitionStart, offset 0x28, size 0x18
-  __declspec(property(get = __cordl_internal_get__daylightTransitionStart, put = __cordl_internal_set__daylightTransitionStart)) ::System::TimeZoneInfo_TransitionTime _daylightTransitionStart;
+/// @brief Field _daylightTransitionStart, offset 0x28, size 0x18 
+ __declspec(property(get=__cordl_internal_get__daylightTransitionStart, put=__cordl_internal_set__daylightTransitionStart)) ::System::TimeZoneInfo_TransitionTime  _daylightTransitionStart;
 
-  /// @brief Field _noDaylightTransitions, offset 0x60, size 0x1
-  __declspec(property(get = __cordl_internal_get__noDaylightTransitions, put = __cordl_internal_set__noDaylightTransitions)) bool _noDaylightTransitions;
+/// @brief Field _noDaylightTransitions, offset 0x60, size 0x1 
+ __declspec(property(get=__cordl_internal_get__noDaylightTransitions, put=__cordl_internal_set__noDaylightTransitions)) bool  _noDaylightTransitions;
 
-  /// @brief Convert operator to "::System::IEquatable_1<::System::TimeZoneInfo_AdjustmentRule*>"
-  constexpr operator ::System::IEquatable_1<::System::TimeZoneInfo_AdjustmentRule*>*() noexcept;
+/// @brief Convert operator to "::System::IEquatable_1<::System::TimeZoneInfo_AdjustmentRule*>"
+constexpr operator  ::System::IEquatable_1<::System::TimeZoneInfo_AdjustmentRule*>*() noexcept;
 
-  /// @brief Convert operator to "::System::Runtime::Serialization::IDeserializationCallback"
-  constexpr operator ::System::Runtime::Serialization::IDeserializationCallback*() noexcept;
+/// @brief Convert operator to "::System::Runtime::Serialization::IDeserializationCallback"
+constexpr operator  ::System::Runtime::Serialization::IDeserializationCallback*() noexcept;
 
-  /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
-  constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
+/// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
+constexpr operator  ::System::Runtime::Serialization::ISerializable*() noexcept;
 
-  /// @brief Method CreateAdjustmentRule, addr 0x59f1760, size 0x118, virtual false, abstract: false, final false
-  static inline ::System::TimeZoneInfo_AdjustmentRule* CreateAdjustmentRule(::System::DateTime dateStart, ::System::DateTime dateEnd, ::System::TimeSpan daylightDelta,
-                                                                            ::System::TimeZoneInfo_TransitionTime daylightTransitionStart, ::System::TimeZoneInfo_TransitionTime daylightTransitionEnd);
+/// @brief Method CreateAdjustmentRule, addr 0x59f1c6c, size 0x118, virtual false, abstract: false, final false
+static inline ::System::TimeZoneInfo_AdjustmentRule* CreateAdjustmentRule(::System::DateTime  dateStart, ::System::DateTime  dateEnd, ::System::TimeSpan  daylightDelta, ::System::TimeZoneInfo_TransitionTime  daylightTransitionStart, ::System::TimeZoneInfo_TransitionTime  daylightTransitionEnd) ;
 
-  /// @brief Method CreateAdjustmentRule, addr 0x59f4164, size 0xf8, virtual false, abstract: false, final false
-  static inline ::System::TimeZoneInfo_AdjustmentRule* CreateAdjustmentRule(::System::DateTime dateStart, ::System::DateTime dateEnd, ::System::TimeSpan daylightDelta,
-                                                                            ::System::TimeZoneInfo_TransitionTime daylightTransitionStart, ::System::TimeZoneInfo_TransitionTime daylightTransitionEnd,
-                                                                            ::System::TimeSpan baseUtcOffsetDelta, bool noDaylightTransitions);
+/// @brief Method CreateAdjustmentRule, addr 0x59f4670, size 0xf8, virtual false, abstract: false, final false
+static inline ::System::TimeZoneInfo_AdjustmentRule* CreateAdjustmentRule(::System::DateTime  dateStart, ::System::DateTime  dateEnd, ::System::TimeSpan  daylightDelta, ::System::TimeZoneInfo_TransitionTime  daylightTransitionStart, ::System::TimeZoneInfo_TransitionTime  daylightTransitionEnd, ::System::TimeSpan  baseUtcOffsetDelta, bool  noDaylightTransitions) ;
 
-  /// @brief Method Equals, addr 0x59f7e00, size 0x154, virtual true, abstract: false, final true
-  inline bool Equals(::System::TimeZoneInfo_AdjustmentRule* other);
+/// @brief Method Equals, addr 0x59f830c, size 0x154, virtual true, abstract: false, final true
+inline bool Equals(::System::TimeZoneInfo_AdjustmentRule*  other) ;
 
-  /// @brief Method GetHashCode, addr 0x59fb144, size 0x5c, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
+/// @brief Method GetHashCode, addr 0x59fb650, size 0x5c, virtual true, abstract: false, final false
+inline int32_t GetHashCode() ;
 
-  /// @brief Method IsEndDateMarkerForEndOfYear, addr 0x59f9394, size 0x120, virtual false, abstract: false, final false
-  inline bool IsEndDateMarkerForEndOfYear();
+/// @brief Method IsEndDateMarkerForEndOfYear, addr 0x59f98a0, size 0x120, virtual false, abstract: false, final false
+inline bool IsEndDateMarkerForEndOfYear() ;
 
-  /// @brief Method IsStartDateMarkerForBeginningOfYear, addr 0x59f9274, size 0x120, virtual false, abstract: false, final false
-  inline bool IsStartDateMarkerForBeginningOfYear();
+/// @brief Method IsStartDateMarkerForBeginningOfYear, addr 0x59f9780, size 0x120, virtual false, abstract: false, final false
+inline bool IsStartDateMarkerForBeginningOfYear() ;
 
-  static inline ::System::TimeZoneInfo_AdjustmentRule* New_ctor();
+static inline ::System::TimeZoneInfo_AdjustmentRule* New_ctor() ;
 
-  static inline ::System::TimeZoneInfo_AdjustmentRule* New_ctor(::System::DateTime dateStart, ::System::DateTime dateEnd, ::System::TimeSpan daylightDelta,
-                                                                ::System::TimeZoneInfo_TransitionTime daylightTransitionStart, ::System::TimeZoneInfo_TransitionTime daylightTransitionEnd,
-                                                                ::System::TimeSpan baseUtcOffsetDelta, bool noDaylightTransitions);
+static inline ::System::TimeZoneInfo_AdjustmentRule* New_ctor(::System::DateTime  dateStart, ::System::DateTime  dateEnd, ::System::TimeSpan  daylightDelta, ::System::TimeZoneInfo_TransitionTime  daylightTransitionStart, ::System::TimeZoneInfo_TransitionTime  daylightTransitionEnd, ::System::TimeSpan  baseUtcOffsetDelta, bool  noDaylightTransitions) ;
 
-  static inline ::System::TimeZoneInfo_AdjustmentRule* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
+static inline ::System::TimeZoneInfo_AdjustmentRule* New_ctor(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context) ;
 
-  /// @brief Method System.Runtime.Serialization.IDeserializationCallback.OnDeserialization, addr 0x59fb770, size 0x118, virtual true, abstract: false, final true
-  inline void System_Runtime_Serialization_IDeserializationCallback_OnDeserialization(::System::Object* sender);
+/// @brief Method System.Runtime.Serialization.IDeserializationCallback.OnDeserialization, addr 0x59fbc7c, size 0x118, virtual true, abstract: false, final true
+inline void System_Runtime_Serialization_IDeserializationCallback_OnDeserialization(::System::Object*  sender) ;
 
-  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x59fb888, size 0x248, virtual true, abstract: false, final true
-  inline void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
+/// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x59fbd94, size 0x248, virtual true, abstract: false, final true
+inline void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context) ;
 
-  /// @brief Method ValidateAdjustmentRule, addr 0x59fb25c, size 0x4d8, virtual false, abstract: false, final false
-  static inline void ValidateAdjustmentRule(::System::DateTime dateStart, ::System::DateTime dateEnd, ::System::TimeSpan daylightDelta, ::System::TimeZoneInfo_TransitionTime daylightTransitionStart,
-                                            ::System::TimeZoneInfo_TransitionTime daylightTransitionEnd, bool noDaylightTransitions);
+/// @brief Method ValidateAdjustmentRule, addr 0x59fb768, size 0x4d8, virtual false, abstract: false, final false
+static inline void ValidateAdjustmentRule(::System::DateTime  dateStart, ::System::DateTime  dateEnd, ::System::TimeSpan  daylightDelta, ::System::TimeZoneInfo_TransitionTime  daylightTransitionStart, ::System::TimeZoneInfo_TransitionTime  daylightTransitionEnd, bool  noDaylightTransitions) ;
 
-  constexpr ::System::TimeSpan const& __cordl_internal_get__baseUtcOffsetDelta() const;
+constexpr ::System::TimeSpan const& __cordl_internal_get__baseUtcOffsetDelta() const;
 
-  constexpr ::System::TimeSpan& __cordl_internal_get__baseUtcOffsetDelta();
+constexpr ::System::TimeSpan& __cordl_internal_get__baseUtcOffsetDelta() ;
 
-  constexpr ::System::DateTime const& __cordl_internal_get__dateEnd() const;
+constexpr ::System::DateTime const& __cordl_internal_get__dateEnd() const;
 
-  constexpr ::System::DateTime& __cordl_internal_get__dateEnd();
+constexpr ::System::DateTime& __cordl_internal_get__dateEnd() ;
 
-  constexpr ::System::DateTime const& __cordl_internal_get__dateStart() const;
+constexpr ::System::DateTime const& __cordl_internal_get__dateStart() const;
 
-  constexpr ::System::DateTime& __cordl_internal_get__dateStart();
+constexpr ::System::DateTime& __cordl_internal_get__dateStart() ;
 
-  constexpr ::System::TimeSpan const& __cordl_internal_get__daylightDelta() const;
+constexpr ::System::TimeSpan const& __cordl_internal_get__daylightDelta() const;
 
-  constexpr ::System::TimeSpan& __cordl_internal_get__daylightDelta();
+constexpr ::System::TimeSpan& __cordl_internal_get__daylightDelta() ;
 
-  constexpr ::System::TimeZoneInfo_TransitionTime const& __cordl_internal_get__daylightTransitionEnd() const;
+constexpr ::System::TimeZoneInfo_TransitionTime const& __cordl_internal_get__daylightTransitionEnd() const;
 
-  constexpr ::System::TimeZoneInfo_TransitionTime& __cordl_internal_get__daylightTransitionEnd();
+constexpr ::System::TimeZoneInfo_TransitionTime& __cordl_internal_get__daylightTransitionEnd() ;
 
-  constexpr ::System::TimeZoneInfo_TransitionTime const& __cordl_internal_get__daylightTransitionStart() const;
+constexpr ::System::TimeZoneInfo_TransitionTime const& __cordl_internal_get__daylightTransitionStart() const;
 
-  constexpr ::System::TimeZoneInfo_TransitionTime& __cordl_internal_get__daylightTransitionStart();
+constexpr ::System::TimeZoneInfo_TransitionTime& __cordl_internal_get__daylightTransitionStart() ;
 
-  constexpr bool const& __cordl_internal_get__noDaylightTransitions() const;
+constexpr bool const& __cordl_internal_get__noDaylightTransitions() const;
 
-  constexpr bool& __cordl_internal_get__noDaylightTransitions();
+constexpr bool& __cordl_internal_get__noDaylightTransitions() ;
 
-  constexpr void __cordl_internal_set__baseUtcOffsetDelta(::System::TimeSpan value);
+constexpr void __cordl_internal_set__baseUtcOffsetDelta(::System::TimeSpan  value) ;
 
-  constexpr void __cordl_internal_set__dateEnd(::System::DateTime value);
+constexpr void __cordl_internal_set__dateEnd(::System::DateTime  value) ;
 
-  constexpr void __cordl_internal_set__dateStart(::System::DateTime value);
+constexpr void __cordl_internal_set__dateStart(::System::DateTime  value) ;
 
-  constexpr void __cordl_internal_set__daylightDelta(::System::TimeSpan value);
+constexpr void __cordl_internal_set__daylightDelta(::System::TimeSpan  value) ;
 
-  constexpr void __cordl_internal_set__daylightTransitionEnd(::System::TimeZoneInfo_TransitionTime value);
+constexpr void __cordl_internal_set__daylightTransitionEnd(::System::TimeZoneInfo_TransitionTime  value) ;
 
-  constexpr void __cordl_internal_set__daylightTransitionStart(::System::TimeZoneInfo_TransitionTime value);
+constexpr void __cordl_internal_set__daylightTransitionStart(::System::TimeZoneInfo_TransitionTime  value) ;
 
-  constexpr void __cordl_internal_set__noDaylightTransitions(bool value);
+constexpr void __cordl_internal_set__noDaylightTransitions(bool  value) ;
 
-  /// @brief Method .ctor, addr 0x59fbebc, size 0x3c, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x59fc3c8, size 0x3c, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method .ctor, addr 0x59fb1a0, size 0xbc, virtual false, abstract: false, final false
-  inline void _ctor(::System::DateTime dateStart, ::System::DateTime dateEnd, ::System::TimeSpan daylightDelta, ::System::TimeZoneInfo_TransitionTime daylightTransitionStart,
-                    ::System::TimeZoneInfo_TransitionTime daylightTransitionEnd, ::System::TimeSpan baseUtcOffsetDelta, bool noDaylightTransitions);
+/// @brief Method .ctor, addr 0x59fb6ac, size 0xbc, virtual false, abstract: false, final false
+inline void _ctor(::System::DateTime  dateStart, ::System::DateTime  dateEnd, ::System::TimeSpan  daylightDelta, ::System::TimeZoneInfo_TransitionTime  daylightTransitionStart, ::System::TimeZoneInfo_TransitionTime  daylightTransitionEnd, ::System::TimeSpan  baseUtcOffsetDelta, bool  noDaylightTransitions) ;
 
-  /// @brief Method .ctor, addr 0x59fbad0, size 0x3ec, virtual false, abstract: false, final false
-  inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
+/// @brief Method .ctor, addr 0x59fbfdc, size 0x3ec, virtual false, abstract: false, final false
+inline void _ctor(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context) ;
 
-  /// @brief Method get_BaseUtcOffsetDelta, addr 0x59fb024, size 0x8, virtual false, abstract: false, final false
-  inline ::System::TimeSpan get_BaseUtcOffsetDelta();
+/// @brief Method get_BaseUtcOffsetDelta, addr 0x59fb530, size 0x8, virtual false, abstract: false, final false
+inline ::System::TimeSpan get_BaseUtcOffsetDelta() ;
 
-  /// @brief Method get_DateEnd, addr 0x59fafec, size 0x8, virtual false, abstract: false, final false
-  inline ::System::DateTime get_DateEnd();
+/// @brief Method get_DateEnd, addr 0x59fb4f8, size 0x8, virtual false, abstract: false, final false
+inline ::System::DateTime get_DateEnd() ;
 
-  /// @brief Method get_DateStart, addr 0x59fafe4, size 0x8, virtual false, abstract: false, final false
-  inline ::System::DateTime get_DateStart();
+/// @brief Method get_DateStart, addr 0x59fb4f0, size 0x8, virtual false, abstract: false, final false
+inline ::System::DateTime get_DateStart() ;
 
-  /// @brief Method get_DaylightDelta, addr 0x59faff4, size 0x8, virtual false, abstract: false, final false
-  inline ::System::TimeSpan get_DaylightDelta();
+/// @brief Method get_DaylightDelta, addr 0x59fb500, size 0x8, virtual false, abstract: false, final false
+inline ::System::TimeSpan get_DaylightDelta() ;
 
-  /// @brief Method get_DaylightTransitionEnd, addr 0x59fb010, size 0x14, virtual false, abstract: false, final false
-  inline ::System::TimeZoneInfo_TransitionTime get_DaylightTransitionEnd();
+/// @brief Method get_DaylightTransitionEnd, addr 0x59fb51c, size 0x14, virtual false, abstract: false, final false
+inline ::System::TimeZoneInfo_TransitionTime get_DaylightTransitionEnd() ;
 
-  /// @brief Method get_DaylightTransitionStart, addr 0x59faffc, size 0x14, virtual false, abstract: false, final false
-  inline ::System::TimeZoneInfo_TransitionTime get_DaylightTransitionStart();
+/// @brief Method get_DaylightTransitionStart, addr 0x59fb508, size 0x14, virtual false, abstract: false, final false
+inline ::System::TimeZoneInfo_TransitionTime get_DaylightTransitionStart() ;
 
-  /// @brief Method get_HasDaylightSaving, addr 0x59f6e00, size 0x160, virtual false, abstract: false, final false
-  inline bool get_HasDaylightSaving();
+/// @brief Method get_HasDaylightSaving, addr 0x59f730c, size 0x160, virtual false, abstract: false, final false
+inline bool get_HasDaylightSaving() ;
 
-  /// @brief Method get_NoDaylightTransitions, addr 0x59fb02c, size 0x8, virtual false, abstract: false, final false
-  inline bool get_NoDaylightTransitions();
+/// @brief Method get_NoDaylightTransitions, addr 0x59fb538, size 0x8, virtual false, abstract: false, final false
+inline bool get_NoDaylightTransitions() ;
 
-  /// @brief Convert to "::System::IEquatable_1<::System::TimeZoneInfo_AdjustmentRule*>"
-  constexpr ::System::IEquatable_1<::System::TimeZoneInfo_AdjustmentRule*>* i___System__IEquatable_1___System__TimeZoneInfo_AdjustmentRule__() noexcept;
+/// @brief Convert to "::System::IEquatable_1<::System::TimeZoneInfo_AdjustmentRule*>"
+constexpr ::System::IEquatable_1<::System::TimeZoneInfo_AdjustmentRule*>* i___System__IEquatable_1___System__TimeZoneInfo_AdjustmentRule__() noexcept;
 
-  /// @brief Convert to "::System::Runtime::Serialization::IDeserializationCallback"
-  constexpr ::System::Runtime::Serialization::IDeserializationCallback* i___System__Runtime__Serialization__IDeserializationCallback() noexcept;
+/// @brief Convert to "::System::Runtime::Serialization::IDeserializationCallback"
+constexpr ::System::Runtime::Serialization::IDeserializationCallback* i___System__Runtime__Serialization__IDeserializationCallback() noexcept;
 
-  /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
-  constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
+/// @brief Convert to "::System::Runtime::Serialization::ISerializable"
+constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TimeZoneInfo_AdjustmentRule();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr TimeZoneInfo_AdjustmentRule() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TimeZoneInfo_AdjustmentRule", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  TimeZoneInfo_AdjustmentRule(TimeZoneInfo_AdjustmentRule&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TimeZoneInfo_AdjustmentRule", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  TimeZoneInfo_AdjustmentRule(TimeZoneInfo_AdjustmentRule const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "TimeZoneInfo_AdjustmentRule", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+TimeZoneInfo_AdjustmentRule(TimeZoneInfo_AdjustmentRule && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2316 };
+// Ctor Parameters [CppParam { name: "", ty: "TimeZoneInfo_AdjustmentRule", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+TimeZoneInfo_AdjustmentRule(TimeZoneInfo_AdjustmentRule const& ) = delete;
 
-  /// @brief Field _dateStart, offset: 0x10, size: 0x8, def value: None
-  ::System::DateTime ____dateStart;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{2316};
 
-  /// @brief Field _dateEnd, offset: 0x18, size: 0x8, def value: None
-  ::System::DateTime ____dateEnd;
+/// @brief Field _dateStart, offset: 0x10, size: 0x8, def value: None
+ ::System::DateTime  ____dateStart;
 
-  /// @brief Field _daylightDelta, offset: 0x20, size: 0x8, def value: None
-  ::System::TimeSpan ____daylightDelta;
+/// @brief Field _dateEnd, offset: 0x18, size: 0x8, def value: None
+ ::System::DateTime  ____dateEnd;
 
-  /// @brief Field _daylightTransitionStart, offset: 0x28, size: 0x18, def value: None
-  ::System::TimeZoneInfo_TransitionTime ____daylightTransitionStart;
+/// @brief Field _daylightDelta, offset: 0x20, size: 0x8, def value: None
+ ::System::TimeSpan  ____daylightDelta;
 
-  /// @brief Field _daylightTransitionEnd, offset: 0x40, size: 0x18, def value: None
-  ::System::TimeZoneInfo_TransitionTime ____daylightTransitionEnd;
+/// @brief Field _daylightTransitionStart, offset: 0x28, size: 0x18, def value: None
+ ::System::TimeZoneInfo_TransitionTime  ____daylightTransitionStart;
 
-  /// @brief Field _baseUtcOffsetDelta, offset: 0x58, size: 0x8, def value: None
-  ::System::TimeSpan ____baseUtcOffsetDelta;
+/// @brief Field _daylightTransitionEnd, offset: 0x40, size: 0x18, def value: None
+ ::System::TimeZoneInfo_TransitionTime  ____daylightTransitionEnd;
 
-  /// @brief Field _noDaylightTransitions, offset: 0x60, size: 0x1, def value: None
-  bool ____noDaylightTransitions;
+/// @brief Field _baseUtcOffsetDelta, offset: 0x58, size: 0x8, def value: None
+ ::System::TimeSpan  ____baseUtcOffsetDelta;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _noDaylightTransitions, offset: 0x60, size: 0x1, def value: None
+ bool  ____noDaylightTransitions;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::TimeZoneInfo_AdjustmentRule, ____dateStart) == 0x10, "Offset mismatch!");
@@ -677,172 +669,172 @@ static_assert(offsetof(::System::TimeZoneInfo_AdjustmentRule, ____noDaylightTran
 
 static_assert(::cordl_internals::size_check_v<::System::TimeZoneInfo_AdjustmentRule, 0x68>, "Size mismatch!");
 
-} // namespace System
+} // namespace end def System
 // Dependencies System.Object
 namespace System {
 // Is value type: false
 // CS Name: System.TimeZoneInfo/CachedData
 class CORDL_TYPE TimeZoneInfo_CachedData : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(get = get_Local)) ::System::TimeZoneInfo* Local;
+// Declarations
+ __declspec(property(get=get_Local)) ::System::TimeZoneInfo*  Local;
 
-  /// @brief Field _localTimeZone, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__localTimeZone, put = __cordl_internal_set__localTimeZone)) ::System::TimeZoneInfo* _localTimeZone;
+/// @brief Field _localTimeZone, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get__localTimeZone, put=__cordl_internal_set__localTimeZone)) ::System::TimeZoneInfo*  _localTimeZone;
 
-  /// @brief Method CreateLocal, addr 0x59fc8bc, size 0x180, virtual false, abstract: false, final false
-  inline ::System::TimeZoneInfo* CreateLocal();
+/// @brief Method CreateLocal, addr 0x59fcdc8, size 0x180, virtual false, abstract: false, final false
+inline ::System::TimeZoneInfo* CreateLocal() ;
 
-  /// @brief Method GetCorrespondingKind, addr 0x59f65cc, size 0x90, virtual false, abstract: false, final false
-  inline ::System::DateTimeKind GetCorrespondingKind(::System::TimeZoneInfo* timeZone);
+/// @brief Method GetCorrespondingKind, addr 0x59f6ad8, size 0x90, virtual false, abstract: false, final false
+inline ::System::DateTimeKind GetCorrespondingKind(::System::TimeZoneInfo*  timeZone) ;
 
-  static inline ::System::TimeZoneInfo_CachedData* New_ctor();
+static inline ::System::TimeZoneInfo_CachedData* New_ctor() ;
 
-  constexpr ::System::TimeZoneInfo* const& __cordl_internal_get__localTimeZone() const;
+constexpr ::System::TimeZoneInfo* const& __cordl_internal_get__localTimeZone() const;
 
-  constexpr ::System::TimeZoneInfo*& __cordl_internal_get__localTimeZone();
+constexpr ::System::TimeZoneInfo*& __cordl_internal_get__localTimeZone() ;
 
-  constexpr void __cordl_internal_set__localTimeZone(::System::TimeZoneInfo* value);
+constexpr void __cordl_internal_set__localTimeZone(::System::TimeZoneInfo*  value) ;
 
-  /// @brief Method .ctor, addr 0x59fafa4, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x59fb4b0, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_Local, addr 0x59f6538, size 0x18, virtual false, abstract: false, final false
-  inline ::System::TimeZoneInfo* get_Local();
+/// @brief Method get_Local, addr 0x59f6a44, size 0x18, virtual false, abstract: false, final false
+inline ::System::TimeZoneInfo* get_Local() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TimeZoneInfo_CachedData();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr TimeZoneInfo_CachedData() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TimeZoneInfo_CachedData", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  TimeZoneInfo_CachedData(TimeZoneInfo_CachedData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TimeZoneInfo_CachedData", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  TimeZoneInfo_CachedData(TimeZoneInfo_CachedData const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "TimeZoneInfo_CachedData", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+TimeZoneInfo_CachedData(TimeZoneInfo_CachedData && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2318 };
+// Ctor Parameters [CppParam { name: "", ty: "TimeZoneInfo_CachedData", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+TimeZoneInfo_CachedData(TimeZoneInfo_CachedData const& ) = delete;
 
-  /// @brief Field _localTimeZone, offset: 0x10, size: 0x8, def value: None
-  ::System::TimeZoneInfo* ____localTimeZone;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{2318};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _localTimeZone, offset: 0x10, size: 0x8, def value: None
+ ::System::TimeZoneInfo*  ____localTimeZone;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::TimeZoneInfo_CachedData, ____localTimeZone) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::System::TimeZoneInfo_CachedData, 0x18>, "Size mismatch!");
 
-} // namespace System
+} // namespace end def System
 // Dependencies System.Object
 namespace System {
 // Is value type: false
 // CS Name: System.TimeZoneInfo/<>c__DisplayClass16_0
 class CORDL_TYPE TimeZoneInfo___c__DisplayClass16_0 : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field buffer, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_buffer, put = __cordl_internal_set_buffer)) ::ArrayW<uint8_t, ::Array<uint8_t>*> buffer;
+// Declarations
+/// @brief Field buffer, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get_buffer, put=__cordl_internal_set_buffer)) ::ArrayW<uint8_t,::Array<uint8_t>*>  buffer;
 
-  /// @brief Field id, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_id, put = __cordl_internal_set_id)) ::StringW id;
+/// @brief Field id, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get_id, put=__cordl_internal_set_id)) ::StringW  id;
 
-  /// @brief Field localtimeFilePath, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_localtimeFilePath, put = __cordl_internal_set_localtimeFilePath)) ::StringW localtimeFilePath;
+/// @brief Field localtimeFilePath, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_localtimeFilePath, put=__cordl_internal_set_localtimeFilePath)) ::StringW  localtimeFilePath;
 
-  /// @brief Field posixrulesFilePath, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_posixrulesFilePath, put = __cordl_internal_set_posixrulesFilePath)) ::StringW posixrulesFilePath;
+/// @brief Field posixrulesFilePath, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_posixrulesFilePath, put=__cordl_internal_set_posixrulesFilePath)) ::StringW  posixrulesFilePath;
 
-  /// @brief Field rawData, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_rawData, put = __cordl_internal_set_rawData)) ::ArrayW<uint8_t, ::Array<uint8_t>*> rawData;
+/// @brief Field rawData, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get_rawData, put=__cordl_internal_set_rawData)) ::ArrayW<uint8_t,::Array<uint8_t>*>  rawData;
 
-  /// @brief Field timeZoneDirectory, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_timeZoneDirectory, put = __cordl_internal_set_timeZoneDirectory)) ::StringW timeZoneDirectory;
+/// @brief Field timeZoneDirectory, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get_timeZoneDirectory, put=__cordl_internal_set_timeZoneDirectory)) ::StringW  timeZoneDirectory;
 
-  static inline ::System::TimeZoneInfo___c__DisplayClass16_0* New_ctor();
+static inline ::System::TimeZoneInfo___c__DisplayClass16_0* New_ctor() ;
 
-  /// @brief Method <FindTimeZoneId>b__0, addr 0x59fca3c, size 0x108, virtual false, abstract: false, final false
-  inline bool _FindTimeZoneId_b__0(::StringW filePath);
+/// @brief Method <FindTimeZoneId>b__0, addr 0x59fcf48, size 0x108, virtual false, abstract: false, final false
+inline bool _FindTimeZoneId_b__0(::StringW  filePath) ;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_buffer() const;
+constexpr ::ArrayW<uint8_t,::Array<uint8_t>*> const& __cordl_internal_get_buffer() const;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_buffer();
+constexpr ::ArrayW<uint8_t,::Array<uint8_t>*>& __cordl_internal_get_buffer() ;
 
-  constexpr ::StringW const& __cordl_internal_get_id() const;
+constexpr ::StringW const& __cordl_internal_get_id() const;
 
-  constexpr ::StringW& __cordl_internal_get_id();
+constexpr ::StringW& __cordl_internal_get_id() ;
 
-  constexpr ::StringW const& __cordl_internal_get_localtimeFilePath() const;
+constexpr ::StringW const& __cordl_internal_get_localtimeFilePath() const;
 
-  constexpr ::StringW& __cordl_internal_get_localtimeFilePath();
+constexpr ::StringW& __cordl_internal_get_localtimeFilePath() ;
 
-  constexpr ::StringW const& __cordl_internal_get_posixrulesFilePath() const;
+constexpr ::StringW const& __cordl_internal_get_posixrulesFilePath() const;
 
-  constexpr ::StringW& __cordl_internal_get_posixrulesFilePath();
+constexpr ::StringW& __cordl_internal_get_posixrulesFilePath() ;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_rawData() const;
+constexpr ::ArrayW<uint8_t,::Array<uint8_t>*> const& __cordl_internal_get_rawData() const;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_rawData();
+constexpr ::ArrayW<uint8_t,::Array<uint8_t>*>& __cordl_internal_get_rawData() ;
 
-  constexpr ::StringW const& __cordl_internal_get_timeZoneDirectory() const;
+constexpr ::StringW const& __cordl_internal_get_timeZoneDirectory() const;
 
-  constexpr ::StringW& __cordl_internal_get_timeZoneDirectory();
+constexpr ::StringW& __cordl_internal_get_timeZoneDirectory() ;
 
-  constexpr void __cordl_internal_set_buffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+constexpr void __cordl_internal_set_buffer(::ArrayW<uint8_t,::Array<uint8_t>*>  value) ;
 
-  constexpr void __cordl_internal_set_id(::StringW value);
+constexpr void __cordl_internal_set_id(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_localtimeFilePath(::StringW value);
+constexpr void __cordl_internal_set_localtimeFilePath(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_posixrulesFilePath(::StringW value);
+constexpr void __cordl_internal_set_posixrulesFilePath(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_rawData(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+constexpr void __cordl_internal_set_rawData(::ArrayW<uint8_t,::Array<uint8_t>*>  value) ;
 
-  constexpr void __cordl_internal_set_timeZoneDirectory(::StringW value);
+constexpr void __cordl_internal_set_timeZoneDirectory(::StringW  value) ;
 
-  /// @brief Method .ctor, addr 0x59f2a44, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x59f2f50, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TimeZoneInfo___c__DisplayClass16_0();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr TimeZoneInfo___c__DisplayClass16_0() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TimeZoneInfo___c__DisplayClass16_0", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  TimeZoneInfo___c__DisplayClass16_0(TimeZoneInfo___c__DisplayClass16_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TimeZoneInfo___c__DisplayClass16_0", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  TimeZoneInfo___c__DisplayClass16_0(TimeZoneInfo___c__DisplayClass16_0 const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "TimeZoneInfo___c__DisplayClass16_0", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+TimeZoneInfo___c__DisplayClass16_0(TimeZoneInfo___c__DisplayClass16_0 && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2319 };
+// Ctor Parameters [CppParam { name: "", ty: "TimeZoneInfo___c__DisplayClass16_0", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+TimeZoneInfo___c__DisplayClass16_0(TimeZoneInfo___c__DisplayClass16_0 const& ) = delete;
 
-  /// @brief Field localtimeFilePath, offset: 0x10, size: 0x8, def value: None
-  ::StringW ___localtimeFilePath;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{2319};
 
-  /// @brief Field posixrulesFilePath, offset: 0x18, size: 0x8, def value: None
-  ::StringW ___posixrulesFilePath;
+/// @brief Field localtimeFilePath, offset: 0x10, size: 0x8, def value: None
+ ::StringW  ___localtimeFilePath;
 
-  /// @brief Field buffer, offset: 0x20, size: 0x8, def value: None
-  ::ArrayW<uint8_t, ::Array<uint8_t>*> ___buffer;
+/// @brief Field posixrulesFilePath, offset: 0x18, size: 0x8, def value: None
+ ::StringW  ___posixrulesFilePath;
 
-  /// @brief Field rawData, offset: 0x28, size: 0x8, def value: None
-  ::ArrayW<uint8_t, ::Array<uint8_t>*> ___rawData;
+/// @brief Field buffer, offset: 0x20, size: 0x8, def value: None
+ ::ArrayW<uint8_t,::Array<uint8_t>*>  ___buffer;
 
-  /// @brief Field id, offset: 0x30, size: 0x8, def value: None
-  ::StringW ___id;
+/// @brief Field rawData, offset: 0x28, size: 0x8, def value: None
+ ::ArrayW<uint8_t,::Array<uint8_t>*>  ___rawData;
 
-  /// @brief Field timeZoneDirectory, offset: 0x38, size: 0x8, def value: None
-  ::StringW ___timeZoneDirectory;
+/// @brief Field id, offset: 0x30, size: 0x8, def value: None
+ ::StringW  ___id;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field timeZoneDirectory, offset: 0x38, size: 0x8, def value: None
+ ::StringW  ___timeZoneDirectory;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::TimeZoneInfo___c__DisplayClass16_0, ___localtimeFilePath) == 0x10, "Offset mismatch!");
@@ -859,614 +851,591 @@ static_assert(offsetof(::System::TimeZoneInfo___c__DisplayClass16_0, ___timeZone
 
 static_assert(::cordl_internals::size_check_v<::System::TimeZoneInfo___c__DisplayClass16_0, 0x40>, "Size mismatch!");
 
-} // namespace System
+} // namespace end def System
 // Dependencies System.Object
 namespace System {
 // Is value type: false
 // CS Name: System.TimeZoneInfo/<>c
 class CORDL_TYPE TimeZoneInfo___c : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field <>9, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::System::TimeZoneInfo___c* __9;
+// Declarations
+/// @brief Field <>9, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF___9, put=setStaticF___9)) ::System::TimeZoneInfo___c*  __9;
 
-  /// @brief Field <>9__161_0, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9__161_0, put = setStaticF___9__161_0)) ::System::Comparison_1<::System::TimeZoneInfo_AdjustmentRule*>* __9__161_0;
+/// @brief Field <>9__161_0, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF___9__161_0, put=setStaticF___9__161_0)) ::System::Comparison_1<::System::TimeZoneInfo_AdjustmentRule*>*  __9__161_0;
 
-  /// @brief Field <>9__34_0, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9__34_0, put = setStaticF___9__34_0)) ::System::Func_2<char16_t, bool>* __9__34_0;
+/// @brief Field <>9__34_0, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF___9__34_0, put=setStaticF___9__34_0)) ::System::Func_2<char16_t,bool>*  __9__34_0;
 
-  /// @brief Field <>9__34_1, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9__34_1, put = setStaticF___9__34_1)) ::System::Func_2<char16_t, bool>* __9__34_1;
+/// @brief Field <>9__34_1, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF___9__34_1, put=setStaticF___9__34_1)) ::System::Func_2<char16_t,bool>*  __9__34_1;
 
-  /// @brief Field <>9__35_0, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9__35_0, put = setStaticF___9__35_0)) ::System::Func_2<char16_t, bool>* __9__35_0;
+/// @brief Field <>9__35_0, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF___9__35_0, put=setStaticF___9__35_0)) ::System::Func_2<char16_t,bool>*  __9__35_0;
 
-  /// @brief Field <>9__37_0, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9__37_0, put = setStaticF___9__37_0)) ::System::Func_2<char16_t, bool>* __9__37_0;
+/// @brief Field <>9__37_0, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF___9__37_0, put=setStaticF___9__37_0)) ::System::Func_2<char16_t,bool>*  __9__37_0;
 
-  /// @brief Field <>9__38_0, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9__38_0, put = setStaticF___9__38_0)) ::System::Func_2<char16_t, bool>* __9__38_0;
+/// @brief Field <>9__38_0, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF___9__38_0, put=setStaticF___9__38_0)) ::System::Func_2<char16_t,bool>*  __9__38_0;
 
-  static inline ::System::TimeZoneInfo___c* New_ctor();
+static inline ::System::TimeZoneInfo___c* New_ctor() ;
 
-  /// @brief Method <CreateLocalUnity>b__161_0, addr 0x59fccd8, size 0x88, virtual false, abstract: false, final false
-  inline int32_t _CreateLocalUnity_b__161_0(::System::TimeZoneInfo_AdjustmentRule* rule1, ::System::TimeZoneInfo_AdjustmentRule* rule2);
+/// @brief Method <CreateLocalUnity>b__161_0, addr 0x59fd1e4, size 0x88, virtual false, abstract: false, final false
+inline int32_t _CreateLocalUnity_b__161_0(::System::TimeZoneInfo_AdjustmentRule*  rule1, ::System::TimeZoneInfo_AdjustmentRule*  rule2) ;
 
-  /// @brief Method <TZif_ParsePosixDate>b__37_0, addr 0x59fccb0, size 0x18, virtual false, abstract: false, final false
-  inline bool _TZif_ParsePosixDate_b__37_0(char16_t c);
+/// @brief Method <TZif_ParsePosixDate>b__37_0, addr 0x59fd1bc, size 0x18, virtual false, abstract: false, final false
+inline bool _TZif_ParsePosixDate_b__37_0(char16_t  c) ;
 
-  /// @brief Method <TZif_ParsePosixName>b__34_0, addr 0x59fcbac, size 0x44, virtual false, abstract: false, final false
-  inline bool _TZif_ParsePosixName_b__34_0(char16_t c);
+/// @brief Method <TZif_ParsePosixName>b__34_0, addr 0x59fd0b8, size 0x44, virtual false, abstract: false, final false
+inline bool _TZif_ParsePosixName_b__34_0(char16_t  c) ;
 
-  /// @brief Method <TZif_ParsePosixName>b__34_1, addr 0x59fcb9c, size 0x10, virtual false, abstract: false, final false
-  inline bool _TZif_ParsePosixName_b__34_1(char16_t c);
+/// @brief Method <TZif_ParsePosixName>b__34_1, addr 0x59fd0a8, size 0x10, virtual false, abstract: false, final false
+inline bool _TZif_ParsePosixName_b__34_1(char16_t  c) ;
 
-  /// @brief Method <TZif_ParsePosixOffset>b__35_0, addr 0x59fcc54, size 0x5c, virtual false, abstract: false, final false
-  inline bool _TZif_ParsePosixOffset_b__35_0(char16_t c);
+/// @brief Method <TZif_ParsePosixOffset>b__35_0, addr 0x59fd160, size 0x5c, virtual false, abstract: false, final false
+inline bool _TZif_ParsePosixOffset_b__35_0(char16_t  c) ;
 
-  /// @brief Method <TZif_ParsePosixTime>b__38_0, addr 0x59fccc8, size 0x10, virtual false, abstract: false, final false
-  inline bool _TZif_ParsePosixTime_b__38_0(char16_t c);
+/// @brief Method <TZif_ParsePosixTime>b__38_0, addr 0x59fd1d4, size 0x10, virtual false, abstract: false, final false
+inline bool _TZif_ParsePosixTime_b__38_0(char16_t  c) ;
 
-  /// @brief Method .ctor, addr 0x59fcb98, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x59fd0a4, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  static inline ::System::TimeZoneInfo___c* getStaticF___9();
+static inline ::System::TimeZoneInfo___c* getStaticF___9() ;
 
-  static inline ::System::Comparison_1<::System::TimeZoneInfo_AdjustmentRule*>* getStaticF___9__161_0();
+static inline ::System::Comparison_1<::System::TimeZoneInfo_AdjustmentRule*>* getStaticF___9__161_0() ;
 
-  static inline ::System::Func_2<char16_t, bool>* getStaticF___9__34_0();
+static inline ::System::Func_2<char16_t,bool>* getStaticF___9__34_0() ;
 
-  static inline ::System::Func_2<char16_t, bool>* getStaticF___9__34_1();
+static inline ::System::Func_2<char16_t,bool>* getStaticF___9__34_1() ;
 
-  static inline ::System::Func_2<char16_t, bool>* getStaticF___9__35_0();
+static inline ::System::Func_2<char16_t,bool>* getStaticF___9__35_0() ;
 
-  static inline ::System::Func_2<char16_t, bool>* getStaticF___9__37_0();
+static inline ::System::Func_2<char16_t,bool>* getStaticF___9__37_0() ;
 
-  static inline ::System::Func_2<char16_t, bool>* getStaticF___9__38_0();
+static inline ::System::Func_2<char16_t,bool>* getStaticF___9__38_0() ;
 
-  static inline void setStaticF___9(::System::TimeZoneInfo___c* value);
+static inline void setStaticF___9(::System::TimeZoneInfo___c*  value) ;
 
-  static inline void setStaticF___9__161_0(::System::Comparison_1<::System::TimeZoneInfo_AdjustmentRule*>* value);
+static inline void setStaticF___9__161_0(::System::Comparison_1<::System::TimeZoneInfo_AdjustmentRule*>*  value) ;
 
-  static inline void setStaticF___9__34_0(::System::Func_2<char16_t, bool>* value);
+static inline void setStaticF___9__34_0(::System::Func_2<char16_t,bool>*  value) ;
 
-  static inline void setStaticF___9__34_1(::System::Func_2<char16_t, bool>* value);
+static inline void setStaticF___9__34_1(::System::Func_2<char16_t,bool>*  value) ;
 
-  static inline void setStaticF___9__35_0(::System::Func_2<char16_t, bool>* value);
+static inline void setStaticF___9__35_0(::System::Func_2<char16_t,bool>*  value) ;
 
-  static inline void setStaticF___9__37_0(::System::Func_2<char16_t, bool>* value);
+static inline void setStaticF___9__37_0(::System::Func_2<char16_t,bool>*  value) ;
 
-  static inline void setStaticF___9__38_0(::System::Func_2<char16_t, bool>* value);
+static inline void setStaticF___9__38_0(::System::Func_2<char16_t,bool>*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TimeZoneInfo___c();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr TimeZoneInfo___c() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TimeZoneInfo___c", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  TimeZoneInfo___c(TimeZoneInfo___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TimeZoneInfo___c", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  TimeZoneInfo___c(TimeZoneInfo___c const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "TimeZoneInfo___c", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+TimeZoneInfo___c(TimeZoneInfo___c && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2320 };
+// Ctor Parameters [CppParam { name: "", ty: "TimeZoneInfo___c", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+TimeZoneInfo___c(TimeZoneInfo___c const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{2320};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::TimeZoneInfo___c, 0x10>, "Size mismatch!");
 
-} // namespace System
+} // namespace end def System
 // Dependencies System.DateTime, System.Object, System.TimeSpan
 namespace System {
 // Is value type: false
 // CS Name: System.TimeZoneInfo
 class CORDL_TYPE TimeZoneInfo : public ::System::Object {
 public:
-  // Declarations
-  using AdjustmentRule = ::System::TimeZoneInfo_AdjustmentRule;
+// Declarations
+using AdjustmentRule = ::System::TimeZoneInfo_AdjustmentRule;
 
-  using CachedData = ::System::TimeZoneInfo_CachedData;
+using CachedData = ::System::TimeZoneInfo_CachedData;
 
-  using TZVersion = ::System::TimeZoneInfo_TZVersion;
+using TZVersion = ::System::TimeZoneInfo_TZVersion;
 
-  using TZifHead = ::System::TimeZoneInfo_TZifHead;
+using TZifHead = ::System::TimeZoneInfo_TZifHead;
 
-  using TZifType = ::System::TimeZoneInfo_TZifType;
+using TZifType = ::System::TimeZoneInfo_TZifType;
 
-  using TransitionTime = ::System::TimeZoneInfo_TransitionTime;
+using TransitionTime = ::System::TimeZoneInfo_TransitionTime;
 
-  using __c = ::System::TimeZoneInfo___c;
+using __c = ::System::TimeZoneInfo___c;
 
-  using __c__DisplayClass16_0 = ::System::TimeZoneInfo___c__DisplayClass16_0;
+using __c__DisplayClass16_0 = ::System::TimeZoneInfo___c__DisplayClass16_0;
 
-  __declspec(property(get = get_BaseUtcOffset)) ::System::TimeSpan BaseUtcOffset;
+ __declspec(property(get=get_BaseUtcOffset)) ::System::TimeSpan  BaseUtcOffset;
 
-  __declspec(property(get = get_DaylightName)) ::StringW DaylightName;
+ __declspec(property(get=get_DaylightName)) ::StringW  DaylightName;
 
-  __declspec(property(get = get_DisplayName)) ::StringW DisplayName;
+ __declspec(property(get=get_DisplayName)) ::StringW  DisplayName;
 
-  /// @brief Field MaxOffset, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_MaxOffset, put = setStaticF_MaxOffset)) ::System::TimeSpan MaxOffset;
+/// @brief Field MaxOffset, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_MaxOffset, put=setStaticF_MaxOffset)) ::System::TimeSpan  MaxOffset;
 
-  /// @brief Field MinOffset, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_MinOffset, put = setStaticF_MinOffset)) ::System::TimeSpan MinOffset;
+/// @brief Field MinOffset, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_MinOffset, put=setStaticF_MinOffset)) ::System::TimeSpan  MinOffset;
 
-  __declspec(property(get = get_StandardName)) ::StringW StandardName;
+ __declspec(property(get=get_StandardName)) ::StringW  StandardName;
 
-  __declspec(property(get = get_SupportsDaylightSavingTime)) bool SupportsDaylightSavingTime;
+ __declspec(property(get=get_SupportsDaylightSavingTime)) bool  SupportsDaylightSavingTime;
 
-  /// @brief Field _adjustmentRules, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__adjustmentRules,
-                      put = __cordl_internal_set__adjustmentRules)) ::ArrayW<::System::TimeZoneInfo_AdjustmentRule*, ::Array<::System::TimeZoneInfo_AdjustmentRule*>*>
-      _adjustmentRules;
+/// @brief Field _adjustmentRules, offset 0x40, size 0x8 
+ __declspec(property(get=__cordl_internal_get__adjustmentRules, put=__cordl_internal_set__adjustmentRules)) ::ArrayW<::System::TimeZoneInfo_AdjustmentRule*,::Array<::System::TimeZoneInfo_AdjustmentRule*>*>  _adjustmentRules;
 
-  /// @brief Field _baseUtcOffset, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__baseUtcOffset, put = __cordl_internal_set__baseUtcOffset)) ::System::TimeSpan _baseUtcOffset;
+/// @brief Field _baseUtcOffset, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get__baseUtcOffset, put=__cordl_internal_set__baseUtcOffset)) ::System::TimeSpan  _baseUtcOffset;
 
-  /// @brief Field _daylightDisplayName, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__daylightDisplayName, put = __cordl_internal_set__daylightDisplayName)) ::StringW _daylightDisplayName;
+/// @brief Field _daylightDisplayName, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get__daylightDisplayName, put=__cordl_internal_set__daylightDisplayName)) ::StringW  _daylightDisplayName;
 
-  /// @brief Field _displayName, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__displayName, put = __cordl_internal_set__displayName)) ::StringW _displayName;
+/// @brief Field _displayName, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get__displayName, put=__cordl_internal_set__displayName)) ::StringW  _displayName;
 
-  /// @brief Field _id, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__id, put = __cordl_internal_set__id)) ::StringW _id;
+/// @brief Field _id, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get__id, put=__cordl_internal_set__id)) ::StringW  _id;
 
-  /// @brief Field _standardDisplayName, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__standardDisplayName, put = __cordl_internal_set__standardDisplayName)) ::StringW _standardDisplayName;
+/// @brief Field _standardDisplayName, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get__standardDisplayName, put=__cordl_internal_set__standardDisplayName)) ::StringW  _standardDisplayName;
 
-  /// @brief Field _supportsDaylightSavingTime, offset 0x38, size 0x1
-  __declspec(property(get = __cordl_internal_get__supportsDaylightSavingTime, put = __cordl_internal_set__supportsDaylightSavingTime)) bool _supportsDaylightSavingTime;
+/// @brief Field _supportsDaylightSavingTime, offset 0x38, size 0x1 
+ __declspec(property(get=__cordl_internal_get__supportsDaylightSavingTime, put=__cordl_internal_set__supportsDaylightSavingTime)) bool  _supportsDaylightSavingTime;
 
-  /// @brief Field s_cachedData, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_s_cachedData, put = setStaticF_s_cachedData)) ::System::TimeZoneInfo_CachedData* s_cachedData;
+/// @brief Field s_cachedData, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_s_cachedData, put=setStaticF_s_cachedData)) ::System::TimeZoneInfo_CachedData*  s_cachedData;
 
-  /// @brief Field s_maxDateOnly, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_s_maxDateOnly, put = setStaticF_s_maxDateOnly)) ::System::DateTime s_maxDateOnly;
+/// @brief Field s_maxDateOnly, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_s_maxDateOnly, put=setStaticF_s_maxDateOnly)) ::System::DateTime  s_maxDateOnly;
 
-  /// @brief Field s_minDateOnly, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_s_minDateOnly, put = setStaticF_s_minDateOnly)) ::System::DateTime s_minDateOnly;
+/// @brief Field s_minDateOnly, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_s_minDateOnly, put=setStaticF_s_minDateOnly)) ::System::DateTime  s_minDateOnly;
 
-  /// @brief Field s_utcTimeZone, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_s_utcTimeZone, put = setStaticF_s_utcTimeZone)) ::System::TimeZoneInfo* s_utcTimeZone;
+/// @brief Field s_utcTimeZone, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_s_utcTimeZone, put=setStaticF_s_utcTimeZone)) ::System::TimeZoneInfo*  s_utcTimeZone;
 
-  /// @brief Convert operator to "::System::IEquatable_1<::System::TimeZoneInfo*>"
-  constexpr operator ::System::IEquatable_1<::System::TimeZoneInfo*>*() noexcept;
+/// @brief Convert operator to "::System::IEquatable_1<::System::TimeZoneInfo*>"
+constexpr operator  ::System::IEquatable_1<::System::TimeZoneInfo*>*() noexcept;
 
-  /// @brief Convert operator to "::System::Runtime::Serialization::IDeserializationCallback"
-  constexpr operator ::System::Runtime::Serialization::IDeserializationCallback*() noexcept;
+/// @brief Convert operator to "::System::Runtime::Serialization::IDeserializationCallback"
+constexpr operator  ::System::Runtime::Serialization::IDeserializationCallback*() noexcept;
 
-  /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
-  constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
+/// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
+constexpr operator  ::System::Runtime::Serialization::ISerializable*() noexcept;
 
-  /// @brief Method CheckIsDst, addr 0x59f94b4, size 0x250, virtual false, abstract: false, final false
-  static inline bool CheckIsDst(::System::DateTime startTime, ::System::DateTime time, ::System::DateTime endTime, bool ignoreYearAdjustment, ::System::TimeZoneInfo_AdjustmentRule* rule);
+/// @brief Method CheckIsDst, addr 0x59f99c0, size 0x250, virtual false, abstract: false, final false
+static inline bool CheckIsDst(::System::DateTime  startTime, ::System::DateTime  time, ::System::DateTime  endTime, bool  ignoreYearAdjustment, ::System::TimeZoneInfo_AdjustmentRule*  rule) ;
 
-  /// @brief Method CompareAdjustmentRuleToDateTime, addr 0x59f8ba4, size 0x1b0, virtual false, abstract: false, final false
-  inline int32_t CompareAdjustmentRuleToDateTime(::System::TimeZoneInfo_AdjustmentRule* rule, ::System::TimeZoneInfo_AdjustmentRule* previousRule, ::System::DateTime dateTime,
-                                                 ::System::DateTime dateOnly, bool dateTimeisUtc);
+/// @brief Method CompareAdjustmentRuleToDateTime, addr 0x59f90b0, size 0x1b0, virtual false, abstract: false, final false
+inline int32_t CompareAdjustmentRuleToDateTime(::System::TimeZoneInfo_AdjustmentRule*  rule, ::System::TimeZoneInfo_AdjustmentRule*  previousRule, ::System::DateTime  dateTime, ::System::DateTime  dateOnly, bool  dateTimeisUtc) ;
 
-  /// @brief Method CompareTimeZoneFile, addr 0x59f2a48, size 0x39c, virtual false, abstract: false, final false
-  static inline bool CompareTimeZoneFile(::StringW filePath, ::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, ::ArrayW<uint8_t, ::Array<uint8_t>*> rawData);
+/// @brief Method CompareTimeZoneFile, addr 0x59f2f54, size 0x39c, virtual false, abstract: false, final false
+static inline bool CompareTimeZoneFile(::StringW  filePath, ::ArrayW<uint8_t,::Array<uint8_t>*>  buffer, ::ArrayW<uint8_t,::Array<uint8_t>*>  rawData) ;
 
-  /// @brief Method ConvertFromUtc, addr 0x59f8f10, size 0x8, virtual false, abstract: false, final false
-  inline ::System::DateTime ConvertFromUtc(::System::DateTime dateTime, ::System::TimeSpan daylightDelta, ::System::TimeSpan baseUtcOffsetDelta);
+/// @brief Method ConvertFromUtc, addr 0x59f941c, size 0x8, virtual false, abstract: false, final false
+inline ::System::DateTime ConvertFromUtc(::System::DateTime  dateTime, ::System::TimeSpan  daylightDelta, ::System::TimeSpan  baseUtcOffsetDelta) ;
 
-  /// @brief Method ConvertTime, addr 0x59f665c, size 0x8c, virtual false, abstract: false, final false
-  static inline ::System::DateTime ConvertTime(::System::DateTime dateTime, ::System::TimeZoneInfo* sourceTimeZone, ::System::TimeZoneInfo* destinationTimeZone, ::System::TimeZoneInfoOptions flags);
+/// @brief Method ConvertTime, addr 0x59f6b68, size 0x8c, virtual false, abstract: false, final false
+static inline ::System::DateTime ConvertTime(::System::DateTime  dateTime, ::System::TimeZoneInfo*  sourceTimeZone, ::System::TimeZoneInfo*  destinationTimeZone, ::System::TimeZoneInfoOptions  flags) ;
 
-  /// @brief Method ConvertTime, addr 0x59f68f8, size 0x458, virtual false, abstract: false, final false
-  static inline ::System::DateTime ConvertTime(::System::DateTime dateTime, ::System::TimeZoneInfo* sourceTimeZone, ::System::TimeZoneInfo* destinationTimeZone, ::System::TimeZoneInfoOptions flags,
-                                               ::System::TimeZoneInfo_CachedData* cachedData);
+/// @brief Method ConvertTime, addr 0x59f6e04, size 0x458, virtual false, abstract: false, final false
+static inline ::System::DateTime ConvertTime(::System::DateTime  dateTime, ::System::TimeZoneInfo*  sourceTimeZone, ::System::TimeZoneInfo*  destinationTimeZone, ::System::TimeZoneInfoOptions  flags, ::System::TimeZoneInfo_CachedData*  cachedData) ;
 
-  /// @brief Method ConvertTimeToUtc, addr 0x59f7a24, size 0xf8, virtual false, abstract: false, final false
-  static inline ::System::DateTime ConvertTimeToUtc(::System::DateTime dateTime, ::System::TimeZoneInfoOptions flags);
+/// @brief Method ConvertTimeToUtc, addr 0x59f7f30, size 0xf8, virtual false, abstract: false, final false
+static inline ::System::DateTime ConvertTimeToUtc(::System::DateTime  dateTime, ::System::TimeZoneInfoOptions  flags) ;
 
-  /// @brief Method ConvertToFromUtc, addr 0x59f8d5c, size 0x1b4, virtual false, abstract: false, final false
-  inline ::System::DateTime ConvertToFromUtc(::System::DateTime dateTime, ::System::TimeSpan daylightDelta, ::System::TimeSpan baseUtcOffsetDelta, bool convertToUtc);
+/// @brief Method ConvertToFromUtc, addr 0x59f9268, size 0x1b4, virtual false, abstract: false, final false
+inline ::System::DateTime ConvertToFromUtc(::System::DateTime  dateTime, ::System::TimeSpan  daylightDelta, ::System::TimeSpan  baseUtcOffsetDelta, bool  convertToUtc) ;
 
-  /// @brief Method ConvertToUtc, addr 0x59f8d54, size 0x8, virtual false, abstract: false, final false
-  inline ::System::DateTime ConvertToUtc(::System::DateTime dateTime, ::System::TimeSpan daylightDelta, ::System::TimeSpan baseUtcOffsetDelta);
+/// @brief Method ConvertToUtc, addr 0x59f9260, size 0x8, virtual false, abstract: false, final false
+inline ::System::DateTime ConvertToUtc(::System::DateTime  dateTime, ::System::TimeSpan  daylightDelta, ::System::TimeSpan  baseUtcOffsetDelta) ;
 
-  /// @brief Method ConvertUtcToTimeZone, addr 0x59f7800, size 0x224, virtual false, abstract: false, final false
-  static inline ::System::DateTime ConvertUtcToTimeZone(int64_t ticks, ::System::TimeZoneInfo* destinationTimeZone, ::ByRef<bool> isAmbiguousLocalDst);
+/// @brief Method ConvertUtcToTimeZone, addr 0x59f7d0c, size 0x224, virtual false, abstract: false, final false
+static inline ::System::DateTime ConvertUtcToTimeZone(int64_t  ticks, ::System::TimeZoneInfo*  destinationTimeZone, ::ByRef<bool>  isAmbiguousLocalDst) ;
 
-  /// @brief Method CreateAdjustmentRule, addr 0x59fa5c0, size 0x87c, virtual false, abstract: false, final false
-  static inline ::System::Collections::Generic::List_1<::System::TimeZoneInfo_AdjustmentRule*>* CreateAdjustmentRule(int32_t year, ::ByRef<::ArrayW<int64_t, ::Array<int64_t>*>> data,
-                                                                                                                     ::ByRef<::ArrayW<::StringW, ::Array<::StringW>*>> names);
+/// @brief Method CreateAdjustmentRule, addr 0x59faacc, size 0x87c, virtual false, abstract: false, final false
+static inline ::System::Collections::Generic::List_1<::System::TimeZoneInfo_AdjustmentRule*>* CreateAdjustmentRule(int32_t  year, ::ByRef<::ArrayW<int64_t,::Array<int64_t>*>>  data, ::ByRef<::ArrayW<::StringW,::Array<::StringW>*>>  names) ;
 
-  /// @brief Method CreateCustomTimeZone, addr 0x59f80a8, size 0x98, virtual false, abstract: false, final false
-  static inline ::System::TimeZoneInfo* CreateCustomTimeZone(::StringW id, ::System::TimeSpan baseUtcOffset, ::StringW displayName, ::StringW standardDisplayName);
+/// @brief Method CreateCustomTimeZone, addr 0x59f85b4, size 0x98, virtual false, abstract: false, final false
+static inline ::System::TimeZoneInfo* CreateCustomTimeZone(::StringW  id, ::System::TimeSpan  baseUtcOffset, ::StringW  displayName, ::StringW  standardDisplayName) ;
 
-  /// @brief Method CreateCustomTimeZone, addr 0x59f8140, size 0x108, virtual false, abstract: false, final false
-  static inline ::System::TimeZoneInfo* CreateCustomTimeZone(::StringW id, ::System::TimeSpan baseUtcOffset, ::StringW displayName, ::StringW standardDisplayName, ::StringW daylightDisplayName,
-                                                             ::ArrayW<::System::TimeZoneInfo_AdjustmentRule*, ::Array<::System::TimeZoneInfo_AdjustmentRule*>*> adjustmentRules,
-                                                             bool disableDaylightSavingTime);
+/// @brief Method CreateCustomTimeZone, addr 0x59f864c, size 0x108, virtual false, abstract: false, final false
+static inline ::System::TimeZoneInfo* CreateCustomTimeZone(::StringW  id, ::System::TimeSpan  baseUtcOffset, ::StringW  displayName, ::StringW  standardDisplayName, ::StringW  daylightDisplayName, ::ArrayW<::System::TimeZoneInfo_AdjustmentRule*,::Array<::System::TimeZoneInfo_AdjustmentRule*>*>  adjustmentRules, bool  disableDaylightSavingTime) ;
 
-  /// @brief Method CreateLocalUnity, addr 0x59f2fa0, size 0x4e8, virtual false, abstract: false, final false
-  static inline ::System::TimeZoneInfo* CreateLocalUnity();
+/// @brief Method CreateLocalUnity, addr 0x59f34ac, size 0x4e8, virtual false, abstract: false, final false
+static inline ::System::TimeZoneInfo* CreateLocalUnity() ;
 
-  /// @brief Method EnumerateFilesRecursively, addr 0x59f24a4, size 0x5a0, virtual false, abstract: false, final false
-  static inline void EnumerateFilesRecursively(::StringW path, ::System::Predicate_1<::StringW>* condition);
+/// @brief Method EnumerateFilesRecursively, addr 0x59f29b0, size 0x5a0, virtual false, abstract: false, final false
+static inline void EnumerateFilesRecursively(::StringW  path, ::System::Predicate_1<::StringW>*  condition) ;
 
-  /// @brief Method Equals, addr 0x59f7cdc, size 0x70, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* obj);
+/// @brief Method Equals, addr 0x59f81e8, size 0x70, virtual true, abstract: false, final false
+inline bool Equals(::System::Object*  obj) ;
 
-  /// @brief Method Equals, addr 0x59f7b1c, size 0x50, virtual true, abstract: false, final true
-  inline bool Equals(::System::TimeZoneInfo* other);
+/// @brief Method Equals, addr 0x59f8028, size 0x50, virtual true, abstract: false, final true
+inline bool Equals(::System::TimeZoneInfo*  other) ;
 
-  /// @brief Method FindTimeZoneId, addr 0x59f2090, size 0x294, virtual false, abstract: false, final false
-  static inline ::StringW FindTimeZoneId(::ArrayW<uint8_t, ::Array<uint8_t>*> rawData);
+/// @brief Method FindTimeZoneId, addr 0x59f259c, size 0x294, virtual false, abstract: false, final false
+static inline ::StringW FindTimeZoneId(::ArrayW<uint8_t,::Array<uint8_t>*>  rawData) ;
 
-  /// @brief Method FindTimeZoneIdUsingReadLink, addr 0x59f1f74, size 0x11c, virtual false, abstract: false, final false
-  static inline ::StringW FindTimeZoneIdUsingReadLink(::StringW tzFilePath);
+/// @brief Method FindTimeZoneIdUsingReadLink, addr 0x59f2480, size 0x11c, virtual false, abstract: false, final false
+static inline ::StringW FindTimeZoneIdUsingReadLink(::StringW  tzFilePath) ;
 
-  /// @brief Method GetAdjustmentRuleForTime, addr 0x59f89f0, size 0x1b4, virtual false, abstract: false, final false
-  inline ::System::TimeZoneInfo_AdjustmentRule* GetAdjustmentRuleForTime(::System::DateTime dateTime, bool dateTimeisUtc, ::ByRef<::System::Nullable_1<int32_t>> ruleIndex);
+/// @brief Method GetAdjustmentRuleForTime, addr 0x59f8efc, size 0x1b4, virtual false, abstract: false, final false
+inline ::System::TimeZoneInfo_AdjustmentRule* GetAdjustmentRuleForTime(::System::DateTime  dateTime, bool  dateTimeisUtc, ::ByRef<::System::Nullable_1<int32_t>>  ruleIndex) ;
 
-  /// @brief Method GetAdjustmentRuleForTime, addr 0x59f6df4, size 0xc, virtual false, abstract: false, final false
-  inline ::System::TimeZoneInfo_AdjustmentRule* GetAdjustmentRuleForTime(::System::DateTime dateTime, ::ByRef<::System::Nullable_1<int32_t>> ruleIndex);
+/// @brief Method GetAdjustmentRuleForTime, addr 0x59f7300, size 0xc, virtual false, abstract: false, final false
+inline ::System::TimeZoneInfo_AdjustmentRule* GetAdjustmentRuleForTime(::System::DateTime  dateTime, ::ByRef<::System::Nullable_1<int32_t>>  ruleIndex) ;
 
-  /// @brief Method GetAdjustmentRules, addr 0x59f1294, size 0x46c, virtual false, abstract: false, final false
-  inline ::ArrayW<::System::TimeZoneInfo_AdjustmentRule*, ::Array<::System::TimeZoneInfo_AdjustmentRule*>*> GetAdjustmentRules();
+/// @brief Method GetAdjustmentRules, addr 0x59f17a0, size 0x46c, virtual false, abstract: false, final false
+inline ::ArrayW<::System::TimeZoneInfo_AdjustmentRule*,::Array<::System::TimeZoneInfo_AdjustmentRule*>*> GetAdjustmentRules() ;
 
-  /// @brief Method GetDateTimeNowUtcOffsetFromUtc, addr 0x59f34c4, size 0x78, virtual false, abstract: false, final false
-  static inline ::System::TimeSpan GetDateTimeNowUtcOffsetFromUtc(::System::DateTime time, ::ByRef<bool> isAmbiguousLocalDst);
+/// @brief Method GetDateTimeNowUtcOffsetFromUtc, addr 0x59f39d0, size 0x78, virtual false, abstract: false, final false
+static inline ::System::TimeSpan GetDateTimeNowUtcOffsetFromUtc(::System::DateTime  time, ::ByRef<bool>  isAmbiguousLocalDst) ;
 
-  /// @brief Method GetDaylightSavingsEndOffsetFromUtc, addr 0x59f9b8c, size 0x84, virtual false, abstract: false, final false
-  inline ::System::TimeSpan GetDaylightSavingsEndOffsetFromUtc(::System::TimeSpan baseUtcOffset, ::System::TimeZoneInfo_AdjustmentRule* rule);
+/// @brief Method GetDaylightSavingsEndOffsetFromUtc, addr 0x59fa098, size 0x84, virtual false, abstract: false, final false
+inline ::System::TimeSpan GetDaylightSavingsEndOffsetFromUtc(::System::TimeSpan  baseUtcOffset, ::System::TimeZoneInfo_AdjustmentRule*  rule) ;
 
-  /// @brief Method GetDaylightSavingsStartOffsetFromUtc, addr 0x59f9ab4, size 0xd8, virtual false, abstract: false, final false
-  inline ::System::TimeSpan GetDaylightSavingsStartOffsetFromUtc(::System::TimeSpan baseUtcOffset, ::System::TimeZoneInfo_AdjustmentRule* rule, ::System::Nullable_1<int32_t> ruleIndex);
+/// @brief Method GetDaylightSavingsStartOffsetFromUtc, addr 0x59f9fc0, size 0xd8, virtual false, abstract: false, final false
+inline ::System::TimeSpan GetDaylightSavingsStartOffsetFromUtc(::System::TimeSpan  baseUtcOffset, ::System::TimeZoneInfo_AdjustmentRule*  rule, ::System::Nullable_1<int32_t>  ruleIndex) ;
 
-  /// @brief Method GetDaylightTime, addr 0x59f6f60, size 0x11c, virtual false, abstract: false, final false
-  inline ::System::Globalization::DaylightTimeStruct GetDaylightTime(int32_t year, ::System::TimeZoneInfo_AdjustmentRule* rule, ::System::Nullable_1<int32_t> ruleIndex);
+/// @brief Method GetDaylightTime, addr 0x59f746c, size 0x11c, virtual false, abstract: false, final false
+inline ::System::Globalization::DaylightTimeStruct GetDaylightTime(int32_t  year, ::System::TimeZoneInfo_AdjustmentRule*  rule, ::System::Nullable_1<int32_t>  ruleIndex) ;
 
-  /// @brief Method GetDirectoryEntryFullPath, addr 0x59f2324, size 0x180, virtual false, abstract: false, final false
-  static inline ::StringW GetDirectoryEntryFullPath(::ByRef<::GlobalNamespace::Sys_Interop_DirectoryEntry> dirent, ::StringW currentPath);
+/// @brief Method GetDirectoryEntryFullPath, addr 0x59f2830, size 0x180, virtual false, abstract: false, final false
+static inline ::StringW GetDirectoryEntryFullPath(::ByRef<::GlobalNamespace::Sys_Interop_DirectoryEntry>  dirent, ::StringW  currentPath) ;
 
-  /// @brief Method GetHashCode, addr 0x59f7d4c, size 0xb4, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
+/// @brief Method GetHashCode, addr 0x59f8258, size 0xb4, virtual true, abstract: false, final false
+inline int32_t GetHashCode() ;
 
-  /// @brief Method GetIsAmbiguousTime, addr 0x59f9704, size 0x3b0, virtual false, abstract: false, final false
-  static inline bool GetIsAmbiguousTime(::System::DateTime time, ::System::TimeZoneInfo_AdjustmentRule* rule, ::System::Globalization::DaylightTimeStruct daylightTime);
+/// @brief Method GetIsAmbiguousTime, addr 0x59f9c10, size 0x3b0, virtual false, abstract: false, final false
+static inline bool GetIsAmbiguousTime(::System::DateTime  time, ::System::TimeZoneInfo_AdjustmentRule*  rule, ::System::Globalization::DaylightTimeStruct  daylightTime) ;
 
-  /// @brief Method GetIsDaylightSavings, addr 0x59f7434, size 0x3cc, virtual false, abstract: false, final false
-  static inline bool GetIsDaylightSavings(::System::DateTime time, ::System::TimeZoneInfo_AdjustmentRule* rule, ::System::Globalization::DaylightTimeStruct daylightTime,
-                                          ::System::TimeZoneInfoOptions flags);
+/// @brief Method GetIsDaylightSavings, addr 0x59f7940, size 0x3cc, virtual false, abstract: false, final false
+static inline bool GetIsDaylightSavings(::System::DateTime  time, ::System::TimeZoneInfo_AdjustmentRule*  rule, ::System::Globalization::DaylightTimeStruct  daylightTime, ::System::TimeZoneInfoOptions  flags) ;
 
-  /// @brief Method GetIsDaylightSavingsFromUtc, addr 0x59f9c10, size 0x7bc, virtual false, abstract: false, final false
-  static inline bool GetIsDaylightSavingsFromUtc(::System::DateTime time, int32_t year, ::System::TimeSpan utc, ::System::TimeZoneInfo_AdjustmentRule* rule, ::System::Nullable_1<int32_t> ruleIndex,
-                                                 ::ByRef<bool> isAmbiguousLocalDst, ::System::TimeZoneInfo* zone);
+/// @brief Method GetIsDaylightSavingsFromUtc, addr 0x59fa11c, size 0x7bc, virtual false, abstract: false, final false
+static inline bool GetIsDaylightSavingsFromUtc(::System::DateTime  time, int32_t  year, ::System::TimeSpan  utc, ::System::TimeZoneInfo_AdjustmentRule*  rule, ::System::Nullable_1<int32_t>  ruleIndex, ::ByRef<bool>  isAmbiguousLocalDst, ::System::TimeZoneInfo*  zone) ;
 
-  /// @brief Method GetIsInvalidTime, addr 0x59f707c, size 0x3b8, virtual false, abstract: false, final false
-  static inline bool GetIsInvalidTime(::System::DateTime time, ::System::TimeZoneInfo_AdjustmentRule* rule, ::System::Globalization::DaylightTimeStruct daylightTime);
+/// @brief Method GetIsInvalidTime, addr 0x59f7588, size 0x3b8, virtual false, abstract: false, final false
+static inline bool GetIsInvalidTime(::System::DateTime  time, ::System::TimeZoneInfo_AdjustmentRule*  rule, ::System::Globalization::DaylightTimeStruct  daylightTime) ;
 
-  /// @brief Method GetLocalTimeZone, addr 0x59f1878, size 0x50, virtual false, abstract: false, final false
-  static inline ::System::TimeZoneInfo* GetLocalTimeZone(::System::TimeZoneInfo_CachedData* cachedData);
+/// @brief Method GetLocalTimeZone, addr 0x59f1d84, size 0x50, virtual false, abstract: false, final false
+static inline ::System::TimeZoneInfo* GetLocalTimeZone(::System::TimeZoneInfo_CachedData*  cachedData) ;
 
-  /// @brief Method GetLocalTimeZoneFromTzFile, addr 0x59f18c8, size 0x16c, virtual false, abstract: false, final false
-  static inline ::System::TimeZoneInfo* GetLocalTimeZoneFromTzFile();
+/// @brief Method GetLocalTimeZoneFromTzFile, addr 0x59f1dd4, size 0x16c, virtual false, abstract: false, final false
+static inline ::System::TimeZoneInfo* GetLocalTimeZoneFromTzFile() ;
 
-  /// @brief Method GetLocalUtcOffset, addr 0x59f64a0, size 0x98, virtual false, abstract: false, final false
-  static inline ::System::TimeSpan GetLocalUtcOffset(::System::DateTime dateTime, ::System::TimeZoneInfoOptions flags);
+/// @brief Method GetLocalUtcOffset, addr 0x59f69ac, size 0x98, virtual false, abstract: false, final false
+static inline ::System::TimeSpan GetLocalUtcOffset(::System::DateTime  dateTime, ::System::TimeZoneInfoOptions  flags) ;
 
-  /// @brief Method GetPreviousAdjustmentRule, addr 0x59f6178, size 0x104, virtual false, abstract: false, final false
-  inline ::System::TimeZoneInfo_AdjustmentRule* GetPreviousAdjustmentRule(::System::TimeZoneInfo_AdjustmentRule* rule, ::System::Nullable_1<int32_t> ruleIndex);
+/// @brief Method GetPreviousAdjustmentRule, addr 0x59f6684, size 0x104, virtual false, abstract: false, final false
+inline ::System::TimeZoneInfo_AdjustmentRule* GetPreviousAdjustmentRule(::System::TimeZoneInfo_AdjustmentRule*  rule, ::System::Nullable_1<int32_t>  ruleIndex) ;
 
-  /// @brief Method GetTimeZoneDirectory, addr 0x59f1e18, size 0x15c, virtual false, abstract: false, final false
-  static inline ::StringW GetTimeZoneDirectory();
+/// @brief Method GetTimeZoneDirectory, addr 0x59f2324, size 0x15c, virtual false, abstract: false, final false
+static inline ::StringW GetTimeZoneDirectory() ;
 
-  /// @brief Method GetTimeZoneDirectoryUnity, addr 0x59fa5ac, size 0x14, virtual false, abstract: false, final false
-  static inline ::StringW GetTimeZoneDirectoryUnity();
+/// @brief Method GetTimeZoneDirectoryUnity, addr 0x59faab8, size 0x14, virtual false, abstract: false, final false
+static inline ::StringW GetTimeZoneDirectoryUnity() ;
 
-  /// @brief Method GetTimeZoneFromTzData, addr 0x59f2de4, size 0x1bc, virtual false, abstract: false, final false
-  static inline ::System::TimeZoneInfo* GetTimeZoneFromTzData(::ArrayW<uint8_t, ::Array<uint8_t>*> rawData, ::StringW id);
+/// @brief Method GetTimeZoneFromTzData, addr 0x59f32f0, size 0x1bc, virtual false, abstract: false, final false
+static inline ::System::TimeZoneInfo* GetTimeZoneFromTzData(::ArrayW<uint8_t,::Array<uint8_t>*>  rawData, ::StringW  id) ;
 
-  /// @brief Method GetTzEnvironmentVariable, addr 0x59f1bfc, size 0x84, virtual false, abstract: false, final false
-  static inline ::StringW GetTzEnvironmentVariable();
+/// @brief Method GetTzEnvironmentVariable, addr 0x59f2108, size 0x84, virtual false, abstract: false, final false
+static inline ::StringW GetTzEnvironmentVariable() ;
 
-  /// @brief Method GetUtcOffset, addr 0x59fa4e0, size 0xcc, virtual false, abstract: false, final false
-  static inline ::System::TimeSpan GetUtcOffset(::System::TimeSpan baseUtcOffset, ::System::TimeZoneInfo_AdjustmentRule* adjustmentRule);
+/// @brief Method GetUtcOffset, addr 0x59fa9ec, size 0xcc, virtual false, abstract: false, final false
+static inline ::System::TimeSpan GetUtcOffset(::System::TimeSpan  baseUtcOffset, ::System::TimeZoneInfo_AdjustmentRule*  adjustmentRule) ;
 
-  /// @brief Method GetUtcOffset, addr 0x59f627c, size 0x78, virtual false, abstract: false, final false
-  inline ::System::TimeSpan GetUtcOffset(::System::DateTime dateTime);
+/// @brief Method GetUtcOffset, addr 0x59f6788, size 0x78, virtual false, abstract: false, final false
+inline ::System::TimeSpan GetUtcOffset(::System::DateTime  dateTime) ;
 
-  /// @brief Method GetUtcOffset, addr 0x59f6550, size 0x7c, virtual false, abstract: false, final false
-  inline ::System::TimeSpan GetUtcOffset(::System::DateTime dateTime, ::System::TimeZoneInfoOptions flags);
+/// @brief Method GetUtcOffset, addr 0x59f6a5c, size 0x7c, virtual false, abstract: false, final false
+inline ::System::TimeSpan GetUtcOffset(::System::DateTime  dateTime, ::System::TimeZoneInfoOptions  flags) ;
 
-  /// @brief Method GetUtcOffset, addr 0x59f62f4, size 0x1ac, virtual false, abstract: false, final false
-  inline ::System::TimeSpan GetUtcOffset(::System::DateTime dateTime, ::System::TimeZoneInfoOptions flags, ::System::TimeZoneInfo_CachedData* cachedData);
+/// @brief Method GetUtcOffset, addr 0x59f6800, size 0x1ac, virtual false, abstract: false, final false
+inline ::System::TimeSpan GetUtcOffset(::System::DateTime  dateTime, ::System::TimeZoneInfoOptions  flags, ::System::TimeZoneInfo_CachedData*  cachedData) ;
 
-  /// @brief Method GetUtcOffset, addr 0x59f6758, size 0x1a0, virtual false, abstract: false, final false
-  static inline ::System::TimeSpan GetUtcOffset(::System::DateTime time, ::System::TimeZoneInfo* zone, ::System::TimeZoneInfoOptions flags);
+/// @brief Method GetUtcOffset, addr 0x59f6c64, size 0x1a0, virtual false, abstract: false, final false
+static inline ::System::TimeSpan GetUtcOffset(::System::DateTime  time, ::System::TimeZoneInfo*  zone, ::System::TimeZoneInfoOptions  flags) ;
 
-  /// @brief Method GetUtcOffsetFromUtc, addr 0x59f66e8, size 0x70, virtual false, abstract: false, final false
-  static inline ::System::TimeSpan GetUtcOffsetFromUtc(::System::DateTime time, ::System::TimeZoneInfo* zone);
+/// @brief Method GetUtcOffsetFromUtc, addr 0x59f6bf4, size 0x70, virtual false, abstract: false, final false
+static inline ::System::TimeSpan GetUtcOffsetFromUtc(::System::DateTime  time, ::System::TimeZoneInfo*  zone) ;
 
-  /// @brief Method GetUtcOffsetFromUtc, addr 0x59f8f18, size 0x84, virtual false, abstract: false, final false
-  static inline ::System::TimeSpan GetUtcOffsetFromUtc(::System::DateTime time, ::System::TimeZoneInfo* zone, ::ByRef<bool> isDaylightSavings);
+/// @brief Method GetUtcOffsetFromUtc, addr 0x59f9424, size 0x84, virtual false, abstract: false, final false
+static inline ::System::TimeSpan GetUtcOffsetFromUtc(::System::DateTime  time, ::System::TimeZoneInfo*  zone, ::ByRef<bool>  isDaylightSavings) ;
 
-  /// @brief Method GetUtcOffsetFromUtc, addr 0x59f35bc, size 0x2f4, virtual false, abstract: false, final false
-  static inline ::System::TimeSpan GetUtcOffsetFromUtc(::System::DateTime time, ::System::TimeZoneInfo* zone, ::ByRef<bool> isDaylightSavings, ::ByRef<bool> isAmbiguousLocalDst);
+/// @brief Method GetUtcOffsetFromUtc, addr 0x59f3ac8, size 0x2f4, virtual false, abstract: false, final false
+static inline ::System::TimeSpan GetUtcOffsetFromUtc(::System::DateTime  time, ::System::TimeZoneInfo*  zone, ::ByRef<bool>  isDaylightSavings, ::ByRef<bool>  isAmbiguousLocalDst) ;
 
-  /// @brief Method HasSameRules, addr 0x59f7b6c, size 0x170, virtual false, abstract: false, final false
-  inline bool HasSameRules(::System::TimeZoneInfo* other);
+/// @brief Method HasSameRules, addr 0x59f8078, size 0x170, virtual false, abstract: false, final false
+inline bool HasSameRules(::System::TimeZoneInfo*  other) ;
 
-  /// @brief Method IsValidAdjustmentRuleOffest, addr 0x59f425c, size 0x78, virtual false, abstract: false, final false
-  static inline bool IsValidAdjustmentRuleOffest(::System::TimeSpan baseUtcOffset, ::System::TimeZoneInfo_AdjustmentRule* adjustmentRule);
+/// @brief Method IsValidAdjustmentRuleOffest, addr 0x59f4768, size 0x78, virtual false, abstract: false, final false
+static inline bool IsValidAdjustmentRuleOffest(::System::TimeSpan  baseUtcOffset, ::System::TimeZoneInfo_AdjustmentRule*  adjustmentRule) ;
 
-  static inline ::System::TimeZoneInfo* New_ctor();
+static inline ::System::TimeZoneInfo* New_ctor() ;
 
-  static inline ::System::TimeZoneInfo* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ::StringW id, bool dstDisabled);
+static inline ::System::TimeZoneInfo* New_ctor(::ArrayW<uint8_t,::Array<uint8_t>*>  data, ::StringW  id, bool  dstDisabled) ;
 
-  static inline ::System::TimeZoneInfo* New_ctor(::StringW id, ::System::TimeSpan baseUtcOffset, ::StringW displayName, ::StringW standardDisplayName, ::StringW daylightDisplayName,
-                                                 ::ArrayW<::System::TimeZoneInfo_AdjustmentRule*, ::Array<::System::TimeZoneInfo_AdjustmentRule*>*> adjustmentRules, bool disableDaylightSavingTime);
+static inline ::System::TimeZoneInfo* New_ctor(::StringW  id, ::System::TimeSpan  baseUtcOffset, ::StringW  displayName, ::StringW  standardDisplayName, ::StringW  daylightDisplayName, ::ArrayW<::System::TimeZoneInfo_AdjustmentRule*,::Array<::System::TimeZoneInfo_AdjustmentRule*>*>  adjustmentRules, bool  disableDaylightSavingTime) ;
 
-  static inline ::System::TimeZoneInfo* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
+static inline ::System::TimeZoneInfo* New_ctor(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context) ;
 
-  /// @brief Method NormalizeAdjustmentRuleOffset, addr 0x59f42d4, size 0x230, virtual false, abstract: false, final false
-  static inline void NormalizeAdjustmentRuleOffset(::System::TimeSpan baseUtcOffset, ::ByRef<::System::TimeZoneInfo_AdjustmentRule*> adjustmentRule);
+/// @brief Method NormalizeAdjustmentRuleOffset, addr 0x59f47e0, size 0x230, virtual false, abstract: false, final false
+static inline void NormalizeAdjustmentRuleOffset(::System::TimeSpan  baseUtcOffset, ::ByRef<::System::TimeZoneInfo_AdjustmentRule*>  adjustmentRule) ;
 
-  /// @brief Method ParseTimeOfDay, addr 0x59f4e9c, size 0x270, virtual false, abstract: false, final false
-  static inline ::System::DateTime ParseTimeOfDay(::StringW time);
+/// @brief Method ParseTimeOfDay, addr 0x59f53a8, size 0x270, virtual false, abstract: false, final false
+static inline ::System::DateTime ParseTimeOfDay(::StringW  time) ;
 
-  /// @brief Method System.Runtime.Serialization.IDeserializationCallback.OnDeserialization, addr 0x59f8248, size 0x1fc, virtual true, abstract: false, final true
-  inline void System_Runtime_Serialization_IDeserializationCallback_OnDeserialization(::System::Object* sender);
+/// @brief Method System.Runtime.Serialization.IDeserializationCallback.OnDeserialization, addr 0x59f8754, size 0x1fc, virtual true, abstract: false, final true
+inline void System_Runtime_Serialization_IDeserializationCallback_OnDeserialization(::System::Object*  sender) ;
 
-  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x59f8444, size 0x1dc, virtual true, abstract: false, final true
-  inline void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
+/// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x59f8950, size 0x1dc, virtual true, abstract: false, final true
+inline void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context) ;
 
-  /// @brief Method TZif_CalculateTransitionOffsetFromBase, addr 0x59f4038, size 0x12c, virtual false, abstract: false, final false
-  static inline ::System::TimeSpan TZif_CalculateTransitionOffsetFromBase(::System::TimeSpan transitionOffset, ::System::TimeSpan timeZoneBaseUtcOffset);
+/// @brief Method TZif_CalculateTransitionOffsetFromBase, addr 0x59f4544, size 0x12c, virtual false, abstract: false, final false
+static inline ::System::TimeSpan TZif_CalculateTransitionOffsetFromBase(::System::TimeSpan  transitionOffset, ::System::TimeSpan  timeZoneBaseUtcOffset) ;
 
-  /// @brief Method TZif_CreateAdjustmentRuleForPosixFormat, addr 0x59f4504, size 0x3b8, virtual false, abstract: false, final false
-  static inline ::System::TimeZoneInfo_AdjustmentRule* TZif_CreateAdjustmentRuleForPosixFormat(::StringW posixFormat, ::System::DateTime startTransitionDate, ::System::TimeSpan timeZoneBaseUtcOffset);
+/// @brief Method TZif_CreateAdjustmentRuleForPosixFormat, addr 0x59f4a10, size 0x3b8, virtual false, abstract: false, final false
+static inline ::System::TimeZoneInfo_AdjustmentRule* TZif_CreateAdjustmentRuleForPosixFormat(::StringW  posixFormat, ::System::DateTime  startTransitionDate, ::System::TimeSpan  timeZoneBaseUtcOffset) ;
 
-  /// @brief Method TZif_CreateTransitionTimeFromPosixRule, addr 0x59f4c90, size 0x20c, virtual false, abstract: false, final false
-  static inline ::System::Nullable_1<::System::TimeZoneInfo_TransitionTime> TZif_CreateTransitionTimeFromPosixRule(::StringW date, ::StringW time);
+/// @brief Method TZif_CreateTransitionTimeFromPosixRule, addr 0x59f519c, size 0x20c, virtual false, abstract: false, final false
+static inline ::System::Nullable_1<::System::TimeZoneInfo_TransitionTime> TZif_CreateTransitionTimeFromPosixRule(::StringW  date, ::StringW  time) ;
 
-  /// @brief Method TZif_GenerateAdjustmentRule, addr 0x59f38b0, size 0x6e8, virtual false, abstract: false, final false
-  static inline void TZif_GenerateAdjustmentRule(::ByRef<int32_t> index, ::System::TimeSpan timeZoneBaseUtcOffset,
-                                                 ::System::Collections::Generic::List_1<::System::TimeZoneInfo_AdjustmentRule*>* rulesList,
-                                                 ::ArrayW<::System::DateTime, ::Array<::System::DateTime>*> dts, ::ArrayW<uint8_t, ::Array<uint8_t>*> typeOfLocalTime,
-                                                 ::ArrayW<::System::TimeZoneInfo_TZifType, ::Array<::System::TimeZoneInfo_TZifType>*> transitionTypes, ::ArrayW<bool, ::Array<bool>*> StandardTime,
-                                                 ::ArrayW<bool, ::Array<bool>*> GmtTime, ::StringW futureTransitionsPosixFormat);
+/// @brief Method TZif_GenerateAdjustmentRule, addr 0x59f3dbc, size 0x6e8, virtual false, abstract: false, final false
+static inline void TZif_GenerateAdjustmentRule(::ByRef<int32_t>  index, ::System::TimeSpan  timeZoneBaseUtcOffset, ::System::Collections::Generic::List_1<::System::TimeZoneInfo_AdjustmentRule*>*  rulesList, ::ArrayW<::System::DateTime,::Array<::System::DateTime>*>  dts, ::ArrayW<uint8_t,::Array<uint8_t>*>  typeOfLocalTime, ::ArrayW<::System::TimeZoneInfo_TZifType,::Array<::System::TimeZoneInfo_TZifType>*>  transitionTypes, ::ArrayW<bool,::Array<bool>*>  StandardTime, ::ArrayW<bool,::Array<bool>*>  GmtTime, ::StringW  futureTransitionsPosixFormat) ;
 
-  /// @brief Method TZif_GenerateAdjustmentRules, addr 0x59f0de4, size 0x158, virtual false, abstract: false, final false
-  static inline void TZif_GenerateAdjustmentRules(::ByRef<::ArrayW<::System::TimeZoneInfo_AdjustmentRule*, ::Array<::System::TimeZoneInfo_AdjustmentRule*>*>> rules, ::System::TimeSpan baseUtcOffset,
-                                                  ::ArrayW<::System::DateTime, ::Array<::System::DateTime>*> dts, ::ArrayW<uint8_t, ::Array<uint8_t>*> typeOfLocalTime,
-                                                  ::ArrayW<::System::TimeZoneInfo_TZifType, ::Array<::System::TimeZoneInfo_TZifType>*> transitionType, ::ArrayW<bool, ::Array<bool>*> StandardTime,
-                                                  ::ArrayW<bool, ::Array<bool>*> GmtTime, ::StringW futureTransitionsPosixFormat);
+/// @brief Method TZif_GenerateAdjustmentRules, addr 0x59f12f0, size 0x158, virtual false, abstract: false, final false
+static inline void TZif_GenerateAdjustmentRules(::ByRef<::ArrayW<::System::TimeZoneInfo_AdjustmentRule*,::Array<::System::TimeZoneInfo_AdjustmentRule*>*>>  rules, ::System::TimeSpan  baseUtcOffset, ::ArrayW<::System::DateTime,::Array<::System::DateTime>*>  dts, ::ArrayW<uint8_t,::Array<uint8_t>*>  typeOfLocalTime, ::ArrayW<::System::TimeZoneInfo_TZifType,::Array<::System::TimeZoneInfo_TZifType>*>  transitionType, ::ArrayW<bool,::Array<bool>*>  StandardTime, ::ArrayW<bool,::Array<bool>*>  GmtTime, ::StringW  futureTransitionsPosixFormat) ;
 
-  /// @brief Method TZif_GetEarlyDateTransitionType, addr 0x59f3f98, size 0xa0, virtual false, abstract: false, final false
-  static inline ::System::TimeZoneInfo_TZifType TZif_GetEarlyDateTransitionType(::ArrayW<::System::TimeZoneInfo_TZifType, ::Array<::System::TimeZoneInfo_TZifType>*> transitionTypes);
+/// @brief Method TZif_GetEarlyDateTransitionType, addr 0x59f44a4, size 0xa0, virtual false, abstract: false, final false
+static inline ::System::TimeZoneInfo_TZifType TZif_GetEarlyDateTransitionType(::ArrayW<::System::TimeZoneInfo_TZifType,::Array<::System::TimeZoneInfo_TZifType>*>  transitionTypes) ;
 
-  /// @brief Method TZif_GetZoneAbbreviation, addr 0x59f0d80, size 0x64, virtual false, abstract: false, final false
-  static inline ::StringW TZif_GetZoneAbbreviation(::StringW zoneAbbreviations, int32_t index);
+/// @brief Method TZif_GetZoneAbbreviation, addr 0x59f128c, size 0x64, virtual false, abstract: false, final false
+static inline ::StringW TZif_GetZoneAbbreviation(::StringW  zoneAbbreviations, int32_t  index) ;
 
-  /// @brief Method TZif_ParseJulianDay, addr 0x59f535c, size 0x1b0, virtual false, abstract: false, final false
-  static inline void TZif_ParseJulianDay(::StringW date, ::ByRef<int32_t> month, ::ByRef<int32_t> day);
+/// @brief Method TZif_ParseJulianDay, addr 0x59f5868, size 0x1b0, virtual false, abstract: false, final false
+static inline void TZif_ParseJulianDay(::StringW  date, ::ByRef<int32_t>  month, ::ByRef<int32_t>  day) ;
 
-  /// @brief Method TZif_ParseMDateRule, addr 0x59f510c, size 0x1e8, virtual false, abstract: false, final false
-  static inline bool TZif_ParseMDateRule(::StringW dateRule, ::ByRef<int32_t> month, ::ByRef<int32_t> week, ::ByRef<::System::DayOfWeek> dayOfWeek);
+/// @brief Method TZif_ParseMDateRule, addr 0x59f5618, size 0x1e8, virtual false, abstract: false, final false
+static inline bool TZif_ParseMDateRule(::StringW  dateRule, ::ByRef<int32_t>  month, ::ByRef<int32_t>  week, ::ByRef<::System::DayOfWeek>  dayOfWeek) ;
 
-  /// @brief Method TZif_ParseOffsetString, addr 0x59f4ab8, size 0x1d8, virtual false, abstract: false, final false
-  static inline ::System::Nullable_1<::System::TimeSpan> TZif_ParseOffsetString(::StringW offset);
+/// @brief Method TZif_ParseOffsetString, addr 0x59f4fc4, size 0x1d8, virtual false, abstract: false, final false
+static inline ::System::Nullable_1<::System::TimeSpan> TZif_ParseOffsetString(::StringW  offset) ;
 
-  /// @brief Method TZif_ParsePosixDate, addr 0x59f59f0, size 0x114, virtual false, abstract: false, final false
-  static inline ::StringW TZif_ParsePosixDate(::StringW posixFormat, ::ByRef<int32_t> index);
+/// @brief Method TZif_ParsePosixDate, addr 0x59f5efc, size 0x114, virtual false, abstract: false, final false
+static inline ::StringW TZif_ParsePosixDate(::StringW  posixFormat, ::ByRef<int32_t>  index) ;
 
-  /// @brief Method TZif_ParsePosixDateTime, addr 0x59f5864, size 0xe8, virtual false, abstract: false, final false
-  static inline void TZif_ParsePosixDateTime(::StringW posixFormat, ::ByRef<int32_t> index, ::ByRef<::StringW> date, ::ByRef<::StringW> time);
+/// @brief Method TZif_ParsePosixDateTime, addr 0x59f5d70, size 0xe8, virtual false, abstract: false, final false
+static inline void TZif_ParsePosixDateTime(::StringW  posixFormat, ::ByRef<int32_t>  index, ::ByRef<::StringW>  date, ::ByRef<::StringW>  time) ;
 
-  /// @brief Method TZif_ParsePosixFormat, addr 0x59f48bc, size 0x1fc, virtual false, abstract: false, final false
-  static inline bool TZif_ParsePosixFormat(::StringW posixFormat, ::ByRef<::StringW> standardName, ::ByRef<::StringW> standardOffset, ::ByRef<::StringW> daylightSavingsName,
-                                           ::ByRef<::StringW> daylightSavingsOffset, ::ByRef<::StringW> start, ::ByRef<::StringW> startTime, ::ByRef<::StringW> end, ::ByRef<::StringW> endTime);
+/// @brief Method TZif_ParsePosixFormat, addr 0x59f4dc8, size 0x1fc, virtual false, abstract: false, final false
+static inline bool TZif_ParsePosixFormat(::StringW  posixFormat, ::ByRef<::StringW>  standardName, ::ByRef<::StringW>  standardOffset, ::ByRef<::StringW>  daylightSavingsName, ::ByRef<::StringW>  daylightSavingsOffset, ::ByRef<::StringW>  start, ::ByRef<::StringW>  startTime, ::ByRef<::StringW>  end, ::ByRef<::StringW>  endTime) ;
 
-  /// @brief Method TZif_ParsePosixName, addr 0x59f550c, size 0x244, virtual false, abstract: false, final false
-  static inline ::StringW TZif_ParsePosixName(::StringW posixFormat, ::ByRef<int32_t> index);
+/// @brief Method TZif_ParsePosixName, addr 0x59f5a18, size 0x244, virtual false, abstract: false, final false
+static inline ::StringW TZif_ParsePosixName(::StringW  posixFormat, ::ByRef<int32_t>  index) ;
 
-  /// @brief Method TZif_ParsePosixOffset, addr 0x59f5750, size 0x114, virtual false, abstract: false, final false
-  static inline ::StringW TZif_ParsePosixOffset(::StringW posixFormat, ::ByRef<int32_t> index);
+/// @brief Method TZif_ParsePosixOffset, addr 0x59f5c5c, size 0x114, virtual false, abstract: false, final false
+static inline ::StringW TZif_ParsePosixOffset(::StringW  posixFormat, ::ByRef<int32_t>  index) ;
 
-  /// @brief Method TZif_ParsePosixString, addr 0x59f594c, size 0xa4, virtual false, abstract: false, final false
-  static inline ::StringW TZif_ParsePosixString(::StringW posixFormat, ::ByRef<int32_t> index, ::System::Func_2<char16_t, bool>* breakCondition);
+/// @brief Method TZif_ParsePosixString, addr 0x59f5e58, size 0xa4, virtual false, abstract: false, final false
+static inline ::StringW TZif_ParsePosixString(::StringW  posixFormat, ::ByRef<int32_t>  index, ::System::Func_2<char16_t,bool>*  breakCondition) ;
 
-  /// @brief Method TZif_ParsePosixTime, addr 0x59f5b04, size 0x114, virtual false, abstract: false, final false
-  static inline ::StringW TZif_ParsePosixTime(::StringW posixFormat, ::ByRef<int32_t> index);
+/// @brief Method TZif_ParsePosixTime, addr 0x59f6010, size 0x114, virtual false, abstract: false, final false
+static inline ::StringW TZif_ParsePosixTime(::StringW  posixFormat, ::ByRef<int32_t>  index) ;
 
-  /// @brief Method TZif_ParseRaw, addr 0x59f086c, size 0x514, virtual false, abstract: false, final false
-  static inline void TZif_ParseRaw(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ::ByRef<::System::TimeZoneInfo_TZifHead> t, ::ByRef<::ArrayW<::System::DateTime, ::Array<::System::DateTime>*>> dts,
-                                   ::ByRef<::ArrayW<uint8_t, ::Array<uint8_t>*>> typeOfLocalTime,
-                                   ::ByRef<::ArrayW<::System::TimeZoneInfo_TZifType, ::Array<::System::TimeZoneInfo_TZifType>*>> transitionType, ::ByRef<::StringW> zoneAbbreviations,
-                                   ::ByRef<::ArrayW<bool, ::Array<bool>*>> StandardTime, ::ByRef<::ArrayW<bool, ::Array<bool>*>> GmtTime, ::ByRef<::StringW> futureTransitionsPosixFormat);
+/// @brief Method TZif_ParseRaw, addr 0x59f0d78, size 0x514, virtual false, abstract: false, final false
+static inline void TZif_ParseRaw(::ArrayW<uint8_t,::Array<uint8_t>*>  data, ::ByRef<::System::TimeZoneInfo_TZifHead>  t, ::ByRef<::ArrayW<::System::DateTime,::Array<::System::DateTime>*>>  dts, ::ByRef<::ArrayW<uint8_t,::Array<uint8_t>*>>  typeOfLocalTime, ::ByRef<::ArrayW<::System::TimeZoneInfo_TZifType,::Array<::System::TimeZoneInfo_TZifType>*>>  transitionType, ::ByRef<::StringW>  zoneAbbreviations, ::ByRef<::ArrayW<bool,::Array<bool>*>>  StandardTime, ::ByRef<::ArrayW<bool,::Array<bool>*>>  GmtTime, ::ByRef<::StringW>  futureTransitionsPosixFormat) ;
 
-  /// @brief Method TZif_ToInt32, addr 0x59f5c18, size 0x30, virtual false, abstract: false, final false
-  static inline int32_t TZif_ToInt32(::ArrayW<uint8_t, ::Array<uint8_t>*> value, int32_t startIndex);
+/// @brief Method TZif_ToInt32, addr 0x59f6124, size 0x30, virtual false, abstract: false, final false
+static inline int32_t TZif_ToInt32(::ArrayW<uint8_t,::Array<uint8_t>*>  value, int32_t  startIndex) ;
 
-  /// @brief Method TZif_ToInt64, addr 0x59f5c48, size 0x30, virtual false, abstract: false, final false
-  static inline int64_t TZif_ToInt64(::ArrayW<uint8_t, ::Array<uint8_t>*> value, int32_t startIndex);
+/// @brief Method TZif_ToInt64, addr 0x59f6154, size 0x30, virtual false, abstract: false, final false
+static inline int64_t TZif_ToInt64(::ArrayW<uint8_t,::Array<uint8_t>*>  value, int32_t  startIndex) ;
 
-  /// @brief Method TZif_ToUnixTime, addr 0x59f5c78, size 0x9c, virtual false, abstract: false, final false
-  static inline int64_t TZif_ToUnixTime(::ArrayW<uint8_t, ::Array<uint8_t>*> value, int32_t startIndex, ::System::TimeZoneInfo_TZVersion version);
+/// @brief Method TZif_ToUnixTime, addr 0x59f6184, size 0x9c, virtual false, abstract: false, final false
+static inline int64_t TZif_ToUnixTime(::ArrayW<uint8_t,::Array<uint8_t>*>  value, int32_t  startIndex, ::System::TimeZoneInfo_TZVersion  version) ;
 
-  /// @brief Method TZif_UnixTimeToDateTime, addr 0x59f5d14, size 0xfc, virtual false, abstract: false, final false
-  static inline ::System::DateTime TZif_UnixTimeToDateTime(int64_t unixTime);
+/// @brief Method TZif_UnixTimeToDateTime, addr 0x59f6220, size 0xfc, virtual false, abstract: false, final false
+static inline ::System::DateTime TZif_UnixTimeToDateTime(int64_t  unixTime) ;
 
-  /// @brief Method ToString, addr 0x59f7f54, size 0x20, virtual true, abstract: false, final false
-  inline ::StringW ToString();
+/// @brief Method ToString, addr 0x59f8460, size 0x20, virtual true, abstract: false, final false
+inline ::StringW ToString() ;
 
-  /// @brief Method TransitionTimeToDateTime, addr 0x59f8f9c, size 0x2d8, virtual false, abstract: false, final false
-  static inline ::System::DateTime TransitionTimeToDateTime(int32_t year, ::System::TimeZoneInfo_TransitionTime transitionTime);
+/// @brief Method TransitionTimeToDateTime, addr 0x59f94a8, size 0x2d8, virtual false, abstract: false, final false
+static inline ::System::DateTime TransitionTimeToDateTime(int32_t  year, ::System::TimeZoneInfo_TransitionTime  transitionTime) ;
 
-  /// @brief Method TryGetLocalTzFile, addr 0x59f1a34, size 0x1c8, virtual false, abstract: false, final false
-  static inline bool TryGetLocalTzFile(::ByRef<::ArrayW<uint8_t, ::Array<uint8_t>*>> rawData, ::ByRef<::StringW> id);
+/// @brief Method TryGetLocalTzFile, addr 0x59f1f40, size 0x1c8, virtual false, abstract: false, final false
+static inline bool TryGetLocalTzFile(::ByRef<::ArrayW<uint8_t,::Array<uint8_t>*>>  rawData, ::ByRef<::StringW>  id) ;
 
-  /// @brief Method TryLoadTzFile, addr 0x59f1c80, size 0x198, virtual false, abstract: false, final false
-  static inline bool TryLoadTzFile(::StringW tzFilePath, ::ByRef<::ArrayW<uint8_t, ::Array<uint8_t>*>> rawData, ::ByRef<::StringW> id);
+/// @brief Method TryLoadTzFile, addr 0x59f218c, size 0x198, virtual false, abstract: false, final false
+static inline bool TryLoadTzFile(::StringW  tzFilePath, ::ByRef<::ArrayW<uint8_t,::Array<uint8_t>*>>  rawData, ::ByRef<::StringW>  id) ;
 
-  /// @brief Method UtcOffsetOutOfRange, addr 0x59fa3cc, size 0xdc, virtual false, abstract: false, final false
-  static inline bool UtcOffsetOutOfRange(::System::TimeSpan offset);
+/// @brief Method UtcOffsetOutOfRange, addr 0x59fa8d8, size 0xdc, virtual false, abstract: false, final false
+static inline bool UtcOffsetOutOfRange(::System::TimeSpan  offset) ;
 
-  /// @brief Method ValidateTimeZoneInfo, addr 0x59f0f3c, size 0x358, virtual false, abstract: false, final false
-  static inline void ValidateTimeZoneInfo(::StringW id, ::System::TimeSpan baseUtcOffset,
-                                          ::ArrayW<::System::TimeZoneInfo_AdjustmentRule*, ::Array<::System::TimeZoneInfo_AdjustmentRule*>*> adjustmentRules, ::ByRef<bool> adjustmentRulesSupportDst);
+/// @brief Method ValidateTimeZoneInfo, addr 0x59f1448, size 0x358, virtual false, abstract: false, final false
+static inline void ValidateTimeZoneInfo(::StringW  id, ::System::TimeSpan  baseUtcOffset, ::ArrayW<::System::TimeZoneInfo_AdjustmentRule*,::Array<::System::TimeZoneInfo_AdjustmentRule*>*>  adjustmentRules, ::ByRef<bool>  adjustmentRulesSupportDst) ;
 
-  constexpr ::ArrayW<::System::TimeZoneInfo_AdjustmentRule*, ::Array<::System::TimeZoneInfo_AdjustmentRule*>*> const& __cordl_internal_get__adjustmentRules() const;
+constexpr ::ArrayW<::System::TimeZoneInfo_AdjustmentRule*,::Array<::System::TimeZoneInfo_AdjustmentRule*>*> const& __cordl_internal_get__adjustmentRules() const;
 
-  constexpr ::ArrayW<::System::TimeZoneInfo_AdjustmentRule*, ::Array<::System::TimeZoneInfo_AdjustmentRule*>*>& __cordl_internal_get__adjustmentRules();
+constexpr ::ArrayW<::System::TimeZoneInfo_AdjustmentRule*,::Array<::System::TimeZoneInfo_AdjustmentRule*>*>& __cordl_internal_get__adjustmentRules() ;
 
-  constexpr ::System::TimeSpan const& __cordl_internal_get__baseUtcOffset() const;
+constexpr ::System::TimeSpan const& __cordl_internal_get__baseUtcOffset() const;
 
-  constexpr ::System::TimeSpan& __cordl_internal_get__baseUtcOffset();
+constexpr ::System::TimeSpan& __cordl_internal_get__baseUtcOffset() ;
 
-  constexpr ::StringW const& __cordl_internal_get__daylightDisplayName() const;
+constexpr ::StringW const& __cordl_internal_get__daylightDisplayName() const;
 
-  constexpr ::StringW& __cordl_internal_get__daylightDisplayName();
+constexpr ::StringW& __cordl_internal_get__daylightDisplayName() ;
 
-  constexpr ::StringW const& __cordl_internal_get__displayName() const;
+constexpr ::StringW const& __cordl_internal_get__displayName() const;
 
-  constexpr ::StringW& __cordl_internal_get__displayName();
+constexpr ::StringW& __cordl_internal_get__displayName() ;
 
-  constexpr ::StringW const& __cordl_internal_get__id() const;
+constexpr ::StringW const& __cordl_internal_get__id() const;
 
-  constexpr ::StringW& __cordl_internal_get__id();
+constexpr ::StringW& __cordl_internal_get__id() ;
 
-  constexpr ::StringW const& __cordl_internal_get__standardDisplayName() const;
+constexpr ::StringW const& __cordl_internal_get__standardDisplayName() const;
 
-  constexpr ::StringW& __cordl_internal_get__standardDisplayName();
+constexpr ::StringW& __cordl_internal_get__standardDisplayName() ;
 
-  constexpr bool const& __cordl_internal_get__supportsDaylightSavingTime() const;
+constexpr bool const& __cordl_internal_get__supportsDaylightSavingTime() const;
 
-  constexpr bool& __cordl_internal_get__supportsDaylightSavingTime();
+constexpr bool& __cordl_internal_get__supportsDaylightSavingTime() ;
 
-  constexpr void __cordl_internal_set__adjustmentRules(::ArrayW<::System::TimeZoneInfo_AdjustmentRule*, ::Array<::System::TimeZoneInfo_AdjustmentRule*>*> value);
+constexpr void __cordl_internal_set__adjustmentRules(::ArrayW<::System::TimeZoneInfo_AdjustmentRule*,::Array<::System::TimeZoneInfo_AdjustmentRule*>*>  value) ;
 
-  constexpr void __cordl_internal_set__baseUtcOffset(::System::TimeSpan value);
+constexpr void __cordl_internal_set__baseUtcOffset(::System::TimeSpan  value) ;
 
-  constexpr void __cordl_internal_set__daylightDisplayName(::StringW value);
+constexpr void __cordl_internal_set__daylightDisplayName(::StringW  value) ;
 
-  constexpr void __cordl_internal_set__displayName(::StringW value);
+constexpr void __cordl_internal_set__displayName(::StringW  value) ;
 
-  constexpr void __cordl_internal_set__id(::StringW value);
+constexpr void __cordl_internal_set__id(::StringW  value) ;
 
-  constexpr void __cordl_internal_set__standardDisplayName(::StringW value);
+constexpr void __cordl_internal_set__standardDisplayName(::StringW  value) ;
 
-  constexpr void __cordl_internal_set__supportsDaylightSavingTime(bool value);
+constexpr void __cordl_internal_set__supportsDaylightSavingTime(bool  value) ;
 
-  /// @brief Method .ctor, addr 0x59fafa8, size 0x3c, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x59fb4b4, size 0x3c, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method .ctor, addr 0x59f03bc, size 0x4b0, virtual false, abstract: false, final false
-  inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ::StringW id, bool dstDisabled);
+/// @brief Method .ctor, addr 0x59f08c8, size 0x4b0, virtual false, abstract: false, final false
+inline void _ctor(::ArrayW<uint8_t,::Array<uint8_t>*>  data, ::StringW  id, bool  dstDisabled) ;
 
-  /// @brief Method .ctor, addr 0x59f7fd0, size 0xd8, virtual false, abstract: false, final false
-  inline void _ctor(::StringW id, ::System::TimeSpan baseUtcOffset, ::StringW displayName, ::StringW standardDisplayName, ::StringW daylightDisplayName,
-                    ::ArrayW<::System::TimeZoneInfo_AdjustmentRule*, ::Array<::System::TimeZoneInfo_AdjustmentRule*>*> adjustmentRules, bool disableDaylightSavingTime);
+/// @brief Method .ctor, addr 0x59f84dc, size 0xd8, virtual false, abstract: false, final false
+inline void _ctor(::StringW  id, ::System::TimeSpan  baseUtcOffset, ::StringW  displayName, ::StringW  standardDisplayName, ::StringW  daylightDisplayName, ::ArrayW<::System::TimeZoneInfo_AdjustmentRule*,::Array<::System::TimeZoneInfo_AdjustmentRule*>*>  adjustmentRules, bool  disableDaylightSavingTime) ;
 
-  /// @brief Method .ctor, addr 0x59f8620, size 0x3d0, virtual false, abstract: false, final false
-  inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
+/// @brief Method .ctor, addr 0x59f8b2c, size 0x3d0, virtual false, abstract: false, final false
+inline void _ctor(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context) ;
 
-  static inline ::System::TimeSpan getStaticF_MaxOffset();
+static inline ::System::TimeSpan getStaticF_MaxOffset() ;
 
-  static inline ::System::TimeSpan getStaticF_MinOffset();
+static inline ::System::TimeSpan getStaticF_MinOffset() ;
 
-  static inline ::System::TimeZoneInfo_CachedData* getStaticF_s_cachedData();
+static inline ::System::TimeZoneInfo_CachedData* getStaticF_s_cachedData() ;
 
-  static inline ::System::DateTime getStaticF_s_maxDateOnly();
+static inline ::System::DateTime getStaticF_s_maxDateOnly() ;
 
-  static inline ::System::DateTime getStaticF_s_minDateOnly();
+static inline ::System::DateTime getStaticF_s_minDateOnly() ;
 
-  static inline ::System::TimeZoneInfo* getStaticF_s_utcTimeZone();
+static inline ::System::TimeZoneInfo* getStaticF_s_utcTimeZone() ;
 
-  /// @brief Method get_BaseUtcOffset, addr 0x59f6168, size 0x8, virtual false, abstract: false, final false
-  inline ::System::TimeSpan get_BaseUtcOffset();
+/// @brief Method get_BaseUtcOffset, addr 0x59f6674, size 0x8, virtual false, abstract: false, final false
+inline ::System::TimeSpan get_BaseUtcOffset() ;
 
-  /// @brief Method get_DaylightName, addr 0x59f6148, size 0x20, virtual false, abstract: false, final false
-  inline ::StringW get_DaylightName();
+/// @brief Method get_DaylightName, addr 0x59f6654, size 0x20, virtual false, abstract: false, final false
+inline ::StringW get_DaylightName() ;
 
-  /// @brief Method get_DisplayName, addr 0x59f6108, size 0x20, virtual false, abstract: false, final false
-  inline ::StringW get_DisplayName();
+/// @brief Method get_DisplayName, addr 0x59f6614, size 0x20, virtual false, abstract: false, final false
+inline ::StringW get_DisplayName() ;
 
-  /// @brief Method get_Local, addr 0x59f353c, size 0x80, virtual false, abstract: false, final false
-  static inline ::System::TimeZoneInfo* get_Local();
+/// @brief Method get_Local, addr 0x59f3a48, size 0x80, virtual false, abstract: false, final false
+static inline ::System::TimeZoneInfo* get_Local() ;
 
-  /// @brief Method get_StandardName, addr 0x59f6128, size 0x20, virtual false, abstract: false, final false
-  inline ::StringW get_StandardName();
+/// @brief Method get_StandardName, addr 0x59f6634, size 0x20, virtual false, abstract: false, final false
+inline ::StringW get_StandardName() ;
 
-  /// @brief Method get_SupportsDaylightSavingTime, addr 0x59f6170, size 0x8, virtual false, abstract: false, final false
-  inline bool get_SupportsDaylightSavingTime();
+/// @brief Method get_SupportsDaylightSavingTime, addr 0x59f667c, size 0x8, virtual false, abstract: false, final false
+inline bool get_SupportsDaylightSavingTime() ;
 
-  /// @brief Method get_Utc, addr 0x59f7f74, size 0x5c, virtual false, abstract: false, final false
-  static inline ::System::TimeZoneInfo* get_Utc();
+/// @brief Method get_Utc, addr 0x59f8480, size 0x5c, virtual false, abstract: false, final false
+static inline ::System::TimeZoneInfo* get_Utc() ;
 
-  /// @brief Convert to "::System::IEquatable_1<::System::TimeZoneInfo*>"
-  constexpr ::System::IEquatable_1<::System::TimeZoneInfo*>* i___System__IEquatable_1___System__TimeZoneInfo__() noexcept;
+/// @brief Convert to "::System::IEquatable_1<::System::TimeZoneInfo*>"
+constexpr ::System::IEquatable_1<::System::TimeZoneInfo*>* i___System__IEquatable_1___System__TimeZoneInfo__() noexcept;
 
-  /// @brief Convert to "::System::Runtime::Serialization::IDeserializationCallback"
-  constexpr ::System::Runtime::Serialization::IDeserializationCallback* i___System__Runtime__Serialization__IDeserializationCallback() noexcept;
+/// @brief Convert to "::System::Runtime::Serialization::IDeserializationCallback"
+constexpr ::System::Runtime::Serialization::IDeserializationCallback* i___System__Runtime__Serialization__IDeserializationCallback() noexcept;
 
-  /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
-  constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
+/// @brief Convert to "::System::Runtime::Serialization::ISerializable"
+constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
 
-  static inline void setStaticF_MaxOffset(::System::TimeSpan value);
+static inline void setStaticF_MaxOffset(::System::TimeSpan  value) ;
 
-  static inline void setStaticF_MinOffset(::System::TimeSpan value);
+static inline void setStaticF_MinOffset(::System::TimeSpan  value) ;
 
-  static inline void setStaticF_s_cachedData(::System::TimeZoneInfo_CachedData* value);
+static inline void setStaticF_s_cachedData(::System::TimeZoneInfo_CachedData*  value) ;
 
-  static inline void setStaticF_s_maxDateOnly(::System::DateTime value);
+static inline void setStaticF_s_maxDateOnly(::System::DateTime  value) ;
 
-  static inline void setStaticF_s_minDateOnly(::System::DateTime value);
+static inline void setStaticF_s_minDateOnly(::System::DateTime  value) ;
 
-  static inline void setStaticF_s_utcTimeZone(::System::TimeZoneInfo* value);
+static inline void setStaticF_s_utcTimeZone(::System::TimeZoneInfo*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TimeZoneInfo();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr TimeZoneInfo() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TimeZoneInfo", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  TimeZoneInfo(TimeZoneInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TimeZoneInfo", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  TimeZoneInfo(TimeZoneInfo const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "TimeZoneInfo", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+TimeZoneInfo(TimeZoneInfo && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2321 };
+// Ctor Parameters [CppParam { name: "", ty: "TimeZoneInfo", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+TimeZoneInfo(TimeZoneInfo const& ) = delete;
 
-  /// @brief Field _id, offset: 0x10, size: 0x8, def value: None
-  ::StringW ____id;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{2321};
 
-  /// @brief Field _displayName, offset: 0x18, size: 0x8, def value: None
-  ::StringW ____displayName;
+/// @brief Field _id, offset: 0x10, size: 0x8, def value: None
+ ::StringW  ____id;
 
-  /// @brief Field _standardDisplayName, offset: 0x20, size: 0x8, def value: None
-  ::StringW ____standardDisplayName;
+/// @brief Field _displayName, offset: 0x18, size: 0x8, def value: None
+ ::StringW  ____displayName;
 
-  /// @brief Field _daylightDisplayName, offset: 0x28, size: 0x8, def value: None
-  ::StringW ____daylightDisplayName;
+/// @brief Field _standardDisplayName, offset: 0x20, size: 0x8, def value: None
+ ::StringW  ____standardDisplayName;
 
-  /// @brief Field _baseUtcOffset, offset: 0x30, size: 0x8, def value: None
-  ::System::TimeSpan ____baseUtcOffset;
+/// @brief Field _daylightDisplayName, offset: 0x28, size: 0x8, def value: None
+ ::StringW  ____daylightDisplayName;
 
-  /// @brief Field _supportsDaylightSavingTime, offset: 0x38, size: 0x1, def value: None
-  bool ____supportsDaylightSavingTime;
+/// @brief Field _baseUtcOffset, offset: 0x30, size: 0x8, def value: None
+ ::System::TimeSpan  ____baseUtcOffset;
 
-  /// @brief Field _adjustmentRules, offset: 0x40, size: 0x8, def value: None
-  ::ArrayW<::System::TimeZoneInfo_AdjustmentRule*, ::Array<::System::TimeZoneInfo_AdjustmentRule*>*> ____adjustmentRules;
+/// @brief Field _supportsDaylightSavingTime, offset: 0x38, size: 0x1, def value: None
+ bool  ____supportsDaylightSavingTime;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _adjustmentRules, offset: 0x40, size: 0x8, def value: None
+ ::ArrayW<::System::TimeZoneInfo_AdjustmentRule*,::Array<::System::TimeZoneInfo_AdjustmentRule*>*>  ____adjustmentRules;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::TimeZoneInfo, ____id) == 0x10, "Offset mismatch!");
@@ -1485,7 +1454,7 @@ static_assert(offsetof(::System::TimeZoneInfo, ____adjustmentRules) == 0x40, "Of
 
 static_assert(::cordl_internals::size_check_v<::System::TimeZoneInfo, 0x48>, "Size mismatch!");
 
-} // namespace System
+} // namespace end def System
 DEFINE_IL2CPP_ARG_TYPE(::System::TimeZoneInfo_TZVersion, "System", "TimeZoneInfo/TZVersion");
 NEED_NO_BOX(::System::TimeZoneInfo);
 DEFINE_IL2CPP_ARG_TYPE(::System::TimeZoneInfo*, "System", "TimeZoneInfo");

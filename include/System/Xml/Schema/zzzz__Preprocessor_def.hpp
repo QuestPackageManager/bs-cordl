@@ -105,407 +105,404 @@ namespace System::Xml::Schema {
 // CS Name: System.Xml.Schema.Preprocessor
 class CORDL_TYPE Preprocessor : public ::System::Xml::Schema::BaseProcessor {
 public:
-  // Declarations
-  __declspec(property(put = set_ChameleonSchemas)) ::System::Collections::Hashtable* ChameleonSchemas;
+// Declarations
+ __declspec(property(put=set_ChameleonSchemas)) ::System::Collections::Hashtable*  ChameleonSchemas;
 
-  /// @brief Field NsXsi, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_NsXsi, put = __cordl_internal_set_NsXsi)) ::StringW NsXsi;
+/// @brief Field NsXsi, offset 0x48, size 0x8 
+ __declspec(property(get=__cordl_internal_get_NsXsi, put=__cordl_internal_set_NsXsi)) ::StringW  NsXsi;
 
-  __declspec(property(put = set_ReaderSettings)) ::System::Xml::XmlReaderSettings* ReaderSettings;
+ __declspec(property(put=set_ReaderSettings)) ::System::Xml::XmlReaderSettings*  ReaderSettings;
 
-  __declspec(property(get = get_RootSchema)) ::System::Xml::Schema::XmlSchema* RootSchema;
+ __declspec(property(get=get_RootSchema)) ::System::Xml::Schema::XmlSchema*  RootSchema;
 
-  __declspec(property(put = set_SchemaLocations)) ::System::Collections::Hashtable* SchemaLocations;
+ __declspec(property(put=set_SchemaLocations)) ::System::Collections::Hashtable*  SchemaLocations;
 
-  __declspec(property(put = set_XmlResolver)) ::System::Xml::XmlResolver* XmlResolver;
+ __declspec(property(put=set_XmlResolver)) ::System::Xml::XmlResolver*  XmlResolver;
 
-  /// @brief Field Xmlns, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_Xmlns, put = __cordl_internal_set_Xmlns)) ::StringW Xmlns;
+/// @brief Field Xmlns, offset 0x40, size 0x8 
+ __declspec(property(get=__cordl_internal_get_Xmlns, put=__cordl_internal_set_Xmlns)) ::StringW  Xmlns;
 
-  /// @brief Field attributeFormDefault, offset 0x6c, size 0x4
-  __declspec(property(get = __cordl_internal_get_attributeFormDefault, put = __cordl_internal_set_attributeFormDefault)) ::System::Xml::Schema::XmlSchemaForm attributeFormDefault;
+/// @brief Field attributeFormDefault, offset 0x6c, size 0x4 
+ __declspec(property(get=__cordl_internal_get_attributeFormDefault, put=__cordl_internal_set_attributeFormDefault)) ::System::Xml::Schema::XmlSchemaForm  attributeFormDefault;
 
-  /// @brief Field blockDefault, offset 0x70, size 0x4
-  __declspec(property(get = __cordl_internal_get_blockDefault, put = __cordl_internal_set_blockDefault)) ::System::Xml::Schema::XmlSchemaDerivationMethod blockDefault;
+/// @brief Field blockDefault, offset 0x70, size 0x4 
+ __declspec(property(get=__cordl_internal_get_blockDefault, put=__cordl_internal_set_blockDefault)) ::System::Xml::Schema::XmlSchemaDerivationMethod  blockDefault;
 
-  /// @brief Field builtInSchemaForXmlNS, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_builtInSchemaForXmlNS, put = setStaticF_builtInSchemaForXmlNS)) ::System::Xml::Schema::XmlSchema* builtInSchemaForXmlNS;
+/// @brief Field builtInSchemaForXmlNS, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_builtInSchemaForXmlNS, put=setStaticF_builtInSchemaForXmlNS)) ::System::Xml::Schema::XmlSchema*  builtInSchemaForXmlNS;
 
-  /// @brief Field chameleonSchemas, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get_chameleonSchemas, put = __cordl_internal_set_chameleonSchemas)) ::System::Collections::Hashtable* chameleonSchemas;
+/// @brief Field chameleonSchemas, offset 0x80, size 0x8 
+ __declspec(property(get=__cordl_internal_get_chameleonSchemas, put=__cordl_internal_set_chameleonSchemas)) ::System::Collections::Hashtable*  chameleonSchemas;
 
-  /// @brief Field currentSchema, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get_currentSchema, put = __cordl_internal_set_currentSchema)) ::System::Xml::Schema::XmlSchema* currentSchema;
+/// @brief Field currentSchema, offset 0x60, size 0x8 
+ __declspec(property(get=__cordl_internal_get_currentSchema, put=__cordl_internal_set_currentSchema)) ::System::Xml::Schema::XmlSchema*  currentSchema;
 
-  /// @brief Field elementFormDefault, offset 0x68, size 0x4
-  __declspec(property(get = __cordl_internal_get_elementFormDefault, put = __cordl_internal_set_elementFormDefault)) ::System::Xml::Schema::XmlSchemaForm elementFormDefault;
+/// @brief Field elementFormDefault, offset 0x68, size 0x4 
+ __declspec(property(get=__cordl_internal_get_elementFormDefault, put=__cordl_internal_set_elementFormDefault)) ::System::Xml::Schema::XmlSchemaForm  elementFormDefault;
 
-  /// @brief Field finalDefault, offset 0x74, size 0x4
-  __declspec(property(get = __cordl_internal_get_finalDefault, put = __cordl_internal_set_finalDefault)) ::System::Xml::Schema::XmlSchemaDerivationMethod finalDefault;
+/// @brief Field finalDefault, offset 0x74, size 0x4 
+ __declspec(property(get=__cordl_internal_get_finalDefault, put=__cordl_internal_set_finalDefault)) ::System::Xml::Schema::XmlSchemaDerivationMethod  finalDefault;
 
-  /// @brief Field lockList, offset 0x98, size 0x8
-  __declspec(property(get = __cordl_internal_get_lockList, put = __cordl_internal_set_lockList)) ::System::Collections::SortedList* lockList;
+/// @brief Field lockList, offset 0x98, size 0x8 
+ __declspec(property(get=__cordl_internal_get_lockList, put=__cordl_internal_set_lockList)) ::System::Collections::SortedList*  lockList;
 
-  /// @brief Field processedExternals, offset 0x90, size 0x8
-  __declspec(property(get = __cordl_internal_get_processedExternals, put = __cordl_internal_set_processedExternals)) ::System::Collections::Hashtable* processedExternals;
+/// @brief Field processedExternals, offset 0x90, size 0x8 
+ __declspec(property(get=__cordl_internal_get_processedExternals, put=__cordl_internal_set_processedExternals)) ::System::Collections::Hashtable*  processedExternals;
 
-  /// @brief Field readerSettings, offset 0xa0, size 0x8
-  __declspec(property(get = __cordl_internal_get_readerSettings, put = __cordl_internal_set_readerSettings)) ::System::Xml::XmlReaderSettings* readerSettings;
+/// @brief Field readerSettings, offset 0xa0, size 0x8 
+ __declspec(property(get=__cordl_internal_get_readerSettings, put=__cordl_internal_set_readerSettings)) ::System::Xml::XmlReaderSettings*  readerSettings;
 
-  /// @brief Field redefinedList, offset 0xb0, size 0x8
-  __declspec(property(get = __cordl_internal_get_redefinedList, put = __cordl_internal_set_redefinedList)) ::System::Collections::ArrayList* redefinedList;
+/// @brief Field redefinedList, offset 0xb0, size 0x8 
+ __declspec(property(get=__cordl_internal_get_redefinedList, put=__cordl_internal_set_redefinedList)) ::System::Collections::ArrayList*  redefinedList;
 
-  /// @brief Field referenceNamespaces, offset 0x88, size 0x8
-  __declspec(property(get = __cordl_internal_get_referenceNamespaces, put = __cordl_internal_set_referenceNamespaces)) ::System::Collections::Hashtable* referenceNamespaces;
+/// @brief Field referenceNamespaces, offset 0x88, size 0x8 
+ __declspec(property(get=__cordl_internal_get_referenceNamespaces, put=__cordl_internal_set_referenceNamespaces)) ::System::Collections::Hashtable*  referenceNamespaces;
 
-  /// @brief Field rootSchema, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get_rootSchema, put = __cordl_internal_set_rootSchema)) ::System::Xml::Schema::XmlSchema* rootSchema;
+/// @brief Field rootSchema, offset 0x58, size 0x8 
+ __declspec(property(get=__cordl_internal_get_rootSchema, put=__cordl_internal_set_rootSchema)) ::System::Xml::Schema::XmlSchema*  rootSchema;
 
-  /// @brief Field rootSchemaForRedefine, offset 0xa8, size 0x8
-  __declspec(property(get = __cordl_internal_get_rootSchemaForRedefine, put = __cordl_internal_set_rootSchemaForRedefine)) ::System::Xml::Schema::XmlSchema* rootSchemaForRedefine;
+/// @brief Field rootSchemaForRedefine, offset 0xa8, size 0x8 
+ __declspec(property(get=__cordl_internal_get_rootSchemaForRedefine, put=__cordl_internal_set_rootSchemaForRedefine)) ::System::Xml::Schema::XmlSchema*  rootSchemaForRedefine;
 
-  /// @brief Field schemaLocations, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get_schemaLocations, put = __cordl_internal_set_schemaLocations)) ::System::Collections::Hashtable* schemaLocations;
+/// @brief Field schemaLocations, offset 0x78, size 0x8 
+ __declspec(property(get=__cordl_internal_get_schemaLocations, put=__cordl_internal_set_schemaLocations)) ::System::Collections::Hashtable*  schemaLocations;
 
-  /// @brief Field targetNamespace, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_targetNamespace, put = __cordl_internal_set_targetNamespace)) ::StringW targetNamespace;
+/// @brief Field targetNamespace, offset 0x50, size 0x8 
+ __declspec(property(get=__cordl_internal_get_targetNamespace, put=__cordl_internal_set_targetNamespace)) ::StringW  targetNamespace;
 
-  /// @brief Field xmlResolver, offset 0xb8, size 0x8
-  __declspec(property(get = __cordl_internal_get_xmlResolver, put = __cordl_internal_set_xmlResolver)) ::System::Xml::XmlResolver* xmlResolver;
+/// @brief Field xmlResolver, offset 0xb8, size 0x8 
+ __declspec(property(get=__cordl_internal_get_xmlResolver, put=__cordl_internal_set_xmlResolver)) ::System::Xml::XmlResolver*  xmlResolver;
 
-  /// @brief Method BuildRefNamespaces, addr 0x602fd40, size 0x22c, virtual false, abstract: false, final false
-  inline void BuildRefNamespaces(::System::Xml::Schema::XmlSchema* schema);
+/// @brief Method BuildRefNamespaces, addr 0x6030400, size 0x22c, virtual false, abstract: false, final false
+inline void BuildRefNamespaces(::System::Xml::Schema::XmlSchema*  schema) ;
 
-  /// @brief Method BuildSchemaList, addr 0x602d61c, size 0x17c, virtual false, abstract: false, final false
-  inline void BuildSchemaList(::System::Xml::Schema::XmlSchema* schema);
+/// @brief Method BuildSchemaList, addr 0x602dcdc, size 0x17c, virtual false, abstract: false, final false
+inline void BuildSchemaList(::System::Xml::Schema::XmlSchema*  schema) ;
 
-  /// @brief Method CheckRefinedAttributeGroup, addr 0x6033190, size 0x174, virtual false, abstract: false, final false
-  inline void CheckRefinedAttributeGroup(::System::Xml::Schema::XmlSchemaAttributeGroup* attributeGroup);
+/// @brief Method CheckRefinedAttributeGroup, addr 0x6033850, size 0x174, virtual false, abstract: false, final false
+inline void CheckRefinedAttributeGroup(::System::Xml::Schema::XmlSchemaAttributeGroup*  attributeGroup) ;
 
-  /// @brief Method CheckRefinedComplexType, addr 0x6033304, size 0x334, virtual false, abstract: false, final false
-  inline void CheckRefinedComplexType(::System::Xml::Schema::XmlSchemaComplexType* ctype);
+/// @brief Method CheckRefinedComplexType, addr 0x60339c4, size 0x334, virtual false, abstract: false, final false
+inline void CheckRefinedComplexType(::System::Xml::Schema::XmlSchemaComplexType*  ctype) ;
 
-  /// @brief Method CheckRefinedGroup, addr 0x60330e4, size 0xac, virtual false, abstract: false, final false
-  inline void CheckRefinedGroup(::System::Xml::Schema::XmlSchemaGroup* group);
+/// @brief Method CheckRefinedGroup, addr 0x60337a4, size 0xac, virtual false, abstract: false, final false
+inline void CheckRefinedGroup(::System::Xml::Schema::XmlSchemaGroup*  group) ;
 
-  /// @brief Method CheckRefinedSimpleType, addr 0x6033638, size 0x10c, virtual false, abstract: false, final false
-  inline void CheckRefinedSimpleType(::System::Xml::Schema::XmlSchemaSimpleType* stype);
+/// @brief Method CheckRefinedSimpleType, addr 0x6033cf8, size 0x10c, virtual false, abstract: false, final false
+inline void CheckRefinedSimpleType(::System::Xml::Schema::XmlSchemaSimpleType*  stype) ;
 
-  /// @brief Method Cleanup, addr 0x602f55c, size 0xd4, virtual false, abstract: false, final false
-  inline void Cleanup(::System::Xml::Schema::XmlSchema* schema);
+/// @brief Method Cleanup, addr 0x602fc1c, size 0xd4, virtual false, abstract: false, final false
+inline void Cleanup(::System::Xml::Schema::XmlSchema*  schema) ;
 
-  /// @brief Method CleanupRedefine, addr 0x602fc10, size 0xa4, virtual false, abstract: false, final false
-  inline void CleanupRedefine(::System::Xml::Schema::XmlSchemaExternal* include);
+/// @brief Method CleanupRedefine, addr 0x60302d0, size 0xa4, virtual false, abstract: false, final false
+inline void CleanupRedefine(::System::Xml::Schema::XmlSchemaExternal*  include) ;
 
-  /// @brief Method CopyIncludedComponents, addr 0x60305a0, size 0x1154, virtual false, abstract: false, final false
-  inline void CopyIncludedComponents(::System::Xml::Schema::XmlSchema* includedSchema, ::System::Xml::Schema::XmlSchema* schema);
+/// @brief Method CopyIncludedComponents, addr 0x6030c60, size 0x1154, virtual false, abstract: false, final false
+inline void CopyIncludedComponents(::System::Xml::Schema::XmlSchema*  includedSchema, ::System::Xml::Schema::XmlSchema*  schema) ;
 
-  /// @brief Method CountGroupSelfReference, addr 0x6033744, size 0x2f0, virtual false, abstract: false, final false
-  inline int32_t CountGroupSelfReference(::System::Xml::Schema::XmlSchemaObjectCollection* items, ::System::Xml::XmlQualifiedName* name, ::System::Xml::Schema::XmlSchemaGroup* redefined);
+/// @brief Method CountGroupSelfReference, addr 0x6033e04, size 0x2f0, virtual false, abstract: false, final false
+inline int32_t CountGroupSelfReference(::System::Xml::Schema::XmlSchemaObjectCollection*  items, ::System::Xml::XmlQualifiedName*  name, ::System::Xml::Schema::XmlSchemaGroup*  redefined) ;
 
-  /// @brief Method Execute, addr 0x602c3dc, size 0x4b0, virtual false, abstract: false, final false
-  inline bool Execute(::System::Xml::Schema::XmlSchema* schema, ::StringW targetNamespace, bool loadExternals);
+/// @brief Method Execute, addr 0x602ca9c, size 0x4b0, virtual false, abstract: false, final false
+inline bool Execute(::System::Xml::Schema::XmlSchema*  schema, ::StringW  targetNamespace, bool  loadExternals) ;
 
-  /// @brief Method GetBuildInSchema, addr 0x602f630, size 0x5e0, virtual false, abstract: false, final false
-  static inline ::System::Xml::Schema::XmlSchema* GetBuildInSchema();
+/// @brief Method GetBuildInSchema, addr 0x602fcf0, size 0x5e0, virtual false, abstract: false, final false
+static inline ::System::Xml::Schema::XmlSchema* GetBuildInSchema() ;
 
-  /// @brief Method GetChameleonSchema, addr 0x602c88c, size 0x138, virtual false, abstract: false, final false
-  inline ::System::Xml::Schema::XmlSchema* GetChameleonSchema(::StringW targetNamespace, ::System::Xml::Schema::XmlSchema* schema);
+/// @brief Method GetChameleonSchema, addr 0x602cf4c, size 0x138, virtual false, abstract: false, final false
+inline ::System::Xml::Schema::XmlSchema* GetChameleonSchema(::StringW  targetNamespace, ::System::Xml::Schema::XmlSchema*  schema) ;
 
-  /// @brief Method GetIncludedSet, addr 0x6032fa4, size 0x140, virtual false, abstract: false, final false
-  inline void GetIncludedSet(::System::Xml::Schema::XmlSchema* schema, ::System::Collections::ArrayList* includesList);
+/// @brief Method GetIncludedSet, addr 0x6033664, size 0x140, virtual false, abstract: false, final false
+inline void GetIncludedSet(::System::Xml::Schema::XmlSchema*  schema, ::System::Collections::ArrayList*  includesList) ;
 
-  /// @brief Method GetParentSchema, addr 0x6032f18, size 0x8c, virtual false, abstract: false, final false
-  static inline ::System::Xml::Schema::XmlSchema* GetParentSchema(::System::Xml::Schema::XmlSchemaObject* currentSchemaObject);
+/// @brief Method GetParentSchema, addr 0x60335d8, size 0x8c, virtual false, abstract: false, final false
+static inline ::System::Xml::Schema::XmlSchema* GetParentSchema(::System::Xml::Schema::XmlSchemaObject*  currentSchemaObject) ;
 
-  /// @brief Method GetSchemaEntity, addr 0x602fd1c, size 0x24, virtual false, abstract: false, final false
-  inline ::System::Object* GetSchemaEntity(::System::Uri* ruri);
+/// @brief Method GetSchemaEntity, addr 0x60303dc, size 0x24, virtual false, abstract: false, final false
+inline ::System::Object* GetSchemaEntity(::System::Uri*  ruri) ;
 
-  /// @brief Method LoadExternals, addr 0x602c9c4, size 0xc58, virtual false, abstract: false, final false
-  inline void LoadExternals(::System::Xml::Schema::XmlSchema* schema);
+/// @brief Method LoadExternals, addr 0x602d084, size 0xc58, virtual false, abstract: false, final false
+inline void LoadExternals(::System::Xml::Schema::XmlSchema*  schema) ;
 
-  static inline ::System::Xml::Schema::Preprocessor* New_ctor(::System::Xml::XmlNameTable* nameTable, ::System::Xml::Schema::SchemaNames* schemaNames,
-                                                              ::System::Xml::Schema::ValidationEventHandler* eventHandler, ::System::Xml::Schema::XmlSchemaCompilationSettings* compilationSettings);
+static inline ::System::Xml::Schema::Preprocessor* New_ctor(::System::Xml::XmlNameTable*  nameTable, ::System::Xml::Schema::SchemaNames*  schemaNames, ::System::Xml::Schema::ValidationEventHandler*  eventHandler, ::System::Xml::Schema::XmlSchemaCompilationSettings*  compilationSettings) ;
 
-  /// @brief Method ParseUri, addr 0x602ff6c, size 0x150, virtual false, abstract: false, final false
-  inline void ParseUri(::StringW uri, ::StringW code, ::System::Xml::Schema::XmlSchemaObject* sourceSchemaObject);
+/// @brief Method ParseUri, addr 0x603062c, size 0x150, virtual false, abstract: false, final false
+inline void ParseUri(::StringW  uri, ::StringW  code, ::System::Xml::Schema::XmlSchemaObject*  sourceSchemaObject) ;
 
-  /// @brief Method Preprocess, addr 0x602d798, size 0x122c, virtual false, abstract: false, final false
-  inline void Preprocess(::System::Xml::Schema::XmlSchema* schema, ::StringW targetNamespace, ::System::Collections::ArrayList* imports);
+/// @brief Method Preprocess, addr 0x602de58, size 0x122c, virtual false, abstract: false, final false
+inline void Preprocess(::System::Xml::Schema::XmlSchema*  schema, ::StringW  targetNamespace, ::System::Collections::ArrayList*  imports) ;
 
-  /// @brief Method PreprocessAnnotation, addr 0x6032e98, size 0x80, virtual false, abstract: false, final false
-  inline void PreprocessAnnotation(::System::Xml::Schema::XmlSchemaAnnotation* annotation);
+/// @brief Method PreprocessAnnotation, addr 0x6033558, size 0x80, virtual false, abstract: false, final false
+inline void PreprocessAnnotation(::System::Xml::Schema::XmlSchemaAnnotation*  annotation) ;
 
-  /// @brief Method PreprocessAnnotation, addr 0x60300d0, size 0x98, virtual false, abstract: false, final false
-  inline void PreprocessAnnotation(::System::Xml::Schema::XmlSchemaObject* schemaObject);
+/// @brief Method PreprocessAnnotation, addr 0x6030790, size 0x98, virtual false, abstract: false, final false
+inline void PreprocessAnnotation(::System::Xml::Schema::XmlSchemaObject*  schemaObject) ;
 
-  /// @brief Method PreprocessAttribute, addr 0x60316f4, size 0x17c, virtual false, abstract: false, final false
-  inline void PreprocessAttribute(::System::Xml::Schema::XmlSchemaAttribute* attribute);
+/// @brief Method PreprocessAttribute, addr 0x6031db4, size 0x17c, virtual false, abstract: false, final false
+inline void PreprocessAttribute(::System::Xml::Schema::XmlSchemaAttribute*  attribute) ;
 
-  /// @brief Method PreprocessAttributeContent, addr 0x6033cd0, size 0x24c, virtual false, abstract: false, final false
-  inline void PreprocessAttributeContent(::System::Xml::Schema::XmlSchemaAttribute* attribute);
+/// @brief Method PreprocessAttributeContent, addr 0x6034390, size 0x24c, virtual false, abstract: false, final false
+inline void PreprocessAttributeContent(::System::Xml::Schema::XmlSchemaAttribute*  attribute) ;
 
-  /// @brief Method PreprocessAttributeGroup, addr 0x6031870, size 0x104, virtual false, abstract: false, final false
-  inline void PreprocessAttributeGroup(::System::Xml::Schema::XmlSchemaAttributeGroup* attributeGroup);
+/// @brief Method PreprocessAttributeGroup, addr 0x6031f30, size 0x104, virtual false, abstract: false, final false
+inline void PreprocessAttributeGroup(::System::Xml::Schema::XmlSchemaAttributeGroup*  attributeGroup) ;
 
-  /// @brief Method PreprocessAttributes, addr 0x603430c, size 0x37c, virtual false, abstract: false, final false
-  inline void PreprocessAttributes(::System::Xml::Schema::XmlSchemaObjectCollection* attributes, ::System::Xml::Schema::XmlSchemaAnyAttribute* anyAttribute,
-                                   ::System::Xml::Schema::XmlSchemaObject* parent);
+/// @brief Method PreprocessAttributes, addr 0x60349cc, size 0x37c, virtual false, abstract: false, final false
+inline void PreprocessAttributes(::System::Xml::Schema::XmlSchemaObjectCollection*  attributes, ::System::Xml::Schema::XmlSchemaAnyAttribute*  anyAttribute, ::System::Xml::Schema::XmlSchemaObject*  parent) ;
 
-  /// @brief Method PreprocessComplexType, addr 0x6031974, size 0x854, virtual false, abstract: false, final false
-  inline void PreprocessComplexType(::System::Xml::Schema::XmlSchemaComplexType* complexType, bool local);
+/// @brief Method PreprocessComplexType, addr 0x6032034, size 0x854, virtual false, abstract: false, final false
+inline void PreprocessComplexType(::System::Xml::Schema::XmlSchemaComplexType*  complexType, bool  local) ;
 
-  /// @brief Method PreprocessElement, addr 0x60327dc, size 0x26c, virtual false, abstract: false, final false
-  inline void PreprocessElement(::System::Xml::Schema::XmlSchemaElement* element);
+/// @brief Method PreprocessElement, addr 0x6032e9c, size 0x26c, virtual false, abstract: false, final false
+inline void PreprocessElement(::System::Xml::Schema::XmlSchemaElement*  element) ;
 
-  /// @brief Method PreprocessElementContent, addr 0x6034688, size 0x358, virtual false, abstract: false, final false
-  inline void PreprocessElementContent(::System::Xml::Schema::XmlSchemaElement* element);
+/// @brief Method PreprocessElementContent, addr 0x6034d48, size 0x358, virtual false, abstract: false, final false
+inline void PreprocessElementContent(::System::Xml::Schema::XmlSchemaElement*  element) ;
 
-  /// @brief Method PreprocessGroup, addr 0x6032a48, size 0x1d8, virtual false, abstract: false, final false
-  inline void PreprocessGroup(::System::Xml::Schema::XmlSchemaGroup* group);
+/// @brief Method PreprocessGroup, addr 0x6033108, size 0x1d8, virtual false, abstract: false, final false
+inline void PreprocessGroup(::System::Xml::Schema::XmlSchemaGroup*  group) ;
 
-  /// @brief Method PreprocessIdentityConstraint, addr 0x6034d78, size 0x388, virtual false, abstract: false, final false
-  inline void PreprocessIdentityConstraint(::System::Xml::Schema::XmlSchemaIdentityConstraint* constraint);
+/// @brief Method PreprocessIdentityConstraint, addr 0x6035438, size 0x388, virtual false, abstract: false, final false
+inline void PreprocessIdentityConstraint(::System::Xml::Schema::XmlSchemaIdentityConstraint*  constraint) ;
 
-  /// @brief Method PreprocessLocalAttribute, addr 0x6033f1c, size 0x1bc, virtual false, abstract: false, final false
-  inline void PreprocessLocalAttribute(::System::Xml::Schema::XmlSchemaAttribute* attribute);
+/// @brief Method PreprocessLocalAttribute, addr 0x60345dc, size 0x1bc, virtual false, abstract: false, final false
+inline void PreprocessLocalAttribute(::System::Xml::Schema::XmlSchemaAttribute*  attribute) ;
 
-  /// @brief Method PreprocessLocalElement, addr 0x60349e0, size 0x398, virtual false, abstract: false, final false
-  inline void PreprocessLocalElement(::System::Xml::Schema::XmlSchemaElement* element);
+/// @brief Method PreprocessLocalElement, addr 0x60350a0, size 0x398, virtual false, abstract: false, final false
+inline void PreprocessLocalElement(::System::Xml::Schema::XmlSchemaElement*  element) ;
 
-  /// @brief Method PreprocessNotation, addr 0x6032c20, size 0x278, virtual false, abstract: false, final false
-  inline void PreprocessNotation(::System::Xml::Schema::XmlSchemaNotation* notation);
+/// @brief Method PreprocessNotation, addr 0x60332e0, size 0x278, virtual false, abstract: false, final false
+inline void PreprocessNotation(::System::Xml::Schema::XmlSchemaNotation*  notation) ;
 
-  /// @brief Method PreprocessParticle, addr 0x6035100, size 0x8fc, virtual false, abstract: false, final false
-  inline void PreprocessParticle(::System::Xml::Schema::XmlSchemaParticle* particle);
+/// @brief Method PreprocessParticle, addr 0x60357c0, size 0x8fc, virtual false, abstract: false, final false
+inline void PreprocessParticle(::System::Xml::Schema::XmlSchemaParticle*  particle) ;
 
-  /// @brief Method PreprocessRedefine, addr 0x602e9c4, size 0xb98, virtual false, abstract: false, final false
-  inline void PreprocessRedefine(::System::Xml::Schema::RedefineEntry* redefineEntry);
+/// @brief Method PreprocessRedefine, addr 0x602f084, size 0xb98, virtual false, abstract: false, final false
+inline void PreprocessRedefine(::System::Xml::Schema::RedefineEntry*  redefineEntry) ;
 
-  /// @brief Method PreprocessSimpleType, addr 0x60321c8, size 0x614, virtual false, abstract: false, final false
-  inline void PreprocessSimpleType(::System::Xml::Schema::XmlSchemaSimpleType* simpleType, bool local);
+/// @brief Method PreprocessSimpleType, addr 0x6032888, size 0x614, virtual false, abstract: false, final false
+inline void PreprocessSimpleType(::System::Xml::Schema::XmlSchemaSimpleType*  simpleType, bool  local) ;
 
-  /// @brief Method ResolveSchemaLocationUri, addr 0x602fcdc, size 0x40, virtual false, abstract: false, final false
-  inline ::System::Uri* ResolveSchemaLocationUri(::System::Xml::Schema::XmlSchema* enclosingSchema, ::StringW location);
+/// @brief Method ResolveSchemaLocationUri, addr 0x603039c, size 0x40, virtual false, abstract: false, final false
+inline ::System::Uri* ResolveSchemaLocationUri(::System::Xml::Schema::XmlSchema*  enclosingSchema, ::StringW  location) ;
 
-  /// @brief Method SetParent, addr 0x60300bc, size 0x14, virtual false, abstract: false, final false
-  inline void SetParent(::System::Xml::Schema::XmlSchemaObject* child, ::System::Xml::Schema::XmlSchemaObject* parent);
+/// @brief Method SetParent, addr 0x603077c, size 0x14, virtual false, abstract: false, final false
+inline void SetParent(::System::Xml::Schema::XmlSchemaObject*  child, ::System::Xml::Schema::XmlSchemaObject*  parent) ;
 
-  /// @brief Method SetSchemaDefaults, addr 0x6030484, size 0x11c, virtual false, abstract: false, final false
-  inline void SetSchemaDefaults(::System::Xml::Schema::XmlSchema* schema);
+/// @brief Method SetSchemaDefaults, addr 0x6030b44, size 0x11c, virtual false, abstract: false, final false
+inline void SetSchemaDefaults(::System::Xml::Schema::XmlSchema*  schema) ;
 
-  /// @brief Method ValidateIdAttribute, addr 0x6030168, size 0x31c, virtual false, abstract: false, final false
-  inline void ValidateIdAttribute(::System::Xml::Schema::XmlSchemaObject* xso);
+/// @brief Method ValidateIdAttribute, addr 0x6030828, size 0x31c, virtual false, abstract: false, final false
+inline void ValidateIdAttribute(::System::Xml::Schema::XmlSchemaObject*  xso) ;
 
-  /// @brief Method ValidateNameAttribute, addr 0x6033a34, size 0x29c, virtual false, abstract: false, final false
-  inline void ValidateNameAttribute(::System::Xml::Schema::XmlSchemaObject* xso);
+/// @brief Method ValidateNameAttribute, addr 0x60340f4, size 0x29c, virtual false, abstract: false, final false
+inline void ValidateNameAttribute(::System::Xml::Schema::XmlSchemaObject*  xso) ;
 
-  /// @brief Method ValidateQNameAttribute, addr 0x60340d8, size 0x234, virtual false, abstract: false, final false
-  inline void ValidateQNameAttribute(::System::Xml::Schema::XmlSchemaObject* xso, ::StringW attributeName, ::System::Xml::XmlQualifiedName* value);
+/// @brief Method ValidateQNameAttribute, addr 0x6034798, size 0x234, virtual false, abstract: false, final false
+inline void ValidateQNameAttribute(::System::Xml::Schema::XmlSchemaObject*  xso, ::StringW  attributeName, ::System::Xml::XmlQualifiedName*  value) ;
 
-  constexpr ::StringW const& __cordl_internal_get_NsXsi() const;
+constexpr ::StringW const& __cordl_internal_get_NsXsi() const;
 
-  constexpr ::StringW& __cordl_internal_get_NsXsi();
+constexpr ::StringW& __cordl_internal_get_NsXsi() ;
 
-  constexpr ::StringW const& __cordl_internal_get_Xmlns() const;
+constexpr ::StringW const& __cordl_internal_get_Xmlns() const;
 
-  constexpr ::StringW& __cordl_internal_get_Xmlns();
+constexpr ::StringW& __cordl_internal_get_Xmlns() ;
 
-  constexpr ::System::Xml::Schema::XmlSchemaForm const& __cordl_internal_get_attributeFormDefault() const;
+constexpr ::System::Xml::Schema::XmlSchemaForm const& __cordl_internal_get_attributeFormDefault() const;
 
-  constexpr ::System::Xml::Schema::XmlSchemaForm& __cordl_internal_get_attributeFormDefault();
+constexpr ::System::Xml::Schema::XmlSchemaForm& __cordl_internal_get_attributeFormDefault() ;
 
-  constexpr ::System::Xml::Schema::XmlSchemaDerivationMethod const& __cordl_internal_get_blockDefault() const;
+constexpr ::System::Xml::Schema::XmlSchemaDerivationMethod const& __cordl_internal_get_blockDefault() const;
 
-  constexpr ::System::Xml::Schema::XmlSchemaDerivationMethod& __cordl_internal_get_blockDefault();
+constexpr ::System::Xml::Schema::XmlSchemaDerivationMethod& __cordl_internal_get_blockDefault() ;
 
-  constexpr ::System::Collections::Hashtable* const& __cordl_internal_get_chameleonSchemas() const;
+constexpr ::System::Collections::Hashtable* const& __cordl_internal_get_chameleonSchemas() const;
 
-  constexpr ::System::Collections::Hashtable*& __cordl_internal_get_chameleonSchemas();
+constexpr ::System::Collections::Hashtable*& __cordl_internal_get_chameleonSchemas() ;
 
-  constexpr ::System::Xml::Schema::XmlSchema* const& __cordl_internal_get_currentSchema() const;
+constexpr ::System::Xml::Schema::XmlSchema* const& __cordl_internal_get_currentSchema() const;
 
-  constexpr ::System::Xml::Schema::XmlSchema*& __cordl_internal_get_currentSchema();
+constexpr ::System::Xml::Schema::XmlSchema*& __cordl_internal_get_currentSchema() ;
 
-  constexpr ::System::Xml::Schema::XmlSchemaForm const& __cordl_internal_get_elementFormDefault() const;
+constexpr ::System::Xml::Schema::XmlSchemaForm const& __cordl_internal_get_elementFormDefault() const;
 
-  constexpr ::System::Xml::Schema::XmlSchemaForm& __cordl_internal_get_elementFormDefault();
+constexpr ::System::Xml::Schema::XmlSchemaForm& __cordl_internal_get_elementFormDefault() ;
 
-  constexpr ::System::Xml::Schema::XmlSchemaDerivationMethod const& __cordl_internal_get_finalDefault() const;
+constexpr ::System::Xml::Schema::XmlSchemaDerivationMethod const& __cordl_internal_get_finalDefault() const;
 
-  constexpr ::System::Xml::Schema::XmlSchemaDerivationMethod& __cordl_internal_get_finalDefault();
+constexpr ::System::Xml::Schema::XmlSchemaDerivationMethod& __cordl_internal_get_finalDefault() ;
 
-  constexpr ::System::Collections::SortedList* const& __cordl_internal_get_lockList() const;
+constexpr ::System::Collections::SortedList* const& __cordl_internal_get_lockList() const;
 
-  constexpr ::System::Collections::SortedList*& __cordl_internal_get_lockList();
+constexpr ::System::Collections::SortedList*& __cordl_internal_get_lockList() ;
 
-  constexpr ::System::Collections::Hashtable* const& __cordl_internal_get_processedExternals() const;
+constexpr ::System::Collections::Hashtable* const& __cordl_internal_get_processedExternals() const;
 
-  constexpr ::System::Collections::Hashtable*& __cordl_internal_get_processedExternals();
+constexpr ::System::Collections::Hashtable*& __cordl_internal_get_processedExternals() ;
 
-  constexpr ::System::Xml::XmlReaderSettings* const& __cordl_internal_get_readerSettings() const;
+constexpr ::System::Xml::XmlReaderSettings* const& __cordl_internal_get_readerSettings() const;
 
-  constexpr ::System::Xml::XmlReaderSettings*& __cordl_internal_get_readerSettings();
+constexpr ::System::Xml::XmlReaderSettings*& __cordl_internal_get_readerSettings() ;
 
-  constexpr ::System::Collections::ArrayList* const& __cordl_internal_get_redefinedList() const;
+constexpr ::System::Collections::ArrayList* const& __cordl_internal_get_redefinedList() const;
 
-  constexpr ::System::Collections::ArrayList*& __cordl_internal_get_redefinedList();
+constexpr ::System::Collections::ArrayList*& __cordl_internal_get_redefinedList() ;
 
-  constexpr ::System::Collections::Hashtable* const& __cordl_internal_get_referenceNamespaces() const;
+constexpr ::System::Collections::Hashtable* const& __cordl_internal_get_referenceNamespaces() const;
 
-  constexpr ::System::Collections::Hashtable*& __cordl_internal_get_referenceNamespaces();
+constexpr ::System::Collections::Hashtable*& __cordl_internal_get_referenceNamespaces() ;
 
-  constexpr ::System::Xml::Schema::XmlSchema* const& __cordl_internal_get_rootSchema() const;
+constexpr ::System::Xml::Schema::XmlSchema* const& __cordl_internal_get_rootSchema() const;
 
-  constexpr ::System::Xml::Schema::XmlSchema*& __cordl_internal_get_rootSchema();
+constexpr ::System::Xml::Schema::XmlSchema*& __cordl_internal_get_rootSchema() ;
 
-  constexpr ::System::Xml::Schema::XmlSchema* const& __cordl_internal_get_rootSchemaForRedefine() const;
+constexpr ::System::Xml::Schema::XmlSchema* const& __cordl_internal_get_rootSchemaForRedefine() const;
 
-  constexpr ::System::Xml::Schema::XmlSchema*& __cordl_internal_get_rootSchemaForRedefine();
+constexpr ::System::Xml::Schema::XmlSchema*& __cordl_internal_get_rootSchemaForRedefine() ;
 
-  constexpr ::System::Collections::Hashtable* const& __cordl_internal_get_schemaLocations() const;
+constexpr ::System::Collections::Hashtable* const& __cordl_internal_get_schemaLocations() const;
 
-  constexpr ::System::Collections::Hashtable*& __cordl_internal_get_schemaLocations();
+constexpr ::System::Collections::Hashtable*& __cordl_internal_get_schemaLocations() ;
 
-  constexpr ::StringW const& __cordl_internal_get_targetNamespace() const;
+constexpr ::StringW const& __cordl_internal_get_targetNamespace() const;
 
-  constexpr ::StringW& __cordl_internal_get_targetNamespace();
+constexpr ::StringW& __cordl_internal_get_targetNamespace() ;
 
-  constexpr ::System::Xml::XmlResolver* const& __cordl_internal_get_xmlResolver() const;
+constexpr ::System::Xml::XmlResolver* const& __cordl_internal_get_xmlResolver() const;
 
-  constexpr ::System::Xml::XmlResolver*& __cordl_internal_get_xmlResolver();
+constexpr ::System::Xml::XmlResolver*& __cordl_internal_get_xmlResolver() ;
 
-  constexpr void __cordl_internal_set_NsXsi(::StringW value);
+constexpr void __cordl_internal_set_NsXsi(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_Xmlns(::StringW value);
+constexpr void __cordl_internal_set_Xmlns(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_attributeFormDefault(::System::Xml::Schema::XmlSchemaForm value);
+constexpr void __cordl_internal_set_attributeFormDefault(::System::Xml::Schema::XmlSchemaForm  value) ;
 
-  constexpr void __cordl_internal_set_blockDefault(::System::Xml::Schema::XmlSchemaDerivationMethod value);
+constexpr void __cordl_internal_set_blockDefault(::System::Xml::Schema::XmlSchemaDerivationMethod  value) ;
 
-  constexpr void __cordl_internal_set_chameleonSchemas(::System::Collections::Hashtable* value);
+constexpr void __cordl_internal_set_chameleonSchemas(::System::Collections::Hashtable*  value) ;
 
-  constexpr void __cordl_internal_set_currentSchema(::System::Xml::Schema::XmlSchema* value);
+constexpr void __cordl_internal_set_currentSchema(::System::Xml::Schema::XmlSchema*  value) ;
 
-  constexpr void __cordl_internal_set_elementFormDefault(::System::Xml::Schema::XmlSchemaForm value);
+constexpr void __cordl_internal_set_elementFormDefault(::System::Xml::Schema::XmlSchemaForm  value) ;
 
-  constexpr void __cordl_internal_set_finalDefault(::System::Xml::Schema::XmlSchemaDerivationMethod value);
+constexpr void __cordl_internal_set_finalDefault(::System::Xml::Schema::XmlSchemaDerivationMethod  value) ;
 
-  constexpr void __cordl_internal_set_lockList(::System::Collections::SortedList* value);
+constexpr void __cordl_internal_set_lockList(::System::Collections::SortedList*  value) ;
 
-  constexpr void __cordl_internal_set_processedExternals(::System::Collections::Hashtable* value);
+constexpr void __cordl_internal_set_processedExternals(::System::Collections::Hashtable*  value) ;
 
-  constexpr void __cordl_internal_set_readerSettings(::System::Xml::XmlReaderSettings* value);
+constexpr void __cordl_internal_set_readerSettings(::System::Xml::XmlReaderSettings*  value) ;
 
-  constexpr void __cordl_internal_set_redefinedList(::System::Collections::ArrayList* value);
+constexpr void __cordl_internal_set_redefinedList(::System::Collections::ArrayList*  value) ;
 
-  constexpr void __cordl_internal_set_referenceNamespaces(::System::Collections::Hashtable* value);
+constexpr void __cordl_internal_set_referenceNamespaces(::System::Collections::Hashtable*  value) ;
 
-  constexpr void __cordl_internal_set_rootSchema(::System::Xml::Schema::XmlSchema* value);
+constexpr void __cordl_internal_set_rootSchema(::System::Xml::Schema::XmlSchema*  value) ;
 
-  constexpr void __cordl_internal_set_rootSchemaForRedefine(::System::Xml::Schema::XmlSchema* value);
+constexpr void __cordl_internal_set_rootSchemaForRedefine(::System::Xml::Schema::XmlSchema*  value) ;
 
-  constexpr void __cordl_internal_set_schemaLocations(::System::Collections::Hashtable* value);
+constexpr void __cordl_internal_set_schemaLocations(::System::Collections::Hashtable*  value) ;
 
-  constexpr void __cordl_internal_set_targetNamespace(::StringW value);
+constexpr void __cordl_internal_set_targetNamespace(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_xmlResolver(::System::Xml::XmlResolver* value);
+constexpr void __cordl_internal_set_xmlResolver(::System::Xml::XmlResolver*  value) ;
 
-  /// @brief Method .ctor, addr 0x602c2f8, size 0xe4, virtual false, abstract: false, final false
-  inline void _ctor(::System::Xml::XmlNameTable* nameTable, ::System::Xml::Schema::SchemaNames* schemaNames, ::System::Xml::Schema::ValidationEventHandler* eventHandler,
-                    ::System::Xml::Schema::XmlSchemaCompilationSettings* compilationSettings);
+/// @brief Method .ctor, addr 0x602c9b8, size 0xe4, virtual false, abstract: false, final false
+inline void _ctor(::System::Xml::XmlNameTable*  nameTable, ::System::Xml::Schema::SchemaNames*  schemaNames, ::System::Xml::Schema::ValidationEventHandler*  eventHandler, ::System::Xml::Schema::XmlSchemaCompilationSettings*  compilationSettings) ;
 
-  static inline ::System::Xml::Schema::XmlSchema* getStaticF_builtInSchemaForXmlNS();
+static inline ::System::Xml::Schema::XmlSchema* getStaticF_builtInSchemaForXmlNS() ;
 
-  /// @brief Method get_RootSchema, addr 0x602fcd4, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Xml::Schema::XmlSchema* get_RootSchema();
+/// @brief Method get_RootSchema, addr 0x6030394, size 0x8, virtual false, abstract: false, final false
+inline ::System::Xml::Schema::XmlSchema* get_RootSchema() ;
 
-  static inline void setStaticF_builtInSchemaForXmlNS(::System::Xml::Schema::XmlSchema* value);
+static inline void setStaticF_builtInSchemaForXmlNS(::System::Xml::Schema::XmlSchema*  value) ;
 
-  /// @brief Method set_ChameleonSchemas, addr 0x602fccc, size 0x8, virtual false, abstract: false, final false
-  inline void set_ChameleonSchemas(::System::Collections::Hashtable* value);
+/// @brief Method set_ChameleonSchemas, addr 0x603038c, size 0x8, virtual false, abstract: false, final false
+inline void set_ChameleonSchemas(::System::Collections::Hashtable*  value) ;
 
-  /// @brief Method set_ReaderSettings, addr 0x602fcbc, size 0x8, virtual false, abstract: false, final false
-  inline void set_ReaderSettings(::System::Xml::XmlReaderSettings* value);
+/// @brief Method set_ReaderSettings, addr 0x603037c, size 0x8, virtual false, abstract: false, final false
+inline void set_ReaderSettings(::System::Xml::XmlReaderSettings*  value) ;
 
-  /// @brief Method set_SchemaLocations, addr 0x602fcc4, size 0x8, virtual false, abstract: false, final false
-  inline void set_SchemaLocations(::System::Collections::Hashtable* value);
+/// @brief Method set_SchemaLocations, addr 0x6030384, size 0x8, virtual false, abstract: false, final false
+inline void set_SchemaLocations(::System::Collections::Hashtable*  value) ;
 
-  /// @brief Method set_XmlResolver, addr 0x602fcb4, size 0x8, virtual false, abstract: false, final false
-  inline void set_XmlResolver(::System::Xml::XmlResolver* value);
+/// @brief Method set_XmlResolver, addr 0x6030374, size 0x8, virtual false, abstract: false, final false
+inline void set_XmlResolver(::System::Xml::XmlResolver*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Preprocessor();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr Preprocessor() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Preprocessor", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  Preprocessor(Preprocessor&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Preprocessor", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  Preprocessor(Preprocessor const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "Preprocessor", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+Preprocessor(Preprocessor && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9679 };
+// Ctor Parameters [CppParam { name: "", ty: "Preprocessor", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+Preprocessor(Preprocessor const& ) = delete;
 
-  /// @brief Field Xmlns, offset: 0x40, size: 0x8, def value: None
-  ::StringW ___Xmlns;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{9683};
 
-  /// @brief Field NsXsi, offset: 0x48, size: 0x8, def value: None
-  ::StringW ___NsXsi;
+/// @brief Field Xmlns, offset: 0x40, size: 0x8, def value: None
+ ::StringW  ___Xmlns;
 
-  /// @brief Field targetNamespace, offset: 0x50, size: 0x8, def value: None
-  ::StringW ___targetNamespace;
+/// @brief Field NsXsi, offset: 0x48, size: 0x8, def value: None
+ ::StringW  ___NsXsi;
 
-  /// @brief Field rootSchema, offset: 0x58, size: 0x8, def value: None
-  ::System::Xml::Schema::XmlSchema* ___rootSchema;
+/// @brief Field targetNamespace, offset: 0x50, size: 0x8, def value: None
+ ::StringW  ___targetNamespace;
 
-  /// @brief Field currentSchema, offset: 0x60, size: 0x8, def value: None
-  ::System::Xml::Schema::XmlSchema* ___currentSchema;
+/// @brief Field rootSchema, offset: 0x58, size: 0x8, def value: None
+ ::System::Xml::Schema::XmlSchema*  ___rootSchema;
 
-  /// @brief Field elementFormDefault, offset: 0x68, size: 0x4, def value: None
-  ::System::Xml::Schema::XmlSchemaForm ___elementFormDefault;
+/// @brief Field currentSchema, offset: 0x60, size: 0x8, def value: None
+ ::System::Xml::Schema::XmlSchema*  ___currentSchema;
 
-  /// @brief Field attributeFormDefault, offset: 0x6c, size: 0x4, def value: None
-  ::System::Xml::Schema::XmlSchemaForm ___attributeFormDefault;
+/// @brief Field elementFormDefault, offset: 0x68, size: 0x4, def value: None
+ ::System::Xml::Schema::XmlSchemaForm  ___elementFormDefault;
 
-  /// @brief Field blockDefault, offset: 0x70, size: 0x4, def value: None
-  ::System::Xml::Schema::XmlSchemaDerivationMethod ___blockDefault;
+/// @brief Field attributeFormDefault, offset: 0x6c, size: 0x4, def value: None
+ ::System::Xml::Schema::XmlSchemaForm  ___attributeFormDefault;
 
-  /// @brief Field finalDefault, offset: 0x74, size: 0x4, def value: None
-  ::System::Xml::Schema::XmlSchemaDerivationMethod ___finalDefault;
+/// @brief Field blockDefault, offset: 0x70, size: 0x4, def value: None
+ ::System::Xml::Schema::XmlSchemaDerivationMethod  ___blockDefault;
 
-  /// @brief Field schemaLocations, offset: 0x78, size: 0x8, def value: None
-  ::System::Collections::Hashtable* ___schemaLocations;
+/// @brief Field finalDefault, offset: 0x74, size: 0x4, def value: None
+ ::System::Xml::Schema::XmlSchemaDerivationMethod  ___finalDefault;
 
-  /// @brief Field chameleonSchemas, offset: 0x80, size: 0x8, def value: None
-  ::System::Collections::Hashtable* ___chameleonSchemas;
+/// @brief Field schemaLocations, offset: 0x78, size: 0x8, def value: None
+ ::System::Collections::Hashtable*  ___schemaLocations;
 
-  /// @brief Field referenceNamespaces, offset: 0x88, size: 0x8, def value: None
-  ::System::Collections::Hashtable* ___referenceNamespaces;
+/// @brief Field chameleonSchemas, offset: 0x80, size: 0x8, def value: None
+ ::System::Collections::Hashtable*  ___chameleonSchemas;
 
-  /// @brief Field processedExternals, offset: 0x90, size: 0x8, def value: None
-  ::System::Collections::Hashtable* ___processedExternals;
+/// @brief Field referenceNamespaces, offset: 0x88, size: 0x8, def value: None
+ ::System::Collections::Hashtable*  ___referenceNamespaces;
 
-  /// @brief Field lockList, offset: 0x98, size: 0x8, def value: None
-  ::System::Collections::SortedList* ___lockList;
+/// @brief Field processedExternals, offset: 0x90, size: 0x8, def value: None
+ ::System::Collections::Hashtable*  ___processedExternals;
 
-  /// @brief Field readerSettings, offset: 0xa0, size: 0x8, def value: None
-  ::System::Xml::XmlReaderSettings* ___readerSettings;
+/// @brief Field lockList, offset: 0x98, size: 0x8, def value: None
+ ::System::Collections::SortedList*  ___lockList;
 
-  /// @brief Field rootSchemaForRedefine, offset: 0xa8, size: 0x8, def value: None
-  ::System::Xml::Schema::XmlSchema* ___rootSchemaForRedefine;
+/// @brief Field readerSettings, offset: 0xa0, size: 0x8, def value: None
+ ::System::Xml::XmlReaderSettings*  ___readerSettings;
 
-  /// @brief Field redefinedList, offset: 0xb0, size: 0x8, def value: None
-  ::System::Collections::ArrayList* ___redefinedList;
+/// @brief Field rootSchemaForRedefine, offset: 0xa8, size: 0x8, def value: None
+ ::System::Xml::Schema::XmlSchema*  ___rootSchemaForRedefine;
 
-  /// @brief Field xmlResolver, offset: 0xb8, size: 0x8, def value: None
-  ::System::Xml::XmlResolver* ___xmlResolver;
+/// @brief Field redefinedList, offset: 0xb0, size: 0x8, def value: None
+ ::System::Collections::ArrayList*  ___redefinedList;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field xmlResolver, offset: 0xb8, size: 0x8, def value: None
+ ::System::Xml::XmlResolver*  ___xmlResolver;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Xml::Schema::Preprocessor, ___Xmlns) == 0x40, "Offset mismatch!");
@@ -546,6 +543,6 @@ static_assert(offsetof(::System::Xml::Schema::Preprocessor, ___xmlResolver) == 0
 
 static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::Preprocessor, 0xc0>, "Size mismatch!");
 
-} // namespace System::Xml::Schema
+} // namespace end def System::Xml::Schema
 NEED_NO_BOX(::System::Xml::Schema::Preprocessor);
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::Preprocessor*, "System.Xml.Schema", "Preprocessor");

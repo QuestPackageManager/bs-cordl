@@ -25,66 +25,66 @@ namespace System::IO {
 // CS Name: System.IO.UnexceptionalStreamReader
 class CORDL_TYPE UnexceptionalStreamReader : public ::System::IO::StreamReader {
 public:
-  // Declarations
-  /// @brief Field newline, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_newline, put = setStaticF_newline)) ::ArrayW<bool, ::Array<bool>*> newline;
+// Declarations
+/// @brief Field newline, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_newline, put=setStaticF_newline)) ::ArrayW<bool,::Array<bool>*>  newline;
 
-  /// @brief Field newlineChar, offset 0xffffffff, size 0x2
-  __declspec(property(get = getStaticF_newlineChar, put = setStaticF_newlineChar)) char16_t newlineChar;
+/// @brief Field newlineChar, offset 0xffffffff, size 0x2 
+ __declspec(property(get=getStaticF_newlineChar, put=setStaticF_newlineChar)) char16_t  newlineChar;
 
-  /// @brief Method CheckEOL, addr 0x5a7182c, size 0x1a4, virtual false, abstract: false, final false
-  inline bool CheckEOL(char16_t current);
+/// @brief Method CheckEOL, addr 0x5a71d38, size 0x1a4, virtual false, abstract: false, final false
+inline bool CheckEOL(char16_t  current) ;
 
-  static inline ::System::IO::UnexceptionalStreamReader* New_ctor(::System::IO::Stream* stream, ::System::Text::Encoding* encoding);
+static inline ::System::IO::UnexceptionalStreamReader* New_ctor(::System::IO::Stream*  stream, ::System::Text::Encoding*  encoding) ;
 
-  /// @brief Method Peek, addr 0x5a71488, size 0x8c, virtual true, abstract: false, final false
-  inline int32_t Peek();
+/// @brief Method Peek, addr 0x5a71994, size 0x8c, virtual true, abstract: false, final false
+inline int32_t Peek() ;
 
-  /// @brief Method Read, addr 0x5a71514, size 0x8c, virtual true, abstract: false, final false
-  inline int32_t Read();
+/// @brief Method Read, addr 0x5a71a20, size 0x8c, virtual true, abstract: false, final false
+inline int32_t Read() ;
 
-  /// @brief Method Read, addr 0x5a715a0, size 0x28c, virtual true, abstract: false, final false
-  inline int32_t Read(::ByRef<::ArrayW<char16_t, ::Array<char16_t>*>> dest_buffer, int32_t index, int32_t count);
+/// @brief Method Read, addr 0x5a71aac, size 0x28c, virtual true, abstract: false, final false
+inline int32_t Read(::ByRef<::ArrayW<char16_t,::Array<char16_t>*>>  dest_buffer, int32_t  index, int32_t  count) ;
 
-  /// @brief Method ReadLine, addr 0x5a719d0, size 0x8c, virtual true, abstract: false, final false
-  inline ::StringW ReadLine();
+/// @brief Method ReadLine, addr 0x5a71edc, size 0x8c, virtual true, abstract: false, final false
+inline ::StringW ReadLine() ;
 
-  /// @brief Method ReadToEnd, addr 0x5a71a5c, size 0x8c, virtual true, abstract: false, final false
-  inline ::StringW ReadToEnd();
+/// @brief Method ReadToEnd, addr 0x5a71f68, size 0x8c, virtual true, abstract: false, final false
+inline ::StringW ReadToEnd() ;
 
-  /// @brief Method .ctor, addr 0x5a7140c, size 0x7c, virtual false, abstract: false, final false
-  inline void _ctor(::System::IO::Stream* stream, ::System::Text::Encoding* encoding);
+/// @brief Method .ctor, addr 0x5a71918, size 0x7c, virtual false, abstract: false, final false
+inline void _ctor(::System::IO::Stream*  stream, ::System::Text::Encoding*  encoding) ;
 
-  static inline ::ArrayW<bool, ::Array<bool>*> getStaticF_newline();
+static inline ::ArrayW<bool,::Array<bool>*> getStaticF_newline() ;
 
-  static inline char16_t getStaticF_newlineChar();
+static inline char16_t getStaticF_newlineChar() ;
 
-  static inline void setStaticF_newline(::ArrayW<bool, ::Array<bool>*> value);
+static inline void setStaticF_newline(::ArrayW<bool,::Array<bool>*>  value) ;
 
-  static inline void setStaticF_newlineChar(char16_t value);
+static inline void setStaticF_newlineChar(char16_t  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr UnexceptionalStreamReader();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr UnexceptionalStreamReader() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UnexceptionalStreamReader", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  UnexceptionalStreamReader(UnexceptionalStreamReader&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UnexceptionalStreamReader", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  UnexceptionalStreamReader(UnexceptionalStreamReader const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "UnexceptionalStreamReader", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+UnexceptionalStreamReader(UnexceptionalStreamReader && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3919 };
+// Ctor Parameters [CppParam { name: "", ty: "UnexceptionalStreamReader", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+UnexceptionalStreamReader(UnexceptionalStreamReader const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{3919};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::IO::UnexceptionalStreamReader, 0x60>, "Size mismatch!");
 
-} // namespace System::IO
+} // namespace end def System::IO
 NEED_NO_BOX(::System::IO::UnexceptionalStreamReader);
 DEFINE_IL2CPP_ARG_TYPE(::System::IO::UnexceptionalStreamReader*, "System.IO", "UnexceptionalStreamReader");

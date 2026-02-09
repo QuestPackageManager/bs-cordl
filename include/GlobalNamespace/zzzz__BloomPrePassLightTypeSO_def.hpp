@@ -21,64 +21,64 @@ namespace GlobalNamespace {
 // CS Name: BloomPrePassLightTypeSO
 class CORDL_TYPE BloomPrePassLightTypeSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
-  // Declarations
-  /// @brief Field _material, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__material, put = __cordl_internal_set__material)) ::UnityW<::UnityEngine::Material> _material;
+// Declarations
+/// @brief Field _material, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get__material, put=__cordl_internal_set__material)) ::UnityW<::UnityEngine::Material>  _material;
 
-  /// @brief Field _renderingPriority, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get__renderingPriority, put = __cordl_internal_set__renderingPriority)) int32_t _renderingPriority;
+/// @brief Field _renderingPriority, offset 0x18, size 0x4 
+ __declspec(property(get=__cordl_internal_get__renderingPriority, put=__cordl_internal_set__renderingPriority)) int32_t  _renderingPriority;
 
-  __declspec(property(get = get_material)) ::UnityW<::UnityEngine::Material> material;
+ __declspec(property(get=get_material)) ::UnityW<::UnityEngine::Material>  material;
 
-  __declspec(property(get = get_renderingPriority)) int32_t renderingPriority;
+ __declspec(property(get=get_renderingPriority)) int32_t  renderingPriority;
 
-  static inline ::GlobalNamespace::BloomPrePassLightTypeSO* New_ctor();
+static inline ::GlobalNamespace::BloomPrePassLightTypeSO* New_ctor() ;
 
-  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get__material() const;
+constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get__material() const;
 
-  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get__material();
+constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get__material() ;
 
-  constexpr int32_t const& __cordl_internal_get__renderingPriority() const;
+constexpr int32_t const& __cordl_internal_get__renderingPriority() const;
 
-  constexpr int32_t& __cordl_internal_get__renderingPriority();
+constexpr int32_t& __cordl_internal_get__renderingPriority() ;
 
-  constexpr void __cordl_internal_set__material(::UnityW<::UnityEngine::Material> value);
+constexpr void __cordl_internal_set__material(::UnityW<::UnityEngine::Material>  value) ;
 
-  constexpr void __cordl_internal_set__renderingPriority(int32_t value);
+constexpr void __cordl_internal_set__renderingPriority(int32_t  value) ;
 
-  /// @brief Method .ctor, addr 0x56b10f8, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x56b0e80, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_material, addr 0x56b10f0, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::Material> get_material();
+/// @brief Method get_material, addr 0x56b0e78, size 0x8, virtual false, abstract: false, final false
+inline ::UnityW<::UnityEngine::Material> get_material() ;
 
-  /// @brief Method get_renderingPriority, addr 0x56b10e8, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_renderingPriority();
+/// @brief Method get_renderingPriority, addr 0x56b0e70, size 0x8, virtual false, abstract: false, final false
+inline int32_t get_renderingPriority() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BloomPrePassLightTypeSO();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr BloomPrePassLightTypeSO() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassLightTypeSO", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  BloomPrePassLightTypeSO(BloomPrePassLightTypeSO&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassLightTypeSO", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  BloomPrePassLightTypeSO(BloomPrePassLightTypeSO const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "BloomPrePassLightTypeSO", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+BloomPrePassLightTypeSO(BloomPrePassLightTypeSO && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19661 };
+// Ctor Parameters [CppParam { name: "", ty: "BloomPrePassLightTypeSO", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+BloomPrePassLightTypeSO(BloomPrePassLightTypeSO const& ) = delete;
 
-  /// @brief Field _renderingPriority, offset: 0x18, size: 0x4, def value: None
-  int32_t ____renderingPriority;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{19665};
 
-  /// @brief Field _material, offset: 0x20, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::Material> ____material;
+/// @brief Field _renderingPriority, offset: 0x18, size: 0x4, def value: None
+ int32_t  ____renderingPriority;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _material, offset: 0x20, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::Material>  ____material;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::BloomPrePassLightTypeSO, ____renderingPriority) == 0x18, "Offset mismatch!");
@@ -87,6 +87,6 @@ static_assert(offsetof(::GlobalNamespace::BloomPrePassLightTypeSO, ____material)
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BloomPrePassLightTypeSO, 0x28>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BloomPrePassLightTypeSO);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BloomPrePassLightTypeSO*, "", "BloomPrePassLightTypeSO");

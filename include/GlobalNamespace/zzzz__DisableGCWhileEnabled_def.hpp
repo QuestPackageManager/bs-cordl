@@ -17,40 +17,40 @@ namespace GlobalNamespace {
 // CS Name: DisableGCWhileEnabled
 class CORDL_TYPE DisableGCWhileEnabled : public ::UnityEngine::MonoBehaviour {
 public:
-  // Declarations
-  static inline ::GlobalNamespace::DisableGCWhileEnabled* New_ctor();
+// Declarations
+static inline ::GlobalNamespace::DisableGCWhileEnabled* New_ctor() ;
 
-  /// @brief Method OnDisable, addr 0x56a1360, size 0xc, virtual false, abstract: false, final false
-  inline void OnDisable();
+/// @brief Method OnDisable, addr 0x56a10e8, size 0xc, virtual false, abstract: false, final false
+inline void OnDisable() ;
 
-  /// @brief Method OnEnable, addr 0x56a1354, size 0xc, virtual false, abstract: false, final false
-  inline void OnEnable();
+/// @brief Method OnEnable, addr 0x56a10dc, size 0xc, virtual false, abstract: false, final false
+inline void OnEnable() ;
 
-  /// @brief Method .ctor, addr 0x56a136c, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x56a10f4, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DisableGCWhileEnabled();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr DisableGCWhileEnabled() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DisableGCWhileEnabled", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  DisableGCWhileEnabled(DisableGCWhileEnabled&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DisableGCWhileEnabled", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  DisableGCWhileEnabled(DisableGCWhileEnabled const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "DisableGCWhileEnabled", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+DisableGCWhileEnabled(DisableGCWhileEnabled && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20255 };
+// Ctor Parameters [CppParam { name: "", ty: "DisableGCWhileEnabled", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+DisableGCWhileEnabled(DisableGCWhileEnabled const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20259};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::DisableGCWhileEnabled, 0x20>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::DisableGCWhileEnabled);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::DisableGCWhileEnabled*, "", "DisableGCWhileEnabled");

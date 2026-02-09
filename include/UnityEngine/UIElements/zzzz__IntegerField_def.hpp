@@ -49,210 +49,210 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::IntegerField_UxmlTraits);
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.IntegerField/UxmlFactory
-class CORDL_TYPE IntegerField_UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::IntegerField*, ::UnityEngine::UIElements::IntegerField_UxmlTraits*> {
+class CORDL_TYPE IntegerField_UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::IntegerField*,::UnityEngine::UIElements::IntegerField_UxmlTraits*> {
 public:
-  // Declarations
-  static inline ::UnityEngine::UIElements::IntegerField_UxmlFactory* New_ctor();
+// Declarations
+static inline ::UnityEngine::UIElements::IntegerField_UxmlFactory* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x6b83258, size 0x68, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6b83918, size 0x68, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr IntegerField_UxmlFactory();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr IntegerField_UxmlFactory() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IntegerField_UxmlFactory", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IntegerField_UxmlFactory(IntegerField_UxmlFactory&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IntegerField_UxmlFactory", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  IntegerField_UxmlFactory(IntegerField_UxmlFactory const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "IntegerField_UxmlFactory", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+IntegerField_UxmlFactory(IntegerField_UxmlFactory && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4232 };
+// Ctor Parameters [CppParam { name: "", ty: "IntegerField_UxmlFactory", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+IntegerField_UxmlFactory(IntegerField_UxmlFactory const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4232};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::IntegerField_UxmlFactory, 0x18>, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements
+} // namespace end def UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.TextValueFieldTraits`2<TValueType, TValueUxmlAttributeType>
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.IntegerField/UxmlTraits
-class CORDL_TYPE IntegerField_UxmlTraits : public ::UnityEngine::UIElements::TextValueFieldTraits_2<int32_t, ::UnityEngine::UIElements::UxmlIntAttributeDescription*> {
+class CORDL_TYPE IntegerField_UxmlTraits : public ::UnityEngine::UIElements::TextValueFieldTraits_2<int32_t,::UnityEngine::UIElements::UxmlIntAttributeDescription*> {
 public:
-  // Declarations
-  static inline ::UnityEngine::UIElements::IntegerField_UxmlTraits* New_ctor();
+// Declarations
+static inline ::UnityEngine::UIElements::IntegerField_UxmlTraits* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x6b832c0, size 0x4c, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6b83980, size 0x4c, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr IntegerField_UxmlTraits();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr IntegerField_UxmlTraits() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IntegerField_UxmlTraits", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IntegerField_UxmlTraits(IntegerField_UxmlTraits&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IntegerField_UxmlTraits", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  IntegerField_UxmlTraits(IntegerField_UxmlTraits const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "IntegerField_UxmlTraits", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+IntegerField_UxmlTraits(IntegerField_UxmlTraits && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4233 };
+// Ctor Parameters [CppParam { name: "", ty: "IntegerField_UxmlTraits", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+IntegerField_UxmlTraits(IntegerField_UxmlTraits const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4233};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::IntegerField_UxmlTraits, 0xc0>, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements
+} // namespace end def UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.TextValueField`1::TextValueInput<TValueType>
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.IntegerField/IntegerInput
 class CORDL_TYPE IntegerField_IntegerInput : public ::UnityEngine::UIElements::TextValueField_1_TextValueInput<int32_t> {
 public:
-  // Declarations
-  __declspec(property(get = get_allowedCharacters)) ::StringW allowedCharacters;
+// Declarations
+ __declspec(property(get=get_allowedCharacters)) ::StringW  allowedCharacters;
 
-  __declspec(property(get = get_parentIntegerField)) ::UnityEngine::UIElements::IntegerField* parentIntegerField;
+ __declspec(property(get=get_parentIntegerField)) ::UnityEngine::UIElements::IntegerField*  parentIntegerField;
 
-  /// @brief Method ApplyInputDeviceDelta, addr 0x6b833e4, size 0x28c, virtual true, abstract: false, final false
-  inline void ApplyInputDeviceDelta(::UnityEngine::Vector3 delta, ::UnityEngine::UIElements::DeltaSpeed speed, int32_t startValue);
+/// @brief Method ApplyInputDeviceDelta, addr 0x6b83aa4, size 0x28c, virtual true, abstract: false, final false
+inline void ApplyInputDeviceDelta(::UnityEngine::Vector3  delta, ::UnityEngine::UIElements::DeltaSpeed  speed, int32_t  startValue) ;
 
-  static inline ::UnityEngine::UIElements::IntegerField_IntegerInput* New_ctor();
+static inline ::UnityEngine::UIElements::IntegerField_IntegerInput* New_ctor() ;
 
-  /// @brief Method StringToValue, addr 0x6b836cc, size 0xa0, virtual true, abstract: false, final false
-  inline int32_t StringToValue(::StringW str);
+/// @brief Method StringToValue, addr 0x6b83d8c, size 0xa0, virtual true, abstract: false, final false
+inline int32_t StringToValue(::StringW  str) ;
 
-  /// @brief Method ValueToString, addr 0x6b83670, size 0x5c, virtual true, abstract: false, final false
-  inline ::StringW ValueToString(int32_t v);
+/// @brief Method ValueToString, addr 0x6b83d30, size 0x5c, virtual true, abstract: false, final false
+inline ::StringW ValueToString(int32_t  v) ;
 
-  /// @brief Method .ctor, addr 0x6b8305c, size 0x9c, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6b8371c, size 0x9c, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_allowedCharacters, addr 0x6b83388, size 0x5c, virtual true, abstract: false, final false
-  inline ::StringW get_allowedCharacters();
+/// @brief Method get_allowedCharacters, addr 0x6b83a48, size 0x5c, virtual true, abstract: false, final false
+inline ::StringW get_allowedCharacters() ;
 
-  /// @brief Method get_parentIntegerField, addr 0x6b8330c, size 0x7c, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::IntegerField* get_parentIntegerField();
+/// @brief Method get_parentIntegerField, addr 0x6b839cc, size 0x7c, virtual false, abstract: false, final false
+inline ::UnityEngine::UIElements::IntegerField* get_parentIntegerField() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr IntegerField_IntegerInput();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr IntegerField_IntegerInput() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IntegerField_IntegerInput", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IntegerField_IntegerInput(IntegerField_IntegerInput&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IntegerField_IntegerInput", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  IntegerField_IntegerInput(IntegerField_IntegerInput const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "IntegerField_IntegerInput", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+IntegerField_IntegerInput(IntegerField_IntegerInput && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4234 };
+// Ctor Parameters [CppParam { name: "", ty: "IntegerField_IntegerInput", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+IntegerField_IntegerInput(IntegerField_IntegerInput const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4234};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::IntegerField_IntegerInput, 0x4e8>, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements
+} // namespace end def UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.TextValueField`1<TValueType>
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.IntegerField
 class CORDL_TYPE IntegerField : public ::UnityEngine::UIElements::TextValueField_1<int32_t> {
 public:
-  // Declarations
-  using IntegerInput = ::UnityEngine::UIElements::IntegerField_IntegerInput;
+// Declarations
+using IntegerInput = ::UnityEngine::UIElements::IntegerField_IntegerInput;
 
-  using UxmlFactory = ::UnityEngine::UIElements::IntegerField_UxmlFactory;
+using UxmlFactory = ::UnityEngine::UIElements::IntegerField_UxmlFactory;
 
-  using UxmlTraits = ::UnityEngine::UIElements::IntegerField_UxmlTraits;
+using UxmlTraits = ::UnityEngine::UIElements::IntegerField_UxmlTraits;
 
-  /// @brief Field inputUssClassName, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_inputUssClassName, put = setStaticF_inputUssClassName)) ::StringW inputUssClassName;
+/// @brief Field inputUssClassName, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_inputUssClassName, put=setStaticF_inputUssClassName)) ::StringW  inputUssClassName;
 
-  __declspec(property(get = get_integerInput)) ::UnityEngine::UIElements::IntegerField_IntegerInput* integerInput;
+ __declspec(property(get=get_integerInput)) ::UnityEngine::UIElements::IntegerField_IntegerInput*  integerInput;
 
-  /// @brief Field labelUssClassName, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_labelUssClassName, put = setStaticF_labelUssClassName)) ::StringW labelUssClassName;
+/// @brief Field labelUssClassName, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_labelUssClassName, put=setStaticF_labelUssClassName)) ::StringW  labelUssClassName;
 
-  /// @brief Field ussClassName, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_ussClassName, put = setStaticF_ussClassName)) ::StringW ussClassName;
+/// @brief Field ussClassName, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_ussClassName, put=setStaticF_ussClassName)) ::StringW  ussClassName;
 
-  /// @brief Method ApplyInputDeviceDelta, addr 0x6b83118, size 0x64, virtual true, abstract: false, final false
-  inline void ApplyInputDeviceDelta(::UnityEngine::Vector3 delta, ::UnityEngine::UIElements::DeltaSpeed speed, int32_t startValue);
+/// @brief Method ApplyInputDeviceDelta, addr 0x6b837d8, size 0x64, virtual true, abstract: false, final false
+inline void ApplyInputDeviceDelta(::UnityEngine::Vector3  delta, ::UnityEngine::UIElements::DeltaSpeed  speed, int32_t  startValue) ;
 
-  /// @brief Method CanTryParse, addr 0x6b830f8, size 0x20, virtual true, abstract: false, final false
-  inline bool CanTryParse(::StringW textString);
+/// @brief Method CanTryParse, addr 0x6b837b8, size 0x20, virtual true, abstract: false, final false
+inline bool CanTryParse(::StringW  textString) ;
 
-  static inline ::UnityEngine::UIElements::IntegerField* New_ctor();
+static inline ::UnityEngine::UIElements::IntegerField* New_ctor() ;
 
-  static inline ::UnityEngine::UIElements::IntegerField* New_ctor(::StringW label, int32_t maxLength);
+static inline ::UnityEngine::UIElements::IntegerField* New_ctor(::StringW  label, int32_t  maxLength) ;
 
-  /// @brief Method StringToValue, addr 0x6b82df0, size 0xe0, virtual true, abstract: false, final false
-  inline int32_t StringToValue(::StringW str);
+/// @brief Method StringToValue, addr 0x6b834b0, size 0xe0, virtual true, abstract: false, final false
+inline int32_t StringToValue(::StringW  str) ;
 
-  /// @brief Method ValueToString, addr 0x6b82d30, size 0xc0, virtual true, abstract: false, final false
-  inline ::StringW ValueToString(int32_t v);
+/// @brief Method ValueToString, addr 0x6b833f0, size 0xc0, virtual true, abstract: false, final false
+inline ::StringW ValueToString(int32_t  v) ;
 
-  /// @brief Method .ctor, addr 0x6b82ed0, size 0xc, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6b83590, size 0xc, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method .ctor, addr 0x6b82edc, size 0x180, virtual false, abstract: false, final false
-  inline void _ctor(::StringW label, int32_t maxLength);
+/// @brief Method .ctor, addr 0x6b8359c, size 0x180, virtual false, abstract: false, final false
+inline void _ctor(::StringW  label, int32_t  maxLength) ;
 
-  static inline ::StringW getStaticF_inputUssClassName();
+static inline ::StringW getStaticF_inputUssClassName() ;
 
-  static inline ::StringW getStaticF_labelUssClassName();
+static inline ::StringW getStaticF_labelUssClassName() ;
 
-  static inline ::StringW getStaticF_ussClassName();
+static inline ::StringW getStaticF_ussClassName() ;
 
-  /// @brief Method get_integerInput, addr 0x6b82ca0, size 0x90, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::IntegerField_IntegerInput* get_integerInput();
+/// @brief Method get_integerInput, addr 0x6b83360, size 0x90, virtual false, abstract: false, final false
+inline ::UnityEngine::UIElements::IntegerField_IntegerInput* get_integerInput() ;
 
-  static inline void setStaticF_inputUssClassName(::StringW value);
+static inline void setStaticF_inputUssClassName(::StringW  value) ;
 
-  static inline void setStaticF_labelUssClassName(::StringW value);
+static inline void setStaticF_labelUssClassName(::StringW  value) ;
 
-  static inline void setStaticF_ussClassName(::StringW value);
+static inline void setStaticF_ussClassName(::StringW  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr IntegerField();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr IntegerField() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IntegerField", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IntegerField(IntegerField&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IntegerField", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  IntegerField(IntegerField const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "IntegerField", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+IntegerField(IntegerField && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4235 };
+// Ctor Parameters [CppParam { name: "", ty: "IntegerField", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+IntegerField(IntegerField const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{4235};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::IntegerField, 0x540>, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements
+} // namespace end def UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::IntegerField);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::IntegerField*, "UnityEngine.UIElements", "IntegerField");
 NEED_NO_BOX(::UnityEngine::UIElements::IntegerField_IntegerInput);

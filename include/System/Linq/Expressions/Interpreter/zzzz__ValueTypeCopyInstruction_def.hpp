@@ -22,59 +22,59 @@ namespace System::Linq::Expressions::Interpreter {
 // CS Name: System.Linq.Expressions.Interpreter.ValueTypeCopyInstruction
 class CORDL_TYPE ValueTypeCopyInstruction : public ::System::Linq::Expressions::Interpreter::Instruction {
 public:
-  // Declarations
-  __declspec(property(get = get_ConsumedStack)) int32_t ConsumedStack;
+// Declarations
+ __declspec(property(get=get_ConsumedStack)) int32_t  ConsumedStack;
 
-  /// @brief Field Instruction, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_Instruction, put = setStaticF_Instruction)) ::System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction* Instruction;
+/// @brief Field Instruction, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_Instruction, put=setStaticF_Instruction)) ::System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction*  Instruction;
 
-  __declspec(property(get = get_InstructionName)) ::StringW InstructionName;
+ __declspec(property(get=get_InstructionName)) ::StringW  InstructionName;
 
-  __declspec(property(get = get_ProducedStack)) int32_t ProducedStack;
+ __declspec(property(get=get_ProducedStack)) int32_t  ProducedStack;
 
-  static inline ::System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction* New_ctor();
+static inline ::System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction* New_ctor() ;
 
-  /// @brief Method Run, addr 0x5dfe274, size 0x54, virtual true, abstract: false, final false
-  inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
+/// @brief Method Run, addr 0x5dfe934, size 0x54, virtual true, abstract: false, final false
+inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame*  frame) ;
 
-  /// @brief Method .ctor, addr 0x5dfe2c8, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5dfe988, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  static inline ::System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction* getStaticF_Instruction();
+static inline ::System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction* getStaticF_Instruction() ;
 
-  /// @brief Method get_ConsumedStack, addr 0x5dfe220, size 0x8, virtual true, abstract: false, final false
-  inline int32_t get_ConsumedStack();
+/// @brief Method get_ConsumedStack, addr 0x5dfe8e0, size 0x8, virtual true, abstract: false, final false
+inline int32_t get_ConsumedStack() ;
 
-  /// @brief Method get_InstructionName, addr 0x5dfe230, size 0x44, virtual true, abstract: false, final false
-  inline ::StringW get_InstructionName();
+/// @brief Method get_InstructionName, addr 0x5dfe8f0, size 0x44, virtual true, abstract: false, final false
+inline ::StringW get_InstructionName() ;
 
-  /// @brief Method get_ProducedStack, addr 0x5dfe228, size 0x8, virtual true, abstract: false, final false
-  inline int32_t get_ProducedStack();
+/// @brief Method get_ProducedStack, addr 0x5dfe8e8, size 0x8, virtual true, abstract: false, final false
+inline int32_t get_ProducedStack() ;
 
-  static inline void setStaticF_Instruction(::System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction* value);
+static inline void setStaticF_Instruction(::System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ValueTypeCopyInstruction();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ValueTypeCopyInstruction() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ValueTypeCopyInstruction", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ValueTypeCopyInstruction(ValueTypeCopyInstruction&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ValueTypeCopyInstruction", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ValueTypeCopyInstruction(ValueTypeCopyInstruction const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ValueTypeCopyInstruction", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ValueTypeCopyInstruction(ValueTypeCopyInstruction && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16433 };
+// Ctor Parameters [CppParam { name: "", ty: "ValueTypeCopyInstruction", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ValueTypeCopyInstruction(ValueTypeCopyInstruction const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{16437};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction, 0x10>, "Size mismatch!");
 
-} // namespace System::Linq::Expressions::Interpreter
+} // namespace end def System::Linq::Expressions::Interpreter
 NEED_NO_BOX(::System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction);
 DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::Interpreter::ValueTypeCopyInstruction*, "System.Linq.Expressions.Interpreter", "ValueTypeCopyInstruction");

@@ -28,93 +28,92 @@ namespace GlobalNamespace {
 // CS Name: NoteWaiting
 class CORDL_TYPE NoteWaiting : public ::UnityEngine::MonoBehaviour {
 public:
-  // Declarations
-  /// @brief Field _audioTimeSyncController, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__audioTimeSyncController, put = __cordl_internal_set__audioTimeSyncController)) ::GlobalNamespace::IAudioTimeSource* _audioTimeSyncController;
+// Declarations
+/// @brief Field _audioTimeSyncController, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get__audioTimeSyncController, put=__cordl_internal_set__audioTimeSyncController)) ::GlobalNamespace::IAudioTimeSource*  _audioTimeSyncController;
 
-  /// @brief Field _beatTime, offset 0x40, size 0x4
-  __declspec(property(get = __cordl_internal_get__beatTime, put = __cordl_internal_set__beatTime)) float_t _beatTime;
+/// @brief Field _beatTime, offset 0x40, size 0x4 
+ __declspec(property(get=__cordl_internal_get__beatTime, put=__cordl_internal_set__beatTime)) float_t  _beatTime;
 
-  /// @brief Field _variableMovementDataProvider, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__variableMovementDataProvider,
-                      put = __cordl_internal_set__variableMovementDataProvider)) ::GlobalNamespace::IVariableMovementDataProvider* _variableMovementDataProvider;
+/// @brief Field _variableMovementDataProvider, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get__variableMovementDataProvider, put=__cordl_internal_set__variableMovementDataProvider)) ::GlobalNamespace::IVariableMovementDataProvider*  _variableMovementDataProvider;
 
-  /// @brief Field _waitingPosition, offset 0x20, size 0xc
-  __declspec(property(get = __cordl_internal_get__waitingPosition, put = __cordl_internal_set__waitingPosition)) ::UnityEngine::Vector3 _waitingPosition;
+/// @brief Field _waitingPosition, offset 0x20, size 0xc 
+ __declspec(property(get=__cordl_internal_get__waitingPosition, put=__cordl_internal_set__waitingPosition)) ::UnityEngine::Vector3  _waitingPosition;
 
-  __declspec(property(get = get_localPosition)) ::UnityEngine::Vector3 localPosition;
+ __declspec(property(get=get_localPosition)) ::UnityEngine::Vector3  localPosition;
 
-  /// @brief Method Init, addr 0x572cc40, size 0x8, virtual false, abstract: false, final false
-  inline void Init(float_t beatTime);
+/// @brief Method Init, addr 0x572c9c8, size 0x8, virtual false, abstract: false, final false
+inline void Init(float_t  beatTime) ;
 
-  /// @brief Method ManualUpdate, addr 0x572cc04, size 0x2c, virtual false, abstract: false, final false
-  inline void ManualUpdate();
+/// @brief Method ManualUpdate, addr 0x572c98c, size 0x2c, virtual false, abstract: false, final false
+inline void ManualUpdate() ;
 
-  static inline ::GlobalNamespace::NoteWaiting* New_ctor();
+static inline ::GlobalNamespace::NoteWaiting* New_ctor() ;
 
-  /// @brief Method ShouldWait, addr 0x572ca50, size 0x1b4, virtual false, abstract: false, final false
-  inline bool ShouldWait();
+/// @brief Method ShouldWait, addr 0x572c7d8, size 0x1b4, virtual false, abstract: false, final false
+inline bool ShouldWait() ;
 
-  constexpr ::GlobalNamespace::IAudioTimeSource* const& __cordl_internal_get__audioTimeSyncController() const;
+constexpr ::GlobalNamespace::IAudioTimeSource* const& __cordl_internal_get__audioTimeSyncController() const;
 
-  constexpr ::GlobalNamespace::IAudioTimeSource*& __cordl_internal_get__audioTimeSyncController();
+constexpr ::GlobalNamespace::IAudioTimeSource*& __cordl_internal_get__audioTimeSyncController() ;
 
-  constexpr float_t const& __cordl_internal_get__beatTime() const;
+constexpr float_t const& __cordl_internal_get__beatTime() const;
 
-  constexpr float_t& __cordl_internal_get__beatTime();
+constexpr float_t& __cordl_internal_get__beatTime() ;
 
-  constexpr ::GlobalNamespace::IVariableMovementDataProvider* const& __cordl_internal_get__variableMovementDataProvider() const;
+constexpr ::GlobalNamespace::IVariableMovementDataProvider* const& __cordl_internal_get__variableMovementDataProvider() const;
 
-  constexpr ::GlobalNamespace::IVariableMovementDataProvider*& __cordl_internal_get__variableMovementDataProvider();
+constexpr ::GlobalNamespace::IVariableMovementDataProvider*& __cordl_internal_get__variableMovementDataProvider() ;
 
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__waitingPosition() const;
+constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__waitingPosition() const;
 
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get__waitingPosition();
+constexpr ::UnityEngine::Vector3& __cordl_internal_get__waitingPosition() ;
 
-  constexpr void __cordl_internal_set__audioTimeSyncController(::GlobalNamespace::IAudioTimeSource* value);
+constexpr void __cordl_internal_set__audioTimeSyncController(::GlobalNamespace::IAudioTimeSource*  value) ;
 
-  constexpr void __cordl_internal_set__beatTime(float_t value);
+constexpr void __cordl_internal_set__beatTime(float_t  value) ;
 
-  constexpr void __cordl_internal_set__variableMovementDataProvider(::GlobalNamespace::IVariableMovementDataProvider* value);
+constexpr void __cordl_internal_set__variableMovementDataProvider(::GlobalNamespace::IVariableMovementDataProvider*  value) ;
 
-  constexpr void __cordl_internal_set__waitingPosition(::UnityEngine::Vector3 value);
+constexpr void __cordl_internal_set__waitingPosition(::UnityEngine::Vector3  value) ;
 
-  /// @brief Method .ctor, addr 0x572cc48, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x572c9d0, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_localPosition, addr 0x572cc34, size 0xc, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector3 get_localPosition();
+/// @brief Method get_localPosition, addr 0x572c9bc, size 0xc, virtual false, abstract: false, final false
+inline ::UnityEngine::Vector3 get_localPosition() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NoteWaiting();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr NoteWaiting() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NoteWaiting", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  NoteWaiting(NoteWaiting&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NoteWaiting", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  NoteWaiting(NoteWaiting const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "NoteWaiting", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+NoteWaiting(NoteWaiting && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5700 };
+// Ctor Parameters [CppParam { name: "", ty: "NoteWaiting", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+NoteWaiting(NoteWaiting const& ) = delete;
 
-  /// @brief Field _waitingPosition, offset: 0x20, size: 0xc, def value: None
-  ::UnityEngine::Vector3 ____waitingPosition;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{5700};
 
-  /// @brief Field _variableMovementDataProvider, offset: 0x30, size: 0x8, def value: None
-  ::GlobalNamespace::IVariableMovementDataProvider* ____variableMovementDataProvider;
+/// @brief Field _waitingPosition, offset: 0x20, size: 0xc, def value: None
+ ::UnityEngine::Vector3  ____waitingPosition;
 
-  /// @brief Field _audioTimeSyncController, offset: 0x38, size: 0x8, def value: None
-  ::GlobalNamespace::IAudioTimeSource* ____audioTimeSyncController;
+/// @brief Field _variableMovementDataProvider, offset: 0x30, size: 0x8, def value: None
+ ::GlobalNamespace::IVariableMovementDataProvider*  ____variableMovementDataProvider;
 
-  /// @brief Field _beatTime, offset: 0x40, size: 0x4, def value: None
-  float_t ____beatTime;
+/// @brief Field _audioTimeSyncController, offset: 0x38, size: 0x8, def value: None
+ ::GlobalNamespace::IAudioTimeSource*  ____audioTimeSyncController;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _beatTime, offset: 0x40, size: 0x4, def value: None
+ float_t  ____beatTime;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::NoteWaiting, ____waitingPosition) == 0x20, "Offset mismatch!");
@@ -127,6 +126,6 @@ static_assert(offsetof(::GlobalNamespace::NoteWaiting, ____beatTime) == 0x40, "O
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::NoteWaiting, 0x48>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::NoteWaiting);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::NoteWaiting*, "", "NoteWaiting");

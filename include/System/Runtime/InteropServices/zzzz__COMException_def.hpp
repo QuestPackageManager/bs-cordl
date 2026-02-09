@@ -24,42 +24,42 @@ namespace System::Runtime::InteropServices {
 // CS Name: System.Runtime.InteropServices.COMException
 class CORDL_TYPE COMException : public ::System::Runtime::InteropServices::ExternalException {
 public:
-  // Declarations
-  static inline ::System::Runtime::InteropServices::COMException* New_ctor();
+// Declarations
+static inline ::System::Runtime::InteropServices::COMException* New_ctor() ;
 
-  static inline ::System::Runtime::InteropServices::COMException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
+static inline ::System::Runtime::InteropServices::COMException* New_ctor(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context) ;
 
-  /// @brief Method ToString, addr 0x59bc2a4, size 0x1f4, virtual true, abstract: false, final false
-  inline ::StringW ToString();
+/// @brief Method ToString, addr 0x59bc7b0, size 0x1f4, virtual true, abstract: false, final false
+inline ::StringW ToString() ;
 
-  /// @brief Method .ctor, addr 0x59bc298, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x59bc7a4, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method .ctor, addr 0x59bc29c, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
+/// @brief Method .ctor, addr 0x59bc7a8, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr COMException();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr COMException() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "COMException", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  COMException(COMException&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "COMException", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  COMException(COMException const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "COMException", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+COMException(COMException && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3323 };
+// Ctor Parameters [CppParam { name: "", ty: "COMException", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+COMException(COMException const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{3323};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::InteropServices::COMException, 0x90>, "Size mismatch!");
 
-} // namespace System::Runtime::InteropServices
+} // namespace end def System::Runtime::InteropServices
 NEED_NO_BOX(::System::Runtime::InteropServices::COMException);
 DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::InteropServices::COMException*, "System.Runtime.InteropServices", "COMException");

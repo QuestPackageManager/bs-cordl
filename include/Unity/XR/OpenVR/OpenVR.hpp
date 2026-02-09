@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "Unity/XR/OpenVR/HandedViveTracker.hpp"
 #include "Unity/XR/OpenVR/OpenVRControllerWMR.hpp"
@@ -11,5 +11,6 @@ module;
 #include "Unity/XR/OpenVR/ViveTracker.hpp"
 #include "Unity/XR/OpenVR/ViveWand.hpp"
 #ifdef __cpp_modules
-export module OpenVR;
-#endif
+                    export module OpenVR;
+                    #endif
+                

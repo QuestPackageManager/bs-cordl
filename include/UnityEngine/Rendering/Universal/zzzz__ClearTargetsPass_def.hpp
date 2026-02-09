@@ -9,7 +9,8 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Color_def.hpp"
 CORDL_MODULE_EXPORT(ClearTargetsPass)
 namespace UnityEngine::Rendering::RenderGraphModule {
-template <typename PassData, typename ContextType> class BaseRenderFunc_2;
+template<typename PassData,typename ContextType>
+class BaseRenderFunc_2;
 }
 namespace UnityEngine::Rendering::RenderGraphModule {
 struct RasterGraphContext;
@@ -58,78 +59,78 @@ namespace UnityEngine::Rendering::Universal {
 // CS Name: UnityEngine.Rendering.Universal.ClearTargetsPass/PassData
 class CORDL_TYPE ClearTargetsPass_PassData : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field clearColor, offset 0x34, size 0x10
-  __declspec(property(get = __cordl_internal_get_clearColor, put = __cordl_internal_set_clearColor)) ::UnityEngine::Color clearColor;
+// Declarations
+/// @brief Field clearColor, offset 0x34, size 0x10 
+ __declspec(property(get=__cordl_internal_get_clearColor, put=__cordl_internal_set_clearColor)) ::UnityEngine::Color  clearColor;
 
-  /// @brief Field clearFlags, offset 0x30, size 0x4
-  __declspec(property(get = __cordl_internal_get_clearFlags, put = __cordl_internal_set_clearFlags)) ::UnityEngine::Rendering::RTClearFlags clearFlags;
+/// @brief Field clearFlags, offset 0x30, size 0x4 
+ __declspec(property(get=__cordl_internal_get_clearFlags, put=__cordl_internal_set_clearFlags)) ::UnityEngine::Rendering::RTClearFlags  clearFlags;
 
-  /// @brief Field color, offset 0x10, size 0x10
-  __declspec(property(get = __cordl_internal_get_color, put = __cordl_internal_set_color)) ::UnityEngine::Rendering::RenderGraphModule::TextureHandle color;
+/// @brief Field color, offset 0x10, size 0x10 
+ __declspec(property(get=__cordl_internal_get_color, put=__cordl_internal_set_color)) ::UnityEngine::Rendering::RenderGraphModule::TextureHandle  color;
 
-  /// @brief Field depth, offset 0x20, size 0x10
-  __declspec(property(get = __cordl_internal_get_depth, put = __cordl_internal_set_depth)) ::UnityEngine::Rendering::RenderGraphModule::TextureHandle depth;
+/// @brief Field depth, offset 0x20, size 0x10 
+ __declspec(property(get=__cordl_internal_get_depth, put=__cordl_internal_set_depth)) ::UnityEngine::Rendering::RenderGraphModule::TextureHandle  depth;
 
-  static inline ::UnityEngine::Rendering::Universal::ClearTargetsPass_PassData* New_ctor();
+static inline ::UnityEngine::Rendering::Universal::ClearTargetsPass_PassData* New_ctor() ;
 
-  constexpr ::UnityEngine::Color const& __cordl_internal_get_clearColor() const;
+constexpr ::UnityEngine::Color const& __cordl_internal_get_clearColor() const;
 
-  constexpr ::UnityEngine::Color& __cordl_internal_get_clearColor();
+constexpr ::UnityEngine::Color& __cordl_internal_get_clearColor() ;
 
-  constexpr ::UnityEngine::Rendering::RTClearFlags const& __cordl_internal_get_clearFlags() const;
+constexpr ::UnityEngine::Rendering::RTClearFlags const& __cordl_internal_get_clearFlags() const;
 
-  constexpr ::UnityEngine::Rendering::RTClearFlags& __cordl_internal_get_clearFlags();
+constexpr ::UnityEngine::Rendering::RTClearFlags& __cordl_internal_get_clearFlags() ;
 
-  constexpr ::UnityEngine::Rendering::RenderGraphModule::TextureHandle const& __cordl_internal_get_color() const;
+constexpr ::UnityEngine::Rendering::RenderGraphModule::TextureHandle const& __cordl_internal_get_color() const;
 
-  constexpr ::UnityEngine::Rendering::RenderGraphModule::TextureHandle& __cordl_internal_get_color();
+constexpr ::UnityEngine::Rendering::RenderGraphModule::TextureHandle& __cordl_internal_get_color() ;
 
-  constexpr ::UnityEngine::Rendering::RenderGraphModule::TextureHandle const& __cordl_internal_get_depth() const;
+constexpr ::UnityEngine::Rendering::RenderGraphModule::TextureHandle const& __cordl_internal_get_depth() const;
 
-  constexpr ::UnityEngine::Rendering::RenderGraphModule::TextureHandle& __cordl_internal_get_depth();
+constexpr ::UnityEngine::Rendering::RenderGraphModule::TextureHandle& __cordl_internal_get_depth() ;
 
-  constexpr void __cordl_internal_set_clearColor(::UnityEngine::Color value);
+constexpr void __cordl_internal_set_clearColor(::UnityEngine::Color  value) ;
 
-  constexpr void __cordl_internal_set_clearFlags(::UnityEngine::Rendering::RTClearFlags value);
+constexpr void __cordl_internal_set_clearFlags(::UnityEngine::Rendering::RTClearFlags  value) ;
 
-  constexpr void __cordl_internal_set_color(::UnityEngine::Rendering::RenderGraphModule::TextureHandle value);
+constexpr void __cordl_internal_set_color(::UnityEngine::Rendering::RenderGraphModule::TextureHandle  value) ;
 
-  constexpr void __cordl_internal_set_depth(::UnityEngine::Rendering::RenderGraphModule::TextureHandle value);
+constexpr void __cordl_internal_set_depth(::UnityEngine::Rendering::RenderGraphModule::TextureHandle  value) ;
 
-  /// @brief Method .ctor, addr 0x6720478, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6720b38, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ClearTargetsPass_PassData();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ClearTargetsPass_PassData() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ClearTargetsPass_PassData", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ClearTargetsPass_PassData(ClearTargetsPass_PassData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ClearTargetsPass_PassData", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ClearTargetsPass_PassData(ClearTargetsPass_PassData const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ClearTargetsPass_PassData", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ClearTargetsPass_PassData(ClearTargetsPass_PassData && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12991 };
+// Ctor Parameters [CppParam { name: "", ty: "ClearTargetsPass_PassData", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ClearTargetsPass_PassData(ClearTargetsPass_PassData const& ) = delete;
 
-  /// @brief Field color, offset: 0x10, size: 0x10, def value: None
-  ::UnityEngine::Rendering::RenderGraphModule::TextureHandle ___color;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12995};
 
-  /// @brief Field depth, offset: 0x20, size: 0x10, def value: None
-  ::UnityEngine::Rendering::RenderGraphModule::TextureHandle ___depth;
+/// @brief Field color, offset: 0x10, size: 0x10, def value: None
+ ::UnityEngine::Rendering::RenderGraphModule::TextureHandle  ___color;
 
-  /// @brief Field clearFlags, offset: 0x30, size: 0x4, def value: None
-  ::UnityEngine::Rendering::RTClearFlags ___clearFlags;
+/// @brief Field depth, offset: 0x20, size: 0x10, def value: None
+ ::UnityEngine::Rendering::RenderGraphModule::TextureHandle  ___depth;
 
-  /// @brief Field clearColor, offset: 0x34, size: 0x10, def value: None
-  ::UnityEngine::Color ___clearColor;
+/// @brief Field clearFlags, offset: 0x30, size: 0x4, def value: None
+ ::UnityEngine::Rendering::RTClearFlags  ___clearFlags;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field clearColor, offset: 0x34, size: 0x10, def value: None
+ ::UnityEngine::Color  ___clearColor;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Rendering::Universal::ClearTargetsPass_PassData, ___color) == 0x10, "Offset mismatch!");
@@ -142,118 +143,111 @@ static_assert(offsetof(::UnityEngine::Rendering::Universal::ClearTargetsPass_Pas
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::Universal::ClearTargetsPass_PassData, 0x48>, "Size mismatch!");
 
-} // namespace UnityEngine::Rendering::Universal
+} // namespace end def UnityEngine::Rendering::Universal
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
 // CS Name: UnityEngine.Rendering.Universal.ClearTargetsPass/<>c
 class CORDL_TYPE ClearTargetsPass___c : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field <>9, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::Rendering::Universal::ClearTargetsPass___c* __9;
+// Declarations
+/// @brief Field <>9, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF___9, put=setStaticF___9)) ::UnityEngine::Rendering::Universal::ClearTargetsPass___c*  __9;
 
-  /// @brief Field <>9__3_0, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9__3_0,
-                      put = setStaticF___9__3_0)) ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::ClearTargetsPass_PassData*,
-                                                                                                                ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>* __9__3_0;
+/// @brief Field <>9__3_0, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF___9__3_0, put=setStaticF___9__3_0)) ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::ClearTargetsPass_PassData*,::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>*  __9__3_0;
 
-  static inline ::UnityEngine::Rendering::Universal::ClearTargetsPass___c* New_ctor();
+static inline ::UnityEngine::Rendering::Universal::ClearTargetsPass___c* New_ctor() ;
 
-  /// @brief Method <Render>b__3_0, addr 0x67204d4, size 0x38, virtual false, abstract: false, final false
-  inline void _Render_b__3_0(::UnityEngine::Rendering::Universal::ClearTargetsPass_PassData* data, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext context);
+/// @brief Method <Render>b__3_0, addr 0x6720b94, size 0x38, virtual false, abstract: false, final false
+inline void _Render_b__3_0(::UnityEngine::Rendering::Universal::ClearTargetsPass_PassData*  data, ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext  context) ;
 
-  /// @brief Method .ctor, addr 0x67204d0, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6720b90, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  static inline ::UnityEngine::Rendering::Universal::ClearTargetsPass___c* getStaticF___9();
+static inline ::UnityEngine::Rendering::Universal::ClearTargetsPass___c* getStaticF___9() ;
 
-  static inline ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::ClearTargetsPass_PassData*,
-                                                                              ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>*
-  getStaticF___9__3_0();
+static inline ::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::ClearTargetsPass_PassData*,::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>* getStaticF___9__3_0() ;
 
-  static inline void setStaticF___9(::UnityEngine::Rendering::Universal::ClearTargetsPass___c* value);
+static inline void setStaticF___9(::UnityEngine::Rendering::Universal::ClearTargetsPass___c*  value) ;
 
-  static inline void setStaticF___9__3_0(::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::ClearTargetsPass_PassData*,
-                                                                                                       ::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>* value);
+static inline void setStaticF___9__3_0(::UnityEngine::Rendering::RenderGraphModule::BaseRenderFunc_2<::UnityEngine::Rendering::Universal::ClearTargetsPass_PassData*,::UnityEngine::Rendering::RenderGraphModule::RasterGraphContext>*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ClearTargetsPass___c();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ClearTargetsPass___c() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ClearTargetsPass___c", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ClearTargetsPass___c(ClearTargetsPass___c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ClearTargetsPass___c", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ClearTargetsPass___c(ClearTargetsPass___c const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ClearTargetsPass___c", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ClearTargetsPass___c(ClearTargetsPass___c && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12992 };
+// Ctor Parameters [CppParam { name: "", ty: "ClearTargetsPass___c", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ClearTargetsPass___c(ClearTargetsPass___c const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12996};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::Universal::ClearTargetsPass___c, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine::Rendering::Universal
+} // namespace end def UnityEngine::Rendering::Universal
 // Dependencies System.Object
 namespace UnityEngine::Rendering::Universal {
 // Is value type: false
 // CS Name: UnityEngine.Rendering.Universal.ClearTargetsPass
 class CORDL_TYPE ClearTargetsPass : public ::System::Object {
 public:
-  // Declarations
-  using PassData = ::UnityEngine::Rendering::Universal::ClearTargetsPass_PassData;
+// Declarations
+using PassData = ::UnityEngine::Rendering::Universal::ClearTargetsPass_PassData;
 
-  using __c = ::UnityEngine::Rendering::Universal::ClearTargetsPass___c;
+using __c = ::UnityEngine::Rendering::Universal::ClearTargetsPass___c;
 
-  /// @brief Field s_ClearProfilingSampler, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_s_ClearProfilingSampler, put = setStaticF_s_ClearProfilingSampler)) ::UnityEngine::Rendering::ProfilingSampler* s_ClearProfilingSampler;
+/// @brief Field s_ClearProfilingSampler, offset 0xffffffff, size 0x8 
+ __declspec(property(get=getStaticF_s_ClearProfilingSampler, put=setStaticF_s_ClearProfilingSampler)) ::UnityEngine::Rendering::ProfilingSampler*  s_ClearProfilingSampler;
 
-  static inline ::UnityEngine::Rendering::Universal::ClearTargetsPass* New_ctor();
+static inline ::UnityEngine::Rendering::Universal::ClearTargetsPass* New_ctor() ;
 
-  /// @brief Method Render, addr 0x67202d4, size 0x10c, virtual false, abstract: false, final false
-  static inline void Render(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* graph, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle colorHandle,
-                            ::UnityEngine::Rendering::RenderGraphModule::TextureHandle depthHandle, ::UnityEngine::Rendering::Universal::UniversalCameraData* cameraData);
+/// @brief Method Render, addr 0x6720994, size 0x10c, virtual false, abstract: false, final false
+static inline void Render(::UnityEngine::Rendering::RenderGraphModule::RenderGraph*  graph, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle  colorHandle, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle  depthHandle, ::UnityEngine::Rendering::Universal::UniversalCameraData*  cameraData) ;
 
-  /// @brief Method Render, addr 0x671e2e0, size 0x6c0, virtual false, abstract: false, final false
-  static inline void Render(::UnityEngine::Rendering::RenderGraphModule::RenderGraph* graph, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle colorHandle,
-                            ::UnityEngine::Rendering::RenderGraphModule::TextureHandle depthHandle, ::UnityEngine::Rendering::RTClearFlags clearFlags, ::UnityEngine::Color clearColor);
+/// @brief Method Render, addr 0x671e9a0, size 0x6c0, virtual false, abstract: false, final false
+static inline void Render(::UnityEngine::Rendering::RenderGraphModule::RenderGraph*  graph, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle  colorHandle, ::UnityEngine::Rendering::RenderGraphModule::TextureHandle  depthHandle, ::UnityEngine::Rendering::RTClearFlags  clearFlags, ::UnityEngine::Color  clearColor) ;
 
-  /// @brief Method .ctor, addr 0x67203e0, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x6720aa0, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  static inline ::UnityEngine::Rendering::ProfilingSampler* getStaticF_s_ClearProfilingSampler();
+static inline ::UnityEngine::Rendering::ProfilingSampler* getStaticF_s_ClearProfilingSampler() ;
 
-  static inline void setStaticF_s_ClearProfilingSampler(::UnityEngine::Rendering::ProfilingSampler* value);
+static inline void setStaticF_s_ClearProfilingSampler(::UnityEngine::Rendering::ProfilingSampler*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ClearTargetsPass();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ClearTargetsPass() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ClearTargetsPass", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ClearTargetsPass(ClearTargetsPass&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ClearTargetsPass", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ClearTargetsPass(ClearTargetsPass const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ClearTargetsPass", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ClearTargetsPass(ClearTargetsPass && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12993 };
+// Ctor Parameters [CppParam { name: "", ty: "ClearTargetsPass", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ClearTargetsPass(ClearTargetsPass const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{12997};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::Universal::ClearTargetsPass, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine::Rendering::Universal
+} // namespace end def UnityEngine::Rendering::Universal
 NEED_NO_BOX(::UnityEngine::Rendering::Universal::ClearTargetsPass);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::Universal::ClearTargetsPass*, "UnityEngine.Rendering.Universal", "ClearTargetsPass");
 NEED_NO_BOX(::UnityEngine::Rendering::Universal::ClearTargetsPass_PassData);

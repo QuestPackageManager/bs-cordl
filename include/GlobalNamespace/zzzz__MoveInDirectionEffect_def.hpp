@@ -23,102 +23,102 @@ namespace GlobalNamespace {
 // CS Name: MoveInDirectionEffect
 class CORDL_TYPE MoveInDirectionEffect : public ::GlobalNamespace::FloatFxGroupEffectTarget {
 public:
-  // Declarations
-  /// @brief Field _moveDirection, offset 0x44, size 0xc
-  __declspec(property(get = __cordl_internal_get__moveDirection, put = __cordl_internal_set__moveDirection)) ::UnityEngine::Vector3 _moveDirection;
+// Declarations
+/// @brief Field _moveDirection, offset 0x44, size 0xc 
+ __declspec(property(get=__cordl_internal_get__moveDirection, put=__cordl_internal_set__moveDirection)) ::UnityEngine::Vector3  _moveDirection;
 
-  /// @brief Field _moveOrigin, offset 0x28, size 0xc
-  __declspec(property(get = __cordl_internal_get__moveOrigin, put = __cordl_internal_set__moveOrigin)) ::UnityEngine::Vector3 _moveOrigin;
+/// @brief Field _moveOrigin, offset 0x28, size 0xc 
+ __declspec(property(get=__cordl_internal_get__moveOrigin, put=__cordl_internal_set__moveOrigin)) ::UnityEngine::Vector3  _moveOrigin;
 
-  /// @brief Field _moveScale, offset 0x34, size 0x4
-  __declspec(property(get = __cordl_internal_get__moveScale, put = __cordl_internal_set__moveScale)) float_t _moveScale;
+/// @brief Field _moveScale, offset 0x34, size 0x4 
+ __declspec(property(get=__cordl_internal_get__moveScale, put=__cordl_internal_set__moveScale)) float_t  _moveScale;
 
-  /// @brief Field _startPosition, offset 0x38, size 0xc
-  __declspec(property(get = __cordl_internal_get__startPosition, put = __cordl_internal_set__startPosition)) ::UnityEngine::Vector3 _startPosition;
+/// @brief Field _startPosition, offset 0x38, size 0xc 
+ __declspec(property(get=__cordl_internal_get__startPosition, put=__cordl_internal_set__startPosition)) ::UnityEngine::Vector3  _startPosition;
 
-  /// @brief Field _transform, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__transform, put = __cordl_internal_set__transform)) ::UnityW<::UnityEngine::Transform> _transform;
+/// @brief Field _transform, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get__transform, put=__cordl_internal_set__transform)) ::UnityW<::UnityEngine::Transform>  _transform;
 
-  /// @brief Method Awake, addr 0x57e31dc, size 0x120, virtual false, abstract: false, final false
-  inline void Awake();
+/// @brief Method Awake, addr 0x57e3b0c, size 0x120, virtual false, abstract: false, final false
+inline void Awake() ;
 
-  /// @brief Method Move, addr 0x57e3300, size 0x48, virtual false, abstract: false, final false
-  inline void Move(float_t value);
+/// @brief Method Move, addr 0x57e3c30, size 0x48, virtual false, abstract: false, final false
+inline void Move(float_t  value) ;
 
-  static inline ::GlobalNamespace::MoveInDirectionEffect* New_ctor();
+static inline ::GlobalNamespace::MoveInDirectionEffect* New_ctor() ;
 
-  /// @brief Method SetValue, addr 0x57e32fc, size 0x4, virtual true, abstract: false, final false
-  inline void SetValue(int32_t groupId, int32_t elementId, float_t value);
+/// @brief Method SetValue, addr 0x57e3c2c, size 0x4, virtual true, abstract: false, final false
+inline void SetValue(int32_t  groupId, int32_t  elementId, float_t  value) ;
 
-  /// @brief Method TriggerValue, addr 0x57e3348, size 0x4, virtual true, abstract: false, final false
-  inline void TriggerValue(int32_t groupId, int32_t elementId, float_t value);
+/// @brief Method TriggerValue, addr 0x57e3c78, size 0x4, virtual true, abstract: false, final false
+inline void TriggerValue(int32_t  groupId, int32_t  elementId, float_t  value) ;
 
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__moveDirection() const;
+constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__moveDirection() const;
 
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get__moveDirection();
+constexpr ::UnityEngine::Vector3& __cordl_internal_get__moveDirection() ;
 
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__moveOrigin() const;
+constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__moveOrigin() const;
 
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get__moveOrigin();
+constexpr ::UnityEngine::Vector3& __cordl_internal_get__moveOrigin() ;
 
-  constexpr float_t const& __cordl_internal_get__moveScale() const;
+constexpr float_t const& __cordl_internal_get__moveScale() const;
 
-  constexpr float_t& __cordl_internal_get__moveScale();
+constexpr float_t& __cordl_internal_get__moveScale() ;
 
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__startPosition() const;
+constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__startPosition() const;
 
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get__startPosition();
+constexpr ::UnityEngine::Vector3& __cordl_internal_get__startPosition() ;
 
-  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__transform() const;
+constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__transform() const;
 
-  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__transform();
+constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__transform() ;
 
-  constexpr void __cordl_internal_set__moveDirection(::UnityEngine::Vector3 value);
+constexpr void __cordl_internal_set__moveDirection(::UnityEngine::Vector3  value) ;
 
-  constexpr void __cordl_internal_set__moveOrigin(::UnityEngine::Vector3 value);
+constexpr void __cordl_internal_set__moveOrigin(::UnityEngine::Vector3  value) ;
 
-  constexpr void __cordl_internal_set__moveScale(float_t value);
+constexpr void __cordl_internal_set__moveScale(float_t  value) ;
 
-  constexpr void __cordl_internal_set__startPosition(::UnityEngine::Vector3 value);
+constexpr void __cordl_internal_set__startPosition(::UnityEngine::Vector3  value) ;
 
-  constexpr void __cordl_internal_set__transform(::UnityW<::UnityEngine::Transform> value);
+constexpr void __cordl_internal_set__transform(::UnityW<::UnityEngine::Transform>  value) ;
 
-  /// @brief Method .ctor, addr 0x57e334c, size 0xc, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x57e3c7c, size 0xc, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MoveInDirectionEffect();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr MoveInDirectionEffect() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MoveInDirectionEffect", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  MoveInDirectionEffect(MoveInDirectionEffect&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MoveInDirectionEffect", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  MoveInDirectionEffect(MoveInDirectionEffect const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "MoveInDirectionEffect", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+MoveInDirectionEffect(MoveInDirectionEffect && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5854 };
+// Ctor Parameters [CppParam { name: "", ty: "MoveInDirectionEffect", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+MoveInDirectionEffect(MoveInDirectionEffect const& ) = delete;
 
-  /// @brief Field _transform, offset: 0x20, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::Transform> ____transform;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{5854};
 
-  /// @brief Field _moveOrigin, offset: 0x28, size: 0xc, def value: None
-  ::UnityEngine::Vector3 ____moveOrigin;
+/// @brief Field _transform, offset: 0x20, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::Transform>  ____transform;
 
-  /// @brief Field _moveScale, offset: 0x34, size: 0x4, def value: None
-  float_t ____moveScale;
+/// @brief Field _moveOrigin, offset: 0x28, size: 0xc, def value: None
+ ::UnityEngine::Vector3  ____moveOrigin;
 
-  /// @brief Field _startPosition, offset: 0x38, size: 0xc, def value: None
-  ::UnityEngine::Vector3 ____startPosition;
+/// @brief Field _moveScale, offset: 0x34, size: 0x4, def value: None
+ float_t  ____moveScale;
 
-  /// @brief Field _moveDirection, offset: 0x44, size: 0xc, def value: None
-  ::UnityEngine::Vector3 ____moveDirection;
+/// @brief Field _startPosition, offset: 0x38, size: 0xc, def value: None
+ ::UnityEngine::Vector3  ____startPosition;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _moveDirection, offset: 0x44, size: 0xc, def value: None
+ ::UnityEngine::Vector3  ____moveDirection;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::MoveInDirectionEffect, ____transform) == 0x20, "Offset mismatch!");
@@ -133,6 +133,6 @@ static_assert(offsetof(::GlobalNamespace::MoveInDirectionEffect, ____moveDirecti
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MoveInDirectionEffect, 0x50>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MoveInDirectionEffect);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MoveInDirectionEffect*, "", "MoveInDirectionEffect");

@@ -30,130 +30,130 @@ namespace GlobalNamespace {
 // CS Name: ResultObjectiveListItem
 class CORDL_TYPE ResultObjectiveListItem : public ::UnityEngine::MonoBehaviour {
 public:
-  // Declarations
-  /// @brief Field _conditionText, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__conditionText, put = __cordl_internal_set__conditionText)) ::UnityW<::TMPro::TextMeshProUGUI> _conditionText;
+// Declarations
+/// @brief Field _conditionText, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get__conditionText, put=__cordl_internal_set__conditionText)) ::UnityW<::TMPro::TextMeshProUGUI>  _conditionText;
 
-  /// @brief Field _icon, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__icon, put = __cordl_internal_set__icon)) ::UnityW<::UnityEngine::UI::Image> _icon;
+/// @brief Field _icon, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get__icon, put=__cordl_internal_set__icon)) ::UnityW<::UnityEngine::UI::Image>  _icon;
 
-  /// @brief Field _iconGlow, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__iconGlow, put = __cordl_internal_set__iconGlow)) ::UnityW<::UnityEngine::UI::Image> _iconGlow;
+/// @brief Field _iconGlow, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get__iconGlow, put=__cordl_internal_set__iconGlow)) ::UnityW<::UnityEngine::UI::Image>  _iconGlow;
 
-  /// @brief Field _titleText, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__titleText, put = __cordl_internal_set__titleText)) ::UnityW<::TMPro::TextMeshProUGUI> _titleText;
+/// @brief Field _titleText, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get__titleText, put=__cordl_internal_set__titleText)) ::UnityW<::TMPro::TextMeshProUGUI>  _titleText;
 
-  /// @brief Field _valueText, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__valueText, put = __cordl_internal_set__valueText)) ::UnityW<::TMPro::TextMeshProUGUI> _valueText;
+/// @brief Field _valueText, offset 0x40, size 0x8 
+ __declspec(property(get=__cordl_internal_get__valueText, put=__cordl_internal_set__valueText)) ::UnityW<::TMPro::TextMeshProUGUI>  _valueText;
 
-  __declspec(property(put = set_conditionText)) ::StringW conditionText;
+ __declspec(property(put=set_conditionText)) ::StringW  conditionText;
 
-  __declspec(property(put = set_hideConditionText)) bool hideConditionText;
+ __declspec(property(put=set_hideConditionText)) bool  hideConditionText;
 
-  __declspec(property(put = set_hideValueText)) bool hideValueText;
+ __declspec(property(put=set_hideValueText)) bool  hideValueText;
 
-  __declspec(property(put = set_icon)) ::UnityW<::UnityEngine::Sprite> icon;
+ __declspec(property(put=set_icon)) ::UnityW<::UnityEngine::Sprite>  icon;
 
-  __declspec(property(put = set_iconColor)) ::UnityEngine::Color iconColor;
+ __declspec(property(put=set_iconColor)) ::UnityEngine::Color  iconColor;
 
-  __declspec(property(put = set_iconGlow)) ::UnityW<::UnityEngine::Sprite> iconGlow;
+ __declspec(property(put=set_iconGlow)) ::UnityW<::UnityEngine::Sprite>  iconGlow;
 
-  __declspec(property(put = set_title)) ::StringW title;
+ __declspec(property(put=set_title)) ::StringW  title;
 
-  __declspec(property(put = set_valueText)) ::StringW valueText;
+ __declspec(property(put=set_valueText)) ::StringW  valueText;
 
-  static inline ::GlobalNamespace::ResultObjectiveListItem* New_ctor();
+static inline ::GlobalNamespace::ResultObjectiveListItem* New_ctor() ;
 
-  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__conditionText() const;
+constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__conditionText() const;
 
-  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__conditionText();
+constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__conditionText() ;
 
-  constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__icon() const;
+constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__icon() const;
 
-  constexpr ::UnityW<::UnityEngine::UI::Image>& __cordl_internal_get__icon();
+constexpr ::UnityW<::UnityEngine::UI::Image>& __cordl_internal_get__icon() ;
 
-  constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__iconGlow() const;
+constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__iconGlow() const;
 
-  constexpr ::UnityW<::UnityEngine::UI::Image>& __cordl_internal_get__iconGlow();
+constexpr ::UnityW<::UnityEngine::UI::Image>& __cordl_internal_get__iconGlow() ;
 
-  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__titleText() const;
+constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__titleText() const;
 
-  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__titleText();
+constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__titleText() ;
 
-  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__valueText() const;
+constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__valueText() const;
 
-  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__valueText();
+constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__valueText() ;
 
-  constexpr void __cordl_internal_set__conditionText(::UnityW<::TMPro::TextMeshProUGUI> value);
+constexpr void __cordl_internal_set__conditionText(::UnityW<::TMPro::TextMeshProUGUI>  value) ;
 
-  constexpr void __cordl_internal_set__icon(::UnityW<::UnityEngine::UI::Image> value);
+constexpr void __cordl_internal_set__icon(::UnityW<::UnityEngine::UI::Image>  value) ;
 
-  constexpr void __cordl_internal_set__iconGlow(::UnityW<::UnityEngine::UI::Image> value);
+constexpr void __cordl_internal_set__iconGlow(::UnityW<::UnityEngine::UI::Image>  value) ;
 
-  constexpr void __cordl_internal_set__titleText(::UnityW<::TMPro::TextMeshProUGUI> value);
+constexpr void __cordl_internal_set__titleText(::UnityW<::TMPro::TextMeshProUGUI>  value) ;
 
-  constexpr void __cordl_internal_set__valueText(::UnityW<::TMPro::TextMeshProUGUI> value);
+constexpr void __cordl_internal_set__valueText(::UnityW<::TMPro::TextMeshProUGUI>  value) ;
 
-  /// @brief Method .ctor, addr 0x5744a1c, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x5745350, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method set_conditionText, addr 0x5744974, size 0x20, virtual false, abstract: false, final false
-  inline void set_conditionText(::StringW value);
+/// @brief Method set_conditionText, addr 0x57452a8, size 0x20, virtual false, abstract: false, final false
+inline void set_conditionText(::StringW  value) ;
 
-  /// @brief Method set_hideConditionText, addr 0x5744994, size 0x34, virtual false, abstract: false, final false
-  inline void set_hideConditionText(bool value);
+/// @brief Method set_hideConditionText, addr 0x57452c8, size 0x34, virtual false, abstract: false, final false
+inline void set_hideConditionText(bool  value) ;
 
-  /// @brief Method set_hideValueText, addr 0x57449e8, size 0x34, virtual false, abstract: false, final false
-  inline void set_hideValueText(bool value);
+/// @brief Method set_hideValueText, addr 0x574531c, size 0x34, virtual false, abstract: false, final false
+inline void set_hideValueText(bool  value) ;
 
-  /// @brief Method set_icon, addr 0x5744924, size 0x18, virtual false, abstract: false, final false
-  inline void set_icon(::UnityEngine::Sprite* value);
+/// @brief Method set_icon, addr 0x5745258, size 0x18, virtual false, abstract: false, final false
+inline void set_icon(::UnityEngine::Sprite*  value) ;
 
-  /// @brief Method set_iconColor, addr 0x5744904, size 0x20, virtual false, abstract: false, final false
-  inline void set_iconColor(::UnityEngine::Color value);
+/// @brief Method set_iconColor, addr 0x5745238, size 0x20, virtual false, abstract: false, final false
+inline void set_iconColor(::UnityEngine::Color  value) ;
 
-  /// @brief Method set_iconGlow, addr 0x574493c, size 0x18, virtual false, abstract: false, final false
-  inline void set_iconGlow(::UnityEngine::Sprite* value);
+/// @brief Method set_iconGlow, addr 0x5745270, size 0x18, virtual false, abstract: false, final false
+inline void set_iconGlow(::UnityEngine::Sprite*  value) ;
 
-  /// @brief Method set_title, addr 0x5744954, size 0x20, virtual false, abstract: false, final false
-  inline void set_title(::StringW value);
+/// @brief Method set_title, addr 0x5745288, size 0x20, virtual false, abstract: false, final false
+inline void set_title(::StringW  value) ;
 
-  /// @brief Method set_valueText, addr 0x57449c8, size 0x20, virtual false, abstract: false, final false
-  inline void set_valueText(::StringW value);
+/// @brief Method set_valueText, addr 0x57452fc, size 0x20, virtual false, abstract: false, final false
+inline void set_valueText(::StringW  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ResultObjectiveListItem();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ResultObjectiveListItem() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ResultObjectiveListItem", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ResultObjectiveListItem(ResultObjectiveListItem&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ResultObjectiveListItem", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ResultObjectiveListItem(ResultObjectiveListItem const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ResultObjectiveListItem", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ResultObjectiveListItem(ResultObjectiveListItem && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6572 };
+// Ctor Parameters [CppParam { name: "", ty: "ResultObjectiveListItem", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ResultObjectiveListItem(ResultObjectiveListItem const& ) = delete;
 
-  /// @brief Field _icon, offset: 0x20, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::UI::Image> ____icon;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6576};
 
-  /// @brief Field _iconGlow, offset: 0x28, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::UI::Image> ____iconGlow;
+/// @brief Field _icon, offset: 0x20, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::UI::Image>  ____icon;
 
-  /// @brief Field _titleText, offset: 0x30, size: 0x8, def value: None
-  ::UnityW<::TMPro::TextMeshProUGUI> ____titleText;
+/// @brief Field _iconGlow, offset: 0x28, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::UI::Image>  ____iconGlow;
 
-  /// @brief Field _conditionText, offset: 0x38, size: 0x8, def value: None
-  ::UnityW<::TMPro::TextMeshProUGUI> ____conditionText;
+/// @brief Field _titleText, offset: 0x30, size: 0x8, def value: None
+ ::UnityW<::TMPro::TextMeshProUGUI>  ____titleText;
 
-  /// @brief Field _valueText, offset: 0x40, size: 0x8, def value: None
-  ::UnityW<::TMPro::TextMeshProUGUI> ____valueText;
+/// @brief Field _conditionText, offset: 0x38, size: 0x8, def value: None
+ ::UnityW<::TMPro::TextMeshProUGUI>  ____conditionText;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _valueText, offset: 0x40, size: 0x8, def value: None
+ ::UnityW<::TMPro::TextMeshProUGUI>  ____valueText;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::ResultObjectiveListItem, ____icon) == 0x20, "Offset mismatch!");
@@ -168,6 +168,6 @@ static_assert(offsetof(::GlobalNamespace::ResultObjectiveListItem, ____valueText
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ResultObjectiveListItem, 0x48>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ResultObjectiveListItem);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ResultObjectiveListItem*, "", "ResultObjectiveListItem");

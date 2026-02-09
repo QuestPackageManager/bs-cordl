@@ -9,10 +9,12 @@ namespace Zenject {
 class ConditionCopyNonLazyBinder;
 }
 namespace Zenject {
-template <typename TContract> class FactoryFromBinder_1;
+template<typename TContract>
+class FactoryFromBinder_1;
 }
 namespace Zenject {
-template <typename TContract> class FromBinderGeneric_1;
+template<typename TContract>
+class FromBinderGeneric_1;
 }
 namespace Zenject {
 class ScopeConcreteIdArgConditionCopyNonLazyBinder;
@@ -29,35 +31,37 @@ namespace Zenject {
 // CS Name: Zenject.ZenjectMoqExtensions
 class CORDL_TYPE ZenjectMoqExtensions : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method FromMock, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TContract> static inline ::Zenject::ConditionCopyNonLazyBinder* FromMock(::Zenject::FactoryFromBinder_1<TContract>* binder);
+// Declarations
+/// @brief Method FromMock, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+template<typename TContract>
+static inline ::Zenject::ConditionCopyNonLazyBinder* FromMock(::Zenject::FactoryFromBinder_1<TContract>*  binder) ;
 
-  /// @brief Method FromMock, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TContract> static inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromMock(::Zenject::FromBinderGeneric_1<TContract>* binder);
+/// @brief Method FromMock, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+template<typename TContract>
+static inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromMock(::Zenject::FromBinderGeneric_1<TContract>*  binder) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ZenjectMoqExtensions();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ZenjectMoqExtensions() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ZenjectMoqExtensions", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ZenjectMoqExtensions(ZenjectMoqExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ZenjectMoqExtensions", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ZenjectMoqExtensions(ZenjectMoqExtensions const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ZenjectMoqExtensions", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ZenjectMoqExtensions(ZenjectMoqExtensions && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14244 };
+// Ctor Parameters [CppParam { name: "", ty: "ZenjectMoqExtensions", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ZenjectMoqExtensions(ZenjectMoqExtensions const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{14248};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Zenject::ZenjectMoqExtensions, 0x10>, "Size mismatch!");
 
-} // namespace Zenject
+} // namespace end def Zenject
 NEED_NO_BOX(::Zenject::ZenjectMoqExtensions);
 DEFINE_IL2CPP_ARG_TYPE(::Zenject::ZenjectMoqExtensions*, "Zenject", "ZenjectMoqExtensions");

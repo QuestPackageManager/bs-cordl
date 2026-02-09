@@ -28,151 +28,146 @@ namespace Org::BouncyCastle::Crypto::Parameters {
 // CS Name: Org.BouncyCastle.Crypto.Parameters.RsaPrivateCrtKeyParameters
 class CORDL_TYPE RsaPrivateCrtKeyParameters : public ::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters {
 public:
-  // Declarations
-  __declspec(property(get = get_DP)) ::Org::BouncyCastle::Math::BigInteger* DP;
+// Declarations
+ __declspec(property(get=get_DP)) ::Org::BouncyCastle::Math::BigInteger*  DP;
 
-  __declspec(property(get = get_DQ)) ::Org::BouncyCastle::Math::BigInteger* DQ;
+ __declspec(property(get=get_DQ)) ::Org::BouncyCastle::Math::BigInteger*  DQ;
 
-  __declspec(property(get = get_P)) ::Org::BouncyCastle::Math::BigInteger* P;
+ __declspec(property(get=get_P)) ::Org::BouncyCastle::Math::BigInteger*  P;
 
-  __declspec(property(get = get_PublicExponent)) ::Org::BouncyCastle::Math::BigInteger* PublicExponent;
+ __declspec(property(get=get_PublicExponent)) ::Org::BouncyCastle::Math::BigInteger*  PublicExponent;
 
-  __declspec(property(get = get_Q)) ::Org::BouncyCastle::Math::BigInteger* Q;
+ __declspec(property(get=get_Q)) ::Org::BouncyCastle::Math::BigInteger*  Q;
 
-  __declspec(property(get = get_QInv)) ::Org::BouncyCastle::Math::BigInteger* QInv;
+ __declspec(property(get=get_QInv)) ::Org::BouncyCastle::Math::BigInteger*  QInv;
 
-  /// @brief Field dP, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_dP, put = __cordl_internal_set_dP)) ::Org::BouncyCastle::Math::BigInteger* dP;
+/// @brief Field dP, offset 0x40, size 0x8 
+ __declspec(property(get=__cordl_internal_get_dP, put=__cordl_internal_set_dP)) ::Org::BouncyCastle::Math::BigInteger*  dP;
 
-  /// @brief Field dQ, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_dQ, put = __cordl_internal_set_dQ)) ::Org::BouncyCastle::Math::BigInteger* dQ;
+/// @brief Field dQ, offset 0x48, size 0x8 
+ __declspec(property(get=__cordl_internal_get_dQ, put=__cordl_internal_set_dQ)) ::Org::BouncyCastle::Math::BigInteger*  dQ;
 
-  /// @brief Field e, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_e, put = __cordl_internal_set_e)) ::Org::BouncyCastle::Math::BigInteger* e;
+/// @brief Field e, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get_e, put=__cordl_internal_set_e)) ::Org::BouncyCastle::Math::BigInteger*  e;
 
-  /// @brief Field p, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_p, put = __cordl_internal_set_p)) ::Org::BouncyCastle::Math::BigInteger* p;
+/// @brief Field p, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get_p, put=__cordl_internal_set_p)) ::Org::BouncyCastle::Math::BigInteger*  p;
 
-  /// @brief Field q, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_q, put = __cordl_internal_set_q)) ::Org::BouncyCastle::Math::BigInteger* q;
+/// @brief Field q, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get_q, put=__cordl_internal_set_q)) ::Org::BouncyCastle::Math::BigInteger*  q;
 
-  /// @brief Field qInv, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_qInv, put = __cordl_internal_set_qInv)) ::Org::BouncyCastle::Math::BigInteger* qInv;
+/// @brief Field qInv, offset 0x50, size 0x8 
+ __declspec(property(get=__cordl_internal_get_qInv, put=__cordl_internal_set_qInv)) ::Org::BouncyCastle::Math::BigInteger*  qInv;
 
-  /// @brief Method Equals, addr 0x331a3f8, size 0x180, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* obj);
+/// @brief Method Equals, addr 0x331a348, size 0x180, virtual true, abstract: false, final false
+inline bool Equals(::System::Object*  obj) ;
 
-  /// @brief Method GetHashCode, addr 0x331a578, size 0x120, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
+/// @brief Method GetHashCode, addr 0x331a4c8, size 0x120, virtual true, abstract: false, final false
+inline int32_t GetHashCode() ;
 
-  static inline ::Org::BouncyCastle::Crypto::Parameters::RsaPrivateCrtKeyParameters* New_ctor(::Org::BouncyCastle::Math::BigInteger* modulus, ::Org::BouncyCastle::Math::BigInteger* publicExponent,
-                                                                                              ::Org::BouncyCastle::Math::BigInteger* privateExponent, ::Org::BouncyCastle::Math::BigInteger* p,
-                                                                                              ::Org::BouncyCastle::Math::BigInteger* q, ::Org::BouncyCastle::Math::BigInteger* dP,
-                                                                                              ::Org::BouncyCastle::Math::BigInteger* dQ, ::Org::BouncyCastle::Math::BigInteger* qInv);
+static inline ::Org::BouncyCastle::Crypto::Parameters::RsaPrivateCrtKeyParameters* New_ctor(::Org::BouncyCastle::Math::BigInteger*  modulus, ::Org::BouncyCastle::Math::BigInteger*  publicExponent, ::Org::BouncyCastle::Math::BigInteger*  privateExponent, ::Org::BouncyCastle::Math::BigInteger*  p, ::Org::BouncyCastle::Math::BigInteger*  q, ::Org::BouncyCastle::Math::BigInteger*  dP, ::Org::BouncyCastle::Math::BigInteger*  dQ, ::Org::BouncyCastle::Math::BigInteger*  qInv) ;
 
-  static inline ::Org::BouncyCastle::Crypto::Parameters::RsaPrivateCrtKeyParameters* New_ctor(::Org::BouncyCastle::Asn1::Pkcs::RsaPrivateKeyStructure* rsaPrivateKey);
+static inline ::Org::BouncyCastle::Crypto::Parameters::RsaPrivateCrtKeyParameters* New_ctor(::Org::BouncyCastle::Asn1::Pkcs::RsaPrivateKeyStructure*  rsaPrivateKey) ;
 
-  /// @brief Method ValidateValue, addr 0x331a2d0, size 0xc0, virtual false, abstract: false, final false
-  static inline void ValidateValue(::Org::BouncyCastle::Math::BigInteger* x, ::StringW name, ::StringW desc);
+/// @brief Method ValidateValue, addr 0x331a220, size 0xc0, virtual false, abstract: false, final false
+static inline void ValidateValue(::Org::BouncyCastle::Math::BigInteger*  x, ::StringW  name, ::StringW  desc) ;
 
-  constexpr ::Org::BouncyCastle::Math::BigInteger* const& __cordl_internal_get_dP() const;
+constexpr ::Org::BouncyCastle::Math::BigInteger* const& __cordl_internal_get_dP() const;
 
-  constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_dP();
+constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_dP() ;
 
-  constexpr ::Org::BouncyCastle::Math::BigInteger* const& __cordl_internal_get_dQ() const;
+constexpr ::Org::BouncyCastle::Math::BigInteger* const& __cordl_internal_get_dQ() const;
 
-  constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_dQ();
+constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_dQ() ;
 
-  constexpr ::Org::BouncyCastle::Math::BigInteger* const& __cordl_internal_get_e() const;
+constexpr ::Org::BouncyCastle::Math::BigInteger* const& __cordl_internal_get_e() const;
 
-  constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_e();
+constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_e() ;
 
-  constexpr ::Org::BouncyCastle::Math::BigInteger* const& __cordl_internal_get_p() const;
+constexpr ::Org::BouncyCastle::Math::BigInteger* const& __cordl_internal_get_p() const;
 
-  constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_p();
+constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_p() ;
 
-  constexpr ::Org::BouncyCastle::Math::BigInteger* const& __cordl_internal_get_q() const;
+constexpr ::Org::BouncyCastle::Math::BigInteger* const& __cordl_internal_get_q() const;
 
-  constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_q();
+constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_q() ;
 
-  constexpr ::Org::BouncyCastle::Math::BigInteger* const& __cordl_internal_get_qInv() const;
+constexpr ::Org::BouncyCastle::Math::BigInteger* const& __cordl_internal_get_qInv() const;
 
-  constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_qInv();
+constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_qInv() ;
 
-  constexpr void __cordl_internal_set_dP(::Org::BouncyCastle::Math::BigInteger* value);
+constexpr void __cordl_internal_set_dP(::Org::BouncyCastle::Math::BigInteger*  value) ;
 
-  constexpr void __cordl_internal_set_dQ(::Org::BouncyCastle::Math::BigInteger* value);
+constexpr void __cordl_internal_set_dQ(::Org::BouncyCastle::Math::BigInteger*  value) ;
 
-  constexpr void __cordl_internal_set_e(::Org::BouncyCastle::Math::BigInteger* value);
+constexpr void __cordl_internal_set_e(::Org::BouncyCastle::Math::BigInteger*  value) ;
 
-  constexpr void __cordl_internal_set_p(::Org::BouncyCastle::Math::BigInteger* value);
+constexpr void __cordl_internal_set_p(::Org::BouncyCastle::Math::BigInteger*  value) ;
 
-  constexpr void __cordl_internal_set_q(::Org::BouncyCastle::Math::BigInteger* value);
+constexpr void __cordl_internal_set_q(::Org::BouncyCastle::Math::BigInteger*  value) ;
 
-  constexpr void __cordl_internal_set_qInv(::Org::BouncyCastle::Math::BigInteger* value);
+constexpr void __cordl_internal_set_qInv(::Org::BouncyCastle::Math::BigInteger*  value) ;
 
-  /// @brief Method .ctor, addr 0x331a09c, size 0x234, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Math::BigInteger* modulus, ::Org::BouncyCastle::Math::BigInteger* publicExponent, ::Org::BouncyCastle::Math::BigInteger* privateExponent,
-                    ::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Math::BigInteger* q, ::Org::BouncyCastle::Math::BigInteger* dP, ::Org::BouncyCastle::Math::BigInteger* dQ,
-                    ::Org::BouncyCastle::Math::BigInteger* qInv);
+/// @brief Method .ctor, addr 0x3319fec, size 0x234, virtual false, abstract: false, final false
+inline void _ctor(::Org::BouncyCastle::Math::BigInteger*  modulus, ::Org::BouncyCastle::Math::BigInteger*  publicExponent, ::Org::BouncyCastle::Math::BigInteger*  privateExponent, ::Org::BouncyCastle::Math::BigInteger*  p, ::Org::BouncyCastle::Math::BigInteger*  q, ::Org::BouncyCastle::Math::BigInteger*  dP, ::Org::BouncyCastle::Math::BigInteger*  dQ, ::Org::BouncyCastle::Math::BigInteger*  qInv) ;
 
-  /// @brief Method .ctor, addr 0x331a390, size 0x38, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Asn1::Pkcs::RsaPrivateKeyStructure* rsaPrivateKey);
+/// @brief Method .ctor, addr 0x331a2e0, size 0x38, virtual false, abstract: false, final false
+inline void _ctor(::Org::BouncyCastle::Asn1::Pkcs::RsaPrivateKeyStructure*  rsaPrivateKey) ;
 
-  /// @brief Method get_DP, addr 0x331a3e0, size 0x8, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Math::BigInteger* get_DP();
+/// @brief Method get_DP, addr 0x331a330, size 0x8, virtual false, abstract: false, final false
+inline ::Org::BouncyCastle::Math::BigInteger* get_DP() ;
 
-  /// @brief Method get_DQ, addr 0x331a3e8, size 0x8, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Math::BigInteger* get_DQ();
+/// @brief Method get_DQ, addr 0x331a338, size 0x8, virtual false, abstract: false, final false
+inline ::Org::BouncyCastle::Math::BigInteger* get_DQ() ;
 
-  /// @brief Method get_P, addr 0x331a3d0, size 0x8, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Math::BigInteger* get_P();
+/// @brief Method get_P, addr 0x331a320, size 0x8, virtual false, abstract: false, final false
+inline ::Org::BouncyCastle::Math::BigInteger* get_P() ;
 
-  /// @brief Method get_PublicExponent, addr 0x331a3c8, size 0x8, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Math::BigInteger* get_PublicExponent();
+/// @brief Method get_PublicExponent, addr 0x331a318, size 0x8, virtual false, abstract: false, final false
+inline ::Org::BouncyCastle::Math::BigInteger* get_PublicExponent() ;
 
-  /// @brief Method get_Q, addr 0x331a3d8, size 0x8, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Math::BigInteger* get_Q();
+/// @brief Method get_Q, addr 0x331a328, size 0x8, virtual false, abstract: false, final false
+inline ::Org::BouncyCastle::Math::BigInteger* get_Q() ;
 
-  /// @brief Method get_QInv, addr 0x331a3f0, size 0x8, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Math::BigInteger* get_QInv();
+/// @brief Method get_QInv, addr 0x331a340, size 0x8, virtual false, abstract: false, final false
+inline ::Org::BouncyCastle::Math::BigInteger* get_QInv() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RsaPrivateCrtKeyParameters();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr RsaPrivateCrtKeyParameters() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RsaPrivateCrtKeyParameters", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  RsaPrivateCrtKeyParameters(RsaPrivateCrtKeyParameters&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RsaPrivateCrtKeyParameters", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  RsaPrivateCrtKeyParameters(RsaPrivateCrtKeyParameters const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "RsaPrivateCrtKeyParameters", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+RsaPrivateCrtKeyParameters(RsaPrivateCrtKeyParameters && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1081 };
+// Ctor Parameters [CppParam { name: "", ty: "RsaPrivateCrtKeyParameters", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+RsaPrivateCrtKeyParameters(RsaPrivateCrtKeyParameters const& ) = delete;
 
-  /// @brief Field e, offset: 0x28, size: 0x8, def value: None
-  ::Org::BouncyCastle::Math::BigInteger* ___e;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{1081};
 
-  /// @brief Field p, offset: 0x30, size: 0x8, def value: None
-  ::Org::BouncyCastle::Math::BigInteger* ___p;
+/// @brief Field e, offset: 0x28, size: 0x8, def value: None
+ ::Org::BouncyCastle::Math::BigInteger*  ___e;
 
-  /// @brief Field q, offset: 0x38, size: 0x8, def value: None
-  ::Org::BouncyCastle::Math::BigInteger* ___q;
+/// @brief Field p, offset: 0x30, size: 0x8, def value: None
+ ::Org::BouncyCastle::Math::BigInteger*  ___p;
 
-  /// @brief Field dP, offset: 0x40, size: 0x8, def value: None
-  ::Org::BouncyCastle::Math::BigInteger* ___dP;
+/// @brief Field q, offset: 0x38, size: 0x8, def value: None
+ ::Org::BouncyCastle::Math::BigInteger*  ___q;
 
-  /// @brief Field dQ, offset: 0x48, size: 0x8, def value: None
-  ::Org::BouncyCastle::Math::BigInteger* ___dQ;
+/// @brief Field dP, offset: 0x40, size: 0x8, def value: None
+ ::Org::BouncyCastle::Math::BigInteger*  ___dP;
 
-  /// @brief Field qInv, offset: 0x50, size: 0x8, def value: None
-  ::Org::BouncyCastle::Math::BigInteger* ___qInv;
+/// @brief Field dQ, offset: 0x48, size: 0x8, def value: None
+ ::Org::BouncyCastle::Math::BigInteger*  ___dQ;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field qInv, offset: 0x50, size: 0x8, def value: None
+ ::Org::BouncyCastle::Math::BigInteger*  ___qInv;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Parameters::RsaPrivateCrtKeyParameters, ___e) == 0x28, "Offset mismatch!");
@@ -189,6 +184,6 @@ static_assert(offsetof(::Org::BouncyCastle::Crypto::Parameters::RsaPrivateCrtKey
 
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Parameters::RsaPrivateCrtKeyParameters, 0x58>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Crypto::Parameters
+} // namespace end def Org::BouncyCastle::Crypto::Parameters
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Parameters::RsaPrivateCrtKeyParameters);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Parameters::RsaPrivateCrtKeyParameters*, "Org.BouncyCastle.Crypto.Parameters", "RsaPrivateCrtKeyParameters");

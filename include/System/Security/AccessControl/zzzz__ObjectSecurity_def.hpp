@@ -52,104 +52,100 @@ namespace System::Security::AccessControl {
 // CS Name: System.Security.AccessControl.ObjectSecurity
 class CORDL_TYPE ObjectSecurity : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(put = set_AccessControlSectionsModified)) ::System::Security::AccessControl::AccessControlSections AccessControlSectionsModified;
+// Declarations
+ __declspec(property(put=set_AccessControlSectionsModified)) ::System::Security::AccessControl::AccessControlSections  AccessControlSectionsModified;
 
-  /// @brief Field descriptor, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_descriptor, put = __cordl_internal_set_descriptor)) ::System::Security::AccessControl::CommonSecurityDescriptor* descriptor;
+/// @brief Field descriptor, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_descriptor, put=__cordl_internal_set_descriptor)) ::System::Security::AccessControl::CommonSecurityDescriptor*  descriptor;
 
-  /// @brief Field rw_lock, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_rw_lock, put = __cordl_internal_set_rw_lock)) ::System::Threading::ReaderWriterLock* rw_lock;
+/// @brief Field rw_lock, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get_rw_lock, put=__cordl_internal_set_rw_lock)) ::System::Threading::ReaderWriterLock*  rw_lock;
 
-  /// @brief Field sections_modified, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get_sections_modified, put = __cordl_internal_set_sections_modified)) ::System::Security::AccessControl::AccessControlSections sections_modified;
+/// @brief Field sections_modified, offset 0x18, size 0x4 
+ __declspec(property(get=__cordl_internal_get_sections_modified, put=__cordl_internal_set_sections_modified)) ::System::Security::AccessControl::AccessControlSections  sections_modified;
 
-  /// @brief Method AccessRuleFactory, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline ::System::Security::AccessControl::AccessRule* AccessRuleFactory(::System::Security::Principal::IdentityReference* identityReference, int32_t accessMask, bool isInherited,
-                                                                          ::System::Security::AccessControl::InheritanceFlags inheritanceFlags,
-                                                                          ::System::Security::AccessControl::PropagationFlags propagationFlags,
-                                                                          ::System::Security::AccessControl::AccessControlType type);
+/// @brief Method AccessRuleFactory, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline ::System::Security::AccessControl::AccessRule* AccessRuleFactory(::System::Security::Principal::IdentityReference*  identityReference, int32_t  accessMask, bool  isInherited, ::System::Security::AccessControl::InheritanceFlags  inheritanceFlags, ::System::Security::AccessControl::PropagationFlags  propagationFlags, ::System::Security::AccessControl::AccessControlType  type) ;
 
-  /// @brief Method InternalAccessRuleFactory, addr 0x5970984, size 0x70, virtual true, abstract: false, final false
-  inline ::System::Security::AccessControl::AccessRule* InternalAccessRuleFactory(::System::Security::AccessControl::QualifiedAce* ace, ::System::Type* targetType,
-                                                                                  ::System::Security::AccessControl::AccessControlType type);
+/// @brief Method InternalAccessRuleFactory, addr 0x5970e90, size 0x70, virtual true, abstract: false, final false
+inline ::System::Security::AccessControl::AccessRule* InternalAccessRuleFactory(::System::Security::AccessControl::QualifiedAce*  ace, ::System::Type*  targetType, ::System::Security::AccessControl::AccessControlType  type) ;
 
-  /// @brief Method InternalGetAccessRules, addr 0x596ee70, size 0x340, virtual false, abstract: false, final false
-  inline ::System::Security::AccessControl::AuthorizationRuleCollection* InternalGetAccessRules(bool includeExplicit, bool includeInherited, ::System::Type* targetType);
+/// @brief Method InternalGetAccessRules, addr 0x596f37c, size 0x340, virtual false, abstract: false, final false
+inline ::System::Security::AccessControl::AuthorizationRuleCollection* InternalGetAccessRules(bool  includeExplicit, bool  includeInherited, ::System::Type*  targetType) ;
 
-  static inline ::System::Security::AccessControl::ObjectSecurity* New_ctor(bool isContainer, bool isDS);
+static inline ::System::Security::AccessControl::ObjectSecurity* New_ctor(bool  isContainer, bool  isDS) ;
 
-  static inline ::System::Security::AccessControl::ObjectSecurity* New_ctor(::System::Security::AccessControl::CommonSecurityDescriptor* securityDescriptor);
+static inline ::System::Security::AccessControl::ObjectSecurity* New_ctor(::System::Security::AccessControl::CommonSecurityDescriptor*  securityDescriptor) ;
 
-  /// @brief Method ReadLock, addr 0x5970938, size 0x1c, virtual false, abstract: false, final false
-  inline void ReadLock();
+/// @brief Method ReadLock, addr 0x5970e44, size 0x1c, virtual false, abstract: false, final false
+inline void ReadLock() ;
 
-  /// @brief Method ReadUnlock, addr 0x5970954, size 0x18, virtual false, abstract: false, final false
-  inline void ReadUnlock();
+/// @brief Method ReadUnlock, addr 0x5970e60, size 0x18, virtual false, abstract: false, final false
+inline void ReadUnlock() ;
 
-  /// @brief Method WriteLock, addr 0x5970180, size 0x1c, virtual false, abstract: false, final false
-  inline void WriteLock();
+/// @brief Method WriteLock, addr 0x597068c, size 0x1c, virtual false, abstract: false, final false
+inline void WriteLock() ;
 
-  /// @brief Method WriteUnlock, addr 0x597096c, size 0x18, virtual false, abstract: false, final false
-  inline void WriteUnlock();
+/// @brief Method WriteUnlock, addr 0x5970e78, size 0x18, virtual false, abstract: false, final false
+inline void WriteUnlock() ;
 
-  /// @brief Method Writing, addr 0x59708cc, size 0x6c, virtual false, abstract: false, final false
-  inline void Writing();
+/// @brief Method Writing, addr 0x5970dd8, size 0x6c, virtual false, abstract: false, final false
+inline void Writing() ;
 
-  constexpr ::System::Security::AccessControl::CommonSecurityDescriptor* const& __cordl_internal_get_descriptor() const;
+constexpr ::System::Security::AccessControl::CommonSecurityDescriptor* const& __cordl_internal_get_descriptor() const;
 
-  constexpr ::System::Security::AccessControl::CommonSecurityDescriptor*& __cordl_internal_get_descriptor();
+constexpr ::System::Security::AccessControl::CommonSecurityDescriptor*& __cordl_internal_get_descriptor() ;
 
-  constexpr ::System::Threading::ReaderWriterLock* const& __cordl_internal_get_rw_lock() const;
+constexpr ::System::Threading::ReaderWriterLock* const& __cordl_internal_get_rw_lock() const;
 
-  constexpr ::System::Threading::ReaderWriterLock*& __cordl_internal_get_rw_lock();
+constexpr ::System::Threading::ReaderWriterLock*& __cordl_internal_get_rw_lock() ;
 
-  constexpr ::System::Security::AccessControl::AccessControlSections const& __cordl_internal_get_sections_modified() const;
+constexpr ::System::Security::AccessControl::AccessControlSections const& __cordl_internal_get_sections_modified() const;
 
-  constexpr ::System::Security::AccessControl::AccessControlSections& __cordl_internal_get_sections_modified();
+constexpr ::System::Security::AccessControl::AccessControlSections& __cordl_internal_get_sections_modified() ;
 
-  constexpr void __cordl_internal_set_descriptor(::System::Security::AccessControl::CommonSecurityDescriptor* value);
+constexpr void __cordl_internal_set_descriptor(::System::Security::AccessControl::CommonSecurityDescriptor*  value) ;
 
-  constexpr void __cordl_internal_set_rw_lock(::System::Threading::ReaderWriterLock* value);
+constexpr void __cordl_internal_set_rw_lock(::System::Threading::ReaderWriterLock*  value) ;
 
-  constexpr void __cordl_internal_set_sections_modified(::System::Security::AccessControl::AccessControlSections value);
+constexpr void __cordl_internal_set_sections_modified(::System::Security::AccessControl::AccessControlSections  value) ;
 
-  /// @brief Method .ctor, addr 0x596ed88, size 0xe4, virtual false, abstract: false, final false
-  inline void _ctor(bool isContainer, bool isDS);
+/// @brief Method .ctor, addr 0x596f294, size 0xe4, virtual false, abstract: false, final false
+inline void _ctor(bool  isContainer, bool  isDS) ;
 
-  /// @brief Method .ctor, addr 0x5970814, size 0xb8, virtual false, abstract: false, final false
-  inline void _ctor(::System::Security::AccessControl::CommonSecurityDescriptor* securityDescriptor);
+/// @brief Method .ctor, addr 0x5970d20, size 0xb8, virtual false, abstract: false, final false
+inline void _ctor(::System::Security::AccessControl::CommonSecurityDescriptor*  securityDescriptor) ;
 
-  /// @brief Method set_AccessControlSectionsModified, addr 0x597019c, size 0x24, virtual false, abstract: false, final false
-  inline void set_AccessControlSectionsModified(::System::Security::AccessControl::AccessControlSections value);
+/// @brief Method set_AccessControlSectionsModified, addr 0x59706a8, size 0x24, virtual false, abstract: false, final false
+inline void set_AccessControlSectionsModified(::System::Security::AccessControl::AccessControlSections  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ObjectSecurity();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ObjectSecurity() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ObjectSecurity", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ObjectSecurity(ObjectSecurity&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ObjectSecurity", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ObjectSecurity(ObjectSecurity const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ObjectSecurity", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ObjectSecurity(ObjectSecurity && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3060 };
+// Ctor Parameters [CppParam { name: "", ty: "ObjectSecurity", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ObjectSecurity(ObjectSecurity const& ) = delete;
 
-  /// @brief Field descriptor, offset: 0x10, size: 0x8, def value: None
-  ::System::Security::AccessControl::CommonSecurityDescriptor* ___descriptor;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{3060};
 
-  /// @brief Field sections_modified, offset: 0x18, size: 0x4, def value: None
-  ::System::Security::AccessControl::AccessControlSections ___sections_modified;
+/// @brief Field descriptor, offset: 0x10, size: 0x8, def value: None
+ ::System::Security::AccessControl::CommonSecurityDescriptor*  ___descriptor;
 
-  /// @brief Field rw_lock, offset: 0x20, size: 0x8, def value: None
-  ::System::Threading::ReaderWriterLock* ___rw_lock;
+/// @brief Field sections_modified, offset: 0x18, size: 0x4, def value: None
+ ::System::Security::AccessControl::AccessControlSections  ___sections_modified;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field rw_lock, offset: 0x20, size: 0x8, def value: None
+ ::System::Threading::ReaderWriterLock*  ___rw_lock;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::System::Security::AccessControl::ObjectSecurity, ___descriptor) == 0x10, "Offset mismatch!");
@@ -160,6 +156,6 @@ static_assert(offsetof(::System::Security::AccessControl::ObjectSecurity, ___rw_
 
 static_assert(::cordl_internals::size_check_v<::System::Security::AccessControl::ObjectSecurity, 0x28>, "Size mismatch!");
 
-} // namespace System::Security::AccessControl
+} // namespace end def System::Security::AccessControl
 NEED_NO_BOX(::System::Security::AccessControl::ObjectSecurity);
 DEFINE_IL2CPP_ARG_TYPE(::System::Security::AccessControl::ObjectSecurity*, "System.Security.AccessControl", "ObjectSecurity");

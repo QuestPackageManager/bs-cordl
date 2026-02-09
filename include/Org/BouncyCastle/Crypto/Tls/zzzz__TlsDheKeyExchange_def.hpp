@@ -48,70 +48,65 @@ namespace Org::BouncyCastle::Crypto::Tls {
 // CS Name: Org.BouncyCastle.Crypto.Tls.TlsDheKeyExchange
 class CORDL_TYPE TlsDheKeyExchange : public ::Org::BouncyCastle::Crypto::Tls::TlsDHKeyExchange {
 public:
-  // Declarations
-  /// @brief Field mServerCredentials, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get_mServerCredentials, put = __cordl_internal_set_mServerCredentials)) ::Org::BouncyCastle::Crypto::Tls::TlsSignerCredentials* mServerCredentials;
+// Declarations
+/// @brief Field mServerCredentials, offset 0x60, size 0x8 
+ __declspec(property(get=__cordl_internal_get_mServerCredentials, put=__cordl_internal_set_mServerCredentials)) ::Org::BouncyCastle::Crypto::Tls::TlsSignerCredentials*  mServerCredentials;
 
-  /// @brief Method GenerateServerKeyExchange, addr 0x3382e20, size 0x468, virtual true, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenerateServerKeyExchange();
+/// @brief Method GenerateServerKeyExchange, addr 0x3382d70, size 0x468, virtual true, abstract: false, final false
+inline ::ArrayW<uint8_t,::Array<uint8_t>*> GenerateServerKeyExchange() ;
 
-  /// @brief Method InitVerifyer, addr 0x3383570, size 0x1e0, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Crypto::ISigner* InitVerifyer(::Org::BouncyCastle::Crypto::Tls::TlsSigner* tlsSigner, ::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm* algorithm,
-                                                            ::Org::BouncyCastle::Crypto::Tls::SecurityParameters* securityParameters);
+/// @brief Method InitVerifyer, addr 0x33834c0, size 0x1e0, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Crypto::ISigner* InitVerifyer(::Org::BouncyCastle::Crypto::Tls::TlsSigner*  tlsSigner, ::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm*  algorithm, ::Org::BouncyCastle::Crypto::Tls::SecurityParameters*  securityParameters) ;
 
-  static inline ::Org::BouncyCastle::Crypto::Tls::TlsDheKeyExchange* New_ctor(int32_t keyExchange, ::System::Collections::IList* supportedSignatureAlgorithms,
-                                                                              ::Org::BouncyCastle::Crypto::Parameters::DHParameters* dhParameters);
+static inline ::Org::BouncyCastle::Crypto::Tls::TlsDheKeyExchange* New_ctor(int32_t  keyExchange, ::System::Collections::IList*  supportedSignatureAlgorithms, ::Org::BouncyCastle::Crypto::Parameters::DHParameters*  dhParameters) ;
 
-  static inline ::Org::BouncyCastle::Crypto::Tls::TlsDheKeyExchange* New_ctor(int32_t keyExchange, ::System::Collections::IList* supportedSignatureAlgorithms,
-                                                                              ::Org::BouncyCastle::Crypto::Tls::TlsDHVerifier* dhVerifier,
-                                                                              ::Org::BouncyCastle::Crypto::Parameters::DHParameters* dhParameters);
+static inline ::Org::BouncyCastle::Crypto::Tls::TlsDheKeyExchange* New_ctor(int32_t  keyExchange, ::System::Collections::IList*  supportedSignatureAlgorithms, ::Org::BouncyCastle::Crypto::Tls::TlsDHVerifier*  dhVerifier, ::Org::BouncyCastle::Crypto::Parameters::DHParameters*  dhParameters) ;
 
-  /// @brief Method ProcessServerCredentials, addr 0x3382cc0, size 0x160, virtual true, abstract: false, final false
-  inline void ProcessServerCredentials(::Org::BouncyCastle::Crypto::Tls::TlsCredentials* serverCredentials);
+/// @brief Method ProcessServerCredentials, addr 0x3382c10, size 0x160, virtual true, abstract: false, final false
+inline void ProcessServerCredentials(::Org::BouncyCastle::Crypto::Tls::TlsCredentials*  serverCredentials) ;
 
-  /// @brief Method ProcessServerKeyExchange, addr 0x3383288, size 0x2e8, virtual true, abstract: false, final false
-  inline void ProcessServerKeyExchange(::System::IO::Stream* input);
+/// @brief Method ProcessServerKeyExchange, addr 0x33831d8, size 0x2e8, virtual true, abstract: false, final false
+inline void ProcessServerKeyExchange(::System::IO::Stream*  input) ;
 
-  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsSignerCredentials* const& __cordl_internal_get_mServerCredentials() const;
+constexpr ::Org::BouncyCastle::Crypto::Tls::TlsSignerCredentials* const& __cordl_internal_get_mServerCredentials() const;
 
-  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsSignerCredentials*& __cordl_internal_get_mServerCredentials();
+constexpr ::Org::BouncyCastle::Crypto::Tls::TlsSignerCredentials*& __cordl_internal_get_mServerCredentials() ;
 
-  constexpr void __cordl_internal_set_mServerCredentials(::Org::BouncyCastle::Crypto::Tls::TlsSignerCredentials* value);
+constexpr void __cordl_internal_set_mServerCredentials(::Org::BouncyCastle::Crypto::Tls::TlsSignerCredentials*  value) ;
 
-  /// @brief Method .ctor, addr 0x3382c2c, size 0x8c, virtual false, abstract: false, final false
-  inline void _ctor(int32_t keyExchange, ::System::Collections::IList* supportedSignatureAlgorithms, ::Org::BouncyCastle::Crypto::Parameters::DHParameters* dhParameters);
+/// @brief Method .ctor, addr 0x3382b7c, size 0x8c, virtual false, abstract: false, final false
+inline void _ctor(int32_t  keyExchange, ::System::Collections::IList*  supportedSignatureAlgorithms, ::Org::BouncyCastle::Crypto::Parameters::DHParameters*  dhParameters) ;
 
-  /// @brief Method .ctor, addr 0x3382cb8, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(int32_t keyExchange, ::System::Collections::IList* supportedSignatureAlgorithms, ::Org::BouncyCastle::Crypto::Tls::TlsDHVerifier* dhVerifier,
-                    ::Org::BouncyCastle::Crypto::Parameters::DHParameters* dhParameters);
+/// @brief Method .ctor, addr 0x3382c08, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(int32_t  keyExchange, ::System::Collections::IList*  supportedSignatureAlgorithms, ::Org::BouncyCastle::Crypto::Tls::TlsDHVerifier*  dhVerifier, ::Org::BouncyCastle::Crypto::Parameters::DHParameters*  dhParameters) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TlsDheKeyExchange();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr TlsDheKeyExchange() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TlsDheKeyExchange", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  TlsDheKeyExchange(TlsDheKeyExchange&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TlsDheKeyExchange", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  TlsDheKeyExchange(TlsDheKeyExchange const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "TlsDheKeyExchange", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+TlsDheKeyExchange(TlsDheKeyExchange && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1299 };
+// Ctor Parameters [CppParam { name: "", ty: "TlsDheKeyExchange", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+TlsDheKeyExchange(TlsDheKeyExchange const& ) = delete;
 
-  /// @brief Field mServerCredentials, offset: 0x60, size: 0x8, def value: None
-  ::Org::BouncyCastle::Crypto::Tls::TlsSignerCredentials* ___mServerCredentials;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{1299};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field mServerCredentials, offset: 0x60, size: 0x8, def value: None
+ ::Org::BouncyCastle::Crypto::Tls::TlsSignerCredentials*  ___mServerCredentials;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::TlsDheKeyExchange, ___mServerCredentials) == 0x60, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Tls::TlsDheKeyExchange, 0x68>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Crypto::Tls
+} // namespace end def Org::BouncyCastle::Crypto::Tls
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Tls::TlsDheKeyExchange);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Tls::TlsDheKeyExchange*, "Org.BouncyCastle.Crypto.Tls", "TlsDheKeyExchange");

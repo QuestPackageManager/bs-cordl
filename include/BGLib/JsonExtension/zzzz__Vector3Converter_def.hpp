@@ -33,41 +33,40 @@ namespace BGLib::JsonExtension {
 // CS Name: BGLib.JsonExtension.Vector3Converter
 class CORDL_TYPE Vector3Converter : public ::Newtonsoft::Json::JsonConverter_1<::UnityEngine::Vector3> {
 public:
-  // Declarations
-  static inline ::BGLib::JsonExtension::Vector3Converter* New_ctor();
+// Declarations
+static inline ::BGLib::JsonExtension::Vector3Converter* New_ctor() ;
 
-  /// @brief Method ReadJson, addr 0x321eccc, size 0xbc, virtual true, abstract: false, final false
-  inline ::UnityEngine::Vector3 ReadJson(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, ::UnityEngine::Vector3 existingValue, bool hasExistingValue,
-                                         ::Newtonsoft::Json::JsonSerializer* serializer);
+/// @brief Method ReadJson, addr 0x321ec1c, size 0xbc, virtual true, abstract: false, final false
+inline ::UnityEngine::Vector3 ReadJson(::Newtonsoft::Json::JsonReader*  reader, ::System::Type*  objectType, ::UnityEngine::Vector3  existingValue, bool  hasExistingValue, ::Newtonsoft::Json::JsonSerializer*  serializer) ;
 
-  /// @brief Method WriteJson, addr 0x321ed88, size 0x14c, virtual true, abstract: false, final false
-  inline void WriteJson(::Newtonsoft::Json::JsonWriter* writer, ::UnityEngine::Vector3 value, ::Newtonsoft::Json::JsonSerializer* serializer);
+/// @brief Method WriteJson, addr 0x321ecd8, size 0x14c, virtual true, abstract: false, final false
+inline void WriteJson(::Newtonsoft::Json::JsonWriter*  writer, ::UnityEngine::Vector3  value, ::Newtonsoft::Json::JsonSerializer*  serializer) ;
 
-  /// @brief Method .ctor, addr 0x321eed4, size 0x3c, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x321ee24, size 0x3c, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Vector3Converter();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr Vector3Converter() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Vector3Converter", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  Vector3Converter(Vector3Converter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Vector3Converter", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  Vector3Converter(Vector3Converter const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "Vector3Converter", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+Vector3Converter(Vector3Converter && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23027 };
+// Ctor Parameters [CppParam { name: "", ty: "Vector3Converter", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+Vector3Converter(Vector3Converter const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{23031};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::BGLib::JsonExtension::Vector3Converter, 0x10>, "Size mismatch!");
 
-} // namespace BGLib::JsonExtension
+} // namespace end def BGLib::JsonExtension
 NEED_NO_BOX(::BGLib::JsonExtension::Vector3Converter);
 DEFINE_IL2CPP_ARG_TYPE(::BGLib::JsonExtension::Vector3Converter*, "BGLib.JsonExtension", "Vector3Converter");

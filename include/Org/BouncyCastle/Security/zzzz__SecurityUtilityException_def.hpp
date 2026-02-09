@@ -21,44 +21,44 @@ namespace Org::BouncyCastle::Security {
 // CS Name: Org.BouncyCastle.Security.SecurityUtilityException
 class CORDL_TYPE SecurityUtilityException : public ::System::Exception {
 public:
-  // Declarations
-  static inline ::Org::BouncyCastle::Security::SecurityUtilityException* New_ctor();
+// Declarations
+static inline ::Org::BouncyCastle::Security::SecurityUtilityException* New_ctor() ;
 
-  static inline ::Org::BouncyCastle::Security::SecurityUtilityException* New_ctor(::StringW message);
+static inline ::Org::BouncyCastle::Security::SecurityUtilityException* New_ctor(::StringW  message) ;
 
-  static inline ::Org::BouncyCastle::Security::SecurityUtilityException* New_ctor(::StringW message, ::System::Exception* exception);
+static inline ::Org::BouncyCastle::Security::SecurityUtilityException* New_ctor(::StringW  message, ::System::Exception*  exception) ;
 
-  /// @brief Method .ctor, addr 0x35152d4, size 0x58, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x3515224, size 0x58, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method .ctor, addr 0x3515268, size 0x6c, virtual false, abstract: false, final false
-  inline void _ctor(::StringW message);
+/// @brief Method .ctor, addr 0x35151b8, size 0x6c, virtual false, abstract: false, final false
+inline void _ctor(::StringW  message) ;
 
-  /// @brief Method .ctor, addr 0x351532c, size 0x74, virtual false, abstract: false, final false
-  inline void _ctor(::StringW message, ::System::Exception* exception);
+/// @brief Method .ctor, addr 0x351527c, size 0x74, virtual false, abstract: false, final false
+inline void _ctor(::StringW  message, ::System::Exception*  exception) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SecurityUtilityException();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr SecurityUtilityException() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SecurityUtilityException", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  SecurityUtilityException(SecurityUtilityException&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SecurityUtilityException", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  SecurityUtilityException(SecurityUtilityException const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "SecurityUtilityException", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+SecurityUtilityException(SecurityUtilityException && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 1757 };
+// Ctor Parameters [CppParam { name: "", ty: "SecurityUtilityException", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+SecurityUtilityException(SecurityUtilityException const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{1757};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Security::SecurityUtilityException, 0x90>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Security
+} // namespace end def Org::BouncyCastle::Security
 NEED_NO_BOX(::Org::BouncyCastle::Security::SecurityUtilityException);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Security::SecurityUtilityException*, "Org.BouncyCastle.Security", "SecurityUtilityException");

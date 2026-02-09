@@ -27,49 +27,49 @@ namespace BGLib::Polyglot {
 // CS Name: BGLib.Polyglot.LocalizedTextMeshPro
 class CORDL_TYPE LocalizedTextMeshPro : public ::BGLib::Polyglot::LocalizedTextComponent_1<::UnityW<::TMPro::TextMeshPro>> {
 public:
-  // Declarations
-  /// @brief Method IsAlignmentLeft, addr 0x32243e0, size 0x28, virtual false, abstract: false, final false
-  static inline bool IsAlignmentLeft(::TMPro::TextAlignmentOptions alignment);
+// Declarations
+/// @brief Method IsAlignmentLeft, addr 0x3224330, size 0x28, virtual false, abstract: false, final false
+static inline bool IsAlignmentLeft(::TMPro::TextAlignmentOptions  alignment) ;
 
-  /// @brief Method IsAlignmentRight, addr 0x32243b8, size 0x28, virtual false, abstract: false, final false
-  static inline bool IsAlignmentRight(::TMPro::TextAlignmentOptions alignment);
+/// @brief Method IsAlignmentRight, addr 0x3224308, size 0x28, virtual false, abstract: false, final false
+static inline bool IsAlignmentRight(::TMPro::TextAlignmentOptions  alignment) ;
 
-  /// @brief Method IsOppositeDirection, addr 0x3224364, size 0x54, virtual false, abstract: false, final false
-  static inline bool IsOppositeDirection(::TMPro::TextAlignmentOptions alignment, ::BGLib::Polyglot::LanguageDirection direction);
+/// @brief Method IsOppositeDirection, addr 0x32242b4, size 0x54, virtual false, abstract: false, final false
+static inline bool IsOppositeDirection(::TMPro::TextAlignmentOptions  alignment, ::BGLib::Polyglot::LanguageDirection  direction) ;
 
-  static inline ::BGLib::Polyglot::LocalizedTextMeshPro* New_ctor();
+static inline ::BGLib::Polyglot::LocalizedTextMeshPro* New_ctor() ;
 
-  /// @brief Method SetText, addr 0x322424c, size 0x28, virtual true, abstract: false, final false
-  inline void SetText(::TMPro::TextMeshPro* text, ::StringW value);
+/// @brief Method SetText, addr 0x322419c, size 0x28, virtual true, abstract: false, final false
+inline void SetText(::TMPro::TextMeshPro*  text, ::StringW  value) ;
 
-  /// @brief Method UpdateAlignment, addr 0x3224274, size 0xf0, virtual true, abstract: false, final false
-  inline void UpdateAlignment(::TMPro::TextMeshPro* text, ::BGLib::Polyglot::LanguageDirection direction);
+/// @brief Method UpdateAlignment, addr 0x32241c4, size 0xf0, virtual true, abstract: false, final false
+inline void UpdateAlignment(::TMPro::TextMeshPro*  text, ::BGLib::Polyglot::LanguageDirection  direction) ;
 
-  /// @brief Method .ctor, addr 0x3224408, size 0x4c, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x3224358, size 0x4c, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LocalizedTextMeshPro();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr LocalizedTextMeshPro() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LocalizedTextMeshPro", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  LocalizedTextMeshPro(LocalizedTextMeshPro&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LocalizedTextMeshPro", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  LocalizedTextMeshPro(LocalizedTextMeshPro const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "LocalizedTextMeshPro", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+LocalizedTextMeshPro(LocalizedTextMeshPro && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21979 };
+// Ctor Parameters [CppParam { name: "", ty: "LocalizedTextMeshPro", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+LocalizedTextMeshPro(LocalizedTextMeshPro const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{21983};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::BGLib::Polyglot::LocalizedTextMeshPro, 0x40>, "Size mismatch!");
 
-} // namespace BGLib::Polyglot
+} // namespace end def BGLib::Polyglot
 NEED_NO_BOX(::BGLib::Polyglot::LocalizedTextMeshPro);
 DEFINE_IL2CPP_ARG_TYPE(::BGLib::Polyglot::LocalizedTextMeshPro*, "BGLib.Polyglot", "LocalizedTextMeshPro");

@@ -23,37 +23,37 @@ namespace UnityEngine::UIElements::UIR {
 // CS Name: UnityEngine.UIElements.UIR.MeshGenerationCallback
 class CORDL_TYPE MeshGenerationCallback : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method Invoke, addr 0x6b12eb0, size 0x14, virtual true, abstract: false, final false
-  inline void Invoke(Il2CppObject* meshGenerationContext, ::System::Object* userData);
+// Declarations
+/// @brief Method Invoke, addr 0x6b13570, size 0x14, virtual true, abstract: false, final false
+inline void Invoke(Il2CppObject*  meshGenerationContext, ::System::Object*  userData) ;
 
-  static inline ::UnityEngine::UIElements::UIR::MeshGenerationCallback* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::UnityEngine::UIElements::UIR::MeshGenerationCallback* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x6b12d68, size 0x148, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x6b13428, size 0x148, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MeshGenerationCallback();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr MeshGenerationCallback() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MeshGenerationCallback", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  MeshGenerationCallback(MeshGenerationCallback&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MeshGenerationCallback", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  MeshGenerationCallback(MeshGenerationCallback const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "MeshGenerationCallback", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+MeshGenerationCallback(MeshGenerationCallback && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5309 };
+// Ctor Parameters [CppParam { name: "", ty: "MeshGenerationCallback", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+MeshGenerationCallback(MeshGenerationCallback const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{5309};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIR::MeshGenerationCallback, 0x80>, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements::UIR
+} // namespace end def UnityEngine::UIElements::UIR
 NEED_NO_BOX(::UnityEngine::UIElements::UIR::MeshGenerationCallback);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::UIR::MeshGenerationCallback*, "UnityEngine.UIElements.UIR", "MeshGenerationCallback");

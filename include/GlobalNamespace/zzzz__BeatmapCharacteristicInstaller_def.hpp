@@ -10,7 +10,8 @@ namespace GlobalNamespace {
 class BeatmapCharacteristicCollectionSO;
 }
 namespace UnityEngine::ResourceManagement::AsyncOperations {
-template <typename TObject> struct AsyncOperationHandle_1;
+template<typename TObject>
+struct AsyncOperationHandle_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -24,45 +25,45 @@ namespace GlobalNamespace {
 // CS Name: BeatmapCharacteristicInstaller
 class CORDL_TYPE BeatmapCharacteristicInstaller : public ::BGLib::AppFlow::Initialization::ScriptableObjectReferenceAsyncInstaller_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicCollectionSO>> {
 public:
-  // Declarations
-  __declspec(property(get = get_assetRuntimeKey)) ::StringW assetRuntimeKey;
+// Declarations
+ __declspec(property(get=get_assetRuntimeKey)) ::StringW  assetRuntimeKey;
 
-  /// @brief Method InstallBindings, addr 0x366ebc4, size 0x98, virtual true, abstract: false, final false
-  inline void InstallBindings();
+/// @brief Method InstallBindings, addr 0x366ec2c, size 0x98, virtual true, abstract: false, final false
+inline void InstallBindings() ;
 
-  /// @brief Method LoadCharacteristicCollectionAsync, addr 0x366ec5c, size 0x84, virtual false, abstract: false, final false
-  static inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicCollectionSO>> LoadCharacteristicCollectionAsync();
+/// @brief Method LoadCharacteristicCollectionAsync, addr 0x366ecc4, size 0x84, virtual false, abstract: false, final false
+static inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicCollectionSO>> LoadCharacteristicCollectionAsync() ;
 
-  static inline ::GlobalNamespace::BeatmapCharacteristicInstaller* New_ctor();
+static inline ::GlobalNamespace::BeatmapCharacteristicInstaller* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x366ece0, size 0x44, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x366ed48, size 0x44, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_assetRuntimeKey, addr 0x366eb80, size 0x44, virtual true, abstract: false, final false
-  inline ::StringW get_assetRuntimeKey();
+/// @brief Method get_assetRuntimeKey, addr 0x366ebe8, size 0x44, virtual true, abstract: false, final false
+inline ::StringW get_assetRuntimeKey() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BeatmapCharacteristicInstaller();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr BeatmapCharacteristicInstaller() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapCharacteristicInstaller", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  BeatmapCharacteristicInstaller(BeatmapCharacteristicInstaller&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapCharacteristicInstaller", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapCharacteristicInstaller(BeatmapCharacteristicInstaller const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "BeatmapCharacteristicInstaller", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+BeatmapCharacteristicInstaller(BeatmapCharacteristicInstaller && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20985 };
+// Ctor Parameters [CppParam { name: "", ty: "BeatmapCharacteristicInstaller", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+BeatmapCharacteristicInstaller(BeatmapCharacteristicInstaller const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{20989};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatmapCharacteristicInstaller, 0x40>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BeatmapCharacteristicInstaller);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BeatmapCharacteristicInstaller*, "", "BeatmapCharacteristicInstaller");

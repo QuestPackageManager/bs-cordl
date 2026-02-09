@@ -32,92 +32,92 @@ namespace GlobalNamespace {
 // CS Name: ConnectionErrorDialogViewController/<>c__DisplayClass0_0
 class CORDL_TYPE ConnectionErrorDialogViewController___c__DisplayClass0_0 : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field buttonAction, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_buttonAction, put = __cordl_internal_set_buttonAction)) ::System::Action* buttonAction;
+// Declarations
+/// @brief Field buttonAction, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_buttonAction, put=__cordl_internal_set_buttonAction)) ::System::Action*  buttonAction;
 
-  static inline ::GlobalNamespace::ConnectionErrorDialogViewController___c__DisplayClass0_0* New_ctor();
+static inline ::GlobalNamespace::ConnectionErrorDialogViewController___c__DisplayClass0_0* New_ctor() ;
 
-  /// @brief Method <Init>b__0, addr 0x587140c, size 0x1c, virtual false, abstract: false, final false
-  inline void _Init_b__0(int32_t btnIdx);
+/// @brief Method <Init>b__0, addr 0x58721b8, size 0x1c, virtual false, abstract: false, final false
+inline void _Init_b__0(int32_t  btnIdx) ;
 
-  constexpr ::System::Action* const& __cordl_internal_get_buttonAction() const;
+constexpr ::System::Action* const& __cordl_internal_get_buttonAction() const;
 
-  constexpr ::System::Action*& __cordl_internal_get_buttonAction();
+constexpr ::System::Action*& __cordl_internal_get_buttonAction() ;
 
-  constexpr void __cordl_internal_set_buttonAction(::System::Action* value);
+constexpr void __cordl_internal_set_buttonAction(::System::Action*  value) ;
 
-  /// @brief Method .ctor, addr 0x5871404, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x58721b0, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ConnectionErrorDialogViewController___c__DisplayClass0_0();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ConnectionErrorDialogViewController___c__DisplayClass0_0() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ConnectionErrorDialogViewController___c__DisplayClass0_0", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ConnectionErrorDialogViewController___c__DisplayClass0_0(ConnectionErrorDialogViewController___c__DisplayClass0_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ConnectionErrorDialogViewController___c__DisplayClass0_0", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ConnectionErrorDialogViewController___c__DisplayClass0_0(ConnectionErrorDialogViewController___c__DisplayClass0_0 const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ConnectionErrorDialogViewController___c__DisplayClass0_0", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ConnectionErrorDialogViewController___c__DisplayClass0_0(ConnectionErrorDialogViewController___c__DisplayClass0_0 && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6455 };
+// Ctor Parameters [CppParam { name: "", ty: "ConnectionErrorDialogViewController___c__DisplayClass0_0", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ConnectionErrorDialogViewController___c__DisplayClass0_0(ConnectionErrorDialogViewController___c__DisplayClass0_0 const& ) = delete;
 
-  /// @brief Field buttonAction, offset: 0x10, size: 0x8, def value: None
-  ::System::Action* ___buttonAction;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6456};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field buttonAction, offset: 0x10, size: 0x8, def value: None
+ ::System::Action*  ___buttonAction;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::ConnectionErrorDialogViewController___c__DisplayClass0_0, ___buttonAction) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ConnectionErrorDialogViewController___c__DisplayClass0_0, 0x18>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 // Dependencies SimpleDialogPromptViewController
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ConnectionErrorDialogViewController
 class CORDL_TYPE ConnectionErrorDialogViewController : public ::GlobalNamespace::SimpleDialogPromptViewController {
 public:
-  // Declarations
-  using __c__DisplayClass0_0 = ::GlobalNamespace::ConnectionErrorDialogViewController___c__DisplayClass0_0;
+// Declarations
+using __c__DisplayClass0_0 = ::GlobalNamespace::ConnectionErrorDialogViewController___c__DisplayClass0_0;
 
-  /// @brief Method Init, addr 0x5871230, size 0x1d4, virtual false, abstract: false, final false
-  inline void Init(::GlobalNamespace::DisconnectedReason reason, ::System::Action* buttonAction);
+/// @brief Method Init, addr 0x5871fdc, size 0x1d4, virtual false, abstract: false, final false
+inline void Init(::GlobalNamespace::DisconnectedReason  reason, ::System::Action*  buttonAction) ;
 
-  static inline ::GlobalNamespace::ConnectionErrorDialogViewController* New_ctor();
+static inline ::GlobalNamespace::ConnectionErrorDialogViewController* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x5871408, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x58721b4, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ConnectionErrorDialogViewController();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ConnectionErrorDialogViewController() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ConnectionErrorDialogViewController", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ConnectionErrorDialogViewController(ConnectionErrorDialogViewController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ConnectionErrorDialogViewController", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ConnectionErrorDialogViewController(ConnectionErrorDialogViewController const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ConnectionErrorDialogViewController", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ConnectionErrorDialogViewController(ConnectionErrorDialogViewController && ) = delete;
 
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6456 };
+// Ctor Parameters [CppParam { name: "", ty: "ConnectionErrorDialogViewController", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ConnectionErrorDialogViewController(ConnectionErrorDialogViewController const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief IL2CPP Metadata Type Index
+static constexpr uint32_t  __IL2CPP_TYPE_DEFINITION_INDEX{6457};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ConnectionErrorDialogViewController, 0xa0>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ConnectionErrorDialogViewController);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ConnectionErrorDialogViewController*, "", "ConnectionErrorDialogViewController");
 NEED_NO_BOX(::GlobalNamespace::ConnectionErrorDialogViewController___c__DisplayClass0_0);
